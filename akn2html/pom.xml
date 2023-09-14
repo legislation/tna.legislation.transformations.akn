@@ -1,0 +1,57 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mangiafico.tna</groupId>
+  <artifactId>akn2html</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <properties>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <maven.compiler.source>1.8</maven.compiler.source>
+  </properties>
+  <repositories>
+    <repository>
+      <id>clojars</id>
+      <name>Clojars repository</name>
+      <url>https://clojars.org/repo/</url>
+    </repository>
+  </repositories>
+  <dependencies>
+	<dependency> <!-- https://mvnrepository.com/artifact/net.sourceforge.saxon/saxon -->
+	    <groupId>net.sourceforge.saxon</groupId>
+	    <artifactId>saxon</artifactId>
+	    <version>9.1.0.8</version>
+	</dependency>
+	<dependency> <!-- https://mvnrepository.com/artifact/org.clojars.pjt/saxon9-s9api -->
+	    <groupId>org.clojars.pjt</groupId>
+	    <artifactId>saxon9-s9api</artifactId>
+	    <version>9.1.0.8</version>
+	</dependency>
+	<dependency>
+	    <groupId>com.amazonaws</groupId>
+	    <artifactId>aws-lambda-java-core</artifactId>
+	    <version>1.2.0</version>
+	</dependency>
+	<dependency>
+	    <groupId>com.amazonaws</groupId>
+	    <artifactId>aws-lambda-java-events</artifactId>
+	    <version>2.2.6</version>
+	</dependency>
+  </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-shade-plugin</artifactId>
+        <version>3.2.1</version>
+        <configuration />
+        <executions>
+          <execution>
+            <phase>package</phase>
+            <goals>
+              <goal>shade</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+</project>

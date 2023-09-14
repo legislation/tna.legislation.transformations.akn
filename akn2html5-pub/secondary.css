@@ -1,0 +1,665 @@
+﻿article.act.secondary .tabular > .num,
+article.act.secondary .tblock.table > .num {
+	display: block;
+	text-align: left;
+	font-weight: bold
+}
+article.act.secondary .tabular > .heading,
+article.act.secondary .tblock.table > .heading {
+	display: block;
+	text-align: center
+}
+article.act.secondary table {
+	width: 100%;
+	margin: 1em 0 0 0;
+	border-collapse: collapse;
+	font-size: smaller
+}
+article.act.secondary table.level-1 {
+	width: calc(100% - 2.5em);
+	margin-left: 2.5em
+}
+article.act.secondary table.level-2 {
+	width: calc(100% - 5em);
+	margin-left: 5em
+}
+article.act.secondary table.level-3 {
+	width: calc(100% - 7.5em);
+	margin-left: 7.5em
+}
+article.act.secondary table.level-4 {
+	width: calc(100% - 10em);
+	margin-left: 12.5em
+}
+article.act.secondary table.level-5 {
+	width: calc(100% + 12.5em);
+	margin-left: -12.5em
+}
+th,
+article.act.secondary td {
+	padding: 6pt
+}
+th,
+article.act.secondary thead td {
+	font-weight: normal;
+	font-style: italic
+}
+article.act.secondary td {
+	vertical-align: top
+}
+article.act.secondary th > *:first-child,
+article.act.secondary td > *:first-child {
+	margin-top: 0
+}
+article.act.secondary th > *:last-child,
+article.act.secondary td > *:last-child {
+	margin-bottom: 0
+}
+article.act.secondary .fnRef {
+	position: relative;
+	top: -0.5em;
+	font-size: 12pt
+}
+article.act.secondary .footnotes {
+	margin-top: 2em;
+	border-top: thin solid #000;
+	font-size: smaller
+}
+article.act.secondary .footnotes > .footnote > .marker {
+	display: block;
+	position: absolute
+}
+article.act.secondary .footnotes > .footnote > .marker:after {
+	content: "."
+}
+article.act.secondary .footnote > p {
+	margin-left: 2.5em
+}
+ins,
+article.act.secondary del {
+	text-decoration: none
+}
+article.act.secondary ins.first:before,
+article.act.secondary del.first:before {
+	content: "[";
+	font-weight: bold
+}
+article.act.secondary ins.last:after,
+article.act.secondary del.last:after {
+	content: "]";
+	font-weight: bold
+}
+article.act.secondary .noteRef.commentary {
+	position: relative;
+	top: -0.5em;
+	font-weight: bold;
+	font-size: smaller
+}
+article.act.secondary .noteRef.commentary.C,
+article.act.secondary .noteRef.commentary.I {
+	display: none
+}
+article.act.secondary .annotations {
+	margin: 1em;
+	border: thin solid gray;
+	padding: 1em;
+	font-size: smaller
+}
+article.act.secondary .annotations > div + div {
+	margin-top: 1em
+}
+article.act.secondary .annotations > div:first-child {
+	font-weight: bold
+}
+article.act.secondary .annotations > div > div {
+	margin-top: 1em
+}
+article.act.secondary .annotations > div > div:first-child {
+	border-top: thin dotted gray;
+	padding-top: 1em;
+	font-weight: bold
+}
+article.act.secondary .annotations > div > div > span.marker {
+	display: block;
+	position: absolute
+}
+article.act.secondary .annotations > div > div > span.marker + * {
+	text-indent: 2em
+}
+article.act.secondary body {
+	margin: 1cm 1in;
+	font-size: 16pt
+}
+article.act.secondary h1 {
+	margin: 1em 0 0 0
+}
+section,
+article.act.secondary .hcontainer {
+	position: relative;
+	margin-top: 1em
+}
+article.act.secondary h2,
+article.act.secondary h3,
+article.act.secondary h4,
+article.act.secondary h5,
+article.act.secondary h6 {
+	position: relative;
+	margin: 0;
+	font-weight: normal;
+	font-size: inherit
+}
+article.act.secondary .schedule,
+article.act.secondary .crossheading,
+article.act.secondary section.subheading,
+article.act.secondary .part,
+article.act.secondary .chapter {
+	margin-top: 2em
+}
+article.act.secondary .schedule > h2 > *,
+article.act.secondary .crossheading > h2 > *,
+article.act.secondary section.subheading > h2 > *,
+article.act.secondary .part > h2 > *,
+article.act.secondary .chapter > h2 > * {
+	display: block;
+	margin-top: .5em;
+	text-align: center
+}
+p,
+article.act.secondary .p {
+	margin-top: 1em;
+	margin-bottom: 0
+}
+article.act.secondary blockquote > ol,
+article.act.secondary blockquote > ul {
+	margin-left: 0
+}
+ol,
+article.act.secondary ul {
+	position: relative;
+	margin-left: 2em;
+	padding-left: 0;
+	list-style-type: none
+}
+article.act.secondary li {
+	margin-top: 1em;
+	margin-left: 2em
+}
+article.act.secondary li > .num {
+	display: inline-block;
+	position: absolute;
+	left: -0.5em
+}
+article.act.secondary li > ol,
+article.act.secondary li > ul {
+	margin-left: 0
+}
+article.act.secondary div.mod {
+	display: inline
+}
+article.act.secondary blockquote {
+	margin: 1em 0 0 2.5em
+}
+article.act.secondary q:before,
+article.act.secondary q:after {
+	content: ""
+}
+article.act.secondary .image.centre {
+	text-align: center
+}
+article.act.secondary .uppercase {
+	text-transform: uppercase
+}
+article.act.secondary a {
+	color: #2790c4
+}
+article.act.secondary a[href = ""],
+article.act.secondary a[href ^= "#"] {
+	color: inherit;
+	text-decoration: none
+}
+article.act.secondary a[href = ""]:hover,
+article.act.secondary a[href ^= "#"]:hover {
+	text-decoration: underline
+}
+article.act.secondary cite {
+	font-style: normal
+}
+article.act.secondary .schProv1,
+article.act.secondary .schedule > .paragraph,
+article.act.secondary .schedule > .part > .paragraph,
+article.act.secondary .context-schedule > .paragraph {
+	margin-top: 1em;
+	margin-left: 2.5em
+}
+article.act.secondary .schProv1 > h2 > .num,
+article.act.secondary .schedule > .paragraph > h2 > .num,
+article.act.secondary .context-schedule > .paragraph > h2 > .num {
+	display: block;
+	position: absolute;
+	margin-left: -2.5em
+}
+article.act.secondary .schProv1 > h2 > .heading:first-child,
+article.act.secondary .schedule > .paragraph > h2 > .heading:first-child,
+article.act.secondary .context-schedule > .paragraph > h2 > .heading:first-child {
+	display: block;
+	margin-left: -2.5em
+}
+article.act.secondary .schProv1 > h2 > .heading + .num,
+article.act.secondary .schedule > .paragraph > h2 > .heading + .num,
+article.act.secondary .context-schedule > .paragraph > h2 > .heading + .num {
+	margin-top: 1em
+}
+article.act.secondary .schedule .subparagraph,
+article.act.secondary .context-schedule .subparagraph,
+article.act.secondary .schProv2,
+article.act.secondary div.definition {
+	margin-top: 1em;
+	margin-left: 2.5em
+}
+article.act.secondary .schedule .subparagraph > h2,
+article.act.secondary .context-schedule .subparagraph > h2,
+article.act.secondary .schProv2 > h2,
+article.act.secondary div.definition > h2,
+article.act.secondary .schedule .subparagraph > h3,
+article.act.secondary .context-schedule .subparagraph > h3,
+article.act.secondary .schProv2 > h3,
+article.act.secondary div.definition > h3,
+article.act.secondary .schedule .subparagraph > h4,
+article.act.secondary .context-schedule .subparagraph > h4,
+article.act.secondary .schProv2 > h4,
+article.act.secondary div.definition > h4,
+article.act.secondary .schedule .subparagraph > h5,
+article.act.secondary .context-schedule .subparagraph > h5,
+article.act.secondary .schProv2 > h5,
+article.act.secondary div.definition > h5,
+article.act.secondary .schedule .subparagraph > h6,
+article.act.secondary .context-schedule .subparagraph > h6,
+article.act.secondary .schProv2 > h6,
+article.act.secondary div.definition > h6 {
+	position: absolute;
+	margin-left: -2.5em
+}
+article.act.secondary .crossheading > h2,
+article.act.secondary section.subheading > h2 {
+	font-style: italic
+}
+article.act.secondary .crossheading:first-of-type,
+article.act.secondary section.subheading:first-of-type {
+	margin-top: 1em
+}
+article.act.secondary .level,
+article.act.secondary .para1,
+article.act.secondary .para2,
+article.act.secondary .para3,
+article.act.secondary .para4 {
+	margin-top: 1em;
+	margin-left: 2.5em
+}
+article.act.secondary .level > h3,
+article.act.secondary .para1 > h3,
+article.act.secondary .para2 > h3,
+article.act.secondary .para3 > h3,
+article.act.secondary .para4 > h3 {
+	position: absolute;
+	margin-left: -2.5em
+}
+article.act.secondary .level > h4,
+article.act.secondary .para1 > h4,
+article.act.secondary .para2 > h4,
+article.act.secondary .para3 > h4,
+article.act.secondary .para4 > h4 {
+	position: absolute;
+	margin-left: -2.5em
+}
+article.act.secondary .level > h5,
+article.act.secondary .para1 > h5,
+article.act.secondary .para2 > h5,
+article.act.secondary .para3 > h5,
+article.act.secondary .para4 > h5 {
+	position: absolute;
+	margin-left: -2.5em
+}
+article.act.secondary .level > h6,
+article.act.secondary .para1 > h6,
+article.act.secondary .para2 > h6,
+article.act.secondary .para3 > h6,
+article.act.secondary .para4 > h6 {
+	position: absolute;
+	margin-left: -2.5em
+}
+article.act.secondary .P3 {
+	margin-top: 1em;
+	margin-left: 2.5em
+}
+article.act.secondary .P3 > .num {
+	position: absolute;
+	margin-left: -2.5em
+}
+article.act.secondary .definition > .para1 {
+	margin-left: 3.75em
+}
+article.act.secondary .step {
+	margin-left: 2.5em
+}
+article.act.secondary .step > h2,
+article.act.secondary .step > h3,
+article.act.secondary .step > h4 {
+	font-weight: bold;
+	font-style: italic
+}
+article.act.secondary .schedules {
+	margin-top: 4em
+}
+article.act.secondary .schedule > h2 .num {
+	font-size: larger;
+	text-transform: uppercase
+}
+article.act.secondary .referenceNote {
+	position: absolute;
+	top: -1em;
+	right: 0;
+	font-size: smaller
+}
+article.act.secondary .schedule .crossheading > h2 > * {
+	text-align: left
+}
+th,
+article.act.secondary thead td {
+	border-bottom: thin solid #000
+}
+th,
+article.act.secondary td {
+	border-left: thin solid #000
+}
+article.act.secondary th:first-child,
+article.act.secondary td:first-child {
+	border-left: none
+}
+article.act.secondary blockquote:not(.secondary) .section {
+	margin-top: 1.5em;
+	margin-left: 3.75em
+}
+article.act.secondary blockquote:not(.secondary) .section > h2 {
+	font-weight: bold
+}
+article.act.secondary blockquote:not(.secondary) .section > h2 > .num {
+	display: block;
+	position: absolute;
+	margin-left: -3.75em
+}
+article.act.secondary blockquote:not(.secondary) .subsection {
+	margin-left: 2.5em
+}
+article.act.secondary blockquote:not(.secondary) .subsection > h2 {
+	position: absolute;
+	margin-left: -2.5em
+}
+article.act.secondary body {
+	font-family: "Times New Roman", Times, serif
+}
+article.act.secondary .correctionRubric {
+	margin-top: 1em;
+	font-style: italic
+}
+article.act.secondary .proceduralRubric {
+	margin-top: 1em;
+	font-style: italic;
+}
+article.act.secondary .banner {
+	margin-top: 1em;
+	border-top: 2pt solid #000;
+	border-bottom: 2pt solid #000;
+	padding: 1ex;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: .5ch
+}
+article.act.secondary .preface > h1 {
+	text-align: center;
+	font-weight: normal;
+}
+article.act.secondary .preface > .number {
+	margin-top: 1em;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14pt
+}
+article.act.secondary .subject {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	text-align: center;
+	font-weight: normal;
+	font-size: 1.2em;
+	text-transform: uppercase;
+}
+article.act.secondary .subsubject
+{
+	margin-top: 1em;
+	text-align: center;
+	font-weight: normal;
+	text-transform: uppercase
+}
+article.act.secondary .subject > .subtitle {
+	margin-top: 1em;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase
+}
+article.act.secondary .approval {
+	margin-top: 1em;
+	text-align: center
+}
+article.act.secondary .laidInDraft,
+article.act.secondary .madeDate,
+article.act.secondary .laidDate,
+article.act.secondary .commenceDate {
+	position: relative;
+	margin: 1em 15%;
+	font-style: italic
+}
+article.act.secondary .laidInDraft > *:nth-child(2),
+article.act.secondary .madeDate > *:nth-child(2),
+article.act.secondary .laidDate > *:nth-child(2),
+article.act.secondary .commenceDate > *:nth-child(2) {
+	position: absolute;
+	right: 0
+}
+article.act.secondary .article > h2,
+article.act.secondary .regulation > h2,
+article.act.secondary .rule > h2 {
+	display: inline
+}
+article.act.secondary .article > h2 > .heading,
+article.act.secondary .regulation > h2 > .heading,
+article.act.secondary .rule > h2 > .heading {
+	display: block;
+	margin-top: 2em;
+	font-weight: bold;
+	margin-bottom: 1em
+}
+article.act.secondary .article > h2 > .num,
+article.act.secondary .regulation > h2 > .num,
+article.act.secondary .rule > h2 > .num {
+	padding-left: 1em;
+	font-weight: bold
+}
+article.act.secondary .article > .intro,
+article.act.secondary .article > .content,
+article.act.secondary .regulation > .intro,
+article.act.secondary .regulation > .content,
+article.act.secondary .rule > .intro,
+article.act.secondary .rule > .content {
+	display: inline
+}
+article.act.secondary .article > .intro > p:first-child,
+article.act.secondary .article > .intro .p:first-child,
+article.act.secondary .article > .content > p:first-child,
+article.act.secondary .article > .content .p:first-child,
+article.act.secondary .regulation > .intro > p:first-child,
+article.act.secondary .regulation > .intro .p:first-child,
+article.act.secondary .regulation > .content > p:first-child,
+article.act.secondary .regulation > .content .p:first-child,
+article.act.secondary .rule > .intro > p:first-child,
+article.act.secondary .rule > .intro .p:first-child,
+article.act.secondary .rule > .content > p:first-child,
+article.act.secondary .rule > .content .p:first-child {
+	display: inline
+}
+article.act.secondary .body .paragraph:not(.para1) > h2,
+article.act.secondary .body .SIParagraph > h2,
+article.act.secondary .article > section > h2,
+article.act.secondary .regulation > section > h2,
+article.act.secondary .rule > section > h2,
+article.act.secondary .prov2 > h2 {
+	display: inline
+}
+article.act.secondary .body .paragraph:not(.para1) > h2 > .num,
+article.act.secondary .body .SIParagraph > h2 > .num,
+article.act.secondary .article > section > h2 > .num,
+article.act.secondary .regulation > section > h2 > .num,
+article.act.secondary .rule > section > h2 > .num,
+article.act.secondary .prov2 > h2 > .num {
+	padding-left: 1em
+}
+article.act.secondary .body .paragraph:not(.para1) > .intro,
+article.act.secondary .body .paragraph:not(.para1) > .content,
+article.act.secondary .body .SIParagraph > .intro,
+article.act.secondary .body .SIParagraph > .content,
+article.act.secondary .article > section > .intro,
+article.act.secondary .article > section > .content,
+article.act.secondary .regulation > section > .intro,
+article.act.secondary .regulation > section > .content,
+article.act.secondary .rule > section > .intro,
+article.act.secondary .rule > section > .content,
+article.act.secondary .prov2 > .intro,
+article.act.secondary .prov2 > .content {
+	display: inline
+}
+article.act.secondary .body .paragraph:not(.para1) > .intro > p:first-child,
+article.act.secondary .body .paragraph:not(.para1) > .intro .p:first-child,
+article.act.secondary .body .paragraph:not(.para1) > .content > p:first-child,
+article.act.secondary .body .paragraph:not(.para1) > .content .p:first-child,
+article.act.secondary .body .SIParagraph > .intro > p:first-child,
+article.act.secondary .body .SIParagraph > .intro .p:first-child,
+article.act.secondary .body .SIParagraph > .content > p:first-child,
+article.act.secondary .body .SIParagraph > .content .p:first-child,
+article.act.secondary .article > section > .intro > p:first-child,
+article.act.secondary .article > section > .intro .p:first-child,
+article.act.secondary .article > section > .content > p:first-child,
+article.act.secondary .article > section > .content .p:first-child,
+article.act.secondary .regulation > section > .intro > p:first-child,
+article.act.secondary .regulation > section > .intro .p:first-child,
+article.act.secondary .regulation > section > .content > p:first-child,
+article.act.secondary .regulation > section > .content .p:first-child,
+article.act.secondary .rule > section > .intro > p:first-child,
+article.act.secondary .rule > section > .intro .p:first-child,
+article.act.secondary .rule > section > .content > p:first-child,
+article.act.secondary .rule > section > .content .p:first-child,
+article.act.secondary .prov2 > .intro > p:first-child,
+article.act.secondary .prov2 > .intro .p:first-child,
+article.act.secondary .prov2 > .content > p:first-child,
+article.act.secondary .prov2 > .content .p:first-child {
+	display: inline
+}
+article.act.secondary .article > h2 + section,
+article.act.secondary .regulation > h2 + section,
+article.act.secondary .rule > h2 + section,
+h2 + .prov2 {
+	display: inline
+}
+article.act.secondary .article > h2 + section > h2 > .num,
+article.act.secondary .regulation > h2 + section > h2 > .num,
+article.act.secondary .rule > h2 + section > h2 > .num,
+h2 + .prov2 > h2 > .num {
+	padding-left: 0 !important
+}
+article.act.secondary .article > h2 + section > h2 > .num::before,
+article.act.secondary .regulation > h2 + section > h2 > .num::before,
+article.act.secondary .rule > h2 + section > h2 > .num::before,
+h2 + .prov2 > h2 > .num::before {
+	content: "—"
+}
+article.act.secondary .body .paragraph:not(.para1) > .level,
+article.act.secondary .body .SIParagraph > .level,
+article.act.secondary .para1 {
+	margin-left: 5em
+}
+article.act.secondary blockquote > .level,
+article.act.secondary blockquote > .para1 {
+	margin-left: 2.5em
+}
+article.act.secondary blockquote > .para2 {
+	margin-left: 5em
+}
+article.act.secondary .signatures {
+	margin-top: 1em
+}
+article.act.secondary .signatureBlock {
+	position: relative;
+	margin-top: 1em
+}
+article.act.secondary .signatureBlock > .content > div {
+	text-align: right
+}
+article.act.secondary .signatureBlock > .content > .signature {
+	font-style: italic
+}
+article.act.secondary .signatureBlock > .content > .date {
+	position: absolute;
+	text-align: left
+}
+article.act.secondary .schProv1 > h2 > .num,
+article.act.secondary .schedule > .paragraph > h2 > .num,
+article.act.secondary .schedule > .part > .paragraph > h2 > .num,
+article.act.secondary blockquote[data-ukl-Context = schedule] > .paragraph > h2 > .num {
+	font-weight: bold
+}
+article.act.secondary .explanatoryNote,
+article.act.secondary .explanatoryNotes,
+article.act.secondary .commencementHistory,
+article.act.secondary .earlierOrders {
+	margin-top: 4em
+}
+article.act.secondary .explanatoryNote > .heading,
+article.act.secondary .explanatoryNotes > .heading,
+article.act.secondary .commencementHistory > .heading,
+article.act.secondary .earlierOrders > .heading {
+	margin-top: 1em;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase
+}
+article.act.secondary .explanatoryNote .subheading,
+article.act.secondary .explanatoryNotes .subheading,
+article.act.secondary .commencementHistory .subheading,
+article.act.secondary .earlierOrders .subheading {
+	margin-top: .5em;
+	text-align: center;
+	font-style: italic
+}
+article.act.secondary .blockContainer.para1,
+article.act.secondary .tblock.para1 {
+	margin-left: 5em
+}
+article.act.secondary .blockContainer.para1 > .num,
+article.act.secondary .tblock.para1 > .num {
+	position: absolute;
+	margin-left: -2.5em
+}
+article.act.secondary .blockContainer.para2,
+article.act.secondary .blockContainer.para3,
+article.act.secondary .blockContainer.para4,
+article.act.secondary .tblock.para2,
+article.act.secondary .tblock.para3,
+article.act.secondary .tblock.para4 {
+	margin-left: 2.5em
+}
+article.act.secondary .blockContainer.para2 > .num,
+article.act.secondary .blockContainer.para3 > .num,
+article.act.secondary .blockContainer.para4 > .num,
+article.act.secondary .tblock.para2 > .num,
+article.act.secondary .tblock.para3 > .num,
+article.act.secondary .tblock.para4 > .num {
+	position: absolute;
+	margin-left: -2.5em
+} /*# sourceMappingURL=secondary.css.map */

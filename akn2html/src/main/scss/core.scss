@@ -1,0 +1,130 @@
+
+@import 'globals.scss';
+@import 'tables.scss';
+@import 'signatures.scss';
+@import 'footnotes.scss';
+@import 'annotations.scss';
+@import 'changes.scss';
+
+body {
+	margin: 1cm 1in;
+	font-size: $core-font-size
+}
+
+h1 {
+	margin: $spacing 0 0 0;
+// 	font-weight: normal;
+// 	font-size: inherit
+}
+
+section, .hcontainer {
+	position: relative;
+	margin-top: $spacing
+}
+h2, h3, h4, h5, h6 {
+	position: relative;	// for commentary refs
+	margin: 0;
+	font-weight: normal;
+	font-size: inherit
+}
+
+%big-level {
+	margin-top: 2 * $spacing;
+	> h2 > * {
+		display: block;
+		margin-top: 0.5 * $spacing;
+		text-align: center
+	}
+}
+
+p, .p {
+	margin-top: $spacing;
+	margin-bottom: 0
+}
+
+// lists
+
+$list-indent: 2em;
+
+blockquote > ol, blockquote > ul {
+	margin-left: 0;
+}
+
+ol, ul {
+	position: relative;
+	margin-left: $list-indent;
+	padding-left: 0;
+	list-style-type: none
+}
+li {
+	margin-top: $spacing;
+	margin-left: $list-indent
+}
+li > .num {
+	display: inline-block;
+	position: absolute;
+	left: -0.25 * $list-indent
+}
+li > .num + p {
+	// display: inline
+}
+li > ol, li > ul {
+	margin-left: 0
+}
+
+
+// quotes
+
+div.mod {
+	display: inline
+}
+
+blockquote {
+	margin: $spacing 0 0 $indent
+}
+
+q:before, q:after { content: '' }
+
+
+/* images */
+
+.image.centre {
+	text-align: center
+}
+img {
+	
+	// width: calc( 2 * attr(width px));
+	// height: calc( 2 * attr(height px));
+}
+
+
+// inline
+
+.uppercase { text-transform: uppercase }
+
+.strike {  }
+
+.expanded {  }
+
+// .noteRef {
+//     display: inline-block;
+//     position: absolute;
+//     top: -.5em;
+//     left: -$indent;
+//     width: $indent;
+//     text-align: right;
+// 	display: none
+// }
+
+a { color: #2790C4 }
+a[href=''], a[href^='#'] {
+	color: inherit;
+	text-decoration: none;
+	&:hover {
+		text-decoration: underline
+    }
+}
+
+cite {
+	font-style: normal
+}

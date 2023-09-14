@@ -1,0 +1,51 @@
+
+.fnRef {
+	position: relative;
+	top: -0.5em;
+	font-size: .75 * $core-font-size
+}
+
+.footnotes {
+	margin-top: $spacing * 2;
+	border-top: thin solid black;
+	font-size: smaller
+}
+// .footnotes > .footnote {
+// }
+// .footnotes > .footnote > .marker {
+// 	display: block;
+//     position: absolute;
+// 	// font-size: smaller;
+// 	&:after {
+// 		content: '.'
+// 	}
+// }
+// .footnotes > .footnote > .marker + p {
+// 	text-indent: 3ch
+// }
+
+.footnotes > .footnote > .marker {
+	display: block;
+    position: absolute;
+	// font-size: smaller;
+	&:after {
+		content: '.'
+	}
+}
+.footnote > p {
+	margin-left: $indent
+}
+
+
+/* marginal notes */
+.marginalNote {	// authorialNote[data-placement='side']
+	position: absolute;
+	// left: calc(-3.75em - 0.5in);
+	right: -0.875in;
+	max-width: 1.25in;
+	text-align: right;
+	font-size: smaller
+}
+.marginalNote > p:first-child {
+	margin-top: 0
+}
