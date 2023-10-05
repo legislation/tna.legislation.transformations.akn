@@ -1,11 +1,16 @@
-# XSLTs for Conversion of CLML data to AKN
+# XSLTs for Conversion of AKN data to CLML
+
+AKN (Akoma Ntoso) is an international XML standard for parliamentary, legislative and judiciary documents 
 
 CLML (Crown Legislation Markup Language) is the existing UK XML standard for legislation and is used to store, publish and deliver UK legislation.
-The XSLTs in this folder are designed to convert data from CLML format to AKN format. See https://bitbucket.org/tsoltd/tna.legislation.transformations.akn/src/main/ for links to further information about CLML and AKN.
+
+The XSLTs in this folder are designed to convert data from AKN format to CLML format.
+
+See https://bitbucket.org/tsoltd/tna.legislation.transformations.akn/src/main/ for links to further information about CLML and AKN.
 
 ## Transformation Stages
 
-There are currently three transformations (run as a pipeline) that are used to create AKN data from CLML
+There are currently three transformations (run as a pipeline) that are used to create CLML data from AKN
 
 
 1. [ldapp-fix.xsl](https://bitbucket.org/tsoltd/tna.legislation.transformations.akn/src/main/akn2clml/transform/ldapp-fix.xsl) - a first pass used to filter out unwanted or empty markup in the AKN source 
