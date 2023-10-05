@@ -29,9 +29,13 @@ CLML XML is available from the [UK legislation website](https://www.legislation.
 The schema itself is available at [https://www.legislation.gov.uk/schema/legislation.xsd](https://www.legislation.gov.uk/schema/legislation.xsd) with a user guide and extensive interactive documentation and diagrams at [https://legislation.github.io/clml-schema/](https://legislation.github.io/clml-schema/).
 
 ## About the XSLTs
-The XSLTs contained in the repository have been developed using XSLT 2.
-Under construction:
+The XSLTs contained in the repository have been developed using XSLT2 and have been arranged in the following subfolders with a different folder for each process.
 
-- Links to each XSLT folder with brief description
-- Saxon version compatibility statement for each XSLT
+These XSLTs and folders are under construction.
+
+- [akn2clml](https://bitbucket.org/tsoltd/tna.legislation.transformations.akn/src/main/akn2clml/) to convert AKN XML to CLML XML
+- [clml2akn](https://bitbucket.org/tsoltd/tna.legislation.transformations.akn/src/main/clml2akn/) to convert CLML XML to AKN XML
+- [akn2html](https://bitbucket.org/tsoltd/tna.legislation.transformations.akn/src/main/akn2html/) to convert AKN XML to HTML5 (still needs to be populated with correct content and structure)
+
+Other folders contain outdated versions of the code and will be removed following succesful merging.
 
