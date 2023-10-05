@@ -1,6 +1,6 @@
 # XSLTs for Conversion of AKN data to CLML
 
-AKN (Akoma Ntoso) is an international XML standard for parliamentary, legislative and judiciary documents 
+AKN (Akoma Ntoso) is an international XML standard for parliamentary, legislative and judiciary documents.
 
 CLML (Crown Legislation Markup Language) is the existing UK XML standard for legislation and is used to store, publish and deliver UK legislation.
 
