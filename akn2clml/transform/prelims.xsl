@@ -358,23 +358,11 @@
 
 <xsl:template match="formula[@name=('enactingText','EnactingText','enactingWords')]">
 	<xsl:param name="context" as="xs:string*" tunnel="yes" />
-	<!-- MR 20230714: use apply-templates in place of EnactingText element as may need to be IntroductoryText -->
-	<xsl:apply-templates>
-		<xsl:with-param name="context" select="('EnactingText', $context)" tunnel="yes" />
-	</xsl:apply-templates>
-</xsl:template>
-	
-<!-- MR 20230714: elements need to be nested in output structure so are called in childElements mode 
-	when creating variable of nodes to output inside a default template transform -->
-<xsl:template match="tblock[ancestor::preamble]">
-	<xsl:message>Suppress tblock as these are output as children in IntroductoryText (akn2clml.xsl)</xsl:message>
-</xsl:template>
-
-<xsl:template match="tblock[ancestor::preamble]" mode="childElements">
-	<xsl:param name="name" as="xs:string" />
-	<xsl:call-template name="create-element-and-wrap-as-necessary">
-		<xsl:with-param name="name" select="$name"/>
-	</xsl:call-template>
+	<EnactingText>
+		<xsl:apply-templates>
+			<xsl:with-param name="context" select="('EnactingText', $context)" tunnel="yes" />
+		</xsl:apply-templates>
+	</EnactingText>
 </xsl:template>
 
 </xsl:transform>

@@ -147,35 +147,6 @@
 				</xsl:otherwise>
 			</xsl:choose>
 		</xsl:when>
-		<!-- MR 20230714: two additional options for EnactingText scenarios for preamble content -->
-		<xsl:when test="$context[1] = 'EnactingText' and following-sibling::*/local-name() = 'tblock'">
-			<IntroductoryText>
-				<xsl:variable name="newContext" as="xs:string*">
-					<xsl:text>IntroductoryText</xsl:text>
-					<xsl:for-each select="$context">
-						<xsl:if test="not(. = 'EnactingText')"><xsl:value-of select="."/></xsl:if>
-					</xsl:for-each>
-				</xsl:variable>
-				<xsl:variable name="childElements" as="node()*">
-					<xsl:apply-templates select="following-sibling::tblock" mode="childElements">
-						<xsl:with-param name="name" select="'P3'" />
-						<xsl:with-param name="context" select="('tblock', $context)" tunnel="yes" />
-					</xsl:apply-templates>
-				</xsl:variable>
-				<xsl:call-template name="create-element-and-wrap-as-necessary">
-					<xsl:with-param name="name" select="'Text'" />
-					<xsl:with-param name="context" select="$newContext" tunnel="yes" />
-					<xsl:with-param name="childElements" as="node()*" select="$childElements" tunnel="yes"/>
-				</xsl:call-template>
-			</IntroductoryText>
-		</xsl:when>
-		<xsl:when test="$context[1] = 'EnactingText' and not(following-sibling::*/local-name() != 'p')">
-			<EnactingText>
-				<xsl:call-template name="create-element-and-wrap-as-necessary">
-					<xsl:with-param name="name" select="'Text'" />
-				</xsl:call-template>
-			</EnactingText>
-		</xsl:when>
 		<xsl:when test="not(node())">
 			<xsl:message>
 				<xsl:text>Suppress p element that contains no nodes</xsl:text>

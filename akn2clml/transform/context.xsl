@@ -189,11 +189,9 @@
 	</xsl:apply-templates>
 </xsl:template>
 
-<!-- MR 20230714: add childElements param to output nested children when required -->
 <xsl:template name="create-element-and-wrap-as-necessary">
 	<xsl:param name="name" as="xs:string" />
 	<xsl:param name="context" as="xs:string*" tunnel="yes" />
-	<xsl:param name="childElements" as="node()*" tunnel="yes"/>
 	<xsl:variable name="wrapper" as="xs:string?" select="local:get-wrapper($name, $context)" />
 	<xsl:variable name="clml" as="element()">
 		<xsl:element name="{ $name }">
@@ -206,7 +204,6 @@
 		<xsl:when test="exists($wrapper)">
 			<xsl:element name="{ $wrapper }">
 				<xsl:copy-of select="$clml" />
-				<xsl:copy-of select="$childElements"/>
 			</xsl:element>
 		</xsl:when>
 		<xsl:otherwise>
