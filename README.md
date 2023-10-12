@@ -35,7 +35,7 @@ These XSLTs and folders are under construction.
 
 - [akn2clml](https://bitbucket.org/tsoltd/tna.legislation.transformations.akn/src/main/akn2clml/) to convert AKN XML to CLML XML
 - [clml2akn](https://bitbucket.org/tsoltd/tna.legislation.transformations.akn/src/main/clml2akn/) to convert CLML XML to AKN XML
-- [akn2html](https://bitbucket.org/tsoltd/tna.legislation.transformations.akn/src/main/akn2html/) to convert AKN XML to HTML5 (still needs to be populated with correct content and structure)
+- [akn2html](https://bitbucket.org/tsoltd/tna.legislation.transformations.akn/src/main/akn2html/) to convert AKN XML to HTML5 (inititally this is the HTML conversion used by the publishing system but will ultimately contaon all HTML conversion code to be used by the Legislation website and in Lawmaker)
 
 Other folders contain outdated versions of the code and will be removed following succesful merging.
 
