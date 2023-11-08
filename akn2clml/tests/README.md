@@ -17,6 +17,7 @@ The XSLTs used on the data in the repository Oxygen Project Transform Scenarios 
 
 - [akn2clml](https://bitbucket.org/tsoltd/tna.legislation.transformations.akn/akn2clml/transform) to convert AKN XML to CLML XML
 The three specific XSL files being tested in order are:
+
 1. ldapp-fix.xsl
 2. akn2clml.xsl
 3. add-data.xsl
@@ -27,6 +28,7 @@ All test data included is available purely for testing purposes and should not b
 The test data is in two folders, Fail and Pass inside the Data folder
 
 Tests can be run in turn by right-clicking on the Data directory and selecting steps:
+
 - Transform
 - Configure Transform Scenario(s)
 - Under Project Scenario select the step required
