@@ -36,6 +36,7 @@ Tests can be run in turn by right-clicking on the Data directory and selecting s
 - Apply associated button
 
 Steps run in turn on the appropriate directory are:
+
 1. AKN2CLML-step-1-ldapp-fix on Pass
 2. AKN2CLML-step-2-akn2clml on A2C-1-ldapp-fix
 3. AKN2CLML-step-3-add-data on A2C-1-akn2clml
@@ -46,6 +47,7 @@ The outputs can then be compared for each stage against the original base versio
 The data created can be validated against the CLML schema with an Oxygen Project Validation Scenario. This assumes the tna.legislation.schema.clml repository sits at the same level as the tna.legislation.transformations.akn one.
 
 Right click content to be validated and select steps:
+
 - Validate
 - Configure Validation Scenario(s)
 - AKN2CLML-data-validation
