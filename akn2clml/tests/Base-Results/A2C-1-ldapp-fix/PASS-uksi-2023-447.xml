@@ -1,0 +1,1473 @@
+<?xml version="1.0" encoding="UTF-8"?><akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../schemas/akomantoso30.xsd"><?DMS-Component componentId="330a3a2e-7a8b-4218-b2c8-cb937bb46942" seriesId="fee3ce93-0fa8-4098-bac3-9fd03a1aea7a" versionNumber="1"?>
+	
+	<act contains="originalVersion" name="uksi">
+		<meta><?DMS-Component componentId="3edec327-23dc-4f70-928d-fe51726bc167" seriesId="ab683135-33de-4dee-bca8-3ccb51f34b64" versionNumber="0"?>
+			
+			<identification source="#ldapp">
+				<FRBRWork>
+					<FRBRthis value="#varWork"/>
+					<FRBRuri value="#varWorkUri"/>
+					<FRBRalias name="ttflConfigHistory" value="#varCHOiid"/>
+					<FRBRdate date="9999-01-01" name="uksi"/>
+					<FRBRauthor href="#varAuthor"/>
+					<FRBRcountry value="GB-SCT"/>
+					<FRBRsubtype value="#varDocSubType"/>
+					<FRBRnumber value="#varProjectId"/>
+					<FRBRname value="#varSITitle"/>
+					<FRBRprescriptive value="true"/>
+					<FRBRauthoritative value="false"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="#varExpression"/>
+					<FRBRuri value="#varExpressionUri"/>
+					<FRBRalias name="ttflVersionDescription" value="#varVDOiid"/>
+					<FRBRdate date="9999-01-01" name="draft"/>
+					<FRBRauthor href="#varAuthor"/>
+					<FRBRversionNumber value=""/>
+					<FRBRauthoritative value="false"/>
+					<FRBRmasterExpression href="" showAs=""/>
+					<FRBRlanguage language="eng"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="#varManifestation"/>
+					<FRBRuri value="#varManifestationUri"/>
+					<FRBRdate date="9999-01-01" name="akn_xml"/>
+					<FRBRauthor href="#varAuthor"/>
+					<FRBRformat value="application/akn+xml"/>
+				</FRBRManifestation>
+			</identification>
+			<references source="#author">
+				<TLCConcept GUID="_558f2870-8546-4d09-9831-05e831f7a710" eId="varDocSubType" href="#varOntologies" showAs="Order"/>
+				<TLCConcept GUID="_f1c81f50-9483-4dcf-81e5-d4f294e2d2f8" eId="varSITitle" href="#varOntologies" showAs="The Middlesbrough Development Corporation (Functions) Order 2023"/>
+				<TLCProcess GUID="_643c068b-513b-4f6f-a216-0f4c05e39fa4" eId="varProcedureType" href="#varOntologies" showAs="Made Negative"/>
+				<TLCProcess GUID="_9bad75c4-0d22-4d75-9c9f-5293ee9398e8" eId="varStageVersion" href="#varOntologies" showAs="1"/>
+				<TLCProcess GUID="_1ccb40de-fe2a-4f1f-b35b-2d297fe437f3" eId="varProjectId" href="#varOntologies" showAs="SI000103"/>
+				<TLCProcess GUID="_86dda7f4-f236-40f8-856d-a4d1aaea41bb" eId="varWork" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_9a5c572c-7fb4-48e6-8074-47841fdbb7a0" eId="varWorkUri" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_2b9eefa3-de7c-4d88-8626-7c8e25b86498" eId="varCHOiid" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_71608411-6616-4499-a039-a5c3f6adbebe" eId="varExpression" href="#varOntologies" showAs="a5db48e8-10a3-4e49-b7f7-828f6516c8d5"/>
+				<TLCProcess GUID="_d205db1e-c495-4f6f-82e3-d892e5ed83bb" eId="varExpressionUri" href="#varOntologies" showAs="dma:///45e6b900-8929-11d4-b772-0050da06bfb4/80742cea-0ebb-4cf6-9759-1e52358d9b5b/;guid=a5db48e8-10a3-4e49-b7f7-828f6516c8d5;class=Version%20Description"/>
+				<TLCProcess GUID="_72c76bec-702e-4b05-aab4-5ed4d16488c7" eId="varVDOiid" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_c70c2099-e74b-45c5-a175-76398088b7f3" eId="varManifestation" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_9ad21aa2-4be5-4de1-af7f-102d1fa72dcf" eId="varManifestationUri" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_5b5b90f7-2a37-433e-8123-25105ed4ea7c" eId="varSIYear" href="#varOntologies" showAs="2023"/>
+				<TLCConcept GUID="_891d3a7d-6dec-4fa6-b206-9b8c309d6ff2" eId="varSINoComp" href="#varOntologies" showAs="447"/>
+				<TLCConcept GUID="_a5fad2bb-6801-4923-ab41-83bbb63291b3" eId="varSINo" href="#varOntologies" showAs="#varSIYear No. #varSINoComp #varSISubsidiaryNos"/>
+				<TLCConcept GUID="_19fcb553-259e-4cf3-82e0-ba4952768ac1" eId="varSISubsidiaryNos" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_5dac1241-63ae-4c14-b154-df3781674f41" eId="varISBN" href="#varOntologies" showAs=""/>
+				<TLCPerson GUID="_6d330723-e625-4557-a88d-d30cd742cd71" eId="varMinistryAgency" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_a27022da-2a74-4c3f-8267-7bf0d3a36124" eId="varDocType" href="#varOntologies" showAs="UKSI"/>
+				<TLCProcess GUID="_e6b0c4ba-9b81-4165-a3a1-3d614cee6fc7" eId="varSystem" href="#varOntologies" showAs="LDAPP"/>
+				<TLCOrganization GUID="_10ea10d1-fbe0-4c8b-843b-9aea2ccb6539" eId="varAuthor" href="#varOntologies" showAs="UK Government"/>
+				<TLCLocation GUID="_65aca8f8-2fa8-4b63-9ae8-9a844e184a6c" eId="varJurisdiction" href="#varOntologies" showAs="United Kingdom"/>
+				<TLCConcept GUID="_369e3d2f-4736-43af-925b-65887ef76d07" eId="varOntologies" href="https://www.legislation.gov.uk/ontologies/UK-AKN" showAs="https://www.legislation.gov.uk/ontologies/UK-AKN"/>
+				<TLCConcept GUID="_ab4e2aeb-26fb-4f91-ba62-4764cf562115" eId="varLaidDate" href="#varOntologies" showAs="2023-04-21T00:00:00.000"/>
+				<TLCConcept GUID="_59be5f40-7050-4d72-93b3-1125e1ec188b" eId="varMadeDate" href="#varOntologies" showAs="2023-04-19T00:00:00.000"/>
+			</references>
+		</meta>
+		<preface GUID="_83773bf4-cecc-4745-b545-f5c31fdc9a8e" eId="fnt"><?DMS-Component componentId="e3978767-6f63-418e-997b-d6e2f3904e74" seriesId="6b91ce21-9c36-4642-9674-e710e73015fd" versionNumber="0"?>
+			
+			<block GUID="_b0d68df4-21a0-40e1-ac3c-df2e661c5ffa" eId="fnt__banner" name="banner">STATUTORY INSTRUMENTS</block>
+			<block GUID="_0dd80a94-7634-4e57-ad0e-a65fcc7f8187" eId="fnt__no" name="number">
+				<docNumber GUID="_367f9ad7-2ad4-4e47-9e63-4f487bb06c0f" eId="fnt__no__dno">
+					<ref class="placeholder" href="#varSINo"/>
+				</docNumber>
+			</block>
+			<container name="subjects">
+				<container GUID="_08ee486a-159f-41a1-a8e2-58e8a5d218e3" eId="fnt__subject" name="subject">
+					<block name="subject"><concept class="title" refersTo="">URBAN DEVELOPMENT</concept><concept class="title" refersTo="">, ENGLAND</concept></block>
+				</container>
+			</container>
+			<block GUID="_46a56f61-7678-4238-8bf7-11cf28b1b512" eId="fnt__st" name="title">
+				<docTitle GUID="_80039deb-7bf7-4ecd-a5f4-76f697b6f84b" eId="fnt__st__dtitle">
+					<ref class="placeholder" href="#varSITitle"/>
+				</docTitle>
+			</block>
+			<container GUID="_ed998635-0fac-4c31-ba5b-8d17959b322f" eId="fnt__dates" name="dates">
+				<block GUID="_bd212da9-0a8b-449d-8e00-89c423bda389" eId="fnt__dates__madeDate" name="madeDate"><span>Made</span><docDate GUID="_7cc622d2-a0f4-4257-8932-ea97da19504d" date="2023-04-19T00:00:00.000" eId="fnt__dates__madeDate__ddate"><ref class="placeholder" href="#varMadeDate" ukl:dateFormat="d'th' MMMM yyyy">19th April 2023</ref></docDate></block>
+				<block GUID="_1ae647d1-fbca-43b4-be92-60fb41b8783b" eId="fnt__dates__laidDate" name="laidDate"><span>Laid before Parliament</span><docDate GUID="_960e939f-b3c2-4dd8-b032-64e232227a42" date="2023-04-21T00:00:00.000" eId="fnt__dates__laidDate__ddate"><ref class="placeholder" href="#varLaidDate" ukl:dateFormat="d'th' MMMM yyyy">21st April 2023</ref></docDate></block>
+				<block GUID="_951aefe1-cb64-4e79-b0d7-9b47685a3ea2" eId="fnt__dates__commenceDateDescription" name="commenceDate"><span>Coming into force in accordance with article 1(2) and (3)</span></block>
+			</container>
+		</preface>
+		<preamble GUID="_c9093d8a-ebf2-413a-8f34-ae447cc9a006" eId="preamble"><?DMS-Component componentId="8e82323f-aaf2-4378-9d07-318f7013e3f9" seriesId="942fa724-a362-4876-ae8e-4ecbad984cf5" versionNumber="0"?>
+			
+			<formula GUID="_5acb14c0-0577-41cc-a179-d03fd3386c62" eId="preamble__enactingWords" name="enactingText">
+				<p>The Secretary of State for Levelling Up, Housing and Communities makes this <ref class="placeholder" href="#varDocSubType"/> in exercise of the powers conferred by sections 48A(5) and (6) and 143(2) of the Local Government Finance Act 1988<authorialNote GUID="_74bc3b44-a94f-462c-972b-44868c95e383" class="footnote" eId="fnote_3" marker="3">
+						<p>1988 c. 41. Section 48A was inserted by paragraph 24 of Schedule 22 to the Localism Act 2011 (c. 20).</p>
+					</authorialNote> and sections 198(2)(c) and 235(2) of the Localism Act 2011<authorialNote GUID="_3ac49685-53e8-4c5b-a66c-fe5c159387c5" class="footnote" eId="fnote_1" marker="1">
+						<p>2011 c. 20.</p>
+					</authorialNote> (“the 2011 Act”) as modified by article 4 of, and the Schedule to, the Tees Valley Combined Authority (Functions) Order 2017<authorialNote GUID="_de1be4cc-5be6-4364-ba0f-92052ad71a85" class="footnote" eId="fnote_2" marker="2">
+						<p>S.I. 2017/250.</p>
+					</authorialNote> (“the 2017 Order”).</p>
+				<p>The Mayor of Tees Valley has notified the Secretary of State of the functions in relation to town and country planning and in relation to discretionary relief from non-domestic rates which he has decided the Middlesbrough Development Corporation is to have, pursuant to sections 202(8)(b) and 214(5)(b) of the 2011 Act<authorialNote GUID="_83b390e6-f30a-496a-8b0f-2c64af361f19" class="footnote" eId="fnote_49" marker="49">
+						<p>“Combined Authority” and “Corporation” have the meaning given in section 196 of the Localism Act 2011, as modified by paragraph 1(2)(b) of the Schedule to S.I. 2017/250.</p>
+					</authorialNote> as modified by article 4 of, and the Schedule to, the 2017 Order.</p>
+			</formula>
+		</preamble>
+		<body><?DMS-Component componentId="d7a3230c-e5f4-43db-9c62-635035bf4d3d" seriesId="1bd21133-79d6-4808-9706-89203b302d22" versionNumber="1"?>
+			
+			<part GUID="_c6195a2c-7dec-4318-beba-6cd6739221af" class="group2" eId="pt_1"><?DMS-Component componentId="e9b7b86c-fcaa-4969-9a15-e5827fb6c8be" seriesId="e2aa2d7f-2050-4b05-bb9a-8c8c35a94eb5" versionNumber="1"?>
+				
+				<num>Part 1</num>
+				<heading GUID="_c8c7c10f-bc7d-4793-b064-3e9ce09e5aa8" eId="pt_1__hdg">General</heading>
+				<article GUID="_2d3e9893-5736-4653-a966-4de32e82938e" class="prov1" eId="art_1"><?DMS-Component componentId="3026bd05-0ca2-4b6a-864b-1f26135ac814" seriesId="a8ab6979-f888-410b-84f1-01fa4fa8827a" versionNumber="1"?>
+					
+					<heading GUID="_7759c114-af9f-4de1-b6f9-4ecf7bc210d5" eId="art_1__hdg">Citation and commencement</heading>
+					<num>1.</num>
+					<paragraph GUID="_95c96c8a-5d75-4e14-9cb6-0de9426bdd57" class="prov2" eId="art_1__para_1">
+						<num>(1)</num>
+						<content>
+							<p>This Order may be cited as the Middlesbrough Development Corporation (Functions) Order 2023.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_6dd1bad7-5a4a-431e-92ff-e63a20f7000e" class="prov2" eId="art_1__para_2">
+						<num>(2)</num>
+						<content>
+							<p>Parts 1, 3 and 4 of this Order come into force on 12th May 2023.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_a9496e88-3084-4841-9d1b-efe418d7a48c" class="prov2" eId="art_1__para_3">
+						<num>(3)</num>
+						<content>
+							<p>Part 2 of this Order comes into force on 1st June 2023.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article GUID="_26057b3c-7160-44e3-b0d6-cbb109051789" class="prov1" eId="art_2"><?DMS-Component componentId="920d027c-f629-476c-974e-5681a44fde11" seriesId="4d5e67e1-042f-41cb-a3ec-4d0f87df9d93" versionNumber="1"?>
+					
+					<heading GUID="_01eff4bb-2d13-4fdf-8ee4-6e8f306fcf54" eId="art_2__hdg">Interpretation</heading>
+					<num>2.</num>
+					<intro GUID="_63272f87-4cdd-4788-974b-ddcb261af592" eId="art_2__intro">
+						<p>In this Order—</p>
+					</intro>
+					<hcontainer GUID="_3dd21350-0e86-4e64-930e-bbad099f6f70" class="definition" eId="art_2__def_the1980Act_" name="definition">
+						<content>
+							<p><def GUID="_d3d80953-d651-49a2-bd60-e66b16e07733" eId="art_2__def_the1980Act" ukl:endQuote="”" ukl:startQuote="“">the 1980 Act</def> means the Local Government, Planning and Land Act 1980<authorialNote GUID="_b6a5185b-5d93-42a7-95a2-6c839bf86c0a" class="footnote" eId="fnote_4" marker="4">
+									<p>1980 c. 65.</p>
+								</authorialNote>;</p>
+						</content>
+					</hcontainer>
+					<hcontainer GUID="_080c6d87-42d7-4523-95e6-8d72b3b8f359" class="definition" eId="art_2__def_the1988Act_" name="definition">
+						<content>
+							<p><def GUID="_00156751-a97c-4846-a668-d40bce050a4b" eId="art_2__def_the1988Act" ukl:endQuote="”" ukl:startQuote="“">the 1988 Act</def> means the Local Government Finance Act 1988;</p>
+						</content>
+					</hcontainer>
+					<hcontainer GUID="_1fe73a0f-47d9-4af5-bf0c-1f5de35de26c" class="definition" eId="art_2__def_the1990Act_" name="definition">
+						<content>
+							<p><def GUID="_8ab2e9f5-0f2a-4464-922a-1a57686c6375" eId="art_2__def_the1990Act" ukl:endQuote="”" ukl:startQuote="“">the 1990 Act</def> means the Town and Country Planning Act 1990<authorialNote GUID="_c4232f9d-2ff5-4c89-86d0-d20d2fb8bb96" class="footnote" eId="fnote_6" marker="6">
+									<p>1990 c. 8.</p>
+								</authorialNote>;</p>
+						</content>
+					</hcontainer>
+					<hcontainer GUID="_ad3e1001-5fba-41d8-a9d2-3462f1f125a3" class="definition" eId="art_2__def_certificationdate_" name="definition">
+						<content>
+							<p><def GUID="_95c43c25-a1d9-4e49-8100-83863819d5b5" eId="art_2__def_certificationdate" ukl:endQuote="”" ukl:startQuote="“">certification date</def> means the date on which the certified non-domestic rating income for the relevant year is certified under regulation 9 of the Rates Retention Regulations<authorialNote GUID="_676a8b2e-c1d3-439e-95a7-14758c4f0cbc" class="footnote" eId="fnote_8" marker="8">
+									<p>S.I. 2013/452; relevant amending instruments are S.I. 2015/628, 2016/1268,  2017/1321, 2020/449, 2021/262, 404, 2022/784.</p>
+								</authorialNote>;</p>
+						</content>
+					</hcontainer>
+					<hcontainer GUID="_ae58ba79-7f4f-406e-81f8-c1835c9db514" class="definition" eId="art_2__def_certifiednon-domesticratingincome_" name="definition">
+						<content>
+							<p><def GUID="_5d2c6391-40f7-49ad-93e4-e2cabdfb1a0a" eId="art_2__def_certifiednon-domesticratingincome" ukl:endQuote="”" ukl:startQuote="“">certified non-domestic rating income</def> has the same meaning as in regulation 9(4) of the Rates Retention Regulations;</p>
+						</content>
+					</hcontainer>
+					<hcontainer GUID="_fb1cb217-3656-4b3e-9431-14344688e220" class="definition" eId="art_2__def_theCorporation_" name="definition">
+						<content>
+							<p><def GUID="_5de0e7e9-2e12-49f5-948e-68bc06aef75d" eId="art_2__def_theCorporation" ukl:endQuote="”" ukl:startQuote="“">the Corporation</def> means the body corporate known as the Middlesbrough Development Corporation established by article 3 of the Middlesbrough Development Corporation (Establishment) Order 2023<authorialNote GUID="_098a6e9d-b192-4db8-9c1c-8855f0562562" class="footnote" eId="fnote_10" marker="10">
+									<p>S.I. 2023/103.</p>
+								</authorialNote>;</p>
+						</content>
+					</hcontainer>
+					<hcontainer GUID="_b63436f8-55c2-43b4-b736-4e923ca6d120" class="definition" eId="art_2__def_deficit_" name="definition">
+						<content>
+							<p><def GUID="_028695e3-ec60-4360-ac8a-e79ac6c80d00" eId="art_2__def_deficit" ukl:endQuote="”" ukl:startQuote="“">deficit</def> has the meaning given by article 14(2)(b);</p>
+						</content>
+					</hcontainer>
+					<hcontainer GUID="_034768ec-09fa-4423-9708-4e6c18a8e40c" class="definition" eId="art_2__def_thedevelopmentarea_" name="definition">
+						<content>
+							<p><def GUID="_98db114a-0f73-42d9-887d-3779648c3d43" eId="art_2__def_thedevelopmentarea" ukl:endQuote="”" ukl:startQuote="“">the development area</def> means the area of land described as a Mayoral development area in article 2 of the Middlesbrough Development Corporation (Establishment) Order 2023;</p>
+						</content>
+					</hcontainer>
+					<hcontainer GUID="_61abea71-6f46-428c-8779-b735748e6181" class="definition" eId="art_2__def_estimatedcompensationamount_" name="definition">
+						<content>
+							<p><def GUID="_d4e18098-1045-460d-876b-3eeab3bd523c" eId="art_2__def_estimatedcompensationamount" ukl:endQuote="”" ukl:startQuote="“">estimated compensation amount</def> has the meaning given by article 11(1);</p>
+						</content>
+					</hcontainer>
+					<hcontainer GUID="_8ba99dcc-3e83-4732-8307-09c5b269f784" class="definition" eId="art_2__def_finalcompensationamount_" name="definition">
+						<content>
+							<p><def GUID="_7bccb3eb-3d05-4212-bddf-802ffda6de94" eId="art_2__def_finalcompensationamount" ukl:endQuote="”" ukl:startQuote="“">final compensation amount</def> has the meaning given by article 11(2);</p>
+						</content>
+					</hcontainer>
+					<hcontainer GUID="_3a700948-db8e-41bb-b19f-fdc23d63e647" class="definition" eId="art_2__def_theHazardousSubstancesAct_" name="definition">
+						<content>
+							<p><def GUID="_7becf44c-a15c-4e0f-befa-7a63a18a6da9" eId="art_2__def_theHazardousSubstancesAct" ukl:endQuote="”" ukl:startQuote="“">the Hazardous Substances Act</def> means the Planning (Hazardous Substances) Act 1990<authorialNote GUID="_41b7318e-f114-459b-bdce-89a414385ce2" class="footnote" eId="fnote_11" marker="11">
+									<p>1990 c. 10.</p>
+								</authorialNote>;</p>
+						</content>
+					</hcontainer>
+					<hcontainer GUID="_7d18094f-60ec-4d25-9ee1-d8c685132f43" class="definition" eId="art_2__def_theListedBuildingsAct_" name="definition">
+						<content>
+							<p><def GUID="_9793e8ed-e093-4c32-82c7-2d946d50f110" eId="art_2__def_theListedBuildingsAct" ukl:endQuote="”" ukl:startQuote="“">the Listed Buildings Act</def> means the Planning (Listed Buildings and Conservation Areas) Act 1990<authorialNote GUID="_6896f2d7-dde6-404c-a2cc-28b8834078f8" class="footnote" eId="fnote_12" marker="12">
+									<p>1990 c. 9.</p>
+								</authorialNote>;</p>
+						</content>
+					</hcontainer>
+					<hcontainer GUID="_86ed091e-a03d-4359-b966-df606de14fab" class="definition" eId="art_2__def_non-domesticratingincome_" name="definition">
+						<content>
+							<p><def GUID="_b50cd110-70b6-4a7c-bf13-5e84344070cf" eId="art_2__def_non-domesticratingincome" ukl:endQuote="”" ukl:startQuote="“">non-domestic rating income</def> has the same meaning as in regulation 3(3) of the Rates Retention Regulations;</p>
+						</content>
+					</hcontainer>
+					<hcontainer GUID="_1d71f843-356a-489a-aab0-eaa6ff74f9ee" class="definition" eId="art_2__def_planningdocument_" name="definition">
+						<content>
+							<p><def GUID="_1c1f4f0b-376b-46f4-8c18-36157e3f6240" eId="art_2__def_planningdocument" ukl:endQuote="”" ukl:startQuote="“">planning document</def> means any notice, certificate, publicity, consultation or other document relating to the exercise of functions under the 1990 Act, the Listed Buildings Act or any order or regulation having effect under those Acts;</p>
+						</content>
+					</hcontainer>
+					<hcontainer GUID="_0298042a-cbe8-461a-bbbf-45dcc9de9092" class="definition" eId="art_2__def_precedingyear_" name="definition">
+						<content>
+							<p><def GUID="_314a3951-c39e-42e2-aa26-903356c51697" eId="art_2__def_precedingyear" ukl:endQuote="”" ukl:startQuote="“">preceding year</def> means the financial year<authorialNote GUID="_f2b1128d-3fb5-4429-afd8-65b313aabe06" class="footnote" eId="fnote_50" marker="50">
+									<p>See section 145(3) of the Local Government Finance Act 1988 for the meaning of “financial year”.</p>
+								</authorialNote> immediately preceding the relevant year;</p>
+						</content>
+					</hcontainer>
+					<hcontainer GUID="_7d9a5947-edef-4ec1-906c-7c1dc73e260a" class="definition" eId="art_2__def_previousauthority_" name="definition">
+						<intro GUID="_bd6851aa-ca01-46f1-a38f-4bd24f9a43dd" eId="art_2__def_previousauthority__intro">
+							<p><def GUID="_23185683-f622-43dd-9776-b5858f27b892" eId="art_2__def_previousauthority" ukl:endQuote="”" ukl:startQuote="“">previous authority</def> means—</p>
+						</intro>
+						<level GUID="_7aebfa91-3c40-4fef-86f3-a1d34a3b020e" class="para1" eId="art_2__def_previousauthority__para_a">
+							<num>(a)</num>
+							<content>
+								<p>in relation to Part 2, a local planning authority which, by virtue of section 7A(2) of the 1990 Act<authorialNote GUID="_d3f2fe98-cd3a-473d-af33-cd75ad1ce682" class="footnote" eId="fnote_19" marker="19">
+										<p>Section 7A was inserted by paragraph 32 of Schedule 22 to the Localism Act 2011.</p>
+									</authorialNote> and article 3, ceases to be the local planning authority for a part of the development area; and</p>
+							</content>
+						</level>
+						<level GUID="_6dfcc816-9135-4250-87c3-4d7503d19077" class="para1" eId="art_2__def_previousauthority__para_b">
+							<num>(b)</num>
+							<content>
+								<p>in relation to Parts 3 and 4, a billing authority which, by virtue of section 214(8) of the 2011 Act and article 8, ceases to have the functions mentioned in section 214(2) of the 2011 Act;</p>
+							</content>
+						</level>
+					</hcontainer>
+					<hcontainer GUID="_85b12409-de32-413c-a975-ed48282aaf44" class="definition" eId="art_2__def_RatesRetentionRegulations_" name="definition">
+						<content>
+							<p><def GUID="_fc3b7b56-a107-4c23-9af1-8e9d7a3691cd" eId="art_2__def_RatesRetentionRegulations" ukl:endQuote="”" ukl:startQuote="“">Rates Retention Regulations</def> means the Non-Domestic Rating (Rates Retention) Regulations 2013<authorialNote GUID="_7a865e08-c26d-4dce-8d91-a78969790b65" class="footnote" eId="fnote_20" marker="20">
+									<p>S.I. 2013/452.</p>
+								</authorialNote>;</p>
+						</content>
+					</hcontainer>
+					<hcontainer GUID="_7ffed745-c91a-4e90-b16b-bb8b55ac986b" class="definition" eId="art_2__def_relevantyear_" name="definition">
+						<content>
+							<p><def GUID="_b647525c-d26d-496a-88aa-a35a5beb17ff" eId="art_2__def_relevantyear" ukl:endQuote="”" ukl:startQuote="“">relevant year</def> means the financial year for which a calculation of an estimated compensation amount or final compensation amount is made;</p>
+						</content>
+					</hcontainer>
+					<hcontainer GUID="_a9ad96c5-c588-430d-a6cc-9f7dd055f7b3" class="definition" eId="art_2__def_section151officer_" name="definition">
+						<content>
+							<p><def GUID="_f5b3a3c4-d923-4924-a3ee-fd1c85e5d7e2" eId="art_2__def_section151officer" ukl:endQuote="”" ukl:startQuote="“">section 151 officer</def> means the person who is for the time being appointed by the previous authority to be responsible for the administration of its financial affairs<authorialNote GUID="_6c4f1bdb-7232-4f7f-89cf-3a12b249dc00" class="footnote" eId="fnote_55" marker="55">
+									<p>See section 151 of the Local Government Act 1972 (c. 70).</p>
+								</authorialNote>;</p>
+						</content>
+					</hcontainer>
+					<hcontainer GUID="_2a769afc-e5f0-4b12-940a-6673297e5dbf" class="definition" eId="art_2__def_surplus_" name="definition">
+						<content>
+							<p><def GUID="_a1a828da-6df9-43f9-8454-9be3a099425a" eId="art_2__def_surplus" ukl:endQuote="”" ukl:startQuote="“">surplus</def> has the meaning given by article 14(2)(a);</p>
+						</content>
+					</hcontainer>
+					<hcontainer GUID="_4ba5c08e-58dc-44f8-b073-7ce018005958" class="definition" eId="art_2__def_theTreePreservationRegulations_" name="definition">
+						<content>
+							<p><def GUID="_18cf9ff8-2343-41f1-bfa6-7a4e895f9ac8" eId="art_2__def_theTreePreservationRegulations" ukl:endQuote="”" ukl:startQuote="“">the Tree Preservation Regulations</def> means the Town and Country Planning (Tree Preservation) (England) Regulations 2012<authorialNote GUID="_b7398959-881e-462f-a0b6-c771527b9416" class="footnote" eId="fnote_23" marker="23">
+									<p>S.I. 2012/605.</p>
+								</authorialNote>.</p>
+						</content>
+					</hcontainer>
+				</article>
+			</part>
+			<part GUID="_f07852f0-d8d4-4920-9f3f-3bd9e46ed5b9" class="group2" eId="pt_2"><?DMS-Component componentId="3b02e26f-d486-410d-a1f0-64218b50601b" seriesId="bdc13e52-1eb8-4687-a136-140dff248c74" versionNumber="1"?>
+				
+				<num>Part 2</num>
+				<heading GUID="_31e7e4bc-8059-466a-807f-658675fe31d4" eId="pt_2__hdg">Planning functions</heading>
+				<article GUID="_37c13170-23f9-48f6-b075-4a6a57025c04" class="prov1" eId="art_3"><?DMS-Component componentId="17d6a8a6-0123-42e7-a334-97161cf317fe" seriesId="57dd37dd-1447-44aa-8e2d-28376201a9ec" versionNumber="1"?>
+					
+					<heading GUID="_54a6f4d1-1294-4d52-abdb-ce20c99ed395" eId="art_3__hdg">Planning functions of the Corporation</heading>
+					<num>3.</num>
+					<content>
+						<p>Subject to article 7, the Corporation is the local planning authority for the development area for the purposes of Part 3 of the 1990 Act.</p>
+					</content>
+				</article>
+				<article GUID="_3a9e5368-7470-4779-be9f-edb1d419cae5" class="prov1" eId="art_4"><?DMS-Component componentId="c835cd2c-c22c-43e8-aa16-bbfa3d3cedeb" seriesId="9acac8a3-6d30-4c55-b91a-bd8139173893" versionNumber="1"?>
+					
+					<heading GUID="_b9fd1bf6-e861-46b7-b58a-ee66268860a5" eId="art_4__hdg">Additional functions conferred on the Corporation</heading>
+					<num>4.</num>
+					<content>
+						<p>In relation to the development area the Corporation has the functions conferred by the provisions of the 1990 Act and the Listed Buildings Act specified in Part 1 of Schedule 29 to the 1980 Act<authorialNote GUID="_04e528e0-ca8e-428e-87bc-0dc3b2c94100" class="footnote" eId="fnote_25" marker="25">
+								<p>Part 1 of Schedule 29 was substituted by paragraph 44(12) of Schedule 2 to the Planning (Consequential Provisions) Act 1990 (c. 11), and amended by paragraph 17 of Schedule 3 and paragraph 5 of Schedule 7 to, the Planning and Compensation Act 1991 (c. 34).</p>
+							</authorialNote>.</p>
+					</content>
+				</article>
+				<article GUID="_a02d4677-dcd4-471d-89f2-06001c11e5dd" class="prov1" eId="art_5"><?DMS-Component componentId="05d325ca-6ae5-4fe3-aa04-9100c7e7b9ac" seriesId="ff56d6ca-4d64-44e6-a4fc-93ff24f3de8e" versionNumber="1"?>
+					
+					<heading GUID="_69ee2511-f802-42c9-82d8-d71b7e166731" eId="art_5__hdg">Modification of references to urban development corporations</heading>
+					<num>5.</num>
+					<paragraph GUID="_be5f9bf5-7add-4d61-9e86-09d84a5569ab" class="prov2" eId="art_5__para_1">
+						<num>(1)</num>
+						<content>
+							<p>For the purposes of exercising functions transferred by this Part, any reference in an enactment to an urban development corporation is to be construed, so far as is required for giving effect to the enactment, as including a reference to the Corporation.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_37dafd5f-340a-457f-bb6f-df4c9e22fb27" class="prov2" eId="art_5__para_2">
+						<num>(2)</num>
+						<content>
+							<p>In paragraph (1) ‘urban development corporation’ means an urban development corporation established under section 135 of the 1980 Act<authorialNote GUID="_a976bf2c-1334-42cf-bf0c-49fcb53b0626" class="footnote" eId="fnote_66" marker="66">
+									<p>Section 135 was amended by section 179(4) of the Leasehold Reform, Housing and Urban Development Act 1993 (c. 28) and section 167 of the Housing and Planning Act 2016 (c. 22)</p>
+								</authorialNote>.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article GUID="_24e90274-a9fd-4223-9104-ebffad924d3d" class="prov1" eId="art_6"><?DMS-Component componentId="389d733c-466c-4bd7-bfd3-8fd7c1ee1094" seriesId="0ae9f9a7-5759-4407-bf98-3d8a69c56945" versionNumber="1"?>
+					
+					<heading GUID="_1063fdfc-5406-4471-acb7-169d62521b6b" eId="art_6__hdg">Modification of the 1990 Act and the Listed Buildings Act</heading>
+					<num>6.</num>
+					<content>
+						<p>The provisions of the 1990 Act and the Listed Buildings Act specified in Part 2 of Schedule 29 to the 1980 Act<authorialNote GUID="_d2675c21-689c-4305-9dbb-ecb168040211" class="footnote" eId="fnote_27" marker="27">
+								<p>Part 2 of Schedule 29 was amended by paragraph 44(13) of Schedule 2 to the Planning (Consequential Provisions) Act 1990.</p>
+							</authorialNote> have effect in relation to the Corporation and to the development area with the modifications specified in that Part.</p>
+					</content>
+				</article>
+				<article GUID="_28503568-323e-436f-818f-a484d6342915" class="prov1" eId="art_7"><?DMS-Component componentId="10d423f8-063d-4ff8-a463-f2c95c6cbd22" seriesId="830db941-de00-4b77-9c4f-4e16ac232046" versionNumber="1"?>
+					
+					<heading GUID="_ea0aa484-fdc6-47e7-91ca-8e58f800dd86" eId="art_7__hdg">Transitional provision in relation to planning functions</heading>
+					<num>7.</num>
+					<content>
+						<p>Schedule 1 makes transitional provision in relation to functions transferred to the Corporation by virtue of this Part which were exercised by a previous authority prior to 1st June 2023.</p>
+					</content>
+				</article>
+			</part>
+			<part GUID="_c7b6fa6d-22df-41c5-bffd-711f770bb9c0" class="group2" eId="pt_3"><?DMS-Component componentId="cfc7a0a6-14e1-4753-83bc-9537ab395a56" seriesId="a6c9d0f5-4633-4fe2-9edb-15429b9e286d" versionNumber="1"?>
+				
+				<num>Part 3</num>
+				<heading GUID="_8fadc837-a877-4547-b3eb-252d94c44d90" eId="pt_3__hdg">Discretionary relief from non-domestic rates</heading>
+				<article GUID="_65e74cfe-a4db-40fb-9d6a-ae5981e15699" class="prov1" eId="art_8"><?DMS-Component componentId="dab74985-5245-441c-9140-5c8c84da2e35" seriesId="dc57b813-9060-4155-a4a7-d9084a0c3e7d" versionNumber="1"?>
+					
+					<heading GUID="_a0b3df73-45c0-4437-8451-6c010c9038fc" eId="art_8__hdg">Powers in relation to discretionary relief from non-domestic rates</heading>
+					<num>8.</num>
+					<paragraph GUID="_66d1dc4d-ad67-4b0e-bd78-2536725923e4" class="prov2" eId="art_8__para_1">
+						<num>(1)</num>
+						<intro GUID="_18480681-641c-4b10-b453-a9e2b0280dfb" eId="art_8__para_1__intro">
+							<p>Subject to article 10,—</p>
+						</intro>
+						<level GUID="_bd59bcca-d1de-4c00-9d19-c6140faa5dd5" class="para1" eId="art_8__para_1__para_a">
+							<num>(a)</num>
+							<content>
+								<p>in relation to qualifying hereditaments in the Mayoral development area, the Corporation has the functions conferred by section 47(3) and (6) of the 1988 Act<authorialNote GUID="_1f8467e1-ff2c-47fe-978e-63bb7d96639a" class="footnote" eId="fnote_53" marker="53">
+										<p>Section 47(3) was amended by paragraph 65 of Schedule 13 to the Local Government Finance Act 1992 (c. 14) and section 69(4) of the Localism Act 2011.</p>
+									</authorialNote> to the effect that section 47 of the 1988 Act applies as regards a hereditament, and</p>
+							</content>
+						</level>
+						<level GUID="_8b50c3d2-3d0b-4f23-b49b-865ff0696aa1" class="para1" eId="art_8__para_1__para_b">
+							<num>(b)</num>
+							<content>
+								<p>in relation to a hereditament as regards which section 47 of the 1988 Act applies as a result of a decision made by the Corporation, the Corporation has the function of making the determinations mentioned in section 47(1)(a) of the 1988 Act.</p>
+							</content>
+						</level>
+					</paragraph>
+					<paragraph GUID="_016f35d1-5cfa-4ddf-8a79-72cee4e34cde" class="prov2" eId="art_8__para_2">
+						<num>(2)</num>
+						<content>
+							<p>In paragraph (1) ‘qualifying hereditament’ has the same meaning as in section 214(9) of the 2011 Act.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article GUID="_83959d29-0e73-4b23-944e-042206485e08" class="prov1" eId="art_9"><?DMS-Component componentId="e97fffb4-b255-4716-b2f9-5c633524f328" seriesId="291116e7-c27a-4e4f-8e3f-9790445a3f1c" versionNumber="1"?>
+					
+					<heading GUID="_9416b857-6065-4cba-96fd-665c2273031e" eId="art_9__hdg">Modification of references to billing authority</heading>
+					<num>9.</num>
+					<paragraph GUID="_6509dd70-78fb-4e82-8ffc-a2a82947e240" class="prov2" eId="art_9__para_1">
+						<num>(1)</num>
+						<content>
+							<p>For the purposes of exercising functions transferred by this Part, any reference in an enactment to a billing authority is to be construed, so far as is required for giving it effect, as including a reference to the Corporation.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_0b799b9b-5314-4cd5-9512-f31bb2279027" class="prov2" eId="art_9__para_2">
+						<num>(2)</num>
+						<content>
+							<p>Paragraph (1) does not apply to the reference in section 47(5A) of the 1988 Act to a billing authority.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article GUID="_d63e6916-d3a5-4b8e-991e-eda922777c95" class="prov1" eId="art_10"><?DMS-Component componentId="970a60cd-d3a5-460e-bce0-0976e0728ee5" seriesId="0ef29c7b-9d56-4f1e-8a4f-e03698da5abd" versionNumber="1"?>
+					
+					<heading GUID="_f4947050-afe2-4ae0-b29a-85f302eac203" eId="art_10__hdg">Transitional provision in relation to non-domestic rates functions</heading>
+					<num>10.</num>
+					<content>
+						<p>Schedule 2 makes transitional provision in relation to functions transferred to the Corporation by virtue of this Part which were exercised by a previous authority prior to 12th May 2023.</p>
+					</content>
+				</article>
+			</part>
+			<part GUID="_942c352b-ade1-4a81-9e98-4b9306a92e8b" class="group2" eId="pt_4"><?DMS-Component componentId="f375ac4f-b05b-4cc2-9d7b-4bf2abaf0b75" seriesId="55f9de19-c488-4b33-a14d-ce4540d28f8d" versionNumber="1"?>
+				
+				<num>Part 4</num>
+				<heading GUID="_ec5fa5b3-d432-4081-8f6b-2641f63ca7b6" eId="pt_4__hdg">Payments in respect of discretionary relief from non-domestic rates</heading>
+				<article GUID="_38357eca-2c39-49e2-bf48-14b70c86fd73" class="prov1" eId="art_11"><?DMS-Component componentId="370cf658-c0a0-4bdb-9630-1fd9ab62999e" seriesId="6cae2a3b-9b0f-467d-bde4-727e23b27364" versionNumber="1"?>
+					
+					<heading GUID="_c41c64d0-7160-4091-9c26-863209f051b8" eId="art_11__hdg">Compensation amounts</heading>
+					<num>11.</num>
+					<paragraph GUID="_f49d21e6-ae13-4e18-94dc-cb528a20b883" class="prov2" eId="art_11__para_1">
+						<num>(1)</num>
+						<content>
+							<p>The estimated compensation amount for a previous authority for a relevant year is the amount calculated in accordance with the formula—</p>
+							<tblock GUID="_d7cbaa04-3343-4667-8f0c-2dc3704b7a40" class="formula" eId="art_11__para_1__enactingWords">
+								<foreign>
+									<math xmlns="http://www.w3.org/1998/Math/MathML">
+										<mi>A</mi>
+										<mo>×</mo>
+										<mfenced>
+											<mrow>
+												<mi>C</mi>
+												<mo>-</mo>
+												<mi>B</mi>
+											</mrow>
+										</mfenced>
+										<mo>-</mo>
+										<mi>D</mi>
+									</math>
+								</foreign>
+							</tblock>
+						</content>
+					</paragraph>
+					<paragraph GUID="_fb96759c-1eea-455b-b021-5bfecdfb7d7f" class="prov2" eId="art_11__para_2">
+						<num>(2)</num>
+						<content>
+							<p>The final compensation amount for a previous authority for a relevant year is the amount calculated in accordance with the formula—</p>
+							<tblock GUID="_fd27c67f-9ec8-4744-9f05-3337229641a2" class="formula" eId="art_11__para_2__enactingWords">
+								<foreign>
+									<math xmlns="http://www.w3.org/1998/Math/MathML">
+										<mi>A</mi>
+										<mo>×</mo>
+										<mfenced>
+											<mrow>
+												<mi>F</mi>
+												<mo>-</mo>
+												<mi>E</mi>
+											</mrow>
+										</mfenced>
+										<mo>-</mo>
+										<mi>G</mi>
+									</math>
+								</foreign>
+							</tblock>
+						</content>
+					</paragraph>
+					<paragraph GUID="_5f09ec89-0c2b-486a-a766-d1d2c4d12b97" class="prov2" eId="art_11__para_3">
+						<num>(3)</num>
+						<intro GUID="_af10d069-25b4-4455-8532-8e6697bb2533" eId="art_11__para_3__intro">
+							<p>For the purposes of this article—</p>
+						</intro>
+						<hcontainer GUID="_2b646e99-3d8f-4ae0-b6aa-ec9351acb946" class="definition" eId="art_11__para_3__def_A_" name="definition">
+							<content>
+								<p><def GUID="_72b8c601-8bfc-4c7c-8239-6a46b0cb60ef" eId="art_11__para_3__def_A" ukl:endQuote="”" ukl:startQuote="“">A</def> is the percentage that is the previous authority’s local share for the relevant year as determined in accordance with paragraph 4 of Schedule 7B to the 1988 Act<authorialNote GUID="_7a6261ae-a6c2-4729-8539-8591fac774b6" class="footnote" eId="fnote_48" marker="48">
+										<p>Schedule 7B was inserted by Schedule 1 to the Local Government Finance Act 2012 (c. 17).</p>
+									</authorialNote>;</p>
+							</content>
+						</hcontainer>
+						<hcontainer GUID="_649b5d84-932b-47f0-8e8d-9613f64a202a" class="definition" eId="art_11__para_3__def_B_" name="definition">
+							<content>
+								<p><def GUID="_8aa307f6-5eff-46d7-ab96-9ace138dbf6b" eId="art_11__para_3__def_B" ukl:endQuote="”" ukl:startQuote="“">B</def> is the previous authority’s non-domestic rating income for the relevant year;</p>
+							</content>
+						</hcontainer>
+						<hcontainer GUID="_ea29cc63-1f0e-40a3-a3aa-74e6f22196f3" class="definition" eId="art_11__para_3__def_C_" name="definition">
+							<content>
+								<p><def GUID="_966c07f6-6233-4dfd-87c8-ffc054753925" eId="art_11__para_3__def_C" ukl:endQuote="”" ukl:startQuote="“">C</def> is the amount that, in the opinion of the section 151 officer, would have been the previous authority’s non-domestic rating income for the relevant year if, in respect of any day in the relevant year or any day in a preceding year, any determination by the Corporation under section 47 of the 1988 Act had not been made;</p>
+							</content>
+						</hcontainer>
+						<hcontainer GUID="_58fd5679-405c-4d1c-bc9a-328b54bf2df1" class="definition" eId="art_11__para_3__def_D_" name="definition">
+							<content>
+								<p><def GUID="_b87e796f-da8a-4eb2-a430-1d43cbfef022" eId="art_11__para_3__def_D" ukl:endQuote="”" ukl:startQuote="“">D</def> is the amount which the previous authority estimates will be paid by the Secretary of State to the previous authority, or to a major precepting authority in relation to that authority, to compensate for the amount of relief granted to ratepayers by the Corporation under section 47 of the 1988 Act for the relevant year;</p>
+							</content>
+						</hcontainer>
+						<hcontainer GUID="_c8830f20-9a02-4657-999b-6d776e12bb72" class="definition" eId="art_11__para_3__def_E_" name="definition">
+							<content>
+								<p><def GUID="_cf0c4dd1-d908-42c3-a122-b18172283198" eId="art_11__para_3__def_E" ukl:endQuote="”" ukl:startQuote="“">E</def> is the previous authority’s certified non-domestic rating income for the relevant year;</p>
+							</content>
+						</hcontainer>
+						<hcontainer GUID="_545e2168-2bf0-43fc-8777-0960e96857aa" class="definition" eId="art_11__para_3__def_F_" name="definition">
+							<content>
+								<p><def GUID="_322fa4fc-3317-4617-a92f-c3ce1eb125e3" eId="art_11__para_3__def_F" ukl:endQuote="”" ukl:startQuote="“">F</def> is the amount that, in the opinion of the section 151 officer, would have been the previous authority’s certified non-domestic rating income for the relevant year if, in respect of any day in the relevant year or any day in a preceding year, any determination by the Corporation under section 47 of the 1988 Act had not been made;</p>
+							</content>
+						</hcontainer>
+						<hcontainer GUID="_e3d1b9af-255a-44d9-9ca4-d28b4931fc9a" class="definition" eId="art_11__para_3__def_G_" name="definition">
+							<content>
+								<p><def GUID="_19363965-6b61-4568-9193-afc1bca13574" eId="art_11__para_3__def_G" ukl:endQuote="”" ukl:startQuote="“">G</def> is the amount paid, or to be paid, by the Secretary of State to the previous authority, or to a major precepting authority in relation to that authority, to compensate for the amount of relief granted to ratepayers by the Corporation under section 47 of the 1988 Act for the relevant year.</p>
+							</content>
+						</hcontainer>
+					</paragraph>
+				</article>
+				<article GUID="_acd9bf52-870f-4849-b194-983497aa2ccd" class="prov1" eId="art_12"><?DMS-Component componentId="a6ffd2b5-9318-4756-a962-06dbba8e7d6b" seriesId="ec08f90c-b1c3-42e2-8435-9c1b0f0538e0" versionNumber="1"?>
+					
+					<heading GUID="_d0675ec7-47c0-4293-b4e4-86305569df0f" eId="art_12__hdg">Calculation of estimated compensation amount</heading>
+					<num>12.</num>
+					<intro GUID="_9b94a0c1-8a52-4191-b173-b5dcd7eede9f" eId="art_12__intro">
+						<p>For each financial year commencing on or after 1st April 2024 and for each previous authority the Corporation must—</p>
+					</intro>
+					<level GUID="_d248b885-7254-4ecd-b957-9091f326653c" class="para1" eId="art_12__para_a">
+						<num>(a)</num>
+						<content>
+							<p>calculate the amount that is its estimated compensation amount;</p>
+						</content>
+					</level>
+					<level GUID="_8ff59b4c-5c8b-4ced-84a9-7cb378679b4e" class="para1" eId="art_12__para_b">
+						<num>(b)</num>
+						<content>
+							<p>on or before 31st January in the preceding year, notify the Secretary of State and the previous authority of the amount that has been calculated.</p>
+						</content>
+					</level>
+				</article>
+				<article GUID="_473b615a-5612-405c-aefb-7905217104b8" class="prov1" eId="art_13"><?DMS-Component componentId="13ebb6c5-5eb1-480e-8b84-2822a0061e45" seriesId="4a2c7828-1e44-4ac6-837e-4e08e5b12161" versionNumber="1"?>
+					
+					<heading GUID="_c1bfb461-df90-4d7b-95c2-bf71216b6a40" eId="art_13__hdg">In-year payments</heading>
+					<num>13.</num>
+					<paragraph GUID="_247e306c-49b9-4bcc-9dde-aad0a421957f" class="prov2" eId="art_13__para_1">
+						<num>(1)</num>
+						<content>
+							<p>For each financial year commencing on or after 1st April 2024, and for each previous authority, the Corporation must make a payment to the relevant authority of an amount equal to the estimated compensation amount for the relevant year.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_1e918f26-93f5-4833-b383-7aa7211d0734" class="prov2" eId="art_13__para_2">
+						<num>(2)</num>
+						<intro GUID="_b5d33d29-491b-450b-904c-2622965da5f9" eId="art_13__para_2__intro">
+							<p>The payment under paragraph (1) must be made in 12 instalments during the relevant year such that—</p>
+						</intro>
+						<level GUID="_4f765a66-fb24-47d9-a1a8-714bb6f61434" class="para1" eId="art_13__para_2__para_a">
+							<num>(a)</num>
+							<content>
+								<p>the first instalment is payable on 30th April, and</p>
+							</content>
+						</level>
+						<level GUID="_6cedf7e9-f1f1-410f-ae7d-087ddbdd63b1" class="para1" eId="art_13__para_2__para_b">
+							<num>(b)</num>
+							<content>
+								<p>the subsequent instalments are payable on the 19th day of each of the following 11 months starting in May.</p>
+							</content>
+						</level>
+					</paragraph>
+					<paragraph GUID="_76521ec3-ea23-4138-8d71-ec4358a709db" class="prov2" eId="art_13__para_3">
+						<num>(3)</num>
+						<content>
+							<p>Where an instalment falls to be paid on a Friday or a day that is not a working day, it is instead payable on the first working day that is not a Friday following that day.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_3c4f85fa-6049-4081-a3dd-eab8626d8655" class="prov2" eId="art_13__para_4">
+						<num>(4)</num>
+						<content>
+							<p>The first four instalments are each to be of 9% of the amount payable for the relevant year and each other instalments is to be 8% of the amount payable for the relevant year.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_a132c993-ce79-4d96-bd9c-9a5f64ff8e9f" class="prov2" eId="art_13__para_5">
+						<num>(5)</num>
+						<content>
+							<p>In this paragraph “working day” means any day other than a Saturday, a Sunday, Christmas Day, Good Friday or a day which is a bank holiday in England under the Banking and Financial Dealings Act 1971<authorialNote GUID="_34787a29-a97a-4313-92ae-7b258b403f92" class="footnote" eId="fnote_56" marker="56">
+									<p>1971 c. 80.</p>
+								</authorialNote>.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article GUID="_13803290-e71d-40d0-b0f1-8b16c7e2f9ba" class="prov1" eId="art_14"><?DMS-Component componentId="63997496-730a-46df-a2ae-7f5d783c72e4" seriesId="3325f5b7-e3a0-441c-9759-0fa879dfad73" versionNumber="1"?>
+					
+					<heading GUID="_0fb19a2f-cab3-4175-8e77-79ef07b01219" eId="art_14__hdg">End of year calculations</heading>
+					<num>14.</num>
+					<paragraph GUID="_35659551-265e-4620-ab97-d033fb4a0c87" class="prov2" eId="art_14__para_1">
+						<num>(1)</num>
+						<intro GUID="_bb488c4e-8cd3-435d-975c-6cd400092a14" eId="art_14__para_1__intro">
+							<p>Before the end of the period of 14 days beginning with the certification date, for each previous authority the Corporation must—</p>
+						</intro>
+						<level GUID="_14e00bcd-ff19-45e1-9dd9-09e17d64b864" class="para1" eId="art_14__para_1__para_a">
+							<num>(a)</num>
+							<content>
+								<p>calculate the final compensation amount;</p>
+							</content>
+						</level>
+						<level GUID="_389a9771-71fb-43a5-b832-9d84ac158df8" class="para1" eId="art_14__para_1__para_b">
+							<num>(b)</num>
+							<content>
+								<p>for each financial year commencing on or after 1st April 2024, calculate whether there is a surplus or deficit in accordance with paragraph (2) and, if so, the amount of the surplus or deficit;</p>
+							</content>
+						</level>
+						<level GUID="_da241a0c-e6da-4346-846d-1328908b4b3d" class="para1" eId="art_14__para_1__para_c">
+							<num>(c)</num>
+							<content>
+								<p>notify the Secretary of State and the previous authority of the amounts that have been calculated.</p>
+							</content>
+						</level>
+					</paragraph>
+					<paragraph GUID="_64ac1cdb-dbbb-4cdf-8c0f-52c36232727c" class="prov2" eId="art_14__para_2">
+						<num>(2)</num>
+						<intro GUID="_192f90ab-2683-4fb5-aa62-7f4ed7ed25d0" eId="art_14__para_2__intro">
+							<p>Where the amount paid to a previous authority under article 13(1) is—</p>
+						</intro>
+						<level GUID="_37caf3c2-a388-4b18-a0d7-c7d174135424" class="para1" eId="art_14__para_2__para_a">
+							<num>(a)</num>
+							<content>
+								<p>more than the final compensation amount for that authority, there is a surplus, the amount of which is the difference;</p>
+							</content>
+						</level>
+						<level GUID="_3235a205-a1df-4601-9b45-739cbf1985bc" class="para1" eId="art_14__para_2__para_b">
+							<num>(b)</num>
+							<content>
+								<p>less than the final compensation amount for that authority, there is a deficit, the amount of which is the difference;</p>
+							</content>
+						</level>
+						<level GUID="_76d67bae-6882-4568-904b-84e0c9d37c14" class="para1" eId="art_14__para_2__para_c">
+							<num>(c)</num>
+							<content>
+								<p>the same as the final compensation amount for that authority, there is no surplus or deficit.</p>
+							</content>
+						</level>
+					</paragraph>
+				</article>
+				<article GUID="_af1f19ee-a44c-41ee-be15-91c3b821c218" class="prov1" eId="art_15"><?DMS-Component componentId="c33c4f25-7d93-4ae4-91b4-3c1ed40b526d" seriesId="62ca8f92-a9c9-47bd-a711-f8dcb374836e" versionNumber="1"?>
+					
+					<heading GUID="_a9c3103b-34de-43f1-9971-c6b689fdb9ab" eId="art_15__hdg">End of year reconciliation</heading>
+					<num>15.</num>
+					<paragraph GUID="_96489c5e-8ba3-4995-a000-c2eb0df1ff51" class="prov2" eId="art_15__para_1">
+						<num>(1)</num>
+						<intro GUID="_11aa8007-c4b8-410e-b6c3-c00b9ca167cf" eId="art_15__para_1__intro">
+							<p>For each financial year commencing on or after 1st April 2024 and for each previous authority—</p>
+						</intro>
+						<level GUID="_1e5b2762-c062-44d8-acb0-8a67ed36ea98" class="para1" eId="art_15__para_1__para_a">
+							<num>(a)</num>
+							<content>
+								<p>where there is a surplus, the previous authority must make a payment to the Corporation of an amount equal to the amount of the surplus for that authority;</p>
+							</content>
+						</level>
+						<level GUID="_fc81dd5f-e5cd-447c-9a00-6e70574b6a55" class="para1" eId="art_15__para_1__para_b">
+							<num>(b)</num>
+							<content>
+								<p>where there is a deficit, the Corporation must make a payment to the previous authority of an amount equal to the amount of the deficit for that authority.</p>
+							</content>
+						</level>
+					</paragraph>
+					<paragraph GUID="_0424709e-0787-4009-931e-d2d101becf77" class="prov2" eId="art_15__para_2">
+						<num>(2)</num>
+						<content>
+							<p>For the financial year commencing on 1st April 2023, the Corporation must make a payment to the relevant authority for the final compensation amount for that year.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_bf6e5b30-96ea-4c7b-b704-357e9738b0b3" class="prov2" eId="art_15__para_3">
+						<num>(3)</num>
+						<content>
+							<p>Any payments under this article must be made before the end of the period of 14 days beginning with the certification date.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article GUID="_9e98542c-9679-41f9-b36e-9a44c863cbad" class="prov1" eId="art_16"><?DMS-Component componentId="ef394000-35ed-46d9-9aaa-a77100326abc" seriesId="3d7f9be4-3ad2-4935-8695-8cf66ec3bc20" versionNumber="1"?>
+					
+					<heading GUID="_d3cfc932-2fb4-48b0-b29e-f788af14c226" eId="art_16__hdg">Interest on amounts payable</heading>
+					<num>16.</num>
+					<paragraph GUID="_3f390a6c-cc22-42be-b892-3d137a0ed94f" class="prov2" eId="art_16__para_1">
+						<num>(1)</num>
+						<content>
+							<p>This article applies if all or part of a payment due under articles 13 or 15 is unpaid by the time when it is required to be paid.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_04b00d50-503c-48b2-9011-55cde26210cf" class="prov2" eId="art_16__para_2">
+						<num>(2)</num>
+						<content>
+							<p>Interest is payable on the amount outstanding for every day of the period beginning with the day on which the amount was due to be paid and ending on the day before the day on which it is paid.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_447926d2-631d-4d06-8615-408884ddb76c" class="prov2" eId="art_16__para_3">
+						<num>(3)</num>
+						<content>
+							<p>The unpaid amount for the time being carries interest at the rate which is 2 per cent above the highest base rate quoted by any of the reference banks at anytime in the period for which that interest is payable.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_7992f97f-56af-4b6b-9f3a-743b84a0091c" class="prov2" eId="art_16__para_4">
+						<num>(4)</num>
+						<content>
+							<p>The interest is to be paid at the same time as the amount outstanding is paid.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_9ffdd0b7-c765-46e9-a4a1-47e6d4daddfd" class="prov2" eId="art_16__para_5">
+						<num>(5)</num>
+						<intro GUID="_62fdab05-be38-4a47-a524-a6c172bdd96b" eId="art_16__para_5__intro">
+							<p>For the purposes of paragraph (3), the reference banks are the seven largest persons for the time being who—</p>
+						</intro>
+						<level GUID="_914e7df9-4c5b-4ef5-a042-04e1abed762f" class="para1" eId="art_16__para_5__para_a">
+							<num>(a)</num>
+							<content>
+								<p>have permission under Part 4A of the Financial Services and Markets Act 2000<authorialNote GUID="_0a0da20a-2d94-41b1-a6ef-1ce86e77bf3e" class="footnote" eId="fnote_28" marker="28">
+										<p>2000 c. 8. Part 4A was substituted, for Part 4, by section 11(2) of the Financial Services Act 2012 (c. 21).</p>
+									</authorialNote> to accept deposits,</p>
+							</content>
+						</level>
+						<level GUID="_cac6801c-f21f-41c2-8ad9-cd61c3d9d9f3" class="para1" eId="art_16__para_5__para_b">
+							<num>(b)</num>
+							<content>
+								<p>are incorporated in the United Kingdom and carrying on there a regulated activity of accepting deposits, and</p>
+							</content>
+						</level>
+						<level GUID="_39aa309b-10fd-4892-a35c-1516b02df3ff" class="para1" eId="art_16__para_5__para_c">
+							<num>(c)</num>
+							<content>
+								<p>quote a base rate in sterling.</p>
+							</content>
+						</level>
+					</paragraph>
+					<paragraph GUID="_448fdafc-8bf9-4208-b2e8-3e4cb3d0cd2b" class="prov2" eId="art_16__para_6">
+						<num>(6)</num>
+						<content>
+							<p>For the purposes of paragraph (5), the size of a person is to be determined by reference to the total consolidated gross assets of that person denominated in sterling, as shown in the audited end-year accounts last published before the period for which interest is payable begins.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_b3962f79-0453-4abc-92bf-b4459d7e7daa" class="prov2" eId="art_16__para_7">
+						<num>(7)</num>
+						<content>
+							<p>In this article, the “consolidated gross assets” of a person is a reference to the gross assets of that person together with any subsidiary (within the meaning of section 1159 of the Companies Act 2006<authorialNote GUID="_9045971e-21b5-4087-b38b-ac81364e8fc7" class="footnote" eId="fnote_46" marker="46">
+									<p>2006 c. 46.</p>
+								</authorialNote>).</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_939b9000-3762-4754-8e8b-06f0381480e4" class="prov2" eId="art_16__para_8">
+						<num>(8)</num>
+						<intro GUID="_0fb53d49-3578-4d44-bdd9-10aa96c1d01c" eId="art_16__para_8__intro">
+							<p>Paragraph (5) must be read with—</p>
+						</intro>
+						<level GUID="_e1960b55-dca6-489d-a9f8-ba26319e3d63" class="para1" eId="art_16__para_8__para_a">
+							<num>(a)</num>
+							<content>
+								<p>section 22 of the Financial Services and Markets Act 2000,</p>
+							</content>
+						</level>
+						<level GUID="_4b2774ea-4e4f-4f06-9f78-fc272c0aab27" class="para1" eId="art_16__para_8__para_b">
+							<num>(b)</num>
+							<content>
+								<p>any relevant order under that section, and</p>
+							</content>
+						</level>
+						<level GUID="_e3fbf96a-a071-4a75-bfbc-d68566b93825" class="para1" eId="art_16__para_8__para_c">
+							<num>(c)</num>
+							<content>
+								<p>Schedule 2 to that Act.</p>
+							</content>
+						</level>
+					</paragraph>
+				</article>
+				<article GUID="_ff7f228e-ebe6-40f0-ad59-b84b2bd49f6e" class="prov1" eId="art_17"><?DMS-Component componentId="06f4c0e4-97df-4e75-9806-fb6ae18eaf08" seriesId="4a7e826c-b86a-41a5-bab3-a6c96df07bc0" versionNumber="1"?>
+					<heading GUID="_0baedc43-1f3b-4e2f-b038-6220e4644faa" eId="art_17__hdg">Variation agreements</heading>
+					<num>17.</num>
+					<paragraph GUID="_c68a4ddf-530b-4f39-835c-7dae70f1a470" class="prov2" eId="art_17__para_1">
+						<num>(1)</num>
+						<content>
+							<p>In relation to any amounts payable under this Part, the Corporation and a previous authority may agree that different amounts are payable or that payments may be made at different times.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_fcc393eb-2a08-4711-a9d8-1ae5094970e1" class="prov2" eId="art_17__para_2">
+						<num>(2)</num>
+						<content>
+							<p>Where an agreement is made under paragraph (1), the Corporation must notify the Secretary of State of what has been agreed before the end of the period of 14 days beginning with the date the agreement is made.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article GUID="_8a771bb5-93f9-4397-91e6-9a39423824e6" class="prov1" eId="art_18"><?DMS-Component componentId="ae3b6762-3966-4325-a0d4-88f424fa63dc" seriesId="857327e6-135c-40f9-a0e0-48c70d6bb2c4" versionNumber="1"?>
+					
+					<heading GUID="_73d2fccd-ff50-4788-87ac-8cd3ed06b1c0" eId="art_18__hdg">Recovery</heading>
+					<num>18.</num>
+					<intro GUID="_5179b0c7-d50d-42b6-85b9-69e282daca59" eId="art_18__intro">
+						<p>Where an amount has become payable by a previous authority or the Corporation under articles 13, 15 or 16 and it has not been paid, it is recoverable in a court of competent jurisdiction.</p>
+					</intro>
+					<level GUID="_1997e85e-68b6-4e9f-a6c3-c43d51ef1bc0" class="unnumberedParagraph" eId="art_18__para">
+						<content>
+							<p/>
+						</content>
+					</level>
+					<level GUID="_f73fc5ad-dd4a-4796-9154-d621491b1652" class="unnumberedParagraph" eId="art_18__para__oc_1">
+						<content>
+							<p/>
+						</content>
+					</level>
+				</article>
+			</part>
+			<hcontainer GUID="_c24c5d3b-a9bf-48e0-b580-cdb7cef3299c" eId="sigs" name="signatures"><?DMS-Component componentId="2a9e2735-4523-4af9-b504-1fc1fef75061" seriesId="35a1e81e-9747-4637-b032-d960dbbe1296" versionNumber="0"?>
+				
+				<hcontainer GUID="_44b4596c-bc16-4527-bacb-169609203f38" eId="sigs__sigBlk" name="signatureBlock">
+					<content>
+						<p>Signed by authority of the Secretary of State for Levelling Up, Housing and Communities</p>
+						<block GUID="_3cce493e-6fd5-42af-baf6-f83c05deed4d" eId="sigs__sigBlk__sig" name="signature">Dehenna Davison</block>
+						<block GUID="_ac3d64de-5d4d-4071-8bd0-f180856304ac" eId="sigs__sigBlk__role" name="role">Parliamentary Under Secretary of State</block>
+						<block name="date"><date date="2023-02-01">19th April 2023</date></block>
+						<block GUID="_8b6ef6e3-6648-45d1-a379-6dfa667b2a92" eId="sigs__sigBlk__org" name="organization">Department for Levelling Up, Housing and Communities</block>
+					</content>
+				</hcontainer>
+			</hcontainer>
+			<hcontainer GUID="_48c828e4-4856-43fe-bc61-eb89a5d928e7" class="schs" eId="scheds" name="schedules"><?DMS-Component componentId="9f612edf-323f-415b-9eff-e4b782e2b56c" seriesId="22d90193-5030-49a6-9f87-c8cc102de786" versionNumber="1"?>
+				
+				<heading GUID="_639470dd-bdcd-4535-ad6a-6d002aa09c82" eId="scheds__hdg">Schedules</heading>
+				<hcontainer GUID="_8e66d7fa-94b9-4ed0-bd3b-4105ed825385" class="sch" eId="sched_1" name="schedule"><?DMS-Component componentId="166c0df1-0388-41d4-a4a5-5b8bcf3ebcf4" seriesId="ff6cef2a-cce5-4b79-8670-1b28bb9b30c4" versionNumber="1"?>
+					
+					<num>Schedule 1<authorialNote GUID="_966bfe80-27be-4475-8c22-d54b1c57fce2" class="referenceNote" eId="sched_1__aNote">
+							<p>Article 7</p>
+						</authorialNote></num>
+					<heading GUID="_77cefb6b-379e-42ed-81fd-5ea37b0dbf7e" eId="sched_1__hdg">Transitional provision in relation to planning functions exercised by previous authorities prior to 1st June 2023</heading>
+					<hcontainer GUID="_357bb48e-7fbf-4de0-90f9-7d69ff921068" class="schGroup7" eId="sched_1__xhdg_1" name="crossheading">
+						<heading GUID="_b5871d75-365d-4ad3-ab75-a60959f1aea0" eId="sched_1__xhdg_1__hdg">Transitional provision in connection with planning functions</heading>
+						<paragraph GUID="_70b8d876-e7e8-4b3a-9116-91f6c7587c5f" class="schProv1" eId="sched_1__para_1">
+							<num>1.</num>
+							<subparagraph GUID="_5648a9c9-cfcd-4620-9fc8-5d183f7da735" class="schProv2" eId="sched_1__para_1__subpara_1">
+								<num>(1)</num>
+								<content>
+									<p>Subject to paragraphs 2 to 9, this paragraph applies in respect of any functions which are transferred to the Corporation by virtue of Part 2 of this Order and in respect of which a previous authority ceases to be the local planning authority responsible for exercising those functions.</p>
+								</content>
+							</subparagraph>
+							<subparagraph GUID="_824bbccd-0c80-41d0-a20b-9e4dded024e2" class="schProv2" eId="sched_1__para_1__subpara_2">
+								<num>(2)</num>
+								<content>
+									<p>Anything which was in the process of being done by, to or in relation to the previous authority in connection with any of the functions mentioned in sub-paragraph (1) before 1st June 2023 may be continued after that date by, to or in relation to the Corporation and, if continued, must be treated as having been done by, to or in relation to the Corporation.</p>
+								</content>
+							</subparagraph>
+							<subparagraph GUID="_64ea8e35-21a1-43d5-a227-3e3e2a6d5f65" class="schProv2" eId="sched_1__para_1__subpara_3">
+								<num>(3)</num>
+								<content>
+									<p>Nothing in sub-paragraph (2) requires the Corporation to continue with any step mentioned in that sub-paragraph.</p>
+								</content>
+							</subparagraph>
+						</paragraph>
+					</hcontainer>
+					<hcontainer GUID="_351fe0f0-3207-484d-9559-67eb689e4c23" class="schGroup7" eId="sched_1__xhdg_2" name="crossheading">
+						<heading GUID="_2e7880cc-1b37-467b-ad95-64a75a50ea43" eId="sched_1__xhdg_2__hdg">Transitional provision: planning applications</heading>
+						<paragraph GUID="_5ee28b85-2108-47c8-a8d7-2c7c328fbcc7" class="schProv1" eId="sched_1__para_2">
+							<num>2.</num>
+							<subparagraph GUID="_6a5ee9f5-7b2f-4ae5-bb8e-fd4bf2167d21" class="schProv2" eId="sched_1__para_2__subpara_1">
+								<num>(1)</num>
+								<intro GUID="_d1205ea9-4a24-4dec-ac34-724150f0dad9" eId="sched_1__para_2__subpara_1__intro">
+									<p>This paragraph applies as respects any application for planning permission or permission in principle, or for a consent, approval or determination under the 1990 Act, the Listed Buildings Act or the Hazardous Substances Act<authorialNote GUID="_f97bda6b-f09f-4a05-9034-5800245164d8" class="footnote" eId="fnote_29" marker="29">
+											<p>By virtue of section 3(4) of that Act, as amended by paragraph 38 of Schedule 22 to the Localism Act 2011, the Corporation is, subject to these transitional provisions, the hazardous substances authority for the development area.</p>
+										</authorialNote>, or under any order or regulation made or having effect under those Acts which—</p>
+								</intro>
+								<level GUID="_90d810f6-419e-4e03-bfab-c43c956e18c5" class="para1" eId="sched_1__para_2__subpara_1__para_a">
+									<num>(a)</num>
+									<content>
+										<p>relates in whole or in part to any land in the development area,</p>
+									</content>
+								</level>
+								<level GUID="_9fcccb0a-9dab-41f9-86e1-ad5c1fae4141" class="para1" eId="sched_1__para_2__subpara_1__para_b">
+									<num>(b)</num>
+									<content>
+										<p>was made before 1st June 2023 to a previous authority, and</p>
+									</content>
+								</level>
+								<level GUID="_f3bf9c75-9c5e-45c2-a7b3-7a7fbf8a61ac" class="para1" eId="sched_1__para_2__subpara_1__para_c">
+									<num>(c)</num>
+									<content>
+										<p>has not been determined by 1st June 2023.</p>
+									</content>
+								</level>
+							</subparagraph>
+							<subparagraph GUID="_e357bc22-8cbf-4f8e-b8fb-307295315549" class="schProv2" eId="sched_1__para_2__subpara_2">
+								<num>(2)</num>
+								<content>
+									<p>Subject to sub-paragraph (3), the previous authority must transmit any application to which this paragraph applies to the Corporation for determination.</p>
+								</content>
+							</subparagraph>
+							<subparagraph GUID="_ef941b28-b1b3-4951-963b-d33aeb659fdd" class="schProv2" eId="sched_1__para_2__subpara_3">
+								<num>(3)</num>
+								<intro GUID="_bd276ea2-8984-455d-bdde-a7f086b7e44f" eId="sched_1__para_2__subpara_3__intro">
+									<p>Where an application to which this paragraph applies is the subject of a direction made (whether before or after 1st June 2023) by the Secretary of State under section 77 of the 1990 Act<authorialNote GUID="_f079a0f7-3943-4e75-a809-ce147681933f" class="footnote" eId="fnote_52" marker="52">
+											<p>Section 77 was amended by paragraph 18 of Schedule 7 to the Planning and Compensation Act 1991, by paragraph 10 of Schedule 12 to the Localism Act 2011, by paragraph 11 of Schedule 4 to the Infrastructure Act 2015 (c. 7) (for certain purposes), by paragraph 20 of Schedule 12 to the Housing and Planning Act 2016, and by S.I. 2014/2773. It is prospectively amended by paragraph 2 of Schedule 10 to the Planning Act 2008 (c. 29) from a date and time to be appointed and by paragraph 11 of Schedule 4 to the Infrastructure Act 2015 for remaining purposes.</p>
+										</authorialNote> or section 12 of the Listed Buildings Act<authorialNote GUID="_b6f6fc4d-52f3-48f1-b76c-da643fe7b2de" class="footnote" eId="fnote_51" marker="51">
+											<p>Section 12 was amended by section 17 of the Transport and Works Act 1992 (c. 42) and S.I. 2014/2772. It is prospectively amended by paragraph 16 of Schedule 10 to the Planning Act 2008 from a date and time to be appointed.</p>
+										</authorialNote> requiring that the application be referred to the Secretary of State, the previous authority continues to be the local planning authority in respect of the application—</p>
+								</intro>
+								<level GUID="_79afce99-ba07-4dfa-86ad-a58fc637bd1f" class="para1" eId="sched_1__para_2__subpara_3__para_a">
+									<num>(a)</num>
+									<content>
+										<p>for the purposes of section 77 of the 1990 Act or section 12 of the Listed Buildings Act (as the case may be), and</p>
+									</content>
+								</level>
+								<level GUID="_532817c7-4dae-4042-84e6-f7e34639a9c7" class="para1" eId="sched_1__para_2__subpara_3__para_b">
+									<num>(b)</num>
+									<content>
+										<p>for the purposes of any Planning Inquiry Commission constituted by the Secretary of State under section 101 of the 1990 Act to inquire into the application.</p>
+									</content>
+								</level>
+							</subparagraph>
+							<subparagraph GUID="_0884770d-6700-4bdd-a10c-05b78a4a8b3b" class="schProv2" eId="sched_1__para_2__subpara_4">
+								<num>(4)</num>
+								<content>
+									<p>Where sub-paragraph (3) applies, the previous authority must notify the Corporation of the direction and transmit to the Secretary of State any representations received from the Corporation.</p>
+								</content>
+							</subparagraph>
+							<subparagraph GUID="_649bbae8-553d-416c-8f07-bceea5be3bc3" class="schProv2" eId="sched_1__para_2__subpara_5">
+								<num>(5)</num>
+								<intro GUID="_48ca39a0-d0d8-4e9d-a921-15a9cba95a67" eId="sched_1__para_2__subpara_5__intro">
+									<p>Where the previous authority transmits an application to which this paragraph applies to the Corporation for determination—</p>
+								</intro>
+								<level GUID="_f7ce58ef-a82a-4509-be4a-229a51883c04" class="para1" eId="sched_1__para_2__subpara_5__para_a">
+									<num>(a)</num>
+									<content>
+										<p>the previous authority must notify the applicant that the Corporation is to be the local planning authority for the application,</p>
+									</content>
+								</level>
+								<level GUID="_34331dbd-db6e-4c6e-8147-31739d98dbb0" class="para1" eId="sched_1__para_2__subpara_5__para_b">
+									<num>(b)</num>
+									<content>
+										<p>the application must be accompanied by a copy of any representations received concerning the application, and</p>
+									</content>
+								</level>
+								<level GUID="_420ea44e-7f60-415f-89ec-9ab6e420dcbb" class="para1" eId="sched_1__para_2__subpara_5__para_c">
+									<num>(c)</num>
+									<content>
+										<p>the application must be treated as received by the Corporation from the applicant on the day on which it is transmitted to the Corporation.</p>
+									</content>
+								</level>
+							</subparagraph>
+							<subparagraph GUID="_1020733c-5b04-4ef8-9b7e-503244fb2793" class="schProv2" eId="sched_1__para_2__subpara_6">
+								<num>(6)</num>
+								<content>
+									<p>Where any planning document has been, or is in the process of being, issued by the previous authority in relation to an application to which this paragraph applies before the day on which it is transmitted to the Corporation, no further planning document is required to be issued by the Corporation solely as a result of the transfer of functions to the Corporation by this Order.</p>
+								</content>
+							</subparagraph>
+						</paragraph>
+					</hcontainer>
+					<hcontainer GUID="_5db0240e-e328-41c7-983b-488b5cf85ed7" class="schGroup7" eId="sched_1__xhdg_3" name="crossheading">
+						<heading GUID="_1fa9061c-f589-4303-a011-ad8033657431" eId="sched_1__xhdg_3__hdg">Transition provision: enforcement action</heading>
+						<paragraph GUID="_799d0aa5-a89a-4676-a7a8-2bee019cb60f" class="schProv1" eId="sched_1__para_3">
+							<num>3.</num>
+							<subparagraph GUID="_e81a5404-d14a-4f8c-a54e-c7eee4836747" class="schProv2" eId="sched_1__para_3__subpara_1">
+								<num>(1)</num>
+								<intro GUID="_945935b9-a441-43aa-bb4c-2894c8015f81" eId="sched_1__para_3__subpara_1__intro">
+									<p>This paragraph applies where a previous authority has before 1st June 2023 in relation to any land in the development area—</p>
+								</intro>
+								<level GUID="_7f0d9710-ca2f-4987-89d0-d2d8f62a9f0f" class="para1" eId="sched_1__para_3__subpara_1__para_a">
+									<num>(a)</num>
+									<content>
+										<p>issued an enforcement notice under section 172 of the 1990 Act<authorialNote GUID="_38f7a7a1-e0f3-42f2-877f-3c9d96810f92" class="footnote" eId="fnote_30" marker="30">
+												<p>Section 172 was substituted by section 5(1) of the Planning and Compensation Act 1991.</p>
+											</authorialNote>,</p>
+									</content>
+								</level>
+								<level GUID="_5f8075b9-9d6b-480e-b831-7c2d083683ed" class="para1" eId="sched_1__para_3__subpara_1__para_b">
+									<num>(b)</num>
+									<content>
+										<p>served a stop notice under section 183 of the 1990 Act<authorialNote GUID="_92a8c28c-e1aa-4bdb-a94e-76863bdab914" class="footnote" eId="fnote_31" marker="31">
+												<p>Section 183 was amended by section 9(1) of the Planning and Compensation Act 1991.</p>
+											</authorialNote>,</p>
+									</content>
+								</level>
+								<level GUID="_bef4f33b-bcf4-4d39-b52d-ba53c5bc8f7b" class="para1" eId="sched_1__para_3__subpara_1__para_c">
+									<num>(c)</num>
+									<content>
+										<p>served a breach of condition notice under section 187A of the 1990 Act<authorialNote GUID="_6a91a2fd-c86e-4097-8827-266355b5ebe0" class="footnote" eId="fnote_32" marker="32">
+												<p>Section 187A was inserted by section 2 of the Planning and Compensation Act 1991 and amended by section 126(2) of the Localism Act 2011.</p>
+											</authorialNote>,</p>
+									</content>
+								</level>
+								<level GUID="_1015d934-524e-4878-8043-0c987c96fbc3" class="para1" eId="sched_1__para_3__subpara_1__para_d">
+									<num>(d)</num>
+									<content>
+										<p>served a notice requiring the replacement of trees under section 207 of the 1990 Act<authorialNote GUID="_1d6643a7-0e2f-4191-bf93-7c581215ffba" class="footnote" eId="fnote_33" marker="33">
+												<p>Section 207 was amended by section 23(1) of the Planning and Compensation Act 1991and by paragraph 12 of Schedule 8 to the Planning Act 2008.</p>
+											</authorialNote>,</p>
+									</content>
+								</level>
+								<level GUID="_92fb6fb7-c18e-499d-a9d6-c82fc249b642" class="para1" eId="sched_1__para_3__subpara_1__para_e">
+									<num>(e)</num>
+									<content>
+										<p>served a notice requiring steps for remedying the condition of land under section 215 of the 1990 Act,</p>
+									</content>
+								</level>
+								<level GUID="_92d763aa-90b5-412e-8ada-f2d60734098a" class="para1" eId="sched_1__para_3__subpara_1__para_f">
+									<num>(f)</num>
+									<content>
+										<p>issued a listed building enforcement notice under section 38 of the Listed Buildings Act<authorialNote GUID="_6a5a1d22-10f1-4007-94d1-52aaf2eef59c" class="footnote" eId="fnote_34" marker="34">
+												<p>Section 38 was amended by paragraphs 2 and 19 of Schedule 3 to the Planning and Compensation Act 1991.</p>
+											</authorialNote>, or</p>
+									</content>
+								</level>
+								<level GUID="_2a768e99-6690-41b2-a06c-924fddd8bf3e" class="para1" eId="sched_1__para_3__subpara_1__para_g">
+									<num>(g)</num>
+									<content>
+										<p>served a discontinuance notice under regulation 8 of the Town and Country Planning (Control of Advertisements) (England) Regulations 2007<authorialNote GUID="_ed045459-f30e-4d30-a461-4ad3170f964a" class="footnote" eId="fnote_35" marker="35">
+												<p>S.I. 2007/783, to which there are amendments not relevant to this Order.</p>
+											</authorialNote>.</p>
+									</content>
+								</level>
+							</subparagraph>
+							<subparagraph GUID="_c8c1992a-f81a-4734-9b34-444232330217" class="schProv2" eId="sched_1__para_3__subpara_2">
+								<num>(2)</num>
+								<intro GUID="_f8f288be-d9ee-416a-9abe-c6338ab2b541" eId="sched_1__para_3__subpara_2__intro">
+									<p>The previous authority continues to be the local planning authority for the purposes of the notice—</p>
+								</intro>
+								<level GUID="_05ecaf02-9a67-462e-8f13-9059b66e62d6" class="para1" eId="sched_1__para_3__subpara_2__para_a">
+									<num>(a)</num>
+									<content>
+										<p>in the case of an enforcement notice, until the end of the period for compliance with the notice (construed in accordance with section 173(9) of the 1990 Act);</p>
+									</content>
+								</level>
+								<level GUID="_a617a3df-f4a1-4a96-8118-d29894b7c204" class="para1" eId="sched_1__para_3__subpara_2__para_b">
+									<num>(b)</num>
+									<content>
+										<p>in the case of a stop notice, until the notice ceases to have effect (construed in accordance with section 184(4) or 184(5) of the 1990 Act<authorialNote GUID="_82a6d97c-cd9c-4876-8cb9-97ab327eb980" class="footnote" eId="fnote_36" marker="36">
+												<p>Section 184(4) and (5) was amended by paragraph 28 of Schedule 7 to the Planning and Compensation Act 1991.</p>
+											</authorialNote>);</p>
+									</content>
+								</level>
+								<level GUID="_2fde2eac-4460-4c6e-b7af-0de4e879d556" class="para1" eId="sched_1__para_3__subpara_2__para_c">
+									<num>(c)</num>
+									<content>
+										<p>in the case of a breach of condition notice, until the end of the period for compliance with the notice (construed in accordance with section 187A(7) of the 1990 Act);</p>
+									</content>
+								</level>
+								<level GUID="_a1de18d4-089c-412f-bb88-3f40ab66e403" class="para1" eId="sched_1__para_3__subpara_2__para_d">
+									<num>(d)</num>
+									<content>
+										<p>in the case of notice requiring the replacement of trees, until the end of the period for compliance (construed in accordance with section 207(3) of the 1990 Act);</p>
+									</content>
+								</level>
+								<level GUID="_ad306d53-6703-4f5f-944c-3e582b586366" class="para1" eId="sched_1__para_3__subpara_2__para_e">
+									<num>(e)</num>
+									<content>
+										<p>in the case of a notice requiring steps for remedying the condition of land, until the end of the period for compliance with the notice (construed in accordance with section 216(7) of the 1990 Act);</p>
+									</content>
+								</level>
+								<level GUID="_8277a041-5f74-4618-a92a-9752f7cf1ac7" class="para1" eId="sched_1__para_3__subpara_2__para_f">
+									<num>(f)</num>
+									<content>
+										<p>in the case of a listed building enforcement notice, until the end of the period for compliance with the notice (construed in accordance with section 38(3) of the Listed Buildings Act);</p>
+									</content>
+								</level>
+								<level GUID="_72b825d9-a883-4b65-a57e-5c47291544bb" class="para1" eId="sched_1__para_3__subpara_2__para_g">
+									<num>(g)</num>
+									<content>
+										<p>in the case of a discontinuance notice, until the end of the period within which the display or the use of the site, as the case may be, is to be discontinued (construed in accordance with regulation 8(3)(c) of the Town and Country Planning (Control of Advertisements) (England) Regulations 2007).</p>
+									</content>
+								</level>
+							</subparagraph>
+							<subparagraph GUID="_db68b8a4-3b57-4311-b6c4-c859d70975b7" class="schProv2" eId="sched_1__para_3__subpara_3">
+								<num>(3)</num>
+								<content>
+									<p>The previous authority must transmit a copy of the notice to the Corporation.</p>
+								</content>
+							</subparagraph>
+						</paragraph>
+					</hcontainer>
+					<hcontainer GUID="_02f1f40b-36d6-48c1-8815-0aeb52619f14" class="schGroup7" eId="sched_1__xhdg_4" name="crossheading">
+						<heading GUID="_852c1e91-ad9b-4b61-9d18-5d220bdf5da9" eId="sched_1__xhdg_4__hdg">Transitional provision: planning appeals</heading>
+						<paragraph GUID="_03c9ee95-cc41-443d-b899-acfa1682017e" class="schProv1" eId="sched_1__para_4">
+							<num>4.</num>
+							<subparagraph GUID="_3ed2d31a-958f-4673-96be-683f4cd3d2c0" class="schProv2" eId="sched_1__para_4__subpara_1">
+								<num>(1)</num>
+								<intro GUID="_893f74ea-b03c-4af7-bc43-2c5c3d5675bb" eId="sched_1__para_4__subpara_1__intro">
+									<p>This paragraph applies where an appeal is made to the Secretary of State under—</p>
+								</intro>
+								<level GUID="_72c45f7b-901a-45cc-b4c9-bc4fc99dfef5" class="para1" eId="sched_1__para_4__subpara_1__para_a">
+									<num>(a)</num>
+									<content>
+										<p>section 78, 174 or 208(1) of the 1990 Act,</p>
+									</content>
+								</level>
+								<level GUID="_34ce1890-182c-4bed-998c-3cdb30c361ce" class="para1" eId="sched_1__para_4__subpara_1__para_b">
+									<num>(b)</num>
+									<content>
+										<p>section 20 of the Listed Buildings Act<authorialNote GUID="_f41fb9c1-3642-4750-bffa-311dc4ae319c" class="footnote" eId="fnote_38" marker="38">
+												<p>Section 20 was amended by sections 43(4)(a) and 43(4)(b) of the Planning and Compulsory Purchase Act 2004 (c. 5). It is prospectively amended by paragraph 17 of Schedule 10 to the Planning Act 2008 from a date and time to be appointed.</p>
+											</authorialNote>,</p>
+									</content>
+								</level>
+								<level GUID="_445081df-deb7-4560-b7e3-e872c83e52d3" class="para1" eId="sched_1__para_4__subpara_1__para_c">
+									<num>(c)</num>
+									<content>
+										<p>section 21 of the Hazardous Substances Act<authorialNote GUID="_bd5770f3-3b45-461b-94dd-61b11018a8b6" class="footnote" eId="fnote_39" marker="39">
+												<p>Section 21 was amended by Part 8 of Schedule 16 to the Environmental Protection Act 1990 (c. 43) and by paragraph 6 of Schedule 11 to the Planning Act 2008 Act. It is prospectively amended by paragraph 27 of Schedule 10 to the Planning Act 2008 from a date and time to be appointed.</p>
+											</authorialNote>, or</p>
+									</content>
+								</level>
+								<level GUID="_0eb01f11-eaa6-4573-8c94-063a30cf3432" class="para1" eId="sched_1__para_4__subpara_1__para_d">
+									<num>(d)</num>
+									<content>
+										<p>regulation 19(1) of the Tree Preservation Regulations,</p>
+									</content>
+								</level>
+								<wrapUp GUID="_fc799b6c-795a-4052-98e1-064a449bbfd2" eId="sched_1__para_4__subpara_1__wrapup">
+									<p>in respect of a decision or notice, or failure to make a decision or give notice by a previous authority in relation to any land in the development area before 1st June 2023.</p>
+								</wrapUp>
+							</subparagraph>
+							<subparagraph GUID="_221ab0c8-2839-4bd8-877b-0b2dfceb9190" class="schProv2" eId="sched_1__para_4__subpara_2">
+								<num>(2)</num>
+								<intro GUID="_e3acea65-877d-4331-ad3c-5b281d63a72b" eId="sched_1__para_4__subpara_2__intro">
+									<p>The previous authority—</p>
+								</intro>
+								<level GUID="_6499a343-8a3b-408b-8ee7-e25772dad3a0" class="para1" eId="sched_1__para_4__subpara_2__para_a">
+									<num>(a)</num>
+									<content>
+										<p>continues to be the local planning authority for the purposes of the appeal,</p>
+									</content>
+								</level>
+								<level GUID="_6a5387f8-5396-471f-9bd4-d1cef81c6f64" class="para1" eId="sched_1__para_4__subpara_2__para_b">
+									<num>(b)</num>
+									<content>
+										<p>must notify the Corporation of the appeal, and</p>
+									</content>
+								</level>
+								<level GUID="_6b56eeb8-ada0-4f0c-934c-28e4c1e06593" class="para1" eId="sched_1__para_4__subpara_2__para_c">
+									<num>(c)</num>
+									<content>
+										<p>must transmit to the Secretary of State any representation from the Corporation.</p>
+									</content>
+								</level>
+							</subparagraph>
+						</paragraph>
+					</hcontainer>
+					<hcontainer GUID="_1a55abf7-55e8-425a-a8bb-694ea3921d3a" class="schGroup7" eId="sched_1__xhdg_5" name="crossheading">
+						<heading GUID="_da742dc2-4dd3-4d62-b933-1db52060b3ab" eId="sched_1__xhdg_5__hdg">Transitional provision: compensation in connection with planning functions</heading>
+						<paragraph GUID="_796eead8-ad3e-4c6d-8991-3282886809a3" class="schProv1" eId="sched_1__para_5">
+							<num>5.</num>
+							<subparagraph GUID="_9af9dcd7-30e8-454d-a3a9-4e200dc1dd28" class="schProv2" eId="sched_1__para_5__subpara_1">
+								<num>(1)</num>
+								<content>
+									<p>Where a right to compensation arises under section 107, 108, 115 or 186 of the 1990 Act<authorialNote GUID="_41e45c70-3f46-4c52-bd65-b38e4dc59903" class="footnote" eId="fnote_40" marker="40">
+											<p>Section 107 was amended by paragraph 8 of Schedule 1 and paragraph 13 of Schedule 6 to the Planning and Compensation Act 1991 and by paragraph 28 of Schedule 12 to the Housing and Planning Act 2016. Section 108 was amended by section 13(3) of the Planning and Compensation Act 1991, by section 40 of, and by paragraph 6 of Schedule 6 to, the Planning and Compulsory Purchase Act 2004, by section 189 of the Planning Act 2008 , by paragraph 15 of Schedule 12 to the Localism Act 2011, by paragraph 3 of Schedule 17 to the Enterprise and Regulatory Reform Act 2013 (c. 24), by paragraph 15 of Schedule 4 to the Infrastructure Act 2015, by paragraph 29 of Schedule 12 to the Housing and Planning Act 2016, and by S.I. 2006/1281. Section 186 was amended by section 9(3) of and paragraph 29 of Schedule 7 to, the Planning Compensation Act 1991 and by S.I. 2009/1307. Regulation 26 of S.I. 2012/605 make transitional provision in respect of these sections.</p>
+										</authorialNote>, section 28 or 29 of the Listed Buildings Act or regulation 24 of the Tree Preservation Regulations  in consequence of action taken in relation to any land in the development area by a previous authority, the liability to pay compensation lies with that authority.</p>
+								</content>
+							</subparagraph>
+							<subparagraph GUID="_bebef7ff-23b3-4c40-92c5-27110f613f2f" class="schProv2" eId="sched_1__para_5__subpara_2">
+								<num>(2)</num>
+								<intro GUID="_95d3908d-6adf-4513-8e5b-b2bb587c237d" eId="sched_1__para_5__subpara_2__intro">
+									<p>Where—</p>
+								</intro>
+								<level GUID="_3b1a0eae-ff5e-4365-a667-c5cb7af6a93e" class="para1" eId="sched_1__para_5__subpara_2__para_a">
+									<num>(a)</num>
+									<intro GUID="_62b7f38d-84ae-4935-82a2-113ab3ca8f62" eId="sched_1__para_5__subpara_2__para_a__intro">
+										<p>the Secretary of State makes a determination—</p>
+									</intro>
+									<level GUID="_a4036df8-7501-423e-94ca-f1e4a14cc34f" class="para2" eId="sched_1__para_5__subpara_2__para_a__subpara_i">
+										<num>(i)</num>
+										<content>
+											<p>of an appeal against action taken by such an authority as is mentioned in sub-paragraph (1), or</p>
+										</content>
+									</level>
+									<level GUID="_4032d576-0a1b-49e0-8b6a-9ede1c5f5f76" class="para2" eId="sched_1__para_5__subpara_2__para_a__subpara_ii">
+										<num>(ii)</num>
+										<content>
+											<p>on a reference made to the Secretary of State by such an authority, and</p>
+										</content>
+									</level>
+								</level>
+								<level GUID="_1e2b7760-99b1-4a5d-a1a9-21e1c6e12847" class="para1" eId="sched_1__para_5__subpara_2__para_b">
+									<num>(b)</num>
+									<content>
+										<p>that determination gives right to a right of compensation,</p>
+									</content>
+								</level>
+								<wrapUp GUID="_5bb71647-becf-4669-9479-80f91d4f2fad" eId="sched_1__para_5__subpara_2__wrapup">
+									<p>that authority is liable to pay the compensation.</p>
+								</wrapUp>
+							</subparagraph>
+							<subparagraph GUID="_326143e1-2986-4763-b2f2-9afa12752708" class="schProv2" eId="sched_1__para_5__subpara_3">
+								<num>(3)</num>
+								<content>
+									<p>Where the Secretary of State makes an order under section 100 of the 1990 Act<authorialNote GUID="_726d05ce-089c-4256-b60e-d60fa398c2c6" class="footnote" eId="fnote_41" marker="41">
+											<p>Section 100 was amended by paragraph 5 of Schedule 1 to the Planning and Compensation Act 1991 and by S.I. 2017/276.</p>
+										</authorialNote> in respect of any permission to develop any land in the development area granted before 1st June 2023, the previous authority in relation to that land when the permission was granted is liable to pay any compensation arising from the order.</p>
+								</content>
+							</subparagraph>
+							<subparagraph GUID="_2ead5a66-e4a3-4394-8cec-81319840b588" class="schProv2" eId="sched_1__para_5__subpara_4">
+								<num>(4)</num>
+								<intro GUID="_27fe8f0d-90ab-483a-b755-438f7115dae4" eId="sched_1__para_5__subpara_4__intro">
+									<p>Where before 1st June 2023 the Secretary of State—</p>
+								</intro>
+								<level GUID="_84fc2f85-a0e6-4483-a278-6aa1dec72bbd" class="para1" eId="sched_1__para_5__subpara_4__para_a">
+									<num>(a)</num>
+									<content>
+										<p>makes an order under section 104 or 202 of, or paragraph 11 of Schedule 9 to, the 1990 Act<authorialNote GUID="_d1a970f7-4bfa-481a-9e86-e5b8801c7648" class="footnote" eId="fnote_42" marker="42">
+												<p>Section 202 was amended by section 192(5) of, and paragraph 10 of Schedule 8 to, the Planning Act 2008.</p>
+											</authorialNote> in respect of any land in the development area, or</p>
+									</content>
+								</level>
+								<level GUID="_2061d50a-94d0-498f-bc57-b1b486ffddea" class="para1" eId="sched_1__para_5__subpara_4__para_b">
+									<num>(b)</num>
+									<content>
+										<p>serves a notice under section 185 of that Act in respect of any land in the development area,</p>
+									</content>
+								</level>
+								<wrapUp GUID="_b612a7da-5ed9-4248-af26-61aae1045b8b" eId="sched_1__para_5__subpara_4__wrapup">
+									<p>the previous authority in relation to that land when the order was made or notice was served (as the case may be) is liable to pay any compensation arising from the order or notice.</p>
+								</wrapUp>
+							</subparagraph>
+						</paragraph>
+					</hcontainer>
+					<hcontainer GUID="_f7dff1f0-e92e-4d78-bceb-c5f3380eea8b" class="schGroup7" eId="sched_1__xhdg_6" name="crossheading">
+						<heading GUID="_d0d78f3d-059d-4009-99be-3d68eeec1c18" eId="sched_1__xhdg_6__hdg">Transitional provision: section 106 agreements</heading>
+						<paragraph GUID="_c25e53a0-416c-4642-b32a-1845ca1a89ad" class="schProv1" eId="sched_1__para_6">
+							<num>6.</num>
+							<intro GUID="_41aba001-5174-4cbc-a171-590dc3545f22" eId="sched_1__para_6__intro">
+								<p>Where before 1st June 2023 a planning obligation entered into by agreement or otherwise under section 106 of the 1990 Act<authorialNote GUID="_4b8bbd48-6a90-4516-9b5f-419cde2af1ec" class="footnote" eId="fnote_43" marker="43">
+										<p>Section 106 was substituted by section 12 of the Planning and Compensation Act 1991, and was amended by section 33 of the Greater London Authority Act 2007 (c. 24), by section 174 of the Planning Act 2008 and by paragraph 3 of Schedule 2 to the Growth and Infrastructure Act 2013 (c. 27). It is prospectively amended by section 158(3) of the Housing and Planning Act 2016, and by paragraph 3 of Schedule 14 to the Environment Act 2021 (c. 30), from a date and time to be appointed.</p>
+									</authorialNote>—</p>
+							</intro>
+							<level GUID="_0ecefeb3-02c8-4b21-918d-6f42144ad256" class="para1" eId="sched_1__para_6__para_a">
+								<num>(a)</num>
+								<content>
+									<p>relates to any land in the development area, and</p>
+								</content>
+							</level>
+							<level GUID="_44fc3690-0af6-4ed4-ab65-e8e9246c65c2" class="para1" eId="sched_1__para_6__para_b">
+								<num>(b)</num>
+								<content>
+									<p>identifies a previous authority as the local planning authority by whom that obligation is enforceable,</p>
+								</content>
+							</level>
+							<wrapUp GUID="_d2a852f5-9c75-402d-8e43-0dc9a863cd18" eId="sched_1__para_6__wrapup">
+								<p>that obligation is enforceable by the Corporation.</p>
+							</wrapUp>
+						</paragraph>
+					</hcontainer>
+					<hcontainer GUID="_267c6835-c37f-42ed-8d74-d4b2087919f7" class="schGroup7" eId="sched_1__xhdg_7" name="crossheading">
+						<heading GUID="_b8bb6402-8219-4800-94b7-76e0fb9313e9" eId="sched_1__xhdg_7__hdg">Transitional provision: local development orders</heading>
+						<paragraph GUID="_394ca9cc-6940-4ff7-bb22-f7b317611426" class="schProv1" eId="sched_1__para_7">
+							<num>7.</num>
+							<subparagraph GUID="_865987de-ac46-41bb-91f3-6b7cee0f0b49" class="schProv2" eId="sched_1__para_7__subpara_1">
+								<num>(1)</num>
+								<content>
+									<p>Any local development order adopted under section 61A of the 1990 Act<authorialNote GUID="_f8fa1ebb-e2f9-463e-a3a7-2d6de822eb90" class="footnote" eId="fnote_44" marker="44">
+											<p>Section 61A was inserted by section 40 of the Planning and Compulsory Purchase Act 2004, and amended by section 188 of the Planning Act 2008.</p>
+										</authorialNote> by a previous authority in relation to the development area (or part of it) before 1st June 2023 has effect on or after that date as if it had been made by the Corporation.</p>
+								</content>
+							</subparagraph>
+							<subparagraph GUID="_91420cca-4cdc-4d20-8910-5fda1d68109c" class="schProv2" eId="sched_1__para_7__subpara_2">
+								<num>(2)</num>
+								<content>
+									<p>Nothing in sub-paragraph (1) affects any power of the Secretary of State or the Corporation to revoke a document to which that paragraph relates.</p>
+								</content>
+							</subparagraph>
+							<subparagraph GUID="_8a73cfea-0119-46b5-a401-83130a3c5740" class="schProv2" eId="sched_1__para_7__subpara_3">
+								<num>(3)</num>
+								<intro GUID="_f76ae00c-26d6-478f-85b9-c64e9f78d05c" eId="sched_1__para_7__subpara_3__intro">
+									<p>Where before 1st June 2023 a previous authority has taken or started any step in relation to the preparation of a local development order which relates to the development area (or part of it)—</p>
+								</intro>
+								<level GUID="_427b1fa6-b14c-462b-9894-c14acb6c7e07" class="para1" eId="sched_1__para_7__subpara_3__para_a">
+									<num>(a)</num>
+									<content>
+										<p>that step must be treated on or after 1st June 2023 as a step taken or started by the Corporation, and</p>
+									</content>
+								</level>
+								<level GUID="_368f82eb-7273-4165-9142-3542345e074f" class="para1" eId="sched_1__para_7__subpara_3__para_b">
+									<num>(b)</num>
+									<content>
+										<p>the previous authority must transmit a copy of any representations received concerning that draft order to the Corporation.</p>
+									</content>
+								</level>
+							</subparagraph>
+							<subparagraph GUID="_138aad3d-a88d-47bc-a57a-99a2dfe5239f" class="schProv2" eId="sched_1__para_7__subpara_4">
+								<num>(4)</num>
+								<content>
+									<p>Where any planning document has been, or is in the process of being, issued by the planning authority in relation to the draft order referred to in sub-paragraph (3), no further planning document is required to be issued by the Corporation solely as a result of the transfer of functions to the Corporation by this Order.</p>
+								</content>
+							</subparagraph>
+						</paragraph>
+					</hcontainer>
+					<hcontainer GUID="_8913ca6f-10c5-4490-9e7d-8d14f7b424ac" class="schGroup7" eId="sched_1__xhdg_8" name="crossheading">
+						<heading GUID="_eb511d17-de0c-4f7a-88c4-0ac864d4aec6" eId="sched_1__xhdg_8__hdg">Transitional provision: neighbourhood planning</heading>
+						<paragraph GUID="_482cfd2b-c84b-40d5-b4ae-8d59714a2733" class="schProv1" eId="sched_1__para_8">
+							<num>8.</num>
+							<subparagraph GUID="_fb70317d-70d5-4f6a-957f-71a882cc7456" class="schProv2" eId="sched_1__para_8__subpara_1">
+								<num>(1)</num>
+								<intro GUID="_9158fb35-7b22-4a34-922b-7267563d4d37" eId="sched_1__para_8__subpara_1__intro">
+									<p>This paragraph applies as respects any area application, neighbourhood forum application or order proposal which—</p>
+								</intro>
+								<level GUID="_27cc6d5a-8385-40bd-bbc5-92c715d135f2" class="para1" eId="sched_1__para_8__subpara_1__para_a">
+									<num>(a)</num>
+									<content>
+										<p>relates in whole or in part to land in the development area,</p>
+									</content>
+								</level>
+								<level GUID="_ca017fb7-d49d-4d99-ab08-3a2ed85bad79" class="para1" eId="sched_1__para_8__subpara_1__para_b">
+									<num>(b)</num>
+									<content>
+										<p>was made before 1st June 2023 to the previous authority, and</p>
+									</content>
+								</level>
+								<level GUID="_23cd8fe8-e5cb-498e-81ed-93bf4a681347" class="para1" eId="sched_1__para_8__subpara_1__para_c">
+									<num>(c)</num>
+									<content>
+										<p>has not been determined by that date.</p>
+									</content>
+								</level>
+							</subparagraph>
+							<subparagraph GUID="_bfafa587-0fc0-4af3-be24-7ac46fe27056" class="schProv2" eId="sched_1__para_8__subpara_2">
+								<num>(2)</num>
+								<intro GUID="_0c9538c2-5585-4999-afb3-3552bc1a4025" eId="sched_1__para_8__subpara_2__intro">
+									<p>The application or proposal referred to in paragraph (1) is treated as if it had been made—</p>
+								</intro>
+								<level GUID="_1f8a228d-f1d2-410f-a910-1f382e79792e" class="para1" eId="sched_1__para_8__subpara_2__para_a">
+									<num>(a)</num>
+									<content>
+										<p>in relation to such of the development area as corresponds to the area, or part of the area, to which the document relates, to the Corporation, and</p>
+									</content>
+								</level>
+								<level GUID="_fc324c60-027a-46a4-a899-bb7072ec93cb" class="para1" eId="sched_1__para_8__subpara_2__para_b">
+									<num>(b)</num>
+									<content>
+										<p>in relation to such of its area outside of the development area as corresponds to the area, or part of the area, to which the document relates, to the previous authority.</p>
+									</content>
+								</level>
+							</subparagraph>
+							<subparagraph GUID="_e094c4b5-4094-42a9-b57e-4039d5696c32" class="schProv2" eId="sched_1__para_8__subpara_3">
+								<num>(3)</num>
+								<content>
+									<p>The previous authority must transmit any application or proposal referred to in paragraph (1) to the Corporation for determination.</p>
+								</content>
+							</subparagraph>
+							<subparagraph GUID="_48c06205-736d-4ade-af7f-ca8b02f1835b" class="schProv2" eId="sched_1__para_8__subpara_4">
+								<num>(4)</num>
+								<intro GUID="_e831cc8d-44a1-4bd0-9a49-855d7182becf" eId="sched_1__para_8__subpara_4__intro">
+									<p>In this paragraph and paragraph 9—</p>
+								</intro>
+								<hcontainer GUID="_7c0dfbc3-8020-414e-92cc-8e0076ba02c1" class="definition" eId="sched_1__para_8__subpara_4__def_areaapplication_" name="definition">
+									<content>
+										<p><def GUID="_7542bb21-aecc-45cf-9c68-4bc890d978b3" eId="sched_1__para_8__subpara_4__def_areaapplication" ukl:endQuote="”" ukl:startQuote="“">area application</def> means an application for the designation of a neighbourhood development area made under section 61G of the 1990 Act<authorialNote GUID="_021417a6-5dfe-4621-9713-b54767cb9f2b" class="footnote" eId="fnote_59" marker="59">
+												<p>Section 61G was inserted by paragraph 2 of Part 1 of Schedule 9 to the 2011 Act and amended by section 5(3) of the Neighbourhood Planning Act 2017 (c. 20) and section 139 of the Housing and Planning Act 2016.</p>
+											</authorialNote>;</p>
+									</content>
+								</hcontainer>
+								<hcontainer GUID="_a9532a14-5a4c-4645-a241-4419fc7c2c6b" class="definition" eId="sched_1__para_8__subpara_4__def_neighbourhoodforumapplication_" name="definition">
+									<content>
+										<p><def GUID="_b0a6d363-baf2-473e-8d67-7c329d79a1e2" eId="sched_1__para_8__subpara_4__def_neighbourhoodforumapplication" ukl:endQuote="”" ukl:startQuote="“">neighbourhood forum application</def> means an application for designation of a neighbourhood forum made by an organisation or body under section 61F of the 1990 Act<authorialNote GUID="_5392e725-1709-4b76-9ea4-1b8a2eb27e86" class="footnote" eId="fnote_60" marker="60">
+												<p>Section 61F was inserted by paragraph 2 of Part 1 of Schedule 9 to the Localism Act 2011, and amended by section 5(2) of the Neighbourhood Planning Act 2017.</p>
+											</authorialNote>;</p>
+									</content>
+								</hcontainer>
+								<hcontainer GUID="_fd779570-2d98-4068-b444-698a932397d5" class="definition" eId="sched_1__para_8__subpara_4__def_orderproposal_" name="definition">
+									<content>
+										<p><def GUID="_8f073cbd-14c8-4719-8431-d7a0298e3562" eId="sched_1__para_8__subpara_4__def_orderproposal" ukl:endQuote="”" ukl:startQuote="“">order proposal</def> means a proposal for a neighbourhood development order for the purposes of section 61E of the 1990 Act<authorialNote GUID="_b9a04858-3a05-410a-9fd6-d043a3dc20ca" class="footnote" eId="fnote_61" marker="61">
+												<p>Section 61E was inserted by paragraph 2 of Part 1 of Schedule 9 to the Localism Act 2011 and amended by section 140(2) of the Housing and Planning Act 2016 and S.I. 2018/1232.</p>
+											</authorialNote> submitted by a qualifying body<authorialNote GUID="_1c678e0c-7e58-4a84-bb77-708e251864e2" class="footnote" eId="fnote_62" marker="62">
+												<p>For the purposes of neighbourhood development orders, the definition of “qualifying body” is in section 61E(6) of the Town and Country Planning Act 1990. A “community organisation” is to be regarded as a qualifying body (see paragraph 4(2) of Schedule 4C to the Town and Country Planning Act 1990).</p>
+											</authorialNote> under paragraph 1 of Schedule 4B to the 1990 Act<authorialNote GUID="_1ec3b5df-e02a-43db-a6cc-662f978fa37d" class="footnote" eId="fnote_63" marker="63">
+												<p>Schedule 4B was inserted by Schedule 10 to the Localism Act 2011.</p>
+											</authorialNote> or a community right to build order submitted by a community organisation<authorialNote GUID="_f5c387b9-8342-46aa-a4b7-d26da74d2a85" class="footnote" eId="fnote_64" marker="64">
+												<p>The definition of “community organisation” is in paragraph 3 of Schedule 4C to the Town and Country Planning Act 1990.</p>
+											</authorialNote> under paragraph 1 of Schedule 4B to the 1990 Act, as read with paragraph 2 of Schedule 4C to the 1990 Act<authorialNote GUID="_fc8e770b-6fc8-4eac-aae4-25d4bfe37a04" class="footnote" eId="fnote_65" marker="65">
+												<p>Schedule 4C was inserted by Schedule 11 to the Localism Act 2011.</p>
+											</authorialNote>.</p>
+									</content>
+								</hcontainer>
+							</subparagraph>
+						</paragraph>
+						<paragraph GUID="_023fb171-b0fe-43e2-ab28-1c0f6985fcfd" class="schProv1" eId="sched_1__para_9">
+							<num>9.</num>
+							<subparagraph GUID="_235796c9-3879-4af4-8d9c-c105d867a8dc" class="schProv2" eId="sched_1__para_9__subpara_1">
+								<num>(1)</num>
+								<intro GUID="_499d9a0e-f9c0-4036-8659-381b0948ca6c" eId="sched_1__para_9__subpara_1__intro">
+									<p>Any step taken or started before 1st June 2023 by a previous authority in relation to an area application, neighbourhood forum application or order proposal transmitted to the Corporation under paragraph 8(3) is to be treated on and after that date as a step taken or started—</p>
+								</intro>
+								<level GUID="_fbd7ea4b-4931-4e5d-b09c-ed244391c428" class="para1" eId="sched_1__para_9__subpara_1__para_a">
+									<num>(a)</num>
+									<content>
+										<p>in relation to the development area, or part of the development area, as corresponds to the area, or part of the area, to which that document relates, by the Corporation, and</p>
+									</content>
+								</level>
+								<level GUID="_1a5d7ccc-6526-4212-b17a-fa6c7a70ee17" class="para1" eId="sched_1__para_9__subpara_1__para_b">
+									<num>(b)</num>
+									<content>
+										<p>in relation to such of its area outside of the development area, or part of the development area, as corresponds to the area, or part of the area, to which that document relates, by the previous authority.</p>
+									</content>
+								</level>
+							</subparagraph>
+							<subparagraph GUID="_c0a2ad24-338f-4849-8cb1-7ef3d8db85c2" class="schProv2" eId="sched_1__para_9__subpara_2">
+								<num>(2)</num>
+								<content>
+									<p>Where the previous authority transmits an area application, neighbourhood forum application or order proposal to the Corporation for determination under paragraph 8(3), the application must be accompanied by a copy of any representations received by the previous authority concerning the application or proposal.</p>
+								</content>
+							</subparagraph>
+							<subparagraph GUID="_1313bce8-5cc6-40cc-a3df-7419e3ee7868" class="schProv2" eId="sched_1__para_9__subpara_3">
+								<num>(3)</num>
+								<content>
+									<p>Where any planning document has been, or is in the process of being, issued by the previous authority in relation to an area application, neighbourhood forum application or order proposal before the day on which it is transmitted to the Corporation under paragraph 8(3), no further planning document is required to be issued by the Corporation solely because the application or proposal has been transmitted.</p>
+								</content>
+							</subparagraph>
+							<subparagraph GUID="_cd9b5435-460d-40e5-a119-76cc62e3b090" class="schProv2" eId="sched_1__para_9__subpara_4">
+								<num>(4)</num>
+								<intro GUID="_1d0c9e33-5757-48ec-99c7-d92a18714ef1" eId="sched_1__para_9__subpara_4__intro">
+									<p>Where an order proposal transmitted to the Corporation under paragraph 8(3) has been submitted for examination under paragraph 7 of Schedule 4B to the 1990 Act before 1st June 2023 and the person appointed to carry out that examination has not at that date made their recommendations—</p>
+								</intro>
+								<level GUID="_1ca289fa-1668-4cd5-8a70-bf857f90f869" class="para1" eId="sched_1__para_9__subpara_4__para_a">
+									<num>(a)</num>
+									<content>
+										<p>nothing in this Order prevents that person from deciding that the document meets the requirements set out in paragraph 8 of that Schedule, and</p>
+									</content>
+								</level>
+								<level GUID="_0a6c38c8-fc14-458d-937b-cc857c5b1e9c" class="para1" eId="sched_1__para_9__subpara_4__para_b">
+									<num>(b)</num>
+									<content>
+										<p>that person must send their recommendations to both the Corporation and the previous authority.</p>
+									</content>
+								</level>
+							</subparagraph>
+						</paragraph>
+					</hcontainer>
+				</hcontainer>
+				<hcontainer GUID="_c67a880c-e06a-4fd6-a28e-4aeea36ebe3a" class="sch" eId="sched_2" name="schedule"><?DMS-Component componentId="81126469-db6c-4f46-99af-7618d2389dc6" seriesId="b39d7b06-fc93-4677-bdc3-94d51b50d3c8" versionNumber="1"?>
+					
+					<num>Schedule 2<authorialNote GUID="_2cd6320b-9e27-4da9-94c3-75be9791f778" class="referenceNote" eId="sched_2__aNote">
+							<p>Article 10</p>
+						</authorialNote></num>
+					<heading GUID="_63fca874-f377-41e4-95f8-2c22295b2017" eId="sched_2__hdg">Transitional provision in relation to discretionary relief from non-domestic rates functions exercised by previous authorities prior to 12th May 2023</heading>
+					<hcontainer GUID="_5239c9aa-0c4d-4957-99b5-b5081c1fce9f" class="schGroup7" eId="sched_2__xhdg_1" name="crossheading">
+						<heading GUID="_9b34b0f3-e44c-4e97-8e1d-7cc1defe9336" eId="sched_2__xhdg_1__hdg">Transitional provision in connection with functions in relation to discretionary relief from non-domestic rates</heading>
+						<paragraph GUID="_9a5acc08-b819-4aed-911a-43852324d4ce" class="schProv1" eId="sched_2__para_1">
+							<num>1.</num>
+							<subparagraph GUID="_fa200b19-c6af-4196-98b3-2cf1a81632f1" class="schProv2" eId="sched_2__para_1__subpara_1">
+								<num>(1)</num>
+								<content>
+									<p>This paragraph applies in respect of any functions which are transferred to the Corporation by virtue of Part 3 of this Order and in respect of which a previous authority ceases to have those functions.</p>
+								</content>
+							</subparagraph>
+							<subparagraph GUID="_4d0aa85f-ed76-469a-bd7d-50759933ed5a" class="schProv2" eId="sched_2__para_1__subpara_2">
+								<num>(2)</num>
+								<intro GUID="_20a106db-8e73-48f6-b101-d286d343fda3" eId="sched_2__para_1__subpara_2__intro">
+									<p>Where before 12th May 2023 a previous authority has made a decision or determination under section 47 of the 1988 Act, that decision or determination has effect on and after that date as if it had been made—</p>
+								</intro>
+								<level GUID="_c4aafcec-550b-426d-91d4-16bd67f9b8f0" class="para1" eId="sched_2__para_1__subpara_2__para_a">
+									<num>(a)</num>
+									<content>
+										<p>in relation to qualifying hereditaments in the development area, by the Corporation; and</p>
+									</content>
+								</level>
+								<level GUID="_f0721bb9-55c2-4d40-a87e-84f7bc4f0090" class="para1" eId="sched_2__para_1__subpara_2__para_b">
+									<num>(b)</num>
+									<content>
+										<p>in relation to any other hereditament, by the previous authority.</p>
+									</content>
+								</level>
+							</subparagraph>
+							<subparagraph GUID="_36fc478e-9d3b-4b81-9527-4428539b9346" class="schProv2" eId="sched_2__para_1__subpara_3">
+								<num>(3)</num>
+								<content>
+									<p>Anything which before 12th May 2023 was in the process of being done by, to or in relation to the previous authority in connection with any of the functions mentioned in sub-paragraph (1) may be continued after that date by, to or in relation to the Corporation and, if continued, is to be treated as having been done by, to or in relation to the Corporation.</p>
+								</content>
+							</subparagraph>
+							<subparagraph GUID="_85a836ae-a5b0-45b8-92c0-ace28166e41a" class="schProv2" eId="sched_2__para_1__subpara_4">
+								<num>(4)</num>
+								<content>
+									<p>Nothing in sub-paragraph (3) requires the Corporation to continue with any step mentioned in that sub-paragraph.</p>
+								</content>
+							</subparagraph>
+						</paragraph>
+					</hcontainer>
+				</hcontainer>
+			</hcontainer>
+		</body>
+		<conclusions GUID="_95b141ee-fca4-4ff2-bded-181574ab49d4" eId="backCover"><?DMS-Component componentId="925eedb7-60f9-4431-8de2-67ae9a92aa7a" seriesId="5f79faab-9fdb-48bf-951d-6a96e235261a" versionNumber="1"?>
+			
+			<blockContainer GUID="_8be7217a-4b1e-4e25-a8be-bed012250493" class="explanatoryNote" eId="backCover__explNote">
+				<heading GUID="_ab6c995e-b99d-40cc-a7b7-e80a264f90ee" eId="backCover__explNote__hdg">Explanatory Note</heading>
+				<subheading GUID="_03476128-0a3c-4a39-aafb-7876c91cf869" eId="backCover__explNote__subhdg">(This note is not part of the <ref class="placeholder" href="#varDocSubType"/>)</subheading>
+				<p>The Middlesbrough Development Corporation (Establishment) Order 2023 (S.I. 2023/103) established a Mayoral development corporation for a designated Mayoral development area in Middlesbrough.</p>
+				<p>Part 2 of this Order makes the development corporation the local planning authority for the whole of the development area for the purposes of Part 3 of the Town and Country Planning Act 1990 (“the 1990 Act”). It confers on the development corporation the functions of the 1990 Act and the Planning (Listed Buildings and Conservation Areas) Act 1990 which are specified in Part 1 of Schedule 29 to the Local Government, Planning and Land Act 1980 (“the 1980 Act”). It also applies other provisions specified in Part 2 of Schedule 29 to the 1980 Act to the development corporation and the development area, subject to the modifications set out in that Part.</p>
+				<p>Schedule 1 to this Order makes transitional provision in relation to planning functions exercised prior to 1st June 2023 by local planning authorities which will be exercised after that date by the development corporation. Provision is made for the transfer of planning functions and planning applications from the previous local planning authority to the development corporation, the payment of compensation, enforcement, planning appeals, planning obligations, local development orders and neighbourhood development orders.</p>
+				<p>Part 3 of this Order provides that the development corporation is to have the power to grant discretionary relief from business rates.</p>
+				<p>Schedule 2 to this Order makes transitional provision in relation to the power to grant discretionary relief from business rates exercised prior to 12th May 2023.</p>
+				<p>Part 4 of this Order makes provision about the payment of compensation by the development corporation to the billing authority where the development corporation has, or intends to, exercise its functions to grant discretionary relief. Before the start of a financial year, the development corporation must calculate an estimate of the reduction in the billing authority’s non-domestic rating income that will result from the relief granted. Compensation must then be paid at set times throughout the course of the year. At the end of the year, the development corporation must recalculate the reduction in the billing authority’s non-domestic rating income and a reconciliation payment may be required from the development corporation or the billing authority. The authorities may agree that different amounts are payable or that payments may be made at different times. Interest will accrue on late payments and any unpaid amount is recoverable in a court of competent jurisdiction.</p>
+				<p>Insofar as the instrument concerns non-domestic rating, an impact assessment has not been produced because it amends an existing local tax regime and publication of a full impact assessment is not necessary for such legislation. A full regulatory impact assessment has not been prepared for the remainder of the instrument as it will have no, or no significant, impact on the costs of business and the voluntary sector.</p>
+			</blockContainer>
+		</conclusions>
+	</act>
+</akomaNtoso>

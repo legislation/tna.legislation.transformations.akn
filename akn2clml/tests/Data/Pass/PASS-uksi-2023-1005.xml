@@ -1,0 +1,1197 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../schemas/akomantoso30.xsd"><?DMS-Component componentId="b622f6e0-5d6c-4321-8762-c4d2dec2edb5" seriesId="14016a8d-85df-4cce-b417-f537dd945af3" versionNumber="1"?>
+	
+	<act contains="originalVersion" name="uksi">
+		<meta><?DMS-Component componentId="d8bdc506-c680-4e01-9318-f6e9665fae26" seriesId="b861e62a-d50f-49e6-aea6-36a86cee0860" versionNumber="0"?>
+			
+			<identification source="#ldapp">
+				<FRBRWork>
+					<FRBRthis value="#varWork" />
+					<FRBRuri value="#varWorkUri" />
+					<FRBRalias name="ttflConfigHistory" value="#varCHOiid" />
+					<FRBRdate date="9999-01-01" name="uksi" />
+					<FRBRdate date="2023-09-15T09:56:38Z" name="published" /><FRBRauthor href="#varAuthor" />
+					<FRBRcountry value="GB-SCT" />
+					<FRBRsubtype value="#varDocSubType" />
+					<FRBRnumber value="#varProjectId" />
+					<FRBRname value="#varSITitle" />
+					<FRBRprescriptive value="true" />
+					<FRBRauthoritative value="false" />
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="#varExpression" />
+					<FRBRuri value="#varExpressionUri" />
+					<FRBRalias name="ttflVersionDescription" value="#varVDOiid" />
+					<FRBRdate date="9999-01-01" name="draft" />
+					<FRBRdate date="2023-09-15T09:56:38Z" name="published" /><FRBRauthor href="#varAuthor" />
+					<FRBRversionNumber value="1" />
+					<FRBRauthoritative value="false" />
+					<FRBRmasterExpression href="" showAs="" />
+					<FRBRlanguage language="eng" />
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="#varManifestation" />
+					<FRBRuri value="#varManifestationUri" />
+					<FRBRdate date="9999-01-01" name="akn_xml" />
+					<FRBRdate date="2023-09-15T09:56:38Z" name="published" /><FRBRauthor href="#varAuthor" />
+					<FRBRformat value="application/akn+xml" />
+				</FRBRManifestation>
+			</identification>
+			<references source="#author">
+				<TLCConcept GUID="_ffcaf8e2-b157-4a8c-b274-c3986275e651" eId="varDocSubType" href="#varOntologies" showAs="Regulations" />
+				<TLCConcept GUID="_c840358b-70d9-442d-a954-0ea3f6eeabfc" eId="varSITitle" href="#varOntologies" showAs="The Judicial Discipline (Prescribed Procedures) Regulations 2023" />
+				<TLCProcess GUID="_a91e54fa-e3ab-4009-88e3-f4f5d965f836" eId="varProcedureType" href="#varOntologies" showAs="Made Negative" />
+				<TLCProcess GUID="_9e998441-cfc7-46fe-933a-26a65c3ba7c6" eId="varStageVersion" href="#varOntologies" showAs="1" />
+				<TLCProcess GUID="_74d6cf16-0b83-4939-9e1e-33d49b72de74" eId="varProjectId" href="#varOntologies" showAs="SI000101" />
+				<TLCProcess GUID="_69e963fa-2b43-4b19-831e-4a9bdd66055b" eId="varWork" href="#varOntologies" showAs="https://lawmaker.legislation.gov.uk/pdr/SI000101/uksi" />
+				<TLCProcess GUID="_a608d838-38b9-4dd7-b4f2-758bf15dce68" eId="varWorkUri" href="#varOntologies" showAs="https://lawmaker.legislation.gov.uk/pdr/SI000101/uksi" />
+				<TLCProcess GUID="_a2318bb4-392f-4674-81bf-db9a2fcb4172" eId="varCHOiid" href="#varOntologies" showAs="" />
+				<TLCProcess GUID="_83e418a2-6853-495d-a57b-3db0bb7b342e" eId="varExpression" href="#varOntologies" showAs="https://lawmaker.legislation.gov.uk/pdr/SI000101/uksi@1" />
+				<TLCProcess GUID="_9c6307e2-958c-49fe-9d2a-56ec7f405d07" eId="varExpressionUri" href="#varOntologies" showAs="https://lawmaker.legislation.gov.uk/pdr/SI000101/uksi@1" />
+				<TLCProcess GUID="_9d496829-e365-4870-aea7-26421d356b77" eId="varVDOiid" href="#varOntologies" showAs="" />
+				<TLCProcess GUID="_f73c4dc7-0c1a-417a-8ab0-c4fe12d4ced5" eId="varManifestation" href="#varOntologies" showAs="https://lawmaker.legislation.gov.uk/pdr/SI000101/uksi@1/xml" />
+				<TLCProcess GUID="_98fbe239-d3f3-4f5e-a095-5e1ed3d1d0b4" eId="varManifestationUri" href="#varOntologies" showAs="https://lawmaker.legislation.gov.uk/pdr/SI000101/uksi@1/xml" />
+				<TLCConcept GUID="_7ff162ff-25ec-4217-b846-ec7575c7bc39" eId="varSIYear" href="#varOntologies" showAs="2023" />
+				<TLCConcept GUID="_21bb985a-eef7-4f1b-9890-0f3308b3b80c" eId="varCommenceDate" href="#varOntologies" showAs="2023-10-13T00:00:00.000" />
+				<TLCConcept GUID="_614282a5-8003-41d9-9a54-e3bfb82ee15c" eId="varSINoComp" href="#varOntologies" showAs="1005" />
+				<TLCConcept GUID="_30e5ae3a-9c37-482d-b5b5-af055f1a5d48" eId="varSINo" href="#varOntologies" showAs="#varSIYear No. #varSINoComp #varSISubsidiaryNos" />
+				<TLCConcept GUID="_dac1feca-6f2a-4dcc-a6f3-6f85ed75cf73" eId="varSISubsidiaryNos" href="#varOntologies" showAs="" />
+				<TLCConcept GUID="_0fe60ebb-7ce5-4893-a57b-331a20449b6a" eId="varISBN" href="#varOntologies" showAs="" />
+				<TLCPerson GUID="_8c54ff76-98b2-49c8-9b4f-7214a8937234" eId="varMinistryAgency" href="#varOntologies" showAs="" />
+				<TLCConcept GUID="_c1d484c6-6564-4ee6-af9d-394bfb95110c" eId="varDocType" href="#varOntologies" showAs="UKSI" />
+				<TLCProcess GUID="_5fd2e4a4-66a9-4c44-ab98-d2d2df397132" eId="varSystem" href="#varOntologies" showAs="LDAPP" />
+				<TLCOrganization GUID="_8cab6e52-7a70-4723-a148-03b88ffee12a" eId="varAuthor" href="#varOntologies" showAs="UK Government" />
+				<TLCLocation GUID="_dfa0782c-1cd9-4240-886a-6ff7e85cecbc" eId="varJurisdiction" href="#varOntologies" showAs="United Kingdom" />
+				<TLCConcept GUID="_084736c0-8276-4e5c-9d6e-0baa665228fe" eId="varOntologies" href="https://www.legislation.gov.uk/ontologies/UK-AKN" showAs="https://www.legislation.gov.uk/ontologies/UK-AKN" />
+				<TLCConcept GUID="_538423b4-5f56-415c-9cd8-08985f377ddc" eId="varMadeDate" href="#varOntologies" showAs="2023-09-13T00:00:00.000" />
+				<TLCConcept GUID="_3e3bcbda-f6a0-4711-a92b-6d4733552374" eId="varLaidDate" href="#varOntologies" showAs="2023-09-15T00:00:00.000" />
+			</references>
+		</meta>
+		<preface GUID="_adca4906-f2f8-4326-9ffa-59f1aa5e578b" eId="fnt"><?DMS-Component componentId="be9823e5-a7f0-490a-a568-0abb6aed8b5c" seriesId="e433efd1-6a6f-4438-b015-2a678a123df5" versionNumber="0"?>
+			
+			<block GUID="_5da82c8a-82e2-4274-830d-5e2e785301a3" eId="fnt__banner" name="banner">STATUTORY INSTRUMENTS</block>
+			<block GUID="_bd47932d-cd8f-4034-9dac-bd33355f1275" eId="fnt__no" name="number">
+				<docNumber GUID="_00b43bd5-618d-4d71-aa45-35b4f0f65903" eId="fnt__no__dno"> <ref class="placeholder" href="#varSINo">2023 No.</ref></docNumber>
+			</block>
+			<container name="subjects">
+				<container GUID="_03e38901-94b6-4ce7-936b-75766ba05689" eId="fnt__subject" name="subject">
+					<block name="subject"><concept class="title" refersTo="">JUDICIAL APPOINTMENTS AND DISCIPLINE</concept></block>
+				</container>
+			</container>
+			<block GUID="_c4daf987-32e1-4dc8-9065-87f03e9a1fe9" eId="fnt__st" name="title"><docTitle GUID="_02b1ee3e-bd93-4524-80e8-6fdb9afbf352" eId="fnt__st__dtitle"> <ref class="placeholder" href="#varSITitle" /> </docTitle> </block>
+			<container GUID="_d8eb598b-cd93-4ccd-a222-e9a7ecd3ecb6" eId="fnt__dates" name="dates">
+				<block GUID="_1b95bfde-4e88-41bf-83df-2c3073cfaa33" eId="fnt__dates__madeDate" name="madeDate"><span>Made</span><docDate GUID="_0f512539-a680-4ddd-92c8-4b8f3e8fbae3" date="2023-09-13T00:00:00.000" eId="fnt__dates__madeDate__ddate"><ref class="placeholder" href="#varMadeDate" ukl:dateFormat="d'th' MMMM yyyy">13th September 2023</ref></docDate></block>
+				<block GUID="_db7a7b7d-02c6-45a8-be4a-3f9fc9154caa" eId="fnt__dates__laidDate" name="laidDate"><span>Laid before Parliament</span><docDate GUID="_5ad84882-1556-4781-afcf-d1d1195eb7c1" date="2023-09-15T00:00:00.000" eId="fnt__dates__laidDate__ddate"><ref class="placeholder" href="#varLaidDate" ukl:dateFormat="d'th' MMMM yyyy">15th September 2023</ref></docDate></block>
+				<block GUID="_c77ddff9-19e4-4080-9925-9e9435346dc2" eId="fnt__dates__commenceDate" name="commenceDate"><span>Coming into force</span><docDate GUID="_0d0d666c-038a-4597-8b34-0654d9fb72c2" date="2023-10-13T00:00:00.000" eId="fnt__dates__commenceDate__ddate"><ref class="placeholder" href="#varCommenceDate" ukl:dateFormat="d'th' MMMM yyyy">13th October 2023</ref></docDate></block>
+			</container>
+		</preface>
+		<preamble GUID="_d6d30164-ac1f-4ecf-8e63-7a4f94ba077d" eId="preamble"><?DMS-Component componentId="30894807-b8a6-4a2e-831b-b6dbb97d06d6" seriesId="8a302368-bd27-4b95-81d8-4d52cf4b35ed" versionNumber="0"?>
+			
+			<formula GUID="_1467462a-6e38-4740-8544-5686afbce33b" eId="preamble__enactingWords" name="enactingText">
+				<p>The Lord Chief Justice of England and Wales, in exercise of powers conferred by sections 115, 116, 117, 120 and 121 of the Constitutional Reform Act 2005<authorialNote GUID="_032a1845-4941-46c6-bc37-5036ee7bb4c2" class="footnote" eId="fnote_1" marker="1">
+					<p>2005 c. 4; sections 120 and 121 were extended by the Coroners and Justice Act 2009 (c. 25), Schedule 3, paragraph 14.</p>
+					</authorialNote>, and by paragraph 14 of Schedule 3 to the Coroners and Justice Act 2009<authorialNote GUID="_76a7dbaf-95f6-4a04-9df5-1837fef169fb" class="footnote" eId="fnote_2" marker="2">
+					<p>2009 c. 25.</p>
+					</authorialNote>, and with the agreement of the Lord Chancellor, the Lord President of the Court of Session and the Lady Chief Justice of Northern Ireland, makes the following Regulations:</p>
+			</formula>
+		</preamble>
+		<body><?DMS-Component componentId="608aa4b3-13b4-4e9a-88ab-1209ac4e396b" seriesId="4b260263-f3d9-40af-91cd-f72d7baaa8ab" versionNumber="1"?>
+			
+			<part GUID="_8188633f-e144-4f98-897b-b6ace33c8e38" class="group2" eId="pt_1"><?DMS-Component componentId="035ed571-0990-4ab4-bfbf-89f85cd02be2" seriesId="f659f072-5e03-460a-8dab-3f40cba5a0c2" versionNumber="1"?>
+				
+				<num>Part 1</num>
+				<heading GUID="_fa225632-5af0-46b9-a4cf-169269a2d12f" eId="pt_1__hdg">Introduction</heading>
+				<hcontainer GUID="_b3419954-64a3-45fe-9c5f-77a5004c7414" class="prov1" eId="reg_1" name="regulation"><?DMS-Component componentId="853993d1-f809-4356-bb11-1109a70fcc56" seriesId="11beefb1-9cec-4768-a97a-dbf1fcc4aecc" versionNumber="0"?>
+					
+					<heading GUID="_91aca685-94fd-4f27-907d-5bba8378af4f" eId="reg_1__hdg">Citation and commencement</heading>
+					<num>1.</num>
+					<content>
+						<p>These Regulations may be cited as the Judicial Discipline (Prescribed Procedures) Regulations 2023 and shall come into force on 13th October 2023.</p>
+					</content>
+				</hcontainer>
+				<hcontainer GUID="_8dc32e86-a177-4d97-b129-4297b8efd6d8" class="prov1" eId="reg_2" name="regulation"><?DMS-Component componentId="2f2bda02-e573-4205-8f73-4672974fdbcd" seriesId="5e9f3d55-1882-45b1-99e4-0afcf36eed79" versionNumber="0"?>
+					
+					<heading GUID="_82aa6860-ddac-48b4-9b83-758a84870e89" eId="reg_2__hdg">Interpretation</heading>
+					<num>2.</num>
+					<paragraph GUID="_1ee2c41b-e272-4ac3-96b0-ee43d6635622" class="prov2" eId="reg_2__para_1">
+						<num>(1)</num>
+						<intro GUID="_55763ae6-76af-4c03-afa1-3480a08fc290" eId="reg_2__para_1__intro">
+							<p>In these Regulations—</p>
+						</intro>
+						<hcontainer GUID="_9bf17526-e203-4149-a3dc-894d78f76cc6" class="definition" eId="reg_2__para_1__def_theAct_" name="definition">
+							<content>
+								<p><def GUID="_97055d3b-c4e1-4305-900c-1d09e9a57ab5" eId="reg_2__para_1__def_theAct" ukl:endQuote="”" ukl:startQuote="“">the Act</def> means the Constitutional Reform Act 2005;</p>
+							</content>
+						</hcontainer>
+						<hcontainer GUID="_29721a38-859c-4273-b53e-e60f90749bab" class="definition" eId="reg_2__para_1__def_areacoroner_" name="definition">
+							<content>
+								<p><def GUID="_1dc12d1e-560c-4923-ba73-03477a9635ed" eId="reg_2__para_1__def_areacoroner" ukl:endQuote="”" ukl:startQuote="“">area coroner</def> means a person appointed as such under paragraph 2 of Schedule 3 to the Coroners and Justice Act 2009;</p>
+							</content>
+						</hcontainer>
+						<hcontainer GUID="_015f72d8-b829-490b-b651-0db884abbf2f" class="definition" eId="reg_2__para_1__def_assistantcoroner_" name="definition">
+							<content>
+								<p><def GUID="_fc7eec18-23cb-47ef-8a59-38f8692cfcdd" eId="reg_2__para_1__def_assistantcoroner" ukl:endQuote="”" ukl:startQuote="“">assistant coroner</def> means a person appointed as such under paragraph 2 of Schedule 3 to the Coroners and Justice Act 2009;</p>
+							</content>
+						</hcontainer>
+						<hcontainer GUID="_bec36229-04b6-4ac1-adef-17533485c611" class="definition" eId="reg_2__para_1__def_bankholiday_" name="definition">
+							<content>
+								<p><def GUID="_11f7f19c-9b42-4538-a6ce-98cb480773df" eId="reg_2__para_1__def_bankholiday" ukl:endQuote="”" ukl:startQuote="“">bank holiday</def> means a bank holiday under the Banking and Financial Dealings Act 1971<authorialNote GUID="_719d481a-ec50-4906-81fa-48737cdaea86" class="footnote" eId="fnote_3" marker="3">
+									<p>1971 c. 80.</p>
+									</authorialNote>;</p>
+							</content>
+						</hcontainer>
+						<hcontainer GUID="_a7327127-bce3-479e-a63d-83a5a5fa4828" class="definition" eId="reg_2__para_1__def_case_" name="definition">
+							<content>
+								<p><def GUID="_5892989c-7e6b-405b-a10e-9facf801d628" eId="reg_2__para_1__def_case" ukl:endQuote="”" ukl:startQuote="“">case</def> means a complaint or issue of misconduct being considered under these Regulations;</p>
+							</content>
+						</hcontainer>
+						<hcontainer GUID="_e4b2220b-64de-4ef2-8353-defb2f822684" class="definition" eId="reg_2__para_1__def_complaint_" name="definition">
+							<content>
+								<p><def GUID="_6c1a5fae-328f-46b0-bb7d-3783be6c2ab0" eId="reg_2__para_1__def_complaint" ukl:endQuote="”" ukl:startQuote="“">complaint</def> means a complaint made in accordance with rules made under regulation 7 and containing an allegation of misconduct by a person holding an office;</p>
+							</content>
+						</hcontainer>
+						<hcontainer GUID="_18a34709-30e0-4e37-9feb-46883565405c" class="definition" eId="reg_2__para_1__def_conductadvisorycommittee_" name="definition">
+							<content>
+								<p><def GUID="_384d4614-2c20-45f2-aed2-5df589726b16" eId="reg_2__para_1__def_conductadvisorycommittee" ukl:endQuote="”" ukl:startQuote="“">conduct advisory committee</def> means one of the Lord Chancellor’s conduct advisory committees on justices of the peace;</p>
+							</content>
+						</hcontainer>
+						<hcontainer GUID="_573a7a5b-bca8-4b29-8150-aded8e15cdfc" class="definition" eId="reg_2__para_1__def_deputysecretary_" name="definition">
+							<content>
+								<p><def GUID="_26a9a583-302e-4299-b22f-5b5a49202834" eId="reg_2__para_1__def_deputysecretary" ukl:endQuote="”" ukl:startQuote="“">deputy secretary</def> means a deputy secretary of a conduct advisory committee;</p>
+							</content>
+						</hcontainer>
+						<hcontainer GUID="_128edeb8-1abe-4f15-bccf-a3b5015b0a7d" class="definition" eId="reg_2__para_1__def_disciplinarypanel_" name="definition">
+							<content>
+								<p><def GUID="_606d640b-6757-47ed-b8d1-0b5ec39be50e" eId="reg_2__para_1__def_disciplinarypanel" ukl:endQuote="”" ukl:startQuote="“">disciplinary panel</def> has the meaning given by regulation 11;</p>
+							</content>
+						</hcontainer>
+						<hcontainer GUID="_221b18c1-89d0-426f-8ec8-0d2a6d9e61ce" class="definition" eId="reg_2__para_1__def_disciplinarysanction_" name="definition">
+							<intro GUID="_5800fcb6-a449-4d5a-98cc-ac04eec47965" eId="reg_2__para_1__def_disciplinarysanction__intro">
+								<p><def GUID="_a6dc5fc6-fc96-4700-937d-6b1d634660bf" eId="reg_2__para_1__def_disciplinarysanction" ukl:endQuote="”" ukl:startQuote="“">disciplinary sanction</def> means any of the following actions taken in relation to misconduct—</p>
+							</intro>
+							<level GUID="_8fd74771-ed54-4b07-a366-e532547ca8b9" class="para1" eId="reg_2__para_1__def_disciplinarysanction__para_a">
+								<num>(a)</num>
+								<content>
+									<p>the exercise by the Lord Chancellor of any of the Lord Chancellor’s powers to remove a person from office;</p>
+								</content>
+							</level>
+							<level GUID="_99369469-c21b-40a3-8269-b8bda157e2f2" class="para1" eId="reg_2__para_1__def_disciplinarysanction__para_b">
+								<num>(b)</num>
+								<content>
+									<p>the exercise by the Lord Chief Justice of any of the Lord Chief Justice’s powers under section 108(3), (4)(b) and (c) and (5) of the Act<authorialNote GUID="_e044cbe2-1384-4ece-93c4-e5e559bb4f47" class="footnote" eId="fnote_4" marker="4">
+										<p>Section 108 was extended by the Coroners and Justice Act 2009, Schedule 3, paragraph 14.</p>
+										</authorialNote>; or</p>
+								</content>
+							</level>
+							<level GUID="_6704edfe-b40d-4da9-9cb4-60edc1e613a1" class="para1" eId="reg_2__para_1__def_disciplinarysanction__para_c">
+								<num>(c)</num>
+								<content>
+									<p>a decision that the Lord Chancellor will move an Address for the removal of a senior judge by both Houses of Parliament;</p>
+								</content>
+							</level>
+						</hcontainer>
+						<hcontainer GUID="_ac6281e2-3591-49d9-b1af-aa285e2d2064" class="definition" eId="reg_2__para_1__def_investigatingjudge_" name="definition">
+							<content>
+								<p><def GUID="_d0ee9ea9-4e45-4c08-aeeb-7b8c237de267" eId="reg_2__para_1__def_investigatingjudge" ukl:endQuote="”" ukl:startQuote="“">investigating judge</def> has the meaning given by regulation 10;</p>
+							</content>
+						</hcontainer>
+						<hcontainer GUID="_5bace3bf-d494-4edd-8bdd-02fadf6d3914" class="definition" eId="reg_2__para_1__def_JCIO_" name="definition">
+							<content>
+								<p><def GUID="_d563a9ce-d8e3-49e0-93cb-da15331b9def" eId="reg_2__para_1__def_JCIO" ukl:endQuote="”" ukl:startQuote="“">JCIO</def> means the Judicial Conduct Investigations Office, as defined in regulation 4(2);</p>
+							</content>
+						</hcontainer>
+						<hcontainer GUID="_70d7c26e-82dd-4197-a22b-59672cc03010" class="definition" eId="reg_2__para_1__def_justiceofthepeace_" name="definition">
+							<content>
+								<p><def GUID="_91d8eadb-9ed1-429d-90c4-f2adb216d566" eId="reg_2__para_1__def_justiceofthepeace" ukl:endQuote="”" ukl:startQuote="“">justice of the peace</def> means a justice of the peace who is not a District Judge (Magistrates’ Courts);</p>
+							</content>
+						</hcontainer>
+						<hcontainer GUID="_a3dce0d2-ec08-482c-ba2a-dadc499b8da2" class="definition" eId="reg_2__para_1__def_nominatedcommitteemember_" name="definition">
+							<content>
+								<p><def GUID="_e442b08c-d899-4bf0-be9a-ce8badb0ba8d" eId="reg_2__para_1__def_nominatedcommitteemember" ukl:endQuote="”" ukl:startQuote="“">nominated committee member</def> has the meaning given by regulation 9;</p>
+							</content>
+						</hcontainer>
+						<hcontainer GUID="_a2148781-1f98-4318-b3d5-87baebdd38c4" class="definition" eId="reg_2__para_1__def_nominatedjudge_" name="definition">
+							<content>
+								<p><def GUID="_18d45574-4f59-4a1a-9dcd-a2b1a59bfec3" eId="reg_2__para_1__def_nominatedjudge" ukl:endQuote="”" ukl:startQuote="“">nominated judge</def> has the meaning given by regulation 8;</p>
+							</content>
+						</hcontainer>
+						<hcontainer GUID="_1945eb0f-b064-4efc-a046-1da8b3fb2e0a" class="definition" eId="reg_2__para_1__def_office_" name="definition">
+							<content>
+								<p><def GUID="_b0d7307a-8fc3-48f0-b550-6e8546029c2b" eId="reg_2__para_1__def_office" ukl:endQuote="”" ukl:startQuote="“">office</def> means an office listed in regulation 3(2);</p>
+							</content>
+						</hcontainer>
+						<hcontainer GUID="_3a8b853a-a03c-4419-a5bc-16136fa3a500" class="definition" eId="reg_2__para_1__def_officeholderconcerned_" name="definition">
+							<content>
+								<p><def GUID="_ee6a28ac-278c-4d56-b0db-351146fc68dd" eId="reg_2__para_1__def_officeholderconcerned" ukl:endQuote="”" ukl:startQuote="“">office holder concerned</def> means an office holder whose conduct is being considered in accordance with these Regulations;</p>
+							</content>
+						</hcontainer>
+						<hcontainer GUID="_e5ecf0b1-fa29-4099-9d3f-7cd93715774f" class="definition" eId="reg_2__para_1__def_secretary_" name="definition">
+							<content>
+								<p><def GUID="_dfb0ae33-d011-4a2d-968d-0d958c2d3900" eId="reg_2__para_1__def_secretary" ukl:endQuote="”" ukl:startQuote="“">secretary</def> means a secretary of a conduct advisory committee;</p>
+							</content>
+						</hcontainer>
+						<hcontainer GUID="_3ccccdd6-c8c6-440c-9ca2-5033cd193cdc" class="definition" eId="reg_2__para_1__def_seniorcoroner_" name="definition">
+							<content>
+								<p><def GUID="_452a10e1-0e43-42d1-928e-e13985d14f08" eId="reg_2__para_1__def_seniorcoroner" ukl:endQuote="”" ukl:startQuote="“">senior coroner</def> means a person appointed as such under paragraph 1 of Schedule 3 to the Coroners and Justice Act 2009;</p>
+							</content>
+						</hcontainer>
+						<hcontainer GUID="_747238f8-c3ae-4093-9f2c-169fe0ec3767" class="definition" eId="reg_2__para_1__def_workingday_" name="definition">
+							<content>
+								<p><def GUID="_f029e323-f08c-4e8f-8163-ec4df71be283" eId="reg_2__para_1__def_workingday" ukl:endQuote="”" ukl:startQuote="“">working day</def> means any day other than a Saturday, Sunday, Christmas Day, Good Friday or a day which is a bank holiday in any part of the United Kingdom.</p>
+							</content>
+						</hcontainer>
+					</paragraph>
+					<paragraph GUID="_3daea7a8-06eb-469e-af47-6cdcbfc519af" class="prov2" eId="reg_2__para_2">
+						<num>(2)</num>
+						<intro GUID="_02b85030-9cd6-4b72-a05d-f58e43764391" eId="reg_2__para_2__intro">
+							<p>In these Regulations, unless the contrary intention appears, a reference to the Lord Chief Justice must be read—</p>
+						</intro>
+						<level GUID="_89ef8eed-a00e-4a6e-9112-dbb91435b842" class="para1" eId="reg_2__para_2__para_a">
+							<num>(a)</num>
+							<content>
+								<p>in relation to an office holder who exercises functions wholly or mainly in Scotland, as a reference to the Lord President of the Court of Session;</p>
+							</content>
+						</level>
+						<level GUID="_9365d378-e330-4547-affd-fa01d09f38bd" class="para1" eId="reg_2__para_2__para_b">
+							<num>(b)</num>
+							<content>
+								<p>in relation to an office holder who exercises functions wholly or mainly in Northern Ireland, as a reference to the Lord Chief Justice of Northern Ireland;</p>
+							</content>
+						</level>
+						<level GUID="_ff0eb034-b0da-4ba5-97cd-4691a8ac951d" class="para1" eId="reg_2__para_2__para_c">
+							<num>(c)</num>
+							<content>
+								<p>otherwise, as a reference to the Lord Chief Justice of England and Wales.</p>
+							</content>
+						</level>
+					</paragraph>
+				</hcontainer>
+				<hcontainer GUID="_6db4ef7e-7f71-4c3e-b160-ca1141feedff" class="prov1" eId="reg_3" name="regulation"><?DMS-Component componentId="cff5672b-01f6-4c17-846f-cbc27a120be4" seriesId="70501259-f9fb-40eb-88f9-0fdd228d6a75" versionNumber="1"?>
+					
+					<heading GUID="_7d469cb1-55c9-4812-b09b-18e5a92877b4" eId="reg_3__hdg">Application of Regulations</heading>
+					<num>3.</num>
+					<paragraph GUID="_32ac9b9d-3df7-4959-a764-04b487d77f14" class="prov2" eId="reg_3__para_1">
+						<num>(1)</num>
+						<content>
+							<p>These Regulations apply to any complaint made on or after the date on which these Regulations come into force.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_29d117e9-50bc-4870-b8e2-d4f9118c480c" class="prov2" eId="reg_3__para_2">
+						<num>(2)</num>
+						<intro GUID="_161922ad-788c-458d-8a2e-a4e4c4600696" eId="reg_3__para_2__intro">
+							<p>These Regulations apply to—</p>
+						</intro>
+						<level GUID="_87e4655c-9fc1-4043-ac7a-abbd5ea9f9c1" class="para1" eId="reg_3__para_2__para_a">
+							<num>(a)</num>
+							<content>
+								<p>a judicial office;</p>
+							</content>
+						</level>
+						<level GUID="_4d277aed-5a55-4f14-a1e0-19a0a103bc15" class="para1" eId="reg_3__para_2__para_b">
+							<num>(b)</num>
+							<content>
+								<p>the offices of senior coroner, area coroner or assistant coroner; and</p>
+							</content>
+						</level>
+						<level GUID="_8b644e21-95ec-4a8b-8452-9d137ac1ac8f" class="para1" eId="reg_3__para_2__para_c">
+							<num>(c)</num>
+							<content>
+								<p>an office that has been designated by an order under section 118 of the Act.</p>
+							</content>
+						</level>
+					</paragraph>
+				</hcontainer>
+				<hcontainer GUID="_7a0d2373-6a99-4ab7-b972-adc0e2c77a00" class="prov1" eId="reg_4" name="regulation"><?DMS-Component componentId="74b14aa9-90a7-4eb9-964f-96b51134fdba" seriesId="b50545e6-a240-47f1-abb1-5bc7648189c2" versionNumber="1"?>
+					
+					<heading GUID="_6e9004f0-1cdb-4b20-bf46-ca8d382a8008" eId="reg_4__hdg">The Judicial Conduct Investigations Office</heading>
+					<num>4.</num>
+					<paragraph GUID="_dd206df9-55a7-434c-be25-fcee410c7d89" class="prov2" eId="reg_4__para_1">
+						<num>(1)</num>
+						<content>
+							<p>The Lord Chancellor must, with the agreement of the Lord Chief Justice, the Lord President of the Court of Session and the Lord Chief Justice of Northern Ireland, designate officials for the purpose of performing functions under these Regulations.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_670bd2fe-9874-40a7-9b37-b62c2ab3dbae" class="prov2" eId="reg_4__para_2">
+						<num>(2)</num>
+						<content>
+							<p>Officials designated by the Lord Chancellor under paragraph (1) are known collectively as the Judicial Conduct Investigations Office.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_f454ff25-5d49-4670-89d6-c6564820f2ed" class="prov2" eId="reg_4__para_3">
+						<num>(3)</num>
+						<content>
+							<p>The JCIO may undertake such enquiries as are necessary for it to perform its functions under these Regulations or rules made under regulation 7.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_1bd792a3-fda5-4aae-b18d-b32155056e35" class="prov2" eId="reg_4__para_4">
+						<num>(4)</num>
+						<content>
+							<p>The JCIO may provide advice to any person regarding the application of these Regulations or rules made under regulation 7.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_6d5b0851-ed35-4439-908c-b876759e3654" class="prov2" eId="reg_4__para_5">
+						<num>(5)</num>
+						<content>
+							<p>For the purpose of paragraph (4) advice may include advice regarding any proposed disciplinary sanction.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_4a0b1e4f-39b7-4052-a642-2f57bb3cf8e2" class="prov2" eId="reg_4__para_6">
+						<num>(6)</num>
+						<content>
+							<p>The JCIO may provide administrative assistance to a nominated judge, an investigating judge or a disciplinary panel in relation to the exercise of their functions under these Regulations or rules made under regulation 7.</p>
+						</content>
+					</paragraph>
+				</hcontainer>
+				<hcontainer GUID="_5032e369-90d1-43dd-9369-5abb47b11897" class="prov1" eId="reg_5" name="regulation"><?DMS-Component componentId="549ad806-bfd5-4a60-9cbf-04290d21f83e" seriesId="065a1d67-b354-4d63-a9a8-7135920bd29b" versionNumber="1"?>
+					
+					<heading GUID="_d36c6966-4832-4a4c-861e-d021234afbf0" eId="reg_5__hdg">Measurement of time for doing an act</heading>
+					<num>5.</num>
+					<content>
+						<p>In these Regulations the time for doing any act in response to a notification, invitation or request (“the document”) starts on the day that corresponds to the method of delivery used in relation to the document shown in the table below—</p>
+						<tblock GUID="_a2f56670-e39d-47b7-b3e4-86caba479e52" class="table" eId="reg_5__tbl__oc_1">
+							<foreign>
+								<table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="topAndBottom tableleft width100" cols="2">
+									<thead class="left">
+										<tr akn:GUID="_88dfe418-3b7a-442e-b966-c5743ceb6f2f" akn:eId="reg_5__tbl__oc_1__hdg__row__oc_1">
+											<td akn:GUID="_8f81bb2b-67b7-43c8-9509-9031b763a396" akn:eId="reg_5__tbl__oc_1__hdg__row__oc_1__col_1">
+												<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Method of delivery</p>
+											</td>
+											<td akn:GUID="_08d54c9f-f877-42d0-bcbe-0286a1a11d2e" akn:eId="reg_5__tbl__oc_1__hdg__row__oc_1__col_2">
+												<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Starting day</p>
+											</td>
+										</tr>
+									</thead>
+									<tbody class="left">
+										<tr akn:GUID="_60fc5574-b51e-4a4f-9dbf-683473f7d999" akn:eId="reg_5__tbl__oc_1__row__oc_1">
+											<td akn:GUID="_acf29662-81e7-4cbf-be3e-ba844d671a2f" akn:eId="reg_5__tbl__oc_1__row__oc_1__col_1">
+												<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">First class post (or other method which provides for delivery on the next working day).</p>
+											</td>
+											<td akn:GUID="_bbce4c1b-a8f1-48c6-9eba-4fc2fd3dcec7" akn:eId="reg_5__tbl__oc_1__row__oc_1__col_2">
+												<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The second working day after the day on which the document was posted.</p>
+											</td>
+										</tr>
+										<tr akn:GUID="_2f522159-b1d5-4a22-b826-dcb750e425b8" akn:eId="reg_5__tbl__oc_1__row__oc_2">
+											<td akn:GUID="_f62252f6-990a-48fa-8378-ef34a7376800" akn:eId="reg_5__tbl__oc_1__row__oc_2__col_1">
+												<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Second class post.</p>
+											</td>
+											<td akn:GUID="_53b4bf07-f9b6-4df5-b14b-f52bafeb5443" akn:eId="reg_5__tbl__oc_1__row__oc_2__col_2">
+												<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The third working day after the day on which the document was posted.</p>
+											</td>
+										</tr>
+										<tr akn:GUID="_43ef6b90-2f38-41a5-8610-4c9aff24a1af" akn:eId="reg_5__tbl__oc_1__row__oc_3">
+											<td akn:GUID="_5a8596fb-4f27-44b2-8299-8c207ef3bbb7" akn:eId="reg_5__tbl__oc_1__row__oc_3__col_1">
+												<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Delivering the document to or leaving it at a permitted address.</p>
+											</td>
+											<td akn:GUID="_54c65871-d51e-45ff-8452-76cf6e964b19" akn:eId="reg_5__tbl__oc_1__row__oc_3__col_2">
+												<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">If it is delivered to or left at the permitted address on a working day before 4.30pm, that day; or if delivered at, or after, 4.30pm, the next working day.</p>
+											</td>
+										</tr>
+										<tr akn:GUID="_7607a173-2fd2-44dd-ae2f-a5754c608fae" akn:eId="reg_5__tbl__oc_1__row__oc_4">
+											<td akn:GUID="_29e900f0-3719-428a-a3a9-b57f37bcd9fe" akn:eId="reg_5__tbl__oc_1__row__oc_4__col_1">
+												<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Email or other electronic transmission.</p>
+											</td>
+											<td akn:GUID="_64d60516-8927-4332-9956-fe9c1b6fbf15" akn:eId="reg_5__tbl__oc_1__row__oc_4__col_2">
+												<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">If an email or other electronic transmission is sent on a working day before 4.30pm, that day; or if an email or other electronic transmission is sent at, or after, 4.30pm, the next working day.</p>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</foreign>
+						</tblock>
+					</content>
+				</hcontainer>
+			</part>
+			<part GUID="_92051586-ab43-4122-8218-6addb6c67c80" class="group2" eId="pt_2"><?DMS-Component componentId="bea6d690-e08c-4828-8b9b-12fa2514d0fa" seriesId="cd1fd6a9-b51c-4428-8360-038d8cbf4dc3" versionNumber="1"?>
+				
+				<num>Part 2</num>
+				<heading GUID="_5698c7dd-4c56-4581-b242-52950eaa4848" eId="pt_2__hdg">Complaints and investigation of cases</heading>
+				<hcontainer GUID="_44644346-c6ad-46d6-b1fd-5feeb8cfa102" class="prov1" eId="reg_6" name="regulation"><?DMS-Component componentId="00c2a567-2dc2-43ec-b28f-cd9339dc67e6" seriesId="058e7f11-53ea-4b69-80c0-fb2d1de6dc9f" versionNumber="0"?>
+					
+					<heading GUID="_a6d8ab6c-c7ce-4f94-bf57-cb5b85019ef6" eId="reg_6__hdg">Complaint of misconduct</heading>
+					<num>6.</num>
+					<paragraph GUID="_44d93305-5634-44ed-997b-b708dd0831cb" class="prov2" eId="reg_6__para_1">
+						<num>(1)</num>
+						<content>
+							<p>Subject to paragraph (2), a complaint about an office holder must be made to the JCIO.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_f778eab7-0113-4228-a1eb-103c357f1e0f" class="prov2" eId="reg_6__para_2">
+						<num>(2)</num>
+						<content>
+							<p>A complaint about a justice of the peace must be made to the secretary of the conduct advisory committee for the local justice area to which the justice of the peace is assigned under section 10(2) of the Courts Act 2003<authorialNote GUID="_57c0476a-52f3-40a1-888b-af0959b5ea5a" class="footnote" eId="fnote_11" marker="11">
+								<p>2003 c. 39; section 10(2) was amended by the Constitutional Reform Act 2005 (c. 4), Schedule 4, paragraphs 308 and 313.</p>
+								</authorialNote>.</p>
+						</content>
+					</paragraph>
+				</hcontainer>
+				<hcontainer GUID="_935cf6c3-7419-4df4-9644-3753b38a73c8" class="prov1" eId="reg_7" name="regulation"><?DMS-Component componentId="6a7e2bd1-3bdf-445f-adca-80a5ac11ff0d" seriesId="f5ae21fc-4b14-4602-8218-ebce9a815421" versionNumber="1"?>
+					
+					<heading GUID="_3addbd06-d30e-46ad-bc6a-9aed52edf053" eId="reg_7__hdg">Investigation process</heading>
+					<num>7.</num>
+					<paragraph GUID="_0213c62f-3819-4929-97f2-f37c347222d6" class="prov2" eId="reg_7__para_1">
+						<num>(1)</num>
+						<content>
+							<p>The Lord Chief Justice, with the agreement of the Lord Chancellor, may make rules about the process to be applied in respect of a complaint.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_2eb337b7-75b7-4132-9c95-e3f8c6fd6271" class="prov2" eId="reg_7__para_2">
+						<num>(2)</num>
+						<content>
+							<p>Rules under paragraph (1) shall not apply in relation to an office holder who exercises functions wholly or mainly in Scotland, unless they are made with the agreement of the Lord President of the Court of Session.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_e09d3f9b-ef67-47a8-b18e-0a747e2e3cf4" class="prov2" eId="reg_7__para_3">
+						<num>(3)</num>
+						<content>
+							<p>Rules under paragraph (1) shall not apply in relation to an office holder who exercises functions wholly or mainly in Northern Ireland, unless they are made with the agreement of the Lord Chief Justice of Northern Ireland.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_b20fad4f-e070-4852-9975-4886f0248037" class="prov2" eId="reg_7__para_4">
+						<num>(4)</num>
+						<intro GUID="_ed802792-1875-4c64-878c-33812d2293b0" eId="reg_7__para_4__intro">
+							<p>The rules may include provision as to any of the following:</p>
+						</intro>
+						<level GUID="_447b4c2c-26eb-4c92-95e2-03f5526c1d58" class="para1" eId="reg_7__para_4__para_a">
+							<num>(a)</num>
+							<content>
+								<p>the form of a complaint;</p>
+							</content>
+						</level>
+						<level GUID="_9af37a91-4970-4e1d-add7-acde72f08a73" class="para1" eId="reg_7__para_4__para_b">
+							<num>(b)</num>
+							<content>
+								<p>the information to be contained in a complaint;</p>
+							</content>
+						</level>
+						<level GUID="_36647e75-186f-4635-a2af-d732a31f2794" class="para1" eId="reg_7__para_4__para_c">
+							<num>(c)</num>
+							<content>
+								<p>time limits for taking any step and procedures for extending or shortening time limits;</p>
+							</content>
+						</level>
+						<level GUID="_aba90e6e-3c72-4f25-8536-0df22a08176e" class="para1" eId="reg_7__para_4__para_d">
+							<num>(d)</num>
+							<content>
+								<p>the circumstances in which a case may be dismissed;</p>
+							</content>
+						</level>
+						<level GUID="_fd4564b1-90e5-4208-8362-61fa68c3541b" class="para1" eId="reg_7__para_4__para_e">
+							<num>(e)</num>
+							<content>
+								<p>the circumstances in which an investigation may be undertaken (on the making of a complaint);</p>
+							</content>
+						</level>
+						<level GUID="_39e41eac-62b9-43ee-9980-46e390e32f39" class="para1" eId="reg_7__para_4__para_f">
+							<num>(f)</num>
+							<content>
+								<p>the conduct of an investigation, including steps to be taken by the office holder concerned, by a complainant or any other person;</p>
+							</content>
+						</level>
+						<level GUID="_2f26b06f-583d-458f-9279-b355a9ec7a35" class="para1" eId="reg_7__para_4__para_g">
+							<num>(g)</num>
+							<content>
+								<p>the circumstances in which a case may be investigated by the JCIO, a secretary, a deputy secretary, a nominated judge, a nominated committee member, an investigating judge or a disciplinary panel;</p>
+							</content>
+						</level>
+						<level GUID="_08ac8b39-5ff1-4a65-8a2c-51c77868c57b" class="para1" eId="reg_7__para_4__para_h">
+							<num>(h)</num>
+							<content>
+								<p>the circumstances in which a case may be dealt with under a summary process;</p>
+							</content>
+						</level>
+						<level GUID="_739ca2f4-8978-46ad-b2bb-d21de71c1224" class="para1" eId="reg_7__para_4__para_i">
+							<num>(i)</num>
+							<content>
+								<p>the circumstances in which a case may be dealt with under an expedited process;</p>
+							</content>
+						</level>
+						<level GUID="_933a8bc2-d007-4672-aae1-f1aac1baec5f" class="para1" eId="reg_7__para_4__para_j">
+							<num>(j)</num>
+							<content>
+								<p>the circumstances in which a case which has initially been dismissed may be reconsidered.</p>
+							</content>
+						</level>
+					</paragraph>
+				</hcontainer>
+				<hcontainer GUID="_993c5060-45e1-4deb-94e2-ec681b92edcc" class="prov1" eId="reg_8" name="regulation"><?DMS-Component componentId="8962c201-be96-4d9d-958d-37951bac9585" seriesId="d2ef4b54-2002-4e5d-b6ca-d3fcc4f02295" versionNumber="1"?>
+					
+					<heading GUID="_e7b51970-0b9d-4dad-9ea8-3f5929d12dee" eId="reg_8__hdg">Nominated judge</heading>
+					<num>8.</num>
+					<paragraph GUID="_a812f9c4-8167-4ba8-ad75-e2b352465afc" class="prov2" eId="reg_8__para_1">
+						<num>(1)</num>
+						<content>
+							<p>A nominated judge is an office holder who is nominated by the Lord Chief Justice to deal with a case or cases as a nominated judge in accordance with rules made under regulation 7.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_5e420db7-9218-47ec-a1dc-1916201d3dd8" class="prov2" eId="reg_8__para_2">
+						<num>(2)</num>
+						<content>
+							<p>The Lord Chief Justice may nominate different office holders to deal with different cases or to deal with different aspects of the same case.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_99a981cc-133f-49ae-b982-0685b74bb833" class="prov2" eId="reg_8__para_3">
+						<num>(3)</num>
+						<content>
+							<p>In a particular case, a nominated judge must be of at least the same rank as the office holder concerned.</p>
+						</content>
+					</paragraph>
+				</hcontainer>
+				<hcontainer GUID="_3747f002-0e10-4cce-a072-efe5dad1a541" class="prov1" eId="reg_9" name="regulation"><?DMS-Component componentId="6197e998-70d6-4848-93e0-36157e0cb820" seriesId="60d402cb-f4dc-47dc-a130-d1f648035fdb" versionNumber="1"?>
+					
+					<heading GUID="_f273b799-5f45-4168-8191-bac3c67eb7ab" eId="reg_9__hdg">Nominated committee member</heading>
+					<num>9.</num>
+					<paragraph GUID="_c0f04682-ffa1-4e79-afb0-19a9f031b365" class="prov2" eId="reg_9__para_1">
+						<num>(1)</num>
+						<content>
+							<p>A nominated committee member is a person who is nominated by the Lord Chief Justice to deal with a case or cases as a nominated committee member in accordance with rules made under regulation 7.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_50951f5c-5bc2-43cb-af04-f0784794e3b1" class="prov2" eId="reg_9__para_2">
+						<num>(2)</num>
+						<content>
+							<p>The Lord Chief Justice may nominate different nominated committee members to deal with different cases or to deal with different aspects of the same case.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_4a578777-38ba-416c-a743-697951ff6a47" class="prov2" eId="reg_9__para_3">
+						<num>(3)</num>
+						<content>
+							<p>A nominated committee member must be a member of a conduct advisory committee.</p>
+						</content>
+					</paragraph>
+				</hcontainer>
+				<hcontainer GUID="_072fe230-c33a-448f-affd-eb8dcdb01070" class="prov1" eId="reg_10" name="regulation"><?DMS-Component componentId="18cfa442-0c58-454c-96d2-956834fa01c4" seriesId="4fccae7e-9f0e-465d-bb2a-54da3b86386d" versionNumber="1"?>
+					
+					<heading GUID="_90d114d0-0bcc-4b17-8f03-502c8d7cf7a1" eId="reg_10__hdg">Investigating judge</heading>
+					<num>10.</num>
+					<paragraph GUID="_3702af9f-09ff-4adf-ae45-de000a5135de" class="prov2" eId="reg_10__para_1">
+						<num>(1)</num>
+						<content>
+							<p>An investigating judge is an office holder or a former office holder who is nominated by the Lord Chief Justice to investigate a case or cases as an investigating judge in accordance with rules made under regulation 7.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_52657af0-09f6-4c96-8ad0-c5e9419d62db" class="prov2" eId="reg_10__para_2">
+						<num>(2)</num>
+						<content>
+							<p>The Lord Chief Justice may nominate different office holders to investigate different cases or to investigate different aspects of the same case.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_c1b74794-40c0-408a-bda7-10c13fe78404" class="prov2" eId="reg_10__para_3">
+						<num>(3)</num>
+						<content>
+							<p>An investigating judge must be of a higher rank than the office holder concerned.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_65f5d2b4-0628-496f-8419-7c1241d1ae84" class="prov2" eId="reg_10__para_4">
+						<num>(4)</num>
+						<content>
+							<p>In relation to a former office holder reference to their rank means the rank they held immediately before they ceased to hold office.</p>
+						</content>
+					</paragraph>
+				</hcontainer>
+				<hcontainer GUID="_a897daec-c719-4393-a623-f987aa4527e8" class="prov1" eId="reg_11" name="regulation"><?DMS-Component componentId="a481c911-4c73-4c0f-9441-f35b6465d5c6" seriesId="8ea1099c-a2ad-4109-b708-7016a9d114d0" versionNumber="1"?>
+					
+					<heading GUID="_2fdc32fb-aea6-4ab2-a5cb-ff7592f8c1d8" eId="reg_11__hdg">Disciplinary panel</heading>
+					<num>11.</num>
+					<paragraph GUID="_e3e6f848-bf63-4549-b1b3-302f1a8f906f" class="prov2" eId="reg_11__para_1">
+						<num>(1)</num>
+						<intro GUID="_46988937-1b9e-4233-b4ad-a095375e7c0d" eId="reg_11__para_1__intro">
+							<p>A disciplinary panel where the office holder concerned is not a justice of the peace is a panel consisting of—</p>
+						</intro>
+						<level GUID="_4ae68149-1f74-4cef-8df1-5621750fe34d" class="para1" eId="reg_11__para_1__para_a">
+							<num>(a)</num>
+							<content>
+								<p>either an office holder or former office holder who is of a higher rank than the office holder concerned; and</p>
+							</content>
+						</level>
+						<level GUID="_df7c6f80-def7-4d74-a266-19d4a1ccc177" class="para1" eId="reg_11__para_1__para_b">
+							<num>(b)</num>
+							<intro GUID="_5be6e011-4c17-4888-bf57-b590cd1a5a85" eId="reg_11__para_1__para_b__intro">
+								<p>two other members, neither of whom has been—</p>
+							</intro>
+							<level GUID="_5b8831fc-649e-49aa-83c7-07d8b6f4aa28" class="para2" eId="reg_11__para_1__para_b__subpara_i">
+								<num>(i)</num>
+								<content>
+									<p>an office holder; or</p>
+								</content>
+							</level>
+							<level GUID="_671b1d73-1415-462a-b17a-d8a50bb67acd" class="para2" eId="reg_11__para_1__para_b__subpara_ii">
+								<num>(ii)</num>
+								<content>
+									<p>a practising or employed lawyer.</p>
+								</content>
+							</level>
+						</level>
+					</paragraph>
+					<paragraph GUID="_993853c8-f3cb-4446-8e02-fa59193c97d3" class="prov2" eId="reg_11__para_2">
+						<num>(2)</num>
+						<intro GUID="_6c4eb297-1bfc-41a8-b192-584910ba7c0d" eId="reg_11__para_2__intro">
+							<p>A disciplinary panel where the office holder concerned is a justice of the peace is a panel consisting of—</p>
+						</intro>
+						<level GUID="_ac04aeaa-2a34-4a7d-9911-a77dd23ea9cf" class="para1" eId="reg_11__para_2__para_a">
+							<num>(a)</num>
+							<content>
+								<p>either an office holder or former office holder who is of a higher rank than the office holder concerned;</p>
+							</content>
+						</level>
+						<level GUID="_35fae8eb-0359-4d43-9f03-f30fa6519640" class="para1" eId="reg_11__para_2__para_b">
+							<num>(b)</num>
+							<content>
+								<p>a justice of the peace; and</p>
+							</content>
+						</level>
+						<level GUID="_e0ea8bea-3f4a-4f16-b6e2-af36f84d76a3" class="para1" eId="reg_11__para_2__para_c">
+							<num>(c)</num>
+							<intro GUID="_1d847a0f-b92f-4ef7-83df-6a866cbe3e44" eId="reg_11__para_2__para_c__intro">
+								<p>one other member, who has not been—</p>
+							</intro>
+							<level GUID="_d9e5e4b1-0a28-4798-b193-582df0fbe09f" class="para2" eId="reg_11__para_2__para_c__subpara_i">
+								<num>(i)</num>
+								<content>
+									<p>an office holder; or</p>
+								</content>
+							</level>
+							<level GUID="_483eb3f2-9619-4994-bb60-9f9cb24b9e8c" class="para2" eId="reg_11__para_2__para_c__subpara_ii">
+								<num>(ii)</num>
+								<content>
+									<p>a practising or employed lawyer.</p>
+								</content>
+							</level>
+						</level>
+					</paragraph>
+					<paragraph GUID="_bc1e8e50-20c3-4547-9de0-b38638f6226a" class="prov2" eId="reg_11__para_3">
+						<num>(3)</num>
+						<content>
+							<p>In relation to a former office holder, reference to their rank means the rank they held immediately before they ceased to hold office.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_9288034b-bfa5-47bc-b56d-91cfceb8138d" class="prov2" eId="reg_11__para_4">
+						<num>(4)</num>
+						<content>
+							<p>The Lord Chief Justice must nominate persons who may become members of a disciplinary panel under paragraphs (1)(a), (2)(a) and 2(b).</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_7b9e6034-3ff7-4f4b-a0e0-9f3349c98512" class="prov2" eId="reg_11__para_5">
+						<num>(5)</num>
+						<content>
+							<p>The Lord Chancellor must nominate with the agreement of the Lord Chief Justice persons who may become members of a disciplinary panel under paragraph (1)(b) and (2)(c).</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_8e5143d5-ea17-404a-8d3b-3f3792a5d6f5" class="prov2" eId="reg_11__para_6">
+						<num>(6)</num>
+						<content>
+							<p>A person is ineligible for membership of a disciplinary panel if that person has had any previous involvement in the disciplinary process relating to the case that is being referred to the disciplinary panel.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_c76ce8c7-4317-47e4-ac75-032e7fffc005" class="prov2" eId="reg_11__para_7">
+						<num>(7)</num>
+						<content>
+							<p>The office holder who has been nominated under paragraph (1)(a) or (2)(a) must chair the disciplinary panel and must exercise a casting vote if necessary.</p>
+						</content>
+					</paragraph>
+				</hcontainer>
+			</part>
+			<part GUID="_12fe5d65-6385-400e-bae1-db797d27f70e" class="group2" eId="pt_3"><?DMS-Component componentId="5ae86502-720a-4c78-8acb-381631ee563b" seriesId="06e8a06c-10e3-46de-8e1d-173e12237706" versionNumber="1"?>
+				
+				<num>Part 3</num>
+				<heading GUID="_e9dbbc76-f7a7-44d1-9abd-23cae01eb057" eId="pt_3__hdg">Decisions</heading>
+				<hcontainer GUID="_e759e5c9-f934-4c6b-a07c-f8ddff65a359" class="prov1" eId="reg_12" name="regulation"><?DMS-Component componentId="cd3bb353-c799-4dfe-9113-ea5827677432" seriesId="611e0f30-e1b6-45d7-a5a5-8c1b3b291b57" versionNumber="1"?>
+					
+					<heading GUID="_e88aaa9c-5737-46e9-8cdd-dc105e412116" eId="reg_12__hdg">Consideration of advice</heading>
+					<num>12.</num>
+					<content>
+						<p>Before making a decision under regulation 15 in relation to a case, the Lord Chancellor and the Lord Chief Justice must consider any advice provided by a person who, or a body that, has investigated a case in accordance with rules made under regulation 7.</p>
+					</content>
+				</hcontainer>
+				<hcontainer GUID="_f93db06b-e926-45b1-aed5-260cbad5263e" class="prov1" eId="reg_13" name="regulation"><?DMS-Component componentId="826e4b46-9fb9-47f2-ba13-2d6638ea62d6" seriesId="2fb14fdd-6879-4e44-a67e-b3499f211ac8" versionNumber="1"?>
+					
+					<heading GUID="_2ca42a5c-3c40-41c4-b62a-4999e96be72b" eId="reg_13__hdg">Further investigation</heading>
+					<num>13.</num>
+					<paragraph GUID="_89602d94-74d4-4f59-866a-890265da08a7" class="prov2" eId="reg_13__para_1">
+						<num>(1)</num>
+						<content>
+							<p>This regulation applies where the Lord Chancellor and the Lord Chief Justice have considered advice in accordance with regulation 12 and they require further investigation before making a decision under regulation 15.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_7b5e95fd-c944-45e3-bb59-7b5e12003ca3" class="prov2" eId="reg_13__para_2">
+						<num>(2)</num>
+						<content>
+							<p>If the Lord Chancellor and the Lord Chief Justice agree, they may refer a case to a person or body listed in paragraph (3) to further investigate.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_fb6e0075-a9aa-44ae-8dbb-0c8f409ec1e3" class="prov2" eId="reg_13__para_3">
+						<num>(3)</num>
+						<intro GUID="_71e73706-6ebc-49da-9b6c-a7630c85caa8" eId="reg_13__para_3__intro">
+							<p>The persons and bodies are—</p>
+						</intro>
+						<level GUID="_9d024730-0cb0-4620-a263-b40c39fb21a4" class="para1" eId="reg_13__para_3__para_a">
+							<num>(a)</num>
+							<content>
+								<p>where the office holder concerned is not a justice of the peace, a nominated judge;</p>
+							</content>
+						</level>
+						<level GUID="_82b87b27-6d00-4c5e-b1c2-8fc95b3883ca" class="para1" eId="reg_13__para_3__para_b">
+							<num>(b)</num>
+							<content>
+								<p>where the office holder concerned is a justice of the peace, a nominated committee member;</p>
+							</content>
+						</level>
+						<level GUID="_309e1859-31df-416c-ae37-460e5c45f295" class="para1" eId="reg_13__para_3__para_c">
+							<num>(c)</num>
+							<content>
+								<p>an investigating judge; or</p>
+							</content>
+						</level>
+						<level GUID="_7bd39d0f-b0c0-4614-be59-10307a7d8011" class="para1" eId="reg_13__para_3__para_d">
+							<num>(d)</num>
+							<content>
+								<p>a disciplinary panel.</p>
+							</content>
+						</level>
+					</paragraph>
+					<paragraph GUID="_10334d3b-c221-4e4a-85c9-071623be6087" class="prov2" eId="reg_13__para_4">
+						<num>(4)</num>
+						<content>
+							<p>Any further investigation must be carried out in accordance with rules made under regulation 7.</p>
+						</content>
+					</paragraph>
+				</hcontainer>
+				<hcontainer GUID="_755c082c-b45f-4df9-ae30-72d7c2754225" class="prov1" eId="reg_14" name="regulation"><?DMS-Component componentId="0452820f-0f3e-4723-9ce5-9e49d893749d" seriesId="95829849-6783-4c51-850c-9a4365a7245f" versionNumber="1"?>
+					
+					<heading GUID="_2df542fc-e814-454e-89ad-1576ff9e45be" eId="reg_14__hdg">Removal or suspension when other disciplinary power is recommended</heading>
+					<num>14.</num>
+					<paragraph GUID="_8c51d771-18b9-46c7-8e15-b522717db3df" class="prov2" eId="reg_14__para_1">
+						<num>(1)</num>
+						<intro GUID="_a177504f-2765-4836-b962-893768bdebfd" eId="reg_14__para_1__intro">
+							<p>This regulation applies where—</p>
+						</intro>
+						<level GUID="_f1d3539a-3acf-4363-bcc3-447284acff29" class="para1" eId="reg_14__para_1__para_a">
+							<num>(a)</num>
+							<content>
+								<p>advice has been provided to the Lord Chancellor and the Lord Chief Justice by a person who, or a body that, has investigated a case in accordance with rules made under regulation 7; and</p>
+							</content>
+						</level>
+						<level GUID="_d4ba889b-2664-4efc-90e1-8e6a0ae2b1a3" class="para1" eId="reg_14__para_1__para_b">
+							<num>(b)</num>
+							<content>
+								<p>that advice does not recommend the removal or suspension of an office holder from office but the Lord Chancellor and the Lord Chief Justice consider removal or suspension to be the appropriate disciplinary sanction.</p>
+							</content>
+						</level>
+					</paragraph>
+					<paragraph GUID="_b8dd6cc3-c259-4990-a239-0c52820dcea8" class="prov2" eId="reg_14__para_2">
+						<num>(2)</num>
+						<content>
+							<p>The Lord Chancellor and the Lord Chief Justice must constitute a disciplinary panel and refer the complaint to it.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_13cde611-8745-4b41-873f-15b4aec13142" class="prov2" eId="reg_14__para_3">
+						<num>(3)</num>
+						<intro GUID="_0beb3de6-48ed-4852-971d-943616a75dbf" eId="reg_14__para_3__intro">
+							<p>The disciplinary panel must—</p>
+						</intro>
+						<level GUID="_96ea9d70-5d3d-4f3c-b290-2400c6ff389b" class="para1" eId="reg_14__para_3__para_a">
+							<num>(a)</num>
+							<content>
+								<p>investigate the case in accordance with rules made under regulation 7; and</p>
+							</content>
+						</level>
+						<level GUID="_f31b1a87-d7d6-449d-92b5-695a6bc31682" class="para1" eId="reg_14__para_3__para_b">
+							<num>(b)</num>
+							<content>
+								<p>advise the Lord Chancellor and the Lord Chief Justice whether a disciplinary sanction should be issued, and if so, what disciplinary sanction should be issued.</p>
+							</content>
+						</level>
+					</paragraph>
+				</hcontainer>
+				<hcontainer GUID="_9fb9e975-fd33-441e-addd-488cabbbbfdb" class="prov1" eId="reg_15" name="regulation"><?DMS-Component componentId="8e67f1f5-65f7-4bd0-bda0-106d22c47e69" seriesId="3ff75ab8-1049-497f-bc00-226ef7ac553d" versionNumber="1"?>
+					
+					<heading GUID="_4dad799a-708b-4e65-a44f-d09aaf7d6bb9" eId="reg_15__hdg">Decision</heading>
+					<num>15.</num>
+					<paragraph GUID="_c2494b97-9f12-417f-a95a-d0ec1c496bdd" class="prov2" eId="reg_15__para_1">
+						<num>(1)</num>
+						<content>
+							<p>This regulation applies where the Lord Chancellor and the Lord Chief Justice have considered advice in accordance with regulation 12 and decide either not to exercise, or exercise further, their powers in regulation 13, and regulation 14 either does not apply or has been complied with.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_ff967767-c31e-42b5-979f-f7b23aeb694e" class="prov2" eId="reg_15__para_2">
+						<num>(2)</num>
+						<intro GUID="_d88c66ab-9aaa-4026-8d98-5bd002098e10" eId="reg_15__para_2__intro">
+							<p>The Lord Chancellor and the Lord Chief Justice may agree—</p>
+						</intro>
+						<level GUID="_06eafc59-9982-400c-9e38-0606ec6ea719" class="para1" eId="reg_15__para_2__para_a">
+							<num>(a)</num>
+							<content>
+								<p>to dismiss a case; or</p>
+							</content>
+						</level>
+						<level GUID="_ac43e10c-09b8-464b-8cc3-b1c129fa2ec1" class="para1" eId="reg_15__para_2__para_b">
+							<num>(b)</num>
+							<content>
+								<p>to issue a particular disciplinary sanction.</p>
+							</content>
+						</level>
+					</paragraph>
+					<paragraph GUID="_0a680b3e-5454-4678-9f94-3fea5519e800" class="prov2" eId="reg_15__para_3">
+						<num>(3)</num>
+						<intro GUID="_a2f6611b-f593-4a89-ac20-1a0c69ed7f3a" eId="reg_15__para_3__intro">
+							<p>Where a case is dismissed, the Lord Chancellor and the Lord Chief Justice may agree that—</p>
+						</intro>
+						<level GUID="_dea3a86d-736f-46fb-98fa-ab32dde5c945" class="para1" eId="reg_15__para_3__para_a">
+							<num>(a)</num>
+							<content>
+								<p>the alleged conduct took place but did not constitute misconduct; and</p>
+							</content>
+						</level>
+						<level GUID="_396ed502-173e-4010-8405-0fee10b665ca" class="para1" eId="reg_15__para_3__para_b">
+							<num>(b)</num>
+							<content>
+								<p>the Lord Chief Justice may deal with the matter informally.</p>
+							</content>
+						</level>
+					</paragraph>
+				</hcontainer>
+				<hcontainer GUID="_42015f3f-ee1b-44bb-974f-98e2f001fdbb" class="prov1" eId="reg_16" name="regulation"><?DMS-Component componentId="ca9665e1-91e9-438b-b557-e1498f7676f8" seriesId="34c9f8f3-25e9-4313-810f-cc56b2c9fef0" versionNumber="1"?>
+					
+					<heading GUID="_29f2321f-08ea-4721-8aa2-f2248f417acf" eId="reg_16__hdg">Notification of final decision</heading>
+					<num>16.</num>
+					<paragraph GUID="_a0a0fe82-92e5-433d-bbfd-72504f39542a" class="prov2" eId="reg_16__para_1">
+						<num>(1)</num>
+						<content>
+							<p>The JCIO must inform the persons listed in paragraph (2) of the decision made by the Lord Chancellor and the Lord Chief Justice under regulation 15.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_af010b74-6bde-4c77-8233-ad2631544777" class="prov2" eId="reg_16__para_2">
+						<num>(2)</num>
+						<intro GUID="_e7b241a7-c813-405c-a0ff-4c42fe9d62b8" eId="reg_16__para_2__intro">
+							<p>The persons referred to in paragraph (1) are—</p>
+						</intro>
+						<level GUID="_fb588d7f-0b91-4474-b5e6-2f3168bdd093" class="para1" eId="reg_16__para_2__para_a">
+							<num>(a)</num>
+							<content>
+								<p>the office holder concerned;</p>
+							</content>
+						</level>
+						<level GUID="_1eb2626f-4eb3-4a8e-866d-582b29315b5b" class="para1" eId="reg_16__para_2__para_b">
+							<num>(b)</num>
+							<content>
+								<p>the complainant;</p>
+							</content>
+						</level>
+						<level GUID="_e1a11c56-45e9-455a-a7d8-d95543c88e86" class="para1" eId="reg_16__para_2__para_c">
+							<num>(c)</num>
+							<content>
+								<p>if the complaint is about a justice of the peace, the secretary.</p>
+							</content>
+						</level>
+					</paragraph>
+				</hcontainer>
+			</part>
+			<part GUID="_3c1f8dad-f058-42d3-85f8-038d028dc2ff" class="group2" eId="pt_4"><?DMS-Component componentId="f1ec7e18-db7f-4066-b0cb-7402bb2c047c" seriesId="9297b18b-11fa-4dc2-9f9f-e739c1b62ef3" versionNumber="1"?>
+				
+				<num>Part 4</num>
+				<heading GUID="_57c5a3a7-dd44-407b-a4e1-79729141d81e" eId="pt_4__hdg">Miscellaneous</heading>
+				<hcontainer GUID="_aeaa3eee-e890-460c-8aa0-53aea69d5354" class="prov1" eId="reg_17" name="regulation"><?DMS-Component componentId="847f9073-c6dc-4ad8-bcca-39167b0b7b68" seriesId="f5706307-7344-4a4b-91bd-b8bd0f3b8ad0" versionNumber="1"?>
+					
+					<heading GUID="_536eeeab-91c9-46cb-8b82-b33f99c5ff47" eId="reg_17__hdg">Interim suspension</heading>
+					<num>17.</num>
+					<paragraph GUID="_9a7e30b7-2d8c-4fa0-be5c-4eebaaac6c84" class="prov2" eId="reg_17__para_1">
+						<num>(1)</num>
+						<content>
+							<p>Where a person or body investigating a complaint considers that the matter should be referred to the Lord Chief Justice with a view to the exercise of the power under section 108(7) of the Act to suspend the office holder concerned on an interim basis, that person or body must send a report to that effect to the Lord Chancellor and the Lord Chief Justice.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_cac8c5f7-d0d6-4b50-9c3e-30c479066ec8" class="prov2" eId="reg_17__para_2">
+						<num>(2)</num>
+						<intro GUID="_d21683a1-73d7-48b5-affe-eaca0dc909a2" eId="reg_17__para_2__intro">
+							<p>If the Lord Chief Justice decides to suspend an office holder from their office under section 108(4)(a), (6) or (7) of the Act, the Lord Chief Justice must—</p>
+						</intro>
+						<level GUID="_be0f9736-7f3c-40f8-a6cb-7777508a27ea" class="para1" eId="reg_17__para_2__para_a">
+							<num>(a)</num>
+							<content>
+								<p>notify the office holder concerned of the suspension, the reasons for it and if the suspension is not immediate, the time when it comes into effect;</p>
+							</content>
+						</level>
+						<level GUID="_60146f15-82e4-48b7-be2f-f4cb601ca974" class="para1" eId="reg_17__para_2__para_b">
+							<num>(b)</num>
+							<content>
+								<p>notify the office holder concerned of the factors that will be taken into account in determining when the suspension will end; and</p>
+							</content>
+						</level>
+						<level GUID="_a87c7893-43cb-4443-b2cc-5070e8166f43" class="para1" eId="reg_17__para_2__para_c">
+							<num>(c)</num>
+							<content>
+								<p>invite the office holder concerned to make representations.</p>
+							</content>
+						</level>
+					</paragraph>
+					<paragraph GUID="_5b25295c-b626-4613-bd6c-01e3d4859d71" class="prov2" eId="reg_17__para_3">
+						<num>(3)</num>
+						<content>
+							<p>The office holder concerned must make any representations within ten working days of the notification under paragraph (2).</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_15f10251-df3e-4d96-bbe5-c4b67764fe53" class="prov2" eId="reg_17__para_4">
+						<num>(4)</num>
+						<intro GUID="_6a4a8b59-804b-489d-9728-fe422ca0b8c4" eId="reg_17__para_4__intro">
+							<p>Where, after a suspension comes into effect, any of the factors which the Lord Chief Justice has indicated would be taken into account in accordance with paragraph (2)(b) become operative or cease to apply, or any other matter which the Lord Chancellor and the Lord Chief Justice consider relevant arises, the Lord Chancellor and the Lord Chief Justice must—</p>
+						</intro>
+						<level GUID="_0b4cf016-9798-4d9b-9ae2-b08f296a5c75" class="para1" eId="reg_17__para_4__para_a">
+							<num>(a)</num>
+							<content>
+								<p>decide whether continuation of the suspension is appropriate;</p>
+							</content>
+						</level>
+						<level GUID="_9e4825f6-1bf3-438c-b197-a72e8f35c1ab" class="para1" eId="reg_17__para_4__para_b">
+							<num>(b)</num>
+							<content>
+								<p>notify the office holder concerned of their decision under sub-paragraph (a) and of the reasons for that decision; and</p>
+							</content>
+						</level>
+						<level GUID="_ded41e87-e4cc-4f49-94a0-38046b47ead4" class="para1" eId="reg_17__para_4__para_c">
+							<num>(c)</num>
+							<content>
+								<p>invite the office holder concerned to make representations.</p>
+							</content>
+						</level>
+					</paragraph>
+					<paragraph GUID="_c2650d24-0e1c-4188-9b77-8320a6efe45c" class="prov2" eId="reg_17__para_5">
+						<num>(5)</num>
+						<content>
+							<p>The office holder concerned must make any representations within ten working days of a notification under paragraph (4).</p>
+						</content>
+					</paragraph>
+				</hcontainer>
+				<hcontainer GUID="_528d15f1-af96-4825-a321-66cfb41ab530" class="prov1" eId="reg_18" name="regulation"><?DMS-Component componentId="3b8e40ae-1d00-4c5e-a4e8-ea87678222db" seriesId="ce6a8e93-0f68-406a-a4ea-96133817fff5" versionNumber="1"?>
+					
+					<heading GUID="_aa3fddea-dec9-41e9-bfaa-527822bc445e" eId="reg_18__hdg">Publication of decision</heading>
+					<num>18.</num>
+					<paragraph GUID="_15ff2966-e4ab-4570-806b-e3514546a857" class="prov2" eId="reg_18__para_1">
+						<num>(1)</num>
+						<content>
+							<p>The Lord Chancellor and the Lord Chief Justice may agree to the publication of information about disciplinary proceedings or the issuing of a disciplinary sanction.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_719a5353-f6fd-4f53-957b-52f198921c18" class="prov2" eId="reg_18__para_2">
+						<num>(2)</num>
+						<content>
+							<p>Publication for this purpose means any form of communication which is addressed to an individual, a section of the public or the public at large.</p>
+						</content>
+					</paragraph>
+				</hcontainer>
+				<hcontainer GUID="_bb8afbc6-bd9f-4d4e-9bc0-6d28c7c73d48" class="prov1" eId="reg_19" name="regulation"><?DMS-Component componentId="cf7b13e4-f102-431c-8e95-9900b4a6e260" seriesId="308ab7de-f690-4284-a62e-89130bd06818" versionNumber="0"?>
+					
+					<heading GUID="_5adf2fa2-c4bb-498a-a59f-92ae65564354" eId="reg_19__hdg">Requirements in relation to reviews by the Ombudsman</heading>
+					<num>19.</num>
+					<paragraph GUID="_04aba33f-0b67-4567-a753-111d6c438492" class="prov2" eId="reg_19__para_1">
+						<num>(1)</num>
+						<intro GUID="_04bc1400-d3f5-4ed3-a34b-36aa6289f948" eId="reg_19__para_1__intro">
+							<p>If the Ombudsman requests from any person information for the purposes of a review carried out under section 111 of the Act<authorialNote GUID="_9ebf7622-f93d-4faa-bff1-a300983f9226" class="footnote" eId="fnote_6" marker="6">
+								<p>Section 111 was extended by the Coroners and Justice Act 2009, Schedule 3, paragraph 14.</p>
+								</authorialNote>, and such information is not provided within ten working days of the notification of the request, or within such other period as the Ombudsman indicates, the Ombudsman may—</p>
+						</intro>
+						<level GUID="_5e3e572f-ddfe-47b5-8132-d68e838c315a" class="para1" eId="reg_19__para_1__para_a">
+							<num>(a)</num>
+							<content>
+								<p>prepare the review without regard to that information, and</p>
+							</content>
+						</level>
+						<level GUID="_2da2c02e-8211-412d-98b2-e6a531262054" class="para1" eId="reg_19__para_1__para_b">
+							<num>(b)</num>
+							<content>
+								<p>disregard any representations made out of time by the person concerned.</p>
+							</content>
+						</level>
+					</paragraph>
+					<paragraph GUID="_108d5f5e-5028-46a3-9454-94b4630d4214" class="prov2" eId="reg_19__para_2">
+						<num>(2)</num>
+						<content>
+							<p>The Lord Chancellor, the Lord Chief Justice or any person or body conducting an investigation in accordance with rules made under regulation 7 must provide the Ombudsman with such information as the Ombudsman may reasonably require for the purposes of a review carried out under section 111 or section 113 of the Act<authorialNote GUID="_b6ff096f-b2b3-464c-abca-7eade240e5e3" class="footnote" eId="fnote_7" marker="7">
+								<p>Section 113 was extended by the Coroners and Justice Act 2009, Schedule 3, paragraph 14.</p>
+								</authorialNote>.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_1f98f981-41bc-43b8-a5fc-bdeae58cf5ca" class="prov2" eId="reg_19__para_3">
+						<num>(3)</num>
+						<content>
+							<p>Where the Ombudsman directs under section 111(7)(b) of the Act that an investigation should be undertaken or undertaken again, the case must be investigated or investigated again in accordance with rules made under regulation 7.</p>
+						</content>
+					</paragraph>
+				</hcontainer>
+				<hcontainer GUID="_3cf75025-2530-4645-b72e-48d8716417c7" class="prov1" eId="reg_20" name="regulation"><?DMS-Component componentId="d8741832-8473-49d5-911b-19aaea3914e0" seriesId="4f524fae-b05c-47b2-b3e9-b5de17b9e792" versionNumber="0"?>
+					
+					<heading GUID="_2201deaf-26e2-4306-bdb8-ae8b3a41ab81" eId="reg_20__hdg">Scotland and Northern Ireland: eligibility to exercise functions</heading>
+					<num>20.</num>
+					<intro GUID="_161b3a60-c2ab-4b2e-8407-18164281442a" eId="reg_20__intro">
+						<p>Where the office holder concerned is a member of a tribunal which has jurisdiction throughout Great Britain or the United Kingdom, the following office holders may also be nominated as a nominated judge under regulation 8, as an investigating judge under regulation 10 or as a member of a disciplinary panel under regulation 11—</p>
+					</intro>
+					<level GUID="_f7db672a-070c-4608-ae42-8340d3c465e8" class="para1" eId="reg_20__para_a">
+						<num>(a)</num>
+						<content>
+							<p>where the office holder concerned exercises functions wholly or mainly in Scotland, a sheriff, a sheriff principal or a judge of the Court of Session;</p>
+						</content>
+					</level>
+					<level GUID="_37a78ab8-759a-439d-9bfc-14ef4e660ec0" class="para1" eId="reg_20__para_b">
+						<num>(b)</num>
+						<content>
+							<p>where the office holder concerned exercises functions wholly or mainly in Northern Ireland, the holder of an office listed in Schedule 1 to the Justice (Northern Ireland) Act 2002<authorialNote GUID="_c6df8ce2-0733-408a-a22e-a3bd4580a937" class="footnote" eId="fnote_8" marker="8">
+								<p>2002 c. 26.</p>
+								</authorialNote>.</p>
+						</content>
+					</level>
+				</hcontainer>
+				<hcontainer GUID="_80ab1998-01ef-4f49-aa48-54b1fe203313" class="prov1" eId="reg_21" name="regulation"><?DMS-Component componentId="c84a35d0-5268-4dbe-ac89-7243b1417791" seriesId="9a2c93d9-4504-41ff-b7ac-6c742cf137c0" versionNumber="1"?>
+					
+					<heading GUID="_c14b3672-7627-4800-9d52-37f42f5cd904" eId="reg_21__hdg">Scotland and Northern Ireland: Judicial Appointments and Conduct Ombudsman</heading>
+					<num>21.</num>
+					<intro GUID="_da987112-dfad-4f98-acb1-6074fc17adee" eId="reg_21__intro">
+						<p>Sections 110(c) to 113 of the Act apply—</p>
+					</intro>
+					<level GUID="_f6310194-4231-4efc-9487-34c7807f3721" class="para1" eId="reg_21__para_a">
+						<num>(a)</num>
+						<content>
+							<p>in relation to office holders who exercise functions wholly or mainly in Scotland as if in section 110(8)(b) of the Act the reference to the Lord Chief Justice of England and Wales were a reference to the Lord President of the Court of Session; and</p>
+						</content>
+					</level>
+					<level GUID="_2820f1fc-376a-48c5-85e3-58385e8faf97" class="para1" eId="reg_21__para_b">
+						<num>(b)</num>
+						<content>
+							<p>in relation to office holders who exercise functions wholly or mainly in Northern Ireland as if in section 110(8)(b) of the Act the reference to the Lord Chief Justice of England and Wales were a reference to the Lord Chief Justice of Northern Ireland.</p>
+						</content>
+					</level>
+				</hcontainer>
+				<hcontainer GUID="_82f422ee-87e1-4959-9a8c-5cddc4fafd69" class="prov1" eId="reg_22" name="regulation"><?DMS-Component componentId="a4216c70-9df7-440f-8e3c-7766f847f55f" seriesId="3c564414-d02d-4f2a-ae5f-c8b26d0b1eb0" versionNumber="1"?>
+					
+					<heading GUID="_2c55cb4a-abda-43aa-80e5-20f6985ea107" eId="reg_22__hdg">Ceasing to hold office</heading>
+					<num>22.</num>
+					<paragraph GUID="_e94d0059-d8ee-41eb-a161-8e06fce51626" class="prov2" eId="reg_22__para_1">
+						<num>(1)</num>
+						<content>
+							<p>Subject to paragraphs (2) and (4), where the office holder concerned ceases to hold their office, consideration of the complaint under these Regulations or rules made under regulation 7 must cease.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_bda7e744-d6cd-4a93-8fc5-09bfeaa127f5" class="prov2" eId="reg_22__para_2">
+						<num>(2)</num>
+						<content>
+							<p>The Lord Chancellor and the Lord Chief Justice may continue to deal with the case and then make a finding of misconduct in relation to the office holder concerned where the circumstances in paragraph (3) apply.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_cb3409fe-71a6-45e2-afbc-800c7c2a8e4d" class="prov2" eId="reg_22__para_3">
+						<num>(3)</num>
+						<intro GUID="_a1cf0ddd-21c5-4b65-b587-6541a36d7821" eId="reg_22__para_3__intro">
+							<p>The circumstances are—</p>
+						</intro>
+						<level GUID="_90b84f04-db13-47e7-895d-e898525a8b22" class="para1" eId="reg_22__para_3__para_a">
+							<num>(a)</num>
+							<content>
+								<p>the office holder concerned ceases to hold their office;</p>
+							</content>
+						</level>
+						<level GUID="_4cdcab7e-feb4-4d97-b42f-906fe1ef2175" class="para1" eId="reg_22__para_3__para_b">
+							<num>(b)</num>
+							<content>
+								<p>a disciplinary panel or an investigating judge proposes to advise, or has advised, the Lord Chancellor and the Lord Chief Justice that the office holder concerned should be removed from holding their office; and</p>
+							</content>
+						</level>
+						<level GUID="_7430f6f7-c963-41ae-8213-d108815b49e6" class="para1" eId="reg_22__para_3__para_c">
+							<num>(c)</num>
+							<content>
+								<p>no decision has been made under regulation 15.</p>
+							</content>
+						</level>
+					</paragraph>
+					<paragraph GUID="_640a734e-36c6-4442-aa75-6022f8ae23fc" class="prov2" eId="reg_22__para_4">
+						<num>(4)</num>
+						<intro GUID="_8c05f2ab-aa1b-4b95-bd9e-445e70fede47" eId="reg_22__para_4__intro">
+							<p>Paragraph (1) does not apply where—</p>
+						</intro>
+						<level GUID="_9ac5055a-677f-41fc-971d-4db9a09b6d80" class="para1" eId="reg_22__para_4__para_a">
+							<num>(a)</num>
+							<content>
+								<p>the office holder concerned has ceased to hold their office; but</p>
+							</content>
+						</level>
+						<level GUID="_0a2dadf8-47df-438e-acdb-abba1e59c5f1" class="para1" eId="reg_22__para_4__para_b">
+							<num>(b)</num>
+							<content>
+								<p>the Ombudsman directs under section 111(7)(b) of the Act that an investigation should be undertaken or undertaken again.</p>
+							</content>
+						</level>
+					</paragraph>
+				</hcontainer>
+				<hcontainer GUID="_dcc79c13-401a-4b4c-b940-0a80097d79f5" class="prov1" eId="reg_23" name="regulation"><?DMS-Component componentId="4f64700c-edf6-4e2d-9f82-444e12b06016" seriesId="3a2db48a-7be7-4336-ada1-aeb85f253f3c" versionNumber="1"?>
+					
+					<heading GUID="_a5dcf11b-7345-48aa-af8e-6a224c5f7e2b" eId="reg_23__hdg">Consequential amendments</heading>
+					<num>23.</num>
+					<paragraph GUID="_84f59b86-32ba-4e8a-bf74-97cb88ef24c2" class="prov2" eId="reg_23__para_1">
+						<num>(1)</num>
+						<content>
+							<p>The Justices of the Peace Rules 2016<authorialNote GUID="_079beaa5-2362-465f-a163-909b707f8673" class="footnote" eId="fnote_9" marker="9">
+									<p>S.I. 2016/709; rules 31 and 32 were amended by S.I. 2020/100.</p>
+								</authorialNote> are amended as follows.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_13b5c3b4-f53b-415b-b27c-33c3356afbfe" class="prov2" eId="reg_23__para_2">
+						<num>(2)</num>
+						<content>
+							<p>In rule 31(2)(e), for “the Judicial Conduct (Magistrates) Rules 2014” substitute “rules made under regulation 7 of the Judicial Discipline (Prescribed Procedures) Regulations 2014<authorialNote GUID="_05d8e1b9-f4a6-4f7a-98e4-1e61ae8c9109" class="footnote" eId="fnote_10" marker="10">
+									<p>S.I. 2014/1919.</p>
+								</authorialNote> or regulation 7 of the Judicial Discipline (Prescribed Procedures) Regulations 2023”.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_30d109f6-e221-4d2b-bcdb-11ca29d0e9aa" class="prov2" eId="reg_23__para_3">
+						<num>(3)</num>
+						<content>
+							<p>In rule 32(2)(i), for “the Judicial Conduct (Magistrates) Rules 2014” substitute “rules made under regulation 7 of the Judicial Discipline (Prescribed Procedures) Regulations 2014 or regulation 7 of the Judicial Discipline (Prescribed Procedures) Regulations 2023”.</p>
+						</content>
+					</paragraph>
+				</hcontainer>
+			</part>
+			<hcontainer GUID="_bbf2a7f1-41f9-4277-a220-296169bb6ae6" eId="sigs" name="signatures"><?DMS-Component componentId="ef5f2396-ce3a-455c-a738-d228f41a8483" seriesId="8bb9a2f2-a224-4a4b-a08e-1456c43957e1" versionNumber="0"?>
+				
+				<hcontainer GUID="_97e48a78-b1c8-4bdf-95d7-0c57a248b59c" eId="sigs__sigBlk" name="signatureBlock">
+					<content>
+						<block GUID="_97488d21-af97-41e6-b369-722435fa765a" eId="sigs__sigBlk__sig" name="signature">Burnett of Maldon </block>
+						<block GUID="_c2db1e4f-4363-44a3-9c45-2927eb218314" eId="sigs__sigBlk__role" name="role">Lord Chief Justice</block>
+						<block name="date"><date date="2023-09-08">8th September 2023</date></block>
+					</content>
+				</hcontainer>
+				<hcontainer GUID="_261d80fa-251c-4ce7-927b-8904afd635fe" eId="sigs__sigBlk__oc_1" name="signatureBlock">
+					<content>
+						<p>I agree</p>
+						<block GUID="_52a6ea86-f011-4c8c-b9c0-b04d7b08a96b" eId="sigs__sigBlk__oc_1__sig" name="signature">Alex Chalk</block>
+						<block GUID="_b637870c-942f-43f0-a15d-de8f85b13a3c" eId="sigs__sigBlk__oc_1__role" name="role">Lord Chancellor</block>
+						<block name="date"><date date="2023-09-13">13th September 2023</date></block>
+						<block GUID="_2b00cb54-ee2c-40da-a78e-7873353fa63b" eId="sigs__sigBlk__oc_1__org" name="organization">Ministry of Justice</block>
+					</content>
+				</hcontainer>
+				<hcontainer GUID="_849eaefa-93d6-4391-afc6-61f9174e3c0d" eId="sigs__sigBlk__oc_2" name="signatureBlock">
+					<content>
+						<p>I agree</p>
+						<block GUID="_7f728e80-0bee-47be-a88e-4c8fe2c102de" eId="sigs__sigBlk__oc_2__sig" name="signature">CJM Sutherland</block>
+						<block GUID="_201c2d0a-4912-41eb-a4e7-fe6268189cbc" eId="sigs__sigBlk__oc_2__role" name="role">Lord President of the Court of Session</block>
+						<block name="date"><date date="2023-09-07">7th September 2023</date></block>
+					</content>
+				</hcontainer>
+				<hcontainer GUID="_126410c7-8f86-4228-ba76-56d646c4cd38" eId="sigs__sigBlk__oc_3" name="signatureBlock">
+					<content>
+						<p>I agree</p>
+						<block GUID="_89453089-5b17-4dbf-96f9-6824bab3f90a" eId="sigs__sigBlk__oc_3__sig" name="signature">Siobhan Keegan</block>
+						<block GUID="_e6a60ca3-c7db-40a2-a72d-5676d1044554" eId="sigs__sigBlk__oc_3__role" name="role">Lady Chief Justice of Northern Ireland</block>
+						<block name="date"><date date="2023-09-08">8th September 2023</date></block>
+					</content>
+				</hcontainer>
+			</hcontainer>
+		</body>
+		<conclusions GUID="_8f6b7ac8-be62-4a41-b521-6b4188b7dcf8" eId="backCover"><?DMS-Component componentId="7862cc42-d25e-42a4-9eb2-fd820471eab1" seriesId="b20e8f24-0734-4900-ae03-d7cba9bd7cd4" versionNumber="1"?>
+			
+			<blockContainer GUID="_dc880938-42a5-4e5d-b498-326c0de0db10" class="explanatoryNote" eId="backCover__explNote">
+				<heading GUID="_c801783c-c410-4a18-9323-f135c269d86f" eId="backCover__explNote__hdg">Explanatory Note</heading>
+				<subheading GUID="_b4feb118-af9a-4e81-94bc-1ae387141013" eId="backCover__explNote__subhdg">(This note is not part of the <ref class="placeholder" href="#varDocSubType" />)</subheading>
+				<p>These Regulations prescribe the procedures to be followed under chapter 3 of Part 4 of the Constitutional Reform Act 2005 (c.4.) to investigate and determine possible misconduct by a judicial office holder, a coroner or a holder of an office that has been designated by an order under section 118 of the Constitutional Reform Act 2005 (c.4).</p>
+				<p>These Regulations replace the Judicial Discipline (Prescribed Procedures) Regulations 2014 (S.I. 2014/1919) for all complaints made on or after the date on which these Regulations come into force.</p>
+				<p>Part 1 defines certain terms used in the Regulations (regulation 2) and sets out the offices that the Regulations apply to (regulation 3). It also provides for the designation of dedicated officials in the Judicial Conduct Investigations Office to support the Lord Chancellor, the Lord Chief Justice of England and Wales, the Lord President of the Court of Session or the Lady Chief Justice of Northern Ireland in the exercise of their functions (regulation 4).</p>
+				<p>Part 2 sets out the process for complaints to be investigated. It also sets out the types of provision that can be made in rules made by the Lord Chief Justice with the agreement of the Lord Chancellor (regulation 7).</p>
+				<p>Part 3 deals with the decision making process, including how the Lord Chancellor and the Lord Chief Justice can consider advice (regulation 12), refer the case for further consideration (regulation 13) and make decisions (regulations 14, 15 and 16).</p>
+				<p>Part 4 makes various miscellaneous provisions. These include how to deal with the possible interim suspension of an office holder (regulation 17), reviews by the Ombudsman (regulation 19) and the effect of cessation of office by an office holder under the disciplinary process (regulation 22).</p>
+			</blockContainer>
+		</conclusions>
+	</act>
+</akomaNtoso>

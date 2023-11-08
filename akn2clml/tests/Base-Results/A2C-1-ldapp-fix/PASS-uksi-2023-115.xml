@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="UTF-8"?><akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../schemas/akomantoso30.xsd"><?DMS-Component componentId="f981100a-ce83-4a22-b60d-58931cefd35b" seriesId="e49cb1a0-2c91-4046-852e-ccfa9f1fb467" versionNumber="1"?>
+	<act contains="originalVersion" name="uksi">
+		<meta><?DMS-Component componentId="3053fb39-89ec-4779-9c87-891a3ea5310e" seriesId="62403322-49bf-4e60-8904-1d3ba01057e4" versionNumber="0"?>
+			
+			<identification source="#ldapp">
+				<FRBRWork>
+					<FRBRthis value="#varWork"/>
+					<FRBRuri value="#varWorkUri"/>
+					<FRBRalias name="ttflConfigHistory" value="#varCHOiid"/>
+					<FRBRdate date="9999-01-01" name="uksi"/>
+					<FRBRauthor href="#varAuthor"/>
+					<FRBRcountry value="GB-SCT"/>
+					<FRBRsubtype value="#varDocSubType"/>
+					<FRBRnumber value="#varProjectId"/>
+					<FRBRname value="#varSITitle"/>
+					<FRBRprescriptive value="true"/>
+					<FRBRauthoritative value="false"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="#varExpression"/>
+					<FRBRuri value="#varExpressionUri"/>
+					<FRBRalias name="ttflVersionDescription" value="#varVDOiid"/>
+					<FRBRdate date="9999-01-01" name="draft"/>
+					<FRBRauthor href="#varAuthor"/>
+					<FRBRversionNumber value=""/>
+					<FRBRauthoritative value="false"/>
+					<FRBRmasterExpression href="" showAs=""/>
+					<FRBRlanguage language="eng"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="#varManifestation"/>
+					<FRBRuri value="#varManifestationUri"/>
+					<FRBRdate date="9999-01-01" name="akn_xml"/>
+					<FRBRauthor href="#varAuthor"/>
+					<FRBRformat value="application/akn+xml"/>
+				</FRBRManifestation>
+			</identification>
+			<references source="#author">
+				<TLCConcept GUID="_6d9b36ea-29ff-428d-8020-2f1dc7682c3a" eId="varDocSubType" href="#varOntologies" showAs="Regulations"/>
+				<TLCConcept GUID="_de049745-2ae1-415a-bb48-32c45673096b" eId="varSITitle" href="#varOntologies" showAs="The Elections Act 2022 (Commencement No. 7) Regulations 2023"/>
+				<TLCProcess GUID="_7aa71979-5cf2-4b4b-8b86-56b03d973e60" eId="varProcedureType" href="#varOntologies" showAs="No procedure"/>
+				<TLCProcess GUID="_2b49c891-3fba-41eb-b5b8-9b94a007cde9" eId="varStageVersion" href="#varOntologies" showAs="1"/>
+				<TLCProcess GUID="_a863cc5a-ae99-4e90-b3d0-44ed284da834" eId="varProjectId" href="#varOntologies" showAs="SI000060"/>
+				<TLCProcess GUID="_f914762f-d2d6-41e5-9235-9beba41e5e98" eId="varWork" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_068a2623-2078-4a17-90fe-bf7237faaf6f" eId="varWorkUri" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_602916a4-5665-48ee-abc4-66f760c97d62" eId="varCHOiid" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_26e935d4-2cde-4808-9d30-a048c9c15f11" eId="varExpression" href="#varOntologies" showAs="3ca2f7eb-36a9-496b-b1e7-1f5d1965e3a1"/>
+				<TLCProcess GUID="_a0f75079-d003-427a-9f36-77e76ceb074b" eId="varExpressionUri" href="#varOntologies" showAs="dma:///45e6b900-8929-11d4-b772-0050da06bfb4/80742cea-0ebb-4cf6-9759-1e52358d9b5b/;guid=3ca2f7eb-36a9-496b-b1e7-1f5d1965e3a1;class=Version%20Description"/>
+				<TLCProcess GUID="_27bbe2dc-74fe-4e9d-915b-f414bd92fb55" eId="varVDOiid" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_af359350-ba60-4bf7-b2b0-a989700896ca" eId="varManifestation" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_122162b7-0a2f-42e6-bf0d-4b9cbd9a0222" eId="varManifestationUri" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_2ac29394-7e3d-476d-a089-36addbfa2b9b" eId="varSIYear" href="#varOntologies" showAs="2023"/>
+				<TLCConcept GUID="_b035e7f0-5639-4606-a829-d6b88a95fe8c" eId="varSINoComp" href="#varOntologies" showAs="115"/>
+				<TLCConcept GUID="_03f744c2-1c4d-4eab-a2a7-af96259eeb91" eId="varSINo" href="#varOntologies" showAs="#varSIYear No. #varSINoComp #varSISubsidiaryNos"/>
+				<TLCConcept GUID="_8e3f2f94-47ce-441f-8d6b-1e3b4ed284c1" eId="varSISubsidiaryNos" href="#varOntologies" showAs=" (C. 10)"/>
+				<TLCConcept GUID="_f8fa9563-1dac-440f-9488-62ceda49700b" eId="varISBN" href="#varOntologies" showAs=""/>
+				<TLCPerson GUID="_c2d10ad2-f956-4254-b2fe-3f4594c86d4d" eId="varMinistryAgency" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_6d849036-45f2-4d55-b221-0e812a0a2724" eId="varDocType" href="#varOntologies" showAs="UKSI"/>
+				<TLCProcess GUID="_c8721234-fe68-4bf5-9d08-076d5da7ea67" eId="varSystem" href="#varOntologies" showAs="LDAPP"/>
+				<TLCOrganization GUID="_afdf1a5a-524c-4418-abb6-6e8f077f9467" eId="varAuthor" href="#varOntologies" showAs="UK Government"/>
+				<TLCLocation GUID="_9efebc28-9709-4026-b6d7-cb868b70c428" eId="varJurisdiction" href="#varOntologies" showAs="United Kingdom"/>
+				<TLCConcept GUID="_cb5bdff2-6c41-46c4-8bfb-9b98c40ceb0a" eId="varOntologies" href="https://www.legislation.gov.uk/ontologies/UK-AKN" showAs="https://www.legislation.gov.uk/ontologies/UK-AKN"/>
+				<TLCConcept GUID="_18c7a142-1979-4107-96b3-8fc88bf7d531" eId="varMadeDate" href="#varOntologies" showAs="2023-02-03T00:00:00.000"/>
+			</references>
+		</meta>
+		<preface GUID="_760c2a23-f3b9-4df1-82b0-789a2774f4e4" eId="fnt"><?DMS-Component componentId="25bb6ef5-2994-4579-a108-d41228d5c1ae" seriesId="bee9158f-0e3d-41a6-811c-6ccef6652cef" versionNumber="0"?>
+			
+			<block GUID="_6bd51e85-1021-4a50-a8df-e1c02e0eafca" eId="fnt__banner" name="banner">STATUTORY INSTRUMENTS</block>
+			<block GUID="_1b38c11e-fbce-4ad9-9f9d-ef938866edbc" eId="fnt__no" name="number">
+				<docNumber GUID="_1874793f-488b-44a4-bdfb-e9b90c6b3ff1" eId="fnt__no__dno">
+					<ref class="placeholder" href="#varSINo"/>
+				</docNumber>
+			</block>
+			<container name="subjects">
+				<container GUID="_907082b7-40df-4b80-bbc0-bb97321944bb" eId="fnt__subject" name="subject">
+					<block name="subject"><concept class="title" refersTo="">REPRESENTATION OF THE PEOPLE</concept></block>
+				</container>
+			</container>
+			<block GUID="_7ccf55c0-7a1f-4351-b0cf-0e77b8ee1720" eId="fnt__st" name="title">
+				<docTitle GUID="_4c352644-cb04-44c2-9280-12bcb371e579" eId="fnt__st__dtitle">
+					<ref class="placeholder" href="#varSITitle"/>
+				</docTitle>
+			</block>
+			<container GUID="_3e4a1bdf-dfe9-4887-b9c3-6342dc096897" eId="fnt__dates" name="dates">
+				<block GUID="_2bf23219-6a14-4f84-937f-5b64359f673a" eId="fnt__dates__madeDate" name="madeDate"><span>Made</span><docDate GUID="_974e3f90-edbf-4ad8-a129-626f5e233237" date="2023-02-03T00:00:00.000" eId="fnt__dates__madeDate__ddate"><ref class="placeholder" href="#varMadeDate" ukl:dateFormat="d'th' MMMM yyyy">3rd February 2023</ref></docDate></block>
+			</container>
+		</preface>
+		<preamble GUID="_f5858f59-3d31-4e4f-8905-68ba17624e5c" eId="preamble"><?DMS-Component componentId="0b71264c-24cc-428a-93d9-dab1de657ee4" seriesId="e096e7ad-f2d0-4241-bbcc-04d70d25724a" versionNumber="1"?>
+			
+			<formula GUID="_9a557d3e-2154-4c4a-8381-a1a4c5a38a73" eId="preamble__enactingWords" name="enactingText">
+				<p>The Secretary of State makes these <ref class="placeholder" href="#varDocSubType"/> in exercise of the powers conferred by section 67(1) of the Elections Act 2022<authorialNote GUID="_ef3a9952-06ab-4750-b7b8-1de754e9b678" class="footnote" eId="fnote_1" marker="1">
+						<p>2022 c. 37.</p>
+					</authorialNote>.</p>
+			</formula>
+		</preamble>
+		<body><?DMS-Component componentId="04c77686-cddd-4ca6-8615-070ec485f684" seriesId="d68da921-5ba1-4edd-8df6-1fcefcd9d6a9" versionNumber="1"?>
+			
+			<hcontainer GUID="_82e4ee8d-797e-470d-8418-997b2ce90f03" class="prov1" eId="reg_1" name="regulation"><?DMS-Component componentId="3778902f-3450-4fec-807a-2e10ce135d6e" seriesId="857742e6-5efb-4b76-a030-322508b98224" versionNumber="1"?>
+				
+				<heading GUID="_992ce2a2-941f-48c0-8a46-939e5ed8c910" eId="reg_1__hdg">Citation</heading>
+				<num>1.</num>
+				<content>
+					<p>These Regulations may be cited as the Elections Act 2022 (Commencement No. 7) Regulations 2023.</p>
+				</content>
+			</hcontainer>
+			<hcontainer GUID="_32ddccfd-fb6c-404a-84ef-ecd14dc225de" class="prov1" eId="reg_2" name="regulation"><?DMS-Component componentId="f3515a4d-a47a-4db3-a6d4-2fb40f0ee3d5" seriesId="313d4701-ef87-4bd6-9ded-c72821e9c251" versionNumber="0"?>
+				
+				<heading GUID="_6b495ffc-9ead-4cf2-b17f-bfb4f5d8f1f3" eId="reg_2__hdg">Provisions coming into force on 6th February 2023</heading>
+				<num>2.</num>
+				<intro GUID="_a7feb20f-12eb-4e1a-a238-e786aeda7eb6" eId="reg_2__intro">
+					<p>The following provisions of the Elections Act 2022 come into force on 6th February 2023—</p>
+				</intro>
+				<level GUID="_e8fd6815-7271-41e8-aa55-3b0ae82039e5" class="para1" eId="reg_2__para_a">
+					<num>(a)</num>
+					<content>
+						<p>in section 5 (handing in postal voting documents), subsection (1) so far as it relates to subsection (5), and subsection (5);</p>
+					</content>
+				</level>
+				<level GUID="_a52c9f17-cc34-44cd-8f42-57f7f3893225" class="para1" eId="reg_2__para_b">
+					<num>(b)</num>
+					<intro GUID="_bdc8b608-8d68-4709-b245-25dd5ef32fb1" eId="reg_2__para_b__intro">
+						<p>in section 14 (extension of franchise for parliamentary elections: British citizens overseas)—</p>
+					</intro>
+					<level GUID="_7c3df35a-00f1-440e-bcc6-9f96a78e4a54" class="para2" eId="reg_2__para_b__subpara_i">
+						<num>(i)</num>
+						<content>
+							<p>subsection (1), for the purpose of making regulations under new section 1C(1)(f), new section 1D(4)(a) and (b) or new section 1E(1)(e) that it inserts into the Representation of the People Act 1985<authorialNote GUID="_a231d7f4-c1df-404b-b47d-657ad2c0e19f" class="footnote" eId="fnote_3" marker="3">
+									<p>1985 c. 50. See section 202(1) of the Representation of the People Act 1983 (c. 2), as read with section 27(2) of the Representation of the People Act 1985, for the meaning of “prescribed” in new section 1C(1)(f) and new section 1E(1)(e).</p>
+								</authorialNote>;</p>
+						</content>
+					</level>
+					<level GUID="_f436d773-d8f1-4bee-a1d8-43762d88c29b" class="para2" eId="reg_2__para_b__subpara_ii">
+						<num>(ii)</num>
+						<content>
+							<p>subsection (2), so far as it relates to the provisions of Schedule 7 brought into force by paragraph (c) of this regulation;</p>
+						</content>
+					</level>
+				</level>
+				<level GUID="_ac5d15cf-62aa-4e22-b184-d0f9fd214af5" class="para1" eId="reg_2__para_c">
+					<num>(c)</num>
+					<intro GUID="_be5aeae0-504a-4d69-9b1e-a92532fe9b52" eId="reg_2__para_c__intro">
+						<p>in Schedule 7 (overseas electors)—</p>
+					</intro>
+					<level GUID="_65c8b1e6-0ba8-42c7-9de5-38771399d48d" class="para2" eId="reg_2__para_c__subpara_i">
+						<num>(i)</num>
+						<content>
+							<p>paragraph 1, so far as it relates to paragraph 4;</p>
+						</content>
+					</level>
+					<level GUID="_84418725-b298-4f43-af8d-eae1f51dd653" class="para2" eId="reg_2__para_c__subpara_ii">
+						<num>(ii)</num>
+						<content>
+							<p>paragraph 4;</p>
+						</content>
+					</level>
+					<level GUID="_d2104647-fbe1-4593-a0a6-daaad19af8ee" class="para2" eId="reg_2__para_c__subpara_iii">
+						<num>(iii)</num>
+						<content>
+							<p>paragraph 14, for the purposes of making regulations under sub-paragraph (4) of that paragraph;</p>
+						</content>
+					</level>
+					<level GUID="_45afedf8-6db0-498f-afb1-f8f8fd0eae51" class="para2" eId="reg_2__para_c__subpara_iv">
+						<num>(iv)</num>
+						<content>
+							<p>paragraph 17.</p>
+						</content>
+					</level>
+				</level>
+			</hcontainer>
+			<hcontainer GUID="_6b6830f0-fda0-401d-9122-febe74d0ed66" eId="sigs" name="signatures"><?DMS-Component componentId="8ed3271b-f921-4934-ac51-2954899bb81a" seriesId="d5826cbe-031b-4de8-abe4-0a35e78df382" versionNumber="0"?>
+				
+				<hcontainer GUID="_07a3db9b-e8a5-43a4-9e47-9e0d1097f684" eId="sigs__sigBlk" name="signatureBlock">
+					<content>
+						<p>Signed by authority of the Secretary of State for Levelling Up, Housing and Communities</p>
+						<block GUID="_c1572536-95b3-4cd9-8a1b-6700a63f766a" eId="sigs__sigBlk__sig" name="signature">Lee Rowley</block>
+						<block GUID="_b6e1fd95-b2d8-499d-a91a-b7d112c6d8d3" eId="sigs__sigBlk__role" name="role">Parliamentary Under Secretary of State</block>
+						<block name="date"><date date="2023-02-03">3rd February 2023</date></block>
+						<block GUID="_bb913fc6-d419-42ef-960c-fa70489d96d2" eId="sigs__sigBlk__org" name="organization">Department for Levelling Up, Housing and Communities</block>
+					</content>
+				</hcontainer>
+			</hcontainer>
+		</body>
+		<conclusions GUID="_1d797e0c-59c4-49c0-876d-d599fab85724" eId="backCover"><?DMS-Component componentId="31e30e55-b362-4689-95b8-1483396f33bb" seriesId="997d92b9-6072-4a0a-9a6d-1c96b2578838" versionNumber="0"?>
+			
+			<blockContainer GUID="_6a500d18-43c9-4089-af54-b51428817d20" class="explanatoryNote" eId="backCover__explNote">
+				<heading GUID="_e9a09552-5f3d-4f27-879e-a6fe539d12ff" eId="backCover__explNote__hdg">Explanatory Note</heading>
+				<subheading GUID="_a90f763e-0977-4bbc-a618-551ab5fcbae9" eId="backCover__explNote__subhdg">(This note is not part of the <ref class="placeholder" href="#varDocSubType"/>)</subheading>
+				<p>These Regulations are the seventh commencement regulations made under the Elections Act 2022 (c. 37) (“the Act”), and partially bring into force sections 5 and 14 of, and Schedule 7 to, the Act.</p>
+				<p>Section 5(5) of the Act inserts new paragraphs 12ZA and 12ZB into Schedule 2 to the Representation of the People Act 1983 (c. 2). Paragraph 12ZA allows provision to be made via regulations relating to the return by hand of postal voting documents to a polling station or to a returning officer at a parliamentary election in Great Britain. Paragraph 12ZB allows similar provision to be made in respect of a parliamentary election in Northern Ireland.</p>
+				<p>Section 14(1) of the Act substitutes new sections 1 to 1E for existing sections 1 and 2 of the Representation of the People Act 1985 (c. 50). New section 1C sets out the requirements for overseas elector’s declarations, and new section 1C(1)(f) confers powers on the Secretary of State to prescribe additional information and requirements related to those declarations. New section 1D makes provision as to the duration of an overseas elector’s entitlement to be registered, and new section 1D(4)(a) and (b) confer powers on the Secretary of State to make provision about the way in which certain determinations which could end that entitlement are made. New section 1E sets out the requirements for renewal declarations, and new section 1E(1)(e) confers powers on the Secretary of State to prescribe additional information and requirements related to those declarations.</p>
+				<p>Paragraph 4 of Schedule 7 amends Schedule 2 to the Representation of the People Act 1983 to allow provision to be made in regulations regarding the form and contents of renewal declarations, the manner in which renewal declarations are to be transmitted to the registration officer, and the evidence which may be requested by a registration officer and considered sufficient or conclusive as a person satisfying any of the requirements for qualifying as an overseas elector in respect of any constituency.</p>
+				<p>Paragraph 14 of Schedule 7 makes transitional provision in respect of overseas electors who are registered pursuant to an overseas elector’s declaration made at any time before the date appointed for section 14 of the Act to come into force fully. Paragraph 14(4) confers a power on the Secretary of State to specify a date (“the specified day”) for the purposes of paragraph 14(3), the effect of which is to extend the period of time for which such an overseas elector is entitled to remain registered.</p>
+				<p>Paragraph 17 of Schedule 7 confers a power on the Secretary of State to make provision supplementing or incidental to the transitional provision set out in paragraphs 13 to 16 of that Schedule.</p>
+				<p>A full impact assessment has not been produced for this instrument as no, or no significant, impact on the private, voluntary or public sector is foreseen. An impact assessment has been produced in relation to the Act and copies can be obtained at https://bills.parliament.uk/publications/44886/documents/1304 or from the Department for Levelling Up, Housing and Communities at 2 Marsham Street, London, SW1P 4DF.</p>
+			</blockContainer>
+			<blockContainer GUID="_99935acf-50f1-4e1c-bdcc-df971b440dd8" class="commencementHistory" eId="backCover__comHist">
+				<heading GUID="_c8a89c50-ce87-4c27-8ccf-2d369373e80c" eId="backCover__comHist__hdg">NOTE AS TO EARLIER COMMENCEMENT <ref class="placeholder" href="#varDocSubType"/></heading>
+				<subheading GUID="_24aa37bf-08c2-4789-9c84-d38d8993b5bf" eId="backCover__comHist__subhdg">(This note is not part of the <ref class="placeholder" href="#varDocSubType"/>)</subheading>
+				<p>The following provisions of the Elections Act 2022 have been brought into force by commencement <ref class="placeholder" href="#varDocSubType">Regulations</ref> made before the date of these <ref class="placeholder" href="#varDocSubType">Regulations</ref>.</p>
+				<tblock GUID="_444de826-6242-46cb-83ae-12bb2140e600" class="table" eId="backCover__comHist__tbl__oc_1">
+					<foreign>
+						<table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="topAndBottom tablecenter width100" cols="3">
+							<thead class="italic left">
+								<tr akn:GUID="_2c5c2113-34dd-472f-bc07-0268155732d5" akn:eId="backCover__comHist__tbl__oc_1__hdg__row__oc_1">
+									<td akn:GUID="_73d88cc3-9422-4282-8c33-b2ea0a2e6123" akn:eId="backCover__comHist__tbl__oc_1__hdg__row__oc_1__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Provision</p>
+									</td>
+									<td akn:GUID="_820822c7-7f7a-4b09-a03c-6f9bc74eef9d" akn:eId="backCover__comHist__tbl__oc_1__hdg__row__oc_1__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Date of Commencement</p>
+									</td>
+									<td akn:GUID="_5c8b9189-9f67-4c99-aad5-aab96762e83c" akn:eId="backCover__comHist__tbl__oc_1__hdg__row__oc_1__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. No.</p>
+									</td>
+								</tr>
+							</thead>
+							<tbody class="left">
+								<tr akn:GUID="_72e99032-08c0-4158-aff8-78a4ab0a5f63" akn:eId="backCover__comHist__tbl__oc_1__row__oc_1">
+									<td akn:GUID="_6abce065-cbe8-4b22-9a00-bdc347b35c6c" akn:eId="backCover__comHist__tbl__oc_1__row__oc_1__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 1 (partially)</p>
+									</td>
+									<td akn:GUID="_029678bd-1333-4f03-83af-850cf89007ae" akn:eId="backCover__comHist__tbl__oc_1__row__oc_1__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">27.08.2022</p>
+									</td>
+									<td akn:GUID="_149a88a8-b241-4ac2-bb31-31cfdf7927d9" akn:eId="backCover__comHist__tbl__oc_1__row__oc_1__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/916</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_9e643dc1-ef32-4ac6-bf35-2bd593228112" akn:eId="backCover__comHist__tbl__oc_1__row__oc_2">
+									<td akn:GUID="_d2712ad9-511b-416a-8422-44b3eaaca8a8" akn:eId="backCover__comHist__tbl__oc_1__row__oc_2__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 1 (partially)</p>
+									</td>
+									<td akn:GUID="_897c7af7-dceb-4e3f-b3e0-760338659753" akn:eId="backCover__comHist__tbl__oc_1__row__oc_2__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">16.01.2023</p>
+									</td>
+									<td akn:GUID="_d2a000db-e159-4320-8b17-8f97347a798a" akn:eId="backCover__comHist__tbl__oc_1__row__oc_2__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/1401</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_b482d7e7-8f74-43e6-883d-e4de1e94e501" akn:eId="backCover__comHist__tbl__oc_1__row__oc_3">
+									<td akn:GUID="_9c0355f2-5921-43fd-838a-10663d775fd3" akn:eId="backCover__comHist__tbl__oc_1__row__oc_3__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 2 (partially)</p>
+									</td>
+									<td akn:GUID="_c678a3fe-6ef0-43a3-b2ef-6a241cea28a7" akn:eId="backCover__comHist__tbl__oc_1__row__oc_3__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">27.08.2022</p>
+									</td>
+									<td akn:GUID="_9fc582e4-c35b-4d98-9c20-8ec4663e768a" akn:eId="backCover__comHist__tbl__oc_1__row__oc_3__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/916</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_e4d3bbed-e748-4164-923a-ad12971b3654" akn:eId="backCover__comHist__tbl__oc_1__row__oc_4">
+									<td akn:GUID="_d85691a4-7e2e-4e44-8251-507ad820568b" akn:eId="backCover__comHist__tbl__oc_1__row__oc_4__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 2 (partially)</p>
+									</td>
+									<td akn:GUID="_6e7bc3c2-a8aa-48c9-ab0d-084acb573147" akn:eId="backCover__comHist__tbl__oc_1__row__oc_4__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">16.01.2023</p>
+									</td>
+									<td akn:GUID="_c1501f2e-607c-4203-bcfd-137f602dc781" akn:eId="backCover__comHist__tbl__oc_1__row__oc_4__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/1401</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_f9c93fa5-57b7-4228-91bd-a0e9d70d9fbb" akn:eId="backCover__comHist__tbl__oc_1__row__oc_5">
+									<td akn:GUID="_f91a227e-aabc-41ca-ab2d-cb9da096b82f" akn:eId="backCover__comHist__tbl__oc_1__row__oc_5__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 9 (partially)</p>
+									</td>
+									<td akn:GUID="_9ae93dff-2212-409c-a0e1-5cced70bd301" akn:eId="backCover__comHist__tbl__oc_1__row__oc_5__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">24.11.2022</p>
+									</td>
+									<td akn:GUID="_10dd2ecb-c7de-4d7b-a9ae-6fa2fa1a543a" akn:eId="backCover__comHist__tbl__oc_1__row__oc_5__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/1226</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_db0fd2f7-a805-4d7f-a994-e15948bf9be0" akn:eId="backCover__comHist__tbl__oc_1__row__oc_6">
+									<td akn:GUID="_8080bac5-1207-42fb-819f-ea4c01ad4c12" akn:eId="backCover__comHist__tbl__oc_1__row__oc_6__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 9 (remainder)</p>
+									</td>
+									<td akn:GUID="_ff8a7c77-b5a0-4bb6-9d6e-d9cf9425c2c2" akn:eId="backCover__comHist__tbl__oc_1__row__oc_6__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">29.12.2022</p>
+									</td>
+									<td akn:GUID="_8dcdf88a-23a9-4490-9f57-a933529c3d94" akn:eId="backCover__comHist__tbl__oc_1__row__oc_6__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/1270</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_e5b2bb79-9bb5-4ea8-a0ea-9955cb153c13" akn:eId="backCover__comHist__tbl__oc_1__row__oc_7">
+									<td akn:GUID="_55539bfe-f416-4f57-9b42-a50d6ed468de" akn:eId="backCover__comHist__tbl__oc_1__row__oc_7__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 12 (partially)</p>
+									</td>
+									<td akn:GUID="_50b79f5c-cef8-48d0-83eb-3ea4ffc1d989" akn:eId="backCover__comHist__tbl__oc_1__row__oc_7__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">27.08.2022</p>
+									</td>
+									<td akn:GUID="_3f397d07-ceee-4bd4-bd6c-40f14408c8e2" akn:eId="backCover__comHist__tbl__oc_1__row__oc_7__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/916</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_10a8babe-f906-4c69-bb6e-64582661f386" akn:eId="backCover__comHist__tbl__oc_1__row__oc_8">
+									<td akn:GUID="_9c1b0af5-a98f-41f5-adff-9a02afbe79e9" akn:eId="backCover__comHist__tbl__oc_1__row__oc_8__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 12 (partially)</p>
+									</td>
+									<td akn:GUID="_10888e1f-3181-450b-82e5-84b9370954d3" akn:eId="backCover__comHist__tbl__oc_1__row__oc_8__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">24.11.2022</p>
+									</td>
+									<td akn:GUID="_c087356f-c3b2-4fda-a0a3-38545c2b51c4" akn:eId="backCover__comHist__tbl__oc_1__row__oc_8__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/1226</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_e39febf0-1071-4c20-8617-307d90a83208" akn:eId="backCover__comHist__tbl__oc_1__row__oc_9">
+									<td akn:GUID="_c85aa084-bf7a-48ab-8d3b-ec872efbd11b" akn:eId="backCover__comHist__tbl__oc_1__row__oc_9__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 12 (partially)</p>
+									</td>
+									<td akn:GUID="_a818613c-ef89-41fe-b3a0-889983e26f9b" akn:eId="backCover__comHist__tbl__oc_1__row__oc_9__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">29.12.2022</p>
+									</td>
+									<td akn:GUID="_a89cd893-9ad9-4e2e-8c63-a594851ca954" akn:eId="backCover__comHist__tbl__oc_1__row__oc_9__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/1270</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_338f714d-74b3-421a-9ffe-a65a3fe9813d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_10">
+									<td akn:GUID="_69354f05-9375-4439-8af4-e824d8d78ce1" akn:eId="backCover__comHist__tbl__oc_1__row__oc_10__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 12 (partially)</p>
+									</td>
+									<td akn:GUID="_e9356026-bb77-4d04-9cad-cc0892b1001b" akn:eId="backCover__comHist__tbl__oc_1__row__oc_10__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">16.01.2023</p>
+									</td>
+									<td akn:GUID="_e23580b4-51c8-4f7d-a0db-2cf8868aa3bb" akn:eId="backCover__comHist__tbl__oc_1__row__oc_10__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/1401</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_62a0c024-732b-4261-b94c-1d8686dae997" akn:eId="backCover__comHist__tbl__oc_1__row__oc_11">
+									<td akn:GUID="_9d971ed9-c59e-4592-b43b-9d8a14da5f00" akn:eId="backCover__comHist__tbl__oc_1__row__oc_11__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 13</p>
+									</td>
+									<td akn:GUID="_33b99d38-5434-47f9-86e1-b7b4ec533cac" akn:eId="backCover__comHist__tbl__oc_1__row__oc_11__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">26.10.2022</p>
+									</td>
+									<td akn:GUID="_4aef4dc1-053d-4416-ba92-8741a3448e49" akn:eId="backCover__comHist__tbl__oc_1__row__oc_11__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/1093</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_b742769a-89a3-4877-a82e-11d5a1802a86" akn:eId="backCover__comHist__tbl__oc_1__row__oc_12">
+									<td akn:GUID="_590b0179-f832-4fc2-ab1f-bea4f1417fbd" akn:eId="backCover__comHist__tbl__oc_1__row__oc_12__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Sections 16 to 19</p>
+									</td>
+									<td akn:GUID="_5945e3ec-6351-4daa-8cdd-21489b60096c" akn:eId="backCover__comHist__tbl__oc_1__row__oc_12__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">19.08.2022</p>
+									</td>
+									<td akn:GUID="_86e273f6-c3b4-436d-b901-21d91792d347" akn:eId="backCover__comHist__tbl__oc_1__row__oc_12__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/908</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_e30bc60c-d23c-48f9-96dd-e892bdda3814" akn:eId="backCover__comHist__tbl__oc_1__row__oc_13">
+									<td akn:GUID="_b5a6164d-51ef-4604-b902-7efb9d29aee5" akn:eId="backCover__comHist__tbl__oc_1__row__oc_13__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Sections 20 to 29</p>
+									</td>
+									<td akn:GUID="_4cd5e87c-0bdc-4fcc-9f35-f00311b5d542" akn:eId="backCover__comHist__tbl__oc_1__row__oc_13__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">24.11.2022</p>
+									</td>
+									<td akn:GUID="_759654d0-1eba-402e-b55a-65955e071f26" akn:eId="backCover__comHist__tbl__oc_1__row__oc_13__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/1226</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_9227b85d-c754-4d1c-81dc-49030dddd885" akn:eId="backCover__comHist__tbl__oc_1__row__oc_14">
+									<td akn:GUID="_b9deb314-c989-4d96-80e9-269233ca985c" akn:eId="backCover__comHist__tbl__oc_1__row__oc_14__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">In Schedule 1—</p>
+									</td>
+									<td akn:GUID="_7d58110a-3823-4172-8cbb-55c455a21318" akn:eId="backCover__comHist__tbl__oc_1__row__oc_14__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"/>
+									</td>
+									<td akn:GUID="_4216fd24-a6c7-4eec-9353-dfd6d1e42d87" akn:eId="backCover__comHist__tbl__oc_1__row__oc_14__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"/>
+									</td>
+								</tr>
+								<tr akn:GUID="_305e71e7-5059-487c-8a19-8a556c853225" akn:eId="backCover__comHist__tbl__oc_1__row__oc_15">
+									<td akn:GUID="_29757ecc-e9fc-4966-afb8-0b4bbc904e5d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_15__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">paragraph 1 (partially)</p>
+									</td>
+									<td akn:GUID="_9f28c735-a964-4d85-a274-e9f039fc4eb1" akn:eId="backCover__comHist__tbl__oc_1__row__oc_15__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">27.08.2022</p>
+									</td>
+									<td akn:GUID="_28dc1440-61cb-4d62-8b3c-137908ceb8fb" akn:eId="backCover__comHist__tbl__oc_1__row__oc_15__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/916</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_e6c62684-a4ed-4008-b613-e1834350f130" akn:eId="backCover__comHist__tbl__oc_1__row__oc_16">
+									<td akn:GUID="_c254388a-ed9b-4970-b146-6b9e384d7628" akn:eId="backCover__comHist__tbl__oc_1__row__oc_16__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">paragraph 1 (partially)</p>
+									</td>
+									<td akn:GUID="_a0ce3c1d-78e3-499a-97b0-e4e4862fefb8" akn:eId="backCover__comHist__tbl__oc_1__row__oc_16__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">16.01.2023</p>
+									</td>
+									<td akn:GUID="_5897a413-c665-482e-af47-92f6fd4d91c4" akn:eId="backCover__comHist__tbl__oc_1__row__oc_16__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/1401</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_ff11ba83-80ab-407d-a7c0-bb3f24e3f908" akn:eId="backCover__comHist__tbl__oc_1__row__oc_17">
+									<td akn:GUID="_79b93c7b-dd0f-4d50-b784-e98708247f52" akn:eId="backCover__comHist__tbl__oc_1__row__oc_17__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">paragraph 2 (partially)</p>
+									</td>
+									<td akn:GUID="_48bd3bf7-b504-4c26-a03b-fd8dc44d61ab" akn:eId="backCover__comHist__tbl__oc_1__row__oc_17__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">27.08.2022</p>
+									</td>
+									<td akn:GUID="_eff65b09-33f2-4e22-8370-5df60e343b68" akn:eId="backCover__comHist__tbl__oc_1__row__oc_17__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/916</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_5607b416-5671-4f29-91d9-3ed3ce23a160" akn:eId="backCover__comHist__tbl__oc_1__row__oc_18">
+									<td akn:GUID="_08d7230c-bf6a-4b92-83d7-137f069b88e1" akn:eId="backCover__comHist__tbl__oc_1__row__oc_18__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">paragraph 2 (remainder)</p>
+									</td>
+									<td akn:GUID="_2b488f1a-c209-4b84-8ce7-1a68e621b3d4" akn:eId="backCover__comHist__tbl__oc_1__row__oc_18__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">16.01.2023</p>
+									</td>
+									<td akn:GUID="_4d18397b-169b-4fd5-a8dd-5950ab07cdf8" akn:eId="backCover__comHist__tbl__oc_1__row__oc_18__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/1401</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_77c33838-9600-4b55-b79e-f4e7ce7c0793" akn:eId="backCover__comHist__tbl__oc_1__row__oc_19">
+									<td akn:GUID="_89958099-e045-4aa1-8096-42fb4d9b735a" akn:eId="backCover__comHist__tbl__oc_1__row__oc_19__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">paragraph 3 (partially)</p>
+									</td>
+									<td akn:GUID="_8c156b72-38f9-45bb-a27e-2566c7e5ab34" akn:eId="backCover__comHist__tbl__oc_1__row__oc_19__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">27.08.2022</p>
+									</td>
+									<td akn:GUID="_b5588712-99e1-4a2a-99eb-6f0800d695b6" akn:eId="backCover__comHist__tbl__oc_1__row__oc_19__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/916</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_c519a258-36c0-4969-ad14-1d039ce30f10" akn:eId="backCover__comHist__tbl__oc_1__row__oc_20">
+									<td akn:GUID="_5a66e608-998b-49e1-bf75-7949107fee88" akn:eId="backCover__comHist__tbl__oc_1__row__oc_20__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">paragraphs 3 (remainder) and 4</p>
+									</td>
+									<td akn:GUID="_57c42119-d960-43db-b912-4546c08c2e94" akn:eId="backCover__comHist__tbl__oc_1__row__oc_20__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">16.01.2023</p>
+									</td>
+									<td akn:GUID="_a6dee658-066c-4db4-86a4-3c3066f50f5d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_20__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/1401</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_865c6049-a618-4ecf-a75a-78e9c06fc52e" akn:eId="backCover__comHist__tbl__oc_1__row__oc_21">
+									<td akn:GUID="_7d808260-fe88-44cc-a1c5-44e8268c3ee4" akn:eId="backCover__comHist__tbl__oc_1__row__oc_21__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">paragraph 5 (partially)</p>
+									</td>
+									<td akn:GUID="_2584ee1d-acc9-4b31-a824-e538ebc253d3" akn:eId="backCover__comHist__tbl__oc_1__row__oc_21__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">27.08.2022</p>
+									</td>
+									<td akn:GUID="_b9493ee3-ca0e-4e9b-bb8f-fbfca971f8ea" akn:eId="backCover__comHist__tbl__oc_1__row__oc_21__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/916</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_170cf929-a91e-4fae-afb9-4a23c82a2d46" akn:eId="backCover__comHist__tbl__oc_1__row__oc_22">
+									<td akn:GUID="_6a64a890-8275-4463-b1c3-0d1bf403ee23" akn:eId="backCover__comHist__tbl__oc_1__row__oc_22__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">paragraph 5 (remainder)</p>
+									</td>
+									<td akn:GUID="_99b5354f-e2a7-4a34-abbd-a15102303c6b" akn:eId="backCover__comHist__tbl__oc_1__row__oc_22__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">16.01.2023</p>
+									</td>
+									<td akn:GUID="_a51de6ca-279b-4a11-b2e9-3d1ac4abc935" akn:eId="backCover__comHist__tbl__oc_1__row__oc_22__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/1401</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_6af76439-0d2c-4369-ac42-c56afa874775" akn:eId="backCover__comHist__tbl__oc_1__row__oc_23">
+									<td akn:GUID="_05e1f56e-58d1-48a4-982f-b8c693468580" akn:eId="backCover__comHist__tbl__oc_1__row__oc_23__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">paragraph 6 (partially)</p>
+									</td>
+									<td akn:GUID="_d86fa99a-f4ef-4fd2-abf4-32039c2e4942" akn:eId="backCover__comHist__tbl__oc_1__row__oc_23__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">27.08.2022</p>
+									</td>
+									<td akn:GUID="_2d516dd6-4c1d-4005-97e0-481c09043523" akn:eId="backCover__comHist__tbl__oc_1__row__oc_23__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/916</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_33efd269-cb48-4c94-8d9e-fd91339b611e" akn:eId="backCover__comHist__tbl__oc_1__row__oc_24">
+									<td akn:GUID="_321e80b5-5726-4c7b-a65f-d537b0d2db7b" akn:eId="backCover__comHist__tbl__oc_1__row__oc_24__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">paragraphs 6 (remainder), 7, 8 and 9 (partially)</p>
+									</td>
+									<td akn:GUID="_f121ac36-62ab-490c-80db-03279f8c1293" akn:eId="backCover__comHist__tbl__oc_1__row__oc_24__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">16.01.2023</p>
+									</td>
+									<td akn:GUID="_caab77f2-40dd-4273-a69a-a122e7f3a0c7" akn:eId="backCover__comHist__tbl__oc_1__row__oc_24__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/1401</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_1f8f24ce-b18f-4c83-8f20-21a7c478e836" akn:eId="backCover__comHist__tbl__oc_1__row__oc_25">
+									<td akn:GUID="_e21b5ec1-97f0-4834-bae8-1db948cd2847" akn:eId="backCover__comHist__tbl__oc_1__row__oc_25__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">paragraph 10 (partially)</p>
+									</td>
+									<td akn:GUID="_848165c6-ad70-4fd2-8c02-d0474a56e8ec" akn:eId="backCover__comHist__tbl__oc_1__row__oc_25__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">27.08.2022</p>
+									</td>
+									<td akn:GUID="_d65ebe0a-a711-46b6-a3ae-4d89c581cd1c" akn:eId="backCover__comHist__tbl__oc_1__row__oc_25__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/916</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_beba4855-29e4-427f-b855-ca00b3eee28c" akn:eId="backCover__comHist__tbl__oc_1__row__oc_26">
+									<td akn:GUID="_89435f9b-cb32-41c5-b193-3c7a129709f3" akn:eId="backCover__comHist__tbl__oc_1__row__oc_26__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">paragraph 10 (partially)</p>
+									</td>
+									<td akn:GUID="_d8c92b82-9396-4fc8-8d87-a1dd64a4cd22" akn:eId="backCover__comHist__tbl__oc_1__row__oc_26__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">16.01.2023</p>
+									</td>
+									<td akn:GUID="_bea3a3c4-eb0e-4caf-89b3-0669d24a311c" akn:eId="backCover__comHist__tbl__oc_1__row__oc_26__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/1401</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_d5ac51ff-1db6-4e08-97fa-42de61d71aaa" akn:eId="backCover__comHist__tbl__oc_1__row__oc_27">
+									<td akn:GUID="_eb90eb81-d7d5-4233-b7cf-cf35dff0be2f" akn:eId="backCover__comHist__tbl__oc_1__row__oc_27__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">paragraph 11 (partially)</p>
+									</td>
+									<td akn:GUID="_519fbed7-0202-41b0-aebe-94210f2ebd04" akn:eId="backCover__comHist__tbl__oc_1__row__oc_27__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">27.08.2022</p>
+									</td>
+									<td akn:GUID="_d0e194e6-6fb2-42d1-a66d-706120ca9c54" akn:eId="backCover__comHist__tbl__oc_1__row__oc_27__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/916</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_d2e26a7d-b23c-4132-89fc-e77a862f1339" akn:eId="backCover__comHist__tbl__oc_1__row__oc_28">
+									<td akn:GUID="_fb9cf120-d4ad-4d7c-8500-673eaad4bd84" akn:eId="backCover__comHist__tbl__oc_1__row__oc_28__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">paragraphs 12 to 14</p>
+									</td>
+									<td akn:GUID="_81d017b3-ea9c-4ecc-b8c1-8ec49eeac869" akn:eId="backCover__comHist__tbl__oc_1__row__oc_28__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">16.01.2023</p>
+									</td>
+									<td akn:GUID="_86fcf6c0-ca27-4ece-924d-0f7863eadcef" akn:eId="backCover__comHist__tbl__oc_1__row__oc_28__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/1401</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_b21611eb-c67f-45ce-a462-c359017868af" akn:eId="backCover__comHist__tbl__oc_1__row__oc_29">
+									<td akn:GUID="_189a5c9b-19c8-4217-9473-5306df86611b" akn:eId="backCover__comHist__tbl__oc_1__row__oc_29__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">paragraph 15 (partially)</p>
+									</td>
+									<td akn:GUID="_e47d5a11-be22-4f42-94ae-1d6072dfd5a2" akn:eId="backCover__comHist__tbl__oc_1__row__oc_29__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">27.08.2022</p>
+									</td>
+									<td akn:GUID="_b24d5f68-53a7-4860-8ac1-f9ad6c1bb6b2" akn:eId="backCover__comHist__tbl__oc_1__row__oc_29__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/916</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_5b933390-bda2-4e29-81fc-24b7c7f077b3" akn:eId="backCover__comHist__tbl__oc_1__row__oc_30">
+									<td akn:GUID="_ee201086-0cfd-4a91-a4d1-6935d3350349" akn:eId="backCover__comHist__tbl__oc_1__row__oc_30__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">paragraphs 15 (partially) and 16</p>
+									</td>
+									<td akn:GUID="_a3ab0b6a-b9c2-42e3-a1d6-ab5dc6e585fa" akn:eId="backCover__comHist__tbl__oc_1__row__oc_30__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">16.01.2023</p>
+									</td>
+									<td akn:GUID="_f1fe78d2-004e-4d74-b1a8-2651168aba75" akn:eId="backCover__comHist__tbl__oc_1__row__oc_30__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/1401</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_701dca6d-06f2-493b-be8c-e493dc11894d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_31">
+									<td akn:GUID="_f71ea6cd-daa4-4587-9f46-64078e5b58b0" akn:eId="backCover__comHist__tbl__oc_1__row__oc_31__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">paragraph 17 (partially)</p>
+									</td>
+									<td akn:GUID="_64493db5-c46f-4746-9ff4-34dc1d5b54df" akn:eId="backCover__comHist__tbl__oc_1__row__oc_31__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">27.08.2022</p>
+									</td>
+									<td akn:GUID="_6e368468-3af8-456a-9cc9-4fec37b65648" akn:eId="backCover__comHist__tbl__oc_1__row__oc_31__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/916</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_7dc83fa8-8960-4b48-ab02-e9e84c27b6f4" akn:eId="backCover__comHist__tbl__oc_1__row__oc_32">
+									<td akn:GUID="_cab2d185-0a9f-445d-a128-98542cf915b0" akn:eId="backCover__comHist__tbl__oc_1__row__oc_32__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">paragraphs 17 (partially) and 18 to 23</p>
+									</td>
+									<td akn:GUID="_bc097ad7-3781-41cc-8278-e4c184a70676" akn:eId="backCover__comHist__tbl__oc_1__row__oc_32__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">16.01.2023</p>
+									</td>
+									<td akn:GUID="_fda75d47-fced-4d0c-916f-af1746450f0f" akn:eId="backCover__comHist__tbl__oc_1__row__oc_32__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/1401</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_2742b30d-4e7c-4e65-81c9-82443b012826" akn:eId="backCover__comHist__tbl__oc_1__row__oc_33">
+									<td akn:GUID="_f8400e35-3d9d-4542-b76c-161b90582cbc" akn:eId="backCover__comHist__tbl__oc_1__row__oc_33__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">paragraph 24 (partially)</p>
+									</td>
+									<td akn:GUID="_4f57d5f4-a8de-4d79-ba95-0eb0baf3c4c8" akn:eId="backCover__comHist__tbl__oc_1__row__oc_33__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">27.08.2022</p>
+									</td>
+									<td akn:GUID="_74036e68-5688-432e-9381-8c1a6aa42f69" akn:eId="backCover__comHist__tbl__oc_1__row__oc_33__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/916</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_0dd4a546-eba8-4d2e-bff1-4b8177a7b0f6" akn:eId="backCover__comHist__tbl__oc_1__row__oc_34">
+									<td akn:GUID="_5bd8c115-4d2e-4738-b575-fade6d8f800e" akn:eId="backCover__comHist__tbl__oc_1__row__oc_34__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">paragraphs 24 (remainder), 25 (partially) and 27 to 29</p>
+									</td>
+									<td akn:GUID="_44321f1c-4461-4d50-a275-cee506fea9a9" akn:eId="backCover__comHist__tbl__oc_1__row__oc_34__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">16.01.2023</p>
+									</td>
+									<td akn:GUID="_f5f797d9-483d-476a-b013-c6a5d54219a4" akn:eId="backCover__comHist__tbl__oc_1__row__oc_34__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/1401</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_0d9b7d78-082e-4a5a-a507-c8154f31a0d2" akn:eId="backCover__comHist__tbl__oc_1__row__oc_35">
+									<td akn:GUID="_f42e89d4-eee5-4883-89cd-167926e46b1f" akn:eId="backCover__comHist__tbl__oc_1__row__oc_35__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">paragraph 30 (partially)</p>
+									</td>
+									<td akn:GUID="_624a9f97-4889-4da2-bda1-979f4cfc0eb6" akn:eId="backCover__comHist__tbl__oc_1__row__oc_35__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">27.08.2022</p>
+									</td>
+									<td akn:GUID="_4c56df11-9395-4cc4-bb74-b8c7e2a83326" akn:eId="backCover__comHist__tbl__oc_1__row__oc_35__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/916</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_0acbe7c6-7bcc-48d9-b905-aa2a280ce1db" akn:eId="backCover__comHist__tbl__oc_1__row__oc_36">
+									<td akn:GUID="_f754708a-1b0f-4881-bd35-7a55d4c72a29" akn:eId="backCover__comHist__tbl__oc_1__row__oc_36__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">paragraphs 30 (remainder) and 31</p>
+									</td>
+									<td akn:GUID="_b9efd4bb-a4d1-4c8b-b808-991d95a91f5d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_36__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">16.01.2023</p>
+									</td>
+									<td akn:GUID="_5b131a7e-1164-42a1-979d-848da3ff42d3" akn:eId="backCover__comHist__tbl__oc_1__row__oc_36__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/1401</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_ba91e528-556d-484b-85b4-1085195fc0ef" akn:eId="backCover__comHist__tbl__oc_1__row__oc_37">
+									<td akn:GUID="_886e96f5-a561-4a8a-a7a3-191ce51b091b" akn:eId="backCover__comHist__tbl__oc_1__row__oc_37__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">paragraph 32 (partially)</p>
+									</td>
+									<td akn:GUID="_5cdae494-d791-424e-bde1-e272942c0dc5" akn:eId="backCover__comHist__tbl__oc_1__row__oc_37__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">27.08.2022</p>
+									</td>
+									<td akn:GUID="_7193fd3c-8424-4aff-b69e-dc3869da70e5" akn:eId="backCover__comHist__tbl__oc_1__row__oc_37__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/916</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_a970631b-f0b4-4256-8f2d-31b61068b141" akn:eId="backCover__comHist__tbl__oc_1__row__oc_38">
+									<td akn:GUID="_4635fff9-0ec4-4b96-9c40-6928415fbbca" akn:eId="backCover__comHist__tbl__oc_1__row__oc_38__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">paragraphs 32 (remainder) and 33 to 40</p>
+									</td>
+									<td akn:GUID="_93228ed6-f61b-4af9-883e-75c6cd7d69e4" akn:eId="backCover__comHist__tbl__oc_1__row__oc_38__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">16.01.2023</p>
+									</td>
+									<td akn:GUID="_719f3ca7-f9ca-4ba2-bb40-8560e1a29bc6" akn:eId="backCover__comHist__tbl__oc_1__row__oc_38__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/1401</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_9b135b5d-9b9b-4617-b141-f25d4e8bf9a2" akn:eId="backCover__comHist__tbl__oc_1__row__oc_39">
+									<td akn:GUID="_9929e4f1-f9e2-459b-8b77-27c480679b7b" akn:eId="backCover__comHist__tbl__oc_1__row__oc_39__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">In Schedule 2—</p>
+									</td>
+									<td akn:GUID="_d7886eae-518e-4d5c-8768-09a86346fb74" akn:eId="backCover__comHist__tbl__oc_1__row__oc_39__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"/>
+									</td>
+									<td akn:GUID="_040e4fad-0f47-4f69-8841-22b54b76bd31" akn:eId="backCover__comHist__tbl__oc_1__row__oc_39__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"/>
+									</td>
+								</tr>
+								<tr akn:GUID="_2760a2f5-4394-4de0-8746-353a348cf9d3" akn:eId="backCover__comHist__tbl__oc_1__row__oc_40">
+									<td akn:GUID="_15b1a31d-55bc-4304-8ca7-3f812ed994b5" akn:eId="backCover__comHist__tbl__oc_1__row__oc_40__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">paragraphs 1 to 11 and 14 (partially)</p>
+									</td>
+									<td akn:GUID="_47c69d7a-c934-451c-85c2-68859df3f618" akn:eId="backCover__comHist__tbl__oc_1__row__oc_40__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">27.08.2022</p>
+									</td>
+									<td akn:GUID="_7d1c4f0a-23d1-421e-8d81-552ed6d4b2cb" akn:eId="backCover__comHist__tbl__oc_1__row__oc_40__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/916</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_aaf43f75-4579-4294-88ee-ff4a92a9d3bb" akn:eId="backCover__comHist__tbl__oc_1__row__oc_41">
+									<td akn:GUID="_195e7672-ea59-45f4-b44b-ad5120ad6324" akn:eId="backCover__comHist__tbl__oc_1__row__oc_41__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">paragraph 14 (remainder)</p>
+									</td>
+									<td akn:GUID="_f0f01318-d1e6-4900-92e8-edfd1834c75b" akn:eId="backCover__comHist__tbl__oc_1__row__oc_41__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">16.01.2023</p>
+									</td>
+									<td akn:GUID="_13e3af42-6e8a-4ebe-9382-901c3e24dfa1" akn:eId="backCover__comHist__tbl__oc_1__row__oc_41__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/1401</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_29345ce5-d11f-4b8e-9dd9-f4a489ac1631" akn:eId="backCover__comHist__tbl__oc_1__row__oc_42">
+									<td akn:GUID="_a5d495bf-78a5-40b2-84ee-723651cd3dea" akn:eId="backCover__comHist__tbl__oc_1__row__oc_42__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">In Schedule 6—</p>
+									</td>
+									<td akn:GUID="_67a74462-0acd-4b85-a91b-ab71e08222a5" akn:eId="backCover__comHist__tbl__oc_1__row__oc_42__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"/>
+									</td>
+									<td akn:GUID="_8c77e85d-c4a6-495f-be20-f720fb9a59db" akn:eId="backCover__comHist__tbl__oc_1__row__oc_42__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"/>
+									</td>
+								</tr>
+								<tr akn:GUID="_f4ff1bae-ee2d-4d5d-9a27-fe245f9d9109" akn:eId="backCover__comHist__tbl__oc_1__row__oc_43">
+									<td akn:GUID="_581477d2-fdfc-47fa-927c-fd823bb185bf" akn:eId="backCover__comHist__tbl__oc_1__row__oc_43__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">paragraphs 1 (partially) and 6 (partially)</p>
+									</td>
+									<td akn:GUID="_4ef6d447-7142-439a-a403-2bcf4d3ccc4b" akn:eId="backCover__comHist__tbl__oc_1__row__oc_43__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">27.08.2022</p>
+									</td>
+									<td akn:GUID="_4ee76a2b-5deb-4fec-845a-4224fdb643d8" akn:eId="backCover__comHist__tbl__oc_1__row__oc_43__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/916</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_9c435c12-b836-477f-aaab-e701009abaa4" akn:eId="backCover__comHist__tbl__oc_1__row__oc_44">
+									<td akn:GUID="_a163756c-9e40-48ba-aab4-894fb0adb343" akn:eId="backCover__comHist__tbl__oc_1__row__oc_44__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">paragraphs 1 (partially) and 6 (partially)</p>
+									</td>
+									<td akn:GUID="_a978ce64-b5c4-4cbe-ab11-15826e7d8edb" akn:eId="backCover__comHist__tbl__oc_1__row__oc_44__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">24.11.2022</p>
+									</td>
+									<td akn:GUID="_2d226753-39ca-4bb0-a649-8adc7d039785" akn:eId="backCover__comHist__tbl__oc_1__row__oc_44__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/1226</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_dc03ec99-c514-4a9d-b3cf-67254031b6d4" akn:eId="backCover__comHist__tbl__oc_1__row__oc_45">
+									<td akn:GUID="_a2d54d38-5fd6-41b8-8a58-9177acbc3357" akn:eId="backCover__comHist__tbl__oc_1__row__oc_45__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">paragraphs 1 (partially) and 6 (partially)</p>
+									</td>
+									<td akn:GUID="_3c07766d-c773-4bfc-871a-eb0214380aec" akn:eId="backCover__comHist__tbl__oc_1__row__oc_45__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">29.12.2022</p>
+									</td>
+									<td akn:GUID="_cdee3cf6-0ec2-4562-9f15-07bcdc72094e" akn:eId="backCover__comHist__tbl__oc_1__row__oc_45__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/1270</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_fd69114c-e574-4137-bcb8-36ba875d1ad1" akn:eId="backCover__comHist__tbl__oc_1__row__oc_46">
+									<td akn:GUID="_a33ee654-49fa-4eee-905c-d0b2916f6c24" akn:eId="backCover__comHist__tbl__oc_1__row__oc_46__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">paragraphs 1 (partially) and 6 (partially) and 10 and 11</p>
+									</td>
+									<td akn:GUID="_eb2aaf74-19d9-400d-a126-ed7b76849c3d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_46__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">16.01.2023</p>
+									</td>
+									<td akn:GUID="_cef6a8b2-9060-4c02-8c5a-64527c5926dd" akn:eId="backCover__comHist__tbl__oc_1__row__oc_46__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/1401</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_583eed36-b1d3-4f40-8271-7802a8906af4" akn:eId="backCover__comHist__tbl__oc_1__row__oc_47">
+									<td akn:GUID="_ca05416e-b18f-4f40-a55c-79b45ff21b81" akn:eId="backCover__comHist__tbl__oc_1__row__oc_47__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">paragraph 12 (partially)</p>
+									</td>
+									<td akn:GUID="_8ce76ff0-f125-4432-9a6a-9bf7a00da7aa" akn:eId="backCover__comHist__tbl__oc_1__row__oc_47__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">24.11.2022</p>
+									</td>
+									<td akn:GUID="_44d90074-0ba0-4585-ae9b-5e95abf5d583" akn:eId="backCover__comHist__tbl__oc_1__row__oc_47__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/1226</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_43f2187e-c3b6-43f9-bf39-67e9a8caba4d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_48">
+									<td akn:GUID="_7b54e191-966f-401d-9983-9d50b4f439e1" akn:eId="backCover__comHist__tbl__oc_1__row__oc_48__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">paragraph 12 (partially)</p>
+									</td>
+									<td akn:GUID="_09d687cc-6a35-47d8-97aa-1190ef1633e9" akn:eId="backCover__comHist__tbl__oc_1__row__oc_48__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">29.12.2022</p>
+									</td>
+									<td akn:GUID="_ecae306a-a307-41f4-9dc6-82d841686a5e" akn:eId="backCover__comHist__tbl__oc_1__row__oc_48__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/1270</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_9ac299be-515d-4b47-9307-b8a972896bbb" akn:eId="backCover__comHist__tbl__oc_1__row__oc_49">
+									<td akn:GUID="_69eb51e0-feba-403e-a04e-3a67377efa39" akn:eId="backCover__comHist__tbl__oc_1__row__oc_49__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">paragraphs 13 (partially), 14 (partially) and 15</p>
+									</td>
+									<td akn:GUID="_76b117d8-f53a-4837-ac93-23fc77ccbca3" akn:eId="backCover__comHist__tbl__oc_1__row__oc_49__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">16.01.2023</p>
+									</td>
+									<td akn:GUID="_ff12f56b-8381-433a-ae0e-035979c5bc0f" akn:eId="backCover__comHist__tbl__oc_1__row__oc_49__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/1401</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_3f293338-69d0-4941-ae89-0e77d181413a" akn:eId="backCover__comHist__tbl__oc_1__row__oc_50">
+									<td akn:GUID="_2576a51f-ae52-4bbb-abc2-0cdb4b6f476e" akn:eId="backCover__comHist__tbl__oc_1__row__oc_50__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">paragraph 16 (partially)</p>
+									</td>
+									<td akn:GUID="_f5f47928-8412-4506-83e6-c9d5244051bf" akn:eId="backCover__comHist__tbl__oc_1__row__oc_50__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">29.12.2022</p>
+									</td>
+									<td akn:GUID="_d213bdce-e29a-46c7-baa2-55bca96dfe53" akn:eId="backCover__comHist__tbl__oc_1__row__oc_50__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/1270</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_c09cf3b6-6877-4b33-87e8-23151c0d87e4" akn:eId="backCover__comHist__tbl__oc_1__row__oc_51">
+									<td akn:GUID="_49fb889a-514e-4cbc-ae3f-a4cf4f62d51c" akn:eId="backCover__comHist__tbl__oc_1__row__oc_51__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">paragraphs 16 (remainder), 17 and 18</p>
+									</td>
+									<td akn:GUID="_6cd4886e-b82e-4532-8cbd-f79ee2c96af4" akn:eId="backCover__comHist__tbl__oc_1__row__oc_51__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">16.01.2023</p>
+									</td>
+									<td akn:GUID="_845cfb04-6ba5-4bb0-8889-f82364bcb797" akn:eId="backCover__comHist__tbl__oc_1__row__oc_51__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/1401</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_d9495051-9f56-471e-a8ff-21c711b15180" akn:eId="backCover__comHist__tbl__oc_1__row__oc_52">
+									<td akn:GUID="_b496592a-61de-4712-b316-aaf5f60f693d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_52__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">paragraph 22</p>
+									</td>
+									<td akn:GUID="_86df49c8-85be-4fb9-9e83-696bdfceab22" akn:eId="backCover__comHist__tbl__oc_1__row__oc_52__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">29.12.2022</p>
+									</td>
+									<td akn:GUID="_93649680-d8a6-4e61-9ab1-40e4ad6811b3" akn:eId="backCover__comHist__tbl__oc_1__row__oc_52__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/1270</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_81da2778-7ff6-4f0d-98dc-167a953a9fe2" akn:eId="backCover__comHist__tbl__oc_1__row__oc_53">
+									<td akn:GUID="_421a3275-868d-4c54-9621-62e0c9a0d653" akn:eId="backCover__comHist__tbl__oc_1__row__oc_53__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">paragraphs 23 (partially) and 26 (partially)</p>
+									</td>
+									<td akn:GUID="_0336fbba-0cf0-402a-87b9-8fd2b10b6b31" akn:eId="backCover__comHist__tbl__oc_1__row__oc_53__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">16.01.2023</p>
+									</td>
+									<td akn:GUID="_b486e8ce-e21e-4fed-a1b5-377d6f3f1834" akn:eId="backCover__comHist__tbl__oc_1__row__oc_53__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/1401</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_fd04656f-96c7-44fb-8902-e32fda9f7b29" akn:eId="backCover__comHist__tbl__oc_1__row__oc_54">
+									<td akn:GUID="_31dde2fe-2bc3-4190-9b13-61b5079fe8a8" akn:eId="backCover__comHist__tbl__oc_1__row__oc_54__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">paragraph 30 (partially)</p>
+									</td>
+									<td akn:GUID="_39f4594f-fbaa-4a97-a7cc-b2abcf4433f9" akn:eId="backCover__comHist__tbl__oc_1__row__oc_54__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">27.08.2022</p>
+									</td>
+									<td akn:GUID="_7a1d03dd-c245-4651-8c7c-210e7946ef8d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_54__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/916</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_190fea0f-bf42-47a7-95c2-41c57feb49dc" akn:eId="backCover__comHist__tbl__oc_1__row__oc_55">
+									<td akn:GUID="_b6b917a4-f385-4517-8098-9e19ba9d5533" akn:eId="backCover__comHist__tbl__oc_1__row__oc_55__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">paragraph 30 (remainder)</p>
+									</td>
+									<td akn:GUID="_30b1adb8-aa51-47cc-a9f5-0d40cdf2de77" akn:eId="backCover__comHist__tbl__oc_1__row__oc_55__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">16.01.2023</p>
+									</td>
+									<td akn:GUID="_e8c9a981-c7a2-434f-8624-2b8025354930" akn:eId="backCover__comHist__tbl__oc_1__row__oc_55__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/1401</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_9b5f6a91-a7c6-407d-a5d2-2da99cec5b51" akn:eId="backCover__comHist__tbl__oc_1__row__oc_56">
+									<td akn:GUID="_59ada1ae-4c28-415d-b8b3-5ea4ffc82567" akn:eId="backCover__comHist__tbl__oc_1__row__oc_56__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">paragraphs 34 (partially) and 35 (partially)</p>
+									</td>
+									<td akn:GUID="_ef9a6fb0-6096-4891-8a58-7ba81a8b37d5" akn:eId="backCover__comHist__tbl__oc_1__row__oc_56__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">29.12.2022</p>
+									</td>
+									<td akn:GUID="_6b869ada-41cf-4c3b-b2bc-e47cf7344de7" akn:eId="backCover__comHist__tbl__oc_1__row__oc_56__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/1270</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_8f75eac3-f27f-4818-9474-8757b0ce0987" akn:eId="backCover__comHist__tbl__oc_1__row__oc_57">
+									<td akn:GUID="_b975b3db-bce7-40b8-a34d-e0ab5c2b67af" akn:eId="backCover__comHist__tbl__oc_1__row__oc_57__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">paragraphs 35 (partially), 40 (partially) and 43</p>
+									</td>
+									<td akn:GUID="_9e17290a-5e9c-4e19-a1f0-e0f19ebee390" akn:eId="backCover__comHist__tbl__oc_1__row__oc_57__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">16.01.2023</p>
+									</td>
+									<td akn:GUID="_b71ea1c8-3c19-44a0-904e-2a47e4ef2c43" akn:eId="backCover__comHist__tbl__oc_1__row__oc_57__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/1401</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_74a7a7c2-acf5-4e25-9ea5-09569adae7a2" akn:eId="backCover__comHist__tbl__oc_1__row__oc_58">
+									<td akn:GUID="_28734921-4651-402c-ab44-8bd8e8e955cf" akn:eId="backCover__comHist__tbl__oc_1__row__oc_58__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">paragraph 46</p>
+									</td>
+									<td akn:GUID="_3706bafe-6d41-4e05-93c1-ac3c278adc3d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_58__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">29.12.2022</p>
+									</td>
+									<td akn:GUID="_ffbb6feb-5222-4aff-a63a-c15f3333943e" akn:eId="backCover__comHist__tbl__oc_1__row__oc_58__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/1270</p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</foreign>
+				</tblock>
+			</blockContainer>
+		</conclusions>
+	</act>
+</akomaNtoso>
