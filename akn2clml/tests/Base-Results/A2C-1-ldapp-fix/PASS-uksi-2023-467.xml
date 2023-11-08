@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?><akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../schemas/akomantoso30.xsd"><?DMS-Component componentId="e49db2c3-9cc5-44f5-975b-65fa35951f58" seriesId="07266258-db3d-4e82-ba99-437e5d1f734f" versionNumber="1"?>
+	<act contains="originalVersion" name="uksi">
+		<meta><?DMS-Component componentId="f6e1f779-8201-4855-a8f7-0791e72c053e" seriesId="a74b259c-9eca-4663-858b-10ae0d94814b" versionNumber="0"?>
+			
+			<identification source="#ldapp">
+				<FRBRWork>
+					<FRBRthis value="#varWork"/>
+					<FRBRuri value="#varWorkUri"/>
+					<FRBRalias name="ttflConfigHistory" value="#varCHOiid"/>
+					<FRBRdate date="9999-01-01" name="uksi"/>
+					<FRBRauthor href="#varAuthor"/>
+					<FRBRcountry value="GB-SCT"/>
+					<FRBRsubtype value="#varDocSubType"/>
+					<FRBRnumber value="#varProjectId"/>
+					<FRBRname value="#varSITitle"/>
+					<FRBRprescriptive value="true"/>
+					<FRBRauthoritative value="false"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="#varExpression"/>
+					<FRBRuri value="#varExpressionUri"/>
+					<FRBRalias name="ttflVersionDescription" value="#varVDOiid"/>
+					<FRBRdate date="9999-01-01" name="draft"/>
+					<FRBRauthor href="#varAuthor"/>
+					<FRBRversionNumber value=""/>
+					<FRBRauthoritative value="false"/>
+					<FRBRmasterExpression href="" showAs=""/>
+					<FRBRlanguage language="eng"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="#varManifestation"/>
+					<FRBRuri value="#varManifestationUri"/>
+					<FRBRdate date="9999-01-01" name="akn_xml"/>
+					<FRBRauthor href="#varAuthor"/>
+					<FRBRformat value="application/akn+xml"/>
+				</FRBRManifestation>
+			</identification>
+			<references source="#author">
+				<TLCConcept GUID="_bb93a5f9-69f7-47ea-9e74-87e961671662" eId="varDocSubType" href="#varOntologies" showAs="Regulations"/>
+				<TLCConcept GUID="_b57815cc-eff8-43a5-ad23-ffdfcb6aceff" eId="varSITitle" href="#varOntologies" showAs="The Charities (Dispositions of Land: Designated Advisers and Reports) Regulations 2023"/>
+				<TLCProcess GUID="_bb3af514-c46c-456e-94c8-ea9bb4629fb6" eId="varProcedureType" href="#varOntologies" showAs="Made Negative"/>
+				<TLCProcess GUID="_50a5afcb-71ef-49f0-b3e0-447cbb56e662" eId="varStageVersion" href="#varOntologies" showAs="1"/>
+				<TLCProcess GUID="_f09d5c30-e777-4a4c-87fa-6536c5988a9d" eId="varProjectId" href="#varOntologies" showAs="SI000081"/>
+				<TLCProcess GUID="_01f6ef4f-5316-4a59-80cc-57922971e8dc" eId="varWork" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_267f44b3-be8a-4011-8358-28dc3d89a550" eId="varWorkUri" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_0fe57f9e-7018-4ca1-b63d-d03668aa3aba" eId="varCHOiid" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_97a5efc3-c610-42dd-9396-a943e4957f65" eId="varExpression" href="#varOntologies" showAs="3abcdae1-2da1-4d0a-97e3-225b818595f4"/>
+				<TLCProcess GUID="_ccb47fd0-95dd-4df7-a80b-3ff3cc7d6dc1" eId="varExpressionUri" href="#varOntologies" showAs="dma:///45e6b900-8929-11d4-b772-0050da06bfb4/80742cea-0ebb-4cf6-9759-1e52358d9b5b/;guid=3abcdae1-2da1-4d0a-97e3-225b818595f4;class=Version%20Description"/>
+				<TLCProcess GUID="_cf6538ae-b1aa-4971-9430-e4b8615079c6" eId="varVDOiid" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_9d81c716-a800-4691-92d7-ef68415279fe" eId="varManifestation" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_5654872c-8019-4986-adf8-12633a93b125" eId="varManifestationUri" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_0f1e0ea3-de3f-4e94-88d5-f9c599eb32f7" eId="varSIYear" href="#varOntologies" showAs="2023"/>
+				<TLCConcept GUID="_7b0b8601-a240-4e33-8805-b292970bad68" eId="varSINoComp" href="#varOntologies" showAs="467"/>
+				<TLCConcept GUID="_4942a0be-ab59-40a0-8f24-8d68d7d6c66f" eId="varSINo" href="#varOntologies" showAs="#varSIYear No. #varSINoComp #varSISubsidiaryNos"/>
+				<TLCConcept GUID="_aa469a38-acee-47b5-879c-539945122bc5" eId="varSISubsidiaryNos" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_bfba3113-8c6c-47c0-8b88-126ab4a966f3" eId="varISBN" href="#varOntologies" showAs=""/>
+				<TLCPerson GUID="_a10c1df2-a8c9-4aed-a995-b36680c01477" eId="varMinistryAgency" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_78640b36-a55a-43e3-b2d2-abd8ab3955b9" eId="varDocType" href="#varOntologies" showAs="UKSI"/>
+				<TLCProcess GUID="_d4705e42-de39-420b-a377-f1c659bb957e" eId="varSystem" href="#varOntologies" showAs="LDAPP"/>
+				<TLCOrganization GUID="_a250c87b-c70b-4bf7-b48e-82211025711c" eId="varAuthor" href="#varOntologies" showAs="UK Government"/>
+				<TLCLocation GUID="_f1635df1-0af6-4220-a283-98afdc11ca64" eId="varJurisdiction" href="#varOntologies" showAs="United Kingdom"/>
+				<TLCConcept GUID="_b456b687-e615-49ea-a606-042e7797bef8" eId="varOntologies" href="https://www.legislation.gov.uk/ontologies/UK-AKN" showAs="https://www.legislation.gov.uk/ontologies/UK-AKN"/>
+				<TLCConcept GUID="_35076e4b-dbb5-415c-be33-c42cf342390b" eId="varMadeDate" href="#varOntologies" showAs="2023-04-24T00:00:00.000"/>
+				<TLCConcept GUID="_ab784b85-2eda-457a-9eb0-3ea1270a1924" eId="varLaidDate" href="#varOntologies" showAs="2023-04-26T00:00:00.000"/>
+			</references>
+		</meta>
+		<preface GUID="_768e6716-eea8-430d-ab0b-5787236dfc2e" eId="fnt"><?DMS-Component componentId="eff976a9-d2ae-487d-bdeb-bc6fa5b5b784" seriesId="fa86b2d4-bfca-424e-960a-80639f716d9a" versionNumber="0"?>
+			
+			<block GUID="_da36f2b2-052f-4b25-bfdf-fa26efbad597" eId="fnt__banner" name="banner">STATUTORY INSTRUMENTS</block>
+			<block GUID="_87076526-3016-44ea-a2da-77eb8d92519b" eId="fnt__no" name="number">
+				<docNumber GUID="_e3a5843e-a5b7-4d47-be15-ea524b2b9ea6" eId="fnt__no__dno">
+					<ref class="placeholder" href="#varSINo"/>
+				</docNumber>
+			</block>
+			<container name="subjects">
+				<container GUID="_9b2825c7-c4cc-4198-8b5b-b0a36bc12fa5" eId="fnt__subject" name="subject">
+					<block name="subject"><concept class="title" refersTo="">CHARITIES</concept><concept class="title" refersTo="">, ENGLAND AND WALES</concept></block>
+				</container>
+			</container>
+			<block GUID="_1306083a-47a6-4897-ae83-602e77cebfbb" eId="fnt__st" name="title">
+				<docTitle GUID="_f6903e68-302d-401d-9902-de6fa5aed311" eId="fnt__st__dtitle">
+					<ref class="placeholder" href="#varSITitle"/>
+				</docTitle>
+			</block>
+			<container GUID="_ce010faf-f910-4893-be8b-ad9679cc4841" eId="fnt__dates" name="dates">
+				<block GUID="_21909d81-4297-4f64-9cac-7efe2076cbcf" eId="fnt__dates__madeDate" name="madeDate"><span>Made</span><docDate GUID="_ffe12a64-f312-4be7-bc2f-ba73e7f42ecf" date="2023-04-24T00:00:00.000" eId="fnt__dates__madeDate__ddate"><ref class="placeholder" href="#varMadeDate" ukl:dateFormat="d'th' MMMM yyyy">24th April 2023</ref></docDate></block>
+				<block GUID="_458b09d6-aa6a-4a00-8fef-a19c2edaca85" eId="fnt__dates__laidDate" name="laidDate"><span>Laid before Parliament</span><docDate GUID="_2168d777-d322-4abe-aec9-bf2ee7b7eca1" date="2023-04-26T00:00:00.000" eId="fnt__dates__laidDate__ddate"><ref class="placeholder" href="#varLaidDate" ukl:dateFormat="d'th' MMMM yyyy">26th April 2023</ref></docDate></block>
+				<block GUID="_75575248-cf38-4fb5-a7f1-f1db2e88b92f" eId="fnt__dates__commenceDateDescription" name="commenceDate"><span>Coming into force in accordance with regulation 1(2)</span></block>
+			</container>
+		</preface>
+		<preamble GUID="_6a2fbf2d-7fb1-41c6-b3cd-8732dbccd114" eId="preamble"><?DMS-Component componentId="88c91f19-5337-479f-ad81-0c26f354f12a" seriesId="d2bf9d23-ff2a-4ad2-abf6-decf933bf2d0" versionNumber="0"?>
+			
+			<formula GUID="_ef1999c4-ef77-45f2-aac4-43de2c9621ac" eId="preamble__enactingWords" name="enactingText">
+				<p>The Secretary of State makes these <ref class="placeholder" href="#varDocSubType"/> in exercise of the powers conferred by sections 119(3)(a) and (4)<authorialNote GUID="_4b3795ea-e0d4-495c-b222-dfbb88834562" class="footnote" eId="fnote_5" marker="5">
+						<p>The function under section 119(3)(a) was transferred to the Secretary of State by article 10 of S.I. 2016/997. Section 119 is amended by S.I. 2016/977 and by sections 19 and 20 of the Charities Act 2022 (c. 6).</p>
+					</authorialNote> and 347(3)(b) of the Charities Act 2011<authorialNote GUID="_2763c067-51cb-4814-8219-77b4fb6a6663" class="footnote" eId="fnote_1" marker="1">
+						<p>2011 c. 25.</p>
+					</authorialNote>.</p>
+			</formula>
+		</preamble>
+		<body><?DMS-Component componentId="3b529413-28f7-49dd-82f6-eb618b342043" seriesId="088971f7-ac8d-4673-803b-f36bf7ea1766" versionNumber="0"?>
+			
+			<hcontainer GUID="_a7323cc6-d0d1-47f3-bdde-0d116dd3c810" class="prov1" eId="reg_1" name="regulation"><?DMS-Component componentId="9cacb12c-c74c-4563-8268-c67d44cd011b" seriesId="86166a9d-acb5-4347-8570-96a0caefe03f" versionNumber="0"?>
+				
+				<heading GUID="_98c6379f-2112-49a3-b913-c3569201a1ea" eId="reg_1__hdg">Citation, commencement and extent</heading>
+				<num>1.</num>
+				<paragraph GUID="_8ff10f4f-1856-4cb5-861b-68cda24abfe0" class="prov2" eId="reg_1__para_1">
+					<num>(1)</num>
+					<content>
+						<p>These Regulations may be cited as the Charities (Dispositions of Land: Designated Advisers and Reports) Regulations 2023.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_1d13891b-1a98-43c9-97f7-ebcf0335bbb0" class="prov2" eId="reg_1__para_2">
+					<num>(2)</num>
+					<content>
+						<p>These Regulations come into force on the day on which sections 19 and 20 of the Charities Act 2022<authorialNote GUID="_2e559f81-b76c-4969-9ca3-60d89502971b" class="footnote" eId="fnote_2" marker="2">
+								<p>2022 c. 6.</p>
+							</authorialNote> come into force.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_ea4dcd35-6b5a-469f-b23d-007a5f4e9bfc" class="prov2" eId="reg_1__para_3">
+					<num>(3)</num>
+					<content>
+						<p>These Regulations extend to England and Wales.</p>
+					</content>
+				</paragraph>
+			</hcontainer>
+			<hcontainer GUID="_cd81d625-f978-4024-a66a-51c914dd63b3" class="prov1" eId="reg_2" name="regulation"><?DMS-Component componentId="6eac6d7b-7d44-4a06-b3ab-552014fc55c9" seriesId="cfd4ef48-82ea-45d6-af40-7fe8195aea0d" versionNumber="1"?>
+				
+				<heading GUID="_af34b06c-29d3-49c5-835f-2a6e7e86e088" eId="reg_2__hdg">Interpretation</heading>
+				<num>2.</num>
+				<intro GUID="_de398444-a5d5-4602-967a-0020e89db491" eId="reg_2__intro">
+					<p>In these Regulations—</p>
+				</intro>
+				<hcontainer GUID="_a001599c-c45f-4047-b78e-f4a824b19741" class="definition" eId="reg_2__def_the2011Act_" name="definition">
+					<content>
+						<p><def GUID="_ceb93a63-17ed-4f47-8575-6536b9bb1710" eId="reg_2__def_the2011Act" ukl:endQuote="”" ukl:startQuote="“">the 2011 Act</def> means the Charities Act 2011;</p>
+					</content>
+				</hcontainer>
+				<hcontainer GUID="_4d0dd3d6-27a1-4022-bc6b-3b194958e145" class="definition" eId="reg_2__def_theadviser_" name="definition">
+					<content>
+						<p><def GUID="_91775732-96e4-482b-8f94-6cc0bd35f9fc" eId="reg_2__def_theadviser" ukl:endQuote="”" ukl:startQuote="“">the adviser</def> means the person from whom a report is being obtained for the purposes of section 119(1) of the 2011 Act;</p>
+					</content>
+				</hcontainer>
+				<hcontainer GUID="_c396acd9-bd8d-4607-b679-81522e805780" class="definition" eId="reg_2__def_relevantland_" name="definition">
+					<content>
+						<p><def GUID="_f0d60393-3a61-4596-b22e-9aee5e38fa0a" eId="reg_2__def_relevantland" ukl:endQuote="”" ukl:startQuote="“">relevant land</def> means the land in respect of which a report is being obtained for the purposes of section 119(1) of the 2011 Act.</p>
+					</content>
+				</hcontainer>
+			</hcontainer>
+			<hcontainer GUID="_2a5b158f-7850-4b3f-9602-b3cefd2c1d3f" class="prov1" eId="reg_3" name="regulation"><?DMS-Component componentId="bffab7a4-3ab0-4fd1-92ac-79d790d3576d" seriesId="41b82f4c-d0f1-498e-835d-dba6dc303e83" versionNumber="0"?>
+				
+				<heading GUID="_a54983e8-28ee-499c-9b48-ac14f5586cfb" eId="reg_3__hdg">Designated advisers</heading>
+				<num>3.</num>
+				<paragraph GUID="_6795cf14-0d8b-4e28-bf13-789e8765a3a4" class="prov2" eId="reg_3__para_1">
+					<num>(1)</num>
+					<intro GUID="_692c9a4f-3acd-41e7-b2ec-1dec564ff57f" eId="reg_3__para_1__intro">
+						<p>An other requirement that may be satisfied for the purposes of section 119(3)(a) of the 2011 Act is that the person is—</p>
+					</intro>
+					<level GUID="_12f0136b-ea61-4876-9c54-160f73935b47" class="para1" eId="reg_3__para_1__para_a">
+						<num>(a)</num>
+						<content>
+							<p>a fellow of the Central Association of Agricultural Valuers; or</p>
+						</content>
+					</level>
+					<level GUID="_7e56feb1-c360-4173-9c57-1c70c7031686" class="para1" eId="reg_3__para_1__para_b">
+						<num>(b)</num>
+						<content>
+							<p>a member of NAEA Propertymark at fellow grade.</p>
+						</content>
+					</level>
+				</paragraph>
+				<paragraph GUID="_f1f8243a-7b18-4239-9e02-f21f68be0de2" class="prov2" eId="reg_3__para_2">
+					<num>(2)</num>
+					<intro GUID="_01f3ee52-fb47-435f-abb3-b5081e2d1204" eId="reg_3__para_2__intro">
+						<p>In this regulation—</p>
+					</intro>
+					<hcontainer GUID="_842255d3-a646-4419-8ccb-8983e744a35e" class="definition" eId="reg_3__para_2__def_NAEAPropertymark_" name="definition">
+						<content>
+							<p><def GUID="_92b3a2d5-a933-4a24-a4cc-e3a430da53e4" eId="reg_3__para_2__def_NAEAPropertymark" ukl:endQuote="”" ukl:startQuote="“">NAEA Propertymark</def> means the professional membership scheme for estate agents run by the private company limited by guarantee registered as Propertymark Ltd under company number 00897907.</p>
+						</content>
+					</hcontainer>
+				</paragraph>
+			</hcontainer>
+			<hcontainer GUID="_6e25e050-bf4d-4b68-a40e-397be7c836b6" class="prov1" eId="reg_4" name="regulation"><?DMS-Component componentId="23e0fe8f-7b4c-4b0a-a9e3-f44720f3f315" seriesId="34d03e05-e96d-473e-936b-43db1ca6e05b" versionNumber="0"?>
+				
+				<heading GUID="_d6545e0f-4d22-4bc1-9db2-1174995d68d9" eId="reg_4__hdg">Matters to be dealt with in the designated adviser’s report</heading>
+				<num>4.</num>
+				<paragraph GUID="_95200e9f-6dce-4614-9f4d-1c31e4c5a263" class="prov2" eId="reg_4__para_1">
+					<num>(1)</num>
+					<intro GUID="_81afc074-db1f-4496-a411-67dea0d8a05a" eId="reg_4__para_1__intro">
+						<p>A report prepared for the purposes of section 119(1) of the 2011 Act must deal with the following matters—</p>
+					</intro>
+					<level GUID="_071c7c4c-aaa0-4ef1-b01a-1e7fc64af2bb" class="para1" eId="reg_4__para_1__para_a">
+						<num>(a)</num>
+						<content>
+							<p>the value of the relevant land;</p>
+						</content>
+					</level>
+					<level GUID="_c68939c6-9584-4f13-82bd-4df31c5a5c3a" class="para1" eId="reg_4__para_1__para_b">
+						<num>(b)</num>
+						<content>
+							<p>any steps which could be taken to enhance that value;</p>
+						</content>
+					</level>
+					<level GUID="_a603a27e-cccf-4d5f-85e2-b6c67c9bd3fe" class="para1" eId="reg_4__para_1__para_c">
+						<num>(c)</num>
+						<content>
+							<p>whether and, if so, how the relevant land should be marketed;</p>
+						</content>
+					</level>
+					<level GUID="_dfcfc90f-13fc-406f-8d2a-299b93ab3927" class="para1" eId="reg_4__para_1__para_d">
+						<num>(d)</num>
+						<content>
+							<p>anything else which could be done to ensure that the terms on which the disposition is made are the best that can reasonably be obtained for the charity; and</p>
+						</content>
+					</level>
+					<level GUID="_3e40027c-1dc1-4428-9642-f8f56767cd24" class="para1" eId="reg_4__para_1__para_e">
+						<num>(e)</num>
+						<content>
+							<p>any other matters which the adviser believes should be drawn to the attention of the charity trustees.</p>
+						</content>
+					</level>
+				</paragraph>
+				<paragraph GUID="_93802ebd-c1f7-4df4-b12d-73e331a03d93" class="prov2" eId="reg_4__para_2">
+					<num>(2)</num>
+					<intro GUID="_9cc2f938-36a7-4501-afe3-a76a56ad9991" eId="reg_4__para_2__intro">
+						<p>The report must also include a statement by the adviser that—</p>
+					</intro>
+					<level GUID="_20c6f798-4914-4615-8db3-9b4a4af87b38" class="para1" eId="reg_4__para_2__para_a">
+						<num>(a)</num>
+						<content>
+							<p>the adviser has ability in, and experience of, the valuation of land of the particular kind, and in the particular area, in question; and</p>
+						</content>
+					</level>
+					<level GUID="_3f36856d-949a-4f5c-aaab-f331e8a188d0" class="para1" eId="reg_4__para_2__para_b">
+						<num>(b)</num>
+						<content>
+							<p>the adviser has no interest which conflicts, or would appear to conflict, with that of the charity.</p>
+						</content>
+					</level>
+				</paragraph>
+			</hcontainer>
+			<hcontainer GUID="_58942648-a4e3-4682-9827-39b9b2b5c012" class="prov1" eId="reg_5" name="regulation"><?DMS-Component componentId="a82f1583-09fb-48eb-89bb-ed630c323685" seriesId="430f2d63-bc34-4935-8d75-16014f9342fe" versionNumber="0"?>
+				
+				<heading GUID="_44833834-66d6-4a36-9fed-8d0921a9c60c" eId="reg_5__hdg">Revocation of the Charities (Qualified Surveyors’ Reports) Regulations 1992</heading>
+				<num>5.</num>
+				<content>
+					<p>The Charities (Qualified Surveyors’ Reports) Regulations 1992<authorialNote GUID="_36fae3b6-2ba7-4971-9a60-3217e4624ab0" class="footnote" eId="fnote_4" marker="4">
+							<p>S.I. 1992/2980. S.I. 1992/2980 was made under section 32(4) of the Charities Act 1992 (c. 41). Section 32(4) was repealed and re-enacted in the Charities Act 1993 (c. 10) as section 36(4) and then that section was in turn repealed and re-enacted by the Charities Act 2011 as section 119(4).</p>
+						</authorialNote> are revoked.</p>
+				</content>
+			</hcontainer>
+			<hcontainer GUID="_180146fc-a2cc-439a-94e4-4829ea8ae6b2" class="prov1" eId="reg_6" name="regulation"><?DMS-Component componentId="e6c92b08-8887-4cdf-a9da-1548bc9f0680" seriesId="bea08935-7c0f-47b8-8f0a-f4609da82ee9" versionNumber="0"?>
+				
+				<heading GUID="_73084b09-6c6a-4300-b31d-eacfebb25bfd" eId="reg_6__hdg">Transitional and saving provision</heading>
+				<num>6.</num>
+				<content>
+					<p>Regulations 4 and 5 do not have effect where the adviser is instructed by the charity trustees to prepare a report for the purposes of complying with section 119(1) of the 2011 Act before the day these Regulations come into force, but the disposition of the relevant land takes place after these Regulations have come into force.</p>
+				</content>
+			</hcontainer>
+			<hcontainer GUID="_0ce181c5-36a0-496f-a091-7187cbdf03b8" eId="sigs" name="signatures"><?DMS-Component componentId="27722bde-63c9-46bc-a27a-8cdcd7210af8" seriesId="b2472f51-19e6-4358-98fe-314320720e3b" versionNumber="0"?>
+				
+				<hcontainer GUID="_84a94e34-cbe6-4e25-8b40-13ecdfa4c263" eId="sigs__sigBlk" name="signatureBlock">
+					<content>
+						<block GUID="_e49a600a-b27f-4043-a3f9-74768b38df12" eId="sigs__sigBlk__sig" name="signature">Stuart Andrew</block>
+						<block GUID="_fcc4ac6b-8f7f-4171-bff0-116ea7988935" eId="sigs__sigBlk__role" name="role">Parliamentary Under Secretary of State</block>
+						<block name="date"><date date="2023-04-24">24th April 2023</date></block>
+						<block GUID="_09152cc0-1975-448e-9b38-344287d96210" eId="sigs__sigBlk__org" name="organization">Department for Culture, Media and Sport</block>
+					</content>
+				</hcontainer>
+			</hcontainer>
+		</body>
+		<conclusions GUID="_4e6a28d5-d029-4064-bffd-bab12389ae91" eId="backCover"><?DMS-Component componentId="c15d1aa6-248f-4b35-96e7-11af5c34641d" seriesId="6d2fe354-1aaa-4ab5-9fb8-cdd6fa92a803" versionNumber="0"?>
+			
+			<blockContainer GUID="_614482e9-a909-410f-8146-9ffd88927135" class="explanatoryNote" eId="backCover__explNote">
+				<heading GUID="_115dd137-15e3-4264-bb6e-f18444c02d96" eId="backCover__explNote__hdg">Explanatory Note</heading>
+				<subheading GUID="_bf49a7a5-6135-4bbe-bd0b-0579214eb823" eId="backCover__explNote__subhdg">(This note is not part of the <ref class="placeholder" href="#varDocSubType"/>)</subheading>
+				<p>These Regulations relate to the reports that charity trustees must obtain in order to meet requirements under section 119 of the Charities Act 2011 (“the 2011 Act”) before they may dispose of land held by or in trust for the charity.</p>
+				<p>Regulation 3 relates to who may prepare such a report under section 119(3)(a) of the 2011 Act. It allows the person preparing the report to be a fellow of the Central Association of Agricultural Valuers or a member of NAEA Propertymark at fellow grade as an alternative to being a fellow or professional associate of the Royal Institution of Chartered Surveyors.</p>
+				<p>Regulation 4 relates to what the report must contain and sets out a series of matters that must be covered, as well as requiring the inclusion of a statement by the person preparing the report that they have suitable ability and expertise and no interests that conflict with those of the charity.</p>
+				<p>Regulation 5 revokes the Charities (Qualified Surveyors' Reports) Regulations 1992 (“the 1992 Regulations”) which set down the previous required content of reports and which are now replaced by these Regulations.</p>
+				<p>Regulation 6 sets out the transitional arrangements for reports that were commissioned before these Regulations came into force but where the disposition of the land takes place after these Regulations come into force. For those reports, the content requirements under the 1992 Regulations will still apply, rather than new requirements.</p>
+				<p>A full impact assessment has not been produced for this instrument as no, or no significant, impact on the private, voluntary sector or community bodies is foreseen.</p>
+			</blockContainer>
+		</conclusions>
+	</act>
+</akomaNtoso>
