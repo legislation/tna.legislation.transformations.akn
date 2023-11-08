@@ -2,6 +2,8 @@
 
 This location is the home of the XSLT test harness for AKN (Akoma Ntoso) transformations to CLML (Crown Legislation Markup Language) for TNA (The National Archives [https://www.nationalarchives.gov.uk/](https://www.nationalarchives.gov.uk/)).
 
+See [akn2clml](https://bitbucket.org/tsoltd/tna.legislation.transformations.akn/akn2clml/transform) to convert AKN XML to CLML XML
+
 ---
 **NOTE**
 
@@ -15,7 +17,6 @@ The test data and Oxygen Project is located at the same level as the directory f
 ## About the XSLTs
 The XSLTs used on the data in the repository Oxygen Project Transform Scenarios have been developed using XSLT2 and have been arranged in the following subfolders with a different folder for each process.
 
-- [akn2clml](https://bitbucket.org/tsoltd/tna.legislation.transformations.akn/akn2clml/transform) to convert AKN XML to CLML XML
 The three specific XSL files being tested in order are:
 
 1. ldapp-fix.xsl
