@@ -6,6 +6,13 @@
 	xpath-default-namespace="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
 	exclude-result-prefixes="html">
 
+<xsl:template match="intro[empty(following-sibling::*)]">
+	<content>
+		<xsl:copy-of select="@*" />
+		<xsl:apply-templates />
+	</content>
+</xsl:template>
+
 <xsl:template match="ref[@class='invalid']">
 	<xsl:apply-templates />
 </xsl:template>
