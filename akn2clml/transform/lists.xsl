@@ -95,9 +95,9 @@
 </xsl:function>
 
 <xsl:function name="local:get-ordered-list-type-from-numbered-things" as="xs:string?">
-	<xsl:param name="items" as="element()+" />
+	<xsl:param name="items" as="element()*" />
 	<xsl:param name="decor" as="xs:string" />
-	<xsl:variable name="nums" as="xs:string+" select="$items/num/translate(., ' ', '')" /><!-- some have spaces within: ukpga/2017/3/enacted -->
+	<xsl:variable name="nums" as="xs:string*" select="$items/num/translate(., ' ', '')" /><!-- some have spaces within: ukpga/2017/3/enacted -->
 	<xsl:variable name="begin-end" as="xs:string+">
 		<xsl:choose>
 			<xsl:when test="$decor = 'none'">
@@ -338,10 +338,10 @@
 <xsl:template match="hcontainer[@name='definition'][empty(content)]">
 	<xsl:param name="context" as="xs:string*" tunnel="yes" />
 	<ListItem>
-		<xsl:apply-templates select="num | heading | subheading">
+		<xsl:apply-templates select="num | heading | subheading | intro">
 			<xsl:with-param name="context" select="('ListItem', $context)" tunnel="yes" />
 		</xsl:apply-templates>
-		<xsl:variable name="children" as="element()+" select="* except (num | heading | subheading | intro | wrapUp)" />
+		<xsl:variable name="children" as="element()*" select="* except (num | heading | subheading | intro | wrapUp)" />
 		<xsl:variable name="sublist" as="element()">
 			<OrderedList>
 				<xsl:variable name="decor" as="xs:string" select="local:get-decoration-from-numbered-things($children)" />
@@ -392,10 +392,10 @@
 <xsl:template match="level[empty(content)] | paragraph[empty(content)] | subparagraph[empty(content)]" mode="list"><!-- similar to above but skips <num> -->	<!-- paragraph and subparagraph are legacy -->
 	<xsl:param name="context" as="xs:string*" tunnel="yes" />
 	<ListItem>
-		<xsl:apply-templates select="heading | subheading | intro">
+		<xsl:apply-templates select="heading | subheading | intro[following-sibling::*]">
 			<xsl:with-param name="context" select="('ListItem', $context)" tunnel="yes" />
 		</xsl:apply-templates>
-		<xsl:variable name="children" as="element()+" select="* except (num | heading | subheading | intro | wrapUp)" />
+		<xsl:variable name="children" as="element()+" select="* except (num | heading | subheading | intro[following-sibling::*] | wrapUp)" />
 		<xsl:choose>
 			<xsl:when test="exists($children/num)">
 				<OrderedList>

@@ -12,7 +12,7 @@
 	xmlns:saxon="http://saxon.sf.net/"
 	exclude-result-prefixes="xs uk ukl local saxon">
 
-<xsl:output method="xml" version="1.0" encoding="utf-8" omit-xml-declaration="no" indent="yes" saxon:suppress-indentation="Text" />
+<xsl:output method="xml" version="1.0" encoding="utf-8" omit-xml-declaration="no" indent="yes" />
 
 <xsl:strip-space elements="*" />
 <xsl:preserve-space elements="block p docTitle docNumber docDate num heading subheading ref def term abbr date inline b i u sup sub span a mod quotedText ins" />
@@ -85,8 +85,8 @@
 		</xsl:apply-templates>
 	</xsl:element>
 	<xsl:if test="exists(*[not(self::meta) and not(self::coverPage) and not(self::preface) and not(self::preamble) and not(self::body) and not(self::conclusions) and not(self::components)])">
-		<xsl:message terminate="yes">
-		</xsl:message>
+		<xsl:message><xsl:text>ERROR for handling: </xsl:text><xsl:value-of select="self::*/local-name()"/></xsl:message>
+		<Error><xsl:text>ERROR for handling: </xsl:text><xsl:value-of select="self::*/local-name()"/></Error>
 	</xsl:if>
 </xsl:template>
 
@@ -106,7 +106,8 @@
 					<xsl:with-param name="context" select="('Body', $context)" tunnel="yes" />
 				</xsl:apply-templates>
 				<xsl:if test="exists(hcontainer[@name='schedules']/following-sibling::node())">
-					<xsl:message terminate="yes" />
+					<xsl:message><xsl:text>ERROR for hcontainer with name 'schedules' that has following-sibling: </xsl:text><xsl:value-of select="hcontainer[@name='schedules']/following-sibling::node()/local-name()"/></xsl:message>
+					<Error><xsl:text>ERROR for hcontainer with name 'schedules' that has following-sibling: </xsl:text><xsl:value-of select="hcontainer[@name='schedules']/following-sibling::node()/local-name()"/></Error>
 				</xsl:if>
 			</Body>
 			<xsl:apply-templates select="hcontainer[@name='schedules']" />
@@ -148,8 +149,9 @@
 			</xsl:choose>
 		</xsl:when>
 		<xsl:when test="not(node())">
+			<!-- Is this considered an error to fix??? I assume not at this time -->
 			<xsl:message>
-				<xsl:text>Suppress p element that contains no nodes</xsl:text>
+				<xsl:text>Suppress p element that contains no nodes for </xsl:text><xsl:value-of select="$context"/>
 			</xsl:message>
 		</xsl:when>
 		<xsl:otherwise>
@@ -316,12 +318,8 @@
 <!-- default -->
 
 <xsl:template match="*" priority="-100">
-	<xsl:message>
-		<xsl:text>no template match for element</xsl:text>
-	</xsl:message>
-	<xsl:message terminate="yes">
-		<xsl:sequence select="." />
-	</xsl:message>
+	<xsl:message><xsl:text>ERROR no template match for element: </xsl:text><xsl:value-of select="self::*/local-name()"/></xsl:message>
+	<Error><xsl:text>ERROR no template match for element: </xsl:text><xsl:value-of select="self::*/local-name()"/><xsl:text> : </xsl:text><xsl:sequence select="." /></Error>
 </xsl:template>
 
 </xsl:transform>

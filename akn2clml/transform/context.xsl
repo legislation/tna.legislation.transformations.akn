@@ -154,12 +154,8 @@
 			<xsl:sequence select="local:get-block-wrapper($context)" />
 		</xsl:when>
 		<xsl:otherwise>
-			<xsl:message terminate="yes">
-				<xsl:text>local:get-wrapper: </xsl:text>
-				<xsl:value-of select="$clml" />
-				<xsl:text> </xsl:text>
-				<xsl:value-of select="$context" />
-			</xsl:message>
+			<xsl:message><xsl:text>ERROR unexpected local:get-wrapper: </xsl:text><xsl:value-of select="$clml" /><xsl:text> : </xsl:text><xsl:value-of select="$context" /></xsl:message>
+			<xsl:text>ERROR</xsl:text>
 		</xsl:otherwise>
 	</xsl:choose>
 </xsl:function>
@@ -169,6 +165,12 @@
 	<xsl:param name="context" as="xs:string+" tunnel="yes" />
 	<xsl:variable name="wrapper" as="xs:string?" select="local:get-wrapper(local-name($clml[1]), $context)" />
 	<xsl:choose>
+		<xsl:when test="$wrapper eq 'ERROR'">
+			<xsl:element name="{ $wrapper }">
+				<xsl:attribute name="context" select="string-join($context, ' : ')"/>
+				<xsl:copy-of select="$clml" />
+			</xsl:element>
+		</xsl:when>
 		<xsl:when test="exists($wrapper)">
 			<xsl:element name="{ $wrapper }">
 				<xsl:copy-of select="$clml" />
@@ -184,9 +186,18 @@
 	<xsl:param name="name" as="xs:string" />
 	<xsl:param name="context" as="xs:string+" tunnel="yes" />
 	<xsl:variable name="wrapper" as="xs:string?" select="local:get-wrapper($name, $context)" />
-	<xsl:apply-templates>
-		<xsl:with-param name="context" select="($name, $wrapper, $context)" tunnel="yes" />
-	</xsl:apply-templates>
+	<xsl:choose>
+		<xsl:when test="$wrapper eq 'ERROR'">
+			<xsl:element name="{ $wrapper }">
+				<xsl:attribute name="context" select="string-join($context, ' : ')"/>
+			</xsl:element>
+		</xsl:when>
+		<xsl:otherwise>
+			<xsl:apply-templates>
+				<xsl:with-param name="context" select="($name, $wrapper, $context)" tunnel="yes" />
+			</xsl:apply-templates>
+		</xsl:otherwise>
+	</xsl:choose>
 </xsl:template>
 
 <xsl:template name="create-element-and-wrap-as-necessary">
@@ -194,11 +205,20 @@
 	<xsl:param name="context" as="xs:string*" tunnel="yes" />
 	<xsl:variable name="wrapper" as="xs:string?" select="local:get-wrapper($name, $context)" />
 	<xsl:variable name="clml" as="element()">
-		<xsl:element name="{ $name }">
-			<xsl:apply-templates>
-				<xsl:with-param name="context" select="($name, $wrapper, $context)" tunnel="yes" />
-			</xsl:apply-templates>
-		</xsl:element>
+		<xsl:choose>
+			<xsl:when test="$wrapper eq 'ERROR'">
+				<xsl:element name="{ $wrapper }">
+					<xsl:attribute name="context" select="string-join($context, ' : ')"/>
+				</xsl:element>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:element name="{ $name }">
+					<xsl:apply-templates>
+						<xsl:with-param name="context" select="($name, $wrapper, $context)" tunnel="yes" />
+					</xsl:apply-templates>
+				</xsl:element>
+			</xsl:otherwise>
+		</xsl:choose>
 	</xsl:variable>
 	<xsl:choose>
 		<xsl:when test="exists($wrapper)">

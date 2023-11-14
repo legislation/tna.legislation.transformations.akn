@@ -250,7 +250,7 @@
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:variable>
-	<xsl:if test="empty($name)">
+	<xsl:if test="empty($name) or $name eq 'ERROR'">
 		<xsl:message>
 			<xsl:sequence select="$akn" />
 		</xsl:message>
@@ -274,10 +274,15 @@
 			<xsl:text>akn-class </xsl:text>
 			<xsl:sequence select="$akn-class" />
 		</xsl:message>
-		<xsl:message terminate="yes">
-		</xsl:message>
 	</xsl:if>
-	<xsl:sequence select="$name" />
+	<xsl:choose>
+		<xsl:when test="$name = 'ERROR'">
+			<xsl:text>ERROR: </xsl:text><xsl:value-of select="string-join(($akn, $doc-class, $doc-subclass, $within-schedule, $akn-element-name, $akn-class), ' : ')" />
+		</xsl:when>
+		<xsl:otherwise>
+			<xsl:sequence select="$name" />
+		</xsl:otherwise>
+	</xsl:choose>
 </xsl:function>
 
 <xsl:template name="add-structure-attributes">
@@ -616,9 +621,8 @@
 			<xsl:text>P7</xsl:text>
 		</xsl:when>
 		<xsl:otherwise>
-			<xsl:message terminate="yes">
-				<xsl:sequence select="$context" />
-			</xsl:message>
+			<xsl:message><xsl:text>ERROR context is: </xsl:text><xsl:sequence select="$context" /></xsl:message>
+			<xsl:text>ERROR</xsl:text>
 		</xsl:otherwise>
 	</xsl:choose>
 </xsl:function>
@@ -973,21 +977,27 @@
 			</xsl:when>
 			<xsl:otherwise>
 				<xsl:message>
-					<xsl:text>can't find context for num</xsl:text>
+					<xsl:text>ERROR can't find context for num</xsl:text>
 				</xsl:message>
 				<xsl:message>
 					<xsl:text>context = </xsl:text>
 					<xsl:sequence select="$context" />
-				</xsl:message>
-				<xsl:message terminate="yes">
 					<xsl:sequence select="local-name(..)" />
 					<xsl:text>/</xsl:text>
 					<xsl:sequence select="local-name(.)" />
 				</xsl:message>
+				<xsl:text>ERROR</xsl:text>
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:variable>
 	<xsl:choose>
+		<xsl:when test="$name = 'ERROR'">
+			<Error><xsl:text>ERROR can't find context for num. Context is </xsl:text><xsl:sequence select="$context" />
+				<xsl:text> : </xsl:text>
+				<xsl:sequence select="local-name(..)" />
+				<xsl:text>/</xsl:text>
+				<xsl:sequence select="local-name(.)" /></Error>
+		</xsl:when>
 		<xsl:when test="exists(@ukl:Context)">
 			<FragmentNumber Context="{ @ukl:Context }">
 				<xsl:element name="{ $name }">
