@@ -345,10 +345,6 @@
 		<xsl:variable name="sublist" as="element()">
 			<OrderedList>
 				<xsl:variable name="decor" as="xs:string" select="local:get-decoration-from-numbered-things($children)" />
-				
-				<xsl:message>Decor is <xsl:value-of select="$decor" /></xsl:message>
-				<xsl:message>Type is <xsl:copy-of select="$children"/></xsl:message>
-				
 				<xsl:variable name="type" as="xs:string" select="local:get-ordered-list-type-from-numbered-things($children, $decor)" />
 				<xsl:attribute name="Type">
 					<xsl:value-of select="$type" />
