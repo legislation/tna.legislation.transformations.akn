@@ -36,6 +36,13 @@
 	</xsl:element>
 </xsl:template>
 
+<xsl:template match="inline[@name='placeholder']">
+	<xsl:message>
+		<xsl:text disable-output-escaping="yes">skipping &lt;inline name="placeholder"&gt;</xsl:text>
+	</xsl:message>
+	<xsl:apply-templates />
+</xsl:template>
+
 <xsl:template match="@*|node()">
 	<xsl:copy>
 		<xsl:apply-templates select="@*|node()"/>
