@@ -242,7 +242,7 @@
 					</xsl:otherwise>
 				</xsl:choose>
 			</xsl:when>
-			<xsl:when test="$akn/ancestor-or-self::hcontainer[@name='step']">
+			<xsl:when test="$akn/ancestor-or-self::hcontainer[@name='step']"> <!-- should no longer be invoked -->
 				<xsl:sequence select="local:one-more-than-context($context)" />
 			</xsl:when>
 			<xsl:otherwise>
@@ -637,7 +637,7 @@
 	</xsl:choose>
 </xsl:template>
 
-<xsl:template match="subparagraph | level[not(@class='unnumberedParagraph')] | hcontainer[@name=('subsubparagraph','step')] | point" name="level">
+<xsl:template match="subparagraph | level[not(@class='unnumberedParagraph')] | hcontainer[@name='subsubparagraph'] | point" name="level">
 	<xsl:param name="context" as="xs:string*" tunnel="yes" />
 	<xsl:variable name="name" as="xs:string" select="local:get-structure-name(., $context)" />
 	<xsl:if test="$name = ''">
