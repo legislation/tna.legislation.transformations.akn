@@ -11,7 +11,7 @@
 
 
 <xsl:template match="PrimaryPrelims">
-	<preface>
+	<preface eId="preface">
 		<xsl:call-template name="add-internal-id-if-necessary" />
 		<xsl:apply-templates select="Title | Number" />
 		<xsl:choose>
@@ -81,7 +81,7 @@
 
 
 <xsl:template match="SecondaryPrelims">
-	<preface>
+	<preface eId="preface">
 		<xsl:call-template name="add-internal-id-if-necessary" />
 		<xsl:apply-templates select="* except (LaidDraft | SiftedDate | MadeDate | LaidDate | ComingIntoForce | SecondaryPreamble)" />
 		<container name="dates">
