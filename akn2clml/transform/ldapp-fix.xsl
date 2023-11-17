@@ -19,6 +19,9 @@
 	</xsl:message>
 </xsl:template>
 
+<!-- remove page breaks -->
+<xsl:template match="block[@name='pageBreak'][empty(child::node())]" />
+
 <xsl:template match="ref[@class='invalid']">
 	<xsl:apply-templates />
 </xsl:template>
