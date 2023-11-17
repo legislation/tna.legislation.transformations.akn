@@ -92,6 +92,25 @@
 	</note>
 </xsl:template>
 
+<xsl:template match="PrimaryPrelims | SecondaryPrelims | EUPrelims" mode="other-analysis">
+	<xsl:variable name="all-commentary-ids-with-duplicates" as="xs:string*">
+		<xsl:variable name="all-elements" as="element()*" select="( descendant::*[exists(@CommentaryRef)] | descendant::CommentaryRef )" />
+		<xsl:for-each select="$all-elements">
+			<xsl:choose>
+				<xsl:when test="self::CommentaryRef">
+					<xsl:sequence select="string(@Ref)" />
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:sequence select="string(@CommentaryRef)" />
+				</xsl:otherwise>
+			</xsl:choose>
+		</xsl:for-each>
+	</xsl:variable>
+	<xsl:for-each-group select="$all-commentary-ids-with-duplicates" group-by=".">
+		<uk:commentary href="#preface" refersTo="#{ . }" />
+	</xsl:for-each-group>
+</xsl:template>
+
 <xsl:template match="Group | Part | Chapter | Pblock | PsubBlock | EUPart | EUTitle | EUChapter | EUSection | EUSubsection" mode="other-analysis">
 	<xsl:variable name="id" as="xs:string" select="if (exists(@id)) then @id else generate-id()" />
 	<xsl:variable name="all-commentary-ids-with-duplicates" as="xs:string*">

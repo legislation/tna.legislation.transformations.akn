@@ -13,6 +13,12 @@
 	</content>
 </xsl:template>
 
+<xsl:template match="p[empty(child::node())]">
+	<xsl:message>
+		<xsl:text>removing empty p element</xsl:text>
+	</xsl:message>
+</xsl:template>
+
 <xsl:template match="ref[@class='invalid']">
 	<xsl:apply-templates />
 </xsl:template>

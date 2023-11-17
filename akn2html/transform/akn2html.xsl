@@ -305,6 +305,7 @@
 	<div>
 		<xsl:call-template name="attrs" />
 		<xsl:apply-templates />
+		<xsl:call-template name="annotations" />
 	</div>
 </xsl:template>
 

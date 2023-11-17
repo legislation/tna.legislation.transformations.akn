@@ -147,7 +147,7 @@
 				</xsl:otherwise>
 			</xsl:choose>
 		</xsl:when>
-		<xsl:when test="not(node())">
+		<xsl:when test="not(node())"> <!-- should no longer be possible because of removal in ldapp-fix.xsl -->
 			<xsl:message>
 				<xsl:text>Suppress p element that contains no nodes</xsl:text>
 			</xsl:message>

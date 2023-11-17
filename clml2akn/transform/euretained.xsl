@@ -33,7 +33,7 @@
 </xsl:template>
 
 <xsl:template match="EUPrelims">
-	<preface>
+	<preface eId="preface">
 		<xsl:apply-templates select="* except EUPreamble" />
 	</preface>
 	<xsl:apply-templates select="EUPreamble" />
