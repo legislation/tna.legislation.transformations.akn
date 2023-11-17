@@ -50,3 +50,4 @@ Thumbs.db
 
 # Oxygen Project File
 *.xpr
+**/*.xpr
