@@ -1,0 +1,590 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../schemas/akomantoso30.xsd">
+	<?DMS-Component componentId="ca816ca1-19a9-450e-8387-1e0dd03d0f85" seriesId="441a6a02-0b88-4b2a-8cf1-e8f49cab9563" versionNumber="1"?>
+	<act contains="originalVersion" name="uksi">
+		<meta>
+			<?DMS-Component componentId="550a90b2-cbed-4ad5-8716-0839db88c08d" seriesId="0409b579-366b-4288-8e2d-abdf6ded05b2" versionNumber="1"?>
+			<identification source="#ldapp">
+				<FRBRWork>
+					<FRBRthis value="#varWork" />
+					<FRBRuri value="#varWorkUri" />
+					<FRBRalias name="ttflConfigHistory" value="#varCHOiid" />
+					<FRBRdate date="9999-01-01" name="ukdsi" />
+					<FRBRauthor href="#varAuthor" />
+					<FRBRcountry value="GB-SCT" />
+					<FRBRsubtype value="#varDocSubType" />
+					<FRBRnumber value="#varProjectId" />
+					<FRBRname value="#varSITitle" />
+					<FRBRprescriptive value="true" />
+					<FRBRauthoritative value="false" />
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="#varExpression" />
+					<FRBRuri value="#varExpressionUri" />
+					<FRBRalias name="ttflVersionDescription" value="#varVDOiid" />
+					<FRBRdate date="9999-01-01" name="draft" />
+					<FRBRauthor href="#varAuthor" />
+					<FRBRversionNumber value="" />
+					<FRBRauthoritative value="false" />
+					<FRBRmasterExpression href="" showAs="" />
+					<FRBRlanguage language="eng" />
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="#varManifestation" />
+					<FRBRuri value="#varManifestationUri" />
+					<FRBRdate date="9999-01-01" name="akn_xml" />
+					<FRBRauthor href="#varAuthor" />
+					<FRBRformat value="application/akn+xml" />
+				</FRBRManifestation>
+			</identification>
+			<references source="#author">
+				<TLCConcept GUID="_d52dcb6f-17d8-4dbe-ade5-4c5142a8709a" eId="varDocSubType" href="#varOntologies" showAs="Order" />
+				<TLCConcept GUID="_39ecb135-16cf-457d-91d6-24764009cfae" eId="varSITitle" href="#varOntologies" showAs="The Agriculture and Horticulture Development Board (Amendment) Order 2023" />
+				<TLCProcess GUID="_995eaf21-d281-41a5-8a51-7b4a7afbb157" eId="varProcedureType" href="#varOntologies" showAs="Draft Affirmative" />
+				<TLCProcess GUID="_e8388337-0aad-433d-b550-c3006b3907eb" eId="varStageVersion" href="#varOntologies" showAs="1" />
+				<TLCProcess GUID="_18d5a163-a42c-4d70-afd2-5ccc3428db8c" eId="varProjectId" href="#varOntologies" showAs="SI000082" />
+				<TLCProcess GUID="_df27e683-2716-4fde-abc1-e31cbde5f27c" eId="varWork" href="#varOntologies" showAs="" />
+				<TLCProcess GUID="_4ee44cce-fc84-43d6-adf4-3941bb6af7c9" eId="varWorkUri" href="#varOntologies" showAs="" />
+				<TLCProcess GUID="_5a455f05-bfc3-4745-a3ce-aecabb80281e" eId="varCHOiid" href="#varOntologies" showAs="" />
+				<TLCProcess GUID="_66355e9d-0369-4a63-b350-53a49f473cd0" eId="varExpression" href="#varOntologies" showAs="ee2fd333-a80d-4344-967f-2e21146aca96" />
+				<TLCProcess GUID="_c8531a84-2b8e-4bb6-89cf-ce6edc5182f6" eId="varExpressionUri" href="#varOntologies" showAs="dma:///45e6b900-8929-11d4-b772-0050da06bfb4/80742cea-0ebb-4cf6-9759-1e52358d9b5b/;guid=ee2fd333-a80d-4344-967f-2e21146aca96;class=Version%20Description" />
+				<TLCProcess GUID="_05f06c74-8669-4730-9b71-6109e2e6a02e" eId="varVDOiid" href="#varOntologies" showAs="" />
+				<TLCProcess GUID="_fcaff005-df69-42ba-94af-d9f1d13898bf" eId="varManifestation" href="#varOntologies" showAs="" />
+				<TLCProcess GUID="_d1c39c9e-94c4-4731-a05c-234d28f46869" eId="varManifestationUri" href="#varOntologies" showAs="" />
+				<TLCConcept GUID="_b5c91b44-fd3d-4be5-a147-abe48140ee75" eId="varSIYear" href="#varOntologies" showAs="2023" />
+				<TLCConcept GUID="_5567fcbf-8bc4-4e1b-894a-5c7a5ef1f833" eId="varSINoComp" href="#varOntologies" showAs="1055" />
+				<TLCConcept GUID="_4d05e367-a45e-479c-b0ff-d914c955d624" eId="varSINo" href="#varOntologies" showAs="#varSIYear No. #varSINoComp #varSISubsidiaryNos" />
+				<TLCConcept GUID="_397b0cef-0d83-412d-882d-a58bd231a9d0" eId="varSISubsidiaryNos" href="#varOntologies" showAs="" />
+				<TLCConcept GUID="_07975c10-d092-451b-a9c6-11e10ba5b14b" eId="varISBN" href="#varOntologies" showAs="" />
+				<TLCPerson GUID="_ce6f1014-4ceb-454d-9c86-d214e6036263" eId="varMinistryAgency" href="#varOntologies" showAs="" />
+				<TLCConcept GUID="_584e3563-00d6-4df1-be83-130b5ca52939" eId="varDocType" href="#varOntologies" showAs="UKSI" />
+				<TLCProcess GUID="_429f7878-d94e-4c8b-b2d0-9532a3faee12" eId="varSystem" href="#varOntologies" showAs="LDAPP" />
+				<TLCOrganization GUID="_6a02cc37-75f6-4198-962e-cf0d131ab961" eId="varAuthor" href="#varOntologies" showAs="UK Government" />
+				<TLCLocation GUID="_46725ce5-8bea-4aa2-9bed-61a8f7d8c860" eId="varJurisdiction" href="#varOntologies" showAs="United Kingdom" />
+				<TLCConcept GUID="_7f2d8a73-1859-4c52-872f-337389f6a85d" eId="varOntologies" href="https://www.legislation.gov.uk/ontologies/UK-AKN" showAs="https://www.legislation.gov.uk/ontologies/UK-AKN" />
+				<TLCConcept GUID="_36280757-2b0f-46e9-832c-e5b8eded2fd4" eId="varCommenceDate" href="#varOntologies" showAs="2023-10-14T00:00:00.000" />
+				<TLCConcept GUID="_7a60279d-b32c-4fd5-bc67-39c5fa362f06" eId="varMadeDate" href="#varOntologies" showAs="2023-09-22" />
+			</references>
+		</meta>
+		<preface GUID="_07a638fd-fe2c-430a-aed1-9990bf415660" eId="fnt">
+			<?DMS-Component componentId="cf9b88ca-bd35-48c3-84bb-1155ff3fab2c" seriesId="ce0d78c8-3225-4a31-baab-38156d3f84a6" versionNumber="1"?>
+			<block GUID="_745fdda2-68d9-4b4a-bd8b-6e5dd222b138" eId="fnt__banner" name="banner">STATUTORY INSTRUMENTS</block>
+			<block GUID="_b7a8e371-9ee5-4e3f-b04c-0d3364ed6ce2" eId="fnt__no" name="number">
+				<docNumber GUID="_3efc4841-15e8-4584-b3c9-22f0a1e36880" eId="fnt__no__dno"> <ref class="placeholder" href="#varSINo" /> </docNumber>
+			</block>
+			<container name="subjects">
+				<container GUID="_2a770153-34fa-4b4f-99db-cbe4758c327e" eId="fnt__subject" name="subject">
+					<block name="subject"><concept class="title" refersTo="">AGRICULTURE</concept></block>
+				</container>
+			</container>
+			<block GUID="_1fd78f80-be31-4803-b67c-0596c326e904" eId="fnt__st" name="title"> <docTitle GUID="_1a4f825a-e0fb-4bf0-906b-8ee9cf4466a5" eId="fnt__st__dtitle"> <ref class="placeholder" href="#varSITitle" /> </docTitle> </block>
+			<container GUID="_e99e3e6a-225c-4653-b583-66a5eacd5001" eId="fnt__dates" name="dates">
+				<block GUID="_6994760a-af83-4bab-9c61-5d1727f9e0ef" eId="fnt__dates__madeDate" name="madeDate"><span>Made</span><docDate GUID="_78fa3fba-8f2e-494f-bc6b-457318d075e1" date="2023-09-22T00:00:00.000" eId="fnt__dates__madeDate__ddate"><ref class="placeholder" href="#varMadeDate" ukl:dateFormat="d'th' MMMM yyyy">22nd September 2023</ref></docDate></block>
+				<block GUID="_84c1fe54-2e65-49bc-913f-bf1a9a6ad9c1" eId="fnt__dates__commenceDate" name="commenceDate"><span>Coming into force</span><docDate GUID="_443ed0b4-4663-43fc-b99a-2d38f79c2e6d" date="2023-10-14T00:00:00.000" eId="fnt__dates__commenceDate__ddate"><ref class="placeholder" href="#varCommenceDate" ukl:dateFormat="d'th' MMMM yyyy">14th October 2023</ref></docDate></block>
+			</container>
+		</preface>
+		<preamble GUID="_ed2290a5-fe49-4319-a57f-6f95cd8e849c" eId="preamble">
+			<?DMS-Component componentId="aa9d2b26-bf17-4da4-ba2c-872de6321dee" seriesId="e48a6e62-e28a-4a2c-bdb6-d6686514c54b" versionNumber="1"?>
+			<formula GUID="_6f863ccd-bf7b-4457-875a-6af6d63d543d" eId="preamble__enactingWords" name="enactingText">
+				<p>The Secretary of State makes this <ref class="placeholder" href="#varDocSubType" /> in exercise of the powers conferred by sections 87, 88 and 97(1) of, and paragraph 6(a) of Schedule 8 and paragraphs 5 and 8 of Schedule 10 to, the Natural Environment and Rural Communities Act 2006<authorialNote GUID="_2bf005df-c710-41a4-8ab3-142cd2365854" class="footnote" eId="fnote_1" marker="1">
+					<p>2006 c. 16. For the meaning of “appropriate authority”, see section 96(1) of the Natural Environment and Rural Communities Act 2006 (“the Act”).</p>
+					</authorialNote> (“the Act”).</p>
+				<p>As required by section 97(5) of the Act, the Secretary of State has consulted with such organisations as appear to the Secretary of State to be representative of interests substantially affected by this Order.</p>
+				<p>As required by section 96(1)(e) of the Act, the Secretary of State makes this Order with the approval of the relevant Northern Ireland department<authorialNote GUID="_e0b82dba-2c28-4385-b082-ec49998862e3" class="footnote" eId="fnote_3" marker="3">
+					<p>The relevant Northern Ireland department is the Department for Agriculture, Environment and Rural Affairs as renamed by section 1(2) of the Departments Act (Northern Ireland) 2016 (c. 5 (N.I.)).</p>
+					</authorialNote>; the Scottish Ministers (as required by section 96(4) of the Act, a draft of this Order was laid before, and approved by resolution of, the Scottish Parliament before the Scottish Ministers gave their approval); and the Welsh Ministers<authorialNote GUID="_18d0e9bf-c4e8-4be7-b1fb-e26dba03378f" class="footnote" eId="fnote_4" marker="4">
+					<p>The functions of the National Assembly for Wales in section 96(1) of the Act are transferred to the Welsh Ministers by virtue of section 162 of, and paragraph 30 of Schedule 11 to, the Government of Wales Act 2006 (c. 32).</p>
+					</authorialNote>.</p>
+				<p>In accordance with section 97(8)(a) of the Act, a draft of this Order has been laid before, and approved by a resolution of, each House of Parliament.</p>
+			</formula>
+		</preamble>
+		<body>
+			<?DMS-Component componentId="5455764c-e5f4-4e3f-a91e-656102a51b28" seriesId="21baabc8-701a-4fe5-9790-59fc2dd150fa" versionNumber="1"?>
+			<article GUID="_42c07b06-8229-410b-8093-faed23d5cdc3" class="prov1" eId="art_1">
+				<?DMS-Component componentId="fbddda90-c45f-4b99-ad31-1e3f3580c373" seriesId="c69b7082-3b1e-43be-bd1c-9fada47b030a" versionNumber="1"?>
+				<heading GUID="_b1351319-66ce-4bb8-a258-9f04d037f0a9" eId="art_1__hdg">Citation, commencement and extent</heading>
+				<num>1.</num>
+				<paragraph GUID="_69256da3-0c20-4cf1-b66d-f7936e65bb65" class="prov2" eId="art_1__para_1">
+					<num>(1)</num>
+					<content>
+						<p>This Order may be cited as the Agriculture and Horticulture Development Board (Amendment) Order 2023 and comes into force 21 days after the day on which it is made.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_bf8a4ec7-5820-40f0-a2f3-c7bac0b8da97" class="prov2" eId="art_1__para_2">
+					<num>(2)</num>
+					<content>
+						<p>This Order extends to England and Wales, Scotland and Northern Ireland.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article GUID="_36cebdac-2267-4e58-89b2-a35dc33c5740" class="prov1" eId="art_2">
+				<?DMS-Component componentId="e0f66579-7c10-4e9d-8dda-830ad863fee2" seriesId="9552864a-1fdf-4a76-9983-37abe9f29977" versionNumber="1"?>
+				<heading GUID="_cb9647c3-9dd4-4391-9e90-1770747153f0" eId="art_2__hdg">Amendments to the Agriculture and Horticulture Development Board Order 2008</heading>
+				<num>2.</num>
+				<content>
+					<p>The Agriculture and Horticulture Development Board Order 2008<authorialNote GUID="_de812f01-826c-410b-850a-2bb2d8449f5c" class="footnote" eId="fnote_5" marker="5">
+						<p>S.I. 2008/576; relevant amending instruments are S.I. 2019/733 and 2022/577.</p>
+						</authorialNote> is amended in accordance with articles 3 to 7.</p>
+				</content>
+			</article>
+			<article GUID="_d4efb066-edec-485f-90af-b649b80cd9d0" class="prov1" eId="art_3">
+				<?DMS-Component componentId="1d293b60-8a8c-4a18-8371-91a99d028e55" seriesId="67d4ee2b-ce95-48d8-b246-fb1ef35681f2" versionNumber="1"?>
+				<heading GUID="_9692d400-4a6f-4667-8fce-4504d45ea616" eId="art_3__hdg">Amendment of article 2 (scope)</heading>
+				<num>3.</num>
+				<paragraph GUID="_0210da72-79ce-4863-bcea-1eb61b8dc524" class="prov2" eId="art_3__para_1">
+					<num>(1)</num>
+					<content GUID="_526715f2-4ebd-4807-ad7b-463d6143542d">
+						<p>Article 2 (scope) is amended as follows.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_42f606d5-4e62-4e25-a585-e3363e2159a5" class="prov2" eId="art_3__para_2">
+					<num>(2)</num>
+					<intro GUID="_422cef47-7705-4e66-b68d-ddcc04498d01" eId="art_3__para_2__intro">
+						<p>In paragraph (1)—</p>
+					</intro>
+					<level GUID="_25a195a0-1c19-4252-9f9d-1df91b3b69d2" class="para1" eId="art_3__para_2__para_a">
+						<num>(a)</num>
+						<content>
+							<p>at the end of sub-paragraph (e), omit “and”;</p>
+						</content>
+					</level>
+					<level GUID="_195b66c4-cf8f-47f3-9e15-ca3805de2d44" class="para1" eId="art_3__para_2__para_b">
+						<num>(b)</num>
+						<content>
+							<p> <mod>after sub-paragraph (f), insert—<quotedStructure GUID="_71f68a8f-0c72-4dce-9cf0-7c89cb1afca2" eId="art_3__para_2__para_b__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+								<level GUID="_c96c27f0-942c-446a-bde2-68b8e2055d82" class="para1" eId="art_3__para_2__para_b__qstr__para_g">
+									<num ukl:autonumber="no">(g)</num>
+									<content>
+										<p>any agricultural industry in the United Kingdom not covered by any of sub-paragraphs (a) to (f); and</p>
+									</content>
+								</level>
+								<level GUID="_a1bbc7c6-f996-44b9-b9fd-efe0c711bbf3" class="para1" eId="art_3__para_2__para_b__qstr__para_h">
+									<num>(h)</num>
+									<content>
+										<p>in relation to an industry covered by any of sub-paragraphs (a) to (g), any related industry<authorialNote GUID="_b7f3d41c-cefc-49a0-b3f3-9788bb6526ab" class="footnote" eId="fnote_2" marker="2">
+											<p>For the meaning of “related industry”, see section 88(5) of the Act.</p>
+											</authorialNote>.</p>
+									</content>
+								</level>
+								</quotedStructure><inline name="AppendText">.</inline></mod> </p>
+						</content>
+					</level>
+				</paragraph>
+				<paragraph GUID="_afd16f36-f2e4-49d0-90f3-3771d08644c0" class="prov2" eId="art_3__para_3">
+					<num>(3)</num>
+					<content>
+						<p> <mod>In paragraph (2), insert as the first definition—<quotedStructure GUID="_e7e410b0-8b68-468a-a11e-2d768629e0f3" eId="art_3__para_3__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+							<hcontainer GUID="_fed0673b-ffbb-4b4d-890e-9345429c1dfa" class="definition" eId="art_3__para_3__qstr__def_agriculturalindustry_" name="definition">
+								<content>
+									<p><def GUID="_2d116743-8e6a-4273-8314-a874d2ebd1c4" eId="art_3__para_3__qstr__def_agriculturalindustry" ukl:endQuote="”" ukl:startQuote="“">agricultural industry</def> means horticulture, fruit growing, seed growing, dairy farming and livestock breeding and keeping, and the use of land as grazing land, meadow land, osier land, market gardens and nursery grounds;</p>
+								</content>
+							</hcontainer>
+							</quotedStructure><inline name="AppendText">.</inline></mod> </p>
+					</content>
+				</paragraph>
+			</article>
+			<article GUID="_2d1cc37f-603c-4976-9d1a-3b37b42232e4" class="prov1" eId="art_4">
+				<?DMS-Component componentId="ff2ebd2e-a708-46d0-a8b5-a7cd43f21776" seriesId="6ef6a109-ea6c-4043-b2cd-422af9846db9" versionNumber="1"?>
+				<heading GUID="_e0ab29d4-23d7-4d9a-bad1-6b93fc3ad7c5" eId="art_4__hdg">Amendment of article 6 (levies)</heading>
+				<num>4.</num>
+				<paragraph GUID="_ef9bf901-7b0e-4f0a-911a-1956066366a5" class="prov2" eId="art_4__para_1">
+					<num>(1)</num>
+					<content>
+						<p>Article 6 (levies) is amended as follows.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_c773d2d9-5bdf-4242-8fb5-ccf3508273e9" class="prov2" eId="art_4__para_2">
+					<num>(2)</num>
+					<content>
+						<p> <mod>For paragraph (1) substitute—<quotedStructure GUID="_fab5c04d-61b0-4ebd-ae23-82d54935aa95" eId="art_4__para_2__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+							<paragraph GUID="_cd405d0b-d099-42b8-8443-6edce7b8d28c" class="prov2" eId="art_4__para_2__qstr__para_1">
+								<num ukl:autonumber="no">(1)</num>
+								<content>
+									<p>The Agriculture and Horticulture Development Board must impose a levy in relation to each industry covered by article 2(1)(a), (b), (d) and (e) to enable it to provide services for each of those industries, and Schedule 3 has effect for that purpose.</p>
+								</content>
+							</paragraph>
+							</quotedStructure><inline name="AppendText">.</inline></mod> </p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_359024dc-bbeb-4a1f-8af2-b67cd165d3af" class="prov2" eId="art_4__para_3">
+					<num>(3)</num>
+					<content>
+						<p>In paragraph (4), omit “annually”.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_2e7004e1-1a3d-4478-8334-aeedf5f976a0" class="prov2" eId="art_4__para_4">
+					<num>(4)</num>
+					<content>
+						<p> <mod>After paragraph (4), insert—<quotedStructure GUID="_7b6bb778-a575-459a-9db4-e5c5df148216" eId="art_4__para_4__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+							<paragraph GUID="_7f2ec72f-4748-4cbf-949d-1711220d278a" class="prov2" eId="art_4__para_4__qstr__para_4A">
+								<num ukl:autonumber="no">(4A)</num>
+								<intro GUID="_21f5923b-99be-43b7-8111-4b230a736563" eId="art_4__para_4__qstr__para_4A__intro">
+									<p>The Board may impose a levy rate of zero for a period of time in relation to any industry covered by article 2(1)(a), (b), (d) or (e) if—</p>
+								</intro>
+								<level GUID="_9b561733-ed53-4666-a557-ec8818ffbc72" class="para1" eId="art_4__para_4__qstr__para_4A__para_a">
+									<num>(a)</num>
+									<content>
+										<p>it considers that there are exceptional circumstances which justify doing so, and</p>
+									</content>
+								</level>
+								<level GUID="_5c2501d0-25ca-4231-89fb-4715aba2236f" class="para1" eId="art_4__para_4__qstr__para_4A__para_b">
+									<num>(b)</num>
+									<content>
+										<p>the appropriate authority has approved the imposition of a levy rate of zero for that period of time.</p>
+									</content>
+								</level>
+							</paragraph>
+							</quotedStructure><inline name="AppendText">.</inline></mod> </p>
+					</content>
+				</paragraph>
+			</article>
+			<article GUID="_9eac1a74-d477-46db-b48b-bd71cc20985e" class="prov1" eId="art_5">
+				<?DMS-Component componentId="525900ac-fc63-4b47-a27b-af298fd5a5db" seriesId="b630f926-fddd-4694-afb4-e1a84f1bb60a" versionNumber="1"?>
+				<heading GUID="_c0cdea9f-0dba-46c7-b63f-fe7089b3565a" eId="art_5__hdg">Amendment of article 12 (who can vote)</heading>
+				<num>5.</num>
+				<paragraph GUID="_8939f242-6802-4f22-b282-9abd420a1fea" class="prov2" eId="art_5__para_1">
+					<num>(1)</num>
+					<content>
+						<p>Article 12 (who can vote) is amended as follows.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_2baa8f06-231e-43ae-b7b2-e5b7a54c0cd0" class="prov2" eId="art_5__para_2">
+					<num>(2)</num>
+					<content>
+						<p>In the table in paragraph (1), in the right hand column of the entry relating to “pigs”, for “Any person who keeps pigs in England” substitute “Any person who pays the producer levy related to pigs”.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article GUID="_c497f032-8504-445b-be6e-7558c29cd361" class="prov1" eId="art_6">
+				<?DMS-Component componentId="ffab35b3-bce4-4fa0-a4fe-6679e1e1dad0" seriesId="237f5133-e28d-41af-8152-8110e2e2c2e0" versionNumber="1"?>
+				<heading GUID="_808f8a67-d501-4f1a-9834-c90a3956ecad" eId="art_6__hdg">Amendment of Schedule 2 (Board constitution etc)</heading>
+				<num>6.</num>
+				<paragraph GUID="_468cedc3-b376-4c89-b85a-64a1ea1c59b6" class="prov2" eId="art_6__para_1">
+					<num>(1)</num>
+					<content>
+						<p>Schedule 2 (Board constitution etc) is amended as follows.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_1a74adb7-d373-44ae-8bf0-a9ec67a4aa1a" class="prov2" eId="art_6__para_2">
+					<num>(2)</num>
+					<intro GUID="_e9adee5e-c454-4217-85db-1791dec0cf9b" eId="art_6__para_2__intro">
+						<p>In paragraph 2 (members’ terms of office etc)—</p>
+					</intro>
+					<level GUID="_70e9cc96-96db-4941-a225-1d845d4c4ca9" class="para1" eId="art_6__para_2__para_a">
+						<num>(a)</num>
+						<content>
+							<p>in sub-paragraph (1), for “of the chair or of a Board member” substitute “of a Board member, including the chair,”;</p>
+						</content>
+					</level>
+					<level GUID="_6fb503e5-ed44-47f2-b7e1-b12e7a503b2e" class="para1" eId="art_6__para_2__para_b">
+						<num>(b)</num>
+						<content>
+							<p> <mod>for sub-paragraph (4) substitute—<quotedStructure GUID="_2d931375-e8dc-4b86-815d-d7f9f7c3d419" eId="art_6__para_2__para_b__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+								<paragraph GUID="_b3650835-54c3-4b51-94e0-87cec6abf80b" class="prov2" eId="art_6__para_2__para_b__qstr__para_4">
+									<num ukl:autonumber="no">(4)</num>
+									<content>
+										<p>A person may be reappointed to a particular position on the Board once only (and sub-paragraph (1) applies in relation to that reappointment).</p>
+									</content>
+								</paragraph>
+								</quotedStructure><inline name="AppendText">.</inline></mod> </p>
+						</content>
+					</level>
+				</paragraph>
+			</article>
+			<article GUID="_ce2fd9bf-e26b-4836-b508-b9bd7cf3d70d" class="prov1" eId="art_7">
+				<?DMS-Component componentId="c4caa912-d2a3-48d4-9a58-aa483e31196a" seriesId="367cebd3-6ebd-49c7-be7e-7e024e5e766d" versionNumber="1"?>
+				<heading GUID="_c9942be5-06f5-449f-a5ca-041d6a9ca1eb" eId="art_7__hdg">Amendment of Schedule 3 (levies)</heading>
+				<num>7.</num>
+				<paragraph GUID="_6ce35412-5e82-4131-89d4-d96f04d8d507" class="prov2" eId="art_7__para_1">
+					<num>(1)</num>
+					<content>
+						<p>Schedule 3 (levies) is amended as follows.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_e52aa754-3a44-4bca-897d-039ecf35a8eb" class="prov2" eId="art_7__para_2">
+					<num>(2)</num>
+					<intro GUID="_ee3c3ba9-9db1-4444-8fb3-b701674e726b" eId="art_7__para_2__intro">
+						<p>In paragraph 3 (levy on cattle, sheep and pigs)—</p>
+					</intro>
+					<level GUID="_58c85fee-3c41-45fc-9284-d5e60a7bb9f1" class="para1" eId="art_7__para_2__para_a">
+						<num>(a)</num>
+						<content>
+							<p>omit sub-paragraph (5);</p>
+						</content>
+					</level>
+					<level GUID="_afcded05-d051-4395-8cae-bb61d091a049" class="para1" eId="art_7__para_2__para_b">
+						<num>(b)</num>
+						<content>
+							<p>in sub-paragraph (6), for “the Board” substitute “the Agriculture and Horticulture Development Board”;</p>
+						</content>
+					</level>
+					<level GUID="_e08005d4-7d49-495d-96c8-c67a1724ab9d" class="para1" eId="art_7__para_2__para_c">
+						<num>(c)</num>
+						<content>
+							<p> <mod>after sub-paragraph (7), insert—<quotedStructure GUID="_3f96725e-12f5-4efb-9084-98bfa57674c8" eId="art_7__para_2__para_c__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+								<paragraph GUID="_df8c07cb-efe1-435a-9a73-6f7c1ca50c16" class="prov2" eId="art_7__para_2__para_c__qstr__para_7A">
+									<num ukl:autonumber="no">(7A)</num>
+									<content>
+										<p>The Board may reduce the levy that the slaughterer or exporter would otherwise be required to pay to the Board to cover the administrative costs of the slaughterer or exporter in administering the levy.</p>
+									</content>
+								</paragraph>
+								</quotedStructure><inline name="AppendText">;</inline></mod> </p>
+						</content>
+					</level>
+					<level GUID="_456e450a-6643-40dd-bee6-a2254f8c7f2b" class="para1" eId="art_7__para_2__para_d">
+						<num>(d)</num>
+						<intro GUID="_8c49fd49-71c1-4559-ae4c-b5ae6c479cf4" eId="art_7__para_2__para_d__intro">
+							<p>in the table in sub-paragraph (8), in the second column (maximum rate of levy) of the entry relating to the levy category of sheep—</p>
+						</intro>
+						<level GUID="_88ecf58f-3180-4f8f-a803-de73e4c77a25" class="para2" eId="art_7__para_2__para_d__subpara_i">
+							<num>(i)</num>
+							<content>
+								<p>in the first entry in that column (corresponding to a producer), for “0.60” substitute “0.75”;</p>
+							</content>
+						</level>
+						<level GUID="_8d15d9f1-7e60-40d5-a159-39ad022d88ae" class="para2" eId="art_7__para_2__para_d__subpara_ii">
+							<num>(ii)</num>
+							<content>
+								<p>in the second entry in that column (corresponding to a slaughterer), for “0.20” substitute “0.25”;</p>
+							</content>
+						</level>
+						<level GUID="_a2d63bcb-b84c-4ba0-bda8-8853d3cead52" class="para2" eId="art_7__para_2__para_d__subpara_iii">
+							<num>(iii)</num>
+							<content>
+								<p>in the third entry in that column (corresponding to an exporter), for “0.20” substitute “0.25”.</p>
+							</content>
+						</level>
+					</level>
+				</paragraph>
+				<paragraph GUID="_7d69fbdd-82b3-47a1-b29e-5f7308936dcc" class="prov2" eId="art_7__para_3">
+					<num>(3)</num>
+					<content>
+						<p>In paragraph 6 (payment of the levy by slaughterhouse occupiers), for “15 days from the end of that month” substitute “the period of 30 days beginning with the date on which the invoice for the levy is issued”.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_6dfbef64-743a-4582-9357-f96ece9b3e59" class="prov2" eId="art_7__para_4">
+					<num>(4)</num>
+					<content>
+						<p>In paragraph 7(2) (returns and payment of the levy by exporters), for “on invoice” substitute “due for animals exported in that month within the period of 30 days beginning with the date on which the invoice for the levy is issued”.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_23ba4dfd-24d4-4e32-a05d-b6e36911bdbb" class="prov2" eId="art_7__para_5">
+					<num>(5)</num>
+					<content>
+						<p> <mod>In paragraph 9 (levy on cereal and oilseed payable by buyers), for sub-paragraphs (3) and (4) substitute—<quotedStructure GUID="_ac9a61a4-b836-403e-94ef-0b5da7747af7" eId="art_7__para_5__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+							<paragraph GUID="_97ace055-21f1-44cc-9a93-d3fa57ca9f17" class="prov2" eId="art_7__para_5__qstr__para_3">
+								<num ukl:autonumber="no">(3)</num>
+								<intro GUID="_fa10a37d-a4ce-479f-9c5b-43c5159fc385" eId="art_7__para_5__qstr__para_3__intro">
+									<p>In the case of cereal—</p>
+								</intro>
+								<level GUID="_66e9ac7a-caec-4a46-b6c0-2319b29ca476" class="para1" eId="art_7__para_5__qstr__para_3__para_a">
+									<num>(a)</num>
+									<content>
+										<p>the levy consists of two parts, the cereal grower levy and the cereal buyer levy;</p>
+									</content>
+								</level>
+								<level GUID="_0c44c500-11a6-44d4-aa98-9874adc855ae" class="para1" eId="art_7__para_5__qstr__para_3__para_b">
+									<num>(b)</num>
+									<content>
+										<p>the buyer must deduct the cereal grower levy from the price paid and hold it on trust for the Agriculture and Horticulture Development Board; and</p>
+									</content>
+								</level>
+								<level GUID="_ee1b0527-d946-46a1-9b40-e213539c5793" class="para1" eId="art_7__para_5__qstr__para_3__para_c">
+									<num>(c)</num>
+									<content>
+										<p>the Board may reduce the levy that the buyer would otherwise be required to pay to the Board to cover the administrative costs of the buyer in administering the levy.</p>
+									</content>
+								</level>
+							</paragraph>
+							<paragraph GUID="_8c9ac568-ec72-4267-bca2-e492926e7599" class="prov2" eId="art_7__para_5__qstr__para_4">
+								<num>(4)</num>
+								<intro GUID="_f1b2657d-880e-4141-8e22-517eff0d7993" eId="art_7__para_5__qstr__para_4__intro">
+									<p>In the case of oilseed—</p>
+								</intro>
+								<level GUID="_47e8b5a0-ca1f-4bd8-9fde-925f00d3fa3d" class="para1" eId="art_7__para_5__qstr__para_4__para_a">
+									<num>(a)</num>
+									<content>
+										<p>the levy consists of the oilseed grower levy;</p>
+									</content>
+								</level>
+								<level GUID="_5e2bd6df-976d-4b80-9ceb-52ec33bb68ce" class="para1" eId="art_7__para_5__qstr__para_4__para_b">
+									<num>(b)</num>
+									<content>
+										<p>the buyer must deduct the oilseed grower levy from the price paid and hold it on trust for the Board; and</p>
+									</content>
+								</level>
+								<level GUID="_8f612369-8ee9-4f40-a34e-d5e0cf84303a" class="para1" eId="art_7__para_5__qstr__para_4__para_c">
+									<num>(c)</num>
+									<content>
+										<p>the Board may reduce the levy that the buyer would otherwise be required to pay to the Board to cover the administrative costs of the buyer in administering the levy.</p>
+									</content>
+								</level>
+							</paragraph>
+							</quotedStructure><inline name="AppendText">.</inline></mod> </p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_f2ed25de-7fc9-4c10-b039-7f693328fdbc" class="prov2" eId="art_7__para_6">
+					<num>(6)</num>
+					<intro GUID="_dd105a66-5cef-4dcb-bc43-0c3cabff9ecd" eId="art_7__para_6__intro">
+						<p>In paragraph 12 (returns: cereal and oilseed)—</p>
+					</intro>
+					<level GUID="_0468f1c0-8a06-4636-a4e6-38e2902a6bf4" class="para1" eId="art_7__para_6__para_a">
+						<num>(a)</num>
+						<content>
+							<p>in the heading, at the end insert “and payment of the levy”;</p>
+						</content>
+					</level>
+					<level GUID="_c4ac292d-8907-41d4-9a16-dce081c72cb9" class="para1" eId="art_7__para_6__para_b">
+						<num>(b)</num>
+						<content>
+							<p>in sub-paragraphs (1) and (3), in each place that it occurs, for “levy” substitute “a levy”;</p>
+						</content>
+					</level>
+					<level GUID="_43e6ae12-9e7a-4e61-a352-1994f779e645" class="para1" eId="art_7__para_6__para_c">
+						<num>(c)</num>
+						<content>
+							<p> <mod>for sub-paragraph (5) substitute—<quotedStructure GUID="_5e8860eb-9e71-46fb-8dc3-fe3e06ea00bc" eId="art_7__para_6__para_c__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+								<paragraph GUID="_feb9c9a2-b742-4485-bf95-d7f082b78441" class="prov2" eId="art_7__para_6__para_c__qstr__para_5">
+									<num ukl:autonumber="no">(5)</num>
+									<content>
+										<p>In each case, the levy is payable to the Board within the period of 30 days beginning with the date on which the invoice for the levy is issued.</p>
+									</content>
+								</paragraph>
+								</quotedStructure><inline name="AppendText">.</inline></mod> </p>
+						</content>
+					</level>
+				</paragraph>
+				<paragraph GUID="_cc6a92bb-267b-4ea2-b1fe-83450903410b" class="prov2" eId="art_7__para_7">
+					<num>(7)</num>
+					<content>
+						<p> <mod>For paragraph 21 (levies on milk) substitute—<quotedStructure GUID="_38039992-cd6d-4d8c-a916-09dcce7715ba" eId="art_7__para_7__qstr" endQuote="”" startQuote="“" ukl:context="schedule" ukl:docName="uksi" ukl:indent="indent0">
+							<paragraph GUID="_eb31f730-c6cf-475e-bd7e-73bafc0f106a" class="schProv1" eId="art_7__para_7__qstr__para_21">
+								<num ukl:autonumber="no">21.</num>
+								<subparagraph GUID="_0d0890e9-6100-46b0-a6e2-96aac8ecff6e" class="schProv2" eId="art_7__para_7__qstr__para_21__subpara_1">
+									<num>(1)</num>
+									<content>
+										<p>A person who buys milk from a producer or is a direct seller of milk must pay a levy.</p>
+									</content>
+								</subparagraph>
+								<subparagraph GUID="_1e89a01b-3470-4c8f-b717-6a83ba11c38e" class="schProv2" eId="art_7__para_7__qstr__para_21__subpara_2">
+									<num>(2)</num>
+									<content>
+										<p>The levy consists of the milk producer levy.</p>
+									</content>
+								</subparagraph>
+								<subparagraph GUID="_729f41e2-dbb4-4e78-b2a1-c1e7f7121b94" class="schProv2" eId="art_7__para_7__qstr__para_21__subpara_3">
+									<num>(3)</num>
+									<content>
+										<p>The levy is based on volume and the maximum levy is 0.08 pence per litre.</p>
+									</content>
+								</subparagraph>
+								<subparagraph GUID="_365cbb50-f067-4669-83c6-2614f1bdcc50" class="schProv2" eId="art_7__para_7__qstr__para_21__subpara_4">
+									<num>(4)</num>
+									<intro GUID="_982e1f5a-de06-492b-89d7-622083cdcda6" eId="art_7__para_7__qstr__para_21__subpara_4__intro">
+										<p>In the case of a person who buys milk from a producer—</p>
+									</intro>
+									<level GUID="_d22f23c9-90ae-41f1-beda-4ab4a23c6ea3" class="para1" eId="art_7__para_7__qstr__para_21__subpara_4__para_a">
+										<num>(a)</num>
+										<content>
+											<p>the buyer must deduct the milk producer levy from the price paid and hold it on trust for the Agriculture and Horticulture Development Board; and</p>
+										</content>
+									</level>
+									<level GUID="_f578d90d-f20b-479d-a236-c14ead5c0532" class="para1" eId="art_7__para_7__qstr__para_21__subpara_4__para_b">
+										<num>(b)</num>
+										<content>
+											<p>the Board may reduce the levy that the buyer would otherwise be required to pay to the Board to cover the administrative costs of the buyer in administering the levy.</p>
+										</content>
+									</level>
+								</subparagraph>
+								<subparagraph GUID="_8ec6457c-869b-42ae-b5ec-11116655886b" class="schProv2" eId="art_7__para_7__qstr__para_21__subpara_5">
+									<num>(5)</num>
+									<content>
+										<p>In sub-paragraph (1), “direct seller of milk” means a milk producer who sells milk products or packaged milk made from milk produced on their own holding.</p>
+									</content>
+								</subparagraph>
+							</paragraph>
+							</quotedStructure><inline name="AppendText">.</inline></mod> </p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_25f9df30-d40d-4b5e-8d32-ecf659e1d5d0" class="prov2" eId="art_7__para_8">
+					<num>(8)</num>
+					<content>
+						<p>In paragraph 22(3) (payment of the milk levy), for “on invoice” substitute “within the period of 30 days beginning with the date on which the invoice for the levy is issued”.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article GUID="_7f95bfa5-401d-4db8-8e9f-83d4485be2a9" class="prov1" eId="art_8">
+				<?DMS-Component componentId="6392b19f-c569-416a-b85a-555952521a25" seriesId="5b56bcc7-39de-49fd-821b-20c61fd85d78" versionNumber="1"?>
+				<heading GUID="_cbe89298-db9e-4ece-b2f9-edec81c34b45" eId="art_8__hdg">Transitional provisions</heading>
+				<num>8.</num>
+				<paragraph GUID="_ad0f26a6-7e9f-4d9c-883b-e8faf1c97abb" class="prov2" eId="art_8__para_1">
+					<num>(1)</num>
+					<content>
+						<p>The amendments made by article 7(2) (levy on cattle, sheep and pigs) do not have effect in relation to an animal which was bought for slaughter or export before the date on which this Order comes into force.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_18a0d626-f1d3-4269-b680-d5bae536e019" class="prov2" eId="art_8__para_2">
+					<num>(2)</num>
+					<content>
+						<p>The amendments made by article 7(3) and (4) (payment of the cattle, sheep and pig levy) do not have effect in relation to the payment of a levy relating to cattle, sheep and pigs where the invoice for that levy was issued before the date on which this Order comes into force.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_00016077-5a02-4533-891f-8dd78dcad0e5" class="prov2" eId="art_8__para_3">
+					<num>(3)</num>
+					<content>
+						<p>The amendments made by article 7(5) (levy on cereal and oilseed) do not have effect in relation to cereal or oilseed which was bought from a grower before the date on which this Order comes into force.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_2d008035-af7d-4971-b4be-68f7223c6720" class="prov2" eId="art_8__para_4">
+					<num>(4)</num>
+					<content>
+						<p>The amendments made by article 7(6) (payment of the cereal and oilseed levy) do not have effect in relation to the payment of a levy relating to cereal or oilseed where the paragraph 12 notification corresponding to that payment was made before the date on which this Order comes into force.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_15fc7b10-74fb-4422-829c-a0ef961d9ca4" class="prov2" eId="art_8__para_5">
+					<num>(5)</num>
+					<content>
+						<p>The amendments made by article 7(7) (levy on milk) do not have effect in relation to milk which was bought from a producer before the date on which this Order comes into force.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_854b962a-863e-4dc8-b697-8dc1803f2de8" class="prov2" eId="art_8__para_6">
+					<num>(6)</num>
+					<content>
+						<p>The amendments made by article 7(8) (payment of the milk levy) do not have effect in relation to the payment of a levy relating to milk where the invoice for that levy was issued before the date on which this Order comes into force.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_efc151d8-48ed-40af-b890-4625a4c68b3a" class="prov2" eId="art_8__para_7">
+					<num>(7)</num>
+					<content>
+						<p>In paragraph (4), “paragraph 12 notification” means the notification referred to in paragraph 12(1) and (4) of Schedule 3 to the Agriculture and Horticulture Development Board Order 2008.</p>
+					</content>
+				</paragraph>
+			</article>
+			<hcontainer GUID="_79782d41-4c19-4fbb-ac72-36c3949f9e2e" eId="sigs" name="signatures">
+				<?DMS-Component componentId="791a3a6a-47bc-41b3-974c-16233ed443c1" seriesId="5abaefa3-d42c-4f27-925a-837ff51a1ee0" versionNumber="1"?>
+				<hcontainer GUID="_00dbb710-532b-4b55-9981-3ad9caded4a8" eId="sigs__sigBlk" name="signatureBlock">
+					<content>
+						<block GUID="_6ca6d9df-a7e3-4691-8442-091aca9b5d1b" eId="sigs__sigBlk__sig" name="signature">Trudy Harrison</block>
+						<block GUID="_8cdd9b81-e44d-4295-a62e-d7f1d97c79f1" eId="sigs__sigBlk__role" name="role">Parliamentary Under Secretary of State</block>
+						<block name="date"><date date="2023-09-22">22nd September 2023</date></block>
+						<block GUID="_330d780a-169e-44d0-9275-40b7fd4ea98f" eId="sigs__sigBlk__org" name="organization">Department for Environment, Food and Rural Affairs</block>
+					</content>
+				</hcontainer>
+			</hcontainer>
+		</body>
+		<conclusions GUID="_3fe42a73-c99f-44fb-8b28-02db87ce4830" eId="backCover">
+			<?DMS-Component componentId="82025a55-e721-48d5-82da-4fbde45750ee" seriesId="0a0c8ca9-0fac-47b5-bfa2-07a4464b46cf" versionNumber="1"?>
+			<blockContainer GUID="_f85e69fe-83db-40f9-b0e5-44c47929b794" class="explanatoryNote" eId="backCover__explNote">
+				<heading GUID="_acb46a37-4611-4747-bc15-2c6e603fcc1a" eId="backCover__explNote__hdg">Explanatory Note</heading>
+				<subheading GUID="_ddb6fbb0-48cc-4d6d-92b1-4499b46e874f" eId="backCover__explNote__subhdg">(This note is not part of the <ref class="placeholder" href="#varDocSubType" />)</subheading>
+				<p>This Order amends the Agriculture and Horticulture Development Board Order 2008 (S.I. 2008/576), which establishes the Agriculture and Horticulture Development Board (“the Board”). </p>
+				<p>Article 3 expands the scope of the agricultural and related industries in relation to which the Board is permitted to carry out functions.</p>
+				<p>Articles 4 and 7 relate to the levies which the Board must impose in relation to certain industries. Article 4 removes the obligation for the appropriate authority (defined in section 96 of the Natural Environment and Rural Communities Act 2006, c. 16) to approve the levy rate annually. Instead, only new levy rates, which may be imposed at any time, require approval. The amendments made by article 4 also allow the Board, with the approval of the appropriate authority, to charge a levy rate of zero for a period of time in exceptional cases.</p>
+				<p>Article 7 amends the maximum levy rates for the levy category of sheep, makes provision allowing the Board to reduce levies to cover administrative costs, and amends the time-frame within which persons liable to pay the Board a levy under this Order must do so.</p>
+				<p>Article 5 amends the rules regarding eligibility to vote in relation to the pig levy, so that persons who keep pigs in England may only vote if they pay the producer levy related to pigs.</p>
+				<p>The amendments made by article 6 ensure that a Board member may be reappointed to a particular position on the Board once only.</p>
+				<p>Article 8 makes relevant transitional provision.</p>
+				<p>A full impact assessment has not been produced for this instrument as no significant impact on the private, voluntary or public sector is foreseen.</p>
+			</blockContainer>
+		</conclusions>
+	</act>
+</akomaNtoso>

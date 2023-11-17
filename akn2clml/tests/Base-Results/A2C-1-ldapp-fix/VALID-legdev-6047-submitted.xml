@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?><akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../schemas/akomantoso30.xsd"><?DMS-Component componentId="81de666d-f676-4efd-82d5-34e8042227c2" seriesId="321b04e3-b7da-4c49-870b-97572db212ff" versionNumber="1"?>
+	<bill contains="originalVersion" name="ukdsi">
+		<meta><?DMS-Component componentId="d1efe5d9-08b4-42b2-b4a9-8b5dc2c2328e" seriesId="bcf76239-8b01-470d-9b5f-ec0ef14a1edb" versionNumber="1"?>
+			
+			<identification source="#ldapp">
+				<FRBRWork>
+					<FRBRthis value="#varWork"/>
+					<FRBRuri value="#varWorkUri"/>
+					<FRBRalias name="ttflConfigHistory" value="#varCHOiid"/>
+					<FRBRdate date="9999-01-01" name="ukdsi"/>
+					<FRBRauthor href="#varAuthor"/>
+					<FRBRcountry value="GB-SCT"/>
+					<FRBRsubtype value="#varDocSubType"/>
+					<FRBRnumber value="#varProjectId"/>
+					<FRBRname value="#varSITitle"/>
+					<FRBRprescriptive value="true"/>
+					<FRBRauthoritative value="false"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="#varExpression"/>
+					<FRBRuri value="#varExpressionUri"/>
+					<FRBRalias name="ttflVersionDescription" value="#varVDOiid"/>
+					<FRBRdate date="9999-01-01" name="draft"/>
+					<FRBRauthor href="#varAuthor"/>
+					<FRBRversionNumber value=""/>
+					<FRBRauthoritative value="false"/>
+					<FRBRmasterExpression href="" showAs=""/>
+					<FRBRlanguage language="eng"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="#varManifestation"/>
+					<FRBRuri value="#varManifestationUri"/>
+					<FRBRdate date="9999-01-01" name="akn_xml"/>
+					<FRBRauthor href="#varAuthor"/>
+					<FRBRformat value="application/akn+xml"/>
+				</FRBRManifestation>
+			</identification>
+			<references source="#author">
+				<TLCConcept GUID="_f9096194-bcf6-4213-9655-15d159869b27" eId="varDocSubType" href="#varOntologies" showAs="Order"/>
+				<TLCConcept GUID="_299ba00e-0e60-4d83-b7ff-305bc9fce935" eId="varSITitle" href="#varOntologies" showAs="The Dormant Assets (Distribution of Money) (England) Order 2023"/>
+				<TLCProcess GUID="_30514c44-33db-4da2-9c6f-d3df1629741a" eId="varProcedureType" href="#varOntologies" showAs="Draft Affirmative"/>
+				<TLCProcess GUID="_1f2ad970-9d14-45d9-ad2d-08f12a1691af" eId="varStageVersion" href="#varOntologies" showAs="1"/>
+				<TLCProcess GUID="_3d33e882-c017-4924-9d57-985564d963e0" eId="varProjectId" href="#varOntologies" showAs="SI000277"/>
+				<TLCProcess GUID="_b02d0e42-16db-4ace-a0d8-a642387aa700" eId="varWork" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_cbe5c092-6e67-4393-9b2d-e3ab2d53df8a" eId="varWorkUri" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_836e9676-1c02-4f86-b3d0-6c001d159381" eId="varCHOiid" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_bdfcc3cf-29fc-44d0-8c56-2d8127230bc2" eId="varExpression" href="#varOntologies" showAs="7d08d180-8896-4452-8b2e-12456d578157"/>
+				<TLCProcess GUID="_1fc111a5-d67c-47d5-890a-eb34f1f1028c" eId="varExpressionUri" href="#varOntologies" showAs="dma:///45e6b900-8929-11d4-b772-0050da06bfb4/80742cea-0ebb-4cf6-9759-1e52358d9b5b/;guid=7d08d180-8896-4452-8b2e-12456d578157;class=Version%20Description"/>
+				<TLCProcess GUID="_f5d2bc11-9ae1-4bfb-9ca1-521056b4e84c" eId="varVDOiid" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_b1d0c0d0-b653-4a34-8b2d-5592f33b5b2d" eId="varManifestation" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_ac640544-2b61-4dbb-b32a-957e6a2f3fbd" eId="varManifestationUri" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_44afa079-7ae3-4220-8ae1-e6935d4eaec8" eId="varSIYear" href="#varOntologies" showAs="2023"/>
+				<TLCConcept GUID="_824fbcd7-7b88-44cb-bcba-14373ec5bf4a" eId="varSINoComp" href="#varOntologies" showAs="0000"/>
+				<TLCConcept GUID="_328ff01a-b5d0-42c5-863f-1f7520b6c8ab" eId="varSINo" href="#varOntologies" showAs="#varSIYear No. #varSINoComp #varSISubsidiaryNos"/>
+				<TLCConcept GUID="_55ee8ccc-91d2-4787-b8c8-6e449f43f097" eId="varSISubsidiaryNos" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_f83ac35f-ee65-4954-bbdd-67b1a53dc655" eId="varISBN" href="#varOntologies" showAs=""/>
+				<TLCPerson GUID="_b85fa3c3-454b-4d04-bd45-89ace3b98cfe" eId="varMinistryAgency" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_70a742c5-42f3-4eb3-ac34-b6c7a2feba56" eId="varDocType" href="#varOntologies" showAs="UKSI"/>
+				<TLCProcess GUID="_05950bd1-8200-4a6f-8561-aec0ef78b0b8" eId="varSystem" href="#varOntologies" showAs="LDAPP"/>
+				<TLCOrganization GUID="_c7e74580-3c42-4e2b-aae6-3ee5634e4fbb" eId="varAuthor" href="#varOntologies" showAs="UK Government"/>
+				<TLCLocation GUID="_ef86554b-a82f-471d-a92e-14bd51dbe282" eId="varJurisdiction" href="#varOntologies" showAs="United Kingdom"/>
+				<TLCConcept GUID="_b8f2e73f-a96d-4e3b-9bcf-761246466cac" eId="varOntologies" href="https://www.legislation.gov.uk/ontologies/UK-AKN" showAs="https://www.legislation.gov.uk/ontologies/UK-AKN"/>
+			</references>
+		</meta>
+		<preface GUID="_4dfa4dc6-2afe-43e9-95f2-eb7e93317def" eId="fnt"><?DMS-Component componentId="bf693ac0-add7-4090-8024-219c3c4fbfda" seriesId="08831ff0-c915-4448-b3f4-8fd6e592c611" versionNumber="1"?>
+			
+			<block GUID="_6dafd3f0-8b4d-47c5-be53-3768e94b469a" eId="fnt__rubric" name="proceduralRubric">Draft <ref class="placeholder" href="#varDocSubType"/> laid before Parliament under section 18A(6) of the Dormant Bank and Building Society Accounts Act 2008 (c. 31), for approval by resolution of each House of Parliament.</block>
+			<block GUID="_771f76d6-f9b4-48c1-84e7-035e26296176" eId="fnt__banner" name="banner">DRAFT STATUTORY INSTRUMENTS</block>
+			<block GUID="_67f4a36b-8b14-43cd-b53a-f4e7c9702d92" eId="fnt__no" name="number">
+				<docNumber GUID="_5f847276-b396-4761-a972-0ca7cffe8884" eId="fnt__no__dno"> <ref class="placeholder" href="#varSINo"/> </docNumber>
+			</block>
+			<container name="subjects">
+				<container GUID="_d10e7c8a-1c7a-486a-92c7-39ab1b50099d" eId="fnt__subject" name="subject">
+					<block name="subject"><concept class="title" refersTo="">BANKS AND BANKING</concept><concept class="title" refersTo="">, ENGLAND</concept></block>
+				</container>
+				<container GUID="_2d199649-3a71-46a4-a8a8-57c7d2243cdd" eId="fnt__subject__oc_2" name="subject">
+					<block name="subject"><concept class="title" refersTo="">BUILDING SOCIETIES</concept><concept class="title" refersTo="">, ENGLAND</concept></block>
+				</container>
+			</container>
+			<block GUID="_577fe9b2-5956-4143-8132-ad0a14dd652b" eId="fnt__st" name="title"><docTitle GUID="_db3c3faf-4002-49b3-831b-7ee725fbd4a6" eId="fnt__st__dtitle"> <ref class="placeholder" href="#varSITitle"/> </docTitle> </block>
+			<container GUID="_2f29f86b-85ea-4baf-91c9-f6165f7b2482" eId="fnt__dates" name="dates">
+				<block GUID="_f11b6010-80f6-469e-9500-d5562572289e" eId="fnt__dates__madeDateDescription" name="madeDate"><span>Made</span></block>
+				<block GUID="_80da6e7d-f10f-4483-92bd-b29fd2d83ea5" eId="fnt__dates__commenceDateDescription" name="commenceDate"><span>Coming into force in accordance with article 1(2)</span></block>
+			</container>
+		</preface>
+		<preamble GUID="_6e598a43-13d4-41b5-ad7e-df7c02f70a98" eId="preamble"><?DMS-Component componentId="d73c60c3-3498-4450-97a4-13ec4cde35a1" seriesId="e1124c43-01f8-43b6-a18b-78da25c1a3dc" versionNumber="1"?>
+			
+			<formula GUID="_84723cff-c510-4f42-bf57-f544906f4e9d" eId="preamble__enactingWords" name="enactingText">
+				<p>The Secretary of State makes this <ref class="placeholder" href="#varDocSubType"/> in exercise of the powers conferred by section 18A(1)(a) of the Dormant Bank and Building Society Accounts Act 2008<authorialNote GUID="_e9e504f5-1a98-4487-84da-a9a84fb9cbe6" class="footnote" eId="fnote_6" marker="6">
+						<p>2008 c. 31 (“the 2008 Act”). Section 18A was inserted by section 29(1) of the Dormant Assets Act 2022 (c. 5).</p>
+					</authorialNote> (“the 2008 Act”).</p>
+				<p>In accordance with section 18A(3)(a) and (4) of the 2008 Act, the Secretary of State has carried out a public consultation.</p>
+				<p>In accordance with section 18A(3)(b) of the 2008 Act, the Secretary of State has consulted the Big Lottery Fund<authorialNote GUID="_d4d5002c-70b4-4fe1-8bfd-0c7b48815d8d" class="footnote" eId="fnote_7" marker="7">
+						<p>The Big Lottery Fund was established under section 36A of the National Lottery Act 1993 (c. 39). Section 36A was inserted by section 14(1) of the National Lottery Act 2006 (c. 23). The Big Lottery Fund operates under the name “The National Lottery Community Fund”.</p>
+					</authorialNote> about a draft of this Order.</p>
+				<p>In accordance with section 18A(6) of the 2008 Act, a draft of this Order has been laid before, and approved by resolution of, each House of Parliament.</p>
+			</formula>
+		</preamble>
+		<body><?DMS-Component componentId="8edddf0d-a228-4b27-bea9-58fa39919261" seriesId="1b58e8f2-5e6d-4199-bfa5-1164ca4eb737" versionNumber="0"?>
+			
+			<article GUID="_a56692ea-c146-4b8e-8ad1-734773ef821a" class="prov1" eId="art_1"><?DMS-Component componentId="882ed657-3495-47ea-8589-7a6c11f47922" seriesId="3dedd8a0-85dc-4fe8-a6be-ee508363003f" versionNumber="1"?>
+				
+				<heading GUID="_4a376f37-6c9b-4606-bc69-e60b525a3931" eId="art_1__hdg">Citation, commencement, extent and application</heading>
+				<num>1.</num>
+				<paragraph GUID="_7ce65cd8-292b-45aa-9712-0448399c80d9" class="prov2" eId="art_1__para_1">
+					<num>(1)</num>
+					<content>
+						<p>This Order may be cited as the Dormant Assets (Distribution of Money) (England) Order 2023.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_5b9951d8-c6e1-4dca-91bf-a40cae652eda" class="prov2" eId="art_1__para_2">
+					<num>(2)</num>
+					<content>
+						<p>This Order comes into force on the day after the day on which this Order is made.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_d1f11225-a48f-4470-b166-bcb809e22d05" class="prov2" eId="art_1__para_3">
+					<num>(3)</num>
+					<content>
+						<p>This Order extends to England and Wales, Scotland and Northern Ireland.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_2034ef06-6bd4-4477-96c5-5bb5d16c5b27" class="prov2" eId="art_1__para_4">
+					<num>(4)</num>
+					<content>
+						<p>This Order applies in relation to English expenditure<authorialNote GUID="_ef16b1d8-733e-4420-a9d4-39c32818836b" class="footnote" eId="fnote_8" marker="8">
+							<p>“English expenditure” is defined in section 17(2) of the 2008 Act. Section 17 was amended by paragraphs 5 and 12(1) of Schedule 1 to the Dormant Assets Act 2022 and S.I. 2016/997.</p>
+							</authorialNote>.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article GUID="_09320125-a214-49e8-9d3a-23622329221b" class="prov1" eId="art_2"><?DMS-Component componentId="b03fc607-5068-4b1a-9a2b-3af15e894097" seriesId="450f3bf5-4e2b-4b4c-aed1-204cb122bf51" versionNumber="1"?>
+				
+				<heading GUID="_2e81ab1e-73a0-4344-b9c5-8d9f2d936c6e" eId="art_2__hdg">Distribution of money for meeting English expenditure</heading>
+				<num>2.</num>
+				<paragraph GUID="_186afe48-e021-4ae3-ab51-df576e205d90" class="prov2" eId="art_2__para_1">
+					<num>(1)</num>
+					<intro GUID="_0a2cacf9-9d3d-43d5-b0a9-44cec544e965" eId="art_2__para_1__intro">
+						<p>The purposes for which, or the kinds of person to which, a distribution of dormant assets money<authorialNote GUID="_5b395924-4d68-429d-97be-1fa3841e652c" class="footnote" eId="fnote_9" marker="9">
+								<p>“Dormant assets money” is defined in section 16(2) of the 2008 Act, as amended by paragraphs 5, 12(2) and 13 of Schedule 1 to the Dormant Assets Act 2022.</p>
+							</authorialNote> for meeting English expenditure may be made, are restricted to—</p>
+					</intro>
+					<level GUID="_dbc77047-00c6-4e9e-bdc2-2c61d02753dc" class="para1" eId="art_2__para_1__para_a">
+						<num>(a)</num>
+						<content>
+							<p>distributions for the purpose of the provision of services, facilities or opportunities to meet the needs of young people;</p>
+						</content>
+					</level>
+					<level GUID="_b81cc01b-2c69-45f3-a06b-de28ae658006" class="para1" eId="art_2__para_1__para_b">
+						<num>(b)</num>
+						<content>
+							<p>distributions for the purpose of the development of individuals’ ability to manage their finances or the improvement of access to personal financial services;</p>
+						</content>
+					</level>
+					<level GUID="_45bc65bb-c0f0-4451-b281-372018bd8644" class="para1" eId="art_2__para_1__para_c">
+						<num>(c)</num>
+						<content>
+							<p>distributions to social investment wholesalers;</p>
+						</content>
+					</level>
+					<level GUID="_b4396751-9a88-40ae-80a8-576769e4676f" class="para1" eId="art_2__para_1__para_d">
+						<num>(d)</num>
+						<content>
+							<p>distributions to community wealth funds<authorialNote GUID="_bd78c0c1-97bc-4c76-9022-0079c905e9e6" class="footnote" eId="fnote_4" marker="4">
+									<p>“Community wealth fund” is defined in section 18A(5) of the 2008 Act.</p>
+								</authorialNote>.</p>
+						</content>
+					</level>
+				</paragraph>
+				<paragraph GUID="_5878341b-b691-4a08-9e04-0434f50e49b5" class="prov2" eId="art_2__para_2">
+					<num>(2)</num>
+					<intro GUID="_56bfbe17-ee9f-41bf-962d-b9c32394f227" eId="art_2__para_2__intro">
+						<p>In this article—</p>
+					</intro>
+					<level GUID="_60eb5d0c-1ac7-44a7-a1e8-7a70521fd719" class="para1" eId="art_2__para_2__para_a">
+						<num>(a)</num>
+						<content>
+							<p>“social investment wholesaler” means a body that exists to assist or enable other bodies to give financial or other support to third sector organisations;</p>
+						</content>
+					</level>
+					<level GUID="_113bf117-1865-4883-afe6-81a9dbc4c7e1" class="para1" eId="art_2__para_2__para_b">
+						<num>(b)</num>
+						<content>
+							<p>“third sector organisation” means an organisation that exists wholly or mainly to provide benefits for society or the environment<authorialNote GUID="_5d75242a-7db0-44f8-9e4a-a05504e2f118" class="footnote" eId="fnote_10" marker="10">
+									<p>The definitions of “social investment wholesaler” and “third sector organisation” appear in section 18 of the 2008 Act. However, section 18 is repealed when this Order comes into force by virtue of section 29(2)(a) and (3)(a) of the Dormant Assets Act 2022.</p>
+								</authorialNote>.</p>
+						</content>
+					</level>
+				</paragraph>
+			</article>
+			<hcontainer GUID="_c25deb2e-0482-4ae5-8cb4-d274a791a0ca" eId="sigs" name="signatures"><?DMS-Component componentId="361202bf-7b2c-48eb-9801-1675534ed1fc" seriesId="85640b2e-c447-46d3-a615-ca1b4a8f0b34" versionNumber="1"?>
+				<hcontainer GUID="_f52f1f98-9e52-4a6d-aa7b-7a976bfebcf5" eId="sigs__sigBlk" name="signatureBlock">
+					<content>
+						<p>Signed by authority of the Secretary of State for Culture, Media and Sport</p>
+						<block GUID="_b62ae58d-098b-49aa-84fd-218a15f604ee" eId="sigs__sigBlk__sig" name="signature">Name</block>
+						<block GUID="_cb64a021-a1a8-431b-8e4b-02d7e96cdc4e" eId="sigs__sigBlk__role" name="role">Parliamentary Under Secretary of State</block>
+						<block name="date"><date date="2023-12-01">Date</date></block>
+						<block GUID="_e44e10ae-459c-4cf9-8abf-4a678de98dd5" eId="sigs__sigBlk__org" name="organization">Department for Culture, Media and Sport</block>
+					</content>
+				</hcontainer>
+			</hcontainer>
+		</body>
+		<conclusions GUID="_55d930cf-d64a-48dc-9e01-d020686e457e" eId="backCover"><?DMS-Component componentId="c6af6184-8bab-4e0e-a405-50a2c3bfe1f9" seriesId="a3e006be-f1c7-457c-b62a-9f8c0e1b71ef" versionNumber="1"?>
+			
+			<blockContainer GUID="_7597440a-b41d-4eb9-89d4-4cb53fcd2de2" class="explanatoryNote" eId="backCover__explNote">
+				<heading GUID="_e49c7324-64e1-4974-b9af-918278972a0e" eId="backCover__explNote__hdg">Explanatory Note</heading>
+				<subheading GUID="_277f67ab-dbca-4b91-830e-a6b4df524bf7" eId="backCover__explNote__subhdg">(This note is not part of the <ref class="placeholder" href="#varDocSubType"/>)</subheading>
+				<p>This Order restricts the purposes for which, or the kinds of person to which, a distribution of dormant assets money for meeting English expenditure may be made under the Dormant Bank and Building Society Accounts Act 2008 (c. 31).</p>
+				<p>Article 2 lists categories in respect of which distributions can be made.</p>
+				<p>A full impact assessment has not been produced for this instrument as no, or no significant, impact on the private, voluntary or public sector is foreseen.</p>
+			</blockContainer>
+		</conclusions>
+	</bill>
+</akomaNtoso>

@@ -629,6 +629,46 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>Results/A2C-3-add-data/</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>AKN2CLML-data-validation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>Validation_scenario</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>Base-Results/A2C-3-add-data/</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>AKN2CLML-data-validation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>Validation_scenario</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>Base-Results/A2C-2-akn2clml/</String>
                                 </field>
                                 <field name="scenarioIds">
