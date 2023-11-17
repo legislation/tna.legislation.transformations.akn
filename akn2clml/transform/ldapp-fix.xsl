@@ -17,6 +17,10 @@
 	<xsl:message>
 		<xsl:text>removing empty p element</xsl:text>
 	</xsl:message>
+
+<!-- ignore links within defined terms -->
+<xsl:template match="def//ref">
+	<xsl:apply-templates />
 </xsl:template>
 
 <xsl:template match="ref[@class='invalid']">
