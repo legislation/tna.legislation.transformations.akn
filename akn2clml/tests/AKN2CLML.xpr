@@ -10,46 +10,6 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>Results/A2C-2-akn2clml/energy_act_2023.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>AKN2CLML-step-3-add-data</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>Results/A2C-2-akn2clml/criminal_legal_aid_remuneration_amend.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>AKN2CLML-step-3-add-data</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
                                     <String>Results/A2C-2-akn2clml/</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -70,91 +30,11 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>Results/A2C-1-ldapp-fix/energy_act_2023.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>AKN2CLML-step-2-akn2clml</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>Results/A2C-1-ldapp-fix/criminal_legal_aid_remuneration_amend.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>AKN2CLML-step-2-akn2clml</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
                                     <String>Results/A2C-1-ldapp-fix/</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
                                         <String>AKN2CLML-step-2-akn2clml</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>Data/Invalid/energy_act_2023.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>AKN2CLML-step-1-ldapp-fix</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>Data/Invalid/criminal_legal_aid_remuneration_amend.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>AKN2CLML-step-1-ldapp-fix</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -747,46 +627,6 @@
                     <entry>
                         <String>validation.scenario.associations</String>
                         <scenarioAssociation-array>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>Results/A2C-3-add-data/energy_act_2023.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>AKN2CLML-data-validation</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>Validation_scenario</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>Results/A2C-3-add-data/criminal_legal_aid_remuneration_amend.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>AKN2CLML-data-validation</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>Validation_scenario</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
                                     <String>Results/A2C-3-add-data/</String>
