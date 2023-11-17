@@ -17,6 +17,7 @@
 	<xsl:message>
 		<xsl:text>removing empty p element</xsl:text>
 	</xsl:message>
+</xsl:template>
 
 <!-- ignore links within defined terms -->
 <xsl:template match="def//ref">
