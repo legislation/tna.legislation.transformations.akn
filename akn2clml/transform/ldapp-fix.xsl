@@ -6,6 +6,17 @@
 	xpath-default-namespace="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
 	exclude-result-prefixes="html">
 
+<xsl:template match="level[descendant::num]">
+	<xsl:choose>
+		<xsl:when test="(descendant::num | descendant::p)/text()">
+			<xsl:copy>
+				<xsl:apply-templates select="@*|node()"/>
+			</xsl:copy>
+		</xsl:when>
+		<xsl:otherwise/>
+	</xsl:choose>
+</xsl:template>
+	
 <xsl:template match="intro[empty(following-sibling::*)]">
 	<content>
 		<xsl:copy-of select="@*" />
