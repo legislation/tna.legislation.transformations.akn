@@ -449,17 +449,14 @@
 	<xsl:variable name="content" as="element()*" select="*[not(self::num) and not(self::heading) and not(self::subheading)]" />
 	<xsl:variable name="children" as="element()*" select="$content[not(self::intro) and not(self::content) and not(self::wrapUp)]" />
 	<xsl:choose>
-		<xsl:when test="local:should-merge-intro-and-definitions(.)">
-			<xsl:call-template name="merge-intro-and-definitions" />
-			<xsl:apply-templates select="wrapUp" />
-		</xsl:when>
 		<xsl:when test="exists($children) and (every $child in $children satisfies $child/self::hcontainer[@name='definition'])">
-			<xsl:apply-templates select="intro" />
 			<xsl:call-template name="definition-list">
+				<xsl:with-param name="intro" select="intro" />
 				<xsl:with-param name="definitions" select="$children" />
+				<xsl:with-param name="wrapUp" select="wrapUp" />
 			</xsl:call-template>
-			<xsl:apply-templates select="wrapUp" />
 		</xsl:when>
+		<!-- this should only apply if there is something wrong with the structure -->
 		<xsl:when test="some $child in $children satisfies $child/self::hcontainer[@name='definition']">
 			<xsl:apply-templates select="intro" />
 			<xsl:call-template name="group-definitions-for-block-amendment">
@@ -780,16 +777,12 @@
 	<xsl:choose>
 		<xsl:when test="exists($children) and (every $child in $children satisfies $child/self::hcontainer[@name='definition'])">
 			<P>
-				<xsl:apply-templates select="intro">
-					<xsl:with-param name="context" select="('P', $context)" tunnel="yes" />
-				</xsl:apply-templates>
 				<xsl:call-template name="definition-list">
+					<xsl:with-param name="intro" select="intro" />
 					<xsl:with-param name="definitions" select="$children" />
+					<xsl:with-param name="wrapUp" select="wrapUp" />
 					<xsl:with-param name="context" select="('P', $context)" tunnel="yes" />
 				</xsl:call-template>
-				<xsl:apply-templates select="wrapUp">
-					<xsl:with-param name="context" select="('P', $context)" tunnel="yes" />
-				</xsl:apply-templates>
 			</P>
 		</xsl:when>
 		<xsl:when test="some $child in $children satisfies $child[self::subparagraph or self::level or @class='schProv2' or @class='para1']"> <!-- legacy -->

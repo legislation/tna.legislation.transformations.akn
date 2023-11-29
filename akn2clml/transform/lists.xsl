@@ -216,51 +216,50 @@
 
 <!-- definition lists -->
 
-<xsl:function name="local:should-merge-intro-and-definitions">
-	<xsl:param name="parent" as="element()" />
-	<xsl:sequence select="exists($parent/intro) and exists($parent/hcontainer[@name='definition']) and exists($parent/intro/p) and (count($parent/intro/*) eq 1) and (every $child in $parent/* satisfies ($child/self::num or $child/self::heading or $child/self::subheading or $child/self::intro or $child/self::hcontainer[@name='definition'] or $child/self::wrapUp))" />
-</xsl:function>
-
-<xsl:template name="merge-intro-and-definitions">
+<!-- this template wraps the last p of the intro and the first p of the wrapUp together with the def list in the same "para" -->
+<!-- intro p's before the last, and wrapUp p's after the first, are put in separate paras -->
+<xsl:template name="definition-list">
+	<xsl:param name="intro" as="element()?" select="()" />
+	<xsl:param name="definitions" as="element()+" />
+	<xsl:param name="wrapUp" as="element()?" select="()" />
 	<xsl:param name="context" as="xs:string*" tunnel="yes" />
+	<xsl:param name="decoration" as="xs:string" select="'none'" />
+
+	<!-- first, handle any intro p's before the last one -->
+	<xsl:apply-templates select="$intro/*[position() lt last()]" />
+
+	<!-- then, group together the last intro p, the definitions, and the first wrapUp p -->
 	<xsl:variable name="wrapper" as="xs:string?" select="local:get-block-wrapper($context)" />
 	<xsl:choose>
 		<xsl:when test="empty($wrapper)">
-			<xsl:apply-templates select="intro/*">
-				<xsl:with-param name="context" select="($wrapper, $context)" tunnel="yes" />
-			</xsl:apply-templates>
-			<xsl:call-template name="definition-list">
-				<xsl:with-param name="definitions" select="hcontainer[@name='definition']" />
-				<xsl:with-param name="context" select="($wrapper, $context)" tunnel="yes" />
-			</xsl:call-template>
-		</xsl:when>
-		<xsl:otherwise>
-			<xsl:element name="{ $wrapper }">
-				<xsl:apply-templates select="intro/*">
-					<xsl:with-param name="context" select="($wrapper, $context)" tunnel="yes" />
-				</xsl:apply-templates>
-				<xsl:call-template name="definition-list">
-					<xsl:with-param name="definitions" select="hcontainer[@name='definition']" />
-					<xsl:with-param name="context" select="($wrapper, $context)" tunnel="yes" />
-				</xsl:call-template>
-			</xsl:element>
-		</xsl:otherwise>
-	</xsl:choose>
-</xsl:template>
-
-<xsl:template name="definition-list">
-	<xsl:param name="definitions" as="element()+" />
-	<xsl:param name="context" as="xs:string*" tunnel="yes" />
-	<xsl:param name="decoration" as="xs:string" select="'none'" />
-	<xsl:call-template name="wrap-as-necessary">
-		<xsl:with-param name="clml" as="element()+">
+			<xsl:apply-templates select="$intro/*[position() = last()]" />
 			<UnorderedList Class="Definition" Decoration="{ $decoration }">
 				<xsl:apply-templates select="$definitions">
 					<xsl:with-param name="context" select="('UnorderedList', $context)" tunnel="yes" />
 				</xsl:apply-templates>
 			</UnorderedList>
-		</xsl:with-param>
-	</xsl:call-template>
+			<xsl:apply-templates select="$wrapUp/*[position() = 1]" />
+		</xsl:when>
+		<xsl:otherwise>
+			<xsl:element name="{ $wrapper }">
+				<xsl:apply-templates select="$intro/*[position() = last()]">
+					<xsl:with-param name="context" select="($wrapper, $context)" tunnel="yes" />
+				</xsl:apply-templates>
+				<UnorderedList Class="Definition" Decoration="{ $decoration }">
+					<xsl:apply-templates select="$definitions">
+						<xsl:with-param name="context" select="('UnorderedList', $wrapper, $context)" tunnel="yes" />
+					</xsl:apply-templates>
+				</UnorderedList>
+				<xsl:apply-templates select="$wrapUp/*[position() = 1]">
+					<xsl:with-param name="context" select="($wrapper, $context)" tunnel="yes" />
+				</xsl:apply-templates>
+			</xsl:element>
+		</xsl:otherwise>
+	</xsl:choose>
+
+	<!-- finally, handle any wrapUp p's after the first -->
+	<xsl:apply-templates select="$wrapUp/*[position() gt 1]" />
+
 </xsl:template>
 
 <xsl:function name="local:get-contiguous-definitions" as="element()*">
@@ -358,25 +357,34 @@
 			</OrderedList>
 		</xsl:variable>
 		<xsl:choose>
-			<xsl:when test="exists(intro/p) and (count(intro/*) eq 1)">
+			<xsl:when test="exists(intro/p) or exists(wrapUp/p)">
 				<xsl:variable name="wrapper" as="xs:string?" select="local:get-block-wrapper(('ListItem', $context))" />
+				<xsl:apply-templates select="intro/*[position() lt last()]">
+					<xsl:with-param name="context" select="('ListItem', $context)" tunnel="yes" />
+				</xsl:apply-templates>
 				<xsl:element name="{ $wrapper }">
-					<xsl:apply-templates select="intro/*">
+					<xsl:apply-templates select="intro/*[position() = last()]">
 						<xsl:with-param name="context" select="($wrapper, 'ListItem', $context)" tunnel="yes" />
 					</xsl:apply-templates>
 					<xsl:copy-of select="$sublist" />
+					<xsl:apply-templates select="wrapUp/*[position() = 1]">
+						<xsl:with-param name="context" select="($wrapper, 'ListItem', $context)" tunnel="yes" />
+					</xsl:apply-templates>
 				</xsl:element>
+				<xsl:apply-templates select="wrapUp/*[position() gt 1]">
+					<xsl:with-param name="context" select="('ListItem', $context)" tunnel="yes" />
+				</xsl:apply-templates>
 			</xsl:when>
 			<xsl:otherwise>
 				<xsl:apply-templates select="intro">
 					<xsl:with-param name="context" select="('ListItem', $context)" tunnel="yes" />
 				</xsl:apply-templates>
 				<xsl:copy-of select="$sublist" />
+				<xsl:apply-templates select="wrapUp">
+					<xsl:with-param name="context" select="('ListItem', $context)" tunnel="yes" />
+				</xsl:apply-templates>
 			</xsl:otherwise>
 		</xsl:choose>
-		<xsl:apply-templates select="wrapUp">
-			<xsl:with-param name="context" select="('ListItem', $context)" tunnel="yes" />
-		</xsl:apply-templates>
 	</ListItem>
 </xsl:template>
 
