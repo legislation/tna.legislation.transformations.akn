@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?><akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../schemas/akomantoso30.xsd"><?DMS-Component componentId="73807c50-1fe4-43e6-9674-862044fd1d85" seriesId="49baa8d4-2c6a-492e-997c-9a940ab42373" versionNumber="0"?>
+	
+	<act contains="originalVersion" name="uksi">
+		<meta><?DMS-Component componentId="1fd9d5f2-aa07-457a-a325-c0c073e8d660" seriesId="caee9f0b-f35c-461f-abe7-03eee3668ba4" versionNumber="0"?>
+			
+			<identification source="#ldapp">
+				<FRBRWork>
+					<FRBRthis value="#varWork"/>
+					<FRBRuri value="#varWorkUri"/>
+					<FRBRalias name="ttflConfigHistory" value="#varCHOiid"/>
+					<FRBRdate date="9999-01-01" name="uksi"/>
+					<FRBRauthor href="#varAuthor"/>
+					<FRBRcountry value="GB-SCT"/>
+					<FRBRsubtype value="#varDocSubType"/>
+					<FRBRnumber value="#varProjectId"/>
+					<FRBRname value="#varSITitle"/>
+					<FRBRprescriptive value="true"/>
+					<FRBRauthoritative value="false"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="#varExpression"/>
+					<FRBRuri value="#varExpressionUri"/>
+					<FRBRalias name="ttflVersionDescription" value="#varVDOiid"/>
+					<FRBRdate date="9999-01-01" name="draft"/>
+					<FRBRauthor href="#varAuthor"/>
+					<FRBRversionNumber value=""/>
+					<FRBRauthoritative value="false"/>
+					<FRBRmasterExpression href="" showAs=""/>
+					<FRBRlanguage language="eng"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="#varManifestation"/>
+					<FRBRuri value="#varManifestationUri"/>
+					<FRBRdate date="9999-01-01" name="akn_xml"/>
+					<FRBRauthor href="#varAuthor"/>
+					<FRBRformat value="application/akn+xml"/>
+				</FRBRManifestation>
+			</identification>
+			<references source="#author">
+				<TLCConcept GUID="_42513db3-06ee-4445-9006-8bc4057749f3" eId="varDocSubType" href="#varOntologies" showAs="Regulations"/>
+				<TLCConcept GUID="_36daae4e-1d80-4f91-8eb7-1afeb61efd20" eId="varSITitle" href="#varOntologies" showAs="The Personal Injuries (NHS Charges) (Amounts) (Amendment) (No. 2) Regulations 2023"/>
+				<TLCProcess GUID="_aa054609-19d8-4dc4-a269-0d65306d85a6" eId="varProcedureType" href="#varOntologies" showAs="Made Negative"/>
+				<TLCProcess GUID="_a1538283-5a3d-4045-a00c-f4e6aa974da8" eId="varStageVersion" href="#varOntologies" showAs="1"/>
+				<TLCProcess GUID="_9ac4ec49-df11-4b87-9c7a-62eb0db37d9f" eId="varProjectId" href="#varOntologies" showAs="SI000459"/>
+				<TLCProcess GUID="_61a76eb7-4746-4cdc-9a66-0526bc2e1e27" eId="varWork" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_30840dfd-4776-44d9-be2e-15d1264f7ef1" eId="varWorkUri" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_86185772-098f-455f-9fce-3cfabe891547" eId="varCHOiid" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_fe226157-64da-4c73-b475-d608b8bd0faa" eId="varExpression" href="#varOntologies" showAs="87394f8c-60d5-4345-a8c3-d913a2dc93da"/>
+				<TLCProcess GUID="_e73c79c0-c71c-47b5-8f1e-cac928281d81" eId="varExpressionUri" href="#varOntologies" showAs="dma:///45e6b900-8929-11d4-b772-0050da06bfb4/80742cea-0ebb-4cf6-9759-1e52358d9b5b/;guid=87394f8c-60d5-4345-a8c3-d913a2dc93da;class=Version%20Description"/>
+				<TLCProcess GUID="_7c854273-fbec-47eb-946b-436372f894cf" eId="varVDOiid" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_727eebf1-76c0-4391-8dd0-8f93bf864cf2" eId="varManifestation" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_bdebec42-9255-4c64-acde-f3dceee3c24d" eId="varManifestationUri" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_3a6f6a65-021c-4b9e-a7a5-50e64b05eaca" eId="varSIYear" href="#varOntologies" showAs="2023"/>
+				<TLCConcept GUID="_6403dd9d-9b87-45be-8be7-51e6723c8a8d" eId="varCommenceDate" href="#varOntologies" showAs="2023-10-02T00:00:00.000"/>
+				<TLCConcept GUID="_48477c88-a857-47c3-9113-99e9fd9d74d0" eId="varSINoComp" href="#varOntologies" showAs="969"/>
+				<TLCConcept GUID="_e1a827e7-192b-4506-9b91-75472bffcf3f" eId="varSINo" href="#varOntologies" showAs="#varSIYear No. #varSINoComp #varSISubsidiaryNos"/>
+				<TLCConcept GUID="_e8cd6a76-492d-4c63-bc57-15f38f7b1b33" eId="varSISubsidiaryNos" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_2904b9cf-4447-4d8d-9050-fa9538e7c4d1" eId="varISBN" href="#varOntologies" showAs=""/>
+				<TLCPerson GUID="_94c2c990-60d5-4634-b3f2-6f31cf1a906b" eId="varMinistryAgency" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_feea03b5-2ea8-4fdf-b920-145a52e630d8" eId="varDocType" href="#varOntologies" showAs="UKSI"/>
+				<TLCProcess GUID="_c2654e82-0400-401c-b664-90613c226462" eId="varSystem" href="#varOntologies" showAs="LDAPP"/>
+				<TLCOrganization GUID="_b0a78ff8-4a50-4ee3-8752-366e2af0a0e7" eId="varAuthor" href="#varOntologies" showAs="UK Government"/>
+				<TLCLocation GUID="_057138e0-4e3f-4806-8b4e-48a5e3cde6b6" eId="varJurisdiction" href="#varOntologies" showAs="United Kingdom"/>
+				<TLCConcept GUID="_8a7df4ce-5f71-4ed2-8182-172b544a091f" eId="varOntologies" href="https://www.legislation.gov.uk/ontologies/UK-AKN" showAs="https://www.legislation.gov.uk/ontologies/UK-AKN"/>
+				<TLCConcept GUID="_e00d3183-363c-4df1-85f4-fa5443f005b2" eId="varLaidDate" href="#varOntologies" showAs="2023-09-06T00:00:00.000"/>
+				<TLCConcept GUID="_beca2085-b181-4221-9f96-a28d5766f467" eId="varMadeDate" href="#varOntologies" showAs="2023-09-05T00:00:00.000"/>
+			</references>
+		</meta>
+		<preface GUID="_28574391-8245-472b-8158-ce123eee73f6" eId="fnt"><?DMS-Component componentId="3ab6b4d4-ea01-46f7-96af-7647f8c85b6a" seriesId="65a419eb-5e92-48fb-9e15-51202c7bf88d" versionNumber="0"?>
+			
+			<block GUID="_d8fdf495-b589-45e7-8f8e-8c5f5150bcf8" eId="fnt__banner" name="banner">STATUTORY INSTRUMENTS</block>
+			<block GUID="_ef8f2c74-3be5-496c-853b-6f95fb09e48a" eId="fnt__no" name="number">
+				<docNumber GUID="_7c647b02-9c0d-4b73-9705-fbf53c8adcdb" eId="fnt__no__dno"> <ref class="placeholder" href="#varSINo"/> </docNumber>
+			</block>
+			<container name="subjects">
+				<container GUID="_5062213c-60c5-45fa-9e93-d4314b0084c9" eId="fnt__subject" name="subject">
+					<block name="subject"><concept class="title" refersTo="">NATIONAL HEALTH SERVICE</concept><concept class="title" refersTo="">, ENGLAND AND WALES</concept></block>
+				</container>
+			</container>
+			<block GUID="_491d568f-e94c-4887-b889-d3d095cfb66e" eId="fnt__st" name="title"><docTitle GUID="_7380b406-e8f8-4691-9c96-b8128f5014d8" eId="fnt__st__dtitle"> <ref class="placeholder" href="#varSITitle"/> </docTitle> </block>
+			<container GUID="_d4834c68-4eb7-4a6b-8858-f25ef6e8daeb" eId="fnt__dates" name="dates">
+				<block GUID="_714c84f5-ac76-437e-974b-ebb71c75124e" eId="fnt__dates__madeDate" name="madeDate"><span>Made</span><docDate GUID="_9e73f975-fd27-470b-ae26-240903650772" date="2023-09-05T00:00:00.000" eId="fnt__dates__madeDate__ddate"><ref class="placeholder" href="#varMadeDate" ukl:dateFormat="d'th' MMMM yyyy">5th September 2023</ref></docDate></block>
+				<block GUID="_5dc05a02-dd55-4cc6-9f02-9d534a1fdbda" eId="fnt__dates__laidDate" name="laidDate"><span>Laid before Parliament</span><docDate GUID="_ca63a077-2fa3-4ccf-8c6a-919cddd81aae" date="2023-09-06T00:00:00.000" eId="fnt__dates__laidDate__ddate"><ref class="placeholder" href="#varLaidDate" ukl:dateFormat="d'th' MMMM yyyy">6th September 2023</ref></docDate></block>
+				<block GUID="_bfe0cddc-cedf-4005-9e59-0039a88959d1" eId="fnt__dates__commenceDate" name="commenceDate"><span>Coming into force</span><docDate GUID="_bbd8c140-3ecc-4352-8866-0dd6d5f4b77b" date="2023-10-02T00:00:00.000" eId="fnt__dates__commenceDate__ddate"><ref class="placeholder" href="#varCommenceDate" ukl:dateFormat="d'th' MMMM yyyy">2nd October 2023</ref></docDate></block>
+			</container>
+		</preface>
+		<preamble GUID="_458dc349-5aaa-4973-9438-9cd6ebe322f4" eId="preamble"><?DMS-Component componentId="a5ca03b6-fd2b-4bf4-8a99-5ba1e4a292ca" seriesId="d5112c11-b3e7-439b-ab82-62f8a62eaa77" versionNumber="0"?>
+			
+			<formula GUID="_be3e5384-835d-4312-8455-b886f1983479" eId="preamble__enactingWords" name="enactingText">
+				<p>The Secretary of State makes these <ref class="placeholder" href="#varDocSubType"/> in exercise of the powers conferred by sections 153(2) and (5), 167(1) and 195(1) and (2) of the Health and Social Care (Community Health and Standards) Act 2003<authorialNote GUID="_975caa38-920c-4892-8cb0-f1b9fe3bb84a" class="footnote" eId="fnote_1" marker="1">
+					<p>2003 c. 43. By virtue of section 167(1), the powers are exercisable in relation to England and Wales by the Secretary of State. See section 168 for the definition of “prescribed”. Amendments to section 195 are not relevant to the power as exercised in these Regulations.</p>
+					</authorialNote>.</p>
+				<p>In accordance with section 195(3) of that Act, the Secretary of State has consulted with the Welsh Ministers<authorialNote GUID="_3e338807-44ae-493b-88ad-1487df3b9ae0" class="footnote" eId="fnote_2" marker="2">
+					<p>Functions conferred or imposed on the National Assembly for Wales immediately before the first appointment of a First Minister under section 46 of the Government of Wales Act 2006 (c. 32) (“GOWA”) by an enactment contained in an Act were transferred to the Welsh Ministers by section 162(1) of, and paragraph 30 of Schedule 11 to, GOWA.</p>
+					</authorialNote>.</p>
+			</formula>
+		</preamble>
+		<body><?DMS-Component componentId="060cf55f-6509-48c1-bce0-feaf1f83fd44" seriesId="062fec44-b355-449b-a630-a5889a145e00" versionNumber="0"?>
+			
+			<hcontainer GUID="_8ab2202c-de30-473e-8681-d0f68d74b11c" class="prov1" eId="reg_1" name="regulation"><?DMS-Component componentId="3d0502a9-3680-40ba-a498-82e397e77666" seriesId="855d4646-3da9-477d-adae-f0e105381161" versionNumber="0"?>
+				
+				<heading GUID="_7f418a32-9571-4fee-8cb0-e0f04e9969be" eId="reg_1__hdg">Citation, commencement, extent and interpretation</heading>
+				<num>1.</num>
+				<paragraph GUID="_d9940cf4-2401-483d-b3f3-1ff0ccf47833" class="prov2" eId="reg_1__para_1">
+					<num>(1)</num>
+					<content>
+						<p>These Regulations may be cited as the Personal Injuries (NHS Charges) (Amounts) (Amendment) (No. 2) Regulations 2023 and come into force on 2nd October 2023.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_fb0649ce-b8bb-4ad1-8f0d-2220738ab050" class="prov2" eId="reg_1__para_2">
+					<num>(2)</num>
+					<content>
+						<p>These Regulations extend to England and Wales.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_ae66b32d-39dd-4645-a290-5083bed98b5a" class="prov2" eId="reg_1__para_3">
+					<num>(3)</num>
+					<content>
+						<p>In these Regulations, “principal Regulations” means the Personal Injuries (NHS Charges) (Amounts) Regulations 2015<authorialNote GUID="_4b27359d-0cb1-4900-8c48-5c861da1c0cc" class="footnote" eId="fnote_3" marker="3">
+							<p>S.I. 2015/295, amended by S.I. 2023/220.</p>
+							</authorialNote>.</p>
+					</content>
+				</paragraph>
+			</hcontainer>
+			<hcontainer GUID="_ee605c31-58a8-452d-9be4-0473e0e91c4e" class="prov1" eId="reg_2" name="regulation"><?DMS-Component componentId="3768f7c4-53e7-4f38-8dd1-f23ce604096f" seriesId="cbf74eeb-6b8f-437c-8b8b-2d0311c5d5d7" versionNumber="0"?>
+				
+				<heading GUID="_08148a74-4e3c-42c5-acb4-cae5ceba99ee" eId="reg_2__hdg">Amendment of Schedule 1 to the principal Regulations</heading>
+				<num>2.</num>
+				<content>
+					<p>In Schedule 1 to the principal Regulations (amount of NHS charges), substitute the following table for the existing table—</p>
+					<tblock GUID="_5ef18abc-dec8-48bf-98a4-8a8aa77d38db" class="table" eId="reg_2__tbl__oc_1">
+						<foreign>
+							<table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="topAndBottom tableleft width100" cols="5">
+								<thead class="left">
+									<tr akn:GUID="_61735777-06ef-4cda-99dc-1c0c464eaeb6" akn:eId="reg_2__tbl__oc_1__hdg__row__oc_1">
+										<td akn:GUID="_3cd80bce-4423-4640-b27e-78e8a5719ac3" akn:eId="reg_2__tbl__oc_1__hdg__row__oc_1__col_1">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">“<i>(1) </i></p>
+										</td>
+										<td akn:GUID="_0b761a83-614e-4caf-b42f-a769eab85e71" akn:eId="reg_2__tbl__oc_1__hdg__row__oc_1__col_2">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><i>(2) Ambulance services              £ </i></p>
+										</td>
+										<td akn:GUID="_38791e7b-884e-480d-9172-b3f3ac28c68b" akn:eId="reg_2__tbl__oc_1__hdg__row__oc_1__col_3">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">(<i>3) Out-patient          £</i>
+											</p>
+										</td>
+										<td akn:GUID="_f992bd4d-6feb-44b6-a7ce-928b67d39626" akn:eId="reg_2__tbl__oc_1__hdg__row__oc_1__col_4">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><i>(</i><i>4) In-patient           £ </i></p>
+										</td>
+										<td akn:GUID="_00659075-ef24-487a-9f19-e071099190ff" akn:eId="reg_2__tbl__oc_1__hdg__row__oc_1__col_5">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><i>(5) Maximum           £ </i></p>
+										</td>
+									</tr>
+								</thead>
+								<tbody class="left">
+									<tr akn:GUID="_792c6081-2fe4-4b01-a2d6-95e432ec4a5f" akn:eId="reg_2__tbl__oc_1__row__oc_1">
+										<td akn:GUID="_5987ab7a-563d-4b9e-8cf2-eb078dac0226" akn:eId="reg_2__tbl__oc_1__row__oc_1__col_1">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">29th January 2007</p>
+										</td>
+										<td akn:GUID="_c74716bf-be72-4db0-ae75-69ed5ff78b8a" akn:eId="reg_2__tbl__oc_1__row__oc_1__col_2">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">159</p>
+										</td>
+										<td akn:GUID="_5e139fd1-cfa3-42cc-ae1e-9fd09c7d9a62" akn:eId="reg_2__tbl__oc_1__row__oc_1__col_3">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">505</p>
+										</td>
+										<td akn:GUID="_334d6cd8-85b3-4dea-a065-7d70e8319fab" akn:eId="reg_2__tbl__oc_1__row__oc_1__col_4">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">620</p>
+										</td>
+										<td akn:GUID="_0c9591c4-cb46-40c4-9b49-a0a1a5347c74" akn:eId="reg_2__tbl__oc_1__row__oc_1__col_5">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">37,100</p>
+										</td>
+									</tr>
+									<tr akn:GUID="_492fe881-f13f-4faa-b42c-927f509cdde7" akn:eId="reg_2__tbl__oc_1__row__oc_2">
+										<td akn:GUID="_1c43d4b1-7894-4801-b2e9-8461ea34475b" akn:eId="reg_2__tbl__oc_1__row__oc_2__col_1">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st April 2008</p>
+										</td>
+										<td akn:GUID="_5f25721e-5870-4a90-8d60-71136b8c304b" akn:eId="reg_2__tbl__oc_1__row__oc_2__col_2">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">165</p>
+										</td>
+										<td akn:GUID="_e986168a-27c8-40ee-8486-c59abb10259c" akn:eId="reg_2__tbl__oc_1__row__oc_2__col_3">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">547</p>
+										</td>
+										<td akn:GUID="_2b56e171-51bf-445c-8fe3-31f100ad6f3b" akn:eId="reg_2__tbl__oc_1__row__oc_2__col_4">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">672</p>
+										</td>
+										<td akn:GUID="_2750582c-d9d2-462a-875b-e333bb28c03d" akn:eId="reg_2__tbl__oc_1__row__oc_2__col_5">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">40,179</p>
+										</td>
+									</tr>
+									<tr akn:GUID="_ae84012a-a39e-40a3-a385-9141e813c329" akn:eId="reg_2__tbl__oc_1__row__oc_3">
+										<td akn:GUID="_0c085e8e-75fa-4a42-9e4e-db0180264991" akn:eId="reg_2__tbl__oc_1__row__oc_3__col_1">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st April 2009</p>
+										</td>
+										<td akn:GUID="_2e176969-610b-4e92-abbd-4cc470e86dfa" akn:eId="reg_2__tbl__oc_1__row__oc_3__col_2">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">171</p>
+										</td>
+										<td akn:GUID="_330ca5d4-e5f2-4d01-b302-dae507c4feab" akn:eId="reg_2__tbl__oc_1__row__oc_3__col_3">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">566</p>
+										</td>
+										<td akn:GUID="_44e3cc2a-ecff-409a-974a-7367e6eb2af0" akn:eId="reg_2__tbl__oc_1__row__oc_3__col_4">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">695</p>
+										</td>
+										<td akn:GUID="_5fba8159-8c8e-40f0-9f5a-691d2edc0389" akn:eId="reg_2__tbl__oc_1__row__oc_3__col_5">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">41,545</p>
+										</td>
+									</tr>
+									<tr akn:GUID="_7b5ffe8a-056d-4a26-a969-3dd289dee158" akn:eId="reg_2__tbl__oc_1__row__oc_4">
+										<td akn:GUID="_99893c73-0505-4a77-bf38-aeb1dab7e21f" akn:eId="reg_2__tbl__oc_1__row__oc_4__col_1">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st April 2010</p>
+										</td>
+										<td akn:GUID="_1a0af8ed-fde5-4526-b2e7-2407b5660678" akn:eId="reg_2__tbl__oc_1__row__oc_4__col_2">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">177</p>
+										</td>
+										<td akn:GUID="_a38a8546-36ed-4545-80c6-a788668dd233" akn:eId="reg_2__tbl__oc_1__row__oc_4__col_3">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">585</p>
+										</td>
+										<td akn:GUID="_ca194134-8606-4069-9f3d-25cb2ffeca7f" akn:eId="reg_2__tbl__oc_1__row__oc_4__col_4">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">719</p>
+										</td>
+										<td akn:GUID="_de2b0727-82e8-44eb-aa09-e24db1125be7" akn:eId="reg_2__tbl__oc_1__row__oc_4__col_5">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">42,999</p>
+										</td>
+									</tr>
+									<tr akn:GUID="_18e68337-2c12-4dc1-afcd-7d2cfc99be85" akn:eId="reg_2__tbl__oc_1__row__oc_5">
+										<td akn:GUID="_9144b1bd-519a-4b24-a2c4-4dd2cbb5c1f0" akn:eId="reg_2__tbl__oc_1__row__oc_5__col_1">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st April 2011</p>
+										</td>
+										<td akn:GUID="_530ea985-9a68-4268-a141-1c4ad50bd691" akn:eId="reg_2__tbl__oc_1__row__oc_5__col_2">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">181</p>
+										</td>
+										<td akn:GUID="_84b77e76-096e-466f-b59c-6cebb8726ff7" akn:eId="reg_2__tbl__oc_1__row__oc_5__col_3">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">600</p>
+										</td>
+										<td akn:GUID="_19a17c74-2a86-4cdd-a319-387853448980" akn:eId="reg_2__tbl__oc_1__row__oc_5__col_4">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">737</p>
+										</td>
+										<td akn:GUID="_c3a6a2db-da60-4c84-8f3a-afa49fbc9304" akn:eId="reg_2__tbl__oc_1__row__oc_5__col_5">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">44,056</p>
+										</td>
+									</tr>
+									<tr akn:GUID="_0cf2a194-ccb6-4729-a94e-c294dc5b3a28" akn:eId="reg_2__tbl__oc_1__row__oc_6">
+										<td akn:GUID="_76be7988-c34c-47c0-98bb-7ba0a7885400" akn:eId="reg_2__tbl__oc_1__row__oc_6__col_1">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st April 2012</p>
+										</td>
+										<td akn:GUID="_ef0d4b3b-1c22-40ff-92fc-95d36c5ccfe3" akn:eId="reg_2__tbl__oc_1__row__oc_6__col_2">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">185</p>
+										</td>
+										<td akn:GUID="_4fa724c7-f71e-4f12-8971-4f0853155604" akn:eId="reg_2__tbl__oc_1__row__oc_6__col_3">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">615</p>
+										</td>
+										<td akn:GUID="_ce031202-8ac1-4237-975b-a10725dade87" akn:eId="reg_2__tbl__oc_1__row__oc_6__col_4">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">755</p>
+										</td>
+										<td akn:GUID="_c8e892aa-7810-42e6-8449-6a4f118f7def" akn:eId="reg_2__tbl__oc_1__row__oc_6__col_5">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">45,153</p>
+										</td>
+									</tr>
+									<tr akn:GUID="_d34ab58c-4f01-4403-8f31-a348036bfac1" akn:eId="reg_2__tbl__oc_1__row__oc_7">
+										<td akn:GUID="_261c9cf7-9c16-4a01-9896-0af8c36b1e97" akn:eId="reg_2__tbl__oc_1__row__oc_7__col_1">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st April 2013</p>
+										</td>
+										<td akn:GUID="_d89e6cf6-e66f-43e7-9c39-20240f80396d" akn:eId="reg_2__tbl__oc_1__row__oc_7__col_2">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">189</p>
+										</td>
+										<td akn:GUID="_702124b8-f7b7-4a11-b2a8-87a1837de86e" akn:eId="reg_2__tbl__oc_1__row__oc_7__col_3">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">627</p>
+										</td>
+										<td akn:GUID="_a8a2dfcf-bcc1-40a2-a650-e3b9df02c870" akn:eId="reg_2__tbl__oc_1__row__oc_7__col_4">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">770</p>
+										</td>
+										<td akn:GUID="_a96de6ff-f147-4dd0-88f0-40d6da1fdea3" akn:eId="reg_2__tbl__oc_1__row__oc_7__col_5">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">46,046</p>
+										</td>
+									</tr>
+									<tr akn:GUID="_353fe7d3-6d76-4a91-bda1-f73f3a869d53" akn:eId="reg_2__tbl__oc_1__row__oc_8">
+										<td akn:GUID="_75ce2a42-bac0-471d-919c-e77e36486e1d" akn:eId="reg_2__tbl__oc_1__row__oc_8__col_1">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st April 2014</p>
+										</td>
+										<td akn:GUID="_add6c068-345f-4fb8-b874-f5a9291e899c" akn:eId="reg_2__tbl__oc_1__row__oc_8__col_2">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">192</p>
+										</td>
+										<td akn:GUID="_b50530f0-39b4-42be-bd08-e25c0721baa2" akn:eId="reg_2__tbl__oc_1__row__oc_8__col_3">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">637</p>
+										</td>
+										<td akn:GUID="_a1408096-1148-49e8-8d2f-83b8f47c32a8" akn:eId="reg_2__tbl__oc_1__row__oc_8__col_4">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">783</p>
+										</td>
+										<td akn:GUID="_190fb340-a04a-4b57-8847-374d44fa8df7" akn:eId="reg_2__tbl__oc_1__row__oc_8__col_5">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">46,831</p>
+										</td>
+									</tr>
+									<tr akn:GUID="_108e5d1d-7107-47ab-929d-da43e2c22b4c" akn:eId="reg_2__tbl__oc_1__row__oc_9">
+										<td akn:GUID="_c8119b3d-2e00-41ed-9f21-a494205aa70b" akn:eId="reg_2__tbl__oc_1__row__oc_9__col_1">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st April 2015</p>
+										</td>
+										<td akn:GUID="_d07ea25e-1921-49be-9722-9043a33031f1" akn:eId="reg_2__tbl__oc_1__row__oc_9__col_2">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">195</p>
+										</td>
+										<td akn:GUID="_da669003-be5e-4f27-a1d5-b3a1772f4ba4" akn:eId="reg_2__tbl__oc_1__row__oc_9__col_3">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">647</p>
+										</td>
+										<td akn:GUID="_b8416be1-e1a1-45be-8a65-0f78b47a05d1" akn:eId="reg_2__tbl__oc_1__row__oc_9__col_4">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">796</p>
+										</td>
+										<td akn:GUID="_c3cf1ddf-0327-4b6c-a396-87c605e40416" akn:eId="reg_2__tbl__oc_1__row__oc_9__col_5">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">47,569</p>
+										</td>
+									</tr>
+									<tr akn:GUID="_396e9516-701d-43e1-953b-0f369d17eef2" akn:eId="reg_2__tbl__oc_1__row__oc_10">
+										<td akn:GUID="_6fa92280-0dda-43a6-b5f9-38141e59a47e" akn:eId="reg_2__tbl__oc_1__row__oc_10__col_1">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st April 2016</p>
+										</td>
+										<td akn:GUID="_5587fbb5-b842-4a2f-a757-51abfea0bc64" akn:eId="reg_2__tbl__oc_1__row__oc_10__col_2">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">201</p>
+										</td>
+										<td akn:GUID="_89b0b558-21ba-460c-b8be-a2bc69f831d1" akn:eId="reg_2__tbl__oc_1__row__oc_10__col_3">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">665</p>
+										</td>
+										<td akn:GUID="_f5dfdd6a-8363-46bd-a52e-26e2ec8a8132" akn:eId="reg_2__tbl__oc_1__row__oc_10__col_4">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">817</p>
+										</td>
+										<td akn:GUID="_0a50f041-b4aa-4a15-bd3a-d94b68626005" akn:eId="reg_2__tbl__oc_1__row__oc_10__col_5">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">48,849</p>
+										</td>
+									</tr>
+									<tr akn:GUID="_771e45f4-56f5-4200-a375-2e3865a035fc" akn:eId="reg_2__tbl__oc_1__row__oc_11">
+										<td akn:GUID="_6e57d417-b3aa-4f74-94fd-be7a82063df8" akn:eId="reg_2__tbl__oc_1__row__oc_11__col_1">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st April 2017</p>
+										</td>
+										<td akn:GUID="_b1fc60e5-dd7c-4009-9b02-27f04f6ab840" akn:eId="reg_2__tbl__oc_1__row__oc_11__col_2">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">205</p>
+										</td>
+										<td akn:GUID="_89fad92e-53a9-4832-b0cd-8be77d9f4450" akn:eId="reg_2__tbl__oc_1__row__oc_11__col_3">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">678</p>
+										</td>
+										<td akn:GUID="_a299aadc-5f81-4766-8fe1-b20ff6f09efe" akn:eId="reg_2__tbl__oc_1__row__oc_11__col_4">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">833</p>
+										</td>
+										<td akn:GUID="_00194784-dcec-411f-a1b4-c93472af245f" akn:eId="reg_2__tbl__oc_1__row__oc_11__col_5">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">49,824</p>
+										</td>
+									</tr>
+									<tr akn:GUID="_3746e42b-8b2d-4308-bd48-fa6b153e0228" akn:eId="reg_2__tbl__oc_1__row__oc_12">
+										<td akn:GUID="_54b1f29a-1082-4643-bc15-a543688dc133" akn:eId="reg_2__tbl__oc_1__row__oc_12__col_1">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st April 2018</p>
+										</td>
+										<td akn:GUID="_ec8414d4-3ea5-43cc-99f6-e07317ad227e" akn:eId="reg_2__tbl__oc_1__row__oc_12__col_2">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">208</p>
+										</td>
+										<td akn:GUID="_2b73d62d-e325-4ddd-907c-efb2c1d06a2a" akn:eId="reg_2__tbl__oc_1__row__oc_12__col_3">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">688</p>
+										</td>
+										<td akn:GUID="_60221b41-bd1d-46b9-b522-9047bcaa0494" akn:eId="reg_2__tbl__oc_1__row__oc_12__col_4">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">846</p>
+										</td>
+										<td akn:GUID="_4d96c848-5864-466d-bc6e-3cb47552ae71" akn:eId="reg_2__tbl__oc_1__row__oc_12__col_5">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">50,561</p>
+										</td>
+									</tr>
+									<tr akn:GUID="_999bb37e-5600-411c-a288-c813e820b082" akn:eId="reg_2__tbl__oc_1__row__oc_13">
+										<td akn:GUID="_1e24325f-93d9-44fb-8d5e-2b4c4e4cbfdc" akn:eId="reg_2__tbl__oc_1__row__oc_13__col_1">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st April 2019</p>
+										</td>
+										<td akn:GUID="_9f9b70fd-326a-492c-8696-7ec01ee8435a" akn:eId="reg_2__tbl__oc_1__row__oc_13__col_2">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">219</p>
+										</td>
+										<td akn:GUID="_3763e2e3-19e9-4276-9a33-eb6c4663e4d1" akn:eId="reg_2__tbl__oc_1__row__oc_13__col_3">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">725</p>
+										</td>
+										<td akn:GUID="_4454e384-8fff-4d95-b3eb-5662960d2da5" akn:eId="reg_2__tbl__oc_1__row__oc_13__col_4">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">891</p>
+										</td>
+										<td akn:GUID="_78134977-141e-44dc-b3c2-430461ac7831" akn:eId="reg_2__tbl__oc_1__row__oc_13__col_5">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">53,278</p>
+										</td>
+									</tr>
+									<tr akn:GUID="_4a40beb2-e254-449e-be96-b8892272b204" akn:eId="reg_2__tbl__oc_1__row__oc_14">
+										<td akn:GUID="_4f132dac-9c38-45b7-9e96-025853977afc" akn:eId="reg_2__tbl__oc_1__row__oc_14__col_1">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st April 2020</p>
+										</td>
+										<td akn:GUID="_d3c509e5-4f03-433d-88d3-b172a09c5824" akn:eId="reg_2__tbl__oc_1__row__oc_14__col_2">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">224</p>
+										</td>
+										<td akn:GUID="_b1c0d4dd-255d-4ba2-8d3f-a73d117db140" akn:eId="reg_2__tbl__oc_1__row__oc_14__col_3">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">743</p>
+										</td>
+										<td akn:GUID="_73412a30-ca68-4cb1-b807-fb6ba83aa77e" akn:eId="reg_2__tbl__oc_1__row__oc_14__col_4">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">913</p>
+										</td>
+										<td akn:GUID="_e75de060-8190-4347-a0f0-856c7489a1c2" akn:eId="reg_2__tbl__oc_1__row__oc_14__col_5">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">54,566</p>
+										</td>
+									</tr>
+									<tr akn:GUID="_7afbab17-b39c-434a-9e43-bd20512340ef" akn:eId="reg_2__tbl__oc_1__row__oc_15">
+										<td akn:GUID="_c8b0af27-6332-4eea-82c4-70f5d4559646" akn:eId="reg_2__tbl__oc_1__row__oc_15__col_1">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st April 2021</p>
+										</td>
+										<td akn:GUID="_9b89b306-eb4c-4c9b-8e60-8106906635c7" akn:eId="reg_2__tbl__oc_1__row__oc_15__col_2">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">225</p>
+										</td>
+										<td akn:GUID="_47cc3746-5e57-4241-89fd-8feb80cde57f" akn:eId="reg_2__tbl__oc_1__row__oc_15__col_3">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">744</p>
+										</td>
+										<td akn:GUID="_d9e2e4cf-1307-42ba-87a0-b4498a00cb93" akn:eId="reg_2__tbl__oc_1__row__oc_15__col_4">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">915</p>
+										</td>
+										<td akn:GUID="_caf8b9d3-1cc2-44e3-8fd9-7aaa79f6dc4b" akn:eId="reg_2__tbl__oc_1__row__oc_15__col_5">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">54,682</p>
+										</td>
+									</tr>
+									<tr akn:GUID="_deada16a-66ed-4f27-9911-e3b315380718" akn:eId="reg_2__tbl__oc_1__row__oc_16">
+										<td akn:GUID="_eac3a21e-8ba1-4011-9438-eae2e56553cc" akn:eId="reg_2__tbl__oc_1__row__oc_16__col_1">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st April 2022</p>
+										</td>
+										<td akn:GUID="_cfef8082-664b-442a-ab66-ecf7e0731195" akn:eId="reg_2__tbl__oc_1__row__oc_16__col_2">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">231</p>
+										</td>
+										<td akn:GUID="_135c6d66-12ba-446b-981c-ec63eea99b72" akn:eId="reg_2__tbl__oc_1__row__oc_16__col_3">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">766</p>
+										</td>
+										<td akn:GUID="_986c500b-b583-4f96-947a-07f9839abcf5" akn:eId="reg_2__tbl__oc_1__row__oc_16__col_4">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">941</p>
+										</td>
+										<td akn:GUID="_a01be265-bde1-439e-aad3-8c9a72dd3c02" akn:eId="reg_2__tbl__oc_1__row__oc_16__col_5">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">56,260</p>
+										</td>
+									</tr>
+									<tr akn:GUID="_d34068aa-a36a-43e8-8762-e557463f3095" akn:eId="reg_2__tbl__oc_1__row__oc_17">
+										<td akn:GUID="_86d08669-1cfe-4f22-9e7e-9ae9ac0a75bc" akn:eId="reg_2__tbl__oc_1__row__oc_17__col_1">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st April 2023</p>
+										</td>
+										<td akn:GUID="_bc8bf628-bf34-42f0-a1ec-192a950857a1" akn:eId="reg_2__tbl__oc_1__row__oc_17__col_2">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">238</p>
+										</td>
+										<td akn:GUID="_714adceb-f389-4816-932a-de41d763e1da" akn:eId="reg_2__tbl__oc_1__row__oc_17__col_3">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">788</p>
+										</td>
+										<td akn:GUID="_f684660d-871f-4afb-ae3b-05b79501b8f2" akn:eId="reg_2__tbl__oc_1__row__oc_17__col_4">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">968</p>
+										</td>
+										<td akn:GUID="_f6500a52-1143-4f7d-9044-28d1eed40a18" akn:eId="reg_2__tbl__oc_1__row__oc_17__col_5">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">57,892</p>
+										</td>
+									</tr>
+									<tr akn:GUID="_c260dfad-0923-42b9-9d09-f09c65a22576" akn:eId="reg_2__tbl__oc_1__row__oc_18">
+										<td akn:GUID="_ec8e6227-746d-413b-8248-a692851f1d4e" akn:eId="reg_2__tbl__oc_1__row__oc_18__col_1">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2nd October 2023</p>
+										</td>
+										<td akn:GUID="_83ff9276-0049-4572-b450-5cc24c475c7c" akn:eId="reg_2__tbl__oc_1__row__oc_18__col_2">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">243</p>
+										</td>
+										<td akn:GUID="_f22ddee8-4875-4d42-857c-326d3ba31da7" akn:eId="reg_2__tbl__oc_1__row__oc_18__col_3">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">806</p>
+										</td>
+										<td akn:GUID="_7b12eee2-cc25-4d54-b530-a8e4c7736de2" akn:eId="reg_2__tbl__oc_1__row__oc_18__col_4">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">991</p>
+										</td>
+										<td akn:GUID="_7d458ae3-c08e-44d0-b111-c7d7a95b2de5" akn:eId="reg_2__tbl__oc_1__row__oc_18__col_5">
+											<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">59,248”</p>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</foreign>
+					</tblock>
+				</content>
+			</hcontainer>
+			<hcontainer GUID="_1c7085fa-e76e-4f6a-919e-5ad27296fe42" class="prov1" eId="reg_3" name="regulation"><?DMS-Component componentId="a06db41a-1fd0-4505-a41e-6fbcb28417e8" seriesId="cc29e92a-aab7-468e-b31f-60505e917f4d" versionNumber="0"?>
+				
+				<heading GUID="_dfc2d1ba-9259-4bbe-8d8f-8aa11db802e3" eId="reg_3__hdg">Revocation</heading>
+				<num>3.</num>
+				<content>
+					<p>The Personal Injuries (NHS Charges) (Amounts) (Amendment) Regulations 2023<authorialNote GUID="_20559563-7fbf-4c56-945d-50ea895a4bfb" class="footnote" eId="fnote_4" marker="4">
+							<p>S.I. 2023/220.</p>
+						</authorialNote> are revoked.</p>
+				</content>
+			</hcontainer>
+			<hcontainer GUID="_623b41b8-f405-4150-9390-f94b5eed0d48" eId="sigs" name="signatures"><?DMS-Component componentId="8c315cd8-e833-4801-8c68-1e88cb171a50" seriesId="680bf267-ad5a-4e94-a581-718390b68167" versionNumber="0"?>
+				
+				<hcontainer GUID="_679299f9-ce6f-4596-a176-fe64853c674e" eId="sigs__sigBlk" name="signatureBlock">
+					<content>
+						<p>Signed by authority of the Secretary of State for Health and Social Care.</p>
+						<block GUID="_199da5e0-6cb3-4df1-95dc-b5dcf2d610d0" eId="sigs__sigBlk__sig" name="signature">Markham</block>
+						<block GUID="_bb47666c-89c9-4f7e-9535-5f677fed3dd1" eId="sigs__sigBlk__role" name="role">Parliamentary Under-Secretary of State </block>
+						<block name="date">5th September 2023</block>
+						<block GUID="_4999c25e-9501-4b88-bc43-c0bdedf81b79" eId="sigs__sigBlk__org" name="organization">Department of Health and Social Care</block>
+					</content>
+				</hcontainer>
+			</hcontainer>
+		</body>
+		<conclusions GUID="_edf55aca-d2a4-4c83-9219-ee6b4634cf53" eId="backCover"><?DMS-Component componentId="8a0f2c3a-1a24-4e93-b7dd-85834885b278" seriesId="37a5f7af-2b2d-44f7-bb24-775d96d062d1" versionNumber="0"?>
+			
+			<blockContainer GUID="_a74ca4d4-4eb8-46b0-8809-9b760c7fdc1d" class="explanatoryNote" eId="backCover__explNote">
+				<heading GUID="_b3e03c56-080b-4a4d-aba2-50e5041200c4" eId="backCover__explNote__hdg">Explanatory Note</heading>
+				<subheading GUID="_68c11e25-a526-4b06-8b42-a519ea5d05b0" eId="backCover__explNote__subhdg">(This note is not part of the <ref class="placeholder" href="#varDocSubType"/>)</subheading>
+				<p>These Regulations amend the Personal Injuries (NHS Charges) (Amounts) Regulations 2015 (S.I. 2015/295) (“the principal Regulations”) which make provision about the charges payable under the scheme for the recovery of NHS charges in cases where an injured person who receives a compensation payment in respect of their injury has received NHS hospital treatment or ambulance services.</p>
+				<p>Regulation 2 amends the principal Regulations by substituting a table in Schedule 1. This table provides for increased charges in respect of injuries which occur on or after 2nd October 2023. Where the injured person is provided with NHS ambulance services, the charge will be £243 (compared with £238, for injuries incurred between 1st April 2023 and 1st October 2023). Where the injured person receives NHS treatment, but is not admitted to hospital, the charge will be £806 (compared with £788 for injuries incurred between 1st April 2023 and 1st October 2023). The daily charge for NHS in-patient treatment will be £991 (compared with £968 for injuries incurred between 1st April 2023 and 1st October 2023). The maximum charge in respect of an injury will be £59,248 (compared with £57,892 for injuries incurred between 1st April 2023 to 1st October 2023).</p>
+				<p>Regulation 3 revokes the Personal Injuries (NHS Charges) (Amounts) (Amendment) Regulations 2023 (S.I. 2023/220).</p>
+				<p>A full impact assessment has not been produced for this instrument as no, or no significant, impact on the private, voluntary or public sector is foreseen.</p>
+			</blockContainer>
+		</conclusions>
+	</act>
+</akomaNtoso>

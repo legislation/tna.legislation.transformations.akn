@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Legislation xmlns="http://www.legislation.gov.uk/namespaces/legislation"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             SchemaVersion="2.0"
+             xsi:schemaLocation="http://www.legislation.gov.uk/namespaces/legislation http://www.legislation.gov.uk/schema/legislation.xsd">
+   <Metadata xmlns="http://www.legislation.gov.uk/namespaces/metadata"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <dc:identifier>http://www.legislation.gov.uk/id/uksi/2023/104</dc:identifier>
+      <dc:title>The Hartlepool Development Corporation (Establishment) Order 2023</dc:title>
+      <dc:modified>2023-11-30</dc:modified>
+      <SecondaryMetadata>
+         <DocumentClassification>
+            <DocumentCategory Value="secondary"/>
+            <DocumentMainType Value="UnitedKingdomStatutoryInstrument"/>
+            <DocumentStatus Value="final"/>
+            <DocumentMinorType Value="order"/>
+         </DocumentClassification>
+         <Year Value="2023"/>
+         <Number Value="104"/>
+         <Made Date="2023-01-30"/>
+         <Laid Date="2023-02-06" Time="00:00:00" Class="UnitedKingdomParliament"/>
+         <ComingIntoForce>
+            <DateTime Date="2023-02-27" Time="00:00:00"/>
+         </ComingIntoForce>
+      </SecondaryMetadata>
+   </Metadata>
+   <Secondary>
+      <SecondaryPrelims>
+         <Number> 2023 No. 104  </Number>
+         <SubjectInformation>
+            <Subject>
+               <Title>LOCAL GOVERNMENT, ENGLAND</Title>
+            </Subject>
+         </SubjectInformation>
+         <Title> The Hartlepool Development Corporation (Establishment) Order 2023 </Title>
+         <MadeDate>
+            <Text>Made</Text>
+            <DateText>30th January 2023</DateText>
+         </MadeDate>
+         <LaidDate>
+            <Text>Laid before Parliament</Text>
+            <DateText>6th February 2023</DateText>
+         </LaidDate>
+         <ComingIntoForce>
+            <Text>Coming into force</Text>
+            <DateText>27th February 2023</DateText>
+         </ComingIntoForce>
+         <SecondaryPreamble>
+            <EnactingText>
+               <Para>
+                  <Text>The Secretary of State for Levelling Up, Housing and Communities makes this Order in exercise of the powers conferred by section 198 of the Localism Act 2011<FootnoteRef Ref="f00001"/> (“the 2011 Act”) as modified by article 4 of, and the Schedule to, the Tees Valley Combined Authority (Functions) Order 2017<FootnoteRef Ref="f00002"/> (“the 2017 Order”).</Text>
+               </Para>
+               <Para>
+                  <Text>The Mayor of Tees Valley has notified the Secretary of State of the designation of a Mayoral development area and of the name to be given to the Corporation for the area pursuant to section 197(6)(b) and (c) of the 2011 Act as modified by article 4, and the Schedule to, the 2017 Order.</Text>
+               </Para>
+            </EnactingText>
+         </SecondaryPreamble>
+      </SecondaryPrelims>
+      <Body>
+         <P1group>
+            <Title>Citation and commencement</Title>
+            <P1 id="article-1">
+               <Pnumber>1</Pnumber>
+               <P1para>
+                  <Text>This Order may be cited as the Hartlepool Development Corporation (Establishment) Order 2023 and comes into force on 27th February 2023.</Text>
+               </P1para>
+            </P1>
+         </P1group>
+         <P1group>
+            <Title>Mayoral Development Area</Title>
+            <P1 id="article-2">
+               <Pnumber>2</Pnumber>
+               <P1para>
+                  <P2 id="article-2-1">
+                     <Pnumber>1</Pnumber>
+                     <P2para>
+                        <Text>The Mayoral development area is the areas of land shown bounded externally by the inside edge of the black lines on the maps.</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="article-2-2">
+                     <Pnumber>2</Pnumber>
+                     <P2para>
+                        <Text>In paragraph (1), “the maps” means the maps marked “Map 1 of 2 referred to by the Hartlepool Development Corporation (Establishment) Order 2023” and “Map 2 of 2 referred to by the Hartlepool Development Corporation (Establishment) Order 2023” of which prints signed by a Deputy Director in the Department for Levelling Up, Housing and Communities have been deposited, and are available for inspection, at the offices of the Secretary of State for Levelling Up, Housing and Communities and at the offices of the Tees Valley Combined Authority.</Text>
+                     </P2para>
+                  </P2>
+               </P1para>
+            </P1>
+         </P1group>
+         <P1group>
+            <Title>Establishment and naming of the Hartlepool Development Corporation</Title>
+            <P1 id="article-3">
+               <Pnumber>3</Pnumber>
+               <P1para>
+                  <Text>There is established a corporation for the Mayoral development area named the “Hartlepool Development Corporation”.</Text>
+               </P1para>
+            </P1>
+         </P1group>
+         <SignedSection>
+            <Signatory>
+               <Para>
+                  <Text>Signed by authority of the Secretary of State for Levelling Up, Housing and Communities</Text>
+               </Para>
+               <Signee>
+                  <PersonName>Dehenna Davison</PersonName>
+                  <JobTitle>Parliamentary Under Secretary of State</JobTitle>
+                  <DateSigned Date="2023-01-30">
+                     <DateText>30th January 2023</DateText>
+                  </DateSigned>
+                  <Department>Department for Levelling Up, Housing and Communities</Department>
+               </Signee>
+            </Signatory>
+         </SignedSection>
+      </Body>
+      <ExplanatoryNotes>
+         <Title>Explanatory Note</Title>
+         <Comment>
+            <Para>
+               <Text>(This note is not part of the Order)</Text>
+            </Para>
+         </Comment>
+         <P>
+            <Text>This Order establishes a corporation in relation to an area in the Tees Valley Combined Authority, designated as a Mayoral development area. The area is shown bounded externally by the inside edge of the black lines of the maps.</Text>
+         </P>
+         <P>
+            <Text>The power to designate and establish the corporation is set out in section 198 of the Localism Act 2011, as modified by Article 4 of, and the Schedule to, the Tees Valley Combined Authority (Functions) Order 2017 (S.I. 2017/250).</Text>
+         </P>
+         <P>
+            <Text>The corporation for the area is to be called the Hartlepool Development Corporation (article 3).</Text>
+         </P>
+         <P>
+            <Text>A full impact assessment has not been prepared for this Order as no impact on the private or voluntary sectors is foreseen.</Text>
+         </P>
+      </ExplanatoryNotes>
+   </Secondary>
+   <Footnotes>
+      <Footnote id="f00001">
+         <FootnoteText>
+            <Para>
+               <Text>2011 c. 20. “Combined Authority” and “Corporation” have the meaning given in paragraph 1(2)(b) of the Schedule to the Tees Valley Combined Authority (Functions) Order 2017 (S.I. 2017/250).</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00002">
+         <FootnoteText>
+            <Para>
+               <Text>S.I. 2017/250. This Order was made under sections 105(3), 105A(1)(b) and (2)(a), 107D(1), 114(1) and (3) and 117(5) of the Local Democracy, Economic Development and Construction Act 2009 (c. 20). Section 105A was inserted by section 7 of the Cities and Local Government Devolution Act 2016 (c. 1) (“the 2016 Act”). Section 114 was amended by section 23 of, and paragraphs 26 of Schedule 5 to, the 2016 Act, and by S.I. 2016/997. Section 117(5) was inserted by section 23 of, and paragraph 29 of Schedule 5 to, the 2016 Act.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+   </Footnotes>
+</Legislation>

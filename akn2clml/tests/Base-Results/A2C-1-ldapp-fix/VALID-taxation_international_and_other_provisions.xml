@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../schemas/akomantoso30.xsd"><?DMS-Component componentId="0022cc30-06ab-46e0-ac88-cba7ac3f50a7" seriesId="5381e242-f893-449a-a33f-14e1f3337fb8" versionNumber="1"?>
+	<act contains="originalVersion" name="uksi">
+		<meta><?DMS-Component componentId="d669cb12-e17c-4ada-a1ab-998721af4e24" seriesId="0cea71e1-40b1-4454-b5f2-bfdeab4448bb" versionNumber="0"?>
+			
+			<identification source="#ldapp">
+				<FRBRWork>
+					<FRBRthis value="#varWork"/>
+					<FRBRuri value="#varWorkUri"/>
+					<FRBRalias name="ttflConfigHistory" value="#varCHOiid"/>
+					<FRBRdate date="9999-01-01" name="uksi"/>
+					<FRBRauthor href="#varAuthor"/>
+					<FRBRcountry value="GB-SCT"/>
+					<FRBRsubtype value="#varDocSubType"/>
+					<FRBRnumber value="#varProjectId"/>
+					<FRBRname value="#varSITitle"/>
+					<FRBRprescriptive value="true"/>
+					<FRBRauthoritative value="false"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="#varExpression"/>
+					<FRBRuri value="#varExpressionUri"/>
+					<FRBRalias name="ttflVersionDescription" value="#varVDOiid"/>
+					<FRBRdate date="9999-01-01" name="draft"/>
+					<FRBRauthor href="#varAuthor"/>
+					<FRBRversionNumber value=""/>
+					<FRBRauthoritative value="false"/>
+					<FRBRmasterExpression href="" showAs=""/>
+					<FRBRlanguage language="eng"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="#varManifestation"/>
+					<FRBRuri value="#varManifestationUri"/>
+					<FRBRdate date="9999-01-01" name="akn_xml"/>
+					<FRBRauthor href="#varAuthor"/>
+					<FRBRformat value="application/akn+xml"/>
+				</FRBRManifestation>
+			</identification>
+			<references source="#author">
+				<TLCConcept GUID="_e5e26cd2-6e60-47a1-9ca2-65425225efa2" eId="varDocSubType" href="#varOntologies" showAs="Order"/>
+				<TLCConcept GUID="_1f5ccc2c-c027-453b-a405-6641f466a3e2" eId="varSITitle" href="#varOntologies" showAs="The Taxation (International and Other Provisions) Act 2010 Transfer Pricing Guidelines Designation Order 2022"/>
+				<TLCProcess GUID="_456e63e3-8488-4849-8ce1-b6f4371c56a3" eId="varProcedureType" href="#varOntologies" showAs="Made Negative"/>
+				<TLCProcess GUID="_4e936af5-956f-45dc-902c-be6561b159fd" eId="varStageVersion" href="#varOntologies" showAs="1"/>
+				<TLCProcess GUID="_e4abf2c6-f85c-439a-a80d-3f31de81bfdc" eId="varProjectId" href="#varOntologies" showAs="SI000035"/>
+				<TLCProcess GUID="_edc8892e-2c08-4a97-ae1c-a019e9666402" eId="varWork" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_e8692c5d-6c49-494d-bf73-37c73bc2f544" eId="varWorkUri" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_841ca461-f636-43fc-bbc1-3b13ece5056a" eId="varCHOiid" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_3a40a626-7fd1-43d7-aba8-80b3f6cbe31b" eId="varExpression" href="#varOntologies" showAs="c895a8c6-9a23-45ef-8d73-279f4a6eb351"/>
+				<TLCProcess GUID="_49208e7c-30ef-4c7f-900e-b202ad8879ca" eId="varExpressionUri" href="#varOntologies" showAs="dma:///45e6b900-8929-11d4-b772-0050da06bfb4/80742cea-0ebb-4cf6-9759-1e52358d9b5b/;guid=c895a8c6-9a23-45ef-8d73-279f4a6eb351;class=Version%20Description"/>
+				<TLCProcess GUID="_513b93a2-1063-48d6-a0f8-810238b247e0" eId="varVDOiid" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_9bc4d99e-384d-46d9-af58-5285523d5623" eId="varManifestation" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_6bdbab0f-e244-4d24-b167-8cb59e907d7c" eId="varManifestationUri" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_68ec63cf-377f-4711-acfe-f12371db9c84" eId="varSIYear" href="#varOntologies" showAs="2022"/>
+				<TLCConcept GUID="_21ef1407-ad03-4b4f-9775-8f06ae6e84cc" eId="varSINoComp" href="#varOntologies" showAs="1147"/>
+				<TLCConcept GUID="_ebb2977b-19eb-4c55-be29-7b57489826d6" eId="varSINo" href="#varOntologies" showAs="#varSIYear No. #varSINoComp #varSISubsidiaryNos"/>
+				<TLCConcept GUID="_2a833a71-94e4-461f-9387-99600118deac" eId="varSISubsidiaryNos" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_3e559c92-9508-4322-8ae9-391ec8b7d9ef" eId="varISBN" href="#varOntologies" showAs=""/>
+				<TLCPerson GUID="_2ead85b3-c4fb-448a-8e1d-20d44bd7c2ee" eId="varMinistryAgency" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_a1ca814e-8d12-49e1-ae3b-5270c602ec65" eId="varDocType" href="#varOntologies" showAs="UKSI"/>
+				<TLCProcess GUID="_e06843cf-6965-4f5a-80e0-06fd57624bef" eId="varSystem" href="#varOntologies" showAs="LDAPP"/>
+				<TLCOrganization GUID="_0bca8ecb-a11b-43fd-813b-eb50cc3b5ef1" eId="varAuthor" href="#varOntologies" showAs="UK Government"/>
+				<TLCLocation GUID="_0e0326e5-c1f8-4ba0-88a1-d96998edd306" eId="varJurisdiction" href="#varOntologies" showAs="United Kingdom"/>
+				<TLCConcept GUID="_d5de19bd-ccff-45c0-8d08-3acf78e96a8d" eId="varOntologies" href="https://www.legislation.gov.uk/ontologies/UK-AKN" showAs="https://www.legislation.gov.uk/ontologies/UK-AKN"/>
+				<TLCConcept GUID="_7a834d9c-2a42-4977-b646-f6e9ea605427" eId="varCommenceDate" href="#varOntologies" showAs="2023-01-01T00:00:00.000"/>
+				<TLCConcept GUID="_2562bf7f-e4e1-447f-a974-fb8da013f1fd" eId="varMadeDate" href="#varOntologies" showAs="2022-11-03T00:00:00.000"/>
+				<TLCConcept GUID="_9f0493fe-f4e4-4e47-8432-9264adea6c57" eId="varLaidDate" href="#varOntologies" showAs="2022-11-08T00:00:00.000"/>
+			</references>
+		</meta>
+		<preface GUID="_c55c4355-a4b5-4bc7-b737-6882e876d397" eId="fnt"><?DMS-Component componentId="0d89dac6-35bb-4cd8-b230-1ad62e4dd4f6" seriesId="9310ecb0-46eb-4a03-bd29-2d6abc892133" versionNumber="0"?>
+			
+			<block GUID="_e246fbc1-2310-45dc-a95f-565542d50ca4" eId="fnt__banner" name="banner">STATUTORY INSTRUMENTS</block>
+			<block GUID="_2055144b-db57-4296-ab87-aa9db8e83086" eId="fnt__no" name="number">
+				<docNumber GUID="_eff5edcd-16a0-4bf7-ac3e-9f4626571f97" eId="fnt__no__dno">
+					<ref class="placeholder" href="#varSINo"/> xxxx</docNumber>
+			</block>
+			<container name="subjects">
+				<container GUID="_9ae83309-fd53-4e3d-ac5d-781a683c38d5" eId="fnt__subject" name="subject">
+					<block name="subject"><concept class="title" refersTo="">CORPORATION TAX</concept></block>
+				</container>
+				<container GUID="_29414f51-3a91-4e25-b2ff-9c85be3a960b" eId="fnt__subject__oc_2" name="subject">
+					<block name="subject"><concept class="title" refersTo="">INCOME TAX</concept></block>
+				</container>
+			</container>
+			<block GUID="_55e87c40-0597-41c3-9fdb-604e2ea30a80" eId="fnt__st" name="title">
+				<docTitle GUID="_3837afb0-c1b5-4dd8-8c55-98b31f16abaa" eId="fnt__st__dtitle">
+					<ref class="placeholder" href="#varSITitle"/>
+				</docTitle>
+			</block>
+			<container GUID="_25be5762-23e1-4bfa-9259-146d700d613c" eId="fnt__dates" name="dates">
+				<block GUID="_d79712d7-67a4-4f8f-91d3-77bd57b53df3" eId="fnt__dates__madeDate" name="madeDate"><span>Made</span><docDate GUID="_c89c583c-c0f2-4d5a-8c77-dfcf666f9ee2" date="2022-11-03T00:00:00.000" eId="fnt__dates__madeDate__ddate"><ref class="placeholder" href="#varMadeDate" ukl:dateFormat="d'th' MMMM yyyy">3rd November 2022</ref></docDate></block>
+				<block GUID="_551d4d1d-6646-4801-94f1-f0f298405a20" eId="fnt__dates__laidDate" name="laidDate"><span>Laid before the House of Commons</span><docDate GUID="_aa154eae-9586-4703-80c6-93bd07d3bec7" date="2022-11-08T00:00:00.000" eId="fnt__dates__laidDate__ddate"><ref class="placeholder" href="#varLaidDate" ukl:dateFormat="d'th' MMMM yyyy">8th November 2022</ref></docDate></block>
+				<block GUID="_3da8e32b-8649-4ccb-bb9a-7026c6bbe0f7" eId="fnt__dates__commenceDate" name="commenceDate"><span>Coming into force</span><docDate GUID="_18910cec-e028-4268-9c45-09569f0d6566" date="2023-01-01T00:00:00.000" eId="fnt__dates__commenceDate__ddate"><ref class="placeholder" href="#varCommenceDate" ukl:dateFormat="d'th' MMMM yyyy">1st January 2023</ref></docDate></block>
+			</container>
+		</preface>
+		<preamble GUID="_52c9f1a1-4a10-47fe-ae17-20eddbd214e6" eId="preamble"><?DMS-Component componentId="4cf64102-a5f2-40ea-89f7-7d99dc819ab0" seriesId="baa255d3-1dfe-4875-9041-42122a78f607" versionNumber="1"?>
+			
+			<formula GUID="_3ad21345-b823-4bd5-a19e-b3d906abf9fd" eId="preamble__enactingWords" name="enactingText">
+				<p>The Treasury make the following <ref class="placeholder" href="#varDocSubType"/> in exercise of the powers conferred by section 164(4)(b) of the Taxation (International and Other Provisions) Act 2010<authorialNote GUID="_b027302f-f503-4cf2-a467-9cb7bc31c4ac" class="footnote" eId="fnote_1" marker="1">
+						<p>2010 c. 8; section 164(4) was substituted by section 58 of the Finance Act 2011 (c. 11) and amended by section 75(1) of the Finance Act 2016 (c. 24).</p>
+					</authorialNote>.</p>
+			</formula>
+		</preamble>
+		<body><?DMS-Component componentId="830b3bca-f8c0-4457-a435-16197c418b60" seriesId="b514895d-8321-4f27-ab50-5c7ae160711e" versionNumber="0"?>
+			
+			<article GUID="_f2acc2cd-7bdd-4556-a64d-f2aa340c9311" class="prov1" eId="art_1"><?DMS-Component componentId="29647eda-7291-4b59-bafc-db8db6d38e4a" seriesId="32548e3c-8a5f-4d6f-bbbb-6ad4e3e5e051" versionNumber="1"?>
+				
+				<heading GUID="_cf486ad0-ec8c-4d68-90e0-f91db6be5461" eId="art_1__hdg">Citation, commencement and effect</heading>
+				<num>1.</num>
+				<paragraph GUID="_da8bcfa6-e704-49af-ae5d-c1b3ff96ff80" class="prov2" eId="art_1__para_1">
+					<num>(1)</num>
+					<content>
+						<p>This Order may be cited as the Taxation (International and Other Provisions) Act 2010 Transfer Pricing Guidelines Designation Order 2022 and comes into force on 1st January 2023.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_d9bf9607-4c1c-433a-b43b-59479aff6cab" class="prov2" eId="art_1__para_2">
+					<num>(2)</num>
+					<intro GUID="_527cba99-5ac0-4668-af22-4a6f4bfa4118" eId="art_1__para_2__intro">
+						<p>This Order has effect (in relation to provision made or imposed at any time)—</p>
+					</intro>
+					<level GUID="_e2b5de21-203f-4753-96dc-89b9c989fc64" class="para1" eId="art_1__para_2__para_a">
+						<num>(a)</num>
+						<content>
+							<p>for corporation tax purposes, for accounting periods beginning on or after 1st January 2023, and</p>
+						</content>
+					</level>
+					<level GUID="_14328bfd-68e8-4969-a409-142036503d89" class="para1" eId="art_1__para_2__para_b">
+						<num>(b)</num>
+						<content>
+							<p>for income tax purposes, for the tax year 2023-24 and subsequent tax years.</p>
+						</content>
+					</level>
+				</paragraph>
+			</article>
+			<article GUID="_cb3aaf80-af13-47ea-bcf3-eeb7f681cc81" class="prov1" eId="art_2"><?DMS-Component componentId="65e35ff3-0c25-4143-9bcb-b608ec1cdb21" seriesId="a9351199-5716-4d1b-a5a6-2c528e393ce9" versionNumber="1"?>
+				
+				<heading GUID="_d2202bc7-233a-4a9f-9bc3-935328458807" eId="art_2__hdg">Designation</heading>
+				<num>2.</num>
+				<content>
+					<p>For the purposes of section 164(4) of the Taxation (International and Other Provisions) Act 2010, the OECD Transfer Pricing Guidelines for Multinational Enterprises and Tax Administrations 2022 published by the OECD on 20th January 2022<authorialNote GUID="_f55ed50c-d130-43e9-aa6d-2101c0e79512" class="footnote" eId="fnote_2" marker="2">
+							<p>A paper copy of the guidelines is available for inspection at the HMRC address provided in the Explanatory Note. The guidelines are also available online at https://www.oecd.org/tax/transfer-pricing/oecd-transfer-pricing-guidelines-for-multinational-enterprises-and-tax-administrations-20769717.htm, ISBN 978-92-64-52691-4 (print) and ISBN 978-92-64-92191-7 (PDF).</p>
+						</authorialNote> are designated for the time being.</p>
+				</content>
+			</article>
+			<article GUID="_5beb6153-d116-43fc-a27d-a94b2610b646" class="prov1" eId="art_3"><?DMS-Component componentId="13cadd71-36ea-4927-a049-4f2a7bcaaa1d" seriesId="aa743c86-4387-40fb-85ae-994ca150ba93" versionNumber="1"?>
+				<heading GUID="_d522c79c-889f-4bf7-bcf7-125a6d419047" eId="art_3__hdg">Revocation</heading>
+				<num>3.</num>
+				<content>
+					<p>The Taxation (International and Other Provisions) Act 2010 Transfer Pricing Guidelines Designation Order 2018<authorialNote GUID="_6949df48-2f29-4f9f-9798-bbe37153cd1f" class="footnote" eId="fnote_3" marker="3">
+							<p>S.I. 2018/266.</p>
+						</authorialNote> is revoked.</p>
+				</content>
+			</article>
+			<hcontainer GUID="_df1806e5-51de-4c3d-a0ff-588efe2f88f4" eId="sigs" name="signatures"><?DMS-Component componentId="e01233b3-ab01-4164-b027-b093c982e502" seriesId="d613c7a2-1570-413e-bbe8-6d3c48c486b7" versionNumber="1"?>
+				<hcontainer GUID="_a1fb4c2d-50f1-42b3-b47b-acad7598360e" eId="sigs__sigBlk" name="signatureBlock">
+					<content>
+						<block GUID="_a611fbd6-aceb-4695-8957-6464cf041c23" eId="sigs__sigBlk__sig" name="signature">Amanda Solloway</block>
+						<block GUID="_0ac52fd2-57ca-4262-8582-0c731f896806" eId="sigs__sigBlk__sig__oc_1" name="signature">Nigel Huddleston</block>
+						<block GUID="_1f36663c-0ab2-4455-92ae-35450352f54d" eId="sigs__sigBlk__role" name="role">Two of the Lords Commissioners of His Majesty's Treasury</block>
+						<block name="date"><date date="2022-11-03">3rd November 2022</date></block>
+					</content>
+				</hcontainer>
+			</hcontainer>
+		</body>
+		<conclusions GUID="_fd015e2e-9279-4efe-b883-5469ae51f673" eId="backCover"><?DMS-Component componentId="20672cb0-62c0-40e1-8164-9edff1b108fe" seriesId="20853800-32d7-4354-b273-81e6e059782d" versionNumber="1"?>
+			
+			<blockContainer GUID="_8a612d86-6d8d-4adc-b209-7727de419db3" class="explanatoryNote" eId="backCover__explNote">
+				<heading GUID="_f33dbca4-ccbb-47ed-b626-18d3b95b776d" eId="backCover__explNote__hdg">Explanatory Note</heading>
+				<subheading GUID="_8b1e4f78-cb54-438a-9cd4-75a255686ca6" eId="backCover__explNote__subhdg">(This note is not part of the <ref class="placeholder" href="#varDocSubType"/>)</subheading>
+				<p>UK transfer pricing rules are based on the internationally agreed arm’s length principle, which is now set out in Article 9 of the Model Tax Convention on Income and on Capital 2010<authorialNote GUID="_ce1b1920-83f2-4e8d-848f-88a8163b64e6" class="footnote" eId="fnote_4" marker="4">
+						<p>The Model Tax Convention on Income and on Capital 2010 (Full Version) can be found here: https://read.oecd-ilibrary.org/taxation/model-tax-convention-on-income-and-on-capital-2010_9789264175181-en#page1.</p>
+					</authorialNote>. Guidance on applying the arm’s length principle is set out in the Organisation for Economic Co-operation and Development (“OECD”) Transfer Pricing Guidelines, which are periodically updated and republished, and are referred to in UK transfer pricing legislation.</p>
+				<p>UK transfer pricing rules operate by comparing the actual provision, by means of a transaction or series of transactions made or imposed as between two connected parties, with the arm’s length provision which would have been made as between two independent parties (see section 147 of the Taxation (International and Other Provisions) Act 2010 (“TIOPA”)).</p>
+				<p>The OECD published a new version of its Transfer Pricing Guidelines on 20th January 2022. The Order designates those guidelines for the purposes of the definition of “the transfer pricing guidelines” in section 164(4)(a) of TIOPA.</p>
+				<p>The Order has effect (in relation to provision made or imposed at any time)—</p>
+				<tblock GUID="_b68de224-5cc7-45e1-978b-5e72d2f022ed" class="para1" eId="backCover__explNote__para_a">
+					<num>(a)</num>
+					<p>for corporation tax purposes, for accounting periods beginning on or after 1st January 2023, and</p>
+				</tblock>
+				<tblock GUID="_7544dc77-602b-4aaf-9f6a-95639b3de0dd" class="para1" eId="backCover__explNote__para_b">
+					<num>(b)</num>
+					<p>for income tax purposes, for the tax year 2023-24 and subsequent tax years.</p>
+				</tblock>
+				<p>The Order also revokes and replaces the Taxation (International and Other Provisions) Act 2010 Transfer Pricing Guidelines Designation Order 2018 (S.I. 2018/266).</p>
+				<p>A paper copy of the OECD Transfer Pricing Guidelines 2022 is available for inspection at: His Majesty’s Revenue and Customs, 100 Parliament Street, London SW1A 2BQ. The OECD Transfer Pricing Guidelines 2022 are also available to review free of charge on the OECD website at: https://www.oecd.org/tax/transfer-pricing/oecd-transfer-pricing-guidelines-for-multinational-enterprises-and-tax-administrations-20769717.htm.</p>
+				<p>A Tax Information and Impact Note covering this instrument has not been prepared for this instrument as it contains no substantive changes to tax policy.</p>
+			</blockContainer>
+		</conclusions>
+		
+	</act>
+</akomaNtoso>
