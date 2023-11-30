@@ -1,0 +1,890 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../schemas/akomantoso30.xsd">
+	<act contains="originalVersion" name="uksi">
+		<meta>
+			
+			<identification source="#ldapp">
+				<FRBRWork>
+					<FRBRthis value="#varWork" />
+					<FRBRuri value="#varWorkUri" />
+					<FRBRalias name="ttflConfigHistory" value="#varCHOiid" />
+					<FRBRdate date="9999-01-01" name="uksi" />
+					<FRBRauthor href="#varAuthor" />
+					<FRBRcountry value="GB-SCT" />
+					<FRBRsubtype value="#varDocSubType" />
+					<FRBRnumber value="#varProjectId" />
+					<FRBRname value="#varSITitle" />
+					<FRBRprescriptive value="true" />
+					<FRBRauthoritative value="false" />
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="#varExpression" />
+					<FRBRuri value="#varExpressionUri" />
+					<FRBRalias name="ttflVersionDescription" value="#varVDOiid" />
+					<FRBRdate date="9999-01-01" name="draft" />
+					<FRBRauthor href="#varAuthor" />
+					<FRBRversionNumber value="" />
+					<FRBRauthoritative value="false" />
+					<FRBRmasterExpression href="" showAs="" />
+					<FRBRlanguage language="eng" />
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="#varManifestation" />
+					<FRBRuri value="#varManifestationUri" />
+					<FRBRdate date="9999-01-01" name="akn_xml" />
+					<FRBRauthor href="#varAuthor" />
+					<FRBRformat value="application/akn+xml" />
+				</FRBRManifestation>
+			</identification>
+			<references source="#author">
+				<TLCConcept GUID="_ad8776d8-dbc4-4a99-a688-041bf9e5756c" eId="varDocSubType" href="#varOntologies" showAs="Regulations" />
+				<TLCConcept GUID="_37af97ab-0499-4edb-9e86-4c6a8f3f2de2" eId="varSITitle" href="#varOntologies" showAs="The Building Safety Act 2022 (Commencement No. 4 and Transitional Provisions) Regulations 2023" />
+				<TLCProcess GUID="_024660b9-ef07-436b-b38f-c0481f4f26a1" eId="varProcedureType" href="#varOntologies" showAs="No procedure" />
+				<TLCProcess GUID="_6a9f8ecd-1862-42d1-8c9e-cd48db155aa9" eId="varStageVersion" href="#varOntologies" showAs="1" />
+				<TLCProcess GUID="_cb9e3e66-9829-4ca4-adcc-3c5b56c561af" eId="varProjectId" href="#varOntologies" showAs="SI000092" />
+				<TLCProcess GUID="_d7c445f1-be8a-4589-8053-e440159362e0" eId="varWork" href="#varOntologies" showAs="" />
+				<TLCProcess GUID="_7da032cf-2fbf-4fdc-9b51-0a3fe2b6e229" eId="varWorkUri" href="#varOntologies" showAs="" />
+				<TLCProcess GUID="_e0337f18-3dae-4aa0-a4ec-38d545241b02" eId="varCHOiid" href="#varOntologies" showAs="" />
+				<TLCProcess GUID="_324328d1-dcb7-4347-ae2c-90a8fc1b95e4" eId="varExpression" href="#varOntologies" showAs="53598b1d-b406-4639-927c-07dde8467572" />
+				<TLCProcess GUID="_7930def1-0af7-49a3-adbd-7c9fe6833302" eId="varExpressionUri" href="#varOntologies" showAs="dma:///45e6b900-8929-11d4-b772-0050da06bfb4/80742cea-0ebb-4cf6-9759-1e52358d9b5b/;guid=53598b1d-b406-4639-927c-07dde8467572;class=Version%20Description" />
+				<TLCProcess GUID="_c268ed2d-3317-4f6d-a06f-b5f8e67420d8" eId="varVDOiid" href="#varOntologies" showAs="" />
+				<TLCProcess GUID="_9cfbb4ae-dc30-42d9-bc6a-5ba13dd0b0d7" eId="varManifestation" href="#varOntologies" showAs="" />
+				<TLCProcess GUID="_fe62f920-d67e-4805-a210-e723d612787c" eId="varManifestationUri" href="#varOntologies" showAs="" />
+				<TLCConcept GUID="_29a0a3d0-1bcf-42ba-89ce-292bb6aeb064" eId="varSIYear" href="#varOntologies" showAs="2023" />
+				<TLCConcept GUID="_9aef5b16-1cd3-4144-82fc-6022048787d8" eId="varSINoComp" href="#varOntologies" showAs="362" />
+				<TLCConcept GUID="_45497836-0349-41dc-9a75-9b256070d159" eId="varSINo" href="#varOntologies" showAs="#varSIYear No. #varSINoComp #varSISubsidiaryNos" />
+				<TLCConcept GUID="_55ce19f7-cd89-4ed6-b3ee-26132cee7592" eId="varSISubsidiaryNos" href="#varOntologies" showAs=" (C. 15)" />
+				<TLCConcept GUID="_bea7aff5-51fc-432a-ab15-75a31f226a9f" eId="varISBN" href="#varOntologies" showAs="" />
+				<TLCPerson GUID="_f2a5f03f-138c-45c9-b717-39f5335cd17f" eId="varMinistryAgency" href="#varOntologies" showAs="" />
+				<TLCConcept GUID="_f8c69d1d-5db3-4d60-9392-5e9885aad05c" eId="varDocType" href="#varOntologies" showAs="UKSI" />
+				<TLCProcess GUID="_e875ba1f-9125-4a42-b77b-638a783c6149" eId="varSystem" href="#varOntologies" showAs="LDAPP" />
+				<TLCOrganization GUID="_54847ae4-da16-4538-ba27-046cffed9780" eId="varAuthor" href="#varOntologies" showAs="UK Government" />
+				<TLCLocation GUID="_0deee294-e20b-4310-9f57-a956923dd072" eId="varJurisdiction" href="#varOntologies" showAs="United Kingdom" />
+				<TLCConcept GUID="_6af2fc6a-c4d6-48bb-a7f3-8bf9b003ac00" eId="varOntologies" href="https://www.legislation.gov.uk/ontologies/UK-AKN" showAs="https://www.legislation.gov.uk/ontologies/UK-AKN" />
+				<TLCConcept GUID="_32ce8c0e-b262-42e2-9821-1ac281780372" eId="varMadeDate" href="#varOntologies" showAs="2023-03-23T00:00:00.000" />
+			</references>
+		</meta>
+		<preface GUID="_41df392a-a8d4-4628-a94e-89fab1eaf2b3" eId="fnt">
+			
+			<block GUID="_e1f64e49-1841-4b76-81dc-76a498214215" eId="fnt__banner" name="banner">STATUTORY INSTRUMENTS</block>
+			<block GUID="_66989025-a5de-4004-ba26-eed2332d6dca" eId="fnt__no" name="number">
+				<docNumber GUID="_c07105e3-ffd6-41d1-916e-52c6acac4888" eId="fnt__no__dno">
+					<ref class="placeholder" href="#varSINo" />
+				</docNumber>
+			</block>
+			<container name="subjects">
+				<container GUID="_c41c2e79-d04f-4d71-b1ca-8034a6e68345" eId="fnt__subject" name="subject">
+					<block name="subject"><concept class="title" refersTo="">BUILDING AND BUILDINGS</concept></block>
+				</container>
+			</container>
+			<block GUID="_22508878-bc7a-48eb-ba0a-95cb334cf04a" eId="fnt__st" name="title">
+				<docTitle GUID="_5bef01ae-3d04-4463-8a96-56a41f0f4b9f" eId="fnt__st__dtitle">
+					<ref class="placeholder" href="#varSITitle" />
+				</docTitle>
+			</block>
+			<container GUID="_b080ce9c-ccc8-43b2-9b43-792ecd271a93" eId="fnt__dates" name="dates">
+				<block GUID="_012280fb-bbb1-45ef-97c9-8d06e8d8376d" eId="fnt__dates__madeDate" name="madeDate"><span>Made</span><docDate GUID="_8ecf1d81-9f85-4423-9213-ffdb9dabeb8e" date="2023-03-23T00:00:00.000" eId="fnt__dates__madeDate__ddate"><ref class="placeholder" href="#varMadeDate" ukl:dateFormat="d'th' MMMM yyyy">23rd March 2023</ref></docDate></block>
+			</container>
+		</preface>
+		<preamble GUID="_72310756-f823-4574-8fb3-20790be14f8f" eId="preamble">
+			
+			<formula GUID="_e0398c6d-c3cb-432e-9fd0-161ef7e33722" eId="preamble__enactingWords" name="enactingText">
+				<p>The Secretary of State makes these <ref class="placeholder" href="#varDocSubType" /> in exercise of the powers conferred by section 170(2)(b), (4)(c), (5) and (6) of the Building Safety Act 2022<authorialNote GUID="_f06b13b3-b16e-4884-a2c3-80267f8848b5" class="footnote" eId="fnote_1" marker="1">
+						<p>2022 c. 30.</p>
+					</authorialNote>.</p>
+			</formula>
+		</preamble>
+		<body>
+			
+			<hcontainer GUID="_b2f05895-cb31-4d61-80fa-b81f9e88d00b" class="prov1" eId="reg_1" name="regulation">
+				
+				<heading GUID="_a099d480-01fc-40a1-8126-8226a0229231" eId="reg_1__hdg">Citation and interpretation</heading>
+				<num>1.</num>
+				<paragraph GUID="_9061d29d-0fb1-49f7-9980-dd425c97ebdb" class="prov2" eId="reg_1__para_1">
+					<num>(1)</num>
+					<content>
+						<p>These Regulations may be cited as the Building Safety Act 2022 (Commencement No. 4 and Transitional Provisions) Regulations 2023.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_a5cf2e3c-9849-4313-99d7-e862c7ec2fea" class="prov2" eId="reg_1__para_2">
+					<num>(2)</num>
+					<content>
+						<p>In these Regulations “the 2022 Act” means the Building Safety Act 2022.</p>
+					</content>
+				</paragraph>
+			</hcontainer>
+			<hcontainer GUID="_94536e30-a77b-47fa-8a45-d5f748208a43" class="prov1" eId="reg_2" name="regulation">
+				
+				<heading GUID="_5385901a-4668-4726-a049-282b47417f00" eId="reg_2__hdg">Provisions coming into force on 1st April 2023</heading>
+				<num>2.</num>
+				<paragraph GUID="_351d6227-fa47-4ca8-a6b0-6a4aa8cccbc7" class="prov2" eId="reg_2__para_1">
+					<num>(1)</num>
+					<intro GUID="_ccb9455e-7f69-4e0d-9afb-93924797d56f" eId="reg_2__para_1__intro">
+						<p>The following provisions of the 2022 Act come into force on 1st April 2023—</p>
+					</intro>
+					<level GUID="_78cb098b-ec85-4df1-a69a-c7939c2b71cb" class="para1" eId="reg_2__para_1__para_a">
+						<num>(a)</num>
+						<content>
+							<p>section 5 (duty to keep safety and standard of buildings under review);</p>
+						</content>
+					</level>
+					<level GUID="_dec4caa3-e1ac-4fa9-a5ad-05697a2fecab" class="para1" eId="reg_2__para_1__para_b">
+						<num>(b)</num>
+						<content>
+							<p>section 6 (facilitating improvement in the competence of industry and building inspectors);</p>
+						</content>
+					</level>
+					<level GUID="_c2edcb14-2519-419d-8471-9591e724ad9e" class="para1" eId="reg_2__para_1__para_c">
+						<num>(c)</num>
+						<content>
+							<p>section 8 (duty to establish system for giving of building safety information);</p>
+						</content>
+					</level>
+					<level GUID="_6a4a4c3f-b2aa-4142-9f1b-afb2dcb2acac" class="para1" eId="reg_2__para_1__para_d">
+						<num>(d)</num>
+						<content>
+							<p>section 9(3) (abolition of the Building Regulations Advisory Committee for England);</p>
+						</content>
+					</level>
+					<level GUID="_198e87a1-8093-437a-9dc1-fd53a8065666" class="para1" eId="reg_2__para_1__para_e">
+						<num>(e)</num>
+						<content>
+							<p>section 47 (higher-risk building work: public bodies);</p>
+						</content>
+					</level>
+					<level GUID="_cfec0c2c-852f-46c5-87f4-5bf198a779ee" class="para1" eId="reg_2__para_1__para_f">
+						<num>(f)</num>
+						<content>
+							<p>section 55 so far as it relates to the paragraphs of Schedule 5 to the 2022 Act (minor and consequential amendments) specified in paragraph (2); and</p>
+						</content>
+					</level>
+					<level GUID="_49b98e53-52b5-4b7a-92c4-915408993528" class="para1" eId="reg_2__para_1__para_g">
+						<num>(g)</num>
+						<content>
+							<p>section 133 (service charges in respect of remediation works), for the purpose of making regulations under sections 20ZA(5A), 20D and 20E of the Landlord and Tenant Act 1985<authorialNote GUID="_1caa798b-8d0b-4cdf-a32f-501f33c0166b" class="footnote" eId="fnote_2" marker="2">
+									<p>1985 c. 70.</p>
+								</authorialNote>.</p>
+						</content>
+					</level>
+				</paragraph>
+				<paragraph GUID="_dc6769f2-b4cf-4255-a970-6a1012cb136c" class="prov2" eId="reg_2__para_2">
+					<num>(2)</num>
+					<intro GUID="_5793837b-bf3e-4d87-8cd1-c17ea04223e9" eId="reg_2__para_2__intro">
+						<p>The provisions of Schedule 5 referred to in paragraph (1)(f) are—</p>
+					</intro>
+					<level GUID="_e3f06ea6-2fec-4d98-a493-c962ba26e7dc" class="para1" eId="reg_2__para_2__para_a">
+						<num>(a)</num>
+						<content>
+							<p>paragraph 17;</p>
+						</content>
+					</level>
+					<level GUID="_c551e891-cb2a-4f84-a3b9-5af123051791" class="para1" eId="reg_2__para_2__para_b">
+						<num>(b)</num>
+						<content>
+							<p>paragraph 77, for all remaining purposes;</p>
+						</content>
+					</level>
+					<level GUID="_4460ba62-7a9c-4158-8b65-d8eaa37c55d5" class="para1" eId="reg_2__para_2__para_c">
+						<num>(c)</num>
+						<content>
+							<p>paragraph 85;</p>
+						</content>
+					</level>
+					<level GUID="_481c2e17-e251-447b-995d-fb367d1192af" class="para1" eId="reg_2__para_2__para_d">
+						<num>(d)</num>
+						<content>
+							<p>paragraph 87; and</p>
+						</content>
+					</level>
+					<level GUID="_044f2c9d-d236-44c1-ba4c-5b109495e273" class="para1" eId="reg_2__para_2__para_e">
+						<num>(e)</num>
+						<content>
+							<p>paragraph 88.</p>
+						</content>
+					</level>
+				</paragraph>
+			</hcontainer>
+			<hcontainer GUID="_39471379-75f2-412d-b6ba-e54d1ce27d81" class="prov1" eId="reg_3" name="regulation">
+				
+				<heading GUID="_3ab7884b-265f-4ed3-ba3b-99a06ce210d2" eId="reg_3__hdg">Provisions coming into force on 6th April 2023</heading>
+				<num>3.</num>
+				<paragraph GUID="_dc8839f5-25f9-45ae-a914-e62a376f3d78" class="prov2" eId="reg_3__para_1">
+					<num>(1)</num>
+					<intro GUID="_19c7773e-a50c-442e-80b2-1053b61f5aeb" eId="reg_3__para_1__intro">
+						<p>The following provisions of the 2022 Act come into force on 6th April 2023—</p>
+					</intro>
+					<level GUID="_7475f44a-cbce-46aa-9278-3caa9390f7f9" class="para1" eId="reg_3__para_1__para_a">
+						<num>(a)</num>
+						<content>
+							<p>section 12 (committees: power to amend or repeal);</p>
+						</content>
+					</level>
+					<level GUID="_eef24bc2-2528-47d5-b42f-8bd551b000c1" class="para1" eId="reg_3__para_1__para_b">
+						<num>(b)</num>
+						<content>
+							<p>section 13 (local authorities and fire and rescue authorities: assistance etc to regulator);</p>
+						</content>
+					</level>
+					<level GUID="_9e4247f7-6c11-4d7d-ad6e-8cbc35fc1882" class="para1" eId="reg_3__para_1__para_c">
+						<num>(c)</num>
+						<content>
+							<p>section 14 (FSO authorised persons: assistance etc to regulator);</p>
+						</content>
+					</level>
+					<level GUID="_d086f291-03e8-45c8-9bf6-202c0c163c10" class="para1" eId="reg_3__para_1__para_d">
+						<num>(d)</num>
+						<content>
+							<p>section 15 (provision of assistance etc: supplementary);</p>
+						</content>
+					</level>
+					<level GUID="_e877cc99-d5f5-4939-825a-7f63eed714b0" class="para1" eId="reg_3__para_1__para_e">
+						<num>(e)</num>
+						<content>
+							<p>section 16 (guidance about the provision of assistance);</p>
+						</content>
+					</level>
+					<level GUID="_2280e620-5dcf-4fdd-8e0d-0d188e6d1361" class="para1" eId="reg_3__para_1__para_f">
+						<num>(f)</num>
+						<content>
+							<p>section 20 (statement of regulator’s engagement with residents etc);</p>
+						</content>
+					</level>
+					<level GUID="_ffd2fb00-b8bd-41fe-a200-c835227ec9dd" class="para1" eId="reg_3__para_1__para_g">
+						<num>(g)</num>
+						<content>
+							<p>section 22 and Schedule 2 (authorised officers);</p>
+						</content>
+					</level>
+					<level GUID="_de51a169-bde4-4a41-a4c4-887bce7424bd" class="para1" eId="reg_3__para_1__para_h">
+						<num>(h)</num>
+						<content>
+							<p>section 23 (authorised officers: offences);</p>
+						</content>
+					</level>
+					<level GUID="_864f33d5-dd7b-47b9-aa1b-86e8dc5abed9" class="para1" eId="reg_3__para_1__para_i">
+						<num>(i)</num>
+						<content>
+							<p>section 24 (providing false or misleading information to regulator);</p>
+						</content>
+					</level>
+					<level GUID="_0d519164-25ef-4c1b-ad65-0b56d9ca55a8" class="para1" eId="reg_3__para_1__para_j">
+						<num>(j)</num>
+						<content>
+							<p>section 25 (review by regulator of certain decisions made by it);</p>
+						</content>
+					</level>
+					<level GUID="_ac2783f5-7303-44fa-a193-69e27bdbe71b" class="para1" eId="reg_3__para_1__para_k">
+						<num>(k)</num>
+						<content>
+							<p>section 27 and Schedule 3 (cooperation and information sharing);</p>
+						</content>
+					</level>
+					<level GUID="_e13f3ff7-bbaa-4419-b74a-2f9bf3cab559" class="para1" eId="reg_3__para_1__para_l">
+						<num>(l)</num>
+						<content>
+							<p>section 29 (service of documents);</p>
+						</content>
+					</level>
+					<level GUID="_cd253e84-c328-4da0-9b52-1c40749b9bb9" class="para1" eId="reg_3__para_1__para_m">
+						<num>(m)</num>
+						<content>
+							<p>section 32 (building control authorities), for the purpose of making regulations under sections 91ZB and 91ZC of the Building Act 1984<authorialNote GUID="_7c7a8125-52e7-4116-be27-d6e1ea06714a" class="footnote" eId="fnote_3" marker="3">
+									<p>1984 c. 55.</p>
+								</authorialNote>;</p>
+						</content>
+					</level>
+					<level GUID="_6157f279-af80-4744-b536-be6c1b0fa147" class="para1" eId="reg_3__para_1__para_n">
+						<num>(n)</num>
+						<content>
+							<p>sections 33 to 35 (building regulations, dutyholders and competence);</p>
+						</content>
+					</level>
+					<level GUID="_71831863-4641-4bea-8907-1768ba159054" class="para1" eId="reg_3__para_1__para_o">
+						<num>(o)</num>
+						<content>
+							<p>section 36 (lapse of building control approval etc), for the purpose of making regulations under sections 32 and 53A of, and paragraph 4A(6) of Schedule 4 to, the Building Act 1984;</p>
+						</content>
+					</level>
+					<level GUID="_91fbacec-c50e-4e9b-b897-034367b944fc" class="para1" eId="reg_3__para_1__para_p">
+						<num>(p)</num>
+						<content>
+							<p>section 37 (determination of certain applications by appropriate national authority);</p>
+						</content>
+					</level>
+					<level GUID="_4458b833-411b-44c9-8bd6-7d2bb0adf302" class="para1" eId="reg_3__para_1__para_q">
+						<num>(q)</num>
+						<content>
+							<p>section 38 (compliance and stop notices), for the purpose of making regulations under sections 35B, 35C and 35D of the Building Act 1984;</p>
+						</content>
+					</level>
+					<level GUID="_41e5a0d6-1fb1-4238-993d-6a09f008a10d" class="para1" eId="reg_3__para_1__para_r">
+						<num>(r)</num>
+						<content>
+							<p>section 39 (breach of building regulations), for the purpose of making regulations under section 35 of the Building Act 1984;</p>
+						</content>
+					</level>
+					<level GUID="_d51c65cd-91b7-4d08-9fe3-54c0c16ad46a" class="para1" eId="reg_3__para_1__para_s">
+						<num>(s)</num>
+						<content>
+							<p>section 42 (regulation of building control profession), for the purpose of making regulations under sections 58C, 58O, 58U, 58V, 58Z4 and 58Z5 of the Building Act 1984;</p>
+						</content>
+					</level>
+					<level GUID="_94bd5a7e-1207-43cf-bfc8-f2d0ea9dba9b" class="para1" eId="reg_3__para_1__para_t">
+						<num>(t)</num>
+						<content>
+							<p>section 44 (functions exercisable only through, or with advice of, registered building inspectors), for the purpose of making regulations under sections 46A and 54B of the Building Act 1984;</p>
+						</content>
+					</level>
+					<level GUID="_484f0f64-0b6f-48b2-be92-2abb567e5da1" class="para1" eId="reg_3__para_1__para_u">
+						<num>(u)</num>
+						<content>
+							<p>section 46 (higher-risk building work: registered building control approvers), for the purpose of making regulations under sections 52A and 55 of the Building Act 1984;</p>
+						</content>
+					</level>
+					<level GUID="_ff4640ad-a20d-4e8f-be2c-f012ee6e832a" class="para1" eId="reg_3__para_1__para_v">
+						<num>(v)</num>
+						<content>
+							<p>sections 49 to 53 (plans certificates, cancellation of initial notices etc), for the purpose of making regulations under sections 50, 52, 53, 53B, 53C, 53D, 55, 56A and 56B of, and paragraph 2 of Schedule 4 to, the Building Act 1984;</p>
+						</content>
+					</level>
+					<level GUID="_581f4aa0-065a-44a7-b45d-de1b4c7fe6d4" class="para1" eId="reg_3__para_1__para_w">
+						<num>(w)</num>
+						<intro GUID="_da0cf798-cf14-4e80-ae6b-698895632084" eId="reg_3__para_1__para_w__intro">
+							<p>section 55 so far as it relates to the following paragraphs of Schedule 5 to the 2022 Act (minor and consequential amendments)—</p>
+						</intro>
+						<level GUID="_396ca910-fc56-489f-8ebf-28cd22493fe1" class="para2" eId="reg_3__para_1__para_w__subpara_i">
+							<num>(i)</num>
+							<content>
+								<p>paragraph 40(1), so far as it relates to paragraph 40(3);</p>
+							</content>
+						</level>
+						<level GUID="_80decedd-e226-4154-8ac7-fcfac0614612" class="para2" eId="reg_3__para_1__para_w__subpara_ii">
+							<num>(ii)</num>
+							<content>
+								<p>paragraph 40(3);</p>
+							</content>
+						</level>
+						<level GUID="_79c0ab94-5948-4d7a-8ef7-871d56ec5a86" class="para2" eId="reg_3__para_1__para_w__subpara_iii">
+							<num>(iii)</num>
+							<content>
+								<p>paragraph 42(1), so far as it relates to paragraph 42(3);</p>
+							</content>
+						</level>
+						<level GUID="_b9cb65c6-d4f9-4977-bb2d-e9fd5d5f273f" class="para2" eId="reg_3__para_1__para_w__subpara_iv">
+							<num>(iv)</num>
+							<content>
+								<p>paragraph 42(3);</p>
+							</content>
+						</level>
+						<level GUID="_dfd537aa-5cb7-48d2-b180-7759ca85dfb7" class="para2" eId="reg_3__para_1__para_w__subpara_v">
+							<num>(v)</num>
+							<content>
+								<p>paragraph 80, for the purpose of making regulations under section 125A of the Building Act 1984;</p>
+							</content>
+						</level>
+						<level GUID="_def55c55-5895-4eb1-9d9a-4dff6a1e25d5" class="para2" eId="reg_3__para_1__para_w__subpara_vi">
+							<num>(vi)</num>
+							<content>
+								<p>paragraph 83(1), so far as it relates to paragraph 83(8);</p>
+							</content>
+						</level>
+						<level GUID="_c840317a-fffd-4e62-b03b-59e8da9ce3bb" class="para2" eId="reg_3__para_1__para_w__subpara_vii">
+							<num>(vii)</num>
+							<content>
+								<p>paragraph 83(8);</p>
+							</content>
+						</level>
+					</level>
+					<level GUID="_81876cd0-82a7-4fcc-8064-e924fd6fe7b3" class="para1" eId="reg_3__para_1__para_x">
+						<num>(x)</num>
+						<content>
+							<p>section 56 so far as it relates to paragraph 30 of Schedule 6 to the 2022 Act (appeals), for the purpose of making regulations under section 101A of the Building Act 1984;</p>
+						</content>
+					</level>
+					<level GUID="_cf943c64-b754-45e2-8bb9-f92061fea2ea" class="para1" eId="reg_3__para_1__para_y">
+						<num>(y)</num>
+						<content>
+							<p>section 71 (meaning of “occupied” higher-risk building etc);</p>
+						</content>
+					</level>
+					<level GUID="_ac3a8be7-fe1d-4f9b-b37f-99c74d6be014" class="para1" eId="reg_3__para_1__para_z">
+						<num>(z)</num>
+						<content>
+							<p>section 72 (meaning of “accountable person”);</p>
+						</content>
+					</level>
+					<level GUID="_6cd1e7a9-ea4a-48aa-af2e-93761f2511e7" class="para1" eId="reg_3__para_1__para_z1">
+						<num>(z1)</num>
+						<content>
+							<p>section 73 (meaning “principal accountable person”);</p>
+						</content>
+					</level>
+					<level GUID="_fa94c545-42f6-4a8c-bc55-7658edc4ebd4" class="para1" eId="reg_3__para_1__para_z2">
+						<num>(z2)</num>
+						<content>
+							<p>section 74 (part of building for which an accountable person is responsible);</p>
+						</content>
+					</level>
+					<level GUID="_6bdd3877-b89c-43b3-90d6-900b7765de55" class="para1" eId="reg_3__para_1__para_z3">
+						<num>(z3)</num>
+						<content>
+							<p>section 75 (determinations by the tribunal);</p>
+						</content>
+					</level>
+					<level GUID="_22726c65-3449-4948-9077-132ab65208dd" class="para1" eId="reg_3__para_1__para_z4">
+						<num>(z4)</num>
+						<content>
+							<p>section 78(1), (3), (4) and (5) (registration of higher-risk buildings);</p>
+						</content>
+					</level>
+					<level GUID="_171071b5-28e8-4bac-b77f-d986e8b50c91" class="para1" eId="reg_3__para_1__para_z5">
+						<num>(z5)</num>
+						<content>
+							<p>section 89 (provision of information etc to the regulator, residents and other persons);</p>
+						</content>
+					</level>
+					<level GUID="_cdd43d14-8f65-46a2-8fa8-3dc765a45095" class="para1" eId="reg_3__para_1__para_z6">
+						<num>(z6)</num>
+						<content>
+							<p>section 107 (enforcement of decisions of the First-tier and Upper Tribunal);</p>
+						</content>
+					</level>
+					<level GUID="_1ce8f801-5728-4971-9f80-76908ddf97d5" class="para1" eId="reg_3__para_1__para_z7">
+						<num>(z7)</num>
+						<content>
+							<p>section 108 (guidance);</p>
+						</content>
+					</level>
+					<level GUID="_4a7abe7c-130e-4f65-b402-e17aab0629fc" class="para1" eId="reg_3__para_1__para_z8">
+						<num>(z8)</num>
+						<content>
+							<p>section 109 (cooperation and coordination);</p>
+						</content>
+					</level>
+					<level GUID="_cd10a355-7461-4c97-b6cd-02f09d4c72a8" class="para1" eId="reg_3__para_1__para_z9">
+						<num>(z9)</num>
+						<content>
+							<p>section 110 (managers appointed under Part 2 of the Landlord and Tenant Act 1987);</p>
+						</content>
+					</level>
+					<level GUID="_801efa4d-4d7c-4edc-8cbd-e339219b5c83" class="para1" eId="reg_3__para_1__para_z10">
+						<num>(z10)</num>
+						<intro GUID="_0237ba12-ac0c-4dff-8bc6-e41b0b9f186f" eId="reg_3__para_1__para_z10__intro">
+							<p>the following provisions of section 112 (implied terms in leases and recovery of safety related costs)—</p>
+						</intro>
+						<level GUID="_518e5107-065d-405c-b278-f23f682d7227" class="para2" eId="reg_3__para_1__para_z10__subpara_i">
+							<num>(i)</num>
+							<content>
+								<p>section 112(1), so far as it relates to the following provisions of section 112;</p>
+							</content>
+						</level>
+						<level GUID="_1e9fb286-a927-413b-8d62-ee71aa07f8fd" class="para2" eId="reg_3__para_1__para_z10__subpara_ii">
+							<num>(ii)</num>
+							<intro GUID="_c66730c0-f6c0-416a-b87a-be7dfdc53872" eId="reg_3__para_1__para_z10__subpara_ii__intro">
+								<p>section 112(2), so far as it relates to—</p>
+							</intro>
+							<level GUID="_0c61870a-4474-4952-a94f-933a618378dd" class="para3" eId="reg_3__para_1__para_z10__subpara_ii__subsubpara_aa">
+								<num>(aa)</num>
+								<content>
+									<p>inserting sections 30D and 30I into the Landlord and Tenant Act 1985;</p>
+								</content>
+							</level>
+							<level GUID="_acacbbfa-0caf-45e6-be35-c437efcd208c" class="para3" eId="reg_3__para_1__para_z10__subpara_ii__subsubpara_bb">
+								<num>(bb)</num>
+								<content>
+									<p>inserting subsection (2) of section 30F into the Landlord and Tenant Act 1985, for the purposes of that subsection as it applies to section 30D;</p>
+								</content>
+							</level>
+							<level GUID="_f52046d9-5215-4490-a10e-1b2a58ac8007" class="para3" eId="reg_3__para_1__para_z10__subpara_ii__subsubpara_cc">
+								<num>(cc)</num>
+								<content>
+									<p>inserting section 30G into the Landlord and Tenant Act 1985, for the purposes of that section as it applies to section 30D;</p>
+								</content>
+							</level>
+						</level>
+						<level GUID="_960747b9-d80e-4a94-ad30-3d7157dfb9ae" class="para2" eId="reg_3__para_1__para_z10__subpara_iii">
+							<num>(iii)</num>
+							<content>
+								<p>section 112(3), for the purpose of inserting section 20F into the Landlord and Tenant Act 1985 for all purposes except in relation to a tenant owned or run building;</p>
+							</content>
+						</level>
+						<level GUID="_e0fdbadd-710a-4ac6-9022-15fd2469fd47" class="para2" eId="reg_3__para_1__para_z10__subpara_iv">
+							<num>(iv)</num>
+							<content>
+								<p>section 112(4) and (5);</p>
+							</content>
+						</level>
+						<level GUID="_7c5542c8-3299-49db-b560-376c52c62cc2" class="para2" eId="reg_3__para_1__para_z10__subpara_v">
+							<num>(v)</num>
+							<content>
+								<p>section 112(6), for the purpose of inserting the entry for section 30D into section 32 of the Landlord and Tenant Act 1985;</p>
+							</content>
+						</level>
+					</level>
+					<level GUID="_d6cfc445-7d57-43c4-8b6e-8ef56cc29437" class="para1" eId="reg_3__para_1__para_z11">
+						<num>(z11)</num>
+						<content>
+							<p>section 114 (commonholds); and</p>
+						</content>
+					</level>
+					<level GUID="_9168002a-cd6d-49da-8546-30c5baca3bdb" class="para1" eId="reg_3__para_1__para_z12">
+						<num>(z12)</num>
+						<content>
+							<p>sections 144 and 145 (new build home warranties), for the purpose of making regulations.</p>
+						</content>
+					</level>
+				</paragraph>
+				<paragraph GUID="_394be108-1fc1-4b68-bcfd-f2182b347b8e" class="prov2" eId="reg_3__para_2">
+					<num>(2)</num>
+					<intro GUID="_fca16ec4-4631-481e-bef1-7e5f631b88e3" eId="reg_3__para_2__intro">
+						<p>For the purposes of this regulation—</p>
+					</intro>
+					<hcontainer GUID="_5ae2c10b-4609-4265-800e-180d5278ca42" class="definition" eId="reg_3__para_2__def_residentmanagementcompany_" name="definition">
+						<intro GUID="_cfe414a6-3561-4143-aa72-f5ae74c40a2b" eId="reg_3__para_2__def_residentmanagementcompany__intro">
+							<p><def GUID="_52e9976e-8353-4f10-8e81-d74c758ff860" eId="reg_3__para_2__def_residentmanagementcompany" ukl:endQuote="”" ukl:startQuote="“">resident management company</def> means a body corporate which is party to a lease of a building where—</p>
+						</intro>
+						<level GUID="_96f95069-4fd5-4790-9481-97bbad680c03" class="para1" eId="reg_3__para_2__def_residentmanagementcompany__para_a">
+							<num>(a)</num>
+							<content>
+								<p>the body corporate is limited by guarantee and the members of that body are tenants under leases of dwellings in the building (“leaseholders”), or</p>
+							</content>
+						</level>
+						<level GUID="_3f27ccd3-e16d-43e0-9d88-182296d2e827" class="para1" eId="reg_3__para_2__def_residentmanagementcompany__para_b">
+							<num>(b)</num>
+							<content>
+								<p>the majority of the shares of the body corporate are held by leaseholders;</p>
+							</content>
+						</level>
+					</hcontainer>
+					<hcontainer GUID="_d8f16ee6-760a-41b4-b86a-eff833ff3936" class="definition" eId="reg_3__para_2__def_tenantownedorrunbuilding_" name="definition">
+						<intro GUID="_d92cc282-2005-4918-851a-b67a2bd14e71" eId="reg_3__para_2__def_tenantownedorrunbuilding__intro">
+							<p><def GUID="_18f79144-2c7c-4ab6-b162-21970659af6b" eId="reg_3__para_2__def_tenantownedorrunbuilding" ukl:endQuote="”" ukl:startQuote="“">tenant owned or run building</def> means a building or part of a building—</p>
+						</intro>
+						<level GUID="_ea456c52-ce7e-4cd6-bbcd-e8610fda07be" class="para1" eId="reg_3__para_2__def_tenantownedorrunbuilding__para_a">
+							<num>(a)</num>
+							<content>
+								<p>in relation to which a right under Part 1 of the Landlord and Tenant Act 1987<authorialNote GUID="_92d6f2b6-45cd-448f-bcfd-76596e5c9747" class="footnote" eId="fnote_4" marker="4">
+										<p>1987 c. 31.</p>
+									</authorialNote> (tenants’ right of first refusal) or Part 3 of that Act (compulsory acquisition by tenants of landlord’s interest) has been exercised;</p>
+							</content>
+						</level>
+						<level GUID="_bc0df0f4-f9f1-4d32-8c5c-8d9d603e81dc" class="para1" eId="reg_3__para_2__def_tenantownedorrunbuilding__para_b">
+							<num>(b)</num>
+							<content>
+								<p>in relation to which the right to collective enfranchisement (within the meaning of Chapter 1 of Part 1 of the Leasehold Reform, Housing and Urban Development Act 1993<authorialNote GUID="_4cff1703-c31c-4259-afd8-fd6a16c1b794" class="footnote" eId="fnote_5" marker="5">
+										<p>1993 c. 28.</p>
+									</authorialNote>) has been exercised;</p>
+							</content>
+						</level>
+						<level GUID="_e100d1bd-c54e-420c-a5b4-9ca2e27f177d" class="para1" eId="reg_3__para_2__def_tenantownedorrunbuilding__para_c">
+							<num>(c)</num>
+							<content>
+								<p>in relation to which the freehold estate in the building or part of the building is solely owned by tenants in the building or part of the building, whether through a corporate structure or otherwise and neither sub-paragraph (a) or (b) applies;</p>
+							</content>
+						</level>
+						<level GUID="_c43c0ebe-040e-4d19-828e-ff2f8d88ff72" class="para1" eId="reg_3__para_2__def_tenantownedorrunbuilding__para_d">
+							<num>(d)</num>
+							<content>
+								<p>for which a resident management company has obligations under a lease in respect of any duties under Part 4 of the 2022 Act or regulations made under that Part;</p>
+							</content>
+						</level>
+						<level GUID="_99027f8a-d220-4889-85cc-1de4faf59de8" class="para1" eId="reg_3__para_2__def_tenantownedorrunbuilding__para_e">
+							<num>(e)</num>
+							<content>
+								<p>in relation to which there is a RTM company (within the meaning of Chapter 1 of Part 2 of the Commonhold and Leasehold Reform Act 2002<authorialNote GUID="_9072e34b-20be-4dd7-bc5d-a35ecfeab2e1" class="footnote" eId="fnote_6" marker="6">
+										<p>2002 c. 15.</p>
+									</authorialNote>).</p>
+							</content>
+						</level>
+					</hcontainer>
+				</paragraph>
+			</hcontainer>
+			<hcontainer GUID="_600a0d27-4e16-43ab-8519-c6bc3071cedd" class="prov1" eId="reg_4" name="regulation">
+				
+				<heading GUID="_55a2545e-8bdb-42e8-bb6e-5f1dd2e343a9" eId="reg_4__hdg">Provision coming into force on 1st October 2023</heading>
+				<num>4.</num>
+				<content>
+					<p>Section 156 (amendment of the Regulatory Reform (Fire Safety) Order 2005) of the 2022 Act (except subsection (4)) comes into force on 1st October 2023.</p>
+				</content>
+			</hcontainer>
+			<hcontainer GUID="_311b531c-7a2c-44af-b5f6-c0287da613b6" class="prov1" eId="reg_5" name="regulation">
+				
+				<heading GUID="_3591eeae-bb42-4066-b409-932a9faa7f8e" eId="reg_5__hdg">Transitional provisions</heading>
+				<num>5.</num>
+				<paragraph GUID="_034b1710-7575-4440-a0e6-afaf5a10b6f2" class="prov2" eId="reg_5__para_1">
+					<num>(1)</num>
+					<content>
+						<p>The requirements of section 120B of the Building Act 1984 (inserted by paragraph 77 of Schedule 5 to the 2022 Act) do not apply to any proposal for the making of building regulations<authorialNote GUID="_8d6b9b4e-939b-446c-9367-bd5fd645a800" class="footnote" eId="fnote_7" marker="7">
+								<p>See section 122 of the Building Act 1984 for the definition of building regulations.</p>
+							</authorialNote> under that Act where a consultation was carried out in relation to the proposal before 6th April 2023.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_5a075a81-f225-4048-a9b0-301f8daa9c12" class="prov2" eId="reg_5__para_2">
+					<num>(2)</num>
+					<content>
+						<p>The amendments to article 32 of the Regulatory Reform (Fire Safety) Order 2005<authorialNote GUID="_66b152e6-2ab8-44f2-b4d4-176bcb78fac4" class="footnote" eId="fnote_8" marker="8">
+								<p>S.I. 2005/1541.</p>
+							</authorialNote> made by section 156(10)(b) and (c) of the 2022 Act do not apply in relation to an offence which was committed before 1st October 2023.</p>
+					</content>
+				</paragraph>
+			</hcontainer>
+			<hcontainer GUID="_fb8b91c3-55df-4550-956a-1fd91f8f1d82" eId="sigs" name="signatures">
+				
+				<hcontainer GUID="_7bb1aef7-81eb-41fd-95da-600413b1e194" eId="sigs__sigBlk" name="signatureBlock">
+					<content>
+						<p>Signed by authority of the Secretary of State for Levelling Up, Housing and Communities</p>
+						<block GUID="_84fa981d-f82a-4a89-ab6c-9f1a29475007" eId="sigs__sigBlk__role" name="role">Lee Rowley, Parliamentary Under Secretary of State</block>
+						<block name="date"><date date="2022-12-01">23rd March 2023</date></block>
+						<block GUID="_fd1234a5-982f-445c-8d44-e711af5d90e6" eId="sigs__sigBlk__org" name="organization">Department for Levelling Up, Housing and Communities</block>
+					</content>
+				</hcontainer>
+			</hcontainer>
+		</body>
+		<conclusions GUID="_0596abe9-b728-465c-b271-cfb96a2b4d55" eId="backCover">
+			
+			<blockContainer GUID="_c1566872-dac0-47fb-8fb9-e44648d70850" class="explanatoryNote" eId="backCover__explNote">
+				<heading GUID="_20c0c1ee-0476-4457-bda6-9165614cded2" eId="backCover__explNote__hdg">Explanatory Note</heading>
+				<subheading GUID="_630f6b5a-854d-4365-b486-dba69c0d07c0" eId="backCover__explNote__subhdg">(This note is not part of the <ref class="placeholder" href="#varDocSubType" />)</subheading>
+				<p>These Regulations are the fourth commencement Regulations made under the Building Safety Act 2022 (“the Act”).</p>
+				<p>Regulation 2 provides for sections 5, 6, 8, 9(3), 47, 55 (partially) and 133 of the Act to come into force on 1st April 2023. In particular, new functions of the building safety regulator are commenced and the Building Regulations Advisory Committee for England is abolished on that date.</p>
+				<p>Regulation 3 provides for sections 12, 13, 14, 15, 16, 20, 22, 23, 24, 25, 27, 29, 32 (partially), 33, 34, 35, 36 (partially), 37, 38 (partially), 39 (partially), 42 (partially), 44 (partially), 46 (partially), 49 (partially), 50 (partially), 51 (partially), 52 (partially), 53 (partially), 55 (partially), 56 (partially), 71, 72, 73, 74, 75, 78 (partially), 89, 107, 108, 109, 110, 112 (partially), 114, 144 (partially) and 145 (partially) to come into force on 6th April 2023. In particular, regulation 3 commences the provisions in Part 4 of the Act supporting the registration of higher-risk buildings and various regulation-making provisions in the Building Act 1984.</p>
+				<p>Regulation 4 provides for section 156 (except subsection (4)), which makes amendments to the Regulatory Reform (Fire Safety) Order 2005, to come into force on 1st October 2023.</p>
+				<p>Regulation 5 makes transitional provisions in relation to commencement of paragraph 77 of Schedule 5 to the Building Safety Act 2022 (which inserts section 120B into the Building Act 1984 (proposals and consultations relating to the regulations made by the Secretary of State)) and in relation to the amendments to the Regulatory Reform (Fire Safety) Order 2005.</p>
+			</blockContainer>
+			<blockContainer GUID="_e79f1d90-eaaf-4b8a-81da-72fc83d51fe5" class="commencementHistory" eId="backCover__comHist">
+				<heading GUID="_169106cf-19cd-4387-9807-269fbeecd585" eId="backCover__comHist__hdg">NOTE AS TO EARLIER COMMENCEMENT <ref class="placeholder" href="#varDocSubType" /></heading>
+				<subheading GUID="_1dff82bb-c049-435d-9294-4ba771618753" eId="backCover__comHist__subhdg">(This note is not part of the <ref class="placeholder" href="#varDocSubType" />)</subheading>
+				<p>The following provisions of the Building Safety Act 2022 have been brought into force by commencement <ref class="placeholder" href="#varDocSubType">Regulations</ref> made before the date of these <ref class="placeholder" href="#varDocSubType">Regulations</ref>.</p>
+				<tblock GUID="_d41d1317-1496-4d56-8617-7fdc37ca6b91" class="table" eId="backCover__comHist__tbl__oc_1">
+					<foreign>
+						<table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="topAndBottom tablecenter width100" cols="3">
+							<thead class="italic left">
+								<tr akn:GUID="_0c0603bd-3222-4574-ad9a-0ae2cc2967f5" akn:eId="backCover__comHist__tbl__oc_1__hdg__row__oc_1">
+									<td akn:GUID="_3592762e-a90c-492d-be4d-9fddffa5a871" akn:eId="backCover__comHist__tbl__oc_1__hdg__row__oc_1__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Provision</p>
+									</td>
+									<td akn:GUID="_de9f22af-89ec-44af-a2ee-921138031a83" akn:eId="backCover__comHist__tbl__oc_1__hdg__row__oc_1__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Date of Commencement</p>
+									</td>
+									<td akn:GUID="_cfefe07a-c0bc-4f0d-b481-679571c6e036" akn:eId="backCover__comHist__tbl__oc_1__hdg__row__oc_1__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. No.</p>
+									</td>
+								</tr>
+							</thead>
+							<tbody class="left">
+								<tr akn:GUID="_74dd8ae9-0d9b-472b-80cc-916f150d73b3" akn:eId="backCover__comHist__tbl__oc_1__row__oc_1">
+									<td akn:GUID="_67a7508f-2aaf-4f5f-9603-6b8721ce52fd" akn:eId="backCover__comHist__tbl__oc_1__row__oc_1__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 2 (remaining purposes)</p>
+									</td>
+									<td akn:GUID="_d52fd9e8-c298-4a83-92a7-b238c46e6f4d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_1__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">28th June 2022</p>
+									</td>
+									<td akn:GUID="_7dbeaef6-a169-4d94-9c29-822f8fc7c911" akn:eId="backCover__comHist__tbl__oc_1__row__oc_1__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2022/561</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_8d078593-6fd2-49e8-b8e5-be435d692a8d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_2">
+									<td akn:GUID="_7becea8e-8a9a-4434-baa1-3f501d3ecd40" akn:eId="backCover__comHist__tbl__oc_1__row__oc_2__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 3</p>
+									</td>
+									<td akn:GUID="_78324388-f77c-4ca9-a30a-b8834c3d63d1" akn:eId="backCover__comHist__tbl__oc_1__row__oc_2__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">28th June 2022</p>
+									</td>
+									<td akn:GUID="_b57b5407-e331-4666-9f1a-036375fc20a8" akn:eId="backCover__comHist__tbl__oc_1__row__oc_2__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2022/561</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_4e41cd3a-7fd4-4f55-b832-cda5ac4c343e" akn:eId="backCover__comHist__tbl__oc_1__row__oc_3">
+									<td akn:GUID="_89ac72c6-0152-43c0-916a-efb6c56befd9" akn:eId="backCover__comHist__tbl__oc_1__row__oc_3__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 4 (partially)</p>
+									</td>
+									<td akn:GUID="_0a45b9b4-f83c-4f81-a78b-e3d71cfc7600" akn:eId="backCover__comHist__tbl__oc_1__row__oc_3__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st December 2022</p>
+									</td>
+									<td akn:GUID="_2d0ec2d7-df04-4686-a573-962b372fac4e" akn:eId="backCover__comHist__tbl__oc_1__row__oc_3__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2022/1210</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_d0ee2e40-929f-4908-8eea-46d89b2efbdb" akn:eId="backCover__comHist__tbl__oc_1__row__oc_4">
+									<td akn:GUID="_bae2a48b-00cc-4ed0-9fec-f58610a28649" akn:eId="backCover__comHist__tbl__oc_1__row__oc_4__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 9 (partially)</p>
+									</td>
+									<td akn:GUID="_2dd64186-c6ca-424a-bca3-5bad998c212f" akn:eId="backCover__comHist__tbl__oc_1__row__oc_4__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st December 2022</p>
+									</td>
+									<td akn:GUID="_8d65f7af-565c-49b5-86e0-13e971bca5a9" akn:eId="backCover__comHist__tbl__oc_1__row__oc_4__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2022/1210</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_b60321f3-8066-4344-9336-74d4fd4720f0" akn:eId="backCover__comHist__tbl__oc_1__row__oc_5">
+									<td akn:GUID="_d14709c3-6728-4113-8e46-e6e46fff24e5" akn:eId="backCover__comHist__tbl__oc_1__row__oc_5__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 11</p>
+									</td>
+									<td akn:GUID="_26ecbb94-b5b9-4e8c-b5f4-708e49b8365c" akn:eId="backCover__comHist__tbl__oc_1__row__oc_5__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st December 2022</p>
+									</td>
+									<td akn:GUID="_524cf538-7d45-40ae-bf42-b89a965750a7" akn:eId="backCover__comHist__tbl__oc_1__row__oc_5__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2022/1210</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_f9abb9d8-d0a7-45f0-97b4-00e7cb75db10" akn:eId="backCover__comHist__tbl__oc_1__row__oc_6">
+									<td akn:GUID="_fceb3923-fe9a-491a-92b8-c268bf0b18d2" akn:eId="backCover__comHist__tbl__oc_1__row__oc_6__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 17</p>
+									</td>
+									<td akn:GUID="_9c5d0838-c6e0-4ea0-bee0-394da5be1325" akn:eId="backCover__comHist__tbl__oc_1__row__oc_6__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">28th June 2022</p>
+									</td>
+									<td akn:GUID="_223ffe67-36ba-4a7b-ac6d-4b9a397dcff4" akn:eId="backCover__comHist__tbl__oc_1__row__oc_6__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2022/561</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_8f368a24-d679-4f1a-89a3-88aea9ee3b16" akn:eId="backCover__comHist__tbl__oc_1__row__oc_7">
+									<td akn:GUID="_920f0889-9846-4622-b24e-18dcf83cf14a" akn:eId="backCover__comHist__tbl__oc_1__row__oc_7__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 18</p>
+									</td>
+									<td akn:GUID="_a7449cf3-34bb-46ed-acaa-5e57c066bc0c" akn:eId="backCover__comHist__tbl__oc_1__row__oc_7__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">28th June 2022</p>
+									</td>
+									<td akn:GUID="_6f40b3ff-291c-4e09-8118-8ec13031c958" akn:eId="backCover__comHist__tbl__oc_1__row__oc_7__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2022/561</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_921d5632-3f2a-43e5-9f58-40234dca9482" akn:eId="backCover__comHist__tbl__oc_1__row__oc_8">
+									<td akn:GUID="_e467f71d-3115-487e-8bbc-9c631feb61e9" akn:eId="backCover__comHist__tbl__oc_1__row__oc_8__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 31 (partially)</p>
+									</td>
+									<td akn:GUID="_05e59b99-5ad9-4774-89ad-13e6f2d7dcc2" akn:eId="backCover__comHist__tbl__oc_1__row__oc_8__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">28th June 2022</p>
+									</td>
+									<td akn:GUID="_408c0ee2-2eb0-42a5-ae2f-cf9cff355bfe" akn:eId="backCover__comHist__tbl__oc_1__row__oc_8__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2022/561</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_c1bc82ce-68f7-4e72-afa8-1612f64c3ab6" akn:eId="backCover__comHist__tbl__oc_1__row__oc_9">
+									<td akn:GUID="_2d44afbf-d8e6-4ce6-a452-c88dd9e9185b" akn:eId="backCover__comHist__tbl__oc_1__row__oc_9__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 41 (partially)</p>
+									</td>
+									<td akn:GUID="_1bbbf55d-9348-450a-addd-a141d5468b74" akn:eId="backCover__comHist__tbl__oc_1__row__oc_9__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">28th June 2022</p>
+									</td>
+									<td akn:GUID="_dcbc36ed-8deb-4b41-b243-e38d988118c3" akn:eId="backCover__comHist__tbl__oc_1__row__oc_9__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2022/561</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_4578a44d-5599-4cb3-921f-4e4dd07ebe95" akn:eId="backCover__comHist__tbl__oc_1__row__oc_10">
+									<td akn:GUID="_3acd9302-bb9e-4389-9594-9c2ae7baf063" akn:eId="backCover__comHist__tbl__oc_1__row__oc_10__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 48 (partially)</p>
+									</td>
+									<td akn:GUID="_81b680a1-751d-4430-bc8a-f341ab9cf75b" akn:eId="backCover__comHist__tbl__oc_1__row__oc_10__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">28th July 2022</p>
+									</td>
+									<td akn:GUID="_ac0a62d5-cba7-46da-9c21-eaaa19b31d74" akn:eId="backCover__comHist__tbl__oc_1__row__oc_10__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2022/561</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_862663ab-a3b1-44e7-bd40-8d6b417a9a94" akn:eId="backCover__comHist__tbl__oc_1__row__oc_11">
+									<td akn:GUID="_f1866a08-a2bc-4b03-8a7b-94dfb6b05696" akn:eId="backCover__comHist__tbl__oc_1__row__oc_11__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 55 (partially)</p>
+									</td>
+									<td akn:GUID="_fea07166-66af-4fe3-a222-e5bc26eaf7b3" akn:eId="backCover__comHist__tbl__oc_1__row__oc_11__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">28th June 2022</p>
+									</td>
+									<td akn:GUID="_3ec0947e-3f62-465c-bbb4-1c00692232c1" akn:eId="backCover__comHist__tbl__oc_1__row__oc_11__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2022/561</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_5f289682-a90f-4e66-ba7e-f321b407630c" akn:eId="backCover__comHist__tbl__oc_1__row__oc_12">
+									<td akn:GUID="_fc06b304-274f-4c3d-926b-4b667bc6e225" akn:eId="backCover__comHist__tbl__oc_1__row__oc_12__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 57 (partially)</p>
+									</td>
+									<td akn:GUID="_7bbb8fbe-827f-4f81-9ffb-7a44e2a9843d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_12__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">28th June 2022</p>
+									</td>
+									<td akn:GUID="_36212d03-6d99-4574-ba0a-d22259ae5781" akn:eId="backCover__comHist__tbl__oc_1__row__oc_12__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2022/561</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_5d57441c-6a69-45b5-b053-f43b880be4f2" akn:eId="backCover__comHist__tbl__oc_1__row__oc_13">
+									<td akn:GUID="_703c74c7-79ed-4f84-9f35-c64a83f16246" akn:eId="backCover__comHist__tbl__oc_1__row__oc_13__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Sections 126 to 129</p>
+									</td>
+									<td akn:GUID="_f19a3646-f136-4b38-bab8-7641f73ee3b8" akn:eId="backCover__comHist__tbl__oc_1__row__oc_13__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st September 2022</p>
+									</td>
+									<td akn:GUID="_c7746404-7a8f-40b6-9edc-b989ca3575b8" akn:eId="backCover__comHist__tbl__oc_1__row__oc_13__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2022/927</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_67d3ff4a-b6a9-48a9-9c0d-e570581b83bd" akn:eId="backCover__comHist__tbl__oc_1__row__oc_14">
+									<td akn:GUID="_6173a858-a45a-4a30-8505-64b899526c83" akn:eId="backCover__comHist__tbl__oc_1__row__oc_14__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Sections 130 and 131</p>
+									</td>
+									<td akn:GUID="_48b11944-95e1-4ee4-939a-753fd237bfd7" akn:eId="backCover__comHist__tbl__oc_1__row__oc_14__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">28th June 2022</p>
+									</td>
+									<td akn:GUID="_d100f60f-ebab-416a-8ccc-2dac2ec427e5" akn:eId="backCover__comHist__tbl__oc_1__row__oc_14__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2022/561</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_7102ae86-69f8-439a-8608-b2134f755e21" akn:eId="backCover__comHist__tbl__oc_1__row__oc_15">
+									<td akn:GUID="_c4ef20f5-f575-4243-a153-b1f021a99efe" akn:eId="backCover__comHist__tbl__oc_1__row__oc_15__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 132 (partially)</p>
+									</td>
+									<td akn:GUID="_03abf9f4-111f-4f9c-a74e-ff858f9beacb" akn:eId="backCover__comHist__tbl__oc_1__row__oc_15__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">28th May 2022</p>
+									</td>
+									<td akn:GUID="_1ab29f98-802a-493e-a28f-007383b58546" akn:eId="backCover__comHist__tbl__oc_1__row__oc_15__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2022/561</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_81418ad7-ca13-4554-aab6-76cfcc30a58e" akn:eId="backCover__comHist__tbl__oc_1__row__oc_16">
+									<td akn:GUID="_3953c3ce-b868-4b6c-a02c-66aed8f0dc2e" akn:eId="backCover__comHist__tbl__oc_1__row__oc_16__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 132 (remaining purposes)</p>
+									</td>
+									<td akn:GUID="_c2a8cae7-32fa-4e7a-a5bd-362cd471feca" akn:eId="backCover__comHist__tbl__oc_1__row__oc_16__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">28th June 2022</p>
+									</td>
+									<td akn:GUID="_020e1120-79f7-404a-b300-cdc7ea38b65c" akn:eId="backCover__comHist__tbl__oc_1__row__oc_16__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2022/561</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_17ebd06a-7f66-4144-b0f4-7f7e5e610254" akn:eId="backCover__comHist__tbl__oc_1__row__oc_17">
+									<td akn:GUID="_37171094-fbfd-429b-a1c0-c22d15de549c" akn:eId="backCover__comHist__tbl__oc_1__row__oc_17__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 160</p>
+									</td>
+									<td akn:GUID="_f39c5af8-3af5-4a78-84c0-855ceced7f7b" akn:eId="backCover__comHist__tbl__oc_1__row__oc_17__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st October 2022</p>
+									</td>
+									<td akn:GUID="_2902e165-a4a0-41c6-9c5a-ad3722778a69" akn:eId="backCover__comHist__tbl__oc_1__row__oc_17__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2022/561</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_dc58f8e5-8ab0-497b-8465-5a5e51536d72" akn:eId="backCover__comHist__tbl__oc_1__row__oc_18">
+									<td akn:GUID="_403d64fe-810f-48f2-89b1-e749a569882d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_18__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Schedule 1</p>
+									</td>
+									<td akn:GUID="_c3de09b6-5974-41cd-83f9-c71685cb0b2c" akn:eId="backCover__comHist__tbl__oc_1__row__oc_18__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">28th June 2022</p>
+									</td>
+									<td akn:GUID="_a17de3f4-2574-4e4a-89ce-83fa32feea81" akn:eId="backCover__comHist__tbl__oc_1__row__oc_18__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2022/561</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_73e40181-0f6b-4c90-b87c-507274b2d428" akn:eId="backCover__comHist__tbl__oc_1__row__oc_19">
+									<td akn:GUID="_4565bf32-ed76-4ca9-9155-06e8c683134d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_19__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Schedule 5, paragraphs 1 (partially), 2, 3, 4 (partially), 5 (partially), 6, 9, 10, 11 (partially), 12 (partially), 13 (partially), 14 (partially), 15 (partially), 16, 22 (partially), 46 (partially), 50, 51, 53, 55 (partially), 57 (partially), 67, 71, 74 (partially), 75, 76 (partially), 77 (partially), 78, 81 (partially), 82, 83 (partially) and 84 (partially).</p>
+									</td>
+									<td akn:GUID="_6f0fdbe1-53c1-41e5-bf8b-642ba0bfbad1" akn:eId="backCover__comHist__tbl__oc_1__row__oc_19__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">28th June 2022</p>
+									</td>
+									<td akn:GUID="_f86c2242-f7c6-4a93-bd24-a8ff3ccd8ed1" akn:eId="backCover__comHist__tbl__oc_1__row__oc_19__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2022/561</p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</foreign>
+				</tblock>
+			</blockContainer>
+		</conclusions>
+	</act>
+</akomaNtoso>

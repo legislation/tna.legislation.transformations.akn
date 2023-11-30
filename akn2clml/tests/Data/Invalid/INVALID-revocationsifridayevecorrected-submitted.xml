@@ -1,0 +1,1551 @@
+<?xml version="1.0" encoding="UTF-8"?><akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../schemas/akomantoso30.xsd">
+	<?DMS-Component componentId="d96e30e4-2e11-45ca-9ddc-ef9bc0c17bc7" seriesId="15060fc4-af1b-4f79-990f-fb0f6cfc4329" versionNumber="1"?>
+	<bill contains="originalVersion" name="ukdsi">
+		<meta>
+			<?DMS-Component componentId="1ff95e6a-c4ed-4c4f-abd4-d0a02a923146" seriesId="4e79d3fd-682a-4971-846f-39d49a62fb0e" versionNumber="1"?>
+			<identification source="#ldapp">
+				<FRBRWork>
+					<FRBRthis value="#varWork"/>
+					<FRBRuri value="#varWorkUri"/>
+					<FRBRalias name="ttflConfigHistory" value="#varCHOiid"/>
+					<FRBRdate date="9999-01-01" name="ukdsi"/>
+					<FRBRdate date="2023-09-01T19:48:28Z" name="published"/><FRBRauthor href="#varAuthor"/>
+					<FRBRcountry value="GB-SCT"/>
+					<FRBRsubtype value="#varDocSubType"/>
+					<FRBRnumber value="#varProjectId"/>
+					<FRBRname value="#varSITitle"/>
+					<FRBRprescriptive value="true"/>
+					<FRBRauthoritative value="false"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="#varExpression"/>
+					<FRBRuri value="#varExpressionUri"/>
+					<FRBRalias name="ttflVersionDescription" value="#varVDOiid"/>
+					<FRBRdate date="9999-01-01" name="draft"/>
+					<FRBRdate date="2023-09-01T19:48:28Z" name="published"/><FRBRauthor href="#varAuthor"/>
+					<FRBRversionNumber value="2"/>
+					<FRBRauthoritative value="false"/>
+					<FRBRmasterExpression href="" showAs=""/>
+					<FRBRlanguage language="eng"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="#varManifestation"/>
+					<FRBRuri value="#varManifestationUri"/>
+					<FRBRdate date="9999-01-01" name="akn_xml"/>
+					<FRBRdate date="2023-09-01T19:48:28Z" name="published"/><FRBRauthor href="#varAuthor"/>
+					<FRBRformat value="application/akn+xml"/>
+				</FRBRManifestation>
+			</identification>
+			<references source="#author">
+				<TLCConcept GUID="_9cb2760e-6625-4308-8997-d68d6825b05d" eId="varDocSubType" href="#varOntologies" showAs="Regulations"/>
+				<TLCConcept GUID="_46091380-2283-4f31-8f59-af17e1213c1e" eId="varSITitle" href="#varOntologies" showAs="The Retained EU Law (Revocation and Reform) Act 2023 (Revocation and Sunset Disapplication) Regulations 2023"/>
+				<TLCProcess GUID="_39f9ed12-0c7f-4ffd-9341-90d15d010fd6" eId="varProcedureType" href="#varOntologies" showAs="Draft Affirmative"/>
+				<TLCProcess GUID="_4c6c478d-5a0f-474f-bb65-8c32f1018a15" eId="varStageVersion" href="#varOntologies" showAs="2"/>
+				<TLCProcess GUID="_91e02de7-d45b-404f-8758-c1be98778b5b" eId="varProjectId" href="#varOntologies" showAs="SI000387"/>
+				<TLCProcess GUID="_c2591616-5cb3-4b02-8331-6bed1e91444b" eId="varWork" href="#varOntologies" showAs="https://lawmaker.legislation.gov.uk/pdr/SI000387/ukdsi"/>
+				<TLCProcess GUID="_75605db0-04f6-4c66-bd3f-1178c29a3e92" eId="varWorkUri" href="#varOntologies" showAs="https://lawmaker.legislation.gov.uk/pdr/SI000387/ukdsi"/>
+				<TLCProcess GUID="_dd2e4fbc-9c39-46b0-b834-cc05608249d5" eId="varCHOiid" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_d04c6af3-07b5-4bc4-8c44-246e51e03746" eId="varExpression" href="#varOntologies" showAs="https://lawmaker.legislation.gov.uk/pdr/SI000387/ukdsi@2"/>
+				<TLCProcess GUID="_2c1fc6c6-a9d7-46a1-bf80-2ebfe7a830a8" eId="varExpressionUri" href="#varOntologies" showAs="https://lawmaker.legislation.gov.uk/pdr/SI000387/ukdsi@2"/>
+				<TLCProcess GUID="_e6ca5259-3f5b-43e5-9d56-81327440650a" eId="varVDOiid" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_38556d3f-37b2-4692-ab66-0d1a8fcc711d" eId="varManifestation" href="#varOntologies" showAs="https://lawmaker.legislation.gov.uk/pdr/SI000387/ukdsi@2/xml"/>
+				<TLCProcess GUID="_47207ecf-99f7-4150-ad8d-06fdfe3679aa" eId="varManifestationUri" href="#varOntologies" showAs="https://lawmaker.legislation.gov.uk/pdr/SI000387/ukdsi@2/xml"/>
+				<TLCConcept GUID="_7a3f93e5-d8b6-42f1-865c-aa2f20b8e42c" eId="varSIYear" href="#varOntologies" showAs="2023"/>
+				<TLCConcept GUID="_227d2a4c-a22b-4b42-bbdb-1688b17bdc26" eId="varSINoComp" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_8e8c0f97-85ff-463c-ad6c-3ba89dd3b0b2" eId="varSINo" href="#varOntologies" showAs="#varSIYear No. #varSINoComp #varSISubsidiaryNos"/>
+				<TLCConcept GUID="_86655c23-5db8-420b-b3e5-cd5151501b9d" eId="varSISubsidiaryNos" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_a9d575eb-7dd1-4ae5-8c99-70e01398f109" eId="varISBN" href="#varOntologies" showAs=""/>
+				<TLCPerson GUID="_5795f203-3383-4371-a8b5-573bdf7459fc" eId="varMinistryAgency" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_b53662db-4c41-4872-b0d1-5c6898f9ab0b" eId="varDocType" href="#varOntologies" showAs="UKSI"/>
+				<TLCProcess GUID="_cd2a5bf6-4859-487c-a0ab-b4bba199b426" eId="varSystem" href="#varOntologies" showAs="LDAPP"/>
+				<TLCOrganization GUID="_f389d018-932e-4749-b41b-bac3716131ef" eId="varAuthor" href="#varOntologies" showAs="UK Government"/>
+				<TLCLocation GUID="_b9d1c44e-763a-41bf-92f0-584a420823fc" eId="varJurisdiction" href="#varOntologies" showAs="United Kingdom"/>
+				<TLCConcept GUID="_b9431df8-8cbe-4ba2-9e60-27a6ccc537fd" eId="varOntologies" href="https://www.legislation.gov.uk/ontologies/UK-AKN" showAs="https://www.legislation.gov.uk/ontologies/UK-AKN"/>
+			</references>
+		</meta>
+		<preface GUID="_d9725b06-bee8-4d35-8598-d91f353f2574" eId="fnt">
+			<?DMS-Component componentId="8f8bb2a6-f318-4198-9c67-1be567afdcb6" seriesId="d8412c7e-63f5-4bd5-8cfe-6966cf2d825c" versionNumber="0"?>
+			<block GUID="_a7479c24-61fe-44f2-b46e-28ab5a5eeac8" eId="fnt__rubric" name="proceduralRubric">Draft Regulations laid before Parliament under paragraph 5(1) and (5) of Schedule 5 to the Retained EU Law (Revocation and Reform) Act 2023 (c. 28), for approval by resolution of each House of Parliament.</block>
+			<block GUID="_45e59c35-3286-49f4-93d5-536e5af712e4" eId="fnt__banner" name="banner">DRAFT STATUTORY INSTRUMENTS</block>
+			<block GUID="_343f332b-3dbf-4625-a424-480db52d8e30" eId="fnt__no" name="number">
+				<docNumber GUID="_aa247090-01bf-4bcd-99ff-8691917fbfb3" eId="fnt__no__dno"> <ref class="placeholder" href="#varSINo"/> </docNumber>
+			</block>
+			<container name="subjects">
+				<container GUID="_ab0dba1f-6f3b-4c09-a671-af8ff632cdd8" eId="fnt__subject" name="subject">
+					<block name="subject"><concept class="title" refersTo="">RETAINED EU LAW REFORM</concept></block>
+				</container>
+			</container>
+			<block GUID="_92d72ee1-af03-443d-a8b8-e8734f511210" eId="fnt__st" name="title"><docTitle GUID="_99c3fa88-2905-4886-9930-8aae4fa47d2a" eId="fnt__st__dtitle"> <ref class="placeholder" href="#varSITitle"/> </docTitle> </block>
+			<container GUID="_a69d88d7-d36e-472e-b15e-eb0e03b6257b" eId="fnt__dates" name="dates">
+				<block GUID="_edf1e0b8-5728-448a-897d-a53b33102b7d" eId="fnt__dates__madeDateDescription" name="madeDate"><span>Made</span></block>
+				<block GUID="_91a64d45-28a3-45e0-9347-140b9678cde7" eId="fnt__dates__commenceDateDescription" name="commenceDate"><span>Coming into force in accordance with regulation 2</span></block>
+			</container>
+		</preface>
+		<preamble GUID="_45e6771d-b0b3-407d-86da-963ad93f94e1" eId="preamble">
+			<?DMS-Component componentId="259c92ad-4e9b-4162-a243-3ef82e98e21b" seriesId="8bf4cb24-e014-41ac-adf2-0749ae771d9d" versionNumber="0"?>
+			<formula GUID="_e86e2d37-4544-4651-aecb-87449276fdfc" eId="preamble__enactingWords" name="enactingText">
+				<p>The Secretary of State makes these Regulations in exercise of the powers conferred by sections 1(4), 14(1) and 20(1) of the Retained EU Law (Revocation and Reform) Act 2023 (“the Act”)<authorialNote GUID="_25df6b8d-f8fe-45ed-9e80-f9967bf2353d" class="footnote" eId="fnote_1" marker="1">
+					<p>2023 c. 28.</p>
+					</authorialNote>.</p>
+				<p>The Secretary of State is a relevant national authority for the purposes of sections 1(4) and 14(1) of the Act<authorialNote GUID="_57e3dd5b-4175-47aa-ab04-5c50ac4461bd" class="footnote" eId="fnote_7" marker="7">
+					<p>See section 21(1) of the Act for the definition of “relevant national authority”.</p>
+					</authorialNote>.</p>
+				<p>In accordance with paragraph 5(1) and (5) of Schedule 5 to the Act, a draft of this instrument has been laid before, and approved by a resolution of, each House of Parliament.</p>
+			</formula>
+		</preamble>
+		<body>
+			<?DMS-Component componentId="72a9a1ad-044e-4c21-ae8d-82a938cdea3d" seriesId="b323fc07-4ba5-488f-8043-6eab702b10d1" versionNumber="1"?>
+			<hcontainer GUID="_1e79efe5-2be9-4644-a28e-22a238727af0" class="prov1" eId="reg_1" name="regulation">
+				<?DMS-Component componentId="19131c93-11b4-43b0-a05f-43e8b88b646b" seriesId="6860b723-e92b-498b-9d9f-7d2e15be7554" versionNumber="1"?>
+				<heading GUID="_b62871ad-5953-43fb-b9b4-e0e6037e619c" eId="reg_1__hdg">Citation</heading>
+				<num>1.</num>
+				<content>
+					<p>These Regulations may be cited as the Retained EU Law (Revocation and Reform) Act 2023 (Revocation and Sunset Disapplication) Regulations 2023.</p>
+				</content>
+			</hcontainer>
+			<hcontainer GUID="_1bb572f9-0aff-4d3e-b67f-cd4c90d56485" class="prov1" eId="reg_2" name="regulation">
+				<?DMS-Component componentId="f024cdc9-8c65-4470-b16d-589fcba15d44" seriesId="7101cc04-a25a-4206-ad31-1549b8c0f3df" versionNumber="1"?>
+				<heading GUID="_b3988570-e235-40e2-ad3a-6db8c98cdae0" eId="reg_2__hdg">Commencement</heading>
+				<num>2.</num>
+				<paragraph GUID="_f22947ac-6aea-4043-b766-a5e863839d74" class="prov2" eId="reg_2__para_1">
+					<num>(1)</num>
+					<content>
+						<p>Subject to paragraphs (2) and (3), these Regulations come into force on the day after the day on which they are made.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_94332a6e-3da6-47ad-a181-e055b81bee4c" class="prov2" eId="reg_2__para_2">
+					<num>(2)</num>
+					<content>
+						<p>Regulation 4 and Schedule 1 come into force immediately before the end of 2023.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_7b3ad8ad-35be-4f06-84ac-6ddf9a2cc41e" class="prov2" eId="reg_2__para_3">
+					<num>(3)</num>
+					<content>
+						<p>Regulations 5 and 6 and Schedule 2 come into force at the end of 2023.</p>
+					</content>
+				</paragraph>
+			</hcontainer>
+			<hcontainer GUID="_ad1660c1-c1e0-48d6-aa94-815ed68922c6" class="prov1" eId="reg_3" name="regulation">
+				<?DMS-Component componentId="571710fe-188b-4e4a-bf69-b1894528b70d" seriesId="6b114e77-9ef5-4cfb-a3ba-a078f10de81e" versionNumber="0"?>
+				<heading GUID="_949962db-71a7-4241-8cf2-ee8f290650cd" eId="reg_3__hdg">Extent and interpretation</heading>
+				<num>3.</num>
+				<paragraph GUID="_3d04973a-826b-404e-aa4d-738c5822361c" class="prov2" eId="reg_3__para_1">
+					<num>(1)</num>
+					<content>
+						<p>Subject to paragraphs (2) to (4), these Regulations extend to England and Wales, Scotland and Northern Ireland.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_795ce83d-8ce3-430a-b418-7bdb89ac4597" class="prov2" eId="reg_3__para_2">
+					<num>(2)</num>
+					<content>
+						<p>The specification by regulation 4 of an instrument listed in Parts 1 and 2 of Schedule 1 has the same extent as the instrument to which it relates.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_e1258826-5e4d-4a93-bc4b-9280222f6fe7" class="prov2" eId="reg_3__para_3__oc_1">
+					<num>(3)</num>
+					<content>
+						<p>The specification by regulation 4 of an instrument listed in Part 3 of Schedule 1 extends to Northern Ireland only.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_b83be506-e503-4363-b9b9-cbdac9468a58" class="prov2" eId="reg_3__para_4">
+					<num>(4)</num>
+					<content>
+						<p>The revocation by regulation 5 of an instrument or a provision of an instrument listed in Schedule 2 has the same extent as the instrument or provision to which it relates.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_5da2aa24-904e-4d0e-bbbb-38b1c9412202" class="prov2" eId="reg_3__para_5">
+					<num>(5)</num>
+					<content>
+						<p>In these Regulations, “the Act” means the Retained EU Law (Revocation and Reform) Act 2023<authorialNote GUID="_c2459ee5-6ee1-42ee-8138-be7c1e5161a9" class="footnote" eId="fnote_3" marker="3">
+							<p>2023 c. 28.</p>
+							</authorialNote>.</p>
+					</content>
+				</paragraph>
+			</hcontainer>
+			<hcontainer GUID="_9d1ca9f0-c81c-4fbf-af0a-db4efdb22ac7" class="prov1" eId="reg_4" name="regulation">
+				<?DMS-Component componentId="997e170a-3776-408e-b3e0-261bdc604746" seriesId="bb98fdee-7248-47d2-8d89-2fc753742f8a" versionNumber="0"?>
+				<heading GUID="_3404dfaf-5513-459c-bc0a-dd71499f7555" eId="reg_4__hdg">Disapplication of revocation: specified instruments</heading>
+				<num>4.</num>
+				<paragraph GUID="_b20496d4-e8f3-4898-a219-7e1796de1e33" class="prov2" eId="reg_4__para_1">
+					<num>(1)</num>
+					<content>
+						<p>The instruments listed in Schedule 1 are specified for the purposes of section 1(4) of the Act (sunset of EU-derived subordinate legislation and retained direct EU legislation).</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_f84a7ef4-8447-44a5-82f9-edb2a8d821de" class="prov2" eId="reg_4__para_2">
+					<num>(2)</num>
+					<intro GUID="_c602e265-043d-4da9-8aed-05a3ca8902d2" eId="reg_4__para_2__intro">
+						<p>In that Schedule—</p>
+					</intro>
+					<level GUID="_946360b5-1853-4d20-a411-7fa9e00e3076" class="para1" eId="reg_4__para_2__para_a">
+						<num>(a)</num>
+						<content>
+							<p>Part 1 lists subordinate legislation;</p>
+						</content>
+					</level>
+					<level GUID="_72a88580-8460-43c5-af97-d2f29b4f7b1e" class="para1" eId="reg_4__para_2__para_b">
+						<num>(b)</num>
+						<content>
+							<p>Part 2 lists retained direct EU legislation;</p>
+						</content>
+					</level>
+					<level GUID="_632cd95d-0f4d-49f5-bf29-238e0bfca391" class="para1" eId="reg_4__para_2__para_c">
+						<num>(c)</num>
+						<content>
+							<p>Part 3 lists retained direct EU legislation, which in accordance with regulation 3(3) is specified only insofar as it extends to Northern Ireland.</p>
+						</content>
+					</level>
+				</paragraph>
+			</hcontainer>
+			<hcontainer GUID="_1e7afe6e-aad7-4cbb-9e72-e1099b01a096" class="prov1" eId="reg_5" name="regulation">
+				<?DMS-Component componentId="54c09365-c208-4aaa-bb34-2c7b18be2ab4" seriesId="6407b868-54eb-44cb-84cc-7d3e8420ab1d" versionNumber="0"?>
+				<heading GUID="_4435b3f8-a241-4d3c-a61b-74c7d04bafd6" eId="reg_5__hdg">Revocations</heading>
+				<num>5.</num>
+				<paragraph GUID="_c3f06ef4-03b8-4c30-8352-1390d0097c73" class="prov2" eId="reg_5__para_1">
+					<num>(1)</num>
+					<content>
+						<p>The instruments listed in Schedule 2 are revoked to the extent specified.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_b7949ddf-3ac3-4315-beaa-3b0a2dbadf4c" class="prov2" eId="reg_5__para_2">
+					<num>(2)</num>
+					<intro GUID="_f3cbc559-3f02-4cfb-9d11-bc5f5fb5284d" eId="reg_5__para_2__intro">
+						<p>In that Schedule—</p>
+					</intro>
+					<level GUID="_23279611-50eb-43f0-970b-64ee7672099f" class="para1" eId="reg_5__para_2__para_a">
+						<num>(a)</num>
+						<content>
+							<p>Part 1 lists subordinate legislation;</p>
+						</content>
+					</level>
+					<level GUID="_a00dde0f-67b1-4f29-8638-bbea51bbdaeb" class="para1" eId="reg_5__para_2__para_b">
+						<num>(b)</num>
+						<content>
+							<p>Part 2 lists retained direct EU legislation.</p>
+						</content>
+					</level>
+				</paragraph>
+			</hcontainer>
+			<hcontainer GUID="_ad5338cb-73d3-4579-96b8-b2685a98dd6d" class="prov1" eId="reg_6" name="regulation">
+				<?DMS-Component componentId="937d931f-c06f-457d-87b0-1f220b55e81b" seriesId="0f629051-816b-49f0-b6cf-9cacd8f9c421" versionNumber="0"?>
+				<heading GUID="_411916dd-5f4a-403b-b76c-e246de336677" eId="reg_6__hdg">Savings</heading>
+				<num>6.</num>
+				<paragraph GUID="_ce60494e-e191-431b-b2e1-821696ffdb0a" class="prov2" eId="reg_6__para_1">
+					<num>(1)</num>
+					<intro GUID="_0e758d6e-25e5-47b9-a7ee-057d2daec4f2" eId="reg_6__para_1__intro">
+						<p>In this regulation—</p>
+					</intro>
+					<level GUID="_26e84289-8552-4a58-99d8-b4c0f82a3f44" class="para1" eId="reg_6__para_1__para_a">
+						<num>(a)</num>
+						<content>
+							<p>the “2012 Act” means the Legal Aid, Sentencing and Punishment of Offenders Act 2012<authorialNote GUID="_70a15097-f992-44cd-9cc5-b4a96ddbf481" class="footnote" eId="fnote_15" marker="15">
+								<p>2012 c. 10.</p>
+								</authorialNote>;</p>
+						</content>
+					</level>
+					<level GUID="_dd77e26a-82bb-472e-835c-e9a4929847b9" class="para1" eId="reg_6__para_1__para_b">
+						<num>(b)</num>
+						<content>
+							<p>the “2013 Regulations” means the Civil Legal Aid (Merits Criteria) Regulations 2013<authorialNote GUID="_e6e8fd2e-72d8-4545-ae2b-6edca844cb0e" class="footnote" eId="fnote_14" marker="14">
+								<p>S.I. 2013/104 as amended by S.I. 2013/3195.</p>
+								</authorialNote>.</p>
+						</content>
+					</level>
+				</paragraph>
+				<paragraph GUID="_2f27aad3-f0e8-4823-be8e-2928d121a5ba" class="prov2" eId="reg_6__para_2">
+					<num>(2)</num>
+					<intro GUID="_afc5cd4c-37c1-4661-ac80-1c1c9b4c7643" eId="reg_6__para_2__intro">
+						<p>The revocation of any provision of the 2013 Regulations by these Regulations—</p>
+					</intro>
+					<level GUID="_1b64ec19-0b64-414d-a32d-68af35e4a939" class="para1" eId="reg_6__para_2__para_a">
+						<num>(a)</num>
+						<content>
+							<p>does not affect the application of paragraph 1(a) of Article 69 of the EU withdrawal agreement<authorialNote GUID="_748bc972-a8f7-4cc0-89c6-7e1cfa19052c" class="footnote" eId="fnote_13" marker="13">
+								<p>“EU withdrawal agreement” is defined in Schedule 1 (definitions relating to the EU and the United Kingdom's withdrawal) to the Interpretation Act 1978 (c. 30) and means the withdrawal agreement within the meaning of the European Union (Withdrawal) Agreement Act 2020 (c. 1) (see section 39(1) and (6) of that Act).</p>
+								</authorialNote>; and</p>
+						</content>
+					</level>
+					<level GUID="_86afbd1c-989e-441f-b482-07834e0833a9" class="para1" eId="reg_6__para_2__para_b">
+						<num>(b)</num>
+						<content>
+							<p>the revoked provisions continue to have effect for the purposes of that paragraph.</p>
+						</content>
+					</level>
+				</paragraph>
+				<paragraph GUID="_33b2147c-83bd-4d86-b8cf-7ee76953006f" class="prov2" eId="reg_6__para_3">
+					<num>(3)</num>
+					<content>
+						<p>Paragraph (4) applies to a determination made before the end of 2023 by the Director of Legal Aid Casework, in accordance with Part 1 of the 2012 Act, that an individual qualifies for civil legal services.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_e4775add-587f-4b6c-9e36-8d5e3e1c6f4a" class="prov2" eId="reg_6__para_4">
+					<num>(4)</num>
+					<intro GUID="_63a9c8f5-2f55-482b-9952-da5e62ae9c2f" eId="reg_6__para_4__intro">
+						<p>In relation to a determination to which this paragraph applies, the revocation of any provision of the 2013 Regulations by these Regulations—</p>
+					</intro>
+					<level GUID="_7303aeba-af11-457b-accb-5b9fd4f859a8" class="para1" eId="reg_6__para_4__para_a">
+						<num>(a)</num>
+						<content>
+							<p>does not affect the application of section 11 of the 2012 Act; and</p>
+						</content>
+					</level>
+					<level GUID="_09636abc-a9af-4178-9b34-374157c13221" class="para1" eId="reg_6__para_4__para_b">
+						<num>(b)</num>
+						<content>
+							<p>the revoked provisions continue to have effect for the purposes of that section.</p>
+						</content>
+					</level>
+				</paragraph>
+			</hcontainer>
+			<hcontainer GUID="_373f8b72-5c3b-4a95-bad4-54991fed57e1" eId="sigs" name="signatures">
+				<?DMS-Component componentId="dafe357a-a933-4045-94c8-cb8ad540a260" seriesId="2d0da9a2-a19e-4a99-82e7-9f9795bfddb7" versionNumber="0"?>
+				<hcontainer GUID="_ed636f67-a8d6-4737-9c24-48ae26ebb821" eId="sigs__sigBlk" name="signatureBlock">
+					<content>
+						<block GUID="_4e71c33e-d772-4f46-b423-8f91a4a8ed8f" eId="sigs__sigBlk__sig" name="signature">Name</block>
+						<block GUID="_8d74815f-78b9-4d43-b585-aead9bd986b5" eId="sigs__sigBlk__role" name="role">Title</block>
+						<block GUID="_00c879d3-2ac4-4850-ac20-91f9dff2c847" eId="sigs__sigBlk__org" name="organization">Department for Business and Trade</block>
+					</content>
+				</hcontainer>
+			</hcontainer>
+			<hcontainer GUID="_380d18c2-d7ac-4a1c-a78c-f3a3690c6eb6" class="schs" eId="scheds" name="schedules">
+				<?DMS-Component componentId="e1e117e0-f0ea-4164-9209-ef46e6b61d5d" seriesId="ee452e3a-3e5b-464f-be8d-271fabc607c4" versionNumber="1"?>
+				<hcontainer GUID="_f7541800-ea6f-4ef5-8107-132484dd8d94" class="sch" eId="sched_1" name="schedule">
+					<?DMS-Component componentId="3dc4ed6f-9ac5-4e96-b7ee-b5dbd368cf71" seriesId="32fb06df-dd44-4ee5-9dce-9d9909aba45d" versionNumber="0"?>
+					<num>Schedule 1<authorialNote GUID="_1c969eb7-332a-44ca-9724-bf2088f0d5bd" class="referenceNote" eId="sched_1__aNote">
+						<p>Regulation 4</p>
+						</authorialNote></num>
+					<heading GUID="_65530e80-6572-401a-93c2-35460de3a2d6" eId="sched_1__hdg">DISAPPLICATION OF THE SUNSET</heading>
+					<part GUID="_68d0b2fe-f733-460b-8f16-40b28c16bcbd" class="schGroup2" eId="sched_1__pt_1">
+						<num>Part 1</num>
+						<heading GUID="_b8312573-1833-4aae-94a1-775f6dc041ef" eId="sched_1__pt_1__hdg">SUBORDINATE LEGISLATION</heading>
+						<content>
+							<tblock GUID="_77fb6095-b527-4fec-93ca-719c55abddca" class="table" eId="sched_1__pt_1__tbl__oc_1">
+								<foreign>
+									<table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="topAndBottom tableleft width100" cols="2" ukl:templateColumns="70 30">
+										<thead class="left">
+											<tr akn:GUID="_78906fca-bf07-46a3-a3e0-673c3a4031d6" akn:eId="sched_1__pt_1__tbl__oc_1__hdg__row__oc_1">
+												<td akn:GUID="_0077f283-33d4-4d54-a396-af76a2b9300c" akn:eId="sched_1__pt_1__tbl__oc_1__hdg__row__oc_1__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><i><b>Title</b></i></p>
+												</td>
+												<td akn:GUID="_ad77d0b9-5f32-4702-9473-c157d152d4b6" akn:eId="sched_1__pt_1__tbl__oc_1__hdg__row__oc_1__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><b><i>Citation</i></b></p>
+												</td>
+											</tr>
+										</thead>
+										<tbody class="left">
+											<tr akn:GUID="_d86970ef-a92c-4428-b4f7-3add7f0d5791" akn:eId="sched_1__pt_1__tbl__oc_1__row__oc_1">
+												<td akn:GUID="_b8ff767b-b50f-4c2d-b552-b41902694dee" akn:eId="sched_1__pt_1__tbl__oc_1__row__oc_1__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Road Vehicles (Testing) (Disclosure of Information) (Great Britain) Regulations 2002</p>
+												</td>
+												<td akn:GUID="_e9991c1f-9038-4b2c-83c6-ab45a7a89529" akn:eId="sched_1__pt_1__tbl__oc_1__row__oc_1__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2002/2426</p>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</foreign>
+							</tblock>
+						</content>
+					</part>
+					<part GUID="_b25d9fc5-9f28-479a-aa38-dc0f5b4ea17d" class="schGroup2" eId="sched_1__pt_2">
+						<num>Part 2</num>
+						<heading GUID="_a10042da-eea7-4520-a364-7aa4d9670766" eId="sched_1__pt_2__hdg">RETAINED DIRECT EU LEGISLATION</heading>
+						<content>
+							<tblock GUID="_a4785382-094e-4785-8a86-6fcc5780e46c" class="table" eId="sched_1__pt_2__tbl__oc_1">
+								<foreign>
+									<table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="topAndBottom tableright width100" cols="2" ukl:templateColumns="70 30">
+										<thead class="left">
+											<tr akn:GUID="_426b8545-9a16-444c-a918-e22a09d82659" akn:eId="sched_1__pt_2__tbl__oc_1__hdg__row__oc_1">
+												<td akn:GUID="_ce5689a8-7422-438b-9ebe-f08e881b7c9e" akn:eId="sched_1__pt_2__tbl__oc_1__hdg__row__oc_1__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><b><i>Title</i></b></p>
+												</td>
+												<td akn:GUID="_5420f55d-0efb-498c-bd45-deefb8e5d346" akn:eId="sched_1__pt_2__tbl__oc_1__hdg__row__oc_1__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><b><i>Citation </i></b></p>
+												</td>
+											</tr>
+										</thead>
+										<tbody class="left">
+											<tr akn:GUID="_10fd2657-ecb3-465a-92aa-d1cb82711c7c" akn:eId="sched_1__pt_2__tbl__oc_1__row__oc_1">
+												<td akn:GUID="_818cae63-6c01-4210-9ad6-4ef6b1679a00" akn:eId="sched_1__pt_2__tbl__oc_1__row__oc_1__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Commission Regulation (EU) No 1286/2011 of 9 December 2011 adopting a common methodology for investigating marine casualties and incidents developed pursuant to Article 5(4) of Directive 2009/18/EC of the European Parliament and of the Council</p>
+												</td>
+												<td akn:GUID="_a331519b-fad3-49a9-a66c-fcac44185bf9" akn:eId="sched_1__pt_2__tbl__oc_1__row__oc_1__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUR 1286/2011</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_04132309-d448-4370-9dd8-69025ee1438c" akn:eId="sched_1__pt_2__tbl__oc_1__row__oc_2">
+												<td akn:GUID="_2ace844a-6fa8-4529-8601-19d4d09c7515" akn:eId="sched_1__pt_2__tbl__oc_1__row__oc_2__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Commission Decision of 13 February 2014 concerning the placing on the market for essential use of biocidal products containing copper (2014/85/EU)</p>
+												</td>
+												<td akn:GUID="_28af70ac-e76c-4f4d-8f46-a7783a4ab3e8" akn:eId="sched_1__pt_2__tbl__oc_1__row__oc_2__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 2014/85</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_96a286f1-434b-48bc-99dd-d7c04558a8ba" akn:eId="sched_1__pt_2__tbl__oc_1__row__oc_3">
+												<td akn:GUID="_e38190d4-3ee0-49ec-9bfe-28f7fa9790d5" akn:eId="sched_1__pt_2__tbl__oc_1__row__oc_3__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Commission Decision of 24 June 2014 concerning the placing on the market for essential use of biocidal products containing copper (2014/395/EU)</p>
+												</td>
+												<td akn:GUID="_5902c2ac-a672-4eb2-87df-47709b40098b" akn:eId="sched_1__pt_2__tbl__oc_1__row__oc_3__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 2014/395</p>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</foreign>
+							</tblock>
+						</content>
+					</part>
+					<part GUID="_21f64c52-a37e-4cb2-b013-42f53de34464" class="schGroup2" eId="sched_1__pt_3">
+						<num>Part 3</num>
+						<heading GUID="_51b79ff1-d97d-4733-9d8f-1ee883f25e46" eId="sched_1__pt_3__hdg">RETAINED DIRECT EU LEGISLATION - DISAPPLICATION OF THE SUNSET EXTENDING TO NORTHERN IRELAND ONLY</heading>
+						<content>
+							<tblock GUID="_8a4b0dc4-b5d4-4f27-ad4c-fb4ff91517b8" class="table" eId="sched_1__pt_3__tbl__oc_1">
+								<foreign>
+									<table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="topAndBottom tableleft width100" cols="2" ukl:templateColumns="70 30">
+										<thead class="left">
+											<tr akn:GUID="_09d7744e-8c24-48d9-87ec-ebc41b77dd60" akn:eId="sched_1__pt_3__tbl__oc_1__hdg__row__oc_1">
+												<td akn:GUID="_e7e7a0d7-084f-4a7e-9dee-3af9dbefd649" akn:eId="sched_1__pt_3__tbl__oc_1__hdg__row__oc_1__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><b><i>Title</i></b></p>
+												</td>
+												<td akn:GUID="_8fd66c6f-2e0d-4a10-bfb3-17d9577a097e" akn:eId="sched_1__pt_3__tbl__oc_1__hdg__row__oc_1__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><b><i>Citation </i></b></p>
+												</td>
+											</tr>
+										</thead>
+										<tbody class="left">
+											<tr akn:GUID="_1f1694d7-fe03-4e66-b1f3-e5b62516a776" akn:eId="sched_1__pt_3__tbl__oc_1__row__oc_1">
+												<td akn:GUID="_74b4c7f9-99f0-4b2a-a69d-b14e44f38b74" akn:eId="sched_1__pt_3__tbl__oc_1__row__oc_1__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Regulation (EU) No 1144/2014 of the European Parliament and of the Council of 22 October 2014 on information provision and promotion measures concerning agricultural products implemented in the internal market and in third countries and repealing Council Regulation (EC) No 3/2008</p>
+												</td>
+												<td akn:GUID="_f57d3042-5d16-479d-9fa4-155ea84cbfb4" akn:eId="sched_1__pt_3__tbl__oc_1__row__oc_1__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUR 1144/2014</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_469ffb6c-fb57-4fe3-9d4c-36bbf17698e1" akn:eId="sched_1__pt_3__tbl__oc_1__row__oc_2">
+												<td akn:GUID="_df46bf3d-6517-40d8-9493-0d824bd337ad" akn:eId="sched_1__pt_3__tbl__oc_1__row__oc_2__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Commission Delegated Regulation (EU) 2015/1829 of 23 April 2015 supplementing Regulation (EU) No 1144/2014 of the European Parliament and of the Council on information provision and promotion measures concerning agricultural products implemented in the internal market and in third countries</p>
+												</td>
+												<td akn:GUID="_955b26f8-bce2-4961-a8c7-58913d86fe8e" akn:eId="sched_1__pt_3__tbl__oc_1__row__oc_2__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUR 2015/1829</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_2c186f10-2686-4910-8131-e61c2b2604c0" akn:eId="sched_1__pt_3__tbl__oc_1__row__oc_3">
+												<td akn:GUID="_b86dc32e-8c08-490a-943f-27d87957e933" akn:eId="sched_1__pt_3__tbl__oc_1__row__oc_3__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Commission Implementing Regulation (EU) 2015/1831 of 7 October 2015 laying down rules for application of Regulation (EU) No 1144/2014 of the European Parliament and of the Council on information provision and promotion measures concerning agricultural products implemented in the internal market and in the third countries</p>
+												</td>
+												<td akn:GUID="_0e0f06e6-58ea-4787-8774-c89b8a9ab4e7" akn:eId="sched_1__pt_3__tbl__oc_1__row__oc_3__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUR 2015/1831</p>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</foreign>
+							</tblock>
+						</content>
+					</part>
+				</hcontainer>
+				<hcontainer GUID="_9540d884-1998-40f6-acf2-cbf28a64b509" class="sch" eId="sched_2" name="schedule">
+					<?DMS-Component componentId="6afe6930-10cd-4405-bc30-76a9ee50fdcb" seriesId="d7bd906e-e04a-4838-9212-b1ae0a4662b6" versionNumber="0"?>
+					<num>Schedule 2<authorialNote GUID="_195d80a8-7759-4d7e-b81c-59fb9e7f6404" class="referenceNote" eId="sched_2__aNote">
+						<p>Regulation 5</p>
+						</authorialNote></num>
+					<heading GUID="_ad63e2d7-3598-4771-bf28-04fa612d4cfe" eId="sched_2__hdg">REVOCATION OF SUBORDINATE LEGISLATION AND RETAINED DIRECT EU LEGISLATION</heading>
+					<part GUID="_f52b2b2c-93e3-4327-9513-6a422b95d350" class="schGroup2" eId="sched_2__pt_1">
+						<num>Part 1</num>
+						<heading GUID="_be80cc5d-b1b9-415c-8a63-78227a5f83cc" eId="sched_2__pt_1__hdg">SUBORDINATE LEGISLATION</heading>
+						<content>
+							<tblock GUID="_2b953cc6-cf91-48b5-b0a8-c178f7c3307e" class="table" eId="sched_2__pt_1__tbl__oc_1">
+								<foreign>
+									<table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="topAndBottom tableleft width100" cols="3" ukl:templateColumns="55 20 25">
+										<thead class="left">
+											<tr akn:GUID="_39dfd6b9-78c1-448d-916d-b7cf6bd0e478" akn:eId="sched_2__pt_1__tbl__oc_1__hdg__row__oc_1">
+												<td akn:GUID="_bdb91374-e3b9-42b5-9521-cfcaf3003ad1" akn:eId="sched_2__pt_1__tbl__oc_1__hdg__row__oc_1__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><b><i>Title</i></b></p>
+												</td>
+												<td akn:GUID="_0e99c467-2a56-4229-8201-73368e88d98f" akn:eId="sched_2__pt_1__tbl__oc_1__hdg__row__oc_1__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><b><i>Citation</i></b></p>
+												</td>
+												<td akn:GUID="_14c7deb8-05c9-4fde-a3c2-04217b05f0c5" akn:eId="sched_2__pt_1__tbl__oc_1__hdg__row__oc_1__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><b><i>Extent of revocation</i></b></p>
+												</td>
+											</tr>
+										</thead>
+										<tbody class="left">
+											<tr akn:GUID="_b863528b-5696-49c9-b3ac-f572d5e5b7c3" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_1">
+												<td akn:GUID="_e397446e-5063-4131-a1cf-651e952507ce" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_1__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Alcoholic Liquor (Amendment of Units of Measurement) Order 1992</p>
+												</td>
+												<td akn:GUID="_900b8788-b385-4c83-9f18-d7809134bb32" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_1__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 1992/1917</p>
+												</td>
+												<td akn:GUID="_72d013f6-9c73-4637-8f19-c4db813ba6de" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_1__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Order</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_ac6eda03-4417-4aa1-861a-afefe3c612a3" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_2">
+												<td akn:GUID="_21dda709-643d-48ce-86d5-e48e47cd38fb" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_2__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Price Marking (Amendment) Order 1994</p>
+												</td>
+												<td akn:GUID="_06214167-4cd1-4538-b6cb-4c82e4ce7875" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_2__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 1994/1853</p>
+												</td>
+												<td akn:GUID="_87e44899-f173-4c02-b379-285001a507ae" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_2__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Order</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_32e9f9f5-fa35-47e2-a520-d700c64227db" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_3">
+												<td akn:GUID="_bd4af45a-1eb0-481f-ae4d-717fa7d80754" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_3__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Sex Discrimination Act 1975 (Application to Armed Forces etc) Regulations 1994</p>
+												</td>
+												<td akn:GUID="_b7fa7382-4bc0-4af9-9632-dce213205aca" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_3__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 1994/3276</p>
+												</td>
+												<td akn:GUID="_f57c1027-9cd6-4e85-8944-ffbceec58aab" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_3__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Regulations</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_f67ed58c-8a8e-4651-9e59-f4a053bd0280" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_4">
+												<td akn:GUID="_339974e5-d88b-4819-84a0-a6ee99e32c05" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_4__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Price Marking (Amendment) Order 1995</p>
+												</td>
+												<td akn:GUID="_e3ff9700-8aa2-4023-9a14-3f470fd941b7" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_4__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 1995/1441</p>
+												</td>
+												<td akn:GUID="_0f4e4e3b-d80c-492c-a9c1-cff7d1305923" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_4__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Order</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_d64c7d5c-8784-46a5-b5b0-8f2a5838e26d" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_5">
+												<td akn:GUID="_97404006-0f73-44d5-882a-eb28ea6715e5" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_5__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Companies (Membership of Holding Company) (Dealers in Securities) Regulations 1997</p>
+												</td>
+												<td akn:GUID="_c7dab905-a0e0-4d32-bb5c-3aef2c53d1bb" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_5__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 1997/2306</p>
+												</td>
+												<td akn:GUID="_dfa2b745-f6b2-4431-8798-eafc761ab2d7" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_5__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Regulations</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_7b97bc67-98d2-4564-92b3-8efc7a74f8b1" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_6">
+												<td akn:GUID="_a0e33784-d45d-4307-b20d-0fbd00a321dc" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_6__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Telecommunications (Licensing) Regulations 1997</p>
+												</td>
+												<td akn:GUID="_8070b29d-72df-477e-acc3-038eeb1cf162" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_6__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 1997/2930</p>
+												</td>
+												<td akn:GUID="_bf1dddbe-85b5-4c5e-9ea3-b9e11b1470f2" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_6__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Regulations</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_004bcbde-5dfa-40bf-96b3-281b50e5f733" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_7">
+												<td akn:GUID="_133d57cf-d511-4745-afed-c216602f8844" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_7__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">United Kingdom Ecolabelling Board (Abolition) Regulations 1999</p>
+												</td>
+												<td akn:GUID="_2a4b562b-09f0-439e-875d-3716a14879d2" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_7__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 1999/931</p>
+												</td>
+												<td akn:GUID="_e3c9f316-d9b9-4a5b-ba23-19c8ce71302c" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_7__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Regulations 7 and 9</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_be078526-492c-466a-b085-edd33f2aa80d" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_8">
+												<td akn:GUID="_65972bb5-ceaa-409f-99a2-fd9d4c76853a" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_8__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Companies (Investment Companies) (Distribution of Profits) Regulations 1999</p>
+												</td>
+												<td akn:GUID="_36ec43a8-eeac-477d-a9be-db2965c01c85" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_8__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 1999/2770</p>
+												</td>
+												<td akn:GUID="_58418c0b-8c3d-4619-b6b2-c1dcac04c2d8" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_8__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Regulations</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_bbf0ec79-6a03-4daf-8911-de8ad2de219c" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_9">
+												<td akn:GUID="_2067bede-04bd-40be-a183-1f4163acb7ae" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_9__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Telecommunications (Appeals) Regulations 1999</p>
+												</td>
+												<td akn:GUID="_5525730a-a0d6-43a3-aadf-b4659b016414" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_9__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 1999/3180</p>
+												</td>
+												<td akn:GUID="_16ec6211-3c29-4125-a5ce-50a18484ce14" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_9__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Regulations</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_23957473-60ee-424a-ade7-5341531f38ea" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_10">
+												<td akn:GUID="_b2963b8c-e2d0-4212-9537-2aa937b1afa6" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_10__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Dual-Use Items (Export Control) (Amendment) Regulations 2003</p>
+												</td>
+												<td akn:GUID="_b70a00b7-0836-4ccf-8b17-0c9d46d5a090" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_10__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2003/504</p>
+												</td>
+												<td akn:GUID="_35ca8401-b5f1-4248-b384-966e5738847a" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_10__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Regulations</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_9baae265-fd90-4729-b1f0-d58e0aeb54a9" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_11">
+												<td akn:GUID="_25849477-d752-4a41-b547-6d43447d9530" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_11__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Companies (Acquisition of Own Shares) (Treasury Shares) No. 2 Regulations 2003</p>
+												</td>
+												<td akn:GUID="_e32766e2-5b8c-47ec-8b5e-5842bf8371aa" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_11__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2003/3031</p>
+												</td>
+												<td akn:GUID="_d696fd6d-fc93-40e1-934c-d1f28c20dea1" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_11__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Regulations</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_40730ebf-76d6-4f31-82e8-23227c037e94" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_12">
+												<td akn:GUID="_15029694-6584-4c05-b9f6-fe6bd7d3e1c3" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_12__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Mutual Assistance Provisions Order 2003</p>
+												</td>
+												<td akn:GUID="_a3132bd6-1cc0-4216-96b2-ac55ac7a4fce" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_12__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2003/3092</p>
+												</td>
+												<td akn:GUID="_8d85ea89-2604-4621-8eb1-b37b36539a9c" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_12__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Order</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_9ce37a0b-e0a8-4343-a6ce-f38a3a82d32e" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_13">
+												<td akn:GUID="_7df36669-51bb-4773-9548-a406105e579b" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_13__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EC Merger Control (Consequential Amendments) Regulations 2004</p>
+												</td>
+												<td akn:GUID="_0c417b77-fef6-4d10-a2dc-e5b8cd695729" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_13__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2004/1079</p>
+												</td>
+												<td akn:GUID="_41c37666-be09-4919-907e-6e8dca60997b" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_13__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Schedule paragraphs 1, 2(2)(b), (3) to (5), (6)(b), (7) to (9), (12)(b), (13) to (15), (19) to (24), (25)(b), (26)(b), (27), 3 and 5</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_6a64a7f0-4a54-412a-8cff-f44667b53a7f" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_14">
+												<td akn:GUID="_b29b8cbc-4091-4a30-9cc6-833630e30716" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_14__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Immigration (European Economic Area) and Accession (Amendment) Regulations 2004</p>
+												</td>
+												<td akn:GUID="_3174654c-af36-4262-b52c-89a3a8ec57cf" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_14__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2004/1236</p>
+												</td>
+												<td akn:GUID="_d8fc6937-6f30-435f-913e-e529b1931897" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_14__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Regulations</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_f4f24470-2b2b-4aa3-b1b9-4a838ada1945" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_15">
+												<td akn:GUID="_c0391cba-b2a7-4529-8681-38dcf0df3425" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_15__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Reporting of Savings Income Information (Amendment) Regulations 2005</p>
+												</td>
+												<td akn:GUID="_49268c13-b5ab-4da3-a105-39084e62f353" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_15__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2005/1539</p>
+												</td>
+												<td akn:GUID="_61992b7d-e2d1-45a8-ab9a-3d217bed95a6" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_15__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Regulations</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_4b279fae-e1a1-4c8c-94e9-15c7f96fd837" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_16">
+												<td akn:GUID="_01b98904-22ff-431c-95cc-f3b6833e2e59" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_16__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Companies Act 1985 (Investment Companies and Accounting and Audit Amendments) Regulations 2005</p>
+												</td>
+												<td akn:GUID="_a7fb3691-2360-4165-ae8c-df73359a17e9" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_16__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2005/2280</p>
+												</td>
+												<td akn:GUID="_6b0a5011-a7ae-453c-9c73-4ca120649b0c" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_16__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Regulations</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_cfd9ec8c-cfb9-4078-999f-c0b1fd5a0d8a" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_17">
+												<td akn:GUID="_085e2649-e1bf-498d-8b39-51a817079a34" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_17__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Reporting of Savings Income Information (Amendment) Regulations 2006</p>
+												</td>
+												<td akn:GUID="_ae6609d3-5bfb-4a3e-8258-a9f12d0573b5" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_17__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2006/3286</p>
+												</td>
+												<td akn:GUID="_715343fc-aae7-4e06-9547-96178f2dcbf4" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_17__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Regulations</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_5682a2f5-e906-4fc0-9e7f-d3548bd585aa" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_18">
+												<td akn:GUID="_6114d93a-67d1-4902-8024-2b04b2ac5688" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_18__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Accession (Immigration and Worker Authorisation) (Amendment) Regulations 2007</p>
+												</td>
+												<td akn:GUID="_059b254f-2576-426f-b936-be1ca74c73ec" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_18__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2007/475</p>
+												</td>
+												<td akn:GUID="_7369b50d-bb59-4122-bda0-56e34231f57b" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_18__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Regulations</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_233aadfd-df2c-484a-bf02-f154b2e137e6" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_19">
+												<td akn:GUID="_65d5c0ac-6bb6-42e8-a10c-6724c91a3f16" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_19__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Accession (Worker Authorisation and Worker Registration) (Amendment) Regulations 2009</p>
+												</td>
+												<td akn:GUID="_94826bae-25d3-4ad2-86ca-6ee23296a8a3" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_19__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2009/2426</p>
+												</td>
+												<td akn:GUID="_9e6b57cd-df3f-445e-8e31-263e8e50b879" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_19__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Regulations</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_7bf1af75-5561-4263-8b1f-c7628d87e6df" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_20">
+												<td akn:GUID="_834a6e52-514d-4115-ba62-1788be646a1d" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_20__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Civil Procedure (Amendment) Rules 2011</p>
+												</td>
+												<td akn:GUID="_f191cad6-ade7-47d8-a6ce-c0ebb2fbaa58" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_20__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2011/88</p>
+												</td>
+												<td akn:GUID="_6708dd4f-f1a2-432a-b348-dd497b6d6b17" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_20__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Rule 4 paragraphs (a)(i), (a)(iv), (b)(iii), (c), (d), (e), (f), (h)(ii), (i)(i), (k), (l), (m), (o)(ii), (r); rules 5 and 6; rule 9 paragraphs (b) to (e); rule 10</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_a465b4d6-d5b0-4454-8690-3943a75670b5" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_21">
+												<td akn:GUID="_8747ea2a-e381-4c35-b993-57fa94b33dee" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_21__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Libya (Asset-Freezing) (Amendment) Regulations 2012</p>
+												</td>
+												<td akn:GUID="_96c31ef1-8845-4888-85f3-33682dbef1b3" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_21__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2012/56</p>
+												</td>
+												<td akn:GUID="_85d639ea-3010-404d-9881-d1beead6243a" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_21__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Regulations</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_80eb03c3-8816-47d4-9e7d-323670a89706" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_22">
+												<td akn:GUID="_bf3438c4-971b-451b-aeb9-280ae019a0c3" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_22__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">International Recovery of Maintenance (Hague Convention 2007 etc.) Regulations 2012</p>
+												</td>
+												<td akn:GUID="_f102f8e2-97f1-4cb7-8354-613cfca09e06" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_22__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2012/2814</p>
+												</td>
+												<td akn:GUID="_cde2fa63-ceb4-4e92-aa6a-7bc0b7d9e057" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_22__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Schedule 4 paragraphs 1(3), 4, 6(a), 9(3)(a)</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_87de3652-e4f0-4d06-8674-0cc1e31879c1" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_23">
+												<td akn:GUID="_bfb77f4c-166d-48af-a6d7-f119277fcb02" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_23__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Civil Legal Aid (Merits Criteria) Regulations 2013</p>
+												</td>
+												<td akn:GUID="_cfeb48f0-f602-4aa0-85bd-4e31910c5595" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_23__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2013/104</p>
+												</td>
+												<td akn:GUID="_3080a161-78b5-45f6-95e4-e9ad44e245fc" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_23__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The definition “Dublin III claim”, and the words “other than a Dublin III claim” in the definition “public law claim” in regulation 2, regulation 56A, regulation 72</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_d273c2ee-f6a2-41c9-ba8a-9cbd43f5e20c" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_24">
+												<td akn:GUID="_b404edec-6482-4768-8951-7ba19110ccc2" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_24__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Criminal Legal Aid (Remuneration) Regulations 2013</p>
+												</td>
+												<td akn:GUID="_51dfc46e-410e-4f80-8865-d8ecaef99a5d" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_24__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2013/435</p>
+												</td>
+												<td akn:GUID="_6418fe02-d190-47ca-a45a-f62366c7b28f" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_24__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The entry for the offence of false evidence before the European Court in the Litigators’ graduated fee Scheme table in Part 7 of Schedule 2</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_763d014d-5dfa-49ec-ac12-deba0c25297b" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_25">
+												<td akn:GUID="_061e40ed-c55b-4d7e-a19e-cdd2228542e4" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_25__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Civil Legal Aid (Merits Criteria) (Amendment) (No. 3) Regulations 2013</p>
+												</td>
+												<td akn:GUID="_5ecd211d-d227-4398-8305-d1d7a5f88927" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_25__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2013/3195</p>
+												</td>
+												<td akn:GUID="_f51978c1-80ff-4e99-a55d-a22580dabce7" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_25__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Regulations</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_fbeff6ce-b9c7-40d4-89fc-fbe59f43782f" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_26">
+												<td akn:GUID="_23c57d58-eba6-4cfa-9fe1-49e3b3b99340" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_26__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Libya (Asset-Freezing) (Amendment) Regulations 2013</p>
+												</td>
+												<td akn:GUID="_4eda39ba-3b77-46c2-9acd-884f74030d5c" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_26__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2013/2071</p>
+												</td>
+												<td akn:GUID="_b02e1da7-706b-42de-9df6-09ba93dee575" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_26__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Regulations</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_63ce56de-f20c-4f32-96ef-71e6ac714e78" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_27">
+												<td akn:GUID="_f462378c-6783-46c6-84de-fe2a64bf7673" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_27__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Zimbabwe (Financial Sanctions) (Amendment) Regulations 2014</p>
+												</td>
+												<td akn:GUID="_e58a4541-0a46-461a-8552-29d6ddaa2274" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_27__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2014/383</p>
+												</td>
+												<td akn:GUID="_c3f36205-a4c2-4996-a6f8-33ce64e4a0d4" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_27__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Regulations</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_871171e0-db54-4105-b0b6-0fcf98dd276f" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_28">
+												<td akn:GUID="_d933c90d-7d19-4274-bffb-10e37bc5b2d8" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_28__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Family Procedure (Amendment No. 4) Rules 2014</p>
+												</td>
+												<td akn:GUID="_df836a2f-01f4-4039-9be8-c9c5e2a97979" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_28__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2014/3296</p>
+												</td>
+												<td akn:GUID="_c609a65f-a6f9-4f2c-9b6a-b8e40f3b2cb0" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_28__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Rules 12 and 13</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_efc2c7c0-c7d6-443a-bb3f-4fee9eee81ad" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_29">
+												<td akn:GUID="_f9fb0b8a-efb5-444a-8dae-8d71f9b9edc8" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_29__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Export Control (Various Amendments) Order 2015</p>
+												</td>
+												<td akn:GUID="_87212b16-fcb7-4e25-ab69-5e20fc456671" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_29__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2015/97</p>
+												</td>
+												<td akn:GUID="_bb124cc0-a7ee-4f53-9562-945130ae7e9a" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_29__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Order</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_e92bc4b3-e889-473e-a7ce-84beb1441405" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_30">
+												<td akn:GUID="_c001b857-a1a3-4c3a-ada2-9e2989648d08" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_30__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Civil Jurisdiction and Judgments (Hague Convention on Choice of Court Agreements 2005) Regulations 2015</p>
+												</td>
+												<td akn:GUID="_2e65299f-d55a-4748-941e-870cea2185d2" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_30__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2015/1644</p>
+												</td>
+												<td akn:GUID="_68dd686d-c5ba-4029-8ae1-194c877569fb" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_30__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Paragraphs 3 and 4 of the Schedule</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_ffd94232-686e-44ea-b3ee-faaf71d58888" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_31">
+												<td akn:GUID="_7f284918-d5db-4943-aff6-8ee563568c26" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_31__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Registration of Births, Deaths, Marriages and Civil Partnerships (Fees) Regulations 2016</p>
+												</td>
+												<td akn:GUID="_f9df7d85-3ac5-4fdb-a4d1-4318b7ea88cf" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_31__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2016/911</p>
+												</td>
+												<td akn:GUID="_311c43c1-d68f-4734-bdcf-f53b2b8a83cd" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_31__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Regulation 3F</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_c44c1a16-a1d8-44e8-a72a-51a5ee5c3788" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_32">
+												<td akn:GUID="_aed1f3fa-8dcc-4907-8377-4d84ba1f6773" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_32__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">European Union Financial Sanctions (Amendment of Information Provisions) Regulations 2017</p>
+												</td>
+												<td akn:GUID="_b4326e8a-c9bc-4210-b05c-5dc9771919d6" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_32__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2017/754</p>
+												</td>
+												<td akn:GUID="_a18e2047-a402-4817-81c1-7c5460583a5c" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_32__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Regulations</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_98968de1-5786-41d4-a592-e55885957120" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_33">
+												<td akn:GUID="_9a55114e-3f94-4711-9835-e00c9092b9a1" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_33__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Export Control (Syria and Libya Sanctions) (Amendment) Order 2017</p>
+												</td>
+												<td akn:GUID="_d8fa5617-5221-49c6-80ed-288afc69b0ff" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_33__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2017/1311</p>
+												</td>
+												<td akn:GUID="_cc202a54-0a10-4f26-af76-5ca6c10a304e" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_33__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Order</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_0d96c0b8-e6e1-4d55-becf-50d2e1fe1baf" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_34">
+												<td akn:GUID="_4eebd8a8-7213-49d9-b04b-36346f617e73" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_34__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Registration of Births, Deaths, Marriages and Civil Partnerships (Fees) (Amendment) and Multilingual Standard Forms Regulations 2018</p>
+												</td>
+												<td akn:GUID="_5eec5286-684b-4554-a5c1-bc852ff925a4" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_34__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2018/1268</p>
+												</td>
+												<td akn:GUID="_393267d9-0752-45df-8742-256f40c4b989" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_34__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Regulation 5, only to the extent that it inserted regulation 3F in S.I. 2016/911</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_b94a9d9a-38e2-42f7-99f8-21203476f623" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_35">
+												<td akn:GUID="_368091bf-849a-416c-99fa-0fdb89567169" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_35__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Competition (Amendment etc.) (EU Exit) Regulations 2019</p>
+												</td>
+												<td akn:GUID="_1d0d2be3-d6d2-4344-8cb8-16f544e4e288" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_35__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2019/93</p>
+												</td>
+												<td akn:GUID="_0e0552c1-30cf-4dfa-81d5-132476a4df0d" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_35__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Paragraphs 5 to 8 and 10(2)(a) and (b) of Schedule 3 and paragraph 3 of Schedule 4</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_89a6f38a-d96e-437c-8f53-e0897443b045" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_36">
+												<td akn:GUID="_94b85515-cb5a-4e91-b559-c3219bf2fbbd" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_36__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Immigration (European Economic Area) (Amendment) Regulations 2019</p>
+												</td>
+												<td akn:GUID="_1faf4378-fffd-46fd-8c53-d6da5bcb302a" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_36__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2019/1155</p>
+												</td>
+												<td akn:GUID="_fc86e3ab-4d0a-4167-a6ff-a643f2d8715d" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_36__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Regulations</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_fb3d502d-e0bf-4214-ab56-13baf1589804" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_37">
+												<td akn:GUID="_2a23248d-0d80-4d2b-bf7a-6e6241b087e3" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_37__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Export Control (Somalia) (Amendment) Order 2020</p>
+												</td>
+												<td akn:GUID="_8354137d-e677-4c3c-a7cf-d0be5bf745d7" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_37__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2020/572</p>
+												</td>
+												<td akn:GUID="_de6e7647-1847-4e33-961d-f1a08341274c" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_37__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Order</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_e5874d8d-6cce-40a8-ade0-04c76e3be98f" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_38">
+												<td akn:GUID="_13c18362-5ff7-484b-892b-2a664118c658" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_38__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Competition Act 1998 (Research and Development Agreements Block Exemption) Order 2022</p>
+												</td>
+												<td akn:GUID="_18ec4ce2-9bec-4360-9298-6b09635d31b1" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_38__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2022/1271</p>
+												</td>
+												<td akn:GUID="_a1146d69-8fe0-4cdc-8f73-e1be0802ecbf" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_38__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Paragraphs 1 and 2 of article 18</p>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</foreign>
+							</tblock>
+						</content>
+					</part>
+					<part GUID="_653762df-8a68-468a-b9ac-743531cfc683" class="schGroup2" eId="sched_2__pt_2">
+						<num>Part 2</num>
+						<heading GUID="_a262301c-d66d-43e9-bacc-c60bda4ddcff" eId="sched_2__pt_2__hdg">RETAINED DIRECT EU LEGISLATION</heading>
+						<content>
+							<tblock GUID="_5aa35a30-d8e1-43fb-ac37-ac775af2a9eb" class="table" eId="sched_2__pt_2__tbl__oc_1">
+								<foreign>
+									<table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="topAndBottom tableleft width100" cols="3" ukl:templateColumns="55 20 25">
+										<thead class="left">
+											<tr akn:GUID="_2b5d8427-2e39-4d55-8305-ffb40bb6a6d9" akn:eId="sched_2__pt_2__tbl__oc_1__hdg__row__oc_1">
+												<td akn:GUID="_674ca8d9-ee2f-4983-a3e2-19cdfaf58a60" akn:eId="sched_2__pt_2__tbl__oc_1__hdg__row__oc_1__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><b><i>Title</i></b></p>
+												</td>
+												<td akn:GUID="_2f5700cb-cdf3-489c-8634-39c8b9f7dc4b" akn:eId="sched_2__pt_2__tbl__oc_1__hdg__row__oc_1__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><b><i>Citation</i></b></p>
+												</td>
+												<td akn:GUID="_1d216639-7dc2-431d-a32d-3677746f2eba" akn:eId="sched_2__pt_2__tbl__oc_1__hdg__row__oc_1__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><b><i>Extent of revocation</i></b></p>
+												</td>
+											</tr>
+										</thead>
+										<tbody class="left">
+											<tr akn:GUID="_1b4812ab-670d-45ca-ba7c-68eb67a69b10" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_1">
+												<td akn:GUID="_b65f1ad8-cb02-4829-940c-4917706b1f3c" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_1__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EAEC Commission: Decision fixing the date on which the Euratom Supply Agency shall take up its duties and approving the Agency Rules of 5 May 1960 determining the manner in which demand is to be balanced against the supply of ores, source materials and special fissile materials</p>
+												</td>
+												<td akn:GUID="_42dce1e4-c8db-4c40-9dd1-0e565f2917b5" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_1__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 1960/511</p>
+												</td>
+												<td akn:GUID="_bc651065-3a7a-432b-8641-db0e6f5899fd" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_1__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_4a8a7309-e80c-47e7-b80c-26545d678ab8" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_2">
+												<td akn:GUID="_cbfc870b-d6ce-40f8-806f-34a4bd56d8c8" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_2__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EAEC Council: Decision on the establishment of the "Société d'énergie nucléaire franco-belge des Ardennes" Joint Undertaking</p>
+												</td>
+												<td akn:GUID="_e70bdcd2-8f18-4a0f-ab72-5cf88a319f9e" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_2__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 1961/1009</p>
+												</td>
+												<td akn:GUID="_2873bb1c-92bc-4813-ab5d-40e109742930" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_2__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_3961a7f3-5b48-475e-b4df-114fb6fa0396" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_3">
+												<td akn:GUID="_756d6238-2e00-440b-86c8-089eccc99580" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_3__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">74/296/Euratom: Council Decision of 4 June 1974 on the conferring of advantages on the Hochtemperatur-Kernkraftwerk GmbH (HKG) Joint Undertaking</p>
+												</td>
+												<td akn:GUID="_a084f126-ae4f-4679-8d9d-4d18bc6e8d7a" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_3__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 74/296</p>
+												</td>
+												<td akn:GUID="_b51eb676-8d7e-4d26-a5b4-aaa6fbbf94af" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_3__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_5d21ee40-4816-42dc-8cc4-63b7629b82e2" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_4">
+												<td akn:GUID="_0c28f089-dc38-42b4-939b-6867d646ad99" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_4__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">75/328/Euratom: Council Decision of 20 May 1975 on the establishment of the Joint Undertaking 'Schnell-Brüter-Kernkraftwerksgesellschaft mbH' (SBK)</p>
+												</td>
+												<td akn:GUID="_a1fcd52b-a647-4568-8f4a-2fbaa885faf2" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_4__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 75/328</p>
+												</td>
+												<td akn:GUID="_fb15be66-040a-40bb-903d-ea317fe527d7" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_4__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_3a993b65-7864-4759-b091-854805a22d0d" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_5">
+												<td akn:GUID="_2078d22e-977f-4cbd-a56b-7814ce983ff3" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_5__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">75/329/Euratom: Council Decision of 20 May 1975 on the conferring of advantages on the 'Schnell-Brüter-Kernkraftwerksgesellschaft mbH' (SBK) joint undertaking</p>
+												</td>
+												<td akn:GUID="_d67b7f00-c9aa-4eb2-a33a-7d77e66c484b" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_5__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 75/329</p>
+												</td>
+												<td akn:GUID="_d02ea287-f7a8-4b09-a97d-43b747df7aac" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_5__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_d6feddfa-9be9-46b7-9aba-ecc6e8e68ed9" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_6">
+												<td akn:GUID="_24982d2f-9814-4723-91e2-b1c45bc9a4f3" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_6__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">77/270/Euratom: Council Decision of 29 March 1977 empowering the Commission to issue Euratom loans for the purpose of contributing to the financing of nuclear power stations</p>
+												</td>
+												<td akn:GUID="_f259b801-39b2-46c5-a857-58981bff6bac" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_6__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 77/270</p>
+												</td>
+												<td akn:GUID="_b9818ad7-663f-4a2f-b247-bd219f13a5dc" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_6__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_c524770e-299f-4e2a-b282-97906d23f7d9" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_7">
+												<td akn:GUID="_868a7371-474b-4180-8110-d339495ee67e" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_7__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">77/271/Euratom: Council Decision of 29 March 1977 on the implementation of Decision 77/270/Euratom empowering the Commission to issue Euratom loans for the purpose of contributing to the financing of nuclear power stations</p>
+												</td>
+												<td akn:GUID="_88cd9686-3da4-4a86-ac97-801ec8790e4e" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_7__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 77/271</p>
+												</td>
+												<td akn:GUID="_e8ca932c-3760-4d3b-aefa-4cd92030ef91" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_7__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_26ddc142-a2b8-4bee-b1e1-997dca7e2d1b" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_8">
+												<td akn:GUID="_906e8950-4a5a-4b8e-982c-1f387c9a2153" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_8__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">80/237/Euratom: Council Decision of 18 February 1980 on the setting up of an 'ad hoc' Advisory Committee on the Reprocessing of Irradiated Nuclear Fuels</p>
+												</td>
+												<td akn:GUID="_da85a926-648f-44fc-b7cc-fae87428e97f" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_8__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 80/237</p>
+												</td>
+												<td akn:GUID="_ea417c5d-886c-4ef1-b506-ceadda5afa10" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_8__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_f7a87d4a-0714-46dd-9b38-dab9599e4859" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_9">
+												<td akn:GUID="_3e8f3a64-6ee8-4ba7-a7be-4de9f9625bf4" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_9__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Council Decision of 20 January 1986 approving the conclusion by the Commission of a Memorandum of Understanding between the European Atomic Energy Community and the Government of Canada concerning cooperation in the field of fusion research and development (86/28/Euratom)</p>
+												</td>
+												<td akn:GUID="_8c764a45-f491-43db-9658-9b9fa860d29a" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_9__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 86/28</p>
+												</td>
+												<td akn:GUID="_497e0aaf-94ad-47a2-870a-fbb0fa230b8e" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_9__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_9f8aa394-2b0e-462b-a0c7-970c031bc464" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_10">
+												<td akn:GUID="_8a0bfeaa-02ea-4fa6-8c3b-6cf893f6432b" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_10__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Council Decision of 14 December 1987 on Community arrangements for the early exchange of information in the event of a radiological emergency (87/600/Euratom)</p>
+												</td>
+												<td akn:GUID="_ce19c97a-e37d-40ad-ac83-73526e0031f4" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_10__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 87/600</p>
+												</td>
+												<td akn:GUID="_9f2a9d10-6c4b-420c-a949-47a4c097b938" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_10__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_d93e46c1-8ee9-4134-aa26-c3d7e80314df" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_11">
+												<td akn:GUID="_46103a90-fe78-4cee-aba2-233a299e3810" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_11__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Commission Decision of 10 February 1989 concerning the conclusion of an Agreement for cooperation between the European Atomic Energy Community and the Government of Japan in the field of controlled thermonuclear fusion, by the Commission for and on behalf of the Community (89/149/Euratom)</p>
+												</td>
+												<td akn:GUID="_648a7e64-c65a-4c98-89f3-8bdac025f693" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_11__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 89/149</p>
+												</td>
+												<td akn:GUID="_a396d9ee-8108-42ca-8125-6f9a3b89b747" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_11__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_7d5c5ef1-4d47-495c-95a7-687dcbe1b643" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_12">
+												<td akn:GUID="_f29b4fe8-a870-4425-93b6-9516662ebf55" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_12__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">89/340/EEC: Council Decision of 3 May 1989 concerning work for third parties performed by the Joint Research Centre relevant to the European Economic Community</p>
+												</td>
+												<td akn:GUID="_4422dbda-723a-40bc-956f-2589963a5425" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_12__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 89/340</p>
+												</td>
+												<td akn:GUID="_fb6d195f-76af-435c-8945-a7e6eed76f64" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_12__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_d3f6c8c6-6b43-4502-b660-89c63a82635a" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_13">
+												<td akn:GUID="_4bd8a7bd-7057-4d8c-a520-337e6ed70527" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_13__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">90/212/Euratom: Council Decision of 23 April 1990 amending Decision 77/271/Euratom on the implementation of Decision 77/270/Euratom empowering the Commission to issue Euratom loans for the purpose of contributing to the financing of nuclear power stations</p>
+												</td>
+												<td akn:GUID="_fca8abda-c1b3-44ff-a8ee-8ed62c9f0275" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_13__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 90/212</p>
+												</td>
+												<td akn:GUID="_7225e381-eadb-4ca5-a510-a46f13c99ede" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_13__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_48bccb79-4c0e-425b-add8-9a86d6b19a5c" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_14">
+												<td akn:GUID="_fa9e3413-203e-4010-b2dc-86942ba62d3e" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_14__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">92/194/Euratom: Commission Decision of 4 March 1992 relating to a procedure in application of Article 83 of the Euratom Treaty (XVII-002 — UKAEA Dounreay)</p>
+												</td>
+												<td akn:GUID="_081f850b-ccc1-46ae-9ec2-9f8a6ac6227b" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_14__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 92/194</p>
+												</td>
+												<td akn:GUID="_65584a52-77a3-4adf-9a78-f451f5f68102" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_14__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_0a43e188-4155-42db-88ed-a0fc10ec9611" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_15">
+												<td akn:GUID="_ef2aa56c-d3b3-4d16-888c-b12fb2f5ba35" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_15__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">92/275/Euratom: Council Decision of 29 April 1992 adopting a supplementary research programme to be implemented by the joint research centre for the European Atomic Energy Community (1992-1995)</p>
+												</td>
+												<td akn:GUID="_8ff41646-919e-489e-91ef-fea95906befe" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_15__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 92/275</p>
+												</td>
+												<td akn:GUID="_e1d60aff-1119-4f6d-a211-9a62b60b9a85" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_15__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_6ae5a3cd-d668-449c-97f3-4682b99b4329" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_16">
+												<td akn:GUID="_9b01380f-de7c-4ce1-953e-687acc13f888" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_16__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Commission Decision of 28 June 1995 concerning the conclusion of the Implementing Agreement between the European Atomic Energy Community, represented by the Commission of the European Communities, and Atomic Energy of Canada Limited designated as implementing agent by the Government of Canada on the involvement of Canada in the European Atomic Energy Community contribution to the Engineering Design Activities (EDA) for the International Thermonuclear Experimental Reactor (ITER), by the Commission, on behalf of the Community (95/356/Euratom)</p>
+												</td>
+												<td akn:GUID="_3bbfc0b8-a3e8-4bdc-b32e-ba2ac70f5a1f" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_16__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 95/356</p>
+												</td>
+												<td akn:GUID="_2ca90280-db88-47ac-bd0a-417a371506f2" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_16__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_537df756-19a4-4a81-ab4e-6efc1adcd638" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_17">
+												<td akn:GUID="_412f1047-f56a-4d07-8e45-a75ba726a739" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_17__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">96/671/Euratom: Commission Decision of 13 November 1996 relating to a procedure in application of Article 83 of the Euratom Treaty (XVII-05 — Jenson Tungsten Ltd, Hemel Hempstead)</p>
+												</td>
+												<td akn:GUID="_cbb5831e-9ff3-41b6-b0f8-d3c96b2e3f15" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_17__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 96/671</p>
+												</td>
+												<td akn:GUID="_552daa97-da89-45be-bad8-aeb1ac625812" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_17__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_4e56491c-fb3a-4577-852c-2e6e2febd68c" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_18">
+												<td akn:GUID="_e9ffc5cb-ff84-4333-92f3-b7215bc4a5f6" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_18__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Council Decision of 22 June 1998 concerning the extension of the duration of the Agreement among the European Atomic Energy Community, the Government of Japan, the Government of the Russian Federation and the Government of the United States of America on cooperation in the engineering design activities (EDA) for the international thermonuclear experimental reactor (ITER) (98/704/Euratom)</p>
+												</td>
+												<td akn:GUID="_e82ce66f-04f0-4a51-b6fe-aa10907f95ac" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_18__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 98/704</p>
+												</td>
+												<td akn:GUID="_8810c3c6-8ca1-44dc-ba63-1b71dc6cf043" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_18__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_b333580b-74da-4124-b5d8-00185c5c8d35" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_19">
+												<td akn:GUID="_82ce59c7-fd4b-42f9-ab5a-b6ac41756f08" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_19__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Commission Decision of 15 December 1998 concerning the conclusion of an Agreement between the European Atomic Energy Community (Euratom) and Canada for cooperation in the area of nuclear research (98/732/Euratom)</p>
+												</td>
+												<td akn:GUID="_98c4614c-27cc-4ecb-b477-31abf4ba0163" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_19__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 98/732</p>
+												</td>
+												<td akn:GUID="_b9c50bb7-e569-4677-a36d-76c9424630b8" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_19__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_e87bf925-d3e4-4b08-bac5-90c3b8bc2d70" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_20">
+												<td akn:GUID="_4d2a6c18-f931-4e2f-b50d-650a8a93cfe7" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_20__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1999/175/Euratom: Council Decision of 25 January 1999 adopting a research and training programme (Euratom) in the field of nuclear energy (1998 to 2002)</p>
+												</td>
+												<td akn:GUID="_4a97aaa3-5e37-48da-bb12-1a81901e400e" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_20__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 1999/175</p>
+												</td>
+												<td akn:GUID="_6458b4be-5b6e-4a7e-b55c-ea6075072738" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_20__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_6e84d17b-2a6a-4b29-bda6-2cc9854087ff" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_21">
+												<td akn:GUID="_bdefddd7-f634-4650-a5e7-1843626a9105" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_21__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1999/176/Euratom: Council Decision of 25 January 1999 adopting a specific programme for research and training to be carried out by the Joint Research Centre by means of direct actions for the European Atomic Energy Community (1998 to 2002)</p>
+												</td>
+												<td akn:GUID="_6a9e7b27-8df9-44fc-bdca-c9a8cd36cdb4" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_21__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 1999/176</p>
+												</td>
+												<td akn:GUID="_d5e87aa4-ba87-441b-8c2f-162fbcf2be1c" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_21__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_94b86194-e2f0-45b0-af2e-e9b002bd8c9f" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_22">
+												<td akn:GUID="_9be0e68b-218c-40ec-afdd-45ec3ba961c2" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_22__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Commission Decision of 16 November 1999 concerning the accession to the 1994 Convention on Nuclear Safety by the European Atomic Energy Community (Euratom) (1999/819/Euratom)</p>
+												</td>
+												<td akn:GUID="_97dcce72-d72b-4033-9b62-f0547e27d6ad" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_22__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 1999/819</p>
+												</td>
+												<td akn:GUID="_aa6bafd5-9664-492e-9e5c-938b25f8d773" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_22__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_dcb126ef-9ccd-48f2-b749-d27860d2ee7f" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_23">
+												<td akn:GUID="_2bd537ae-7c07-44a4-a419-787b4295ed3d" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_23__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2001/761/Euratom: Council Decision of 27 September 2001 authorising the conclusion by the Commission of two Cooperation Agreements between the European Autonomic Energy Community and the Government of the Russian Federation in the fields of nuclear safety and controlled nuclear fusion</p>
+												</td>
+												<td akn:GUID="_339a8577-06bd-4b7a-85ba-4e45caf537f2" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_23__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 2001/761</p>
+												</td>
+												<td akn:GUID="_b6399b5b-bc9c-4a3c-8932-1e4d16389207" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_23__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_bad600df-f79e-4b39-915c-87963d0a322b" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_24">
+												<td akn:GUID="_4e11ead5-04c3-442d-ae80-485fe1d40f61" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_24__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Commission Decision of 27 November 2002 on the conclusion of a Cooperation Agreement between the European Atomic Energy Community and the Government of the Republic of Kazakhstan in the field of controlled nuclear fusion (2005/419/Euratom)</p>
+												</td>
+												<td akn:GUID="_46424001-4143-4abf-a842-da8c355fdd4a" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_24__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 2005/419</p>
+												</td>
+												<td akn:GUID="_43cbfb18-88b7-4d99-a396-ad93867b429c" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_24__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_b10b784d-0792-47dd-a9f9-b673637950f9" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_25">
+												<td akn:GUID="_41dec830-491e-4e33-9388-e9d94ca18279" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_25__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Commission Decision of 29 April 2004 amending Commission Decision 1999/819/Euratom of 16 November 1999 concerning the accession to the 1994 Convention on Nuclear Safety by the European Atomic Energy Community (Euratom) with regard to the Declaration attached thereto (2004/491/Euratom)</p>
+												</td>
+												<td akn:GUID="_0fa3ff62-6b08-44f5-bd17-b6631870aa00" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_25__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 2004/491</p>
+												</td>
+												<td akn:GUID="_dd45fd22-78a0-4cfa-88e5-8889b639ff25" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_25__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_12e4206a-8037-41ce-8e2f-fcfe5f887e02" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_26">
+												<td akn:GUID="_e1886ddf-9125-471a-afdc-f66addcc6fad" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_26__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Council Decision of 24 January 2005 approving the accession of the European Atomic Energy Community to the ‘Joint Convention on the Safety of Spent Fuel Management and on the Safety of Radioactive Waste Management’ (2005/84/Euratom)</p>
+												</td>
+												<td akn:GUID="_e45637c5-18b4-4d3b-8d19-b0b671f95294" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_26__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 2005/84</p>
+												</td>
+												<td akn:GUID="_c341db44-9a7b-49a6-bdc1-b42be546c68e" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_26__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_f40c0058-af37-4256-895a-c8d90e25a995" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_27">
+												<td akn:GUID="_46619c81-b30f-4ce6-86ff-2248696dc6d0" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_27__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Commission Decision of 4 April 2005 on the conclusion, by way of signature, of an Agreement for Co-operation in the Peaceful Uses of Nuclear Energy between the European Atomic Energy Community (Euratom) and the Cabinet of Ministers of Ukraine (2006/635/Euratom)<authorialNote GUID="_e104dbc0-1151-42a9-aac9-ac132661b7e5" class="footnote" eId="fnote_8" marker="8">
+														<p>The title of the Decision originally referred to 4 April 2006 but was corrected by corrigendum to 4 April 2005.</p>
+														</authorialNote></p>
+												</td>
+												<td akn:GUID="_276d987e-b528-4e7f-9f59-570d258db80b" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_27__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 2006/635</p>
+												</td>
+												<td akn:GUID="_765e71bd-2fc6-467a-8bd5-2c9d7c57c378" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_27__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_0acc5312-dec2-4387-bbbc-85d9b60b2e64" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_28">
+												<td akn:GUID="_22cbdfec-2f0b-4fa3-8204-f34dbdc18324" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_28__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Commission Decision of 14 June 2005 concerning the accession of the European Atomic Energy Community to the ‘Joint Convention on the Safety of Spent Fuel Management and on the Safety of Radioactive Waste Management’ (2005/510/Euratom)</p>
+												</td>
+												<td akn:GUID="_9aec0a6c-816b-4f4b-ab1b-12d115d56457" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_28__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 2005/510</p>
+												</td>
+												<td akn:GUID="_008f3b0c-d013-4f9e-ad2e-350c6af4d583" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_28__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_b1742c2c-e388-469c-87c0-4f5867660eec" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_29">
+												<td akn:GUID="_b4849719-50c5-4862-bc35-c96d389b0f46" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_29__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Commission Decision of 15 February 2006 pursuant to Article 83 of the Treaty establishing the European Atomic Energy Community. A summary of the key provisions of the Decision are set out below, without prejudice to the full effect of the Decision itself (2006/626/Euratom)</p>
+												</td>
+												<td akn:GUID="_b53ca186-de74-4aed-9c2e-5e386f3f2a14" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_29__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 2006/626</p>
+												</td>
+												<td akn:GUID="_f8d40875-c583-48e4-84bd-0b2e71186dee" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_29__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_e2c2ed2c-99a6-4517-87ad-dc2ad714b735" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_30">
+												<td akn:GUID="_3cac6594-91ce-455a-9ff8-dc18c1dad365" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_30__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Council Regulation (EC) No 1801/2006 of 30 November 2006 on the conclusion of the Fisheries Partnership Agreement between the European Community and the Islamic Republic of Mauritania</p>
+												</td>
+												<td akn:GUID="_71eb5183-d982-42a8-9875-ace116662bfe" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_30__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUR 1801/2006</p>
+												</td>
+												<td akn:GUID="_cfe4c2e1-b1e6-458a-a24a-1877c2d28b59" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_30__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Regulation</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_f953cddb-f84e-4bdc-be81-a562e32839ad" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_31">
+												<td akn:GUID="_8c012e5c-b805-4cce-b71c-5396d1679f3f" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_31__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Commission Decision of 4 December 2006 concerning the conclusion on behalf of the European Atomic Energy Community of a Framework Agreement on a Multilateral Nuclear Environmental Programme in the Russian Federation and of the Protocol on Claims, Legal Proceedings and Indemnification to the Framework Agreement on a Multilateral Nuclear Environmental Programme in the Russian Federation (2006/890/Euratom)</p>
+												</td>
+												<td akn:GUID="_518da935-61c1-4132-8893-6c2d3a40d87f" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_31__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 2006/890</p>
+												</td>
+												<td akn:GUID="_243eac3e-74a4-4c19-8bea-b7c63d41bae6" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_31__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_d34c7710-3cba-4f4c-8809-afb254dd9967" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_32">
+												<td akn:GUID="_77f23a4e-039f-4b42-9808-f4c04515f6d2" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_32__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Commission Decision of 28 August 2006 concerning the conclusion of an Agreement between the Government of Japan and the European Atomic Energy Community for co-operation in the peaceful uses of nuclear energy (2007/58/EURATOM)</p>
+												</td>
+												<td akn:GUID="_96f46b38-0e14-423e-9013-b7aa976d6159" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_32__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 2007/58</p>
+												</td>
+												<td akn:GUID="_73727aec-903e-4857-b0cd-2114e1e821d3" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_32__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_65f0912f-8e0b-40b1-9098-b7d1a718f9b0" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_33">
+												<td akn:GUID="_e3b2b647-a918-4d22-9de7-1582f7f17823" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_33__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Commission Decision of 4 December 2006 on the conclusion of the Agreement for co-operation in the peaceful uses of nuclear energy between the European Atomic Energy Community and the Government of the Republic of Kazakhstan (2009/25/Euratom)</p>
+												</td>
+												<td akn:GUID="_c070ed86-c057-4229-a68e-ec99891a1843" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_33__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 2009/25</p>
+												</td>
+												<td akn:GUID="_838f6aad-190c-4494-9d4c-fbb3c2cdb052" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_33__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_71cf4904-ff2e-4ff9-a402-dee71d1aff1c" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_34">
+												<td akn:GUID="_0d489a5d-6d73-40ee-865b-800e439d8bdb" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_34__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Council Decision of 10 July 2007 approving the accession of the European Atomic Energy Community to the amended Convention on the Physical Protection of Nuclear Material and Nuclear Facilities (2007/513/Euratom)</p>
+												</td>
+												<td akn:GUID="_df239e41-64a3-4ce7-8420-d38b103cbe0e" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_34__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 2007/513</p>
+												</td>
+												<td akn:GUID="_b3fd822f-be45-4ef9-84ec-d131f2eea2f9" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_34__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_fb3c53ef-f342-4174-a7db-bbc1e3ffc891" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_35">
+												<td akn:GUID="_e9bf386d-3a09-4baf-8079-ba53bb82607d" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_35__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Council Decision of 12 February 2008 establishing Statutes for the Euratom Supply Agency (2008/114/EC, Euratom)</p>
+												</td>
+												<td akn:GUID="_33182379-587e-4cdc-8ee0-ea09d6bba3ca" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_35__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 2008/114</p>
+												</td>
+												<td akn:GUID="_9f218a03-a4b1-49b3-a817-fcd28d11f9f1" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_35__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_deaea679-696b-4365-8760-9a3333a76699" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_36">
+												<td akn:GUID="_89e023b4-0864-4035-a4ac-f3445b041063" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_36__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Council Regulation (EC) No 1222/2008 of 1 December 2008 amending Regulation (EC) No 40/2008, as regards management measures adopted in the Indian Ocean Tuna Commission</p>
+												</td>
+												<td akn:GUID="_f3c85b4d-67c3-48fb-aa6c-24ea056c3fe7" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_36__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUR 1222/2008</p>
+												</td>
+												<td akn:GUID="_9ebe6c95-94dd-4bf3-b28d-fc4fa917cb08" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_36__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Regulation</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_2ba123c5-e117-4929-b7b4-45b11692d3cc" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_37">
+												<td akn:GUID="_934457b7-28b9-4a48-aadf-0854fa5b03b1" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_37__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Commission Regulation (EU) No 330/2010 of 20 April 2010 on the application of Article 101(3) of the Treaty on the Functioning of the European Union to categories of vertical agreements and concerted practices</p>
+												</td>
+												<td akn:GUID="_c5a20bc4-7a7c-4883-99f2-e707da967f41" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_37__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUR 330/2010</p>
+												</td>
+												<td akn:GUID="_a3a9572d-e931-4655-824b-ffab54647da6" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_37__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Regulation</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_e84e4f69-35e8-4970-8a87-dbbb3db08f66" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_38">
+												<td akn:GUID="_5c8d32a5-d91c-48ac-8f73-ac5695bffc19" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_38__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Commission Regulation (EU) No 461/2010 of 27 May 2010 on the application of Article 101(3) of the Treaty on the Functioning of the European Union to categories of vertical agreements and concerted practices in the motor vehicle sector</p>
+												</td>
+												<td akn:GUID="_d190d4ed-c990-4b97-97f9-4375a63b191a" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_38__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUR 461/2010</p>
+												</td>
+												<td akn:GUID="_12c2a598-831a-46e0-a7c0-47d1bcf0ce81" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_38__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Regulation</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_7d0bc3dd-2cd9-4fcd-9fe3-bf2832c1db99" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_39">
+												<td akn:GUID="_32dbfc34-65df-48c9-abb0-60ecf3e1552f" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_39__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Commission Decision of 15 July 2010 on the conclusion of a Memorandum of Understanding between the European Commission and the International Atomic Energy Agency concerning the EURDEP (EUropean Radiological Data Exchange Platform) (2010/398/Euratom)</p>
+												</td>
+												<td akn:GUID="_151b3953-5eb8-4e0c-aed6-834e40190141" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_39__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 2010/398</p>
+												</td>
+												<td akn:GUID="_5507dce0-a328-49b2-88dc-6c2aacf93c92" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_39__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_d0a99de9-aa38-49b5-a3e9-7d6d2fbfd75f" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_40">
+												<td akn:GUID="_25f9d602-9e77-449d-9aa6-253b93f28fda" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_40__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Commission Regulation (EU) No 1217/2010 of 14 December 2010 on the application of Article 101(3) of the Treaty on the Functioning of the European Union to certain categories of research and development agreements</p>
+												</td>
+												<td akn:GUID="_42dacc58-89af-4a87-9f4b-6747b332f832" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_40__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUR 1217/2010</p>
+												</td>
+												<td akn:GUID="_a26601da-2dae-46b5-b805-2ce2b000dea9" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_40__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Regulation</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_4dc2f59e-29f8-4450-964a-834b6eb9ef86" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_41">
+												<td akn:GUID="_d6c2ed49-8aec-4c28-be9c-658c8518ecb9" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_41__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Commission Regulation (EU) No 1218/2010 of 14 December 2010 on the application of Article 101(3) of the Treaty on the Functioning of the European Union to certain categories of specialisation agreements</p>
+												</td>
+												<td akn:GUID="_3a3b33d0-d5b2-456e-bef2-88f4046b43d6" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_41__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUR 1218/2010</p>
+												</td>
+												<td akn:GUID="_65cbdf55-45a7-43d9-87f4-5a19dbe04680" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_41__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Regulation</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_73ab968d-841d-4590-b8b7-3d7012ac6f43" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_42">
+												<td akn:GUID="_57d35715-d914-48fd-bc02-d1975f0c08a3" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_42__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Commission Decision of 2 March 2011 on the conclusion of the Agreement for cooperation in the peaceful uses of nuclear energy between the European Atomic Energy Community and the Government of Australia (2012/55/Euratom)</p>
+												</td>
+												<td akn:GUID="_3d68651c-6927-4038-ae6b-51d1da1f32cd" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_42__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 2012/55</p>
+												</td>
+												<td akn:GUID="_62ab55c3-10cf-4ae9-bddd-a206930f7376" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_42__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_4f2ae3dc-76c2-47fb-b60e-efe8f4555b00" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_43">
+												<td akn:GUID="_fe3e1ddd-96ef-4cca-9996-adb6a76242dd" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_43__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Commission Decision of 31 July 2012 on the conclusion of the Agreement for Cooperation in the Peaceful Uses of Nuclear Energy between the European Atomic Energy Community and the Government of the Republic of South Africa (2013/408/Euratom)</p>
+												</td>
+												<td akn:GUID="_fea368eb-f03e-4caa-95c4-d4c371856853" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_43__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 2013/408</p>
+												</td>
+												<td akn:GUID="_b7a1bde2-2b0e-4ac3-872b-fab81d906f84" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_43__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_8a5386db-85bc-42c0-8c32-0eac342230e8" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_44">
+												<td akn:GUID="_aa769d7e-b803-4814-a32a-a0374176231f" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_44__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Council Decision of 11 December 2012 approving the conclusion, by the European Commission, of the Agreement on scientific and technological cooperation between the European Atomic Energy Community, of the one part, and the Swiss Confederation, of the other part, associating the Swiss Confederation to the Framework Programme of the European Atomic Energy Community for nuclear research and training activities (2012-2013) (2013/4/Euratom)</p>
+												</td>
+												<td akn:GUID="_db78c1ad-089d-4d99-9d9e-33b56680fa57" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_44__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 2013/4</p>
+												</td>
+												<td akn:GUID="_805af445-5dc1-4b21-9a78-85b9cedecf62" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_44__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_3b317e82-62d9-414b-9347-bcd105aca0e2" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_45">
+												<td akn:GUID="_5cbd47bf-045f-43a7-8819-e1d13dc37350" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_45__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Commission Decision of 18 December 2012 on the adoption of the Rules to ensure consistent verification of the existence and legal status of participants, as well as their operational and financial capacities, in indirect actions supported through the form of a grant under the Seventh Framework Programme of the European Community for research, technological development and demonstration activities and under the Seventh Framework Programme of the European Atomic Energy Community for nuclear research and training activities (2012/838/EU, Euratom)</p>
+												</td>
+												<td akn:GUID="_549bc498-f66e-4725-9453-94bfe77efe03" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_45__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 2012/838</p>
+												</td>
+												<td akn:GUID="_bbbeaf1f-1987-4324-bc9f-1bf0509f41c9" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_45__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_54a4c7fb-bfa2-4bc6-9fa1-064f8a5310f2" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_46">
+												<td akn:GUID="_bc338966-8022-4b52-8d69-97d6bb53a4a0" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_46__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2013/363/Euratom: Commission Decision of 17 May 2013 on the conclusion of the Agreement between the European Atomic Energy Community (Euratom) and the Korean Peninsula Energy Development Organisation (KEDO)</p>
+												</td>
+												<td akn:GUID="_7b1aa4e0-86a3-4e3c-854a-0aeba6d6e9c2" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_46__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 2013/363</p>
+												</td>
+												<td akn:GUID="_284bba4f-6558-47ee-9686-015689a29e93" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_46__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_12fd01d1-21a3-4391-9dd9-a9ac3b2364b7" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_47">
+												<td akn:GUID="_507d4f62-2b65-4eef-96fd-cbf46bcc781a" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_47__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Council Decision of 23 June 2014 approving the conclusion, by the European Commission, on behalf of the European Atomic Energy Community, of the Association Agreement between the European Union and the European Atomic Energy Community and their Member States, of the one part, and Ukraine, of the other part (2014/670/Euratom)</p>
+												</td>
+												<td akn:GUID="_f5a8a6bf-aba1-40cc-ac71-a105f29dfe3f" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_47__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 2014/670</p>
+												</td>
+												<td akn:GUID="_9c3f4d2b-7706-41a3-b391-1061e4f2edf4" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_47__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_38288307-1b39-4d74-a576-11938eae377b" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_48">
+												<td akn:GUID="_101e754f-bc17-4cd7-adee-b322c34b4b8c" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_48__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Council Decision of 4 December 2014 on the signing, on behalf of the European Union, and provisional application of the Agreement for scientific and technological cooperation between the European Union and European Atomic Energy Community and the Swiss Confederation associating the Swiss Confederation to Horizon 2020 — the Framework Programme for Research and Innovation and the Research and Training Programme of the European Atomic Energy Community complementing Horizon 2020, and regulating the Swiss Confederation's participation in the ITER activities carried out by Fusion for Energy (2014/953/EU)</p>
+												</td>
+												<td akn:GUID="_26b0c369-257c-4cd4-b940-066b70d4421f" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_48__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 2014/953</p>
+												</td>
+												<td akn:GUID="_9c779547-8c81-43d1-9dbb-40b39ece0f81" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_48__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_93c34006-6afd-4bde-b1b7-4bbaa8ca373e" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_49">
+												<td akn:GUID="_8fefaa80-5212-49c2-81ec-bbab947a65eb" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_49__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Council Decision of 4 December 2014 approving the conclusion by the European Commission, on behalf of the European Atomic Energy Community, of the Agreement for scientific and technological cooperation between the European Union and European Atomic Energy Community and the Swiss Confederation associating the Swiss Confederation to Horizon 2020 — the Framework Programme for Research and Innovation and the Research and Training Programme of the European Atomic Energy Community complementing Horizon 2020, and regulating the Swiss Confederation's participation in the ITER activities carried out by Fusion for Energy (2014/954/Euratom)</p>
+												</td>
+												<td akn:GUID="_3acfc8be-443a-4972-a158-b51aa8ea236e" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_49__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 2014/954</p>
+												</td>
+												<td akn:GUID="_a00eae28-d815-4736-aebf-8454f6fc7b6f" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_49__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_aebf5d8b-3c2e-40a9-be21-384c77fcc265" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_50">
+												<td akn:GUID="_13a5b62f-a777-49c3-895d-de7db3de05c3" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_50__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Council Decision (EU) 2015/1796 of 1 October 2015 on the conclusion of the Agreement for scientific and technological cooperation between the European Union and European Atomic Energy Community and the Swiss Confederation associating the Swiss Confederation to Horizon 2020 — the Framework Programme for Research and Innovation and the Research and Training Programme of the European Atomic Energy Community complementing Horizon 2020, and regulating the Swiss Confederation's participation in the ITER activities carried out by Fusion for Energy</p>
+												</td>
+												<td akn:GUID="_f4aed76c-b03c-4b6b-9dbe-efaed0d5f482" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_50__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 2015/1796</p>
+												</td>
+												<td akn:GUID="_6e211574-5c92-41e3-8b81-80fdb0131f71" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_50__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_bb37f84c-89eb-4a8c-868e-1f9725e3fed9" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_51">
+												<td akn:GUID="_8afd351b-0763-44de-8c78-6e6d2b2a6808" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_51__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Council Decision (Euratom) 2015/2227 of 10 November 2015 approving the conclusion, by the European Commission, of the amendments to Protocols 1 and 2 to the Agreement between the United Kingdom, the European Atomic Energy Community and the International Atomic Energy Agency for the Application of Safeguards in Connection with the Treaty for the Prohibition of Nuclear Weapons in Latin America and the Caribbean</p>
+												</td>
+												<td akn:GUID="_fb9d9195-375b-4da6-9595-e1db9aa845f0" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_51__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 2015/2227</p>
+												</td>
+												<td akn:GUID="_40e564f6-b2a7-49a8-8486-40da7c98c67a" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_51__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_b29025ad-3780-4c62-a647-26b129db7cb2" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_52">
+												<td akn:GUID="_0319b0f7-416b-45f7-9e55-a83e76344059" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_52__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Council Decision (Euratom) 2015/2228 of 10 November 2015 approving the conclusion, by the European Commission, of the amendments to Protocols 1 and 2 to the Agreement between the French Republic, the European Atomic Energy Community and the International Atomic Energy Agency for the Application of Safeguards in Connection with the Treaty for the Prohibition of Nuclear Weapons in Latin America and the Caribbean</p>
+												</td>
+												<td akn:GUID="_77a935fd-202a-47ca-8d0a-c49c03c76006" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_52__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 2015/2228</p>
+												</td>
+												<td akn:GUID="_fefe6275-5efe-4714-afcf-673802894ef2" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_52__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_b3823290-c2b2-47f4-a218-99ec532c2c70" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_53">
+												<td akn:GUID="_795354d8-ed96-4c29-97da-078dceeccefe" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_53__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Council Regulation (EU) 2015/2072 of 17 November 2015 fixing for 2016 the fishing opportunities for certain fish stocks and groups of fish stocks applicable in the Baltic Sea and amending Regulations (EU) No 1221/2014 and (EU) 2015/104</p>
+												</td>
+												<td akn:GUID="_d92b9e8c-41d9-4c8b-841e-201f427bddd7" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_53__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUR 2015/2072</p>
+												</td>
+												<td akn:GUID="_ca06621d-dfda-44bf-887c-f8103523cffc" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_53__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Regulation</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_7b3f2b8d-d424-4940-961c-f54ad5c4cc89" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_54">
+												<td akn:GUID="_26f1d542-390a-4424-9109-845c885e952f" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_54__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Council Decision (EU, Euratom) 2019/1945 of 19 November 2018 approving the conclusion, by the European Commission, of the Agreement between the European Atomic Energy Community (Euratom) and the Korean Peninsula Energy Development Organisation (KEDO)</p>
+												</td>
+												<td akn:GUID="_aae465ec-8a5c-4026-923a-a65ce3a5f1ef" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_54__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 2019/1945</p>
+												</td>
+												<td akn:GUID="_3b9b1da6-daa8-417d-90fe-00f67f523c38" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_54__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+											<tr akn:GUID="_410f0be0-31e7-4bcc-8157-e893dac62abf" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_55">
+												<td akn:GUID="_47beada2-a18d-4518-94fa-36d340694a89" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_55__col_1">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Council Decision (EU, Euratom) 2019/1946 of 19 November 2018 approving the conclusion, by the European Commission, of the Agreement between the European Atomic Energy Community (Euratom) and the Korean Peninsula Energy Development Organisation (KEDO)</p>
+												</td>
+												<td akn:GUID="_c51425d1-579b-47e4-91e5-806b25fde734" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_55__col_2">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">EUDN 2019/1946</p>
+												</td>
+												<td akn:GUID="_4382d01d-cb4b-426b-b785-b7efb14b7697" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_55__col_3">
+													<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The whole Decision</p>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</foreign>
+							</tblock>
+						</content>
+					</part>
+				</hcontainer>
+			</hcontainer>
+		</body>
+		<conclusions GUID="_02240ac3-ec18-47bf-a763-68266be3c8d0" eId="backCover">
+			<?DMS-Component componentId="5bed229d-3aaa-4d42-97c3-204d88b20c03" seriesId="a72f8bd8-b768-45fc-971c-edfd95e5d3e1" versionNumber="0"?>
+			<blockContainer GUID="_9021b5b8-98f9-4c5c-afcf-13488aea271a" class="explanatoryNote" eId="backCover__explNote">
+				<heading GUID="_a46b18f1-4ab1-4c31-818c-b821f22a2e62" eId="backCover__explNote__hdg">Explanatory Note</heading>
+				<subheading GUID="_1e0ecedc-86fb-4a2d-a8ff-1ec544da2aa7" eId="backCover__explNote__subhdg">(This note is not part of the <ref class="placeholder" href="#varDocSubType"/>)</subheading>
+				<p>Section 1(1) of the Retained EU Law (Revocation and Reform) Act 2023 (c. 28) (“the Act”) and Schedule 1 to that Act revoke specified subordinate legislation and specified retained direct EU legislation at the end of 2023. These Regulations are made in exercise of the powers in sections 1(4) and 14(1) of the Act. These are the power to disapply the sunset of retained EU law to specified instruments (section 1(4)) and the power to revoke specified retained EU law (section 14(1)) and which by virtue of section 20(1) include the ability to make supplementary, incidental, consequential, transitional, transitory or saving provision.</p>
+				<p>Regulations 1 to 3 (citation, commencement, and extent and interpretation) come into force on the day after these Regulations are made. Regulation 4 and Schedule 1 (disapplication of the sunset) come into force immediately before the end of 2023. Regulations 5 and 6 and Schedule 2 (revocation of REUL and necessary savings) come into force at the end of 2023.</p>
+				<p>Regulation 3 provides that the Regulations extend to England and Wales, Scotland and Northern Ireland, subject to paragraphs (2) to (4). Paragraph (2) provides that for instruments listed in Parts 1 and 2 of Schedule 1, the disapplication of the sunset has the same extent as the instrument to which it relates. Paragraph (3) provides that for those instruments listed in Part 3 of Schedule 1, the extent of the disapplication is Northern Ireland only. Paragraph (4) provides that the revocation of an instrument or provision of an instrument in Schedule 2 has the same extent as the instrument to which it relates.</p>
+				<p>Regulation 4 provides that the sunset of subordinate legislation and retained direct EU legislation by section 1(1) of the Act and listed in Schedule 1 to that Act does not apply to the instruments listed in Schedule 1 to these Regulations, to the extent specified there. This has the effect of preserving the instruments, which were included in the Act’s revocation Schedule, from revocation at the end of 2023.</p>
+				<p>Regulation 5 provides that the instruments and provisions of instruments listed in Schedule 2 to these Regulations are revoked at the end of 2023, to the extent specified there.</p>
+				<p>Regulation 6 contains savings of provisions in the Civil Legal Aid (Merits Criteria) Regulations 2013 and the Legal Aid, Sentencing and Punishment of Offenders Act 2012 which apply to legal aid applications made before a certain date. The purpose of these savings is to ensure that the criteria set out in the relevant provisions of the 2013 Regulations continue to have effect for the purpose of determining whether an individual continues to qualify for civil legal services in ongoing cases.</p>
+				<p>A full impact assessment has not been produced for this instrument as no, or no significant, impact on the private, voluntary or public sector is foreseen. A line-by-line explanation will be made available on gov.uk which provides further detail on each piece of legislation included in Schedule 2 to these Regulations.</p>
+			</blockContainer>
+		</conclusions>
+	</bill>
+</akomaNtoso>

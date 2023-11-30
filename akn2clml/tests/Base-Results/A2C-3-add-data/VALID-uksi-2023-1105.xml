@@ -1,0 +1,1055 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Legislation xmlns="http://www.legislation.gov.uk/namespaces/legislation"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             SchemaVersion="2.0"
+             xsi:schemaLocation="http://www.legislation.gov.uk/namespaces/legislation http://www.legislation.gov.uk/schema/legislation.xsd">
+   <Metadata xmlns="http://www.legislation.gov.uk/namespaces/metadata"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <dc:identifier>http://www.legislation.gov.uk/id/uksi/2023/1105</dc:identifier>
+      <dc:title>The National Health Service Commissioning Board and Clinical Commissioning Groups (Responsibilities and Standing Rules) (Amendment) (No. 2) Regulations 2023</dc:title>
+      <dc:modified>2023-11-30</dc:modified>
+      <SecondaryMetadata>
+         <DocumentClassification>
+            <DocumentCategory Value="secondary"/>
+            <DocumentMainType Value="UnitedKingdomStatutoryInstrument"/>
+            <DocumentStatus Value="final"/>
+            <DocumentMinorType Value="regulation"/>
+         </DocumentClassification>
+         <Year Value="2023"/>
+         <Number Value="1105"/>
+         <Made Date="2023-10-17"/>
+         <Laid Date="2023-10-19" Time="00:00:00" Class="UnitedKingdomParliament"/>
+         <ComingIntoForce>
+            <DateTime Date="2024-01-01" Time="00:00:00"/>
+         </ComingIntoForce>
+      </SecondaryMetadata>
+   </Metadata>
+   <Secondary>
+      <SecondaryPrelims>
+         <Number> 2023 No. 1105  </Number>
+         <SubjectInformation>
+            <Subject>
+               <Title>MENTAL HEALTH, ENGLAND</Title>
+            </Subject>
+            <Subject>
+               <Title>NATIONAL HEALTH SERVICE, ENGLAND</Title>
+            </Subject>
+         </SubjectInformation>
+         <Title> The National Health Service Commissioning Board and Clinical Commissioning Groups (Responsibilities and Standing Rules) (Amendment) (No. 2) Regulations 2023 </Title>
+         <MadeDate>
+            <Text>Made</Text>
+            <DateText>17th October 2023</DateText>
+         </MadeDate>
+         <LaidDate>
+            <Text>Laid before Parliament</Text>
+            <DateText>19th October 2023</DateText>
+         </LaidDate>
+         <ComingIntoForce>
+            <Text>Coming into force</Text>
+            <DateText>1st January 2024</DateText>
+         </ComingIntoForce>
+         <SecondaryPreamble>
+            <EnactingText>
+               <Para>
+                  <Text>The Secretary of State makes these Regulations in exercise of the powers conferred by sections 6E(1A), (1B) and (2) and 272(7) and (8) of the National Health Service Act 2006<FootnoteRef Ref="f00001"/>.</Text>
+               </Para>
+            </EnactingText>
+         </SecondaryPreamble>
+      </SecondaryPrelims>
+      <Body>
+         <P1group>
+            <Title>Citation, commencement, extent and application</Title>
+            <P1 id="regulation-1">
+               <Pnumber>1</Pnumber>
+               <P1para>
+                  <Text>These Regulations—</Text>
+                  <P3 id="regulation-1-a">
+                     <Pnumber>a</Pnumber>
+                     <P3para>
+                        <Text>may be cited as the National Health Service Commissioning Board and Clinical Commissioning Groups (Responsibilities and Standing Rules) (Amendment) (No. 2) Regulations 2023,</Text>
+                     </P3para>
+                  </P3>
+                  <P3 id="regulation-1-b">
+                     <Pnumber>b</Pnumber>
+                     <P3para>
+                        <Text>come into force on 1st January 2024,</Text>
+                     </P3para>
+                  </P3>
+                  <P3 id="regulation-1-c">
+                     <Pnumber>c</Pnumber>
+                     <P3para>
+                        <Text>extend to England and Wales, and</Text>
+                     </P3para>
+                  </P3>
+                  <P3 id="regulation-1-d">
+                     <Pnumber>d</Pnumber>
+                     <P3para>
+                        <Text>apply in relation to England only.</Text>
+                     </P3para>
+                  </P3>
+               </P1para>
+            </P1>
+         </P1group>
+         <P1group>
+            <Title>Amendment of the National Health Service Commissioning Board and Clinical Commissioning Groups (Responsibilities and Standing Rules) Regulations 2012</Title>
+            <P1 id="regulation-2">
+               <Pnumber>2</Pnumber>
+               <P1para>
+                  <P2 id="regulation-2-1">
+                     <Pnumber>1</Pnumber>
+                     <P2para>
+                        <Text>The National Health Service Commissioning Board and Clinical Commissioning Groups (Responsibilities and Standing Rules) Regulations 2012<FootnoteRef Ref="f00002"/> are amended as follows.</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="regulation-2-2">
+                     <Pnumber>2</Pnumber>
+                     <P2para>
+                        <Text>In regulation 38—</Text>
+                        <P3 id="regulation-2-2-a">
+                           <Pnumber>a</Pnumber>
+                           <P3para>
+                              <Text>omit the definition of “Choice Directions”;</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-2-2-b">
+                           <Pnumber>b</Pnumber>
+                           <P3para>
+                              <Text>for the definition of “elective referral”, substitute—</Text>
+                              <BlockAmendment TargetClass="secondary"
+                                              TargetSubClass="unknown"
+                                              Context="main"
+                                              Format="double">
+                                 <UnorderedList Class="Definition" Decoration="none">
+                                    <ListItem>
+                                       <Para>
+                                          <Text>“<Term>elective referral</Term>” means referral by—</Text>
+                                          <OrderedList Type="alpha" Decoration="parens">
+                                             <ListItem>
+                                                <Para>
+                                                   <Text>a general medical practitioner,</Text>
+                                                </Para>
+                                             </ListItem>
+                                             <ListItem>
+                                                <Para>
+                                                   <Text>a general dental practitioner, or</Text>
+                                                </Para>
+                                             </ListItem>
+                                             <ListItem>
+                                                <Para>
+                                                   <Text>an optometrist,</Text>
+                                                </Para>
+                                             </ListItem>
+                                          </OrderedList>
+                                       </Para>
+                                       <Para>
+                                          <Text>to a health service provider, including when the referral is first assessed by a person providing interface services, for treatment that is not identified as being immediately required at the time of referral;</Text>
+                                       </Para>
+                                    </ListItem>
+                                 </UnorderedList>
+                              </BlockAmendment>
+                              <AppendText>;</AppendText>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-2-2-c">
+                           <Pnumber>c</Pnumber>
+                           <P3para>
+                              <Text>before the definition of “prison”, insert—</Text>
+                              <BlockAmendment TargetClass="secondary"
+                                              TargetSubClass="unknown"
+                                              Context="main"
+                                              Format="double">
+                                 <UnorderedList Class="Definition" Decoration="none">
+                                    <ListItem>
+                                       <Para>
+                                          <Text>“<Term>interface services</Term>” means services that are provided otherwise than by—</Text>
+                                          <OrderedList Type="alpha" Decoration="parens">
+                                             <ListItem>
+                                                <Para>
+                                                   <Text>a consultant,</Text>
+                                                </Para>
+                                             </ListItem>
+                                             <ListItem>
+                                                <Para>
+                                                   <Text>a consultant-led team, or</Text>
+                                                </Para>
+                                             </ListItem>
+                                             <ListItem>
+                                                <Para>
+                                                   <Text>a health care professional specialising in mental health services,</Text>
+                                                </Para>
+                                             </ListItem>
+                                          </OrderedList>
+                                       </Para>
+                                       <Para>
+                                          <Text>which provide clinical triage, assessment and treatment services, but does not include services provided under a primary care contract;</Text>
+                                       </Para>
+                                    </ListItem>
+                                    <ListItem>
+                                       <Para>
+                                          <Text>“<Term>NHS Standard Contract</Term>” means a contract in the form of a model commissioning contract drafted by NHS England pursuant to regulation 17(2);</Text>
+                                       </Para>
+                                    </ListItem>
+                                 </UnorderedList>
+                              </BlockAmendment>
+                              <AppendText>.</AppendText>
+                           </P3para>
+                        </P3>
+                     </P2para>
+                  </P2>
+                  <P2 id="regulation-2-3">
+                     <Pnumber>3</Pnumber>
+                     <P2para>
+                        <Text>In regulation 39—</Text>
+                        <P3 id="regulation-2-3-a">
+                           <Pnumber>a</Pnumber>
+                           <P3para>
+                              <Text>in paragraph (2)(a)—</Text>
+                              <P4 id="regulation-2-3-a-i">
+                                 <Pnumber>i</Pnumber>
+                                 <P4para>
+                                    <Text>after “member of a consultant's team”, insert “, inclusive of any subsequent treatment required as a result of that elective referral”;</Text>
+                                 </P4para>
+                              </P4>
+                              <P4 id="regulation-2-3-a-ii">
+                                 <Pnumber>ii</Pnumber>
+                                 <P4para>
+                                    <Text>in paragraph (i), for “commissioning contract for the service required as a result of the referral”, substitute “qualifying contract”;</Text>
+                                 </P4para>
+                              </P4>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-2-3-b">
+                           <Pnumber>b</Pnumber>
+                           <P3para>
+                              <Text>in paragraph (2)(b)—</Text>
+                              <P4 id="regulation-2-3-b-i">
+                                 <Pnumber>i</Pnumber>
+                                 <P4para>
+                                    <Text>after “member of a consultant's team”, insert “, inclusive of any subsequent treatment required as a result of that elective referral”;</Text>
+                                 </P4para>
+                              </P4>
+                              <P4 id="regulation-2-3-b-ii">
+                                 <Pnumber>ii</Pnumber>
+                                 <P4para>
+                                    <Text>in paragraph (i), for “commissioning contract for the service required as a result of the referral”, substitute “qualifying contract”;</Text>
+                                 </P4para>
+                              </P4>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-2-3-c">
+                           <Pnumber>c</Pnumber>
+                           <P3para>
+                              <Text>in paragraph (5), for “those paragraphs”, substitute “that paragraph”;</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-2-3-d">
+                           <Pnumber>d</Pnumber>
+                           <P3para>
+                              <Text>after paragraph (6), insert—</Text>
+                              <BlockAmendment TargetClass="secondary"
+                                              TargetSubClass="unknown"
+                                              Context="main"
+                                              Format="double">
+                                 <P2>
+                                    <Pnumber>7</Pnumber>
+                                    <P2para>
+                                       <Text>Where—</Text>
+                                       <P3>
+                                          <Pnumber>a</Pnumber>
+                                          <P3para>
+                                             <Text>a person makes a choice pursuant to the arrangements required by paragraph (1), and</Text>
+                                          </P3para>
+                                       </P3>
+                                       <P3>
+                                          <Pnumber>b</Pnumber>
+                                          <P3para>
+                                             <Text>the relevant body which is responsible for that person does not have in place a commissioning contract for the service required as a result of the referral,</Text>
+                                          </P3para>
+                                       </P3>
+                                       <Text>the terms of the qualifying contract referred to in paragraph (2) under which the service is to be provided apply to the provision of the service required in respect of the person’s referral.</Text>
+                                    </P2para>
+                                 </P2>
+                                 <P2>
+                                    <Pnumber>8</Pnumber>
+                                    <P2para>
+                                       <Text>In this regulation, “qualifying contract” means an NHS Standard Contract which—</Text>
+                                       <P3>
+                                          <Pnumber>a</Pnumber>
+                                          <P3para>
+                                             <Text>is signed and in effect before the date on which the referral is made,</Text>
+                                          </P3para>
+                                       </P3>
+                                       <P3>
+                                          <Pnumber>b</Pnumber>
+                                          <P3para>
+                                             <Text>is a commissioning contract for the service required as a result of the referral,</Text>
+                                          </P3para>
+                                       </P3>
+                                       <P3>
+                                          <Pnumber>c</Pnumber>
+                                          <P3para>
+                                             <Text>requires that service to be provided from the location specified in that contract or sets out the criteria specified in that contract which determine the means by which a service will be accessible to patients, and</Text>
+                                          </P3para>
+                                       </P3>
+                                       <P3>
+                                          <Pnumber>d</Pnumber>
+                                          <P3para>
+                                             <Text>is not a contract put in place solely to provide that service to a specified individual.</Text>
+                                          </P3para>
+                                       </P3>
+                                    </P2para>
+                                 </P2>
+                              </BlockAmendment>
+                              <AppendText>.</AppendText>
+                           </P3para>
+                        </P3>
+                     </P2para>
+                  </P2>
+                  <P2 id="regulation-2-4">
+                     <Pnumber>4</Pnumber>
+                     <P2para>
+                        <Text>After regulation 42, insert—</Text>
+                        <BlockAmendment TargetClass="secondary"
+                                        TargetSubClass="unknown"
+                                        Context="main"
+                                        Format="double">
+                           <P1group>
+                              <Title>Patient choice: primary medical services</Title>
+                              <P1>
+                                 <Pnumber>42A</Pnumber>
+                                 <P1para>
+                                    <P2>
+                                       <Pnumber>1</Pnumber>
+                                       <P2para>
+                                          <Text>NHS England must not restrict the ability of a person—</Text>
+                                          <P3>
+                                             <Pnumber>a</Pnumber>
+                                             <P3para>
+                                                <Text>to apply for inclusion in the list of patients of the practice of the person’s choice;</Text>
+                                             </P3para>
+                                          </P3>
+                                          <P3>
+                                             <Pnumber>b</Pnumber>
+                                             <P3para>
+                                                <Text>to express a preference to receive services from—</Text>
+                                                <P4>
+                                                   <Pnumber>i</Pnumber>
+                                                   <P4para>
+                                                      <Text>the practice in whose list of patients the person is included, or</Text>
+                                                   </P4para>
+                                                </P4>
+                                                <P4>
+                                                   <Pnumber>ii</Pnumber>
+                                                   <P4para>
+                                                      <Text>a particular performer or class of performer,</Text>
+                                                   </P4para>
+                                                </P4>
+                                                <Text>either generally or in relation to any particular condition.</Text>
+                                             </P3para>
+                                          </P3>
+                                       </P2para>
+                                    </P2>
+                                    <P2>
+                                       <Pnumber>2</Pnumber>
+                                       <P2para>
+                                          <Text>Paragraph (1) does not apply to the inclusion in a contractor’s contract of any term which provides for the contractor to refuse an application for inclusion in its list of patients, or not to agree to any preference expressed to receive services from a particular performer or class of performer, in accordance with—</Text>
+                                          <P3>
+                                             <Pnumber>a</Pnumber>
+                                             <P3para>
+                                                <Text>Part 2 of Schedule 3 to the National Health Service (General Medical Services Contracts) Regulations 2015<FootnoteRef Ref="f00003"/> (other contractual terms - patients: general),</Text>
+                                             </P3para>
+                                          </P3>
+                                          <P3>
+                                             <Pnumber>b</Pnumber>
+                                             <P3para>
+                                                <Text>Part 2 of Schedule 2 to the National Health Service (Personal Medical Services Agreements) Regulations 2015<FootnoteRef Ref="f00004"/> (other required terms - patients: general), or</Text>
+                                             </P3para>
+                                          </P3>
+                                          <P3>
+                                             <Pnumber>c</Pnumber>
+                                             <P3para>
+                                                <Text>arrangements for the provision of primary medical services made under section 83(2) of the 2006 Act<FootnoteRef Ref="f00005"/> (primary medical services).</Text>
+                                             </P3para>
+                                          </P3>
+                                       </P2para>
+                                    </P2>
+                                    <P2>
+                                       <Pnumber>3</Pnumber>
+                                       <P2para>
+                                          <Text>In this regulation—</Text>
+                                          <UnorderedList Class="Definition" Decoration="none">
+                                             <ListItem>
+                                                <Para>
+                                                   <Text>“<Term>contract</Term>” means, as the case may be—</Text>
+                                                   <OrderedList Type="alpha" Decoration="parens">
+                                                      <ListItem>
+                                                         <Para>
+                                                            <Text>an arrangement for the provision of primary medical services made under section 83(2) of the 2006 Act, including any arrangements which are made in reliance on a combination of that provision and any other powers to arrange for the provision of health care services for the purposes of the NHS,</Text>
+                                                         </Para>
+                                                      </ListItem>
+                                                      <ListItem>
+                                                         <Para>
+                                                            <Text>a general medical services contract made under section 84(1) of the 2006 Act<FootnoteRef Ref="f00006"/> (general medical services contracts), or</Text>
+                                                         </Para>
+                                                      </ListItem>
+                                                      <ListItem>
+                                                         <Para>
+                                                            <Text>an agreement made in accordance with section 92 of the 2006 Act<FootnoteRef Ref="f00007"/> (arrangements by the Board for the provision of primary medical services);</Text>
+                                                         </Para>
+                                                      </ListItem>
+                                                   </OrderedList>
+                                                </Para>
+                                             </ListItem>
+                                             <ListItem>
+                                                <Para>
+                                                   <Text>“<Term>contractor</Term>” means a person who has entered into a contract with NHS England;</Text>
+                                                </Para>
+                                             </ListItem>
+                                             <ListItem>
+                                                <Para>
+                                                   <Text>“<Term>the NHS</Term>” means the comprehensive health service continued under section 1(1) of the 2006 Act<FootnoteRef Ref="f00008"/>, except the part of it that is provided in pursuance of the public health functions (within the meaning of that Act) of the Secretary of State or local authorities;</Text>
+                                                </Para>
+                                             </ListItem>
+                                             <ListItem>
+                                                <Para>
+                                                   <Text>“<Term>performer</Term>” means a medical practitioner included in a list maintained in accordance with regulations made under section 91(1) of the 2006 Act<FootnoteRef Ref="f00009"/> (persons performing primary medical services);</Text>
+                                                </Para>
+                                             </ListItem>
+                                             <ListItem>
+                                                <Para>
+                                                   <Text>“<Term>practice</Term>” means the business operated by a contractor for the purposes of delivering primary medical services under Part 4 of the 2006 Act under a contract for the provision of such services.</Text>
+                                                </Para>
+                                             </ListItem>
+                                          </UnorderedList>
+                                       </P2para>
+                                    </P2>
+                                 </P1para>
+                              </P1>
+                           </P1group>
+                           <P1group>
+                              <Title>Requests for NHS Standard Contract assessment</Title>
+                              <P1>
+                                 <Pnumber>42B</Pnumber>
+                                 <P1para>
+                                    <P2>
+                                       <Pnumber>1</Pnumber>
+                                       <P2para>
+                                          <Text>This regulation applies in relation to a decision by a relevant body as to whether it should offer an NHS Standard Contract to a provider where the service being offered by the provider is one which the relevant body arranges or intends to arrange for the persons for whom it has responsibility and in respect of which (if that provider held such a contract) a patient would be permitted to choose that provider as a provider—</Text>
+                                          <P3>
+                                             <Pnumber>a</Pnumber>
+                                             <P3para>
+                                                <Text>in accordance with regulation 39, or</Text>
+                                             </P3para>
+                                          </P3>
+                                          <P3>
+                                             <Pnumber>b</Pnumber>
+                                             <P3para>
+                                                <Text>otherwise than in accordance with regulation 39 where the relevant body has not restricted the number of providers from which patients may choose.</Text>
+                                             </P3para>
+                                          </P3>
+                                       </P2para>
+                                    </P2>
+                                    <P2>
+                                       <Pnumber>2</Pnumber>
+                                       <P2para>
+                                          <Text>A provider may express an interest to a relevant body at any time in being assessed for the award of an NHS Standard Contract under this regulation.</Text>
+                                       </P2para>
+                                    </P2>
+                                    <P2>
+                                       <Pnumber>3</Pnumber>
+                                       <P2para>
+                                          <Text>Where a provider expresses an interest under paragraph (2), the relevant body must make available to that provider any local terms and conditions for inclusion in any supporting schedules of an NHS Standard Contract it proposes to award as a result of an assessment under this regulation.</Text>
+                                       </P2para>
+                                    </P2>
+                                    <P2>
+                                       <Pnumber>4</Pnumber>
+                                       <P2para>
+                                          <Text>Following the provision of any local terms and conditions under paragraph (3) (or confirmation from the relevant body that no such terms and conditions are to be included), a provider may request a relevant body to assess it against the criteria in regulation 42C for the purposes of—</Text>
+                                          <P3>
+                                             <Pnumber>a</Pnumber>
+                                             <P3para>
+                                                <Text>the award of an NHS Standard Contract where the provider does not have an existing NHS Standard Contract with the relevant body, or</Text>
+                                             </P3para>
+                                          </P3>
+                                          <P3>
+                                             <Pnumber>b</Pnumber>
+                                             <P3para>
+                                                <Text>the award of a further NHS Standard Contract where the provider already has an existing NHS Standard Contract with the relevant body, but wishes to be assessed in relation to—</Text>
+                                                <P4>
+                                                   <Pnumber>i</Pnumber>
+                                                   <P4para>
+                                                      <Text>the provision of new services,</Text>
+                                                   </P4para>
+                                                </P4>
+                                                <P4>
+                                                   <Pnumber>ii</Pnumber>
+                                                   <P4para>
+                                                      <Text>the provision of existing services from a location other than that specified in the existing NHS Standard Contract, or</Text>
+                                                   </P4para>
+                                                </P4>
+                                                <P4>
+                                                   <Pnumber>iii</Pnumber>
+                                                   <P4para>
+                                                      <Text>a change to the criteria specified in that contract which determine the means by which a service will be accessible to patients.</Text>
+                                                   </P4para>
+                                                </P4>
+                                             </P3para>
+                                          </P3>
+                                       </P2para>
+                                    </P2>
+                                    <P2>
+                                       <Pnumber>5</Pnumber>
+                                       <P2para>
+                                          <Text>The relevant body must assess a provider who has made a request under paragraph (4) against the criteria in regulation 42C as soon as reasonably practicable but in any event before expiry of a period of six weeks beginning with the day on which the provider has requested to be assessed against those criteria.</Text>
+                                       </P2para>
+                                    </P2>
+                                    <P2>
+                                       <Pnumber>6</Pnumber>
+                                       <P2para>
+                                          <Text>Where the criteria in regulation 42C are met, the provider must be offered an NHS Standard Contract, which must include any local terms and conditions referred to in paragraph (3).</Text>
+                                       </P2para>
+                                    </P2>
+                                 </P1para>
+                              </P1>
+                           </P1group>
+                           <P1group>
+                              <Title>Qualification of providers: criteria</Title>
+                              <P1>
+                                 <Pnumber>42C</Pnumber>
+                                 <P1para>
+                                    <Text>The criteria referred to in regulation 42B(4) to (6) are that—</Text>
+                                    <P3>
+                                       <Pnumber>a</Pnumber>
+                                       <P3para>
+                                          <Text>the provider must be registered with the Care Quality Commission under Chapter 2 of Part 1 of the Health and Social Care Act 2008<FootnoteRef Ref="f00010"/> in respect of the regulated activities which are relevant to the services to be provided;</Text>
+                                       </P3para>
+                                    </P3>
+                                    <P3>
+                                       <Pnumber>b</Pnumber>
+                                       <P3para>
+                                          <Text>the provider must, unless exempt, hold a provider licence issued by NHS England under Chapter 3 of Part 3 of the 2012 Act;</Text>
+                                       </P3para>
+                                    </P3>
+                                    <P3>
+                                       <Pnumber>c</Pnumber>
+                                       <P3para>
+                                          <Text>the provider must demonstrate to the satisfaction of the relevant body that it will be able to comply with the terms and conditions of the NHS Standard Contract, including those in any supporting schedules, in respect of the services to be provided and in relation to the location from which those services will be provided;</Text>
+                                       </P3para>
+                                    </P3>
+                                    <P3>
+                                       <Pnumber>d</Pnumber>
+                                       <P3para>
+                                          <Text>the provider must demonstrate that it—</Text>
+                                          <P4>
+                                             <Pnumber>i</Pnumber>
+                                             <P4para>
+                                                <Text>is a member of an NHS Clinical Negligence Scheme under the National Health Service (Clinical Negligence Scheme) Regulations 2015<FootnoteRef Ref="f00011"/> or the National Health Service (Clinical Negligence Scheme for General Practice) Regulations 2019<FootnoteRef Ref="f00012"/>,</Text>
+                                             </P4para>
+                                          </P4>
+                                          <P4>
+                                             <Pnumber>ii</Pnumber>
+                                             <P4para>
+                                                <Text>has undertaken to join such a scheme, or</Text>
+                                             </P4para>
+                                          </P4>
+                                          <P4>
+                                             <Pnumber>iii</Pnumber>
+                                             <P4para>
+                                                <Text>has put in place equivalent alternative indemnity arrangements to the satisfaction of the relevant body.</Text>
+                                             </P4para>
+                                          </P4>
+                                       </P3para>
+                                    </P3>
+                                 </P1para>
+                              </P1>
+                           </P1group>
+                           <P1group>
+                              <Title>Modification of existing NHS Standard Contract</Title>
+                              <P1>
+                                 <Pnumber>42D</Pnumber>
+                                 <P1para>
+                                    <P2>
+                                       <Pnumber>1</Pnumber>
+                                       <P2para>
+                                          <Text>Regulation 42B(1) to (3) and (5) also applies to the assessment of a provider in respect of a proposed modification of an existing NHS Standard Contract held by that provider, and—</Text>
+                                          <P3>
+                                             <Pnumber>a</Pnumber>
+                                             <P3para>
+                                                <Text>references to the offering or awarding of an NHS Standard Contract to a provider are to be read respectively as references to the offering to modify or the modifying of an existing NHS Standard Contract held by a provider;</Text>
+                                             </P3para>
+                                          </P3>
+                                          <P3>
+                                             <Pnumber>b</Pnumber>
+                                             <P3para>
+                                                <Text>the reference in regulation 42B(5) to “paragraph (4)” is to be read as a reference to paragraph (2) of this regulation;</Text>
+                                             </P3para>
+                                          </P3>
+                                          <P3>
+                                             <Pnumber>c</Pnumber>
+                                             <P3para>
+                                                <Text>in the application of regulation 42C pursuant to regulation 42B(4) as modified by this regulation, the reference in regulation 42C to “regulation 42B(4) to (6)” is to be read as a reference to paragraphs (2) and (3) of this regulation.</Text>
+                                             </P3para>
+                                          </P3>
+                                       </P2para>
+                                    </P2>
+                                    <P2>
+                                       <Pnumber>2</Pnumber>
+                                       <P2para>
+                                          <Text>Following the provision of any local terms and conditions under regulation 42B(3) (or confirmation from the relevant body that no such terms and conditions are to be included), a provider may request a relevant body to assess it against the criteria in regulation 42C for the purposes of modification of an existing NHS Standard Contract where the provider has an existing NHS Standard Contract with the relevant body, but wishes to be assessed in relation to—</Text>
+                                          <P3>
+                                             <Pnumber>a</Pnumber>
+                                             <P3para>
+                                                <Text>the provision of new services,</Text>
+                                             </P3para>
+                                          </P3>
+                                          <P3>
+                                             <Pnumber>b</Pnumber>
+                                             <P3para>
+                                                <Text>the provision of existing services from a location other than that specified in the existing NHS Standard Contract, or</Text>
+                                             </P3para>
+                                          </P3>
+                                          <P3>
+                                             <Pnumber>c</Pnumber>
+                                             <P3para>
+                                                <Text>a change to the criteria specified in that contract which determine the means by which a service will be accessible to patients.</Text>
+                                             </P3para>
+                                          </P3>
+                                       </P2para>
+                                    </P2>
+                                    <P2>
+                                       <Pnumber>3</Pnumber>
+                                       <P2para>
+                                          <Text>Where—</Text>
+                                          <P3>
+                                             <Pnumber>a</Pnumber>
+                                             <P3para>
+                                                <Text>the criteria in regulation 42C are met,</Text>
+                                             </P3para>
+                                          </P3>
+                                          <P3>
+                                             <Pnumber>b</Pnumber>
+                                             <P3para>
+                                                <Text>the proposed modification of the existing NHS Standard Contract is not contrary to any restrictions on modification of contracts imposed by regulations made under section 12ZB of the National Health Service Act 2006<FootnoteRef Ref="f00013"/>, and</Text>
+                                             </P3para>
+                                          </P3>
+                                          <P3>
+                                             <Pnumber>c</Pnumber>
+                                             <P3para>
+                                                <Text>the provider agrees to the proposed modification,</Text>
+                                             </P3para>
+                                          </P3>
+                                          <Text>the provider’s existing NHS Standard Contract must be modified, and must include any local terms and conditions referred to in regulation 42B(3).</Text>
+                                       </P2para>
+                                    </P2>
+                                    <P2>
+                                       <Pnumber>4</Pnumber>
+                                       <P2para>
+                                          <Text>Nothing in this regulation permits the modification of an existing NHS Standard Contract where the proposed modification of the existing NHS Standard Contract would be contrary to any restrictions on modification of contracts imposed by regulations made under section 12ZB of the National Health Service Act 2006.</Text>
+                                       </P2para>
+                                    </P2>
+                                    <P2>
+                                       <Pnumber>5</Pnumber>
+                                       <P2para>
+                                          <Text>Paragraph (6) applies where—</Text>
+                                          <P3>
+                                             <Pnumber>a</Pnumber>
+                                             <P3para>
+                                                <Text>the criteria in regulation 42C are met, but</Text>
+                                             </P3para>
+                                          </P3>
+                                          <P3>
+                                             <Pnumber>b</Pnumber>
+                                             <P3para>
+                                                <Text>the proposed modification of an existing NHS Standard Contract would be contrary to any restrictions on modification of contracts imposed by regulations made under section 12ZB of the National Health Service Act 2006.</Text>
+                                             </P3para>
+                                          </P3>
+                                       </P2para>
+                                    </P2>
+                                    <P2>
+                                       <Pnumber>6</Pnumber>
+                                       <P2para>
+                                          <Text>Where this paragraph applies—</Text>
+                                          <P3>
+                                             <Pnumber>a</Pnumber>
+                                             <P3para>
+                                                <Text>the request for assessment of the provider in respect of a proposed modification under this regulation is to be treated as having been a request for assessment of the provider for the award of an NHS Standard Contract under regulation 42B(4) (without the modifications made by this regulation), and</Text>
+                                             </P3para>
+                                          </P3>
+                                          <P3>
+                                             <Pnumber>b</Pnumber>
+                                             <P3para>
+                                                <Text>a new NHS Standard Contract must instead be awarded pursuant to regulation 42B(6) in respect of such of the matters for which the provider asked to be assessed under paragraph (2).</Text>
+                                             </P3para>
+                                          </P3>
+                                       </P2para>
+                                    </P2>
+                                 </P1para>
+                              </P1>
+                           </P1group>
+                        </BlockAmendment>
+                        <AppendText>.</AppendText>
+                     </P2para>
+                  </P2>
+                  <P2 id="regulation-2-5">
+                     <Pnumber>5</Pnumber>
+                     <P2para>
+                        <Text>Omit regulation 43.</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="regulation-2-6">
+                     <Pnumber>6</Pnumber>
+                     <P2para>
+                        <Text>At the end of Part 8, insert—</Text>
+                        <BlockAmendment TargetClass="secondary"
+                                        TargetSubClass="unknown"
+                                        Context="main"
+                                        Format="double">
+                           <P1group>
+                              <Title>Transitional provision: pre-existing contracts</Title>
+                              <P1>
+                                 <Pnumber>43A</Pnumber>
+                                 <P1para>
+                                    <P2>
+                                       <Pnumber>1</Pnumber>
+                                       <P2para>
+                                          <Text>This regulation applies to any commissioning contract with a provider entered into before 1st January 2024 by—</Text>
+                                          <P3>
+                                             <Pnumber>a</Pnumber>
+                                             <P3para>
+                                                <Text>a relevant body, or</Text>
+                                             </P3para>
+                                          </P3>
+                                          <P3>
+                                             <Pnumber>b</Pnumber>
+                                             <P3para>
+                                                <Text>in relation to the period before 1st July 2022, a clinical commissioning group (as established in accordance with Chapter A2 of Part 2 of the 2006 Act<FootnoteRef Ref="f00014"/> as it applied before 1st July 2022),</Text>
+                                             </P3para>
+                                          </P3>
+                                          <Text>following a determination referred to in regulation 7(2)(a) or (b) of the National Health Service (Procurement, Patient Choice and Competition) (No. 2) Regulations 2013<FootnoteRef Ref="f00015"/>.</Text>
+                                       </P2para>
+                                    </P2>
+                                    <P2>
+                                       <Pnumber>2</Pnumber>
+                                       <P2para>
+                                          <Text>Nothing in regulation 42B (as applied by regulation 42D), 42C or 42D affects any existing contract of the kind mentioned in paragraph (1) except insofar as, on or after 1st January 2024, the provider requests a relevant body to assess it for the purpose of modification of an existing NHS Standard Contract under regulation 42D.</Text>
+                                       </P2para>
+                                    </P2>
+                                    <P2>
+                                       <Pnumber>3</Pnumber>
+                                       <P2para>
+                                          <Text>Where the provider expresses an interest of the kind mentioned in paragraph (2), regulations 42B (as applied by regulation 42D), 42C and 42D apply only in respect of the service in relation to which the provider expresses such an interest.</Text>
+                                       </P2para>
+                                    </P2>
+                                 </P1para>
+                              </P1>
+                           </P1group>
+                           <P1group>
+                              <Title>Transitional provision: enforcement</Title>
+                              <P1>
+                                 <Pnumber>43B</Pnumber>
+                                 <P1para>
+                                    <P2>
+                                       <Pnumber>1</Pnumber>
+                                       <P2para>
+                                          <Text>NHS England may commence or continue any investigation of an integrated care board—</Text>
+                                          <P3>
+                                             <Pnumber>a</Pnumber>
+                                             <P3para>
+                                                <Text>in respect of a complaint under regulation 13(1) of the National Health Service (Procurement, Patient Choice and Competition) (No. 2) Regulations 2013,</Text>
+                                             </P3para>
+                                          </P3>
+                                          <P3>
+                                             <Pnumber>b</Pnumber>
+                                             <P3para>
+                                                <Text>where the grounds for the complaint occurred before 1st January 2024, and</Text>
+                                             </P3para>
+                                          </P3>
+                                          <P3>
+                                             <Pnumber>c</Pnumber>
+                                             <P3para>
+                                                <Text>which has not been concluded before 1st January 2024,</Text>
+                                             </P3para>
+                                          </P3>
+                                          <Text>as though it were an investigation commenced on or after that date under section 6F of the 2006 Act (and accordingly section 6F of, and Schedule 1ZA to, the 2006 Act apply to that investigation as appropriate).</Text>
+                                       </P2para>
+                                    </P2>
+                                    <P2>
+                                       <Pnumber>2</Pnumber>
+                                       <P2para>
+                                          <Text>In paragraph (1), an investigation of an integrated care board includes any investigation of a clinical commissioning group (as established in accordance with Chapter A2 of Part 2 of the 2006 Act as it applied before 1st July 2022)—</Text>
+                                          <P3>
+                                             <Pnumber>a</Pnumber>
+                                             <P3para>
+                                                <Text>commenced before 1st July 2022, and</Text>
+                                             </P3para>
+                                          </P3>
+                                          <P3>
+                                             <Pnumber>b</Pnumber>
+                                             <P3para>
+                                                <Text>continued as against an integrated care board pursuant to regulation 21(4) of the Health and Care Act 2022 (Commencement No. 2 and Transitional and Saving Provision) Regulations 2022<FootnoteRef Ref="f00016"/>.</Text>
+                                             </P3para>
+                                          </P3>
+                                       </P2para>
+                                    </P2>
+                                 </P1para>
+                              </P1>
+                           </P1group>
+                        </BlockAmendment>
+                        <AppendText>.</AppendText>
+                     </P2para>
+                  </P2>
+                  <P2 id="regulation-2-7">
+                     <Pnumber>7</Pnumber>
+                     <P2para>
+                        <Text>In regulation 46, in paragraph (5)(b), omit “prior to any decision being made as to what, if any, treatment should be provided”.</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="regulation-2-8">
+                     <Pnumber>8</Pnumber>
+                     <P2para>
+                        <Text>In regulation 50<FootnoteRef Ref="f00017"/>, for “The Referral to Treatment Consultant-led Waiting Times Rules Suite dated October 2015”, substitute “Referral to treatment consultant-led waiting times: rules suite (October 2022)”<FootnoteRef Ref="f00018"/>.</Text>
+                     </P2para>
+                  </P2>
+               </P1para>
+            </P1>
+         </P1group>
+         <SignedSection>
+            <Signatory>
+               <Para>
+                  <Text>Signed by authority of the Secretary of State for Health and Social Care</Text>
+               </Para>
+               <Signee>
+                  <PersonName>Will Quince</PersonName>
+                  <JobTitle>Minister of State</JobTitle>
+                  <DateSigned Date="2023-10-17">
+                     <DateText>17th October 2023</DateText>
+                  </DateSigned>
+                  <Department>Department of Health and Social Care</Department>
+               </Signee>
+            </Signatory>
+         </SignedSection>
+      </Body>
+      <ExplanatoryNotes>
+         <Title>Explanatory Note</Title>
+         <Comment>
+            <Para>
+               <Text>(This note is not part of the Regulations)</Text>
+            </Para>
+         </Comment>
+         <P>
+            <Text>These Regulations are made in discharge of the duty, in section 6E of the National Health Service Act 2006 (c. 41), as inserted by section 78(2)(b) of the Health and Care Act 2022 (c. 31), to make regulations which impose requirements or “standing rules” on NHS England and integrated care boards, to make provision as to the arrangements that NHS England and integrated care boards must make for enabling persons to whom services are to be provided to make choices with respect to specified aspects of them. They do so by amending the National Health Service Commissioning Board and Clinical Commissioning Groups (Responsibilities and Standing Rules) Regulations 2012 (S.I. 2012/2996) (“the Standing Rules”). They also include other provisions to protect and promote the rights of persons to make choices in relation to treatments or other services.</Text>
+         </P>
+         <P>
+            <Text>Regulation 2 amends the Standing Rules to—</Text>
+         </P>
+         <P>
+            <UnorderedList Decoration="bullet">
+               <ListItem NumberOverride="•">
+                  <Para>
+                     <Text>omit the definition of “Choice Directions” in consequence of the revocation of regulation 43 (by paragraph (5)), substitute the definition of “elective referral” and insert new definitions of “interface services” and “NHS Standard Contract” in regulation 38 of the Standing Rules (regulation 2(2));</Text>
+                  </Para>
+               </ListItem>
+               <ListItem NumberOverride="•">
+                  <Para>
+                     <Text>specify “qualifying contracts” in relation to the duty to offer a choice of health service provider under regulation 39 of the Standing Rules (regulation 2(3));</Text>
+                  </Para>
+               </ListItem>
+               <ListItem NumberOverride="•">
+                  <Para>
+                     <Text>insert new regulations 42A, 42B, 42C and 42D into the Standing Rules (regulation 2(4)):</Text>
+                  </Para>
+                  <Para>
+                     <UnorderedList Decoration="bullet">
+                        <ListItem NumberOverride="•">
+                           <Para>
+                              <Text>new regulation 42A prohibits NHS England from restricting the ability of a person to apply for inclusion in the list of patients of a practice providing primary medical services, or to express a preference to receive such services from a particular medical practitioner or class of medical practitioner;</Text>
+                           </Para>
+                        </ListItem>
+                        <ListItem NumberOverride="•">
+                           <Para>
+                              <Text>new regulation 42B allows a health service provider to ask an integrated care board or NHS England (a “relevant body”) to assess it for an offer of a new NHS Standard Contract in relation to services in respect of which patients must be offered a choice of provider or where the patient is offered a choice of provider where the relevant body has not restricted the number of providers from which patients may choose. This regulation requires the relevant body to provide information in relation to the form of contract that would be offered following such an assessment and requires the relevant body to conduct the assessment as soon as reasonably practicable but in any event within six weeks of the date on which the provider has asked to be assessed;</Text>
+                           </Para>
+                        </ListItem>
+                        <ListItem NumberOverride="•">
+                           <Para>
+                              <Text>new regulation 42C sets out criteria which must be considered by a relevant body when assessing a health service provider as to whether it should be offered a new NHS Standard Contract or modification of an existing NHS Standard Contract;</Text>
+                           </Para>
+                        </ListItem>
+                        <ListItem NumberOverride="•">
+                           <Para>
+                              <Text>new regulation 42D allows the assessment process in new regulation 42B and the criteria in new regulation 42C to be used in respect of proposed modifications to existing NHS Standard Contracts;</Text>
+                           </Para>
+                        </ListItem>
+                     </UnorderedList>
+                  </Para>
+               </ListItem>
+               <ListItem NumberOverride="•">
+                  <Para>
+                     <Text>omit regulation 43 of the Standing Rules which contains spent transitional provisions (regulation 2(5));</Text>
+                  </Para>
+               </ListItem>
+               <ListItem NumberOverride="•">
+                  <Para>
+                     <Text>insert new regulations 43A and 43B into the Standing Rules (regulation 2(6)):</Text>
+                  </Para>
+                  <Para>
+                     <UnorderedList Decoration="bullet">
+                        <ListItem NumberOverride="•">
+                           <Para>
+                              <Text>new regulation 43A contains a transitional provision to ensure that contracting arrangements already in place at the coming into force of these Regulations are unaffected unless the health service provider actively requests a modification of an existing NHS Standard Contract in respect of a service under new regulation 42D;</Text>
+                           </Para>
+                        </ListItem>
+                        <ListItem NumberOverride="•">
+                           <Para>
+                              <Text>New regulation 43B contains a transitional provision to ensure that NHS England may commence or continue any investigation of an integrated care board, in respect of a complaint under regulation 13(1) of the National Health Service (Procurement, Patient Choice and Competition) (No. 2) Regulations 2013 (S.I. 2013/500) as though it were an investigation commenced on or after that date under section 6F of the National Health Service Act 2006. This applies only in situations where the grounds for the complaint arose before the coming into force of these Regulations;</Text>
+                           </Para>
+                        </ListItem>
+                     </UnorderedList>
+                  </Para>
+               </ListItem>
+               <ListItem NumberOverride="•">
+                  <Para>
+                     <Text>amend regulation 46 of the Standing Rules to align with updated guidance on the calculation of waiting times (regulation 2(7));</Text>
+                  </Para>
+               </ListItem>
+               <ListItem NumberOverride="•">
+                  <Para>
+                     <Text>amend regulation 50 of the Standing Rules to refer to updated guidance on the calculation of waiting times (regulation 2(8)).</Text>
+                  </Para>
+               </ListItem>
+            </UnorderedList>
+         </P>
+         <P>
+            <Text>A full impact assessment has not been produced for this instrument as no, or no significant, impact on the private, voluntary or public sector is foreseen. A full impact assessment has been prepared in relation to the provisions of the Health and Care Act 2022 to which this instrument gives effect, and a copy is available at https://www.gov.uk/government/publications/health-and-care-bill-combined-impact-assessments. A hard copy can be obtained by writing to the Department of Health and Social Care, 39 Victoria Street, London, SW1H 0EU.</Text>
+         </P>
+      </ExplanatoryNotes>
+   </Secondary>
+   <Footnotes>
+      <Footnote id="f00001">
+         <FootnoteText>
+            <Para>
+               <Text>2006 c. 41. Section 6E was inserted by section 20(1) of the Health and Social Care Act 2012 (c. 7); relevant amendments were made by section 78(1) and (2) of, and paragraph 1(1) and (2) of Schedule 1 and paragraphs 86 and 89(1) and (3) of Schedule 4 to, the Health and Care Act 2022 (c. 31).</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00002">
+         <FootnoteText>
+            <Para>
+               <Text>S.I. 2012/2996 (“the Standing Rules”); relevant amendments were made by S.I. 2013/2891 and are prospectively made by S.I. 2023/1071. Under section 1 of the Health and Care Act 2022, the NHS Commissioning Board was renamed NHS England. On 1 July 2022, in accordance with Chapter A3 of Part 2 of the National Health Service Act 2006 (as inserted by section 19 of the Health and Care Act 2022) and S.I. 2022/632, NHS England established integrated care boards to take on the commissioning functions of clinical commissioning groups. As a consequence of those changes, paragraph 1(1) of the Schedule to S.I. 2022/634 substitutes references to “clinical commissioning group” with “integrated care board” in the Standing Rules. In addition, in accordance with paragraph 1(3) of Schedule 1 to the Health and Care Act 2022, the references to the “NHS Commissioning Board” in the Standing Rules are to be read, in relation to any time on or after 1 July 2022, as a reference to “NHS England”.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00003">
+         <FootnoteText>
+            <Para>
+               <Text>S.I. 2015/1862, as amended by S.I. 2017/908, 2018/844, 2020/911, 2021/995, 2022/935 and 2023/449.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00004">
+         <FootnoteText>
+            <Para>
+               <Text>S.I. 2015/1879, as amended by S.I. 2017/908, 2018/844, 2019/1137, 2020/226, 351 and 911, 2021/995, 2022/935 and 2023/449.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00005">
+         <FootnoteText>
+            <Para>
+               <Text>Section 83 was substituted by paragraphs 1 and 3 of Schedule 3 to the Health and Care Act 2022 and amended, so far as relevant, by paragraph 1(1) and (2) of Schedule 1 to that Act.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00006">
+         <FootnoteText>
+            <Para>
+               <Text>Section 84(1) was amended by paragraph 31(1) and (2) of Schedule 4 to the Health and Social Care Act 2012 and paragraphs 1 and 4(1) and (2) of Schedule 3 to the Health and Care Act 2022.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00007">
+         <FootnoteText>
+            <Para>
+               <Text>Section 92 was amended by paragraph 36(1) and (2) of Schedule 4 to the Health and Social Care Act 2012 and by paragraph 1(1) and (2) of Schedule 1 and paragraphs 1 and 9(1) to (4) of Schedule 3 to the Health and Care Act 2022.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00008">
+         <FootnoteText>
+            <Para>
+               <Text>Section 1 was substituted by section 1 of the Health and Social Care Act 2012 (c. 7).</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00009">
+         <FootnoteText>
+            <Para>
+               <Text>Section 91(1) was amended by paragraph 35(1) and (2) of Schedule 4 to the Health and Social Care Act 2012 and paragraph 1(1) and (2) of Schedule 1 and paragraph 8(1) and (2) of Schedule 3 to the Health and Care Act 2022.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00010">
+         <FootnoteText>
+            <Para>
+               <Text>2008 c. 14, as amended by section 280(3) of, and paragraphs 154 to 156 of Schedule 5 and paragraphs 14 to 16 of Schedule 13 to, the Health and Social Care Act 2012, sections 81, 82(1) to (4), 86(1) to (3), 87 and 95 of the Care Act 2014 (c. 23), section 1(1) to (3) of the Health and Social Care (Safety and Quality) Act 2015 (c. 28), paragraph 153 of Schedule 19 to the Data Protection Act 2018 (c. 12), sections 173 and 181(1) to (6) of, and paragraph 1(1) and (2) of Schedule 1, paragraphs 160 to 162 of Schedule 4, paragraphs 34 to 37 of Schedule 5 and paragraph 25 of Schedule 8 to, the Health and Care Act 2022 and by S.I. 2009/56, 2015/664, 2018/195, 2022/500, 2022/1200 and 2023/149.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00011">
+         <FootnoteText>
+            <Para>
+               <Text>S.I. 2015/559, as amended by S.I. 2022/634, 2023/98, 2023/368 and 2023/948.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00012">
+         <FootnoteText>
+            <Para>
+               <Text>S.I. 2019/334.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00013">
+         <FootnoteText>
+            <Para>
+               <Text>Section 12ZB is prospectively inserted by section 79 of the Health and Care Act 2022.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00014">
+         <FootnoteText>
+            <Para>
+               <Text>Chapter A2 was originally inserted by section 25(1) of the Health and Social Care Act 2012, and revoked by section 32 of, and paragraphs 86 and 100 of Schedule 4 to, the Health and Care Act 2022.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00015">
+         <FootnoteText>
+            <Para>
+               <Text>S.I. 2013/500. The Regulations are prospectively revoked by section 80(4) of the Health and Care Act 2022.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00016">
+         <FootnoteText>
+            <Para>
+               <Text>S.I. 2022/734.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00017">
+         <FootnoteText>
+            <Para>
+               <Text>Regulation 50 was amended by S.I. 2015/1430.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00018">
+         <FootnoteText>
+            <Para>
+               <Text>The guidance document is available online at https://www.gov.uk/government/publications/right-to-start-consultant-led-treatment-within-18-weeks/referral-to-treatment-consultant-led-waiting-times-rules-suite-october-2022 or a hard copy can be obtained by writing to the Department of Health and Social Care, 39 Victoria Street, London, SW1H 0EU.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+   </Footnotes>
+</Legislation>
