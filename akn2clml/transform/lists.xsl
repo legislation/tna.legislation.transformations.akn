@@ -326,7 +326,7 @@
 	</xsl:if>
 </xsl:template>
 
-<xsl:template match="hcontainer[@name='definition'][exists(content)] | tblock[@class='definition']">
+<xsl:template match="hcontainer[@name=('definition','step')][exists(content)] | tblock[@class='definition']">
 	<xsl:param name="context" as="xs:string*" tunnel="yes" />
 	<ListItem>
 		<xsl:apply-templates>
@@ -335,7 +335,7 @@
 	</ListItem>
 </xsl:template>
 
-<xsl:template match="hcontainer[@name='definition'][empty(content)]">
+<xsl:template match="hcontainer[@name=('definition','step')][empty(content)]">
 	<xsl:param name="context" as="xs:string*" tunnel="yes" />
 	<ListItem>
 		<xsl:apply-templates select="num | heading | subheading">
@@ -478,6 +478,21 @@
 		<xsl:apply-templates>
 		</xsl:apply-templates>
 	</Key>
+</xsl:template>
+
+
+<!-- steps -->
+
+<xsl:template match="hcontainer[@name='step']" priority="1">
+	<UnorderedList Decoration="none">
+		<xsl:next-match />
+	</UnorderedList>
+</xsl:template>
+
+<xsl:template match="hcontainer[@name='step']/num">
+	<xsl:call-template name="create-element-and-wrap-as-necessary">
+		<xsl:with-param name="name" select="'Text'" />
+	</xsl:call-template>
 </xsl:template>
 
 </xsl:transform>

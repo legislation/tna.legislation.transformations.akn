@@ -6,6 +6,30 @@
 	xpath-default-namespace="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
 	exclude-result-prefixes="html">
 
+<xsl:template match="level[descendant::num]">
+	<xsl:choose>
+		<xsl:when test="(descendant::num | descendant::p)/text()">
+			<xsl:copy>
+				<xsl:apply-templates select="@*|node()"/>
+			</xsl:copy>
+		</xsl:when>
+		<xsl:otherwise/>
+	</xsl:choose>
+</xsl:template>
+	
+<xsl:template match="intro[empty(following-sibling::*)]">
+	<content>
+		<xsl:copy-of select="@*" />
+		<xsl:apply-templates />
+	</content>
+</xsl:template>
+
+<xsl:template match="p[empty(child::node())]">
+	<xsl:message>
+		<xsl:text>removing empty p element</xsl:text>
+	</xsl:message>
+</xsl:template>
+
 <xsl:template match="ref[@class='invalid']">
 	<xsl:apply-templates />
 </xsl:template>
@@ -27,6 +51,13 @@
 	<xsl:element name="{ local-name() }">
 		<xsl:apply-templates select="@*|node()"/>
 	</xsl:element>
+</xsl:template>
+
+<xsl:template match="inline[@name='placeholder']">
+	<xsl:message>
+		<xsl:text disable-output-escaping="yes">skipping &lt;inline name="placeholder"&gt;</xsl:text>
+	</xsl:message>
+	<xsl:apply-templates />
 </xsl:template>
 
 <xsl:template match="@*|node()">

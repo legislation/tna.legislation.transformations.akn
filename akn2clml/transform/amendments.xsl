@@ -120,9 +120,8 @@
 			<!-- lead in  -->
 			<!-- there can be two quotedTexts before the quotedStructure, only the first of which is a lead-in, e.g., asp/2003/1/2003-02-11 -->
 			<xsl:if test="count(quotedStructure) ne 1 or exists(quotedStructure/following-sibling::quotedText)">
-				<xsl:message terminate="yes">
-					<xsl:sequence select="." />
-				</xsl:message>
+				<xsl:message><xsl:text>ERROR more than one quotedStructure or is followed by quotedText</xsl:text></xsl:message>
+				<Error><xsl:text>ERROR more than one quotedStructure or is followed by quotedText: </xsl:text><xsl:sequence select="." /></Error>
 			</xsl:if>
 			<xsl:variable name="lead-in" as="element(quotedText)" select="quotedStructure/preceding-sibling::quotedText[1]" />
 			<xsl:variable name="before" as="node()*" select="$lead-in/preceding-sibling::node()" />

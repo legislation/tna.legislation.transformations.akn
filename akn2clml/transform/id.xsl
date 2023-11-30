@@ -67,15 +67,19 @@
 <xsl:function name="local:make-id-for-crossheading" as="xs:string">
 	<xsl:param name="e" as="element()" />
 	<xsl:param name="name" as="xs:string" />
-	<xsl:choose>
-		<xsl:when test="exists($e/heading)">
-			<xsl:sequence select="local:make-id-from-heading($name, $e/heading[1])" />
-		</xsl:when>
-		<xsl:otherwise>
-			<xsl:variable name="number" as="xs:integer" select="count($e/preceding-sibling::*[not(self::num) and not(self::heading) and not(self::subheading)]) + 1" />
-			<xsl:sequence select="concat(local:make-internal-id($e/parent::*), '-', $name, '-', string($number))" />
-		</xsl:otherwise>
-	</xsl:choose>
+	<xsl:variable name="id" as="xs:string">
+		<xsl:choose>
+			<xsl:when test="exists($e/heading)">
+				<xsl:sequence select="local:make-id-from-heading($name, $e/heading[1])" />
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:variable name="number" as="xs:integer" select="count($e/preceding-sibling::*[not(self::num) and not(self::heading) and not(self::subheading)]) + 1" />
+				<xsl:sequence select="concat(local:make-internal-id($e/parent::*), '-', $name, '-', string($number))" />
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:variable>
+	<xsl:variable name="parent-id" as="xs:string" select="local:make-internal-id($e/parent::*)" />
+	<xsl:sequence select="concat($parent-id, '-', $id)" />
 </xsl:function>
 
 <xsl:function name="local:make-schedule-id-from-number" as="xs:string">
