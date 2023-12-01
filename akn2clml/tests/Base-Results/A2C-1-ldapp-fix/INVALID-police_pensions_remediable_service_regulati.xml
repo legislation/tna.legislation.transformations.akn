@@ -233,7 +233,7 @@
 						</hcontainer>
 						<hcontainer GUID="_1fc8c868-21d4-4ab6-8f3c-3445b9b7d7ae" class="definition" eId="reg_2__para_1__def_endoftheelectionperiod_" name="definition">
 							<intro GUID="_9330150c-c472-4ebe-9e16-886dc88400ad" eId="reg_2__para_1__def_endoftheelectionperiod__intro">
-								<p><def GUID="_149578eb-1b9f-4c1e-b9b8-ed7278118cfd" eId="reg_2__para_1__def_endofthe" ukl:endQuote="”" ukl:startQuote="“">end of the <ref class="ignore" href="#pt_1__sec_10" ukl:targetGuid="">section 10</ref> election period</def>, in relation to a deferred choice member, means the time determined in accordance with—</p>
+								<p><def GUID="_149578eb-1b9f-4c1e-b9b8-ed7278118cfd" eId="reg_2__para_1__def_endofthe" ukl:endQuote="”" ukl:startQuote="“">end of the section 10 election period</def>, in relation to a deferred choice member, means the time determined in accordance with—</p>
 							</intro>
 							<level GUID="_323ed92d-c86d-4146-bf2a-0cc4f0f2301a" class="para1" eId="reg_2__para_1__def_endoftheelectionperiod__para_a">
 								<num>(a)</num>
@@ -320,12 +320,12 @@
 						</hcontainer>
 						<hcontainer GUID="_46d1de22-f717-465a-bd06-27aa8727dbd9" class="definition" eId="reg_2__para_1__def_election__oc_1" name="definition">
 							<content>
-								<p><def GUID="_0bd747c5-3315-4715-8f02-f5ffecb61dd7" eId="reg_2__para_1__def_section6" ukl:endQuote="”" ukl:startQuote="“"><ref class="ignore" href="#pt_1__sec_6" ukl:targetGuid="">section 6</ref> election</def> has the meaning given in <ref class="valid" href="#reg_8" ukl:targetGuid="_0c57fb59-9873-4f2d-b73c-657aa1190487">regulation 8</ref><ref class="valid" href="#reg_8__para_1" ukl:targetGuid="_84baa450-30ac-46f5-9da3-0136c4f7e934">(1)</ref><ref class="valid" href="#reg_8__para_1__para_a" ukl:targetGuid="_b23f1b69-6973-4b1b-8d8e-1eddb5f3832a">(a)</ref>;</p>
+								<p><def GUID="_0bd747c5-3315-4715-8f02-f5ffecb61dd7" eId="reg_2__para_1__def_section6" ukl:endQuote="”" ukl:startQuote="“">section 6 election</def> has the meaning given in <ref class="valid" href="#reg_8" ukl:targetGuid="_0c57fb59-9873-4f2d-b73c-657aa1190487">regulation 8</ref><ref class="valid" href="#reg_8__para_1" ukl:targetGuid="_84baa450-30ac-46f5-9da3-0136c4f7e934">(1)</ref><ref class="valid" href="#reg_8__para_1__para_a" ukl:targetGuid="_b23f1b69-6973-4b1b-8d8e-1eddb5f3832a">(a)</ref>;</p>
 							</content>
 						</hcontainer>
 						<hcontainer GUID="_5abd7951-ab72-4ec6-94e4-4bb9beefe1c8" class="definition" eId="reg_2__para_1__def_election_" name="definition">
 							<content>
-								<p><def GUID="_93890432-31f1-4cbe-9b8f-d1725dbd80e6" eId="reg_2__para_1__def_section10" ukl:endQuote="”" ukl:startQuote="“"><ref class="ignore" href="#pt_1__sec_10" ukl:targetGuid="">section 10</ref> election</def> has the meaning given in <ref class="valid" href="#reg_12" ukl:targetGuid="_fe842368-ea0f-43c1-ad78-d8a803c55320">regulation 12</ref><ref class="valid" href="#reg_12__para_1" ukl:targetGuid="_0826d0bf-f989-4f7f-ace4-441e8ff5f433">(1)</ref><ref class="valid" href="#reg_12__para_1__para_a" ukl:targetGuid="_c16470ee-00d5-4869-9234-46802e3b1642">(a)</ref>.</p>
+								<p><def GUID="_93890432-31f1-4cbe-9b8f-d1725dbd80e6" eId="reg_2__para_1__def_section10" ukl:endQuote="”" ukl:startQuote="“">section 10 election</def> has the meaning given in <ref class="valid" href="#reg_12" ukl:targetGuid="_fe842368-ea0f-43c1-ad78-d8a803c55320">regulation 12</ref><ref class="valid" href="#reg_12__para_1" ukl:targetGuid="_0826d0bf-f989-4f7f-ace4-441e8ff5f433">(1)</ref><ref class="valid" href="#reg_12__para_1__para_a" ukl:targetGuid="_c16470ee-00d5-4869-9234-46802e3b1642">(a)</ref>.</p>
 							</content>
 						</hcontainer>
 					</paragraph>

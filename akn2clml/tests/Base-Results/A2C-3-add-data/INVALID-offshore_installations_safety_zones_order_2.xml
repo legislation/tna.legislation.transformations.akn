@@ -7,7 +7,7 @@
              xmlns:dc="http://purl.org/dc/elements/1.1/">
       <dc:identifier>http://www.legislation.gov.uk/id/uksi/2023/838</dc:identifier>
       <dc:title>The Offshore Installations (Safety Zones) Order 2023</dc:title>
-      <dc:modified>2023-11-30</dc:modified>
+      <dc:modified>2023-12-01</dc:modified>
       <SecondaryMetadata>
          <DocumentClassification>
             <DocumentCategory Value="secondary"/>
@@ -387,10 +387,6 @@
                      </tbody>
                   </table>
                </Tabular>
-               <Error>ERROR no template match for element: block : <block xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
-                         xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN"
-                         name="pageBreak"/>
-               </Error>
             </ScheduleBody>
          </Schedule>
       </Schedules>

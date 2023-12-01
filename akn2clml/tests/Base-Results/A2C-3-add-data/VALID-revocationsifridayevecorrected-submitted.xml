@@ -6,7 +6,7 @@
    <Metadata xmlns="http://www.legislation.gov.uk/namespaces/metadata"
              xmlns:dc="http://purl.org/dc/elements/1.1/">
       <dc:title>The Retained EU Law (Revocation and Reform) Act 2023 (Revocation and Sunset Disapplication) Regulations 2023</dc:title>
-      <dc:modified>2023-11-30</dc:modified>
+      <dc:modified>2023-12-01</dc:modified>
       <SecondaryMetadata>
          <DocumentClassification>
             <DocumentCategory Value="secondary"/>
@@ -287,10 +287,11 @@
                   <Title>SUBORDINATE LEGISLATION</Title>
                   <P>
                      <Tabular Orientation="portrait">
-                        <table xmlns="http://www.w3.org/1999/xhtml"
-                               xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN"
-                               cols="2"
-                               ukl:templateColumns="70 30">
+                        <table xmlns="http://www.w3.org/1999/xhtml">
+                           <colgroup>
+                              <col width="70%"/>
+                              <col width="30%"/>
+                           </colgroup>
                            <thead>
                               <tr>
                                  <td>
@@ -336,10 +337,11 @@
                   <Title>RETAINED DIRECT EU LEGISLATION</Title>
                   <P>
                      <Tabular Orientation="portrait">
-                        <table xmlns="http://www.w3.org/1999/xhtml"
-                               xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN"
-                               cols="2"
-                               ukl:templateColumns="70 30">
+                        <table xmlns="http://www.w3.org/1999/xhtml">
+                           <colgroup>
+                              <col width="70%"/>
+                              <col width="30%"/>
+                           </colgroup>
                            <thead>
                               <tr>
                                  <td>
@@ -409,10 +411,11 @@
                   <Title>RETAINED DIRECT EU LEGISLATION - DISAPPLICATION OF THE SUNSET EXTENDING TO NORTHERN IRELAND ONLY</Title>
                   <P>
                      <Tabular Orientation="portrait">
-                        <table xmlns="http://www.w3.org/1999/xhtml"
-                               xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN"
-                               cols="2"
-                               ukl:templateColumns="70 30">
+                        <table xmlns="http://www.w3.org/1999/xhtml">
+                           <colgroup>
+                              <col width="70%"/>
+                              <col width="30%"/>
+                           </colgroup>
                            <thead>
                               <tr>
                                  <td>
@@ -491,10 +494,12 @@
                   <Title>SUBORDINATE LEGISLATION</Title>
                   <P>
                      <Tabular Orientation="portrait">
-                        <table xmlns="http://www.w3.org/1999/xhtml"
-                               xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN"
-                               cols="3"
-                               ukl:templateColumns="55 20 25">
+                        <table xmlns="http://www.w3.org/1999/xhtml">
+                           <colgroup>
+                              <col width="55%"/>
+                              <col width="20%"/>
+                              <col width="25%"/>
+                           </colgroup>
                            <thead>
                               <tr>
                                  <td>
@@ -1183,10 +1188,12 @@
                   <Title>RETAINED DIRECT EU LEGISLATION</Title>
                   <P>
                      <Tabular Orientation="portrait">
-                        <table xmlns="http://www.w3.org/1999/xhtml"
-                               xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN"
-                               cols="3"
-                               ukl:templateColumns="55 20 25">
+                        <table xmlns="http://www.w3.org/1999/xhtml">
+                           <colgroup>
+                              <col width="55%"/>
+                              <col width="20%"/>
+                              <col width="25%"/>
+                           </colgroup>
                            <thead>
                               <tr>
                                  <td>

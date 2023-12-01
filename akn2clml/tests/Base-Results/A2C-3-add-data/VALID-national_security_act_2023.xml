@@ -7,7 +7,7 @@
              xmlns:dc="http://purl.org/dc/elements/1.1/">
       <dc:identifier>http://www.legislation.gov.uk/id/ukpga/2023/32</dc:identifier>
       <dc:title>National Security Act 2023</dc:title>
-      <dc:modified>2023-11-30</dc:modified>
+      <dc:modified>2023-12-01</dc:modified>
       <PrimaryMetadata>
          <DocumentClassification>
             <DocumentCategory Value="primary"/>
@@ -5122,7 +5122,7 @@
                                  </ListItem>
                                  <ListItem>
                                     <Para>
-                                       <Text>“<Term>replacement <InternalLink Ref="part-2">Part 2</InternalLink> notice</Term>” means the first <InternalLink Ref="part-2">Part 2</InternalLink> notice to impose measures on the individual to whom the overturned notice relates after the quashing or revocation referred to in <InternalLink Ref="section-50-1">subsection (1)</InternalLink>.</Text>
+                                       <Text>“<Term>replacement Part 2 notice</Term>” means the first <InternalLink Ref="part-2">Part 2</InternalLink> notice to impose measures on the individual to whom the overturned notice relates after the quashing or revocation referred to in <InternalLink Ref="section-50-1">subsection (1)</InternalLink>.</Text>
                                     </Para>
                                  </ListItem>
                               </UnorderedList>
@@ -5964,7 +5964,7 @@
                                  </ListItem>
                                  <ListItem>
                                     <Para>
-                                       <Text>“<Term>decision relating to a <InternalLink Ref="part-2">Part 2</InternalLink> notice</Term>” has the meaning given in <InternalLink Ref="section-53">section 53</InternalLink>;</Text>
+                                       <Text>“<Term>decision relating to a Part 2 notice</Term>” has the meaning given in <InternalLink Ref="section-53">section 53</InternalLink>;</Text>
                                     </Para>
                                  </ListItem>
                                  <ListItem>
@@ -6016,8 +6016,7 @@
                                  </ListItem>
                                  <ListItem>
                                     <Para>
-                                       <Text>“<Term>
-                                             <InternalLink Ref="part-2">Part 2</InternalLink> notice</Term>” has the meaning given in section <InternalLink Ref="section-39">39</InternalLink>
+                                       <Text>“<Term>Part 2 notice</Term>” has the meaning given in section <InternalLink Ref="section-39">39</InternalLink>
                                           <InternalLink Ref="section-39-1">(1)</InternalLink>;</Text>
                                     </Para>
                                  </ListItem>
@@ -8622,7 +8621,7 @@
                                                 <Text>Condition F is met where the Director has made (and not withdrawn) an exceptional case determination, within the meaning given by section 10(3), in relation to the offender and the general case services.</Text>
                                              </P2para>
                                           </P2>
-                                          <P2 id="p06938">
+                                          <P2 id="p06935">
                                              <Pnumber>8</Pnumber>
                                              <P2para>
                                                 <Text>Condition G is met where—</Text>
@@ -8655,7 +8654,7 @@
                                           <P2>
                                              <Pnumber>9</Pnumber>
                                              <P2para>
-                                                <Text>In subsection <InternalLink Ref="p06938">(8)</InternalLink>—</Text>
+                                                <Text>In subsection <InternalLink Ref="p06935">(8)</InternalLink>—</Text>
                                                 <UnorderedList Class="Definition" Decoration="none">
                                                    <ListItem>
                                                       <Para>
@@ -8680,7 +8679,7 @@
                                              <Pnumber>11</Pnumber>
                                              <P2para>
                                                 <Text>In this section, “terrorism offence” means any of the following (whenever committed)—</Text>
-                                                <P3 id="p06978">
+                                                <P3 id="p06975">
                                                    <Pnumber>a</Pnumber>
                                                    <P3para>
                                                       <Text>an offence listed in—</Text>
@@ -8698,7 +8697,7 @@
                                                       </P4>
                                                    </P3para>
                                                 </P3>
-                                                <P3 id="p06990">
+                                                <P3 id="p06987">
                                                    <Pnumber>b</Pnumber>
                                                    <P3para>
                                                       <Text>a service offence as respects which the corresponding civil offence is so listed;</Text>
@@ -8717,7 +8716,7 @@
                                                       <P4>
                                                          <Pnumber>ii</Pnumber>
                                                          <P4para>
-                                                            <Text>if committed on or after the date on which it was abolished, would have constituted an offence referred to in paragraph <InternalLink Ref="p06978">(a)</InternalLink> or <InternalLink Ref="p06990">(b)</InternalLink>;</Text>
+                                                            <Text>if committed on or after the date on which it was abolished, would have constituted an offence referred to in paragraph <InternalLink Ref="p06975">(a)</InternalLink> or <InternalLink Ref="p06987">(b)</InternalLink>;</Text>
                                                          </P4para>
                                                       </P4>
                                                    </P3para>
@@ -9533,10 +9532,11 @@
                   <P>
                      <Tabular Orientation="portrait">
                         <Title>Offences under the Electoral Law Act (Northern Ireland) 1962 (c.14 (N.I.))</Title>
-                        <table xmlns="http://www.w3.org/1999/xhtml"
-                               xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN"
-                               cols="2"
-                               ukl:templateColumns="75 25">
+                        <table xmlns="http://www.w3.org/1999/xhtml">
+                           <colgroup>
+                              <col width="75%"/>
+                              <col width="25%"/>
+                           </colgroup>
                            <thead>
                               <tr>
                                  <td>
@@ -9643,10 +9643,11 @@
                   <P>
                      <Tabular Orientation="portrait">
                         <Title>Offences under the Representation of the People Act 1983</Title>
-                        <table xmlns="http://www.w3.org/1999/xhtml"
-                               xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN"
-                               cols="2"
-                               ukl:templateColumns="75 25">
+                        <table xmlns="http://www.w3.org/1999/xhtml">
+                           <colgroup>
+                              <col width="75%"/>
+                              <col width="25%"/>
+                           </colgroup>
                            <thead>
                               <tr>
                                  <td>
@@ -9804,10 +9805,11 @@
                   <P>
                      <Tabular Orientation="portrait">
                         <Title>Offences under the Political Parties, Elections and Referendums Act 2000</Title>
-                        <table xmlns="http://www.w3.org/1999/xhtml"
-                               xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN"
-                               cols="2"
-                               ukl:templateColumns="75 25">
+                        <table xmlns="http://www.w3.org/1999/xhtml">
+                           <colgroup>
+                              <col width="75%"/>
+                              <col width="25%"/>
+                           </colgroup>
                            <thead>
                               <tr>
                                  <td>
@@ -16930,8 +16932,7 @@
                                     </ListItem>
                                     <ListItem>
                                        <Para>
-                                          <Text>“<Term>
-                                                <InternalLink Ref="schedule-6-paragraph-19">paragraph 19</InternalLink> material</Term>” has the meaning given by <InternalLink Ref="schedule-6-paragraph-19">paragraph 19</InternalLink>
+                                          <Text>“<Term>paragraph 19 material</Term>” has the meaning given by <InternalLink Ref="schedule-6-paragraph-19">paragraph 19</InternalLink>
                                              <InternalLink Ref="schedule-6-paragraph-19-2">(2)</InternalLink>;</Text>
                                        </Para>
                                     </ListItem>
@@ -17064,8 +17065,8 @@
                            <P2 id="schedule-6-paragraph-28-2">
                               <Pnumber>2</Pnumber>
                               <P2para>
-                                 <Text>In the definition of “responsible chief officer of police” in sub-paragraph (1), in <InternalLink Ref="d24e17760-d">paragraph (d)</InternalLink>
-                                    <InternalLink Ref="d24e17760-d-i">(i)</InternalLink>, “relevant police area” means the police area—</Text>
+                                 <Text>In the definition of “responsible chief officer of police” in sub-paragraph (1), in <InternalLink Ref="d24e17750-d">paragraph (d)</InternalLink>
+                                    <InternalLink Ref="d24e17750-d-i">(i)</InternalLink>, “relevant police area” means the police area—</Text>
                                  <P3 id="schedule-6-paragraph-28-2-a">
                                     <Pnumber>a</Pnumber>
                                     <P3para>
@@ -18332,7 +18333,7 @@
                                                     TargetSubClass="unknown"
                                                     Context="main"
                                                     Format="double">
-                                       <Text>This is subject to sub-paragraphs <InternalLink Ref="p13888">(1A)</InternalLink> to <InternalLink Ref="p13967">(1I)</InternalLink>.</Text>
+                                       <Text>This is subject to sub-paragraphs <InternalLink Ref="p13884">(1A)</InternalLink> to <InternalLink Ref="p13963">(1I)</InternalLink>.</Text>
                                     </BlockAmendment>
                                     <AppendText>,</AppendText>
                                  </P3para>
@@ -18345,14 +18346,14 @@
                                                     TargetSubClass="unknown"
                                                     Context="schedule"
                                                     Format="double">
-                                       <P2 id="p13888">
+                                       <P2 id="p13884">
                                           <Pnumber>1A</Pnumber>
                                           <P2para>
-                                             <Text>Sub-paragraph <InternalLink Ref="p13896">(1B)</InternalLink> applies in relation to any proposed application under <InternalLink Ref="schedule-6-paragraph-44-1">sub-paragraph (1)</InternalLink> for the further extension of the period specified in a warrant of further detention where the grant (otherwise than in accordance with <InternalLink Ref="schedule-6-paragraph-44-6">sub-paragraph (6)</InternalLink>
+                                             <Text>Sub-paragraph <InternalLink Ref="p13892">(1B)</InternalLink> applies in relation to any proposed application under <InternalLink Ref="schedule-6-paragraph-44-1">sub-paragraph (1)</InternalLink> for the further extension of the period specified in a warrant of further detention where the grant (otherwise than in accordance with <InternalLink Ref="schedule-6-paragraph-44-6">sub-paragraph (6)</InternalLink>
                                                 <InternalLink Ref="schedule-6-paragraph-44-6-b">(b)</InternalLink>) of the application would extend the specified period such that it ends at a time that is more than 14 days after the time of the arrest of the person to whom the warrant relates.</Text>
                                           </P2para>
                                        </P2>
-                                       <P2 id="p13896">
+                                       <P2 id="p13892">
                                           <Pnumber>1B</Pnumber>
                                           <P2para>
                                              <Text>No person may make such an application—</Text>
@@ -18377,10 +18378,10 @@
                                              <Text>unless the person making the application is the person whose consent is required.</Text>
                                           </P2para>
                                        </P2>
-                                       <P2 id="p13914">
+                                       <P2 id="p13910">
                                           <Pnumber>1C</Pnumber>
                                           <P2para>
-                                             <Text>The Director of Public Prosecutions must exercise personally any function under <InternalLink Ref="p13896">sub-paragraph (1B)</InternalLink> of giving consent.</Text>
+                                             <Text>The Director of Public Prosecutions must exercise personally any function under <InternalLink Ref="p13892">sub-paragraph (1B)</InternalLink> of giving consent.</Text>
                                           </P2para>
                                        </P2>
                                        <P2>
@@ -18431,7 +18432,7 @@
                                              </P3>
                                           </P2para>
                                        </P2>
-                                       <P2 id="p13951">
+                                       <P2 id="p13947">
                                           <Pnumber>1F</Pnumber>
                                           <P2para>
                                              <Text>Where the consent is so revoked after an application has been made or extension granted, the application is to be dismissed or (as the case may be) the extension is to be revoked.</Text>
@@ -18440,19 +18441,19 @@
                                        <P2>
                                           <Pnumber>1G</Pnumber>
                                           <P2para>
-                                             <Text>Sub-paragraphs <InternalLink Ref="p13914">(1C)</InternalLink> to <InternalLink Ref="p13951">(1F)</InternalLink> apply instead of any other provisions which would otherwise have enabled any function of the Director of Public Prosecutions under <InternalLink Ref="p13896">sub-paragraph (1B)</InternalLink> of giving consent to be exercised by a person other than the Director.</Text>
+                                             <Text>Sub-paragraphs <InternalLink Ref="p13910">(1C)</InternalLink> to <InternalLink Ref="p13947">(1F)</InternalLink> apply instead of any other provisions which would otherwise have enabled any function of the Director of Public Prosecutions under <InternalLink Ref="p13892">sub-paragraph (1B)</InternalLink> of giving consent to be exercised by a person other than the Director.</Text>
                                           </P2para>
                                        </P2>
-                                       <P2 id="p13962">
+                                       <P2 id="p13958">
                                           <Pnumber>1H</Pnumber>
                                           <P2para>
-                                             <Text>The Director of Public Prosecutions for Northern Ireland must exercise personally any function under <InternalLink Ref="p13896">sub-paragraph (1B)</InternalLink> of giving consent unless the function is exercised personally by the Deputy Director of Public Prosecutions for Northern Ireland by virtue of section 30(4) or (7) of the Justice (Northern Ireland) Act 2002 (powers of Deputy Director to exercise functions of Director).</Text>
+                                             <Text>The Director of Public Prosecutions for Northern Ireland must exercise personally any function under <InternalLink Ref="p13892">sub-paragraph (1B)</InternalLink> of giving consent unless the function is exercised personally by the Deputy Director of Public Prosecutions for Northern Ireland by virtue of section 30(4) or (7) of the Justice (Northern Ireland) Act 2002 (powers of Deputy Director to exercise functions of Director).</Text>
                                           </P2para>
                                        </P2>
-                                       <P2 id="p13967">
+                                       <P2 id="p13963">
                                           <Pnumber>1I</Pnumber>
                                           <P2para>
-                                             <Text>Sub-paragraph <InternalLink Ref="p13962">(1H)</InternalLink> applies instead of section 36 of the Act of 2002 (delegation of the functions of the Director of Public Prosecutions for Northern Ireland to persons other than the Deputy Director) in relation to the functions of the Director of Public Prosecutions for Northern Ireland and the Deputy Director of Public Prosecutions for Northern Ireland under, or (as the case may be) by virtue of, <InternalLink Ref="p13896">sub-paragraph (1B)</InternalLink> above of giving consent.</Text>
+                                             <Text>Sub-paragraph <InternalLink Ref="p13958">(1H)</InternalLink> applies instead of section 36 of the Act of 2002 (delegation of the functions of the Director of Public Prosecutions for Northern Ireland to persons other than the Deputy Director) in relation to the functions of the Director of Public Prosecutions for Northern Ireland and the Deputy Director of Public Prosecutions for Northern Ireland under, or (as the case may be) by virtue of, <InternalLink Ref="p13892">sub-paragraph (1B)</InternalLink> above of giving consent.</Text>
                                           </P2para>
                                        </P2>
                                     </BlockAmendment>
@@ -18470,10 +18471,10 @@
                                        <P3>
                                           <Pnumber>a</Pnumber>
                                           <P3para>
-                                             <Text>in the case of an application falling within <InternalLink Ref="p13998">sub-paragraph (2A)</InternalLink>, a judicial authority, and</Text>
+                                             <Text>in the case of an application falling within <InternalLink Ref="p13994">sub-paragraph (2A)</InternalLink>, a judicial authority, and</Text>
                                           </P3para>
                                        </P3>
-                                       <P3 id="p13986">
+                                       <P3 id="p13982">
                                           <Pnumber>b</Pnumber>
                                           <P3para>
                                              <Text>in any other case, a senior judge</Text>
@@ -18491,7 +18492,7 @@
                                                     TargetSubClass="unknown"
                                                     Context="schedule"
                                                     Format="double">
-                                       <P2 id="p13998">
+                                       <P2 id="p13994">
                                           <Pnumber>2A</Pnumber>
                                           <P2para>
                                              <Text>An application for the extension or further extension of a period falls within this sub-paragraph if—</Text>
@@ -18524,7 +18525,7 @@
                                  <Pnumber>f</Pnumber>
                                  <P3para>
                                     <Text>the insertion, after “detention” in <InternalLink Ref="schedule-6-paragraph-44-7">sub-paragraph (7)</InternalLink>, of “but, in relation to an application made by virtue of <InternalLink Ref="schedule-6-paragraph-46-2">sub-paragraph (2)</InternalLink>
-                                       <InternalLink Ref="p13986">(b)</InternalLink> to a senior judge, as if— </Text>
+                                       <InternalLink Ref="p13982">(b)</InternalLink> to a senior judge, as if— </Text>
                                     <BlockAmendment TargetClass="primary"
                                                     TargetSubClass="unknown"
                                                     Context="main"
@@ -23372,8 +23373,7 @@
                                  </ListItem>
                                  <ListItem>
                                     <Para>
-                                       <Text>“<Term>
-                                             <InternalLink Ref="schedule-12-paragraph-6">paragraph 6</InternalLink> material</Term>” has the meaning given by <InternalLink Ref="schedule-12-paragraph-6">paragraph 6</InternalLink>
+                                       <Text>“<Term>paragraph 6 material</Term>” has the meaning given by <InternalLink Ref="schedule-12-paragraph-6">paragraph 6</InternalLink>
                                           <InternalLink Ref="schedule-12-paragraph-6-2">(2)</InternalLink>;</Text>
                                     </Para>
                                  </ListItem>
@@ -23513,8 +23513,8 @@
                         <P2 id="schedule-12-paragraph-15-2">
                            <Pnumber>2</Pnumber>
                            <P2para>
-                              <Text>In the definition of “responsible chief officer of police” in <InternalLink Ref="schedule-6-paragraph-28-1">sub-paragraph (1)</InternalLink>, in <InternalLink Ref="d24e23877-d">paragraph (d)</InternalLink>
-                                 <InternalLink Ref="d24e23877-d-i">(i)</InternalLink>, “relevant police area” means the police area—</Text>
+                              <Text>In the definition of “responsible chief officer of police” in <InternalLink Ref="schedule-6-paragraph-28-1">sub-paragraph (1)</InternalLink>, in <InternalLink Ref="d24e23865-d">paragraph (d)</InternalLink>
+                                 <InternalLink Ref="d24e23865-d-i">(i)</InternalLink>, “relevant police area” means the police area—</Text>
                               <P3 id="schedule-12-paragraph-15-2-a">
                                  <Pnumber>a</Pnumber>
                                  <P3para>
@@ -25382,7 +25382,7 @@
                            <P3 id="schedule-17-paragraph-1-2-a">
                               <Pnumber>a</Pnumber>
                               <P3para>
-                                 <Text>for the words from “Schedule 7” to “2019,” substitute “a provision listed in subsection <InternalLink Ref="p18948">(3A)</InternalLink>”;</Text>
+                                 <Text>for the words from “Schedule 7” to “2019,” substitute “a provision listed in subsection <InternalLink Ref="p18943">(3A)</InternalLink>”;</Text>
                               </P3para>
                            </P3>
                            <P3 id="schedule-17-paragraph-1-2-b">
@@ -25401,7 +25401,7 @@
                                            TargetSubClass="unknown"
                                            Context="main"
                                            Format="double">
-                              <P2 id="p18948">
+                              <P2 id="p18943">
                                  <Pnumber>3A</Pnumber>
                                  <P2para>
                                     <Text>Those provisions are—</Text>
@@ -25455,7 +25455,7 @@
                                            TargetSubClass="unknown"
                                            Context="main"
                                            Format="double">
-                              <P2 id="p18984">
+                              <P2 id="p18979">
                                  <Pnumber>8ZA</Pnumber>
                                  <P2para>
                                     <Text>Subsection (8A) applies where—</Text>
@@ -25465,7 +25465,7 @@
                                           <Text>a person is detained under this section in hospital, or</Text>
                                        </P3para>
                                     </P3>
-                                    <P3 id="p18991">
+                                    <P3 id="p18986">
                                        <Pnumber>b</Pnumber>
                                        <P3para>
                                           <Text>a person detained under this section is removed to hospital because the person needs medical treatment.</Text>
@@ -25490,15 +25490,15 @@
                            <P3 id="schedule-17-paragraph-1-5-b">
                               <Pnumber>b</Pnumber>
                               <P3para>
-                                 <Text>in paragraph (a) after “hospital or” insert “(where this subsection applies by virtue of subsection <InternalLink Ref="p18984">(8ZA)</InternalLink>
-                                    <InternalLink Ref="p18991">(b)</InternalLink>)”;</Text>
+                                 <Text>in paragraph (a) after “hospital or” insert “(where this subsection applies by virtue of subsection <InternalLink Ref="p18979">(8ZA)</InternalLink>
+                                    <InternalLink Ref="p18986">(b)</InternalLink>)”;</Text>
                               </P3para>
                            </P3>
                            <P3 id="schedule-17-paragraph-1-5-c">
                               <Pnumber>c</Pnumber>
                               <P3para>
-                                 <Text>in paragraph (b) after “hospital or” insert “(where this subsection applies by virtue of subsection <InternalLink Ref="p18984">(8ZA)</InternalLink>
-                                    <InternalLink Ref="p18991">(b)</InternalLink>)”.</Text>
+                                 <Text>in paragraph (b) after “hospital or” insert “(where this subsection applies by virtue of subsection <InternalLink Ref="p18979">(8ZA)</InternalLink>
+                                    <InternalLink Ref="p18986">(b)</InternalLink>)”.</Text>
                               </P3para>
                            </P3>
                         </P2para>
@@ -25539,7 +25539,7 @@
                            <P3 id="schedule-17-paragraph-2-3-a">
                               <Pnumber>a</Pnumber>
                               <P3para>
-                                 <Text>at the end of sub-paragraph (1) insert “(subject to sub-paragraph <InternalLink Ref="p19049">(1A)</InternalLink>)”;</Text>
+                                 <Text>at the end of sub-paragraph (1) insert “(subject to sub-paragraph <InternalLink Ref="p19044">(1A)</InternalLink>)”;</Text>
                               </P3para>
                            </P3>
                            <P3 id="schedule-17-paragraph-2-3-b">
@@ -25550,13 +25550,13 @@
                                                  TargetSubClass="unknown"
                                                  Context="schedule"
                                                  Format="double">
-                                    <P2 id="p19049">
+                                    <P2 id="p19044">
                                        <Pnumber>1A</Pnumber>
                                        <P2para>
                                           <Text>An order under this paragraph giving the authority which may be given by a search warrant under paragraph 11 does not authorise a constable to retain confidential journalistic material.</Text>
                                        </P2para>
                                     </P2>
-                                    <P2 id="p19053">
+                                    <P2 id="p19048">
                                        <Pnumber>1B</Pnumber>
                                        <P2para>
                                           <Text>“Confidential journalistic material” means material which is excluded material by virtue of section 11(1)(c) of the Police and Criminal Evidence Act 1984.</Text>
@@ -25585,7 +25585,7 @@
                                           <Text>This paragraph applies where confidential journalistic material is seized by virtue of an order under paragraph 15 giving the authority which may be given by a search warrant under paragraph 11.</Text>
                                        </P2para>
                                     </P2>
-                                    <P2 id="p19070">
+                                    <P2 id="p19065">
                                        <Pnumber>2</Pnumber>
                                        <P2para>
                                           <Text>A constable may apply to a Circuit judge for the issue of a warrant under this paragraph.</Text>
@@ -25594,13 +25594,13 @@
                                     <P2>
                                        <Pnumber>3</Pnumber>
                                        <P2para>
-                                          <Text>An application under sub-paragraph <InternalLink Ref="p19070">(2)</InternalLink> must be made as soon as reasonably practicable after the material is seized.</Text>
+                                          <Text>An application under sub-paragraph <InternalLink Ref="p19065">(2)</InternalLink> must be made as soon as reasonably practicable after the material is seized.</Text>
                                        </P2para>
                                     </P2>
                                     <P2>
                                        <Pnumber>4</Pnumber>
                                        <P2para>
-                                          <Text>The judge may grant an application under sub-paragraph <InternalLink Ref="p19070">(2)</InternalLink> if satisfied that conditions 1 to 3 are met.</Text>
+                                          <Text>The judge may grant an application under sub-paragraph <InternalLink Ref="p19065">(2)</InternalLink> if satisfied that conditions 1 to 3 are met.</Text>
                                        </P2para>
                                     </P2>
                                     <P2>
@@ -25674,7 +25674,7 @@
                               <P3>
                                  <Pnumber>ea</Pnumber>
                                  <P3para>
-                                    <Text>the reference in paragraph 15<InternalLink Ref="p19053">(1B)</InternalLink> to section 11(1)(c) of the Police and Criminal Evidence Act 1984 is to be taken as a reference to Article 13(1)(c) of the Police and Criminal Evidence (Northern Ireland) Order 1989 (S.I. 1989/1341 (N.I. 12)),</Text>
+                                    <Text>the reference in paragraph 15<InternalLink Ref="p19048">(1B)</InternalLink> to section 11(1)(c) of the Police and Criminal Evidence Act 1984 is to be taken as a reference to Article 13(1)(c) of the Police and Criminal Evidence (Northern Ireland) Order 1989 (S.I. 1989/1341 (N.I. 12)),</Text>
                                  </P3para>
                               </P3>
                            </BlockAmendment>
@@ -25688,7 +25688,7 @@
                            <P3 id="schedule-17-paragraph-2-6-a">
                               <Pnumber>a</Pnumber>
                               <P3para>
-                                 <Text>at the end of sub-paragraph (1) insert “(subject to sub-paragraph <InternalLink Ref="p19148">(1A)</InternalLink>)”;</Text>
+                                 <Text>at the end of sub-paragraph (1) insert “(subject to sub-paragraph <InternalLink Ref="p19143">(1A)</InternalLink>)”;</Text>
                               </P3para>
                            </P3>
                            <P3 id="schedule-17-paragraph-2-6-b">
@@ -25699,7 +25699,7 @@
                                                  TargetSubClass="unknown"
                                                  Context="schedule"
                                                  Format="double">
-                                    <P2 id="p19148">
+                                    <P2 id="p19143">
                                        <Pnumber>1A</Pnumber>
                                        <P2para>
                                           <Text>An order under this paragraph does not authorise a constable to retain confidential journalistic material.</Text>
@@ -25734,7 +25734,7 @@
                                           <Text>This paragraph applies where confidential journalistic material is seized by virtue of an order under paragraph 31.</Text>
                                        </P2para>
                                     </P2>
-                                    <P2 id="p19169">
+                                    <P2 id="p19164">
                                        <Pnumber>2</Pnumber>
                                        <P2para>
                                           <Text>The procurator fiscal may apply to a sheriff for the issue of a warrant under this paragraph.</Text>
@@ -25743,13 +25743,13 @@
                                     <P2>
                                        <Pnumber>3</Pnumber>
                                        <P2para>
-                                          <Text>An application under sub-paragraph <InternalLink Ref="p19169">(2)</InternalLink> must be made as soon as reasonably practicable.</Text>
+                                          <Text>An application under sub-paragraph <InternalLink Ref="p19164">(2)</InternalLink> must be made as soon as reasonably practicable.</Text>
                                        </P2para>
                                     </P2>
                                     <P2>
                                        <Pnumber>4</Pnumber>
                                        <P2para>
-                                          <Text>The sheriff may grant an application under sub-paragraph <InternalLink Ref="p19169">(2)</InternalLink> if satisfied that conditions 1 to 3 are met.</Text>
+                                          <Text>The sheriff may grant an application under sub-paragraph <InternalLink Ref="p19164">(2)</InternalLink> if satisfied that conditions 1 to 3 are met.</Text>
                                        </P2para>
                                     </P2>
                                     <P2>
@@ -26396,11 +26396,11 @@
                                     <P1>
                                        <Pnumber>8A</Pnumber>
                                        <P1para>
-                                          <P2 id="p19659">
+                                          <P2 id="p19654">
                                              <Pnumber>1</Pnumber>
                                              <P2para>
                                                 <Text>Section 56(1) does not apply in relation to—</Text>
-                                                <P3 id="p19662">
+                                                <P3 id="p19657">
                                                    <Pnumber>a</Pnumber>
                                                    <P3para>
                                                       <Text>any proceedings which are relevant proceedings within the meaning of <InternalLink Ref="part-2">Part 2</InternalLink> of the National Security Act 2023 (see <InternalLink Ref="section-62">section 62</InternalLink>
@@ -26410,7 +26410,7 @@
                                                 <P3>
                                                    <Pnumber>b</Pnumber>
                                                    <P3para>
-                                                      <Text>any proceedings arising out of any proceedings within paragraph <InternalLink Ref="p19662">(a)</InternalLink>.</Text>
+                                                      <Text>any proceedings arising out of any proceedings within paragraph <InternalLink Ref="p19657">(a)</InternalLink>.</Text>
                                                    </P3para>
                                                 </P3>
                                              </P2para>
@@ -26418,7 +26418,7 @@
                                           <P2>
                                              <Pnumber>2</Pnumber>
                                              <P2para>
-                                                <Text>But sub-paragraph <InternalLink Ref="p19659">(1)</InternalLink> does not permit the disclosure of anything to—</Text>
+                                                <Text>But sub-paragraph <InternalLink Ref="p19654">(1)</InternalLink> does not permit the disclosure of anything to—</Text>
                                                 <P3>
                                                    <Pnumber>a</Pnumber>
                                                    <P3para>
@@ -26464,7 +26464,7 @@
                                                     TargetSubClass="unknown"
                                                     Context="main"
                                                     Format="double">
-                                       <P3 id="p19709">
+                                       <P3 id="p19704">
                                           <Pnumber>ha</Pnumber>
                                           <P3para>
                                              <Text>an offence under <InternalLink Ref="section-1">section 1</InternalLink> or <InternalLink Ref="section-3">3</InternalLink> of the National Security Act 2023 relating to any information, document or other article which, or an offence under <InternalLink Ref="section-12">section 12</InternalLink> of that Act relating to any asset which—</Text>
@@ -26485,7 +26485,7 @@
                                        <P3>
                                           <Pnumber>hb</Pnumber>
                                           <P3para>
-                                             <Text>an offence under <InternalLink Ref="section-18">section 18</InternalLink> of the National Security Act 2023 in relation to an offence falling within paragraph <InternalLink Ref="p19709">(ha)</InternalLink>;</Text>
+                                             <Text>an offence under <InternalLink Ref="section-18">section 18</InternalLink> of the National Security Act 2023 in relation to an offence falling within paragraph <InternalLink Ref="p19704">(ha)</InternalLink>;</Text>
                                           </P3para>
                                        </P3>
                                     </BlockAmendment>
@@ -26495,7 +26495,7 @@
                               <P3 id="schedule-18-paragraph-10-3-b">
                                  <Pnumber>b</Pnumber>
                                  <P3para>
-                                    <Text>in paragraph (i), for “(h)” substitute “<InternalLink Ref="p19709">(ha)</InternalLink>”.</Text>
+                                    <Text>in paragraph (i), for “(h)” substitute “<InternalLink Ref="p19704">(ha)</InternalLink>”.</Text>
                                  </P3para>
                               </P3>
                            </P2para>

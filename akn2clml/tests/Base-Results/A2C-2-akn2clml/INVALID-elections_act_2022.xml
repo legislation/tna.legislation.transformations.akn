@@ -7,7 +7,7 @@
              xmlns:dc="http://purl.org/dc/elements/1.1/">
       <dc:identifier>http://www.legislation.gov.uk/id/ukpga/2022/37</dc:identifier>
       <dc:title>Elections Act 2022</dc:title>
-      <dc:modified>2023-11-30</dc:modified>
+      <dc:modified>2023-12-01</dc:modified>
       <PrimaryMetadata>
          <DocumentClassification>
             <DocumentCategory Value="primary"/>
@@ -5655,8 +5655,7 @@
                               </ListItem>
                               <ListItem>
                                  <Para>
-                                    <Text>“<Term>
-                                          <InternalLink Ref="schedule-9">Schedule 9</InternalLink> offence</Term>” means an offence listed in <InternalLink Ref="schedule-9">Schedule 9</InternalLink> (and any reference in that Schedule to an offence includes a reference to that offence committed by aiding, abetting, counselling or procuring the commission of that offence).</Text>
+                                    <Text>“<Term>Schedule 9 offence</Term>” means an offence listed in <InternalLink Ref="schedule-9">Schedule 9</InternalLink> (and any reference in that Schedule to an offence includes a reference to that offence committed by aiding, abetting, counselling or procuring the commission of that offence).</Text>
                                  </Para>
                               </ListItem>
                            </UnorderedList>
@@ -8948,7 +8947,7 @@
                                         Format="double">
                            <P1group>
                               <Title> Electoral identity document: Great Britain</Title>
-                              <P1 id="p06619">
+                              <P1 id="p06618">
                                  <Pnumber>13BD</Pnumber>
                                  <P1para>
                                     <P2>
@@ -8993,17 +8992,17 @@
                                           <Text>A registration officer must, in accordance with regulations, determine an application made to the registration officer.</Text>
                                        </P2para>
                                     </P2>
-                                    <P2 id="p06649">
+                                    <P2 id="p06648">
                                        <Pnumber>4</Pnumber>
                                        <P2para>
                                           <Text>Regulations may make provision— </Text>
-                                          <P3 id="p06652">
+                                          <P3 id="p06651">
                                              <Pnumber>a</Pnumber>
                                              <P3para>
                                                 <Text>about the timing of an application for an electoral identity document;</Text>
                                              </P3para>
                                           </P3>
-                                          <P3 id="p06656">
+                                          <P3 id="p06655">
                                              <Pnumber>b</Pnumber>
                                              <P3para>
                                                 <Text>about the issuing or collection of an electoral identity document.</Text>
@@ -9014,15 +9013,15 @@
                                     <P2>
                                        <Pnumber>5</Pnumber>
                                        <P2para>
-                                          <Text>Regulations under <InternalLink Ref="p06649">subsection (4)</InternalLink>
-                                             <InternalLink Ref="p06652">(a)</InternalLink> may in particular provide for an application to be disregarded for the purposes of a particular election where the application is received after a deadline specified by reference to the date of that election.</Text>
+                                          <Text>Regulations under <InternalLink Ref="p06648">subsection (4)</InternalLink>
+                                             <InternalLink Ref="p06651">(a)</InternalLink> may in particular provide for an application to be disregarded for the purposes of a particular election where the application is received after a deadline specified by reference to the date of that election.</Text>
                                        </P2para>
                                     </P2>
                                     <P2>
                                        <Pnumber>6</Pnumber>
                                        <P2para>
-                                          <Text>The provision that may be made by virtue of <InternalLink Ref="p06649">subsection (4)</InternalLink>
-                                             <InternalLink Ref="p06656">(b)</InternalLink> includes provision amending the parliamentary elections rules in connection with the collection of an electoral identity document from a polling station.</Text>
+                                          <Text>The provision that may be made by virtue of <InternalLink Ref="p06648">subsection (4)</InternalLink>
+                                             <InternalLink Ref="p06655">(b)</InternalLink> includes provision amending the parliamentary elections rules in connection with the collection of an electoral identity document from a polling station.</Text>
                                        </P2para>
                                     </P2>
                                     <P2>
@@ -9084,7 +9083,7 @@
                            </P1group>
                            <P1group>
                               <Title> Anonymous elector’s document: Great Britain</Title>
-                              <P1 id="p06710">
+                              <P1 id="p06709">
                                  <Pnumber>13BE</Pnumber>
                                  <P1para>
                                     <P2>
@@ -9129,17 +9128,17 @@
                                           <Text>A registration officer must, in accordance with regulations, determine an application made to the registration officer.</Text>
                                        </P2para>
                                     </P2>
-                                    <P2 id="p06740">
+                                    <P2 id="p06739">
                                        <Pnumber>4</Pnumber>
                                        <P2para>
                                           <Text>Regulations may make provision—</Text>
-                                          <P3 id="p06743">
+                                          <P3 id="p06742">
                                              <Pnumber>a</Pnumber>
                                              <P3para>
                                                 <Text>about the timing of an application for an anonymous elector’s document;</Text>
                                              </P3para>
                                           </P3>
-                                          <P3 id="p06747">
+                                          <P3 id="p06746">
                                              <Pnumber>b</Pnumber>
                                              <P3para>
                                                 <Text>about the issuing or collection of an anonymous elector’s document.</Text>
@@ -9150,15 +9149,15 @@
                                     <P2>
                                        <Pnumber>5</Pnumber>
                                        <P2para>
-                                          <Text>Regulations under subsection <InternalLink Ref="p06740">(4)</InternalLink>
-                                             <InternalLink Ref="p06743">(a)</InternalLink> may in particular provide for an application to be disregarded for the purposes of a particular election where the application is received after a deadline specified by reference to the date of that election.</Text>
+                                          <Text>Regulations under subsection <InternalLink Ref="p06739">(4)</InternalLink>
+                                             <InternalLink Ref="p06742">(a)</InternalLink> may in particular provide for an application to be disregarded for the purposes of a particular election where the application is received after a deadline specified by reference to the date of that election.</Text>
                                        </P2para>
                                     </P2>
                                     <P2>
                                        <Pnumber>6</Pnumber>
                                        <P2para>
-                                          <Text>The provision that may be made by virtue of subsection <InternalLink Ref="p06740">(4)</InternalLink>
-                                             <InternalLink Ref="p06747">(b)</InternalLink> includes provision amending the parliamentary elections rules in connection with the collection of an anonymous elector’s document from a polling station.</Text>
+                                          <Text>The provision that may be made by virtue of subsection <InternalLink Ref="p06739">(4)</InternalLink>
+                                             <InternalLink Ref="p06746">(b)</InternalLink> includes provision amending the parliamentary elections rules in connection with the collection of an anonymous elector’s document from a polling station.</Text>
                                        </P2para>
                                     </P2>
                                     <P2>
@@ -9275,7 +9274,7 @@
                                               TargetSubClass="unknown"
                                               Context="main"
                                               Format="double">
-                                 <P2 id="p06837">
+                                 <P2 id="p06836">
                                     <Pnumber>3A</Pnumber>
                                     <P2para>
                                        <Text>Regulations may make provision about the issuing or collection of an electoral identity card.</Text>
@@ -9284,7 +9283,7 @@
                                  <P2>
                                     <Pnumber>3B</Pnumber>
                                     <P2para>
-                                       <Text>The provision that may be made by virtue of <InternalLink Ref="p06837">subsection (3A)</InternalLink> includes provision amending the parliamentary elections rules in connection with the collection of an electoral identity card from a polling station.</Text>
+                                       <Text>The provision that may be made by virtue of <InternalLink Ref="p06836">subsection (3A)</InternalLink> includes provision amending the parliamentary elections rules in connection with the collection of an electoral identity card from a polling station.</Text>
                                     </P2para>
                                  </P2>
                               </BlockAmendment>
@@ -9353,13 +9352,13 @@
                                        <P3>
                                           <Pnumber>a</Pnumber>
                                           <P3para>
-                                             <Text>an application under <InternalLink Ref="p06619">section 13BD</InternalLink> for an electoral identity document,</Text>
+                                             <Text>an application under <InternalLink Ref="p06618">section 13BD</InternalLink> for an electoral identity document,</Text>
                                           </P3para>
                                        </P3>
                                        <P3>
                                           <Pnumber>b</Pnumber>
                                           <P3para>
-                                             <Text>an application under <InternalLink Ref="p06710">section 13BE</InternalLink> for an anonymous elector’s document, or</Text>
+                                             <Text>an application under <InternalLink Ref="p06709">section 13BE</InternalLink> for an anonymous elector’s document, or</Text>
                                           </P3para>
                                        </P3>
                                        <P3>
@@ -9548,7 +9547,7 @@
                                     <P2>
                                        <Pnumber>7</Pnumber>
                                        <P2para>
-                                          <Text>In this section, “the voter identification requirements” means paragraphs <InternalLink Ref="p07650">(1A)</InternalLink> to <InternalLink Ref="p07944">(1T)</InternalLink> of rule 37 of the parliamentary elections rules (voting procedure) as it extends to England and Wales and to Scotland (including those paragraphs as applied by rule 38, 39 or 40 of those rules).</Text>
+                                          <Text>In this section, “the voter identification requirements” means paragraphs <InternalLink Ref="p07649">(1A)</InternalLink> to <InternalLink Ref="p07943">(1T)</InternalLink> of rule 37 of the parliamentary elections rules (voting procedure) as it extends to England and Wales and to Scotland (including those paragraphs as applied by rule 38, 39 or 40 of those rules).</Text>
                                        </P2para>
                                     </P2>
                                  </P1para>
@@ -9624,7 +9623,7 @@
                               <P1>
                                  <Pnumber>19B</Pnumber>
                                  <P1para>
-                                    <P2 id="p07065">
+                                    <P2 id="p07064">
                                        <Pnumber>1</Pnumber>
                                        <P2para>
                                           <Text>The Chief Electoral Officer for Northern Ireland must prepare the following lists for each polling station—</Text>
@@ -9634,7 +9633,7 @@
                                                 <Text>a list setting out, in relation to each elector allotted to the polling station, the elector’s date of birth as supplied pursuant to section 10(4A)(b), 10A(1A)(b) or 13A(2A)(b);</Text>
                                              </P3para>
                                           </P3>
-                                          <P3 id="p07072">
+                                          <P3 id="p07071">
                                              <Pnumber>b</Pnumber>
                                              <P3para>
                                                 <Text>a list setting out, in relation to each person appointed to vote as proxy for an elector allotted to the polling station, the person’s date of birth as supplied pursuant to a relevant provision.</Text>
@@ -9645,8 +9644,8 @@
                                     <P2>
                                        <Pnumber>2</Pnumber>
                                        <P2para>
-                                          <Text>For the purposes of paragraph <InternalLink Ref="p07065">(1)</InternalLink>
-                                             <InternalLink Ref="p07072">(b)</InternalLink>, “relevant provision” means—</Text>
+                                          <Text>For the purposes of paragraph <InternalLink Ref="p07064">(1)</InternalLink>
+                                             <InternalLink Ref="p07071">(b)</InternalLink>, “relevant provision” means—</Text>
                                           <P3>
                                              <Pnumber>a</Pnumber>
                                              <P3para>
@@ -9664,34 +9663,34 @@
                                     <P2>
                                        <Pnumber>3</Pnumber>
                                        <P2para>
-                                          <Text>A list prepared under paragraph <InternalLink Ref="p07065">(1)</InternalLink> must include sufficient information for the purposes of enabling the presiding officer or a clerk at the polling station to make a decision under rule 37(1B)(a)(ii) (decision whether specified document raises doubt as to voter’s apparent age).</Text>
+                                          <Text>A list prepared under paragraph <InternalLink Ref="p07064">(1)</InternalLink> must include sufficient information for the purposes of enabling the presiding officer or a clerk at the polling station to make a decision under rule 37(1B)(a)(ii) (decision whether specified document raises doubt as to voter’s apparent age).</Text>
                                        </P2para>
                                     </P2>
                                     <P2>
                                        <Pnumber>4</Pnumber>
                                        <P2para>
-                                          <Text>A person to whom paragraph <InternalLink Ref="p07117">(5)</InternalLink> applies must not, otherwise than in accordance with these rules (including regulations under paragraph <InternalLink Ref="p07137">(6)</InternalLink>)—</Text>
+                                          <Text>A person to whom paragraph <InternalLink Ref="p07116">(5)</InternalLink> applies must not, otherwise than in accordance with these rules (including regulations under paragraph <InternalLink Ref="p07136">(6)</InternalLink>)—</Text>
                                           <P3>
                                              <Pnumber>a</Pnumber>
                                              <P3para>
-                                                <Text>permit a list prepared under paragraph <InternalLink Ref="p07065">(1)</InternalLink> for a polling station to be inspected;</Text>
+                                                <Text>permit a list prepared under paragraph <InternalLink Ref="p07064">(1)</InternalLink> for a polling station to be inspected;</Text>
                                              </P3para>
                                           </P3>
                                           <P3>
                                              <Pnumber>b</Pnumber>
                                              <P3para>
-                                                <Text>supply to any person a copy of a list prepared under paragraph <InternalLink Ref="p07065">(1)</InternalLink> for a polling station or information contained in such a list;</Text>
+                                                <Text>supply to any person a copy of a list prepared under paragraph <InternalLink Ref="p07064">(1)</InternalLink> for a polling station or information contained in such a list;</Text>
                                              </P3para>
                                           </P3>
                                           <P3>
                                              <Pnumber>c</Pnumber>
                                              <P3para>
-                                                <Text>make use of information contained in a list prepared under paragraph <InternalLink Ref="p07065">(1)</InternalLink>.</Text>
+                                                <Text>make use of information contained in a list prepared under paragraph <InternalLink Ref="p07064">(1)</InternalLink>.</Text>
                                              </P3para>
                                           </P3>
                                        </P2para>
                                     </P2>
-                                    <P2 id="p07117">
+                                    <P2 id="p07116">
                                        <Pnumber>5</Pnumber>
                                        <P2para>
                                           <Text>This paragraph applies to—</Text>
@@ -9721,20 +9720,20 @@
                                           </P3>
                                        </P2para>
                                     </P2>
-                                    <P2 id="p07137">
+                                    <P2 id="p07136">
                                        <Pnumber>6</Pnumber>
                                        <P2para>
                                           <Text>Regulations may make provision—</Text>
-                                          <P3 id="p07140">
+                                          <P3 id="p07139">
                                              <Pnumber>a</Pnumber>
                                              <P3para>
-                                                <Text>enabling the inspection of a list prepared under paragraph <InternalLink Ref="p07065">(1)</InternalLink> by prescribed persons;</Text>
+                                                <Text>enabling the inspection of a list prepared under paragraph <InternalLink Ref="p07064">(1)</InternalLink> by prescribed persons;</Text>
                                              </P3para>
                                           </P3>
-                                          <P3 id="p07145">
+                                          <P3 id="p07144">
                                              <Pnumber>b</Pnumber>
                                              <P3para>
-                                                <Text>authorising or requiring prescribed persons to supply a copy of a list prepared under paragraph <InternalLink Ref="p07065">(1)</InternalLink> to such persons as may be prescribed;</Text>
+                                                <Text>authorising or requiring prescribed persons to supply a copy of a list prepared under paragraph <InternalLink Ref="p07064">(1)</InternalLink> to such persons as may be prescribed;</Text>
                                              </P3para>
                                           </P3>
                                           <P3>
@@ -9745,18 +9744,18 @@
                                           </P3>
                                        </P2para>
                                     </P2>
-                                    <P2 id="p07155">
+                                    <P2 id="p07154">
                                        <Pnumber>7</Pnumber>
                                        <P2para>
-                                          <Text>Regulations under paragraph <InternalLink Ref="p07137">(6)</InternalLink>
-                                             <InternalLink Ref="p07140">(a)</InternalLink> or <InternalLink Ref="p07145">(b)</InternalLink> may impose conditions in relation to—</Text>
+                                          <Text>Regulations under paragraph <InternalLink Ref="p07136">(6)</InternalLink>
+                                             <InternalLink Ref="p07139">(a)</InternalLink> or <InternalLink Ref="p07144">(b)</InternalLink> may impose conditions in relation to—</Text>
                                           <P3>
                                              <Pnumber>a</Pnumber>
                                              <P3para>
                                                 <Text>the inspection of a list;</Text>
                                              </P3para>
                                           </P3>
-                                          <P3 id="p07165">
+                                          <P3 id="p07164">
                                              <Pnumber>b</Pnumber>
                                              <P3para>
                                                 <Text>the supply of a copy of a list;</Text>
@@ -9770,11 +9769,11 @@
                                           </P3>
                                        </P2para>
                                     </P2>
-                                    <P2 id="p07174">
+                                    <P2 id="p07173">
                                        <Pnumber>8</Pnumber>
                                        <P2para>
-                                          <Text>The conditions that may be imposed by virtue of paragraph <InternalLink Ref="p07155">(7)</InternalLink>
-                                             <InternalLink Ref="p07165">(b)</InternalLink> include conditions relating to the extent to which a person to whom a copy of a list has been supplied may—</Text>
+                                          <Text>The conditions that may be imposed by virtue of paragraph <InternalLink Ref="p07154">(7)</InternalLink>
+                                             <InternalLink Ref="p07164">(b)</InternalLink> include conditions relating to the extent to which a person to whom a copy of a list has been supplied may—</Text>
                                           <P3>
                                              <Pnumber>a</Pnumber>
                                              <P3para>
@@ -9798,7 +9797,7 @@
                                     <P2>
                                        <Pnumber>9</Pnumber>
                                        <P2para>
-                                          <Text>Regulations under paragraph <InternalLink Ref="p07137">(6)</InternalLink> may also impose, in respect of persons to whom a copy of a list has been supplied or information has been disclosed by virtue of paragraph <InternalLink Ref="p07174">(8)</InternalLink>, conditions corresponding to those mentioned in paragraph <InternalLink Ref="p07174">(8)</InternalLink>.</Text>
+                                          <Text>Regulations under paragraph <InternalLink Ref="p07136">(6)</InternalLink> may also impose, in respect of persons to whom a copy of a list has been supplied or information has been disclosed by virtue of paragraph <InternalLink Ref="p07173">(8)</InternalLink>, conditions corresponding to those mentioned in paragraph <InternalLink Ref="p07173">(8)</InternalLink>.</Text>
                                        </P2para>
                                     </P2>
                                  </P1para>
@@ -10350,7 +10349,7 @@
                                        </P3>
                                     </P2para>
                                  </P2>
-                                 <P2 id="p07550">
+                                 <P2 id="p07549">
                                     <Pnumber>1DB</Pnumber>
                                     <P2para>
                                        <Text>The refusal to deliver a ballot paper under paragraph (1C) does not prevent the voter making a further application under paragraph (1), and paragraphs (1A) to (1DA) apply on any further application.</Text>
@@ -10486,7 +10485,7 @@
                               <P3 id="schedule-1-paragraph-18-3-a">
                                  <Pnumber>a</Pnumber>
                                  <P3para>
-                                    <Text>for “A” substitute “Subject to rule 35(3) and to paragraphs <InternalLink Ref="p07650">(1A)</InternalLink> to <InternalLink Ref="p07912">(1P)</InternalLink>, a”, and</Text>
+                                    <Text>for “A” substitute “Subject to rule 35(3) and to paragraphs <InternalLink Ref="p07649">(1A)</InternalLink> to <InternalLink Ref="p07911">(1P)</InternalLink>, a”, and</Text>
                                  </P3para>
                               </P3>
                               <P3 id="schedule-1-paragraph-18-3-b">
@@ -10505,7 +10504,7 @@
                                               TargetSubClass="unknown"
                                               Context="schedule"
                                               Format="double">
-                                 <P2 id="p07650">
+                                 <P2 id="p07649">
                                     <Pnumber>1A</Pnumber>
                                     <P2para>
                                        <Text>A ballot paper must not be delivered to a voter unless the voter produces a specified document to the presiding officer or a clerk.</Text>
@@ -10520,7 +10519,7 @@
                                  <P2>
                                     <Pnumber>1C</Pnumber>
                                     <P2para>
-                                       <Text>Paragraph <InternalLink Ref="p07672">(1D)</InternalLink> applies in relation to a voter where—</Text>
+                                       <Text>Paragraph <InternalLink Ref="p07671">(1D)</InternalLink> applies in relation to a voter where—</Text>
                                        <P3>
                                           <Pnumber>a</Pnumber>
                                           <P3para>
@@ -10530,18 +10529,18 @@
                                        <P3>
                                           <Pnumber>b</Pnumber>
                                           <P3para>
-                                             <Text>the voter produces a document to a clerk that the clerk reasonably suspects to be a forged document (see paragraph <InternalLink Ref="p07912">(1P)</InternalLink>).</Text>
+                                             <Text>the voter produces a document to a clerk that the clerk reasonably suspects to be a forged document (see paragraph <InternalLink Ref="p07911">(1P)</InternalLink>).</Text>
                                           </P3para>
                                        </P3>
                                     </P2para>
                                  </P2>
-                                 <P2 id="p07672">
+                                 <P2 id="p07671">
                                     <Pnumber>1D</Pnumber>
                                     <P2para>
                                        <Text>Where this paragraph applies, the clerk must refer the matter and produce the document to the presiding officer, who must proceed as if the voter had produced the document to the presiding officer in the first place.</Text>
                                     </P2para>
                                  </P2>
-                                 <P2 id="p07676">
+                                 <P2 id="p07675">
                                     <Pnumber>1E</Pnumber>
                                     <P2para>
                                        <Text>The presiding officer must refuse to deliver a ballot paper to a voter where—</Text>
@@ -10560,10 +10559,10 @@
                                        <Text>See rule 40ZB (procedure where ballot paper is refused under this paragraph).</Text>
                                     </P2para>
                                  </P2>
-                                 <P2 id="p07690">
+                                 <P2 id="p07689">
                                     <Pnumber>1F</Pnumber>
                                     <P2para>
-                                       <Text>But there is an exception from paragraph <InternalLink Ref="p07676">(1E)</InternalLink> for cases within sub-paragraph (a) of that paragraph where—</Text>
+                                       <Text>But there is an exception from paragraph <InternalLink Ref="p07675">(1E)</InternalLink> for cases within sub-paragraph (a) of that paragraph where—</Text>
                                        <P3>
                                           <Pnumber>a</Pnumber>
                                           <P3para>
@@ -10578,20 +10577,20 @@
                                        </P3>
                                     </P2para>
                                  </P2>
-                                 <P2 id="p07703">
+                                 <P2 id="p07702">
                                     <Pnumber>1G</Pnumber>
                                     <P2para>
-                                       <Text>The refusal to deliver a ballot paper to a voter under paragraph <InternalLink Ref="p07676">(1E)</InternalLink> does not prevent the voter making a further application under paragraph (1), and paragraphs <InternalLink Ref="p07650">(1A)</InternalLink> to <InternalLink Ref="p07690">(1F)</InternalLink> apply on any further application.</Text>
+                                       <Text>The refusal to deliver a ballot paper to a voter under paragraph <InternalLink Ref="p07675">(1E)</InternalLink> does not prevent the voter making a further application under paragraph (1), and paragraphs <InternalLink Ref="p07649">(1A)</InternalLink> to <InternalLink Ref="p07689">(1F)</InternalLink> apply on any further application.</Text>
                                     </P2para>
                                  </P2>
-                                 <P2 id="p07710">
+                                 <P2 id="p07709">
                                     <Pnumber>1H</Pnumber>
                                     <P2para>
-                                       <Text>In this rule a “specified document”, except in the case of a voter with an anonymous entry in the register of electors (as to which see paragraph <InternalLink Ref="p07852">(1K)</InternalLink>), means any of the following documents (in whatever form issued to the holder) that contain a photograph of the holder—</Text>
-                                       <P3 id="p07714">
+                                       <Text>In this rule a “specified document”, except in the case of a voter with an anonymous entry in the register of electors (as to which see paragraph <InternalLink Ref="p07851">(1K)</InternalLink>), means any of the following documents (in whatever form issued to the holder) that contain a photograph of the holder—</Text>
+                                       <P3 id="p07713">
                                           <Pnumber>a</Pnumber>
                                           <P3para>
-                                             <Text>a United Kingdom passport (see paragraph <InternalLink Ref="p07774">(1I)</InternalLink>);</Text>
+                                             <Text>a United Kingdom passport (see paragraph <InternalLink Ref="p07773">(1I)</InternalLink>);</Text>
                                           </P3para>
                                        </P3>
                                        <P3>
@@ -10645,7 +10644,7 @@
                                        <P3>
                                           <Pnumber>h</Pnumber>
                                           <P3para>
-                                             <Text>a relevant concessionary travel pass (see paragraph <InternalLink Ref="p07792">(1J)</InternalLink>);</Text>
+                                             <Text>a relevant concessionary travel pass (see paragraph <InternalLink Ref="p07791">(1J)</InternalLink>);</Text>
                                           </P3para>
                                        </P3>
                                        <P3>
@@ -10657,7 +10656,7 @@
                                        <P3>
                                           <Pnumber>j</Pnumber>
                                           <P3para>
-                                             <Text>an electoral identity document issued under <InternalLink Ref="p06619">section 13BD</InternalLink> (electoral identity document: Great Britain);</Text>
+                                             <Text>an electoral identity document issued under <InternalLink Ref="p06618">section 13BD</InternalLink> (electoral identity document: Great Britain);</Text>
                                           </P3para>
                                        </P3>
                                        <P3>
@@ -10674,11 +10673,11 @@
                                        </P3>
                                     </P2para>
                                  </P2>
-                                 <P2 id="p07774">
+                                 <P2 id="p07773">
                                     <Pnumber>1I</Pnumber>
                                     <P2para>
-                                       <Text>In paragraph <InternalLink Ref="p07710">(1H)</InternalLink>
-                                          <InternalLink Ref="p07714">(a)</InternalLink> “United Kingdom passport” means a passport issued by—</Text>
+                                       <Text>In paragraph <InternalLink Ref="p07709">(1H)</InternalLink>
+                                          <InternalLink Ref="p07713">(a)</InternalLink> “United Kingdom passport” means a passport issued by—</Text>
                                        <P3>
                                           <Pnumber>a</Pnumber>
                                           <P3para>
@@ -10699,15 +10698,16 @@
                                        </P3>
                                     </P2para>
                                  </P2>
-                                 <P2 id="p07792">
+                                 <P2 id="p07791">
                                     <Pnumber>1J</Pnumber>
                                     <P2para>
                                        <Text>In paragraph (1H)(h), “relevant concessionary travel pass” means a concessionary travel pass listed in the second column of the following table—</Text>
                                        <Tabular Orientation="portrait">
-                                          <table xmlns="http://www.w3.org/1999/xhtml"
-                                                 xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN"
-                                                 cols="2"
-                                                 ukl:templateColumns="60 40">
+                                          <table xmlns="http://www.w3.org/1999/xhtml">
+                                             <colgroup>
+                                                <col width="60%"/>
+                                                <col width="40%"/>
+                                             </colgroup>
                                              <tbody>
                                                 <tr>
                                                    <td>
@@ -10826,7 +10826,7 @@
                                        </Tabular>
                                     </P2para>
                                  </P2>
-                                 <P2 id="p07852">
+                                 <P2 id="p07851">
                                     <Pnumber>1K</Pnumber>
                                     <P2para>
                                        <Text>In this rule a “specified document”, in the case of a voter who has an anonymous entry in the register of electors, means an anonymous elector’s document issued to the voter under section 13BE which—</Text>
@@ -10847,7 +10847,7 @@
                                  <P2>
                                     <Pnumber>1L</Pnumber>
                                     <P2para>
-                                       <Text>For the purposes of paragraph <InternalLink Ref="p07852">(1K)</InternalLink>—</Text>
+                                       <Text>For the purposes of paragraph <InternalLink Ref="p07851">(1K)</InternalLink>—</Text>
                                        <UnorderedList Class="Definition" Decoration="none">
                                           <ListItem>
                                              <Para>
@@ -10886,20 +10886,20 @@
                                        </UnorderedList>
                                     </P2para>
                                  </P2>
-                                 <P2 id="p07893">
+                                 <P2 id="p07892">
                                     <Pnumber>1M</Pnumber>
                                     <P2para>
-                                       <Text>A reference in this rule to a document that is a specified document is a reference to the document regardless of any expiry date relating to it (subject to paragraph <InternalLink Ref="p07898">(1N)</InternalLink>).</Text>
+                                       <Text>A reference in this rule to a document that is a specified document is a reference to the document regardless of any expiry date relating to it (subject to paragraph <InternalLink Ref="p07897">(1N)</InternalLink>).</Text>
                                     </P2para>
                                  </P2>
-                                 <P2 id="p07898">
+                                 <P2 id="p07897">
                                     <Pnumber>1N</Pnumber>
                                     <P2para>
-                                       <Text>Paragraph <InternalLink Ref="p07893">(1M)</InternalLink> does not apply to a document which—</Text>
+                                       <Text>Paragraph <InternalLink Ref="p07892">(1M)</InternalLink> does not apply to a document which—</Text>
                                        <P3>
                                           <Pnumber>a</Pnumber>
                                           <P3para>
-                                             <Text>is referred to in paragraph (1H)(j) or <InternalLink Ref="p07852">(1K)</InternalLink>, and</Text>
+                                             <Text>is referred to in paragraph (1H)(j) or <InternalLink Ref="p07851">(1K)</InternalLink>, and</Text>
                                           </P3para>
                                        </P3>
                                        <P3>
@@ -10910,23 +10910,23 @@
                                        </P3>
                                     </P2para>
                                  </P2>
-                                 <P2 id="p07912">
+                                 <P2 id="p07911">
                                     <Pnumber>1P</Pnumber>
                                     <P2para>
                                        <Text>In this rule a “forged document” means a false document made to resemble a specified document.</Text>
                                     </P2para>
                                  </P2>
-                                 <P2 id="p07916">
+                                 <P2 id="p07915">
                                     <Pnumber>1Q</Pnumber>
                                     <P2para>
-                                       <Text>Regulations may make provisions varying paragraph (1H), <InternalLink Ref="p07774">(1I)</InternalLink> or <InternalLink Ref="p07792">(1J)</InternalLink> by—</Text>
+                                       <Text>Regulations may make provisions varying paragraph (1H), <InternalLink Ref="p07773">(1I)</InternalLink> or <InternalLink Ref="p07791">(1J)</InternalLink> by—</Text>
                                        <P3>
                                           <Pnumber>a</Pnumber>
                                           <P3para>
                                              <Text>adding a reference to a document to any of those paragraphs,</Text>
                                           </P3para>
                                        </P3>
-                                       <P3 id="p07925">
+                                       <P3 id="p07924">
                                           <Pnumber>b</Pnumber>
                                           <P3para>
                                              <Text>removing a reference to a document from any of those paragraphs (other than the document referred to in paragraph (1H)(j)), or</Text>
@@ -10943,8 +10943,8 @@
                                  <P2>
                                     <Pnumber>1R</Pnumber>
                                     <P2para>
-                                       <Text>The power to make provision by virtue of paragraph <InternalLink Ref="p07916">(1Q)</InternalLink>
-                                          <InternalLink Ref="p07925">(b)</InternalLink> is exercisable only on, and in accordance with, a recommendation of the Electoral Commission. </Text>
+                                       <Text>The power to make provision by virtue of paragraph <InternalLink Ref="p07915">(1Q)</InternalLink>
+                                          <InternalLink Ref="p07924">(b)</InternalLink> is exercisable only on, and in accordance with, a recommendation of the Electoral Commission. </Text>
                                     </P2para>
                                  </P2>
                                  <P2>
@@ -10953,7 +10953,7 @@
                                        <Text>No person other than the presiding officer or a clerk may inspect a document produced as proof of a voter’s identity, except as permitted by the voter.</Text>
                                     </P2para>
                                  </P2>
-                                 <P2 id="p07944">
+                                 <P2 id="p07943">
                                     <Pnumber>1T</Pnumber>
                                     <P2para>
                                        <Text>References in this rule to producing a document are to producing it for inspection.</Text>
@@ -10998,7 +10998,7 @@
                                  <P3>
                                     <Pnumber>b</Pnumber>
                                     <P3para>
-                                       <Text>in rule 37<InternalLink Ref="p07703">(1G)</InternalLink> as it extends to England and Wales and to Scotland, and in rule 37<InternalLink Ref="p07550">(1DB)</InternalLink> as it extends to Northern Ireland, the reference to paragraph (1) of rule 37 were to paragraph (1) of this rule.</Text>
+                                       <Text>in rule 37<InternalLink Ref="p07702">(1G)</InternalLink> as it extends to England and Wales and to Scotland, and in rule 37<InternalLink Ref="p07549">(1DB)</InternalLink> as it extends to Northern Ireland, the reference to paragraph (1) of rule 37 were to paragraph (1) of this rule.</Text>
                                     </P3para>
                                  </P3>
                               </P2para>
@@ -11010,7 +11010,7 @@
                                  <P3>
                                     <Pnumber>a</Pnumber>
                                     <P3para>
-                                       <Text>paragraphs <InternalLink Ref="p07650">(1A)</InternalLink> to <InternalLink Ref="p07944">(1T)</InternalLink> of rule 37 as it extends to England and Wales and to Scotland;</Text>
+                                       <Text>paragraphs <InternalLink Ref="p07649">(1A)</InternalLink> to <InternalLink Ref="p07943">(1T)</InternalLink> of rule 37 as it extends to England and Wales and to Scotland;</Text>
                                     </P3para>
                                  </P3>
                                  <P3>
@@ -11046,7 +11046,7 @@
                                  <P3>
                                     <Pnumber>b</Pnumber>
                                     <P3para>
-                                       <Text>in rule 37<InternalLink Ref="p07703">(1G)</InternalLink> as it extends to England and Wales and to Scotland, and in rule 37<InternalLink Ref="p07550">(1DB)</InternalLink> as it extends to Northern Ireland, the reference to paragraph (1) of rule 37 were to paragraph (1) of this rule.</Text>
+                                       <Text>in rule 37<InternalLink Ref="p07702">(1G)</InternalLink> as it extends to England and Wales and to Scotland, and in rule 37<InternalLink Ref="p07549">(1DB)</InternalLink> as it extends to Northern Ireland, the reference to paragraph (1) of rule 37 were to paragraph (1) of this rule.</Text>
                                     </P3para>
                                  </P3>
                               </P2para>
@@ -11058,7 +11058,7 @@
                                  <P3>
                                     <Pnumber>a</Pnumber>
                                     <P3para>
-                                       <Text>paragraphs <InternalLink Ref="p07650">(1A)</InternalLink> to <InternalLink Ref="p07944">(1T)</InternalLink> of rule 37 as it extends to England and Wales and to Scotland;</Text>
+                                       <Text>paragraphs <InternalLink Ref="p07649">(1A)</InternalLink> to <InternalLink Ref="p07943">(1T)</InternalLink> of rule 37 as it extends to England and Wales and to Scotland;</Text>
                                     </P3para>
                                  </P3>
                                  <P3>
@@ -11093,23 +11093,23 @@
                                  <P2>
                                     <Pnumber>1A</Pnumber>
                                     <P2para>
-                                       <Text>The relevant paragraphs of rule 37 apply in the case of a person who seeks to mark a tendered ballot paper under this rule as they apply in the case of a voter who applies for a ballot paper under rule 37(1), subject to the modification set out in paragraph <InternalLink Ref="p08044">(1AA)</InternalLink>.</Text>
+                                       <Text>The relevant paragraphs of rule 37 apply in the case of a person who seeks to mark a tendered ballot paper under this rule as they apply in the case of a voter who applies for a ballot paper under rule 37(1), subject to the modification set out in paragraph <InternalLink Ref="p08043">(1AA)</InternalLink>.</Text>
                                     </P2para>
                                  </P2>
-                                 <P2 id="p08044">
+                                 <P2 id="p08043">
                                     <Pnumber>1AA</Pnumber>
                                     <P2para>
                                        <Text>The modification is that—</Text>
                                        <P3>
                                           <Pnumber>a</Pnumber>
                                           <P3para>
-                                             <Text>in rule 37<InternalLink Ref="p07703">(1G)</InternalLink> as it extends to England and Wales and to Scotland, and</Text>
+                                             <Text>in rule 37<InternalLink Ref="p07702">(1G)</InternalLink> as it extends to England and Wales and to Scotland, and</Text>
                                           </P3para>
                                        </P3>
                                        <P3>
                                           <Pnumber>b</Pnumber>
                                           <P3para>
-                                             <Text>in rule 37<InternalLink Ref="p07550">(1DB)</InternalLink> as it extends to Northern Ireland,</Text>
+                                             <Text>in rule 37<InternalLink Ref="p07549">(1DB)</InternalLink> as it extends to Northern Ireland,</Text>
                                           </P3para>
                                        </P3>
                                        <Text>the reference to making a further application under paragraph (1) of rule 37 were to seeking a further time to mark a tendered ballot paper under the paragraph of this rule under which a previous such attempt was made.</Text>
@@ -11122,7 +11122,7 @@
                                        <P3>
                                           <Pnumber>a</Pnumber>
                                           <P3para>
-                                             <Text>paragraphs <InternalLink Ref="p07650">(1A)</InternalLink> to <InternalLink Ref="p07944">(1T)</InternalLink> of rule 37 as it extends to England and Wales and to Scotland;</Text>
+                                             <Text>paragraphs <InternalLink Ref="p07649">(1A)</InternalLink> to <InternalLink Ref="p07943">(1T)</InternalLink> of rule 37 as it extends to England and Wales and to Scotland;</Text>
                                           </P3para>
                                        </P3>
                                        <P3>
@@ -11207,7 +11207,7 @@
                                           <P3>
                                              <Pnumber>a</Pnumber>
                                              <P3para>
-                                                <Text>a presiding officer refuses to deliver a ballot paper to a voter under rule 37<InternalLink Ref="p07676">(1E)</InternalLink>, and</Text>
+                                                <Text>a presiding officer refuses to deliver a ballot paper to a voter under rule 37<InternalLink Ref="p07675">(1E)</InternalLink>, and</Text>
                                              </P3para>
                                           </P3>
                                           <P3>
@@ -11257,7 +11257,7 @@
                                     <P2>
                                        <Pnumber>9</Pnumber>
                                        <P2para>
-                                          <Text>Subject to rule 37<InternalLink Ref="p07703">(1G)</InternalLink> and paragraph (10), a refusal to deliver a ballot paper to a voter is final and may not be questioned in any proceeding whatsoever.</Text>
+                                          <Text>Subject to rule 37<InternalLink Ref="p07702">(1G)</InternalLink> and paragraph (10), a refusal to deliver a ballot paper to a voter is final and may not be questioned in any proceeding whatsoever.</Text>
                                        </P2para>
                                     </P2>
                                     <P2>
@@ -11273,13 +11273,13 @@
                                           <P3>
                                              <Pnumber>a</Pnumber>
                                              <P3para>
-                                                <Text>except in paragraph (4)(a), any reference to the refusal to deliver a ballot paper (however expressed) is to the refusal to do so under rule 35(3) or 37<InternalLink Ref="p07676">(1E)</InternalLink>, and</Text>
+                                                <Text>except in paragraph (4)(a), any reference to the refusal to deliver a ballot paper (however expressed) is to the refusal to do so under rule 35(3) or 37<InternalLink Ref="p07675">(1E)</InternalLink>, and</Text>
                                              </P3para>
                                           </P3>
                                           <P3>
                                              <Pnumber>b</Pnumber>
                                              <P3para>
-                                                <Text>any reference to paragraph <InternalLink Ref="p07676">(1E)</InternalLink> or <InternalLink Ref="p07703">(1G)</InternalLink> of rule 37 includes a reference to that paragraph as applied by rule 38, 39 or 40.</Text>
+                                                <Text>any reference to paragraph <InternalLink Ref="p07675">(1E)</InternalLink> or <InternalLink Ref="p07702">(1G)</InternalLink> of rule 37 includes a reference to that paragraph as applied by rule 38, 39 or 40.</Text>
                                              </P3para>
                                           </P3>
                                        </P2para>
@@ -11304,7 +11304,7 @@
                         <P3 id="schedule-1-paragraph-23-b">
                            <Pnumber>b</Pnumber>
                            <P3para>
-                              <Text>in paragraph (2), after “that” insert “and to rule 37<InternalLink Ref="p07550">(1DB)</InternalLink>”.</Text>
+                              <Text>in paragraph (2), after “that” insert “and to rule 37<InternalLink Ref="p07549">(1DB)</InternalLink>”.</Text>
                            </P3para>
                         </P3>
                      </P1para>
@@ -11340,7 +11340,7 @@
                                           </P3>
                                        </P2para>
                                     </P2>
-                                    <P2 id="p08213">
+                                    <P2 id="p08212">
                                        <Pnumber>2</Pnumber>
                                        <P2para>
                                           <Text>A presiding officer must—</Text>
@@ -11358,7 +11358,7 @@
                                           </P3>
                                        </P2para>
                                     </P2>
-                                    <P2 id="p08225">
+                                    <P2 id="p08224">
                                        <Pnumber>3</Pnumber>
                                        <P2para>
                                           <Text>Where the prescribed information relates to an election held in England and Wales—</Text>
@@ -11371,7 +11371,7 @@
                                           <P3>
                                              <Pnumber>b</Pnumber>
                                              <P3para>
-                                                <Text>the relevant registration officer must, as soon as reasonably practicable after receiving the information, deal with it as required by paragraph <InternalLink Ref="p08243">(5)</InternalLink>.</Text>
+                                                <Text>the relevant registration officer must, as soon as reasonably practicable after receiving the information, deal with it as required by paragraph <InternalLink Ref="p08242">(5)</InternalLink>.</Text>
                                              </P3para>
                                           </P3>
                                        </P2para>
@@ -11379,14 +11379,14 @@
                                     <P2>
                                        <Pnumber>4</Pnumber>
                                        <P2para>
-                                          <Text>Where the prescribed information relates to an election held in Scotland, the returning officer must deal with it as required by paragraph <InternalLink Ref="p08243">(5)</InternalLink>.</Text>
+                                          <Text>Where the prescribed information relates to an election held in Scotland, the returning officer must deal with it as required by paragraph <InternalLink Ref="p08242">(5)</InternalLink>.</Text>
                                        </P2para>
                                     </P2>
-                                    <P2 id="p08243">
+                                    <P2 id="p08242">
                                        <Pnumber>5</Pnumber>
                                        <P2para>
                                           <Text>The relevant registration officer or (as the case may be) the returning officer must—</Text>
-                                          <P3 id="p08246">
+                                          <P3 id="p08245">
                                              <Pnumber>a</Pnumber>
                                              <P3para>
                                                 <Text>anonymise the prescribed information by removing from it all names and electoral numbers of the people to whom the information relates, and</Text>
@@ -11398,17 +11398,17 @@
                                                 <Text>collate the information in the prescribed manner.</Text>
                                              </P3para>
                                           </P3>
-                                          <Text>The information as anonymised and collated in accordance with this paragraph is referred to in the rest of this rule as “the paragraph <InternalLink Ref="p08243">(5)</InternalLink> information”.</Text>
+                                          <Text>The information as anonymised and collated in accordance with this paragraph is referred to in the rest of this rule as “the paragraph <InternalLink Ref="p08242">(5)</InternalLink> information”.</Text>
                                        </P2para>
                                     </P2>
-                                    <P2 id="p08258">
+                                    <P2 id="p08257">
                                        <Pnumber>6</Pnumber>
                                        <P2para>
-                                          <Text>The relevant registration officer or (as the case may be) the returning officer must provide the paragraph <InternalLink Ref="p08243">(5)</InternalLink> information—</Text>
+                                          <Text>The relevant registration officer or (as the case may be) the returning officer must provide the paragraph <InternalLink Ref="p08242">(5)</InternalLink> information—</Text>
                                           <P3>
                                              <Pnumber>a</Pnumber>
                                              <P3para>
-                                                <Text>to the Secretary of State, as soon as reasonably practicable after taking the steps required by paragraph <InternalLink Ref="p08243">(5)</InternalLink>, and</Text>
+                                                <Text>to the Secretary of State, as soon as reasonably practicable after taking the steps required by paragraph <InternalLink Ref="p08242">(5)</InternalLink>, and</Text>
                                              </P3para>
                                           </P3>
                                           <P3>
@@ -11422,21 +11422,21 @@
                                     <P2>
                                        <Pnumber>7</Pnumber>
                                        <P2para>
-                                          <Text>The relevant registration officer or (as the case may be) the returning officer must not disclose the paragraph <InternalLink Ref="p08243">(5)</InternalLink> information otherwise than in accordance with paragraph <InternalLink Ref="p08258">(6)</InternalLink>.</Text>
+                                          <Text>The relevant registration officer or (as the case may be) the returning officer must not disclose the paragraph <InternalLink Ref="p08242">(5)</InternalLink> information otherwise than in accordance with paragraph <InternalLink Ref="p08257">(6)</InternalLink>.</Text>
                                        </P2para>
                                     </P2>
                                     <P2>
                                        <Pnumber>8</Pnumber>
                                        <P2para>
-                                          <Text>The relevant registration officer or (as the case may be) the returning officer must retain the information anonymised in accordance with paragraph <InternalLink Ref="p08243">(5)</InternalLink>
-                                             <InternalLink Ref="p08246">(a)</InternalLink> for at least 10 years.</Text>
+                                          <Text>The relevant registration officer or (as the case may be) the returning officer must retain the information anonymised in accordance with paragraph <InternalLink Ref="p08242">(5)</InternalLink>
+                                             <InternalLink Ref="p08245">(a)</InternalLink> for at least 10 years.</Text>
                                        </P2para>
                                     </P2>
                                     <P2>
                                        <Pnumber>9</Pnumber>
                                        <P2para>
-                                          <Text>For the purposes of paragraph <InternalLink Ref="p08243">(5)</InternalLink>
-                                             <InternalLink Ref="p08246">(a)</InternalLink>, a person’s “electoral number” is the number—</Text>
+                                          <Text>For the purposes of paragraph <InternalLink Ref="p08242">(5)</InternalLink>
+                                             <InternalLink Ref="p08245">(a)</InternalLink>, a person’s “electoral number” is the number—</Text>
                                           <P3>
                                              <Pnumber>a</Pnumber>
                                              <P3para>
@@ -11454,7 +11454,7 @@
                                     <P2>
                                        <Pnumber>10</Pnumber>
                                        <P2para>
-                                          <Text>Except as provided by paragraph <InternalLink Ref="p08311">(11)</InternalLink>, a disclosure of information under this rule does not breach—</Text>
+                                          <Text>Except as provided by paragraph <InternalLink Ref="p08310">(11)</InternalLink>, a disclosure of information under this rule does not breach—</Text>
                                           <P3>
                                              <Pnumber>a</Pnumber>
                                              <P3para>
@@ -11469,10 +11469,10 @@
                                           </P3>
                                        </P2para>
                                     </P2>
-                                    <P2 id="p08311">
+                                    <P2 id="p08310">
                                        <Pnumber>11</Pnumber>
                                        <P2para>
-                                          <Text>Nothing in this rule authorises the making of a disclosure that contravenes the data protection legislation (but in determining whether a disclosure would do so, the duties imposed by paragraphs <InternalLink Ref="p08213">(2) </InternalLink>and <InternalLink Ref="p08225">(3)</InternalLink> are to be taken into account).</Text>
+                                          <Text>Nothing in this rule authorises the making of a disclosure that contravenes the data protection legislation (but in determining whether a disclosure would do so, the duties imposed by paragraphs <InternalLink Ref="p08212">(2) </InternalLink>and <InternalLink Ref="p08224">(3)</InternalLink> are to be taken into account).</Text>
                                        </P2para>
                                     </P2>
                                     <P2>
@@ -12884,7 +12884,7 @@
                                               TargetSubClass="unknown"
                                               Context="schedule"
                                               Format="double">
-                                 <P2 id="p09227">
+                                 <P2 id="p09226">
                                     <Pnumber>1A</Pnumber>
                                     <P2para>
                                        <Text>Any grant of an application under sub-paragraph (1) to vote by post at parliamentary elections, or at local government elections in England, is to be for—</Text>
@@ -12905,7 +12905,7 @@
                                  <P2>
                                     <Pnumber>1B</Pnumber>
                                     <P2para>
-                                       <Text>But where the person is or will be registered in the register of parliamentary electors in pursuance of an overseas elector’s declaration, <InternalLink Ref="p09227">sub-paragraph (1A)</InternalLink> does not apply and instead any grant of an application to vote by post at parliamentary elections is to be for—</Text>
+                                       <Text>But where the person is or will be registered in the register of parliamentary electors in pursuance of an overseas elector’s declaration, <InternalLink Ref="p09226">sub-paragraph (1A)</InternalLink> does not apply and instead any grant of an application to vote by post at parliamentary elections is to be for—</Text>
                                        <P3>
                                           <Pnumber>a</Pnumber>
                                           <P3para>
@@ -14546,7 +14546,7 @@
                                                     TargetSubClass="unknown"
                                                     Context="main"
                                                     Format="double">
-                                       <P2 id="p10350">
+                                       <P2 id="p10349">
                                           <Pnumber>4B</Pnumber>
                                           <P2para>
                                              <Text>Subject to section 113(2) to (6) of the Electoral Law Act (Northern Ireland) 1962, a person reported by an election court personally guilty of a corrupt practice under paragraph 3 of Schedule 9 to that Act (undue influence)—</Text>
@@ -14567,7 +14567,7 @@
                                        <P2>
                                           <Pnumber>4C</Pnumber>
                                           <P2para>
-                                             <Text>In subsection (4B) “election court” has the same meaning as in the Electoral Law Act (Northern Ireland) 1962 (see section 130 of that Act); and section 94(2) of that Act (persons treated as reported personally guilty) applies also for the purposes of subsection <InternalLink Ref="p10350">(4B)</InternalLink>.</Text>
+                                             <Text>In subsection (4B) “election court” has the same meaning as in the Electoral Law Act (Northern Ireland) 1962 (see section 130 of that Act); and section 94(2) of that Act (persons treated as reported personally guilty) applies also for the purposes of subsection <InternalLink Ref="p10349">(4B)</InternalLink>.</Text>
                                           </P2para>
                                        </P2>
                                     </BlockAmendment>
@@ -15011,7 +15011,7 @@
                                        <P2>
                                           <Pnumber>4</Pnumber>
                                           <P2para>
-                                             <Text>A person to whom paragraph <InternalLink Ref="p10674">(5)</InternalLink> applies must not, otherwise than in accordance with these rules or provision made by or under any other enactment—</Text>
+                                             <Text>A person to whom paragraph <InternalLink Ref="p10673">(5)</InternalLink> applies must not, otherwise than in accordance with these rules or provision made by or under any other enactment—</Text>
                                              <P3>
                                                 <Pnumber>a</Pnumber>
                                                 <P3para>
@@ -15032,7 +15032,7 @@
                                              </P3>
                                           </P2para>
                                        </P2>
-                                       <P2 id="p10674">
+                                       <P2 id="p10673">
                                           <Pnumber>5</Pnumber>
                                           <P2para>
                                              <Text>This paragraph applies to—</Text>
@@ -15110,7 +15110,7 @@
                               <P3>
                                  <Pnumber>c</Pnumber>
                                  <P3para>
-                                    <Text>resolve doubts over identity as mentioned in paragraph <InternalLink Ref="p10967">(5A)</InternalLink> of rule 34 (including that paragraph as applied by rule 35, 36 or 37).</Text>
+                                    <Text>resolve doubts over identity as mentioned in paragraph <InternalLink Ref="p10966">(5A)</InternalLink> of rule 34 (including that paragraph as applied by rule 35, 36 or 37).</Text>
                                  </P3para>
                               </P3>
                            </BlockAmendment>
@@ -15188,7 +15188,7 @@
                                           </P3>
                                        </P2para>
                                     </P2>
-                                    <P2 id="p10773">
+                                    <P2 id="p10772">
                                        <Pnumber>3C</Pnumber>
                                        <P2para>
                                           <Text>The Electoral Commission must give guidance to returning officers in relation to the duty imposed by paragraph (3A)(b).</Text>
@@ -15197,13 +15197,13 @@
                                     <P2>
                                        <Pnumber>3D</Pnumber>
                                        <P2para>
-                                          <Text>Before giving guidance under paragraph <InternalLink Ref="p10773">(3C)</InternalLink>, the Commission must consult such persons, including bodies representing the interests of relevant persons, as they consider appropriate.</Text>
+                                          <Text>Before giving guidance under paragraph <InternalLink Ref="p10772">(3C)</InternalLink>, the Commission must consult such persons, including bodies representing the interests of relevant persons, as they consider appropriate.</Text>
                                        </P2para>
                                     </P2>
                                     <P2>
                                        <Pnumber>3E</Pnumber>
                                        <P2para>
-                                          <Text>In performing the duty imposed by paragraph (3A)(b), a returning officer must have regard to guidance given under paragraph <InternalLink Ref="p10773">(3C)</InternalLink>.</Text>
+                                          <Text>In performing the duty imposed by paragraph (3A)(b), a returning officer must have regard to guidance given under paragraph <InternalLink Ref="p10772">(3C)</InternalLink>.</Text>
                                        </P2para>
                                     </P2>
                                  </BlockAmendment>
@@ -15286,7 +15286,7 @@
                                           <P3>
                                              <Pnumber>a</Pnumber>
                                              <P3para>
-                                                <Text>gives a person the required information (see paragraph <InternalLink Ref="p10884">(6)</InternalLink>),</Text>
+                                                <Text>gives a person the required information (see paragraph <InternalLink Ref="p10883">(6)</InternalLink>),</Text>
                                              </P3para>
                                           </P3>
                                           <P3>
@@ -15353,7 +15353,7 @@
                                                  TargetSubClass="unknown"
                                                  Context="main"
                                                  Format="double">
-                                    <P2 id="p10884">
+                                    <P2 id="p10883">
                                        <Pnumber>6</Pnumber>
                                        <P2para>
                                           <Text>For the purposes of this rule, a person to whom any question is to be put is given “the required information” if the person is first informed that—</Text>
@@ -15440,7 +15440,7 @@
                                     <P3>
                                        <Pnumber>b</Pnumber>
                                        <P3para>
-                                          <Text>the officer or clerk reasonably suspects that the document is a forged document (see paragraph <InternalLink Ref="p11041">(6B)</InternalLink>).</Text>
+                                          <Text>the officer or clerk reasonably suspects that the document is a forged document (see paragraph <InternalLink Ref="p11040">(6B)</InternalLink>).</Text>
                                        </P3para>
                                     </P3>
                                  </BlockAmendment>
@@ -15460,7 +15460,7 @@
                                  <P3 id="schedule-6-paragraph-14-5-b">
                                     <Pnumber>b</Pnumber>
                                     <P3para>
-                                       <Text>after “voter” insert “(subject to paragraph <InternalLink Ref="p10967">(5A)</InternalLink>)”.</Text>
+                                       <Text>after “voter” insert “(subject to paragraph <InternalLink Ref="p10966">(5A)</InternalLink>)”.</Text>
                                     </P3para>
                                  </P3>
                               </P2para>
@@ -15479,7 +15479,7 @@
                                                  TargetSubClass="unknown"
                                                  Context="schedule"
                                                  Format="double">
-                                    <P2 id="p10967">
+                                    <P2 id="p10966">
                                        <Pnumber>5A</Pnumber>
                                        <P2para>
                                           <Text>There is an exception from paragraph (4) for cases within paragraph (3)(a) where—</Text>
@@ -15497,10 +15497,10 @@
                                           </P3>
                                        </P2para>
                                     </P2>
-                                    <P2 id="p10979">
+                                    <P2 id="p10978">
                                        <Pnumber>5B</Pnumber>
                                        <P2para>
-                                          <Text>The refusal to deliver a ballot paper to a voter under paragraph (4) does not prevent the voter making a further application under paragraph (1), and paragraphs (1A) to <InternalLink Ref="p10967">(5A)</InternalLink> apply on any further application.</Text>
+                                          <Text>The refusal to deliver a ballot paper to a voter under paragraph (4) does not prevent the voter making a further application under paragraph (1), and paragraphs (1A) to <InternalLink Ref="p10966">(5A)</InternalLink> apply on any further application.</Text>
                                        </P2para>
                                     </P2>
                                     <P2>
@@ -15593,7 +15593,7 @@
                                                  TargetSubClass="unknown"
                                                  Context="schedule"
                                                  Format="double">
-                                    <P2 id="p11041">
+                                    <P2 id="p11040">
                                        <Pnumber>6B</Pnumber>
                                        <P2para>
                                           <Text>In this rule, a “forged document” means a false document made to resemble a specified document.</Text>
@@ -15628,7 +15628,7 @@
                               <P3>
                                  <Pnumber>b</Pnumber>
                                  <P3para>
-                                    <Text>in rule 34<InternalLink Ref="p10979">(5B)</InternalLink>, the reference to paragraph (1) of rule 34 were to paragraph (1) of this rule.</Text>
+                                    <Text>in rule 34<InternalLink Ref="p10978">(5B)</InternalLink>, the reference to paragraph (1) of rule 34 were to paragraph (1) of this rule.</Text>
                                  </P3para>
                               </P3>
                            </BlockAmendment>
@@ -15667,7 +15667,7 @@
                                     <P3>
                                        <Pnumber>b</Pnumber>
                                        <P3para>
-                                          <Text>in rule 34<InternalLink Ref="p10979">(5B)</InternalLink>, the reference to paragraph (1) of rule 34 were to paragraph (1) of this rule.</Text>
+                                          <Text>in rule 34<InternalLink Ref="p10978">(5B)</InternalLink>, the reference to paragraph (1) of rule 34 were to paragraph (1) of this rule.</Text>
                                        </P3para>
                                     </P3>
                                  </BlockAmendment>
@@ -15695,7 +15695,7 @@
                            <P3 id="schedule-6-paragraph-17-b">
                               <Pnumber>b</Pnumber>
                               <P3para>
-                                 <Text>after “34(1)” insert “, but as if the reference in rule 34<InternalLink Ref="p10979">(5B)</InternalLink> to making a further application under rule 34(1) were to seeking a further time to mark a tendered ballot paper under the paragraph of this rule under which a previous such attempt was made”.</Text>
+                                 <Text>after “34(1)” insert “, but as if the reference in rule 34<InternalLink Ref="p10978">(5B)</InternalLink> to making a further application under rule 34(1) were to seeking a further time to mark a tendered ballot paper under the paragraph of this rule under which a previous such attempt was made”.</Text>
                               </P3para>
                            </P3>
                         </P1para>
@@ -15703,7 +15703,7 @@
                      <P1 id="schedule-6-paragraph-18">
                         <Pnumber>18</Pnumber>
                         <P1para>
-                           <Text>In rule 38 (refusal to deliver ballot paper), in paragraph (2), after “that” insert “and to rule 34<InternalLink Ref="p10979">(5B)</InternalLink>”.</Text>
+                           <Text>In rule 38 (refusal to deliver ballot paper), in paragraph (2), after “that” insert “and to rule 34<InternalLink Ref="p10978">(5B)</InternalLink>”.</Text>
                         </P1para>
                      </P1>
                      <P1 id="schedule-6-paragraph-19">
@@ -15845,10 +15845,10 @@
                                  <P1>
                                     <Pnumber>3</Pnumber>
                                     <P1para>
-                                       <P2 id="p11208">
+                                       <P2 id="p11207">
                                           <Pnumber>1</Pnumber>
                                           <P2para>
-                                             <Text>A person is guilty of undue influence if the person carries out an activity falling within sub-paragraph <InternalLink Ref="p11236">(3)</InternalLink> for the purpose of—</Text>
+                                             <Text>A person is guilty of undue influence if the person carries out an activity falling within sub-paragraph <InternalLink Ref="p11235">(3)</InternalLink> for the purpose of—</Text>
                                              <P3>
                                                 <Pnumber>a</Pnumber>
                                                 <P3para>
@@ -15863,10 +15863,10 @@
                                              </P3>
                                           </P2para>
                                        </P2>
-                                       <P2 id="p11221">
+                                       <P2 id="p11220">
                                           <Pnumber>2</Pnumber>
                                           <P2para>
-                                             <Text>A person (“P”) is also guilty of undue influence if P carries out an activity falling within any of paragraphs <InternalLink Ref="p11239">(a)</InternalLink> to <InternalLink Ref="p11259">(f)</InternalLink> of sub-paragraph <InternalLink Ref="p11236">(3)</InternalLink> on account of—</Text>
+                                             <Text>A person (“P”) is also guilty of undue influence if P carries out an activity falling within any of paragraphs <InternalLink Ref="p11238">(a)</InternalLink> to <InternalLink Ref="p11258">(f)</InternalLink> of sub-paragraph <InternalLink Ref="p11235">(3)</InternalLink> on account of—</Text>
                                              <P3>
                                                 <Pnumber>a</Pnumber>
                                                 <P3para>
@@ -15881,11 +15881,11 @@
                                              </P3>
                                           </P2para>
                                        </P2>
-                                       <P2 id="p11236">
+                                       <P2 id="p11235">
                                           <Pnumber>3</Pnumber>
                                           <P2para>
                                              <Text>The following activities fall within this sub-paragraph— </Text>
-                                             <P3 id="p11239">
+                                             <P3 id="p11238">
                                                 <Pnumber>a</Pnumber>
                                                 <P3para>
                                                    <Text>using or threatening to use violence against a person;</Text>
@@ -15915,7 +15915,7 @@
                                                    <Text>causing spiritual injury to, or placing undue spiritual pressure on, a person;</Text>
                                                 </P3para>
                                              </P3>
-                                             <P3 id="p11259">
+                                             <P3 id="p11258">
                                                 <Pnumber>f</Pnumber>
                                                 <P3para>
                                                    <Text>doing any other act designed to intimidate a person;</Text>
@@ -15932,7 +15932,7 @@
                                        <P2>
                                           <Pnumber>4</Pnumber>
                                           <P2para>
-                                             <Text>For the purposes of sub-paragraphs <InternalLink Ref="p11208">(1)</InternalLink> and <InternalLink Ref="p11221">(2)</InternalLink> an activity is carried out by a person (“P”) if it is carried out—</Text>
+                                             <Text>For the purposes of sub-paragraphs <InternalLink Ref="p11207">(1)</InternalLink> and <InternalLink Ref="p11220">(2)</InternalLink> an activity is carried out by a person (“P”) if it is carried out—</Text>
                                              <P3>
                                                 <Pnumber>a</Pnumber>
                                                 <P3para>
@@ -16334,7 +16334,7 @@
                                                  TargetSubClass="unknown"
                                                  Context="main"
                                                  Format="double">
-                                    <P2 id="p11539">
+                                    <P2 id="p11538">
                                        <Pnumber>3A</Pnumber>
                                        <P2para>
                                           <Text>A person is guilty of an electoral offence if the person—</Text>
@@ -16350,25 +16350,25 @@
                                                 <Text>except for some purpose authorised by law, obtains or attempts to obtain information, or communicates at any time to any other person any information, as to the official mark on a ballot paper sent to a person for voting by post at a local election;</Text>
                                              </P3para>
                                           </P3>
-                                          <P3 id="p11550">
+                                          <P3 id="p11549">
                                              <Pnumber>c</Pnumber>
                                              <P3para>
-                                                <Text>obtains or attempts to obtain information, in the circumstances mentioned in sub-paragraph <InternalLink Ref="p11561">(3B)</InternalLink>, as to the candidate for whom a person voting by post at a local election (“V”) is about to vote or has voted; or</Text>
+                                                <Text>obtains or attempts to obtain information, in the circumstances mentioned in sub-paragraph <InternalLink Ref="p11560">(3B)</InternalLink>, as to the candidate for whom a person voting by post at a local election (“V”) is about to vote or has voted; or</Text>
                                              </P3para>
                                           </P3>
                                           <P3>
                                              <Pnumber>d</Pnumber>
                                              <P3para>
-                                                <Text>communicates at any time to any other person information obtained in contravention of paragraph <InternalLink Ref="p11550">(c)</InternalLink>.</Text>
+                                                <Text>communicates at any time to any other person information obtained in contravention of paragraph <InternalLink Ref="p11549">(c)</InternalLink>.</Text>
                                              </P3para>
                                           </P3>
                                        </P2para>
                                     </P2>
-                                    <P2 id="p11561">
+                                    <P2 id="p11560">
                                        <Pnumber>3B</Pnumber>
                                        <P2para>
-                                          <Text>The circumstances referred to in sub-paragraph <InternalLink Ref="p11539">(3A)</InternalLink>
-                                             <InternalLink Ref="p11550">(c)</InternalLink> are where V is about to mark, is in the process of marking, or has just marked, a ballot paper sent to V for voting by post at the election.</Text>
+                                          <Text>The circumstances referred to in sub-paragraph <InternalLink Ref="p11538">(3A)</InternalLink>
+                                             <InternalLink Ref="p11549">(c)</InternalLink> are where V is about to mark, is in the process of marking, or has just marked, a ballot paper sent to V for voting by post at the election.</Text>
                                        </P2para>
                                     </P2>
                                     <P2>
@@ -16389,7 +16389,7 @@
                                           </P3>
                                        </P2para>
                                     </P2>
-                                    <P2 id="p11579">
+                                    <P2 id="p11578">
                                        <Pnumber>3D</Pnumber>
                                        <P2para>
                                           <Text>Sub-paragraph (3A)(c) and (d) does not apply where the purpose (or main purpose) for which the information is sought or communicated is its use for the purposes of—</Text>
@@ -16410,7 +16410,7 @@
                                     <P2>
                                        <Pnumber>3E</Pnumber>
                                        <P2para>
-                                          <Text>In sub-paragraph <InternalLink Ref="p11579">(3D)</InternalLink>—</Text>
+                                          <Text>In sub-paragraph <InternalLink Ref="p11578">(3D)</InternalLink>—</Text>
                                           <P3>
                                              <Pnumber>a</Pnumber>
                                              <P3para>
@@ -16966,10 +16966,11 @@
                                            Context="main"
                                            Format="double">
                               <Tabular Orientation="portrait">
-                                 <table xmlns="http://www.w3.org/1999/xhtml"
-                                        xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN"
-                                        cols="2"
-                                        ukl:templateColumns="50 50">
+                                 <table xmlns="http://www.w3.org/1999/xhtml">
+                                    <colgroup>
+                                       <col width="50%"/>
+                                       <col width="50%"/>
+                                    </colgroup>
                                     <tbody>
                                        <tr>
                                           <td/>
@@ -16998,10 +16999,11 @@
                                            Context="main"
                                            Format="double">
                               <Tabular Orientation="portrait">
-                                 <table xmlns="http://www.w3.org/1999/xhtml"
-                                        xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN"
-                                        cols="2"
-                                        ukl:templateColumns="50 50">
+                                 <table xmlns="http://www.w3.org/1999/xhtml">
+                                    <colgroup>
+                                       <col width="50%"/>
+                                       <col width="50%"/>
+                                    </colgroup>
                                     <tbody>
                                        <tr>
                                           <td>
@@ -17031,10 +17033,11 @@
                                            Context="main"
                                            Format="double">
                               <Tabular Orientation="portrait">
-                                 <table xmlns="http://www.w3.org/1999/xhtml"
-                                        xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN"
-                                        cols="2"
-                                        ukl:templateColumns="50 50">
+                                 <table xmlns="http://www.w3.org/1999/xhtml">
+                                    <colgroup>
+                                       <col width="50%"/>
+                                       <col width="50%"/>
+                                    </colgroup>
                                     <tbody>
                                        <tr>
                                           <td>
@@ -17060,10 +17063,11 @@
                                            Context="main"
                                            Format="double">
                               <Tabular Orientation="portrait">
-                                 <table xmlns="http://www.w3.org/1999/xhtml"
-                                        xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN"
-                                        cols="2"
-                                        ukl:templateColumns="50 50">
+                                 <table xmlns="http://www.w3.org/1999/xhtml">
+                                    <colgroup>
+                                       <col width="50%"/>
+                                       <col width="50%"/>
+                                    </colgroup>
                                     <tbody>
                                        <tr>
                                           <td>
@@ -17105,10 +17109,11 @@
                                            Context="main"
                                            Format="double">
                               <Tabular Orientation="portrait">
-                                 <table xmlns="http://www.w3.org/1999/xhtml"
-                                        xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN"
-                                        cols="2"
-                                        ukl:templateColumns="50 50">
+                                 <table xmlns="http://www.w3.org/1999/xhtml">
+                                    <colgroup>
+                                       <col width="50%"/>
+                                       <col width="50%"/>
+                                    </colgroup>
                                     <tbody>
                                        <tr>
                                           <td/>
@@ -17146,10 +17151,11 @@
                                            Context="main"
                                            Format="default">
                               <Tabular Orientation="portrait">
-                                 <table xmlns="http://www.w3.org/1999/xhtml"
-                                        xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN"
-                                        cols="2"
-                                        ukl:templateColumns="50 50">
+                                 <table xmlns="http://www.w3.org/1999/xhtml">
+                                    <colgroup>
+                                       <col width="50%"/>
+                                       <col width="50%"/>
+                                    </colgroup>
                                     <tbody>
                                        <tr>
                                           <td/>
@@ -17175,10 +17181,11 @@
                                            Context="main"
                                            Format="double">
                               <Tabular Orientation="portrait">
-                                 <table xmlns="http://www.w3.org/1999/xhtml"
-                                        xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN"
-                                        cols="2"
-                                        ukl:templateColumns="50 50">
+                                 <table xmlns="http://www.w3.org/1999/xhtml">
+                                    <colgroup>
+                                       <col width="50%"/>
+                                       <col width="50%"/>
+                                    </colgroup>
                                     <tbody>
                                        <tr>
                                           <td>
@@ -17208,10 +17215,11 @@
                                                  Context="main"
                                                  Format="double">
                                     <Tabular Orientation="portrait">
-                                       <table xmlns="http://www.w3.org/1999/xhtml"
-                                              xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN"
-                                              cols="2"
-                                              ukl:templateColumns="50 50">
+                                       <table xmlns="http://www.w3.org/1999/xhtml">
+                                          <colgroup>
+                                             <col width="50%"/>
+                                             <col width="50%"/>
+                                          </colgroup>
                                           <tbody>
                                              <tr>
                                                 <td/>
@@ -17237,10 +17245,11 @@
                                                  Context="main"
                                                  Format="double">
                                     <Tabular Orientation="portrait">
-                                       <table xmlns="http://www.w3.org/1999/xhtml"
-                                              xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN"
-                                              cols="2"
-                                              ukl:templateColumns="50 50">
+                                       <table xmlns="http://www.w3.org/1999/xhtml">
+                                          <colgroup>
+                                             <col width="50%"/>
+                                             <col width="50%"/>
+                                          </colgroup>
                                           <tbody>
                                              <tr>
                                                 <td/>
@@ -17361,8 +17370,7 @@
                                     </ListItem>
                                     <ListItem>
                                        <Para>
-                                          <Text>“<Term>relevant provisions of <InternalLink Ref="schedule-4">Schedule 4</InternalLink>
-                                             </Term>” means paragraphs <InternalLink Ref="schedule-4-paragraph-2">2</InternalLink>
+                                          <Text>“<Term>relevant provisions of Schedule 4</Term>” means paragraphs <InternalLink Ref="schedule-4-paragraph-2">2</InternalLink>
                                              <InternalLink Ref="schedule-4-paragraph-2-2">(2)</InternalLink> and <InternalLink Ref="schedule-4-paragraph-6">6</InternalLink>
                                              <InternalLink Ref="schedule-4-paragraph-6-2">(2)</InternalLink> of <InternalLink Ref="schedule-4">Schedule 4</InternalLink>; </Text>
                                        </Para>
@@ -18277,15 +18285,15 @@
                               <P3 id="schedule-8-paragraph-1-9-a">
                                  <Pnumber>a</Pnumber>
                                  <P3para>
-                                    <Text>in subsection (2), after “203(4)” insert “or <InternalLink Ref="p12891">203A</InternalLink>
-                                       <InternalLink Ref="p12914">(2)</InternalLink>”;</Text>
+                                    <Text>in subsection (2), after “203(4)” insert “or <InternalLink Ref="p12889">203A</InternalLink>
+                                       <InternalLink Ref="p12912">(2)</InternalLink>”;</Text>
                                  </P3para>
                               </P3>
                               <P3 id="schedule-8-paragraph-1-9-b">
                                  <Pnumber>b</Pnumber>
                                  <P3para>
-                                    <Text>in subsection (2A), after “above” insert “or section <InternalLink Ref="p12891">203A</InternalLink>
-                                       <InternalLink Ref="p12914">(2)</InternalLink>”.</Text>
+                                    <Text>in subsection (2A), after “above” insert “or section <InternalLink Ref="p12889">203A</InternalLink>
+                                       <InternalLink Ref="p12912">(2)</InternalLink>”.</Text>
                                  </P3para>
                               </P3>
                            </P2para>
@@ -18301,12 +18309,12 @@
                                  <UnorderedList Class="Definition" Decoration="none">
                                     <ListItem>
                                        <Para>
-                                          <Text>“<Term>EU citizen with retained rights</Term>” has the meaning given by section <InternalLink Ref="p12995">203B</InternalLink>;”;</Text>
+                                          <Text>“<Term>EU citizen with retained rights</Term>” has the meaning given by section <InternalLink Ref="p12993">203B</InternalLink>;”;</Text>
                                        </Para>
                                     </ListItem>
                                     <ListItem>
                                        <Para>
-                                          <Text>“<Term>qualifying EU citizen</Term>” has the meaning given by section <InternalLink Ref="p12891">203A</InternalLink>;</Text>
+                                          <Text>“<Term>qualifying EU citizen</Term>” has the meaning given by section <InternalLink Ref="p12889">203A</InternalLink>;</Text>
                                        </Para>
                                     </ListItem>
                                  </UnorderedList>
@@ -18324,7 +18332,7 @@
                                               Format="double">
                                  <P1group>
                                     <Title> Meaning of “qualifying EU citizen”</Title>
-                                    <P1 id="p12891">
+                                    <P1 id="p12889">
                                        <Pnumber>203A</Pnumber>
                                        <P1para>
                                           <P2>
@@ -18334,7 +18342,7 @@
                                                 <P3>
                                                    <Pnumber>a</Pnumber>
                                                    <P3para>
-                                                      <Text>is a citizen of a country for the time being listed in <InternalLink Ref="p13199">Schedule 6A</InternalLink>, and</Text>
+                                                      <Text>is a citizen of a country for the time being listed in <InternalLink Ref="p13197">Schedule 6A</InternalLink>, and</Text>
                                                    </P3para>
                                                 </P3>
                                                 <P3>
@@ -18357,10 +18365,10 @@
                                                 </P3>
                                              </P2para>
                                           </P2>
-                                          <P2 id="p12914">
+                                          <P2 id="p12912">
                                              <Pnumber>2</Pnumber>
                                              <P2para>
-                                                <Text>The Secretary of State must by regulations add a country to the list in <InternalLink Ref="p13199">Schedule 6A</InternalLink> where—</Text>
+                                                <Text>The Secretary of State must by regulations add a country to the list in <InternalLink Ref="p13197">Schedule 6A</InternalLink> where—</Text>
                                                 <P3>
                                                    <Pnumber>a</Pnumber>
                                                    <P3para>
@@ -18381,16 +18389,16 @@
                                                 </P3>
                                              </P2para>
                                           </P2>
-                                          <P2 id="p12931">
+                                          <P2 id="p12929">
                                              <Pnumber>3</Pnumber>
                                              <P2para>
-                                                <Text>The Secretary of State may by regulations remove a country from the list in <InternalLink Ref="p13199">Schedule 6A</InternalLink> where the country ceases to be a party to a relevant treaty to which the United Kingdom is also a party.</Text>
+                                                <Text>The Secretary of State may by regulations remove a country from the list in <InternalLink Ref="p13197">Schedule 6A</InternalLink> where the country ceases to be a party to a relevant treaty to which the United Kingdom is also a party.</Text>
                                              </P2para>
                                           </P2>
                                           <P2>
                                              <Pnumber>4</Pnumber>
                                              <P2para>
-                                                <Text>The Secretary of State must, as soon as reasonably practicable after regulations are made under subsection <InternalLink Ref="p12914">(2)</InternalLink> or <InternalLink Ref="p12931">(3)</InternalLink>, give notice of that fact to—</Text>
+                                                <Text>The Secretary of State must, as soon as reasonably practicable after regulations are made under subsection <InternalLink Ref="p12912">(2)</InternalLink> or <InternalLink Ref="p12929">(3)</InternalLink>, give notice of that fact to—</Text>
                                                 <P3>
                                                    <Pnumber>a</Pnumber>
                                                    <P3para>
@@ -18472,7 +18480,7 @@
                                  </P1group>
                                  <P1group>
                                     <Title>Meaning of “EU citizen with retained rights”</Title>
-                                    <P1 id="p12995">
+                                    <P1 id="p12993">
                                        <Pnumber>203B</Pnumber>
                                        <P1para>
                                           <P2>
@@ -18482,7 +18490,7 @@
                                                 <P3>
                                                    <Pnumber>a</Pnumber>
                                                    <P3para>
-                                                      <Text>is a citizen of a country falling within subsection <InternalLink Ref="p13099">(8)</InternalLink>,</Text>
+                                                      <Text>is a citizen of a country falling within subsection <InternalLink Ref="p13097">(8)</InternalLink>,</Text>
                                                    </P3para>
                                                 </P3>
                                                 <P3>
@@ -18500,7 +18508,7 @@
                                                 <P3>
                                                    <Pnumber>d</Pnumber>
                                                    <P3para>
-                                                      <Text>falls within any of subsections <InternalLink Ref="p13023">(2)</InternalLink> to (4), and</Text>
+                                                      <Text>falls within any of subsections <InternalLink Ref="p13021">(2)</InternalLink> to (4), and</Text>
                                                    </P3para>
                                                 </P3>
                                                 <P3>
@@ -18511,7 +18519,7 @@
                                                 </P3>
                                              </P2para>
                                           </P2>
-                                          <P2 id="p13023">
+                                          <P2 id="p13021">
                                              <Pnumber>2</Pnumber>
                                              <P2para>
                                                 <Text>A person falls within this subsection if the person—</Text>
@@ -18625,7 +18633,7 @@
                                                 </P3>
                                              </P2para>
                                           </P2>
-                                          <P2 id="p13099">
+                                          <P2 id="p13097">
                                              <Pnumber>8</Pnumber>
                                              <P2para>
                                                 <Text>A country falls within this subsection where the country—</Text>
@@ -18771,13 +18779,13 @@
                                               TargetSubClass="unknown"
                                               Context="schedule"
                                               Format="double">
-                                 <Schedule id="p13199">
+                                 <Schedule id="p13197">
                                     <Number>Schedule 6A</Number>
                                     <TitleBlock>
-                                       <Title>List of countries for purposes of section <InternalLink Ref="p12891">203A</InternalLink>
+                                       <Title>List of countries for purposes of section <InternalLink Ref="p12889">203A</InternalLink>
                                        </Title>
                                     </TitleBlock>
-                                    <Reference>Section <InternalLink Ref="p12891">203A</InternalLink>
+                                    <Reference>Section <InternalLink Ref="p12889">203A</InternalLink>
                                     </Reference>
                                     <ScheduleBody>
                                        <P1>
@@ -18895,7 +18903,7 @@
                                     <P2>
                                        <Pnumber>2A</Pnumber>
                                        <P2para>
-                                          <Text>In this section “qualifying EU citizen” and “EU citizen with retained rights” have the same meaning as in the Representation of the People Act 1983 (see sections <InternalLink Ref="p12891">203A</InternalLink> and <InternalLink Ref="p12995">203B</InternalLink> of that Act).</Text>
+                                          <Text>In this section “qualifying EU citizen” and “EU citizen with retained rights” have the same meaning as in the Representation of the People Act 1983 (see sections <InternalLink Ref="p12889">203A</InternalLink> and <InternalLink Ref="p12993">203B</InternalLink> of that Act).</Text>
                                        </P2para>
                                     </P2>
                                  </BlockAmendment>
@@ -18938,7 +18946,7 @@
                                           <UnorderedList Class="Definition" Decoration="none">
                                              <ListItem>
                                                 <Para>
-                                                   <Text>“<Term>qualifying EU citizen</Term>” and “EU citizen with retained rights” have the same meaning as in the Representation of the People Act 1983 (see sections <InternalLink Ref="p12891">203A</InternalLink> and <InternalLink Ref="p12995">203B</InternalLink> of that Act);</Text>
+                                                   <Text>“<Term>qualifying EU citizen</Term>” and “EU citizen with retained rights” have the same meaning as in the Representation of the People Act 1983 (see sections <InternalLink Ref="p12889">203A</InternalLink> and <InternalLink Ref="p12993">203B</InternalLink> of that Act);</Text>
                                                 </Para>
                                              </ListItem>
                                           </UnorderedList>
@@ -18978,12 +18986,12 @@
                                           </ListItem>
                                           <ListItem>
                                              <Para>
-                                                <Text>a qualifying EU citizen (within the meaning given by section <InternalLink Ref="p12891">203A</InternalLink> of the Representation of the People Act 1983), or</Text>
+                                                <Text>a qualifying EU citizen (within the meaning given by section <InternalLink Ref="p12889">203A</InternalLink> of the Representation of the People Act 1983), or</Text>
                                              </Para>
                                           </ListItem>
                                           <ListItem>
                                              <Para>
-                                                <Text>an EU citizen with retained rights (within the meaning given by section <InternalLink Ref="p12995">203B</InternalLink> of that Act).</Text>
+                                                <Text>an EU citizen with retained rights (within the meaning given by section <InternalLink Ref="p12993">203B</InternalLink> of that Act).</Text>
                                              </Para>
                                           </ListItem>
                                        </OrderedList>
@@ -19099,7 +19107,7 @@
                                           <UnorderedList Class="Definition" Decoration="none">
                                              <ListItem>
                                                 <Para>
-                                                   <Text>“<Term>qualifying EU citizen</Term>” and “EU citizen with retained rights” have the same meaning as in the Representation of the People Act 1983 (see sections <InternalLink Ref="p12891">203A</InternalLink> and <InternalLink Ref="p12995">203B</InternalLink> of that Act);</Text>
+                                                   <Text>“<Term>qualifying EU citizen</Term>” and “EU citizen with retained rights” have the same meaning as in the Representation of the People Act 1983 (see sections <InternalLink Ref="p12889">203A</InternalLink> and <InternalLink Ref="p12993">203B</InternalLink> of that Act);</Text>
                                                 </Para>
                                              </ListItem>
                                           </UnorderedList>
@@ -19121,7 +19129,7 @@
                      <P1 id="schedule-8-paragraph-7">
                         <Pnumber>7</Pnumber>
                         <P1para>
-                           <Text>In Schedule 5 to the Electoral Law Act (Northern Ireland) 1962 (local elections rules), in the Appendix of Forms, in form 2 (consent to nomination), for “or a citizen of another Member State of the European Union” substitute “, qualifying EU citizen (within the meaning of section <InternalLink Ref="p12891">203A</InternalLink> of the Representation of the People Act 1983) or EU citizen with retained rights (within the meaning of section <InternalLink Ref="p12995">203B</InternalLink> of that Act)”.</Text>
+                           <Text>In Schedule 5 to the Electoral Law Act (Northern Ireland) 1962 (local elections rules), in the Appendix of Forms, in form 2 (consent to nomination), for “or a citizen of another Member State of the European Union” substitute “, qualifying EU citizen (within the meaning of section <InternalLink Ref="p12889">203A</InternalLink> of the Representation of the People Act 1983) or EU citizen with retained rights (within the meaning of section <InternalLink Ref="p12993">203B</InternalLink> of that Act)”.</Text>
                         </P1para>
                      </P1>
                   </Pblock>
@@ -19150,7 +19158,7 @@
                                  <P4 id="schedule-8-paragraph-8-b-ii">
                                     <Pnumber>ii</Pnumber>
                                     <P4para>
-                                       <Text>after “election” insert “; and “qualifying EU citizen” and “EU citizen with retained rights” have the same meaning as in the Representation of the People Act 1983 (see sections <InternalLink Ref="p12891">203A</InternalLink> and <InternalLink Ref="p12995">203B</InternalLink> of that Act).”</Text>
+                                       <Text>after “election” insert “; and “qualifying EU citizen” and “EU citizen with retained rights” have the same meaning as in the Representation of the People Act 1983 (see sections <InternalLink Ref="p12889">203A</InternalLink> and <InternalLink Ref="p12993">203B</InternalLink> of that Act).”</Text>
                                     </P4para>
                                  </P4>
                               </P3para>
@@ -19196,7 +19204,7 @@
                                           <UnorderedList Class="Definition" Decoration="none">
                                              <ListItem>
                                                 <Para>
-                                                   <Text>“<Term>qualifying EU citizen</Term>” and “EU citizen with retained rights” have the same meaning as in the Representation of the People Act 1983 (see sections <InternalLink Ref="p12891">203A</InternalLink> and <InternalLink Ref="p12995">203B</InternalLink> of that Act);</Text>
+                                                   <Text>“<Term>qualifying EU citizen</Term>” and “EU citizen with retained rights” have the same meaning as in the Representation of the People Act 1983 (see sections <InternalLink Ref="p12889">203A</InternalLink> and <InternalLink Ref="p12993">203B</InternalLink> of that Act);</Text>
                                                 </Para>
                                              </ListItem>
                                           </UnorderedList>
@@ -19461,7 +19469,7 @@
                                     <P2>
                                        <Pnumber>8</Pnumber>
                                        <P2para>
-                                          <Text>In this section, “qualifying EU citizen” and “EU citizen with retained rights” have the same meaning as in the Representation of the People Act 1983 (see sections <InternalLink Ref="p12891">203A</InternalLink> and <InternalLink Ref="p12995">203B</InternalLink> of that Act).</Text>
+                                          <Text>In this section, “qualifying EU citizen” and “EU citizen with retained rights” have the same meaning as in the Representation of the People Act 1983 (see sections <InternalLink Ref="p12889">203A</InternalLink> and <InternalLink Ref="p12993">203B</InternalLink> of that Act).</Text>
                                        </P2para>
                                     </P2>
                                  </BlockAmendment>
@@ -19493,10 +19501,11 @@
                               <P2para>
                                  <Text>After the entry for section 202 of RPA 1983 insert—</Text>
                                  <Tabular Orientation="portrait">
-                                    <table xmlns="http://www.w3.org/1999/xhtml"
-                                           xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN"
-                                           cols="2"
-                                           ukl:templateColumns="50 50">
+                                    <table xmlns="http://www.w3.org/1999/xhtml">
+                                       <colgroup>
+                                          <col width="50%"/>
+                                          <col width="50%"/>
+                                       </colgroup>
                                        <tbody>
                                           <tr>
                                              <td>
@@ -19524,10 +19533,11 @@
                               <P2para>
                                  <Text>After the entry for Schedule 4A to RPA 1983 insert—</Text>
                                  <Tabular Orientation="portrait">
-                                    <table xmlns="http://www.w3.org/1999/xhtml"
-                                           xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN"
-                                           cols="2"
-                                           ukl:templateColumns="50 50">
+                                    <table xmlns="http://www.w3.org/1999/xhtml">
+                                       <colgroup>
+                                          <col width="50%"/>
+                                          <col width="50%"/>
+                                       </colgroup>
                                        <tbody>
                                           <tr>
                                              <td>
@@ -20809,7 +20819,7 @@
                                                     TargetSubClass="unknown"
                                                     Context="main"
                                                     Format="double">
-                                       <P3 id="p14553">
+                                       <P3 id="p14551">
                                           <Pnumber>db</Pnumber>
                                           <P3para>
                                              <Text>in the case of a disqualification by virtue of an order under section <InternalLink Ref="section-30">30</InternalLink> of the Elections Act 2022 (disqualification of offenders for holding elective office etc), on the date the office is vacated in accordance with section <InternalLink Ref="section-31">31</InternalLink> of that Act (vacation of office etc);</Text>
@@ -20830,7 +20840,7 @@
                                        <P2>
                                           <Pnumber>1A</Pnumber>
                                           <P2para>
-                                             <Text>In a case where subsection (1)<InternalLink Ref="p14553">(db)</InternalLink> and one or both of subsections (1)(d) and (1)(da) apply in relation to a vacancy, the vacancy is to be deemed to have occurred on the date mentioned in subsection (1)<InternalLink Ref="p14553">(db)</InternalLink>.</Text>
+                                             <Text>In a case where subsection (1)<InternalLink Ref="p14551">(db)</InternalLink> and one or both of subsections (1)(d) and (1)(da) apply in relation to a vacancy, the vacancy is to be deemed to have occurred on the date mentioned in subsection (1)<InternalLink Ref="p14551">(db)</InternalLink>.</Text>
                                           </P2para>
                                        </P2>
                                     </BlockAmendment>
@@ -21012,7 +21022,7 @@
                                                     TargetSubClass="unknown"
                                                     Context="main"
                                                     Format="double">
-                                       <P3 id="p14693">
+                                       <P3 id="p14691">
                                           <Pnumber>fa</Pnumber>
                                           <P3para>
                                              <Text>in the case of disqualification by virtue of an order under section <InternalLink Ref="section-30">30</InternalLink> of the Elections Act 2022 (disqualification of offenders for holding elective office etc), on the date the office is vacated in accordance with section <InternalLink Ref="section-31">31</InternalLink> of that Act (vacation of office etc);</Text>
@@ -21033,7 +21043,7 @@
                                        <P2>
                                           <Pnumber>1A</Pnumber>
                                           <P2para>
-                                             <Text>In a case where subsection (1)<InternalLink Ref="p14693">(fa)</InternalLink> and (f) (in the case of a conviction) apply in relation to a vacancy, the vacancy is to be regarded as occurring on the date mentioned in subsection (1)<InternalLink Ref="p14693">(fa)</InternalLink>.</Text>
+                                             <Text>In a case where subsection (1)<InternalLink Ref="p14691">(fa)</InternalLink> and (f) (in the case of a conviction) apply in relation to a vacancy, the vacancy is to be regarded as occurring on the date mentioned in subsection (1)<InternalLink Ref="p14691">(fa)</InternalLink>.</Text>
                                           </P2para>
                                        </P2>
                                     </BlockAmendment>
@@ -21158,7 +21168,7 @@
                                     <Title>Disqualification of offenders for holding elective office etc</Title>
                                     <P1group>
                                        <Title>Disqualification orders</Title>
-                                       <P1 id="p14789">
+                                       <P1 id="p14787">
                                           <Pnumber>236A</Pnumber>
                                           <P1para>
                                              <P2>
@@ -21233,7 +21243,7 @@
                                                    <Text>For the purposes of subsection <InternalLink Ref="section-30-4">(4)</InternalLink> it is immaterial whether or not the offender's hostility is also based, to any extent, on any other factor not mentioned in that subsection.</Text>
                                                 </P2para>
                                              </P2>
-                                             <P2 id="p14845">
+                                             <P2 id="p14843">
                                                 <Pnumber>6</Pnumber>
                                                 <P2para>
                                                    <Text>For the purpose of deciding whether to make a disqualification order the court may consider evidence led by the parties to the proceedings.</Text>
@@ -21242,7 +21252,7 @@
                                              <P2>
                                                 <Pnumber>7</Pnumber>
                                                 <P2para>
-                                                   <Text>It is immaterial whether evidence led in pursuance of subsection <InternalLink Ref="p14845">(6)</InternalLink> would have been admissible in the proceedings in which the offender was convicted.</Text>
+                                                   <Text>It is immaterial whether evidence led in pursuance of subsection <InternalLink Ref="p14843">(6)</InternalLink> would have been admissible in the proceedings in which the offender was convicted.</Text>
                                                 </P2para>
                                              </P2>
                                              <P2>
@@ -21319,7 +21329,7 @@
                                        <P1>
                                           <Pnumber>236B</Pnumber>
                                           <P1para>
-                                             <Text>References (however expressed) in any enactment to an order under section <InternalLink Ref="section-30">30</InternalLink> of the Elections Act 2022 include references to an order under section <InternalLink Ref="p14789">236A</InternalLink>.</Text>
+                                             <Text>References (however expressed) in any enactment to an order under section <InternalLink Ref="section-30">30</InternalLink> of the Elections Act 2022 include references to an order under section <InternalLink Ref="p14787">236A</InternalLink>.</Text>
                                           </P1para>
                                        </P1>
                                     </P1group>
@@ -21354,7 +21364,7 @@
                                                     TargetSubClass="unknown"
                                                     Context="main"
                                                     Format="double">
-                                       <P3 id="p14932">
+                                       <P3 id="p14930">
                                           <Pnumber>e</Pnumber>
                                           <P3para>
                                              <Text>in the case of disqualification by virtue of an order under section <InternalLink Ref="section-30">30</InternalLink> of the Elections Act 2022 (disqualification of offenders for holding elective office etc), on the date the office is vacated in accordance with section <InternalLink Ref="section-31">31</InternalLink> of that Act (vacation of office etc).</Text>
@@ -21375,7 +21385,7 @@
                                        <P2>
                                           <Pnumber>2A</Pnumber>
                                           <P2para>
-                                             <Text>In a case where subsection (1)<InternalLink Ref="p14932">(e)</InternalLink> and (d) (in the case of a disqualification by virtue of section 66(3)(c)) apply in relation to a vacancy, the vacancy is to be regarded as occurring on the date mentioned in subsection (1)<InternalLink Ref="p14932">(e)</InternalLink>.</Text>
+                                             <Text>In a case where subsection (1)<InternalLink Ref="p14930">(e)</InternalLink> and (d) (in the case of a disqualification by virtue of section 66(3)(c)) apply in relation to a vacancy, the vacancy is to be regarded as occurring on the date mentioned in subsection (1)<InternalLink Ref="p14930">(e)</InternalLink>.</Text>
                                           </P2para>
                                        </P2>
                                     </BlockAmendment>
