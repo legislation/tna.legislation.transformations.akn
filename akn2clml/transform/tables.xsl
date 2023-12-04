@@ -57,6 +57,17 @@
 	</xsl:copy>
 </xsl:template>
 
+<xsl:template match="html:th/p | html:td/p">
+	<xsl:choose>
+		<xsl:when test="empty(preceding-sibling::node()[normalize-space()]) and empty(following-sibling::node()[normalize-space()])">
+			<xsl:apply-templates />
+		</xsl:when>
+		<xsl:otherwise>
+			<xsl:next-match />
+		</xsl:otherwise>
+	</xsl:choose>
+</xsl:template>
+
 <xsl:template match="html:tbody[1]">
 	<xsl:param name="context" as="xs:string*" tunnel="yes" />
 	<xsl:if test="empty(preceding-sibling::html:tfoot)">
