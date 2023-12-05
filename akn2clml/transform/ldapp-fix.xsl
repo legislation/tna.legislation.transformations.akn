@@ -2,9 +2,10 @@
 
 <xsl:transform version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 	xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+	xmlns:uk="https://www.legislation.gov.uk/namespaces/UK-AKN"
 	xmlns:html="http://www.w3.org/1999/xhtml"
 	xpath-default-namespace="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
-	exclude-result-prefixes="html">
+	exclude-result-prefixes="uk html">
 
 <xsl:template match="level[descendant::num]">
 	<xsl:choose>
@@ -16,7 +17,14 @@
 		<xsl:otherwise/>
 	</xsl:choose>
 </xsl:template>
-	
+
+<!-- LEGDEV-6301 -->
+<xsl:template match="quotedStructure[@uk:docName='uksi' and @uk:context='body']/subsection[@class='prov2']">
+	<paragraph>
+		<xsl:apply-templates select="@*|node()"/>
+	</paragraph>
+</xsl:template>
+
 <xsl:template match="intro[empty(following-sibling::*)]">
 	<content>
 		<xsl:copy-of select="@*" />
