@@ -57,19 +57,45 @@
 	</xsl:copy>
 </xsl:template>
 
-<xsl:template match="html:tbody[1]">
+<xsl:template match="html:table">
 	<xsl:param name="context" as="xs:string*" tunnel="yes" />
-	<xsl:if test="empty(preceding-sibling::html:tfoot)">
-		<xsl:call-template name="table-footnotes">
-			<xsl:with-param name="table" select="ancestor::html:table[1]" />
-		</xsl:call-template>
-	</xsl:if>
+	<xsl:copy copy-namespaces="no">
+		<xsl:apply-templates select="@* except @*:templateColumns" />
+		<xsl:apply-templates>
+			<xsl:with-param name="context" select="(local-name(.), $context)" tunnel="yes" />
+			<xsl:with-param name="colWidths" select="tokenize(@*:templateColumns, ' ')" tunnel="yes"/>
+		</xsl:apply-templates>
+	</xsl:copy>
+</xsl:template>
+
+<xsl:template match="html:td">
+	<xsl:param name="context" as="xs:string*" tunnel="yes" />
+	<xsl:param name="colWidths" as="xs:string*" tunnel="yes"/>
+	<xsl:variable name="thsPos" select="position()"/>
 	<xsl:copy copy-namespaces="no">
 		<xsl:apply-templates select="@*" />
+		<xsl:if test="not(@width) and not(empty($colWidths))">
+			<xsl:attribute name="width" select="$colWidths[$thsPos]"></xsl:attribute>
+		</xsl:if>
 		<xsl:apply-templates>
 			<xsl:with-param name="context" select="(local-name(.), $context)" tunnel="yes" />
 		</xsl:apply-templates>
 	</xsl:copy>
+</xsl:template>
+
+<xsl:template match="html:tbody[1]">
+<xsl:param name="context" as="xs:string*" tunnel="yes" />
+<xsl:if test="empty(preceding-sibling::html:tfoot)">
+	<xsl:call-template name="table-footnotes">
+		<xsl:with-param name="table" select="ancestor::html:table[1]" />
+	</xsl:call-template>
+</xsl:if>
+<xsl:copy copy-namespaces="no">
+	<xsl:apply-templates select="@*" />
+	<xsl:apply-templates>
+		<xsl:with-param name="context" select="(local-name(.), $context)" tunnel="yes" />
+	</xsl:apply-templates>
+</xsl:copy>
 </xsl:template>
 
 <xsl:template match="html:tfoot">
