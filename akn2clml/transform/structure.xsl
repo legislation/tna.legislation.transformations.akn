@@ -381,14 +381,14 @@
 		<xsl:when test="$xheading/@ukl:Name = 'P1group'">
 			<xsl:sequence select="true()" />
 		</xsl:when>
-		<!-- LDAPP uses crossheadings for certain schedule paragraphs -->
-		<xsl:when test="false() and local:akn-is-within-schedule($xheading) and exists($xheading/child::paragraph) and empty($xheading/child::paragraph/heading) and (exists($xheading/preceding-sibling::paragraph) or exists($xheading/following-sibling::paragraph))">
+		<!-- Lawmaker uses crossheadings for certain schedule paragraphs -->
+		<xsl:when test="$xheading/@class = 'schGroup7'">
 			<xsl:sequence select="true()" />
 		</xsl:when>
-		<xsl:when test="$xheading/parent::hcontainer[@name='schedule'] and exists($xheading/child::paragraph) and empty($xheading/child::paragraph/heading) and empty($xheading/preceding-sibling::hcontainer[@name='crossheading']/paragraph/heading) and empty($xheading/following-sibling::hcontainer[@name='crossheading']/paragraph/heading) and empty($xheading/preceding-sibling::paragraph)">
-		<!-- last condition is for asp/2000/5/schedule/5 -->
-			<xsl:sequence select="true()" />
-		</xsl:when>
+		<!-- to do the above, without using the @class attribute -->
+<!--		<xsl:when test="local:akn-is-within-schedule($xheading) and exists($xheading/child::paragraph) and empty($xheading/child::paragraph/heading)">-->
+<!--			<xsl:sequence select="true()" />-->
+<!--		</xsl:when>-->
 		<xsl:otherwise>
 			<xsl:sequence select="false()" />
 		</xsl:otherwise>
