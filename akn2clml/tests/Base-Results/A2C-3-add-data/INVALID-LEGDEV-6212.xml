@@ -7,7 +7,7 @@
              xmlns:dc="http://purl.org/dc/elements/1.1/">
       <dc:identifier>http://www.legislation.gov.uk/id/ukpga/2023/55</dc:identifier>
       <dc:title>Levelling-up and Regeneration Act 2023</dc:title>
-      <dc:modified>2023-11-30</dc:modified>
+      <dc:modified>2023-12-01</dc:modified>
       <PrimaryMetadata>
          <DocumentClassification>
             <DocumentCategory Value="primary"/>
@@ -13328,10 +13328,11 @@
                                                          <Text>“significance”, in relation to a relevant asset, has the meaning given by the corresponding entry in the second column of the table.</Text>
                                                          <Tabular Orientation="portrait">
                                                             <Title>TABLE</Title>
-                                                            <table xmlns="http://www.w3.org/1999/xhtml"
-                                                                   xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN"
-                                                                   cols="2"
-                                                                   ukl:templateColumns="50 50">
+                                                            <table xmlns="http://www.w3.org/1999/xhtml">
+                                                               <colgroup>
+                                                                  <col width="50%"/>
+                                                                  <col width="50%"/>
+                                                               </colgroup>
                                                                <thead>
                                                                   <tr>
                                                                      <td>
@@ -54998,9 +54999,9 @@
                                      TargetSubClass="unknown"
                                      Context="main"
                                      Format="double">
-                        <Pblock>
+                        <FragmentTitle Context="Pblock">
                            <Title>Termination of planning permission: Wales</Title>
-                        </Pblock>
+                        </FragmentTitle>
                      </BlockAmendment>
                      <AppendText>.</AppendText>
                   </P1para>

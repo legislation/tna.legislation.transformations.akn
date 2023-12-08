@@ -7,7 +7,7 @@
              xmlns:dc="http://purl.org/dc/elements/1.1/">
       <dc:identifier>http://www.legislation.gov.uk/id/ukpga/2023/36</dc:identifier>
       <dc:title>Social Housing (Regulation) Act 2023</dc:title>
-      <dc:modified>2023-11-30</dc:modified>
+      <dc:modified>2023-12-01</dc:modified>
       <PrimaryMetadata>
          <DocumentClassification>
             <DocumentCategory Value="primary"/>
@@ -3551,9 +3551,9 @@
                                            TargetSubClass="unknown"
                                            Context="main"
                                            Format="default">
-                              <Pblock>
+                              <FragmentTitle Context="Pblock">
                                  <Title>Performance information</Title>
-                              </Pblock>
+                              </FragmentTitle>
                            </BlockAmendment>
                            <BlockAmendment TargetClass="primary"
                                            TargetSubClass="unknown"
@@ -4358,9 +4358,9 @@
                                            TargetSubClass="unknown"
                                            Context="main"
                                            Format="default">
-                              <Pblock>
+                              <FragmentTitle Context="Pblock">
                                  <Title>Performance improvement plans</Title>
-                              </Pblock>
+                              </FragmentTitle>
                            </BlockAmendment>
                            <BlockAmendment TargetClass="primary"
                                            TargetSubClass="unknown"
@@ -4782,9 +4782,9 @@
                                      TargetSubClass="unknown"
                                      Context="main"
                                      Format="default">
-                        <Pblock>
+                        <FragmentTitle Context="Pblock">
                            <Title>Emergency remedial action</Title>
-                        </Pblock>
+                        </FragmentTitle>
                      </BlockAmendment>
                      <BlockAmendment TargetClass="primary"
                                      TargetSubClass="unknown"
