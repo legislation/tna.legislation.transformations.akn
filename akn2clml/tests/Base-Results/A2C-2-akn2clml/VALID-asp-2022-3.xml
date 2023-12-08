@@ -1,0 +1,976 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Legislation xmlns="http://www.legislation.gov.uk/namespaces/legislation"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             SchemaVersion="2.0"
+             xsi:schemaLocation="http://www.legislation.gov.uk/namespaces/legislation http://www.legislation.gov.uk/schema/legislation.xsd">
+   <Metadata xmlns="http://www.legislation.gov.uk/namespaces/metadata"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <dc:identifier>http://www.legislation.gov.uk/id/asp/2022/3</dc:identifier>
+      <dc:title>Budget (Scotland) Act 2022</dc:title>
+      <dc:modified>2023-12-01</dc:modified>
+      <PrimaryMetadata>
+         <DocumentClassification>
+            <DocumentCategory Value="primary"/>
+            <DocumentMainType Value="ScottishAct"/>
+            <DocumentStatus Value="final"/>
+         </DocumentClassification>
+         <Year Value="2022"/>
+         <Number Value="3"/>
+         <EnactmentDate Date="2022-03-23"/>
+      </PrimaryMetadata>
+   </Metadata>
+   <Primary>
+      <PrimaryPrelims>
+         <Title>Budget (Scotland) Act 2022</Title>
+         <Number> 2022 asp 3 </Number>
+         <LongTitle>An Act of the Scottish Parliament to make provision, for financial year 2022/23, for the use of resources by the Scottish Administration and certain bodies whose expenditure is payable out of the Scottish Consolidated Fund, for the maximum amounts of borrowing by certain statutory bodies and for authorising the payment of sums out of the Fund; to make provision, for financial year 2023/24, for authorising the payment of sums out of the Fund on a temporary basis; and for connected purposes.</LongTitle>
+         <DateOfEnactment>
+            <DateText>The Bill for this Act of the Scottish Parliament was passed by the Parliament on 10th February 2022 and received Royal Assent on 23rd March 2022</DateText>
+         </DateOfEnactment>
+      </PrimaryPrelims>
+      <Body>
+         <Part id="part-1">
+            <Number>Part 1</Number>
+            <Title>Financial year 2022/23</Title>
+            <Pblock>
+               <Title>Use of resources etc.</Title>
+               <P1group>
+                  <Title>The Scottish Administration</Title>
+                  <P1 id="section-1">
+                     <Pnumber>1</Pnumber>
+                     <P1para>
+                        <P2 id="section-1-1">
+                           <Pnumber>1</Pnumber>
+                           <P2para>
+                              <Text>The Scottish Administration may use resources in financial year 2022/23 for the purposes specified in column 1 of <InternalLink Ref="schedule-1">schedule 1</InternalLink>—</Text>
+                              <P3 id="section-1-1-a">
+                                 <Pnumber>a</Pnumber>
+                                 <P3para>
+                                    <Text>in the case of resources other than accruing resources, up to the amounts specified in the corresponding entries in column 2 of that schedule,</Text>
+                                 </P3para>
+                              </P3>
+                              <P3 id="section-1-1-b">
+                                 <Pnumber>b</Pnumber>
+                                 <P3para>
+                                    <Text>in the case of accruing resources, up to the amounts specified in the corresponding entries in column 3 of that schedule.</Text>
+                                 </P3para>
+                              </P3>
+                           </P2para>
+                        </P2>
+                        <P2 id="section-1-2">
+                           <Pnumber>2</Pnumber>
+                           <P2para>
+                              <Text>Despite paragraphs <InternalLink Ref="section-1-1-a">(a)</InternalLink> and <InternalLink Ref="section-1-1-b">(b)</InternalLink> of <InternalLink Ref="section-1-1">subsection (1)</InternalLink>, the resources which may be used for a purpose specified in column 1 may exceed the amount specified in the corresponding entry in column 2 or (as the case may be) column 3 if—</Text>
+                              <P3 id="section-1-2-a">
+                                 <Pnumber>a</Pnumber>
+                                 <P3para>
+                                    <Text>in the case of resources other than accruing resources, the first condition is met,</Text>
+                                 </P3para>
+                              </P3>
+                              <P3 id="section-1-2-b">
+                                 <Pnumber>b</Pnumber>
+                                 <P3para>
+                                    <Text>in the case of accruing resources, the second condition is met.</Text>
+                                 </P3para>
+                              </P3>
+                           </P2para>
+                        </P2>
+                        <P2 id="section-1-3">
+                           <Pnumber>3</Pnumber>
+                           <P2para>
+                              <Text>The first condition is that the total resources (other than accruing resources) used in financial year 2022/23 for all purposes specified in column 1 does not exceed the total of the amounts specified in column 2.</Text>
+                           </P2para>
+                        </P2>
+                        <P2 id="section-1-4">
+                           <Pnumber>4</Pnumber>
+                           <P2para>
+                              <Text>The second condition is that the total accruing resources used in financial year 2022/23 for all purposes specified in column 1 does not exceed the total of the amounts specified in column 3.</Text>
+                           </P2para>
+                        </P2>
+                     </P1para>
+                  </P1>
+               </P1group>
+               <P1group>
+                  <Title>Direct-funded bodies</Title>
+                  <P1 id="section-2">
+                     <Pnumber>2</Pnumber>
+                     <P1para>
+                        <P2 id="section-2-1">
+                           <Pnumber>1</Pnumber>
+                           <P2para>
+                              <Text>A direct-funded body may use resources in financial year 2022/23 for the purposes specified in column 1 of <InternalLink Ref="schedule-2">schedule 2</InternalLink> in relation to the body.</Text>
+                           </P2para>
+                        </P2>
+                        <P2 id="section-2-2">
+                           <Pnumber>2</Pnumber>
+                           <P2para>
+                              <Text>Resources other than accruing resources may be used for those purposes up to the amounts specified in the corresponding entries in column 2 of that schedule.</Text>
+                           </P2para>
+                        </P2>
+                        <P2 id="section-2-3">
+                           <Pnumber>3</Pnumber>
+                           <P2para>
+                              <Text>Accruing resources may be used for those purposes up to the amounts specified in the corresponding entries in column 3 of that schedule.</Text>
+                           </P2para>
+                        </P2>
+                     </P1para>
+                  </P1>
+               </P1group>
+               <P1group>
+                  <Title>Borrowing by statutory bodies</Title>
+                  <P1 id="section-3">
+                     <Pnumber>3</Pnumber>
+                     <P1para>
+                        <Text>In <InternalLink Ref="schedule-3">schedule 3</InternalLink>, the amounts set out in column 2 are the amounts specified for financial year 2022/23 for the purposes of the enactments listed in the corresponding entries in column 1 (which make provision as to the net borrowing of the statutory bodies mentioned in that column).</Text>
+                     </P1para>
+                  </P1>
+               </P1group>
+            </Pblock>
+            <Pblock>
+               <Title>The Scottish Consolidated Fund</Title>
+               <P1group>
+                  <Title>Overall cash authorisations</Title>
+                  <P1 id="section-4">
+                     <Pnumber>4</Pnumber>
+                     <P1para>
+                        <P2 id="section-4-1">
+                           <Pnumber>1</Pnumber>
+                           <P2para>
+                              <Text>For the purposes of section 4(2) of the PFA Act 2000, the overall cash authorisations for financial year 2022/23 are as follows.</Text>
+                           </P2para>
+                        </P2>
+                        <P2 id="section-4-2">
+                           <Pnumber>2</Pnumber>
+                           <P2para>
+                              <Text>In relation to the Scottish Administration, £49,129,590,000.</Text>
+                           </P2para>
+                        </P2>
+                        <P2 id="section-4-3">
+                           <Pnumber>3</Pnumber>
+                           <P2para>
+                              <Text>In relation to the direct-funded bodies—</Text>
+                              <P3 id="section-4-3-a">
+                                 <Pnumber>a</Pnumber>
+                                 <P3para>
+                                    <Text>the Scottish Parliamentary Corporate Body, £112,240,000,</Text>
+                                 </P3para>
+                              </P3>
+                              <P3 id="section-4-3-b">
+                                 <Pnumber>b</Pnumber>
+                                 <P3para>
+                                    <Text>Audit Scotland, £11,297,000.</Text>
+                                 </P3para>
+                              </P3>
+                           </P2para>
+                        </P2>
+                     </P1para>
+                  </P1>
+               </P1group>
+               <P1group>
+                  <Title>Contingency payments</Title>
+                  <P1 id="section-5">
+                     <Pnumber>5</Pnumber>
+                     <P1para>
+                        <P2 id="section-5-1">
+                           <Pnumber>1</Pnumber>
+                           <P2para>
+                              <Text>
+                                 <InternalLink Ref="section-5">This section</InternalLink> applies where, in financial year 2022/23, it is proposed to pay out of the Scottish Consolidated Fund under section 65(1)(c) of the Scotland Act 1998—</Text>
+                              <P3 id="section-5-1-a">
+                                 <Pnumber>a</Pnumber>
+                                 <P3para>
+                                    <Text>for or in connection with expenditure of the Scottish Administration, a sum which does not fall within the amount specified in <InternalLink Ref="section-4">section 4</InternalLink>
+                                       <InternalLink Ref="section-4-2">(2)</InternalLink> in relation to it, or</Text>
+                                 </P3para>
+                              </P3>
+                              <P3 id="section-5-1-b">
+                                 <Pnumber>b</Pnumber>
+                                 <P3para>
+                                    <Text>for or in connection with expenditure of a direct-funded body, a sum which does not fall within the amount specified in <InternalLink Ref="section-4">section 4</InternalLink>
+                                       <InternalLink Ref="section-4-3">(3)</InternalLink> in relation to the body.</Text>
+                                 </P3para>
+                              </P3>
+                           </P2para>
+                        </P2>
+                        <P2 id="section-5-2">
+                           <Pnumber>2</Pnumber>
+                           <P2para>
+                              <Text>The sum may be paid out of the Fund only if its payment is authorised by the Scottish Ministers.</Text>
+                           </P2para>
+                        </P2>
+                        <P2 id="section-5-3">
+                           <Pnumber>3</Pnumber>
+                           <P2para>
+                              <Text>The Scottish Ministers may authorise payment of the sum only if they consider that—</Text>
+                              <P3 id="section-5-3-a">
+                                 <Pnumber>a</Pnumber>
+                                 <P3para>
+                                    <Text>the payment is necessarily required in the public interest to meet urgent expenditure for a purpose falling within section 65(2) of the Scotland Act 1998, and</Text>
+                                 </P3para>
+                              </P3>
+                              <P3 id="section-5-3-b">
+                                 <Pnumber>b</Pnumber>
+                                 <P3para>
+                                    <Text>it is not reasonably practicable, for reasons of urgency, to amend the overall cash authorisation by regulations under <InternalLink Ref="section-7">section 7</InternalLink>.</Text>
+                                 </P3para>
+                              </P3>
+                           </P2para>
+                        </P2>
+                        <P2 id="section-5-4">
+                           <Pnumber>4</Pnumber>
+                           <P2para>
+                              <Text>But the Scottish Ministers must not authorise payment of the sum if it would result in an excess of sums paid out of the Fund over sums paid into the Fund.</Text>
+                           </P2para>
+                        </P2>
+                        <P2 id="section-5-5">
+                           <Pnumber>5</Pnumber>
+                           <P2para>
+                              <Text>The aggregate amount of the sums which the Scottish Ministers may authorise to be paid out of the Fund under <InternalLink Ref="section-5">this section</InternalLink> must not exceed £50,000,000.</Text>
+                           </P2para>
+                        </P2>
+                        <P2 id="section-5-6">
+                           <Pnumber>6</Pnumber>
+                           <P2para>
+                              <Text>Where the Scottish Ministers authorise a payment under <InternalLink Ref="section-5">this section</InternalLink> they must, as soon as possible, lay before the Scottish Parliament a report setting out the circumstances of the authorisation and why they considered it to be necessary.</Text>
+                           </P2para>
+                        </P2>
+                     </P1para>
+                  </P1>
+               </P1group>
+            </Pblock>
+         </Part>
+         <Part id="part-2">
+            <Number>Part 2</Number>
+            <Title>Financial year 2023/24</Title>
+            <P1group>
+               <Title>Emergency arrangements</Title>
+               <P1 id="section-6">
+                  <Pnumber>6</Pnumber>
+                  <P1para>
+                     <P2 id="section-6-1">
+                        <Pnumber>1</Pnumber>
+                        <P2para>
+                           <Text>
+                              <InternalLink Ref="section-6">This section</InternalLink> applies if, at the beginning of financial year 2023/24, there is no overall cash authorisation for that year for the purposes of section 4(2) of the PFA Act 2000.</Text>
+                        </P2para>
+                     </P2>
+                     <P2 id="section-6-2">
+                        <Pnumber>2</Pnumber>
+                        <P2para>
+                           <Text>Until there is in force a Budget Act providing such authorisation, there is to be taken to be an overall cash authorisation for each calendar month of that year in relation to each of—</Text>
+                           <P3 id="section-6-2-a">
+                              <Pnumber>a</Pnumber>
+                              <P3para>
+                                 <Text>the Scottish Administration,</Text>
+                              </P3para>
+                           </P3>
+                           <P3 id="section-6-2-b">
+                              <Pnumber>b</Pnumber>
+                              <P3para>
+                                 <Text>the direct-funded bodies,</Text>
+                              </P3para>
+                           </P3>
+                           <Text>of an amount determined under <InternalLink Ref="section-6-3">subsection (3)</InternalLink>.</Text>
+                        </P2para>
+                     </P2>
+                     <P2 id="section-6-3">
+                        <Pnumber>3</Pnumber>
+                        <P2para>
+                           <Text>That amount is whichever is the greater of—</Text>
+                           <P3 id="section-6-3-a">
+                              <Pnumber>a</Pnumber>
+                              <P3para>
+                                 <Text>one-twelfth of the amount specified in <InternalLink Ref="section-4">section 4</InternalLink>
+                                    <InternalLink Ref="section-4-2">(2)</InternalLink> or <InternalLink Ref="section-4-3">(3)</InternalLink> in relation to the Scottish Administration or (as the case may be) the direct-funded body in question,</Text>
+                              </P3para>
+                           </P3>
+                           <P3 id="section-6-3-b">
+                              <Pnumber>b</Pnumber>
+                              <P3para>
+                                 <Text>the amount paid out of the Scottish Consolidated Fund under section 65(1)(c) of the Scotland Act 1998 in the corresponding calendar month of financial year 2022/23 for or in connection with expenditure of the Scottish Administration or (as the case may be) that direct-funded body.</Text>
+                              </P3para>
+                           </P3>
+                        </P2para>
+                     </P2>
+                     <P2 id="section-6-4">
+                        <Pnumber>4</Pnumber>
+                        <P2para>
+                           <Text>Section 4 of the PFA Act 2000 has effect accordingly.</Text>
+                        </P2para>
+                     </P2>
+                     <P2 id="section-6-5">
+                        <Pnumber>5</Pnumber>
+                        <P2para>
+                           <Text>
+                              <InternalLink Ref="section-6">This section</InternalLink> is subject to any provision made by a Budget Act for financial year 2023/24. </Text>
+                        </P2para>
+                     </P2>
+                  </P1para>
+               </P1>
+            </P1group>
+         </Part>
+         <Part id="part-3">
+            <Number>Part 3</Number>
+            <Title>Miscellaneous</Title>
+            <Pblock>
+               <Title>Amendment and repeal</Title>
+               <P1group>
+                  <Title>Budget revision regulations</Title>
+                  <P1 id="section-7">
+                     <Pnumber>7</Pnumber>
+                     <P1para>
+                        <P2 id="section-7-1">
+                           <Pnumber>1</Pnumber>
+                           <P2para>
+                              <Text>The Scottish Ministers may by regulations amend—</Text>
+                              <P3 id="section-7-1-a">
+                                 <Pnumber>a</Pnumber>
+                                 <P3para>
+                                    <Text>the amounts specified in <InternalLink Ref="section-4">section 4</InternalLink>
+                                       <InternalLink Ref="section-4-2">(2)</InternalLink> and <InternalLink Ref="section-4-3">(3)</InternalLink>,</Text>
+                                 </P3para>
+                              </P3>
+                              <P3 id="section-7-1-b">
+                                 <Pnumber>b</Pnumber>
+                                 <P3para>
+                                    <Text>
+                                       <Span>
+                                          <InternalLink Ref="schedule-1">schedules 1</InternalLink> to <InternalLink Ref="schedule-3">3</InternalLink>
+                                       </Span>.</Text>
+                                 </P3para>
+                              </P3>
+                           </P2para>
+                        </P2>
+                        <P2 id="section-7-2">
+                           <Pnumber>2</Pnumber>
+                           <P2para>
+                              <Text>Regulations under <InternalLink Ref="section-7">this section</InternalLink> are subject to the affirmative procedure.</Text>
+                           </P2para>
+                        </P2>
+                     </P1para>
+                  </P1>
+               </P1group>
+               <P1group>
+                  <Title>Repeal of spent provisions</Title>
+                  <P1 id="section-8">
+                     <Pnumber>8</Pnumber>
+                     <P1para>
+                        <Text>Part 2 (financial year 2022/23) of the Budget (Scotland) Act 2021 is repealed.</Text>
+                     </P1para>
+                  </P1>
+               </P1group>
+            </Pblock>
+            <Pblock>
+               <Title>Final provisions</Title>
+               <P1group>
+                  <Title>Interpretation</Title>
+                  <P1 id="section-9">
+                     <Pnumber>9</Pnumber>
+                     <P1para>
+                        <P2 id="section-9-1">
+                           <Pnumber>1</Pnumber>
+                           <P2para>
+                              <Text>In this Act, the “PFA Act 2000” means the Public Finance and Accountability (Scotland) Act 2000.</Text>
+                           </P2para>
+                        </P2>
+                        <P2 id="section-9-2">
+                           <Pnumber>2</Pnumber>
+                           <P2para>
+                              <Text>References in this Act to accruing resources in relation to the Scottish Administration or a direct-funded body are to such resources accruing to the Administration or (as the case may be) that body in financial year 2022/23.</Text>
+                           </P2para>
+                        </P2>
+                        <P2 id="section-9-3">
+                           <Pnumber>3</Pnumber>
+                           <P2para>
+                              <Text>References in this Act to the direct-funded bodies are to the bodies listed in <InternalLink Ref="section-4">section 4</InternalLink>
+                                 <InternalLink Ref="section-4-3">(3)</InternalLink> (and references to a direct-funded body are to either of those bodies).</Text>
+                           </P2para>
+                        </P2>
+                        <P2 id="section-9-4">
+                           <Pnumber>4</Pnumber>
+                           <P2para>
+                              <Text>Except where otherwise expressly provided, expressions used in this Act and in the PFA Act 2000 have the same meanings in this Act as they have in that Act.</Text>
+                           </P2para>
+                        </P2>
+                     </P1para>
+                  </P1>
+               </P1group>
+               <P1group>
+                  <Title>Commencement</Title>
+                  <P1 id="section-10">
+                     <Pnumber>10</Pnumber>
+                     <P1para>
+                        <Text>This Act comes into force on the day after Royal Assent.</Text>
+                     </P1para>
+                  </P1>
+               </P1group>
+               <P1group>
+                  <Title>Short title</Title>
+                  <P1 id="section-11">
+                     <Pnumber>11</Pnumber>
+                     <P1para>
+                        <Text>The short title of this Act is the Budget (Scotland) Act 2022.</Text>
+                     </P1para>
+                  </P1>
+               </P1group>
+            </Pblock>
+         </Part>
+      </Body>
+      <Schedules>
+         <Schedule id="schedule-1">
+            <Number>Schedule 1</Number>
+            <TitleBlock>
+               <Title>The Scottish Administration</Title>
+            </TitleBlock>
+            <Reference>(introduced by <InternalLink Ref="section-1">section 1</InternalLink>) </Reference>
+            <ScheduleBody>
+               <Tabular Orientation="portrait">
+                  <table xmlns="http://www.w3.org/1999/xhtml" cols="3">
+                     <thead>
+                        <tr>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>Purposes</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>Amount of resources, other than accruing resources (£)</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>Amount of accruing resources (£)</Text>
+                              </Para>
+                           </td>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>1. Through their Health and Social Care portfolio, for use by the Scottish Ministers on: operational and administrative costs; hospital and community health services; family health services, including local GP practices, pharmacy, dental and ophthalmic services; community care; mental health services; capital investment; health and social care integration outcomes framework; delivery of services by digital means and communication; care, support and rights; social care support; early years; other health and social care services; the Independent Living Fund Scotland; the Mental Welfare Commission; the Care Inspectorate; sportscotland; Active Healthy Lives.</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>18,039,849,000</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>3,000,000,000</Text>
+                              </Para>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>2. Through their Social Justice, Housing and Local Government portfolio, for use by the Scottish Ministers on: operational and administrative costs; financial support to local authorities, including the guaranteed combined general revenue grant and distributable non-domestic rates income; a general capital grant and other local authority revenue and capital grants for specific purposes, including the Transfer of the Management of Development Funding and the Vacant and Derelict Land Fund; housing support grant; other services, including discretionary payments under the Bellwin scheme covering floods, storms and other emergencies; funding to support research and the development and design of local taxation and local government governance; grant assistance and funding of strategic programmes to create the best conditions for the third sector and volunteering to thrive; building standards; housing subsidies and guarantees; repayment of debt and associated costs; other expenditure, contributions and grants relating to housing; activities relating to homelessness; research and publicity and other portfolio services; grants to local authorities and registered social landlords; loans to individuals; participatory budgeting; social justice activities, including tackling poverty and inequality with a particular focus on child poverty; grants and loans to organisations; funding for advice and advocacy services; funding to support the design, development and implementation of social security powers; funding for Social Security Scotland; funding for the Scottish Commission on Social Security; funding of payments of social security assistance; funding to tackle poverty; grant assistance; funding of strategic contracts; expenditure relating to equality and human rights issues, including grants to organisations; expenditure relating to tackling hate crime; expenditure relating to supporting people who are destitute, including refugees and asylum seekers; expenditure relating to community support, resilience and engagement.</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>16,044,168,000</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>90,000,000</Text>
+                              </Para>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>3. Through their Finance and the Economy portfolio, for use by the Scottish Ministers on: operational and administrative costs; the running and capital costs of the Scottish Public Pensions Agency; expenditure on committees, commissions and other portfolio services; expenditure on corporate and central services, including procurement and e-commerce; support for the running costs of Scottish Futures Trust Limited; digital strategy and economy; expenditure in relation to the Office of Chief Statistician; support for Growth Accelerator and Green Growth Accelerator programmes; regeneration programmes; planning; grant in aid for Scottish Enterprise, Highlands and Islands Enterprise and South of Scotland Enterprise; industry, innovation and technology/digital grants and support for low carbon economy; sundry enterprise-related activities; expenditure in relation to the running costs of the Office of the Chief Economic Adviser; the Enterprise and Skills Analytical Unit; grant in aid for the Scottish National Investment Bank; the Accountant in Bankruptcy; European Structural Fund grants to the Enterprise Networks, local authorities, further and higher education institutions, third sector bodies and other eligible bodies and organisations; costs of delivery and evaluation of European Structural Fund; funding for employment support, learning opportunities, workforce development and supporting fair work principles; consumer policy related spend; funding for City and Regional Growth Deals; support for Ferguson Marine; VisitScotland; tourism; digital and broadband connectivity; contributions and grants relating to regeneration; community-led regeneration; community engagement; community empowerment; support for inward trade and investment and exports.</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>1,537,996,000</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>400,000,000</Text>
+                              </Para>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>4. Through their Education and Skills portfolio, for use by the Scottish Ministers on: operational and administrative costs; schools; training and development of teachers; educational research, development and promotion; Scottish Attainment Challenge related programmes; provision of Pupil Equity Funding; supporting implementation of education reforms; the Gaelic language; Bòrd na Gàidhlig; Gaelic Media Service (MG Alba); the Scots language; funding of Education Scotland, Disclosure Scotland and Additional Support Needs Tribunals for Scotland; funding expansion of early learning and childcare; child protection and care for looked after and vulnerable children; youth justice and preventing offending by children and young people; secure care for children and young people; advocacy for children and young people; development of the social services workforce; supporting quality improvement and improvement science through the children and young people improvement collaborative; development of the community learning and development workforce; parenting and play; support for families with severely disabled children; early intervention funding for the third sector through the Children, Young People and Families Early Intervention and Adult Learning and Empowering Communities Fund; running costs of the Scottish Child Abuse Inquiry; running costs of the Care Review and implementation of The Promise; incorporation of the United Nations Convention on the Rights of the Child; implementation of Getting It Right For Every Child; financial redress for survivors of child abuse in care, including introduction and development of Redress Scotland; central government grants to local authorities; grant funding for the Scottish Credit and Qualifications Framework Partnership and Scottish Qualifications Authority accreditation; grant in aid for the Scottish Further and Higher Education Funding Council, Scottish Qualifications Authority (including qualifications delivery and development), Children's Hearings Scotland, Scottish Children's Reporter Administration and Scottish Social Services Council; grant in aid for Skills Development Scotland; administration funding for the Student Awards Agency Scotland (SAAS); funding administered by SAAS for fees, grants, bursaries, student loans and related costs of higher education student support; Enterprise in Education; activities associated with the Chief Scientific Adviser for Scotland and the promotion of science; international and other educational services; funding for international college and university activities; sundry lifelong learning activities, including community-based adult learning; funding activities for young people to develop skills in connection with training and work; funding for employment support programmes; the provision of Education Maintenance Allowances.</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>4,757,414,000</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>350,000,000</Text>
+                              </Para>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>5. Through their Justice and Veterans portfolio, for use by the Scottish Ministers on: operational and administrative costs; legal aid, including the running costs of the Scottish Legal Aid Board; criminal injuries compensation (including administration); support for victims and witnesses of crime, victims of human trafficking and addressing violence against women and girls; certain services relating to crime, including the Parole Board for Scotland; the Scottish Prison Service; the Scottish Criminal Cases Review Commission; the Risk Management Authority; the Scottish Police Authority and Police Investigations and Review Commissioner; additional police services; the running costs of inquiries and reviews; the Scottish Fire and Rescue Service; the payment of police and fire pensions; cyber resilience; central government grants to local authorities for criminal justice social work; measures to create safer and stronger communities, including Community Justice Scotland; miscellaneous services relating to the administration of justice; veterans; community justice services; court services, including judicial pensions; certain legal services; costs and fees in connection with legal proceedings; costs relating to the United Kingdom's withdrawal from the European Union, including work on the consequences for the Scottish legal system, and continued security, law enforcement and criminal justice co-operation.</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>2,989,712,000</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>39,700,000</Text>
+                              </Para>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>6. Through their Net Zero, Energy and Transport portfolio, for use by the Scottish Ministers on: operational and administrative costs; support for passenger rail services, rail infrastructure and associated rail services; support for the development and delivery of concessionary travel schemes; support for the bus industry; funding for major public transport projects; the running costs of Transport Scotland; funding for the Strategic Transport Projects Review; funding for travel information services and accessible travel; the maintenance and enhancement of the trunk road network; support for ferry services, loans and grants relating to vessel construction or procurement, grants for pier, harbour and other port infrastructure; support for Highlands and Islands Airports Limited; support and loans for investment in air services; funding for the Air Discount Scheme; support for the Tay Road Bridge Joint Board; support for the freight industry; support for Scottish Canals; funding to promote sustainable and active travel; funding and loans to support net-zero emissions and climate change transport initiatives; contributing to the running costs of Regional Transport Partnerships and other bodies associated with the transport sector; support for the Glasgow Subway Modernisation programme; funding for road safety; costs in relation to funding the office of the Scottish Road Works Commissioner; costs related to public inquiries; funding for domestic energy efficiency, insulation and refurbishment projects; funding for domestic and non-domestic energy-related activities; central government grants to local authorities; advisory, research and development services; action to prevent waste, improve recycling, reduce emissions from waste, tackle litter and deliver a circular economy strategy; botanical and scientific services; assistance to production, marketing and processing; administration, land management and other agricultural services; natural economy, including addressing biodiversity loss and peatland and nature restoration; environmental protection; other environmental expenditure; flood prevention; coastal protection; air quality monitoring; climate change activities, including the Land Managers’ Renewables Fund and Climate Justice Fund; funding for land reform and community ownership; Scottish Natural Heritage; the Scottish Environment Protection Agency; the National Park authorities; Royal Botanic Garden Edinburgh; the Scottish Land Commission; water grants, including to the Water Industry Commission for Scotland and funding for the Drinking Water Quality Regulator for Scotland; loans to Scottish Water and Scottish Water Business Stream Holdings Limited; Scottish Forestry; Forestry and Land Scotland; the promotion of forestry and land management, including advising on the development and delivery of forestry policy; regulating the forestry sector and supporting it through grants; managing Scotland’s national forests and land.</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>4,465,067,000</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>600,000,000</Text>
+                              </Para>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>7. Through their Rural Affairs and Islands portfolio, for use by the Scottish Ministers on: operational and administrative costs; market support, including grants in relation to agriculture and food and drink; support for agriculture in special areas, including grants for rural development; rural development generally; agri-environmental and farm woodland measures; compensation to sheep producers; animal health; agricultural education; agricultural support reform; administration of the European Maritime and Fisheries Fund and the emergency harbour grants scheme; rural affairs; support for crofting communities, including the crofting environment; funding for National Islands Plan related initiatives; core marine functions involving scientific research, compliance, policy and management of Scotland’s seas, representing Scotland’s interests in relation to common fisheries policy, international fisheries policy, international fisheries negotiation and aquaculture and freshwater policy, administration of all marine consents required for depositing substances at sea, coastal protection and offshore renewables and sponsorship of Crown Estate Scotland.</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>966,772,000</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>300,000,000</Text>
+                              </Para>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>8. Through their Constitution, External Affairs and Culture portfolio, for use by the Scottish Ministers on: operational and administrative costs; support for the arts, culture and creativity in Scotland; cultural and heritage organisations; the creative industries; central government grants to non-departmental public bodies, local authorities and other bodies and organisations; architecture; funding to support Royal and ceremonial activity; international and European relations; protecting Scotland’s place in Europe; development assistance.</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>298,399,000</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>200,000,000</Text>
+                              </Para>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>9. Through their Deputy First Minister and Covid Recovery portfolio, for use by the Scottish Ministers on: operational and administrative costs; running costs of Scottish Resilience, including supporting community resilience projects; funding to support electoral administration; funding of Boundaries Scotland; funding to support social research and analysis; funding to support implementation of extension of Freedom of Information legislation; costs associated with the functions of the Queen's Printer for Scotland; expenditure and grant assistance in relation to public service reform and efficiency.</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>42,843,000</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>Nil</Text>
+                              </Para>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>10. For use by the Lord Advocate, through the Crown Office and Procurator Fiscal Service, on: operational and administrative costs relating to the investigation and prosecution of crime and the investigation of deaths; operational and administrative costs in relation to functions in respect of extradition and mutual legal assistance; costs relating to the United Kingdom's withdrawal from the European Union, including work on the consequences for continued law enforcement and criminal justice co-operation; fees paid to Advocate Deputes, temporary procurators fiscal and ad hoc Advocate Deputes; witness expenses; victim expenses; other costs associated with Crown prosecutions and cases brought under the Proceeds of Crime Act 2002; for use by the Lord Advocate, through the Civil Recovery Unit, on: investigations and cases brought under the Proceeds of Crime Act 2002; and for use by the Crown Agent for the office of the Queen's and Lord Treasurer's Remembrancer (including special payments made in relation to intestate estates which fall to the Crown as ultimate heir).</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>180,900,000</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>2,000,000</Text>
+                              </Para>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>11. Through the National Records of Scotland, for use by the Scottish Ministers, the Registrar General of Births, Deaths and Marriages for Scotland and the Keeper of the Records of Scotland on: operational and administrative costs (including costs associated with running the ScotlandsPeople Centre and delivery of Scotland's Census).</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>59,561,000</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>9,800,000</Text>
+                              </Para>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>12. For use by the Office of the Scottish Charity Regulator on: operational and administrative costs.</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>3,430,000</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>Nil</Text>
+                              </Para>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>13. For use by the Scottish Housing Regulator on: operational and administrative costs.</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>5,334,000</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>Nil</Text>
+                              </Para>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>14. For use by the Scottish Courts and Tribunals Service on: operational and administrative costs.</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>133,543,000</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>46,000,000</Text>
+                              </Para>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>15. For use by the Scottish Fiscal Commission on: operational and administrative costs.</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>2,303,000</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>Nil</Text>
+                              </Para>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>16. For use by Revenue Scotland on: operational and administrative costs.</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>7,921,000</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>Nil</Text>
+                              </Para>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>17. For use by Food Standards Scotland on: operational and administrative costs, including research, monitoring and surveillance and public information and awareness relating to food safety, standards and improving diet; protecting the other interests of consumers in relation to food.</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>23,000,000</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>4,000,000</Text>
+                              </Para>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>18. For use by the Scottish Ministers on: pensions, allowances, gratuities etc. payable in respect of the teachers' and national health service pension schemes.</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>6,470,382,000</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>3,100,000,000</Text>
+                              </Para>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>19. For use by Registers of Scotland on: operational and administrative costs.</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>8,495,000</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>100,000,000</Text>
+                              </Para>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>20. For use by Environmental Standards Scotland on: operational and administrative costs. </Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>2,192,000</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>Nil</Text>
+                              </Para>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>
+                                    <Strong>Total amount of resources</Strong>
+                                 </Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>
+                                    <Strong>56,039,281,000</Strong>
+                                 </Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>
+                                    <Strong>8,241,500,000</Strong>
+                                 </Text>
+                              </Para>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </Tabular>
+            </ScheduleBody>
+         </Schedule>
+         <Schedule id="schedule-2">
+            <Number>Schedule 2</Number>
+            <TitleBlock>
+               <Title>Direct-funded bodies</Title>
+            </TitleBlock>
+            <Reference>(introduced by <InternalLink Ref="section-2">section 2</InternalLink>)</Reference>
+            <ScheduleBody>
+               <Tabular Orientation="portrait">
+                  <table xmlns="http://www.w3.org/1999/xhtml" cols="3">
+                     <thead>
+                        <tr>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>Purposes</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>Amount of resources, other than accruing resources (£)</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>Amount of accruing resources (£)</Text>
+                              </Para>
+                           </td>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>1. For use by the Scottish Parliamentary Corporate Body on: operational and administrative costs of the Scottish Parliament; payments in respect of the Commissioner for Ethical Standards in Public Life in Scotland, the Standards Commission for Scotland, the Scottish Public Services Ombudsman, the Scottish Information Commissioner, the Scottish Commission for Human Rights, the Commissioner for Children and Young People in Scotland, the Scottish Biometrics Commissioner and the devolved Scottish functions of the Electoral Commission; any other payments relating to the Scottish Parliament.</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>128,040,000</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>1,000,000</Text>
+                              </Para>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>2. For use by Audit Scotland on: the exercise of its functions, including assistance and support to the Auditor General for Scotland and the Accounts Commission for Scotland; other audit work for public bodies; payment of pensions to former Local Government Ombudsmen and their staff.</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>11,637,000</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>22,000,000</Text>
+                              </Para>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </Tabular>
+            </ScheduleBody>
+         </Schedule>
+         <Schedule id="schedule-3">
+            <Number>Schedule 3</Number>
+            <TitleBlock>
+               <Title>Borrowing by statutory bodies</Title>
+            </TitleBlock>
+            <Reference>(introduced by <InternalLink Ref="section-3">section 3</InternalLink>)</Reference>
+            <ScheduleBody>
+               <Tabular Orientation="portrait">
+                  <table xmlns="http://www.w3.org/1999/xhtml" cols="3">
+                     <thead>
+                        <tr>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>Enactment</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>Amount (£)</Text>
+                              </Para>
+                           </td>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>1. Section 25 of the Enterprise and New Towns (Scotland) Act 1990 (Scottish Enterprise).</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>10,000,000</Text>
+                              </Para>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>2. Section 26 of that Act (Highlands and Islands Enterprise).</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>1,000,000</Text>
+                              </Para>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>3. Section 48 of the Environment Act 1995 (Scottish Environment Protection Agency).</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>Nil</Text>
+                              </Para>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>4. Section 42B of the Water Industry (Scotland) Act 2002 (Scottish Water).</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>220,000,000</Text>
+                              </Para>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>5. Section 14 of the Water Services etc. (Scotland) Act 2005 (Scottish Water Business Stream Holdings Limited and any subsidiary of it within the meaning of section 1159 of the Companies Act 2006).</Text>
+                              </Para>
+                           </td>
+                           <td>
+                              <Para xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                 <Text>100,000,000</Text>
+                              </Para>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </Tabular>
+            </ScheduleBody>
+         </Schedule>
+      </Schedules>
+   </Primary>
+</Legislation>
