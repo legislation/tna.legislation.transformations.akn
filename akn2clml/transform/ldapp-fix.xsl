@@ -30,6 +30,12 @@
 	</xsl:message>
 </xsl:template>
 
+<xsl:template match="hcontainer[empty(child::node())]">
+	<xsl:message>
+		<xsl:text>removing empty hcontainer element</xsl:text>
+	</xsl:message>
+</xsl:template>
+
 <!-- ignore links within defined terms -->
 <xsl:template match="def//ref">
 	<xsl:apply-templates />

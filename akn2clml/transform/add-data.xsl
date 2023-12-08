@@ -78,6 +78,12 @@
 	<xsl:next-match />
 </xsl:template>
 
+<xsl:template match="ukl:ListItem[empty(child::node())]">
+	<xsl:message>
+		<xsl:text>removing empty ListItem element</xsl:text>
+	</xsl:message>
+</xsl:template>
+
 
 <!-- identity transform -->
 
