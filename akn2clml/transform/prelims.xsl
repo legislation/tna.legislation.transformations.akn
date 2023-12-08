@@ -356,8 +356,8 @@
 	</P>
 </xsl:template>
 
-<!-- this template is needed only to compensate for a Lawmaker bug -->
-<!-- presumably numbered paragraphs in the preamble should be wrapped in some way -->
+<!-- these two templates are needed only to compensate for a Lawmaker bug -->
+<!-- numbered items in a preamble should be wrapped in some sort of container -->
 <xsl:template match="preamble/tblock[@class='para1']" priority="1">
 	<P>
 		<xsl:variable name="decor" as="xs:string" select="local:get-decoration-from-numbered-things(.)" />
@@ -366,6 +366,15 @@
 		</OrderedList>
 	</P>
 </xsl:template>
+<xsl:template match="formula/tblock[@class='para1']" priority="1">
+	<Para>
+		<xsl:variable name="decor" as="xs:string" select="local:get-decoration-from-numbered-things(.)" />
+		<OrderedList Type="{ local:get-ordered-list-type-from-numbered-things(., $decor) }" Decoration="{ $decor }">
+			<xsl:next-match />
+		</OrderedList>
+	</Para>
+</xsl:template>
+
 <xsl:template match="preamble//tblock[@class='para1']">
 	<xsl:param name="context" as="xs:string*" tunnel="yes" />
 	<ListItem NumberOverride="{ local:strip-punctuation-from-number(num) }">

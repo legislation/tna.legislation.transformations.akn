@@ -159,11 +159,18 @@
 				<xsl:attribute name="Date">
 					<xsl:value-of select="substring(string($made-date), 1, 10)" />
 				</xsl:attribute>
-				<xsl:if test="$made-date instance of xs:dateTime">
-					<xsl:attribute name="Time">
-						<xsl:value-of select="xs:time($made-date)"/>
-					</xsl:attribute>
-				</xsl:if>
+				<xsl:choose>
+					<xsl:when test="$made-date instance of xs:dateTime">
+						<xsl:attribute name="Time">
+							<xsl:value-of select="xs:time($made-date)"/>
+						</xsl:attribute>
+					</xsl:when>
+					<xsl:when test="$made-date castable as xs:dateTime">
+						<xsl:attribute name="Time">
+							<xsl:value-of select="xs:time(xs:dateTime($made-date))"/>
+						</xsl:attribute>
+					</xsl:when>
+				</xsl:choose>
 			</Made>
 		</xsl:if>
 
