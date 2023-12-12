@@ -17,7 +17,7 @@
 <xsl:param name="default-publisher" as="xs:boolean" select="false()" />
 <xsl:param name="schemaLocation" as="xs:string?" select="()" />
 
-<xsl:output method="xml" version="1.0" encoding="utf-8" omit-xml-declaration="no" indent="yes" saxon:suppress-indentation="Text" />
+<xsl:output method="xml" version="1.0" encoding="utf-8" omit-xml-declaration="no" indent="yes" />
 
 <!-- add schemaLocation for eContent -->
 
