@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../schemas/akomantoso30.xsd">
+	<?DMS-Component componentId="b65d1ef4-2d90-43d9-9fcb-3caeaeac1ace" seriesId="277caa28-6683-460e-92b2-cd93c48580ca" versionNumber="0"?>
+	<bill contains="originalVersion" name="ukdsi">
+		<meta>
+			<?DMS-Component componentId="f76edbb9-0805-491c-8f42-3ac7007e8bac" seriesId="a2a204cf-1560-4b75-9c80-0ee2c3cca0a1" versionNumber="0"?>
+			<identification source="#ldapp">
+				<FRBRWork>
+					<FRBRthis value="#varWork"/>
+					<FRBRuri value="#varWorkUri"/>
+					<FRBRalias name="ttflConfigHistory" value="#varCHOiid"/>
+					<FRBRdate date="9999-01-01" name="ukdsi"/>
+					<FRBRauthor href="#varAuthor"/>
+					<FRBRcountry value="GB-SCT"/>
+					<FRBRsubtype value="#varDocSubType"/>
+					<FRBRnumber value="#varProjectId"/>
+					<FRBRname value="#varSITitle"/>
+					<FRBRprescriptive value="true"/>
+					<FRBRauthoritative value="false"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="#varExpression"/>
+					<FRBRuri value="#varExpressionUri"/>
+					<FRBRalias name="ttflVersionDescription" value="#varVDOiid"/>
+					<FRBRdate date="9999-01-01" name="draft"/>
+					<FRBRauthor href="#varAuthor"/>
+					<FRBRversionNumber value=""/>
+					<FRBRauthoritative value="false"/>
+					<FRBRmasterExpression href="" showAs=""/>
+					<FRBRlanguage language="eng"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="#varManifestation"/>
+					<FRBRuri value="#varManifestationUri"/>
+					<FRBRdate date="9999-01-01" name="akn_xml"/>
+					<FRBRauthor href="#varAuthor"/>
+					<FRBRformat value="application/akn+xml"/>
+				</FRBRManifestation>
+			</identification>
+			<references source="#author">
+				<TLCConcept GUID="_2a8a6447-20a4-4d21-95bc-fa705f201645" eId="varDocSubType" href="#varOntologies" showAs="Regulations"/>
+				<TLCConcept GUID="_ff49d663-72bd-4c0a-b0d0-083314b2ab49" eId="varSITitle" href="#varOntologies" showAs="The Counter-Terrorism and Security Act 2015 (Risk of Being Drawn into Terrorism) (Revised Guidance) Regulations 2023"/>
+				<TLCProcess GUID="_cf76eed0-c19f-4afc-bdef-5e574b6dc001" eId="varProcedureType" href="#varOntologies" showAs="Draft Affirmative"/>
+				<TLCProcess GUID="_70dc68f5-5d26-41fe-b153-c934293bc7e0" eId="varStageVersion" href="#varOntologies" showAs="1"/>
+				<TLCProcess GUID="_ac7ed22c-6495-4ee0-9119-5af3d7d4a8eb" eId="varProjectId" href="#varOntologies" showAs="SI000348"/>
+				<TLCProcess GUID="_e84efc90-4f89-4a99-b8cd-8312110810f8" eId="varWork" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_998c2a89-27cd-43af-a949-a30edb319808" eId="varWorkUri" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_329a4e39-7acf-418e-918b-780ec297cfca" eId="varCHOiid" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_b7819e99-2840-4085-82ea-29d3425cf9a5" eId="varExpression" href="#varOntologies" showAs="a1ddf82a-941a-460e-bd01-7945f1343ac5"/>
+				<TLCProcess GUID="_22b0ec29-e295-4d4a-ad5f-610057081c8b" eId="varExpressionUri" href="#varOntologies" showAs="dma:///45e6b900-8929-11d4-b772-0050da06bfb4/80742cea-0ebb-4cf6-9759-1e52358d9b5b/;guid=a1ddf82a-941a-460e-bd01-7945f1343ac5;class=Version%20Description"/>
+				<TLCProcess GUID="_1e07d3ce-a6ab-43c3-8ad5-f130a250ab80" eId="varVDOiid" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_058b74c7-be4f-4391-bd29-932d315a119d" eId="varManifestation" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_954e4556-ebe5-4e72-8fbe-db62ad055f87" eId="varManifestationUri" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_7a139f2b-81aa-438b-9e29-82c3f792837d" eId="varSIYear" href="#varOntologies" showAs="2023"/>
+				<TLCConcept GUID="_1c088fe7-93f0-47e3-9f1c-df9b834bd973" eId="varSINoComp" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_47872040-63e0-4870-804e-03970193f5f1" eId="varSINo" href="#varOntologies" showAs="#varSIYear No. #varSINoComp #varSISubsidiaryNos"/>
+				<TLCConcept GUID="_82dbc181-6160-4aba-8706-ff4fa261f683" eId="varSISubsidiaryNos" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_99950597-230a-4c7b-895c-0263d9e4bb17" eId="varISBN" href="#varOntologies" showAs=""/>
+				<TLCPerson GUID="_ab801a7e-19ac-495a-9230-3b266947e545" eId="varMinistryAgency" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_cefa428b-60df-4c77-8857-895f02d72ee6" eId="varDocType" href="#varOntologies" showAs="UKSI"/>
+				<TLCProcess GUID="_fb6dda62-5413-4c2b-8d58-690b397ff872" eId="varSystem" href="#varOntologies" showAs="LDAPP"/>
+				<TLCOrganization GUID="_96bd4bff-3353-4e3c-85e1-3d8307e69095" eId="varAuthor" href="#varOntologies" showAs="UK Government"/>
+				<TLCLocation GUID="_2c670d48-6854-430e-8924-8c65523ac4da" eId="varJurisdiction" href="#varOntologies" showAs="United Kingdom"/>
+				<TLCConcept GUID="_d7de482c-280f-4b88-8c0f-ddbbd34704c6" eId="varOntologies" href="https://www.legislation.gov.uk/ontologies/UK-AKN" showAs="https://www.legislation.gov.uk/ontologies/UK-AKN"/>
+				<TLCConcept GUID="_cdb081c7-7965-46da-9452-16312c37af25" eId="varCommenceDate" href="#varOntologies" showAs="2023-12-31T00:00:00.000"/>
+			</references>
+		</meta>
+		<preface GUID="_7e5a6511-e787-4b14-942d-ff0d7f440e0c" eId="fnt">
+			<?DMS-Component componentId="d7037ce7-4753-4614-a086-9376a2f4c184" seriesId="12e40a78-9345-4314-93f8-617a022b57f5" versionNumber="0"?>
+			<block GUID="_4e479e97-0825-41bb-9dd8-c82655aa045e" eId="fnt__rubric" name="proceduralRubric">Draft <ref class="placeholder" href="#varDocSubType"/> laid before Parliament under section 29(5) and (7) of the Counter-Terrorism and Security Act 2015 (c. 6), for approval by resolution of each House of Parliament.</block>
+			<block GUID="_ecf4617f-5e7d-4db0-bda8-b99639e63e3b" eId="fnt__banner" name="banner">DRAFT STATUTORY INSTRUMENTS</block>
+			<block GUID="_d93116e5-1061-4ae0-8574-d37c60f0210f" eId="fnt__no" name="number">
+				<docNumber GUID="_1f5e0584-5d72-4347-b147-f67fcf9af653" eId="fnt__no__dno"> <ref class="placeholder" href="#varSINo"/> </docNumber>
+			</block>
+			<container name="subjects">
+				<container GUID="_a5f3157d-1fb0-49e6-b17e-f8c6a4e7c2b4" eId="fnt__subject" name="subject">
+					<block name="subject"><concept class="title" refersTo="">PREVENTION AND SUPPRESSION OF TERRORISM</concept></block>
+				</container>
+			</container>
+			<block GUID="_0eb71ce6-0ef0-4303-be58-1bdca074806c" eId="fnt__st" name="title"><docTitle GUID="_3b4881c6-480e-4f2f-8633-f167ef22f80f" eId="fnt__st__dtitle"> <ref class="placeholder" href="#varSITitle"/> </docTitle> </block>
+			<container GUID="_05ef0386-e88d-4576-bb55-19ad694ce9df" eId="fnt__dates" name="dates">
+				<block GUID="_6163ba6f-4abd-451f-8116-bbb4664ffc74" eId="fnt__dates__madeDateDescription" name="madeDate"><span>Made</span></block>
+				<block GUID="_91264f0b-17ed-4a62-a0aa-c7ad4300b76b" eId="fnt__dates__commenceDate" name="commenceDate"><span>Coming into force</span><docDate GUID="_1ebe5279-4f16-4dc1-9f23-3a3bffc52694" date="2023-12-31T00:00:00.000" eId="fnt__dates__commenceDate__ddate"><ref class="placeholder" href="#varCommenceDate" ukl:dateFormat="d'th' MMMM yyyy">31st December 2023</ref></docDate></block>
+			</container>
+		</preface>
+		<preamble GUID="_a070d59f-2c23-407d-bb46-2678e92db070" eId="preamble">
+			<?DMS-Component componentId="6b66f3f3-5b2a-4db7-8e17-52c47db98925" seriesId="b3435c13-25b3-4a96-85ad-fd00baa0dafa" versionNumber="0"?>
+			<formula GUID="_64365b2f-1ffc-4fe4-bdb6-4d1982e9edde" eId="preamble__enactingWords" name="enactingText">
+				<p>The Secretary of State makes these <ref class="placeholder" href="#varDocSubType"/> in exercise of the powers conferred by section 29(5) and (7) of the Counter-Terrorism and Security Act 2015 (“the Act”)<authorialNote GUID="_49063303-8f6a-4a07-a5f4-2b03ef85966a" class="footnote" eId="fnote_1" marker="1">
+					<p>2015 c. 6; Part 5 of the Act was amended by the Counter-Terrorism and Security Act 2015 (Risk of Being Drawn into Terrorism) (Amendment and Guidance) Regulations 2015 (S.I. 2015/928).</p>
+					</authorialNote>.</p>
+				<p>The Secretary of State has consulted in accordance with section 29(4) of the Act.</p>
+				<p>In accordance with section 29(5) and (7) of the Act, a draft of these Regulations was laid before Parliament and approved by a resolution of each House of Parliament.</p>
+				<p/>
+			</formula>
+		</preamble>
+		<body>
+			<?DMS-Component componentId="6736dc31-e084-472a-bc04-daeb3981e2d1" seriesId="8356b2eb-4f66-4015-8cb7-ba2e6ad08255" versionNumber="0"?>
+			<hcontainer GUID="_738cd2db-72ed-474c-913f-21b77c49f911" class="prov1" eId="reg_1" name="regulation">
+				<?DMS-Component componentId="fd6530f3-5319-4926-b4fd-97ed9f307cd2" seriesId="b36406e7-5248-4689-94da-62e5dce2e7c7" versionNumber="0"?>
+				<heading GUID="_90c2fac9-a05a-44b2-b4db-44e18a915ff5" eId="reg_1__hdg">Citation, commencement and extent</heading>
+				<num>1.</num>
+				<paragraph GUID="_80457263-1b38-4850-8d4b-14eb2a6a76e7" class="prov2" eId="reg_1__para_1">
+					<num>(1)</num>
+					<content>
+						<p>These Regulations may be cited as the Counter-Terrorism and Security Act 2015 (Risk of Being Drawn into Terrorism) (Revised Guidance) Regulations 2023.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_91a03b2a-c94f-4789-927c-55a474346cd2" class="prov2" eId="reg_1__para_2">
+					<num>(2)</num>
+					<content>
+						<p>These Regulations come into force on 31st December 2023.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_7fbd74e5-5130-4824-a39e-5a52be6f8074" class="prov2" eId="reg_1__para_3">
+					<num>(3)</num>
+					<content>
+						<p>These Regulations extend to England and Wales and Scotland.</p>
+					</content>
+				</paragraph>
+			</hcontainer>
+			<hcontainer GUID="_9c396638-e009-480d-b28b-51bae01b0ce5" class="prov1" eId="reg_2" name="regulation">
+				<?DMS-Component componentId="d8f5cfe8-a2cd-4310-91a0-1fa49863060e" seriesId="70824657-eded-45b6-a38b-5be3eb717981" versionNumber="0"?>
+				<heading GUID="_ad39ca8b-8325-4a46-b557-8d4a14950908" eId="reg_2__hdg">Revised guidance under section 29</heading>
+				<num>2.</num>
+				<content>
+					<p>The “Prevent duty guidance: Guidance for specified authorities in England and Wales” issued by the Secretary of State on 7th September 2023 in accordance with section 29(6) of the Counter-Terrorism and Security Act 2015 takes effect on the day on which this regulation comes into force.</p>
+				</content>
+			</hcontainer>
+			<hcontainer GUID="_9747133b-08c8-4548-ae0f-2a81262c3481" eId="sigs" name="signatures">
+				<?DMS-Component componentId="15176196-064d-4390-afde-3f4a2938183f" seriesId="d44f346b-d2b1-4de1-bd36-25212318a256" versionNumber="0"?>
+				<hcontainer GUID="_623211c5-1bb6-4549-8634-482c5f184002" eId="sigs__sigBlk" name="signatureBlock">
+					<content>
+						<block GUID="_d8b4b172-269f-4b50-85e2-efdff8bac68a" eId="sigs__sigBlk__sig" name="signature"/>
+						<block GUID="_26140aad-139c-4e45-a5eb-4294bcbee739" eId="sigs__sigBlk__role" name="role">Minister of State</block>
+						<block GUID="_7a3463b5-c25f-4d18-8dc8-b56d30058e57" eId="sigs__sigBlk__org" name="organization">Home Office</block>
+					</content>
+				</hcontainer>
+			</hcontainer>
+		</body>
+		<conclusions GUID="_07f79890-9887-4d9c-9f48-cefdcb1e18b7" eId="backCover">
+			<?DMS-Component componentId="563fb422-3eb1-403e-adf1-3ed3b50ec7a3" seriesId="4f7b84e3-7baa-4558-94c6-6a089f892676" versionNumber="0"?>
+			<blockContainer GUID="_6a6e7d4b-446e-46eb-a02e-73f546436592" class="explanatoryNote" eId="backCover__explNote">
+				<heading GUID="_8da2e387-c0c3-4161-b0f2-c29b6bd9c080" eId="backCover__explNote__hdg">Explanatory Note</heading>
+				<subheading GUID="_a2dc5340-eb03-4036-bb0d-e8525d3a4a12" eId="backCover__explNote__subhdg">(This note is not part of the <ref class="placeholder" href="#varDocSubType"/>)</subheading>
+				<p>These Regulations bring into effect revised statutory guidance for England and Wales about the exercise by specified authorities listed at Schedule 6 to the Counter-Terrorism and Security Act 2015 (c. 6) (“the Act”) of their duty under section 26(1) of the Act. The revised guidance replaces such guidance as came into effect for specified authorities in England and Wales on 18th September 2015 (S.I. 2015/1697).</p>
+				<p/>
+				<p>The revised guidance was issued by the Secretary of State on 7th September 2023 in accordance with section 29(6) of the Act. It was laid before Parliament with the draft of these Regulations laid in accordance with section 29(5) and (7) of the Act on the same date. The revised guidance is available on the gov.uk website and a copy may be requested from Homeland Security Group at the Home Office, 2 Marsham Street, London SW1P 4DF or by e-mail to PreventDutyGuidance1@homeoffice.gov.uk.</p>
+				<p/>
+				<p/>
+				<p>A full impact assessment has not been produced for this instrument as no, or no significant, impact on the private or voluntary sectors or community bodies is foreseen.</p>
+			</blockContainer>
+		</conclusions>
+	</bill>
+</akomaNtoso>
