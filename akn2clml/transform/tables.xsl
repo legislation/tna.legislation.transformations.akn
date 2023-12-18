@@ -81,7 +81,7 @@
 			<xsl:with-param name="context" select="('table', $context)" tunnel="yes" />
 		</xsl:apply-templates>
 	</xsl:copy>
->>>>>>> develop
+
 </xsl:template>
 
 <xsl:template match="html:tbody[1]">
