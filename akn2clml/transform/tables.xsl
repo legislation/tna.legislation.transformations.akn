@@ -6,9 +6,10 @@
 	xpath-default-namespace="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
 	xmlns="http://www.legislation.gov.uk/namespaces/legislation"
 	xmlns:ukl="http://www.legislation.gov.uk/namespaces/legislation"
+	xmlns:uk="https://www.legislation.gov.uk/namespaces/UK-AKN"
 	xmlns:html="http://www.w3.org/1999/xhtml"
 	xmlns:local="http://www.jurisdatum.com/tna/akn2clml"
-	exclude-result-prefixes="xs ukl html local">
+	exclude-result-prefixes="xs ukl uk html local">
 
 <xsl:template match="tblock[@class=('table','tabular')] | tblock[foreign/html:table]">
 	<xsl:param name="context" as="xs:string*" tunnel="yes" />
@@ -66,6 +67,21 @@
 			<xsl:next-match />
 		</xsl:otherwise>
 	</xsl:choose>
+
+<xsl:template match="html:table[exists(@uk:templateColumns)]">
+	<xsl:param name="context" as="xs:string*" tunnel="yes" />
+	<xsl:variable name="widths" as="xs:string*" select="tokenize(normalize-space(@uk:templateColumns), ' ')" />
+	<xsl:copy copy-namespaces="no">
+		<colgroup xmlns="http://www.w3.org/1999/xhtml">
+			<xsl:for-each select="$widths">
+				<col xmlns="http://www.w3.org/1999/xhtml" width="{ . }%" />
+			</xsl:for-each>
+		</colgroup>
+		<xsl:apply-templates>
+			<xsl:with-param name="context" select="('table', $context)" tunnel="yes" />
+		</xsl:apply-templates>
+	</xsl:copy>
+>>>>>>> develop
 </xsl:template>
 
 <xsl:template match="html:tbody[1]">
