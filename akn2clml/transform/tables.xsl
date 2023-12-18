@@ -67,6 +67,7 @@
 			<xsl:next-match />
 		</xsl:otherwise>
 	</xsl:choose>
+</xsl:template>
 
 <xsl:template match="html:table[exists(@uk:templateColumns)]">
 	<xsl:param name="context" as="xs:string*" tunnel="yes" />
@@ -81,7 +82,6 @@
 			<xsl:with-param name="context" select="('table', $context)" tunnel="yes" />
 		</xsl:apply-templates>
 	</xsl:copy>
-
 </xsl:template>
 
 <xsl:template match="html:tbody[1]">
