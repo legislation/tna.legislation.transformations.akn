@@ -1,0 +1,1203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Legislation xmlns="http://www.legislation.gov.uk/namespaces/legislation"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             SchemaVersion="2.0"
+             xsi:schemaLocation="http://www.legislation.gov.uk/namespaces/legislation http://www.legislation.gov.uk/schema/legislation.xsd">
+   <Metadata xmlns="http://www.legislation.gov.uk/namespaces/metadata"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <dc:identifier>http://www.legislation.gov.uk/id/uksi/2023/586</dc:identifier>
+      <dc:title>The Competition Act 1998 (Motor Vehicle Agreements Block Exemption) (No. 2) Order 2023</dc:title>
+      <dc:modified>2023-12-18</dc:modified>
+      <SecondaryMetadata>
+         <DocumentClassification>
+            <DocumentCategory Value="secondary"/>
+            <DocumentMainType Value="UnitedKingdomStatutoryInstrument"/>
+            <DocumentStatus Value="final"/>
+            <DocumentMinorType Value="order"/>
+         </DocumentClassification>
+         <Year Value="2023"/>
+         <Number Value="586"/>
+         <Made Date="2023-05-26" Time="00:00:00"/>
+         <Laid Date="2023-05-30" Time="00:00:00" Class="UnitedKingdomParliament"/>
+      </SecondaryMetadata>
+   </Metadata>
+   <Secondary>
+      <SecondaryPrelims>
+         <Number> 2023 No. 586  </Number>
+         <SubjectInformation>
+            <Subject>
+               <Title>COMPETITION</Title>
+            </Subject>
+         </SubjectInformation>
+         <Title> The Competition Act 1998 (Motor Vehicle Agreements Block Exemption) (No. 2) Order 2023 </Title>
+         <MadeDate>
+            <Text>Made</Text>
+            <DateText>26th May 2023</DateText>
+         </MadeDate>
+         <LaidDate>
+            <Text>Laid before Parliament</Text>
+            <DateText>30th May 2023</DateText>
+         </LaidDate>
+         <ComingIntoForce>
+            <Text>Coming into force in accordance with article 1(2) and (3)</Text>
+         </ComingIntoForce>
+         <SecondaryPreamble>
+            <EnactingText>
+               <Para>
+                  <Text>The Competition and Markets Authority has recommended that the Secretary of State make an order specifying certain categories of agreements relating to the motor vehicle aftermarket for the purposes of section 6 of the Competition Act 1998<FootnoteRef Ref="f00001"/> (“the Act”).</Text>
+               </Para>
+               <Para>
+                  <Text>In accordance with section 8(1) of the Act<FootnoteRef Ref="f00002"/>, before making the recommendation, the Competition and Markets Authority published details of the proposed recommendation and considered the representations about it which were made to it<FootnoteRef Ref="f00003"/>.</Text>
+               </Para>
+               <Para>
+                  <Text>The Secretary of State has decided to give effect to the recommendation without modifications and makes this Order in exercise of the powers conferred by sections 6(2)(a), (5), (6) and (7) and 71(3) of the Act.</Text>
+               </Para>
+               <Para>
+                  <Text>The Secretary of State has complied with section 8(5) of the Act<FootnoteRef Ref="f00004"/> in relation to the revocation of the Competition Act 1998 (Motor Vehicle Agreements Block Exemption) Order 2023<FootnoteRef Ref="f00005"/> by this Order.</Text>
+               </Para>
+            </EnactingText>
+         </SecondaryPreamble>
+      </SecondaryPrelims>
+      <Body>
+         <P1group>
+            <Title>Citation, commencement and extent</Title>
+            <P1 id="article-1">
+               <Pnumber>1</Pnumber>
+               <P1para>
+                  <P2 id="article-1-1">
+                     <Pnumber>1</Pnumber>
+                     <P2para>
+                        <Text>This Order may be cited as the Competition Act 1998 (Motor Vehicle Agreements Block Exemption) (No. 2) Order 2023.</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="article-1-2">
+                     <Pnumber>2</Pnumber>
+                     <P2para>
+                        <Text>This article and article 14 (revocation of S.I. 2023/501) come into force on 31st May 2023.</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="article-1-3">
+                     <Pnumber>3</Pnumber>
+                     <P2para>
+                        <Text>The remainder of this Order comes into force on 1st June 2023.</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="article-1-4">
+                     <Pnumber>4</Pnumber>
+                     <P2para>
+                        <Text>This Order extends to England and Wales, Scotland and Northern Ireland.</Text>
+                     </P2para>
+                  </P2>
+               </P1para>
+            </P1>
+         </P1group>
+         <P1group>
+            <Title>Interpretation</Title>
+            <P1 id="article-2">
+               <Pnumber>2</Pnumber>
+               <P1para>
+                  <P2 id="article-2-1">
+                     <Pnumber>1</Pnumber>
+                     <P2para>
+                        <Text>In this Order—</Text>
+                        <UnorderedList Class="Definition" Decoration="none">
+                           <ListItem>
+                              <Para>
+                                 <Text>“<Term>aftermarket goods</Term>” means—</Text>
+                                 <OrderedList Type="alpha" Decoration="parens">
+                                    <ListItem>
+                                       <Para>
+                                          <Text>spare parts,</Text>
+                                       </Para>
+                                    </ListItem>
+                                    <ListItem>
+                                       <Para>
+                                          <Text>any software required to repair or replace a part or system of a motor vehicle, but which is not a spare part,</Text>
+                                       </Para>
+                                    </ListItem>
+                                    <ListItem>
+                                       <Para>
+                                          <Text>any code or other information necessary for the use of software falling within paragraph (a) or (b), and</Text>
+                                       </Para>
+                                    </ListItem>
+                                    <ListItem>
+                                       <Para>
+                                          <Text>fluids used in the braking system, steering system, engine or elsewhere in a motor vehicle as a coolant, lubricant, cleaner or otherwise, in so far as the fluids are necessary for the effective operation of the motor vehicle, but not fuel;</Text>
+                                       </Para>
+                                    </ListItem>
+                                 </OrderedList>
+                              </Para>
+                           </ListItem>
+                           <ListItem>
+                              <Para>
+                                 <Text>“<Term>agreement</Term>” includes a concerted practice but not a decision by an association of undertakings<FootnoteRef Ref="f00006"/>;</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem>
+                              <Para>
+                                 <Text>“<Term>authorised distributor</Term>”, in relation to motor vehicles of a particular make, means a person who—</Text>
+                                 <OrderedList Type="alpha" Decoration="parens">
+                                    <ListItem>
+                                       <Para>
+                                          <Text>distributes aftermarket goods for such vehicles, and</Text>
+                                       </Para>
+                                    </ListItem>
+                                    <ListItem>
+                                       <Para>
+                                          <Text>operates within the distribution system set up by a supplier of such vehicles;</Text>
+                                       </Para>
+                                    </ListItem>
+                                 </OrderedList>
+                              </Para>
+                           </ListItem>
+                           <ListItem>
+                              <Para>
+                                 <Text>“<Term>authorised repairer</Term>”, in relation to motor vehicles of a particular make, means a person who has entered into contractual arrangements with a supplier of such vehicles for the purposes of providing repair and maintenance services for such vehicles;</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem>
+                              <Para>
+                                 <Text>“<Term>the block exemption</Term>”, in relation to the category of agreements specified in this Order, means the exemption from the Chapter 1 prohibition<FootnoteRef Ref="f00007"/> arising by virtue of this Order;</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem>
+                              <Para>
+                                 <Text>“<Term>connected undertaking</Term>”, in relation to a party to an agreement, means—</Text>
+                                 <OrderedList Type="alpha" Decoration="parens">
+                                    <ListItem>
+                                       <Para>
+                                          <Text>an undertaking in relation to which the party to the agreement, directly or indirectly—</Text>
+                                       </Para>
+                                       <OrderedList Type="roman" Decoration="parens">
+                                          <ListItem>
+                                             <Para>
+                                                <Text>has the power to exercise more than half the voting rights,</Text>
+                                             </Para>
+                                          </ListItem>
+                                          <ListItem>
+                                             <Para>
+                                                <Text>has the power to appoint more than half the members of the supervisory board, board of management or bodies legally representing the undertaking, or</Text>
+                                             </Para>
+                                          </ListItem>
+                                          <ListItem>
+                                             <Para>
+                                                <Text>has the right to manage the undertaking’s affairs,</Text>
+                                             </Para>
+                                          </ListItem>
+                                       </OrderedList>
+                                    </ListItem>
+                                    <ListItem>
+                                       <Para>
+                                          <Text>an undertaking which directly or indirectly has, in relation to the party to the agreement, any of the rights or powers listed in paragraph (a),</Text>
+                                       </Para>
+                                    </ListItem>
+                                    <ListItem>
+                                       <Para>
+                                          <Text>an undertaking in relation to which an undertaking referred to in paragraph (b) has, directly or indirectly, any of the rights or powers listed in paragraph (a),</Text>
+                                       </Para>
+                                    </ListItem>
+                                    <ListItem>
+                                       <Para>
+                                          <Text>an undertaking in relation to which the party to the agreement, together with one or more undertakings referred to in paragraph (a), (b) or (c), or in relation to which two or more undertakings referred to in paragraph (b) or (c), jointly have any of the rights or powers listed in paragraph (a), and</Text>
+                                       </Para>
+                                    </ListItem>
+                                    <ListItem>
+                                       <Para>
+                                          <Text>an undertaking in relation to which any of the rights or the powers listed in paragraph (a) are jointly held by—</Text>
+                                       </Para>
+                                       <OrderedList Type="roman" Decoration="parens">
+                                          <ListItem>
+                                             <Para>
+                                                <Text>two or more parties to the agreement or their respective connected undertakings referred to in paragraphs (a) to (d), or</Text>
+                                             </Para>
+                                          </ListItem>
+                                          <ListItem>
+                                             <Para>
+                                                <Text>one or more of the parties to the agreement or one or more of their respective connected undertakings referred to in paragraphs (a) to (d) and one or more third parties;</Text>
+                                             </Para>
+                                          </ListItem>
+                                       </OrderedList>
+                                    </ListItem>
+                                 </OrderedList>
+                              </Para>
+                           </ListItem>
+                           <ListItem>
+                              <Para>
+                                 <Text>“<Term>distribution system</Term>” means a system for distributing motor vehicles of a particular make;</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem>
+                              <Para>
+                                 <Text>“<Term>goods</Term>” includes software and information;</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem>
+                              <Para>
+                                 <Text>“<Term>independent distributor</Term>”, in relation to motor vehicles of a particular make, means a person who—</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem>
+                              <OrderedList Type="alpha" Decoration="parens">
+                                 <ListItem>
+                                    <Para>
+                                       <Text>distributes aftermarket goods for such vehicles, and</Text>
+                                    </Para>
+                                 </ListItem>
+                                 <ListItem>
+                                    <Para>
+                                       <Text>is not an authorised distributor;</Text>
+                                    </Para>
+                                 </ListItem>
+                              </OrderedList>
+                           </ListItem>
+                           <ListItem>
+                              <Para>
+                                 <Text>“<Term>independent repairer</Term>”, in relation to motor vehicles of a particular make, means a person who—</Text>
+                                 <OrderedList Type="alpha" Decoration="parens">
+                                    <ListItem>
+                                       <Para>
+                                          <Text>provides repair and maintenance services for such vehicles, and</Text>
+                                       </Para>
+                                    </ListItem>
+                                    <ListItem>
+                                       <Para>
+                                          <Text>is not an authorised repairer;</Text>
+                                       </Para>
+                                    </ListItem>
+                                 </OrderedList>
+                              </Para>
+                           </ListItem>
+                           <ListItem>
+                              <Para>
+                                 <Text>“<Term>motor vehicle</Term>” means a self-propelled vehicle intended for use on public roads and having three or more road wheels;</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem>
+                              <Para>
+                                 <Text>“<Term>MVA agreement</Term>” has the meaning given in article 3(2);</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem>
+                              <Para>
+                                 <Text>“<Term>original part</Term>” means a component of a motor vehicle which is, or is intended to be, installed in or on a motor vehicle for the purpose of the initial assembly of a motor vehicle, and includes software;</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem>
+                              <Para>
+                                 <Text>“<Term>part</Term>”, in relation to a motor vehicle, means an original part or spare part;</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem>
+                              <Para>
+                                 <Text>“<Term>repair and maintenance services</Term>” means repair and maintenance services in respect of motor vehicles, and includes diagnostic services (whether on site or remote), replacing a part or system of a motor vehicle, servicing or inspecting a motor vehicle, software updates, and testing a vehicle for road worthiness;</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem>
+                              <Para>
+                                 <Text>“<Term>repair and maintenance tool</Term>” means a tool used for repair and maintenance services;</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem>
+                              <Para>
+                                 <Text>“<Term>spare part</Term>” means a component of a motor vehicle which is, or is intended to be, installed in or on a motor vehicle to replace an original part, and includes software;</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem>
+                              <Para>
+                                 <Text>“<Term>supplier</Term>” means—</Text>
+                                 <OrderedList Type="alpha" Decoration="parens">
+                                    <ListItem>
+                                       <Para>
+                                          <Text>in relation to goods not falling within paragraph (b) or (c)—</Text>
+                                       </Para>
+                                       <OrderedList Type="roman" Decoration="parens">
+                                          <ListItem>
+                                             <Para>
+                                                <Text>the manufacturer of the goods, or</Text>
+                                             </Para>
+                                          </ListItem>
+                                          <ListItem>
+                                             <Para>
+                                                <Text>an importer of the goods into the United Kingdom;</Text>
+                                             </Para>
+                                          </ListItem>
+                                       </OrderedList>
+                                    </ListItem>
+                                    <ListItem>
+                                       <Para>
+                                          <Text>in relation to software which is a part of a motor vehicle or is, or is intended to be, installed in a repair and maintenance tool, and any information required to use that software—</Text>
+                                       </Para>
+                                       <OrderedList Type="roman" Decoration="parens">
+                                          <ListItem>
+                                             <Para>
+                                                <Text>the developer of the software,</Text>
+                                             </Para>
+                                          </ListItem>
+                                          <ListItem>
+                                             <Para>
+                                                <Text>a person who transfers the software by electronic means into the United Kingdom,</Text>
+                                             </Para>
+                                          </ListItem>
+                                          <ListItem>
+                                             <Para>
+                                                <Text>the manufacturer of the goods into which the software is, or is to be, installed, or</Text>
+                                             </Para>
+                                          </ListItem>
+                                          <ListItem>
+                                             <Para>
+                                                <Text>an importer into the United Kingdom of the goods into which the software is, or is to be, installed;</Text>
+                                             </Para>
+                                          </ListItem>
+                                       </OrderedList>
+                                    </ListItem>
+                                    <ListItem>
+                                       <Para>
+                                          <Text>in relation to any other software used for repair and maintenance purposes, and any information required to use that software—</Text>
+                                       </Para>
+                                       <OrderedList Type="roman" Decoration="parens">
+                                          <ListItem>
+                                             <Para>
+                                                <Text>the developer of the software, or</Text>
+                                             </Para>
+                                          </ListItem>
+                                          <ListItem>
+                                             <Para>
+                                                <Text>a person who transfers the software by electronic means into the United Kingdom;</Text>
+                                             </Para>
+                                          </ListItem>
+                                       </OrderedList>
+                                    </ListItem>
+                                 </OrderedList>
+                              </Para>
+                           </ListItem>
+                           <ListItem>
+                              <Para>
+                                 <Text>“<Term>system</Term>”, in relation to a motor vehicle, means an assembly of parts combined to perform one or more functions in a motor vehicle;</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem>
+                              <Para>
+                                 <Text>“<Term>the VABEO</Term>” means the Competition Act 1998 (Vertical Agreements Block Exemption) Order 2022<FootnoteRef Ref="f00008"/>.</Text>
+                              </Para>
+                           </ListItem>
+                        </UnorderedList>
+                     </P2para>
+                  </P2>
+                  <P2 id="article-2-2">
+                     <Pnumber>2</Pnumber>
+                     <P2para>
+                        <Text>For the purposes of this Order, the terms “party” and “undertaking” include their respective connected undertakings.</Text>
+                     </P2para>
+                  </P2>
+               </P1para>
+            </P1>
+         </P1group>
+         <P1group>
+            <Title>Block exemption</Title>
+            <P1 id="article-3">
+               <Pnumber>3</Pnumber>
+               <P1para>
+                  <P2 id="article-3-1">
+                     <Pnumber>1</Pnumber>
+                     <P2para>
+                        <Text>The category of agreements identified in paragraph (2) as motor vehicle aftermarket agreements (“MVA agreements”) is specified for the purposes of section 6 of the Competition Act 1998<FootnoteRef Ref="f00009"/> (and accordingly a block exemption<FootnoteRef Ref="f00010"/> applies in respect of MVA agreements).</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="article-3-2">
+                     <Pnumber>2</Pnumber>
+                     <P2para>
+                        <Text>MVA agreements are agreements which—</Text>
+                        <P3 id="article-3-2-a">
+                           <Pnumber>a</Pnumber>
+                           <P3para>
+                              <Text>would fall within the category of agreements specified in article 3 of the VABEO but for article 3(6)(a) of that Order (subject matter falling within another block exemption order), and</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="article-3-2-b">
+                           <Pnumber>b</Pnumber>
+                           <P3para>
+                              <Text>relate to the conditions under which the parties may—</Text>
+                              <P4 id="article-3-2-b-i">
+                                 <Pnumber>i</Pnumber>
+                                 <P4para>
+                                    <Text>purchase, sell or resell aftermarket goods, or</Text>
+                                 </P4para>
+                              </P4>
+                              <P4 id="article-3-2-b-ii">
+                                 <Pnumber>ii</Pnumber>
+                                 <P4para>
+                                    <Text>provide repair and maintenance services.</Text>
+                                 </P4para>
+                              </P4>
+                           </P3para>
+                        </P3>
+                     </P2para>
+                  </P2>
+               </P1para>
+            </P1>
+         </P1group>
+         <P1group>
+            <Title>Block exemption subject to conditions and obligation</Title>
+            <P1 id="article-4">
+               <Pnumber>4</Pnumber>
+               <P1para>
+                  <P2 id="article-4-1">
+                     <Pnumber>1</Pnumber>
+                     <P2para>
+                        <Text>The block exemption has effect in relation to a particular MVA agreement subject to—</Text>
+                        <P3 id="article-4-1-a">
+                           <Pnumber>a</Pnumber>
+                           <P3para>
+                              <Text>the conditions in articles 6 (market share thresholds), 8 (hardcore restrictions) and 10 (excluded restrictions) of the VABEO,</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="article-4-1-b">
+                           <Pnumber>b</Pnumber>
+                           <P3para>
+                              <Text>the conditions in articles 5 (hardcore restrictions: MVA) and 6 (excluded restriction: MVA), and</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="article-4-1-c">
+                           <Pnumber>c</Pnumber>
+                           <P3para>
+                              <Text>the obligation in article 9 (obligation to provide information).</Text>
+                           </P3para>
+                        </P3>
+                     </P2para>
+                  </P2>
+                  <P2 id="article-4-2">
+                     <Pnumber>2</Pnumber>
+                     <P2para>
+                        <Text>For the purposes of paragraph (1)(a), the MVA agreement is to be treated as an agreement to which the VABEO applies.</Text>
+                     </P2para>
+                  </P2>
+               </P1para>
+            </P1>
+         </P1group>
+         <P1group>
+            <Title>Hardcore restrictions: MVA</Title>
+            <P1 id="article-5">
+               <Pnumber>5</Pnumber>
+               <P1para>
+                  <P2 id="article-5-1">
+                     <Pnumber>1</Pnumber>
+                     <P2para>
+                        <Text>The condition in this article is that the MVA agreement must not contain a hardcore restriction within the meaning of paragraph 2.</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="article-5-2">
+                     <Pnumber>2</Pnumber>
+                     <P2para>
+                        <Text>A hardcore restriction is one or more provisions which, directly or indirectly, in isolation or in combination with other factors under the control of the parties, have as their object—</Text>
+                        <P3 id="article-5-2-a">
+                           <Pnumber>a</Pnumber>
+                           <P3para>
+                              <Text>the restriction of sales of aftermarket goods by members of a selective distribution system to independent repairers who use or want to use those aftermarket goods for the purposes of providing repair and maintenance services,</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="article-5-2-b">
+                           <Pnumber>b</Pnumber>
+                           <P3para>
+                              <Text>the restriction, agreed between—</Text>
+                              <P4 id="article-5-2-b-i">
+                                 <Pnumber>i</Pnumber>
+                                 <P4para>
+                                    <Text>a supplier of aftermarket goods or repair and maintenance tools, and</Text>
+                                 </P4para>
+                              </P4>
+                              <P4 id="article-5-2-b-ii">
+                                 <Pnumber>ii</Pnumber>
+                                 <P4para>
+                                    <Text>a supplier of motor vehicles,</Text>
+                                 </P4para>
+                              </P4>
+                              <Text>of the ability of the supplier in paragraph (i) to sell any of the goods referred to in that paragraph to distributors, repairers or end-users, or</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="article-5-2-c">
+                           <Pnumber>c</Pnumber>
+                           <P3para>
+                              <Text>the restriction, agreed between—</Text>
+                              <P4 id="article-5-2-c-i">
+                                 <Pnumber>i</Pnumber>
+                                 <P4para>
+                                    <Text>a supplier of motor vehicles who uses original parts supplied by another supplier, and</Text>
+                                 </P4para>
+                              </P4>
+                              <P4 id="article-5-2-c-ii">
+                                 <Pnumber>ii</Pnumber>
+                                 <P4para>
+                                    <Text>a supplier of such parts,</Text>
+                                 </P4para>
+                              </P4>
+                              <Text>of the ability of the supplier in paragraph (ii) to place its trade mark or logo effectively and in an easily visible manner on the original parts or on any spare parts intended to replace those parts.</Text>
+                           </P3para>
+                        </P3>
+                     </P2para>
+                  </P2>
+                  <P2 id="article-5-3">
+                     <Pnumber>3</Pnumber>
+                     <P2para>
+                        <Text>In this article—</Text>
+                        <UnorderedList Class="Definition" Decoration="none">
+                           <ListItem>
+                              <Para>
+                                 <Text>“<Term>distributor</Term>” means an authorised distributor or an independent distributor;</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem>
+                              <Para>
+                                 <Text>“<Term>repairer</Term>” means an authorised repairer or an independent repairer;</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem>
+                              <Para>
+                                 <Text>“<Term>selective distribution system</Term>” means a distribution system set up by a supplier of motor vehicles of a particular make, where—</Text>
+                                 <OrderedList Type="alpha" Decoration="parens">
+                                    <ListItem>
+                                       <Para>
+                                          <Text>the supplier undertakes to sell such vehicles, either directly or indirectly, to authorised distributors on the basis of specified criteria, and</Text>
+                                       </Para>
+                                    </ListItem>
+                                    <ListItem>
+                                       <Para>
+                                          <Text>those distributors undertake not to sell such vehicles to independent distributors within the territory reserved by the supplier to operate that system.</Text>
+                                       </Para>
+                                    </ListItem>
+                                 </OrderedList>
+                              </Para>
+                           </ListItem>
+                        </UnorderedList>
+                     </P2para>
+                  </P2>
+               </P1para>
+            </P1>
+         </P1group>
+         <P1group>
+            <Title>Excluded restriction: MVA</Title>
+            <P1 id="article-6">
+               <Pnumber>6</Pnumber>
+               <P1para>
+                  <P2 id="article-6-1">
+                     <Pnumber>1</Pnumber>
+                     <P2para>
+                        <Text>The condition in this article is that the MVA agreement must not contain the excluded restriction within the meaning of paragraph (2).</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="article-6-2">
+                     <Pnumber>2</Pnumber>
+                     <P2para>
+                        <Text>The excluded restriction is a restriction of the ability of an independent operator to access information, tools or training to which paragraph (3) applies in the manner specified in paragraph (4) for the purposes of providing repair and maintenance services for motor vehicles of a particular make.</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="article-6-3">
+                     <Pnumber>3</Pnumber>
+                     <P2para>
+                        <Text>This paragraph applies to information, tools and training which a supplier of motor vehicles of that make—</Text>
+                        <P3 id="article-6-3-a">
+                           <Pnumber>a</Pnumber>
+                           <P3para>
+                              <Text>uses for the purposes of providing repair and maintenance services, or</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="article-6-3-b">
+                           <Pnumber>b</Pnumber>
+                           <P3para>
+                              <Text>provides to authorised repairers, authorised distributors or authorised partners for those purposes.</Text>
+                           </P3para>
+                        </P3>
+                     </P2para>
+                  </P2>
+                  <P2 id="article-6-4">
+                     <Pnumber>4</Pnumber>
+                     <P2para>
+                        <Text>The specified manner is a manner which does not put the independent operator at a disadvantage as regards the provision of repair and maintenance services compared to authorised repairers, authorised distributors and authorised partners.</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="article-6-5">
+                     <Pnumber>5</Pnumber>
+                     <P2para>
+                        <Text>The restriction is not an excluded restriction if it falls within article 5(2)(b) (hardcore restrictions: MVA).</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="article-6-6">
+                     <Pnumber>6</Pnumber>
+                     <P2para>
+                        <Text>In this article—</Text>
+                        <UnorderedList Class="Definition" Decoration="none">
+                           <ListItem>
+                              <Para>
+                                 <Text>“<Term>authorised partner</Term>”, in relation to motor vehicles of a particular make, means a person, other than an authorised distributor or authorised repairer, with whom a supplier of such vehicles has entered into a contract for services;</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem>
+                              <Para>
+                                 <Text>“<Term>independent operator</Term>”, in relation to motor vehicles of a particular make, means a person, other than an authorised distributor, authorised repairer or authorised partner, who is directly or indirectly involved in the repair and maintenance of such vehicles, and may include—</Text>
+                                 <OrderedList Type="alpha" Decoration="parens">
+                                    <ListItem>
+                                       <Para>
+                                          <Text>a supplier of spare parts,</Text>
+                                       </Para>
+                                    </ListItem>
+                                    <ListItem>
+                                       <Para>
+                                          <Text>a supplier or distributor of repair and maintenance tools,</Text>
+                                       </Para>
+                                    </ListItem>
+                                    <ListItem>
+                                       <Para>
+                                          <Text>a publisher of repair and maintenance information,</Text>
+                                       </Para>
+                                    </ListItem>
+                                    <ListItem>
+                                       <Para>
+                                          <Text>an automobile club,</Text>
+                                       </Para>
+                                    </ListItem>
+                                    <ListItem>
+                                       <Para>
+                                          <Text>a roadside assistance operator,</Text>
+                                       </Para>
+                                    </ListItem>
+                                    <ListItem>
+                                       <Para>
+                                          <Text>a person who provides inspection and testing services,</Text>
+                                       </Para>
+                                    </ListItem>
+                                    <ListItem>
+                                       <Para>
+                                          <Text>a person who provides training to independent repairers, and</Text>
+                                       </Para>
+                                    </ListItem>
+                                    <ListItem>
+                                       <Para>
+                                          <Text>an owner or operator of a fleet of motor vehicles;</Text>
+                                       </Para>
+                                    </ListItem>
+                                 </OrderedList>
+                              </Para>
+                           </ListItem>
+                           <ListItem>
+                              <Para>
+                                 <Text>“<Term>repair and maintenance information</Term>” means information to which paragraph (3) applies, and includes vehicle information;</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem>
+                              <Para>
+                                 <Text>“<Term>vehicle information</Term>” means—</Text>
+                                 <OrderedList Type="alpha" Decoration="parens">
+                                    <ListItem>
+                                       <Para>
+                                          <Text>data which is generated by a part or system of a motor vehicle, and</Text>
+                                       </Para>
+                                    </ListItem>
+                                    <ListItem>
+                                       <Para>
+                                          <Text>any information which is required for the purposes of interpreting that data.</Text>
+                                       </Para>
+                                    </ListItem>
+                                 </OrderedList>
+                              </Para>
+                           </ListItem>
+                        </UnorderedList>
+                     </P2para>
+                  </P2>
+               </P1para>
+            </P1>
+         </P1group>
+         <P1group>
+            <Title>Effect of breach of conditions</Title>
+            <P1 id="article-7">
+               <Pnumber>7</Pnumber>
+               <P1para>
+                  <P2 id="article-7-1">
+                     <Pnumber>1</Pnumber>
+                     <P2para>
+                        <Text>Breach of a condition referred to in article 4(1)(a) or (b) (block exemption subject to conditions and obligation) has the effect of cancelling the block exemption in respect of the MVA agreement, subject to paragraph (2) and article 8 (timing of cancellation).</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="article-7-2">
+                     <Pnumber>2</Pnumber>
+                     <P2para>
+                        <Text>Where—</Text>
+                        <P3 id="article-7-2-a">
+                           <Pnumber>a</Pnumber>
+                           <P3para>
+                              <Text>the MVA agreement contains one or more excluded restrictions in breach of either or both of the conditions in article 10 of the VABEO (excluded restrictions) and article 6 (excluded restriction: MVA),</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="article-7-2-b">
+                           <Pnumber>b</Pnumber>
+                           <P3para>
+                              <Text>each excluded restriction is severable from the MVA agreement, and</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="article-7-2-c">
+                           <Pnumber>c</Pnumber>
+                           <P3para>
+                              <Text>the MVA agreement is not in breach of any other condition referred to in article 4(1)(a) or (b),</Text>
+                           </P3para>
+                        </P3>
+                        <Text>the block exemption is cancelled in respect of each excluded restriction only.</Text>
+                     </P2para>
+                  </P2>
+               </P1para>
+            </P1>
+         </P1group>
+         <P1group>
+            <Title>Timing of cancellation: breaches of conditions</Title>
+            <P1 id="article-8">
+               <Pnumber>8</Pnumber>
+               <P1para>
+                  <P2 id="article-8-1">
+                     <Pnumber>1</Pnumber>
+                     <P2para>
+                        <Text>The cancellation referred to in article 7 (effect of breach of conditions) takes effect from when the breach occurs, except where paragraph (2) applies.</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="article-8-2">
+                     <Pnumber>2</Pnumber>
+                     <P2para>
+                        <Text>This paragraph applies where the MVA agreement—</Text>
+                        <P3 id="article-8-2-a">
+                           <Pnumber>a</Pnumber>
+                           <P3para>
+                              <Text>is in breach of the condition in article 6 of the VABEO (market share thresholds) only, or</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="article-8-2-b">
+                           <Pnumber>b</Pnumber>
+                           <P3para>
+                              <Text>does not fall within sub-paragraph (a) only by reason of containing one or more excluded restrictions in breach of either or both of article 10 of the VABEO (excluded restrictions) and article 6 (excluded restriction: MVA), and each excluded restriction is severable from the agreement.</Text>
+                           </P3para>
+                        </P3>
+                     </P2para>
+                  </P2>
+                  <P2 id="article-8-3">
+                     <Pnumber>3</Pnumber>
+                     <P2para>
+                        <Text>Where paragraph (2) applies—</Text>
+                        <P3 id="article-8-3-a">
+                           <Pnumber>a</Pnumber>
+                           <P3para>
+                              <Text>article 7(2) to (4) of the VABEO (grace period if market share initially not more than 30%) applies to the MVA agreement as it applies to a vertical agreement, and</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="article-8-3-b">
+                           <Pnumber>b</Pnumber>
+                           <P3para>
+                              <Text>the cancellation takes effect from the end of the grace period referred to in article 7(2) or (3) of the VABEO, whichever is relevant.</Text>
+                           </P3para>
+                        </P3>
+                     </P2para>
+                  </P2>
+                  <P2 id="article-8-4">
+                     <Pnumber>4</Pnumber>
+                     <P2para>
+                        <Text>In paragraph (3)(a), “vertical agreement” has the meaning given in article 3(2) of the VABEO.</Text>
+                     </P2para>
+                  </P2>
+               </P1para>
+            </P1>
+         </P1group>
+         <P1group>
+            <Title>Obligation to provide information</Title>
+            <P1 id="article-9">
+               <Pnumber>9</Pnumber>
+               <P1para>
+                  <P2 id="article-9-1">
+                     <Pnumber>1</Pnumber>
+                     <P2para>
+                        <Text>A party to an agreement in respect of which the benefit of the block exemption is claimed must provide to the CMA<FootnoteRef Ref="f00011"/> such information in connection with the agreement as the CMA may request by notice in writing.</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="article-9-2">
+                     <Pnumber>2</Pnumber>
+                     <P2para>
+                        <Text>The party must provide the information within—</Text>
+                        <P3 id="article-9-2-a">
+                           <Pnumber>a</Pnumber>
+                           <P3para>
+                              <Text>the period of ten working days<FootnoteRef Ref="f00012"/> starting with the relevant day, or</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="article-9-2-b">
+                           <Pnumber>b</Pnumber>
+                           <P3para>
+                              <Text>if, having had regard to all the circumstances of the case, the CMA has agreed in writing a longer period, the agreed period.</Text>
+                           </P3para>
+                        </P3>
+                     </P2para>
+                  </P2>
+                  <P2 id="article-9-3">
+                     <Pnumber>3</Pnumber>
+                     <P2para>
+                        <Text>Where the CMA considers that the party has failed to comply with the obligation in this article without reasonable excuse, the CMA may, on the assumption that the block exemption would otherwise apply, cancel the block exemption in respect of the agreement by notice in writing, subject to paragraph 4.</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="article-9-4">
+                     <Pnumber>4</Pnumber>
+                     <P2para>
+                        <Text>Before cancelling the block exemption in respect of the agreement, the CMA must—</Text>
+                        <P3 id="article-9-4-a">
+                           <Pnumber>a</Pnumber>
+                           <P3para>
+                              <Text>give notice in writing of its proposal to cancel the block exemption in respect of the agreement, and</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="article-9-4-b">
+                           <Pnumber>b</Pnumber>
+                           <P3para>
+                              <Text>consider any representations made to it.</Text>
+                           </P3para>
+                        </P3>
+                     </P2para>
+                  </P2>
+                  <P2 id="article-9-5">
+                     <Pnumber>5</Pnumber>
+                     <P2para>
+                        <Text>In this article, “relevant day” means—</Text>
+                        <P3 id="article-9-5-a">
+                           <Pnumber>a</Pnumber>
+                           <P3para>
+                              <Text>where article 11(a)(i) (notice given directly) applies, the day on which the party receives the notice;</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="article-9-5-b">
+                           <Pnumber>b</Pnumber>
+                           <P3para>
+                              <Text>where article 11(b) (notice given via publication) applies, the day on which the notice is published,</Text>
+                           </P3para>
+                        </P3>
+                        <Text>except that, if the day referred to in sub-paragraph (a) or (b) is not a working day, “relevant day” means the next working day after that day.</Text>
+                     </P2para>
+                  </P2>
+               </P1para>
+            </P1>
+         </P1group>
+         <P1group>
+            <Title>Cancellation in individual cases</Title>
+            <P1 id="article-10">
+               <Pnumber>10</Pnumber>
+               <P1para>
+                  <P2 id="article-10-1">
+                     <Pnumber>1</Pnumber>
+                     <P2para>
+                        <Text>This paragraph applies where the CMA considers that a particular MVA agreement is not exempt from the Chapter 1 prohibition as a result of section 9 of the Competition Act 1998<FootnoteRef Ref="f00013"/>.</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="article-10-2">
+                     <Pnumber>2</Pnumber>
+                     <P2para>
+                        <Text>Where this paragraph applies, the CMA may cancel the block exemption in respect of the MVA agreement by notice in writing, subject to paragraph (3).</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="article-10-3">
+                     <Pnumber>3</Pnumber>
+                     <P2para>
+                        <Text>Before cancelling the block exemption in respect of the MVA agreement, the CMA must—</Text>
+                        <P3 id="article-10-3-a">
+                           <Pnumber>a</Pnumber>
+                           <P3para>
+                              <Text>give notice in writing of its proposal to cancel the block exemption in respect of the MVA agreement, and</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="article-10-3-b">
+                           <Pnumber>b</Pnumber>
+                           <P3para>
+                              <Text>consider any representations made to it.</Text>
+                           </P3para>
+                        </P3>
+                     </P2para>
+                  </P2>
+               </P1para>
+            </P1>
+         </P1group>
+         <P1group>
+            <Title>Notices in writing</Title>
+            <P1 id="article-11">
+               <Pnumber>11</Pnumber>
+               <P1para>
+                  <Text>For the purposes of articles 9 and 10, notice in writing is to be given—</Text>
+                  <P3 id="article-11-a">
+                     <Pnumber>a</Pnumber>
+                     <P3para>
+                        <Text>in the case of—</Text>
+                        <P4 id="article-11-a-i">
+                           <Pnumber>i</Pnumber>
+                           <P4para>
+                              <Text>a request for information, by the CMA giving written notice to the party in question;</Text>
+                           </P4para>
+                        </P4>
+                        <P4 id="article-11-a-ii">
+                           <Pnumber>ii</Pnumber>
+                           <P4para>
+                              <Text>a proposal or decision, by the CMA giving written notice to those persons whom it can reasonably identify as being parties to the agreement in question, or</Text>
+                           </P4para>
+                        </P4>
+                     </P3para>
+                  </P3>
+                  <P3 id="article-11-b">
+                     <Pnumber>b</Pnumber>
+                     <P3para>
+                        <Text>where it is not reasonably practicable for the CMA to comply with paragraph (a), by the CMA publishing its request for information, proposal or decision in—</Text>
+                        <P4 id="article-11-b-i">
+                           <Pnumber>i</Pnumber>
+                           <P4para>
+                              <Text>the register maintained by the CMA under rule 20 of the CMA’s rules set out in the Schedule to the Competition Act 1998 (Competition and Markets Authority’s Rules) Order 2014<FootnoteRef Ref="f00014"/>,</Text>
+                           </P4para>
+                        </P4>
+                        <P4 id="article-11-b-ii">
+                           <Pnumber>ii</Pnumber>
+                           <P4para>
+                              <Text>the London, Edinburgh and Belfast Gazettes,</Text>
+                           </P4para>
+                        </P4>
+                        <P4 id="article-11-b-iii">
+                           <Pnumber>iii</Pnumber>
+                           <P4para>
+                              <Text>at least one national daily newspaper, and</Text>
+                           </P4para>
+                        </P4>
+                        <P4 id="article-11-b-iv">
+                           <Pnumber>iv</Pnumber>
+                           <P4para>
+                              <Text>if there is in circulation an appropriate trade journal which is published at intervals not exceeding one month, in such trade journal,</Text>
+                           </P4para>
+                        </P4>
+                        <Text>stating the facts on which it bases the request, proposal or decision, and its reasons for making it.</Text>
+                     </P3para>
+                  </P3>
+               </P1para>
+            </P1>
+         </P1group>
+         <P1group>
+            <Title>Transitional provision</Title>
+            <P1 id="article-12">
+               <Pnumber>12</Pnumber>
+               <P1para>
+                  <P2 id="article-12-1">
+                     <Pnumber>1</Pnumber>
+                     <P2para>
+                        <Text>An agreement which—</Text>
+                        <P3 id="article-12-1-a">
+                           <Pnumber>a</Pnumber>
+                           <P3para>
+                              <Text>immediately before 1st June 2023, was exempt from the Chapter 1 prohibition by virtue of the retained MVBER, and</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="article-12-1-b">
+                           <Pnumber>b</Pnumber>
+                           <P3para>
+                              <Text>on 1st June 2023, would not otherwise be an agreement to which the block exemption applies,</Text>
+                           </P3para>
+                        </P3>
+                        <Text>is to be treated as an MVA agreement which satisfies the conditions referred to in article 4(1)(a) and (b) (block exemption subject to conditions and obligation) until the end of 31st May 2024.</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="article-12-2">
+                     <Pnumber>2</Pnumber>
+                     <P2para>
+                        <Text>Such an agreement is to be known as a “pre-existing MVA agreement”.</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="article-12-3">
+                     <Pnumber>3</Pnumber>
+                     <P2para>
+                        <Text>Notwithstanding paragraph (1), the block exemption does not apply in respect of any obligation in a pre-existing MVA agreement which was an excluded restriction within the meaning of article 10(2) of the VABEO immediately before 1st June 2023.</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="article-12-4">
+                     <Pnumber>4</Pnumber>
+                     <P2para>
+                        <Text>Articles 9 to 11 apply to a pre-existing MVA agreement as they apply to an MVA agreement.</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="article-12-5">
+                     <Pnumber>5</Pnumber>
+                     <P2para>
+                        <Text>In this article, “the retained MVBER” means Commission Regulation (EU) No 461/2010 on the application of Article 101(3) of the Treaty on the Functioning of the European Union to categories of vertical agreements and concerted practices in the motor vehicle sector<FootnoteRef Ref="f00015"/>.</Text>
+                     </P2para>
+                  </P2>
+               </P1para>
+            </P1>
+         </P1group>
+         <P1group>
+            <Title>Expiry</Title>
+            <P1 id="article-13">
+               <Pnumber>13</Pnumber>
+               <P1para>
+                  <Text>This Order ceases to have effect at the end of 31st May 2029, except for the purposes of article 14 (revocation of S.I. 2023/501).</Text>
+               </P1para>
+            </P1>
+         </P1group>
+         <P1group>
+            <Title>Revocation of S.I. 2023/501</Title>
+            <P1 id="article-14">
+               <Pnumber>14</Pnumber>
+               <P1para>
+                  <Text>The Competition Act 1998 (Motor Vehicle Agreements Block Exemption) Order 2023<FootnoteRef Ref="f00016"/> is revoked.</Text>
+               </P1para>
+            </P1>
+         </P1group>
+         <SignedSection>
+            <Signatory>
+               <Signee>
+                  <PersonName>Kevin Hollinrake</PersonName>
+                  <JobTitle>Parliamentary Under Secretary of State</JobTitle>
+                  <DateSigned Date="2023-05-26">
+                     <DateText>26th May 2023</DateText>
+                  </DateSigned>
+                  <Department>Department for Business and Trade</Department>
+               </Signee>
+            </Signatory>
+         </SignedSection>
+      </Body>
+      <ExplanatoryNotes>
+         <Title>Explanatory Note</Title>
+         <Comment>
+            <Para>
+               <Text>(This note is not part of the Order)</Text>
+            </Para>
+         </Comment>
+         <P>
+            <Text>This Order is a block exemption order under section 6 of the Competition Act 1998 (“the Act”). It revokes and remakes with amendments the Competition Act 1998 (Motor Vehicle Agreements Block Exemption) Order 2023 (S.I. 2023/501) (“the original Order”), which contained an error. The original Order is being revoked before the date on which it was due to come into force.</Text>
+         </P>
+         <P>
+            <Text>This Order gives effect to the recommendation of the Competition and Market Authority (“the CMA”) that certain agreements relating to the motor vehicle aftermarket (“MVA agreements”) constitute a category of agreements which are likely to be exempt from the prohibition against anti-competitive agreements in Chapter 1 of the Act (“the Chapter 1 prohibition”). The Order replaces retained Commission Regulation (EU) No 461/2010 on the application of Article 101(3) of the Treaty on the Functioning of the European Union to categories of vertical agreements and concerted practices in the motor vehicle sector (“the retained MVBER”) (EUR 2010/461), which expires at the end of 31st May 2023.</Text>
+         </P>
+         <P>
+            <Text>Under article 3 of the Order, MVA agreements are specified for the purposes of section 6 of the Act, with the effect that a block exemption from the Chapter 1 prohibition applies to MVA agreements. The block exemption has effect in respect of a particular MVA agreement subject to the conditions and obligation referred to in article 4. These include the conditions which apply to vertical agreements in the Competition Act 1998 (Vertical Agreements Block Exemption) Order 2022 (S.I. 2022/516). Additional conditions are established in articles 5 and 6, which respectively set out a number of hardcore restrictions and an excluded restriction specific to MVA agreements.</Text>
+         </P>
+         <P>
+            <Text>Breach of a condition will result in the block exemption being cancelled in respect of the agreement, except in the case of excluded restrictions which are severable from the agreement (see articles 7 and 8). In addition, the CMA may cancel the block exemption in respect of an agreement if: (i) a party to the agreement fails to comply with the obligation to provide information to it (see article 9) or (ii) the CMA considers that the agreement is not one which is exempt from the Chapter 1 prohibition as a result of section 9 of the Act (see article 10).</Text>
+         </P>
+         <P>
+            <Text>The Chapter 1 prohibition does not apply for 12 months to agreements in this sector which were exempt from the Chapter 1 prohibition immediately before 1st June 2023 by virtue of the retained MVBER and would not otherwise meet the conditions for exemption under this Order (see article 12).</Text>
+         </P>
+         <P>
+            <Text>The block exemption applies from 1st June 2023 and will cease to have effect at the end of 31st May 2029 (see article 13).</Text>
+         </P>
+         <P>
+            <Text>A full impact assessment has not been produced for this instrument as no significant impact on the private, public or voluntary sector is foreseen.</Text>
+         </P>
+         <P>
+            <Text> </Text>
+         </P>
+      </ExplanatoryNotes>
+   </Secondary>
+   <Footnotes>
+      <Footnote id="f00001">
+         <FootnoteText>
+            <Para>
+               <Text>1998 c. 41. Section 6 was amended by paragraph 2 of Schedule 5 to the Enterprise and Regulatory Reform Act 2013 (c. 24) to give the function of making recommendations to the Competition and Markets Authority. The Competition and Markets Authority was established by section 25 of that Act. This function was previously the responsibility of the Director General for Fair Trading and then the Office of Fair Trading. Other amendments to section 6 were made by paragraph 38 of Schedule 25 to the Enterprise Act 2002 (c. 40) and S.I. 2004/1261. See article 3(2) of this Order for the definition of motor vehicle aftermarket agreements.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00002">
+         <FootnoteText>
+            <Para>
+               <Text>Section 8(1) was amended by paragraph 38 of Schedule 25 to the Enterprise Act 2002 and paragraph 3 of Schedule 5 to the Enterprise and Regulatory Reform Act 2013.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00003">
+         <FootnoteText>
+            <Para>
+               <Text>The Competition and Markets Authority’s proposed recommendation and responses to its consultation can be found online at https://www.gov.uk/government/consultations/retained-motor-vehicle-block-exemption-regulation-consultation or obtained by writing to Competition and Markets Authority, The Cabot, 25 Cabot Square, London E14 4QZ.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00004">
+         <FootnoteText>
+            <Para>
+               <Text>Section 8(5) was amended by paragraph 3 of Schedule 5 to the Enterprise and Regulatory Reform Act 2013.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00005">
+         <FootnoteText>
+            <Para>
+               <Text>S.I. 2023/501. The Competition Act 1998 (Motor Vehicle Agreements Block Exemption) Order 2023 was due to come into force on 1st June 2023 but is being revoked and remade with amendments by this Order because it contained an error.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00006">
+         <FootnoteText>
+            <Para>
+               <Text>Under section 59(1) of the Competition Act 1998 (“the Act”), references in Part 1 of the Act to “agreement” are to be read with section 2(5) and (6) of the Act, which provides that, unless the context otherwise requires, a provision of Part 1 of the Act which is expressed to apply to, or in relation to, an agreement, is to be read as applying equally to, or in relation to, a decision by an association of undertakings or a concerted practice (but with any necessary modifications).</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00007">
+         <FootnoteText>
+            <Para>
+               <Text>For the meaning of “the Chapter 1 prohibition”, see section 2(8) of the Act.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00008">
+         <FootnoteText>
+            <Para>
+               <Text>S.I. 2022/516.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00009">
+         <FootnoteText>
+            <Para>
+               <Text>Agreements which fall within a category specified for the purposes of section 6 are exempt from the Chapter 1 prohibition. See section 6(3) of the Act. </Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00010">
+         <FootnoteText>
+            <Para>
+               <Text>For the meaning of “block exemption”, see section 6(4) of the Act.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00011">
+         <FootnoteText>
+            <Para>
+               <Text>For the meaning of “the CMA”, see section 59(1) of the Act.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00012">
+         <FootnoteText>
+            <Para>
+               <Text>For the meaning of “working day”, see section 59(1) of the Act.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00013">
+         <FootnoteText>
+            <Para>
+               <Text>Section 9 was amended by S.I. 2004/1261.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00014">
+         <FootnoteText>
+            <Para>
+               <Text>S.I. 2014/458, to which there are amendments not relevant to this instrument.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00015">
+         <FootnoteText>
+            <Para>
+               <Text>EUR 2010/461, as amended by S.I. 2019/93 and 2022/1271.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00016">
+         <FootnoteText>
+            <Para>
+               <Text>S.I. 2023/501.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+   </Footnotes>
+</Legislation>

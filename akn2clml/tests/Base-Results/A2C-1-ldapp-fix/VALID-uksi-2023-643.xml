@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="UTF-8"?><akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../schemas/akomantoso30.xsd">
+	<?DMS-Component componentId="cba74dff-4cae-426e-9b8f-dbecdc6f30ca" seriesId="468d8798-e989-4d33-9163-a494e107cd02" versionNumber="1"?>
+	<act contains="originalVersion" name="uksi">
+		<meta>
+			<?DMS-Component componentId="e2c38f3b-b0f5-42f7-8681-f52824993d81" seriesId="cce755c4-950b-4860-af5d-164ce42a3548" versionNumber="1"?>
+			<identification source="#ldapp">
+				<FRBRWork>
+					<FRBRthis value="#varWork"/>
+					<FRBRuri value="#varWorkUri"/>
+					<FRBRalias name="ttflConfigHistory" value="#varCHOiid"/>
+					<FRBRdate date="9999-01-01" name="uksi"/>
+					<FRBRauthor href="#varAuthor"/>
+					<FRBRcountry value="GB-SCT"/>
+					<FRBRsubtype value="#varDocSubType"/>
+					<FRBRnumber value="#varProjectId"/>
+					<FRBRname value="#varSITitle"/>
+					<FRBRprescriptive value="true"/>
+					<FRBRauthoritative value="false"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="#varExpression"/>
+					<FRBRuri value="#varExpressionUri"/>
+					<FRBRalias name="ttflVersionDescription" value="#varVDOiid"/>
+					<FRBRdate date="9999-01-01" name="draft"/>
+					<FRBRauthor href="#varAuthor"/>
+					<FRBRversionNumber value=""/>
+					<FRBRauthoritative value="false"/>
+					<FRBRmasterExpression href="" showAs=""/>
+					<FRBRlanguage language="eng"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="#varManifestation"/>
+					<FRBRuri value="#varManifestationUri"/>
+					<FRBRdate date="9999-01-01" name="akn_xml"/>
+					<FRBRauthor href="#varAuthor"/>
+					<FRBRformat value="application/akn+xml"/>
+				</FRBRManifestation>
+			</identification>
+			<references source="#author">
+				<TLCConcept GUID="_98c10b4d-3f6f-46c6-8a06-91b7b23e1da3" eId="varDocSubType" href="#varOntologies" showAs="Regulations"/>
+				<TLCConcept GUID="_cb595026-653a-42ce-98aa-6f4e69ea328f" eId="varSITitle" href="#varOntologies" showAs="The Charities Act 2022 (Commencement No. 2 and Saving Provisions) Regulations 2023"/>
+				<TLCProcess GUID="_efd68c92-c91b-4c76-aff9-416b6c31a65d" eId="varProcedureType" href="#varOntologies" showAs="No procedure"/>
+				<TLCProcess GUID="_9d2eee4d-69b7-4d39-b288-f00c89a2a8ef" eId="varStageVersion" href="#varOntologies" showAs="1"/>
+				<TLCProcess GUID="_c8c284c7-ab88-47ed-a566-c7aa18b86199" eId="varProjectId" href="#varOntologies" showAs="SI000076"/>
+				<TLCProcess GUID="_062b0855-e34c-4027-baa4-15dc020b512b" eId="varWork" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_49d29077-4cd3-4676-b8f9-eb087a76bc22" eId="varWorkUri" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_87f9cca7-8ed3-478c-8345-902dfac9a3d7" eId="varCHOiid" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_3a764147-c5d9-49a8-92cc-1c2e72f53413" eId="varExpression" href="#varOntologies" showAs="b912c94f-bbc1-4707-966b-96ed4f779cef"/>
+				<TLCProcess GUID="_d590bf88-2331-4273-a67e-4faaa07161e0" eId="varExpressionUri" href="#varOntologies" showAs="dma:///45e6b900-8929-11d4-b772-0050da06bfb4/80742cea-0ebb-4cf6-9759-1e52358d9b5b/;guid=b912c94f-bbc1-4707-966b-96ed4f779cef;class=Version%20Description"/>
+				<TLCProcess GUID="_c661d897-fb6f-4e9a-be5b-9d640d785be4" eId="varVDOiid" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_4fab44d1-2933-4a98-b3b4-6bf83bee80ab" eId="varManifestation" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_58a0a69f-92cf-49d2-9d81-5a0eecf21f07" eId="varManifestationUri" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_8f41a493-0ca1-4dca-9062-55f7918f3499" eId="varSIYear" href="#varOntologies" showAs="2023"/>
+				<TLCConcept GUID="_aacd8819-ba84-4dbe-ae96-12370c8cf43f" eId="varSINoComp" href="#varOntologies" showAs="643"/>
+				<TLCConcept GUID="_84ac49b6-17d1-4284-962f-03f297dc0bf6" eId="varSINo" href="#varOntologies" showAs="#varSIYear No. #varSINoComp #varSISubsidiaryNos"/>
+				<TLCConcept GUID="_74374b43-b4f2-4c3b-9f17-4e5447672711" eId="varSISubsidiaryNos" href="#varOntologies" showAs=" (C. 34)"/>
+				<TLCConcept GUID="_e42fa7e0-b9ff-46ce-ad22-b7a14f6e0f98" eId="varISBN" href="#varOntologies" showAs=""/>
+				<TLCPerson GUID="_7a672958-8170-400b-b463-7d5cb12f06ab" eId="varMinistryAgency" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_f67acab7-22d2-46d6-bdc9-880ae48e2f48" eId="varDocType" href="#varOntologies" showAs="UKSI"/>
+				<TLCProcess GUID="_21161604-26e1-4bce-ba32-72075f26fcb0" eId="varSystem" href="#varOntologies" showAs="LDAPP"/>
+				<TLCOrganization GUID="_f9431e4c-c9e0-41a2-a5fd-4b78fb6ea565" eId="varAuthor" href="#varOntologies" showAs="UK Government"/>
+				<TLCLocation GUID="_8c05f3eb-3b2b-4d87-8775-57ee87f3925c" eId="varJurisdiction" href="#varOntologies" showAs="United Kingdom"/>
+				<TLCConcept GUID="_d7691f14-a02e-4d1c-87ed-a11c2f463182" eId="varOntologies" href="https://www.legislation.gov.uk/ontologies/UK-AKN" showAs="https://www.legislation.gov.uk/ontologies/UK-AKN"/>
+				<TLCConcept GUID="_733cd474-a7dc-47a8-a9e0-1c5848383660" eId="varMadeDate" href="#varOntologies" showAs="2023-06-12T00:00:00.000"/>
+			</references>
+		</meta>
+		<preface GUID="_a3f7d9a2-ab41-41af-88d6-511b395afc5a" eId="fnt">
+			<?DMS-Component componentId="7c004489-8571-4ca3-86e7-e08663e1af0a" seriesId="83acd1d2-9b63-413d-8824-e84cde20aae5" versionNumber="1"?>
+			<block GUID="_eeda0146-a810-46be-bcc4-da86568e114b" eId="fnt__banner" name="banner">STATUTORY INSTRUMENTS</block>
+			<block GUID="_13cc4184-706f-4f6e-98a7-4b8dc73509e1" eId="fnt__no" name="number">
+				<docNumber GUID="_fbe1aa7c-ce79-426e-ad7f-6f70a8d56da2" eId="fnt__no__dno">
+					<ref class="placeholder" href="#varSINo"/>
+				</docNumber>
+			</block>
+			<container name="subjects">
+				<container GUID="_efbcc0fe-73a9-429e-bd32-14c4f729d82f" eId="fnt__subject" name="subject">
+					<block name="subject"><concept class="title" refersTo="">CHARITIES</concept></block>
+				</container>
+			</container>
+			<block GUID="_3c17acea-dadb-446c-acf6-ee155a5ceafa" eId="fnt__st" name="title">
+				<docTitle GUID="_a1e64982-6f4e-4322-bdee-f3bb4b76f76b" eId="fnt__st__dtitle">
+					<ref class="placeholder" href="#varSITitle"/>
+				</docTitle>
+			</block>
+			<container GUID="_6be99e06-fb6c-472a-9d8e-71fa338a5cd7" eId="fnt__dates" name="dates">
+				<block GUID="_6efddd6f-ddca-4ebd-845b-10cd20b0b6ce" eId="fnt__dates__madeDate" name="madeDate"><span>Made</span><docDate GUID="_362aca84-3707-4a33-871d-462e769a33ed" date="2023-06-12T00:00:00.000" eId="fnt__dates__madeDate__ddate"><ref class="placeholder" href="#varMadeDate" ukl:dateFormat="d'th' MMMM yyyy">12th June 2023</ref></docDate></block>
+			</container>
+		</preface>
+		<preamble GUID="_3c5f6abd-5636-4937-a5d8-d588eb3b3e90" eId="preamble">
+			<?DMS-Component componentId="f7c3581b-270e-43de-a56f-90a60b33f0ed" seriesId="7cc786f7-3790-4c00-a439-f65db1802650" versionNumber="1"?>
+			<formula GUID="_0ce68129-ea4b-4335-8620-efb850fd15e8" eId="preamble__enactingWords" name="enactingText">
+				<p>The Secretary of State makes these <ref class="placeholder" href="#varDocSubType"/> in exercise of the powers conferred by section 41(4) and (5) of the Charities Act 2022<authorialNote GUID="_7da252c0-5381-4eba-8e8e-9c9524941fe8" class="footnote" eId="fnote_1" marker="1">
+						<p>2022 c. 6.</p>
+					</authorialNote>.</p>
+			</formula>
+		</preamble>
+		<body>
+			<?DMS-Component componentId="44b0cc4c-7d41-415a-86b8-fb11410fdb22" seriesId="269ce6e9-b226-4370-b037-b9364533cfee" versionNumber="1"?>
+			<hcontainer GUID="_2b68d743-a0c8-44f2-9df5-f80fce9e0ca7" class="prov1" eId="reg_1" name="regulation">
+				<?DMS-Component componentId="4eda5261-940e-4219-a225-2732d1113a4b" seriesId="b8cd0c43-4dd4-47bc-ae3a-1a1febed8055" versionNumber="1"?>
+				<heading GUID="_bc3aa265-74d4-42ad-8d1a-1784396c4497" eId="reg_1__hdg">Citation, extent and commencement</heading>
+				<num>1.</num>
+				<paragraph GUID="_94cf3b78-504d-49b8-a041-6ace31ac4e23" class="prov2" eId="reg_1__para_1">
+					<num>(1)</num>
+					<content>
+						<p>These Regulations may be cited as the Charities Act 2022 (Commencement No. 2 and Saving Provisions) Regulations 2023.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_427bccd5-54f0-4a7c-9e30-db547364bb5d" class="prov2" eId="reg_1__para_2">
+					<num>(2)</num>
+					<content>
+						<p>These Regulations extend to England and Wales, subject to paragraph (3).</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_8e407d64-1e41-46a4-a1f8-81c8878e1bb8" class="prov2" eId="reg_1__para_3">
+					<num>(3)</num>
+					<content>
+						<p>The amendment brought into effect by paragraph 20(v) of the Schedule has the same extent as the provision that it amends.</p>
+					</content>
+				</paragraph>
+			</hcontainer>
+			<hcontainer GUID="_61642c72-c0df-4495-bb68-5b9eeeb6b9e5" class="prov1" eId="reg_2" name="regulation">
+				<?DMS-Component componentId="f530be8b-4634-47db-a9d9-0b334d4ffa2a" seriesId="f7f496ac-26d4-494c-8b1d-b0a18a17dffb" versionNumber="1"?>
+				<heading GUID="_8a7ae8b5-2dae-44fd-8a48-1f9b004e807f" eId="reg_2__hdg">Interpretation</heading>
+				<num>2.</num>
+				<paragraph GUID="_7c98aea8-b977-4fae-9057-a89385d36ea0" class="prov2" eId="reg_2__para_1">
+					<num>(1)</num>
+					<intro GUID="_fbf67284-8ab0-410a-8cf5-eacffac4c0c7" eId="reg_2__para_1__intro">
+						<p>In these Regulations—</p>
+					</intro>
+					<hcontainer GUID="_31cb527a-42fd-4de5-a76d-eb6580c2fc6c" class="definition" eId="reg_2__para_1__def_the2011Act_" name="definition">
+						<content>
+							<p><def GUID="_74e85875-1581-456b-abe7-7df9409b13d4" eId="reg_2__para_1__def_the2011Act" ukl:endQuote="”" ukl:startQuote="“">the 2011 Act</def> means the Charities Act 2011<authorialNote GUID="_c28cf626-54bb-4344-a757-b275f5928e28" class="footnote" eId="fnote_2" marker="2">
+									<p>2011 c. 25.</p>
+								</authorialNote>;</p>
+						</content>
+					</hcontainer>
+					<hcontainer GUID="_e73af028-7e54-4f93-82cc-4be7f75fd14d" class="definition" eId="reg_2__para_1__def_the2022Act_" name="definition">
+						<content>
+							<p><def GUID="_5e00c8f1-7d72-4dd1-96bc-80bb4d0c9b0e" eId="reg_2__para_1__def_the2022Act" ukl:endQuote="”" ukl:startQuote="“">the 2022 Act</def> means the Charities Act 2022;</p>
+						</content>
+					</hcontainer>
+					<hcontainer GUID="_eb653476-b551-4f41-83d0-c11eb7d91345" class="definition" eId="reg_2__para_1__def_appointedday_" name="definition">
+						<content>
+							<p><def GUID="_ec3bb00e-dfc2-4ae4-9652-94c02edd531f" eId="reg_2__para_1__def_appointedday" ukl:endQuote="”" ukl:startQuote="“">appointed day</def> means 14th June 2023;</p>
+						</content>
+					</hcontainer>
+					<hcontainer GUID="_b65533bf-01f9-4e9d-92cf-fe51d16813ea" class="definition" eId="reg_2__para_1__def_theTribunal_" name="definition">
+						<intro GUID="_2a59e1ab-ff26-4545-9aa0-f619aeaeedc3" eId="reg_2__para_1__def_theTribunal__intro">
+							<p><def GUID="_0c21c38b-e9b1-45c2-94df-57cd81e480ec" eId="reg_2__para_1__def_theTribunal" ukl:endQuote="”" ukl:startQuote="“">the Tribunal</def> means in relation to any appeal made under the 2011 Act—</p>
+						</intro>
+						<level GUID="_3f39274a-988f-4dc6-a1b5-839f8cff839b" class="para1" eId="reg_2__para_1__def_theTribunal__para_a">
+							<num>(a)</num>
+							<content>
+								<p>the Upper Tribunal, in any case where it is determined by or under Tribunal Procedure Rules that the Upper Tribunal is to hear the appeal, application or reference, or</p>
+							</content>
+						</level>
+						<level GUID="_b526e8e5-5e29-4342-afa5-0eccbdfab8e3" class="para1" eId="reg_2__para_1__def_theTribunal__para_b">
+							<num>(b)</num>
+							<content>
+								<p>the First-tier Tribunal, in any other case.</p>
+							</content>
+						</level>
+					</hcontainer>
+				</paragraph>
+				<paragraph GUID="_3d112d08-4604-403c-9e71-89a863354718" class="prov2" eId="reg_2__para_2">
+					<num>(2)</num>
+					<content>
+						<p>For the purposes of regulations 4 and 5, relevant proceedings have been commenced when a notice, claim form or other document is sent or delivered to, or filed with, the Tribunal or court for the purpose of commencing the proceedings.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_4eec01d1-02ff-4df3-8849-ed65f5aa7665" class="prov2" eId="reg_2__para_3">
+					<num>(3)</num>
+					<intro GUID="_d796c151-082d-4262-ae8b-ea6a1d419207" eId="reg_2__para_3__intro">
+						<p>In paragraph (2), court means—</p>
+					</intro>
+					<level GUID="_ea639db9-c4ff-4b5c-8bf3-6f3cb6bd36b3" class="para1" eId="reg_2__para_3__para_a">
+						<num>(a)</num>
+						<content>
+							<p>the High Court, and</p>
+						</content>
+					</level>
+					<level GUID="_3023d373-8b86-4a3c-91a5-e67d7e654538" class="para1" eId="reg_2__para_3__para_b">
+						<num>(b)</num>
+						<content>
+							<p>within the limits of its jurisdiction, any other court in England and Wales having a jurisdiction in respect of charities concurrent (within any limit of area or amount) with that of the High Court,</p>
+						</content>
+					</level>
+					<wrapUp GUID="_60dfa9a2-9503-48c9-b65b-f9d2f31959f9" eId="reg_2__para_3__wrapup">
+						<p>and includes any judge or officer of the court exercising the jurisdiction of the court.</p>
+					</wrapUp>
+				</paragraph>
+			</hcontainer>
+			<hcontainer GUID="_ed7dfc06-8cc0-4317-8fdd-05a6519ff09a" class="prov1" eId="reg_3" name="regulation">
+				<?DMS-Component componentId="7e9de51b-8159-4547-a9a1-fccc9531bc16" seriesId="207ce626-87a2-476e-9f8c-0a994d9a13cf" versionNumber="1"?>
+				<heading GUID="_1fa4f246-53d6-4c65-9019-c0f47b432b7c" eId="reg_3__hdg">Provisions coming into force on 14th June 2023</heading>
+				<num>3.</num>
+				<content>
+					<p>The day appointed for the coming into force of the provisions of the 2022 Act listed in the Schedule is 14th June 2023.</p>
+				</content>
+			</hcontainer>
+			<hcontainer GUID="_e992feb6-3690-4f8c-b530-3e7d3007601c" class="prov1" eId="reg_4" name="regulation">
+				<?DMS-Component componentId="526cf8f8-4322-4a70-9107-a5455665ac33" seriesId="b8febac9-d253-42da-97ab-0f506f0932fd" versionNumber="1"?>
+				<heading GUID="_1b0f0601-e4d8-44c6-a724-e46ae5fedd3a" eId="reg_4__hdg">Saving provision in relation to sections 10 and 11 of the 2022 Act</heading>
+				<num>4.</num>
+				<paragraph GUID="_60938d1b-ed1a-4fb0-9828-fed18e446cce" class="prov2" eId="reg_4__para_1">
+					<num>(1)</num>
+					<intro GUID="_2e2cb220-c8da-4517-a4e1-9a6f5fa5aa9e" eId="reg_4__para_1__intro">
+						<p>In this regulation—</p>
+					</intro>
+					<hcontainer GUID="_159feb09-f494-4669-ac7c-992c1e88c4ee" class="definition" eId="reg_4__para_1__def_relevantproceedings_" name="definition">
+						<intro GUID="_9cba1d51-56d9-4ff7-96dd-9ef96dc5e955" eId="reg_4__para_1__def_relevantproceedings__intro">
+							<p><def GUID="_ed9981d3-613b-493b-87f2-c19571a93033" eId="reg_4__para_1__def_relevantproceedings" ukl:endQuote="”" ukl:startQuote="“">relevant proceedings</def> means—</p>
+						</intro>
+						<level GUID="_8da8c689-9386-424d-96fd-e84b6687ff8c" class="para1" eId="reg_4__para_1__def_relevantproceedings__para_a">
+							<num>(a)</num>
+							<content>
+								<p>proceedings on an appeal brought to the Tribunal under section 319 of the 2011 Act<authorialNote GUID="_e1605859-763d-462f-be60-66ffa631a170" class="footnote" eId="fnote_3" marker="3">
+										<p>Section 319 of the 2011 Act has effect to give the Upper and First-tier Tribunals powers to hear appeals against certain decisions, directions or orders of the Charity Commission. Schedule 6 to the 2011 Act lists those decisions, directions or orders of the Charity Commission which are subject to appeal to the Tribunals.</p>
+									</authorialNote> in relation to a decision of the Charity Commission under section 284 of the 2011 Act not to concur with a section 282(2) resolution, or</p>
+							</content>
+						</level>
+						<level GUID="_6bbf1879-6062-47ae-9767-b4ef29906aa1" class="para1" eId="reg_4__para_1__def_relevantproceedings__para_b">
+							<num>(b)</num>
+							<content>
+								<p>proceedings on an application for judicial review of the Charity Commission’s decision under section 284 of the 2011 Act to concur or not concur with a section 282(2) resolution;</p>
+							</content>
+						</level>
+					</hcontainer>
+					<hcontainer GUID="_8f49c077-ab3a-4c26-86d7-9a0524413663" class="definition" eId="reg_4__para_1__def_section2822resolution_" name="definition">
+						<content>
+							<p><def GUID="_b555457f-fded-423a-bc3a-de3fbeb23cb0" eId="reg_4__para_1__def_section2822resolution" ukl:endQuote="”" ukl:startQuote="“">section 282(2) resolution</def> means a resolution of the charity trustees of a charity passed in accordance with section 282(2) of the 2011 Act.</p>
+						</content>
+					</hcontainer>
+				</paragraph>
+				<paragraph GUID="_43137100-06e2-4032-9933-6e1a3d3ff529" class="prov2" eId="reg_4__para_2">
+					<num>(2)</num>
+					<intro GUID="_50ef7498-786e-4f18-9caf-c3a430f68ef9" eId="reg_4__para_2__intro">
+						<p>Paragraph (3) applies in relation to a charity (“the charity”) if before the appointed day—</p>
+					</intro>
+					<level GUID="_72f21ed0-0455-4f0c-984e-e0e10901232c" class="para1" eId="reg_4__para_2__para_a">
+						<num>(a)</num>
+						<content>
+							<p>the charity trustees of the charity have passed a section 282(2) resolution, and</p>
+						</content>
+					</level>
+					<level GUID="_bd7eeb55-aa46-4e6b-ac87-f7c04bf49ade" class="para1" eId="reg_4__para_2__para_b">
+						<num>(b)</num>
+						<intro GUID="_0ad527c4-4877-4f77-a66c-e09f3693b42e" eId="reg_4__para_2__para_b__intro">
+							<p>any one of the following applies—</p>
+						</intro>
+						<level GUID="_a381b229-335f-4e3b-97aa-249d721e41da" class="para2" eId="reg_4__para_2__para_b__subpara_i">
+							<num>(i)</num>
+							<content>
+								<p>the charity trustees of the charity have not sent a copy of the section 282(2) resolution, together with a statement of their reasons for passing it to the Charity Commission, as required by section 282(4) of the 2011 Act;</p>
+							</content>
+						</level>
+						<level GUID="_6542cd28-1859-4835-9f72-211543e1019d" class="para2" eId="reg_4__para_2__para_b__subpara_ii">
+							<num>(ii)</num>
+							<content>
+								<p>the charity trustees of the charity have complied with section 282(4) of the 2011 Act, and the period, specified in section 284(5)(b) of the 2011 Act, within which the Charity Commission must notify the charity trustees of the charity in writing that it concurs or does not concur with the section 282(2) resolution, has not expired;</p>
+							</content>
+						</level>
+						<level GUID="_79aaa07d-824e-4c3d-a978-1a3d4878ec60" class="para2" eId="reg_4__para_2__para_b__subpara_iii">
+							<num>(iii)</num>
+							<content>
+								<p>the Charity Commission has informed the charity trustees of the charity in writing that it concurs with the section 282(2) resolution and the period for commencing proceedings on an application for judicial review in relation to that decision has not expired;</p>
+							</content>
+						</level>
+						<level GUID="_49497667-cfe4-47d7-9b7b-0df6b9f0d8f8" class="para2" eId="reg_4__para_2__para_b__subpara_iv">
+							<num>(iv)</num>
+							<content>
+								<p>the Charity Commission has informed the charity trustees of the charity in writing that it does not concur with the section 282(2) resolution and the period for commencing relevant proceedings has not expired;</p>
+							</content>
+						</level>
+						<level GUID="_d847a5df-6199-4bcb-b448-78388d885999" class="para2" eId="reg_4__para_2__para_b__subpara_v">
+							<num>(v)</num>
+							<content>
+								<p>relevant proceedings have been commenced.</p>
+							</content>
+						</level>
+					</level>
+				</paragraph>
+				<paragraph GUID="_c01a5365-5603-441d-8520-3ee32a23dca6" class="prov2" eId="reg_4__para_3">
+					<num>(3)</num>
+					<content>
+						<p>Sections 282, 284 and 353 of the 2011 Act continue to have effect on or after the appointed day in relation to the section 282(2) resolution as if sections 9, 10 and 11 of, and paragraph 17 of Schedule 2 to, the 2022 Act had not been commenced.</p>
+					</content>
+				</paragraph>
+			</hcontainer>
+			<hcontainer GUID="_e2ed92aa-8bed-449c-b69e-1063ef6e5334" class="prov1" eId="reg_5" name="regulation">
+				<?DMS-Component componentId="7af87821-0bc8-4986-874c-70c8abd2f0ba" seriesId="b2ebcbb5-8ac8-4e63-bb48-12695843415d" versionNumber="1"?>
+				<heading GUID="_3e2e6549-021b-4ac1-b7f0-e834076369eb" eId="reg_5__hdg">Saving provision in relation to section 14 of the 2022 Act</heading>
+				<num>5.</num>
+				<paragraph GUID="_25ff668f-7447-44a3-971b-6aa02d9cbcbd" class="prov2" eId="reg_5__para_1">
+					<num>(1)</num>
+					<intro GUID="_c15d3ad4-0a21-4d6a-939e-19d7f33e56c9" eId="reg_5__para_1__intro">
+						<p>In this regulation—</p>
+					</intro>
+					<hcontainer GUID="_6ab1561d-58f3-4113-a518-0c50130de04b" class="definition" eId="reg_5__para_1__def_relevantproceedings_" name="definition">
+						<intro GUID="_d44b26e6-fe31-4c99-ac7c-95477f0af68d" eId="reg_5__para_1__def_relevantproceedings__intro">
+							<p><def GUID="_81f4a2bb-24cd-47b3-85a6-1393f58f4d3f" eId="reg_5__para_1__def_relevantproceedings" ukl:endQuote="”" ukl:startQuote="“">relevant proceedings</def> means—</p>
+						</intro>
+						<level GUID="_791749fd-e317-4176-8739-b5184d920b93" class="para1" eId="reg_5__para_1__def_relevantproceedings__para_a">
+							<num>(a)</num>
+							<content>
+								<p>proceedings on an appeal brought to the Tribunal under section 319 of the 2011 Act in relation to a decision of the Charity Commission under section 291 of the 2011 Act not to concur with a section 289(2) resolution, or</p>
+							</content>
+						</level>
+						<level GUID="_8f7d3152-e89a-4ca5-a98e-aa27e96dc0e3" class="para1" eId="reg_5__para_1__def_relevantproceedings__para_b">
+							<num>(b)</num>
+							<content>
+								<p>proceedings on an application for judicial review of the Charity Commission’s decision under section 291 of the 2011 Act to concur or not to concur with a section 289(2) resolution;</p>
+							</content>
+						</level>
+					</hcontainer>
+					<hcontainer GUID="_874a0d3b-0d9d-476a-8ca4-2ea16e77111a" class="definition" eId="reg_5__para_1__def_section2892resolution_" name="definition">
+						<content>
+							<p><def GUID="_09975faa-e195-4b97-b877-7fed25897db3" eId="reg_5__para_1__def_section2892resolution" ukl:endQuote="”" ukl:startQuote="“">section 289(2) resolution</def> means a resolution of the charity trustees of a charity passed in accordance with section 289(2) of the 2011 Act.</p>
+						</content>
+					</hcontainer>
+				</paragraph>
+				<paragraph GUID="_eb19ede5-b60f-46f5-876c-ba2ffe491b94" class="prov2" eId="reg_5__para_2">
+					<num>(2)</num>
+					<intro GUID="_2bf80f5d-9f8b-44b4-8b51-6b13408c46d5" eId="reg_5__para_2__intro">
+						<p>Paragraphs (3) and (4) apply in relation to a charity (“the charity”) if, before the appointed day—</p>
+					</intro>
+					<level GUID="_ca0de569-55a2-48f7-89ee-bf5134ef93bb" class="para1" eId="reg_5__para_2__para_a">
+						<num>(a)</num>
+						<content>
+							<p>the charity trustees of the charity have passed a section 289(2) resolution, and</p>
+						</content>
+					</level>
+					<level GUID="_5f834831-a5ba-4629-89ee-847939cb6a1e" class="para1" eId="reg_5__para_2__para_b">
+						<num>(b)</num>
+						<intro GUID="_8c9f4ecd-c4c3-40fd-aa36-b62d01f7ffce" eId="reg_5__para_2__para_b__intro">
+							<p>any one of the following applies—</p>
+						</intro>
+						<level GUID="_5bcadb16-2e47-454e-8f91-2d93a2d47bb8" class="para2" eId="reg_5__para_2__para_b__subpara_i">
+							<num>(i)</num>
+							<content>
+								<p>the charity trustees of the charity have not sent a copy of the section 289(2) resolution, together with a statement of their reasons for passing it to the Charity Commission, as required by section 289(4);</p>
+							</content>
+						</level>
+						<level GUID="_6e26df19-1ac9-449c-b475-d87bf12e6b98" class="para2" eId="reg_5__para_2__para_b__subpara_ii">
+							<num>(ii)</num>
+							<content>
+								<p>the charity trustees of the charity have complied with section 289(4), and the period, specified in section 291(5)(b) of the 2011 Act, within which the Charity Commission must notify the charity trustees of the charity in writing that it concurs or does not concur with the section 289 resolution, has not expired;</p>
+							</content>
+						</level>
+						<level GUID="_175d2f12-3a5b-49a1-bcc6-a59d58b024e0" class="para2" eId="reg_5__para_2__para_b__subpara_iii">
+							<num>(iii)</num>
+							<content>
+								<p>the Charity Commission has informed the charity trustees of the charity in writing that it concurs with the section 289(2) resolution and the period for commencing proceedings on an application for judicial review in relation to that decision has not expired;</p>
+							</content>
+						</level>
+						<level GUID="_8da27f4b-8d72-4094-98e7-1e3d4e31bb51" class="para2" eId="reg_5__para_2__para_b__subpara_iv">
+							<num>(iv)</num>
+							<content>
+								<p>the Charity Commission has informed the charity trustees of the charity in writing that it does not concur with the section 289(2) resolution and the period for commencing relevant proceedings has not expired;</p>
+							</content>
+						</level>
+						<level GUID="_4e74e8a2-118b-4b85-a3ee-e6e94996c197" class="para2" eId="reg_5__para_2__para_b__subpara_v">
+							<num>(v)</num>
+							<content>
+								<p>relevant proceedings have been commenced.</p>
+							</content>
+						</level>
+					</level>
+				</paragraph>
+				<paragraph GUID="_87639b2a-21bc-4965-bef1-cc735f109420" class="prov2" eId="reg_5__para_3">
+					<num>(3)</num>
+					<content>
+						<p>Sections 288(7), 289 to 291 and 353 of the 2011 Act continue to have effect on or after the appointed day in relation to the charity trustees of the charity in respect of the section 289(2) resolution as if sections 9 and 14 of the 2022 Act had not been commenced.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_f1715c99-74b1-4364-a2f3-25c7332450ee" class="prov2" eId="reg_5__para_4">
+					<num>(4)</num>
+					<content>
+						<p>Schedules 6 and 11 of the 2011 Act continue to have effect on or after the appointed day in relation to the section 289(2) resolution as if paragraphs 24 and 25 of Schedule 2 to the 2022 Act had not been commenced.</p>
+					</content>
+				</paragraph>
+			</hcontainer>
+			<hcontainer GUID="_5b91aeda-9817-4bfe-bd22-f4a54012901a" eId="sigs" name="signatures">
+				<?DMS-Component componentId="7f6ae079-d083-402b-98d2-e39546b41ede" seriesId="8d9ee7b6-5a8f-4b0d-9085-d18b04cd329b" versionNumber="1"?>
+				<hcontainer GUID="_9016f921-c604-479f-bef3-6df208d3916e" eId="sigs__sigBlk" name="signatureBlock">
+					<content>
+						<block GUID="_cad550dc-1021-4e05-92cb-0d4c826c975b" eId="sigs__sigBlk__sig" name="signature">Stuart Andrew</block>
+						<block GUID="_5885c28a-f257-4686-9851-4486a65cf45b" eId="sigs__sigBlk__role" name="role">Parliamentary Under Secretary of State</block>
+						<block name="date"><date date="2023-06-12">12th June 2023</date></block>
+						<block GUID="_b2d2d1a0-8f95-492d-9fd3-d00a27b52675" eId="sigs__sigBlk__org" name="organization">Department for Culture, Media and Sport</block>
+					</content>
+				</hcontainer>
+			</hcontainer>
+			<hcontainer GUID="_16a96e7c-a4e6-405a-8652-8db298400f5f" class="schs" eId="scheds" name="schedules">
+				<?DMS-Component componentId="24280b7a-19fc-4451-b0e4-d80c955b85f3" seriesId="92a66e4d-dabf-41c5-8981-66a783a4b611" versionNumber="1"?>
+				<hcontainer GUID="_860932e3-074c-4511-b332-61a8cd959fe4" class="sch" eId="sched" name="schedule">
+					<?DMS-Component componentId="fed113dc-bbed-49ba-839a-60ca6d829a91" seriesId="c986ebad-5aaa-49a2-934d-cc706af16c99" versionNumber="1"?>
+					<num>Schedule<authorialNote GUID="_f87dc785-330d-4e24-906f-8bc19f0f4d49" class="referenceNote" eId="sched__aNote">
+							<p>Regulation 3</p>
+						</authorialNote></num>
+					<heading GUID="_121cac70-d49e-451e-8325-d87e697c3c89" eId="sched__hdg">Provisions coming into force on 14th June 2023</heading>
+					<paragraph GUID="_e0e97415-5050-4335-932d-e31518e8397f" class="schProv1" eId="sched__para_1">
+						<num>1.</num>
+						<content>
+							<p>Section 9 (definition of “permanent endowment”).</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_cf2ecf4b-8595-42f4-b491-2050e9a11046" class="schProv1" eId="sched__para_2">
+						<num>2.</num>
+						<content>
+							<p>Section 10 (amendment of powers to release restrictions on spending capital).</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_d2eb9687-8cd5-4e59-8485-843e702f0550" class="schProv1" eId="sched__para_3">
+						<num>3.</num>
+						<content>
+							<p>Section 11 (taking effect of resolution under section 282 of the Charities Act 2011).</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_f4acdbaf-9e26-41fd-a915-e311172c54ee" class="schProv1" eId="sched__para_4">
+						<num>4.</num>
+						<content>
+							<p>Section 12 (power to borrow from permanent endowment).</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_75e2c4e7-2ec3-4631-80ba-264ab7022750" class="schProv1" eId="sched__para_5">
+						<num>5.</num>
+						<content>
+							<p>Section 13 (total return investment).</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_01091b36-9ce8-4913-8a2c-ce03d6659cd6" class="schProv1" eId="sched__para_6">
+						<num>6.</num>
+						<content>
+							<p>Section 14 (special trusts).</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_cdaeb2da-0f45-4b97-8193-6a9246d0e54e" class="schProv1" eId="sched__para_7">
+						<num>7.</num>
+						<content>
+							<p>Section 17 (scope of Part 7 of the Charities Act 2011).</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_8757034e-f0c2-41d6-93ec-56d89f3cb97c" class="schProv1" eId="sched__para_8">
+						<num>8.</num>
+						<content>
+							<p>Section 19 (advertising and report requirements for disposition of charity land).</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_8e354482-71dc-496a-8bab-320f9f2a71a7" class="schProv1" eId="sched__para_9">
+						<num>9.</num>
+						<content>
+							<p>Section 20 (advice relating to the disposition of charity land).</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_f6033f62-d37b-4fa0-b90f-efe1fe5e98fe" class="schProv1" eId="sched__para_10">
+						<num>10.</num>
+						<content>
+							<p>Section 21 (advice etc from charity trustees, officers and employees).</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_8dd0d97a-bb54-4283-bf7e-fde5f3c2554c" class="schProv1" eId="sched__para_11">
+						<num>11.</num>
+						<content>
+							<p>Section 22 (residential tenancies granted to employees).</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_e44258a8-6f12-45cd-a2b3-fb459fc979b7" class="schProv1" eId="sched__para_12">
+						<num>12.</num>
+						<content>
+							<p>Section 25 (working names etc).</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_377264ee-bf0c-439b-a5f6-f626d947fd51" class="schProv1" eId="sched__para_13">
+						<num>13.</num>
+						<content>
+							<p>Section 26 (power to delay registration of unsuitably named charity).</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_67168e0d-caf9-40d0-90a7-7abff6310850" class="schProv1" eId="sched__para_14">
+						<num>14.</num>
+						<content>
+							<p>Section 27 (power to delay entry of unsuitable name in register).</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_cbb94b52-2d20-424a-91c8-08c3f6b8d141" class="schProv1" eId="sched__para_15">
+						<num>15.</num>
+						<content>
+							<p>Section 28 (power to direct change of name of exempt charity).</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_f52ba285-393d-42ad-95c2-4604aa822e9d" class="schProv1" eId="sched__para_16">
+						<num>16.</num>
+						<content>
+							<p>Section 35(a) (vesting permanent endowment following a merger).</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_43b2fc99-4cde-44f1-8921-66373f031db6" class="schProv1" eId="sched__para_17">
+						<num>17.</num>
+						<content>
+							<p>Section 38 (“connected person”: illegitimate children).</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_92ce036e-dfd6-4be5-ba6c-a8ddfd956b94" class="schProv1" eId="sched__para_18">
+						<num>18.</num>
+						<content>
+							<p>Section 39 (“connected person”: power to amend).</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_1c89b220-f39d-4eca-a35d-ede427405ed9" class="schProv1" eId="sched__para_19">
+						<num>19.</num>
+						<content>
+							<p>Section 40 (minor and consequential provision), in so far as it relates to the provisions brought into force by paragraph 20 of this Schedule.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_eb69d76d-b550-4e20-9b68-a17aa6591d47" class="schProv1" eId="sched__para_20">
+						<num>20.</num>
+						<intro GUID="_09ff13c4-07f0-4095-a630-fd5ab48efe12" eId="sched__para_20__intro">
+							<p>The following paragraphs of Schedule 2 (minor and consequential amendments)—</p>
+						</intro>
+						<level GUID="_5ed970cb-a9cb-4222-b0ef-739dabacabf3" class="para1" eId="sched__para_20__para_a">
+							<num>(a)</num>
+							<content>
+								<p>paragraph 1, in so far as it relates to paragraphs 16 to 19 and 21 to 25 of Schedule 2,</p>
+							</content>
+						</level>
+						<level GUID="_318db6c4-5785-4bef-83d6-e7522824bce7" class="para1" eId="sched__para_20__para_b">
+							<num>(b)</num>
+							<content>
+								<p>paragraph 16,</p>
+							</content>
+						</level>
+						<level GUID="_a0939774-0cd8-42f7-a83a-0b9a4438707d" class="para1" eId="sched__para_20__para_c">
+							<num>(c)</num>
+							<content>
+								<p>paragraph 17,</p>
+							</content>
+						</level>
+						<level GUID="_5b2be6bb-da91-4ae5-bb6a-2c0224f47065" class="para1" eId="sched__para_20__para_d">
+							<num>(d)</num>
+							<content>
+								<p>paragraph 18,</p>
+							</content>
+						</level>
+						<level GUID="_2eadaa18-0f64-4fd5-9bb2-adb1680ef09c" class="para1" eId="sched__para_20__para_e">
+							<num>(e)</num>
+							<content>
+								<p>paragraph 19,</p>
+							</content>
+						</level>
+						<level GUID="_474ec65e-61c8-4f67-b5dc-ae9fff3166c6" class="para1" eId="sched__para_20__para_f">
+							<num>(f)</num>
+							<content>
+								<p>paragraph 20,</p>
+							</content>
+						</level>
+						<level GUID="_2d2a3264-8bd9-4531-b25c-197d07d21b4e" class="para1" eId="sched__para_20__para_g">
+							<num>(g)</num>
+							<content>
+								<p>paragraph 21,</p>
+							</content>
+						</level>
+						<level GUID="_a73deba5-fab4-4dc8-a6b9-909be0560f92" class="para1" eId="sched__para_20__para_h">
+							<num>(h)</num>
+							<content>
+								<p>paragraph 22,</p>
+							</content>
+						</level>
+						<level GUID="_7df874e4-739b-487a-a840-871f3ee420ea" class="para1" eId="sched__para_20__para_i">
+							<num>(i)</num>
+							<content>
+								<p>paragraph 23,</p>
+							</content>
+						</level>
+						<level GUID="_c5bb6395-4ae3-400f-a63c-7d0754673131" class="para1" eId="sched__para_20__para_j">
+							<num>(j)</num>
+							<content>
+								<p>paragraph 24,</p>
+							</content>
+						</level>
+						<level GUID="_75caae09-f4f5-43e7-aefb-70605190adc1" class="para1" eId="sched__para_20__para_k">
+							<num>(k)</num>
+							<content>
+								<p>paragraph 25,</p>
+							</content>
+						</level>
+						<level GUID="_0efcd212-93b4-4c47-a448-4e39488a71ce" class="para1" eId="sched__para_20__para_l">
+							<num>(l)</num>
+							<content>
+								<p>paragraph 28,</p>
+							</content>
+						</level>
+						<level GUID="_6af29251-80eb-4fd1-81d5-ab2a5e4def26" class="para1" eId="sched__para_20__para_m">
+							<num>(m)</num>
+							<content>
+								<p>paragraph 30,</p>
+							</content>
+						</level>
+						<level GUID="_0965be8a-61a0-4ca1-badf-656ab9be2586" class="para1" eId="sched__para_20__para_n">
+							<num>(n)</num>
+							<content>
+								<p>paragraph 31,</p>
+							</content>
+						</level>
+						<level GUID="_499142ba-9720-4581-8e4c-4a0bdf466e8a" class="para1" eId="sched__para_20__para_o">
+							<num>(o)</num>
+							<content>
+								<p>paragraph 32,</p>
+							</content>
+						</level>
+						<level GUID="_ebfc43a7-c06f-4ce9-992a-4954a077a131" class="para1" eId="sched__para_20__para_p">
+							<num>(p)</num>
+							<content>
+								<p>paragraph 33,</p>
+							</content>
+						</level>
+						<level GUID="_c3e8d41a-3b35-4caf-8e2c-2e122e97ed86" class="para1" eId="sched__para_20__para_q">
+							<num>(q)</num>
+							<content>
+								<p>paragraph 34,</p>
+							</content>
+						</level>
+						<level GUID="_e2aa1525-fb3b-4b7a-9503-06a1e8547e24" class="para1" eId="sched__para_20__para_r">
+							<num>(r)</num>
+							<content>
+								<p>paragraph 35,</p>
+							</content>
+						</level>
+						<level GUID="_f83cfe6c-97ee-472e-887f-6a2c061fd426" class="para1" eId="sched__para_20__para_s">
+							<num>(s)</num>
+							<content>
+								<p>paragraph 36,</p>
+							</content>
+						</level>
+						<level GUID="_736a85b4-8cdb-4a7d-809c-bd5aaa393147" class="para1" eId="sched__para_20__para_t">
+							<num>(t)</num>
+							<content>
+								<p>paragraph 37,</p>
+							</content>
+						</level>
+						<level GUID="_53f2e6c3-94bf-42be-9b4c-a7452d7348ef" class="para1" eId="sched__para_20__para_u">
+							<num>(u)</num>
+							<content>
+								<p>paragraph 45, and</p>
+							</content>
+						</level>
+						<level GUID="_f9b79519-beac-4b79-8efe-d79aa365fb4c" class="para1" eId="sched__para_20__para_v">
+							<num>(v)</num>
+							<content>
+								<p>paragraph 46.</p>
+							</content>
+						</level>
+					</paragraph>
+				</hcontainer>
+			</hcontainer>
+		</body>
+		<conclusions GUID="_c1eefb5d-a861-42ff-bb88-1f49243a9eb1" eId="backCover">
+			<?DMS-Component componentId="9e60863d-08f4-4111-88ef-9feec115be53" seriesId="08e4d97c-fcfe-4897-8086-74135eee3192" versionNumber="1"?>
+			<blockContainer GUID="_82ccd613-175f-4f3d-809a-107d7aed9f19" class="explanatoryNote" eId="backCover__explNote">
+				<heading GUID="_4bea2441-1130-425a-88c6-452d5dd840d8" eId="backCover__explNote__hdg">Explanatory Note</heading>
+				<subheading GUID="_15bd5d82-b017-4e21-b662-d5d38659cf8a" eId="backCover__explNote__subhdg">(This note is not part of the <ref class="placeholder" href="#varDocSubType"/>)</subheading>
+				<p>These Regulations are the second set of commencement regulations made under the Charities Act 2022 (c. 6) (“the 2022 Act”).</p>
+				<p>Regulation 3 brings into force the provisions listed in the Schedule, which implement recommendations made by the Law Commission of England and Wales as to technical improvements that could be made to charity law. Many of these improvements are made by way of amendment of the Charities Act 2011 (c. 25) (“the 2011 Act”). The provisions listed will come into force on 14th June 2023.</p>
+				<p>Paragraph 1 of the Schedule brings into force section 9 of the 2022 Act, which replaces the definition of permanent endowment in section 353(3) of the 2011 Act. This defines what property will be considered to be permanent endowment for the purposes of the 2011 Act.</p>
+				<p>Paragraph 2 of the Schedule brings into force section 10 of the 2022 Act, which amends sections 281, 282 and 284 of the 2011 Act. These amendments include new provision within sections 281 and 282 making clear that the power to release restrictions on spending permanent endowment is available to corporate charities as well as unincorporated charities.</p>
+				<p>Section 10 also changes the circumstances in which the Charity Commission will need to concur with a resolution of a charity to release the restrictions on permanent endowment, with these circumstances being based on the value of the permanent endowment fund.</p>
+				<p>In addition, section 10 makes changes to sections 281 and 282 to clarify how charity trustees may use the powers to release restrictions on permanent endowment where there is outstanding borrowing from that permanent endowment. As a result of the changes to sections 281 and 282, section 10 makes changes to section 284.</p>
+				<p>Paragraph 3 of the Schedule brings into force section 11 of the 2022 Act, which makes further changes to section 284 of the 2011 Act. This amends the time limit by which the Charity Commission must respond to a resolution made under section 282(2) of the 2011 Act. This time limit is also relevant as a resolution made in accordance with section 282(2) will take effect, in accordance with section 284(5) of the 2011 Act as amended by paragraph 17(6) of Schedule 2 to the 2022 Act to refer to this new time limit (brought into force by paragraph 20(c) of the Schedule to these Regulations), if the Charity Commission does not concur with the resolution within the time limit.</p>
+				<p>Paragraph 4 of the Schedule brings into force section 12 of the 2022 Act, which inserts new sections 284A to 284D into the 2011 Act. These sections create a new statutory power for charities to borrow from permanent endowment, subject to arrangements being put in place for repayment of the borrowing within 20 years, without needing to obtain an order from the Charity Commission under section 105 of the 2011 Act.</p>
+				<p>Paragraph 5 of the Schedule brings into force section 13 of the 2022 Act, which inserts new section 104AA into the 2011 Act and makes amendments to section 104B of the 2011 Act to reflect the insertion of the new section 104AA. Section 104AA will provide charities, which have already opted in to investing on a total return basis under section 104A, with the power to make social investments with uncertain or negative financial return using permanent endowment.</p>
+				<p>Paragraph 6 of the Schedule brings into force section 14 of the 2022 Act. This section repeals Part 14 of the 2011 Act, due to the powers contained in that Part replicating sections 281 and 282, and moves the definition of special trust from section 287 to section 353 (which provides minor definitions for the 2011 Act).</p>
+				<p>Paragraph 7 of the Schedule brings into force section 17 of the 2022 Act, which inserts a new section 117(1A) into the 2011 Act. This insertion defines what is meant by ‘land held by or in trust for a charity’ to which the restrictions on disposals in charity land contained within Part 7 of the 2011 Act apply.</p>
+				<p>Paragraph 8 of the Schedule brings into force section 19 of the 2022 Act, which amends section 119 of the 2011 Act. The amendments are twofold in that they remove a requirement that charities must advertise a disposition of charity property as advised in the report of the designated adviser and remove a superfluous requirement as to the content of those reports.</p>
+				<p>Paragraph 9 of the Schedule brings into force section 20 of the 2022 Act, which also amends section 119 of the 2011 Act, by substituting the phrase designated adviser for qualified surveyor to reflect the fact that a wider category of adviser can be prescribed in regulations made under section 119.</p>
+				<p>Paragraph 10 of the Schedule brings into force section 21 of the 2022 Act, which inserts a new section 128A into the 2011 Act and repeals part of section 124(8), which is rendered redundant by the insertion of the new section 128A. This new section enables charities to obtain the reports required under sections 119(1)(a), and the advice required under sections 120(2)(a), 124(2) and 124(7), from the trustees, officers and employees of that charity, even if they do so in the course of their employment.</p>
+				<p>Paragraph 11 of the Schedule brings into force section 22 of the 2022 Act, which inserts a new section 118(2A) into the 2011 Act. This new subsection will create an exception to the requirement to obtain Charity Commission consent for disposals of charity land to employees of a charity, where the disposal is the grant of a fixed term tenancy, or periodic tenancy, of one year or less to occupy a dwelling as a home.</p>
+				<p>Paragraph 12 of the Schedule brings into force section 25 of the 2022 Act, which amends section 42 of the 2011 to extend the powers the Charity Commission has in relation to unsuitable names of charities to cover working names of charities.</p>
+				<p>Paragraph 13 of the Schedule brings into force section 26 of the 2022 Act, which inserts a new section 45A into the 2011 Act. This provides the Charity Commission with a power to delay registration of a charity where it has given a direction to the charity under section 42 of the 2011 Act in relation to an unsuitable name or working name.</p>
+				<p>Paragraph 14 of the Schedule brings into force section 27 of the 2022 Act, which inserts a new section 45B into the 2011 Act. This provides the Charity Commission with a power to delay changing the name of a charity on the register where it has given a direction to the charity under section 42 of the 2011 Act requiring the charity to change that new name.</p>
+				<p>Paragraph 15 of the Schedule brings into force section 28 of the 2022 Act. This repeals paragraph 10 of Schedule 9 to the 2011 Act, which had the effect of preventing section 42 of the 2011 Act from applying to exempt charities. As a result of the repeal, the powers in section 42 and new sections 45A and 45B will all apply to exempt charities, subject to the principle that the Charity Commission must first consult with the principal regulator before exercising those powers (section 28 of the 2011 Act).</p>
+				<p>Paragraph 16 of the Schedule brings into force section 35(a) of the 2022 Act, which makes a minor amendment to section 306 of the 2011 Act to reflect the amended definition of permanent endowment in section 353(3) of the 2011 Act (as amended by section 9 of the 2022 Act).</p>
+				<p>Paragraph 17 of the Schedule brings into force section 38 of the 2022, which amends section 350(1) of the 2011 Act to remove the reference to an illegitimate child from the meaning of child for the purposes of the definition of “connected person” used in various sections of the 2011 Act, which is redundant due to section 1 of the Family Law Reform Act 1987.</p>
+				<p>Paragraph 18 of the Schedule brings into force section 39 of the 2022 Act, which inserts a new section 352A into the 2011 Act. This new section will enable any definition of “connected persons” used in the 2011 Act to be amended by secondary legislation.</p>
+				<p>Paragraphs 19 and 20 of the Schedule bring into force section 40 (in part) and a number of paragraphs of Schedule 2 (minor and consequential provision), which make consequential provisions relevant to other sections of the 2022 Act commenced by these Regulations.</p>
+				<p>Regulation 4 makes saving provision in relation to powers of charity trustees to release restrictions on permanent endowment. This is to ensure that where, prior to the commencement of sections 10 and 11 of the 2022 Act, the charity trustees of a charity have passed a resolution to release restrictions which would have required the Charity Commission to concur with that resolution, sections 282 and 284 continue to apply as though they were not amended by sections 10 and 11.</p>
+				<p>Sections 282 and 284 will also continue to apply as they had effect prior to the commencement of sections 10 and 11 of the 2022 Act where the Charity Commission has made a decision to concur or not to concur with the resolution, or legal proceedings have been commenced in relation to any such decision of the Charity Commission.</p>
+				<p>Regulation 4 further ensures that the definition of permanent endowment that would have applied on the date the resolution was passed continues to apply for such cases.</p>
+				<p>Regulation 5 makes similar saving provision to that in regulation 4, but in relation to the release of restrictions on permanent endowment of a special trust. This is to ensure that where charity trustees of a charity have passed a resolution that under section 289 of the 2011 Act would have required the Charity Commission to concur with the resolution, sections 288(7) and 289 to 291 of the 2011 Act continue to apply as though they had not been repealed by section 14.</p>
+				<p>In addition, regulation 5 also ensures that the definition of permanent endowment that would have applied on the date the resolution was passed continues to apply.</p>
+				<p>A de minimis impact assessment has been published on gov.uk alongside the 2022 Act at</p>
+				<p>https://www.legislation.gov.uk/ukpga/2022/6/pdfs/ukpgaod_20220006_en.pdf</p>
+				<p>The consequential and saving provisions in these Regulations do not materially change that assessment.</p>
+			</blockContainer>
+			<blockContainer GUID="_93ad2376-123d-42e3-9da0-9d9783912676" class="commencementHistory" eId="backCover__comHist">
+				<heading GUID="_5fd27f8a-e4f7-4b48-9642-9e1b4470033b" eId="backCover__comHist__hdg">NOTE AS TO EARLIER COMMENCEMENT <ref class="placeholder" href="#varDocSubType"/></heading>
+				<subheading GUID="_da77b255-a715-493c-af43-01fb5c1820ed" eId="backCover__comHist__subhdg">(This note is not part of the Regulations)</subheading>
+				<p>The following provisions of the Charities Act 2022 (c. 6) have been brought into force by commencement regulations made before the date of these Regulations.</p>
+				<tblock GUID="_6912d23a-74e9-4617-94db-1af558f0e03d" class="table" eId="backCover__comHist__tbl__oc_1">
+					<foreign>
+						<table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="topAndBottom tablecenter width100" cols="3">
+							<thead class="italic left">
+								<tr akn:GUID="_c03f883f-3563-40ee-904a-58d30b03b05c" akn:eId="backCover__comHist__tbl__oc_1__hdg__row__oc_1">
+									<td akn:GUID="_6f523f8b-0863-44f8-89c4-56cb2bc58060" akn:eId="backCover__comHist__tbl__oc_1__hdg__row__oc_1__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Provision</p>
+									</td>
+									<td akn:GUID="_e22578e4-7e1f-4006-9655-ddafe80802b0" akn:eId="backCover__comHist__tbl__oc_1__hdg__row__oc_1__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Date of Commencement</p>
+									</td>
+									<td akn:GUID="_9f89bbec-7f3f-40f2-9e48-cd8c218377c9" akn:eId="backCover__comHist__tbl__oc_1__hdg__row__oc_1__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. No.</p>
+									</td>
+								</tr>
+							</thead>
+							<tbody class="left">
+								<tr akn:GUID="_2858ae49-ffa6-4e25-be50-25be71d33361" akn:eId="backCover__comHist__tbl__oc_1__row__oc_1">
+									<td akn:GUID="_fe16ab05-b1fb-4b4d-960f-9f71487122d6" akn:eId="backCover__comHist__tbl__oc_1__row__oc_1__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 4</p>
+									</td>
+									<td akn:GUID="_97394303-e8f5-486f-abbc-589665cbcadf" akn:eId="backCover__comHist__tbl__oc_1__row__oc_1__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">31 October 2022</p>
+									</td>
+									<td akn:GUID="_d33a04f3-63ef-4dbc-9d33-0a1820fb0e6d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_1__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/1109</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_dc8cd8e8-e810-4e53-9e76-fe2024500662" akn:eId="backCover__comHist__tbl__oc_1__row__oc_2">
+									<td akn:GUID="_37aee17c-7fa5-4c0d-9254-7ce061043147" akn:eId="backCover__comHist__tbl__oc_1__row__oc_2__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 5</p>
+									</td>
+									<td akn:GUID="_e92f1d07-bac3-4481-be85-a3853253cd84" akn:eId="backCover__comHist__tbl__oc_1__row__oc_2__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">31 October 2022</p>
+									</td>
+									<td akn:GUID="_c6b58662-3e17-4fcf-aa48-0ca199b66bc7" akn:eId="backCover__comHist__tbl__oc_1__row__oc_2__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/1109</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_7281154e-1a2f-48fb-b8cf-93d732c4dafd" akn:eId="backCover__comHist__tbl__oc_1__row__oc_3">
+									<td akn:GUID="_4af11de2-69d4-4741-b3bf-b447f86fb965" akn:eId="backCover__comHist__tbl__oc_1__row__oc_3__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 6</p>
+									</td>
+									<td akn:GUID="_72f70fdd-8655-455f-be84-3ce8d5950327" akn:eId="backCover__comHist__tbl__oc_1__row__oc_3__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">31 October 2022</p>
+									</td>
+									<td akn:GUID="_d4155eb1-6e2e-4268-ada2-4cdcf282069e" akn:eId="backCover__comHist__tbl__oc_1__row__oc_3__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/1109</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_78454475-8578-4e4e-8e1a-5ca7aa534635" akn:eId="backCover__comHist__tbl__oc_1__row__oc_4">
+									<td akn:GUID="_7f0766d5-89ec-468f-900a-e3439bd540dd" akn:eId="backCover__comHist__tbl__oc_1__row__oc_4__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 7</p>
+									</td>
+									<td akn:GUID="_6d7340e3-4c35-4b6a-a763-73d34136bcbc" akn:eId="backCover__comHist__tbl__oc_1__row__oc_4__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">31 October 2022</p>
+									</td>
+									<td akn:GUID="_58ace905-b602-4eff-a4b5-dc089e714389" akn:eId="backCover__comHist__tbl__oc_1__row__oc_4__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/1109</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_8e302c02-9060-4b87-bbfd-f6d5e552c7ec" akn:eId="backCover__comHist__tbl__oc_1__row__oc_5">
+									<td akn:GUID="_078b1d33-3122-4635-abdb-453852bea20a" akn:eId="backCover__comHist__tbl__oc_1__row__oc_5__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 8</p>
+									</td>
+									<td akn:GUID="_63fb6efe-c3ef-4a17-b466-901b34377c17" akn:eId="backCover__comHist__tbl__oc_1__row__oc_5__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">31 October 2022</p>
+									</td>
+									<td akn:GUID="_0b6ce09c-0bc3-470a-8368-25f027b27518" akn:eId="backCover__comHist__tbl__oc_1__row__oc_5__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/1109</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_45ed1c02-1908-4744-912d-099762af1478" akn:eId="backCover__comHist__tbl__oc_1__row__oc_6">
+									<td akn:GUID="_056f3cef-d27c-42fa-9580-478469e5093c" akn:eId="backCover__comHist__tbl__oc_1__row__oc_6__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 30</p>
+									</td>
+									<td akn:GUID="_f6af64f1-2be8-4db9-badc-abb077d687b1" akn:eId="backCover__comHist__tbl__oc_1__row__oc_6__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">31 October 2022</p>
+									</td>
+									<td akn:GUID="_8a10cb02-8d40-4699-a9d6-ab352ab006bd" akn:eId="backCover__comHist__tbl__oc_1__row__oc_6__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/1109</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_9f5197b9-5bc6-44d4-88cd-8d3692c7c337" akn:eId="backCover__comHist__tbl__oc_1__row__oc_7">
+									<td akn:GUID="_dfc1e9bc-e624-4384-8df5-9e9145c26316" akn:eId="backCover__comHist__tbl__oc_1__row__oc_7__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 32</p>
+									</td>
+									<td akn:GUID="_b71f27f8-0d48-46e4-9d34-e15616e738ae" akn:eId="backCover__comHist__tbl__oc_1__row__oc_7__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">31 October 2022</p>
+									</td>
+									<td akn:GUID="_44807fa7-c81a-414c-b895-2b44fb96b655" akn:eId="backCover__comHist__tbl__oc_1__row__oc_7__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/1109</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_9e956911-d544-4f51-9de9-93f10554f00a" akn:eId="backCover__comHist__tbl__oc_1__row__oc_8">
+									<td akn:GUID="_237c0787-9068-4a98-b4fd-d573e64632a1" akn:eId="backCover__comHist__tbl__oc_1__row__oc_8__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 36</p>
+									</td>
+									<td akn:GUID="_f5507819-d274-4bc9-ae3d-a73cc8238fff" akn:eId="backCover__comHist__tbl__oc_1__row__oc_8__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">31 October 2022</p>
+									</td>
+									<td akn:GUID="_c06804c1-5389-4f34-87b5-4bd746b5bf1f" akn:eId="backCover__comHist__tbl__oc_1__row__oc_8__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/1109</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_35f05d4d-cad3-496f-8a73-ab0aebdfac8d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_9">
+									<td akn:GUID="_8fbd825b-3788-4cdf-a152-00113bee237c" akn:eId="backCover__comHist__tbl__oc_1__row__oc_9__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 37 (partially)</p>
+									</td>
+									<td akn:GUID="_dc46809a-25f4-4077-baaa-0df4abcd8f07" akn:eId="backCover__comHist__tbl__oc_1__row__oc_9__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">31 October 2022</p>
+									</td>
+									<td akn:GUID="_338c6e30-dfbb-4750-9df1-e03e907d1ae7" akn:eId="backCover__comHist__tbl__oc_1__row__oc_9__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/1109</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_4dbc9ca8-9105-4007-9ce2-d6b0ad8d4bd2" akn:eId="backCover__comHist__tbl__oc_1__row__oc_10">
+									<td akn:GUID="_11c5671b-6de5-403b-8231-eb8f8f1d7537" akn:eId="backCover__comHist__tbl__oc_1__row__oc_10__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 40 (partially)</p>
+									</td>
+									<td akn:GUID="_16b25df4-f073-4987-bebb-8050fd32ec3c" akn:eId="backCover__comHist__tbl__oc_1__row__oc_10__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">31 October 2022</p>
+									</td>
+									<td akn:GUID="_6e8eff05-3ea4-4088-b9ce-363dc5f83bdf" akn:eId="backCover__comHist__tbl__oc_1__row__oc_10__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/1109</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_aaa2fb98-61b7-4590-8ebc-acc2f272069a" akn:eId="backCover__comHist__tbl__oc_1__row__oc_11">
+									<td akn:GUID="_a2e0fe69-1cf4-4e2c-88f9-3854710948e3" akn:eId="backCover__comHist__tbl__oc_1__row__oc_11__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Schedule 2 (partially)</p>
+									</td>
+									<td akn:GUID="_c8bc0d3b-69eb-4fd9-9997-fd6311e5237f" akn:eId="backCover__comHist__tbl__oc_1__row__oc_11__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">31 October 2022</p>
+									</td>
+									<td akn:GUID="_d42ece1c-9801-4767-bc3e-2d7c7795ac3c" akn:eId="backCover__comHist__tbl__oc_1__row__oc_11__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2022/1109</p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</foreign>
+				</tblock>
+			</blockContainer>
+		</conclusions>
+	</act>
+</akomaNtoso>

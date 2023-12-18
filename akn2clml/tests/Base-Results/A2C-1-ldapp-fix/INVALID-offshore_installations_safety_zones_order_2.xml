@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?><akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../schemas/akomantoso30.xsd"><?DMS-Component componentId="b9a18d4e-294b-4d76-ab7d-ff82386c2e31" seriesId="0bca01d4-bb62-4321-bf39-89e1eee04696" versionNumber="1"?>
+	
+	<act contains="originalVersion" name="uksi">
+		<meta><?DMS-Component componentId="e64b9fd2-1486-4198-bd9e-397fc1e02ff3" seriesId="e6292dfd-f652-4f9a-8ff4-4a65f32cbf9f" versionNumber="1"?>
+			
+			<identification source="#ldapp">
+				<FRBRWork>
+					<FRBRthis value="#varWork"/>
+					<FRBRuri value="#varWorkUri"/>
+					<FRBRalias name="ttflConfigHistory" value="#varCHOiid"/>
+					<FRBRdate date="9999-01-01" name="uksi"/>
+					<FRBRauthor href="#varAuthor"/>
+					<FRBRcountry value="GB-SCT"/>
+					<FRBRsubtype value="#varDocSubType"/>
+					<FRBRnumber value="#varProjectId"/>
+					<FRBRname value="#varSITitle"/>
+					<FRBRprescriptive value="true"/>
+					<FRBRauthoritative value="false"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="#varExpression"/>
+					<FRBRuri value="#varExpressionUri"/>
+					<FRBRalias name="ttflVersionDescription" value="#varVDOiid"/>
+					<FRBRdate date="9999-01-01" name="draft"/>
+					<FRBRauthor href="#varAuthor"/>
+					<FRBRversionNumber value=""/>
+					<FRBRauthoritative value="false"/>
+					<FRBRmasterExpression href="" showAs=""/>
+					<FRBRlanguage language="eng"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="#varManifestation"/>
+					<FRBRuri value="#varManifestationUri"/>
+					<FRBRdate date="9999-01-01" name="akn_xml"/>
+					<FRBRauthor href="#varAuthor"/>
+					<FRBRformat value="application/akn+xml"/>
+				</FRBRManifestation>
+			</identification>
+			<references source="#author">
+				<TLCConcept GUID="_b634e7f4-abe6-401a-9ae7-04e5e9670161" eId="varDocSubType" href="#varOntologies" showAs="Order"/>
+				<TLCConcept GUID="_0755093c-f4cc-41e1-b3cd-c79379b226b1" eId="varSITitle" href="#varOntologies" showAs="The Offshore Installations (Safety Zones) Order 2023"/>
+				<TLCProcess GUID="_b1d9c07d-f592-487e-92da-8f4942a21511" eId="varProcedureType" href="#varOntologies" showAs="Made Negative"/>
+				<TLCProcess GUID="_88057d4e-d75a-4050-860e-2e2a7dccd7e6" eId="varStageVersion" href="#varOntologies" showAs="1"/>
+				<TLCProcess GUID="_d578354a-d8a8-4bf8-9a10-21bc4b9bc0a0" eId="varProjectId" href="#varOntologies" showAs="SI000307"/>
+				<TLCProcess GUID="_05857381-f7f6-418f-a777-a0bb8613adff" eId="varWork" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_4012fffb-a696-4c4d-b10a-18de89ee856e" eId="varWorkUri" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_2ea31693-a936-4a77-a281-e24bd5bf649a" eId="varCHOiid" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_7754a13e-9d48-40ca-9be3-b69139536e83" eId="varExpression" href="#varOntologies" showAs="7702368a-f0ab-4bb1-8eb0-bd4b692d9a96"/>
+				<TLCProcess GUID="_82e9146e-f3e1-412b-94e9-646ec3f4edbf" eId="varExpressionUri" href="#varOntologies" showAs="dma:///45e6b900-8929-11d4-b772-0050da06bfb4/80742cea-0ebb-4cf6-9759-1e52358d9b5b/;guid=7702368a-f0ab-4bb1-8eb0-bd4b692d9a96;class=Version%20Description"/>
+				<TLCProcess GUID="_eb1b333f-c47e-48e9-b5d5-227d8781321a" eId="varVDOiid" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_99074c7c-a494-4062-a3ea-89f8ee364e57" eId="varManifestation" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_b695ff84-6907-4b04-a83e-039a45b23d83" eId="varManifestationUri" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_438724a3-38a5-4054-b60a-00e98e23bc3c" eId="varSIYear" href="#varOntologies" showAs="2023"/>
+				<TLCConcept GUID="_595237de-1912-4b87-9052-e18c06575293" eId="varSINoComp" href="#varOntologies" showAs="838"/>
+				<TLCConcept GUID="_0ec7580c-32d3-47a2-934d-e8b65808bd09" eId="varSINo" href="#varOntologies" showAs="#varSIYear No. #varSINoComp #varSISubsidiaryNos"/>
+				<TLCConcept GUID="_bc08d730-652a-4228-bb63-a04de14a7b94" eId="varSISubsidiaryNos" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_f80db3a7-cccb-497c-9143-207b4c207aa3" eId="varISBN" href="#varOntologies" showAs=""/>
+				<TLCPerson GUID="_45029ec8-dbdd-483e-a5f0-f4c9683b25dc" eId="varMinistryAgency" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_55511b55-667d-4b0d-b556-5ae24789d859" eId="varDocType" href="#varOntologies" showAs="UKSI"/>
+				<TLCProcess GUID="_aa7494c9-7fb6-4b43-8d0f-ea5a6667af4d" eId="varSystem" href="#varOntologies" showAs="LDAPP"/>
+				<TLCOrganization GUID="_72414cb4-9872-460e-a998-3c0275e4f549" eId="varAuthor" href="#varOntologies" showAs="UK Government"/>
+				<TLCLocation GUID="_f5602202-f301-4aaa-9e6e-7ffc5efccf7c" eId="varJurisdiction" href="#varOntologies" showAs="United Kingdom"/>
+				<TLCConcept GUID="_55c38538-a0d3-4a49-b2d9-99a5ce8db26e" eId="varOntologies" href="https://www.legislation.gov.uk/ontologies/UK-AKN" showAs="https://www.legislation.gov.uk/ontologies/UK-AKN"/>
+				<TLCConcept GUID="_1a3c0f95-aacf-4101-a1e9-afe7a59f1b73" eId="varMadeDate" href="#varOntologies" showAs="2023-07-18T00:00:00.000"/>
+				<TLCConcept GUID="_242a370d-4287-4205-86b0-141fb96877d8" eId="varCommenceDate" href="#varOntologies" showAs="2023-08-08T00:00:00.000"/>
+			</references>
+		</meta>
+		<preface GUID="_24d9a41c-0933-44a9-b473-6f26a256b68d" eId="fnt"><?DMS-Component componentId="f4392691-853f-4e69-aef7-280b7988774a" seriesId="7a3d372f-f8d0-4d32-8afb-567a88bd48c6" versionNumber="1"?>
+			
+			<block GUID="_c0902540-e2b3-42b2-a948-44c30c0cb73e" eId="fnt__banner" name="banner">STATUTORY INSTRUMENTS</block>
+			<block GUID="_a6b71e51-3cbb-4fd0-bf83-93fe7c7990e8" eId="fnt__no" name="number">
+				<docNumber GUID="_71ec0783-a525-425b-a941-a3ed318f9155" eId="fnt__no__dno">
+					<ref class="placeholder" href="#varSINo"/>0000</docNumber>
+			</block>
+			<container name="subjects">
+				<container GUID="_50e351b8-70c6-4762-84ae-9ceb5467b0b9" eId="fnt__subject" name="subject">
+					<block name="subject"><concept class="title" refersTo="">OFFSHORE INSTALLATIONS</concept></block>
+				</container>
+			</container>
+			<block GUID="_b759ed4a-fbd1-4390-9cbd-27ac5077b9e7" eId="fnt__st" name="title">
+				<docTitle GUID="_ad7ca41e-26be-458b-81d2-6d2f3cd324b4" eId="fnt__st__dtitle">
+					<ref class="placeholder" href="#varSITitle"/>
+				</docTitle>
+			</block>
+			<container GUID="_38187e4d-8bc7-4a49-b334-13c5c67b43e2" eId="fnt__dates" name="dates">
+				<block GUID="_ec391cc4-872b-4409-9a19-3cdf8a9cd3ea" eId="fnt__dates__madeDate" name="madeDate"><span>Made</span><docDate GUID="_1a767468-0dc1-4aa0-8bd5-b10fa6b24e2c" date="2023-07-18T00:00:00.000" eId="fnt__dates__madeDate__ddate"><ref class="placeholder" href="#varMadeDate" ukl:dateFormat="d'th' MMMM yyyy">18th July 2023</ref></docDate></block>
+				<block GUID="_7224f3e3-bc44-4d07-bc72-a3d80dcfc4ac" eId="fnt__dates__commenceDate" name="commenceDate"><span>Coming into force</span><docDate GUID="_ba700a05-5c88-4cf2-bd6b-a2984cfd000a" date="2023-08-08T00:00:00.000" eId="fnt__dates__commenceDate__ddate"><ref class="placeholder" href="#varCommenceDate" ukl:dateFormat="d'th' MMMM yyyy">8th August 2023</ref></docDate></block>
+			</container>
+		</preface>
+		<preamble GUID="_baa7b4c8-1ff7-408e-917b-f903483be5dd" eId="preamble"><?DMS-Component componentId="1ff1cf0b-7e02-436c-9d35-4553bda7df37" seriesId="f6dcb404-7d79-4248-bbd1-e96c908d79dd" versionNumber="1"?>
+			
+			<formula GUID="_5201c6a7-783c-4c71-a8ae-af022cf50335" eId="preamble__enactingWords" name="enactingText">
+				<p>The Secretary of State makes this <ref class="placeholder" href="#varDocSubType"/>—</p>
+				<tblock GUID="_3c549074-6281-4f87-a8b2-63e3d8568191" class="para1" eId="preamble__enactingWords__para_a">
+					<num>(a)</num>
+					<p>in exercise of the powers conferred by section 22 of the Petroleum Act 1987<authorialNote GUID="_86540498-5164-4568-b52d-824840ee74a7" class="footnote" eId="fnote_1" marker="1">
+							<p>1987 c. 12.</p>
+						</authorialNote>; and</p>
+				</tblock>
+				<tblock GUID="_ef319d50-a7fe-49c8-b213-7a37cf416ddd" class="para1" eId="preamble__enactingWords__para_b">
+					<num>(b)</num>
+					<p>for the purpose of giving effect to proposals submitted by the Health and Safety Executive under section 24(2A)<authorialNote GUID="_88f8adf6-daac-44b5-8fce-86e82116ce06" class="footnote" eId="fnote_2" marker="2">
+							<p>Section 24(2A) was inserted by S.I. 1993/1823 and amended by S.I. 2008/960.</p>
+						</authorialNote> of that Act.</p>
+				</tblock>
+			</formula>
+		</preamble>
+		<body><?DMS-Component componentId="a2b2950a-cbe9-4979-b14e-c6bc34493c05" seriesId="90975a2a-60db-42fa-8025-1c3908964ed7" versionNumber="1"?>
+			
+			<article GUID="_8fdfa2cb-a754-46b0-8c0f-d593e6687bc4" class="prov1" eId="art_1"><?DMS-Component componentId="330057c8-a2c2-47e2-b28c-c90710e62385" seriesId="26261976-f75b-401c-9c4f-aad45eaf3415" versionNumber="1"?>
+				
+				<heading GUID="_06ba2aa4-0558-4151-9af9-b153389c3735" eId="art_1__hdg">Citation and commencement</heading>
+				<num>1.</num>
+				<paragraph GUID="_70faafe9-04f6-4978-95ec-8c25b2b58bb4" class="prov2" eId="art_1__para_1">
+					<num>(1)</num>
+					<content>
+						<p>This Order may be cited as the Offshore Installations (Safety Zones) Order 2023.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_5b8876ea-fb68-490e-a356-6728abaf6a70" class="prov2" eId="art_1__para_2">
+					<num>(2)</num>
+					<content>
+						<p>This Order comes into force 21 days after the day on which it is made.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article GUID="_4de081a0-b541-43b9-84ff-d6867f663a9c" class="prov1" eId="art_2"><?DMS-Component componentId="fc00c4a1-6e4f-4de5-9573-5b60eade9988" seriesId="ee12c1e8-08f5-426d-a14e-b1f8a4256002" versionNumber="1"?>
+				
+				<heading GUID="_166b2472-95c4-415d-9e98-0e47bd3d81cf" eId="art_2__hdg">Establishment of safety zones</heading>
+				<num>2.</num>
+				<content>
+					<p>A safety zone is established around each installation specified in column 1 of the table in the Schedule (being an installation stationed in waters to which subsection (7) of section 21 of the Petroleum Act 1987 applies) having a radius of five hundred metres, as respects that installation, from the point which has the co-ordinates of latitude and longitude according to the World Geodetic System 1984<authorialNote GUID="_d14ab0b3-5270-467c-bd1b-be75ce9032a2" class="footnote" eId="fnote_3" marker="3">
+							<p>The World Geodetic System 1984 (“WGS 84”) defines a reference frame for the Earth, for use in geodesy and navigation. It was developed by the United States’ National Geospatial-Intelligence Agency and is maintained by it. WGS 84 is defined at paragraph 2.1 of the NGA Standardization Document, Department of Defense, World Geodetic System 1984 (updated 8 July 2014) (https://earth-info.nga.mil/index.php?dir=wgs84&amp;action=wgs84#tab_wgs84-res). Hard-copies are available upon request from the offices of the Health and Safety Executive, Aberdeen International Business Park (AIBP), Building 2, Level 1, Dyce Drive, Dyce, Aberdeen AB21 0BR.</p>
+						</authorialNote> specified in columns 2 and 3 of the table in the Schedule.</p>
+				</content>
+			</article>
+			<article GUID="_7be74b5d-e192-413f-a659-92de635a0239" class="prov1" eId="art_3"><?DMS-Component componentId="9f054141-d48d-423d-a002-d5f211ca1a60" seriesId="4b5f2c9e-cf91-443b-bef9-cf9ef2d225bd" versionNumber="1"?>
+				
+				<heading GUID="_ba875b42-7cec-463a-adfa-fef1d97ffb54" eId="art_3__hdg">Amendment of the Offshore Installations (Safety Zones) Order 1997</heading>
+				<num>3.</num>
+				<paragraph GUID="_8854e5af-a1bc-4266-b900-be85d891e574" class="prov2" eId="art_3__para_1">
+					<num>(1)</num>
+					<content>
+						<p>The Offshore Installations (Safety Zones) Order 1997<authorialNote GUID="_71e83d55-0164-4ac8-8e8e-61786bd64194" class="footnote" eId="fnote_4" marker="4">
+								<p>S.I. 1997/735, to which there are amendments not relevant to this Order.</p>
+							</authorialNote> is amended as follows.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_cc182b55-467e-4b44-93c3-28d519945140" class="prov2" eId="art_3__para_2">
+					<num>(2)</num>
+					<content>
+						<p>In Schedule 1 (safety zones), omit the entry relating to “Orwell Subsea Structure”.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article GUID="_42e3669c-c196-43da-9b38-7a8d3a1284b7" class="prov1" eId="art_4"><?DMS-Component componentId="56bc56d2-e9b2-4b6c-adf2-616af2a97413" seriesId="c850bbdd-46d6-48e0-a25a-ad44084c9d49" versionNumber="1"?>
+				
+				<heading GUID="_2a0bb6a0-abb2-40c8-8252-d8ef0a0d7e1c" eId="art_4__hdg">Amendment of the Offshore Installations (Safety Zones) Order 2013</heading>
+				<num>4.</num>
+				<paragraph GUID="_d57630b6-42e9-44f7-8eb9-437b6811766d" class="prov2" eId="art_4__para_1">
+					<num>(1)</num>
+					<content>
+						<p>The Offshore Installations (Safety Zones) Order 2013<authorialNote GUID="_06b7f2e0-0b6c-4bca-b1d4-d0f86a7c6032" class="footnote" eId="fnote_5" marker="5">
+								<p>S.I. 2013/1758.</p>
+							</authorialNote> is amended as follows.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_cbe43356-0a52-4ce5-ba80-eb18516765eb" class="prov2" eId="art_4__para_2">
+					<num>(2)</num>
+					<content>
+						<p>In the Schedule (installations), in Part 1, omit the entry relating to “Curlew CUC-P1 Drill Site”.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article GUID="_672c489c-6724-467d-9366-4a42fa58f998" class="prov1" eId="art_5"><?DMS-Component componentId="6df05e9d-dc50-42ea-a7d9-c5f55d8d9586" seriesId="81b97da6-7627-4ba3-9c56-bc13a1ed08c2" versionNumber="1"?>
+				
+				<heading GUID="_a6bb3e6d-8587-47a2-8480-7383c37ac385" eId="art_5__hdg">Amendment of the Offshore Installations (Safety Zones) (No. 2) Order 2016</heading>
+				<num>5.</num>
+				<paragraph GUID="_c68f7949-26ab-4ac5-81fc-2144ad4193b8" class="prov2" eId="art_5__para_1">
+					<num>(1)</num>
+					<content>
+						<p>The Offshore Installations (Safety Zones) (No. 2) Order 2016<authorialNote GUID="_9062f93c-bf8e-4fc8-8ba5-35a4c8aab240" class="footnote" eId="fnote_6" marker="6">
+								<p>S.I. 2016/623.</p>
+							</authorialNote> is amended as follows.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_3907aaa3-3b0a-459b-8604-fd1ae0af1997" class="prov2" eId="art_5__para_2">
+					<num>(2)</num>
+					<content>
+						<p>In the Schedule (installations), in Part 1, omit the entry relating to “Curlew Development, Block 29/7a, Curlew Field”.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article GUID="_5ee48ac8-6177-421a-a8ca-714c184f80c7" class="prov1" eId="art_6"><?DMS-Component componentId="5ddd9659-2806-48d4-a862-bcb9fa9c8fa3" seriesId="8161b437-71b2-4628-88dd-7477329ca53f" versionNumber="1"?>
+				
+				<heading GUID="_4d6ef067-ed6e-4866-9055-811a8b61f5c2" eId="art_6__hdg">Amendment of the Offshore Installations (Safety Zones) (No. 3) Order 2017</heading>
+				<num>6.</num>
+				<paragraph GUID="_d7ae6f3c-5822-4857-aa25-389c95634e1f" class="prov2" eId="art_6__para_1">
+					<num>(1)</num>
+					<content>
+						<p>The Offshore Installations (Safety Zones) (No. 3) Order 2017<authorialNote GUID="_cabe69ed-7523-4c2a-86d9-fe26d141baf8" class="footnote" eId="fnote_7" marker="7">
+								<p>S.I. 2017/720.</p>
+							</authorialNote> is amended as follows.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_d352a48e-d679-49bd-af0c-9f5e5d907e15" class="prov2" eId="art_6__para_2">
+					<num>(2)</num>
+					<content>
+						<p>In the Schedule (installations), in Part 1, omit the entry relating to “Horne and Wren, Block 53/3c, Horne and Wren Field”.</p>
+					</content>
+				</paragraph>
+			</article>
+			<hcontainer GUID="_c38b0a2d-2243-4b24-9e70-a35d18d8001f" eId="sigs" name="signatures"><?DMS-Component componentId="55908352-2546-4fcb-bcb1-2e984833f5a2" seriesId="3490308c-11eb-4c07-b97a-34d086ffd58f" versionNumber="1"?>
+				<hcontainer GUID="_0651676e-9a27-4122-a003-4ebb97c3776e" eId="sigs__sigBlk" name="signatureBlock">
+					<content>
+						<block GUID="_89697be2-097f-403b-8026-f7c55667090c" eId="sigs__sigBlk__sig" name="signature">Mims Davies</block>
+						<block GUID="_9118ccf3-74d8-430b-a7f2-a39620127ff1" eId="sigs__sigBlk__role" name="role">Parliamentary Under Secretary of State</block>
+						<block name="date"><date date="2023-07-18">18th July 2023</date></block>
+						<block GUID="_218343a6-e7bc-44f3-903a-352344ae1bda" eId="sigs__sigBlk__org" name="organization">Department for Work and Pensions</block>
+					</content>
+				</hcontainer>
+			</hcontainer>
+			<hcontainer GUID="_52a20ff3-0b5b-44d5-b8a5-0c5ce61dc837" class="schs" eId="scheds" name="schedules"><?DMS-Component componentId="e7a61508-7282-4b25-adf5-b3ef6fe333d7" seriesId="453d16bc-a104-4e37-80a2-bc9f8afbc5a9" versionNumber="1"?>
+				<hcontainer GUID="_83f48cab-9c1e-4176-bc7d-5bf6a5900cdb" class="sch" eId="sched" name="schedule"><?DMS-Component componentId="ba5a858f-95b0-42d9-803c-a8874e72f21c" seriesId="c2c1aaf7-bfb6-4c89-b653-b2d8128d689d" versionNumber="1"?>
+					
+					<num>Schedule<authorialNote GUID="_2e7b98ba-dcfb-4577-b40e-1bd1974678f5" class="referenceNote" eId="sched__aNote">
+							<p>Article 2</p>
+						</authorialNote></num>
+					<heading GUID="_86e6dc1d-5bfc-4a60-8afb-8fde2f2d271b" eId="sched__hdg">INSTALLATIONS</heading>
+					<content>
+						<tblock GUID="_666e44ef-bcb3-489e-b31e-c7ab6547b7ef" class="table" eId="sched__tbl__oc_1">
+							<foreign>
+								<table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="topAndBottom tableleft width100" cols="3">
+									<thead class="left">
+										<tr akn:GUID="_cf2bfd59-6987-4bb7-9e71-4d91a4e3fc48" akn:eId="sched__tbl__oc_1__hdg__row__oc_1">
+											<td akn:GUID="_35e3bc5b-795a-4693-862f-503c299be409" akn:eId="sched__tbl__oc_1__hdg__row__oc_1__col_1">
+												<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">(1) <i>Name or other designation</i></p>
+											</td>
+											<td akn:GUID="_67fcc1f2-b4e4-49cc-9ff7-55cb22136ec7" akn:eId="sched__tbl__oc_1__hdg__row__oc_1__col_2">
+												<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">(2) <i>Latitude</i></p>
+											</td>
+											<td akn:GUID="_b95af676-60d9-4028-ab4b-ab05dc31ea2f" akn:eId="sched__tbl__oc_1__hdg__row__oc_1__col_3">
+												<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">(3) <i>Longitude</i></p>
+											</td>
+										</tr>
+									</thead>
+									<tbody class="left">
+										<tr akn:GUID="_aa2c0ca6-8a14-4d5f-a84b-ecc3f2810987" akn:eId="sched__tbl__oc_1__row__oc_1">
+											<td akn:GUID="_d1978145-54f7-4a99-b900-b85708261a54" akn:eId="sched__tbl__oc_1__row__oc_1__col_1">
+												<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Schooner, Schooner, Block 44/26a</p>
+											</td>
+											<td akn:GUID="_f408af01-2ec1-47af-a048-851591353973" akn:eId="sched__tbl__oc_1__row__oc_1__col_2">
+												<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">54° 03.55’N</p>
+											</td>
+											<td akn:GUID="_c81cb9c3-d204-4253-aa22-630b61043c41" akn:eId="sched__tbl__oc_1__row__oc_1__col_3">
+												<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">002° 04.60’E</p>
+											</td>
+										</tr>
+										<tr akn:GUID="_a8899dd5-e510-440d-9dac-7daa99d1ce27" akn:eId="sched__tbl__oc_1__row__oc_2">
+											<td akn:GUID="_3b70081f-e36a-4221-b79c-56f7b5f9efaf" akn:eId="sched__tbl__oc_1__row__oc_2__col_1">
+												<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Jackdaw Wellhead, Jackdaw, Block 30/02a, 30/02d and 30/03a</p>
+											</td>
+											<td akn:GUID="_2071b44b-b8af-4dde-8deb-8151071d877d" akn:eId="sched__tbl__oc_1__row__oc_2__col_2">
+												<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">56° 54.02’N</p>
+											</td>
+											<td akn:GUID="_b1606204-5749-4c5a-8928-051dbfa4d6d2" akn:eId="sched__tbl__oc_1__row__oc_2__col_3">
+												<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">02° 22.75’E</p>
+											</td>
+										</tr>
+										<tr akn:GUID="_a842684a-4cdd-4018-bdec-53c0ffeb0f92" akn:eId="sched__tbl__oc_1__row__oc_3">
+											<td akn:GUID="_2d839841-304c-47c9-9bb0-b190cca3c83b" akn:eId="sched__tbl__oc_1__row__oc_3__col_1">
+												<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Vixen VM, Vixen, Block 49/17</p>
+											</td>
+											<td akn:GUID="_a6089acb-0e86-4951-83fc-31323f0b04d7" akn:eId="sched__tbl__oc_1__row__oc_3__col_2">
+												<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">53° 23.87’N</p>
+											</td>
+											<td akn:GUID="_e215b3b1-a33f-4094-8479-4011bd1beaef" akn:eId="sched__tbl__oc_1__row__oc_3__col_3">
+												<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">02° 13.97’E</p>
+											</td>
+										</tr>
+										<tr akn:GUID="_14747a55-eda3-49b0-a7c6-e049b94fcaf5" akn:eId="sched__tbl__oc_1__row__oc_4">
+											<td akn:GUID="_e02d4b65-67f1-4240-9c65-c6dfa85c0f06" akn:eId="sched__tbl__oc_1__row__oc_4__col_1">
+												<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">MacCulloch Subsea Infrastructure, MacCulloch, Block 15/24b</p>
+											</td>
+											<td akn:GUID="_f751d4f1-b1a1-4808-9c7b-98c66f58b015" akn:eId="sched__tbl__oc_1__row__oc_4__col_2">
+												<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">58° 19.39’N</p>
+											</td>
+											<td akn:GUID="_76a09e34-dbb9-4138-835a-446eeb745646" akn:eId="sched__tbl__oc_1__row__oc_4__col_3">
+												<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">00° 43.45’E</p>
+											</td>
+										</tr>
+										<tr akn:GUID="_e58d8042-81fd-46e2-bf36-04a751e8f59f" akn:eId="sched__tbl__oc_1__row__oc_5">
+											<td akn:GUID="_0baa23b8-279d-4998-a24e-a44c620ac0df" akn:eId="sched__tbl__oc_1__row__oc_5__col_1">
+												<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Millom East PLEM, Millom East, Block 113/27a</p>
+											</td>
+											<td akn:GUID="_99b2df52-48a8-4986-8242-4aefbb2ca610" akn:eId="sched__tbl__oc_1__row__oc_5__col_2">
+												<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">54° 00.59’N</p>
+											</td>
+											<td akn:GUID="_c65cfabc-66c9-4e17-9aa3-07d34307b589" akn:eId="sched__tbl__oc_1__row__oc_5__col_3">
+												<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-03° 46.35’E</p>
+											</td>
+										</tr>
+										<tr akn:GUID="_b32e857c-8171-411b-b4fd-1ae504416cda" akn:eId="sched__tbl__oc_1__row__oc_6">
+											<td akn:GUID="_559b6c2c-ce3c-4243-b500-0bf616a6e237" akn:eId="sched__tbl__oc_1__row__oc_6__col_1">
+												<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Dalton Subsea PLEM, Dalton, Block 110/02b</p>
+											</td>
+											<td akn:GUID="_b5ce155d-ba88-447d-a84b-ab831045e76d" akn:eId="sched__tbl__oc_1__row__oc_6__col_2">
+												<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">53° 54.21’N</p>
+											</td>
+											<td akn:GUID="_77d2685c-e284-41c8-954c-fcef3b612775" akn:eId="sched__tbl__oc_1__row__oc_6__col_3">
+												<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-03° 43.37’E</p>
+											</td>
+										</tr>
+										<tr akn:GUID="_cd2bab00-064a-4957-9167-f5f3753532da" akn:eId="sched__tbl__oc_1__row__oc_7">
+											<td akn:GUID="_18a2241a-801b-440e-8ed5-d059f72871bc" akn:eId="sched__tbl__oc_1__row__oc_7__col_1">
+												<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Dalton R2 Subsea Well, Dalton, Block 110/02b</p>
+											</td>
+											<td akn:GUID="_749e154f-32c5-40ef-abbe-8148c217b6f2" akn:eId="sched__tbl__oc_1__row__oc_7__col_2">
+												<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">53° 53.73’N</p>
+											</td>
+											<td akn:GUID="_c193467a-72a4-4a41-b870-c98e9cb4fb1d" akn:eId="sched__tbl__oc_1__row__oc_7__col_3">
+												<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-03° 43.50’E</p>
+											</td>
+										</tr>
+										<tr akn:GUID="_495f789a-4dd2-4e14-9cee-9490023062b1" akn:eId="sched__tbl__oc_1__row__oc_8">
+											<td akn:GUID="_b6468ed2-8526-48a8-aa63-122320e36757" akn:eId="sched__tbl__oc_1__row__oc_8__col_1">
+												<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Balmoral Template, Balmoral, Block 16/21a</p>
+											</td>
+											<td akn:GUID="_f9c6c653-b894-4130-b199-cb969ea1d19f" akn:eId="sched__tbl__oc_1__row__oc_8__col_2">
+												<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">58° 13.73’N</p>
+											</td>
+											<td akn:GUID="_43af3558-7adc-4892-9901-fc50d5d1128a" akn:eId="sched__tbl__oc_1__row__oc_8__col_3">
+												<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">01° 06.43’E</p>
+											</td>
+										</tr>
+										<tr akn:GUID="_b4a58509-84b0-41f9-904a-52d8ad6762fa" akn:eId="sched__tbl__oc_1__row__oc_9">
+											<td akn:GUID="_3e230811-189b-49e9-b763-a6bca99dd562" akn:eId="sched__tbl__oc_1__row__oc_9__col_1">
+												<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">North Eigg, North Eigg, Block 3/24c</p>
+											</td>
+											<td akn:GUID="_033f1707-f706-4f17-a35e-45abc39d6da1" akn:eId="sched__tbl__oc_1__row__oc_9__col_2">
+												<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">60° 11.38’N</p>
+											</td>
+											<td akn:GUID="_8c2b7dcd-6867-4ff8-88a3-ef33c589e7dc" akn:eId="sched__tbl__oc_1__row__oc_9__col_3">
+												<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">01° 42.08’E</p>
+											</td>
+										</tr>
+										<tr akn:GUID="_5913f105-30c7-429e-acc2-d6dd65b6f148" akn:eId="sched__tbl__oc_1__row__oc_10">
+											<td akn:GUID="_68b51f0c-8b03-48b5-819a-212dea399ca9" akn:eId="sched__tbl__oc_1__row__oc_10__col_1">
+												<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Former Banff FPSO Location, Banff, Block 22/27a</p>
+											</td>
+											<td akn:GUID="_9841df18-b141-491a-8d21-e03edef2478f" akn:eId="sched__tbl__oc_1__row__oc_10__col_2">
+												<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">57° 00.03’N</p>
+											</td>
+											<td akn:GUID="_d68fc22a-40aa-4865-9d93-d13fa877307a" akn:eId="sched__tbl__oc_1__row__oc_10__col_3">
+												<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">01° 17.47’E</p>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</foreign>
+						</tblock>
+						
+					</content>
+				</hcontainer>
+			</hcontainer>
+		</body>
+		<conclusions GUID="_9bcefc9d-63f9-4354-af7d-7daedfeb7f78" eId="backCover"><?DMS-Component componentId="96eadab3-1495-4f0b-89be-6e6dd4bd1a1b" seriesId="9d4a3d85-e685-4c70-9db9-76403814f76d" versionNumber="1"?>
+			
+			<blockContainer GUID="_203c161d-266b-48c2-928d-257887937d80" class="explanatoryNote" eId="backCover__explNote">
+				<heading GUID="_fcdb3063-3575-47c3-b4a2-0ffc6294a57a" eId="backCover__explNote__hdg">Explanatory Note</heading>
+				<subheading GUID="_04e0b056-5134-4310-b726-9531c77a051d" eId="backCover__explNote__subhdg">(This note is not part of the <ref class="placeholder" href="#varDocSubType"/>)</subheading>
+				<p>Article 2 of this Order establishes, under section 22 of the Petroleum Act 1987 (c. 12) (“the Act”), safety zones having a radius of 500 metres from the specified point around the 10 installations (which are subsea installations) specified in the Schedule to this Order stationed in waters to which section 21(7) of that Act applies (these include territorial waters and waters in areas designated under section 1(7) of the Continental Shelf Act 1964 (c. 29)).</p>
+				<p>Section 23(1) of the Act prohibits vessels, which for these purposes include hovercraft, submersible apparatus and installations in transit, from entering or remaining in a safety zone except with the consent of the Health and Safety Executive or in accordance with regulations made under section 23(1) of the Act (currently regulation 21H of the Offshore Installations and Pipeline Works (Management and Administration) Regulations 1995 (S.I. 1995/738), inserted by paragraph 14 of Schedule 13 to S.I. 2015/398).</p>
+				<p>The United Kingdom Hydrographic Office (UKHO) publishes nautical charts covering the area in which installations are located, which include information on the existence and, where the scale allows, the location of safety zones (https://www.gov.uk/government/organisations/uk-hydrographic-office). Mariners are advised to keep paper charts up-to-date by using appropriate Notices to Mariners or, where electronic charts are used, to subscribe to an appropriate updating service. Vessels meeting the requirements of the International Convention for the Safety of Life at Sea 1974 will carry nautical charts and nautical publications (such as Notices to Mariners) to plan and display the ship’s route for the intended voyage and to plot and monitor positions throughout the voyage. This may be compulsory for some vessels, for example under the Merchant Shipping (Safety of Navigation) Regulations 2020 (S.I. 2020/673). The UKHO also broadcasts Radio Navigational Warnings in relation to safety zones where updates to charts have yet to take effect and where installations are in transit.</p>
+				<p>Maritime safety information, which includes information on safety zones, is issued via the appropriate International Maritime Organisation, Global Maritime Distress and Safety System broadcast systems as defined by the World-Wide Navigational Warning Service.</p>
+				<p>Articles 3 to 6 remove four safety zones established under previous Orders.</p>
+				
+			</blockContainer>
+		</conclusions>
+	</act>
+</akomaNtoso>

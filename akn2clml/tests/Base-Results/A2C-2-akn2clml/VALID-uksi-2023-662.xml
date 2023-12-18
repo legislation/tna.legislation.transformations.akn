@@ -1,0 +1,1209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Legislation xmlns="http://www.legislation.gov.uk/namespaces/legislation"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             SchemaVersion="2.0"
+             xsi:schemaLocation="http://www.legislation.gov.uk/namespaces/legislation http://www.legislation.gov.uk/schema/legislation.xsd">
+   <Metadata xmlns="http://www.legislation.gov.uk/namespaces/metadata"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <dc:identifier>http://www.legislation.gov.uk/id/uksi/2023/662</dc:identifier>
+      <dc:title>The Civil Aviation (Investigation of Air Accidents and Incidents) (Guernsey) Order 2023</dc:title>
+      <dc:modified>2023-12-18</dc:modified>
+      <SecondaryMetadata>
+         <DocumentClassification>
+            <DocumentCategory Value="secondary"/>
+            <DocumentMainType Value="UnitedKingdomStatutoryInstrument"/>
+            <DocumentStatus Value="final"/>
+            <DocumentMinorType Value="order"/>
+         </DocumentClassification>
+         <Year Value="2023"/>
+         <Number Value="662"/>
+         <Made Date="2023-06-14" Time="00:00:00"/>
+         <ComingIntoForce>
+            <DateTime Date="2023-07-05" Time="00:00:00"/>
+         </ComingIntoForce>
+      </SecondaryMetadata>
+   </Metadata>
+   <Secondary>
+      <SecondaryPrelims>
+         <Number> 2023 No. 662  </Number>
+         <SubjectInformation>
+            <Subject>
+               <Title>CIVIL AVIATION</Title>
+            </Subject>
+         </SubjectInformation>
+         <Title> The Civil Aviation (Investigation of Air Accidents and Incidents) (Guernsey) Order 2023 </Title>
+         <MadeDate>
+            <Text>Made</Text>
+            <DateText>14th June 2023</DateText>
+         </MadeDate>
+         <ComingIntoForce>
+            <Text>Coming into force</Text>
+            <DateText>5th July 2023</DateText>
+         </ComingIntoForce>
+         <SecondaryPreamble>
+            <RoyalPresence>
+               <Para>
+                  <Text>At the Court at Buckingham Palace, the 14th day of June 2023</Text>
+                  <Text>Present,</Text>
+                  <Text>The King's Most Excellent Majesty in Council</Text>
+               </Para>
+            </RoyalPresence>
+            <EnactingText>
+               <Para>
+                  <Text>His Majesty, in exercise of the powers conferred on Him by sections 75 and 102(2) of, and paragraphs 4 and 6 of Part III of Schedule 13 to, the Civil Aviation Act 1982<FootnoteRef Ref="f00001"/>, as that Act has effect in the Bailiwick of Guernsey by virtue of the Civil Aviation Act 1982 (Guernsey) Order 1992<FootnoteRef Ref="f00002"/>, is pleased, by and with the advice of His Privy Council, to order as follows:</Text>
+               </Para>
+            </EnactingText>
+         </SecondaryPreamble>
+      </SecondaryPrelims>
+      <Body>
+         <P1group>
+            <Title>Citation, commencement and extent</Title>
+            <P1 id="article-1">
+               <Pnumber>1</Pnumber>
+               <P1para>
+                  <P2 id="article-1-1">
+                     <Pnumber>1</Pnumber>
+                     <P2para>
+                        <Text>This Order may be cited as the Civil Aviation (Investigation of Air Accidents and Incidents) (Guernsey) Order 2023 and comes into force on 5th July 2023.</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="article-1-2">
+                     <Pnumber>2</Pnumber>
+                     <P2para>
+                        <Text>This Order extends to the Bailiwick of Guernsey.</Text>
+                     </P2para>
+                  </P2>
+               </P1para>
+            </P1>
+         </P1group>
+         <P1group>
+            <Title>Application of the Civil Aviation (Investigation of Air Accidents and Incidents) Regulations 2018</Title>
+            <P1 id="article-2">
+               <Pnumber>2</Pnumber>
+               <P1para>
+                  <Text>Subject to the modifications specified in the Schedule to this Order, the provisions of the Civil Aviation (Investigation of Air Accidents and Incidents) Regulations 2018<FootnoteRef Ref="f00003"/> (“the 2018 Regulations”) have effect in the Bailiwick of Guernsey.</Text>
+               </P1para>
+            </P1>
+         </P1group>
+         <P1group>
+            <Title>Revocation of the Civil Aviation (Investigation of Air Accidents and Incidents) (Guernsey) Order 1998</Title>
+            <P1 id="article-3">
+               <Pnumber>3</Pnumber>
+               <P1para>
+                  <P2 id="article-3-1">
+                     <Pnumber>1</Pnumber>
+                     <P2para>
+                        <Text>Subject to paragraph (3), the Civil Aviation (Investigation of Air Accidents and Incidents) (Guernsey) Order 1998<FootnoteRef Ref="f00004"/> (“the 1998 Order”) is revoked.</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="article-3-2">
+                     <Pnumber>2</Pnumber>
+                     <P2para>
+                        <Text>Any investigation commenced under the Civil Aviation (Investigation of Air Accidents and Incidents) Regulations 1996<FootnoteRef Ref="f00005"/> (“the 1996 Regulations”), as modified by the 1998 Order, which has not, prior to the coming into force of this Order, been the subject of a report submitted to the Secretary of State and the Bailiff of Guernsey, is to continue as if it had been commenced under the 2018 Regulations as modified by this Order.</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="article-3-3">
+                     <Pnumber>3</Pnumber>
+                     <P2para>
+                        <Text>The 1998 Order and accordingly the 1996 Regulations as modified by that Order continue to apply in relation to an investigation which has, prior to the coming into force of this Order, been the subject of a report submitted to the Secretary of State and the Bailiff of Guernsey.</Text>
+                     </P2para>
+                  </P2>
+               </P1para>
+            </P1>
+         </P1group>
+         <SignedSection>
+            <Signatory>
+               <Signee>
+                  <PersonName>Richard Tilbrook</PersonName>
+                  <JobTitle>Clerk of the Privy Council</JobTitle>
+               </Signee>
+            </Signatory>
+         </SignedSection>
+      </Body>
+      <Schedules>
+         <Schedule id="schedule">
+            <Number>Schedule</Number>
+            <TitleBlock>
+               <Title>Modifications to the Civil Aviation (Investigation of Air Accidents and Incidents) Regulations 2018 as they have effect in the Bailiwick of Guernsey</Title>
+            </TitleBlock>
+            <Reference>Article 2</Reference>
+            <ScheduleBody>
+               <P1 id="schedule-paragraph-1">
+                  <Pnumber>1</Pnumber>
+                  <P1para>
+                     <Text>In regulation 1—</Text>
+                     <P3 id="schedule-paragraph-1-a">
+                        <Pnumber>a</Pnumber>
+                        <P3para>
+                           <Text>in the heading, omit “and commencement”; and</Text>
+                        </P3para>
+                     </P3>
+                     <P3 id="schedule-paragraph-1-b">
+                        <Pnumber>b</Pnumber>
+                        <P3para>
+                           <Text>omit “and come into force on 9th April 2018”.</Text>
+                        </P3para>
+                     </P3>
+                  </P1para>
+               </P1>
+               <P1 id="schedule-paragraph-2">
+                  <Pnumber>2</Pnumber>
+                  <P1para>
+                     <Text>In regulation 2—</Text>
+                     <P3 id="schedule-paragraph-2-a">
+                        <Pnumber>a</Pnumber>
+                        <P3para>
+                           <Text>in paragraph (1)—</Text>
+                           <P4 id="schedule-paragraph-2-a-i">
+                              <Pnumber>i</Pnumber>
+                              <P4para>
+                                 <Text>for the definition of “the Air Accidents Investigation Branch” substitute—</Text>
+                                 <BlockAmendment TargetClass="secondary"
+                                                 TargetSubClass="unknown"
+                                                 Context="main"
+                                                 Format="double">
+                                    <UnorderedList Class="Definition" Decoration="none">
+                                       <ListItem>
+                                          <Para>
+                                             <Text>“<Term>the Air Accidents Investigation Branch</Term>” means the Air Accidents Investigation Branch as defined in regulation 2(1) of the 2018 Regulations;</Text>
+                                          </Para>
+                                       </ListItem>
+                                    </UnorderedList>
+                                 </BlockAmendment>
+                                 <AppendText>;</AppendText>
+                              </P4para>
+                           </P4>
+                           <P4 id="schedule-paragraph-2-a-ii">
+                              <Pnumber>ii</Pnumber>
+                              <P4para>
+                                 <Text>for the definition of “Chief Inspector” substitute—</Text>
+                                 <BlockAmendment TargetClass="secondary"
+                                                 TargetSubClass="unknown"
+                                                 Context="main"
+                                                 Format="double">
+                                    <UnorderedList Class="Definition" Decoration="none">
+                                       <ListItem>
+                                          <Para>
+                                             <Text>“<Term>Chief Inspector</Term>” means the Chief Inspector of Air Accidents appointed by the Secretary of State under the 2018 Regulations;</Text>
+                                          </Para>
+                                       </ListItem>
+                                    </UnorderedList>
+                                 </BlockAmendment>
+                                 <AppendText>;</AppendText>
+                              </P4para>
+                           </P4>
+                           <P4 id="schedule-paragraph-2-a-iii">
+                              <Pnumber>iii</Pnumber>
+                              <P4para>
+                                 <Text>in the definition of “Inspector”, for “under regulation 9” substitute “by the Secretary of State under the 2018 Regulations”;</Text>
+                              </P4para>
+                           </P4>
+                           <P4 id="schedule-paragraph-2-a-iv">
+                              <Pnumber>iv</Pnumber>
+                              <P4para>
+                                 <Text>in the definition of “Regulation 996/2010”, after “Directive 94/56/EC” insert “, as it applies to the Bailiwick<FootnoteRef Ref="f00006"/>”;</Text>
+                              </P4para>
+                           </P4>
+                           <P4 id="schedule-paragraph-2-a-v">
+                              <Pnumber>v</Pnumber>
+                              <P4para>
+                                 <Text>in the appropriate places, insert the following definitions—</Text>
+                                 <BlockAmendment TargetClass="secondary"
+                                                 TargetSubClass="unknown"
+                                                 Context="main"
+                                                 Format="double">
+                                    <UnorderedList Class="Definition" Decoration="none">
+                                       <ListItem>
+                                          <Para>
+                                             <Text>“<Term>the 2018 Regulations</Term>” means the Civil Aviation (Investigation of Air Accidents and Incidents) Regulations 2018, as they apply to the United Kingdom;</Text>
+                                          </Para>
+                                       </ListItem>
+                                       <ListItem>
+                                          <Para>
+                                             <Text>“<Term>the Bailiff</Term>” means the Bailiff of Guernsey and includes the Deputy Bailiff, a Lieutenant-Bailiff, the Juge Délégué and a Judge of the Royal Court;</Text>
+                                          </Para>
+                                       </ListItem>
+                                       <ListItem>
+                                          <Para>
+                                             <Text>“<Term>the Bailiwick</Term>” means the Bailiwick of Guernsey and the territorial waters adjacent thereto;</Text>
+                                          </Para>
+                                       </ListItem>
+                                       <ListItem>
+                                          <Para>
+                                             <Text>“<Term>the Chicago Convention</Term>” means the Convention on International Civil Aviation which was, on 7th December 1944, signed on behalf of the Government of the United Kingdom at the International Civil Aviation Conference held at Chicago;</Text>
+                                          </Para>
+                                       </ListItem>
+                                       <ListItem>
+                                          <Para>
+                                             <Text>“<Term>Committee</Term>” means the States of Guernsey Policy &amp; Resources Committee;</Text>
+                                          </Para>
+                                       </ListItem>
+                                       <ListItem>
+                                          <Para>
+                                             <Text>“<Term>Deputy Chief Inspector</Term>” means the Deputy Chief Inspector of Air Accidents appointed by the Chief Inspector under the 2018 Regulations;</Text>
+                                          </Para>
+                                       </ListItem>
+                                       <ListItem>
+                                          <Para>
+                                             <Text>“<Term>the Director</Term>” means—</Text>
+                                             <OrderedList Type="alpha" Decoration="parens">
+                                                <ListItem>
+                                                   <Para>
+                                                      <Text>the Director of Civil Aviation of the Bailiwick of Guernsey; or</Text>
+                                                   </Para>
+                                                </ListItem>
+                                                <ListItem>
+                                                   <Para>
+                                                      <Text>where there is no Director or the Director is unable to exercise the functions and duties of Director, any person—</Text>
+                                                   </Para>
+                                                   <OrderedList Type="roman" Decoration="parens">
+                                                      <ListItem>
+                                                         <Para>
+                                                            <Text>appointed as Deputy Director of Civil Aviation under paragraph 6 of Schedule 1 to the Aviation (Bailiwick of Guernsey) Law, 2008<FootnoteRef Ref="f00007"/>, or</Text>
+                                                         </Para>
+                                                      </ListItem>
+                                                      <ListItem>
+                                                         <Para>
+                                                            <Text>appointed as Acting Director of Civil Aviation under paragraph 7 of Schedule 1 to the Aviation (Bailiwick of Guernsey) Law, 2008;</Text>
+                                                         </Para>
+                                                      </ListItem>
+                                                   </OrderedList>
+                                                </ListItem>
+                                             </OrderedList>
+                                          </Para>
+                                       </ListItem>
+                                       <ListItem>
+                                          <Para>
+                                             <Text>“<Term>His Majesty's Procureur</Term>” includes His Majesty's Comptroller;</Text>
+                                          </Para>
+                                       </ListItem>
+                                    </UnorderedList>
+                                 </BlockAmendment>
+                                 <AppendText>;</AppendText>
+                              </P4para>
+                           </P4>
+                        </P3para>
+                     </P3>
+                     <P3 id="schedule-paragraph-2-b">
+                        <Pnumber>b</Pnumber>
+                        <P3para>
+                           <Text>for paragraph 2, substitute—</Text>
+                           <BlockAmendment TargetClass="secondary"
+                                           TargetSubClass="unknown"
+                                           Context="main"
+                                           Format="double">
+                              <P2>
+                                 <Pnumber>2</Pnumber>
+                                 <P2para>
+                                    <Text>Unless defined for the purposes of these Regulations, any expression used in these Regulations which is defined in Regulation No 996/2010 has the same meaning given in that Regulation.</Text>
+                                 </P2para>
+                              </P2>
+                           </BlockAmendment>
+                           <AppendText>;</AppendText>
+                        </P3para>
+                     </P3>
+                     <P3 id="schedule-paragraph-2-c">
+                        <Pnumber>c</Pnumber>
+                        <P3para>
+                           <Text>omit paragraph (3).</Text>
+                        </P3para>
+                     </P3>
+                  </P1para>
+               </P1>
+               <P1 id="schedule-paragraph-3">
+                  <Pnumber>3</Pnumber>
+                  <P1para>
+                     <Text>Omit regulations 3, 5 and 6.</Text>
+                  </P1para>
+               </P1>
+               <P1 id="schedule-paragraph-4">
+                  <Pnumber>4</Pnumber>
+                  <P1para>
+                     <Text>In regulation 7—</Text>
+                     <P3 id="schedule-paragraph-4-a">
+                        <Pnumber>a</Pnumber>
+                        <P3para>
+                           <Text>the existing text becomes paragraph (1);</Text>
+                        </P3para>
+                     </P3>
+                     <P3 id="schedule-paragraph-4-b">
+                        <Pnumber>b</Pnumber>
+                        <P3para>
+                           <Text>in that paragraph as so renumbered—</Text>
+                           <P4 id="schedule-paragraph-4-b-i">
+                              <Pnumber>i</Pnumber>
+                              <P4para>
+                                 <Text>for “continues to be” substitute “is”;</Text>
+                              </P4para>
+                           </P4>
+                           <P4 id="schedule-paragraph-4-b-ii">
+                              <Pnumber>ii</Pnumber>
+                              <P4para>
+                                 <Text>for “United Kingdom”, in both places where it occurs, substitute “Bailiwick”;</Text>
+                              </P4para>
+                           </P4>
+                        </P3para>
+                     </P3>
+                     <P3 id="schedule-paragraph-4-c">
+                        <Pnumber>c</Pnumber>
+                        <P3para>
+                           <Text>after that paragraph, insert—</Text>
+                           <BlockAmendment TargetClass="secondary"
+                                           TargetSubClass="unknown"
+                                           Context="main"
+                                           Format="double">
+                              <P2>
+                                 <Pnumber>2</Pnumber>
+                                 <P2para>
+                                    <Text>For the avoidance of doubt—</Text>
+                                    <P3>
+                                       <Pnumber>a</Pnumber>
+                                       <P3para>
+                                          <Text>in relation to the exercise of the powers and discharge of the obligations of the safety investigation authority in the Bailiwick under Regulation 996/2010, the Air Accidents Investigation Branch is subject to the law applying for the time being in whichever jurisdiction of the Bailiwick it exercises those powers or discharges those obligations; and</Text>
+                                       </P3para>
+                                    </P3>
+                                    <P3>
+                                       <Pnumber>b</Pnumber>
+                                       <P3para>
+                                          <Text>in relation to the exercise of their powers and discharge of their obligations under these Regulations, the Chief Inspector, the Deputy Chief Inspector and any Investigating Inspector are subject to the law applying for the time being in whichever jurisdiction of the Bailiwick they exercise those powers or discharge those obligations.</Text>
+                                       </P3para>
+                                    </P3>
+                                 </P2para>
+                              </P2>
+                           </BlockAmendment>
+                           <AppendText>.</AppendText>
+                        </P3para>
+                     </P3>
+                  </P1para>
+               </P1>
+               <P1 id="schedule-paragraph-5">
+                  <Pnumber>5</Pnumber>
+                  <P1para>
+                     <Text>In regulation 9—</Text>
+                     <P3 id="schedule-paragraph-5-a">
+                        <Pnumber>a</Pnumber>
+                        <P3para>
+                           <Text>omit paragraphs (1), (2) and (3);</Text>
+                        </P3para>
+                     </P3>
+                     <P3 id="schedule-paragraph-5-b">
+                        <Pnumber>b</Pnumber>
+                        <P3para>
+                           <Text>for paragraph (6) substitute—</Text>
+                           <BlockAmendment TargetClass="secondary"
+                                           TargetSubClass="unknown"
+                                           Context="main"
+                                           Format="double">
+                              <P2>
+                                 <Pnumber>6</Pnumber>
+                                 <P2para>
+                                    <Text>The Chief Inspector may instruct one or more Inspectors to assist the investigator-in-charge.</Text>
+                                 </P2para>
+                              </P2>
+                           </BlockAmendment>
+                           <AppendText>.</AppendText>
+                        </P3para>
+                     </P3>
+                  </P1para>
+               </P1>
+               <P1 id="schedule-paragraph-6">
+                  <Pnumber>6</Pnumber>
+                  <P1para>
+                     <Text>In regulation 10—</Text>
+                     <P3 id="schedule-paragraph-6-a">
+                        <Pnumber>a</Pnumber>
+                        <P3para>
+                           <Text>in paragraph (1)(a), for “United Kingdom” substitute “Bailiwick”;</Text>
+                        </P3para>
+                     </P3>
+                     <P3 id="schedule-paragraph-6-b">
+                        <Pnumber>b</Pnumber>
+                        <P3para>
+                           <Text>for paragraph (1)(b) substitute—</Text>
+                           <BlockAmendment TargetClass="secondary"
+                                           TargetSubClass="unknown"
+                                           Context="main"
+                                           Format="double">
+                              <P3>
+                                 <Pnumber>b</Pnumber>
+                                 <P3para>
+                                    <Text>that accident, serious incident or incident involves any aircraft including—</Text>
+                                    <P4>
+                                       <Pnumber>i</Pnumber>
+                                       <P4para>
+                                          <Text>an aircraft engaged in military, customs, police or similar services;</Text>
+                                       </P4para>
+                                    </P4>
+                                    <P4>
+                                       <Pnumber>ii</Pnumber>
+                                       <P4para>
+                                          <Text>a small unmanned aircraft as defined in section 37 of the Air Navigation (Bailiwick of Guernsey) Law, 2012<FootnoteRef Ref="f00008"/>; and</Text>
+                                       </P4para>
+                                    </P4>
+                                    <P4>
+                                       <Pnumber>iii</Pnumber>
+                                       <P4para>
+                                          <Text>a drone as defined in regulation 20; and</Text>
+                                       </P4para>
+                                    </P4>
+                                 </P3para>
+                              </P3>
+                           </BlockAmendment>
+                           <AppendText>.</AppendText>
+                        </P3para>
+                     </P3>
+                  </P1para>
+               </P1>
+               <P1 id="schedule-paragraph-7">
+                  <Pnumber>7</Pnumber>
+                  <P1para>
+                     <Text>In regulation 11—</Text>
+                     <P3 id="schedule-paragraph-7-a">
+                        <Pnumber>a</Pnumber>
+                        <P3para>
+                           <Text>in the heading, for “United Kingdom” substitute “Bailiwick”;</Text>
+                        </P3para>
+                     </P3>
+                     <P3 id="schedule-paragraph-7-b">
+                        <Pnumber>b</Pnumber>
+                        <P3para>
+                           <Text>in paragraph (1) for “United Kingdom”, in both places where it occurs, substitute “Bailiwick”;</Text>
+                        </P3para>
+                     </P3>
+                     <P3 id="schedule-paragraph-7-c">
+                        <Pnumber>c</Pnumber>
+                        <P3para>
+                           <Text>in paragraph (1)(a), omit “other” in the second place it occurs;</Text>
+                        </P3para>
+                     </P3>
+                     <P3 id="schedule-paragraph-7-d">
+                        <Pnumber>d</Pnumber>
+                        <P3para>
+                           <Text>in paragraph (1)(b), after “is” insert “the territory in respect of which the United Kingdom is”;</Text>
+                        </P3para>
+                     </P3>
+                     <P3 id="schedule-paragraph-7-e">
+                        <Pnumber>e</Pnumber>
+                        <P3para>
+                           <Text>in paragraph (1)(c), for “another” substitute “a Contracting”.</Text>
+                        </P3para>
+                     </P3>
+                  </P1para>
+               </P1>
+               <P1 id="schedule-paragraph-8">
+                  <Pnumber>8</Pnumber>
+                  <P1para>
+                     <Text>After regulation 11, insert the following—</Text>
+                     <BlockAmendment TargetClass="secondary"
+                                     TargetSubClass="unknown"
+                                     Context="main"
+                                     Format="double">
+                        <P1group>
+                           <Title>Notice of investigation, etc.</Title>
+                           <P1>
+                              <Pnumber>11A</Pnumber>
+                              <P1para>
+                                 <P2>
+                                    <Pnumber>1</Pnumber>
+                                    <P2para>
+                                       <Text>Where an investigation is to be conducted in accordance with Regulation 996/2010, Annex 13 or these Regulations, the Investigating Inspector must notify the Director in writing as soon as reasonably practicable.</Text>
+                                    </P2para>
+                                 </P2>
+                                 <P2>
+                                    <Pnumber>2</Pnumber>
+                                    <P2para>
+                                       <Text>Before the Investigating Inspector arrives in the Bailiwick for the purposes of an investigation referred to in paragraph (1), that Inspector must notify the Director in writing.</Text>
+                                    </P2para>
+                                 </P2>
+                                 <P2>
+                                    <Pnumber>3</Pnumber>
+                                    <P2para>
+                                       <Text>For the purposes of paragraphs (1) and (2), "in writing" includes by electronic means.</Text>
+                                    </P2para>
+                                 </P2>
+                              </P1para>
+                           </P1>
+                        </P1group>
+                        <P1group>
+                           <Title>Protection of evidence and removal of damaged aircraft</Title>
+                           <P1>
+                              <Pnumber>11B</Pnumber>
+                              <P1para>
+                                 <P2>
+                                    <Pnumber>1</Pnumber>
+                                    <P2para>
+                                       <Text>The Bailiff or His Majesty's Procureur may designate any person to facilitate the securing or preservation of evidence for the purposes of an investigation being carried out under these regulations.</Text>
+                                    </P2para>
+                                 </P2>
+                                 <P2>
+                                    <Pnumber>2</Pnumber>
+                                    <P2para>
+                                       <Text>A person designated for the purposes of paragraph (1) must act under instructions from the investigator-in-charge.</Text>
+                                    </P2para>
+                                 </P2>
+                                 <P2>
+                                    <Pnumber>3</Pnumber>
+                                    <P2para>
+                                       <Text>A designation for the purposes of paragraph (1)—</Text>
+                                       <P3>
+                                          <Pnumber>a</Pnumber>
+                                          <P3para>
+                                             <Text>must be made in writing;</Text>
+                                          </P3para>
+                                       </P3>
+                                       <P3>
+                                          <Pnumber>b</Pnumber>
+                                          <P3para>
+                                             <Text>may be of a general nature or relate to a specific investigation; and</Text>
+                                          </P3para>
+                                       </P3>
+                                       <P3>
+                                          <Pnumber>c</Pnumber>
+                                          <P3para>
+                                             <Text>may be amended or revoked for any reason by the Bailiff or His Majesty's Procureur.</Text>
+                                          </P3para>
+                                       </P3>
+                                    </P2para>
+                                 </P2>
+                                 <P2>
+                                    <Pnumber>4</Pnumber>
+                                    <P2para>
+                                       <Text>For the purposes of paragraph (3)(a), “in writing” includes by electronic means.</Text>
+                                    </P2para>
+                                 </P2>
+                              </P1para>
+                           </P1>
+                        </P1group>
+                     </BlockAmendment>
+                     <AppendText>.</AppendText>
+                  </P1para>
+               </P1>
+               <P1 id="schedule-paragraph-9">
+                  <Pnumber>9</Pnumber>
+                  <P1para>
+                     <Text>In regulation 12(2)—</Text>
+                     <P3 id="schedule-paragraph-9-a">
+                        <Pnumber>a</Pnumber>
+                        <P3para>
+                           <Text>after “allowed the” insert “reasonable”;</Text>
+                        </P3para>
+                     </P3>
+                     <P3 id="schedule-paragraph-9-b">
+                        <Pnumber>b</Pnumber>
+                        <P3para>
+                           <Text>for “Secretary of State” substitute “States of Guernsey”.</Text>
+                        </P3para>
+                     </P3>
+                  </P1para>
+               </P1>
+               <P1 id="schedule-paragraph-10">
+                  <Pnumber>10</Pnumber>
+                  <P1para>
+                     <Text>In regulation 14—</Text>
+                     <P3 id="schedule-paragraph-10-a">
+                        <Pnumber>a</Pnumber>
+                        <P3para>
+                           <Text>in paragraph (2), for sub-paragraph (b) substitute— </Text>
+                           <BlockAmendment TargetClass="secondary"
+                                           TargetSubClass="unknown"
+                                           Context="main"
+                                           Format="double">
+                              <P3>
+                                 <Pnumber>b</Pnumber>
+                                 <P3para>
+                                    <Text>such entry and inspection has been authorised by a warrant issued by—</Text>
+                                    <P4>
+                                       <Pnumber>i</Pnumber>
+                                       <P4para>
+                                          <Text>in Alderney, the Chairman of the Court of Alderney or a Jurat of the Court of Alderney,</Text>
+                                       </P4para>
+                                    </P4>
+                                    <P4>
+                                       <Pnumber>ii</Pnumber>
+                                       <P4para>
+                                          <Text>in Sark, the Seneschal, or</Text>
+                                       </P4para>
+                                    </P4>
+                                    <P4>
+                                       <Pnumber>iii</Pnumber>
+                                       <P4para>
+                                          <Text>in any other case, the Bailiff,</Text>
+                                       </P4para>
+                                    </P4>
+                                    <Text>on an application made by an Investigating Inspector and supported by evidence on oath;</Text>
+                                 </P3para>
+                              </P3>
+                           </BlockAmendment>
+                           <AppendText>;</AppendText>
+                        </P3para>
+                     </P3>
+                     <P3 id="schedule-paragraph-10-b">
+                        <Pnumber>b</Pnumber>
+                        <P3para>
+                           <Text>in paragraph (3)—</Text>
+                           <P4 id="schedule-paragraph-10-b-i">
+                              <Pnumber>i</Pnumber>
+                              <P4para>
+                                 <Text>for “A justice” substitute “The Bailiff, the Chairman of the Court of Alderney, a Jurat of the Court of Alderney or the Seneschal, as the case may be,”;</Text>
+                              </P4para>
+                           </P4>
+                           <P4 id="schedule-paragraph-10-b-ii">
+                              <Pnumber>ii</Pnumber>
+                              <P4para>
+                                 <Text>for “the justice” substitute “the individual concerned”;</Text>
+                              </P4para>
+                           </P4>
+                        </P3para>
+                     </P3>
+                     <P3 id="schedule-paragraph-10-c">
+                        <Pnumber>c</Pnumber>
+                        <P3para>
+                           <Text>in paragraph (5), after “valid for” insert “as long as reasonably necessary for the safety investigation to be conducted, but must not exceed”;</Text>
+                        </P3para>
+                     </P3>
+                     <P3 id="schedule-paragraph-10-d">
+                        <Pnumber>d</Pnumber>
+                        <P3para>
+                           <Text>in paragraph (8)—</Text>
+                           <P4 id="schedule-paragraph-10-d-i">
+                              <Pnumber>i</Pnumber>
+                              <P4para>
+                                 <Text>after the definition of “dwelling”, insert—</Text>
+                                 <BlockAmendment TargetClass="secondary"
+                                                 TargetSubClass="unknown"
+                                                 Context="main"
+                                                 Format="double">
+                                    <UnorderedList Class="Definition" Decoration="none">
+                                       <ListItem>
+                                          <Para>
+                                             <Text>“<Term>Seneschal</Term>” means the Seneschal of Sark, and includes the Deputy Seneschal or a Lieutenant-Seneschal.</Text>
+                                          </Para>
+                                       </ListItem>
+                                    </UnorderedList>
+                                 </BlockAmendment>
+                                 <AppendText>;</AppendText>
+                              </P4para>
+                           </P4>
+                           <P4 id="schedule-paragraph-10-d-ii">
+                              <Pnumber>ii</Pnumber>
+                              <P4para>
+                                 <Text>omit the definition of “a justice”.</Text>
+                              </P4para>
+                           </P4>
+                        </P3para>
+                     </P3>
+                  </P1para>
+               </P1>
+               <P1 id="schedule-paragraph-11">
+                  <Pnumber>11</Pnumber>
+                  <P1para>
+                     <Text>In regulation 15(5), for “statutory or common law powers that apply in any part of the United Kingdom” substitute “the law applying for the time being in the relevant jurisdiction of the Bailiwick”.</Text>
+                  </P1para>
+               </P1>
+               <P1 id="schedule-paragraph-12">
+                  <Pnumber>12</Pnumber>
+                  <P1para>
+                     <Text>In regulation 17, for “Secretary of State” substitute “Bailiff, the Director and the Committee”.</Text>
+                  </P1para>
+               </P1>
+               <P1 id="schedule-paragraph-13">
+                  <Pnumber>13</Pnumber>
+                  <P1para>
+                     <Text>Omit regulation 19.</Text>
+                  </P1para>
+               </P1>
+               <P1 id="schedule-paragraph-14">
+                  <Pnumber>14</Pnumber>
+                  <P1para>
+                     <Text>In regulation 20—</Text>
+                     <P3 id="schedule-paragraph-14-a">
+                        <Pnumber>a</Pnumber>
+                        <P3para>
+                           <Text>in paragraph (1), for “Any” substitute “Subject to paragraph (1A), any”;</Text>
+                        </P3para>
+                     </P3>
+                     <P3 id="schedule-paragraph-14-b">
+                        <Pnumber>b</Pnumber>
+                        <P3para>
+                           <Text>in paragraph (1)(a), for “United Kingdom” substitute “Bailiwick”;</Text>
+                        </P3para>
+                     </P3>
+                     <P3 id="schedule-paragraph-14-c">
+                        <Pnumber>c</Pnumber>
+                        <P3para>
+                           <Text>in paragraph (1)(b), omit the words “or (in relation to Scotland) constable for the area where the accident occurred”;</Text>
+                        </P3para>
+                     </P3>
+                     <P3 id="schedule-paragraph-14-d">
+                        <Pnumber>d</Pnumber>
+                        <P3para>
+                           <Text>after paragraph (1), insert—</Text>
+                           <BlockAmendment TargetClass="secondary"
+                                           TargetSubClass="unknown"
+                                           Context="main"
+                                           Format="double">
+                              <P2>
+                                 <Pnumber>1A</Pnumber>
+                                 <P2para>
+                                    <Text>A person involved is not required to notify the Chief Inspector and, in the case of an accident, a police officer where—</Text>
+                                    <P3>
+                                       <Pnumber>a</Pnumber>
+                                       <P3para>
+                                          <Text>the accident or serious incident referred to in paragraph (1)(a) relates to a drone—</Text>
+                                          <P4>
+                                             <Pnumber>i</Pnumber>
+                                             <P4para>
+                                                <Text>which does not have a design approval; or</Text>
+                                             </P4para>
+                                          </P4>
+                                          <P4>
+                                             <Pnumber>ii</Pnumber>
+                                             <P4para>
+                                                <Text>which is not specified in an aerial work certificate for the purposes of section 70 of the Air Navigation (Bailiwick of Guernsey) Law, 2012<FootnoteRef Ref="f00009"/>; and</Text>
+                                             </P4para>
+                                          </P4>
+                                       </P3para>
+                                    </P3>
+                                    <P3>
+                                       <Pnumber>b</Pnumber>
+                                       <P3para>
+                                          <Text>that person reasonably believes that the accident or serious incident is not likely to have, directly or indirectly—</Text>
+                                          <P4>
+                                             <Pnumber>i</Pnumber>
+                                             <P4para>
+                                                <Text>caused loss of life or serious injury to any other person, or</Text>
+                                             </P4para>
+                                          </P4>
+                                          <P4>
+                                             <Pnumber>ii</Pnumber>
+                                             <P4para>
+                                                <Text>endangered the safety of another aircraft, other than a small unmanned aircraft as defined in section 37 of the Air Navigation (Bailiwick of Guernsey) Law, 2012.</Text>
+                                             </P4para>
+                                          </P4>
+                                       </P3para>
+                                    </P3>
+                                 </P2para>
+                              </P2>
+                           </BlockAmendment>
+                           <AppendText>;</AppendText>
+                        </P3para>
+                     </P3>
+                     <P3 id="schedule-paragraph-14-e">
+                        <Pnumber>e</Pnumber>
+                        <P3para>
+                           <Text>for paragraph (2), substitute—</Text>
+                           <BlockAmendment TargetClass="secondary"
+                                           TargetSubClass="unknown"
+                                           Context="main"
+                                           Format="double">
+                              <P2>
+                                 <Pnumber>2</Pnumber>
+                                 <P2para>
+                                    <Text>In this regulation—</Text>
+                                    <UnorderedList Class="Definition" Decoration="none">
+                                       <ListItem>
+                                          <Para>
+                                             <Text>“<Term>design approval</Term>” means a type certificate issued by a national aviation regulatory authority, including but not limited to, the UK Civil Aviation Authority, the European Union Aviation Safety Agency or the United States Federal Aviation Administration;</Text>
+                                          </Para>
+                                       </ListItem>
+                                       <ListItem>
+                                          <Para>
+                                             <Text>“<Term>drone</Term>” means any aircraft operating, or designed to operate, autonomously, or to be piloted remotely without any pilot on board, and includes a model aircraft;</Text>
+                                          </Para>
+                                       </ListItem>
+                                       <ListItem>
+                                          <Para>
+                                             <Text>“<Term>police officer</Term>” means—</Text>
+                                             <OrderedList Type="alpha" Decoration="parens">
+                                                <ListItem>
+                                                   <Para>
+                                                      <Text>in relation to Guernsey, Herm and Jethou—</Text>
+                                                   </Para>
+                                                   <OrderedList Type="roman" Decoration="parens">
+                                                      <ListItem>
+                                                         <Para>
+                                                            <Text>a member of the salaried police force of the Island of Guernsey; or</Text>
+                                                         </Para>
+                                                      </ListItem>
+                                                      <ListItem>
+                                                         <Para>
+                                                            <Text>within the limits of their jurisdiction, a member of the special constabulary of the Island of Guernsey;</Text>
+                                                         </Para>
+                                                      </ListItem>
+                                                   </OrderedList>
+                                                </ListItem>
+                                                <ListItem>
+                                                   <Para>
+                                                      <Text>in relation to Alderney—</Text>
+                                                   </Para>
+                                                   <OrderedList Type="roman" Decoration="parens">
+                                                      <ListItem>
+                                                         <Para>
+                                                            <Text>a member of the salaried police force of the Island of Guernsey;</Text>
+                                                         </Para>
+                                                      </ListItem>
+                                                      <ListItem>
+                                                         <Para>
+                                                            <Text>a member of any police force which may be established by the States of Alderney; or</Text>
+                                                         </Para>
+                                                      </ListItem>
+                                                      <ListItem>
+                                                         <Para>
+                                                            <Text>within the limits of their jurisdiction, a special constable appointed under section 47 of the Government of Alderney Law, 2004<FootnoteRef Ref="f00010"/>; and</Text>
+                                                         </Para>
+                                                      </ListItem>
+                                                   </OrderedList>
+                                                </ListItem>
+                                                <ListItem>
+                                                   <Para>
+                                                      <Text>in relation to Sark—</Text>
+                                                   </Para>
+                                                   <OrderedList Type="roman" Decoration="parens">
+                                                      <ListItem>
+                                                         <Para>
+                                                            <Text>the Constable, the Vingtenier or an Assistant Constable of Sark;</Text>
+                                                         </Para>
+                                                      </ListItem>
+                                                      <ListItem>
+                                                         <Para>
+                                                            <Text>a member of the salaried police force of the Island of Guernsey; or</Text>
+                                                         </Para>
+                                                      </ListItem>
+                                                      <ListItem>
+                                                         <Para>
+                                                            <Text>within the limits of their jurisdiction, a special constable appointed under section 54 of the Reform (Sark) Law, 2008<FootnoteRef Ref="f00011"/>.</Text>
+                                                         </Para>
+                                                      </ListItem>
+                                                   </OrderedList>
+                                                </ListItem>
+                                             </OrderedList>
+                                          </Para>
+                                       </ListItem>
+                                    </UnorderedList>
+                                 </P2para>
+                              </P2>
+                           </BlockAmendment>
+                           <AppendText>.</AppendText>
+                        </P3para>
+                     </P3>
+                  </P1para>
+               </P1>
+               <P1 id="schedule-paragraph-15">
+                  <Pnumber>15</Pnumber>
+                  <P1para>
+                     <Text>For regulation 21, substitute—</Text>
+                     <BlockAmendment TargetClass="secondary"
+                                     TargetSubClass="unknown"
+                                     Context="main"
+                                     Format="double">
+                        <P1group>
+                           <Title>Obstruction</Title>
+                           <P1>
+                              <Pnumber>21</Pnumber>
+                              <P1para>
+                                 <Text>Any person who, without reasonable excuse, obstructs or impedes—</Text>
+                                 <P3>
+                                    <Pnumber>a</Pnumber>
+                                    <P3para>
+                                       <Text>an Inspector, or</Text>
+                                    </P3para>
+                                 </P3>
+                                 <P3>
+                                    <Pnumber>b</Pnumber>
+                                    <P3para>
+                                       <Text>a person designated for the purposes of regulation 11B,</Text>
+                                    </P3para>
+                                 </P3>
+                                 <Text>in the exercise of any duties, powers or entitlements imposed or conferred by Regulation 996/2010, Annex 13 or by these Regulations, contravenes these Regulations.</Text>
+                              </P1para>
+                           </P1>
+                        </P1group>
+                     </BlockAmendment>
+                     <AppendText>.</AppendText>
+                  </P1para>
+               </P1>
+               <P1 id="schedule-paragraph-16">
+                  <Pnumber>16</Pnumber>
+                  <P1para>
+                     <Text>In regulation 23, after “regulation 12” insert “which requires that person to attend a witness interview in the Bailiwick,”.</Text>
+                  </P1para>
+               </P1>
+               <P1 id="schedule-paragraph-17">
+                  <Pnumber>17</Pnumber>
+                  <P1para>
+                     <Text>In regulation 24(2), after “Article 13” insert “of Regulation 996/2010”.</Text>
+                  </P1para>
+               </P1>
+               <P1 id="schedule-paragraph-18">
+                  <Pnumber>18</Pnumber>
+                  <P1para>
+                     <Text>In regulation 25—</Text>
+                     <P3 id="schedule-paragraph-18-a">
+                        <Pnumber>a</Pnumber>
+                        <P3para>
+                           <Text>for paragraph (2), substitute—</Text>
+                           <BlockAmendment TargetClass="secondary"
+                                           TargetSubClass="unknown"
+                                           Context="main"
+                                           Format="double">
+                              <P2>
+                                 <Pnumber>2</Pnumber>
+                                 <P2para>
+                                    <Text>In paragraph (1) "relevant person" means—</Text>
+                                    <P3>
+                                       <Pnumber>a</Pnumber>
+                                       <P3para>
+                                          <Text>an Inspector; or</Text>
+                                       </P3para>
+                                    </P3>
+                                    <P3>
+                                       <Pnumber>b</Pnumber>
+                                       <P3para>
+                                          <Text>any person to whom any relevant record has been made available by an Inspector.</Text>
+                                       </P3para>
+                                    </P3>
+                                 </P2para>
+                              </P2>
+                           </BlockAmendment>
+                           <AppendText>;</AppendText>
+                        </P3para>
+                     </P3>
+                     <P3 id="schedule-paragraph-18-b">
+                        <Pnumber>b</Pnumber>
+                        <P3para>
+                           <Text>after paragraph (5), insert—</Text>
+                           <BlockAmendment TargetClass="secondary"
+                                           TargetSubClass="unknown"
+                                           Context="main"
+                                           Format="default">
+                              <P2>
+                                 <Pnumber>5A</Pnumber>
+                                 <P2para>
+                                    <Text>Subject to paragraph (5B), any person who makes available to the public—</Text>
+                                    <P3>
+                                       <Pnumber>a</Pnumber>
+                                       <P3para>
+                                          <Text>audio content of a cockpit voice recording; or</Text>
+                                       </P3para>
+                                    </P3>
+                                    <P3>
+                                       <Pnumber>b</Pnumber>
+                                       <P3para>
+                                          <Text>image or audio content of an airborne image recording,</Text>
+                                       </P3para>
+                                    </P3>
+                                 </P2para>
+                              </P2>
+                           </BlockAmendment>
+                           <BlockAmendment TargetClass="secondary"
+                                           TargetSubClass="unknown"
+                                           Context="main"
+                                           Format="none">
+                              <Text>which forms part of the evidence in a safety investigation, whether ongoing or completed, contravenes these Regulations.</Text>
+                           </BlockAmendment>
+                           <BlockAmendment TargetClass="secondary"
+                                           TargetSubClass="unknown"
+                                           Context="main"
+                                           Format="default">
+                              <P2>
+                                 <Pnumber>5B</Pnumber>
+                                 <P2para>
+                                    <Text>Nothing in this regulation prevents the inclusion of image content of an airborne image recording in the final safety investigation report.</Text>
+                                 </P2para>
+                              </P2>
+                           </BlockAmendment>
+                           <AppendText>;</AppendText>
+                        </P3para>
+                     </P3>
+                     <P3 id="schedule-paragraph-18-c">
+                        <Pnumber>c</Pnumber>
+                        <P3para>
+                           <Text>in paragraph (6)—</Text>
+                           <P4 id="schedule-paragraph-18-c-i">
+                              <Pnumber>i</Pnumber>
+                              <P4para>
+                                 <Text>after the definition of “judicial proceedings”, insert—</Text>
+                                 <BlockAmendment TargetClass="secondary"
+                                                 TargetSubClass="unknown"
+                                                 Context="main"
+                                                 Format="double">
+                                    <UnorderedList Class="Definition" Decoration="none">
+                                       <ListItem>
+                                          <Para>
+                                             <Text>“<Term>makes available to the public</Term>” means broadcasting or publishing in any manner whatsoever any content referred to in paragraph (5A) to the public in general or to any section of the public;</Text>
+                                          </Para>
+                                       </ListItem>
+                                    </UnorderedList>
+                                 </BlockAmendment>
+                                 <AppendText>;</AppendText>
+                              </P4para>
+                           </P4>
+                           <P4 id="schedule-paragraph-18-c-ii">
+                              <Pnumber>ii</Pnumber>
+                              <P4para>
+                                 <Text>for the definition of “relevant court” substitute—</Text>
+                                 <BlockAmendment TargetClass="secondary"
+                                                 TargetSubClass="unknown"
+                                                 Context="main"
+                                                 Format="double">
+                                    <UnorderedList Class="Definition" Decoration="none">
+                                       <ListItem>
+                                          <Para>
+                                             <Text>“<Term>relevant court</Term>” means the Royal Court of Guernsey, however constituted;</Text>
+                                          </Para>
+                                       </ListItem>
+                                    </UnorderedList>
+                                 </BlockAmendment>
+                                 <AppendText>.</AppendText>
+                              </P4para>
+                           </P4>
+                        </P3para>
+                     </P3>
+                  </P1para>
+               </P1>
+               <P1 id="schedule-paragraph-19">
+                  <Pnumber>19</Pnumber>
+                  <P1para>
+                     <Text>In regulation 26(1)(a), after “paragraph” insert “3 or”.</Text>
+                  </P1para>
+               </P1>
+               <P1 id="schedule-paragraph-20">
+                  <Pnumber>20</Pnumber>
+                  <P1para>
+                     <Text>In regulation 27(1) for “United Kingdom” substitute “Bailiwick”.</Text>
+                  </P1para>
+               </P1>
+               <P1 id="schedule-paragraph-21">
+                  <Pnumber>21</Pnumber>
+                  <P1para>
+                     <Text>In regulation 28(b), after "Article 20" insert “of that Regulation”.</Text>
+                  </P1para>
+               </P1>
+               <P1 id="schedule-paragraph-22">
+                  <Pnumber>22</Pnumber>
+                  <P1para>
+                     <Text>For regulation 29, substitute—</Text>
+                     <BlockAmendment TargetClass="secondary"
+                                     TargetSubClass="unknown"
+                                     Context="main"
+                                     Format="double">
+                        <P1group>
+                           <Title>Jurisdiction to try offences</Title>
+                           <P1>
+                              <Pnumber>29</Pnumber>
+                              <P1para>
+                                 <Text>Proceedings for an offence under these Regulations may be commenced in any court in the Bailiwick having criminal jurisdiction at the discretion of His Majesty's Procureur.</Text>
+                              </P1para>
+                           </P1>
+                        </P1group>
+                     </BlockAmendment>
+                     <AppendText>.</AppendText>
+                  </P1para>
+               </P1>
+            </ScheduleBody>
+         </Schedule>
+      </Schedules>
+      <ExplanatoryNotes>
+         <Title>Explanatory Note</Title>
+         <Comment>
+            <Para>
+               <Text>(This note is not part of the Order)</Text>
+            </Para>
+         </Comment>
+         <P>
+            <Text>This Order extends to the Bailiwick of Guernsey, with modifications, the Civil Aviation (Investigation of Air Accidents and Incidents) Regulations 2018 (S.I. 2018/321) (“the 2018 Regulations”).</Text>
+         </P>
+         <P>
+            <Text>Subject to the transitional provisions in article 3, this Order revokes the Civil Aviation (Investigation of Air Accidents and Incidents) (Guernsey) Order 1998 (S.I. 1998/1503).</Text>
+         </P>
+         <P>
+            <Text>The 2018 Regulations as modified and extended to the Bailiwick of Guernsey by this Order (“the modified Regulations”), make provision for the investigation of air accidents and incidents which occur in or over the Bailiwick of Guernsey.</Text>
+         </P>
+         <P>
+            <Text>The modified Regulations also make provision for a safety investigation to be conducted (insofar as it is practicable to do so) where an accident or serious incident occurs in or over a country or territory other than the Bailiwick of Guernsey or any State which is party to the Chicago Convention. Regulation 11 of the modified Regulations applies where the accident or serious incident involves an aircraft in respect of which the Bailiwick is the territory in respect of which the United Kingdom is the State of Registry, the State of the Operator, the State of Design or the State of Manufacture (as defined in regulation 11 of the modified Regulations) and where an investigation is not conducted by a State which is party to the Chicago Convention.</Text>
+         </P>
+         <P>
+            <Text>An impact assessment has not been prepared for this instrument because the territorial extent of the instrument and the modified Regulations is the Bailiwick of Guernsey; no, or no significant, impact is foreseen on the private, voluntary or public sector in the United Kingdom.</Text>
+         </P>
+      </ExplanatoryNotes>
+   </Secondary>
+   <Footnotes>
+      <Footnote id="f00001">
+         <FootnoteText>
+            <Para>
+               <Text>1982 c. 16; in section 75(5), the reference to a fine on the standard scale was substituted by virtue of section 46 of the Criminal Justice Act 1982 (c. 48). There are other amendments but none is relevant.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00002">
+         <FootnoteText>
+            <Para>
+               <Text>S.I. 1992/230 as amended by S.I. 1992/806 and S.I. 2009/1307.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00003">
+         <FootnoteText>
+            <Para>
+               <Text>S.I. 2018/321.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00004">
+         <FootnoteText>
+            <Para>
+               <Text>S.I. 1998/1503.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00005">
+         <FootnoteText>
+            <Para>
+               <Text>S.I. 1996/2798.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00006">
+         <FootnoteText>
+            <Para>
+               <Text>The Air Accident and Investigation (Guernsey) Ordinance, 2022 (Guernsey Ordinance No. I of 2023), The Air Accident and Investigation (Alderney) Ordinance, 2023 (Alderney Ordinance No. IV of 2023) and The Air Accident and Investigation (Sark) Ordinance, 2023 (Sark Ordinance No. III of 2023) apply Regulation 996/2010 to their respective jurisdictions.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00007">
+         <FootnoteText>
+            <Para>
+               <Text>Guernsey Order in Council No. XXVIII of 2008.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00008">
+         <FootnoteText>
+            <Para>
+               <Text>Guernsey Order in Council No. XI of 2013.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00009">
+         <FootnoteText>
+            <Para>
+               <Text>Guernsey Order in Council No. XI of 2013.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00010">
+         <FootnoteText>
+            <Para>
+               <Text>Guernsey Order in Council No. III of 2005.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00011">
+         <FootnoteText>
+            <Para>
+               <Text>Guernsey Order in Council No. V of 2008.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+   </Footnotes>
+</Legislation>

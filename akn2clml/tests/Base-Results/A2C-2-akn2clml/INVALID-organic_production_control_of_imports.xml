@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Legislation xmlns="http://www.legislation.gov.uk/namespaces/legislation"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             SchemaVersion="2.0"
+             xsi:schemaLocation="http://www.legislation.gov.uk/namespaces/legislation http://www.legislation.gov.uk/schema/legislation.xsd">
+   <Metadata xmlns="http://www.legislation.gov.uk/namespaces/metadata"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <dc:identifier>http://www.legislation.gov.uk/id/uksi/2023/889</dc:identifier>
+      <dc:title>The Organic Production (Control of Imports) (Amendment) Regulations 2023</dc:title>
+      <dc:modified>2023-12-18</dc:modified>
+      <SecondaryMetadata>
+         <DocumentClassification>
+            <DocumentCategory Value="secondary"/>
+            <DocumentMainType Value="UnitedKingdomStatutoryInstrument"/>
+            <DocumentStatus Value="final"/>
+            <DocumentMinorType Value="regulation"/>
+         </DocumentClassification>
+         <Year Value="2023"/>
+         <Number Value="889"/>
+         <Made Date="2023-08-02" Time="00:00:00"/>
+         <Laid Date="2023-08-03" Time="00:00:00" Class="UnitedKingdomParliament"/>
+         <ComingIntoForce>
+            <DateTime Date="2023-09-01" Time="00:00:00"/>
+         </ComingIntoForce>
+      </SecondaryMetadata>
+   </Metadata>
+   <Secondary>
+      <SecondaryPrelims>
+         <Number> 2023 No. 889  </Number>
+         <SubjectInformation>
+            <Subject>
+               <Title>AGRICULTURE</Title>
+            </Subject>
+         </SubjectInformation>
+         <Title> The Organic Production (Control of Imports) (Amendment) Regulations 2023 </Title>
+         <MadeDate>
+            <Text>Made</Text>
+            <DateText>2nd August 2023</DateText>
+         </MadeDate>
+         <LaidDate>
+            <Text>Laid before Parliament</Text>
+            <DateText>3rd August 2023</DateText>
+         </LaidDate>
+         <ComingIntoForce>
+            <Text>Coming into force</Text>
+            <DateText>1st September 2023</DateText>
+         </ComingIntoForce>
+         <SecondaryPreamble>
+            <EnactingText>
+               <Para>
+                  <Text>The Secretary of State makes these Regulations in exercise of the powers conferred by Articles 38(d) and 38b(8) of Council Regulation (EC) No 834/2007 on organic production and labelling of organic products<FootnoteRef Ref="f00001"/>.</Text>
+               </Para>
+            </EnactingText>
+            <Text>In accordance with Article 38b(9) of that Regulation, the Secretary of State has consulted such bodies or persons as appear to the Secretary of State to be representative of the interests likely to be substantially affected by these Regulations and such other bodies or persons as the Secretary of State considers appropriate.</Text>
+         </SecondaryPreamble>
+      </SecondaryPrelims>
+      <Body>
+         <P1group>
+            <Title>Citation, commencement and extent</Title>
+            <P1 id="regulation-1">
+               <Pnumber>1</Pnumber>
+               <P1para>
+                  <P2 id="regulation-1-1">
+                     <Pnumber>1</Pnumber>
+                     <P2para>
+                        <Text>These Regulations may be cited as the Organic Production (Control of Imports) (Amendment) Regulations 2023, and come into force on 1st September 2023.</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="regulation-1-2">
+                     <Pnumber>2</Pnumber>
+                     <P2para>
+                        <Text>These Regulations extend to England and Wales and Scotland.</Text>
+                     </P2para>
+                  </P2>
+               </P1para>
+            </P1>
+         </P1group>
+         <P1group>
+            <Title>Commission Regulation (EC) No 1235/2008</Title>
+            <P1 id="regulation-2">
+               <Pnumber>2</Pnumber>
+               <P1para>
+                  <P2 id="regulation-2-1">
+                     <Pnumber>1</Pnumber>
+                     <P2para>
+                        <Text>Commission Regulation (EC) No 1235/2008 laying down detailed rules for implementation of Council Regulation (EC) No 834/2007 as regards the arrangements for imports of organic products from third countries<FootnoteRef Ref="f00002"/> is amended as follows.</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="regulation-2-2">
+                     <Pnumber>2</Pnumber>
+                     <P2para>
+                        <Text>Omit Article 13(8) to (10).</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="regulation-2-3">
+                     <Pnumber>3</Pnumber>
+                     <P2para>
+                        <Text>In Annex 5 (certificate of inspection)—</Text>
+                        <P3 id="regulation-2-3-a">
+                           <Pnumber>a</Pnumber>
+                           <P3para>
+                              <Text>in box 2—</Text>
+                              <P4 id="regulation-2-3-a-i">
+                                 <Pnumber>i</Pnumber>
+                                 <P4para>
+                                    <Text>omit “, as it has effect in Great Britain”;</Text>
+                                 </P4para>
+                              </P4>
+                              <P4 id="regulation-2-3-a-ii">
+                                 <Pnumber>ii</Pnumber>
+                                 <P4para>
+                                    <Text>omit the words from “Council Regulation (EC) No 834/2007, as it has effect in the European Union” to the end;</Text>
+                                 </P4para>
+                              </P4>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-2-3-b">
+                           <Pnumber>b</Pnumber>
+                           <P3para>
+                              <Text>in the Notes—</Text>
+                              <P4 id="regulation-2-3-b-i">
+                                 <Pnumber>i</Pnumber>
+                                 <P4para>
+                                    <Text>in the entry relating to box 2, omit the words from “, as it has effect”, in the first place it occurs, to “European Union,”;</Text>
+                                 </P4para>
+                              </P4>
+                              <P4 id="regulation-2-3-b-ii">
+                                 <Pnumber>ii</Pnumber>
+                                 <P4para>
+                                    <Text>in the entry relating to box 4—</Text>
+                                    <P5 id="regulation-2-3-b-ii-aa">
+                                       <Pnumber>aa</Pnumber>
+                                       <P5para>
+                                          <Text>omit “, as it has effect in Great Britain, or Article 2(i) of Regulation (EC) No 834/2007, as it has effect in the European Union,”;</Text>
+                                       </P5para>
+                                    </P5>
+                                    <P5 id="regulation-2-3-b-ii-bb">
+                                       <Pnumber>bb</Pnumber>
+                                       <P5para>
+                                          <Text>omit “, as it has effect in Great Britain, or Article 34 of Regulation (EC) 889/2008, as it has effect in the European Union.”;</Text>
+                                       </P5para>
+                                    </P5>
+                                 </P4para>
+                              </P4>
+                              <P4 id="regulation-2-3-b-iii">
+                                 <Pnumber>iii</Pnumber>
+                                 <P4para>
+                                    <Text>in the entry relating to box 8, omit the words from “, as it has effect”, in the first place it occurs, to “European Union,”.</Text>
+                                 </P4para>
+                              </P4>
+                           </P3para>
+                        </P3>
+                     </P2para>
+                  </P2>
+                  <P2 id="regulation-2-4">
+                     <Pnumber>4</Pnumber>
+                     <P2para>
+                        <Text>In Annex 6 (extract of the certificate of inspection)—</Text>
+                        <P3 id="regulation-2-4-a">
+                           <Pnumber>a</Pnumber>
+                           <P3para>
+                              <Text>in box 2—</Text>
+                              <P4 id="regulation-2-4-a-i">
+                                 <Pnumber>i</Pnumber>
+                                 <P4para>
+                                    <Text>omit “, as it has effect in Great Britain”;</Text>
+                                 </P4para>
+                              </P4>
+                              <P4 id="regulation-2-4-a-ii">
+                                 <Pnumber>ii</Pnumber>
+                                 <P4para>
+                                    <Text>omit the words from “Council Regulation (EC) No 834/2007, as it has effect in the European Union” to the end;</Text>
+                                 </P4para>
+                              </P4>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-2-4-b">
+                           <Pnumber>b</Pnumber>
+                           <P3para>
+                              <Text>in the Notes, in the entry relating to box 2, omit the words from “, as it has effect”, in the first place it occurs, to “European Union,”.</Text>
+                           </P3para>
+                        </P3>
+                     </P2para>
+                  </P2>
+               </P1para>
+            </P1>
+         </P1group>
+         <SignedSection>
+            <Signatory>
+               <Signee>
+                  <PersonName>Benyon</PersonName>
+                  <JobTitle>Minister of State</JobTitle>
+                  <DateSigned Date="2023-08-02">
+                     <DateText>2nd August 2023</DateText>
+                  </DateSigned>
+                  <Department>Department for Environment, Food and Rural Affairs</Department>
+               </Signee>
+            </Signatory>
+         </SignedSection>
+      </Body>
+      <ExplanatoryNotes>
+         <Title>Explanatory Note</Title>
+         <Comment>
+            <Para>
+               <Text>(This note is not part of the Regulations)</Text>
+            </Para>
+         </Comment>
+         <P>
+            <Text>These Regulations amend Commission Regulation (EC) No 1235/2008 laying down detailed rules for implementation of Council Regulation (EC) No 834/2007 as regards the arrangements for imports of organic products from third countries (EUR 2008/1235).</Text>
+         </P>
+         <P>
+            <Text>Regulation 2(2) omits from Article 13 of that Regulation transitional provisions concerning certificates of inspection which expired on 31st December 2022.</Text>
+         </P>
+         <P>
+            <Text>Regulation 2(3) and (4) make consequential amendments to Annexes 5 and 6 of that Regulation arising from the expiry of the transitional provisions.</Text>
+         </P>
+         <P>
+            <Text>A regulatory impact assessment has not been produced for this instrument as no, or no significant, impact on the private or voluntary sector is foreseen.</Text>
+         </P>
+      </ExplanatoryNotes>
+   </Secondary>
+   <Footnotes>
+      <Footnote id="f00001">
+         <FootnoteText>
+            <Para>
+               <Text>EUR 2007/834, amended by S.I. 2019/692, 693, 831 (itself amended by S.I. 2020/1453). There are other amending instruments but none is relevant.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00002">
+         <FootnoteText>
+            <Para>
+               <Text>EUR 2008/1235, amended by S.I. 2019/692 (itself amended by S.I. 2020/1452, 1661), 2020/1452, 2021/1266, 2022/609.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+   </Footnotes>
+</Legislation>

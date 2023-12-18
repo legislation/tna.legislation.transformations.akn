@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Legislation xmlns="http://www.legislation.gov.uk/namespaces/legislation"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             SchemaVersion="2.0"
+             xsi:schemaLocation="http://www.legislation.gov.uk/namespaces/legislation http://www.legislation.gov.uk/schema/legislation.xsd">
+   <Metadata xmlns="http://www.legislation.gov.uk/namespaces/metadata"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <dc:identifier>http://www.legislation.gov.uk/id/uksi/2023/1140</dc:identifier>
+      <dc:title>The Criminal Legal Aid (Remuneration) (Amendment) (No. 4) Regulations 2023</dc:title>
+      <dc:modified>2023-12-18</dc:modified>
+      <SecondaryMetadata>
+         <DocumentClassification>
+            <DocumentCategory Value="secondary"/>
+            <DocumentMainType Value="UnitedKingdomStatutoryInstrument"/>
+            <DocumentStatus Value="final"/>
+            <DocumentMinorType Value="regulation"/>
+         </DocumentClassification>
+         <Year Value="2023"/>
+         <Number Value="1140"/>
+         <Made Date="2023-10-26" Time="10:00:00"/>
+         <Laid Date="2023-10-26" Time="12:45:00" Class="UnitedKingdomParliament"/>
+         <ComingIntoForce>
+            <DateTime Date="2023-11-16" Time="00:00:00"/>
+         </ComingIntoForce>
+      </SecondaryMetadata>
+   </Metadata>
+   <Secondary>
+      <SecondaryPrelims>
+         <Number> 2023 No. 1140  </Number>
+         <SubjectInformation>
+            <Subject>
+               <Title>LEGAL AID AND ADVICE, ENGLAND AND WALES</Title>
+            </Subject>
+         </SubjectInformation>
+         <Title> The Criminal Legal Aid (Remuneration) (Amendment) (No. 4) Regulations 2023 </Title>
+         <MadeDate>
+            <Text>Made</Text>
+            <DateText>at 10.00 a.m. on 26th October 2023</DateText>
+         </MadeDate>
+         <LaidDate>
+            <Text>Laid before Parliament</Text>
+            <DateText>at 12.45 p.m. on 26th October 2023</DateText>
+         </LaidDate>
+         <ComingIntoForce>
+            <Text>Coming into force</Text>
+            <DateText>16th November 2023</DateText>
+         </ComingIntoForce>
+         <SecondaryPreamble>
+            <EnactingText>
+               <Para>
+                  <Text>The Lord Chancellor makes these Regulations in exercise of the powers conferred by section 2(3) and 41(1)(a) and (b) of the Legal Aid, Sentencing and Punishment of Offenders Act 2012<FootnoteRef Ref="f00001"/>.</Text>
+               </Para>
+            </EnactingText>
+         </SecondaryPreamble>
+      </SecondaryPrelims>
+      <Body>
+         <P1group>
+            <Title>Citation, commencement and extent</Title>
+            <P1 id="regulation-1">
+               <Pnumber>1</Pnumber>
+               <P1para>
+                  <P2 id="regulation-1-1">
+                     <Pnumber>1</Pnumber>
+                     <P2para>
+                        <Text>These Regulations may be cited as the Criminal Legal Aid (Remuneration) (Amendment) (No. 4) Regulations 2023 and come into force on 16th November 2023.</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="regulation-1-2">
+                     <Pnumber>2</Pnumber>
+                     <P2para>
+                        <Text>These Regulations extend to England and Wales.</Text>
+                     </P2para>
+                  </P2>
+               </P1para>
+            </P1>
+         </P1group>
+         <P1group>
+            <Title>Amendments to the Criminal Legal Aid (Remuneration) Regulations 2013</Title>
+            <P1 id="regulation-2">
+               <Pnumber>2</Pnumber>
+               <P1para>
+                  <P2 id="regulation-2-1">
+                     <Pnumber>1</Pnumber>
+                     <P2para>
+                        <Text>The Criminal Legal Aid (Remuneration) Regulations 2013<FootnoteRef Ref="f00002"/> are amended as follows.</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="regulation-2-2">
+                     <Pnumber>2</Pnumber>
+                     <P2para>
+                        <Text>In paragraph 13A(1) of Schedule 1 (fee for video recorded cross-examination or re-examination), for “£670”, substitute “£1000”.</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="regulation-2-3">
+                     <Pnumber>3</Pnumber>
+                     <P2para>
+                        <Text>In the table following paragraph 2(8) of Schedule 4 (police station attendance — fixed fees and escape fee thresholds), in the entry for the “Llanelli” Scheme in the Criminal Justice System Area of “Dyfed Powys”—</Text>
+                        <P3 id="regulation-2-3-a">
+                           <Pnumber>a</Pnumber>
+                           <P3para>
+                              <Text>in the “Fixed Fee (£)” column, for “159.51” substitute “204.63”; and</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-2-3-b">
+                           <Pnumber>b</Pnumber>
+                           <P3para>
+                              <Text>in the “Escape Fee Threshold (£)” column, for “490.29” substitute “656.42”.</Text>
+                           </P3para>
+                        </P3>
+                     </P2para>
+                  </P2>
+               </P1para>
+            </P1>
+         </P1group>
+         <P1group>
+            <Title>Application</Title>
+            <P1 id="regulation-3">
+               <Pnumber>3</Pnumber>
+               <P1para>
+                  <Text>The amendments made by these Regulations apply to cases where a determination under section 13 (advice and assistance for individuals in custody) or section 16 (representation for criminal proceedings) of the Legal Aid, Sentencing and Punishment of Offenders Act 2012 is made on or after 16th November 2023.</Text>
+               </P1para>
+            </P1>
+         </P1group>
+         <SignedSection>
+            <Signatory>
+               <Signee>
+                  <PersonName>Edward Argar</PersonName>
+                  <JobTitle>Minister of State</JobTitle>
+                  <DateSigned>
+                     <DateText>at 10.00 a.m. on 26th October 2023</DateText>
+                  </DateSigned>
+                  <Department>Ministry of Justice</Department>
+               </Signee>
+            </Signatory>
+         </SignedSection>
+      </Body>
+      <ExplanatoryNotes>
+         <Title>Explanatory Note</Title>
+         <Comment>
+            <Para>
+               <Text>(This note is not part of the Regulations)</Text>
+            </Para>
+         </Comment>
+         <P>
+            <Text>These Regulations amend the Criminal Legal Aid (Remuneration) Regulations 2013 (S.I. 2013/435).</Text>
+         </P>
+         <P>
+            <Text>Regulation 2(2) amends the fee payable in a case where a special measures direction provides for a video recording to be admitted under section 28 (video recorded cross-examination or re-examination) of the Youth Justice and Criminal Evidence Act 1999 (c. 23) (the “1999 Act”). It amends the fee in respect of all cross-examination, including re-examination, which is recorded by means of video recording and where such a recording is admissible by virtue of a special measures direction, from £670 per case to £1000 per case. For this purpose, “special measures direction” has the meaning given in section 33(1)(interpretation etc.) of the 1999 Act.</Text>
+         </P>
+         <P>
+            <Text>Regulation 2(3) amends the fixed fee for police station attendance in the Llanelli Scheme in the Criminal Justice System Area of Dyfed Powys from £159.51 to £204.63 and the escape fee threshold for that work from £490.29 to £656.42.</Text>
+         </P>
+         <P>
+            <Text>Regulation 3 makes provision about the application of the amendments.</Text>
+         </P>
+         <P>
+            <Text>A full impact assessment has not been produced for this instrument as no, or no significant, impact on the private, voluntary or public sector is foreseen.</Text>
+         </P>
+      </ExplanatoryNotes>
+   </Secondary>
+   <Footnotes>
+      <Footnote id="f00001">
+         <FootnoteText>
+            <Para>
+               <Text>2012 c. 10.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00002">
+         <FootnoteText>
+            <Para>
+               <Text>S.I. 2013/435, amended by S.I. 2022/848, 2023/97; there are other amending instruments but none is relevant.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+   </Footnotes>
+</Legislation>
