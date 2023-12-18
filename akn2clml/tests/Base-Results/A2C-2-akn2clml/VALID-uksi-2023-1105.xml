@@ -7,7 +7,7 @@
              xmlns:dc="http://purl.org/dc/elements/1.1/">
       <dc:identifier>http://www.legislation.gov.uk/id/uksi/2023/1105</dc:identifier>
       <dc:title>The National Health Service Commissioning Board and Clinical Commissioning Groups (Responsibilities and Standing Rules) (Amendment) (No. 2) Regulations 2023</dc:title>
-      <dc:modified>2023-11-30</dc:modified>
+      <dc:modified>2023-12-18</dc:modified>
       <SecondaryMetadata>
          <DocumentClassification>
             <DocumentCategory Value="secondary"/>
@@ -17,7 +17,7 @@
          </DocumentClassification>
          <Year Value="2023"/>
          <Number Value="1105"/>
-         <Made Date="2023-10-17"/>
+         <Made Date="2023-10-17" Time="00:00:00"/>
          <Laid Date="2023-10-19" Time="00:00:00" Class="UnitedKingdomParliament"/>
          <ComingIntoForce>
             <DateTime Date="2024-01-01" Time="00:00:00"/>
@@ -140,8 +140,6 @@
                                                 </Para>
                                              </ListItem>
                                           </OrderedList>
-                                       </Para>
-                                       <Para>
                                           <Text>to a health service provider, including when the referral is first assessed by a person providing interface services, for treatment that is not identified as being immediately required at the time of referral;</Text>
                                        </Para>
                                     </ListItem>
@@ -179,8 +177,6 @@
                                                 </Para>
                                              </ListItem>
                                           </OrderedList>
-                                       </Para>
-                                       <Para>
                                           <Text>which provide clinical triage, assessment and treatment services, but does not include services provided under a primary care contract;</Text>
                                        </Para>
                                     </ListItem>

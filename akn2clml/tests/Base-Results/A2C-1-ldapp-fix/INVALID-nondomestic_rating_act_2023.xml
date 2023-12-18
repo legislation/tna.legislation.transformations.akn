@@ -199,7 +199,7 @@
                                             <num>1</num>
                                             <intro GUID="_526792bc-4a8c-4b1a-945d-5f32c64cbf0c" eId="sec_1__subsec_3__qstr__sched_4ZA__para_1__intro">
                                                 <p>Subject to the following provisions of this Schedule, the chargeable amount for a chargeable day is to be calculated—</p>
-                                                <block name="pageBreak"/>
+                                                
                                             </intro>
                                             <level GUID="_0f6514ba-bc7f-4b74-9dd6-530c60192e71" class="para1" eId="sec_1__subsec_3__qstr__sched_4ZA__para_1__para_a">
                                                 <num>(a)</num>
@@ -1266,7 +1266,7 @@
                                                             <math xmlns="http://www.w3.org/1998/Math/MathML">;<mfrac> <mrow> <mi>A</mi> <mi>x</mi> <mi>M</mi> </mrow> <mi>C</mi> </mfrac></math>
                                                         </foreign>
                                                     </tblock>
-                                                    <block name="pageBreak"/>
+                                                    
                                                 </content>
                                             </level>
                                             <level GUID="_b6350169-2c3d-478f-9629-5204c6568398" class="para1" eId="sec_3__subsec_3__qstr__sched_5A__para_1__para_b">

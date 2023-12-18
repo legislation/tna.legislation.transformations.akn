@@ -7,7 +7,7 @@
              xmlns:dc="http://purl.org/dc/elements/1.1/">
       <dc:identifier>http://www.legislation.gov.uk/id/uksi/2023/998</dc:identifier>
       <dc:title>The Armed Forces Pensions (Remediable Service) Regulations 2023</dc:title>
-      <dc:modified>2023-11-30</dc:modified>
+      <dc:modified>2023-12-18</dc:modified>
       <SecondaryMetadata>
          <DocumentClassification>
             <DocumentCategory Value="secondary"/>
@@ -17,7 +17,7 @@
          </DocumentClassification>
          <Year Value="2023"/>
          <Number Value="998"/>
-         <Made Date="2023-09-06"/>
+         <Made Date="2023-09-06" Time="00:00:00"/>
          <Laid Date="2023-09-13" Time="00:00:00" Class="UnitedKingdomParliament"/>
          <ComingIntoForce>
             <DateTime Date="2023-10-01" Time="00:00:00"/>
@@ -1816,8 +1816,6 @@
                                              </Para>
                                           </ListItem>
                                        </OrderedList>
-                                    </Para>
-                                    <Para>
                                        <Text>is pensionable;</Text>
                                     </Para>
                                  </ListItem>
@@ -6973,8 +6971,6 @@
                                                             </Para>
                                                          </ListItem>
                                                       </OrderedList>
-                                                   </Para>
-                                                   <Para>
                                                       <Text>issued in respect of M’s estate;</Text>
                                                    </Para>
                                                 </ListItem>
@@ -12329,8 +12325,6 @@
                                                             </Para>
                                                          </ListItem>
                                                       </OrderedList>
-                                                   </Para>
-                                                   <Para>
                                                       <Text>issued in respect of M’s estate;</Text>
                                                    </Para>
                                                 </ListItem>
@@ -18399,8 +18393,6 @@
                                                             </Para>
                                                          </ListItem>
                                                       </OrderedList>
-                                                   </Para>
-                                                   <Para>
                                                       <Text>issued in respect of M’s estate;</Text>
                                                    </Para>
                                                 </ListItem>
@@ -23181,8 +23173,6 @@
                                                             </Para>
                                                          </ListItem>
                                                       </OrderedList>
-                                                   </Para>
-                                                   <Para>
                                                       <Text>issued in respect of M’s estate;</Text>
                                                    </Para>
                                                 </ListItem>
@@ -27897,8 +27887,6 @@
                                                             </Para>
                                                          </ListItem>
                                                       </OrderedList>
-                                                   </Para>
-                                                   <Para>
                                                       <Text>issued in respect of M’s estate;</Text>
                                                    </Para>
                                                 </ListItem>
