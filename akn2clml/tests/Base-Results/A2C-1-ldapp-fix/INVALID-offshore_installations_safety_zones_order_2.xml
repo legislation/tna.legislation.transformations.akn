@@ -359,7 +359,7 @@
 								</table>
 							</foreign>
 						</tblock>
-						<block name="pageBreak"/>
+						
 					</content>
 				</hcontainer>
 			</hcontainer>

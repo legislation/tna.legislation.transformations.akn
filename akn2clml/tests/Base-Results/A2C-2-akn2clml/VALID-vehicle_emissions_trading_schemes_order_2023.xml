@@ -6,7 +6,7 @@
    <Metadata xmlns="http://www.legislation.gov.uk/namespaces/metadata"
              xmlns:dc="http://purl.org/dc/elements/1.1/">
       <dc:title>The Vehicle Emissions Trading Schemes Order 2023</dc:title>
-      <dc:modified>2023-11-30</dc:modified>
+      <dc:modified>2023-12-18</dc:modified>
       <SecondaryMetadata>
          <DocumentClassification>
             <DocumentCategory Value="secondary"/>
@@ -313,7 +313,7 @@
                                        </ListItem>
                                        <ListItem>
                                           <Para>
-                                             <Text>in relation to a completed van which is not within paragraph <InternalLink Ref="d24e1237-e">(e)</InternalLink>, the base vehicle of which has a certificate of conformity, means the person identified as the manufacturer on that certificate of conformity;</Text>
+                                             <Text>in relation to a completed van which is not within paragraph <InternalLink Ref="d23e1237-e">(e)</InternalLink>, the base vehicle of which has a certificate of conformity, means the person identified as the manufacturer on that certificate of conformity;</Text>
                                           </Para>
                                        </ListItem>
                                        <ListItem>
@@ -1175,7 +1175,7 @@
                         <P2 id="article-11-4">
                            <Pnumber>4</Pnumber>
                            <P2para>
-                              <Text>Where there is any doubt as to the identification of the manufacturer of a car in accordance with paragraph <InternalLink Ref="d24e1237-a">(a)</InternalLink> or <InternalLink Ref="d24e1237-b">(b)</InternalLink> of the definition of “manufacturer” in <InternalLink Ref="article-3">article 3</InternalLink>
+                              <Text>Where there is any doubt as to the identification of the manufacturer of a car in accordance with paragraph <InternalLink Ref="d23e1237-a">(a)</InternalLink> or <InternalLink Ref="d23e1237-b">(b)</InternalLink> of the definition of “manufacturer” in <InternalLink Ref="article-3">article 3</InternalLink>
                                  <InternalLink Ref="article-3-1">(1)</InternalLink>, the administrator may identify the CRTS participant in relation to the registration of that car.</Text>
                            </P2para>
                         </P2>
@@ -2724,7 +2724,7 @@
                         <P2 id="article-32-3">
                            <Pnumber>3</Pnumber>
                            <P2para>
-                              <Text>Where there is any doubt as to the identification of the manufacturer of a car in accordance with paragraph <InternalLink Ref="d24e1237-a">(a)</InternalLink> or <InternalLink Ref="d24e1237-b">(b)</InternalLink> of the definition of “manufacturer” in <InternalLink Ref="article-3">article 3</InternalLink>
+                              <Text>Where there is any doubt as to the identification of the manufacturer of a car in accordance with paragraph <InternalLink Ref="d23e1237-a">(a)</InternalLink> or <InternalLink Ref="d23e1237-b">(b)</InternalLink> of the definition of “manufacturer” in <InternalLink Ref="article-3">article 3</InternalLink>
                                  <InternalLink Ref="article-3-1">(1)</InternalLink>, the administrator may identify the CCTS participant in relation to the registration of that car.</Text>
                            </P2para>
                         </P2>
@@ -3230,7 +3230,7 @@
                         <P2 id="article-43-4">
                            <Pnumber>4</Pnumber>
                            <P2para>
-                              <Text>Where there is any doubt as to the identification of the manufacturer of a van in accordance with paragraphs <InternalLink Ref="d24e1237-a">(a)</InternalLink> to <InternalLink Ref="d24e1237-e">(e)</InternalLink> of the definition of “manufacturer” in <InternalLink Ref="article-3">article 3</InternalLink>
+                              <Text>Where there is any doubt as to the identification of the manufacturer of a van in accordance with paragraphs <InternalLink Ref="d23e1237-a">(a)</InternalLink> to <InternalLink Ref="d23e1237-e">(e)</InternalLink> of the definition of “manufacturer” in <InternalLink Ref="article-3">article 3</InternalLink>
                                  <InternalLink Ref="article-3-1">(1)</InternalLink>, the administrator may identify the VRTS participant in relation to the registration of that van.</Text>
                            </P2para>
                         </P2>
@@ -4754,7 +4754,7 @@
                         <P2 id="article-64-3">
                            <Pnumber>3</Pnumber>
                            <P2para>
-                              <Text>Where there is any doubt as to the identification of the manufacturer of a van in accordance with paragraphs <InternalLink Ref="d24e1237-a">(a)</InternalLink> to <InternalLink Ref="d24e1237-e">(e)</InternalLink> of the definition of “manufacturer” in <InternalLink Ref="article-3">article 3</InternalLink>
+                              <Text>Where there is any doubt as to the identification of the manufacturer of a van in accordance with paragraphs <InternalLink Ref="d23e1237-a">(a)</InternalLink> to <InternalLink Ref="d23e1237-e">(e)</InternalLink> of the definition of “manufacturer” in <InternalLink Ref="article-3">article 3</InternalLink>
                                  <InternalLink Ref="article-3-1">(1)</InternalLink>, the administrator may identify the VCTS participant in relation to the registration of that van.</Text>
                            </P2para>
                         </P2>
@@ -9182,8 +9182,6 @@
                               </Formula>
                               <P3para>
                                  <Text>where—</Text>
-                              </P3para>
-                              <P3para>
                                  <UnorderedList Class="Definition" Decoration="none">
                                     <ListItem>
                                        <Para>
@@ -9218,8 +9216,6 @@
                               </Formula>
                               <P3para>
                                  <Text>where—</Text>
-                              </P3para>
-                              <P3para>
                                  <UnorderedList Class="Definition" Decoration="none">
                                     <ListItem>
                                        <Para>
@@ -9361,8 +9357,6 @@
                         </Formula>
                         <P1para>
                            <Text>where—</Text>
-                        </P1para>
-                        <P1para>
                            <UnorderedList Class="Definition" Decoration="none">
                               <ListItem>
                                  <Para>
@@ -9483,8 +9477,6 @@
                         </Formula>
                         <P1para>
                            <Text>where—</Text>
-                        </P1para>
-                        <P1para>
                            <UnorderedList Class="Definition" Decoration="none">
                               <ListItem>
                                  <Para>
@@ -9825,8 +9817,6 @@
                               </Formula>
                               <P3para>
                                  <Text>where—</Text>
-                              </P3para>
-                              <P3para>
                                  <UnorderedList Class="Definition" Decoration="none">
                                     <ListItem>
                                        <Para>
@@ -9861,8 +9851,6 @@
                               </Formula>
                               <P3para>
                                  <Text>where—</Text>
-                              </P3para>
-                              <P3para>
                                  <UnorderedList Class="Definition" Decoration="none">
                                     <ListItem>
                                        <Para>
@@ -10004,8 +9992,6 @@
                         </Formula>
                         <P1para>
                            <Text>where—</Text>
-                        </P1para>
-                        <P1para>
                            <UnorderedList Class="Definition" Decoration="none">
                               <ListItem>
                                  <Para>
@@ -10126,8 +10112,6 @@
                         </Formula>
                         <P1para>
                            <Text>where—</Text>
-                        </P1para>
-                        <P1para>
                            <UnorderedList Class="Definition" Decoration="none">
                               <ListItem>
                                  <Para>

@@ -7,7 +7,7 @@
              xmlns:dc="http://purl.org/dc/elements/1.1/">
       <dc:identifier>http://www.legislation.gov.uk/id/ukpga/2023/28</dc:identifier>
       <dc:title>Retained EU Law (Revocation and Reform) Act 2023</dc:title>
-      <dc:modified>2023-11-30</dc:modified>
+      <dc:modified>2023-12-18</dc:modified>
       <PrimaryMetadata>
          <DocumentClassification>
             <DocumentCategory Value="primary"/>
@@ -10487,8 +10487,6 @@
                                                       </Para>
                                                    </ListItem>
                                                 </OrderedList>
-                                             </Para>
-                                             <Para>
                                                 <Text>as modified from time to time,</Text>
                                              </Para>
                                           </ListItem>
@@ -10600,8 +10598,6 @@
                                                       </Para>
                                                    </ListItem>
                                                 </OrderedList>
-                                             </Para>
-                                             <Para>
                                                 <Text>as modified from time to time.</Text>
                                              </Para>
                                           </ListItem>
@@ -10853,8 +10849,6 @@
                                                             </Para>
                                                          </ListItem>
                                                       </OrderedList>
-                                                   </Para>
-                                                   <Para>
                                                       <Text>as modified from time to time.</Text>
                                                    </Para>
                                                 </ListItem>
@@ -10936,8 +10930,6 @@
                                                       </Para>
                                                    </ListItem>
                                                 </OrderedList>
-                                             </Para>
-                                             <Para>
                                                 <Text>as modified from time to time.</Text>
                                              </Para>
                                           </ListItem>
@@ -11071,8 +11063,6 @@
                                                             </Para>
                                                          </ListItem>
                                                       </OrderedList>
-                                                   </Para>
-                                                   <Para>
                                                       <Text>(as those principles and decisions are modified by or under this Act or by other domestic law from time to time);</Text>
                                                    </Para>
                                                 </ListItem>
@@ -11091,8 +11081,6 @@
                                                             </Para>
                                                          </ListItem>
                                                       </OrderedList>
-                                                   </Para>
-                                                   <Para>
                                                       <Text>(as those principles and decisions are modified by or under this Act or by other domestic law from time to time);</Text>
                                                    </Para>
                                                 </ListItem>
@@ -11250,8 +11238,6 @@
                                                       </OrderedList>
                                                    </ListItem>
                                                 </OrderedList>
-                                             </Para>
-                                             <Para>
                                                 <Text>(as modified by or under this Act or by other domestic law from time to time);</Text>
                                              </Para>
                                           </ListItem>
@@ -11689,10 +11675,11 @@
                                                           Context="main"
                                                           Format="double">
                                              <Tabular Orientation="portrait">
-                                                <table xmlns="http://www.w3.org/1999/xhtml"
-                                                       xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN"
-                                                       cols="2"
-                                                       ukl:templateColumns="50 50">
+                                                <table xmlns="http://www.w3.org/1999/xhtml">
+                                                   <colgroup>
+                                                      <col width="50%"/>
+                                                      <col width="50%"/>
+                                                   </colgroup>
                                                    <tbody>
                                                       <tr>
                                                          <td>
@@ -11745,10 +11732,11 @@
                                                           Context="main"
                                                           Format="double">
                                              <Tabular Orientation="portrait">
-                                                <table xmlns="http://www.w3.org/1999/xhtml"
-                                                       xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN"
-                                                       cols="2"
-                                                       ukl:templateColumns="50 50">
+                                                <table xmlns="http://www.w3.org/1999/xhtml">
+                                                   <colgroup>
+                                                      <col width="50%"/>
+                                                      <col width="50%"/>
+                                                   </colgroup>
                                                    <tbody>
                                                       <tr>
                                                          <td>

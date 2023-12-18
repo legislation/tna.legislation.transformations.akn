@@ -51,3 +51,6 @@ Thumbs.db
 # Oxygen Project File
 *.xpr
 **/*.xpr
+
+# akn2clml test files
+akn2clml/tests/Base-Results/

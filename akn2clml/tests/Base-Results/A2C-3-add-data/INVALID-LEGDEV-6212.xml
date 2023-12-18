@@ -7,7 +7,7 @@
              xmlns:dc="http://purl.org/dc/elements/1.1/">
       <dc:identifier>http://www.legislation.gov.uk/id/ukpga/2023/55</dc:identifier>
       <dc:title>Levelling-up and Regeneration Act 2023</dc:title>
-      <dc:modified>2023-11-30</dc:modified>
+      <dc:modified>2023-12-18</dc:modified>
       <PrimaryMetadata>
          <DocumentClassification>
             <DocumentCategory Value="primary"/>
@@ -13328,10 +13328,11 @@
                                                          <Text>“significance”, in relation to a relevant asset, has the meaning given by the corresponding entry in the second column of the table.</Text>
                                                          <Tabular Orientation="portrait">
                                                             <Title>TABLE</Title>
-                                                            <table xmlns="http://www.w3.org/1999/xhtml"
-                                                                   xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN"
-                                                                   cols="2"
-                                                                   ukl:templateColumns="50 50">
+                                                            <table xmlns="http://www.w3.org/1999/xhtml">
+                                                               <colgroup>
+                                                                  <col width="50%"/>
+                                                                  <col width="50%"/>
+                                                               </colgroup>
                                                                <thead>
                                                                   <tr>
                                                                      <td>
@@ -19402,8 +19403,6 @@
                                                                </Para>
                                                             </ListItem>
                                                          </OrderedList>
-                                                      </Para>
-                                                      <Para>
                                                          <Text>but does not include an application made in legal proceedings;</Text>
                                                       </Para>
                                                    </ListItem>
@@ -22413,8 +22412,6 @@
                                        </Para>
                                     </ListItem>
                                  </OrderedList>
-                              </Para>
-                              <Para>
                                  <Text>and references to the area of a local planning authority are to the area for which the authority is the local planning authority in accordance with Part 2 of PCPA 2004.</Text>
                               </Para>
                            </ListItem>
@@ -25743,8 +25740,6 @@
                                                             </Para>
                                                          </ListItem>
                                                       </OrderedList>
-                                                   </Para>
-                                                   <Para>
                                                       <Text>exceeds the total nutrient pollution that it would have discharged in treated effluent during that period had it met the related nutrient pollution standard on and after the upgrade date;</Text>
                                                    </Para>
                                                 </ListItem>
@@ -26337,8 +26332,6 @@
                                                                </Para>
                                                             </ListItem>
                                                          </OrderedList>
-                                                      </Para>
-                                                      <Para>
                                                          <Text>and where the proposing authority consists of two or more authorities acting jointly, each is a “constituent council” of the proposing authority.</Text>
                                                       </Para>
                                                    </ListItem>
@@ -26757,8 +26750,6 @@
                                                                </Para>
                                                             </ListItem>
                                                          </OrderedList>
-                                                      </Para>
-                                                      <Para>
                                                          <Text>and where the proposing authority consists of two or more authorities acting jointly, each is a “constituent council” of the proposing authority.</Text>
                                                       </Para>
                                                    </ListItem>
@@ -30462,8 +30453,6 @@
                                                                   </Para>
                                                                </ListItem>
                                                             </UnorderedList>
-                                                         </P2para>
-                                                         <P2para>
                                                             <Text>and that statement is “fulfilled” if what is done with that land after its acquisition is materially in accordance with the statement.</Text>
                                                          </P2para>
                                                       </P2>
@@ -36551,8 +36540,6 @@
                                                             </OrderedList>
                                                          </ListItem>
                                                       </OrderedList>
-                                                   </Para>
-                                                   <Para>
                                                       <Text>and a chain of qualifying leases may accordingly consist of different leases at different times (if further connected replacement leases are granted);</Text>
                                                    </Para>
                                                 </ListItem>
@@ -46573,8 +46560,6 @@
                                                       </Para>
                                                    </ListItem>
                                                 </OrderedList>
-                                             </Para>
-                                             <Para>
                                                 <Text>and, unless the context otherwise requires, means those authorities acting jointly under such arrangements as they put in place for the purpose;</Text>
                                              </Para>
                                           </ListItem>
@@ -54998,9 +54983,9 @@
                                      TargetSubClass="unknown"
                                      Context="main"
                                      Format="double">
-                        <Pblock>
+                        <FragmentTitle Context="Pblock">
                            <Title>Termination of planning permission: Wales</Title>
-                        </Pblock>
+                        </FragmentTitle>
                      </BlockAmendment>
                      <AppendText>.</AppendText>
                   </P1para>

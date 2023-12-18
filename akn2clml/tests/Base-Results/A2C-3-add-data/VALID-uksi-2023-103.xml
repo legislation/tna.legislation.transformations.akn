@@ -7,7 +7,7 @@
              xmlns:dc="http://purl.org/dc/elements/1.1/">
       <dc:identifier>http://www.legislation.gov.uk/id/uksi/2023/103</dc:identifier>
       <dc:title>The Middlesbrough Development Corporation (Establishment) Order 2023</dc:title>
-      <dc:modified>2023-11-30</dc:modified>
+      <dc:modified>2023-12-18</dc:modified>
       <SecondaryMetadata>
          <DocumentClassification>
             <DocumentCategory Value="secondary"/>
@@ -17,7 +17,7 @@
          </DocumentClassification>
          <Year Value="2023"/>
          <Number Value="103"/>
-         <Made Date="2023-01-30"/>
+         <Made Date="2023-01-30" Time="00:00:00"/>
          <Laid Date="2023-02-06" Time="00:00:00" Class="UnitedKingdomParliament"/>
          <ComingIntoForce>
             <DateTime Date="2023-02-27" Time="00:00:00"/>

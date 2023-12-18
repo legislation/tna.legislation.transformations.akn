@@ -7,7 +7,7 @@
              xmlns:dc="http://purl.org/dc/elements/1.1/">
       <dc:identifier>http://www.legislation.gov.uk/id/uksi/2023/838</dc:identifier>
       <dc:title>The Offshore Installations (Safety Zones) Order 2023</dc:title>
-      <dc:modified>2023-11-30</dc:modified>
+      <dc:modified>2023-12-18</dc:modified>
       <SecondaryMetadata>
          <DocumentClassification>
             <DocumentCategory Value="secondary"/>
@@ -17,7 +17,7 @@
          </DocumentClassification>
          <Year Value="2023"/>
          <Number Value="838"/>
-         <Made Date="2023-07-18"/>
+         <Made Date="2023-07-18" Time="00:00:00"/>
          <ComingIntoForce>
             <DateTime Date="2023-08-08" Time="00:00:00"/>
          </ComingIntoForce>
@@ -45,16 +45,24 @@
                <Para>
                   <Text>The Secretary of State makes this Order—</Text>
                </Para>
-               <ListItem NumberOverride="a">
-                  <Para>
-                     <Text>in exercise of the powers conferred by section 22 of the Petroleum Act 1987<FootnoteRef Ref="f00001"/>; and</Text>
-                  </Para>
-               </ListItem>
-               <ListItem NumberOverride="b">
-                  <Para>
-                     <Text>for the purpose of giving effect to proposals submitted by the Health and Safety Executive under section 24(2A)<FootnoteRef Ref="f00002"/> of that Act.</Text>
-                  </Para>
-               </ListItem>
+               <Para>
+                  <OrderedList Type="alpha" Decoration="parens">
+                     <ListItem NumberOverride="a">
+                        <Para>
+                           <Text>in exercise of the powers conferred by section 22 of the Petroleum Act 1987<FootnoteRef Ref="f00001"/>; and</Text>
+                        </Para>
+                     </ListItem>
+                  </OrderedList>
+               </Para>
+               <Para>
+                  <OrderedList Type="alpha" Decoration="parens">
+                     <ListItem NumberOverride="b">
+                        <Para>
+                           <Text>for the purpose of giving effect to proposals submitted by the Health and Safety Executive under section 24(2A)<FootnoteRef Ref="f00002"/> of that Act.</Text>
+                        </Para>
+                     </ListItem>
+                  </OrderedList>
+               </Para>
             </EnactingText>
          </SecondaryPreamble>
       </SecondaryPrelims>
@@ -387,10 +395,6 @@
                      </tbody>
                   </table>
                </Tabular>
-               <Error>ERROR no template match for element: block : <block xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
-                         xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN"
-                         name="pageBreak"/>
-               </Error>
             </ScheduleBody>
          </Schedule>
       </Schedules>
