@@ -7,7 +7,7 @@
              xmlns:dc="http://purl.org/dc/elements/1.1/">
       <dc:identifier>http://www.legislation.gov.uk/id/uksi/2023/831</dc:identifier>
       <dc:title>The Police Pensions (Remediable Service) Regulations 2023</dc:title>
-      <dc:modified>2023-11-30</dc:modified>
+      <dc:modified>2023-12-18</dc:modified>
       <SecondaryMetadata>
          <DocumentClassification>
             <DocumentCategory Value="secondary"/>
@@ -17,7 +17,7 @@
          </DocumentClassification>
          <Year Value="2023"/>
          <Number Value="831"/>
-         <Made Date="2023-07-19"/>
+         <Made Date="2023-07-19" Time="10:20:00"/>
          <Laid Date="2023-07-19" Time="16:50:00" Class="UnitedKingdomParliament"/>
          <ComingIntoForce>
             <DateTime Date="2023-10-01" Time="00:00:00"/>
@@ -2945,8 +2945,6 @@
                                              </Para>
                                           </ListItem>
                                        </OrderedList>
-                                    </Para>
-                                    <Para>
                                        <Text>so far as the transfer value relates to the member’s remediable rights;</Text>
                                     </Para>
                                  </ListItem>
@@ -2975,8 +2973,6 @@
                                              </Para>
                                           </ListItem>
                                        </OrderedList>
-                                    </Para>
-                                    <Para>
                                        <Text>so far as the transfer value relates to the member’s remediable rights;</Text>
                                     </Para>
                                  </ListItem>

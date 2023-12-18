@@ -7,7 +7,7 @@
              xmlns:dc="http://purl.org/dc/elements/1.1/">
       <dc:identifier>http://www.legislation.gov.uk/id/uksi/2023/1066</dc:identifier>
       <dc:title>The Local Government and Greater London Authority Elections (Miscellaneous Amendments) Regulations 2023</dc:title>
-      <dc:modified>2023-11-30</dc:modified>
+      <dc:modified>2023-12-18</dc:modified>
       <SecondaryMetadata>
          <DocumentClassification>
             <DocumentCategory Value="secondary"/>
@@ -17,7 +17,7 @@
          </DocumentClassification>
          <Year Value="2023"/>
          <Number Value="1066"/>
-         <Made Date="2023-10-05"/>
+         <Made Date="2023-10-05" Time="00:00:00"/>
          <Laid Date="2023-10-09" Time="00:00:00" Class="UnitedKingdomParliament"/>
       </SecondaryMetadata>
    </Metadata>

@@ -7,7 +7,7 @@
              xmlns:dc="http://purl.org/dc/elements/1.1/">
       <dc:identifier>http://www.legislation.gov.uk/id/ukpga/2022/30</dc:identifier>
       <dc:title>Building Safety Act 2022</dc:title>
-      <dc:modified>2023-11-30</dc:modified>
+      <dc:modified>2023-12-18</dc:modified>
       <PrimaryMetadata>
          <DocumentClassification>
             <DocumentCategory Value="primary"/>
@@ -747,7 +747,7 @@
                                           </ListItem>
                                           <ListItem>
                                              <Para>
-                                                <Text>a member of a body within <InternalLink Ref="d24e1881-b">paragraph (b)</InternalLink>.</Text>
+                                                <Text>a member of a body within <InternalLink Ref="d23e1881-b">paragraph (b)</InternalLink>.</Text>
                                              </Para>
                                           </ListItem>
                                        </OrderedList>
@@ -2438,8 +2438,6 @@
                                              </Para>
                                           </ListItem>
                                        </OrderedList>
-                                    </Para>
-                                    <Para>
                                        <Text>and references to a person “in” the industry are to any such person or employee;</Text>
                                     </Para>
                                  </ListItem>
@@ -7729,8 +7727,6 @@
                                                                   </Para>
                                                                </ListItem>
                                                             </OrderedList>
-                                                         </Para>
-                                                         <Para>
                                                             <Text>that is prescribed for the purposes of this section.</Text>
                                                          </Para>
                                                       </ListItem>
@@ -10621,8 +10617,6 @@
                                                          </Para>
                                                       </ListItem>
                                                    </OrderedList>
-                                                </Para>
-                                                <Para>
                                                    <Text>(and “accommodation” here includes temporary accommodation, for example in a hotel or hospital);</Text>
                                                 </Para>
                                              </ListItem>
@@ -16711,8 +16705,6 @@
                                        </Para>
                                     </ListItem>
                                  </OrderedList>
-                              </Para>
-                              <Para>
                                  <Text>and for this purpose “rackrent” has the meaning given by section 126 of the Building Act 1984;</Text>
                               </Para>
                            </ListItem>
@@ -20071,8 +20063,6 @@
                                              </Para>
                                           </ListItem>
                                        </OrderedList>
-                                    </Para>
-                                    <Para>
                                        <Text>with a view to granting, or disposing of, relevant interests in one or more dwellings created as a result of the construction, conversion or carrying out of works;</Text>
                                     </Para>
                                  </ListItem>

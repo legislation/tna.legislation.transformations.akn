@@ -297,7 +297,7 @@
 
 <!-- FragmentNumber and FragmentTitle -->
 
-<xsl:template match="quotedStructure/*[self::part or self::chapter][empty(*[not(self::num or self::heading)])]" priority="1">
+<xsl:template match="quotedStructure/*[self::part or self::chapter or self::hcontainer[@name='crossheading']][empty(*[not(self::num or self::heading)])]" priority="1">
 	<xsl:apply-templates mode="fragment" />
 </xsl:template>
 
@@ -329,6 +329,9 @@
 				<xsl:when test="exists(parent::chapter)">
 					<xsl:text>Chapter</xsl:text>
 				</xsl:when>
+				<xsl:when test="exists(parent::hcontainer[@name='crossheading'])">
+					<xsl:text>Pblock</xsl:text>
+				</xsl:when>
 			</xsl:choose>
 		</xsl:attribute>
 		<Title>
@@ -336,6 +339,5 @@
 		</Title>
 	</FragmentTitle>
 </xsl:template>
-
 
 </xsl:transform>

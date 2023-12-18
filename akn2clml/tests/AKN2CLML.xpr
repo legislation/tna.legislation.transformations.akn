@@ -749,7 +749,7 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>Results/A2C-3-add-data/energy_act_2023.xml</String>
+                                    <String>Results/A2C-3-add-data/</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -769,7 +769,7 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>Results/A2C-3-add-data/criminal_legal_aid_remuneration_amend.xml</String>
+                                    <String>Base-Results/A2C-3-add-data/</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>

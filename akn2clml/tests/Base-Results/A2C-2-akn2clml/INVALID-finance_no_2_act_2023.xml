@@ -7,7 +7,7 @@
              xmlns:dc="http://purl.org/dc/elements/1.1/">
       <dc:identifier>http://www.legislation.gov.uk/id/ukpga/2023/30</dc:identifier>
       <dc:title>Finance (No. 2) Act 2023</dc:title>
-      <dc:modified>2023-11-30</dc:modified>
+      <dc:modified>2023-12-18</dc:modified>
       <PrimaryMetadata>
          <DocumentClassification>
             <DocumentCategory Value="primary"/>
@@ -411,10 +411,11 @@
                                               Context="main"
                                               Format="double">
                                  <Tabular Orientation="portrait">
-                                    <table xmlns="http://www.w3.org/1999/xhtml"
-                                           xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN"
-                                           cols="2"
-                                           ukl:templateColumns="75 25">
+                                    <table xmlns="http://www.w3.org/1999/xhtml">
+                                       <colgroup>
+                                          <col width="75%"/>
+                                          <col width="25%"/>
+                                       </colgroup>
                                        <tbody>
                                           <tr>
                                              <td>
@@ -2256,8 +2257,6 @@
                                              </Formula>
                                              <P3para>
                                                 <Text>where—</Text>
-                                             </P3para>
-                                             <P3para>
                                                 <UnorderedList Class="Definition" Decoration="none">
                                                    <ListItem>
                                                       <Para>
@@ -5600,8 +5599,6 @@
                               </Formula>
                               <P2para>
                                  <Text>where—</Text>
-                              </P2para>
-                              <P2para>
                                  <UnorderedList Class="Definition" Decoration="none">
                                     <ListItem>
                                        <Para>
@@ -15779,8 +15776,6 @@
                                                 </Para>
                                              </ListItem>
                                           </OrderedList>
-                                       </Para>
-                                       <Para>
                                           <Text>
                                              <InternalLink Ref="schedule-15-paragraph-2">Paragraph 2</InternalLink> of <InternalLink Ref="schedule-15">Schedule 15</InternalLink> (annual elections) applies to an election not to include an unclaimed accrual in the total deferred tax adjustment amount.</Text>
                                        </Para>
@@ -16569,8 +16564,6 @@
                                                 </Para>
                                              </ListItem>
                                           </OrderedList>
-                                       </Para>
-                                       <Para>
                                           <Text>and the amount of that qualifying carried forward loss is the amount of the collective loss that remained available.</Text>
                                        </Para>
                                     </ListItem>
@@ -20453,12 +20446,12 @@
                                           <OrderedList Type="alpha" Decoration="parens">
                                              <ListItem>
                                                 <Para>
-                                                   <Text>in relation to a multi-parent group that is a multi-parent group as a result of a stapled structure, the consolidated financial statements referred to in <InternalLink Ref="d24e20838-c">paragraph (c)</InternalLink> of the definition of stapled structure, or</Text>
+                                                   <Text>in relation to a multi-parent group that is a multi-parent group as a result of a stapled structure, the consolidated financial statements referred to in <InternalLink Ref="d23e20838-c">paragraph (c)</InternalLink> of the definition of stapled structure, or</Text>
                                                 </Para>
                                              </ListItem>
                                              <ListItem>
                                                 <Para>
-                                                   <Text>in relation to a multi-parent group that is a multi-parent group as a result of a dual-listed arrangement, the consolidated financial statements referred to in <InternalLink Ref="d24e20872-d">paragraph (d)</InternalLink> of the definition of dual-listed arrangement.</Text>
+                                                   <Text>in relation to a multi-parent group that is a multi-parent group as a result of a dual-listed arrangement, the consolidated financial statements referred to in <InternalLink Ref="d23e20872-d">paragraph (d)</InternalLink> of the definition of dual-listed arrangement.</Text>
                                                 </Para>
                                              </ListItem>
                                           </OrderedList>
@@ -25279,8 +25272,6 @@
                                              </Para>
                                           </ListItem>
                                        </OrderedList>
-                                    </Para>
-                                    <Para>
                                        <Text>that member is the lead member of the group.</Text>
                                     </Para>
                                  </ListItem>
@@ -25326,8 +25317,6 @@
                                              </Para>
                                           </ListItem>
                                        </OrderedList>
-                                    </Para>
-                                    <Para>
                                        <Text>that member is the lead member of the group.</Text>
                                     </Para>
                                  </ListItem>
@@ -28219,10 +28208,11 @@
                      <P1para>
                         <Text>The following table contains a list of terms used in <InternalLink Ref="part-5">this Part</InternalLink> and the provisions that define or explain them.</Text>
                         <Tabular Orientation="portrait">
-                           <table xmlns="http://www.w3.org/1999/xhtml"
-                                  xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN"
-                                  cols="2"
-                                  ukl:templateColumns="54 46">
+                           <table xmlns="http://www.w3.org/1999/xhtml">
+                              <colgroup>
+                                 <col width="54%"/>
+                                 <col width="46%"/>
+                              </colgroup>
                               <thead>
                                  <tr>
                                     <td>
@@ -29393,8 +29383,6 @@
                                              </Para>
                                           </ListItem>
                                        </UnorderedList>
-                                    </P2para>
-                                    <P2para>
                                        <Text>where the percentages are by volume to the nearest 0.001%.</Text>
                                     </P2para>
                                  </P2>
@@ -43621,10 +43609,14 @@
                   <Title>Alcoholic products, other than qualifying draught products, of an alcoholic strength of less than 8.5%</Title>
                   <P>
                      <Tabular Orientation="portrait">
-                        <table xmlns="http://www.w3.org/1999/xhtml"
-                               xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN"
-                               cols="5"
-                               ukl:templateColumns="12 22 22 22 22">
+                        <table xmlns="http://www.w3.org/1999/xhtml">
+                           <colgroup>
+                              <col width="12%"/>
+                              <col width="22%"/>
+                              <col width="22%"/>
+                              <col width="22%"/>
+                              <col width="22%"/>
+                           </colgroup>
                            <thead>
                               <tr>
                                  <td colspan="5" rowspan="1">
@@ -43855,10 +43847,14 @@
                               </tr>
                            </tbody>
                         </table>
-                        <table xmlns="http://www.w3.org/1999/xhtml"
-                               xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN"
-                               cols="5"
-                               ukl:templateColumns="12 22 22 22 22">
+                        <table xmlns="http://www.w3.org/1999/xhtml">
+                           <colgroup>
+                              <col width="12%"/>
+                              <col width="22%"/>
+                              <col width="22%"/>
+                              <col width="22%"/>
+                              <col width="22%"/>
+                           </colgroup>
                            <thead>
                               <tr>
                                  <td colspan="5" rowspan="1">
@@ -44093,10 +44089,14 @@
                   </P>
                   <P>
                      <Tabular Orientation="portrait">
-                        <table xmlns="http://www.w3.org/1999/xhtml"
-                               xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN"
-                               cols="5"
-                               ukl:templateColumns="12 22 22 22 22">
+                        <table xmlns="http://www.w3.org/1999/xhtml">
+                           <colgroup>
+                              <col width="12%"/>
+                              <col width="22%"/>
+                              <col width="22%"/>
+                              <col width="22%"/>
+                              <col width="22%"/>
+                           </colgroup>
                            <thead>
                               <tr>
                                  <td colspan="5" rowspan="1">
@@ -44332,10 +44332,14 @@
                   </P>
                   <P>
                      <Tabular Orientation="portrait">
-                        <table xmlns="http://www.w3.org/1999/xhtml"
-                               xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN"
-                               cols="5"
-                               ukl:templateColumns="12 22 22 22 22">
+                        <table xmlns="http://www.w3.org/1999/xhtml">
+                           <colgroup>
+                              <col width="12%"/>
+                              <col width="22%"/>
+                              <col width="22%"/>
+                              <col width="22%"/>
+                              <col width="22%"/>
+                           </colgroup>
                            <thead>
                               <tr>
                                  <td colspan="5" rowspan="1">
@@ -44570,10 +44574,14 @@
                   </P>
                   <P>
                      <Tabular Orientation="portrait">
-                        <table xmlns="http://www.w3.org/1999/xhtml"
-                               xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN"
-                               cols="5"
-                               ukl:templateColumns="12 22 22 22 22">
+                        <table xmlns="http://www.w3.org/1999/xhtml">
+                           <colgroup>
+                              <col width="12%"/>
+                              <col width="22%"/>
+                              <col width="22%"/>
+                              <col width="22%"/>
+                              <col width="22%"/>
+                           </colgroup>
                            <thead>
                               <tr>
                                  <td colspan="5" rowspan="1">
@@ -44804,10 +44812,14 @@
                               </tr>
                            </tbody>
                         </table>
-                        <table xmlns="http://www.w3.org/1999/xhtml"
-                               xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN"
-                               cols="5"
-                               ukl:templateColumns="12 22 22 22 22">
+                        <table xmlns="http://www.w3.org/1999/xhtml">
+                           <colgroup>
+                              <col width="12%"/>
+                              <col width="22%"/>
+                              <col width="22%"/>
+                              <col width="22%"/>
+                              <col width="22%"/>
+                           </colgroup>
                            <thead>
                               <tr>
                                  <td colspan="5" rowspan="1">
@@ -45046,10 +45058,14 @@
                   <Title>Qualifying draught products of an alcoholic strength of less than 8.5%</Title>
                   <P>
                      <Tabular Orientation="portrait">
-                        <table xmlns="http://www.w3.org/1999/xhtml"
-                               xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN"
-                               cols="5"
-                               ukl:templateColumns="12 22 22 22 22">
+                        <table xmlns="http://www.w3.org/1999/xhtml">
+                           <colgroup>
+                              <col width="12%"/>
+                              <col width="22%"/>
+                              <col width="22%"/>
+                              <col width="22%"/>
+                              <col width="22%"/>
+                           </colgroup>
                            <thead>
                               <tr>
                                  <td colspan="5" rowspan="1">
@@ -45282,10 +45298,14 @@
                               </tr>
                            </tbody>
                         </table>
-                        <table xmlns="http://www.w3.org/1999/xhtml"
-                               xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN"
-                               cols="5"
-                               ukl:templateColumns="12 22 22 22 22">
+                        <table xmlns="http://www.w3.org/1999/xhtml">
+                           <colgroup>
+                              <col width="12%"/>
+                              <col width="22%"/>
+                              <col width="22%"/>
+                              <col width="22%"/>
+                              <col width="22%"/>
+                           </colgroup>
                            <thead>
                               <tr>
                                  <td colspan="5" rowspan="1">
@@ -45522,10 +45542,14 @@
                   </P>
                   <P>
                      <Tabular Orientation="portrait">
-                        <table xmlns="http://www.w3.org/1999/xhtml"
-                               xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN"
-                               cols="5"
-                               ukl:templateColumns="12 22 22 22 22">
+                        <table xmlns="http://www.w3.org/1999/xhtml">
+                           <colgroup>
+                              <col width="12%"/>
+                              <col width="22%"/>
+                              <col width="22%"/>
+                              <col width="22%"/>
+                              <col width="22%"/>
+                           </colgroup>
                            <thead>
                               <tr>
                                  <td colspan="5" rowspan="1">
@@ -45763,10 +45787,14 @@
                   </P>
                   <P>
                      <Tabular Orientation="portrait">
-                        <table xmlns="http://www.w3.org/1999/xhtml"
-                               xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN"
-                               cols="5"
-                               ukl:templateColumns="12 22 22 22 22">
+                        <table xmlns="http://www.w3.org/1999/xhtml">
+                           <colgroup>
+                              <col width="12%"/>
+                              <col width="22%"/>
+                              <col width="22%"/>
+                              <col width="22%"/>
+                              <col width="22%"/>
+                           </colgroup>
                            <thead>
                               <tr>
                                  <td colspan="5" rowspan="1">
@@ -46001,10 +46029,14 @@
                   </P>
                   <P>
                      <Tabular Orientation="portrait">
-                        <table xmlns="http://www.w3.org/1999/xhtml"
-                               xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN"
-                               cols="5"
-                               ukl:templateColumns="12 22 22 22 22">
+                        <table xmlns="http://www.w3.org/1999/xhtml">
+                           <colgroup>
+                              <col width="12%"/>
+                              <col width="22%"/>
+                              <col width="22%"/>
+                              <col width="22%"/>
+                              <col width="22%"/>
+                           </colgroup>
                            <thead>
                               <tr>
                                  <td colspan="5" rowspan="1">
@@ -46237,10 +46269,14 @@
                               </tr>
                            </tbody>
                         </table>
-                        <table xmlns="http://www.w3.org/1999/xhtml"
-                               xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN"
-                               cols="5"
-                               ukl:templateColumns="12 22 22 22 22">
+                        <table xmlns="http://www.w3.org/1999/xhtml">
+                           <colgroup>
+                              <col width="12%"/>
+                              <col width="22%"/>
+                              <col width="22%"/>
+                              <col width="22%"/>
+                              <col width="22%"/>
+                           </colgroup>
                            <thead>
                               <tr>
                                  <td colspan="5" rowspan="1">
@@ -48966,10 +49002,6 @@
                         <Pnumber>31</Pnumber>
                         <P1para>
                            <Text>FA 2009 is amended in accordance with paragraphs 32 and 33.</Text>
-                           <Error>ERROR no template match for element: block : <block xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
-                                     xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN"
-                                     name="pageBreak"/>
-                           </Error>
                         </P1para>
                      </P1>
                      <P1 id="schedule-13-paragraph-32">
@@ -56608,7 +56640,7 @@
                                               TargetSubClass="unknown"
                                               Context="schedule"
                                               Format="double">
-                                 <P2 id="p38488">
+                                 <P2 id="p38487">
                                     <Pnumber>1</Pnumber>
                                     <P2para>
                                        <Text>A filing member must register with HMRC if the filing member or, if the filing member is a member of a group, a member of that group—</Text>
@@ -56629,7 +56661,7 @@
                                  <P2>
                                     <Pnumber>2</Pnumber>
                                     <P2para>
-                                       <Text>For the purposes of sub-paragraph <InternalLink Ref="p38488">(1)</InternalLink>, a qualifying entity becomes a qualifying entity on the first day of the first accounting period it is a qualifying entity (the “trigger day”).</Text>
+                                       <Text>For the purposes of sub-paragraph <InternalLink Ref="p38487">(1)</InternalLink>, a qualifying entity becomes a qualifying entity on the first day of the first accounting period it is a qualifying entity (the “trigger day”).</Text>
                                     </P2para>
                                  </P2>
                               </BlockAmendment>
@@ -57062,8 +57094,8 @@
                                  <P3 id="schedule-19-paragraph-2-4-b">
                                     <Pnumber>b</Pnumber>
                                     <P3para>
-                                       <Text>in paragraph (c), after “20(4)(a)” insert “or the Secretary of State publishes notice of a decision under paragraph <InternalLink Ref="p39161">20A</InternalLink>
-                                          <InternalLink Ref="p39166">(2)</InternalLink>”.</Text>
+                                       <Text>in paragraph (c), after “20(4)(a)” insert “or the Secretary of State publishes notice of a decision under paragraph <InternalLink Ref="p39160">20A</InternalLink>
+                                          <InternalLink Ref="p39165">(2)</InternalLink>”.</Text>
                                     </P3para>
                                  </P3>
                               </P2para>
@@ -57087,22 +57119,22 @@
                                                    <Text>This paragraph applies where the TRA proposes to make a final negative determination.</Text>
                                                 </P2para>
                                              </P2>
-                                             <P2 id="p38825">
+                                             <P2 id="p38824">
                                                 <Pnumber>2</Pnumber>
                                                 <P2para>
                                                    <Text>The TRA must notify the Secretary of State of its proposed determination.</Text>
                                                 </P2para>
                                              </P2>
-                                             <P2 id="p38829">
+                                             <P2 id="p38828">
                                                 <Pnumber>3</Pnumber>
                                                 <P2para>
-                                                   <Text>Where the Secretary of State has been notified in accordance with sub-paragraph <InternalLink Ref="p38825">(2)</InternalLink>, the Secretary of State may, within the relevant period (and subject to sub-paragraph <InternalLink Ref="p38835">(4)</InternalLink>), request that the TRA reassess its proposed determination by reference to any matters specified in the request.</Text>
+                                                   <Text>Where the Secretary of State has been notified in accordance with sub-paragraph <InternalLink Ref="p38824">(2)</InternalLink>, the Secretary of State may, within the relevant period (and subject to sub-paragraph <InternalLink Ref="p38834">(4)</InternalLink>), request that the TRA reassess its proposed determination by reference to any matters specified in the request.</Text>
                                                 </P2para>
                                              </P2>
-                                             <P2 id="p38835">
+                                             <P2 id="p38834">
                                                 <Pnumber>4</Pnumber>
                                                 <P2para>
-                                                   <Text>The Secretary of State may only make a request under sub-paragraph <InternalLink Ref="p38829">(3)</InternalLink> where the Secretary of State considers that—</Text>
+                                                   <Text>The Secretary of State may only make a request under sub-paragraph <InternalLink Ref="p38828">(3)</InternalLink> where the Secretary of State considers that—</Text>
                                                    <P3>
                                                       <Pnumber>a</Pnumber>
                                                       <P3para>
@@ -57126,7 +57158,7 @@
                                              <P2>
                                                 <Pnumber>5</Pnumber>
                                                 <P2para>
-                                                   <Text>The TRA must comply with a request under sub-paragraph <InternalLink Ref="p38829">(3)</InternalLink>.</Text>
+                                                   <Text>The TRA must comply with a request under sub-paragraph <InternalLink Ref="p38828">(3)</InternalLink>.</Text>
                                                 </P2para>
                                              </P2>
                                              <P2>
@@ -57142,7 +57174,7 @@
                                                    <P3>
                                                       <Pnumber>b</Pnumber>
                                                       <P3para>
-                                                         <Text>if the Secretary of State informs the TRA within the relevant period that the Secretary of State will not make a request under sub-paragraph <InternalLink Ref="p38829">(3)</InternalLink>, the time when the TRA receives that information.</Text>
+                                                         <Text>if the Secretary of State informs the TRA within the relevant period that the Secretary of State will not make a request under sub-paragraph <InternalLink Ref="p38828">(3)</InternalLink>, the time when the TRA receives that information.</Text>
                                                       </P3para>
                                                    </P3>
                                                 </P2para>
@@ -57219,10 +57251,10 @@
                                           <P2>
                                              <Pnumber>3A</Pnumber>
                                              <P2para>
-                                                <Text>Sub-paragraph <InternalLink Ref="p38918">(3B)</InternalLink> applies if the recommendation is rejected.</Text>
+                                                <Text>Sub-paragraph <InternalLink Ref="p38917">(3B)</InternalLink> applies if the recommendation is rejected.</Text>
                                              </P2para>
                                           </P2>
-                                          <P2 id="p38918">
+                                          <P2 id="p38917">
                                              <Pnumber>3B</Pnumber>
                                              <P2para>
                                                 <Text>If the Secretary of State considers that it is in the public interest to do so, the Secretary of State may decide that importers of relevant goods should be required to give a guarantee other than in accordance with the recommendation.</Text>
@@ -57231,13 +57263,13 @@
                                           <P2>
                                              <Pnumber>3C</Pnumber>
                                              <P2para>
-                                                <Text>But the Secretary of State may make a decision under sub-paragraph <InternalLink Ref="p38918">(3B)</InternalLink> only if a recommendation under paragraph 13(3) to the same effect as the decision (ignoring any restrictions in paragraph 13 on the ability of the TRA to make such a recommendation) would have complied with the requirements set out in paragraph 14.</Text>
+                                                <Text>But the Secretary of State may make a decision under sub-paragraph <InternalLink Ref="p38917">(3B)</InternalLink> only if a recommendation under paragraph 13(3) to the same effect as the decision (ignoring any restrictions in paragraph 13 on the ability of the TRA to make such a recommendation) would have complied with the requirements set out in paragraph 14.</Text>
                                              </P2para>
                                           </P2>
                                           <P2>
                                              <Pnumber>3D</Pnumber>
                                              <P2para>
-                                                <Text>Where the Secretary of State makes a decision under sub-paragraph <InternalLink Ref="p38918">(3B)</InternalLink>, the Secretary of State—</Text>
+                                                <Text>Where the Secretary of State makes a decision under sub-paragraph <InternalLink Ref="p38917">(3B)</InternalLink>, the Secretary of State—</Text>
                                                 <P3>
                                                    <Pnumber>a</Pnumber>
                                                    <P3para>
@@ -57271,7 +57303,7 @@
                                  <P3 id="schedule-19-paragraph-3-2-c">
                                     <Pnumber>c</Pnumber>
                                     <P3para>
-                                       <Text>in sub-paragraph (4), after “rejected” insert “and the Secretary of State does not make a decision under sub-paragraph <InternalLink Ref="p38918">(3B)</InternalLink>“.</Text>
+                                       <Text>in sub-paragraph (4), after “rejected” insert “and the Secretary of State does not make a decision under sub-paragraph <InternalLink Ref="p38917">(3B)</InternalLink>“.</Text>
                                     </P3para>
                                  </P3>
                               </P2para>
@@ -57338,7 +57370,7 @@
                                                 <Text>Where the TRA considers that there are two or more options which it could recommend under sub-paragraph (3) or (4), as the case may be, in relation to relevant goods or descriptions of relevant goods, it may give the Secretary of State each of those options as part of its recommendation.</Text>
                                              </P2para>
                                           </P2>
-                                          <P2 id="p38996">
+                                          <P2 id="p38995">
                                              <Pnumber>8B</Pnumber>
                                              <P2para>
                                                 <Text>The Secretary of State may by regulations make provision requiring the TRA, in specified circumstances, to consider whether it could give the Secretary of State two or more options as part of its recommendation under sub-paragraph (3) or (4) in relation to relevant goods or descriptions of relevant goods.</Text>
@@ -57347,7 +57379,7 @@
                                           <P2>
                                              <Pnumber>8C</Pnumber>
                                              <P2para>
-                                                <Text>Where, after considering whether it could give the Secretary of State two or more options as part of its recommendation in accordance with regulations under sub-paragraph <InternalLink Ref="p38996">(8B)</InternalLink>, the TRA considers that there is only one option which it could recommend under sub-paragraph (3) or (4), as the case maybe, in relation to relevant goods or descriptions of relevant goods, it must give the Secretary of State its reasons for reaching that conclusion.</Text>
+                                                <Text>Where, after considering whether it could give the Secretary of State two or more options as part of its recommendation in accordance with regulations under sub-paragraph <InternalLink Ref="p38995">(8B)</InternalLink>, the TRA considers that there is only one option which it could recommend under sub-paragraph (3) or (4), as the case maybe, in relation to relevant goods or descriptions of relevant goods, it must give the Secretary of State its reasons for reaching that conclusion.</Text>
                                              </P2para>
                                           </P2>
                                           <P2>
@@ -57508,8 +57540,8 @@
                                  <P3 id="schedule-19-paragraph-4-5-d">
                                     <Pnumber>d</Pnumber>
                                     <P3para>
-                                       <Text>in sub-paragraph (4), after “rejected” insert “and the Secretary of State does not make a decision under paragraph <InternalLink Ref="p39161">20A</InternalLink>
-                                          <InternalLink Ref="p39166">(2)</InternalLink>”;</Text>
+                                       <Text>in sub-paragraph (4), after “rejected” insert “and the Secretary of State does not make a decision under paragraph <InternalLink Ref="p39160">20A</InternalLink>
+                                          <InternalLink Ref="p39165">(2)</InternalLink>”;</Text>
                                     </P3para>
                                  </P3>
                                  <P3 id="schedule-19-paragraph-4-5-e">
@@ -57590,7 +57622,7 @@
                                                  Format="double">
                                     <Pblock>
                                        <Title>Secretary of State’s power to apply an alternative remedy</Title>
-                                       <P1 id="p39161">
+                                       <P1 id="p39160">
                                           <Pnumber>20A</Pnumber>
                                           <P1para>
                                              <P2>
@@ -57599,7 +57631,7 @@
                                                    <Text>This paragraph applies where the Secretary of State rejects a recommendation under paragraph 20.</Text>
                                                 </P2para>
                                              </P2>
-                                             <P2 id="p39166">
+                                             <P2 id="p39165">
                                                 <Pnumber>2</Pnumber>
                                                 <P2para>
                                                    <Text>If the Secretary of State considers that it is in the public interest to do so, the Secretary of State may decide to apply an anti-dumping amount or a countervailing amount in relation to relevant goods or descriptions of relevant goods to which the TRA’s recommendation related, other than in accordance with the recommendation.</Text>
@@ -57971,10 +58003,10 @@
                                            Format="double">
                               <Pblock>
                                  <Title>Revocation in the public interest</Title>
-                                 <P1 id="p39405">
+                                 <P1 id="p39404">
                                     <Pnumber>22A</Pnumber>
                                     <P1para>
-                                       <P2 id="p39406">
+                                       <P2 id="p39405">
                                           <Pnumber>1</Pnumber>
                                           <P2para>
                                              <Text>The Secretary of State may decide to revoke the application of an anti-dumping amount or a countervailing amount to goods in the absence of a recommendation from the TRA where the Secretary of State considers that it is in the public interest to do so.</Text>
@@ -57983,7 +58015,7 @@
                                        <P2>
                                           <Pnumber>2</Pnumber>
                                           <P2para>
-                                             <Text>Before making a decision under sub-paragraph <InternalLink Ref="p39406">(1)</InternalLink> the Secretary of State must consult such persons as the Secretary of State considers appropriate.</Text>
+                                             <Text>Before making a decision under sub-paragraph <InternalLink Ref="p39405">(1)</InternalLink> the Secretary of State must consult such persons as the Secretary of State considers appropriate.</Text>
                                           </P2para>
                                        </P2>
                                        <P2>
@@ -58039,28 +58071,28 @@
                                  <P1>
                                     <Pnumber>22B</Pnumber>
                                     <P1para>
-                                       <P2 id="p39449">
+                                       <P2 id="p39448">
                                           <Pnumber>1</Pnumber>
                                           <P2para>
                                              <Text>The Secretary of State may request that the TRA give advice, information or other support to the Secretary of State for the purpose of allowing the Secretary of State to decide whether to make a decision under any of the following—</Text>
                                              <P3>
                                                 <Pnumber>a</Pnumber>
                                                 <P3para>
-                                                   <Text>paragraph 15<InternalLink Ref="p38918">(3B)</InternalLink> (decision to require a guarantee other than in accordance with a recommendation);</Text>
+                                                   <Text>paragraph 15<InternalLink Ref="p38917">(3B)</InternalLink> (decision to require a guarantee other than in accordance with a recommendation);</Text>
                                                 </P3para>
                                              </P3>
                                              <P3>
                                                 <Pnumber>b</Pnumber>
                                                 <P3para>
-                                                   <Text>paragraph <InternalLink Ref="p39161">20A</InternalLink>
-                                                      <InternalLink Ref="p39166">(2)</InternalLink> (decision to apply a final remedy other than in accordance with a recommendation);</Text>
+                                                   <Text>paragraph <InternalLink Ref="p39160">20A</InternalLink>
+                                                      <InternalLink Ref="p39165">(2)</InternalLink> (decision to apply a final remedy other than in accordance with a recommendation);</Text>
                                                 </P3para>
                                              </P3>
                                              <P3>
                                                 <Pnumber>c</Pnumber>
                                                 <P3para>
-                                                   <Text>paragraph <InternalLink Ref="p39405">22A</InternalLink>
-                                                      <InternalLink Ref="p39406">(1)</InternalLink> (decision to revoke a final remedy in the absence of a recommendation).</Text>
+                                                   <Text>paragraph <InternalLink Ref="p39404">22A</InternalLink>
+                                                      <InternalLink Ref="p39405">(1)</InternalLink> (decision to revoke a final remedy in the absence of a recommendation).</Text>
                                                 </P3para>
                                              </P3>
                                           </P2para>
@@ -58068,19 +58100,19 @@
                                        <P2>
                                           <Pnumber>2</Pnumber>
                                           <P2para>
-                                             <Text>The Secretary of State may include in a request under sub-paragraph <InternalLink Ref="p39449">(1)</InternalLink> a requirement that the TRA investigate and provide a report on any matter specified in the request.</Text>
+                                             <Text>The Secretary of State may include in a request under sub-paragraph <InternalLink Ref="p39448">(1)</InternalLink> a requirement that the TRA investigate and provide a report on any matter specified in the request.</Text>
                                           </P2para>
                                        </P2>
                                        <P2>
                                           <Pnumber>3</Pnumber>
                                           <P2para>
-                                             <Text>Before making a request under sub-paragraph <InternalLink Ref="p39449">(1)</InternalLink>, the Secretary of State must consult the TRA.</Text>
+                                             <Text>Before making a request under sub-paragraph <InternalLink Ref="p39448">(1)</InternalLink>, the Secretary of State must consult the TRA.</Text>
                                           </P2para>
                                        </P2>
                                        <P2>
                                           <Pnumber>4</Pnumber>
                                           <P2para>
-                                             <Text>The TRA must comply with a request under sub-paragraph <InternalLink Ref="p39449">(1)</InternalLink>.</Text>
+                                             <Text>The TRA must comply with a request under sub-paragraph <InternalLink Ref="p39448">(1)</InternalLink>.</Text>
                                           </P2para>
                                        </P2>
                                     </P1para>
@@ -58236,16 +58268,16 @@
                                                    <Text>The TRA must notify the Secretary of State of its proposed determination.</Text>
                                                 </P2para>
                                              </P2>
-                                             <P2 id="p39581">
+                                             <P2 id="p39580">
                                                 <Pnumber>3</Pnumber>
                                                 <P2para>
-                                                   <Text>Where the Secretary of State has been notified in accordance with sub-paragraph (2), the Secretary of State may, within the relevant period (and subject to sub-paragraph <InternalLink Ref="p39586">(4)</InternalLink>), request that the TRA reassess its proposed determination by reference to any matters specified in the request.</Text>
+                                                   <Text>Where the Secretary of State has been notified in accordance with sub-paragraph (2), the Secretary of State may, within the relevant period (and subject to sub-paragraph <InternalLink Ref="p39585">(4)</InternalLink>), request that the TRA reassess its proposed determination by reference to any matters specified in the request.</Text>
                                                 </P2para>
                                              </P2>
-                                             <P2 id="p39586">
+                                             <P2 id="p39585">
                                                 <Pnumber>4</Pnumber>
                                                 <P2para>
-                                                   <Text>The Secretary of State may only make a request under sub-paragraph <InternalLink Ref="p39581">(3)</InternalLink> where the Secretary of State considers that—</Text>
+                                                   <Text>The Secretary of State may only make a request under sub-paragraph <InternalLink Ref="p39580">(3)</InternalLink> where the Secretary of State considers that—</Text>
                                                    <P3>
                                                       <Pnumber>a</Pnumber>
                                                       <P3para>
@@ -58269,7 +58301,7 @@
                                              <P2>
                                                 <Pnumber>5</Pnumber>
                                                 <P2para>
-                                                   <Text>The TRA must comply with a request under sub-paragraph <InternalLink Ref="p39581">(3)</InternalLink>.</Text>
+                                                   <Text>The TRA must comply with a request under sub-paragraph <InternalLink Ref="p39580">(3)</InternalLink>.</Text>
                                                 </P2para>
                                              </P2>
                                              <P2>
@@ -58285,7 +58317,7 @@
                                                    <P3>
                                                       <Pnumber>b</Pnumber>
                                                       <P3para>
-                                                         <Text>if the Secretary of State informs the TRA within the relevant period that the Secretary of State will not make a request under <InternalLink Ref="p39581">sub-paragraph (3)</InternalLink>, the time when the TRA receives that information.</Text>
+                                                         <Text>if the Secretary of State informs the TRA within the relevant period that the Secretary of State will not make a request under <InternalLink Ref="p39580">sub-paragraph (3)</InternalLink>, the time when the TRA receives that information.</Text>
                                                       </P3para>
                                                    </P3>
                                                 </P2para>
@@ -58565,7 +58597,7 @@
                                                 <Text>Where the TRA considers that there are two or more options which it could recommend under sub-paragraph (3)(a) or (b), in relation to relevant goods or descriptions of relevant goods, it may give the Secretary of State each of those options as part of its recommendation.</Text>
                                              </P2para>
                                           </P2>
-                                          <P2 id="p39798">
+                                          <P2 id="p39797">
                                              <Pnumber>10B</Pnumber>
                                              <P2para>
                                                 <Text>The Secretary of State may by regulations make provision requiring the TRA, in specified circumstances, to consider whether it could give the Secretary of State two or more options as part of its recommendation under sub-paragraph (3)(a) or (b) in relation to relevant goods or descriptions of relevant goods.</Text>
@@ -58574,7 +58606,7 @@
                                           <P2>
                                              <Pnumber>10C</Pnumber>
                                              <P2para>
-                                                <Text>Where, after considering whether it could give the Secretary of State two or more options as part of its recommendation in accordance with regulations under sub-paragraph <InternalLink Ref="p39798">(10B)</InternalLink>, the TRA considers that there is only one option which it could reasonably recommend under sub-paragraph (3)(a) or (b) in relation to relevant goods or descriptions of relevant goods, it must give the Secretary of State its reasons for reaching that conclusion.</Text>
+                                                <Text>Where, after considering whether it could give the Secretary of State two or more options as part of its recommendation in accordance with regulations under sub-paragraph <InternalLink Ref="p39797">(10B)</InternalLink>, the TRA considers that there is only one option which it could reasonably recommend under sub-paragraph (3)(a) or (b) in relation to relevant goods or descriptions of relevant goods, it must give the Secretary of State its reasons for reaching that conclusion.</Text>
                                              </P2para>
                                           </P2>
                                           <P2>
@@ -58749,10 +58781,10 @@
                                           <P2>
                                              <Pnumber>2B</Pnumber>
                                              <P2para>
-                                                <Text>Sub-paragraph <InternalLink Ref="p39921">(2C)</InternalLink> applies if the recommendation is rejected.</Text>
+                                                <Text>Sub-paragraph <InternalLink Ref="p39920">(2C)</InternalLink> applies if the recommendation is rejected.</Text>
                                              </P2para>
                                           </P2>
-                                          <P2 id="p39921">
+                                          <P2 id="p39920">
                                              <Pnumber>2C</Pnumber>
                                              <P2para>
                                                 <Text>If the Secretary of State considers that it is in the public interest to do so, the Secretary of State may decide that—</Text>
@@ -58773,13 +58805,13 @@
                                           <P2>
                                              <Pnumber>2D</Pnumber>
                                              <P2para>
-                                                <Text>But the Secretary of State may make a decision under sub-paragraph <InternalLink Ref="p39921">(2C)</InternalLink> only if a recommendation under paragraph 16 to the same effect as the decision (ignoring any restrictions in paragraph 16 on the ability of the TRA to make such a recommendation) would have complied with the requirements set out in paragraph 17 or 18, as the case may be.</Text>
+                                                <Text>But the Secretary of State may make a decision under sub-paragraph <InternalLink Ref="p39920">(2C)</InternalLink> only if a recommendation under paragraph 16 to the same effect as the decision (ignoring any restrictions in paragraph 16 on the ability of the TRA to make such a recommendation) would have complied with the requirements set out in paragraph 17 or 18, as the case may be.</Text>
                                              </P2para>
                                           </P2>
                                           <P2>
                                              <Pnumber>2E</Pnumber>
                                              <P2para>
-                                                <Text>Where the Secretary of State makes a decision under sub-paragraph <InternalLink Ref="p39921">(2C)</InternalLink>, the Secretary of State—</Text>
+                                                <Text>Where the Secretary of State makes a decision under sub-paragraph <InternalLink Ref="p39920">(2C)</InternalLink>, the Secretary of State—</Text>
                                                 <P3>
                                                    <Pnumber>a</Pnumber>
                                                    <P3para>
@@ -58813,7 +58845,7 @@
                                  <P3 id="schedule-19-paragraph-11-5-e">
                                     <Pnumber>e</Pnumber>
                                     <P3para>
-                                       <Text>in sub-paragraph (3), after “rejected” insert “and the Secretary of State does not make a decision under sub-paragraph <InternalLink Ref="p39921">(2C)</InternalLink>”;</Text>
+                                       <Text>in sub-paragraph (3), after “rejected” insert “and the Secretary of State does not make a decision under sub-paragraph <InternalLink Ref="p39920">(2C)</InternalLink>”;</Text>
                                     </P3para>
                                  </P3>
                                  <P3 id="schedule-19-paragraph-11-5-f">
@@ -58965,10 +58997,10 @@
                                           <P2>
                                              <Pnumber>2B</Pnumber>
                                              <P2para>
-                                                <Text>Sub-paragraph <InternalLink Ref="p40065">(2C)</InternalLink> applies if the recommendation is rejected.</Text>
+                                                <Text>Sub-paragraph <InternalLink Ref="p40064">(2C)</InternalLink> applies if the recommendation is rejected.</Text>
                                              </P2para>
                                           </P2>
-                                          <P2 id="p40065">
+                                          <P2 id="p40064">
                                              <Pnumber>2C</Pnumber>
                                              <P2para>
                                                 <Text>If the Secretary of State considers that it is in the public interest to do so, the Secretary of State may decide that—</Text>
@@ -58989,13 +59021,13 @@
                                           <P2>
                                              <Pnumber>2D</Pnumber>
                                              <P2para>
-                                                <Text>But the Secretary of State may make a decision under sub-paragraph <InternalLink Ref="p40065">(2C)</InternalLink> only if a recommendation under paragraph 16 to the same effect as the decision (ignoring any restrictions in paragraph 16 on the ability of the TRA to make such a recommendation) would have complied with the requirements set out in paragraph 17 or 18, as the case may be.</Text>
+                                                <Text>But the Secretary of State may make a decision under sub-paragraph <InternalLink Ref="p40064">(2C)</InternalLink> only if a recommendation under paragraph 16 to the same effect as the decision (ignoring any restrictions in paragraph 16 on the ability of the TRA to make such a recommendation) would have complied with the requirements set out in paragraph 17 or 18, as the case may be.</Text>
                                              </P2para>
                                           </P2>
                                           <P2>
                                              <Pnumber>2E</Pnumber>
                                              <P2para>
-                                                <Text>Where the Secretary of State makes a decision under sub-paragraph <InternalLink Ref="p40065">(2C)</InternalLink>, the Secretary of State—</Text>
+                                                <Text>Where the Secretary of State makes a decision under sub-paragraph <InternalLink Ref="p40064">(2C)</InternalLink>, the Secretary of State—</Text>
                                                 <P3>
                                                    <Pnumber>a</Pnumber>
                                                    <P3para>
@@ -59029,7 +59061,7 @@
                                  <P3 id="schedule-19-paragraph-11-7-e">
                                     <Pnumber>e</Pnumber>
                                     <P3para>
-                                       <Text>in sub-paragraph (3), after “rejected” insert “ and the Secretary of State does not make a decision under sub-paragraph <InternalLink Ref="p40065">(2C)</InternalLink>”;</Text>
+                                       <Text>in sub-paragraph (3), after “rejected” insert “ and the Secretary of State does not make a decision under sub-paragraph <InternalLink Ref="p40064">(2C)</InternalLink>”;</Text>
                                     </P3para>
                                  </P3>
                                  <P3 id="schedule-19-paragraph-11-7-f">
@@ -59372,7 +59404,7 @@
                                  <P1>
                                     <Pnumber>22A</Pnumber>
                                     <P1para>
-                                       <P2 id="p40328">
+                                       <P2 id="p40327">
                                           <Pnumber>1</Pnumber>
                                           <P2para>
                                              <Text>The Secretary of State may decide that the application of a definitive safeguarding amount to goods, or a tariff rate quota to which goods are subject, is to be revoked in the absence of a recommendation from the TRA where the Secretary of State considers that revocation is in the public interest.</Text>
@@ -59381,7 +59413,7 @@
                                        <P2>
                                           <Pnumber>2</Pnumber>
                                           <P2para>
-                                             <Text>Before making a decision under sub-paragraph <InternalLink Ref="p40328">(1)</InternalLink> the Secretary of State must consult such persons as the Secretary of State considers appropriate.</Text>
+                                             <Text>Before making a decision under sub-paragraph <InternalLink Ref="p40327">(1)</InternalLink> the Secretary of State must consult such persons as the Secretary of State considers appropriate.</Text>
                                           </P2para>
                                        </P2>
                                        <P2>
@@ -59437,7 +59469,7 @@
                                  <P1>
                                     <Pnumber>22B</Pnumber>
                                     <P1para>
-                                       <P2 id="p40371">
+                                       <P2 id="p40370">
                                           <Pnumber>1</Pnumber>
                                           <P2para>
                                              <Text>The Secretary of State may request that the TRA give advice, information or other support to the Secretary of State for the purpose of allowing the Secretary of State to decide whether to make a decision under any of the following—</Text>
@@ -59464,19 +59496,19 @@
                                        <P2>
                                           <Pnumber>2</Pnumber>
                                           <P2para>
-                                             <Text>The Secretary of State may include in a request under sub-paragraph <InternalLink Ref="p40371">(1)</InternalLink> a requirement that the TRA investigate and provide a report on any matter specified in the request.</Text>
+                                             <Text>The Secretary of State may include in a request under sub-paragraph <InternalLink Ref="p40370">(1)</InternalLink> a requirement that the TRA investigate and provide a report on any matter specified in the request.</Text>
                                           </P2para>
                                        </P2>
                                        <P2>
                                           <Pnumber>3</Pnumber>
                                           <P2para>
-                                             <Text>Before making a request under sub-paragraph <InternalLink Ref="p40371">(1)</InternalLink>, the Secretary of State must consult the TRA.</Text>
+                                             <Text>Before making a request under sub-paragraph <InternalLink Ref="p40370">(1)</InternalLink>, the Secretary of State must consult the TRA.</Text>
                                           </P2para>
                                        </P2>
                                        <P2>
                                           <Pnumber>4</Pnumber>
                                           <P2para>
-                                             <Text>The TRA must comply with a request under sub-paragraph <InternalLink Ref="p40371">(1)</InternalLink>.</Text>
+                                             <Text>The TRA must comply with a request under sub-paragraph <InternalLink Ref="p40370">(1)</InternalLink>.</Text>
                                           </P2para>
                                        </P2>
                                     </P1para>
@@ -59713,16 +59745,16 @@
                                     <P1>
                                        <Pnumber>1</Pnumber>
                                        <P1para>
-                                          <P2 id="p40551">
+                                          <P2 id="p40550">
                                              <Pnumber>1</Pnumber>
                                              <P2para>
                                                 <Text>Schedule 5 (increase in imports causing serious injury to UK producers) applies in relation to a relevant increase in imports subject to the following paragraphs of this Schedule.</Text>
                                              </P2para>
                                           </P2>
-                                          <P2 id="p40555">
+                                          <P2 id="p40554">
                                              <Pnumber>2</Pnumber>
                                              <P2para>
-                                                <Text>For the purposes of <InternalLink Ref="p40551">sub-paragraph (1)</InternalLink> a “relevant increase in imports” occurs where—</Text>
+                                                <Text>For the purposes of <InternalLink Ref="p40550">sub-paragraph (1)</InternalLink> a “relevant increase in imports” occurs where—</Text>
                                                 <P3>
                                                    <Pnumber>a</Pnumber>
                                                    <P3para>
@@ -59735,7 +59767,7 @@
                                                       <Text>the importation of the goods in increased quantities was or is, or may have been or may be being, caused by the reduction or elimination of import duty as a result of a free trade agreement, and</Text>
                                                    </P3para>
                                                 </P3>
-                                                <P3 id="p40567">
+                                                <P3 id="p40566">
                                                    <Pnumber>c</Pnumber>
                                                    <P3para>
                                                       <Text>the importation of the goods in increased quantities has caused or is causing, or may have caused or may be causing, serious injury to UK producers of those goods.</Text>
@@ -59746,8 +59778,8 @@
                                           <P2>
                                              <Pnumber>3</Pnumber>
                                              <P2para>
-                                                <Text>In <InternalLink Ref="p40555">sub-paragraph (2)</InternalLink>
-                                                   <InternalLink Ref="p40567">(c)</InternalLink> “serious injury” and “UK producers” have the meaning that they have for the purposes of Schedule 5 (see paragraphs 2 and 3 of that Schedule).</Text>
+                                                <Text>In <InternalLink Ref="p40554">sub-paragraph (2)</InternalLink>
+                                                   <InternalLink Ref="p40566">(c)</InternalLink> “serious injury” and “UK producers” have the meaning that they have for the purposes of Schedule 5 (see paragraphs 2 and 3 of that Schedule).</Text>
                                              </P2para>
                                           </P2>
                                        </P1para>
@@ -59773,7 +59805,7 @@
                                  </P1group>
                                  <P1group>
                                     <Title>Bilateral safeguarding investigation</Title>
-                                    <P1 id="p40593">
+                                    <P1 id="p40592">
                                        <Pnumber>4</Pnumber>
                                        <P1para>
                                           <Text>Paragraph 6 of Schedule 5 (safeguarding investigation) is to be read as if, in sub-paragraph (1)—</Text>
@@ -59783,7 +59815,7 @@
                                                 <Text>the “and” at the end of paragraph (a) were omitted;</Text>
                                              </P3para>
                                           </P3>
-                                          <P3 id="p40600">
+                                          <P3 id="p40599">
                                              <Pnumber>b</Pnumber>
                                              <P3para>
                                                 <Text>after that paragraph there were inserted—</Text>
@@ -60048,7 +60080,7 @@
                                                                 TargetSubClass="unknown"
                                                                 Context="schedule"
                                                                 Format="double">
-                                                   <P2 id="p40768">
+                                                   <P2 id="p40767">
                                                       <Pnumber>7</Pnumber>
                                                       <P2para>
                                                          <Text>Where the TRA makes a final negative determination or final negative determinations under sub-paragraph (4)—</Text>
@@ -60070,7 +60102,7 @@
                                                                <Text>the Secretary of State may produce and publish a report or update in relation to the investigation;</Text>
                                                             </P3para>
                                                          </P3>
-                                                         <P3 id="p40783">
+                                                         <P3 id="p40782">
                                                             <Pnumber>d</Pnumber>
                                                             <P3para>
                                                                <Text>the Secretary of State may request that the TRA produces a report or update in relation to the investigation.</Text>
@@ -60081,8 +60113,8 @@
                                                    <P2>
                                                       <Pnumber>8</Pnumber>
                                                       <P2para>
-                                                         <Text>Where the Secretary of State makes a request under <InternalLink Ref="p40768">sub-paragraph (7)</InternalLink>
-                                                            <InternalLink Ref="p40783">(d)</InternalLink>—</Text>
+                                                         <Text>Where the Secretary of State makes a request under <InternalLink Ref="p40767">sub-paragraph (7)</InternalLink>
+                                                            <InternalLink Ref="p40782">(d)</InternalLink>—</Text>
                                                          <P3>
                                                             <Pnumber>a</Pnumber>
                                                             <P3para>
@@ -60119,8 +60151,8 @@
                                           <P3>
                                              <Pnumber>b</Pnumber>
                                              <P3para>
-                                                <Text>in paragraph (b), for the words from “notice of that determination” to the end there were substituted “the TRA notifies the Secretary of State of its final affirmative determination in relation to the goods under paragraph 16<InternalLink Ref="p40927">(11)</InternalLink>
-                                                   <InternalLink Ref="p40930">(a)</InternalLink>”;</Text>
+                                                <Text>in paragraph (b), for the words from “notice of that determination” to the end there were substituted “the TRA notifies the Secretary of State of its final affirmative determination in relation to the goods under paragraph 16<InternalLink Ref="p40926">(11)</InternalLink>
+                                                   <InternalLink Ref="p40929">(a)</InternalLink>”;</Text>
                                              </P3para>
                                           </P3>
                                           <P3>
@@ -60134,14 +60166,14 @@
                                  </P1group>
                                  <P1group>
                                     <Title>TRA’s duty to recommend provisional measures</Title>
-                                    <P1 id="p40831">
+                                    <P1 id="p40830">
                                        <Pnumber>8</Pnumber>
                                        <P1para>
-                                          <P2 id="p40832">
+                                          <P2 id="p40831">
                                              <Pnumber>1</Pnumber>
                                              <P2para>
                                                 <Text>Paragraph 11 of Schedule 5 (TRA’s duty to recommend a provisional safeguarding amount or provisional tariff rate quota) is to be read as if—</Text>
-                                                <P3 id="p40835">
+                                                <P3 id="p40834">
                                                    <Pnumber>a</Pnumber>
                                                    <P3para>
                                                       <Text>in sub-paragraph (3), after paragraph (a) there were inserted—</Text>
@@ -60194,8 +60226,8 @@
                                           <P2>
                                              <Pnumber>2</Pnumber>
                                              <P2para>
-                                                <Text>In consequence of the modification made by <InternalLink Ref="p40832">sub-paragraph (1)</InternalLink>
-                                                   <InternalLink Ref="p40835">(a)</InternalLink>—</Text>
+                                                <Text>In consequence of the modification made by <InternalLink Ref="p40831">sub-paragraph (1)</InternalLink>
+                                                   <InternalLink Ref="p40834">(a)</InternalLink>—</Text>
                                                 <P3>
                                                    <Pnumber>a</Pnumber>
                                                    <P3para>
@@ -60254,14 +60286,14 @@
                                  </P1group>
                                  <P1group>
                                     <Title>TRA’s duty to recommend a definitive measure</Title>
-                                    <P1 id="p40907">
+                                    <P1 id="p40906">
                                        <Pnumber>11</Pnumber>
                                        <P1para>
-                                          <P2 id="p40908">
+                                          <P2 id="p40907">
                                              <Pnumber>1</Pnumber>
                                              <P2para>
                                                 <Text>Paragraph 16 of Schedule 5 (TRA’s duty to recommend a definitive safeguarding amount or tariff rate quota) is to be read as if—</Text>
-                                                <P3 id="p40911">
+                                                <P3 id="p40910">
                                                    <Pnumber>a</Pnumber>
                                                    <P3para>
                                                       <Text>in sub-paragraph (3), after paragraph (a) there were inserted—</Text>
@@ -60279,7 +60311,7 @@
                                                       <AppendText/>
                                                    </P3para>
                                                 </P3>
-                                                <P3 id="p40922">
+                                                <P3 id="p40921">
                                                    <Pnumber>b</Pnumber>
                                                    <P3para>
                                                       <Text>sub-paragraphs (5), (6) and (7) were omitted;</Text>
@@ -60293,11 +60325,11 @@
                                                                       TargetSubClass="unknown"
                                                                       Context="schedule"
                                                                       Format="double">
-                                                         <P2 id="p40927">
+                                                         <P2 id="p40926">
                                                             <Pnumber>11</Pnumber>
                                                             <P2para>
                                                                <Text>If the TRA determines that there is no recommendation which it could make under sub-paragraph (3)—</Text>
-                                                               <P3 id="p40930">
+                                                               <P3 id="p40929">
                                                                   <Pnumber>a</Pnumber>
                                                                   <P3para>
                                                                      <Text>the TRA must notify the Secretary of State of its final affirmative determination in relation to the goods,</Text>
@@ -60320,8 +60352,8 @@
                                           <P2>
                                              <Pnumber>2</Pnumber>
                                              <P2para>
-                                                <Text>In consequence of the modification made by <InternalLink Ref="p40908">sub-paragraph (1)</InternalLink>
-                                                   <InternalLink Ref="p40911">(a)</InternalLink>—</Text>
+                                                <Text>In consequence of the modification made by <InternalLink Ref="p40907">sub-paragraph (1)</InternalLink>
+                                                   <InternalLink Ref="p40910">(a)</InternalLink>—</Text>
                                                 <P3>
                                                    <Pnumber>a</Pnumber>
                                                    <P3para>
@@ -60339,8 +60371,8 @@
                                           <P2>
                                              <Pnumber>3</Pnumber>
                                              <P2para>
-                                                <Text>In consequence of the modification made by <InternalLink Ref="p40908">sub-paragraph (1)</InternalLink>
-                                                   <InternalLink Ref="p40922">(b)</InternalLink>, paragraph 21 of Schedule 5 (reviews) is to be read as if, in sub-paragraph (3), paragraph (d) were omitted.</Text>
+                                                <Text>In consequence of the modification made by <InternalLink Ref="p40907">sub-paragraph (1)</InternalLink>
+                                                   <InternalLink Ref="p40921">(b)</InternalLink>, paragraph 21 of Schedule 5 (reviews) is to be read as if, in sub-paragraph (3), paragraph (d) were omitted.</Text>
                                              </P2para>
                                           </P2>
                                        </P1para>
@@ -60619,7 +60651,7 @@
                                                 </P3>
                                              </P2para>
                                           </P2>
-                                          <P2 id="p41141">
+                                          <P2 id="p41140">
                                              <Pnumber>2</Pnumber>
                                              <P2para>
                                                 <Text>The Secretary of State may—</Text>
@@ -60629,7 +60661,7 @@
                                                       <Text>produce and publish a report or update in relation to the bilateral safeguarding investigation concerned;</Text>
                                                    </P3para>
                                                 </P3>
-                                                <P3 id="p41148">
+                                                <P3 id="p41147">
                                                    <Pnumber>b</Pnumber>
                                                    <P3para>
                                                       <Text>request that the TRA produces such a report or update.</Text>
@@ -60640,8 +60672,8 @@
                                           <P2>
                                              <Pnumber>3</Pnumber>
                                              <P2para>
-                                                <Text>Where the Secretary of State makes a request under <InternalLink Ref="p41141">sub-paragraph (2)</InternalLink>
-                                                   <InternalLink Ref="p41148">(b)</InternalLink>—</Text>
+                                                <Text>Where the Secretary of State makes a request under <InternalLink Ref="p41140">sub-paragraph (2)</InternalLink>
+                                                   <InternalLink Ref="p41147">(b)</InternalLink>—</Text>
                                                 <P3>
                                                    <Pnumber>a</Pnumber>
                                                    <P3para>
@@ -60696,10 +60728,10 @@
                                           <P2>
                                              <Pnumber>1</Pnumber>
                                              <P2para>
-                                                <Text>Paragraph 31 of Schedule 5 (interpretation) applies subject to <InternalLink Ref="p41194">sub-paragraph (2)</InternalLink>.</Text>
+                                                <Text>Paragraph 31 of Schedule 5 (interpretation) applies subject to <InternalLink Ref="p41193">sub-paragraph (2)</InternalLink>.</Text>
                                              </P2para>
                                           </P2>
-                                          <P2 id="p41194">
+                                          <P2 id="p41193">
                                              <Pnumber>2</Pnumber>
                                              <P2para>
                                                 <Text>In Schedule 5 as applied by this Schedule—</Text>
@@ -60753,9 +60785,9 @@
                                              </ListItem>
                                              <ListItem>
                                                 <Para>
-                                                   <Text>“<Term>definitive suspension of tariff rate reduction</Term>” has the meaning given in paragraph (aa) of paragraph 16(3) of Schedule 5 (see <InternalLink Ref="p40907">paragraph 11</InternalLink>
-                                                      <InternalLink Ref="p40908">(1)</InternalLink>
-                                                      <InternalLink Ref="p40911">(a)</InternalLink>);</Text>
+                                                   <Text>“<Term>definitive suspension of tariff rate reduction</Term>” has the meaning given in paragraph (aa) of paragraph 16(3) of Schedule 5 (see <InternalLink Ref="p40906">paragraph 11</InternalLink>
+                                                      <InternalLink Ref="p40907">(1)</InternalLink>
+                                                      <InternalLink Ref="p40910">(a)</InternalLink>);</Text>
                                                 </Para>
                                              </ListItem>
                                              <ListItem>
@@ -60770,15 +60802,15 @@
                                              </ListItem>
                                              <ListItem>
                                                 <Para>
-                                                   <Text>“<Term>provisional suspension of tariff rate reduction</Term>” has the meaning given in paragraph (aa) of paragraph 11(3) of Schedule 5 (see <InternalLink Ref="p40831">paragraph 8</InternalLink>
-                                                      <InternalLink Ref="p40832">(1)</InternalLink>
-                                                      <InternalLink Ref="p40835">(a)</InternalLink>);</Text>
+                                                   <Text>“<Term>provisional suspension of tariff rate reduction</Term>” has the meaning given in paragraph (aa) of paragraph 11(3) of Schedule 5 (see <InternalLink Ref="p40830">paragraph 8</InternalLink>
+                                                      <InternalLink Ref="p40831">(1)</InternalLink>
+                                                      <InternalLink Ref="p40834">(a)</InternalLink>);</Text>
                                                 </Para>
                                              </ListItem>
                                              <ListItem>
                                                 <Para>
-                                                   <Text>“<Term>relevant free trade agreement</Term>”, in relation to a bilateral safeguarding investigation, means the free trade agreement mentioned in paragraph 6(aa) of Schedule 5 (see <InternalLink Ref="p40593">paragraph 4</InternalLink>
-                                                      <InternalLink Ref="p40600">(b)</InternalLink>).</Text>
+                                                   <Text>“<Term>relevant free trade agreement</Term>”, in relation to a bilateral safeguarding investigation, means the free trade agreement mentioned in paragraph 6(aa) of Schedule 5 (see <InternalLink Ref="p40592">paragraph 4</InternalLink>
+                                                      <InternalLink Ref="p40599">(b)</InternalLink>).</Text>
                                                 </Para>
                                              </ListItem>
                                           </UnorderedList>
@@ -62804,10 +62836,11 @@
                                               Context="main"
                                               Format="double">
                                  <Tabular Orientation="portrait">
-                                    <table xmlns="http://www.w3.org/1999/xhtml"
-                                           xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN"
-                                           cols="2"
-                                           ukl:templateColumns="50 50">
+                                    <table xmlns="http://www.w3.org/1999/xhtml">
+                                       <colgroup>
+                                          <col width="50%"/>
+                                          <col width="50%"/>
+                                       </colgroup>
                                        <tbody>
                                           <tr>
                                              <td>
