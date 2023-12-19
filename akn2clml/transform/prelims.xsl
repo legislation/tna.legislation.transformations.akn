@@ -288,29 +288,19 @@
 		</xsl:when>
 		<xsl:when test="$context1 = 'SecondaryPrelims'">
 			<SecondaryPreamble>
-				<xsl:apply-templates select="container[@name=('royalPresence','royal')]" />
-				<xsl:variable name="enacting-text" as="element()?" select="formula[1]" />
 				<xsl:choose>
-					<xsl:when test="empty($enacting-text)">	<!-- resolution only -->
+					<xsl:when test="exists(child::container[@name='resolution'])">
 						<xsl:apply-templates>
 							<xsl:with-param name="context" select="('SecondaryPreamble', $context)" tunnel="yes" />
 						</xsl:apply-templates>
 					</xsl:when>
 					<xsl:otherwise>
-						<xsl:variable name="intro" as="element()*" select="$enacting-text/preceding-sibling::*[not(self::container[@name=('royalPresence','royal')])]" />
-						<xsl:if test="exists($intro)">
-							<IntroductoryText>
-								<xsl:apply-templates select="$intro">
-									<xsl:with-param name="context" select="('IntroductoryText', 'SecondaryPreamble', $context)" tunnel="yes" />
-								</xsl:apply-templates>
-							</IntroductoryText>
-						</xsl:if>
-						<xsl:apply-templates select="$enacting-text">
-							<xsl:with-param name="context" select="('SecondaryPreamble', $context)" tunnel="yes" />
-						</xsl:apply-templates>
-						<xsl:apply-templates select="$enacting-text/following-sibling::*">
-							<xsl:with-param name="context" select="('SecondaryPreamble', $context)" tunnel="yes" />
-						</xsl:apply-templates>
+						<xsl:apply-templates select="container[@name=('royalPresence','royal')]" />
+						<EnactingText>
+							<xsl:apply-templates select="* except container[@name=('royalPresence','royal')]">
+								<xsl:with-param name="context" select="('EnactingText', 'SecondaryPreamble', $context)" tunnel="yes" />
+							</xsl:apply-templates>
+						</EnactingText>
 					</xsl:otherwise>
 				</xsl:choose>
 			</SecondaryPreamble>
@@ -386,11 +376,18 @@
 
 <xsl:template match="formula[@name=('enactingText','EnactingText','enactingWords')]">
 	<xsl:param name="context" as="xs:string*" tunnel="yes" />
-	<EnactingText>
-		<xsl:apply-templates>
-			<xsl:with-param name="context" select="('EnactingText', $context)" tunnel="yes" />
-		</xsl:apply-templates>
-	</EnactingText>
+	<xsl:choose>
+		<xsl:when test="$context[1] = 'EnactingText'">
+			<xsl:apply-templates />
+		</xsl:when>
+		<xsl:otherwise>
+			<EnactingText>
+				<xsl:apply-templates>
+					<xsl:with-param name="context" select="('EnactingText', $context)" tunnel="yes" />
+				</xsl:apply-templates>
+			</EnactingText>
+		</xsl:otherwise>
+	</xsl:choose>
 </xsl:template>
 
 </xsl:transform>
