@@ -346,23 +346,17 @@
 	</P>
 </xsl:template>
 
-<!-- these two templates are needed only to compensate for a Lawmaker bug -->
+<!-- this template is needed only to compensate for a Lawmaker bug -->
 <!-- numbered items in a preamble should be wrapped in some sort of container -->
-<xsl:template match="preamble/tblock[@class='para1']" priority="1">
-	<P>
-		<xsl:variable name="decor" as="xs:string" select="local:get-decoration-from-numbered-things(.)" />
-		<OrderedList Type="{ local:get-ordered-list-type-from-numbered-things(., $decor) }" Decoration="{ $decor }">
-			<xsl:next-match />
-		</OrderedList>
-	</P>
-</xsl:template>
-<xsl:template match="formula/tblock[@class='para1']" priority="1">
-	<Para>
-		<xsl:variable name="decor" as="xs:string" select="local:get-decoration-from-numbered-things(.)" />
-		<OrderedList Type="{ local:get-ordered-list-type-from-numbered-things(., $decor) }" Decoration="{ $decor }">
-			<xsl:next-match />
-		</OrderedList>
-	</Para>
+<xsl:template match="preamble//tblock[@class='para1']" priority="1">
+	<xsl:call-template name="wrap-as-necessary">
+		<xsl:with-param name="clml" as="element()">
+			<xsl:variable name="decor" as="xs:string" select="local:get-decoration-from-numbered-things(.)" />
+			<OrderedList Type="{ local:get-ordered-list-type-from-numbered-things(., $decor) }" Decoration="{ $decor }">
+				<xsl:next-match />
+			</OrderedList>
+		</xsl:with-param>
+	</xsl:call-template>
 </xsl:template>
 
 <xsl:template match="preamble//tblock[@class='para1']">
