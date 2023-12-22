@@ -7,7 +7,7 @@
              xmlns:dc="http://purl.org/dc/elements/1.1/">
       <dc:identifier>http://www.legislation.gov.uk/id/ukpga/2023/36</dc:identifier>
       <dc:title>Social Housing (Regulation) Act 2023</dc:title>
-      <dc:modified>2023-12-18</dc:modified>
+      <dc:modified>2023-12-22</dc:modified>
       <PrimaryMetadata>
          <DocumentClassification>
             <DocumentCategory Value="primary"/>
@@ -6607,7 +6607,7 @@
                <Part id="schedule-1-part-1">
                   <Number>Part 1</Number>
                   <Title>Amendments of the Housing and Planning Act 2016</Title>
-                  <Pblock>
+                  <P1group id="schedule-1-part-1-crossheading-introductory">
                      <Title>Introductory</Title>
                      <P1 id="schedule-1-paragraph-1">
                         <Pnumber>1</Pnumber>
@@ -6615,8 +6615,8 @@
                            <Text>The Housing and Planning Act 2016 is amended as set out in paragraphs <InternalLink Ref="schedule-1-paragraph-2">2</InternalLink> to <InternalLink Ref="schedule-1-paragraph-9">9</InternalLink>.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-1-part-1-crossheading-extension-of-housing-administration-regime">
                      <Title>Extension of housing administration regime</Title>
                      <P1 id="schedule-1-paragraph-2">
                         <Pnumber>2</Pnumber>
@@ -6654,8 +6654,8 @@
                            <AppendText>.</AppendText>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-1-part-1-crossheading-restrictions-on-insolvency-procedures">
                      <Title>Restrictions on insolvency procedures</Title>
                      <P1 id="schedule-1-paragraph-4">
                         <Pnumber>4</Pnumber>
@@ -6759,8 +6759,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-1-part-1-crossheading-interpretation">
                      <Title>Interpretation</Title>
                      <P1 id="schedule-1-paragraph-9">
                         <Pnumber>9</Pnumber>
@@ -6792,12 +6792,12 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-1-part-2">
                   <Number>Part 2</Number>
                   <Title>Amendments of the Housing and Regeneration Act 2008</Title>
-                  <Pblock>
+                  <P1group id="schedule-1-part-2-crossheading-introductory">
                      <Title>Introductory</Title>
                      <P1 id="schedule-1-paragraph-10">
                         <Pnumber>10</Pnumber>
@@ -6805,8 +6805,8 @@
                            <Text>The Housing and Regeneration Act 2008 is amended as set out in paragraphs <InternalLink Ref="schedule-1-paragraph-11">11</InternalLink> to <InternalLink Ref="schedule-1-paragraph-20">20</InternalLink>.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-1-part-2-crossheading-notice-of-registration-or-de-registration">
                      <Title>Notice of registration or de-registration</Title>
                      <P1 id="schedule-1-paragraph-11">
                         <Pnumber>11</Pnumber>
@@ -6814,8 +6814,8 @@
                            <Text>In section 120 (notice), in subsection (1)(c), after “charity)” insert “or a limited liability partnership”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-1-part-2-crossheading-accounts">
                      <Title>Accounts</Title>
                      <P1 id="schedule-1-paragraph-12">
                         <Pnumber>12</Pnumber>
@@ -7018,8 +7018,8 @@
                            <Text>In section 141 (offences), in subsection (6), omit the words from “not” to the end.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-1-part-2-crossheading-moratorium-on-disposal-of-land">
                      <Title>Moratorium on disposal of land</Title>
                      <P1 id="schedule-1-paragraph-18">
                         <Pnumber>18</Pnumber>
@@ -7039,8 +7039,8 @@
                            <AppendText>.</AppendText>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-1-part-2-crossheading-arrangements-and-reconstructions">
                      <Title>Arrangements and reconstructions</Title>
                      <P1 id="schedule-1-paragraph-19">
                         <Pnumber>19</Pnumber>
@@ -7060,8 +7060,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-1-part-2-crossheading-meaning-of-officer">
                      <Title>Meaning of “officer”</Title>
                      <P1 id="schedule-1-paragraph-20">
                         <Pnumber>20</Pnumber>
@@ -7093,7 +7093,7 @@
                            <AppendText>.</AppendText>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
             </ScheduleBody>
          </Schedule>

@@ -7,7 +7,7 @@
              xmlns:dc="http://purl.org/dc/elements/1.1/">
       <dc:identifier>http://www.legislation.gov.uk/id/ukpga/2023/28</dc:identifier>
       <dc:title>Retained EU Law (Revocation and Reform) Act 2023</dc:title>
-      <dc:modified>2023-12-18</dc:modified>
+      <dc:modified>2023-12-22</dc:modified>
       <PrimaryMetadata>
          <DocumentClassification>
             <DocumentCategory Value="primary"/>
@@ -12184,7 +12184,7 @@
                <Part id="schedule-3-part-1">
                   <Number>Part 1</Number>
                   <Title>Change of parliamentary procedure</Title>
-                  <Pblock>
+                  <P1group id="schedule-3-part-1-crossheading-environmental-protection-act-1990-c-43">
                      <Title>Environmental Protection Act 1990 (c. 43)</Title>
                      <P1 id="schedule-3-paragraph-1">
                         <Pnumber>1</Pnumber>
@@ -12204,8 +12204,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-1-crossheading-waste-and-contaminated-land-northern-ireland-order-1997-si-1997-2778-ni-19">
                      <Title>Waste and Contaminated Land (Northern Ireland) Order 1997 (S.I. 1997/2778 (N.I. 19))</Title>
                      <P1 id="schedule-3-paragraph-2">
                         <Pnumber>2</Pnumber>
@@ -12225,8 +12225,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-1-crossheading-european-union-withdrawal-act-2018-c-16">
                      <Title>European Union (Withdrawal) Act 2018 (c. 16)</Title>
                      <P1 id="schedule-3-paragraph-3">
                         <Pnumber>3</Pnumber>
@@ -12275,8 +12275,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-1-crossheading-european-union-withdrawal-agreement-act-2020-c-1">
                      <Title>European Union (Withdrawal Agreement) Act 2020 (c. 1)</Title>
                      <P1 id="schedule-3-paragraph-4">
                         <Pnumber>4</Pnumber>
@@ -12319,8 +12319,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-1-crossheading-european-union-future-relationship-act-2020-c-29">
                      <Title>European Union (Future Relationship) Act 2020 (c. 29)</Title>
                      <P1 id="schedule-3-paragraph-5">
                         <Pnumber>5</Pnumber>
@@ -12345,8 +12345,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-1-crossheading-financial-services-act-2021-c-22">
                      <Title>Financial Services Act 2021 (c. 22)</Title>
                      <P1 id="schedule-3-paragraph-6">
                         <Pnumber>6</Pnumber>
@@ -12354,8 +12354,8 @@
                            <Text>In section 45(4) of the Financial Services Act 2021 (consequential regulations subject to affirmative procedure) omit paragraph (b).</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-1-crossheading-environment-act-2021-c-30">
                      <Title>Environment Act 2021 (c. 30)</Title>
                      <P1 id="schedule-3-paragraph-7">
                         <Pnumber>7</Pnumber>
@@ -12375,8 +12375,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-1-crossheading-public-service-pensions-and-judicial-offices-act-2022-c-7">
                      <Title>Public Service Pensions and Judicial Offices Act 2022 (c. 7)</Title>
                      <P1 id="schedule-3-paragraph-8">
                         <Pnumber>8</Pnumber>
@@ -12401,8 +12401,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-1-crossheading-professional-qualifications-act-2022-c-20">
                      <Title>Professional Qualifications Act 2022 (c. 20)</Title>
                      <P1 id="schedule-3-paragraph-9">
                         <Pnumber>9</Pnumber>
@@ -12410,8 +12410,8 @@
                            <Text>In section 18(1) of the Professional Qualifications Act 2022 (regulations subject to affirmative procedure) omit “or retained direct principal EU legislation”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-1-crossheading-subsidy-control-act-2022-c-23">
                      <Title>Subsidy Control Act 2022 (c. 23)</Title>
                      <P1 id="schedule-3-paragraph-10">
                         <Pnumber>10</Pnumber>
@@ -12419,8 +12419,8 @@
                            <Text>In section 86(3) of the Subsidy Control Act 2022 (consequential provision: regulations subject to affirmative procedure) omit “or retained direct principal EU legislation”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-1-crossheading-building-safety-act-2022-c-30">
                      <Title>Building Safety Act 2022 (c. 30)</Title>
                      <P1 id="schedule-3-paragraph-11">
                         <Pnumber>11</Pnumber>
@@ -12428,8 +12428,8 @@
                            <Text>In Schedule 11 to the Building Safety Act 2022 (construction products regulations), in paragraph 23(3) (regulations requiring affirmative procedure) omit paragraph (d).</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-1-crossheading-nationality-and-borders-act-2022-c-36">
                      <Title>Nationality and Borders Act 2022 (c. 36)</Title>
                      <P1 id="schedule-3-paragraph-12">
                         <Pnumber>12</Pnumber>
@@ -12437,12 +12437,12 @@
                            <Text>In section 84(5) of the Nationality and Borders Act 2022 (consequential provision: regulations subject to affirmative procedure) omit paragraph (b).</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-3-part-2">
                   <Number>Part 2</Number>
                   <Title>Consequential amendments</Title>
-                  <Pblock>
+                  <P1group id="schedule-3-part-2-crossheading-european-union-withdrawal-act-2018">
                      <Title>European Union (Withdrawal) Act 2018</Title>
                      <P1 id="schedule-3-paragraph-13">
                         <Pnumber>13</Pnumber>
@@ -12498,8 +12498,8 @@
                            <AppendText/>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-2-crossheading-direct-payments-to-farmers-legislative-continuity-act-2020">
                      <Title>Direct Payments to Farmers (Legislative Continuity) Act 2020</Title>
                      <P1 id="schedule-3-paragraph-14">
                         <Pnumber>14</Pnumber>
@@ -12507,7 +12507,7 @@
                            <Text>In section 2(3)(b) of the Direct Payments to Farmers (Legislative Continuity) Act 2020 (interpretation and status) for “10” substitute “<InternalLink Ref="p01305">11A</InternalLink>”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
             </ScheduleBody>
          </Schedule>
@@ -12869,7 +12869,7 @@
                <Part id="schedule-5-part-1">
                   <Number>Part 1</Number>
                   <Title>General</Title>
-                  <Pblock>
+                  <P1group id="schedule-5-part-1-crossheading-making-of-regulations-by-statutory-instrument-etc">
                      <Title>Making of regulations by statutory instrument etc</Title>
                      <P1 id="schedule-5-paragraph-1">
                         <Pnumber>1</Pnumber>
@@ -12900,8 +12900,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-5-part-1-crossheading-combining-provision">
                      <Title>Combining provision</Title>
                      <P1 id="schedule-5-paragraph-2">
                         <Pnumber>2</Pnumber>
@@ -12960,8 +12960,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-5-part-1-crossheading-hybrid-instruments">
                      <Title>Hybrid instruments</Title>
                      <P1 id="schedule-5-paragraph-3">
                         <Pnumber>3</Pnumber>
@@ -12969,12 +12969,12 @@
                            <Text>If an instrument, or a draft of an instrument, containing regulations under this Act would otherwise be treated as a hybrid instrument for the purposes of the standing orders of either House of Parliament, it is to proceed in that House as if it were not a hybrid instrument.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-5-part-2">
                   <Number>Part 2</Number>
                   <Title>Powers of relevant national authority: separate exercise</Title>
-                  <Pblock>
+                  <P1group id="schedule-5-part-2-crossheading-introductory">
                      <Title>Introductory</Title>
                      <P1 id="schedule-5-paragraph-4">
                         <Pnumber>4</Pnumber>
@@ -12996,8 +12996,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-5-part-2-crossheading-separate-exercise-by-a-minister-of-the-crown">
                      <Title>Separate exercise by a Minister of the Crown</Title>
                      <P1 id="schedule-5-paragraph-5">
                         <Pnumber>5</Pnumber>
@@ -13294,8 +13294,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-5-part-2-crossheading-separate-exercise-by-scottish-ministers">
                      <Title>Separate exercise by Scottish Ministers</Title>
                      <P1 id="schedule-5-paragraph-7">
                         <Pnumber>7</Pnumber>
@@ -13328,8 +13328,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-5-part-2-crossheading-separate-exercise-by-welsh-ministers">
                      <Title>Separate exercise by Welsh Ministers</Title>
                      <P1 id="schedule-5-paragraph-8">
                         <Pnumber>8</Pnumber>
@@ -13479,8 +13479,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-5-part-2-crossheading-separate-exercise-by-northern-ireland-department">
                      <Title>Separate exercise by Northern Ireland department</Title>
                      <P1 id="schedule-5-paragraph-10">
                         <Pnumber>10</Pnumber>
@@ -13513,12 +13513,12 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-5-part-3">
                   <Number>Part 3</Number>
                   <Title>Powers of relevant national authority: joint exercise</Title>
-                  <Pblock>
+                  <P1group id="schedule-5-part-3-crossheading-parliamentary-procedure">
                      <Title>Parliamentary procedure</Title>
                      <P1 id="schedule-5-paragraph-11">
                         <Pnumber>11</Pnumber>
@@ -13551,8 +13551,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-5-part-3-crossheading-joint-exercise-with-scottish-ministers">
                      <Title>Joint exercise with Scottish Ministers</Title>
                      <P1 id="schedule-5-paragraph-12">
                         <Pnumber>12</Pnumber>
@@ -13609,8 +13609,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-5-part-3-crossheading-joint-exercise-with-welsh-ministers">
                      <Title>Joint exercise with Welsh Ministers</Title>
                      <P1 id="schedule-5-paragraph-14">
                         <Pnumber>14</Pnumber>
@@ -13637,8 +13637,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-5-part-3-crossheading-joint-exercise-with-northern-ireland-department">
                      <Title>Joint exercise with Northern Ireland department</Title>
                      <P1 id="schedule-5-paragraph-15">
                         <Pnumber>15</Pnumber>
@@ -13671,8 +13671,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-5-part-3-crossheading-effect-of-annulment-resolution">
                      <Title>Effect of annulment resolution</Title>
                      <P1 id="schedule-5-paragraph-16">
                         <Pnumber>16</Pnumber>
@@ -13748,8 +13748,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-5-part-3-crossheading-transitional-transitory-or-saving-provision">
                      <Title>Transitional, transitory or saving provision</Title>
                      <P1 id="schedule-5-paragraph-17">
                         <Pnumber>17</Pnumber>
@@ -13758,7 +13758,7 @@
                               <InternalLink Ref="section-22-4">(4)</InternalLink>.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
             </ScheduleBody>
          </Schedule>

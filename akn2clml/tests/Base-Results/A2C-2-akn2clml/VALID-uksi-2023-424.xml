@@ -7,7 +7,7 @@
              xmlns:dc="http://purl.org/dc/elements/1.1/">
       <dc:identifier>http://www.legislation.gov.uk/id/uksi/2023/424</dc:identifier>
       <dc:title>The Secretaries of State for Energy Security and Net Zero, for Science, Innovation and Technology, for Business and Trade, and for Culture, Media and Sport and the Transfer of Functions (National Security and Investment Act 2021 etc) Order 2023</dc:title>
-      <dc:modified>2023-12-18</dc:modified>
+      <dc:modified>2023-12-22</dc:modified>
       <SecondaryMetadata>
          <DocumentClassification>
             <DocumentCategory Value="secondary"/>
@@ -1570,7 +1570,7 @@
                <Part id="schedule-part-1">
                   <Number>Part 1</Number>
                   <Title>Primary legislation</Title>
-                  <Pblock>
+                  <P1group id="schedule-part-1-crossheading-imperial-war-museum-act-1920-c-16">
                      <Title>Imperial War Museum Act 1920 (c. 16)</Title>
                      <P1 id="schedule-paragraph-1">
                         <Pnumber>1</Pnumber>
@@ -1578,8 +1578,8 @@
                            <Text>In paragraph 1 of the Schedule to the Imperial War Museum Act 1920 (appointing authorities for Board of Trustees)<FootnoteRef Ref="f00026"/>, in the second column of the table, for “The Secretary of State for Digital, Culture, Media and Sport” substitute “The Secretary of State for Culture, Media and Sport”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-1-crossheading-public-records-act-1958-c-51">
                      <Title>Public Records Act 1958 (c. 51)</Title>
                      <P1 id="schedule-paragraph-2">
                         <Pnumber>2</Pnumber>
@@ -1587,8 +1587,8 @@
                            <Text>In Schedule 1 to the Public Records Act 1958 (definition of public records), in Part 1 of the Table at the end of paragraph 3, in the entry for the Meteorological Office, for “Department for Business, Energy and Industrial Strategy” substitute “Department for Science, Innovation and Technology”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-1-crossheading-parliamentary-commissioner-act-1967-c-13">
                      <Title>Parliamentary Commissioner Act 1967 (c. 13)</Title>
                      <P1 id="schedule-paragraph-3">
                         <Pnumber>3</Pnumber>
@@ -1617,8 +1617,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-1-crossheading-coinage-act-1971-c-24">
                      <Title>Coinage Act 1971 (c. 24)</Title>
                      <P1 id="schedule-paragraph-4">
                         <Pnumber>4</Pnumber>
@@ -1643,8 +1643,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-1-crossheading-police-and-criminal-evidence-act-1984-c-60">
                      <Title>Police and Criminal Evidence Act 1984 (c. 60)</Title>
                      <P1 id="schedule-paragraph-5">
                         <Pnumber>5</Pnumber>
@@ -1652,8 +1652,8 @@
                            <Text>In section 114A(2)(a) of the Police and Criminal Evidence Act 1984 (power to apply Act to officers of the Secretary of State etc)<FootnoteRef Ref="f00028"/>, for “the Secretary of State for Business, Energy and Industrial Strategy” substitute “the Secretary of State for Business and Trade”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-1-crossheading-weights-and-measures-act-1985-c-72">
                      <Title>Weights and Measures Act 1985 (c. 72)</Title>
                      <P1 id="schedule-paragraph-6">
                         <Pnumber>6</Pnumber>
@@ -1684,8 +1684,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-1-crossheading-transport-and-works-act-1992-c-42">
                      <Title>Transport and Works Act 1992 (c. 42)</Title>
                      <P1 id="schedule-paragraph-7">
                         <Pnumber>7</Pnumber>
@@ -1693,8 +1693,8 @@
                            <Text>In section 23(10) of the Transport and Works Act 1992 (exercise of Secretary of State’s functions by appointed person), for “the Department for Business, Energy and Industrial Strategy”, in each place it occurs, substitute “Department for Energy Security and Net Zero”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-1-crossheading-channel-tunnel-rail-link-act-1996-c-61">
                      <Title>Channel Tunnel Rail Link Act 1996 (c. 61)</Title>
                      <P1 id="schedule-paragraph-8">
                         <Pnumber>8</Pnumber>
@@ -1731,8 +1731,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-1-crossheading-regulation-of-investigatory-powers-act-2000-c-23">
                      <Title>Regulation of Investigatory Powers Act 2000 (c. 23)</Title>
                      <P1 id="schedule-paragraph-9">
                         <Pnumber>9</Pnumber>
@@ -1776,8 +1776,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-1-crossheading-enterprise-act-2002-c-40">
                      <Title>Enterprise Act 2002 (c. 40)</Title>
                      <P1 id="schedule-paragraph-10">
                         <Pnumber>10</Pnumber>
@@ -1998,8 +1998,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-1-crossheading-domestic-violence-crime-and-victims-act-2004-c-28">
                      <Title>Domestic Violence, Crime and Victims Act 2004 (c. 28)</Title>
                      <P1 id="schedule-paragraph-11">
                         <Pnumber>11</Pnumber>
@@ -2061,8 +2061,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-1-crossheading-serious-organised-crime-and-police-act-2005-c-15">
                      <Title>Serious Organised Crime and Police Act 2005 (c. 15)</Title>
                      <P1 id="schedule-paragraph-12">
                         <Pnumber>12</Pnumber>
@@ -2093,8 +2093,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-1-crossheading-natural-environment-and-rural-communities-act-2006-c-16">
                      <Title>Natural Environment and Rural Communities Act 2006 (c. 16)</Title>
                      <P1 id="schedule-paragraph-13">
                         <Pnumber>13</Pnumber>
@@ -2185,8 +2185,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-1-crossheading-corporate-manslaughter-and-corporate-homicide-act-2007-c-19">
                      <Title>Corporate Manslaughter and Corporate Homicide Act 2007 (c. 19)</Title>
                      <P1 id="schedule-paragraph-14">
                         <Pnumber>14</Pnumber>
@@ -2215,8 +2215,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-1-crossheading-housing-and-regeneration-act-2008-c-17">
                      <Title>Housing and Regeneration Act 2008 (c. 17)</Title>
                      <P1 id="schedule-paragraph-15">
                         <Pnumber>15</Pnumber>
@@ -2242,8 +2242,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-1-crossheading-crossrail-act-2008-c-18">
                      <Title>Crossrail Act 2008 (c. 18)</Title>
                      <P1 id="schedule-paragraph-16">
                         <Pnumber>16</Pnumber>
@@ -2304,8 +2304,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-1-crossheading-justice-and-security-act-2013">
                      <Title>Justice and Security Act 2013</Title>
                      <P1 id="schedule-paragraph-17">
                         <Pnumber>17</Pnumber>
@@ -2326,8 +2326,8 @@
                            <AppendText>.</AppendText>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-1-crossheading-digital-economy-act-2017-c-30">
                      <Title>Digital Economy Act 2017 (c. 30)</Title>
                      <P1 id="schedule-paragraph-18">
                         <Pnumber>18</Pnumber>
@@ -2619,8 +2619,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-1-crossheading-high-speed-rail-london---west-midlands-act-2017-c-7">
                      <Title>High Speed Rail (London - West Midlands) Act 2017 (c. 7)</Title>
                      <P1 id="schedule-paragraph-19">
                         <Pnumber>19</Pnumber>
@@ -2663,8 +2663,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-1-crossheading-high-speed-rail-west-midlands---crewe-act-2021-c-2">
                      <Title>High Speed Rail (West Midlands - Crewe) Act 2021 (c. 2)</Title>
                      <P1 id="schedule-paragraph-20">
                         <Pnumber>20</Pnumber>
@@ -2713,8 +2713,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-1-crossheading-national-security-and-investment-act-2021-c-25">
                      <Title>National Security and Investment Act 2021 (c. 25)</Title>
                      <P1 id="schedule-paragraph-21">
                         <Pnumber>21</Pnumber>
@@ -2735,8 +2735,8 @@
                            <AppendText>.</AppendText>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-1-crossheading-police-crime-sentencing-and-courts-act-2022-c-32">
                      <Title>Police, Crime, Sentencing and Courts Act 2022 (c. 32)</Title>
                      <P1 id="schedule-paragraph-22">
                         <Pnumber>22</Pnumber>
@@ -2753,8 +2753,8 @@
                            <AppendText/>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-1-crossheading-british-sign-language-act-2022-c-34">
                      <Title>British Sign Language Act 2022 (c. 34)</Title>
                      <P1 id="schedule-paragraph-23">
                         <Pnumber>23</Pnumber>
@@ -2816,12 +2816,12 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-part-2">
                   <Number>Part 2</Number>
                   <Title>Subordinate legislation</Title>
-                  <Pblock>
+                  <P1group id="schedule-part-2-crossheading-housing-right-to-buy-service-charges-order-1986-si-1986-2195">
                      <Title>Housing (Right to Buy) (Service Charges) Order 1986 (S.I. 1986/2195)</Title>
                      <P1 id="schedule-paragraph-24">
                         <Pnumber>24</Pnumber>
@@ -2841,8 +2841,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-social-fund-cold-weather-payments-general-regulations-1988-si-1988-1724">
                      <Title>Social Fund (Cold Weather Payments) (General) Regulations 1988 (S.I. 1988/1724)</Title>
                      <P1 id="schedule-paragraph-25">
                         <Pnumber>25</Pnumber>
@@ -2850,8 +2850,8 @@
                            <Text>In regulation 1(2) of the Social Fund Cold Weather Payments (General) Regulations 1988 (interpretation), in the definition of “the Met Office”<FootnoteRef Ref="f00036"/>, for “Department for Business, Energy and Industrial Strategy” substitute “Department for Science, Innovation and Technology”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-planning-listed-buildings-and-conservation-areas-regulations-1990-si-1990-1519">
                      <Title>Planning (Listed Buildings and Conservation Areas) Regulations 1990 (S.I. 1990/1519)</Title>
                      <P1 id="schedule-paragraph-26">
                         <Pnumber>26</Pnumber>
@@ -2859,8 +2859,8 @@
                            <Text>In Schedule 4 to the Planning (Listed Buildings and Conservation Areas) Regulations 1990<FootnoteRef Ref="f00037"/>, for “the Secretary of State for Digital, Culture, Media and Sport” (in each place it occurs) substitute “the Secretary of State for Culture, Media and Sport”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-patent-office-trading-fund-order-1991-si-1991-1796">
                      <Title>Patent Office Trading Fund Order 1991 (S.I. 1991/1796)</Title>
                      <P1 id="schedule-paragraph-27">
                         <Pnumber>27</Pnumber>
@@ -2927,8 +2927,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-bail-amendment-act-1993-prescription-of-prosecuting-authorities-order-1994-si-1994-1438">
                      <Title>Bail (Amendment) Act 1993 (Prescription of Prosecuting Authorities) Order 1994 (S.I. 1994/1438)</Title>
                      <P1 id="schedule-paragraph-28">
                         <Pnumber>28</Pnumber>
@@ -2936,8 +2936,8 @@
                            <Text>In the Schedule to the Bail (Amendment) Act 1993 (Prescription of Prosecuting Authorities) Order 1994, for “The Secretary of State for Business, Energy and Industrial Strategy” substitute “The Secretary of State for Business and Trade”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-insolvency-regulations-1994-si-1994-2507">
                      <Title>Insolvency Regulations 1994 (S.I. 1994/2507)</Title>
                      <P1 id="schedule-paragraph-29">
                         <Pnumber>29</Pnumber>
@@ -2945,8 +2945,8 @@
                            <Text>In regulation 3(3) of the Insolvency Regulations 1994 (interpretation and application), for “the Department for Business, Energy and Industrial Strategy” substitute “the Department for Business and Trade”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-meteorological-office-trading-fund-order-1996-si-1996-774">
                      <Title>Meteorological Office Trading Fund Order 1996 (S.I. 1996/774)</Title>
                      <P1 id="schedule-paragraph-30">
                         <Pnumber>30</Pnumber>
@@ -2971,8 +2971,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-merchant-shipping-oil-pollution-preparedness-response-and-co-operation-convention-regulations-1998-si-1998-1056">
                      <Title>Merchant Shipping (Oil Pollution Preparedness, Response and Co-operation Convention) Regulations 1998 (S.I. 1998/1056)</Title>
                      <P1 id="schedule-paragraph-31">
                         <Pnumber>31</Pnumber>
@@ -2980,8 +2980,8 @@
                            <Text>In regulation 4(7) of the Merchant Shipping (Oil Pollution Preparedness, Response and Co- operation Convention) Regulations 1998 (oil pollution emergency plans), for “the Secretary of State for Business, Energy and Industrial Strategy” substitute “the Secretary of State for Energy Security and Net Zero”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-trial-of-the-pyx-order-1998-si-1998-1764">
                      <Title>Trial of the Pyx Order 1998 (S.I. 1998/1764)</Title>
                      <P1 id="schedule-paragraph-32">
                         <Pnumber>32</Pnumber>
@@ -3001,8 +3001,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-civil-procedure-rules-1998-si-1998-3132">
                      <Title>Civil Procedure Rules 1998 (S.I. 1998/3132)</Title>
                      <P1 id="schedule-paragraph-33">
                         <Pnumber>33</Pnumber>
@@ -3022,8 +3022,8 @@
                            <AppendText>.</AppendText>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-building-societies-business-names-regulations-1998-si-1998-3186">
                      <Title>Building Societies (Business Names) Regulations 1998 (S.I. 1998/3186)</Title>
                      <P1 id="schedule-paragraph-34">
                         <Pnumber>34</Pnumber>
@@ -3031,8 +3031,8 @@
                            <Text>In the Schedule to the Building Societies (Business Names) Regulations 1998 (specification of words, expressions and relevant bodies), in the entry for Polytechnic, in column (2), for “The Department for Business, Energy and Industrial Strategy” substitute “The Department for Science, Innovation and Technology”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-railway-administration-order-rules-2001-si-2001-3352">
                      <Title>Railway Administration Order Rules 2001 (S.I. 2001/3352)</Title>
                      <P1 id="schedule-paragraph-35">
                         <Pnumber>35</Pnumber>
@@ -3040,8 +3040,8 @@
                            <Text>In rule 1.2(1) of the Railway Administration Order Rules 2001 (construction and interpretation), in the definition of “the Department”, for “the Department for Business, Energy and Industrial Strategy” substitute “the Department for Business and Trade”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-police-and-criminal-evidence-act-1984-department-of-trade-and-industry-investigations-order-2002-si-2002-2326">
                      <Title>Police and Criminal Evidence Act 1984 (Department of Trade and Industry Investigations) Order 2002 (S.I. 2002/2326)</Title>
                      <P1 id="schedule-paragraph-36">
                         <Pnumber>36</Pnumber>
@@ -3102,8 +3102,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-community-investment-tax-relief-accreditation-of-community-development-finance-institutions-regulations-2003-si-2003-96">
                      <Title>Community Investment Tax Relief (Accreditation of Community Development Finance Institutions) Regulations 2003 (S.I. 2003/96)</Title>
                      <P1 id="schedule-paragraph-37">
                         <Pnumber>37</Pnumber>
@@ -3152,8 +3152,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-land-registration-rules-2003-si-2003-1417">
                      <Title>Land Registration Rules 2003 (S.I. 2003/1417)</Title>
                      <P1 id="schedule-paragraph-38">
                         <Pnumber>38</Pnumber>
@@ -3161,8 +3161,8 @@
                            <Text>In the Land Registration Rules 2003, in Schedule 5<FootnoteRef Ref="f00040"/>, for “the Secretary of State for Business, Energy and Industrial Strategy” substitute “the Secretary of State for Business and Trade”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-crime-international-co-operation-act-2003-designation-of-prosecuting-authorities-order-2004-si-2004-1034">
                      <Title>Crime (International Co-operation) Act 2003 (Designation of Prosecuting Authorities) Order 2004 (S.I. 2004/1034)</Title>
                      <P1 id="schedule-paragraph-39">
                         <Pnumber>39</Pnumber>
@@ -3170,8 +3170,8 @@
                            <Text>In article 2(2) of the Crime (International Co-operation) Act 2003 (Designation of Prosecuting Authorities) Order 2004, for “the Secretary of State for Business, Energy and Industrial Strategy” substitute “the Secretary of State for Business and Trade”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-measuring-instruments-eec-requirements-fees-regulations-2004-si-2004-1300">
                      <Title>Measuring Instruments (EEC Requirements) (Fees) Regulations 2004 (S.I. 2004/1300)</Title>
                      <P1 id="schedule-paragraph-40">
                         <Pnumber>40</Pnumber>
@@ -3179,8 +3179,8 @@
                            <Text>In paragraph (b) of Schedule 1 to the Measuring Instruments (EEC Requirements) (Fees) Regulations 2004 (calculation of variable fee), for “the Department for Business, Energy and Industrial Strategy” substitute “the Department for Business and Trade”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-electricity-fuel-mix-disclosure-regulations-2005-si-2005-391">
                      <Title>Electricity (Fuel Mix Disclosure) Regulations 2005 (S.I. 2005/391)</Title>
                      <P1 id="schedule-paragraph-41">
                         <Pnumber>41</Pnumber>
@@ -3188,8 +3188,8 @@
                            <Text>In paragraph 1 of the condition set out in the Schedule to the Electricity (Fuel Mix Disclosure) Regulations 2005, in the definition of “fuel mix disclosure data table”, for “the Department for Business, Energy and Industrial Strategy” substitute “the Department for Energy Security and Net Zero”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-damages-government-and-health-service-bodies-order-2005-si-2005-474">
                      <Title>Damages (Government and Health Service Bodies) Order 2005 (S.I. 2005/474)</Title>
                      <P1 id="schedule-paragraph-42">
                         <Pnumber>42</Pnumber>
@@ -3206,8 +3206,8 @@
                            <AppendText>.</AppendText>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-energy-administration-rules-2005-si-2005-2483">
                      <Title>Energy Administration Rules 2005 (S.I. 2005/2483)</Title>
                      <P1 id="schedule-paragraph-43">
                         <Pnumber>43</Pnumber>
@@ -3215,8 +3215,8 @@
                            <Text>In rule 186(2) of the Energy Administration Rules 2005 (expressions used generally), for “the Department for Business, Energy and Industrial Strategy” substitute “the Department for Energy Security and Net Zero”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-transport-and-works-applications-and-objections-procedure-england-and-wales-rules-2006-si-2006-1466">
                      <Title>Transport and Works (Applications and Objections Procedure) (England and Wales) Rules 2006 (S.I. 2006/1466)</Title>
                      <P1 id="schedule-paragraph-44">
                         <Pnumber>44</Pnumber>
@@ -3224,8 +3224,8 @@
                            <Text>In column (2) of the table in Schedule 5 to the Transport and Works (Applications and Objections Procedure) (England and Wales) Rules 2006 (persons to be served with copy of application etc), in row 8 and row 19, for “Secretary of State for Digital, Culture, Media and Sport” substitute “Secretary of State for Culture, Media and Sport”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-guarantees-of-origin-of-electricity-produced-from-high-efficiency-cogeneration-regulations-2007-si-2007-292">
                      <Title>Guarantees of Origin of Electricity Produced from High-efficiency Cogeneration Regulations 2007 (S.I. 2007/292)</Title>
                      <P1 id="schedule-paragraph-45">
                         <Pnumber>45</Pnumber>
@@ -3233,8 +3233,8 @@
                            <Text>In regulation 2 of the Guarantees of Origin of Electricity Produced from High-efficiency Cogeneration Regulations 2007 (interpretation)<FootnoteRef Ref="f00041"/>, in the definition of “the competent authority”, for “the Secretary of State for Business, Energy and Industrial Strategy” substitute “the Secretary of State for Energy Security and Net Zero”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-regulation-of-investigatory-powers-authorisations-extending-to-scotland-order-2007-si-2007-934">
                      <Title>Regulation of Investigatory Powers (Authorisations Extending to Scotland) Order 2007 (S.I. 2007/934)</Title>
                      <P1 id="schedule-paragraph-46">
                         <Pnumber>46</Pnumber>
@@ -3242,8 +3242,8 @@
                            <Text>In the Schedule to the Regulation of Investigatory Powers (Authorisations Extending to Scotland) Order 2007, in column 1 of the table, for “The Department for Business, Energy and Industrial Strategy” substitute “The Department for Business and Trade”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-political-parties-elections-and-referendums-act-2000-northern-ireland-political-parties-order-2007-si-2007-2501">
                      <Title>Political Parties, Elections and Referendums Act 2000 (Northern Ireland Political Parties) Order 2007 (S.I. 2007/2501)</Title>
                      <P1 id="schedule-paragraph-47">
                         <Pnumber>47</Pnumber>
@@ -3251,8 +3251,8 @@
                            <Text>In article 11(g) of the Political Parties, Elections and Referendums Act 2000 (Northern Ireland Political Parties) Order 2007 (disclosure of information by the Commission), for “the Department for Business, Energy and Industrial Strategy” substitute “the Department for Business and Trade”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-petroleum-licensing-production-seaward-areas-regulations-2008-si-2008-225">
                      <Title>Petroleum Licensing (Production) (Seaward Areas) Regulations 2008 (S.I. 2008/225)</Title>
                      <P1 id="schedule-paragraph-48">
                         <Pnumber>48</Pnumber>
@@ -3260,8 +3260,8 @@
                            <Text>In clause 1(1) of the model clauses set out in the Schedule to the Petroleum Licensing (Production) (Seaward Areas) Regulations 2008, in the definition of “the Minister”, for “the Secretary of State for Business, Energy and Industrial Strategy” substitute “the Secretary of State for Energy Security and Net Zero”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-political-parties-elections-and-referendums-act-2000-northern-ireland-political-parties-order-2008-si-2008-1737">
                      <Title>Political Parties, Elections and Referendums Act 2000 (Northern Ireland Political Parties) Order 2008 (S.I. 2008/1737)</Title>
                      <P1 id="schedule-paragraph-49">
                         <Pnumber>49</Pnumber>
@@ -3269,8 +3269,8 @@
                            <Text>In article 11(g) of the Political Parties, Elections and Referendums Act 2000 (Northern Ireland Political Parties) Order 2008 (disclosure of information by the Commission), for “the Department for Business, Energy and Industrial Strategy” substitute “the Department for Business and Trade”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-export-control-order-2008-si-2008-3231">
                      <Title>Export Control Order 2008 (S.I. 2008/3231)</Title>
                      <P1 id="schedule-paragraph-50">
                         <Pnumber>50</Pnumber>
@@ -3290,8 +3290,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-offshore-gas-storage-and-unloading-licensing-regulations-2009-si-2009-2813">
                      <Title>Offshore Gas Storage and Unloading (Licensing) Regulations 2009 (S.I. 2009/2813)</Title>
                      <P1 id="schedule-paragraph-51">
                         <Pnumber>51</Pnumber>
@@ -3299,8 +3299,8 @@
                            <Text>In clause 1(1) of the model clauses set out in the Schedule to the Offshore Gas Storage and Unloading (Licensing) Regulations 2009, in the definition of “the Minister”, for “the Secretary of State for Business, Energy and Industrial Strategy” substitute “the Secretary of State for Energy Security and Net Zero”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-offshore-exploration-petroleum-and-gas-storage-and-unloading-model-clauses-regulations-2009-si-2009-2814">
                      <Title>Offshore Exploration (Petroleum, and Gas Storage and Unloading) (Model Clauses) Regulations 2009 (S.I. 2009/2814)</Title>
                      <P1 id="schedule-paragraph-52">
                         <Pnumber>52</Pnumber>
@@ -3308,8 +3308,8 @@
                            <Text>In clause 1(1) of the model clauses set out in the Schedule to the Offshore Exploration (Petroleum, and Gas Storage and Unloading) (Model Clauses) Regulations 2009, in the definition of “the Minister”, for “the Secretary of State for Business, Energy and Industrial Strategy” substitute “the Secretary of State for Energy Security and Net Zero”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-charities-act-2006-principal-regulators-of-exempt-charities-regulations-2010-si-2010-501">
                      <Title>Charities Act 2006 (Principal Regulators of Exempt Charities) Regulations 2010 (S.I. 2010/501)</Title>
                      <P1 id="schedule-paragraph-53">
                         <Pnumber>53</Pnumber>
@@ -3317,8 +3317,8 @@
                            <Text>In regulation 1(2) of the Charities Act 2006 (Principal Regulators of Exempt Charities) Regulations 2010, in the definition of “Culture Secretary”, for “the Secretary of State for Digital, Culture, Media and Sport” substitute “the Secretary of State for Culture, Media and Sport”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-regulation-of-investigatory-powers-directed-surveillance-and-covert-human-intelligence-sources-order-2010-si-2010-521">
                      <Title>Regulation of Investigatory Powers (Directed Surveillance and Covert Human Intelligence Sources) Order 2010 (S.I. 2010/521)</Title>
                      <P1 id="schedule-paragraph-54">
                         <Pnumber>54</Pnumber>
@@ -3326,8 +3326,8 @@
                            <Text>In Part 1 of the Schedule to the Regulation of Investigatory Powers (Directed Surveillance and Covert Human Intelligence Sources) Order 2010 (offices and restrictions etc), in column 1 of the table, for “The Department for Business, Energy and Industrial Strategy” substitute “The Department for Business and Trade”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-criminal-justice-act-2003-commencement-no-26-order-2011-si-2011-2188">
                      <Title>Criminal Justice Act 2003 (Commencement No. 26) Order 2011 (S.I. 2011/2188)</Title>
                      <P1 id="schedule-paragraph-55">
                         <Pnumber>55</Pnumber>
@@ -3335,8 +3335,8 @@
                            <Text>In article 3(b) of the Criminal Justice Act 2003 (Commencement No. 26) Order 2011, for “the Secretary of State for Business, Energy and Industrial Strategy” substitute “the Secretary of State for Business and Trade”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-hinkley-point-c-nuclear-generating-station-order-2013-si-2013-648">
                      <Title>Hinkley Point C (Nuclear Generating Station) Order 2013 (S.I. 2013/648)</Title>
                      <P1 id="schedule-paragraph-56">
                         <Pnumber>56</Pnumber>
@@ -3344,8 +3344,8 @@
                            <Text>In paragraph 6 of Schedule 15 to the Hinkley Point C (Nuclear Generating Station) Order 2013 (protection of the Environment Agency), for “the Secretary of State for Business, Energy and Industrial Strategy” substitute “the Secretary of State for Energy Security and Net Zero”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-energy-savings-opportunity-scheme-regulations-2014-si-2014-1643">
                      <Title>Energy Savings Opportunity Scheme Regulations 2014 (S.I. 2014/1643)</Title>
                      <P1 id="schedule-paragraph-57">
                         <Pnumber>57</Pnumber>
@@ -3365,8 +3365,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-public-interest-disclosure-prescribed-persons-order-2014-si-2014-2418">
                      <Title>Public Interest Disclosure (Prescribed Persons) Order 2014 (S.I. 2014/2418)</Title>
                      <P1 id="schedule-paragraph-58">
                         <Pnumber>58</Pnumber>
@@ -3427,8 +3427,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-company-limited-liability-partnership-and-business-names-sensitive-words-and-expressions-regulations-2014-si-2014-3140">
                      <Title>Company, Limited Liability Partnership and Business Names (Sensitive Words and Expressions) Regulations 2014 (S.I. 2014/3140)</Title>
                      <P1 id="schedule-paragraph-59">
                         <Pnumber>59</Pnumber>
@@ -3436,8 +3436,8 @@
                            <Text>In Part 1 of Schedule 2 to the Company, Limited Liability Partnership and Business Names (Sensitive Words and Expressions) Regulations 2014 (list of bodies whose views must be sought), in column (2), for “Department for Business, Energy and Industrial Strategy” (in each place it occurs) substitute “Department for Business and Trade”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-pollution-prevention-and-control-fees-miscellaneous-amendments-and-other-provisions-regulations-2015-si-2015-1431">
                      <Title>Pollution Prevention and Control (Fees) (Miscellaneous Amendments and Other Provisions) Regulations 2015 (S.I. 2015/1431)</Title>
                      <P1 id="schedule-paragraph-60">
                         <Pnumber>60</Pnumber>
@@ -3445,8 +3445,8 @@
                            <Text>In regulation 5B(3)(c) of the Pollution Prevention and Control (Fees) (Miscellaneous Amendments and Other Provisions) Regulations 2015<FootnoteRef Ref="f00042"/>, for “the Secretary of State for Business, Energy and Industrial Strategy” substitute “the Secretary of State for Energy Security and Net Zero”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-care-and-support-financial-assessment-wales-regulations-2015-si-2015-1844">
                      <Title>Care and Support (Financial Assessment) (Wales) Regulations 2015 (S.I. 2015/1844)</Title>
                      <P1 id="schedule-paragraph-61">
                         <Pnumber>61</Pnumber>
@@ -3454,8 +3454,8 @@
                            <Text>In paragraph 40 of Schedule 2 to the Care and Support (Financial Assessment) (Wales) Regulations 2015 (capital to be disregarded)<FootnoteRef Ref="f00043"/>, for “the Secretary of State for Business, Energy and Industrial Strategy” substitute “the Secretary of State for Energy Security and Net Zero”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-renewables-obligation-order-2015-si-2015-1947">
                      <Title>Renewables Obligation Order 2015 (S.I. 2015/1947)</Title>
                      <P1 id="schedule-paragraph-62">
                         <Pnumber>62</Pnumber>
@@ -3463,8 +3463,8 @@
                            <Text>In article 79(3) of the Renewables Obligation Order 2015 (provision of information), for “the Department for Business, Energy and Industrial Strategy” substitute “the Department for Energy Security and Net Zero”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-network-and-information-systems-regulations-2018-si-2018-506">
                      <Title>Network and Information Systems Regulations 2018 (S.I. 2018/506)</Title>
                      <P1 id="schedule-paragraph-63">
                         <Pnumber>63</Pnumber>
@@ -3472,8 +3472,8 @@
                            <Text>In Schedule 1 to the Network and Information Systems Regulations 2018 (competent authorities), in column 3 of the table, for “Secretary of State for Business, Energy and Industrial Strategy” (in each place it occurs) substitute “Secretary of State for Energy Security and Net Zero”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-nuclear-safeguards-eu-exit-regulations-2019-si-2019-196">
                      <Title>Nuclear Safeguards (EU Exit) Regulations 2019 (S.I. 2019/196)</Title>
                      <P1 id="schedule-paragraph-64">
                         <Pnumber>64</Pnumber>
@@ -3493,8 +3493,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-norfolk-vanguard-offshore-wind-farm-order-2020-si-2020-706">
                      <Title>Norfolk Vanguard Offshore Wind Farm Order 2020 (S.I. 2020/706)</Title>
                      <P1 id="schedule-paragraph-65">
                         <Pnumber>65</Pnumber>
@@ -3502,8 +3502,8 @@
                            <Text>In Part 7 of Schedule 16 to the Norfolk Vanguard Offshore Wind Farm Order 2020 (protective provisions), in paragraph 81 for “the Secretary of State for Business, Energy and Industrial Strategy” substitute “the Secretary of State for Energy Security and Net Zero”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-a303-amesbury-to-berwick-down-development-consent-order-2020-si-2020-1297">
                      <Title>A303 (Amesbury to Berwick Down) Development Consent Order 2020 (S.I. 2020/1297)</Title>
                      <P1 id="schedule-paragraph-66">
                         <Pnumber>66</Pnumber>
@@ -3511,8 +3511,8 @@
                            <Text>In article 2(1) of the A303 (Amesbury to Berwick Down) Development Consent Order 2020, in the definition of “Historic England”, for “the Department for Digital, Culture, Media and Sport” substitute “the Department for Culture, Media and Sport”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-hornsea-three-offshore-wind-farm-order-2020-si-2020-1656">
                      <Title>Hornsea Three Offshore Wind Farm Order 2020 (S.I. 2020/1656)</Title>
                      <P1 id="schedule-paragraph-67">
                         <Pnumber>67</Pnumber>
@@ -3520,8 +3520,8 @@
                            <Text>In Part 7 of Schedule 9 to the Hornsea Three Offshore Wind Farm Order 2020 (protective provisions), in paragraph 11 for “the Secretary of State for Business, Energy and Industrial Strategy” substitute “the Secretary of State for Energy Security and Net Zero”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-town-and-country-planning-cairnryan-border-control-posts-eu-exit-scotland-special-development-order-2021-ssi-2021-98">
                      <Title>Town and Country Planning (Cairnryan Border Control Posts) (EU Exit) (Scotland) Special Development Order 2021 (S.S.I. 2021/98)</Title>
                      <P1 id="schedule-paragraph-68">
                         <Pnumber>68</Pnumber>
@@ -3529,8 +3529,8 @@
                            <Text>In regulation 2(1) of the Town and Country Planning (Cairnryan Border Control Posts) (EU Exit) (Scotland) Special Development Order 2021 (interpretation), in paragraph (b) of the definition of “border department”<FootnoteRef Ref="f00044"/> for “Secretary of State for Business, Energy and Industrial Strategy” substitute “Secretary of State for Business and Trade”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-a303-sparkford-to-ilchester-dualling-development-consent-order-2021-si-2021-125">
                      <Title>A303 Sparkford to Ilchester Dualling Development Consent Order 2021 (S.I. 2021/125)</Title>
                      <P1 id="schedule-paragraph-69">
                         <Pnumber>69</Pnumber>
@@ -3538,8 +3538,8 @@
                            <Text>In Part 3 of Schedule 8 to the A303 Sparkford to Ilchester Dualling Development Consent Order 2021 (protective provisions), in paragraph 28, for “the Secretary of State for Business, Energy and Industrial Strategy” substitute “the Secretary of State for Energy Security and Net Zero”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-proceeds-of-crime-act-2002-references-to-financial-investigators-england-and-wales-and-northern-ireland-order-2021-si-2021-640">
                      <Title>Proceeds of Crime Act 2002 (References to Financial Investigators) (England and Wales and Northern Ireland) Order 2021 (S.I. 2021/640)</Title>
                      <P1 id="schedule-paragraph-70">
                         <Pnumber>70</Pnumber>
@@ -3547,8 +3547,8 @@
                            <Text>In Schedule 1 to the Proceeds of Crime Act 2002 (References to Financial Investigators) (England and Wales and Northern Ireland) Order 2021 (accredited financial investigators), for “the Department for Business, Energy and Industrial Strategy” (in each place it occurs) substitute “the Department for Business and Trade”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-space-industry-appeals-regulations-2021-si-2021-816">
                      <Title>Space Industry (Appeals) Regulations 2021 (S.I. 2021/816)</Title>
                      <P1 id="schedule-paragraph-71">
                         <Pnumber>71</Pnumber>
@@ -3556,8 +3556,8 @@
                            <Text>In regulation 2 of the Space Industry (Appeals) Regulations 2021 (interpretation), in the definition of “UKSA”, for “the Department for Business, Energy and Industrial Strategy” substitute “the Department for Science, Innovation and Technology”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-national-security-and-investment-act-2021-monetary-penalties-turnover-of-a-business-regulations-2021-si-2021-1262">
                      <Title>National Security and Investment Act 2021 (Monetary Penalties) (Turnover of a Business) Regulations 2021 (S.I. 2021/1262)</Title>
                      <P1 id="schedule-paragraph-72">
                         <Pnumber>72</Pnumber>
@@ -3578,8 +3578,8 @@
                            <AppendText/>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-national-security-and-investment-act-2021-notifiable-acquisition-specification-of-qualifying-entities-regulations-2021-si-2021-1264">
                      <Title>National Security and Investment Act 2021 (Notifiable Acquisition) (Specification of Qualifying Entities) Regulations 2021 (S.I. 2021/1264)</Title>
                      <P1 id="schedule-paragraph-73">
                         <Pnumber>73</Pnumber>
@@ -3625,8 +3625,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-national-security-and-investment-act-2021-procedure-for-service-regulations-2021-si-2021-1267">
                      <Title>National Security and Investment Act 2021 (Procedure for Service) Regulations 2021 (S.I. 2021/1267)</Title>
                      <P1 id="schedule-paragraph-74">
                         <Pnumber>74</Pnumber>
@@ -3647,8 +3647,8 @@
                            <AppendText/>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-national-security-and-investment-act-2021-prescribed-form-and-content-of-notices-and-validation-applications-regulations-2021-si-2021-1272">
                      <Title>National Security and Investment Act 2021 (Prescribed Form and Content of Notices and Validation Applications) Regulations 2021 (S.I. 2021/1272)</Title>
                      <P1 id="schedule-paragraph-75">
                         <Pnumber>75</Pnumber>
@@ -3669,8 +3669,8 @@
                            <AppendText/>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-norfolk-boreas-offshore-wind-farm-order-2021-si-2021-1414">
                      <Title>Norfolk Boreas Offshore Wind Farm Order 2021 (S.I. 2021/1414)</Title>
                      <P1 id="schedule-paragraph-76">
                         <Pnumber>76</Pnumber>
@@ -3678,8 +3678,8 @@
                            <Text>In Part 7 of Schedule 17 to the Norfolk Boreas Offshore Wind Farm Order 2021 (protective provisions), in paragraph 81 for “the Secretary of State for Business, Energy and Industrial Strategy” substitute “the Secretary of State for Energy Security and Net Zero”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-norfolk-vanguard-offshore-wind-farm-order-2022-si-2022-138">
                      <Title>Norfolk Vanguard Offshore Wind Farm Order 2022 (S.I. 2022/138)</Title>
                      <P1 id="schedule-paragraph-77">
                         <Pnumber>77</Pnumber>
@@ -3687,8 +3687,8 @@
                            <Text>In Part 7 of Schedule 16 to the Norfolk Vanguard Offshore Wind Farm Order 2022 (protective provisions), in paragraph 81 for “the Secretary of State for Business, Energy and Industrial Strategy” substitute “the Secretary of State for Energy Security and Net Zero”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-a57-link-roads-development-consent-order-2022-si-2022-1206">
                      <Title>A57 Link Roads Development Consent Order 2022 (S.I. 2022/1206)</Title>
                      <P1 id="schedule-paragraph-78">
                         <Pnumber>78</Pnumber>
@@ -3696,12 +3696,12 @@
                            <Text>In Part 2 of Schedule 9 to the A57 Link Roads Development Consent Order 2022 (protective provisions), in paragraph 28 for “the Secretary of State for Business, Energy and Industrial Strategy” substitute “the Secretary of State for Energy Security and Net Zero”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-part-3">
                   <Number>Part 3</Number>
                   <Title>Retained EU law</Title>
-                  <Pblock>
+                  <P1group id="schedule-part-3-crossheading-commission-delegated-regulation-eu-no-664-2014-of-18-december-2013-supplementing-regulation-eu-no-1151-2012-of-the-european-parliament-and-of-the-council-with-regard-to-the-establishment-of-the-union-symbols-for-protected-designations-of-origin-protected-geographical-indications-and-traditional-specialities-guaranteed-and-with-regard-to-certain-rules-on-sourcing-certain-procedural-rules-and-certain-additional-transitional-rules">
                      <Title>Commission Delegated Regulation (EU) No 664/2014 of 18 December 2013 supplementing Regulation (EU) No 1151/2012 of the European Parliament and of the Council with regard to the establishment of the Union symbols for protected designations of origin, protected geographical indications and traditional specialities guaranteed and with regard to certain rules on sourcing, certain procedural rules and certain additional transitional rules</Title>
                      <P1 id="schedule-paragraph-79">
                         <Pnumber>79</Pnumber>
@@ -3721,8 +3721,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-3-crossheading-regulation-eu-2016-793-of-the-european-parliament-and-of-the-council-of-11-may-2016-to-avoid-trade-diversion-into-the-european-union-of-certain-key-medicines">
                      <Title>Regulation (EU) 2016/793 of the European Parliament and of the Council of 11 May 2016 to avoid trade diversion into the European Union of certain key medicines</Title>
                      <P1 id="schedule-paragraph-80">
                         <Pnumber>80</Pnumber>
@@ -3730,8 +3730,8 @@
                            <Text>In Article 4(1) of Regulation (EU) 2016/793 of the European Parliament and of the Council, for the words from “the Department” to the end substitute “the Department for Business and Trade, Old Admiralty Building, Admiralty Place, London SW1A 2DY”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-3-crossheading-commission-delegated-regulation-eu-2019-33-of-17-october-2018-supplementing-regulation-eu-no-1308-2013-of-the-european-parliament-and-of-the-council-as-regards-applications-for-protection-of-designations-of-origin-geographical-indications-and-traditional-terms-in-the-wine-sector-the-objection-procedure-restrictions-of-use-amendments-to-product-specifications-cancellation-of-protection-and-labelling-and-presentation">
                      <Title>Commission Delegated Regulation (EU) 2019/33 of 17 October 2018 supplementing Regulation (EU) No 1308/2013 of the European Parliament and of the Council as regards applications for protection of designations of origin, geographical indications and traditional terms in the wine sector, the objection procedure, restrictions of use, amendments to product specifications, cancellation of protection, and labelling and presentation</Title>
                      <P1 id="schedule-paragraph-81">
                         <Pnumber>81</Pnumber>
@@ -3739,8 +3739,8 @@
                            <Text>In Article 14 of Commission Delegated Regulation (EU) 2019/33, in paragraph 2b(b), for “the Department for Business, Energy and Industrial Strategy” substitute “the Department for Science, Innovation and Technology”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-3-crossheading-regulation-eu-2019-787-of-the-european-parliament-and-of-the-council-of-17-april-2019-on-the-definition-description-presentation-and-labelling-of-spirit-drinks-the-use-of-the-names-of-spirit-drinks-in-the-presentation-and-labelling-of-other-foodstuffs-the-protection-of-geographical-indications-for-spirit-drinks-the-use-of-ethyl-alcohol-and-distillates-of-agricultural-origin-in-alcoholic-beverages-and-repealing-regulation-ec-no-110-2008">
                      <Title>Regulation (EU) 2019/787 of the European Parliament and of the Council of 17 April 2019 on the definition, description, presentation and labelling of spirit drinks, the use of the names of spirit drinks in the presentation and labelling of other foodstuffs, the protection of geographical indications for spirit drinks, the use of ethyl alcohol and distillates of agricultural origin in alcoholic beverages, and repealing Regulation (EC) No 110/2008</Title>
                      <P1 id="schedule-paragraph-82">
                         <Pnumber>82</Pnumber>
@@ -3748,7 +3748,7 @@
                            <Text>In article 31 of Regulation (EU) 2019/787 of the European Parliament and of the Council, in paragraph 6(b), for “the Department for Business, Energy and Industrial Strategy” substitute “the Department for Science, Innovation and Technology”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
             </ScheduleBody>
          </Schedule>

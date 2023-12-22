@@ -7,7 +7,7 @@
              xmlns:dc="http://purl.org/dc/elements/1.1/">
       <dc:identifier>http://www.legislation.gov.uk/id/uksi/2023/739</dc:identifier>
       <dc:title>The Drivers’ Hours and Tachographs (Amendment) Regulations 2023</dc:title>
-      <dc:modified>2023-12-18</dc:modified>
+      <dc:modified>2023-12-22</dc:modified>
       <SecondaryMetadata>
          <DocumentClassification>
             <DocumentCategory Value="secondary"/>
@@ -826,34 +826,42 @@
                   <Text>amend Article 2 to update the definition of “smart tachograph 2” to provide for a ‘transitional’ smart tachograph 2;</Text>
                </P3para>
             </P3>
-            <Error>ERROR can't find context for num. Context is P ExplanatoryNotes Secondary : tblock/num</Error>
-            <Text>amend Article 3 to—</Text>
-            <P4>
-               <Pnumber>i</Pnumber>
-               <P4para>
-                  <Text>allow a smart tachograph 1 to be fitted and used in certain vehicles first registered on or before 20th February 2024 when operating domestically; and</Text>
-               </P4para>
-            </P4>
-            <P4>
-               <Pnumber>ii</Pnumber>
-               <P4para>
-                  <Text>delay the requirement for a smart tachograph 2 to be fitted and used in certain vehicles operating domestically to only those vehicles first registered on or after 21st February 2024.</Text>
-               </P4para>
-            </P4>
-            <Error>ERROR can't find context for num. Context is P ExplanatoryNotes Secondary : tblock/num</Error>
-            <Text>amend Article 8 to—</Text>
-            <P4>
-               <Pnumber>i</Pnumber>
-               <P4para>
-                  <Text>update the date from which certain tachographs must be connected to a positioning service based on a satellite navigation system; and</Text>
-               </P4para>
-            </P4>
-            <P4>
-               <Pnumber>ii</Pnumber>
-               <P4para>
-                  <Text>ensure the date from which a smart tachograph 2 is required, as it applies to vehicles operating domestically, is consistently presented;</Text>
-               </P4para>
-            </P4>
+            <P3>
+               <Pnumber>b</Pnumber>
+               <P3para>
+                  <Text>amend Article 3 to—</Text>
+               </P3para>
+               <P4>
+                  <Pnumber>i</Pnumber>
+                  <P4para>
+                     <Text>allow a smart tachograph 1 to be fitted and used in certain vehicles first registered on or before 20th February 2024 when operating domestically; and</Text>
+                  </P4para>
+               </P4>
+               <P4>
+                  <Pnumber>ii</Pnumber>
+                  <P4para>
+                     <Text>delay the requirement for a smart tachograph 2 to be fitted and used in certain vehicles operating domestically to only those vehicles first registered on or after 21st February 2024.</Text>
+                  </P4para>
+               </P4>
+            </P3>
+            <P3>
+               <Pnumber>c</Pnumber>
+               <P3para>
+                  <Text>amend Article 8 to—</Text>
+               </P3para>
+               <P4>
+                  <Pnumber>i</Pnumber>
+                  <P4para>
+                     <Text>update the date from which certain tachographs must be connected to a positioning service based on a satellite navigation system; and</Text>
+                  </P4para>
+               </P4>
+               <P4>
+                  <Pnumber>ii</Pnumber>
+                  <P4para>
+                     <Text>ensure the date from which a smart tachograph 2 is required, as it applies to vehicles operating domestically, is consistently presented;</Text>
+                  </P4para>
+               </P4>
+            </P3>
             <P3>
                <Pnumber>d</Pnumber>
                <P3para>

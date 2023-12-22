@@ -7,7 +7,7 @@
              xmlns:dc="http://purl.org/dc/elements/1.1/">
       <dc:identifier>http://www.legislation.gov.uk/id/ukpga/2023/55</dc:identifier>
       <dc:title>Levelling-up and Regeneration Act 2023</dc:title>
-      <dc:modified>2023-12-18</dc:modified>
+      <dc:modified>2023-12-22</dc:modified>
       <PrimaryMetadata>
          <DocumentClassification>
             <DocumentCategory Value="primary"/>
@@ -27380,7 +27380,7 @@
                                               TargetSubClass="unknown"
                                               Context="schedule"
                                               Format="double">
-                                 <Pblock>
+                                 <P1group>
                                     <Title>Delegation of planning functions</Title>
                                     <P1 id="p20352">
                                        <Pnumber>10A</Pnumber>
@@ -27530,7 +27530,7 @@
                                           </P2>
                                        </P1para>
                                     </P1>
-                                 </Pblock>
+                                 </P1group>
                               </BlockAmendment>
                               <AppendText/>
                            </P2para>
@@ -35668,7 +35668,7 @@
                                            TargetSubClass="unknown"
                                            Context="schedule"
                                            Format="double">
-                              <Pblock>
+                              <P1group>
                                  <Title>Compulsory transfer to trustees</Title>
                                  <P1>
                                     <Pnumber>9A</Pnumber>
@@ -35819,7 +35819,7 @@
                                        </P2>
                                     </P1para>
                                  </P1>
-                              </Pblock>
+                              </P1group>
                            </BlockAmendment>
                            <AppendText/>
                         </P2para>
@@ -36660,7 +36660,7 @@
                                            TargetSubClass="unknown"
                                            Context="schedule"
                                            Format="double">
-                              <Pblock>
+                              <P1group>
                                  <Title>Proposals relating to certain TfL schemes: opt out</Title>
                                  <P1 id="p26642">
                                     <Pnumber>3A</Pnumber>
@@ -37038,7 +37038,7 @@
                                        </P2>
                                     </P1para>
                                  </P1>
-                              </Pblock>
+                              </P1group>
                            </BlockAmendment>
                            <AppendText/>
                         </P2para>
@@ -37137,7 +37137,7 @@
                                            TargetSubClass="unknown"
                                            Context="schedule"
                                            Format="double">
-                              <Pblock>
+                              <P1group>
                                  <Title>Secretary of State’s intervention power in relation to certain schemes</Title>
                                  <P1 id="p26984">
                                     <Pnumber>4A</Pnumber>
@@ -37235,7 +37235,7 @@
                                        </P2>
                                     </P1para>
                                  </P1>
-                              </Pblock>
+                              </P1group>
                            </BlockAmendment>
                            <AppendText/>
                         </P2para>
@@ -43547,7 +43547,7 @@
                                               TargetSubClass="unknown"
                                               Context="schedule"
                                               Format="double">
-                                 <Pblock>
+                                 <P1group>
                                     <Title>Default powers exercisable by combined county authority</Title>
                                     <P1 id="p31489">
                                        <Pnumber>7ZA</Pnumber>
@@ -43708,7 +43708,7 @@
                                           </P2>
                                        </P1para>
                                     </P1>
-                                 </Pblock>
+                                 </P1group>
                               </BlockAmendment>
                               <AppendText/>
                            </P2para>
@@ -58783,7 +58783,7 @@
                <Part id="schedule-12-part-2">
                   <Number>Part 2</Number>
                   <Title>Consequential amendments</Title>
-                  <Pblock>
+                  <P1group id="schedule-12-part-2-crossheading-local-government-act-1972">
                      <Title>Local Government Act 1972</Title>
                      <P1 id="schedule-12-paragraph-2">
                         <Pnumber>2</Pnumber>
@@ -58803,8 +58803,8 @@
                            <AppendText/>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-12-part-2-crossheading-town-and-country-planning-act-1990">
                      <Title>Town and Country Planning Act 1990</Title>
                      <P1 id="schedule-12-paragraph-3">
                         <Pnumber>3</Pnumber>
@@ -58812,8 +58812,8 @@
                            <Text>In section 70(4) of the TCPA 1990 (determination of applications: general considerations), in paragraph (b) of the definition of “local finance consideration”, after “payment of” insert “Infrastructure Levy or”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-12-part-2-crossheading-deregulation-and-contracting-out-act-1994">
                      <Title>Deregulation and Contracting Out Act 1994</Title>
                      <P1 id="schedule-12-paragraph-4">
                         <Pnumber>4</Pnumber>
@@ -58833,8 +58833,8 @@
                            <AppendText>.</AppendText>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-12-part-2-crossheading-planning-act-2008">
                      <Title>Planning Act 2008</Title>
                      <P1 id="schedule-12-paragraph-5">
                         <Pnumber>5</Pnumber>
@@ -58872,7 +58872,7 @@
                            <Text>In section 232(1)(d) (orders and regulations), after “Part” insert “10A or”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
             </ScheduleBody>
          </Schedule>
@@ -59280,238 +59280,246 @@
                <Part id="schedule-14-part-1">
                   <Number>Part 1</Number>
                   <Title>United Kingdom and England and Wales</Title>
-                  <Pblock>
+                  <P1group id="schedule-14-part-1-crossheading-united-kingdom-and-england-and-wales">
                      <Title>United Kingdom and England and Wales</Title>
-                     <UnorderedList Decoration="bullet">
-                        <ListItem NumberOverride="•">
-                           <Para>
-                              <Text>Schedule 3 to the Harbours Act 1964 (procedure for making harbour revision and empowerment orders) so far as relating to environmental impact assessments;</Text>
-                           </Para>
-                        </ListItem>
-                        <ListItem NumberOverride="•">
-                           <Para>
-                              <Text>Part 5A of the Highways Act 1980 (environmental impact assessments);</Text>
-                           </Para>
-                        </ListItem>
-                        <ListItem NumberOverride="•">
-                           <Para>
-                              <Text>Sections 13A to 13D of the Transport and Works Act 1992 (environmental impact assessments);</Text>
-                           </Para>
-                        </ListItem>
-                        <ListItem NumberOverride="•">
-                           <Para>
-                              <Text>The Offshore Petroleum Production and Pipe-lines (Assessment of Environmental Effects) Regulations 1999 (S.I. 1999/360);</Text>
-                           </Para>
-                        </ListItem>
-                        <ListItem NumberOverride="•">
-                           <Para>
-                              <Text>The Public Gas Transporter Pipe-line Works (Environmental Impact Assessment) Regulations 1999 (S.I. 1999/1672);</Text>
-                           </Para>
-                        </ListItem>
-                        <ListItem NumberOverride="•">
-                           <Para>
-                              <Text>The Environmental Impact Assessment (Land Drainage Improvement Works) Regulations 1999 (S.I. 1999/1783);</Text>
-                           </Para>
-                        </ListItem>
-                        <ListItem NumberOverride="•">
-                           <Para>
-                              <Text>The Environmental Impact Assessment (Forestry) (England and Wales) Regulations 1999 (S.I. 1999/2228);</Text>
-                           </Para>
-                        </ListItem>
-                        <ListItem NumberOverride="•">
-                           <Para>
-                              <Text>The Nuclear Reactors (Environmental Impact Assessment for Decommissioning) Regulations 1999 (S.I. 1999/2892);</Text>
-                           </Para>
-                        </ListItem>
-                        <ListItem NumberOverride="•">
-                           <Para>
-                              <Text>The Pipe-line Works (Environmental Impact Assessment) Regulations 2000 (S.I. 2000/1928);</Text>
-                           </Para>
-                        </ListItem>
-                        <ListItem NumberOverride="•">
-                           <Para>
-                              <Text>The Water Resources (Environmental Impact Assessment) (England and Wales) Regulations 2003 (S.I. 2003/164);</Text>
-                           </Para>
-                        </ListItem>
-                        <ListItem NumberOverride="•">
-                           <Para>
-                              <Text>The Environmental Assessment of Plans and Programmes Regulations 2004 (S.I. 2004/1633);</Text>
-                           </Para>
-                        </ListItem>
-                        <ListItem NumberOverride="•">
-                           <Para>
-                              <Text>The Transport and Works (Applications and Objections Procedure)(England and Wales) Rules 2006 (S.I. 2006/1466) so far as dealing with environmental matters;</Text>
-                           </Para>
-                        </ListItem>
-                        <ListItem NumberOverride="•">
-                           <Para>
-                              <Text>The Environmental Impact Assessment (Agriculture) (England) (No. 2) Regulations 2006 (S.I. 2006/2522);</Text>
-                           </Para>
-                        </ListItem>
-                        <ListItem NumberOverride="•">
-                           <Para>
-                              <Text>The Marine Works (Environmental Impact Assessment) Regulations 2007 (S.I. 2007/1518);</Text>
-                           </Para>
-                        </ListItem>
-                        <ListItem NumberOverride="•">
-                           <Para>
-                              <Text>The Town and Country Planning (Environmental Impact Assessment) Regulations 2017 (S.I. 2017/571);</Text>
-                           </Para>
-                        </ListItem>
-                        <ListItem NumberOverride="•">
-                           <Para>
-                              <Text>The Infrastructure Planning (Environmental Impact Assessment) Regulations 2017 (S.I. 2017/572);</Text>
-                           </Para>
-                        </ListItem>
-                        <ListItem NumberOverride="•">
-                           <Para>
-                              <Text>The Electricity Works (Environmental Impact Assessment) (England and Wales) Regulations 2017 (S.I. 2017/580);</Text>
-                           </Para>
-                        </ListItem>
-                        <ListItem NumberOverride="•">
-                           <Para>
-                              <Text>The Offshore Oil and Gas Exploration, Production, Unloading and Storage (Environmental Impact Assessment) Regulations 2020 (S.I. 2020/1497).</Text>
-                           </Para>
-                        </ListItem>
-                     </UnorderedList>
-                  </Pblock>
+                     <P>
+                        <UnorderedList Decoration="bullet">
+                           <ListItem NumberOverride="•">
+                              <Para>
+                                 <Text>Schedule 3 to the Harbours Act 1964 (procedure for making harbour revision and empowerment orders) so far as relating to environmental impact assessments;</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem NumberOverride="•">
+                              <Para>
+                                 <Text>Part 5A of the Highways Act 1980 (environmental impact assessments);</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem NumberOverride="•">
+                              <Para>
+                                 <Text>Sections 13A to 13D of the Transport and Works Act 1992 (environmental impact assessments);</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem NumberOverride="•">
+                              <Para>
+                                 <Text>The Offshore Petroleum Production and Pipe-lines (Assessment of Environmental Effects) Regulations 1999 (S.I. 1999/360);</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem NumberOverride="•">
+                              <Para>
+                                 <Text>The Public Gas Transporter Pipe-line Works (Environmental Impact Assessment) Regulations 1999 (S.I. 1999/1672);</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem NumberOverride="•">
+                              <Para>
+                                 <Text>The Environmental Impact Assessment (Land Drainage Improvement Works) Regulations 1999 (S.I. 1999/1783);</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem NumberOverride="•">
+                              <Para>
+                                 <Text>The Environmental Impact Assessment (Forestry) (England and Wales) Regulations 1999 (S.I. 1999/2228);</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem NumberOverride="•">
+                              <Para>
+                                 <Text>The Nuclear Reactors (Environmental Impact Assessment for Decommissioning) Regulations 1999 (S.I. 1999/2892);</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem NumberOverride="•">
+                              <Para>
+                                 <Text>The Pipe-line Works (Environmental Impact Assessment) Regulations 2000 (S.I. 2000/1928);</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem NumberOverride="•">
+                              <Para>
+                                 <Text>The Water Resources (Environmental Impact Assessment) (England and Wales) Regulations 2003 (S.I. 2003/164);</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem NumberOverride="•">
+                              <Para>
+                                 <Text>The Environmental Assessment of Plans and Programmes Regulations 2004 (S.I. 2004/1633);</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem NumberOverride="•">
+                              <Para>
+                                 <Text>The Transport and Works (Applications and Objections Procedure)(England and Wales) Rules 2006 (S.I. 2006/1466) so far as dealing with environmental matters;</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem NumberOverride="•">
+                              <Para>
+                                 <Text>The Environmental Impact Assessment (Agriculture) (England) (No. 2) Regulations 2006 (S.I. 2006/2522);</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem NumberOverride="•">
+                              <Para>
+                                 <Text>The Marine Works (Environmental Impact Assessment) Regulations 2007 (S.I. 2007/1518);</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem NumberOverride="•">
+                              <Para>
+                                 <Text>The Town and Country Planning (Environmental Impact Assessment) Regulations 2017 (S.I. 2017/571);</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem NumberOverride="•">
+                              <Para>
+                                 <Text>The Infrastructure Planning (Environmental Impact Assessment) Regulations 2017 (S.I. 2017/572);</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem NumberOverride="•">
+                              <Para>
+                                 <Text>The Electricity Works (Environmental Impact Assessment) (England and Wales) Regulations 2017 (S.I. 2017/580);</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem NumberOverride="•">
+                              <Para>
+                                 <Text>The Offshore Oil and Gas Exploration, Production, Unloading and Storage (Environmental Impact Assessment) Regulations 2020 (S.I. 2020/1497).</Text>
+                              </Para>
+                           </ListItem>
+                        </UnorderedList>
+                     </P>
+                  </P1group>
                </Part>
                <Part id="schedule-14-part-2">
                   <Number>Part 2</Number>
                   <Title>Scotland</Title>
-                  <Pblock>
+                  <P1group id="schedule-14-part-2-crossheading-scotland">
                      <Title>Scotland</Title>
-                     <UnorderedList Decoration="bullet">
-                        <ListItem NumberOverride="•">
-                           <Para>
-                              <Text>Schedule 3 to the Harbours Act 1964 so far as relating to environmental impact assessments in Scotland;</Text>
-                           </Para>
-                        </ListItem>
-                        <ListItem NumberOverride="•">
-                           <Para>
-                              <Text>Sections 20A to 20G, 22A, 22B and 55A to 55D of the Roads (Scotland) Act 1984 (environmental assessment of certain road construction and improvement projects);</Text>
-                           </Para>
-                        </ListItem>
-                        <ListItem NumberOverride="•">
-                           <Para>
-                              <Text>The Environmental Assessment (Scotland) Act 2005;</Text>
-                           </Para>
-                        </ListItem>
-                        <ListItem NumberOverride="•">
-                           <Para>
-                              <Text>The Transport and Works (Scotland) Act 2007;</Text>
-                           </Para>
-                        </ListItem>
-                        <ListItem NumberOverride="•">
-                           <Para>
-                              <Text>The Transport and Works (Scotland) Act 2007 (Applications and Objections Procedure) Rules 2007;</Text>
-                           </Para>
-                        </ListItem>
-                        <ListItem NumberOverride="•">
-                           <Para>
-                              <Text>The Electricity Works (Environmental Impact Assessment) (Scotland) Regulations 2017 (S.S.I. 2017/101);</Text>
-                           </Para>
-                        </ListItem>
-                        <ListItem NumberOverride="•">
-                           <Para>
-                              <Text>The Town and Country Planning (Environmental Impact Assessment) (Scotland) Regulations 2017 (S.S.I. 2017/102);</Text>
-                           </Para>
-                        </ListItem>
-                        <ListItem NumberOverride="•">
-                           <Para>
-                              <Text>The Forestry (Environmental Impact Assessment) (Scotland) Regulations 2017 (S.S.I. 2017/113);</Text>
-                           </Para>
-                        </ListItem>
-                        <ListItem NumberOverride="•">
-                           <Para>
-                              <Text>The Agriculture, Land Drainage and Irrigation Projects (Environmental Impact Assessment) (Scotland) Regulations 2017 (S.S.I. 2017/114);</Text>
-                           </Para>
-                        </ListItem>
-                        <ListItem NumberOverride="•">
-                           <Para>
-                              <Text>The Marine Works (Environmental Impact Assessment) (Scotland) Regulations 2017 (S.S.I. 2017/115).</Text>
-                           </Para>
-                        </ListItem>
-                     </UnorderedList>
-                  </Pblock>
+                     <P>
+                        <UnorderedList Decoration="bullet">
+                           <ListItem NumberOverride="•">
+                              <Para>
+                                 <Text>Schedule 3 to the Harbours Act 1964 so far as relating to environmental impact assessments in Scotland;</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem NumberOverride="•">
+                              <Para>
+                                 <Text>Sections 20A to 20G, 22A, 22B and 55A to 55D of the Roads (Scotland) Act 1984 (environmental assessment of certain road construction and improvement projects);</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem NumberOverride="•">
+                              <Para>
+                                 <Text>The Environmental Assessment (Scotland) Act 2005;</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem NumberOverride="•">
+                              <Para>
+                                 <Text>The Transport and Works (Scotland) Act 2007;</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem NumberOverride="•">
+                              <Para>
+                                 <Text>The Transport and Works (Scotland) Act 2007 (Applications and Objections Procedure) Rules 2007;</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem NumberOverride="•">
+                              <Para>
+                                 <Text>The Electricity Works (Environmental Impact Assessment) (Scotland) Regulations 2017 (S.S.I. 2017/101);</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem NumberOverride="•">
+                              <Para>
+                                 <Text>The Town and Country Planning (Environmental Impact Assessment) (Scotland) Regulations 2017 (S.S.I. 2017/102);</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem NumberOverride="•">
+                              <Para>
+                                 <Text>The Forestry (Environmental Impact Assessment) (Scotland) Regulations 2017 (S.S.I. 2017/113);</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem NumberOverride="•">
+                              <Para>
+                                 <Text>The Agriculture, Land Drainage and Irrigation Projects (Environmental Impact Assessment) (Scotland) Regulations 2017 (S.S.I. 2017/114);</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem NumberOverride="•">
+                              <Para>
+                                 <Text>The Marine Works (Environmental Impact Assessment) (Scotland) Regulations 2017 (S.S.I. 2017/115).</Text>
+                              </Para>
+                           </ListItem>
+                        </UnorderedList>
+                     </P>
+                  </P1group>
                </Part>
                <Part id="schedule-14-part-3">
                   <Number>Part 3</Number>
                   <Title>Wales</Title>
-                  <Pblock>
+                  <P1group id="schedule-14-part-3-crossheading-wales">
                      <Title>Wales</Title>
-                     <UnorderedList Decoration="bullet">
-                        <ListItem NumberOverride="•">
-                           <Para>
-                              <Text>The Environmental Assessment of Plans and Programmes (Wales) Regulations 2004 (S.I. 2004/1656);</Text>
-                           </Para>
-                        </ListItem>
-                        <ListItem NumberOverride="•">
-                           <Para>
-                              <Text>The Town and Country Planning (Environmental Impact Assessment) (Undetermined Reviews of Old Mineral Permissions) (Wales) Regulations 2009 (S.I. 2009/3342);</Text>
-                           </Para>
-                        </ListItem>
-                        <ListItem NumberOverride="•">
-                           <Para>
-                              <Text>The Town and Country Planning (Environmental Impact Assessment) (Wales) Regulations 2016 (S.I. 2016/58);</Text>
-                           </Para>
-                        </ListItem>
-                        <ListItem NumberOverride="•">
-                           <Para>
-                              <Text>The Environmental Impact Assessment (Agriculture) (Wales) Regulations 2017 (S.I. 2017/565);</Text>
-                           </Para>
-                        </ListItem>
-                        <ListItem NumberOverride="•">
-                           <Para>
-                              <Text>The Town and Country Planning (Environmental Impact Assessment) (Wales) Regulations 2017 (S.I. 2017/567).</Text>
-                           </Para>
-                        </ListItem>
-                     </UnorderedList>
-                  </Pblock>
+                     <P>
+                        <UnorderedList Decoration="bullet">
+                           <ListItem NumberOverride="•">
+                              <Para>
+                                 <Text>The Environmental Assessment of Plans and Programmes (Wales) Regulations 2004 (S.I. 2004/1656);</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem NumberOverride="•">
+                              <Para>
+                                 <Text>The Town and Country Planning (Environmental Impact Assessment) (Undetermined Reviews of Old Mineral Permissions) (Wales) Regulations 2009 (S.I. 2009/3342);</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem NumberOverride="•">
+                              <Para>
+                                 <Text>The Town and Country Planning (Environmental Impact Assessment) (Wales) Regulations 2016 (S.I. 2016/58);</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem NumberOverride="•">
+                              <Para>
+                                 <Text>The Environmental Impact Assessment (Agriculture) (Wales) Regulations 2017 (S.I. 2017/565);</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem NumberOverride="•">
+                              <Para>
+                                 <Text>The Town and Country Planning (Environmental Impact Assessment) (Wales) Regulations 2017 (S.I. 2017/567).</Text>
+                              </Para>
+                           </ListItem>
+                        </UnorderedList>
+                     </P>
+                  </P1group>
                </Part>
                <Part id="schedule-14-part-4">
                   <Number>Part 4</Number>
                   <Title>Northern Ireland</Title>
-                  <Pblock>
+                  <P1group id="schedule-14-part-4-crossheading-northern-ireland">
                      <Title>Northern Ireland</Title>
-                     <UnorderedList Decoration="bullet">
-                        <ListItem NumberOverride="•">
-                           <Para>
-                              <Text>Part V of the Roads (Northern Ireland) Order 1993 (S.I. 1993/3160 (N.I. 15));</Text>
-                           </Para>
-                        </ListItem>
-                        <ListItem NumberOverride="•">
-                           <Para>
-                              <Text>The Planning (Environmental Impact Assessment) Regulations (Northern Ireland) 1999 (S.R. (N.I.) 1999/73);</Text>
-                           </Para>
-                        </ListItem>
-                        <ListItem NumberOverride="•">
-                           <Para>
-                              <Text>The Environmental Assessment of Plans and Programmes Regulations (Northern Ireland) 2004 (S.R. (N.I.) 2004/280);</Text>
-                           </Para>
-                        </ListItem>
-                        <ListItem NumberOverride="•">
-                           <Para>
-                              <Text>The Water Resources (Environmental Impact Assessment) Regulations (Northern Ireland) 2005 (S.R. (N.I.) 2005/32);</Text>
-                           </Para>
-                        </ListItem>
-                        <ListItem NumberOverride="•">
-                           <Para>
-                              <Text>The Environmental Impact Assessment (Forestry) Regulations (Northern Ireland) 2006 (S.R. (N.I.) 2006/518);</Text>
-                           </Para>
-                        </ListItem>
-                        <ListItem NumberOverride="•">
-                           <Para>
-                              <Text>The Environmental Impact Assessment (Agriculture) Regulations (Northern Ireland) 2007 (S.R. (N.I.) 2007/421);</Text>
-                           </Para>
-                        </ListItem>
-                        <ListItem NumberOverride="•">
-                           <Para>
-                              <Text>The Planning Act (Northern Ireland) 2011 (c. 25 (N.I.)).</Text>
-                           </Para>
-                        </ListItem>
-                     </UnorderedList>
-                  </Pblock>
+                     <P>
+                        <UnorderedList Decoration="bullet">
+                           <ListItem NumberOverride="•">
+                              <Para>
+                                 <Text>Part V of the Roads (Northern Ireland) Order 1993 (S.I. 1993/3160 (N.I. 15));</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem NumberOverride="•">
+                              <Para>
+                                 <Text>The Planning (Environmental Impact Assessment) Regulations (Northern Ireland) 1999 (S.R. (N.I.) 1999/73);</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem NumberOverride="•">
+                              <Para>
+                                 <Text>The Environmental Assessment of Plans and Programmes Regulations (Northern Ireland) 2004 (S.R. (N.I.) 2004/280);</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem NumberOverride="•">
+                              <Para>
+                                 <Text>The Water Resources (Environmental Impact Assessment) Regulations (Northern Ireland) 2005 (S.R. (N.I.) 2005/32);</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem NumberOverride="•">
+                              <Para>
+                                 <Text>The Environmental Impact Assessment (Forestry) Regulations (Northern Ireland) 2006 (S.R. (N.I.) 2006/518);</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem NumberOverride="•">
+                              <Para>
+                                 <Text>The Environmental Impact Assessment (Agriculture) Regulations (Northern Ireland) 2007 (S.R. (N.I.) 2007/421);</Text>
+                              </Para>
+                           </ListItem>
+                           <ListItem NumberOverride="•">
+                              <Para>
+                                 <Text>The Planning Act (Northern Ireland) 2011 (c. 25 (N.I.)).</Text>
+                              </Para>
+                           </ListItem>
+                        </UnorderedList>
+                     </P>
+                  </P1group>
                </Part>
             </ScheduleBody>
          </Schedule>
@@ -62559,7 +62567,7 @@
                                               TargetSubClass="unknown"
                                               Context="schedule"
                                               Format="double">
-                                 <Pblock>
+                                 <P1group>
                                     <Title>Final day for making objections</Title>
                                     <P1>
                                        <Pnumber>3A</Pnumber>
@@ -62602,7 +62610,7 @@
                                           </P2>
                                        </P1para>
                                     </P1>
-                                 </Pblock>
+                                 </P1group>
                               </BlockAmendment>
                               <AppendText/>
                            </P2para>
@@ -65286,7 +65294,7 @@
                <Part id="schedule-24-part-2">
                   <Number>Part 2</Number>
                   <Title>Scrutiny of regulations</Title>
-                  <Pblock>
+                  <P1group id="schedule-24-part-2-crossheading-scrutiny-of-regulations-made-by-secretary-of-state-or-devolved-authority-acting-alone">
                      <Title>Scrutiny of regulations made by Secretary of State or devolved authority acting alone</Title>
                      <P1 id="schedule-24-paragraph-2">
                         <Pnumber>2</Pnumber>
@@ -65419,8 +65427,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-24-part-2-crossheading-scrutiny-of-regulations-made-by-the-secretary-of-state-and-devolved-authority-acting-jointly">
                      <Title>Scrutiny of regulations made by the Secretary of State and devolved authority acting jointly</Title>
                      <P1 id="schedule-24-paragraph-5">
                         <Pnumber>5</Pnumber>
@@ -65644,8 +65652,8 @@
                            <Text>Paragraph <InternalLink Ref="schedule-24-paragraph-6">6</InternalLink> does not apply if a draft of the instrument has been laid before, and approved by a resolution of, each House of Parliament.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-24-part-2-crossheading-interpretation">
                      <Title>Interpretation</Title>
                      <P1 id="schedule-24-paragraph-8">
                         <Pnumber>8</Pnumber>
@@ -65671,7 +65679,7 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
             </ScheduleBody>
          </Schedule>

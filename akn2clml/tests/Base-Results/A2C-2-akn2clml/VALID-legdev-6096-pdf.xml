@@ -6,7 +6,7 @@
    <Metadata xmlns="http://www.legislation.gov.uk/namespaces/metadata"
              xmlns:dc="http://purl.org/dc/elements/1.1/">
       <dc:title>The Vehicle Emissions Trading Schemes Order 2023</dc:title>
-      <dc:modified>2023-12-18</dc:modified>
+      <dc:modified>2023-12-22</dc:modified>
       <SecondaryMetadata>
          <DocumentClassification>
             <DocumentCategory Value="secondary"/>
@@ -313,7 +313,7 @@
                                        </ListItem>
                                        <ListItem>
                                           <Para>
-                                             <Text>in relation to a completed van which is not within paragraph <InternalLink Ref="d23e1237-e">(e)</InternalLink>, the base vehicle of which has a certificate of conformity, means the person identified as the manufacturer on that certificate of conformity;</Text>
+                                             <Text>in relation to a completed van which is not within paragraph <InternalLink Ref="d24e1237-e">(e)</InternalLink>, the base vehicle of which has a certificate of conformity, means the person identified as the manufacturer on that certificate of conformity;</Text>
                                           </Para>
                                        </ListItem>
                                        <ListItem>
@@ -1175,7 +1175,7 @@
                         <P2 id="article-11-4">
                            <Pnumber>4</Pnumber>
                            <P2para>
-                              <Text>Where there is any doubt as to the identification of the manufacturer of a car in accordance with paragraph <InternalLink Ref="d23e1237-a">(a)</InternalLink> or <InternalLink Ref="d23e1237-b">(b)</InternalLink> of the definition of “manufacturer” in <InternalLink Ref="article-3">article 3</InternalLink>
+                              <Text>Where there is any doubt as to the identification of the manufacturer of a car in accordance with paragraph <InternalLink Ref="d24e1237-a">(a)</InternalLink> or <InternalLink Ref="d24e1237-b">(b)</InternalLink> of the definition of “manufacturer” in <InternalLink Ref="article-3">article 3</InternalLink>
                                  <InternalLink Ref="article-3-1">(1)</InternalLink>, the administrator may identify the CRTS participant in relation to the registration of that car.</Text>
                            </P2para>
                         </P2>
@@ -2724,7 +2724,7 @@
                         <P2 id="article-32-3">
                            <Pnumber>3</Pnumber>
                            <P2para>
-                              <Text>Where there is any doubt as to the identification of the manufacturer of a car in accordance with paragraph <InternalLink Ref="d23e1237-a">(a)</InternalLink> or <InternalLink Ref="d23e1237-b">(b)</InternalLink> of the definition of “manufacturer” in <InternalLink Ref="article-3">article 3</InternalLink>
+                              <Text>Where there is any doubt as to the identification of the manufacturer of a car in accordance with paragraph <InternalLink Ref="d24e1237-a">(a)</InternalLink> or <InternalLink Ref="d24e1237-b">(b)</InternalLink> of the definition of “manufacturer” in <InternalLink Ref="article-3">article 3</InternalLink>
                                  <InternalLink Ref="article-3-1">(1)</InternalLink>, the administrator may identify the CCTS participant in relation to the registration of that car.</Text>
                            </P2para>
                         </P2>
@@ -3230,7 +3230,7 @@
                         <P2 id="article-43-4">
                            <Pnumber>4</Pnumber>
                            <P2para>
-                              <Text>Where there is any doubt as to the identification of the manufacturer of a van in accordance with paragraphs <InternalLink Ref="d23e1237-a">(a)</InternalLink> to <InternalLink Ref="d23e1237-e">(e)</InternalLink> of the definition of “manufacturer” in <InternalLink Ref="article-3">article 3</InternalLink>
+                              <Text>Where there is any doubt as to the identification of the manufacturer of a van in accordance with paragraphs <InternalLink Ref="d24e1237-a">(a)</InternalLink> to <InternalLink Ref="d24e1237-e">(e)</InternalLink> of the definition of “manufacturer” in <InternalLink Ref="article-3">article 3</InternalLink>
                                  <InternalLink Ref="article-3-1">(1)</InternalLink>, the administrator may identify the VRTS participant in relation to the registration of that van.</Text>
                            </P2para>
                         </P2>
@@ -4754,7 +4754,7 @@
                         <P2 id="article-64-3">
                            <Pnumber>3</Pnumber>
                            <P2para>
-                              <Text>Where there is any doubt as to the identification of the manufacturer of a van in accordance with paragraphs <InternalLink Ref="d23e1237-a">(a)</InternalLink> to <InternalLink Ref="d23e1237-e">(e)</InternalLink> of the definition of “manufacturer” in <InternalLink Ref="article-3">article 3</InternalLink>
+                              <Text>Where there is any doubt as to the identification of the manufacturer of a van in accordance with paragraphs <InternalLink Ref="d24e1237-a">(a)</InternalLink> to <InternalLink Ref="d24e1237-e">(e)</InternalLink> of the definition of “manufacturer” in <InternalLink Ref="article-3">article 3</InternalLink>
                                  <InternalLink Ref="article-3-1">(1)</InternalLink>, the administrator may identify the VCTS participant in relation to the registration of that van.</Text>
                            </P2para>
                         </P2>
@@ -9066,7 +9066,7 @@
                <Part id="schedule-1-part-1">
                   <Number>Part 1</Number>
                   <Title>Baseline for the CCTS</Title>
-                  <Pblock>
+                  <P1group id="schedule-1-part-1-crossheading-interpretation-and-general">
                      <Title>Interpretation and general</Title>
                      <P1 id="schedule-1-paragraph-1">
                         <Pnumber>1</Pnumber>
@@ -9250,8 +9250,8 @@
                            <Text>A baseline which is calculated in accordance with this Part, if not a whole number, is calculated to three decimal places only.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-1-part-1-crossheading-existing-manufacturer-which-met-2021-target">
                      <Title>Existing manufacturer which met 2021 target</Title>
                      <P1 id="schedule-1-paragraph-5">
                         <Pnumber>5</Pnumber>
@@ -9301,8 +9301,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-1-part-1-crossheading-exempt-manufacturer-for-2021">
                      <Title>Exempt manufacturer for 2021</Title>
                      <P1 id="schedule-1-paragraph-7">
                         <Pnumber>7</Pnumber>
@@ -9310,8 +9310,8 @@
                            <Text>The baseline for a CCTS participant which was an exempt manufacturer for 2021 is the manufacturer’s 2021 individual NZE average emissions.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-1-part-1-crossheading-existing-manufacturer-which-did-not-meet-2021-target">
                      <Title>Existing manufacturer which did not meet 2021 target</Title>
                      <P1 id="schedule-1-paragraph-8">
                         <Pnumber>8</Pnumber>
@@ -9371,8 +9371,8 @@
                            </UnorderedList>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-1-part-1-crossheading-existing-manufacturer-in-non-compliant-pool-met-individual-2021-target">
                      <Title>Existing manufacturer in non-compliant pool met individual 2021 target</Title>
                      <P1 id="schedule-1-paragraph-10">
                         <Pnumber>10</Pnumber>
@@ -9423,8 +9423,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-1-part-1-crossheading-existing-manufacturer-in-non-compliant-pool-did-not-meet-individual-2021-target">
                      <Title>Existing manufacturer in non-compliant pool did not meet individual 2021 target</Title>
                      <P1 id="schedule-1-paragraph-12">
                         <Pnumber>12</Pnumber>
@@ -9491,8 +9491,8 @@
                            </UnorderedList>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-1-part-1-crossheading-new-manufacturer-in-2022">
                      <Title>New manufacturer in 2022</Title>
                      <P1 id="schedule-1-paragraph-14">
                         <Pnumber>14</Pnumber>
@@ -9524,8 +9524,8 @@
                            <Text>Where this paragraph applies, the CCTS participant’s baseline is the average of the adjusted specific emissions of CO<Inferior>2</Inferior> of the non-ZE cars of which that CCTS participant is the manufacturer and which were registered during 2022.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-1-part-1-crossheading-new-manufacturer-in-2023">
                      <Title>New manufacturer in 2023</Title>
                      <P1 id="schedule-1-paragraph-16">
                         <Pnumber>16</Pnumber>
@@ -9563,8 +9563,8 @@
                            <Text>Where this paragraph applies, the CCTS participant’s baseline is the average of the adjusted specific emissions of CO<Inferior>2</Inferior> of the non-ZE cars of which that CCTS participant is the manufacturer and which were registered during 2023.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-1-part-1-crossheading-new-manufacturer-from-2024">
                      <Title>New manufacturer from 2024</Title>
                      <P1 id="schedule-1-paragraph-18">
                         <Pnumber>18</Pnumber>
@@ -9602,8 +9602,8 @@
                            <Text>Where this paragraph applies, the CCTS participant’s baseline is the average of the adjusted specific emissions of CO<Inferior>2</Inferior> of all the non-ZE cars registered during the calendar year preceding the scheme year in which the participant first becomes a CCTS participant, or a member of a pool CCTS participant.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-1-part-1-crossheading-pool-ccts-participant">
                      <Title>Pool CCTS participant</Title>
                      <P1 id="schedule-1-paragraph-20">
                         <Pnumber>20</Pnumber>
@@ -9696,12 +9696,12 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-1-part-2">
                   <Number>Part 2</Number>
                   <Title>Baseline for the VCTS</Title>
-                  <Pblock>
+                  <P1group id="schedule-1-part-2-crossheading-interpretation-and-general">
                      <Title>Interpretation and general</Title>
                      <P1 id="schedule-1-paragraph-21">
                         <Pnumber>21</Pnumber>
@@ -9885,8 +9885,8 @@
                            <Text>A baseline which is calculated in accordance with this Part, if not a whole number, is calculated to three decimal places only.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-1-part-2-crossheading-existing-manufacturer-which-met-2021-target">
                      <Title>Existing manufacturer which met 2021 target</Title>
                      <P1 id="schedule-1-paragraph-25">
                         <Pnumber>25</Pnumber>
@@ -9936,8 +9936,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-1-part-2-crossheading-exempt-manufacturer-for-2021">
                      <Title>Exempt manufacturer for 2021</Title>
                      <P1 id="schedule-1-paragraph-27">
                         <Pnumber>27</Pnumber>
@@ -9945,8 +9945,8 @@
                            <Text>The baseline for a VCTS participant which was an exempt manufacturer for 2021 is the manufacturer’s 2021 individual NZE average emissions.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-1-part-2-crossheading-existing-manufacturer-which-did-not-meet-2021-target">
                      <Title>Existing manufacturer which did not meet 2021 target</Title>
                      <P1 id="schedule-1-paragraph-28">
                         <Pnumber>28</Pnumber>
@@ -10006,8 +10006,8 @@
                            </UnorderedList>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-1-part-2-crossheading-existing-manufacturer-in-non-compliant-pool-met-individual-2021-target">
                      <Title>Existing manufacturer in non-compliant pool met individual 2021 target</Title>
                      <P1 id="schedule-1-paragraph-30">
                         <Pnumber>30</Pnumber>
@@ -10058,8 +10058,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-1-part-2-crossheading-existing-manufacturer-in-non-compliant-pool-did-not-meet-individual-2021-target">
                      <Title>Existing manufacturer in non-compliant pool did not meet individual 2021 target</Title>
                      <P1 id="schedule-1-paragraph-32">
                         <Pnumber>32</Pnumber>
@@ -10126,8 +10126,8 @@
                            </UnorderedList>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-1-part-2-crossheading-new-manufacturer-in-2022">
                      <Title>New manufacturer in 2022</Title>
                      <P1 id="schedule-1-paragraph-34">
                         <Pnumber>34</Pnumber>
@@ -10159,8 +10159,8 @@
                            <Text>Where this paragraph applies, the VCTS participant’s baseline is the average of the adjusted specific emissions of CO<Inferior>2</Inferior> of the non-ZE vans of which that VCTS participant is the manufacturer and which were registered during 2022.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-1-part-2-crossheading-new-manufacturer-in-2023">
                      <Title>New manufacturer in 2023</Title>
                      <P1 id="schedule-1-paragraph-36">
                         <Pnumber>36</Pnumber>
@@ -10198,8 +10198,8 @@
                            <Text>Where this paragraph applies, the VCTS participant’s baseline is the average of the adjusted specific emissions of CO<Inferior>2</Inferior> of the non-ZE vans of which that VCTS participant is the manufacturer and which were registered during 2023.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-1-part-2-crossheading-new-manufacturer-from-2024">
                      <Title>New manufacturer from 2024</Title>
                      <P1 id="schedule-1-paragraph-38">
                         <Pnumber>38</Pnumber>
@@ -10237,8 +10237,8 @@
                            <Text>Where this paragraph applies, the VCTS participant’s baseline is the average of the adjusted specific emissions of CO<Inferior>2</Inferior> of all the non-ZE vans registered during the calendar year preceding the scheme year in which the participant first becomes a VCTS participant, or a member of a group of manufacturers which is a pool VCTS participant.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-1-part-2-crossheading-pool-vcts-participant">
                      <Title>Pool VCTS participant</Title>
                      <P1 id="schedule-1-paragraph-40">
                         <Pnumber>40</Pnumber>
@@ -10331,7 +10331,7 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
             </ScheduleBody>
          </Schedule>

@@ -7,7 +7,7 @@
              xmlns:dc="http://purl.org/dc/elements/1.1/">
       <dc:identifier>http://www.legislation.gov.uk/id/uksi/2023/1066</dc:identifier>
       <dc:title>The Local Government and Greater London Authority Elections (Miscellaneous Amendments) Regulations 2023</dc:title>
-      <dc:modified>2023-12-18</dc:modified>
+      <dc:modified>2023-12-22</dc:modified>
       <SecondaryMetadata>
          <DocumentClassification>
             <DocumentCategory Value="secondary"/>
@@ -2073,7 +2073,7 @@
                <Part id="schedule-1-part-1">
                   <Number>Part 1</Number>
                   <Title>Interpretation and general savings</Title>
-                  <Pblock>
+                  <P1group id="schedule-1-part-1-crossheading-interpretation">
                      <Title>Interpretation</Title>
                      <P1 id="schedule-1-paragraph-1">
                         <Pnumber>1</Pnumber>
@@ -2120,8 +2120,8 @@
                            </UnorderedList>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-1-part-1-crossheading-savings-for-elections-for-which-the-notice-of-election-was-published-on-or-before-31st-october-2023">
                      <Title>Savings for elections for which the notice of election was published on or before 31st October 2023</Title>
                      <P1 id="schedule-1-paragraph-2">
                         <Pnumber>2</Pnumber>
@@ -2129,8 +2129,8 @@
                            <Text>The amendments made by regulations 3(5) and (13), 4(5) and (13) and 5(5), (11), (17), (23), (29) and (35) do not apply in relation to an election in respect of which the notice of election was published in accordance with the relevant rule on or before 31st October 2023.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-1-part-1-crossheading-savings-for-elections-for-which-the-date-of-poll-is-on-or-before-1st-may-2024">
                      <Title>Savings for elections for which the date of poll is on or before 1st May 2024</Title>
                      <P1 id="schedule-1-paragraph-3">
                         <Pnumber>3</Pnumber>
@@ -2156,8 +2156,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-1-part-1-crossheading-savings-for-elections-for-which-the-date-of-poll-is-on-or-before-6th-may-2024">
                      <Title>Savings for elections for which the date of poll is on or before 6th May 2024</Title>
                      <P1 id="schedule-1-paragraph-4">
                         <Pnumber>4</Pnumber>
@@ -2165,8 +2165,8 @@
                            <Text>The amendments made by regulations 3(9)(b) and (18)(b), 4(9)(b) and (17)(b) and 5(38)(d) do not apply in relation to an election in respect of which the date of the poll as specified in the notice of election published in accordance with the relevant rule is on or before 6th May 2024.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-1-part-1-crossheading-modification-of-forms-used-for-an-election-in-the-period-beginning-with-2nd-may-2024-and-ending-with-6th-may-2024">
                      <Title>Modification of forms used for an election in the period beginning with 2nd May 2024 and ending with 6th May 2024</Title>
                      <P1 id="schedule-1-paragraph-5">
                         <Pnumber>5</Pnumber>
@@ -2215,12 +2215,12 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-1-part-2">
                   <Number>Part 2</Number>
                   <Title>Principal area councillor elections</Title>
-                  <Pblock>
+                  <P1group id="schedule-1-part-2-crossheading-interpretation-of-part-2">
                      <Title>Interpretation of Part 2</Title>
                      <P1 id="schedule-1-paragraph-6">
                         <Pnumber>6</Pnumber>
@@ -2245,8 +2245,8 @@
                            </UnorderedList>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-1-part-2-crossheading-questions-for-proxies-at-certain-principal-area-councillor-elections">
                      <Title>Questions for proxies at certain principal area councillor elections</Title>
                      <P1 id="schedule-1-paragraph-7">
                         <Pnumber>7</Pnumber>
@@ -2337,8 +2337,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-1-part-2-crossheading-poll-card-forms-for-certain-principal-area-councillor-elections">
                      <Title>Poll card forms for certain principal area councillor elections</Title>
                      <P1 id="schedule-1-paragraph-8">
                         <Pnumber>8</Pnumber>
@@ -2363,12 +2363,12 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-1-part-3">
                   <Number>Part 3</Number>
                   <Title>Parish councillor elections</Title>
-                  <Pblock>
+                  <P1group id="schedule-1-part-3-crossheading-interpretation-of-part-3">
                      <Title>Interpretation of Part 3</Title>
                      <P1 id="schedule-1-paragraph-9">
                         <Pnumber>9</Pnumber>
@@ -2393,8 +2393,8 @@
                            </UnorderedList>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-1-part-3-crossheading-questions-for-proxies-at-certain-parish-councillor-elections">
                      <Title>Questions for proxies at certain parish councillor elections</Title>
                      <P1 id="schedule-1-paragraph-10">
                         <Pnumber>10</Pnumber>
@@ -2485,8 +2485,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-1-part-3-crossheading-poll-card-forms-for-certain-parish-councillor-elections">
                      <Title>Poll card forms for certain parish councillor elections</Title>
                      <P1 id="schedule-1-paragraph-11">
                         <Pnumber>11</Pnumber>
@@ -2511,12 +2511,12 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-1-part-4">
                   <Number>Part 4</Number>
                   <Title>Greater London Authority elections</Title>
-                  <Pblock>
+                  <P1group id="schedule-1-part-4-crossheading-interpretation-of-part-4">
                      <Title>Interpretation of Part 4</Title>
                      <P1 id="schedule-1-paragraph-12">
                         <Pnumber>12</Pnumber>
@@ -2541,8 +2541,8 @@
                            </UnorderedList>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-1-part-4-crossheading-questions-for-proxies-at-certain-authority-elections">
                      <Title>Questions for proxies at certain Authority elections</Title>
                      <P1 id="schedule-1-paragraph-13">
                         <Pnumber>13</Pnumber>
@@ -2651,8 +2651,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-1-part-4-crossheading-poll-card-forms-for-certain-authority-elections">
                      <Title>Poll card forms for certain Authority elections</Title>
                      <P1 id="schedule-1-paragraph-14">
                         <Pnumber>14</Pnumber>
@@ -2683,7 +2683,7 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
             </ScheduleBody>
          </Schedule>
@@ -2816,146 +2816,182 @@
                <Part id="schedule-3-part-1">
                   <Number>Part 1</Number>
                   <Title>Forms for use at an election of councillors of a principal area where poll is not taken together with poll for another election or referendum</Title>
-                  <Pblock>
+                  <P1group id="schedule-3-part-1-crossheading-form-of-nomination-paper">
                      <Title>Form of nomination paper</Title>
-                     <Figure>
-                        <Image ResourceRef="r00007"
-                               Width="422.363pt"
-                               Height="598.111pt"
-                               Description="Form"/>
-                     </Figure>
-                     <Figure>
-                        <Image ResourceRef="r00008"
-                               Width="422.363pt"
-                               Height="598.111pt"
-                               Description="Form"/>
-                     </Figure>
-                  </Pblock>
-                  <Pblock>
+                     <P>
+                        <Figure>
+                           <Image ResourceRef="r00007"
+                                  Width="422.363pt"
+                                  Height="598.111pt"
+                                  Description="Form"/>
+                        </Figure>
+                     </P>
+                     <P>
+                        <Figure>
+                           <Image ResourceRef="r00008"
+                                  Width="422.363pt"
+                                  Height="598.111pt"
+                                  Description="Form"/>
+                        </Figure>
+                     </P>
+                  </P1group>
+                  <P1group id="schedule-3-part-1-crossheading-candidates-consent-to-nomination-form">
                      <Title>Candidate’s consent to nomination form</Title>
-                     <Title>Front of Form</Title>
-                     <Figure>
-                        <Image ResourceRef="r00009"
-                               Width="422.363pt"
-                               Height="589.607pt"
-                               Description="Front of Form"/>
-                     </Figure>
-                     <Figure>
-                        <Image ResourceRef="r00010"
-                               Width="422.363pt"
-                               Height="113.386pt"
-                               Description="Front of Form"/>
-                     </Figure>
-                     <Figure>
-                        <Title>Back of Form</Title>
-                        <Image ResourceRef="r00011"
-                               Width="419.528pt"
-                               Height="99.213pt"
-                               Description="Back of Form"/>
-                     </Figure>
-                  </Pblock>
-                  <Pblock>
+                     <P>
+                        <Figure>
+                           <Title>Front of Form</Title>
+                           <Image ResourceRef="r00009"
+                                  Width="422.363pt"
+                                  Height="589.607pt"
+                                  Description="Front of Form"/>
+                        </Figure>
+                     </P>
+                     <P>
+                        <Figure>
+                           <Image ResourceRef="r00010"
+                                  Width="422.363pt"
+                                  Height="113.386pt"
+                                  Description="Front of Form"/>
+                        </Figure>
+                     </P>
+                     <P>
+                        <Figure>
+                           <Title>Back of Form</Title>
+                           <Image ResourceRef="r00011"
+                                  Width="419.528pt"
+                                  Height="99.213pt"
+                                  Description="Back of Form"/>
+                        </Figure>
+                     </P>
+                  </P1group>
+                  <P1group id="schedule-3-part-1-crossheading-form-of-official-poll-card">
                      <Title>Form of official poll card</Title>
-                     <Figure>
-                        <Image ResourceRef="r00012"
-                               Width="422.363pt"
-                               Height="598.111pt"
-                               Description="Poll Card"/>
-                     </Figure>
-                     <Figure>
-                        <Image ResourceRef="r00013"
-                               Width="422.363pt"
-                               Height="598.111pt"
-                               Description="Poll Card"/>
-                     </Figure>
-                  </Pblock>
-                  <Pblock>
+                     <P>
+                        <Figure>
+                           <Image ResourceRef="r00012"
+                                  Width="422.363pt"
+                                  Height="598.111pt"
+                                  Description="Poll Card"/>
+                        </Figure>
+                     </P>
+                     <P>
+                        <Figure>
+                           <Image ResourceRef="r00013"
+                                  Width="422.363pt"
+                                  Height="598.111pt"
+                                  Description="Poll Card"/>
+                        </Figure>
+                     </P>
+                  </P1group>
+                  <P1group id="schedule-3-part-1-crossheading-form-of-official-proxy-poll-card">
                      <Title>Form of official proxy poll card</Title>
-                     <Figure>
-                        <Image ResourceRef="r00014"
-                               Width="422.363pt"
-                               Height="598.111pt"
-                               Description="Proxy Poll Card"/>
-                     </Figure>
-                     <Figure>
-                        <Image ResourceRef="r00015"
-                               Width="422.363pt"
-                               Height="598.111pt"
-                               Description="Proxy Poll Card"/>
-                     </Figure>
-                  </Pblock>
+                     <P>
+                        <Figure>
+                           <Image ResourceRef="r00014"
+                                  Width="422.363pt"
+                                  Height="598.111pt"
+                                  Description="Proxy Poll Card"/>
+                        </Figure>
+                     </P>
+                     <P>
+                        <Figure>
+                           <Image ResourceRef="r00015"
+                                  Width="422.363pt"
+                                  Height="598.111pt"
+                                  Description="Proxy Poll Card"/>
+                        </Figure>
+                     </P>
+                  </P1group>
                </Part>
                <Part id="schedule-3-part-2">
                   <Number>Part 2</Number>
                   <Title>Forms for use at an election of councillors of a principal area where the poll is taken together with poll for another election or referendum</Title>
-                  <Pblock>
+                  <P1group id="schedule-3-part-2-crossheading-form-of-nomination-paper">
                      <Title>Form of nomination paper</Title>
-                     <Figure>
-                        <Image ResourceRef="r00016"
-                               Width="422.363pt"
-                               Height="598.111pt"
-                               Description="Form"/>
-                     </Figure>
-                     <Figure>
-                        <Image ResourceRef="r00017"
-                               Width="422.363pt"
-                               Height="598.111pt"
-                               Description="Form"/>
-                     </Figure>
-                  </Pblock>
-                  <Pblock>
+                     <P>
+                        <Figure>
+                           <Image ResourceRef="r00016"
+                                  Width="422.363pt"
+                                  Height="598.111pt"
+                                  Description="Form"/>
+                        </Figure>
+                     </P>
+                     <P>
+                        <Figure>
+                           <Image ResourceRef="r00017"
+                                  Width="422.363pt"
+                                  Height="598.111pt"
+                                  Description="Form"/>
+                        </Figure>
+                     </P>
+                  </P1group>
+                  <P1group id="schedule-3-part-2-crossheading-candidates-consent-to-nomination-form">
                      <Title>Candidate’s consent to nomination form</Title>
-                     <Figure>
-                        <Title>Front of Form</Title>
-                        <Image ResourceRef="r00009"
-                               Width="422.363pt"
-                               Height="589.607pt"
-                               Description="Front of Form"/>
-                     </Figure>
-                     <Figure>
-                        <Image ResourceRef="r00010"
-                               Width="422.363pt"
-                               Height="113.386pt"
-                               Description="Form"/>
-                     </Figure>
-                     <Figure>
-                        <Title>Back of Form</Title>
-                        <Image ResourceRef="r00011"
-                               Width="422.363pt"
-                               Height="99.213pt"
-                               Description="Back of Form"/>
-                     </Figure>
-                  </Pblock>
-                  <Pblock>
+                     <P>
+                        <Figure>
+                           <Title>Front of Form</Title>
+                           <Image ResourceRef="r00009"
+                                  Width="422.363pt"
+                                  Height="589.607pt"
+                                  Description="Front of Form"/>
+                        </Figure>
+                     </P>
+                     <P>
+                        <Figure>
+                           <Image ResourceRef="r00010"
+                                  Width="422.363pt"
+                                  Height="113.386pt"
+                                  Description="Form"/>
+                        </Figure>
+                     </P>
+                     <P>
+                        <Figure>
+                           <Title>Back of Form</Title>
+                           <Image ResourceRef="r00011"
+                                  Width="422.363pt"
+                                  Height="99.213pt"
+                                  Description="Back of Form"/>
+                        </Figure>
+                     </P>
+                  </P1group>
+                  <P1group id="schedule-3-part-2-crossheading-form-of-official-poll-card">
                      <Title>Form of official poll card</Title>
-                     <Figure>
-                        <Image ResourceRef="r00012"
-                               Width="422.363pt"
-                               Height="598.111pt"
-                               Description="Poll Card"/>
-                     </Figure>
-                     <Figure>
-                        <Image ResourceRef="r00013"
-                               Width="422.363pt"
-                               Height="598.111pt"
-                               Description="Poll Card"/>
-                     </Figure>
-                  </Pblock>
-                  <Pblock>
+                     <P>
+                        <Figure>
+                           <Image ResourceRef="r00012"
+                                  Width="422.363pt"
+                                  Height="598.111pt"
+                                  Description="Poll Card"/>
+                        </Figure>
+                     </P>
+                     <P>
+                        <Figure>
+                           <Image ResourceRef="r00013"
+                                  Width="422.363pt"
+                                  Height="598.111pt"
+                                  Description="Poll Card"/>
+                        </Figure>
+                     </P>
+                  </P1group>
+                  <P1group id="schedule-3-part-2-crossheading-form-of-official-proxy-poll-card">
                      <Title>Form of official proxy poll card</Title>
-                     <Figure>
-                        <Image ResourceRef="r00014"
-                               Width="422.363pt"
-                               Height="598.111pt"
-                               Description="Proxy Poll Card"/>
-                     </Figure>
-                     <Figure>
-                        <Image ResourceRef="r00015"
-                               Width="422.363pt"
-                               Height="598.111pt"
-                               Description="Proxy Poll Card"/>
-                     </Figure>
-                  </Pblock>
+                     <P>
+                        <Figure>
+                           <Image ResourceRef="r00014"
+                                  Width="422.363pt"
+                                  Height="598.111pt"
+                                  Description="Proxy Poll Card"/>
+                        </Figure>
+                     </P>
+                     <P>
+                        <Figure>
+                           <Image ResourceRef="r00015"
+                                  Width="422.363pt"
+                                  Height="598.111pt"
+                                  Description="Proxy Poll Card"/>
+                        </Figure>
+                     </P>
+                  </P1group>
                </Part>
             </ScheduleBody>
          </Schedule>
@@ -2969,146 +3005,182 @@
                <Part id="schedule-4-part-1">
                   <Number>Part 1</Number>
                   <Title>Forms for use at an election of councillors of a parish where poll is not taken together with poll at another election</Title>
-                  <Pblock>
+                  <P1group id="schedule-4-part-1-crossheading-form-of-nomination-paper">
                      <Title>Form of nomination paper</Title>
-                     <Figure>
-                        <Image ResourceRef="r00018"
-                               Width="396.851pt"
-                               Height="561.261pt"
-                               Description="Form"/>
-                     </Figure>
-                     <Figure>
-                        <Image ResourceRef="r00019"
-                               Width="422.363pt"
-                               Height="598.111pt"
-                               Description="Form"/>
-                     </Figure>
-                  </Pblock>
-                  <Pblock>
+                     <P>
+                        <Figure>
+                           <Image ResourceRef="r00018"
+                                  Width="396.851pt"
+                                  Height="561.261pt"
+                                  Description="Form"/>
+                        </Figure>
+                     </P>
+                     <P>
+                        <Figure>
+                           <Image ResourceRef="r00019"
+                                  Width="422.363pt"
+                                  Height="598.111pt"
+                                  Description="Form"/>
+                        </Figure>
+                     </P>
+                  </P1group>
+                  <P1group id="schedule-4-part-1-crossheading-candidates-consent-to-nomination-form">
                      <Title>Candidate’s consent to nomination form</Title>
-                     <Figure>
-                        <Title>Front of Form</Title>
-                        <Image ResourceRef="r00020"
-                               Width="422.363pt"
-                               Height="558.426pt"
-                               Description="Front of Form"/>
-                     </Figure>
-                     <Figure>
-                        <Image ResourceRef="r00021"
-                               Width="422.363pt"
-                               Height="116.221pt"
-                               Description="Form"/>
-                     </Figure>
-                     <Figure>
-                        <Title>Back of Form</Title>
-                        <Image ResourceRef="r00022"
-                               Width="422.363pt"
-                               Height="96.378pt"
-                               Description="Back of Form"/>
-                     </Figure>
-                  </Pblock>
-                  <Pblock>
+                     <P>
+                        <Figure>
+                           <Title>Front of Form</Title>
+                           <Image ResourceRef="r00020"
+                                  Width="422.363pt"
+                                  Height="558.426pt"
+                                  Description="Front of Form"/>
+                        </Figure>
+                     </P>
+                     <P>
+                        <Figure>
+                           <Image ResourceRef="r00021"
+                                  Width="422.363pt"
+                                  Height="116.221pt"
+                                  Description="Form"/>
+                        </Figure>
+                     </P>
+                     <P>
+                        <Figure>
+                           <Title>Back of Form</Title>
+                           <Image ResourceRef="r00022"
+                                  Width="422.363pt"
+                                  Height="96.378pt"
+                                  Description="Back of Form"/>
+                        </Figure>
+                     </P>
+                  </P1group>
+                  <P1group id="schedule-4-part-1-crossheading-form-of-official-poll-card">
                      <Title>Form of official poll card</Title>
-                     <Figure>
-                        <Image ResourceRef="r00023"
-                               Width="422.363pt"
-                               Height="598.111pt"
-                               Description="Poll Card"/>
-                     </Figure>
-                     <Figure>
-                        <Image ResourceRef="r00024"
-                               Width="422.363pt"
-                               Height="598.111pt"
-                               Description="Poll Card"/>
-                     </Figure>
-                  </Pblock>
-                  <Pblock>
+                     <P>
+                        <Figure>
+                           <Image ResourceRef="r00023"
+                                  Width="422.363pt"
+                                  Height="598.111pt"
+                                  Description="Poll Card"/>
+                        </Figure>
+                     </P>
+                     <P>
+                        <Figure>
+                           <Image ResourceRef="r00024"
+                                  Width="422.363pt"
+                                  Height="598.111pt"
+                                  Description="Poll Card"/>
+                        </Figure>
+                     </P>
+                  </P1group>
+                  <P1group id="schedule-4-part-1-crossheading-form-of-official-proxy-poll-card">
                      <Title>Form of official proxy poll card</Title>
-                     <Figure>
-                        <Image ResourceRef="r00025"
-                               Width="422.363pt"
-                               Height="598.111pt"
-                               Description="Proxy Poll Card"/>
-                     </Figure>
-                     <Figure>
-                        <Image ResourceRef="r00026"
-                               Width="422.363pt"
-                               Height="598.111pt"
-                               Description="Proxy Poll Card"/>
-                     </Figure>
-                  </Pblock>
+                     <P>
+                        <Figure>
+                           <Image ResourceRef="r00025"
+                                  Width="422.363pt"
+                                  Height="598.111pt"
+                                  Description="Proxy Poll Card"/>
+                        </Figure>
+                     </P>
+                     <P>
+                        <Figure>
+                           <Image ResourceRef="r00026"
+                                  Width="422.363pt"
+                                  Height="598.111pt"
+                                  Description="Proxy Poll Card"/>
+                        </Figure>
+                     </P>
+                  </P1group>
                </Part>
                <Part id="schedule-4-part-2">
                   <Number>Part 2</Number>
                   <Title>Forms for use at an election of councillors of a parish where the poll is taken together with the poll at a relevant election or referendum</Title>
-                  <Pblock>
+                  <P1group id="schedule-4-part-2-crossheading-form-of-nomination-paper">
                      <Title>Form of nomination paper</Title>
-                     <Figure>
-                        <Image ResourceRef="r00027"
-                               Width="396.851pt"
-                               Height="561.261pt"
-                               Description="Form"/>
-                     </Figure>
-                     <Figure>
-                        <Image ResourceRef="r00028"
-                               Width="422.363pt"
-                               Height="598.111pt"
-                               Description="Form"/>
-                     </Figure>
-                  </Pblock>
-                  <Pblock>
+                     <P>
+                        <Figure>
+                           <Image ResourceRef="r00027"
+                                  Width="396.851pt"
+                                  Height="561.261pt"
+                                  Description="Form"/>
+                        </Figure>
+                     </P>
+                     <P>
+                        <Figure>
+                           <Image ResourceRef="r00028"
+                                  Width="422.363pt"
+                                  Height="598.111pt"
+                                  Description="Form"/>
+                        </Figure>
+                     </P>
+                  </P1group>
+                  <P1group id="schedule-4-part-2-crossheading-candidates-consent-to-nomination-form">
                      <Title>Candidate’s consent to nomination form</Title>
-                     <Figure>
-                        <Title>Front of Form</Title>
-                        <Image ResourceRef="r00020"
-                               Width="422.363pt"
-                               Height="558.426pt"
-                               Description="Front of Form"/>
-                     </Figure>
-                     <Figure>
-                        <Image ResourceRef="r00021"
-                               Width="422.363pt"
-                               Height="116.221pt"
-                               Description="Form"/>
-                     </Figure>
-                     <Figure>
-                        <Title>Back of Form</Title>
-                        <Image ResourceRef="r00022"
-                               Width="422.363pt"
-                               Height="96.378pt"
-                               Description="Back of Form"/>
-                     </Figure>
-                  </Pblock>
-                  <Pblock>
+                     <P>
+                        <Figure>
+                           <Title>Front of Form</Title>
+                           <Image ResourceRef="r00020"
+                                  Width="422.363pt"
+                                  Height="558.426pt"
+                                  Description="Front of Form"/>
+                        </Figure>
+                     </P>
+                     <P>
+                        <Figure>
+                           <Image ResourceRef="r00021"
+                                  Width="422.363pt"
+                                  Height="116.221pt"
+                                  Description="Form"/>
+                        </Figure>
+                     </P>
+                     <P>
+                        <Figure>
+                           <Title>Back of Form</Title>
+                           <Image ResourceRef="r00022"
+                                  Width="422.363pt"
+                                  Height="96.378pt"
+                                  Description="Back of Form"/>
+                        </Figure>
+                     </P>
+                  </P1group>
+                  <P1group id="schedule-4-part-2-crossheading-form-of-official-poll-card">
                      <Title>Form of official poll card</Title>
-                     <Figure>
-                        <Image ResourceRef="r00023"
-                               Width="422.363pt"
-                               Height="598.111pt"
-                               Description="Poll Card"/>
-                     </Figure>
-                     <Figure>
-                        <Image ResourceRef="r00024"
-                               Width="422.363pt"
-                               Height="598.111pt"
-                               Description="Poll Card"/>
-                     </Figure>
-                  </Pblock>
-                  <Pblock>
+                     <P>
+                        <Figure>
+                           <Image ResourceRef="r00023"
+                                  Width="422.363pt"
+                                  Height="598.111pt"
+                                  Description="Poll Card"/>
+                        </Figure>
+                     </P>
+                     <P>
+                        <Figure>
+                           <Image ResourceRef="r00024"
+                                  Width="422.363pt"
+                                  Height="598.111pt"
+                                  Description="Poll Card"/>
+                        </Figure>
+                     </P>
+                  </P1group>
+                  <P1group id="schedule-4-part-2-crossheading-form-of-official-proxy-poll-card">
                      <Title>Form of official proxy poll card</Title>
-                     <Figure>
-                        <Image ResourceRef="r00025"
-                               Width="422.363pt"
-                               Height="598.111pt"
-                               Description="Proxy Poll Card"/>
-                     </Figure>
-                     <Figure>
-                        <Image ResourceRef="r00026"
-                               Width="422.363pt"
-                               Height="598.111pt"
-                               Description="Proxy Poll Card"/>
-                     </Figure>
-                  </Pblock>
+                     <P>
+                        <Figure>
+                           <Image ResourceRef="r00025"
+                                  Width="422.363pt"
+                                  Height="598.111pt"
+                                  Description="Proxy Poll Card"/>
+                        </Figure>
+                     </P>
+                     <P>
+                        <Figure>
+                           <Image ResourceRef="r00026"
+                                  Width="422.363pt"
+                                  Height="598.111pt"
+                                  Description="Proxy Poll Card"/>
+                        </Figure>
+                     </P>
+                  </P1group>
                </Part>
             </ScheduleBody>
          </Schedule>
@@ -3119,110 +3191,138 @@
             </TitleBlock>
             <Reference>Regulation 5(38)</Reference>
             <ScheduleBody>
-               <Pblock>
+               <P1group id="schedule-5-crossheading-form-1-constituency-member-and-london-member-individual-candidates-form-of-nomination-paper">
                   <Title>Form 1: Constituency member and London member (individual) candidates: Form of nomination paper</Title>
-                  <Figure>
-                     <Image ResourceRef="r00029"
-                            Width="394.016pt"
-                            Height="558.426pt"
-                            Description="Nomination Paper"/>
-                  </Figure>
-                  <Figure>
-                     <Image ResourceRef="r00030"
-                            Width="394.016pt"
-                            Height="133.229pt"
-                            Description="Nomination Paper"/>
-                  </Figure>
-               </Pblock>
-               <Pblock>
+                  <P>
+                     <Figure>
+                        <Image ResourceRef="r00029"
+                               Width="394.016pt"
+                               Height="558.426pt"
+                               Description="Nomination Paper"/>
+                     </Figure>
+                  </P>
+                  <P>
+                     <Figure>
+                        <Image ResourceRef="r00030"
+                               Width="394.016pt"
+                               Height="133.229pt"
+                               Description="Nomination Paper"/>
+                     </Figure>
+                  </P>
+               </P1group>
+               <P1group id="schedule-5-crossheading-form-2-london-member-party-list-candidates-form-of-nomination-paper">
                   <Title>Form 2: London member (party list) candidates: form of nomination paper</Title>
-                  <Figure>
-                     <Image ResourceRef="r00031"
-                            Width="394.016pt"
-                            Height="558.426pt"
-                            Description="Nomination Paper"/>
-                  </Figure>
-                  <Figure>
-                     <Image ResourceRef="r00032"
-                            Width="394.016pt"
-                            Height="272.126pt"
-                            Description="Nomination Paper"/>
-                  </Figure>
-               </Pblock>
-               <Pblock>
+                  <P>
+                     <Figure>
+                        <Image ResourceRef="r00031"
+                               Width="394.016pt"
+                               Height="558.426pt"
+                               Description="Nomination Paper"/>
+                     </Figure>
+                  </P>
+                  <P>
+                     <Figure>
+                        <Image ResourceRef="r00032"
+                               Width="394.016pt"
+                               Height="272.126pt"
+                               Description="Nomination Paper"/>
+                     </Figure>
+                  </P>
+               </P1group>
+               <P1group id="schedule-5-crossheading-form-3-candidate-to-be-mayor-of-london-form-of-nomination-paper">
                   <Title>Form 3: candidate to be mayor of London: form of nomination paper</Title>
-                  <Figure>
-                     <Image ResourceRef="r00033"
-                            Width="368.504pt"
-                            Height="521.576pt"
-                            Description="Nomination Paper"/>
-                  </Figure>
-                  <Figure>
-                     <Image ResourceRef="r00034"
-                            Width="394.016pt"
-                            Height="561.261pt"
-                            Description="Nomination Paper"/>
-                  </Figure>
-                  <Figure>
-                     <Image ResourceRef="r00035"
-                            Width="394.016pt"
-                            Height="371.339pt"
-                            Description="Nomination Paper"/>
-                  </Figure>
-               </Pblock>
-               <Pblock>
+                  <P>
+                     <Figure>
+                        <Image ResourceRef="r00033"
+                               Width="368.504pt"
+                               Height="521.576pt"
+                               Description="Nomination Paper"/>
+                     </Figure>
+                  </P>
+                  <P>
+                     <Figure>
+                        <Image ResourceRef="r00034"
+                               Width="394.016pt"
+                               Height="561.261pt"
+                               Description="Nomination Paper"/>
+                     </Figure>
+                  </P>
+                  <P>
+                     <Figure>
+                        <Image ResourceRef="r00035"
+                               Width="394.016pt"
+                               Height="371.339pt"
+                               Description="Nomination Paper"/>
+                     </Figure>
+                  </P>
+               </P1group>
+               <P1group id="schedule-5-crossheading-form-4-candidates-consent-to-nomination">
                   <Title>Form 4: candidate’s consent to nomination</Title>
-                  <Figure>
-                     <Title>Front of Form</Title>
-                     <Image ResourceRef="r00036"
-                            Width="396.851pt"
-                            Height="572.599pt"
-                            Description="Front of Form"/>
-                  </Figure>
-                  <Figure>
-                     <Image ResourceRef="r00037"
-                            Width="396.851pt"
-                            Height="102.047pt"
-                            Description="Front of Form"/>
-                  </Figure>
-                  <Figure>
-                     <Title>Back of Form</Title>
-                     <Image ResourceRef="r00038"
-                            Width="396.851pt"
-                            Height="93.543pt"
-                            Description="Back of Form"/>
-                  </Figure>
-               </Pblock>
-               <Pblock>
+                  <P>
+                     <Figure>
+                        <Title>Front of Form</Title>
+                        <Image ResourceRef="r00036"
+                               Width="396.851pt"
+                               Height="572.599pt"
+                               Description="Front of Form"/>
+                     </Figure>
+                  </P>
+                  <P>
+                     <Figure>
+                        <Image ResourceRef="r00037"
+                               Width="396.851pt"
+                               Height="102.047pt"
+                               Description="Front of Form"/>
+                     </Figure>
+                  </P>
+                  <P>
+                     <Figure>
+                        <Title>Back of Form</Title>
+                        <Image ResourceRef="r00038"
+                               Width="396.851pt"
+                               Height="93.543pt"
+                               Description="Back of Form"/>
+                     </Figure>
+                  </P>
+               </P1group>
+               <P1group id="schedule-5-crossheading-form-12-official-poll-card">
                   <Title>Form 12: official poll card</Title>
-                  <Figure>
-                     <Image ResourceRef="r00039"
-                            Width="422.363pt"
-                            Height="598.111pt"
-                            Description="Poll Card"/>
-                  </Figure>
-                  <Figure>
-                     <Image ResourceRef="r00040"
-                            Width="422.363pt"
-                            Height="598.111pt"
-                            Description="Poll Card"/>
-                  </Figure>
-               </Pblock>
-               <Pblock>
+                  <P>
+                     <Figure>
+                        <Image ResourceRef="r00039"
+                               Width="422.363pt"
+                               Height="598.111pt"
+                               Description="Poll Card"/>
+                     </Figure>
+                  </P>
+                  <P>
+                     <Figure>
+                        <Image ResourceRef="r00040"
+                               Width="422.363pt"
+                               Height="598.111pt"
+                               Description="Poll Card"/>
+                     </Figure>
+                  </P>
+               </P1group>
+               <P1group id="schedule-5-crossheading-form-14-official-proxy-poll-card">
                   <Title>Form 14: official proxy poll card</Title>
-                  <Figure>
-                     <Image ResourceRef="r00041"
-                            Width="422.363pt"
-                            Height="598.111pt"
-                            Description="Proxy Poll Card"/>
-                  </Figure>
-                  <Figure>
-                     <Image ResourceRef="r00042"
-                            Width="422.363pt"
-                            Height="598.111pt"
-                            Description="Proxy Poll Card"/>
-                  </Figure>
-               </Pblock>
+                  <P>
+                     <Figure>
+                        <Image ResourceRef="r00041"
+                               Width="422.363pt"
+                               Height="598.111pt"
+                               Description="Proxy Poll Card"/>
+                     </Figure>
+                  </P>
+                  <P>
+                     <Figure>
+                        <Image ResourceRef="r00042"
+                               Width="422.363pt"
+                               Height="598.111pt"
+                               Description="Proxy Poll Card"/>
+                     </Figure>
+                  </P>
+               </P1group>
             </ScheduleBody>
          </Schedule>
       </Schedules>

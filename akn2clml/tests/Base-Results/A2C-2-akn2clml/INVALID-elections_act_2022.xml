@@ -7,7 +7,7 @@
              xmlns:dc="http://purl.org/dc/elements/1.1/">
       <dc:identifier>http://www.legislation.gov.uk/id/ukpga/2022/37</dc:identifier>
       <dc:title>Elections Act 2022</dc:title>
-      <dc:modified>2023-12-18</dc:modified>
+      <dc:modified>2023-12-22</dc:modified>
       <PrimaryMetadata>
          <DocumentClassification>
             <DocumentCategory Value="primary"/>
@@ -3778,7 +3778,7 @@
                                               TargetSubClass="unknown"
                                               Context="schedule"
                                               Format="double">
-                                 <Pblock>
+                                 <P1group>
                                     <Title>Protection for witnesses etc</Title>
                                     <P1>
                                        <Pnumber>4</Pnumber>
@@ -3797,7 +3797,7 @@
                                           </P2>
                                        </P1para>
                                     </P1>
-                                 </Pblock>
+                                 </P1group>
                               </BlockAmendment>
                               <AppendText/>
                            </P2para>
@@ -9618,7 +9618,7 @@
                                         TargetSubClass="unknown"
                                         Context="schedule"
                                         Format="double">
-                           <Pblock>
+                           <P1group>
                               <Title>Date of birth lists for polling stations in Northern Ireland</Title>
                               <P1>
                                  <Pnumber>19B</Pnumber>
@@ -9802,7 +9802,7 @@
                                     </P2>
                                  </P1para>
                               </P1>
-                           </Pblock>
+                           </P1group>
                         </BlockAmendment>
                         <AppendText/>
                      </P1para>
@@ -11153,7 +11153,7 @@
                                         TargetSubClass="unknown"
                                         Context="schedule"
                                         Format="double">
-                           <Pblock>
+                           <P1group>
                               <Title>Refusal to deliver ballot paper: Great Britain</Title>
                               <P1>
                                  <Pnumber>40ZB</Pnumber>
@@ -11286,7 +11286,7 @@
                                     </P2>
                                  </P1para>
                               </P1>
-                           </Pblock>
+                           </P1group>
                         </BlockAmendment>
                         <AppendText/>
                      </P1para>
@@ -11317,7 +11317,7 @@
                                         TargetSubClass="unknown"
                                         Context="schedule"
                                         Format="double">
-                           <Pblock>
+                           <P1group>
                               <Title>Collection and disclosure of information relating to applications made under rules 37 to 40</Title>
                               <P1>
                                  <Pnumber>40B</Pnumber>
@@ -11507,7 +11507,7 @@
                                     </P2>
                                  </P1para>
                               </P1>
-                           </Pblock>
+                           </P1group>
                         </BlockAmendment>
                         <AppendText/>
                      </P1para>
@@ -11544,7 +11544,7 @@
                                         TargetSubClass="unknown"
                                         Context="schedule"
                                         Format="double">
-                           <Pblock>
+                           <P1group>
                               <Title>Destruction of date of birth lists: Northern Ireland</Title>
                               <P1>
                                  <Pnumber>53B</Pnumber>
@@ -11564,7 +11564,7 @@
                                     </P3>
                                  </P1para>
                               </P1>
-                           </Pblock>
+                           </P1group>
                         </BlockAmendment>
                         <AppendText/>
                      </P1para>
@@ -11644,7 +11644,7 @@
                                         TargetSubClass="unknown"
                                         Context="schedule"
                                         Format="double">
-                           <Pblock>
+                           <P1group>
                               <Title>Inspection of ballot paper refusal list: Great Britain</Title>
                               <P1>
                                  <Pnumber>56A</Pnumber>
@@ -11669,7 +11669,7 @@
                                     </P2>
                                  </P1para>
                               </P1>
-                           </Pblock>
+                           </P1group>
                         </BlockAmendment>
                         <AppendText/>
                      </P1para>
@@ -14812,7 +14812,7 @@
                <Part id="schedule-6-part-1">
                   <Number>Part 1</Number>
                   <Title>Local elections in Northern Ireland</Title>
-                  <Pblock>
+                  <P1group id="schedule-6-part-1-crossheading-electoral-law-act-northern-ireland-1962">
                      <Title>Electoral Law Act (Northern Ireland) 1962</Title>
                      <P1 id="schedule-6-paragraph-1">
                         <Pnumber>1</Pnumber>
@@ -14961,7 +14961,7 @@
                                            TargetSubClass="unknown"
                                            Context="schedule"
                                            Format="double">
-                              <Pblock>
+                              <P1group>
                                  <Title>Date of birth lists</Title>
                                  <P1>
                                     <Pnumber>16B</Pnumber>
@@ -15064,7 +15064,7 @@
                                        </P2>
                                     </P1para>
                                  </P1>
-                              </Pblock>
+                              </P1group>
                            </BlockAmendment>
                            <AppendText/>
                         </P1para>
@@ -15968,7 +15968,7 @@
                                            TargetSubClass="unknown"
                                            Context="schedule"
                                            Format="double">
-                              <Pblock>
+                              <P1group>
                                  <Title>Handling of postal voting documents by political campaigners</Title>
                                  <P1>
                                     <Pnumber>5ZA</Pnumber>
@@ -16138,7 +16138,7 @@
                                        </P2>
                                     </P1para>
                                  </P1>
-                              </Pblock>
+                              </P1group>
                            </BlockAmendment>
                            <AppendText/>
                         </P1para>
@@ -16491,8 +16491,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-6-part-1-crossheading-local-elections-northern-ireland-order-1985">
                      <Title>Local Elections (Northern Ireland) Order 1985</Title>
                      <P1 id="schedule-6-paragraph-28">
                         <Pnumber>28</Pnumber>
@@ -16601,8 +16601,8 @@
                            <Text>In paragraph 9(1) of Part 1 of Schedule 2 to the Local Elections (Northern Ireland) Order 1985 (additional requirements for applications for appointment of a proxy), after “name” insert “, date of birth”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-6-part-1-crossheading-elected-authorities-northern-ireland-act-1989">
                      <Title>Elected Authorities (Northern Ireland) Act 1989</Title>
                      <P1 id="schedule-6-paragraph-30">
                         <Pnumber>30</Pnumber>
@@ -16699,8 +16699,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-6-part-1-crossheading-elections-act-2001">
                      <Title>Elections Act 2001</Title>
                      <P1 id="schedule-6-paragraph-31">
                         <Pnumber>31</Pnumber>
@@ -16755,8 +16755,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-6-part-1-crossheading-transitional-provisions-relating-to-proxy-voting">
                      <Title>Transitional provisions relating to proxy voting</Title>
                      <P1 id="schedule-6-paragraph-32">
                         <Pnumber>32</Pnumber>
@@ -16911,8 +16911,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-6-part-1-crossheading-consequential-repeals">
                      <Title>Consequential repeals</Title>
                      <P1 id="schedule-6-paragraph-34">
                         <Pnumber>34</Pnumber>
@@ -16944,12 +16944,12 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-6-part-2">
                   <Number>Part 2</Number>
                   <Title>Elections to the Northern Ireland Assembly</Title>
-                  <Pblock>
+                  <P1group id="schedule-6-part-2-crossheading-northern-ireland-assembly-elections-order-2001">
                      <Title>Northern Ireland Assembly (Elections) Order 2001</Title>
                      <P1 id="schedule-6-paragraph-35">
                         <Pnumber>35</Pnumber>
@@ -17286,8 +17286,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-6-part-2-crossheading-transitional-provisions-relating-to-proxy-voting">
                      <Title>Transitional provisions relating to proxy voting</Title>
                      <P1 id="schedule-6-paragraph-47">
                         <Pnumber>47</Pnumber>
@@ -17421,7 +17421,7 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
             </ScheduleBody>
          </Schedule>
@@ -17437,7 +17437,7 @@
                <Part id="schedule-7-part-1">
                   <Number>Part 1</Number>
                   <Title>Minor and consequential amendments</Title>
-                  <Pblock>
+                  <P1group id="schedule-7-part-1-crossheading-representation-of-the-people-act-1983">
                      <Title>Representation of the People Act 1983</Title>
                      <P1 id="schedule-7-paragraph-1">
                         <Pnumber>1</Pnumber>
@@ -17561,8 +17561,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-7-part-1-crossheading-representation-of-the-people-act-1985">
                      <Title>Representation of the People Act 1985</Title>
                      <P1 id="schedule-7-paragraph-5">
                         <Pnumber>5</Pnumber>
@@ -17607,8 +17607,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-7-part-1-crossheading-finance-act-1996">
                      <Title>Finance Act 1996</Title>
                      <P1 id="schedule-7-paragraph-6">
                         <Pnumber>6</Pnumber>
@@ -17616,8 +17616,8 @@
                            <Text>In section 200 of the Finance Act 1996 (domicile for tax purposes of overseas electors), in subsection (3)(a), for “section 1(1)(a)” substitute “section 1(2)(a)”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-7-part-1-crossheading-income-tax-act-2007">
                      <Title>Income Tax Act 2007</Title>
                      <P1 id="schedule-7-paragraph-7">
                         <Pnumber>7</Pnumber>
@@ -17625,8 +17625,8 @@
                            <Text>In section 835B of the Income Tax Act 2007 (domicile for income tax purposes of overseas electors), in subsection (3)(a), for “section 1(1)(a)” substitute “section 1(2)(a)”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-7-part-1-crossheading-constitutional-reform-and-governance-act-2010">
                      <Title>Constitutional Reform and Governance Act 2010</Title>
                      <P1 id="schedule-7-paragraph-8">
                         <Pnumber>8</Pnumber>
@@ -17634,8 +17634,8 @@
                            <Text>In section 42 of the Constitutional Reform and Governance Act 2010 (tax status of members of the House of Lords: transitional provision), omit subsection (7).</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-7-part-1-crossheading-police-reform-and-social-responsibility-act-2011">
                      <Title>Police Reform and Social Responsibility Act 2011</Title>
                      <P1 id="schedule-7-paragraph-9">
                         <Pnumber>9</Pnumber>
@@ -17656,8 +17656,8 @@
                            <AppendText/>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-7-part-1-crossheading-house-of-lords-reform-act-2014">
                      <Title>House of Lords Reform Act 2014</Title>
                      <P1 id="schedule-7-paragraph-10">
                         <Pnumber>10</Pnumber>
@@ -17665,8 +17665,8 @@
                            <Text>In section 4 of the House of Lords Reform Act 2014 (effect of ceasing to be a member of the House of Lords), omit subsection (6).</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-7-part-1-crossheading-consequential-repeals">
                      <Title>Consequential repeals</Title>
                      <P1 id="schedule-7-paragraph-11">
                         <Pnumber>11</Pnumber>
@@ -17706,12 +17706,12 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-7-part-2">
                   <Number>Part 2</Number>
                   <Title>Transitional provision</Title>
-                  <Pblock>
+                  <P1group id="schedule-7-part-2-crossheading-interpretation-of-part">
                      <Title>Interpretation of Part</Title>
                      <P1 id="schedule-7-paragraph-12">
                         <Pnumber>12</Pnumber>
@@ -17741,8 +17741,8 @@
                            </UnorderedList>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-7-part-2-crossheading-pre-commencement-applications-for-registration-in-a-register-of-parliamentary-electors">
                      <Title>Pre-commencement applications for registration in a register of parliamentary electors</Title>
                      <P1 id="schedule-7-paragraph-13">
                         <Pnumber>13</Pnumber>
@@ -17761,8 +17761,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-7-part-2-crossheading-overseas-electors-registered-pursuant-to-pre-commencement-applications">
                      <Title>Overseas electors registered pursuant to pre-commencement applications</Title>
                      <P1 id="schedule-7-paragraph-14">
                         <Pnumber>14</Pnumber>
@@ -17847,8 +17847,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-7-part-2-crossheading-postal-voting">
                      <Title>Postal voting</Title>
                      <P1 id="schedule-7-paragraph-15">
                         <Pnumber>15</Pnumber>
@@ -17961,8 +17961,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-7-part-2-crossheading-power-to-make-supplementary-provision">
                      <Title>Power to make supplementary provision</Title>
                      <P1 id="schedule-7-paragraph-17">
                         <Pnumber>17</Pnumber>
@@ -17993,8 +17993,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-7-part-2-crossheading-promoting-awareness-of-changes-to-overseas-elector-franchise">
                      <Title>Promoting awareness of changes to overseas elector franchise</Title>
                      <P1 id="schedule-7-paragraph-18">
                         <Pnumber>18</Pnumber>
@@ -18049,7 +18049,7 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
             </ScheduleBody>
          </Schedule>
@@ -18824,7 +18824,7 @@
                <Part id="schedule-8-part-2">
                   <Number>Part 2</Number>
                   <Title>Amendments in relation to certain local elections in England and Wales</Title>
-                  <Pblock>
+                  <P1group id="schedule-8-part-2-crossheading-city-of-london-various-powers-act-1957">
                      <Title>City of London (Various Powers) Act 1957</Title>
                      <P1 id="schedule-8-paragraph-2">
                         <Pnumber>2</Pnumber>
@@ -18879,8 +18879,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-8-part-2-crossheading-local-government-act-1972">
                      <Title>Local Government Act 1972</Title>
                      <P1 id="schedule-8-paragraph-3">
                         <Pnumber>3</Pnumber>
@@ -18912,8 +18912,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-8-part-2-crossheading-greater-london-authority-act-1999">
                      <Title>Greater London Authority Act 1999</Title>
                      <P1 id="schedule-8-paragraph-4">
                         <Pnumber>4</Pnumber>
@@ -18958,8 +18958,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-8-part-2-crossheading-local-democracy-economic-development-and-construction-act-2009">
                      <Title>Local Democracy, Economic Development and Construction Act 2009</Title>
                      <P1 id="schedule-8-paragraph-5">
                         <Pnumber>5</Pnumber>
@@ -19002,8 +19002,8 @@
                            <AppendText/>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-8-part-2-crossheading-police-reform-and-social-responsibility-act-2011">
                      <Title>Police Reform and Social Responsibility Act 2011</Title>
                      <P1 id="schedule-8-paragraph-6">
                         <Pnumber>6</Pnumber>
@@ -19119,12 +19119,12 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-8-part-3">
                   <Number>Part 3</Number>
                   <Title>Amendments in relation to certain elections in Northern Ireland</Title>
-                  <Pblock>
+                  <P1group id="schedule-8-part-3-crossheading-electoral-law-act-northern-ireland-1962">
                      <Title>Electoral Law Act (Northern Ireland) 1962</Title>
                      <P1 id="schedule-8-paragraph-7">
                         <Pnumber>7</Pnumber>
@@ -19132,8 +19132,8 @@
                            <Text>In Schedule 5 to the Electoral Law Act (Northern Ireland) 1962 (local elections rules), in the Appendix of Forms, in form 2 (consent to nomination), for “or a citizen of another Member State of the European Union” substitute “, qualifying EU citizen (within the meaning of section <InternalLink Ref="p12889">203A</InternalLink> of the Representation of the People Act 1983) or EU citizen with retained rights (within the meaning of section <InternalLink Ref="p12993">203B</InternalLink> of that Act)”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-8-part-3-crossheading-local-government-act-northern-ireland-1972">
                      <Title>Local Government Act (Northern Ireland) 1972</Title>
                      <P1 id="schedule-8-paragraph-8">
                         <Pnumber>8</Pnumber>
@@ -19165,8 +19165,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-8-part-3-crossheading-elected-authorities-northern-ireland-act-1989">
                      <Title>Elected Authorities (Northern Ireland) Act 1989</Title>
                      <P1 id="schedule-8-paragraph-9">
                         <Pnumber>9</Pnumber>
@@ -19410,8 +19410,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-8-part-3-crossheading-northern-ireland-act-1998">
                      <Title>Northern Ireland Act 1998</Title>
                      <P1 id="schedule-8-paragraph-10">
                         <Pnumber>10</Pnumber>
@@ -19478,8 +19478,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-8-part-3-crossheading-northern-ireland-assembly-elections-order-2001">
                      <Title>Northern Ireland Assembly (Elections) Order 2001</Title>
                      <P1 id="schedule-8-paragraph-11">
                         <Pnumber>11</Pnumber>
@@ -19554,12 +19554,12 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-8-part-4">
                   <Number>Part 4</Number>
                   <Title>Transitional provision etc</Title>
-                  <Pblock>
+                  <P1group id="schedule-8-part-4-crossheading-holders-of-elected-offices">
                      <Title>Holders of elected offices</Title>
                      <P1 id="schedule-8-paragraph-12">
                         <Pnumber>12</Pnumber>
@@ -19657,8 +19657,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-8-part-4-crossheading-power-to-make-transitional-and-saving-provision">
                      <Title>Power to make transitional and saving provision</Title>
                      <P1 id="schedule-8-paragraph-13">
                         <Pnumber>13</Pnumber>
@@ -19708,7 +19708,7 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
             </ScheduleBody>
          </Schedule>
@@ -19724,7 +19724,7 @@
                <Part id="schedule-9-part-1">
                   <Number>Part 1</Number>
                   <Title>Common law offences</Title>
-                  <Pblock>
+                  <P1group id="schedule-9-part-1-crossheading-offences-under-the-law-of-england-and-wales-scotland-and-northern-ireland">
                      <Title>Offences under the law of England and Wales, Scotland and Northern Ireland</Title>
                      <P1 id="schedule-9-paragraph-1">
                         <Pnumber>1</Pnumber>
@@ -19738,8 +19738,8 @@
                            <Text>Murder.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-9-part-1-crossheading-offences-under-the-law-of-england-and-wales-and-northern-ireland">
                      <Title>Offences under the law of England and Wales and Northern Ireland</Title>
                      <P1 id="schedule-9-paragraph-3">
                         <Pnumber>3</Pnumber>
@@ -19753,8 +19753,8 @@
                            <Text>Manslaughter.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-9-part-1-crossheading-offences-under-the-law-of-scotland">
                      <Title>Offences under the law of Scotland</Title>
                      <P1 id="schedule-9-paragraph-5">
                         <Pnumber>5</Pnumber>
@@ -19852,8 +19852,8 @@
                            <Text>Wilful fire-raising.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-9-part-1-crossheading-offences-under-the-law-of-northern-ireland">
                      <Title>Offences under the law of Northern Ireland</Title>
                      <P1 id="schedule-9-paragraph-21">
                         <Pnumber>21</Pnumber>
@@ -19867,12 +19867,12 @@
                            <Text>Riot.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-9-part-2">
                   <Number>Part 2</Number>
                   <Title>Statutory offences</Title>
-                  <Pblock>
+                  <P1group id="schedule-9-part-2-crossheading-offences-against-the-person-act-1861">
                      <Title>Offences against the Person Act 1861</Title>
                      <P1 id="schedule-9-paragraph-23">
                         <Pnumber>23</Pnumber>
@@ -19952,8 +19952,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-9-part-2-crossheading-explosive-substances-act-1883">
                      <Title>Explosive Substances Act 1883</Title>
                      <P1 id="schedule-9-paragraph-24">
                         <Pnumber>24</Pnumber>
@@ -19973,8 +19973,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-9-part-2-crossheading-theft-act-1968">
                      <Title>Theft Act 1968 </Title>
                      <P1 id="schedule-9-paragraph-25">
                         <Pnumber>25</Pnumber>
@@ -20018,8 +20018,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-9-part-2-crossheading-theft-act-northern-ireland-1969">
                      <Title>Theft Act (Northern Ireland) 1969</Title>
                      <P1 id="schedule-9-paragraph-26">
                         <Pnumber>26</Pnumber>
@@ -20057,8 +20057,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-9-part-2-crossheading-criminal-damage-act-1971">
                      <Title>Criminal Damage Act 1971</Title>
                      <P1 id="schedule-9-paragraph-27">
                         <Pnumber>27</Pnumber>
@@ -20090,8 +20090,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-9-part-2-crossheading-protection-from-eviction-act-1977">
                      <Title>Protection from Eviction Act 1977</Title>
                      <P1 id="schedule-9-paragraph-28">
                         <Pnumber>28</Pnumber>
@@ -20099,8 +20099,8 @@
                            <Text>An offence under section 1 of the Protection from Eviction Act 1977 (unlawful eviction and harassment of occupier).</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-9-part-2-crossheading-criminal-law-act-1977">
                      <Title>Criminal Law Act 1977</Title>
                      <P1 id="schedule-9-paragraph-29">
                         <Pnumber>29</Pnumber>
@@ -20120,8 +20120,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-9-part-2-crossheading-criminal-damage-northern-ireland-order-1977">
                      <Title>Criminal Damage (Northern Ireland) Order 1977</Title>
                      <P1 id="schedule-9-paragraph-30">
                         <Pnumber>30</Pnumber>
@@ -20153,8 +20153,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-9-part-2-crossheading-rent-northern-ireland-order-1978">
                      <Title>Rent (Northern Ireland) Order 1978</Title>
                      <P1 id="schedule-9-paragraph-31">
                         <Pnumber>31</Pnumber>
@@ -20162,8 +20162,8 @@
                            <Text>An offence under article 54 of the Rent (Northern Ireland) Order 1978 (unlawful eviction and harassment of occupier).</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-9-part-2-crossheading-road-traffic-northern-ireland-order-1981">
                      <Title>Road Traffic (Northern Ireland) Order 1981</Title>
                      <P1 id="schedule-9-paragraph-32">
                         <Pnumber>32</Pnumber>
@@ -20171,8 +20171,8 @@
                            <Text>An offence under article 172A or 172B of the Road Traffic (Northern Ireland) Order 1981 (aggravated vehicle taking).</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-9-part-2-crossheading-taking-of-hostages-act-1982">
                      <Title>Taking of Hostages Act 1982</Title>
                      <P1 id="schedule-9-paragraph-33">
                         <Pnumber>33</Pnumber>
@@ -20180,8 +20180,8 @@
                            <Text>An offence under section 1 of the Taking of Hostages Act 1982 (hostage taking).</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-9-part-2-crossheading-rent-scotland-act-1984">
                      <Title>Rent (Scotland) Act 1984</Title>
                      <P1 id="schedule-9-paragraph-34">
                         <Pnumber>34</Pnumber>
@@ -20189,8 +20189,8 @@
                            <Text>An offence under section 22 of the Rent (Scotland) Act 1984 (unlawful eviction and harassment of occupier).</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-9-part-2-crossheading-public-order-act-1986">
                      <Title>Public Order Act 1986</Title>
                      <P1 id="schedule-9-paragraph-35">
                         <Pnumber>35</Pnumber>
@@ -20294,8 +20294,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-9-part-2-crossheading-public-order-northern-ireland-order-1987">
                      <Title>Public Order (Northern Ireland) Order 1987</Title>
                      <P1 id="schedule-9-paragraph-36">
                         <Pnumber>36</Pnumber>
@@ -20345,8 +20345,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-9-part-2-crossheading-criminal-justice-act-1988">
                      <Title>Criminal Justice Act 1988</Title>
                      <P1 id="schedule-9-paragraph-37">
                         <Pnumber>37</Pnumber>
@@ -20366,8 +20366,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-9-part-2-crossheading-malicious-communications-act-1988">
                      <Title>Malicious Communications Act 1988</Title>
                      <P1 id="schedule-9-paragraph-38">
                         <Pnumber>38</Pnumber>
@@ -20375,8 +20375,8 @@
                            <Text>An offence under section 1 of the Malicious Communications Act 1988 (sending communications with intent to cause distress or anxiety).</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-9-part-2-crossheading-malicious-communications-northern-ireland-order-1988">
                      <Title>Malicious Communications (Northern Ireland) Order 1988</Title>
                      <P1 id="schedule-9-paragraph-39">
                         <Pnumber>39</Pnumber>
@@ -20384,8 +20384,8 @@
                            <Text>An offence under article 3 of the Malicious Communications (Northern Ireland) Order 1988 (sending communications with intent to cause distress or anxiety).</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-9-part-2-crossheading-trade-union-and-labour-relations-consolidation-act-1992">
                      <Title>Trade Union and Labour Relations (Consolidation) Act 1992</Title>
                      <P1 id="schedule-9-paragraph-40">
                         <Pnumber>40</Pnumber>
@@ -20393,8 +20393,8 @@
                            <Text>An offence under section 241 of the Trade Union and Labour Relations (Consolidation) Act 1992 (intimidation or annoyance by violence or otherwise).</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-9-part-2-crossheading-criminal-justice-and-public-order-act-1994">
                      <Title>Criminal Justice and Public Order Act 1994</Title>
                      <P1 id="schedule-9-paragraph-41">
                         <Pnumber>41</Pnumber>
@@ -20402,8 +20402,8 @@
                            <Text>An offence under section 68 of the Criminal Justice and Public Order Act 1994 (aggravated trespass).</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-9-part-2-crossheading-criminal-law-consolidation-scotland-act-1995">
                      <Title>Criminal Law (Consolidation) (Scotland) Act 1995</Title>
                      <P1 id="schedule-9-paragraph-42">
                         <Pnumber>42</Pnumber>
@@ -20423,8 +20423,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-9-part-2-crossheading-protection-from-harassment-act-1997">
                      <Title>Protection from Harassment Act 1997</Title>
                      <P1 id="schedule-9-paragraph-43">
                         <Pnumber>43</Pnumber>
@@ -20456,8 +20456,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-9-part-2-crossheading-protection-from-harassment-northern-ireland-order-1997">
                      <Title>Protection from Harassment (Northern Ireland) Order 1997</Title>
                      <P1 id="schedule-9-paragraph-44">
                         <Pnumber>44</Pnumber>
@@ -20477,8 +20477,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-9-part-2-crossheading-crime-and-disorder-act-1998">
                      <Title>Crime and Disorder Act 1998</Title>
                      <P1 id="schedule-9-paragraph-45">
                         <Pnumber>45</Pnumber>
@@ -20510,8 +20510,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-9-part-2-crossheading-communications-act-2003">
                      <Title>Communications Act 2003</Title>
                      <P1 id="schedule-9-paragraph-46">
                         <Pnumber>46</Pnumber>
@@ -20519,8 +20519,8 @@
                            <Text>An offence under section 127 of the Communications Act 2003 (improper use of public electronic communications network).</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-9-part-2-crossheading-sexual-offences-act-2003">
                      <Title>Sexual Offences Act 2003</Title>
                      <P1 id="schedule-9-paragraph-47">
                         <Pnumber>47</Pnumber>
@@ -20564,8 +20564,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-9-part-2-crossheading-sexual-offences-northern-ireland-order-2008">
                      <Title>Sexual Offences (Northern Ireland) Order 2008</Title>
                      <P1 id="schedule-9-paragraph-48">
                         <Pnumber>48</Pnumber>
@@ -20609,8 +20609,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-9-part-2-crossheading-sexual-offences-scotland-act-2009-asp-9">
                      <Title>Sexual Offences (Scotland) Act 2009 (asp 9)</Title>
                      <P1 id="schedule-9-paragraph-49">
                         <Pnumber>49</Pnumber>
@@ -20642,8 +20642,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-9-part-2-crossheading-criminal-justice-and-licensing-scotland-act-2010-asp-13">
                      <Title>Criminal Justice and Licensing (Scotland) Act 2010 (asp 13)</Title>
                      <P1 id="schedule-9-paragraph-50">
                         <Pnumber>50</Pnumber>
@@ -20663,8 +20663,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-9-part-2-crossheading-serious-crime-act-2015">
                      <Title>Serious Crime Act 2015</Title>
                      <P1 id="schedule-9-paragraph-51">
                         <Pnumber>51</Pnumber>
@@ -20672,8 +20672,8 @@
                            <Text>An offence under section 76 of the Serious Crime Act 2015 (controlling or coercive behaviour in an intimate or family relationship).</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-9-part-2-crossheading-hate-crime-and-public-order-scotland-act-2021-asp-14">
                      <Title>Hate Crime and Public Order (Scotland) Act 2021 (asp 14)</Title>
                      <P1 id="schedule-9-paragraph-52">
                         <Pnumber>52</Pnumber>
@@ -20681,7 +20681,7 @@
                            <Text>An offence under section 3 of the Hate Crime and Public Order (Scotland) Act 2021 (racially aggravated harassment).</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-9-part-3">
                   <Number>Part 3</Number>
@@ -21129,7 +21129,7 @@
                                               TargetSubClass="unknown"
                                               Context="schedule"
                                               Format="double">
-                                 <Pblock>
+                                 <P1group>
                                     <Title>Persons subject to a disqualification order</Title>
                                     <P1>
                                        <Pnumber>6A</Pnumber>
@@ -21137,7 +21137,7 @@
                                           <Text>A person subject to a disqualification order under section <InternalLink Ref="section-30">30</InternalLink> of the Elections Act 2022 (disqualification of offenders for holding elective office etc).</Text>
                                        </P1para>
                                     </P1>
-                                 </Pblock>
+                                 </P1group>
                               </BlockAmendment>
                               <AppendText/>
                            </P2para>

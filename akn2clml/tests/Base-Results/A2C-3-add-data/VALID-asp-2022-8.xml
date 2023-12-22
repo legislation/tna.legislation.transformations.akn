@@ -7,7 +7,7 @@
              xmlns:dc="http://purl.org/dc/elements/1.1/">
       <dc:identifier>http://www.legislation.gov.uk/id/asp/2022/8</dc:identifier>
       <dc:title>Coronavirus (Recovery and Reform) (Scotland) Act 2022</dc:title>
-      <dc:modified>2023-12-18</dc:modified>
+      <dc:modified>2023-12-22</dc:modified>
       <PrimaryMetadata>
          <DocumentClassification>
             <DocumentCategory Value="primary"/>
@@ -3028,7 +3028,7 @@
                                                     TargetSubClass="unknown"
                                                     Context="schedule"
                                                     Format="double">
-                                       <Pblock>
+                                       <P1group>
                                           <Title>Holding of meeting</Title>
                                           <P1>
                                              <Pnumber>13</Pnumber>
@@ -3054,7 +3054,7 @@
                                                 <Text>Where a meeting is to be held in pursuance of paragraph 13(b), the references in paragraphs 4 and 6 to the place fixed for the holding of the meeting are to be read as references to the electronic means by which attendees are to be able to attend the meeting without being together in the same place.</Text>
                                              </P1para>
                                           </P1>
-                                       </Pblock>
+                                       </P1group>
                                     </BlockAmendment>
                                     <AppendText>,</AppendText>
                                  </P3para>
@@ -4243,7 +4243,7 @@
                                               TargetSubClass="unknown"
                                               Context="schedule"
                                               Format="double">
-                                 <Pblock>
+                                 <P1group>
                                     <Title>How hearings may be held</Title>
                                     <P1>
                                        <Pnumber>18B</Pnumber>
@@ -4298,7 +4298,7 @@
                                           </P2>
                                        </P1para>
                                     </P1>
-                                 </Pblock>
+                                 </P1group>
                               </BlockAmendment>
                               <AppendText>.</AppendText>
                            </P2para>
@@ -4311,7 +4311,7 @@
                                               TargetSubClass="unknown"
                                               Context="schedule"
                                               Format="double">
-                                 <Pblock>
+                                 <P1group>
                                     <Title>How hearings may be held</Title>
                                     <P1>
                                        <Pnumber>24B</Pnumber>
@@ -4366,7 +4366,7 @@
                                           </P2>
                                        </P1para>
                                     </P1>
-                                 </Pblock>
+                                 </P1group>
                               </BlockAmendment>
                               <AppendText>.</AppendText>
                            </P2para>
@@ -5656,7 +5656,7 @@
                                               TargetSubClass="unknown"
                                               Context="schedule"
                                               Format="double">
-                                 <Pblock>
+                                 <P1group>
                                     <Title>Exercise of chairperson’s functions by other members</Title>
                                     <P1>
                                        <Pnumber>2K</Pnumber>
@@ -5729,7 +5729,7 @@
                                           </P2>
                                        </P1para>
                                     </P1>
-                                 </Pblock>
+                                 </P1group>
                               </BlockAmendment>
                               <AppendText>.</AppendText>
                            </P2para>
@@ -7727,7 +7727,7 @@
                   <Chapter id="schedule-part-1-chapter-1">
                      <Number>Chapter 1</Number>
                      <Title>Documents</Title>
-                     <Pblock>
+                     <P1group id="schedule-part-1-chapter-1-crossheading-electronic-signing">
                         <Title>Electronic signing</Title>
                         <P1 id="schedule-paragraph-1">
                            <Pnumber>1</Pnumber>
@@ -7759,8 +7759,8 @@
                               </P2>
                            </P1para>
                         </P1>
-                     </Pblock>
-                     <Pblock>
+                     </P1group>
+                     <P1group id="schedule-part-1-chapter-1-crossheading-sending-electronically-and-to-a-solicitor">
                         <Title>Sending electronically and to a solicitor</Title>
                         <P1 id="schedule-paragraph-2">
                            <Pnumber>2</Pnumber>
@@ -7852,8 +7852,8 @@
                               </P2>
                            </P1para>
                         </P1>
-                     </Pblock>
-                     <Pblock>
+                     </P1group>
+                     <P1group id="schedule-part-1-chapter-1-crossheading-documents-to-which-paragraphs-1-and-2-apply">
                         <Title>Documents to which <InternalLink Ref="schedule-paragraph-1">paragraphs 1</InternalLink> and <InternalLink Ref="schedule-paragraph-2">2</InternalLink> apply</Title>
                         <P1 id="schedule-paragraph-3">
                            <Pnumber>3</Pnumber>
@@ -7939,8 +7939,8 @@
                               </P2>
                            </P1para>
                         </P1>
-                     </Pblock>
-                     <Pblock>
+                     </P1group>
+                     <P1group id="schedule-part-1-chapter-1-crossheading-intimation-etc-on-scottish-courts-and-tribunals-service-website">
                         <Title>Intimation etc. on Scottish Courts and Tribunals Service website</Title>
                         <P1 id="schedule-paragraph-4">
                            <Pnumber>4</Pnumber>
@@ -8046,8 +8046,8 @@
                               </P2>
                            </P1para>
                         </P1>
-                     </Pblock>
-                     <Pblock>
+                     </P1group>
+                     <P1group id="schedule-part-1-chapter-1-crossheading-interpretation-of-chapter">
                         <Title>Interpretation of Chapter</Title>
                         <P1 id="schedule-paragraph-5">
                            <Pnumber>5</Pnumber>
@@ -8067,12 +8067,12 @@
                               </P3>
                            </P1para>
                         </P1>
-                     </Pblock>
+                     </P1group>
                   </Chapter>
                   <Chapter id="schedule-part-1-chapter-2">
                      <Number>Chapter 2</Number>
                      <Title>Attending a court or tribunal</Title>
-                     <Pblock>
+                     <P1group id="schedule-part-1-chapter-2-crossheading-suspension-of-requirement-for-physical-attendance-in-non-criminal-proceedings-criminal-trials-and-certain-processes">
                         <Title>Suspension of requirement for physical attendance in non-criminal proceedings, criminal trials and certain processes</Title>
                         <P1 id="schedule-paragraph-6">
                            <Pnumber>6</Pnumber>
@@ -8249,8 +8249,8 @@
                               </P2>
                            </P1para>
                         </P1>
-                     </Pblock>
-                     <Pblock>
+                     </P1group>
+                     <P1group id="schedule-part-1-chapter-2-crossheading-suspension-of-requirement-for-physical-attendance-in-criminal-proceedings-excluding-trials-and-certain-processes">
                         <Title>Suspension of requirement for physical attendance in criminal proceedings, excluding trials and certain processes</Title>
                         <P1 id="schedule-paragraph-7">
                            <Pnumber>7</Pnumber>
@@ -8408,8 +8408,8 @@
                               </P2>
                            </P1para>
                         </P1>
-                     </Pblock>
-                     <Pblock>
+                     </P1group>
+                     <P1group id="schedule-part-1-chapter-2-crossheading-attending-by-electronic-means">
                         <Title>Attending by electronic means</Title>
                         <P1 id="schedule-paragraph-8">
                            <Pnumber>8</Pnumber>
@@ -8538,8 +8538,8 @@
                               </P2>
                            </P1para>
                         </P1>
-                     </Pblock>
-                     <Pblock>
+                     </P1group>
+                     <P1group id="schedule-part-1-chapter-2-crossheading-general-directions-under-paragraph-8">
                         <Title>General directions under <InternalLink Ref="schedule-paragraph-8">paragraph 8</InternalLink>
                         </Title>
                         <P1 id="schedule-paragraph-9">
@@ -8607,12 +8607,12 @@
                               </P2>
                            </P1para>
                         </P1>
-                     </Pblock>
+                     </P1group>
                   </Chapter>
                   <Chapter id="schedule-part-1-chapter-3">
                      <Number>Chapter 3</Number>
                      <Title>Further provision</Title>
-                     <Pblock>
+                     <P1group id="schedule-part-1-chapter-3-crossheading-publication-of-directions-and-guidance">
                         <Title>Publication of directions and guidance</Title>
                         <P1 id="schedule-paragraph-10">
                            <Pnumber>10</Pnumber>
@@ -8651,8 +8651,8 @@
                               </P3>
                            </P1para>
                         </P1>
-                     </Pblock>
-                     <Pblock>
+                     </P1group>
+                     <P1group id="schedule-part-1-chapter-3-crossheading-transitional-provision-for-directions-under-earlier-enactment">
                         <Title>Transitional provision for directions under earlier enactment</Title>
                         <P1 id="schedule-paragraph-11">
                            <Pnumber>11</Pnumber>
@@ -8784,8 +8784,8 @@
                               </P2>
                            </P1para>
                         </P1>
-                     </Pblock>
-                     <Pblock>
+                     </P1group>
+                     <P1group id="schedule-part-1-chapter-3-crossheading-interpretation-of-part">
                         <Title>Interpretation of Part</Title>
                         <P1 id="schedule-paragraph-12">
                            <Pnumber>12</Pnumber>
@@ -8827,13 +8827,13 @@
                               </UnorderedList>
                            </P1para>
                         </P1>
-                     </Pblock>
+                     </P1group>
                   </Chapter>
                </Part>
                <Part id="schedule-part-2">
                   <Number>Part 2</Number>
                   <Title>Fiscal fines</Title>
-                  <Pblock>
+                  <P1group id="schedule-part-2-crossheading-increase-of-maximum-penalty">
                      <Title>Increase of maximum penalty</Title>
                      <P1 id="schedule-paragraph-13">
                         <Pnumber>13</Pnumber>
@@ -8852,8 +8852,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-2-crossheading-new-scale">
                      <Title>New scale</Title>
                      <P1 id="schedule-paragraph-14">
                         <Pnumber>14</Pnumber>
@@ -9013,12 +9013,12 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-part-3">
                   <Number>Part 3</Number>
                   <Title>Failure to appear before court following police liberation</Title>
-                  <Pblock>
+                  <P1group id="schedule-part-3-crossheading-power-for-court-to-reschedule-due-to-coronavirus">
                      <Title>Power for court to reschedule due to coronavirus</Title>
                      <P1 id="schedule-paragraph-15">
                         <Pnumber>15</Pnumber>
@@ -9112,12 +9112,12 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-part-4">
                   <Number>Part 4</Number>
                   <Title>National jurisdiction for callings from custody etc.</Title>
-                  <Pblock>
+                  <P1group id="schedule-part-4-crossheading-ability-to-take-calling-in-any-sheriff-court-and-then-maintain-proceedings">
                      <Title>Ability to take calling in any sheriff court and then maintain proceedings</Title>
                      <P1 id="schedule-paragraph-16">
                         <Pnumber>16</Pnumber>
@@ -9227,8 +9227,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-4-crossheading-ability-of-any-sheriff-court-to-deal-with-proceedings-following-failure-to-appear">
                      <Title>Ability of any sheriff court to deal with proceedings following failure to appear</Title>
                      <P1 id="schedule-paragraph-17">
                         <Pnumber>17</Pnumber>
@@ -9281,8 +9281,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-4-crossheading-further-provision-about-extra-territorial-jurisdiction">
                      <Title>Further provision about extra-territorial jurisdiction</Title>
                      <P1 id="schedule-paragraph-18">
                         <Pnumber>18</Pnumber>
@@ -9326,8 +9326,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-4-crossheading-interpretation-of-part">
                      <Title>Interpretation of Part</Title>
                      <P1 id="schedule-paragraph-19">
                         <Pnumber>19</Pnumber>
@@ -9394,7 +9394,7 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-part-5">
                   <Number>Part 5</Number>
@@ -9402,7 +9402,7 @@
                   <Chapter id="schedule-part-5-chapter-1">
                      <Number>Chapter 1</Number>
                      <Title>Extension of periods</Title>
-                     <Pblock>
+                     <P1group id="schedule-part-5-chapter-1-crossheading-solemn-proceedings-periods-within-which-procedural-hearings-and-trial-must-commence">
                         <Title>Solemn proceedings: periods within which procedural hearings and trial must commence</Title>
                         <P1 id="schedule-paragraph-20">
                            <Pnumber>20</Pnumber>
@@ -9439,8 +9439,8 @@
                               </P2>
                            </P1para>
                         </P1>
-                     </Pblock>
-                     <Pblock>
+                     </P1group>
+                     <P1group id="schedule-part-5-chapter-1-crossheading-summary-proceedings-period-within-which-prosecution-for-statutory-offence-must-commence">
                         <Title>Summary proceedings: period within which prosecution for statutory offence must commence</Title>
                         <P1 id="schedule-paragraph-21">
                            <Pnumber>21</Pnumber>
@@ -9459,8 +9459,8 @@
                               </P2>
                            </P1para>
                         </P1>
-                     </Pblock>
-                     <Pblock>
+                     </P1group>
+                     <P1group id="schedule-part-5-chapter-1-crossheading-pre-trial-and-pre-sentence-remand-period">
                         <Title>Pre-trial and pre-sentence remand period</Title>
                         <P1 id="schedule-paragraph-22">
                            <Pnumber>22</Pnumber>
@@ -9533,12 +9533,12 @@
                               </P2>
                            </P1para>
                         </P1>
-                     </Pblock>
+                     </P1group>
                   </Chapter>
                   <Chapter id="schedule-part-5-chapter-2">
                      <Number>Chapter 2</Number>
                      <Title>Adjournment periods</Title>
-                     <Pblock>
+                     <P1group id="schedule-part-5-chapter-2-crossheading-power-of-court-to-adjourn-cases">
                         <Title>Power of court to adjourn cases</Title>
                         <P1 id="schedule-paragraph-23">
                            <Pnumber>23</Pnumber>
@@ -9588,13 +9588,13 @@
                               </P2>
                            </P1para>
                         </P1>
-                     </Pblock>
+                     </P1group>
                   </Chapter>
                </Part>
                <Part id="schedule-part-6">
                   <Number>Part 6</Number>
                   <Title>Proceeds of crime</Title>
-                  <Pblock>
+                  <P1group id="schedule-part-6-crossheading-making-of-confiscation-order-postponement-due-to-coronavirus">
                      <Title>Making of confiscation order: postponement due to coronavirus</Title>
                      <P1 id="schedule-paragraph-24">
                         <Pnumber>24</Pnumber>
@@ -9649,12 +9649,12 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-part-7">
                   <Number>Part 7</Number>
                   <Title>Prisons and young offenders institutions</Title>
-                  <Pblock>
+                  <P1group id="schedule-part-7-crossheading-power-to-release-early">
                      <Title>Power to release early</Title>
                      <P1 id="schedule-paragraph-25">
                         <Pnumber>25</Pnumber>
@@ -9929,8 +9929,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-part-7-crossheading-parliamentary-scrutiny-of-regulations-under-paragraph-25">
                      <Title>Parliamentary scrutiny of regulations under <InternalLink Ref="schedule-paragraph-25">paragraph 25</InternalLink>
                      </Title>
                      <P1 id="schedule-paragraph-26">
@@ -10019,7 +10019,7 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
             </ScheduleBody>
          </Schedule>

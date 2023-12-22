@@ -7,7 +7,7 @@
              xmlns:dc="http://purl.org/dc/elements/1.1/">
       <dc:identifier>http://www.legislation.gov.uk/id/ukpga/2022/21</dc:identifier>
       <dc:title>Skills and Post-16 Education Act 2022</dc:title>
-      <dc:modified>2023-12-18</dc:modified>
+      <dc:modified>2023-12-22</dc:modified>
       <PrimaryMetadata>
          <DocumentClassification>
             <DocumentCategory Value="primary"/>
@@ -457,7 +457,7 @@
                                                 <OrderedList Type="roman" Decoration="parens">
                                                    <ListItem>
                                                       <Para>
-                                                         <Text>an employer who provides the education or training mentioned in <InternalLink Ref="d23e781-a">paragraph (a)</InternalLink> only to its employees,</Text>
+                                                         <Text>an employer who provides the education or training mentioned in <InternalLink Ref="d24e781-a">paragraph (a)</InternalLink> only to its employees,</Text>
                                                       </Para>
                                                    </ListItem>
                                                    <ListItem>
@@ -616,7 +616,7 @@
                            <P2 id="section-4-5">
                               <Pnumber>5</Pnumber>
                               <P2para>
-                                 <Text>A statutory instrument containing regulations under <InternalLink Ref="d23e867-d">paragraph (d)</InternalLink> of the definition of “relevant provider” in <InternalLink Ref="section-4-1">subsection (1)</InternalLink> is subject to annulment in pursuance of a resolution of either House of Parliament.</Text>
+                                 <Text>A statutory instrument containing regulations under <InternalLink Ref="d24e867-d">paragraph (d)</InternalLink> of the definition of “relevant provider” in <InternalLink Ref="section-4-1">subsection (1)</InternalLink> is subject to annulment in pursuance of a resolution of either House of Parliament.</Text>
                               </P2para>
                            </P2>
                         </P1para>

@@ -7,7 +7,7 @@
              xmlns:dc="http://purl.org/dc/elements/1.1/">
       <dc:identifier>http://www.legislation.gov.uk/id/uksi/2023/951</dc:identifier>
       <dc:title>The Trade Remedies (Increase in Imports Causing Serious Injury to UK Producers) (EU Exit) (Amendment) Regulations 2023</dc:title>
-      <dc:modified>2023-12-18</dc:modified>
+      <dc:modified>2023-12-22</dc:modified>
       <SecondaryMetadata>
          <DocumentClassification>
             <DocumentCategory Value="secondary"/>
@@ -2525,7 +2525,7 @@
                                               TargetSubClass="unknown"
                                               Context="schedule"
                                               Format="double">
-                                 <Pblock>
+                                 <P1group>
                                     <Title>Notice of the Secretary of State accepting or rejecting a recommendation by the TRA relating to an international dispute investigation</Title>
                                     <P1>
                                        <Pnumber>18</Pnumber>
@@ -2641,7 +2641,7 @@
                                           </P3>
                                        </P1para>
                                     </P1>
-                                 </Pblock>
+                                 </P1group>
                               </BlockAmendment>
                               <AppendText>.</AppendText>
                            </P2para>

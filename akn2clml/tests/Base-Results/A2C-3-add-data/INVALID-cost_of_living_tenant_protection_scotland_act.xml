@@ -7,7 +7,7 @@
              xmlns:dc="http://purl.org/dc/elements/1.1/">
       <dc:identifier>http://www.legislation.gov.uk/id/asp/2022/10</dc:identifier>
       <dc:title>Cost of Living (Tenant Protection) (Scotland) Act 2022</dc:title>
-      <dc:modified>2023-12-18</dc:modified>
+      <dc:modified>2023-12-22</dc:modified>
       <PrimaryMetadata>
          <DocumentClassification>
             <DocumentCategory Value="primary"/>
@@ -4112,7 +4112,7 @@
                                                     TargetSubClass="unknown"
                                                     Context="schedule"
                                                     Format="double">
-                                       <Pblock>
+                                       <P1group>
                                           <Title>Landlord intends to sell property to alleviate financial hardship</Title>
                                           <P1>
                                              <Pnumber>1A</Pnumber>
@@ -4205,7 +4205,7 @@
                                                 </P2>
                                              </P1para>
                                           </P1>
-                                       </Pblock>
+                                       </P1group>
                                     </BlockAmendment>
                                     <AppendText>,</AppendText>
                                  </P3para>
@@ -4218,7 +4218,7 @@
                                                     TargetSubClass="unknown"
                                                     Context="schedule"
                                                     Format="double">
-                                       <Pblock>
+                                       <P1group>
                                           <Title>Landlord intends to live in property to alleviate financial hardship</Title>
                                           <P1>
                                              <Pnumber>4A</Pnumber>
@@ -4311,7 +4311,7 @@
                                                 </P2>
                                              </P1para>
                                           </P1>
-                                       </Pblock>
+                                       </P1group>
                                     </BlockAmendment>
                                     <AppendText>,</AppendText>
                                  </P3para>
@@ -4324,7 +4324,7 @@
                                                     TargetSubClass="unknown"
                                                     Context="schedule"
                                                     Format="double">
-                                       <Pblock>
+                                       <P1group>
                                           <Title>Substantial rent arrears</Title>
                                           <P1 id="p03187">
                                              <Pnumber>12A</Pnumber>
@@ -4421,7 +4421,7 @@
                                                 </P2>
                                              </P1para>
                                           </P1>
-                                       </Pblock>
+                                       </P1group>
                                     </BlockAmendment>
                                     <AppendText>.</AppendText>
                                  </P3para>
@@ -4571,7 +4571,7 @@
                                                     TargetSubClass="unknown"
                                                     Context="schedule"
                                                     Format="double">
-                                       <Pblock>
+                                       <P1group>
                                           <Title>Ground 1A</Title>
                                           <P1>
                                              <Pnumber/>
@@ -4609,7 +4609,7 @@
                                                 </P3>
                                              </P1para>
                                           </P1>
-                                       </Pblock>
+                                       </P1group>
                                     </BlockAmendment>
                                     <AppendText>,</AppendText>
                                  </P3para>
@@ -4622,7 +4622,7 @@
                                                     TargetSubClass="unknown"
                                                     Context="schedule"
                                                     Format="double">
-                                       <Pblock>
+                                       <P1group>
                                           <Title>Ground 8A</Title>
                                           <P1>
                                              <Pnumber/>
@@ -4630,7 +4630,7 @@
                                                 <Text>The tenant has accrued rent arrears under the tenancy in respect of one or more periods, and the cumulative amount of those rent arrears equates to, or exceeds, an amount that is the equivalent of 6 months’ rent under the tenancy when notice is served under section 19 on this ground or, if dispensed with, when proceedings are raised for an order of possession on this ground.</Text>
                                              </P1para>
                                           </P1>
-                                       </Pblock>
+                                       </P1group>
                                     </BlockAmendment>
                                     <AppendText>.</AppendText>
                                  </P3para>
@@ -4750,7 +4750,7 @@
                                                     TargetSubClass="unknown"
                                                     Context="schedule"
                                                     Format="double">
-                                       <Pblock>
+                                       <P1group>
                                           <Title>Case 1A</Title>
                                           <P1>
                                              <Pnumber/>
@@ -4758,7 +4758,7 @@
                                                 <Text>The tenant has accrued rent arrears under the tenancy in respect of one or more periods, and the cumulative amount of those rent arrears equates to, or exceeds, an amount that is the equivalent of 6 months’ rent under the tenancy when proceedings for an order for possession are raised on the basis of these circumstances.</Text>
                                              </P1para>
                                           </P1>
-                                       </Pblock>
+                                       </P1group>
                                     </BlockAmendment>
                                     <AppendText>,</AppendText>
                                  </P3para>
@@ -4771,7 +4771,7 @@
                                                     TargetSubClass="unknown"
                                                     Context="schedule"
                                                     Format="double">
-                                       <Pblock>
+                                       <P1group>
                                           <Title>Case 8A</Title>
                                           <P1>
                                              <Pnumber/>
@@ -4809,7 +4809,7 @@
                                                 </P3>
                                              </P1para>
                                           </P1>
-                                       </Pblock>
+                                       </P1group>
                                     </BlockAmendment>
                                     <AppendText>.</AppendText>
                                  </P3para>

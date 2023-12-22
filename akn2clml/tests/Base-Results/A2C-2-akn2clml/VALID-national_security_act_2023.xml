@@ -7,7 +7,7 @@
              xmlns:dc="http://purl.org/dc/elements/1.1/">
       <dc:identifier>http://www.legislation.gov.uk/id/ukpga/2023/32</dc:identifier>
       <dc:title>National Security Act 2023</dc:title>
-      <dc:modified>2023-12-18</dc:modified>
+      <dc:modified>2023-12-22</dc:modified>
       <PrimaryMetadata>
          <DocumentClassification>
             <DocumentCategory Value="primary"/>
@@ -5883,7 +5883,7 @@
                                         TargetSubClass="unknown"
                                         Context="schedule"
                                         Format="double">
-                           <Pblock>
+                           <P1group>
                               <Title>Foreign power threat activity prevention and investigation measures</Title>
                               <P1>
                                  <Pnumber>45B</Pnumber>
@@ -5914,7 +5914,7 @@
                                     </P2>
                                  </P1para>
                               </P1>
-                           </Pblock>
+                           </P1group>
                         </BlockAmendment>
                         <AppendText/>
                      </P1para>
@@ -10013,7 +10013,7 @@
                <Part id="schedule-1-part-2">
                   <Number>Part 2</Number>
                   <Title>Amendments</Title>
-                  <Pblock>
+                  <P1group id="schedule-1-part-2-crossheading-electoral-law-act-northern-ireland-1962-c14-ni">
                      <Title>Electoral Law Act (Northern Ireland) 1962 (c.14 (N.I.))</Title>
                      <P1 id="schedule-1-paragraph-1">
                         <Pnumber>1</Pnumber>
@@ -10122,8 +10122,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-1-part-2-crossheading-representation-of-the-people-act-1983-c-2">
                      <Title>Representation of the People Act 1983 (c. 2)</Title>
                      <P1 id="schedule-1-paragraph-2">
                         <Pnumber>2</Pnumber>
@@ -10190,8 +10190,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-1-part-2-crossheading-political-parties-elections-and-referendums-act-2000-c-41">
                      <Title>Political Parties, Elections and Referendums Act 2000 (c. 41)</Title>
                      <P1 id="schedule-1-paragraph-3">
                         <Pnumber>3</Pnumber>
@@ -10252,7 +10252,7 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
             </ScheduleBody>
          </Schedule>
@@ -10268,7 +10268,7 @@
                <Part id="schedule-2-part-1">
                   <Number>Part 1</Number>
                   <Title>England and Wales and Northern Ireland</Title>
-                  <Pblock>
+                  <P1group id="schedule-2-part-1-crossheading-introductory">
                      <Title>Introductory</Title>
                      <P1 id="schedule-2-paragraph-1">
                         <Pnumber>1</Pnumber>
@@ -10339,8 +10339,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-2-part-1-crossheading-material-other-than-confidential-material-search-seizure-and-retention">
                      <Title>Material other than confidential material: search, seizure and retention</Title>
                      <P1 id="schedule-2-paragraph-2">
                         <Pnumber>2</Pnumber>
@@ -10473,8 +10473,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-2-part-1-crossheading-confidential-material-production-orders">
                      <Title>Confidential material: production orders</Title>
                      <P1 id="schedule-2-paragraph-3">
                         <Pnumber>3</Pnumber>
@@ -10691,8 +10691,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-2-part-1-crossheading-production-orders-supplementary-provision">
                      <Title>Production orders: supplementary provision</Title>
                      <P1 id="schedule-2-paragraph-5">
                         <Pnumber>5</Pnumber>
@@ -10790,8 +10790,8 @@
                            <Text>An order under paragraph <InternalLink Ref="schedule-2-paragraph-3">3</InternalLink> or <InternalLink Ref="schedule-2-paragraph-4">4</InternalLink> has effect as if it were an order of the court.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-2-part-1-crossheading-confidential-material-search-seizure-and-retention">
                      <Title>Confidential material: search, seizure and retention</Title>
                      <P1 id="schedule-2-paragraph-9">
                         <Pnumber>9</Pnumber>
@@ -10972,8 +10972,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-2-part-1-crossheading-explanations">
                      <Title>Explanations</Title>
                      <P1 id="schedule-2-paragraph-10">
                         <Pnumber>10</Pnumber>
@@ -11087,8 +11087,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-2-part-1-crossheading-urgent-cases">
                      <Title>Urgent cases</Title>
                      <P1 id="schedule-2-paragraph-12">
                         <Pnumber>12</Pnumber>
@@ -11302,8 +11302,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-2-part-1-crossheading-application-of-pace">
                      <Title>Application of PACE</Title>
                      <P1 id="schedule-2-paragraph-15">
                         <Pnumber>15</Pnumber>
@@ -11347,8 +11347,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-2-part-1-crossheading-procedure-rules">
                      <Title>Procedure rules</Title>
                      <P1 id="schedule-2-paragraph-16">
                         <Pnumber>16</Pnumber>
@@ -11373,8 +11373,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-2-part-1-crossheading-interpretation">
                      <Title>Interpretation</Title>
                      <P1 id="schedule-2-paragraph-17">
                         <Pnumber>17</Pnumber>
@@ -11501,12 +11501,12 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-2-part-2">
                   <Number>Part 2</Number>
                   <Title>Scotland</Title>
-                  <Pblock>
+                  <P1group id="schedule-2-part-2-crossheading-introductory">
                      <Title>Introductory</Title>
                      <P1 id="schedule-2-paragraph-18">
                         <Pnumber>18</Pnumber>
@@ -11577,8 +11577,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-2-part-2-crossheading-production-orders">
                      <Title>Production orders</Title>
                      <P1 id="schedule-2-paragraph-19">
                         <Pnumber>19</Pnumber>
@@ -11773,8 +11773,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-2-part-2-crossheading-production-orders-supplementary">
                      <Title>Production orders: supplementary</Title>
                      <P1 id="schedule-2-paragraph-21">
                         <Pnumber>21</Pnumber>
@@ -11907,8 +11907,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-2-part-2-crossheading-search-seizure-and-retention">
                      <Title>Search, seizure and retention</Title>
                      <P1 id="schedule-2-paragraph-25">
                         <Pnumber>25</Pnumber>
@@ -12053,8 +12053,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-2-part-2-crossheading-explanations">
                      <Title>Explanations</Title>
                      <P1 id="schedule-2-paragraph-26">
                         <Pnumber>26</Pnumber>
@@ -12116,8 +12116,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-2-part-2-crossheading-urgent-cases">
                      <Title>Urgent cases</Title>
                      <P1 id="schedule-2-paragraph-27">
                         <Pnumber>27</Pnumber>
@@ -12317,8 +12317,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-2-part-2-crossheading-supplementary">
                      <Title>Supplementary</Title>
                      <P1 id="schedule-2-paragraph-30">
                         <Pnumber>30</Pnumber>
@@ -12357,7 +12357,7 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
             </ScheduleBody>
          </Schedule>
@@ -12373,7 +12373,7 @@
                <Part id="schedule-3-part-1">
                   <Number>Part 1</Number>
                   <Title>England and Wales and Northern Ireland</Title>
-                  <Pblock>
+                  <P1group id="schedule-3-part-1-crossheading-introductory">
                      <Title>Introductory</Title>
                      <P1 id="schedule-3-paragraph-1">
                         <Pnumber>1</Pnumber>
@@ -12434,8 +12434,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-1-crossheading-disclosure-orders">
                      <Title>Disclosure orders</Title>
                      <P1 id="schedule-3-paragraph-2">
                         <Pnumber>2</Pnumber>
@@ -12520,8 +12520,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-1-crossheading-supplementary-provision">
                      <Title>Supplementary provision</Title>
                      <P1 id="schedule-3-paragraph-3">
                         <Pnumber>3</Pnumber>
@@ -12608,8 +12608,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-1-crossheading-applications">
                      <Title>Applications</Title>
                      <P1 id="schedule-3-paragraph-4">
                         <Pnumber>4</Pnumber>
@@ -12617,8 +12617,8 @@
                            <Text>An application for a disclosure order may be made without notice to a judge in chambers.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-1-crossheading-discharge-or-variation">
                      <Title>Discharge or variation</Title>
                      <P1 id="schedule-3-paragraph-5">
                         <Pnumber>5</Pnumber>
@@ -12679,8 +12679,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-1-crossheading-rules-of-court">
                      <Title>Rules of court</Title>
                      <P1 id="schedule-3-paragraph-6">
                         <Pnumber>6</Pnumber>
@@ -12688,8 +12688,8 @@
                            <Text>Rules of court may make provision as to the practice and procedure to be followed in connection with proceedings relating to disclosure orders.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-1-crossheading-offences">
                      <Title>Offences</Title>
                      <P1 id="schedule-3-paragraph-7">
                         <Pnumber>7</Pnumber>
@@ -12762,8 +12762,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-1-crossheading-statements">
                      <Title>Statements</Title>
                      <P1 id="schedule-3-paragraph-8">
                         <Pnumber>8</Pnumber>
@@ -12821,8 +12821,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-1-crossheading-interpretation">
                      <Title>Interpretation</Title>
                      <P1 id="schedule-3-paragraph-9">
                         <Pnumber>9</Pnumber>
@@ -12907,12 +12907,12 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-3-part-2">
                   <Number>Part 2</Number>
                   <Title>Scotland</Title>
-                  <Pblock>
+                  <P1group id="schedule-3-part-2-crossheading-introductory">
                      <Title>Introductory</Title>
                      <P1 id="schedule-3-paragraph-10">
                         <Pnumber>10</Pnumber>
@@ -12931,8 +12931,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-2-crossheading-disclosure-orders">
                      <Title>Disclosure orders</Title>
                      <P1 id="schedule-3-paragraph-11">
                         <Pnumber>11</Pnumber>
@@ -13011,8 +13011,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-2-crossheading-supplementary-provision">
                      <Title>Supplementary provision</Title>
                      <P1 id="schedule-3-paragraph-12">
                         <Pnumber>12</Pnumber>
@@ -13081,8 +13081,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-2-crossheading-applications">
                      <Title>Applications</Title>
                      <P1 id="schedule-3-paragraph-13">
                         <Pnumber>13</Pnumber>
@@ -13090,8 +13090,8 @@
                            <Text>An application for a disclosure order may be made without notice to a judge of the High Court of Justiciary.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-2-crossheading-discharge-or-variation">
                      <Title>Discharge or variation</Title>
                      <P1 id="schedule-3-paragraph-14">
                         <Pnumber>14</Pnumber>
@@ -13134,8 +13134,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-2-crossheading-rules-of-court">
                      <Title>Rules of court</Title>
                      <P1 id="schedule-3-paragraph-15">
                         <Pnumber>15</Pnumber>
@@ -13154,8 +13154,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-2-crossheading-offences">
                      <Title>Offences</Title>
                      <P1 id="schedule-3-paragraph-16">
                         <Pnumber>16</Pnumber>
@@ -13210,8 +13210,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-2-crossheading-statements">
                      <Title>Statements</Title>
                      <P1 id="schedule-3-paragraph-17">
                         <Pnumber>17</Pnumber>
@@ -13269,8 +13269,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-2-crossheading-interpretation">
                      <Title>Interpretation</Title>
                      <P1 id="schedule-3-paragraph-18">
                         <Pnumber>18</Pnumber>
@@ -13295,7 +13295,7 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
             </ScheduleBody>
          </Schedule>
@@ -14101,7 +14101,7 @@
                   <Number>Part 1</Number>
                   <Title>Treatment of persons detained under <InternalLink Ref="section-27">section 27</InternalLink>
                   </Title>
-                  <Pblock>
+                  <P1group id="schedule-6-part-1-crossheading-place-of-detention">
                      <Title>Place of detention</Title>
                      <P1 id="schedule-6-paragraph-1">
                         <Pnumber>1</Pnumber>
@@ -14156,8 +14156,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-6-part-1-crossheading-identification">
                      <Title>Identification</Title>
                      <P1 id="schedule-6-paragraph-2">
                         <Pnumber>2</Pnumber>
@@ -14233,8 +14233,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-6-part-1-crossheading-video-recording-of-interviews">
                      <Title>Video recording of interviews</Title>
                      <P1 id="schedule-6-paragraph-3">
                         <Pnumber>3</Pnumber>
@@ -14370,8 +14370,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-6-part-1-crossheading-status">
                      <Title>Status</Title>
                      <P1 id="schedule-6-paragraph-5">
                         <Pnumber>5</Pnumber>
@@ -14379,12 +14379,12 @@
                            <Text>A detained person is to be treated as being in legal custody throughout the period of the person’s detention.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-6-part-2">
                   <Number>Part 2</Number>
                   <Title>Rights of persons detained under <InternalLink Ref="section-27">section 27</InternalLink>: England, Wales and Northern Ireland</Title>
-                  <Pblock>
+                  <P1group id="schedule-6-part-2-crossheading-right-to-have-named-person-informed-of-detention">
                      <Title>Right to have named person informed of detention</Title>
                      <P1 id="schedule-6-paragraph-6">
                         <Pnumber>6</Pnumber>
@@ -14433,8 +14433,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-6-part-2-crossheading-right-to-consult-a-solicitor">
                      <Title>Right to consult a solicitor</Title>
                      <P1 id="schedule-6-paragraph-7">
                         <Pnumber>7</Pnumber>
@@ -14561,8 +14561,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-6-part-2-crossheading-delay-in-exercise-of-rights">
                      <Title>Delay in exercise of rights</Title>
                      <P1 id="schedule-6-paragraph-9">
                         <Pnumber>9</Pnumber>
@@ -14684,8 +14684,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-6-part-2-crossheading-taking-of-intimate-and-non-intimate-samples">
                      <Title>Taking of intimate and non-intimate samples</Title>
                      <P1 id="schedule-6-paragraph-10">
                         <Pnumber>10</Pnumber>
@@ -15142,7 +15142,7 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-6-part-3">
                   <Number>Part 3</Number>
@@ -15493,7 +15493,7 @@
                <Part id="schedule-6-part-4">
                   <Number>Part 4</Number>
                   <Title>Dealing with fingerprints and samples etc: United Kingdom</Title>
-                  <Pblock>
+                  <P1group id="schedule-6-part-4-crossheading-retention-of-fingerprints-and-samples-etc-general">
                      <Title>Retention of fingerprints and samples etc: general</Title>
                      <P1 id="schedule-6-paragraph-19">
                         <Pnumber>19</Pnumber>
@@ -16211,8 +16211,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-6-part-4-crossheading-retention-of-material-covered-by-a-national-security-determination">
                      <Title>Retention of material covered by a national security determination</Title>
                      <P1 id="schedule-6-paragraph-22">
                         <Pnumber>22</Pnumber>
@@ -16298,8 +16298,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-6-part-4-crossheading-fingerprints-and-relevant-physical-data-further-provision">
                      <Title>Fingerprints and relevant physical data: further provision</Title>
                      <P1 id="schedule-6-paragraph-23">
                         <Pnumber>23</Pnumber>
@@ -16455,8 +16455,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-6-part-4-crossheading-samples-further-provision">
                      <Title>Samples: further provision</Title>
                      <P1 id="schedule-6-paragraph-25">
                         <Pnumber>25</Pnumber>
@@ -16736,8 +16736,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-6-part-4-crossheading-restrictions-on-use-of-retained-material">
                      <Title>Restrictions on use of retained material</Title>
                      <P1 id="schedule-6-paragraph-26">
                         <Pnumber>26</Pnumber>
@@ -16848,8 +16848,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-6-part-4-crossheading-material-disclosable-in-connection-with-a-criminal-investigation">
                      <Title>Material disclosable in connection with a criminal investigation</Title>
                      <P1 id="schedule-6-paragraph-27">
                         <Pnumber>27</Pnumber>
@@ -16902,8 +16902,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-6-part-4-crossheading-interpretation">
                      <Title>Interpretation</Title>
                      <P1 id="schedule-6-paragraph-28">
                         <Pnumber>28</Pnumber>
@@ -17065,8 +17065,8 @@
                            <P2 id="schedule-6-paragraph-28-2">
                               <Pnumber>2</Pnumber>
                               <P2para>
-                                 <Text>In the definition of “responsible chief officer of police” in sub-paragraph (1), in <InternalLink Ref="d23e17750-d">paragraph (d)</InternalLink>
-                                    <InternalLink Ref="d23e17750-d-i">(i)</InternalLink>, “relevant police area” means the police area—</Text>
+                                 <Text>In the definition of “responsible chief officer of police” in sub-paragraph (1), in <InternalLink Ref="d24e17750-d">paragraph (d)</InternalLink>
+                                    <InternalLink Ref="d24e17750-d-i">(i)</InternalLink>, “relevant police area” means the police area—</Text>
                                  <P3 id="schedule-6-paragraph-28-2-a">
                                     <Pnumber>a</Pnumber>
                                     <P3para>
@@ -17083,13 +17083,13 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-6-part-5">
                   <Number>Part 5</Number>
                   <Title>Review of detention under <InternalLink Ref="section-27">section 27</InternalLink>
                   </Title>
-                  <Pblock>
+                  <P1group id="schedule-6-part-5-crossheading-requirement">
                      <Title>Requirement</Title>
                      <P1 id="schedule-6-paragraph-29">
                         <Pnumber>29</Pnumber>
@@ -17121,8 +17121,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-6-part-5-crossheading-postponement">
                      <Title>Postponement</Title>
                      <P1 id="schedule-6-paragraph-30">
                         <Pnumber>30</Pnumber>
@@ -17165,8 +17165,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-6-part-5-crossheading-grounds-for-continued-detention">
                      <Title>Grounds for continued detention</Title>
                      <P1 id="schedule-6-paragraph-31">
                         <Pnumber>31</Pnumber>
@@ -17255,8 +17255,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-6-part-5-crossheading-review-officer">
                      <Title>Review officer</Title>
                      <P1 id="schedule-6-paragraph-32">
                         <Pnumber>32</Pnumber>
@@ -17317,8 +17317,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-6-part-5-crossheading-representations">
                      <Title>Representations</Title>
                      <P1 id="schedule-6-paragraph-34">
                         <Pnumber>34</Pnumber>
@@ -17355,8 +17355,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-6-part-5-crossheading-rights">
                      <Title>Rights</Title>
                      <P1 id="schedule-6-paragraph-35">
                         <Pnumber>35</Pnumber>
@@ -17411,8 +17411,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-6-part-5-crossheading-record">
                      <Title>Record</Title>
                      <P1 id="schedule-6-paragraph-36">
                         <Pnumber>36</Pnumber>
@@ -17510,13 +17510,13 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-6-part-6">
                   <Number>Part 6</Number>
                   <Title>Extension of detention under <InternalLink Ref="section-27">section 27</InternalLink>
                   </Title>
-                  <Pblock>
+                  <P1group id="schedule-6-part-6-crossheading-warrants-of-further-detention">
                      <Title>Warrants of further detention</Title>
                      <P1 id="schedule-6-paragraph-37">
                         <Pnumber>37</Pnumber>
@@ -17646,8 +17646,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-6-part-6-crossheading-time-limit">
                      <Title>Time limit</Title>
                      <P1 id="schedule-6-paragraph-38">
                         <Pnumber>38</Pnumber>
@@ -17687,8 +17687,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-6-part-6-crossheading-notice">
                      <Title>Notice</Title>
                      <P1 id="schedule-6-paragraph-39">
                         <Pnumber>39</Pnumber>
@@ -17720,8 +17720,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-6-part-6-crossheading-grounds-for-extension">
                      <Title>Grounds for extension</Title>
                      <P1 id="schedule-6-paragraph-40">
                         <Pnumber>40</Pnumber>
@@ -17782,8 +17782,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-6-part-6-crossheading-representation">
                      <Title>Representation</Title>
                      <P1 id="schedule-6-paragraph-41">
                         <Pnumber>41</Pnumber>
@@ -17924,8 +17924,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-6-part-6-crossheading-information">
                      <Title>Information</Title>
                      <P1 id="schedule-6-paragraph-42">
                         <Pnumber>42</Pnumber>
@@ -18042,8 +18042,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-6-part-6-crossheading-adjournments">
                      <Title>Adjournments</Title>
                      <P1 id="schedule-6-paragraph-43">
                         <Pnumber>43</Pnumber>
@@ -18065,8 +18065,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-6-part-6-crossheading-extensions-of-warrants">
                      <Title>Extensions of warrants</Title>
                      <P1 id="schedule-6-paragraph-44">
                         <Pnumber>44</Pnumber>
@@ -18207,8 +18207,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-6-part-6-crossheading-detention---conditions">
                      <Title>Detention - conditions</Title>
                      <P1 id="schedule-6-paragraph-45">
                         <Pnumber>45</Pnumber>
@@ -18261,7 +18261,7 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-6-part-7">
                   <Number>Part 7</Number>
@@ -18700,7 +18700,7 @@
                <Part id="schedule-7-part-1">
                   <Number>Part 1</Number>
                   <Title>Measures</Title>
-                  <Pblock>
+                  <P1group id="schedule-7-part-1-crossheading-residence-measure">
                      <Title>Residence measure</Title>
                      <P1 id="schedule-7-paragraph-1">
                         <Pnumber>1</Pnumber>
@@ -18837,8 +18837,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-7-part-1-crossheading-travel-measure">
                      <Title>Travel measure</Title>
                      <P1 id="schedule-7-paragraph-2">
                         <Pnumber>2</Pnumber>
@@ -18953,8 +18953,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-7-part-1-crossheading-exclusion-measure">
                      <Title>Exclusion measure</Title>
                      <P1 id="schedule-7-paragraph-3">
                         <Pnumber>3</Pnumber>
@@ -19004,8 +19004,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-7-part-1-crossheading-movement-directions-measure">
                      <Title>Movement directions measure</Title>
                      <P1 id="schedule-7-paragraph-4">
                         <Pnumber>4</Pnumber>
@@ -19042,8 +19042,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-7-part-1-crossheading-financial-services-measure">
                      <Title>Financial services measure</Title>
                      <P1 id="schedule-7-paragraph-5">
                         <Pnumber>5</Pnumber>
@@ -19202,8 +19202,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-7-part-1-crossheading-property-measure">
                      <Title>Property measure</Title>
                      <P1 id="schedule-7-paragraph-6">
                         <Pnumber>6</Pnumber>
@@ -19288,8 +19288,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-7-part-1-crossheading-weapons-and-explosives-measure">
                      <Title>Weapons and explosives measure</Title>
                      <P1 id="schedule-7-paragraph-7">
                         <Pnumber>7</Pnumber>
@@ -19369,8 +19369,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-7-part-1-crossheading-electronic-communication-device-measure">
                      <Title>Electronic communication device measure</Title>
                      <P1 id="schedule-7-paragraph-8">
                         <Pnumber>8</Pnumber>
@@ -19536,8 +19536,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-7-part-1-crossheading-association-measure">
                      <Title>Association measure</Title>
                      <P1 id="schedule-7-paragraph-9">
                         <Pnumber>9</Pnumber>
@@ -19580,8 +19580,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-7-part-1-crossheading-work-or-studies-measure">
                      <Title>Work or studies measure</Title>
                      <P1 id="schedule-7-paragraph-10">
                         <Pnumber>10</Pnumber>
@@ -19648,8 +19648,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-7-part-1-crossheading-reporting-measure">
                      <Title>Reporting measure</Title>
                      <P1 id="schedule-7-paragraph-11">
                         <Pnumber>11</Pnumber>
@@ -19680,8 +19680,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-7-part-1-crossheading-polygraph-measure">
                      <Title>Polygraph measure</Title>
                      <P1 id="schedule-7-paragraph-12">
                         <Pnumber>12</Pnumber>
@@ -19824,8 +19824,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-7-part-1-crossheading-appointments-measure">
                      <Title>Appointments measure</Title>
                      <P1 id="schedule-7-paragraph-13">
                         <Pnumber>13</Pnumber>
@@ -19869,8 +19869,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-7-part-1-crossheading-photography-measure">
                      <Title>Photography measure</Title>
                      <P1 id="schedule-7-paragraph-14">
                         <Pnumber>14</Pnumber>
@@ -19878,8 +19878,8 @@
                            <Text>The Secretary of State may impose a requirement for the individual to allow photographs to be taken of the individual at such locations and at such times as the Secretary of State may by notice require.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-7-part-1-crossheading-monitoring-measure">
                      <Title>Monitoring measure</Title>
                      <P1 id="schedule-7-paragraph-15">
                         <Pnumber>15</Pnumber>
@@ -19929,8 +19929,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-7-part-1-crossheading-provision-of-residence-information-measure">
                      <Title>Provision of residence information measure</Title>
                      <P1 id="schedule-7-paragraph-16">
                         <Pnumber>16</Pnumber>
@@ -19973,12 +19973,12 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-7-part-2">
                   <Number>Part 2</Number>
                   <Title>Permission and notices</Title>
-                  <Pblock>
+                  <P1group id="schedule-7-part-2-crossheading-permission">
                      <Title>Permission</Title>
                      <P1 id="schedule-7-paragraph-17">
                         <Pnumber>17</Pnumber>
@@ -20045,8 +20045,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-7-part-2-crossheading-notices">
                      <Title>Notices</Title>
                      <P1 id="schedule-7-paragraph-18">
                         <Pnumber>18</Pnumber>
@@ -20108,8 +20108,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-7-part-2-crossheading-power-of-secretary-of-state-to-vary-or-revoke-notices">
                      <Title>Power of Secretary of State to vary or revoke notices</Title>
                      <P1 id="schedule-7-paragraph-19">
                         <Pnumber>19</Pnumber>
@@ -20117,7 +20117,7 @@
                            <Text>The Secretary of State may vary or revoke a notice given by the Secretary of State under <InternalLink Ref="schedule-7">this Schedule</InternalLink>.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
             </ScheduleBody>
          </Schedule>
@@ -23513,8 +23513,8 @@
                         <P2 id="schedule-12-paragraph-15-2">
                            <Pnumber>2</Pnumber>
                            <P2para>
-                              <Text>In the definition of “responsible chief officer of police” in <InternalLink Ref="schedule-6-paragraph-28-1">sub-paragraph (1)</InternalLink>, in <InternalLink Ref="d23e23865-d">paragraph (d)</InternalLink>
-                                 <InternalLink Ref="d23e23865-d-i">(i)</InternalLink>, “relevant police area” means the police area—</Text>
+                              <Text>In the definition of “responsible chief officer of police” in <InternalLink Ref="schedule-6-paragraph-28-1">sub-paragraph (1)</InternalLink>, in <InternalLink Ref="d24e23865-d">paragraph (d)</InternalLink>
+                                 <InternalLink Ref="d24e23865-d-i">(i)</InternalLink>, “relevant police area” means the police area—</Text>
                               <P3 id="schedule-12-paragraph-15-2-a">
                                  <Pnumber>a</Pnumber>
                                  <P3para>
@@ -23628,7 +23628,7 @@
                   <Number>Part 2</Number>
                   <Title>Interpretation of <InternalLink Ref="schedule-13-part-1">Part 1</InternalLink>
                   </Title>
-                  <Pblock>
+                  <P1group id="schedule-13-part-2-crossheading-interpretation">
                      <Title>Interpretation</Title>
                      <P1 id="schedule-13-paragraph-3">
                         <Pnumber>3</Pnumber>
@@ -23636,8 +23636,8 @@
                            <Text>This Part makes provision about the interpretation of Part 1 of this Schedule. </Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-13-part-2-crossheading-joint-interests">
                      <Title>Joint interests</Title>
                      <P1 id="schedule-13-paragraph-4">
                         <Pnumber>4</Pnumber>
@@ -23645,8 +23645,8 @@
                            <Text>If a foreign power holds a share or right jointly with another person (whether or not a foreign power), each of those persons is to be taken to hold that share or right.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-13-part-2-crossheading-joint-arrangements">
                      <Title>Joint arrangements</Title>
                      <P1 id="schedule-13-paragraph-5">
                         <Pnumber>5</Pnumber>
@@ -23671,8 +23671,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-13-part-2-crossheading-calculating-shareholdings">
                      <Title>Calculating shareholdings</Title>
                      <P1 id="schedule-13-paragraph-6">
                         <Pnumber>6</Pnumber>
@@ -23703,8 +23703,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-13-part-2-crossheading-voting-rights">
                      <Title>Voting rights</Title>
                      <P1 id="schedule-13-paragraph-7">
                         <Pnumber>7</Pnumber>
@@ -23741,8 +23741,8 @@
                            <Text>In applying this Schedule, the voting rights in a person are to be reduced by any rights held by that person.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-13-part-2-crossheading-shares-or-rights-held-indirectly">
                      <Title>Shares or rights held “indirectly”</Title>
                      <P1 id="schedule-13-paragraph-9">
                         <Pnumber>9</Pnumber>
@@ -23839,8 +23839,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-13-part-2-crossheading-shares-held-by-nominees">
                      <Title>Shares held by nominees</Title>
                      <P1 id="schedule-13-paragraph-10">
                         <Pnumber>10</Pnumber>
@@ -23848,8 +23848,8 @@
                            <Text>A share held by a person as a nominee for another is to be treated as held by the other (and not by the nominee).</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-13-part-2-crossheading-rights-treated-as-held-by-person-who-controls-their-exercise">
                      <Title>Rights treated as held by person who controls their exercise</Title>
                      <P1 id="schedule-13-paragraph-11">
                         <Pnumber>11</Pnumber>
@@ -23915,8 +23915,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-13-part-2-crossheading-rights-exercisable-only-in-certain-circumstances-etc">
                      <Title>Rights exercisable only in certain circumstances etc</Title>
                      <P1 id="schedule-13-paragraph-13">
                         <Pnumber>13</Pnumber>
@@ -23977,8 +23977,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-13-part-2-crossheading-rights-attached-to-shares-held-by-way-of-security">
                      <Title>Rights attached to shares held by way of security</Title>
                      <P1 id="schedule-13-paragraph-14">
                         <Pnumber>14</Pnumber>
@@ -23998,7 +23998,7 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-13-part-3">
                   <Number>Part 3</Number>
@@ -26343,7 +26343,7 @@
                                         TargetSubClass="unknown"
                                         Context="schedule"
                                         Format="double">
-                           <Pblock>
+                           <P1group>
                               <Title>National Security Act 2023</Title>
                               <P1>
                                  <Pnumber>36C</Pnumber>
@@ -26366,7 +26366,7 @@
                                        <InternalLink Ref="section-18">section 18</InternalLink> (preparatory conduct).</Text>
                                  </P1para>
                               </P1>
-                           </Pblock>
+                           </P1group>
                         </BlockAmendment>
                         <AppendText/>
                      </P1para>
@@ -26391,7 +26391,7 @@
                                               TargetSubClass="unknown"
                                               Context="schedule"
                                               Format="double">
-                                 <Pblock>
+                                 <P1group>
                                     <Title>Proceedings under <InternalLink Ref="part-2">Part 2</InternalLink> of the National Security Act 2023</Title>
                                     <P1>
                                        <Pnumber>8A</Pnumber>
@@ -26447,7 +26447,7 @@
                                           </P2>
                                        </P1para>
                                     </P1>
-                                 </Pblock>
+                                 </P1group>
                               </BlockAmendment>
                               <AppendText/>
                            </P2para>

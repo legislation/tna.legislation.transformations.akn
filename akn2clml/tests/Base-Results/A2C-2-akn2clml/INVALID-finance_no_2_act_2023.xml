@@ -7,7 +7,7 @@
              xmlns:dc="http://purl.org/dc/elements/1.1/">
       <dc:identifier>http://www.legislation.gov.uk/id/ukpga/2023/30</dc:identifier>
       <dc:title>Finance (No. 2) Act 2023</dc:title>
-      <dc:modified>2023-12-18</dc:modified>
+      <dc:modified>2023-12-22</dc:modified>
       <PrimaryMetadata>
          <DocumentClassification>
             <DocumentCategory Value="primary"/>
@@ -20446,12 +20446,12 @@
                                           <OrderedList Type="alpha" Decoration="parens">
                                              <ListItem>
                                                 <Para>
-                                                   <Text>in relation to a multi-parent group that is a multi-parent group as a result of a stapled structure, the consolidated financial statements referred to in <InternalLink Ref="d23e20838-c">paragraph (c)</InternalLink> of the definition of stapled structure, or</Text>
+                                                   <Text>in relation to a multi-parent group that is a multi-parent group as a result of a stapled structure, the consolidated financial statements referred to in <InternalLink Ref="d24e20838-c">paragraph (c)</InternalLink> of the definition of stapled structure, or</Text>
                                                 </Para>
                                              </ListItem>
                                              <ListItem>
                                                 <Para>
-                                                   <Text>in relation to a multi-parent group that is a multi-parent group as a result of a dual-listed arrangement, the consolidated financial statements referred to in <InternalLink Ref="d23e20872-d">paragraph (d)</InternalLink> of the definition of dual-listed arrangement.</Text>
+                                                   <Text>in relation to a multi-parent group that is a multi-parent group as a result of a dual-listed arrangement, the consolidated financial statements referred to in <InternalLink Ref="d24e20872-d">paragraph (d)</InternalLink> of the definition of dual-listed arrangement.</Text>
                                                 </Para>
                                              </ListItem>
                                           </OrderedList>
@@ -32676,7 +32676,7 @@
                                               TargetSubClass="unknown"
                                               Context="schedule"
                                               Format="double">
-                                 <Pblock>
+                                 <P1group>
                                     <Title>VAT due after excess payment or credit from HMRC</Title>
                                     <P1>
                                        <Pnumber>11ZA</Pnumber>
@@ -32707,7 +32707,7 @@
                                           </P2>
                                        </P1para>
                                     </P1>
-                                 </Pblock>
+                                 </P1group>
                               </BlockAmendment>
                               <AppendText/>
                            </P2para>
@@ -35646,7 +35646,7 @@
                <Part id="schedule-1-part-1">
                   <Number>Part 1</Number>
                   <Title>Claim notifications</Title>
-                  <Pblock>
+                  <P1group id="schedule-1-part-1-crossheading-requirement-to-make-claim-notifications-in-relation-to-certain-r&amp;d-claims">
                      <Title>Requirement to make claim notifications in relation to certain R&amp;D claims</Title>
                      <P1 id="schedule-1-paragraph-1">
                         <Pnumber>1</Pnumber>
@@ -36034,12 +36034,12 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-1-part-2">
                   <Number>Part 2</Number>
                   <Title>R&amp;D expenditure on data and cloud computing</Title>
-                  <Pblock>
+                  <P1group id="schedule-1-part-2-crossheading-relief-for-r&amp;d-expenditure-on-data-and-cloud-computing">
                      <Title>Relief for R&amp;D expenditure on data and cloud computing</Title>
                      <P1 id="schedule-1-paragraph-3">
                         <Pnumber>3</Pnumber>
@@ -36295,8 +36295,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-1-part-2-crossheading-relief-for-r&amp;d-expenditure-on-data-and-cloud-computing-consequential-amendments">
                      <Title>Relief for R&amp;D expenditure on data and cloud computing: consequential amendments</Title>
                      <P1 id="schedule-1-paragraph-4">
                         <Pnumber>4</Pnumber>
@@ -36406,12 +36406,12 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-1-part-3">
                   <Number>Part 3</Number>
                   <Title>Amendments to Schedule 18 to FA 1998</Title>
-                  <Pblock>
+                  <P1group id="schedule-1-part-3-crossheading-introduction">
                      <Title>Introduction</Title>
                      <P1 id="schedule-1-paragraph-10">
                         <Pnumber>10</Pnumber>
@@ -36419,8 +36419,8 @@
                            <Text>Schedule 18 to FA 1998 (company tax returns, assessments and related matters) is amended as follows.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-1-part-3-crossheading-power-of-hmrc-to-collect-overpaid-r&amp;d-tax-relief-or-expenditure-credit">
                      <Title>Power of HMRC to collect overpaid R&amp;D tax relief or expenditure credit</Title>
                      <P1 id="schedule-1-paragraph-11">
                         <Pnumber>11</Pnumber>
@@ -36471,8 +36471,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-1-part-3-crossheading-time-limits-for-r&amp;d-claims">
                      <Title>Time limits for R&amp;D claims</Title>
                      <P1 id="schedule-1-paragraph-12">
                         <Pnumber>12</Pnumber>
@@ -36578,8 +36578,8 @@
                            <AppendText/>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-1-part-3-crossheading-requirement-to-provide-additional-information-in-relation-to-r&amp;d-claims">
                      <Title>Requirement to provide additional information in relation to R&amp;D claims</Title>
                      <P1 id="schedule-1-paragraph-13">
                         <Pnumber>13</Pnumber>
@@ -36589,7 +36589,7 @@
                                            TargetSubClass="unknown"
                                            Context="schedule"
                                            Format="double">
-                              <Pblock>
+                              <P1group>
                                  <Title>Additional information to be provided in relation to claim</Title>
                                  <P1>
                                     <Pnumber>83EA</Pnumber>
@@ -36620,13 +36620,13 @@
                                        </P2>
                                     </P1para>
                                  </P1>
-                              </Pblock>
+                              </P1group>
                            </BlockAmendment>
                            <AppendText/>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-1-part-3-crossheading-power-of-hmrc-to-remove-r&amp;d-claims-made-in-error-from-return">
                      <Title>Power of HMRC to remove R&amp;D claims made in error from return</Title>
                      <P1 id="schedule-1-paragraph-14">
                         <Pnumber>14</Pnumber>
@@ -36636,7 +36636,7 @@
                                            TargetSubClass="unknown"
                                            Context="schedule"
                                            Format="double">
-                              <Pblock>
+                              <P1group>
                                  <Title>Removal from return of claims made in error</Title>
                                  <P1>
                                     <Pnumber>83EB</Pnumber>
@@ -36723,17 +36723,17 @@
                                        </P2>
                                     </P1para>
                                  </P1>
-                              </Pblock>
+                              </P1group>
                            </BlockAmendment>
                            <AppendText/>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-1-part-4">
                   <Number>Part 4</Number>
                   <Title>Miscellaneous amendments</Title>
-                  <Pblock>
+                  <P1group id="schedule-1-part-4-crossheading-amendment-of-cta-2009">
                      <Title>Amendment of CTA 2009</Title>
                      <P1 id="schedule-1-paragraph-15">
                         <Pnumber>15</Pnumber>
@@ -36741,8 +36741,8 @@
                            <Text>CTA 2009 is amended as follows.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-1-part-4-crossheading-r&amp;d-tax-relief-circumstances-in-which-enterprises-are-treated-as-smes">
                      <Title>R&amp;D tax relief: circumstances in which enterprises are treated as SMEs</Title>
                      <P1 id="schedule-1-paragraph-16">
                         <Pnumber>16</Pnumber>
@@ -36886,8 +36886,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-1-part-4-crossheading-accounts-treated-as-prepared-on-going-concern-basis">
                      <Title>Accounts treated as prepared on going concern basis</Title>
                      <P1 id="schedule-1-paragraph-17">
                         <Pnumber>17</Pnumber>
@@ -36990,8 +36990,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-1-part-4-crossheading-meaning-of-expenditure-incurred-on-payments">
                      <Title>Meaning of expenditure incurred on payments</Title>
                      <P1 id="schedule-1-paragraph-18">
                         <Pnumber>18</Pnumber>
@@ -37042,7 +37042,7 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-1-part-5">
                   <Number>Part 5</Number>
@@ -37077,7 +37077,7 @@
                   <Chapter id="schedule-2-part-1-chapter-1">
                      <Number>Chapter 1</Number>
                      <Title>Income tax</Title>
-                     <Pblock>
+                     <P1group id="schedule-2-part-1-chapter-1-crossheading-the-applicable-rate-for-grossing-up-basic-amounts-of-estate-income">
                         <Title>The applicable rate for grossing up basic amounts of estate income</Title>
                         <P1 id="schedule-2-paragraph-1">
                            <Pnumber>1</Pnumber>
@@ -37140,8 +37140,8 @@
                               </P2>
                            </P1para>
                         </P1>
-                     </Pblock>
-                     <Pblock>
+                     </P1group>
+                     <P1group id="schedule-2-part-1-chapter-1-crossheading-the-applicable-rate-for-grossing-up-for-determining-shares-in-an-estate-in-the-final-tax-year">
                         <Title>The applicable rate for grossing up for determining shares in an estate in the final tax year</Title>
                         <P1 id="schedule-2-paragraph-2">
                            <Pnumber>2</Pnumber>
@@ -37290,8 +37290,8 @@
                               </P2>
                            </P1para>
                         </P1>
-                     </Pblock>
-                     <Pblock>
+                     </P1group>
+                     <P1group id="schedule-2-part-1-chapter-1-crossheading-income-from-stock-dividends-etc-treated-as-bearing-income-tax-at-0%">
                         <Title>Income from stock dividends etc treated as bearing income tax at 0%</Title>
                         <P1 id="schedule-2-paragraph-3">
                            <Pnumber>3</Pnumber>
@@ -37340,8 +37340,8 @@
                               </P2>
                            </P1para>
                         </P1>
-                     </Pblock>
-                     <Pblock>
+                     </P1group>
+                     <P1group id="schedule-2-part-1-chapter-1-crossheading-income-treated-as-dividend-income-and-savings-income">
                         <Title>Income treated as dividend income and savings income</Title>
                         <P1 id="schedule-2-paragraph-4">
                            <Pnumber>4</Pnumber>
@@ -37442,8 +37442,8 @@
                               </P2>
                            </P1para>
                         </P1>
-                     </Pblock>
-                     <Pblock>
+                     </P1group>
+                     <P1group id="schedule-2-part-1-chapter-1-crossheading-order-in-which-basic-amounts-are-treated-as-paid-from-aggregate-income">
                         <Title>Order in which basic amounts are treated as paid from aggregate income</Title>
                         <P1 id="schedule-2-paragraph-5">
                            <Pnumber>5</Pnumber>
@@ -37463,12 +37463,12 @@
                               </P3>
                            </P1para>
                         </P1>
-                     </Pblock>
+                     </P1group>
                   </Chapter>
                   <Chapter id="schedule-2-part-1-chapter-2">
                      <Number>Chapter 2</Number>
                      <Title>Corporation tax</Title>
-                     <Pblock>
+                     <P1group id="schedule-2-part-1-chapter-2-crossheading-the-applicable-rate-for-grossing-up-basic-amounts-of-estate-income">
                         <Title>The applicable rate for grossing up basic amounts of estate income</Title>
                         <P1 id="schedule-2-paragraph-6">
                            <Pnumber>6</Pnumber>
@@ -37564,8 +37564,8 @@
                               </P2>
                            </P1para>
                         </P1>
-                     </Pblock>
-                     <Pblock>
+                     </P1group>
+                     <P1group id="schedule-2-part-1-chapter-2-crossheading-the-applicable-rate-for-grossing-up-for-determining-shares-in-an-estate-in-the-final-tax-year">
                         <Title>The applicable rate for grossing up for determining shares in an estate in the final tax year</Title>
                         <P1 id="schedule-2-paragraph-7">
                            <Pnumber>7</Pnumber>
@@ -37714,8 +37714,8 @@
                               </P2>
                            </P1para>
                         </P1>
-                     </Pblock>
-                     <Pblock>
+                     </P1group>
+                     <P1group id="schedule-2-part-1-chapter-2-crossheading-income-from-stock-dividends-etc-treated-as-bearing-income-tax-at-0%">
                         <Title>Income from stock dividends etc treated as bearing income tax at 0%</Title>
                         <P1 id="schedule-2-paragraph-8">
                            <Pnumber>8</Pnumber>
@@ -37770,8 +37770,8 @@
                               </P2>
                            </P1para>
                         </P1>
-                     </Pblock>
-                     <Pblock>
+                     </P1group>
+                     <P1group id="schedule-2-part-1-chapter-2-crossheading-order-in-which-basic-amounts-are-treated-as-paid-from-aggregate-income">
                         <Title>Order in which basic amounts are treated as paid from aggregate income</Title>
                         <P1 id="schedule-2-paragraph-9">
                            <Pnumber>9</Pnumber>
@@ -37791,7 +37791,7 @@
                               </P3>
                            </P1para>
                         </P1>
-                     </Pblock>
+                     </P1group>
                   </Chapter>
                </Part>
                <Part id="schedule-2-part-2">
@@ -37800,7 +37800,7 @@
                   <Chapter id="schedule-2-part-2-chapter-1">
                      <Number>Chapter 1</Number>
                      <Title>Income tax</Title>
-                     <Pblock>
+                     <P1group id="schedule-2-part-2-chapter-1-crossheading-low-income-estates-and-trusts-tax-liability-of-personal-representatives-and-trustees">
                         <Title>Low income estates and trusts: tax liability of personal representatives and trustees</Title>
                         <P1 id="schedule-2-paragraph-10">
                            <Pnumber>10</Pnumber>
@@ -38040,8 +38040,8 @@
                               </P2>
                            </P1para>
                         </P1>
-                     </Pblock>
-                     <Pblock>
+                     </P1group>
+                     <P1group id="schedule-2-part-2-chapter-1-crossheading-low-income-estates-tax-liability-of-beneficiaries">
                         <Title>Low income estates: tax liability of beneficiaries</Title>
                         <P1 id="schedule-2-paragraph-11">
                            <Pnumber>11</Pnumber>
@@ -38240,12 +38240,12 @@
                               </P2>
                            </P1para>
                         </P1>
-                     </Pblock>
+                     </P1group>
                   </Chapter>
                   <Chapter id="schedule-2-part-2-chapter-2">
                      <Number>Chapter 2</Number>
                      <Title>Corporation tax</Title>
-                     <Pblock>
+                     <P1group id="schedule-2-part-2-chapter-2-crossheading-low-income-estates-tax-liability-of-beneficiaries">
                         <Title>Low income estates: tax liability of beneficiaries</Title>
                         <P1 id="schedule-2-paragraph-12">
                            <Pnumber>12</Pnumber>
@@ -38444,7 +38444,7 @@
                               </P2>
                            </P1para>
                         </P1>
-                     </Pblock>
+                     </P1group>
                   </Chapter>
                </Part>
                <Part id="schedule-2-part-3">
@@ -38599,7 +38599,7 @@
                <Part id="schedule-3-part-1">
                   <Number>Part 1</Number>
                   <Title>Amendments to TIOPA 2010</Title>
-                  <Pblock>
+                  <P1group id="schedule-3-part-1-crossheading-introduction">
                      <Title>Introduction</Title>
                      <P1 id="schedule-3-paragraph-1">
                         <Pnumber>1</Pnumber>
@@ -38607,8 +38607,8 @@
                            <Text>Part 10 of TIOPA 2010 (corporate interest restriction) is amended as follows.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-1-crossheading-tax-interest-expense-amounts-of-a-company-charities">
                      <Title>Tax-interest expense amounts of a company: charities</Title>
                      <P1 id="schedule-3-paragraph-2">
                         <Pnumber>2</Pnumber>
@@ -38628,8 +38628,8 @@
                            <AppendText/>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-1-crossheading-first-period-of-account-where-new-holding-company">
                      <Title>First period of account where new holding company</Title>
                      <P1 id="schedule-3-paragraph-3">
                         <Pnumber>3</Pnumber>
@@ -38691,8 +38691,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-1-crossheading-amounts-not-brought-into-account-in-determining-a-companys-tax-ebitda">
                      <Title>Amounts not brought into account in determining a company’s tax-EBITDA</Title>
                      <P1 id="schedule-3-paragraph-5">
                         <Pnumber>5</Pnumber>
@@ -38729,8 +38729,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-1-crossheading-relevant-expense-amount-and-relevant-income-amount">
                      <Title>“Relevant expense amount” and “relevant income amount”</Title>
                      <P1 id="schedule-3-paragraph-6">
                         <Pnumber>6</Pnumber>
@@ -38809,8 +38809,8 @@
                            <Text>In section 412 (interpretation of section 411), in subsection (7), omit the definition of “relevant non-lending relationship”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-1-crossheading-adjusted-net-group-interest-expense-debits-referable-to-times-before-uk-property-business-etc-carried-on">
                      <Title>Adjusted net group-interest expense: debits referable to times before UK property business etc carried on</Title>
                      <P1 id="schedule-3-paragraph-8">
                         <Pnumber>8</Pnumber>
@@ -38955,8 +38955,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-1-crossheading-adjusted-net-group-interest-expense-debits-in-respect-of-pre-trading-expenditure">
                      <Title>Adjusted net group-interest expense: debits in respect of pre-trading expenditure</Title>
                      <P1 id="schedule-3-paragraph-9">
                         <Pnumber>9</Pnumber>
@@ -39017,8 +39017,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-1-crossheading-qualifying-net-group-interest-expense-meaning-of-equity-notes">
                      <Title>Qualifying net group-interest expense: meaning of “equity notes”</Title>
                      <P1 id="schedule-3-paragraph-10">
                         <Pnumber>10</Pnumber>
@@ -39056,8 +39056,8 @@
                            <AppendText/>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-1-crossheading-capitalised-interest-brought-into-account-for-tax-purposes-in-accordance-with-gaap">
                      <Title>Capitalised interest brought into account for tax purposes in accordance with GAAP</Title>
                      <P1 id="schedule-3-paragraph-12">
                         <Pnumber>12</Pnumber>
@@ -39112,8 +39112,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-1-crossheading-interest-allowance-non-consolidated-investment-election-non-consolidated-associate">
                      <Title>Interest allowance (non-consolidated investment) election: “non-consolidated associate”</Title>
                      <P1 id="schedule-3-paragraph-13">
                         <Pnumber>13</Pnumber>
@@ -39222,8 +39222,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-1-crossheading-public-infrastructure">
                      <Title>Public infrastructure</Title>
                      <P1 id="schedule-3-paragraph-14">
                         <Pnumber>14</Pnumber>
@@ -39562,8 +39562,8 @@
                            <AppendText/>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-1-crossheading-partnerships-and-other-transparent-entities">
                      <Title>Partnerships and other transparent entities</Title>
                      <P1 id="schedule-3-paragraph-17">
                         <Pnumber>17</Pnumber>
@@ -39595,8 +39595,8 @@
                            <AppendText/>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-1-crossheading-investments-held-by-investment-managers">
                      <Title>Investments held by investment managers</Title>
                      <P1 id="schedule-3-paragraph-18">
                         <Pnumber>18</Pnumber>
@@ -39651,8 +39651,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-1-crossheading-determining-the-worldwide-group-non-consolidated-subsidiary-and-consolidated-subsidiary">
                      <Title>Determining the worldwide group: “non-consolidated subsidiary” and “consolidated subsidiary”</Title>
                      <P1 id="schedule-3-paragraph-19">
                         <Pnumber>19</Pnumber>
@@ -39689,8 +39689,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-1-crossheading-appointment-of-a-reporting-company-by-revenue-and-customs">
                      <Title>Appointment of a reporting company by Revenue and Customs</Title>
                      <P1 id="schedule-3-paragraph-20">
                         <Pnumber>20</Pnumber>
@@ -39698,8 +39698,8 @@
                            <Text>In paragraph 4 of Schedule 7A (appointment of a reporting company by Revenue and Customs), in sub-paragraph (5)(a) for “36 months” substitute “4 years”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-1-crossheading-revised-interest-restriction-return">
                      <Title>Revised interest restriction return</Title>
                      <P1 id="schedule-3-paragraph-21">
                         <Pnumber>21</Pnumber>
@@ -39849,8 +39849,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-1-crossheading-enquiry-into-interest-restriction-return">
                      <Title>Enquiry into interest restriction return</Title>
                      <P1 id="schedule-3-paragraph-23">
                         <Pnumber>23</Pnumber>
@@ -39870,8 +39870,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-1-crossheading-determinations-by-officers-of-revenue-and-customs">
                      <Title>Determinations by officers of Revenue and Customs</Title>
                      <P1 id="schedule-3-paragraph-24">
                         <Pnumber>24</Pnumber>
@@ -39998,8 +39998,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-1-crossheading-consequential-claims-to-company-tax-returns">
                      <Title>Consequential claims to company tax returns</Title>
                      <P1 id="schedule-3-paragraph-25">
                         <Pnumber>25</Pnumber>
@@ -40007,12 +40007,12 @@
                            <Text>In paragraph 72 of Schedule 7A (consequential claims to company tax returns), in sub-paragraph (1)(a) omit “56 or”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-3-part-2">
                   <Number>Part 2</Number>
                   <Title>Other amendments</Title>
-                  <Pblock>
+                  <P1group id="schedule-3-part-2-crossheading-penalties-for-errors-cir-alterations-to-be-ignored-in-calculating-potential-lost-revenue">
                      <Title>Penalties for errors: CIR alterations to be ignored in calculating potential lost revenue</Title>
                      <P1 id="schedule-3-paragraph-26">
                         <Pnumber>26</Pnumber>
@@ -40126,8 +40126,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-2-crossheading-disapplication-of-carry-forward-rule-for-deficits">
                      <Title>Disapplication of carry forward rule for deficits</Title>
                      <P1 id="schedule-3-paragraph-27">
                         <Pnumber>27</Pnumber>
@@ -40164,8 +40164,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-2-crossheading-defined-expressions-used-in-part-10-of-tiopa-2010-insurance-company">
                      <Title>Defined expressions used in Part 10 of TIOPA 2010: “insurance company”</Title>
                      <P1 id="schedule-3-paragraph-28">
                         <Pnumber>28</Pnumber>
@@ -40196,8 +40196,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-3-part-2-crossheading-determining-the-worldwide-group-consequential-amendment">
                      <Title>Determining the worldwide group: consequential amendment</Title>
                      <P1 id="schedule-3-paragraph-29">
                         <Pnumber>29</Pnumber>
@@ -40205,7 +40205,7 @@
                            <Text>In Part 1 of Schedule 8 to FA 2018 (corporate interest restriction: amendments of Part 10 of TIOPA 2010), omit paragraph 13.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-3-part-3">
                   <Number>Part 3</Number>
@@ -40501,7 +40501,7 @@
                <Part id="schedule-4-part-1">
                   <Number>Part 1</Number>
                   <Title>UK property rich collective investment vehicles etc</Title>
-                  <Pblock>
+                  <P1group id="schedule-4-part-1-crossheading-genuine-diversity-of-ownership">
                      <Title>Genuine diversity of ownership</Title>
                      <P1 id="schedule-4-paragraph-1">
                         <Pnumber>1</Pnumber>
@@ -40767,12 +40767,12 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-4-part-2">
                   <Number>Part 2</Number>
                   <Title>Real estate investment trusts</Title>
-                  <Pblock>
+                  <P1group id="schedule-4-part-2-crossheading-amendment-of-cta-2010">
                      <Title>Amendment of CTA 2010</Title>
                      <P1 id="schedule-4-paragraph-2">
                         <Pnumber>2</Pnumber>
@@ -40782,8 +40782,8 @@
                               </Span>.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-4-part-2-crossheading-reits-involving-single-commercial-property">
                      <Title>REITs involving single commercial property</Title>
                      <P1 id="schedule-4-paragraph-3">
                         <Pnumber>3</Pnumber>
@@ -40970,8 +40970,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-4-part-2-crossheading-3-year-development-rule">
                      <Title>3-year development rule</Title>
                      <P1 id="schedule-4-paragraph-4">
                         <Pnumber>4</Pnumber>
@@ -41098,8 +41098,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-4-part-2-crossheading-genuine-diversity-of-ownership">
                      <Title>Genuine diversity of ownership</Title>
                      <P1 id="schedule-4-paragraph-5">
                         <Pnumber>5</Pnumber>
@@ -41196,8 +41196,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-4-part-2-crossheading-amendment-of-the-real-estate-investment-trusts-assessment-and-recovery-of-tax-regulations-2006">
                      <Title>Amendment of the Real Estate Investment Trusts (Assessment and Recovery of Tax) Regulations 2006</Title>
                      <P1 id="schedule-4-paragraph-6">
                         <Pnumber>6</Pnumber>
@@ -41330,12 +41330,12 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-4-part-3">
                   <Number>Part 3</Number>
                   <Title>Qualifying asset holding companies</Title>
-                  <Pblock>
+                  <P1group id="schedule-4-part-3-crossheading-amendment-of-schedule-2-to-fa-2022">
                      <Title>Amendment of Schedule 2 to FA 2022</Title>
                      <P1 id="schedule-4-paragraph-7">
                         <Pnumber>7</Pnumber>
@@ -41343,8 +41343,8 @@
                            <Text>Schedule 2 to FA 2022 (qualifying asset holding companies) is amended as follows.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-4-part-3-crossheading-securitisation-companies-unable-to-be-qahcs">
                      <Title>Securitisation companies unable to be QAHCs</Title>
                      <P1 id="schedule-4-paragraph-8">
                         <Pnumber>8</Pnumber>
@@ -41388,8 +41388,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-4-part-3-crossheading-beneficial-entitlement-held-only-through-qahcs">
                      <Title>Beneficial entitlement held only through QAHCs</Title>
                      <P1 id="schedule-4-paragraph-9">
                         <Pnumber>9</Pnumber>
@@ -41438,8 +41438,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-4-part-3-crossheading-determining-relevant-interests">
                      <Title>Determining relevant interests</Title>
                      <P1 id="schedule-4-paragraph-10">
                         <Pnumber>10</Pnumber>
@@ -41483,8 +41483,8 @@
                            <AppendText>.</AppendText>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-4-part-3-crossheading-dealing-with-bodies-corporate-without-share-capital">
                      <Title>Dealing with bodies corporate without share capital</Title>
                      <P1 id="schedule-4-paragraph-11">
                         <Pnumber>11</Pnumber>
@@ -41533,8 +41533,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-4-part-3-crossheading-genuine-diversity-of-ownership">
                      <Title>Genuine diversity of ownership</Title>
                      <P1 id="schedule-4-paragraph-12">
                         <Pnumber>12</Pnumber>
@@ -41686,8 +41686,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-4-part-3-crossheading-investment-strategy-condition">
                      <Title>Investment strategy condition</Title>
                      <P1 id="schedule-4-paragraph-13">
                         <Pnumber>13</Pnumber>
@@ -41845,8 +41845,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-4-part-3-crossheading-disposal-of-derivatives-where-underlying-subject-matter-is-shares">
                      <Title>Disposal of derivatives where underlying subject matter is shares</Title>
                      <P1 id="schedule-4-paragraph-14">
                         <Pnumber>14</Pnumber>
@@ -41890,8 +41890,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-4-part-3-crossheading-alternative-finance-arrangements">
                      <Title>Alternative finance arrangements</Title>
                      <P1 id="schedule-4-paragraph-15">
                         <Pnumber>15</Pnumber>
@@ -41904,7 +41904,7 @@
                                                  TargetSubClass="unknown"
                                                  Context="schedule"
                                                  Format="double">
-                                    <Pblock>
+                                    <P1group>
                                        <Title>Alternative finance arrangements</Title>
                                        <P1>
                                           <Pnumber>59</Pnumber>
@@ -41965,7 +41965,7 @@
                                              </P2>
                                           </P1para>
                                        </P1>
-                                    </Pblock>
+                                    </P1group>
                                  </BlockAmendment>
                                  <AppendText/>
                               </P2para>
@@ -41996,7 +41996,7 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
             </ScheduleBody>
          </Schedule>
@@ -42012,7 +42012,7 @@
                <Part id="schedule-5-part-1">
                   <Number>Part 1</Number>
                   <Title>Amendments relating to corporation tax</Title>
-                  <Pblock>
+                  <P1group id="schedule-5-part-1-crossheading-records-to-be-kept-for-the-purposes-of-corporation-tax">
                      <Title>Records to be kept for the purposes of corporation tax</Title>
                      <P1 id="schedule-5-paragraph-1">
                         <Pnumber>1</Pnumber>
@@ -42085,8 +42085,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-5-part-1-crossheading-assessments-relating-to-corporation-tax">
                      <Title>Assessments relating to corporation tax</Title>
                      <P1 id="schedule-5-paragraph-2">
                         <Pnumber>2</Pnumber>
@@ -42096,7 +42096,7 @@
                                            TargetSubClass="unknown"
                                            Context="schedule"
                                            Format="double">
-                              <Pblock>
+                              <P1group>
                                  <Title>Transfer pricing records: carelessness</Title>
                                  <P1>
                                     <Pnumber>49A</Pnumber>
@@ -42199,17 +42199,17 @@
                                        </P2>
                                     </P1para>
                                  </P1>
-                              </Pblock>
+                              </P1group>
                            </BlockAmendment>
                            <AppendText/>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-5-part-2">
                   <Number>Part 2</Number>
                   <Title>Amendments relating to income tax</Title>
-                  <Pblock>
+                  <P1group id="schedule-5-part-2-crossheading-records-to-be-kept-for-the-purposes-of-income-tax">
                      <Title>Records to be kept for the purposes of income tax</Title>
                      <P1 id="schedule-5-paragraph-3">
                         <Pnumber>3</Pnumber>
@@ -42282,8 +42282,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-5-part-2-crossheading-assessments-relating-to-income-tax">
                      <Title>Assessments relating to income tax</Title>
                      <P1 id="schedule-5-paragraph-4">
                         <Pnumber>4</Pnumber>
@@ -42517,12 +42517,12 @@
                            <AppendText/>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-5-part-3">
                   <Number>Part 3</Number>
                   <Title>Amendments relating to corporation tax and income tax</Title>
-                  <Pblock>
+                  <P1group id="schedule-5-part-3-crossheading-penalties-for-errors">
                      <Title>Penalties for errors</Title>
                      <P1 id="schedule-5-paragraph-5">
                         <Pnumber>5</Pnumber>
@@ -42541,7 +42541,7 @@
                                                  TargetSubClass="unknown"
                                                  Context="schedule"
                                                  Format="double">
-                                    <Pblock>
+                                    <P1group>
                                        <Title>Errors related to transfer pricing records</Title>
                                        <P1>
                                           <Pnumber>3C</Pnumber>
@@ -42708,7 +42708,7 @@
                                              </P2>
                                           </P1para>
                                        </P1>
-                                    </Pblock>
+                                    </P1group>
                                  </BlockAmendment>
                                  <AppendText/>
                               </P2para>
@@ -42733,8 +42733,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-5-part-3-crossheading-information-and-inspection-powers">
                      <Title>Information and inspection powers</Title>
                      <P1 id="schedule-5-paragraph-6">
                         <Pnumber>6</Pnumber>
@@ -42831,7 +42831,7 @@
                                                  TargetSubClass="unknown"
                                                  Context="schedule"
                                                  Format="double">
-                                    <Pblock>
+                                    <P1group>
                                        <Title>Specified relevant transfer pricing documents</Title>
                                        <P1>
                                           <Pnumber>37C</Pnumber>
@@ -42918,14 +42918,14 @@
                                              </P2>
                                           </P1para>
                                        </P1>
-                                    </Pblock>
+                                    </P1group>
                                  </BlockAmendment>
                                  <AppendText/>
                               </P2para>
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-5-part-4">
                   <Number>Part 4</Number>
@@ -47069,7 +47069,7 @@
                                      TargetSubClass="unknown"
                                      Context="schedule"
                                      Format="double">
-                        <Pblock>
+                        <P1group>
                            <Title>Part 2 of the Finance (No. 2) Act 2023 (alcohol duty)</Title>
                            <P1>
                               <Pnumber>3</Pnumber>
@@ -47262,7 +47262,7 @@
                                  </P2>
                               </P1para>
                            </P1>
-                        </Pblock>
+                        </P1group>
                      </BlockAmendment>
                      <AppendText/>
                   </P1para>
@@ -48167,7 +48167,7 @@
                <Part id="schedule-13-part-1">
                   <Number>Part 1</Number>
                   <Title>General</Title>
-                  <Pblock>
+                  <P1group id="schedule-13-part-1-crossheading-cema-1979">
                      <Title>CEMA 1979</Title>
                      <P1 id="schedule-13-paragraph-1">
                         <Pnumber>1</Pnumber>
@@ -48308,8 +48308,8 @@
                            <Text>In section 163A (power to search articles), in subsection (2), in the words before paragraph (a), for “dutiable alcoholic liquor” substitute “alcoholic products”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-13-part-1-crossheading-customs-and-excise-duties-general-reliefs-act-1979">
                      <Title>Customs and Excise Duties (General Reliefs) Act 1979</Title>
                      <P1 id="schedule-13-paragraph-6">
                         <Pnumber>6</Pnumber>
@@ -48317,8 +48317,8 @@
                            <Text>In section 18 of the Customs and Excise Duties (General Reliefs) Act 1979 (interpretation) in subsection (2), for “Alcoholic Liquor Duties Act 1979” substitute “<InternalLink Ref="part-2">Part 2</InternalLink> of the Finance (No. 2) Act 2023”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-13-part-1-crossheading-excise-duties-surcharges-or-rebates-act-1979">
                      <Title>Excise Duties (Surcharges or Rebates) Act 1979</Title>
                      <P1 id="schedule-13-paragraph-7">
                         <Pnumber>7</Pnumber>
@@ -48338,8 +48338,8 @@
                            <AppendText>.</AppendText>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-13-part-1-crossheading-fa-1994">
                      <Title>FA 1994</Title>
                      <P1 id="schedule-13-paragraph-8">
                         <Pnumber>8</Pnumber>
@@ -48445,8 +48445,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-13-part-1-crossheading-vata-1994">
                      <Title>VATA 1994</Title>
                      <P1 id="schedule-13-paragraph-15">
                         <Pnumber>15</Pnumber>
@@ -48471,8 +48471,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-13-part-1-crossheading-fa-2001">
                      <Title>FA 2001</Title>
                      <P1 id="schedule-13-paragraph-16">
                         <Pnumber>16</Pnumber>
@@ -48492,8 +48492,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-13-part-1-crossheading-fa-2007">
                      <Title>FA 2007</Title>
                      <P1 id="schedule-13-paragraph-17">
                         <Pnumber>17</Pnumber>
@@ -48525,8 +48525,8 @@
                            <AppendText/>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-13-part-1-crossheading-fa-2008">
                      <Title>FA 2008</Title>
                      <P1 id="schedule-13-paragraph-18">
                         <Pnumber>18</Pnumber>
@@ -48639,8 +48639,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-13-part-1-crossheading-tcta-2018">
                      <Title>TCTA 2018</Title>
                      <P1 id="schedule-13-paragraph-19">
                         <Pnumber>19</Pnumber>
@@ -48691,8 +48691,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-13-part-1-crossheading-taxation-post-transition-period-act-2020">
                      <Title>Taxation (Post-transition Period) Act 2020</Title>
                      <P1 id="schedule-13-paragraph-20">
                         <Pnumber>20</Pnumber>
@@ -48712,12 +48712,12 @@
                            <AppendText>.</AppendText>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-13-part-2">
                   <Number>Part 2</Number>
                   <Title>Approvals etc.</Title>
-                  <Pblock>
+                  <P1group id="schedule-13-part-2-crossheading-cema-1979">
                      <Title>CEMA 1979</Title>
                      <P1 id="schedule-13-paragraph-21">
                         <Pnumber>21</Pnumber>
@@ -48862,8 +48862,8 @@
                            <Text>In section 178 (citation) in subsection (2), omit “the Alcoholic Liquor Duties Act 1979,”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-13-part-2-crossheading-fa-1994">
                      <Title>FA 1994</Title>
                      <P1 id="schedule-13-paragraph-28">
                         <Pnumber>28</Pnumber>
@@ -48883,8 +48883,8 @@
                            <AppendText/>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-13-part-2-crossheading-fa-2007">
                      <Title>FA 2007</Title>
                      <P1 id="schedule-13-paragraph-29">
                         <Pnumber>29</Pnumber>
@@ -48933,8 +48933,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-13-part-2-crossheading-fa-2008">
                      <Title>FA 2008</Title>
                      <P1 id="schedule-13-paragraph-30">
                         <Pnumber>30</Pnumber>
@@ -48995,8 +48995,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-13-part-2-crossheading-fa-2009">
                      <Title>FA 2009</Title>
                      <P1 id="schedule-13-paragraph-31">
                         <Pnumber>31</Pnumber>
@@ -49101,7 +49101,7 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
             </ScheduleBody>
          </Schedule>
@@ -51067,7 +51067,7 @@
                <Part id="schedule-14-part-10">
                   <Number>Part 10</Number>
                   <Title>Payments of multinational top-up tax</Title>
-                  <Pblock>
+                  <P1group id="schedule-14-part-10-crossheading-timing-of-payments">
                      <Title>Timing of payments</Title>
                      <P1 id="schedule-14-paragraph-32">
                         <Pnumber>32</Pnumber>
@@ -51115,8 +51115,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-14-part-10-crossheading-group-payment-notices">
                      <Title>Group payment notices</Title>
                      <P1 id="schedule-14-paragraph-34">
                         <Pnumber>34</Pnumber>
@@ -51344,8 +51344,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-14-part-10-crossheading-effect-of-group-payment-for-tax-purposes">
                      <Title>Effect of group payment for tax purposes</Title>
                      <P1 id="schedule-14-paragraph-37">
                         <Pnumber>37</Pnumber>
@@ -51430,8 +51430,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-14-part-10-crossheading-recovery">
                      <Title>Recovery</Title>
                      <P1 id="schedule-14-paragraph-38">
                         <Pnumber>38</Pnumber>
@@ -51462,8 +51462,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-14-part-10-crossheading-power-to-make-regulations">
                      <Title>Power to make regulations</Title>
                      <P1 id="schedule-14-paragraph-39">
                         <Pnumber>39</Pnumber>
@@ -51506,12 +51506,12 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-14-part-11">
                   <Number>Part 11</Number>
                   <Title>Penalties</Title>
-                  <Pblock>
+                  <P1group id="schedule-14-part-11-crossheading-penalties-payable-in-connection-with-this-schedule">
                      <Title>Penalties payable in connection with <InternalLink Ref="schedule-14">this Schedule</InternalLink>
                      </Title>
                      <P1 id="schedule-14-paragraph-40">
@@ -51895,8 +51895,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-14-part-11-crossheading-penalties-under-paragraphs-42-43-and-46-administration-and-supplemental-provision">
                      <Title>Penalties under paragraphs <InternalLink Ref="schedule-14-paragraph-42">42</InternalLink>, <InternalLink Ref="schedule-14-paragraph-43">43</InternalLink> and <InternalLink Ref="schedule-14-paragraph-46">46</InternalLink>: administration and supplemental provision</Title>
                      <P1 id="schedule-14-paragraph-47">
                         <Pnumber>47</Pnumber>
@@ -52089,8 +52089,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-14-part-11-crossheading-multiple-penalties-in-respect-of-same-accounting-period">
                      <Title>Multiple penalties in respect of same accounting period</Title>
                      <P1 id="schedule-14-paragraph-50">
                         <Pnumber>50</Pnumber>
@@ -52109,12 +52109,12 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-14-part-12">
                   <Number>Part 12</Number>
                   <Title>Appeals and claims</Title>
-                  <Pblock>
+                  <P1group id="schedule-14-part-12-crossheading-claims-in-relation-to-overpaid-tax">
                      <Title>Claims in relation to overpaid tax</Title>
                      <P1 id="schedule-14-paragraph-51">
                         <Pnumber>51</Pnumber>
@@ -52471,8 +52471,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-14-part-12-crossheading-appeals-of-decisions-general">
                      <Title>Appeals of decisions: general</Title>
                      <P1 id="schedule-14-paragraph-55">
                         <Pnumber>55</Pnumber>
@@ -52684,8 +52684,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-14-part-12-crossheading-reviews-by-hmrc">
                      <Title>Reviews by HMRC</Title>
                      <P1 id="schedule-14-paragraph-57">
                         <Pnumber>57</Pnumber>
@@ -53052,8 +53052,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-14-part-12-crossheading-settlement-agreements">
                      <Title>Settlement agreements</Title>
                      <P1 id="schedule-14-paragraph-61">
                         <Pnumber>61</Pnumber>
@@ -53119,8 +53119,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-14-part-12-crossheading-determination-by-tribunal">
                      <Title>Determination by tribunal</Title>
                      <P1 id="schedule-14-paragraph-62">
                         <Pnumber>62</Pnumber>
@@ -53205,8 +53205,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-14-part-12-crossheading-postponement-of-payment-pending-appeal">
                      <Title>Postponement of payment pending appeal</Title>
                      <P1 id="schedule-14-paragraph-63">
                         <Pnumber>63</Pnumber>
@@ -53446,8 +53446,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-14-part-12-crossheading-special-provisions-as-to-penalties">
                      <Title>Special provisions as to penalties</Title>
                      <P1 id="schedule-14-paragraph-67">
                         <Pnumber>67</Pnumber>
@@ -53534,7 +53534,7 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-14-part-13">
                   <Number>Part 13</Number>
@@ -53890,7 +53890,7 @@
                <Part id="schedule-16-part-1">
                   <Number>Part 1</Number>
                   <Title>General transitional measures</Title>
-                  <Pblock>
+                  <P1group id="schedule-16-part-1-crossheading-transitional-relief-for-substance-based-income-exclusion">
                      <Title>Transitional relief for substance-based income exclusion</Title>
                      <P1 id="schedule-16-paragraph-1">
                         <Pnumber>1</Pnumber>
@@ -54193,8 +54193,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-16-part-1-crossheading-intra-group-transfers-before-entry-into-regime">
                      <Title>Intra-group transfers before entry into regime</Title>
                      <P1 id="schedule-16-paragraph-2">
                         <Pnumber>2</Pnumber>
@@ -54430,7 +54430,7 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-16-part-2">
                   <Number>Part 2</Number>
@@ -54438,7 +54438,7 @@
                   <Chapter id="schedule-16-part-2-chapter-1">
                      <Number>Chapter 1</Number>
                      <Title>Transitional safe harbour election</Title>
-                     <Pblock>
+                     <P1group id="schedule-16-part-2-chapter-1-crossheading-election">
                         <Title>Election</Title>
                         <P1 id="schedule-16-paragraph-3">
                            <Pnumber>3</Pnumber>
@@ -54587,8 +54587,8 @@
                               </P2>
                            </P1para>
                         </P1>
-                     </Pblock>
-                     <Pblock>
+                     </P1group>
+                     <P1group id="schedule-16-part-2-chapter-1-crossheading-qualified-financial-statements-and-basis-of-calculations">
                         <Title>Qualified financial statements and basis of calculations</Title>
                         <P1 id="schedule-16-paragraph-4">
                            <Pnumber>4</Pnumber>
@@ -54695,8 +54695,8 @@
                               </P2>
                            </P1para>
                         </P1>
-                     </Pblock>
-                     <Pblock>
+                     </P1group>
+                     <P1group id="schedule-16-part-2-chapter-1-crossheading-qualifying-income-tax-expense">
                         <Title>Qualifying income tax expense</Title>
                         <P1 id="schedule-16-paragraph-5">
                            <Pnumber>5</Pnumber>
@@ -54716,8 +54716,8 @@
                               </P3>
                            </P1para>
                         </P1>
-                     </Pblock>
-                     <Pblock>
+                     </P1group>
+                     <P1group id="schedule-16-part-2-chapter-1-crossheading-adjustments">
                         <Title>Adjustments</Title>
                         <P1 id="schedule-16-paragraph-6">
                            <Pnumber>6</Pnumber>
@@ -54816,8 +54816,8 @@
                               </P2>
                            </P1para>
                         </P1>
-                     </Pblock>
-                     <Pblock>
+                     </P1group>
+                     <P1group id="schedule-16-part-2-chapter-1-crossheading-threshold-test">
                         <Title>Threshold test</Title>
                         <P1 id="schedule-16-paragraph-7">
                            <Pnumber>7</Pnumber>
@@ -54849,8 +54849,8 @@
                               </P2>
                            </P1para>
                         </P1>
-                     </Pblock>
-                     <Pblock>
+                     </P1group>
+                     <P1group id="schedule-16-part-2-chapter-1-crossheading-simplified-effective-tax-rate-test">
                         <Title>Simplified effective tax rate test</Title>
                         <P1 id="schedule-16-paragraph-8">
                            <Pnumber>8</Pnumber>
@@ -54899,8 +54899,8 @@
                               </P2>
                            </P1para>
                         </P1>
-                     </Pblock>
-                     <Pblock>
+                     </P1group>
+                     <P1group id="schedule-16-part-2-chapter-1-crossheading-routine-profits-test">
                         <Title>Routine profits test</Title>
                         <P1 id="schedule-16-paragraph-9">
                            <Pnumber>9</Pnumber>
@@ -54943,12 +54943,12 @@
                               </P2>
                            </P1para>
                         </P1>
-                     </Pblock>
+                     </P1group>
                   </Chapter>
                   <Chapter id="schedule-16-part-2-chapter-2">
                      <Number>Chapter 2</Number>
                      <Title>Application to joint ventures etc</Title>
-                     <Pblock>
+                     <P1group id="schedule-16-part-2-chapter-2-crossheading-application-in-the-case-of-joint-venture-group">
                         <Title>Application in the case of joint venture group</Title>
                         <P1 id="schedule-16-paragraph-10">
                            <Pnumber>10</Pnumber>
@@ -54979,8 +54979,8 @@
                               </P3>
                            </P1para>
                         </P1>
-                     </Pblock>
-                     <Pblock>
+                     </P1group>
+                     <P1group id="schedule-16-part-2-chapter-2-crossheading-application-to-investment-entities-in-same-territory-as-owners">
                         <Title>Application to investment entities in same territory as owners</Title>
                         <P1 id="schedule-16-paragraph-11">
                            <Pnumber>11</Pnumber>
@@ -55012,8 +55012,8 @@
                               </P2>
                            </P1para>
                         </P1>
-                     </Pblock>
-                     <Pblock>
+                     </P1group>
+                     <P1group id="schedule-16-part-2-chapter-2-crossheading-minority-owned-members">
                         <Title>Minority owned members</Title>
                         <P1 id="schedule-16-paragraph-12">
                            <Pnumber>12</Pnumber>
@@ -55021,7 +55021,7 @@
                               <Text>For the purposes of <InternalLink Ref="schedule-16-part-2">this Part</InternalLink> of <InternalLink Ref="schedule-16">this Schedule</InternalLink>, references to the standard members of a multinational group include minority owned members.</Text>
                            </P1para>
                         </P1>
-                     </Pblock>
+                     </P1group>
                   </Chapter>
                </Part>
             </ScheduleBody>
@@ -56929,7 +56929,7 @@
                <Part id="schedule-19-part-1">
                   <Number>Part 1</Number>
                   <Title>Dumping and subsidisation remedies</Title>
-                  <Pblock>
+                  <P1group id="schedule-19-part-1-crossheading-introduction">
                      <Title>Introduction</Title>
                      <P1 id="schedule-19-paragraph-1">
                         <Pnumber>1</Pnumber>
@@ -56937,8 +56937,8 @@
                            <Text>Schedule 4 to TCTA 2018 (dumping of goods or foreign subsidies causing injury to UK industry) is amended as follows.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-19-part-1-crossheading-notification-etc">
                      <Title>Notification etc</Title>
                      <P1 id="schedule-19-paragraph-2">
                         <Pnumber>2</Pnumber>
@@ -57108,7 +57108,7 @@
                                                  TargetSubClass="unknown"
                                                  Context="schedule"
                                                  Format="double">
-                                    <Pblock>
+                                    <P1group>
                                        <Title>Requirement to give notice to the Secretary of State in certain cases</Title>
                                        <P1>
                                           <Pnumber>12A</Pnumber>
@@ -57187,15 +57187,15 @@
                                              </P2>
                                           </P1para>
                                        </P1>
-                                    </Pblock>
+                                    </P1group>
                                  </BlockAmendment>
                                  <AppendText/>
                               </P2para>
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-19-part-1-crossheading-provisional-remedies">
                      <Title>Provisional remedies</Title>
                      <P1 id="schedule-19-paragraph-3">
                         <Pnumber>3</Pnumber>
@@ -57310,8 +57310,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-19-part-1-crossheading-definitive-remedies">
                      <Title>Definitive remedies</Title>
                      <P1 id="schedule-19-paragraph-4">
                         <Pnumber>4</Pnumber>
@@ -57620,7 +57620,7 @@
                                                  TargetSubClass="unknown"
                                                  Context="schedule"
                                                  Format="double">
-                                    <Pblock>
+                                    <P1group>
                                        <Title>Secretary of State’s power to apply an alternative remedy</Title>
                                        <P1 id="p39160">
                                           <Pnumber>20A</Pnumber>
@@ -57675,15 +57675,15 @@
                                              </P2>
                                           </P1para>
                                        </P1>
-                                    </Pblock>
+                                    </P1group>
                                  </BlockAmendment>
                                  <AppendText/>
                               </P2para>
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-19-part-1-crossheading-reviews-etc">
                      <Title>Reviews etc</Title>
                      <P1 id="schedule-19-paragraph-5">
                         <Pnumber>5</Pnumber>
@@ -57990,8 +57990,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-19-part-1-crossheading-revocation-in-the-public-interest">
                      <Title>Revocation in the public interest</Title>
                      <P1 id="schedule-19-paragraph-6">
                         <Pnumber>6</Pnumber>
@@ -58001,7 +58001,7 @@
                                            TargetSubClass="unknown"
                                            Context="schedule"
                                            Format="double">
-                              <Pblock>
+                              <P1group>
                                  <Title>Revocation in the public interest</Title>
                                  <P1 id="p39404">
                                     <Pnumber>22A</Pnumber>
@@ -58050,13 +58050,13 @@
                                        </P2>
                                     </P1para>
                                  </P1>
-                              </Pblock>
+                              </P1group>
                            </BlockAmendment>
                            <AppendText/>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-19-part-1-crossheading-power-to-request-assistance-etc">
                      <Title>Power to request assistance etc</Title>
                      <P1 id="schedule-19-paragraph-7">
                         <Pnumber>7</Pnumber>
@@ -58066,7 +58066,7 @@
                                            TargetSubClass="unknown"
                                            Context="schedule"
                                            Format="double">
-                              <Pblock>
+                              <P1group>
                                  <Title>Power to request assistance etc</Title>
                                  <P1>
                                     <Pnumber>22B</Pnumber>
@@ -58117,17 +58117,17 @@
                                        </P2>
                                     </P1para>
                                  </P1>
-                              </Pblock>
+                              </P1group>
                            </BlockAmendment>
                            <AppendText/>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-19-part-2">
                   <Number>Part 2</Number>
                   <Title>Safeguarding remedies</Title>
-                  <Pblock>
+                  <P1group id="schedule-19-part-2-crossheading-introduction">
                      <Title>Introduction</Title>
                      <P1 id="schedule-19-paragraph-8">
                         <Pnumber>8</Pnumber>
@@ -58135,8 +58135,8 @@
                            <Text>Schedule 5 to TCTA 2018 (increase in imports causing serious injury to UK producers) is amended as follows.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-19-part-2-crossheading-notification-etc">
                      <Title>Notification etc</Title>
                      <P1 id="schedule-19-paragraph-9">
                         <Pnumber>9</Pnumber>
@@ -58239,7 +58239,7 @@
                                                  TargetSubClass="unknown"
                                                  Context="schedule"
                                                  Format="double">
-                                    <Pblock>
+                                    <P1group>
                                        <Title>Requirement to give notice to the Secretary of State in certain cases</Title>
                                        <P1>
                                           <Pnumber>10A</Pnumber>
@@ -58330,15 +58330,15 @@
                                              </P2>
                                           </P1para>
                                        </P1>
-                                    </Pblock>
+                                    </P1group>
                                  </BlockAmendment>
                                  <AppendText/>
                               </P2para>
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-19-part-2-crossheading-provisional-remedies">
                      <Title>Provisional remedies</Title>
                      <P1 id="schedule-19-paragraph-10">
                         <Pnumber>10</Pnumber>
@@ -58567,8 +58567,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-19-part-2-crossheading-definitive-remedies">
                      <Title>Definitive remedies</Title>
                      <P1 id="schedule-19-paragraph-11">
                         <Pnumber>11</Pnumber>
@@ -59134,8 +59134,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-19-part-2-crossheading-reviews-etc">
                      <Title>Reviews etc</Title>
                      <P1 id="schedule-19-paragraph-12">
                         <Pnumber>12</Pnumber>
@@ -59388,8 +59388,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-19-part-2-crossheading-revocation-in-the-public-interest">
                      <Title>Revocation in the public interest</Title>
                      <P1 id="schedule-19-paragraph-13">
                         <Pnumber>13</Pnumber>
@@ -59399,7 +59399,7 @@
                                            TargetSubClass="unknown"
                                            Context="schedule"
                                            Format="double">
-                              <Pblock>
+                              <P1group>
                                  <Title>Revocation in the public interest</Title>
                                  <P1>
                                     <Pnumber>22A</Pnumber>
@@ -59448,13 +59448,13 @@
                                        </P2>
                                     </P1para>
                                  </P1>
-                              </Pblock>
+                              </P1group>
                            </BlockAmendment>
                            <AppendText/>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-19-part-2-crossheading-power-to-request-assistance-etc">
                      <Title>Power to request assistance etc</Title>
                      <P1 id="schedule-19-paragraph-14">
                         <Pnumber>14</Pnumber>
@@ -59464,7 +59464,7 @@
                                            TargetSubClass="unknown"
                                            Context="schedule"
                                            Format="double">
-                              <Pblock>
+                              <P1group>
                                  <Title>Power to request assistance etc</Title>
                                  <P1>
                                     <Pnumber>22B</Pnumber>
@@ -59513,12 +59513,12 @@
                                        </P2>
                                     </P1para>
                                  </P1>
-                              </Pblock>
+                              </P1group>
                            </BlockAmendment>
                            <AppendText/>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-19-part-3">
                   <Number>Part 3</Number>
@@ -60573,7 +60573,7 @@
                                                           TargetSubClass="unknown"
                                                           Context="schedule"
                                                           Format="double">
-                                             <Pblock>
+                                             <P1group>
                                                 <Title>Registration</Title>
                                                 <P1>
                                                    <Pnumber>28A</Pnumber>
@@ -60622,7 +60622,7 @@
                                                       </P2>
                                                    </P1para>
                                                 </P1>
-                                             </Pblock>
+                                             </P1group>
                                           </BlockAmendment>
                                           <AppendText/>
                                        </P1para>
@@ -62613,7 +62613,7 @@
                                               TargetSubClass="unknown"
                                               Context="schedule"
                                               Format="double">
-                                 <Pblock>
+                                 <P1group>
                                     <Title>Qualifying land</Title>
                                     <P1>
                                        <Pnumber>2</Pnumber>
@@ -62633,7 +62633,7 @@
                                           </P3>
                                        </P1para>
                                     </P1>
-                                 </Pblock>
+                                 </P1group>
                               </BlockAmendment>
                               <AppendText>,</AppendText>
                            </P3para>

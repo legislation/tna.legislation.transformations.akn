@@ -7,7 +7,7 @@
              xmlns:dc="http://purl.org/dc/elements/1.1/">
       <dc:identifier>http://www.legislation.gov.uk/id/uksi/2023/831</dc:identifier>
       <dc:title>The Police Pensions (Remediable Service) Regulations 2023</dc:title>
-      <dc:modified>2023-12-18</dc:modified>
+      <dc:modified>2023-12-22</dc:modified>
       <SecondaryMetadata>
          <DocumentClassification>
             <DocumentCategory Value="secondary"/>
@@ -5980,63 +5980,75 @@
                   <Text>Chapter 3 makes provision similar to Chapter 2, but in relation to transfers in and out of a police pension scheme on a club basis;</Text>
                </P3para>
             </P3>
-            <Error>ERROR can't find context for num. Context is P ExplanatoryNotes Secondary : tblock/num</Error>
-            <Text>Chapter 4 makes provision for—</Text>
-            <P4>
-               <Pnumber>i</Pnumber>
-               <P4para>
-                  <Text>transfers into the reformed in respect of rights secured by virtue of remediable service to be treated as being transferred into the member’s legacy scheme where the benefits which become payable in respect of the member’s remediable service are legacy scheme benefits;</Text>
-               </P4para>
-            </P4>
-            <P4>
-               <Pnumber>ii</Pnumber>
-               <P4para>
-                  <Text>the conferring or variation of rights in a member’s legacy scheme to reflect a change in the value of those rights by virtue of PSPJOA 2022 and these Regulations;</Text>
-               </P4para>
-            </P4>
-            <P4>
-               <Pnumber>iii</Pnumber>
-               <P4para>
-                  <Text>financial corrections of any pension benefits paid in respect of the transferred-in rights of an immediate choice member.</Text>
-               </P4para>
-            </P4>
+            <P3>
+               <Pnumber>d</Pnumber>
+               <P3para>
+                  <Text>Chapter 4 makes provision for—</Text>
+               </P3para>
+               <P4>
+                  <Pnumber>i</Pnumber>
+                  <P4para>
+                     <Text>transfers into the reformed in respect of rights secured by virtue of remediable service to be treated as being transferred into the member’s legacy scheme where the benefits which become payable in respect of the member’s remediable service are legacy scheme benefits;</Text>
+                  </P4para>
+               </P4>
+               <P4>
+                  <Pnumber>ii</Pnumber>
+                  <P4para>
+                     <Text>the conferring or variation of rights in a member’s legacy scheme to reflect a change in the value of those rights by virtue of PSPJOA 2022 and these Regulations;</Text>
+                  </P4para>
+               </P4>
+               <P4>
+                  <Pnumber>iii</Pnumber>
+                  <P4para>
+                     <Text>financial corrections of any pension benefits paid in respect of the transferred-in rights of an immediate choice member.</Text>
+                  </P4para>
+               </P4>
+            </P3>
          </P>
          <P>
             <Text>Part 7 makes provision about special cases—</Text>
-            <Error>ERROR can't find context for num. Context is P ExplanatoryNotes Secondary : tblock/num</Error>
-            <Text>Chapter 1 makes provision about ill-health retirement—</Text>
-            <P4>
-               <Pnumber>i</Pnumber>
-               <P4para>
-                  <Text>regulation 50 makes provision about the cases in which a member who met the requirements for an ill-health retirement award in one police pension scheme is to be deemed as meeting the requirements in their alternative police pension scheme;</Text>
-               </P4para>
-            </P4>
-            <P4>
-               <Pnumber>ii</Pnumber>
-               <P4para>
-                  <Text>regulation 51 makes provision under which a member who has received an ill-health retirement award under the Police Pensions Regulations 1987 is to be assessed for eligibility for an upper tier award in the reformed scheme;</Text>
-               </P4para>
-            </P4>
-            <Error>ERROR can't find context for num. Context is P ExplanatoryNotes Secondary : tblock/num</Error>
-            <Text>Chapter 2 makes provision about—</Text>
-            <P4>
-               <Pnumber>i</Pnumber>
-               <P4para>
-                  <Text>protecting the amount of any child pension which is already in payment so that it will not be reduced as a result of the PSPJOA 2022 or these Regulations;</Text>
-               </P4para>
-            </P4>
-            <P4>
-               <Pnumber>ii</Pnumber>
-               <P4para>
-                  <Text>the payment of annual allowance tax charges;</Text>
-               </P4para>
-            </P4>
-            <P4>
-               <Pnumber>iii</Pnumber>
-               <P4para>
-                  <Text>revisiting decisions about whether or not to elect for non-pensionable pay instead of temporary pay.</Text>
-               </P4para>
-            </P4>
+            <P3>
+               <Pnumber>a</Pnumber>
+               <P3para>
+                  <Text>Chapter 1 makes provision about ill-health retirement—</Text>
+               </P3para>
+               <P4>
+                  <Pnumber>i</Pnumber>
+                  <P4para>
+                     <Text>regulation 50 makes provision about the cases in which a member who met the requirements for an ill-health retirement award in one police pension scheme is to be deemed as meeting the requirements in their alternative police pension scheme;</Text>
+                  </P4para>
+               </P4>
+               <P4>
+                  <Pnumber>ii</Pnumber>
+                  <P4para>
+                     <Text>regulation 51 makes provision under which a member who has received an ill-health retirement award under the Police Pensions Regulations 1987 is to be assessed for eligibility for an upper tier award in the reformed scheme;</Text>
+                  </P4para>
+               </P4>
+            </P3>
+            <P3>
+               <Pnumber>b</Pnumber>
+               <P3para>
+                  <Text>Chapter 2 makes provision about—</Text>
+               </P3para>
+               <P4>
+                  <Pnumber>i</Pnumber>
+                  <P4para>
+                     <Text>protecting the amount of any child pension which is already in payment so that it will not be reduced as a result of the PSPJOA 2022 or these Regulations;</Text>
+                  </P4para>
+               </P4>
+               <P4>
+                  <Pnumber>ii</Pnumber>
+                  <P4para>
+                     <Text>the payment of annual allowance tax charges;</Text>
+                  </P4para>
+               </P4>
+               <P4>
+                  <Pnumber>iii</Pnumber>
+                  <P4para>
+                     <Text>revisiting decisions about whether or not to elect for non-pensionable pay instead of temporary pay.</Text>
+                  </P4para>
+               </P4>
+            </P3>
          </P>
          <P>
             <Text>Part 8 makes provision cases in which a person has already obtained a remedy in relation to their remediable service. Such persons are treated for the purposes of PSPJOA 2022 and these Regulations as if they were an immediate choice member who has elected to receive legacy scheme benefits in relation to their remediable service.</Text>

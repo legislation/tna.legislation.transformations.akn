@@ -7,7 +7,7 @@
              xmlns:dc="http://purl.org/dc/elements/1.1/">
       <dc:identifier>http://www.legislation.gov.uk/id/ukpga/2023/52</dc:identifier>
       <dc:title>Energy Act 2023</dc:title>
-      <dc:modified>2023-12-18</dc:modified>
+      <dc:modified>2023-12-22</dc:modified>
       <PrimaryMetadata>
          <DocumentClassification>
             <DocumentCategory Value="primary"/>
@@ -41643,7 +41643,7 @@
                <Part id="schedule-8-part-1">
                   <Number>Part 1</Number>
                   <Title>Appeals against decisions relating to information and samples</Title>
-                  <Pblock>
+                  <P1group id="schedule-8-part-1-crossheading-appeals-in-relation-to-information-and-samples-plans">
                      <Title>Appeals in relation to information and samples plans</Title>
                      <P1 id="schedule-8-paragraph-1">
                         <Pnumber>1</Pnumber>
@@ -41692,8 +41692,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-8-part-1-crossheading-appeals-against-notices-requiring-provision-of-information-or-samples">
                      <Title>Appeals against notices requiring provision of information or samples</Title>
                      <P1 id="schedule-8-paragraph-2">
                         <Pnumber>2</Pnumber>
@@ -41742,12 +41742,12 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-8-part-2">
                   <Number>Part 2</Number>
                   <Title>Appeals relating to enforcement of sanctionable requirements</Title>
-                  <Pblock>
+                  <P1group id="schedule-8-part-2-crossheading-appeals-in-relation-to-sanction-notices">
                      <Title>Appeals in relation to sanction notices</Title>
                      <P1 id="schedule-8-paragraph-3">
                         <Pnumber>3</Pnumber>
@@ -41797,8 +41797,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-8-part-2-crossheading-appeals-against-finding-of-failure-to-comply">
                      <Title>Appeals against finding of failure to comply</Title>
                      <P1 id="schedule-8-paragraph-4">
                         <Pnumber>4</Pnumber>
@@ -41835,8 +41835,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-8-part-2-crossheading-appeals-against-sanction-imposed">
                      <Title>Appeals against sanction imposed</Title>
                      <P1 id="schedule-8-paragraph-5">
                         <Pnumber>5</Pnumber>
@@ -42027,8 +42027,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-8-part-2-crossheading-appeals-against-information-requirements">
                      <Title>Appeals against information requirements</Title>
                      <P1 id="schedule-8-paragraph-6">
                         <Pnumber>6</Pnumber>
@@ -42071,7 +42071,7 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
             </ScheduleBody>
          </Schedule>
@@ -42087,7 +42087,7 @@
                <Part id="schedule-9-part-1">
                   <Number>Part 1</Number>
                   <Title>Transfer schemes</Title>
-                  <Pblock>
+                  <P1group id="schedule-9-part-1-crossheading-power-to-make-a-transfer-scheme">
                      <Title>Power to make a transfer scheme</Title>
                      <P1 id="schedule-9-paragraph-1">
                         <Pnumber>1</Pnumber>
@@ -42203,8 +42203,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-9-part-1-crossheading-consultation">
                      <Title>Consultation</Title>
                      <P1 id="schedule-9-paragraph-2">
                         <Pnumber>2</Pnumber>
@@ -42236,8 +42236,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-9-part-1-crossheading-transfer-of-property-rights-and-liabilities">
                      <Title>Transfer of property, rights and liabilities</Title>
                      <P1 id="schedule-9-paragraph-3">
                         <Pnumber>3</Pnumber>
@@ -42582,8 +42582,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-9-part-1-crossheading-compensation">
                      <Title>Compensation</Title>
                      <P1 id="schedule-9-paragraph-8">
                         <Pnumber>8</Pnumber>
@@ -42702,8 +42702,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-9-part-1-crossheading-taxation">
                      <Title>Taxation</Title>
                      <P1 id="schedule-9-paragraph-9">
                         <Pnumber>9</Pnumber>
@@ -42814,8 +42814,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-9-part-1-crossheading-power-to-amend-transfer-scheme">
                      <Title>Power to amend transfer scheme</Title>
                      <P1 id="schedule-9-paragraph-10">
                         <Pnumber>10</Pnumber>
@@ -42875,8 +42875,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-9-part-1-crossheading-national-security-and-investment-act-2021">
                      <Title>National Security and Investment Act 2021</Title>
                      <P1 id="schedule-9-paragraph-11">
                         <Pnumber>11</Pnumber>
@@ -42884,12 +42884,12 @@
                            <Text>The making of a transfer scheme is not a trigger event for the purposes of the National Security and Investment Act 2021.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-9-part-2">
                   <Number>Part 2</Number>
                   <Title>Other provision about transfers and designation</Title>
-                  <Pblock>
+                  <P1group id="schedule-9-part-2-crossheading-provision-of-information-or-assistance">
                      <Title>Provision of information or assistance</Title>
                      <P1 id="schedule-9-paragraph-12">
                         <Pnumber>12</Pnumber>
@@ -43062,8 +43062,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-9-part-2-crossheading-co-operation">
                      <Title>Co-operation</Title>
                      <P1 id="schedule-9-paragraph-13">
                         <Pnumber>13</Pnumber>
@@ -43115,8 +43115,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-9-part-2-crossheading-reimbursement-and-compensation-further-provision">
                      <Title>Reimbursement and compensation: further provision</Title>
                      <P1 id="schedule-9-paragraph-14">
                         <Pnumber>14</Pnumber>
@@ -43149,7 +43149,7 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
             </ScheduleBody>
          </Schedule>
@@ -45562,7 +45562,7 @@
                                         TargetSubClass="unknown"
                                         Context="schedule"
                                         Format="double">
-                           <Pblock>
+                           <P1group>
                               <Title>Responsible bodies for central systems</Title>
                               <P1>
                                  <Pnumber>9B</Pnumber>
@@ -45584,7 +45584,7 @@
                                     </P2>
                                  </P1para>
                               </P1>
-                           </Pblock>
+                           </P1group>
                         </BlockAmendment>
                         <AppendText/>
                      </P1para>
@@ -45660,7 +45660,7 @@
                                         TargetSubClass="unknown"
                                         Context="schedule"
                                         Format="double">
-                           <Pblock>
+                           <P1group>
                               <Title>Responsible bodies for central systems</Title>
                               <P1>
                                  <Pnumber>9ZA</Pnumber>
@@ -45682,7 +45682,7 @@
                                     </P2>
                                  </P1para>
                               </P1>
-                           </Pblock>
+                           </P1group>
                         </BlockAmendment>
                         <AppendText/>
                      </P1para>
@@ -47296,7 +47296,7 @@
                                         TargetSubClass="unknown"
                                         Context="schedule"
                                         Format="double">
-                           <Pblock>
+                           <P1group>
                               <Title>Scheme-making power</Title>
                               <P1>
                                  <Pnumber>1</Pnumber>
@@ -47328,7 +47328,7 @@
                                     </P2>
                                  </P1para>
                               </P1>
-                           </Pblock>
+                           </P1group>
                         </BlockAmendment>
                         <AppendText/>
                      </P1para>
@@ -47568,7 +47568,7 @@
                                         TargetSubClass="unknown"
                                         Context="schedule"
                                         Format="double">
-                           <Pblock>
+                           <P1group>
                               <Title>Transmission owner and distribution network owner of last resort</Title>
                               <P1>
                                  <Pnumber>36A</Pnumber>
@@ -47700,7 +47700,7 @@
                                     </P2>
                                  </P1para>
                               </P1>
-                           </Pblock>
+                           </P1group>
                         </BlockAmendment>
                         <AppendText/>
                      </P1para>
@@ -47850,7 +47850,7 @@
                <Part id="schedule-15-part-2">
                   <Number>Part 2</Number>
                   <Title>Other amendments</Title>
-                  <Pblock>
+                  <P1group id="schedule-15-part-2-crossheading-utilities-act-2000">
                      <Title>Utilities Act 2000</Title>
                      <P1 id="schedule-15-paragraph-26">
                         <Pnumber>26</Pnumber>
@@ -47881,7 +47881,7 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
             </ScheduleBody>
          </Schedule>
@@ -49251,7 +49251,7 @@
                <Part id="schedule-16-part-3">
                   <Number>Part 3</Number>
                   <Title>Consequential amendments of other enactments</Title>
-                  <Pblock>
+                  <P1group id="schedule-16-part-3-crossheading-utilities-act-2000">
                      <Title>Utilities Act 2000</Title>
                      <P1 id="schedule-16-paragraph-35">
                         <Pnumber>35</Pnumber>
@@ -49259,8 +49259,8 @@
                            <Text>In section 105(3) of the Utilities Act 2000 (general restrictions on disclosure of information), in paragraph (azb), after “under” insert “Part 3 of the Enterprise Act 2002 or under”.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-16-part-3-crossheading-enterprise-and-regulatory-reform-act-2013">
                      <Title>Enterprise and Regulatory Reform Act 2013</Title>
                      <P1 id="schedule-16-paragraph-36">
                         <Pnumber>36</Pnumber>
@@ -49319,7 +49319,7 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
             </ScheduleBody>
          </Schedule>
@@ -49760,7 +49760,7 @@
                <Part id="schedule-18-part-2">
                   <Number>Part 2</Number>
                   <Title>General provision as to the Regulator</Title>
-                  <Pblock>
+                  <P1group id="schedule-18-part-2-crossheading-objectives">
                      <Title>Objectives</Title>
                      <P1 id="schedule-18-paragraph-2">
                         <Pnumber>2</Pnumber>
@@ -49815,8 +49815,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-18-part-2-crossheading-general-duties">
                      <Title>General duties</Title>
                      <P1 id="schedule-18-paragraph-3">
                         <Pnumber>3</Pnumber>
@@ -49908,8 +49908,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-18-part-2-crossheading-delegation-of-functions">
                      <Title>Delegation of functions</Title>
                      <P1 id="schedule-18-paragraph-5">
                         <Pnumber>5</Pnumber>
@@ -49928,8 +49928,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-18-part-2-crossheading-monitoring-records-and-information">
                      <Title>Monitoring, records and information</Title>
                      <P1 id="schedule-18-paragraph-6">
                         <Pnumber>6</Pnumber>
@@ -50076,8 +50076,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-18-part-2-crossheading-other-general-provision">
                      <Title>Other general provision</Title>
                      <P1 id="schedule-18-paragraph-11">
                         <Pnumber>11</Pnumber>
@@ -50144,12 +50144,12 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-18-part-3">
                   <Number>Part 3</Number>
                   <Title>Heat network authorisations</Title>
-                  <Pblock>
+                  <P1group id="schedule-18-part-3-crossheading-prohibition-from-carrying-on-regulated-activity">
                      <Title>Prohibition from carrying on regulated activity</Title>
                      <P1 id="schedule-18-paragraph-12">
                         <Pnumber>12</Pnumber>
@@ -50168,8 +50168,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-18-part-3-crossheading-heat-network-authorisations">
                      <Title>Heat network authorisations</Title>
                      <P1 id="schedule-18-paragraph-13">
                         <Pnumber>13</Pnumber>
@@ -50505,8 +50505,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-18-part-3-crossheading-conditions-about-technical-standards-further-provision">
                      <Title>Conditions about technical standards: further provision</Title>
                      <P1 id="schedule-18-paragraph-15">
                         <Pnumber>15</Pnumber>
@@ -50540,8 +50540,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-18-part-3-crossheading-conditions-about-continuity-of-supply-further-provision">
                      <Title>Conditions about continuity of supply: further provision</Title>
                      <P1 id="schedule-18-paragraph-16">
                         <Pnumber>16</Pnumber>
@@ -50559,8 +50559,8 @@
                               <InternalLink Ref="schedule-18-paragraph-14-4-f">(f)</InternalLink> may, in particular, require the holder of a heat network authorisation, when directed to do so by the Regulator in circumstances of a description specified in the conditions, to carry on a regulated activity in relation to a relevant heat network in the place of another person (see <InternalLink Ref="schedule-18-paragraph-44">paragraph 44</InternalLink>).</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-18-part-3-crossheading-modification-of-heat-network-authorisations">
                      <Title>Modification of heat network authorisations</Title>
                      <P1 id="schedule-18-paragraph-18">
                         <Pnumber>18</Pnumber>
@@ -50639,8 +50639,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-18-part-3-crossheading-review-and-revocation-of-heat-network-authorisations">
                      <Title>Review and revocation of heat network authorisations</Title>
                      <P1 id="schedule-18-paragraph-19">
                         <Pnumber>19</Pnumber>
@@ -50678,8 +50678,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-18-part-3-crossheading-initial-period">
                      <Title>Initial period</Title>
                      <P1 id="schedule-18-paragraph-21">
                         <Pnumber>21</Pnumber>
@@ -50754,12 +50754,12 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-18-part-4">
                   <Number>Part 4</Number>
                   <Title>Code governance</Title>
-                  <Pblock>
+                  <P1group id="schedule-18-part-4-crossheading-designated-documents">
                      <Title>Designated documents</Title>
                      <P1 id="schedule-18-paragraph-22">
                         <Pnumber>22</Pnumber>
@@ -50832,8 +50832,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-18-part-4-crossheading-prohibition-on-performing-the-function-of-a-code-manager">
                      <Title>Prohibition on performing the function of a code manager</Title>
                      <P1 id="schedule-18-paragraph-23">
                         <Pnumber>23</Pnumber>
@@ -50858,8 +50858,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-18-part-4-crossheading-licensed-code-managers">
                      <Title>Licensed code managers</Title>
                      <P1 id="schedule-18-paragraph-24">
                         <Pnumber>24</Pnumber>
@@ -51141,8 +51141,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-18-part-4-crossheading-review-and-revocation-of-code-manager-licences">
                      <Title>Review and revocation of code manager licences</Title>
                      <P1 id="schedule-18-paragraph-29">
                         <Pnumber>29</Pnumber>
@@ -51180,12 +51180,12 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-18-part-5">
                   <Number>Part 5</Number>
                   <Title>Installation and maintenance licences</Title>
-                  <Pblock>
+                  <P1group id="schedule-18-part-5-crossheading-installation-and-maintenance-licences">
                      <Title>Installation and maintenance licences</Title>
                      <P1 id="schedule-18-paragraph-31">
                         <Pnumber>31</Pnumber>
@@ -51282,8 +51282,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-18-part-5-crossheading-rights-that-may-be-conferred">
                      <Title>Rights that may be conferred</Title>
                      <P1 id="schedule-18-paragraph-32">
                         <Pnumber>32</Pnumber>
@@ -51418,8 +51418,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-18-part-5-crossheading-further-provision-about-installation-and-maintenance-licences">
                      <Title>Further provision about installation and maintenance licences</Title>
                      <P1 id="schedule-18-paragraph-33">
                         <Pnumber>33</Pnumber>
@@ -51593,8 +51593,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-18-part-5-crossheading-review-and-revocation-of-installation-and-maintenance-licences">
                      <Title>Review and revocation of installation and maintenance licences</Title>
                      <P1 id="schedule-18-paragraph-35">
                         <Pnumber>35</Pnumber>
@@ -51631,12 +51631,12 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-18-part-6">
                   <Number>Part 6</Number>
                   <Title>Enforcement of conditions and requirements</Title>
-                  <Pblock>
+                  <P1group id="schedule-18-part-6-crossheading-methods-of-enforcement">
                      <Title>Methods of enforcement</Title>
                      <P1 id="schedule-18-paragraph-37">
                         <Pnumber>37</Pnumber>
@@ -51785,8 +51785,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-18-part-6-crossheading-final-and-provisional-orders">
                      <Title>Final and provisional orders</Title>
                      <P1 id="schedule-18-paragraph-38">
                         <Pnumber>38</Pnumber>
@@ -51844,8 +51844,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-18-part-6-crossheading-penalties">
                      <Title>Penalties</Title>
                      <P1 id="schedule-18-paragraph-39">
                         <Pnumber>39</Pnumber>
@@ -51958,8 +51958,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-18-part-6-crossheading-consumer-redress-orders">
                      <Title>Consumer redress orders</Title>
                      <P1 id="schedule-18-paragraph-40">
                         <Pnumber>40</Pnumber>
@@ -52064,8 +52064,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-18-part-6-crossheading-functions-under-part-1-of-the-competition-act-1998-and-part-4-of-the-enterprise-act-2002">
                      <Title>Functions under Part 1 of the Competition Act 1998 and Part 4 of the Enterprise Act 2002</Title>
                      <P1 id="schedule-18-paragraph-41">
                         <Pnumber>41</Pnumber>
@@ -52120,12 +52120,12 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-18-part-7">
                   <Number>Part 7</Number>
                   <Title>Investigation</Title>
-                  <Pblock>
+                  <P1group id="schedule-18-part-7-crossheading-investigation-of-charges">
                      <Title>Investigation of charges</Title>
                      <P1 id="schedule-18-paragraph-42">
                         <Pnumber>42</Pnumber>
@@ -52146,8 +52146,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-18-part-7-crossheading-powers-to-require-information-etc">
                      <Title>Powers to require information etc</Title>
                      <P1 id="schedule-18-paragraph-43">
                         <Pnumber>43</Pnumber>
@@ -52287,7 +52287,7 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-18-part-8">
                   <Number>Part 8</Number>
@@ -52866,7 +52866,7 @@
                <Part id="schedule-18-part-11">
                   <Number>Part 11</Number>
                   <Title>Consumer protection</Title>
-                  <Pblock>
+                  <P1group id="schedule-18-part-11-crossheading-standards-of-performance">
                      <Title>Standards of performance</Title>
                      <P1 id="schedule-18-paragraph-58">
                         <Pnumber>58</Pnumber>
@@ -53036,8 +53036,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-18-part-11-crossheading-consumer-advocacy-bodies">
                      <Title>Consumer advocacy bodies</Title>
                      <P1 id="schedule-18-paragraph-61">
                         <Pnumber>61</Pnumber>
@@ -53080,8 +53080,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-18-part-11-crossheading-complaints-handling-and-redress-schemes">
                      <Title>Complaints handling and redress schemes</Title>
                      <P1 id="schedule-18-paragraph-62">
                         <Pnumber>62</Pnumber>
@@ -53101,8 +53101,8 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-18-part-11-crossheading-consumer-complaints-and-dispute-resolution-arrangements-northern-ireland">
                      <Title>Consumer complaints and dispute resolution arrangements: Northern Ireland</Title>
                      <P1 id="schedule-18-paragraph-63">
                         <Pnumber>63</Pnumber>
@@ -53127,8 +53127,8 @@
                            <Text>The regulations may, in relation to Northern Ireland, make provision about the resolution of disputes involving a heat network consumer or potential heat network consumer (including by providing for a scheme under which complaints may be made to, and investigated and determined by, an independent person or may be referred to arbitration).</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-18-part-11-crossheading-documents-for-citizens-advice-consumer-scotland-and-the-general-consumer-council-for-northern-ireland">
                      <Title>Documents for Citizens Advice, Consumer Scotland and the General Consumer Council for Northern Ireland</Title>
                      <P1 id="schedule-18-paragraph-65">
                         <Pnumber>65</Pnumber>
@@ -53148,7 +53148,7 @@
                            </P3>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-18-part-12">
                   <Number>Part 12</Number>
@@ -53258,7 +53258,7 @@
                <Part id="schedule-18-part-13">
                   <Number>Part 13</Number>
                   <Title>Miscellaneous and general</Title>
-                  <Pblock>
+                  <P1group id="schedule-18-part-13-crossheading-consultation-and-cooperation">
                      <Title>Consultation and cooperation</Title>
                      <P1 id="schedule-18-paragraph-69">
                         <Pnumber>69</Pnumber>
@@ -53284,8 +53284,8 @@
                            <Text>The regulations may require the Regulator to assist a public authority that carries out, in relation to Wales or Scotland, functions as regards limiting targeted greenhouse gases in relation to heat networks (including by providing information).</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-18-part-13-crossheading-objectives-of-the-secretary-of-state-and-the-department">
                      <Title>Objectives of the Secretary of State and the Department</Title>
                      <P1 id="schedule-18-paragraph-71">
                         <Pnumber>71</Pnumber>
@@ -53310,8 +53310,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-18-part-13-crossheading-offences">
                      <Title>Offences</Title>
                      <P1 id="schedule-18-paragraph-72">
                         <Pnumber>72</Pnumber>
@@ -53371,8 +53371,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-18-part-13-crossheading-crown-application">
                      <Title>Crown application</Title>
                      <P1 id="schedule-18-paragraph-74">
                         <Pnumber>74</Pnumber>
@@ -53445,7 +53445,7 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
             </ScheduleBody>
          </Schedule>
@@ -54172,7 +54172,7 @@
                <Part id="schedule-21-part-2">
                   <Number>Part 2</Number>
                   <Title>Petroleum (Current Model Clauses) Order 1999</Title>
-                  <Pblock>
+                  <P1group id="schedule-21-part-2-crossheading-introduction">
                      <Title>Introduction</Title>
                      <P1 id="schedule-21-paragraph-5">
                         <Pnumber>5</Pnumber>
@@ -54180,8 +54180,8 @@
                            <Text>The Petroleum (Current Model Clauses) Order 1999 (S.I. 1999/160) is amended in accordance with this Part of this Schedule.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-21-part-2-crossheading-part-2-of-schedule-2">
                      <Title>Part 2 of Schedule 2</Title>
                      <P1 id="schedule-21-paragraph-6">
                         <Pnumber>6</Pnumber>
@@ -54466,8 +54466,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-21-part-2-crossheading-part-2-of-schedule-3">
                      <Title>Part 2 of Schedule 3</Title>
                      <P1 id="schedule-21-paragraph-10">
                         <Pnumber>10</Pnumber>
@@ -54752,8 +54752,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-21-part-2-crossheading-part-2-of-schedule-4">
                      <Title>Part 2 of Schedule 4</Title>
                      <P1 id="schedule-21-paragraph-14">
                         <Pnumber>14</Pnumber>
@@ -55038,8 +55038,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-21-part-2-crossheading-part-2-of-schedule-5">
                      <Title>Part 2 of Schedule 5</Title>
                      <P1 id="schedule-21-paragraph-18">
                         <Pnumber>18</Pnumber>
@@ -55324,8 +55324,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-21-part-2-crossheading-part-2-of-schedule-6">
                      <Title>Part 2 of Schedule 6</Title>
                      <P1 id="schedule-21-paragraph-22">
                         <Pnumber>22</Pnumber>
@@ -55610,8 +55610,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-21-part-2-crossheading-part-2-of-schedule-8">
                      <Title>Part 2 of Schedule 8</Title>
                      <P1 id="schedule-21-paragraph-26">
                         <Pnumber>26</Pnumber>
@@ -55896,8 +55896,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-21-part-2-crossheading-part-2-of-schedule-9">
                      <Title>Part 2 of Schedule 9</Title>
                      <P1 id="schedule-21-paragraph-30">
                         <Pnumber>30</Pnumber>
@@ -56182,8 +56182,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-21-part-2-crossheading-part-2-of-schedule-10">
                      <Title>Part 2 of Schedule 10</Title>
                      <P1 id="schedule-21-paragraph-34">
                         <Pnumber>34</Pnumber>
@@ -56468,8 +56468,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-21-part-2-crossheading-part-2-of-schedule-13">
                      <Title>Part 2 of Schedule 13</Title>
                      <P1 id="schedule-21-paragraph-38">
                         <Pnumber>38</Pnumber>
@@ -56754,8 +56754,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-21-part-2-crossheading-part-2-of-schedule-14">
                      <Title>Part 2 of Schedule 14</Title>
                      <P1 id="schedule-21-paragraph-42">
                         <Pnumber>42</Pnumber>
@@ -57040,12 +57040,12 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-21-part-3">
                   <Number>Part 3</Number>
                   <Title>Petroleum Licensing (Exploration and Production) (Seaward and Landward Areas) Regulations 2004</Title>
-                  <Pblock>
+                  <P1group id="schedule-21-part-3-crossheading-introduction">
                      <Title>Introduction</Title>
                      <P1 id="schedule-21-paragraph-46">
                         <Pnumber>46</Pnumber>
@@ -57053,8 +57053,8 @@
                            <Text>The Petroleum Licensing (Exploration and Production) (Seaward and Landward Areas) Regulations 2004 (S.I. 2004/352) are amended in accordance with this Part of this Schedule.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-21-part-3-crossheading-schedule-2">
                      <Title>Schedule 2</Title>
                      <P1 id="schedule-21-paragraph-47">
                         <Pnumber>47</Pnumber>
@@ -57339,8 +57339,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-21-part-3-crossheading-schedule-3">
                      <Title>Schedule 3</Title>
                      <P1 id="schedule-21-paragraph-51">
                         <Pnumber>51</Pnumber>
@@ -57625,8 +57625,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-21-part-3-crossheading-schedule-4">
                      <Title>Schedule 4</Title>
                      <P1 id="schedule-21-paragraph-55">
                         <Pnumber>55</Pnumber>
@@ -57911,8 +57911,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-21-part-3-crossheading-schedule-6">
                      <Title>Schedule 6</Title>
                      <P1 id="schedule-21-paragraph-59">
                         <Pnumber>59</Pnumber>
@@ -58197,7 +58197,7 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
                <Part id="schedule-21-part-4">
                   <Number>Part 4</Number>

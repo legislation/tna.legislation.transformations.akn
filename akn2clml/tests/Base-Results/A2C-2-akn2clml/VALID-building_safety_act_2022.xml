@@ -7,7 +7,7 @@
              xmlns:dc="http://purl.org/dc/elements/1.1/">
       <dc:identifier>http://www.legislation.gov.uk/id/ukpga/2022/30</dc:identifier>
       <dc:title>Building Safety Act 2022</dc:title>
-      <dc:modified>2023-12-18</dc:modified>
+      <dc:modified>2023-12-22</dc:modified>
       <PrimaryMetadata>
          <DocumentClassification>
             <DocumentCategory Value="primary"/>
@@ -747,7 +747,7 @@
                                           </ListItem>
                                           <ListItem>
                                              <Para>
-                                                <Text>a member of a body within <InternalLink Ref="d23e1881-b">paragraph (b)</InternalLink>.</Text>
+                                                <Text>a member of a body within <InternalLink Ref="d24e1881-b">paragraph (b)</InternalLink>.</Text>
                                              </Para>
                                           </ListItem>
                                        </OrderedList>
@@ -3569,7 +3569,7 @@
                                         TargetSubClass="unknown"
                                         Context="schedule"
                                         Format="double">
-                           <Pblock>
+                           <P1group>
                               <Title>Procedural requirements etc: general</Title>
                               <P1 id="p03241">
                                  <Pnumber>1A</Pnumber>
@@ -3655,8 +3655,8 @@
                                     </P2>
                                  </P1para>
                               </P1>
-                           </Pblock>
-                           <Pblock>
+                           </P1group>
+                           <P1group>
                               <Title>Applications for building control approval</Title>
                               <P1 id="p03299">
                                  <Pnumber>1B</Pnumber>
@@ -3806,8 +3806,8 @@
                                     </P2>
                                  </P1para>
                               </P1>
-                           </Pblock>
-                           <Pblock>
+                           </P1group>
+                           <P1group>
                               <Title>Certificates: approved schemes</Title>
                               <P1>
                                  <Pnumber>1C</Pnumber>
@@ -3886,8 +3886,8 @@
                                     </P2>
                                  </P1para>
                               </P1>
-                           </Pblock>
-                           <Pblock>
+                           </P1group>
+                           <P1group>
                               <Title>Obtaining, keeping and giving information and documents</Title>
                               <P1 id="p03457">
                                  <Pnumber>1D</Pnumber>
@@ -3954,8 +3954,8 @@
                                     </P2>
                                  </P1para>
                               </P1>
-                           </Pblock>
-                           <Pblock>
+                           </P1group>
+                           <P1group>
                               <Title>Reporting requirements: duty to establish and operate system</Title>
                               <P1>
                                  <Pnumber>1E</Pnumber>
@@ -3998,8 +3998,8 @@
                                     </P2>
                                  </P1para>
                               </P1>
-                           </Pblock>
-                           <Pblock>
+                           </P1group>
+                           <P1group>
                               <Title>Form and content of documents etc</Title>
                               <P1>
                                  <Pnumber>1F</Pnumber>
@@ -4060,8 +4060,8 @@
                                     </P2>
                                  </P1para>
                               </P1>
-                           </Pblock>
-                           <Pblock>
+                           </P1group>
+                           <P1group>
                               <Title>Inspection, testing etc</Title>
                               <P1>
                                  <Pnumber>1G</Pnumber>
@@ -4123,8 +4123,8 @@
                                     </P2>
                                  </P1para>
                               </P1>
-                           </Pblock>
-                           <Pblock>
+                           </P1group>
+                           <P1group>
                               <Title>Applications to building control authorities: extension of period by agreement</Title>
                               <P1>
                                  <Pnumber>1H</Pnumber>
@@ -4132,8 +4132,8 @@
                                     <Text>Building regulations may provide that any prescribed period for the doing of a thing by a building control authority in connection with an application made to it may be extended by agreement between the authority and the applicant.</Text>
                                  </P1para>
                               </P1>
-                           </Pblock>
-                           <Pblock>
+                           </P1group>
+                           <P1group>
                               <Title>Appeals</Title>
                               <P1>
                                  <Pnumber>1I</Pnumber>
@@ -4236,7 +4236,7 @@
                                     </P2>
                                  </P1para>
                               </P1>
-                           </Pblock>
+                           </P1group>
                         </BlockAmendment>
                         <AppendText/>
                      </P1para>
@@ -4252,7 +4252,7 @@
                                         TargetSubClass="unknown"
                                         Context="schedule"
                                         Format="double">
-                           <Pblock>
+                           <P1group>
                               <Title>Appointed persons</Title>
                               <P1>
                                  <Pnumber>5A</Pnumber>
@@ -4319,8 +4319,8 @@
                                     </P2>
                                  </P1para>
                               </P1>
-                           </Pblock>
-                           <Pblock>
+                           </P1group>
+                           <P1group>
                               <Title>General duties</Title>
                               <P1 id="p03743">
                                  <Pnumber>5B</Pnumber>
@@ -4363,7 +4363,7 @@
                                     </P2>
                                  </P1para>
                               </P1>
-                           </Pblock>
+                           </P1group>
                         </BlockAmendment>
                         <AppendText/>
                      </P1para>
@@ -4379,7 +4379,7 @@
                                         TargetSubClass="unknown"
                                         Context="schedule"
                                         Format="double">
-                           <Pblock>
+                           <P1group>
                               <Title>Competence requirements</Title>
                               <P1>
                                  <Pnumber>5C</Pnumber>
@@ -4428,7 +4428,7 @@
                                     </P2>
                                  </P1para>
                               </P1>
-                           </Pblock>
+                           </P1group>
                         </BlockAmendment>
                         <AppendText/>
                      </P1para>
@@ -4745,7 +4745,7 @@
                                               TargetSubClass="unknown"
                                               Context="schedule"
                                               Format="double">
-                                 <Pblock>
+                                 <P1group>
                                     <Title>Lapse of public body’s notice</Title>
                                     <P1>
                                        <Pnumber>4A</Pnumber>
@@ -4825,7 +4825,7 @@
                                           </P2>
                                        </P1para>
                                     </P1>
-                                 </Pblock>
+                                 </P1group>
                               </BlockAmendment>
                               <AppendText/>
                            </P2para>
@@ -29036,7 +29036,7 @@
                <Part id="schedule-5-part-2">
                   <Number>Part 2</Number>
                   <Title>Other amendments</Title>
-                  <Pblock>
+                  <P1group id="schedule-5-part-2-crossheading-parliamentary-commissioner-act-1967-c-13">
                      <Title>Parliamentary Commissioner Act 1967 (c. 13)</Title>
                      <P1 id="schedule-5-paragraph-87">
                         <Pnumber>87</Pnumber>
@@ -29044,8 +29044,8 @@
                            <Text>In Schedule 2 to the Parliamentary Commissioner Act 1967, omit the entry relating to the Building Regulations Advisory Committee for England.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-5-part-2-crossheading-freedom-of-information-act-2000-c-36">
                      <Title>Freedom of Information Act 2000 (c. 36)</Title>
                      <P1 id="schedule-5-paragraph-88">
                         <Pnumber>88</Pnumber>
@@ -29053,8 +29053,8 @@
                            <Text>In Schedule 1 to the Freedom of Information Act 2000, in Part 6 omit the entry relating to the Building Regulations Advisory Committee for England.</Text>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-5-part-2-crossheading-sustainable-and-secure-buildings-act-2004-c-22">
                      <Title>Sustainable and Secure Buildings Act 2004 (c. 22)</Title>
                      <P1 id="schedule-5-paragraph-89">
                         <Pnumber>89</Pnumber>
@@ -29079,8 +29079,8 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
-                  <Pblock>
+                  </P1group>
+                  <P1group id="schedule-5-part-2-crossheading-the-regulatory-reform-fire-safety-order-2005-si-2005-1541">
                      <Title>The Regulatory Reform (Fire Safety) Order 2005 (S.I. 2005/1541)</Title>
                      <P1 id="schedule-5-paragraph-90">
                         <Pnumber>90</Pnumber>
@@ -29105,7 +29105,7 @@
                            </P2>
                         </P1para>
                      </P1>
-                  </Pblock>
+                  </P1group>
                </Part>
             </ScheduleBody>
          </Schedule>
