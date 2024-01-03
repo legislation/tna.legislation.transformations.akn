@@ -110,9 +110,14 @@
 		</DocumentClassification>
 		<Year Value="{ $doc-year }" />
 
-		<xsl:if test="exists($doc-number)">
-			<Number Value="{ $doc-number }" />
-		</xsl:if>
+		<xsl:choose>
+			<xsl:when test="$doc-short-type = $draft-secondary-short-types">
+				<Number Value="" />
+			</xsl:when>
+			<xsl:when test="exists($doc-number)">
+				<Number Value="{ $doc-number }" />
+			</xsl:when>
+		</xsl:choose>
 		<xsl:variable name="lgu-alt-numbers" as="xs:string*">
 			<xsl:sequence select="/akomaNtoso/*/meta/identification/FRBRWork/FRBRnumber/@value[matches(.,'^(C|L|S|NI|W|Cy)\. \d+$')]" />
 		</xsl:variable>
@@ -159,18 +164,11 @@
 				<xsl:attribute name="Date">
 					<xsl:value-of select="substring(string($made-date), 1, 10)" />
 				</xsl:attribute>
-				<xsl:choose>
-					<xsl:when test="$made-date instance of xs:dateTime">
-						<xsl:attribute name="Time">
-							<xsl:value-of select="xs:time($made-date)"/>
-						</xsl:attribute>
-					</xsl:when>
-					<xsl:when test="$made-date castable as xs:dateTime">
-						<xsl:attribute name="Time">
-							<xsl:value-of select="xs:time(xs:dateTime($made-date))"/>
-						</xsl:attribute>
-					</xsl:when>
-				</xsl:choose>
+				<xsl:if test="$made-date instance of xs:dateTime">
+					<xsl:attribute name="Time">
+						<xsl:value-of select="xs:time($made-date)"/>
+					</xsl:attribute>
+				</xsl:if>
 			</Made>
 		</xsl:if>
 

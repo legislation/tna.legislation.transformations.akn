@@ -1,91 +1,96 @@
-<?xml version="1.0" encoding="UTF-8"?><akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../schemas/akomantoso30.xsd">
-	<?DMS-Component componentId="0bea9e40-01cf-4ea9-a89b-07d9f162c039" seriesId="a69ac183-8d3e-4d08-8d51-66d143e8c0e0" versionNumber="1"?>
-	<bill contains="originalVersion" name="ukdsi">
+﻿<?xml version="1.0" encoding="UTF-8"?><akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../schemas/akomantoso30.xsd">
+	
+	<act contains="originalVersion" name="uksi">
 		<meta>
-			<?DMS-Component componentId="b78077e6-97d3-4267-b2a0-ee57b5af6f80" seriesId="22a846a2-b30c-466d-a3b9-855fdc722868" versionNumber="1"?>
+			
 			<identification source="#ldapp">
 				<FRBRWork>
-					<FRBRthis value="#varWork"/>
-					<FRBRuri value="#varWorkUri"/>
-					<FRBRalias name="ttflConfigHistory" value="#varCHOiid"/>
-					<FRBRalias name="alternateUri" value="https://lawmaker.legislation.gov.uk/pdr/ukdsi/2023/0000/ukdsi"/><FRBRdate date="9999-01-01" name="ukdsi"/>
-					<FRBRdate date="2023-10-13T13:27:12Z" name="published"/><FRBRauthor href="#varAuthor"/>
-					<FRBRcountry value="GB-SCT"/>
-					<FRBRsubtype value="#varDocSubType"/>
-					<FRBRnumber value="#varProjectId"/>
-					<FRBRname value="#varSITitle"/>
-					<FRBRprescriptive value="true"/>
-					<FRBRauthoritative value="false"/>
+					<FRBRthis value="#varWork" />
+					<FRBRuri value="#varWorkUri" />
+					<FRBRalias name="ttflConfigHistory" value="#varCHOiid" />
+					<FRBRalias name="alternateUri" value="https://lawmaker.legislation.gov.uk/pdr/ukdsi/2023/0000/ukdsi" />
+					<FRBRdate date="9999-01-01" name="ukdsi" />
+					<FRBRdate date="2023-10-13T13:27:12Z" name="published" />
+					<FRBRauthor href="#varAuthor" />
+					<FRBRcountry value="GB-SCT" />
+					<FRBRsubtype value="#varDocSubType" />
+					<FRBRnumber value="#varProjectId" />
+					<FRBRname value="#varSITitle" />
+					<FRBRprescriptive value="true" />
+					<FRBRauthoritative value="false" />
 				</FRBRWork>
 				<FRBRExpression>
-					<FRBRthis value="#varExpression"/>
-					<FRBRuri value="#varExpressionUri"/>
-					<FRBRalias name="ttflVersionDescription" value="#varVDOiid"/>
-					<FRBRalias name="alternateUri" value="https://lawmaker.legislation.gov.uk/pdr/ukdsi/2023/0000/ukdsi"/><FRBRdate date="9999-01-01" name="draft"/>
-					<FRBRdate date="2023-10-13T13:27:12Z" name="published"/><FRBRauthor href="#varAuthor"/>
-					<FRBRversionNumber value="8"/>
-					<FRBRauthoritative value="false"/>
-					<FRBRmasterExpression href="" showAs=""/>
-					<FRBRlanguage language="eng"/>
+					<FRBRthis value="#varExpression" />
+					<FRBRuri value="#varExpressionUri" />
+					<FRBRalias name="ttflVersionDescription" value="#varVDOiid" />
+					<FRBRalias name="alternateUri" value="https://lawmaker.legislation.gov.uk/pdr/ukdsi/2023/0000/ukdsi" />
+					<FRBRdate date="9999-01-01" name="draft" />
+					<FRBRdate date="2023-10-13T13:27:12Z" name="published" />
+					<FRBRauthor href="#varAuthor" />
+					<FRBRversionNumber value="8" />
+					<FRBRauthoritative value="false" />
+					<FRBRmasterExpression href="" showAs="" />
+					<FRBRlanguage language="eng" />
 				</FRBRExpression>
 				<FRBRManifestation>
-					<FRBRthis value="#varManifestation"/>
-					<FRBRuri value="#varManifestationUri"/>
-					<FRBRdate date="9999-01-01" name="akn_xml"/>
-					<FRBRdate date="2023-10-13T13:27:12Z" name="published"/><FRBRauthor href="#varAuthor"/>
-					<FRBRformat value="application/akn+xml"/>
+					<FRBRthis value="#varManifestation" />
+					<FRBRuri value="#varManifestationUri" />
+					<FRBRdate date="9999-01-01" name="akn_xml" />
+					<FRBRdate date="2023-10-13T13:27:12Z" name="published" />
+					<FRBRauthor href="#varAuthor" />
+					<FRBRformat value="application/akn+xml" />
 				</FRBRManifestation>
 			</identification>
 			<references source="#author">
-				<TLCConcept GUID="_f6288da3-29f3-4a84-a703-bbe9b63315de" eId="varDocSubType" href="#varOntologies" showAs="Regulations"/>
-				<TLCConcept GUID="_22025826-a784-44fe-aeb0-20fdf18677fb" eId="varSITitle" href="#varOntologies" showAs="The Retained EU Law (Revocation and Reform) Act 2023 (Consequential Amendment) Regulations 2023"/>
-				<TLCProcess GUID="_8b4b0f59-c209-4831-b840-65d888bd2f05" eId="varProcedureType" href="#varOntologies" showAs="Draft Affirmative"/>
-				<TLCProcess GUID="_01d29ce4-f863-4bed-ab22-39aedb12829e" eId="varStageVersion" href="#varOntologies" showAs="8"/>
-				<TLCProcess GUID="_8fdde87a-eb73-4c30-aed8-69cc040c3899" eId="varProjectId" href="#varOntologies" showAs="SI000377"/>
-				<TLCProcess GUID="_35db53c9-6250-4a36-b7da-16c8cc5fc654" eId="varWork" href="#varOntologies" showAs="https://lawmaker.legislation.gov.uk/pdr/SI000377/ukdsi"/>
-				<TLCProcess GUID="_546fdfea-6f69-454d-a25c-1ba57bb01bbe" eId="varWorkUri" href="#varOntologies" showAs="https://lawmaker.legislation.gov.uk/pdr/SI000377/ukdsi"/>
-				<TLCProcess GUID="_ebbe1931-75b2-480c-8f5a-8c1307f1d7d3" eId="varCHOiid" href="#varOntologies" showAs=""/>
-				<TLCProcess GUID="_1e296f61-2727-45e5-9a5f-76bf4adc23fc" eId="varExpression" href="#varOntologies" showAs="https://lawmaker.legislation.gov.uk/pdr/SI000377/ukdsi@8"/>
-				<TLCProcess GUID="_231723fa-73ef-4e89-9716-724c478d7d92" eId="varExpressionUri" href="#varOntologies" showAs="https://lawmaker.legislation.gov.uk/pdr/SI000377/ukdsi@8"/>
-				<TLCProcess GUID="_4b59f166-edcd-469d-86dd-d4764266f761" eId="varVDOiid" href="#varOntologies" showAs=""/>
-				<TLCProcess GUID="_1fe40b97-70d0-4d0c-b295-280da4bebf4c" eId="varManifestation" href="#varOntologies" showAs="https://lawmaker.legislation.gov.uk/pdr/SI000377/ukdsi@8/xml"/>
-				<TLCProcess GUID="_ee443f72-ded8-4a3a-8833-ea97d3c1403f" eId="varManifestationUri" href="#varOntologies" showAs="https://lawmaker.legislation.gov.uk/pdr/SI000377/ukdsi@8/xml"/>
-				<TLCConcept GUID="_92aa9815-e716-4aa9-ace9-f79f84f54a79" eId="varSIYear" href="#varOntologies" showAs="2023"/>
-				<TLCConcept GUID="_ac35c8e9-9056-40e0-b7f5-e16155ef4270" eId="varSINoComp" href="#varOntologies" showAs="0000"/>
-				<TLCConcept GUID="_23a874fb-7e75-48d9-b0e6-72d256716989" eId="varSINo" href="#varOntologies" showAs="#varSIYear No. #varSINoComp #varSISubsidiaryNos"/>
-				<TLCConcept GUID="_6a2e2190-8a84-41b1-98f0-a4774176061b" eId="varSISubsidiaryNos" href="#varOntologies" showAs=""/>
-				<TLCConcept GUID="_811e86d1-33f0-489f-9d7c-56b787f4a277" eId="varISBN" href="#varOntologies" showAs=""/>
-				<TLCPerson GUID="_1e2b761a-71e3-43d9-9e4f-892ee23230a4" eId="varMinistryAgency" href="#varOntologies" showAs=""/>
-				<TLCConcept GUID="_36c184a3-a51f-4117-b922-c773943b1288" eId="varDocType" href="#varOntologies" showAs="UKSI"/>
-				<TLCProcess GUID="_7abee733-4672-4fe4-8fdc-1f6f959ab8c2" eId="varSystem" href="#varOntologies" showAs="LDAPP"/>
-				<TLCOrganization GUID="_cb6ad97b-ea3c-4354-a866-d780a82efc96" eId="varAuthor" href="#varOntologies" showAs="UK Government"/>
-				<TLCLocation GUID="_af97e995-0173-4703-8b4b-a3ba9e88d96b" eId="varJurisdiction" href="#varOntologies" showAs="United Kingdom"/>
-				<TLCConcept GUID="_3836fcf1-49de-43ea-b8f5-ca1ded0e5915" eId="varOntologies" href="https://www.legislation.gov.uk/ontologies/UK-AKN" showAs="https://www.legislation.gov.uk/ontologies/UK-AKN"/>
-				<TLCConcept GUID="_c3352ad9-29d2-43da-8276-c103e376838e" eId="varCommenceDate" href="#varOntologies" showAs="2024-01-01T00:00:00.000"/>
+				<TLCConcept GUID="_f6288da3-29f3-4a84-a703-bbe9b63315de" eId="varDocSubType" href="#varOntologies" showAs="Regulations" />
+				<TLCConcept GUID="_22025826-a784-44fe-aeb0-20fdf18677fb" eId="varSITitle" href="#varOntologies" showAs="The Retained EU Law (Revocation and Reform) Act 2023 (Consequential Amendment) Regulations 2023" />
+				<TLCProcess GUID="_8b4b0f59-c209-4831-b840-65d888bd2f05" eId="varProcedureType" href="#varOntologies" showAs="Draft Affirmative" />
+				<TLCProcess GUID="_01d29ce4-f863-4bed-ab22-39aedb12829e" eId="varStageVersion" href="#varOntologies" showAs="8" />
+				<TLCProcess GUID="_8fdde87a-eb73-4c30-aed8-69cc040c3899" eId="varProjectId" href="#varOntologies" showAs="SI000377" />
+				<TLCProcess GUID="_35db53c9-6250-4a36-b7da-16c8cc5fc654" eId="varWork" href="#varOntologies" showAs="https://lawmaker.legislation.gov.uk/pdr/SI000377/ukdsi" />
+				<TLCProcess GUID="_546fdfea-6f69-454d-a25c-1ba57bb01bbe" eId="varWorkUri" href="#varOntologies" showAs="https://lawmaker.legislation.gov.uk/pdr/SI000377/ukdsi" />
+				<TLCProcess GUID="_ebbe1931-75b2-480c-8f5a-8c1307f1d7d3" eId="varCHOiid" href="#varOntologies" showAs="" />
+				<TLCProcess GUID="_1e296f61-2727-45e5-9a5f-76bf4adc23fc" eId="varExpression" href="#varOntologies" showAs="e8ac8a8a-26aa-4ce2-b7f4-6639c5f3c493" />
+				<TLCProcess GUID="_231723fa-73ef-4e89-9716-724c478d7d92" eId="varExpressionUri" href="#varOntologies" showAs="dma:///45e6b900-8929-11d4-b772-0050da06bfb4/80742cea-0ebb-4cf6-9759-1e52358d9b5b/;guid=e8ac8a8a-26aa-4ce2-b7f4-6639c5f3c493;class=Version%20Description" />
+				<TLCProcess GUID="_4b59f166-edcd-469d-86dd-d4764266f761" eId="varVDOiid" href="#varOntologies" showAs="" />
+				<TLCProcess GUID="_1fe40b97-70d0-4d0c-b295-280da4bebf4c" eId="varManifestation" href="#varOntologies" showAs="https://lawmaker.legislation.gov.uk/pdr/SI000377/ukdsi@8/xml" />
+				<TLCProcess GUID="_ee443f72-ded8-4a3a-8833-ea97d3c1403f" eId="varManifestationUri" href="#varOntologies" showAs="https://lawmaker.legislation.gov.uk/pdr/SI000377/ukdsi@8/xml" />
+				<TLCConcept GUID="_92aa9815-e716-4aa9-ace9-f79f84f54a79" eId="varSIYear" href="#varOntologies" showAs="2023" />
+				<TLCConcept GUID="_ac35c8e9-9056-40e0-b7f5-e16155ef4270" eId="varSINoComp" href="#varOntologies" showAs="1424" />
+				<TLCConcept GUID="_23a874fb-7e75-48d9-b0e6-72d256716989" eId="varSINo" href="#varOntologies" showAs="#varSIYear No. #varSINoComp #varSISubsidiaryNos" />
+				<TLCConcept GUID="_6a2e2190-8a84-41b1-98f0-a4774176061b" eId="varSISubsidiaryNos" href="#varOntologies" showAs="" />
+				<TLCConcept GUID="_811e86d1-33f0-489f-9d7c-56b787f4a277" eId="varISBN" href="#varOntologies" showAs="" />
+				<TLCPerson GUID="_1e2b761a-71e3-43d9-9e4f-892ee23230a4" eId="varMinistryAgency" href="#varOntologies" showAs="" />
+				<TLCConcept GUID="_36c184a3-a51f-4117-b922-c773943b1288" eId="varDocType" href="#varOntologies" showAs="UKSI" />
+				<TLCProcess GUID="_7abee733-4672-4fe4-8fdc-1f6f959ab8c2" eId="varSystem" href="#varOntologies" showAs="LDAPP" />
+				<TLCOrganization GUID="_cb6ad97b-ea3c-4354-a866-d780a82efc96" eId="varAuthor" href="#varOntologies" showAs="UK Government" />
+				<TLCLocation GUID="_af97e995-0173-4703-8b4b-a3ba9e88d96b" eId="varJurisdiction" href="#varOntologies" showAs="United Kingdom" />
+				<TLCConcept GUID="_3836fcf1-49de-43ea-b8f5-ca1ded0e5915" eId="varOntologies" href="https://www.legislation.gov.uk/ontologies/UK-AKN" showAs="https://www.legislation.gov.uk/ontologies/UK-AKN" />
+				<TLCConcept GUID="_c3352ad9-29d2-43da-8276-c103e376838e" eId="varCommenceDate" href="#varOntologies" showAs="2024-01-01T00:00:00.000" />
+				<TLCConcept GUID="_8ee760a2-ec33-4620-a4e0-f8b6796cef43" eId="varMadeDate" href="#varOntologies" showAs="2023-12-19T00:00:00.000" />
 			</references>
 		</meta>
 		<preface GUID="_76981fb1-a0b8-47a7-ad07-6e63ae73b92c" eId="fnt">
-			<?DMS-Component componentId="0abb7659-822f-41dc-a098-3eafa924e31d" seriesId="35154649-8096-4d36-86b9-5cd78b860d8a" versionNumber="1"?>
-			<block name="proceduralRubric">Draft <ref class="placeholder" href="#varDocSubType"/> laid before Parliament under paragraph 5(1) and (2) of Schedule 5 to the Retained EU Law (Revocation and Reform) Act 2023 (c. 28), for approval by resolution of each House of Parliament.</block>
-			<block GUID="_adf9570a-3603-4f0a-87af-1df4c7bc8ba5" eId="fnt__banner" name="banner">DRAFT STATUTORY INSTRUMENTS</block>
+			
+			<block GUID="_adf9570a-3603-4f0a-87af-1df4c7bc8ba5" eId="fnt__banner" name="banner">STATUTORY INSTRUMENTS</block>
 			<block GUID="_f4c8dc55-527e-4d20-9806-5b8d1c86b1c1" eId="fnt__no" name="number">
-				<docNumber GUID="_7b601dc7-fe0c-43e7-92ee-3fc7d6ca3fb6" eId="fnt__no__dno"><ref class="placeholder" href="#varSINo"/> </docNumber>
+				<docNumber GUID="_7b601dc7-fe0c-43e7-92ee-3fc7d6ca3fb6" eId="fnt__no__dno"><ref class="placeholder" href="#varSINo" /> </docNumber>
 			</block>
 			<container name="subjects">
 				<container GUID="_30797b4f-698a-47d5-aec9-50fe3a97601c" eId="fnt__subject" name="subject">
 					<block name="subject"><concept class="title" refersTo="">RETAINED EU LAW REFORM </concept></block>
 				</container>
 			</container>
-			<block GUID="_a8afc484-e507-4cbf-a208-9f8d906bbf05" eId="fnt__st" name="title"><docTitle GUID="_b6347687-d921-4f28-a126-6c063a1f59f5" eId="fnt__st__dtitle"> <ref class="placeholder" href="#varSITitle"/> </docTitle> </block>
+			<block GUID="_a8afc484-e507-4cbf-a208-9f8d906bbf05" eId="fnt__st" name="title"><docTitle GUID="_b6347687-d921-4f28-a126-6c063a1f59f5" eId="fnt__st__dtitle"> <ref class="placeholder" href="#varSITitle" /> </docTitle> </block>
 			<container GUID="_f3a3047e-716f-4eb6-b5e7-3256a506105b" eId="fnt__dates" name="dates">
-				<block GUID="_a08178ee-f569-4f87-87e9-b9f27bf14c58" eId="fnt__dates__madeDateDescription" name="madeDate"><span>Made</span></block>
-				<block GUID="_63fc46d7-26c3-45f8-92a3-006785c0240b" eId="fnt__dates__commenceDate" name="commenceDate"><span>Coming into force</span><docDate GUID="_7bea3f36-bbc7-4437-9bb1-0fa8f00d7284" date="2024-01-01T00:00:00.000" eId="fnt__dates__commenceDate__ddate"><ref class="placeholder" href="#varCommenceDate" ukl:dateFormat="d'th' MMMM yyyy">1st January 2024</ref></docDate></block>
+				<block GUID="_f1a67c32-f4d4-416b-8d42-1bf84089c312" eId="fnt__dates__madeDate" name="madeDate"><span>Made</span><docDate GUID="_1dc8055b-7a2a-4ab1-a6cd-ffb90fbb406c" date="2023-12-19T00:00:00.000" eId="fnt__dates__madeDate__ddate"><ref class="placeholder" href="#varMadeDate" ukl:dateFormat="d'th' MMMM yyyy" /></docDate></block>
+				<block GUID="_9f55ea12-560b-41ea-863a-c15b1dc64668" eId="fnt__dates__commenceDate" name="commenceDate"><span>Coming into force</span><docDate GUID="_4e704fa2-a560-43c5-8fd6-2c93842fa366" date="2024-01-01T00:00:00.000" eId="fnt__dates__commenceDate__ddate"><ref class="placeholder" href="#varCommenceDate" ukl:dateFormat="d'th' MMMM yyyy" /></docDate></block>
 			</container>
 		</preface>
 		<preamble GUID="_56139b6a-3b0d-4dd0-9007-b1a5573864ae" eId="preamble">
-			<?DMS-Component componentId="30d521a0-2608-4b3c-a601-631c5a6e54f8" seriesId="5b112b84-ad34-4558-964b-0ba8cc7b73ca" versionNumber="1"?>
+			
 			<formula GUID="_33e6a0fb-dbd8-4612-be39-b014f1fd81ba" eId="preamble__enactingWords" name="enactingText">
-				<p>The Secretary of State makes these <ref class="placeholder" href="#varDocSubType"/> in exercise of the powers conferred by sections 19(1) and 20(1)(b) of the Retained EU Law (Revocation and Reform) Act 2023 (“the Act”)<authorialNote GUID="_0eb6df1c-646d-4969-a5ce-178021063442" class="footnote" eId="fnote_1" marker="1">
+				<p>The Secretary of State makes these <ref class="placeholder" href="#varDocSubType" /> in exercise of the powers conferred by sections 19(1) and 20(1)(b) of the Retained EU Law (Revocation and Reform) Act 2023 (“the Act”)<authorialNote GUID="_0eb6df1c-646d-4969-a5ce-178021063442" class="footnote" eId="fnote_1" marker="1">
 					<p>2023 c. 28.</p>
 					</authorialNote>.</p>
 				<p>The Secretary of State is a relevant national authority for the purpose of section 19(1) of the Act<authorialNote GUID="_8e876fb8-8687-489c-8a27-e26b6b0b229b" class="footnote" eId="fnote_2" marker="2">
@@ -95,9 +100,9 @@
 			</formula>
 		</preamble>
 		<body>
-			<?DMS-Component componentId="a0dfbf79-f089-4596-aa98-4155cbbe7315" seriesId="8689089f-6033-49e5-be4d-74d61ca097f5" versionNumber="1"?>
+			
 			<hcontainer GUID="_0d12ee8b-51ad-49c2-9ce6-e12e13ce9540" class="prov1" eId="reg_1" name="regulation">
-				<?DMS-Component componentId="ee78d6bd-aa98-4c96-9cbf-e412b24ed95b" seriesId="1a9343d6-3560-4be0-b028-2743b3a4acdc" versionNumber="1"?>
+				
 				<heading GUID="_1adbd3de-420c-4843-a5f7-93159b24026f" eId="reg_1__hdg">Citation, commencement and extent</heading>
 				<num>1.</num>
 				<paragraph GUID="_8155852d-0f46-42ae-b705-668c1b42730d" class="prov2" eId="reg_1__para_1">
@@ -120,7 +125,7 @@
 				</paragraph>
 			</hcontainer>
 			<hcontainer GUID="_a532f0a1-a103-44e4-bf72-25f110bf043b" class="prov1" eId="reg_2" name="regulation">
-				<?DMS-Component componentId="08775999-382b-41b4-b0d8-6c6f0ebc1fbf" seriesId="7904cb48-5cfd-4d46-addb-c51556cb33fa" versionNumber="1"?>
+				
 				<heading GUID="_7555a6b3-5889-4915-b808-83100201e01e" eId="reg_2__hdg">Amendments of primary legislation</heading>
 				<num>2.</num>
 				<content>
@@ -128,19 +133,20 @@
 				</content>
 			</hcontainer>
 			<hcontainer GUID="_82a0a219-afe5-4a81-b4bf-1ac359673323" eId="sigs" name="signatures">
-				<?DMS-Component componentId="b35d746c-1fc0-420f-b760-84d0223a730c" seriesId="0be60735-cb58-4770-81a1-534db871b461" versionNumber="1"?>
-				<hcontainer GUID="_1862614c-6b6e-45b2-a579-2e8946d87c28" eId="sigs__sigBlk" name="signatureBlock">
+				
+				<hcontainer GUID="_f7d28fc4-07aa-4e4a-9a8c-66189b97f2c5" eId="sigs__sigBlk" name="signatureBlock">
 					<content>
-						<block GUID="_37123144-e0f1-489b-a1d8-b1e25ded89d5" eId="sigs__sigBlk__sig" name="signature">Name</block>
-						<block GUID="_45a29404-2bd0-49d2-8883-c36c0c38426f" eId="sigs__sigBlk__role" name="role">Title</block>
-						<block GUID="_80045c12-50f9-4a3d-b5c4-dd4199eee00d" eId="sigs__sigBlk__org" name="organization">Department for Business and Trade</block>
+						<block GUID="_0f97ccbc-bf22-4227-8bdc-6e02ae47a2ec" eId="sigs__sigBlk__sig" name="signature">Kevin Hollinrake</block>
+						<block GUID="_92f40ba0-6020-425b-a882-cbbccd4d0bf6" eId="sigs__sigBlk__role" name="role">Parliamentary Under Secretary of State</block>
+						<block name="date"><date date="2023-12-19">19th December 2023</date></block>
+						<block GUID="_b3c50539-1322-4e52-857d-4a50b3a6dede" eId="sigs__sigBlk__org" name="organization">Department for Business and Trade</block>
 					</content>
 				</hcontainer>
 			</hcontainer>
 			<hcontainer GUID="_3757cf63-9d5b-41f9-bdb4-13621fa2d7c3" class="schs" eId="scheds" name="schedules">
-				<?DMS-Component componentId="290180a9-8527-4ef8-857c-b556986bc020" seriesId="ba88319e-1065-47b6-865e-7a2c550b0822" versionNumber="1"?>
+				
 				<hcontainer GUID="_3e74964b-686e-4d55-9208-f7655b1c0ed7" class="sch" eId="sched" name="schedule">
-					<?DMS-Component componentId="89538a7f-ba80-497b-8da1-581a7a0e0d12" seriesId="d90d979c-009e-4cb0-8356-e29a37bc1912" versionNumber="0"?>
+					
 					<num>Schedule<authorialNote GUID="_16fbc693-f0c9-402d-9e23-e68330bb935a" class="referenceNote" eId="sched__aNote">
 						<p>Regulation 2</p>
 						</authorialNote></num>
@@ -1977,11 +1983,11 @@
 								</level>
 								<level GUID="_dd43dc1a-ac4c-40dc-a53b-e791863201f1" class="para1" eId="sched__para_49__subpara_2__para_f">
 									<num>(f)</num>
-									<content GUID="_8a141203-0f9a-4faa-b26f-f401c9fae331" eId="sched__para_49__subpara_2__para_f__intro">
+									<intro GUID="_8a141203-0f9a-4faa-b26f-f401c9fae331" eId="sched__para_49__subpara_2__para_f__intro">
 										<p>paragraphs 3(b)(i), 9B(1) and 9C of Schedule 1<authorialNote GUID="_1e9fadaf-87e9-41d1-b5f2-1d5e97cdc192" class="footnote" eId="fnote_347" marker="347">
 											<p>Paragraph 3(b)(i) was amended by regulation 25(a) of S.I. 2019/584, paragraph 9B(1) was amended by regulation 10(2)(a) of S.I. 2012/2788 and regulation 25(b) of S.I. 2019/584, and paragraph 9C was amended by regulation 50 of S.I. 2017/1200 and regulation 25(c) of S.I. 2019/584.</p>
 											</authorialNote>.</p>
-									</content>
+									</intro>
 								</level>
 							</subparagraph>
 						</paragraph>
@@ -3293,9 +3299,9 @@
 							</subparagraph>
 							<subparagraph GUID="_72818a22-db5b-40dc-8a8c-dc17b67b7aa2" class="schProv2" eId="sched__para_88__subpara_4">
 								<num>(4)</num>
-								<content GUID="_9811510c-825a-44e0-8775-ee7bb7f9a682" eId="sched__para_88__subpara_4__intro">
+								<intro GUID="_9811510c-825a-44e0-8775-ee7bb7f9a682" eId="sched__para_88__subpara_4__intro">
 									<p>In section 62(1) omit the definitions of “retained direct EU legislation” and “retained EU law”.</p>
-								</content>
+								</intro>
 							</subparagraph>
 							<subparagraph GUID="_57b19412-61af-4abd-b7ff-c6f868a2886c" class="schProv2" eId="sched__para_88__subpara_5">
 								<num>(5)</num>
@@ -3460,9 +3466,9 @@
 							</subparagraph>
 							<subparagraph GUID="_9b3a3e80-97eb-49c3-b530-2895ac9aa4aa" class="schProv2" eId="sched__para_92__subpara_4">
 								<num>(4)</num>
-								<content GUID="_1b772044-bd13-4ed2-a4eb-dfe8c1f240c4" eId="sched__para_92__subpara_4__intro">
+								<intro GUID="_1b772044-bd13-4ed2-a4eb-dfe8c1f240c4" eId="sched__para_92__subpara_4__intro">
 									<p>In section 6 omit subsections (5) and (6).</p>
-								</content>
+								</intro>
 							</subparagraph>
 							<subparagraph GUID="_e774d0db-ba64-4c83-880b-b14c362ede12" class="schProv2" eId="sched__para_92__subpara_5">
 								<num>(5)</num>
@@ -4003,12 +4009,12 @@
 			</hcontainer>
 		</body>
 		<conclusions GUID="_12ee5e2f-ea87-4e07-88e7-688a43ea9645" eId="backCover">
-			<?DMS-Component componentId="97b77b18-15a0-41a4-b98c-d7da8edeeb10" seriesId="da9f6035-80e5-4bc1-8aca-188a9d904f51" versionNumber="1"?>
+			
 			<blockContainer GUID="_ca806132-1bcb-4171-83e0-64452f2f74bb" class="explanatoryNote" eId="backCover__explNote">
 				<heading GUID="_b5fd540e-6729-4b97-ba67-897e5e621683" eId="backCover__explNote__hdg">Explanatory Note</heading>
-				<subheading GUID="_7db9153c-160d-4e92-98d4-e41b384468cd" eId="backCover__explNote__subhdg">(This note is not part of the <ref class="placeholder" href="#varDocSubType"/>)</subheading>
+				<subheading GUID="_7db9153c-160d-4e92-98d4-e41b384468cd" eId="backCover__explNote__subhdg">(This note is not part of the <ref class="placeholder" href="#varDocSubType" />)</subheading>
 				<p>These Regulations are made in exercise of the powers in sections 19(1) and 20(1)(b) of the Retained EU Law (Revocation and Reform) Act 2023 (c. 28) (“the REUL Act”). Section 19(1) is the power to make appropriate provision in consequence of the REUL Act provisions and which by virtue of section 20(1) includes the ability to make supplementary, incidental, consequential, transitional, transitory or saving provision. The relevant REUL Act provisions in relation to which these Regulations are making consequential amendments are sections 2, 4 and 5.</p>
-				
+				<p />
 				<p>Section 5 of the REUL Act renames retained EU law (“REUL”) so that at all times after the end of 2023, REUL that remains in force will be known as “assimilated law”. Assimilated law will be domestic law which was previously REUL, but which is no longer interpreted in line with the REUL principles of interpretation, which from the end of 2023 will be removed from domestic law by sections 2, 3 and 4 of the REUL Act:</p>
 				<tblock GUID="_e92e5b71-7eac-4e15-af7e-67efa5657788" class="para1" eId="backCover__explNote__para_a">
 					<num>(a)</num>
@@ -4023,12 +4029,12 @@
 					<p>section 4 of the REUL Act makes amendments to EUWA so that general principles of EU law are no longer part of UK law from the end of 2023. The general principles are a part of EU law which the EU institutions and member states must comply with. Section 6(3) of EUWA has provided that general principles of EU law have continued to have effect in domestic law following the UK’s exit from the EU, by requiring REUL to be interpreted consistently with them.</p>
 				</tblock>
 				<p>Section 5(1) of the REUL Act sets out what REUL and related terms will be known as after the end of 2023. For example, “retained case law” will be known as “assimilated case law”.</p>
-				
+				<p />
 				<p>Regulation 1(2) provides that these Regulations and the Schedule (amendments of primary legislation) come into force on 1st January 2024.</p>
 				<p>Regulation 1(3) provides that a provision that amends or repeals an enactment has the same extent as the enactment to which it relates, unless otherwise specified.</p>
 				<p>Regulation 2 gives effect to the Schedule which contains amendments to primary legislation that are needed in consequence of sections 2, 4 and 5 of the REUL Act.</p>
 				<p>A full impact assessment has not been prepared for this instrument as no, or no significant, impact on the private, voluntary, or public sector is foreseen.</p>
 			</blockContainer>
 		</conclusions>
-	</bill>
+	</act>
 </akomaNtoso>
