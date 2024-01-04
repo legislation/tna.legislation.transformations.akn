@@ -60,6 +60,9 @@
 
 <xsl:template match="html:th/p | html:td/p">
 	<xsl:choose>
+		<xsl:when test="exists(child::mod)">
+			<xsl:next-match />
+		</xsl:when>
 		<xsl:when test="empty(preceding-sibling::node()[normalize-space()]) and empty(following-sibling::node()[normalize-space()])">
 			<xsl:apply-templates />
 		</xsl:when>
