@@ -233,6 +233,9 @@
 <xsl:template match="block[@name=('commenceDate')]" mode="clauses">
 	<ComingIntoForceClauses>
 		<xsl:apply-templates />
+		<xsl:if test="empty(docDate)">
+			<DateText />
+		</xsl:if>
 	</ComingIntoForceClauses>
 </xsl:template>
 
