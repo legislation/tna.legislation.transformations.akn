@@ -213,6 +213,10 @@ Other
 				</xsl:otherwise>
 			</xsl:choose>
 		</xsl:when>
+		<xsl:when test="@uk:dateFormat = 'd''th'' MMMM yyyy' and $resolved castable as xs:dateTime">
+			<xsl:variable name="date" as="xs:dateTime" select="xs:dateTime($resolved)" />
+			<xsl:value-of select="format-dateTime($date, '[D1o] [MNn] [Y0001]')" />
+		</xsl:when>
 		<xsl:otherwise>
 			<xsl:value-of select="$resolved" />
 		</xsl:otherwise>

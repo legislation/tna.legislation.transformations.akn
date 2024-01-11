@@ -233,6 +233,9 @@
 <xsl:template match="block[@name=('commenceDate')]" mode="clauses">
 	<ComingIntoForceClauses>
 		<xsl:apply-templates />
+		<xsl:if test="empty(docDate)">
+			<DateText />
+		</xsl:if>
 	</ComingIntoForceClauses>
 </xsl:template>
 
@@ -288,29 +291,19 @@
 		</xsl:when>
 		<xsl:when test="$context1 = 'SecondaryPrelims'">
 			<SecondaryPreamble>
-				<xsl:apply-templates select="container[@name=('royalPresence','royal')]" />
-				<xsl:variable name="enacting-text" as="element()?" select="formula[1]" />
 				<xsl:choose>
-					<xsl:when test="empty($enacting-text)">	<!-- resolution only -->
+					<xsl:when test="exists(child::container[@name='resolution'])">
 						<xsl:apply-templates>
 							<xsl:with-param name="context" select="('SecondaryPreamble', $context)" tunnel="yes" />
 						</xsl:apply-templates>
 					</xsl:when>
 					<xsl:otherwise>
-						<xsl:variable name="intro" as="element()*" select="$enacting-text/preceding-sibling::*[not(self::container[@name=('royalPresence','royal')])]" />
-						<xsl:if test="exists($intro)">
-							<IntroductoryText>
-								<xsl:apply-templates select="$intro">
-									<xsl:with-param name="context" select="('IntroductoryText', 'SecondaryPreamble', $context)" tunnel="yes" />
-								</xsl:apply-templates>
-							</IntroductoryText>
-						</xsl:if>
-						<xsl:apply-templates select="$enacting-text">
-							<xsl:with-param name="context" select="('SecondaryPreamble', $context)" tunnel="yes" />
-						</xsl:apply-templates>
-						<xsl:apply-templates select="$enacting-text/following-sibling::*">
-							<xsl:with-param name="context" select="('SecondaryPreamble', $context)" tunnel="yes" />
-						</xsl:apply-templates>
+						<xsl:apply-templates select="container[@name=('royalPresence','royal')]" />
+						<EnactingText>
+							<xsl:apply-templates select="* except container[@name=('royalPresence','royal')]">
+								<xsl:with-param name="context" select="('EnactingText', 'SecondaryPreamble', $context)" tunnel="yes" />
+							</xsl:apply-templates>
+						</EnactingText>
 					</xsl:otherwise>
 				</xsl:choose>
 			</SecondaryPreamble>
@@ -356,23 +349,17 @@
 	</P>
 </xsl:template>
 
-<!-- these two templates are needed only to compensate for a Lawmaker bug -->
+<!-- this template is needed only to compensate for a Lawmaker bug -->
 <!-- numbered items in a preamble should be wrapped in some sort of container -->
-<xsl:template match="preamble/tblock[@class='para1']" priority="1">
-	<P>
-		<xsl:variable name="decor" as="xs:string" select="local:get-decoration-from-numbered-things(.)" />
-		<OrderedList Type="{ local:get-ordered-list-type-from-numbered-things(., $decor) }" Decoration="{ $decor }">
-			<xsl:next-match />
-		</OrderedList>
-	</P>
-</xsl:template>
-<xsl:template match="formula/tblock[@class='para1']" priority="1">
-	<Para>
-		<xsl:variable name="decor" as="xs:string" select="local:get-decoration-from-numbered-things(.)" />
-		<OrderedList Type="{ local:get-ordered-list-type-from-numbered-things(., $decor) }" Decoration="{ $decor }">
-			<xsl:next-match />
-		</OrderedList>
-	</Para>
+<xsl:template match="preamble//tblock[@class='para1']" priority="1">
+	<xsl:call-template name="wrap-as-necessary">
+		<xsl:with-param name="clml" as="element()">
+			<xsl:variable name="decor" as="xs:string" select="local:get-decoration-from-numbered-things(.)" />
+			<OrderedList Type="{ local:get-ordered-list-type-from-numbered-things(., $decor) }" Decoration="{ $decor }">
+				<xsl:next-match />
+			</OrderedList>
+		</xsl:with-param>
+	</xsl:call-template>
 </xsl:template>
 
 <xsl:template match="preamble//tblock[@class='para1']">
@@ -386,11 +373,18 @@
 
 <xsl:template match="formula[@name=('enactingText','EnactingText','enactingWords')]">
 	<xsl:param name="context" as="xs:string*" tunnel="yes" />
-	<EnactingText>
-		<xsl:apply-templates>
-			<xsl:with-param name="context" select="('EnactingText', $context)" tunnel="yes" />
-		</xsl:apply-templates>
-	</EnactingText>
+	<xsl:choose>
+		<xsl:when test="$context[1] = 'EnactingText'">
+			<xsl:apply-templates />
+		</xsl:when>
+		<xsl:otherwise>
+			<EnactingText>
+				<xsl:apply-templates>
+					<xsl:with-param name="context" select="('EnactingText', $context)" tunnel="yes" />
+				</xsl:apply-templates>
+			</EnactingText>
+		</xsl:otherwise>
+	</xsl:choose>
 </xsl:template>
 
 </xsl:transform>

@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../schemas/akomantoso30.xsd">
+	<?DMS-Component componentId="4e324643-8a32-4e08-ae56-1b9d6b0b0898" seriesId="d23d8714-7a56-4e71-8568-1b5bf241b7f4" versionNumber="1"?>
+	<act contains="originalVersion" name="uksi">
+		<meta>
+			<?DMS-Component componentId="474fd21f-e503-49ee-9eab-0ee5cf79c557" seriesId="bc66453c-6826-4afa-950d-a83d8cd26911" versionNumber="0"?>
+			<identification source="#ldapp">
+				<FRBRWork>
+					<FRBRthis value="#varWork" />
+					<FRBRuri value="#varWorkUri" />
+					<FRBRalias name="ttflConfigHistory" value="#varCHOiid" />
+					<FRBRdate date="9999-01-01" name="ukdsi" />
+					<FRBRauthor href="#varAuthor" />
+					<FRBRcountry value="GB-SCT" />
+					<FRBRsubtype value="#varDocSubType" />
+					<FRBRnumber value="#varProjectId" />
+					<FRBRname value="#varSITitle" />
+					<FRBRprescriptive value="true" />
+					<FRBRauthoritative value="false" />
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="#varExpression" />
+					<FRBRuri value="#varExpressionUri" />
+					<FRBRalias name="ttflVersionDescription" value="#varVDOiid" />
+					<FRBRdate date="9999-01-01" name="draft" />
+					<FRBRauthor href="#varAuthor" />
+					<FRBRversionNumber value="" />
+					<FRBRauthoritative value="false" />
+					<FRBRmasterExpression href="" showAs="" />
+					<FRBRlanguage language="eng" />
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="#varManifestation" />
+					<FRBRuri value="#varManifestationUri" />
+					<FRBRdate date="9999-01-01" name="akn_xml" />
+					<FRBRauthor href="#varAuthor" />
+					<FRBRformat value="application/akn+xml" />
+				</FRBRManifestation>
+			</identification>
+			<references source="#author">
+				<TLCConcept GUID="_c753c17d-beeb-490c-af7b-89bd436a1bb0" eId="varDocSubType" href="#varOntologies" showAs="Regulations" />
+				<TLCConcept GUID="_5736fc2b-b674-4ca5-824c-67d5f1283f9c" eId="varSITitle" href="#varOntologies" showAs="The Intellectual Property (Exhaustion of Rights) (Amendment) Regulations 2023" />
+				<TLCProcess GUID="_d89667a6-87cc-41bf-a195-ef590bdebe87" eId="varProcedureType" href="#varOntologies" showAs="Draft Affirmative" />
+				<TLCProcess GUID="_79b6e299-5882-481d-acb4-bbc436a296f7" eId="varStageVersion" href="#varOntologies" showAs="1" />
+				<TLCProcess GUID="_1701c6d3-e70f-4f5d-8399-63bbce7890aa" eId="varProjectId" href="#varOntologies" showAs="SI000432" />
+				<TLCProcess GUID="_8b2ee4d9-a141-4eaa-a2b5-a405800b261a" eId="varWork" href="#varOntologies" showAs="" />
+				<TLCProcess GUID="_21a02ce4-1654-4aa9-ac2a-d80bd1d556a3" eId="varWorkUri" href="#varOntologies" showAs="" />
+				<TLCProcess GUID="_800ba049-81d3-474d-b398-400eaf2386c3" eId="varCHOiid" href="#varOntologies" showAs="" />
+				<TLCProcess GUID="_a066809c-50d5-4898-b6ae-60a1e40d4f00" eId="varExpression" href="#varOntologies" showAs="14d69ec7-35b7-46b5-b4d0-b3e363128231" />
+				<TLCProcess GUID="_fb078567-2a47-48b7-84a2-403130ac18c7" eId="varExpressionUri" href="#varOntologies" showAs="dma:///45e6b900-8929-11d4-b772-0050da06bfb4/80742cea-0ebb-4cf6-9759-1e52358d9b5b/;guid=14d69ec7-35b7-46b5-b4d0-b3e363128231;class=Version%20Description" />
+				<TLCProcess GUID="_8e5dcbb2-c1ff-44d2-8491-977f4b586ed4" eId="varVDOiid" href="#varOntologies" showAs="" />
+				<TLCProcess GUID="_00d9ca52-7927-4ab0-87e3-beb64aa06168" eId="varManifestation" href="#varOntologies" showAs="" />
+				<TLCProcess GUID="_2e049990-58a2-4088-9e12-019643c6b402" eId="varManifestationUri" href="#varOntologies" showAs="" />
+				<TLCConcept GUID="_24f25195-7a38-4f51-a005-d7d1504a9a89" eId="varSIYear" href="#varOntologies" showAs="2023" />
+				<TLCConcept GUID="_99b1cbad-ae00-4270-a7de-9d24b412ee71" eId="varSINoComp" href="#varOntologies" showAs="1287" />
+				<TLCConcept GUID="_e017d566-3e6b-4e7d-8855-15b01725c2c4" eId="varSINo" href="#varOntologies" showAs="#varSIYear No. #varSINoComp #varSISubsidiaryNos" />
+				<TLCConcept GUID="_4eeb9de5-c81c-4b9f-97f0-0579c56b3180" eId="varSISubsidiaryNos" href="#varOntologies" showAs="" />
+				<TLCConcept GUID="_e11dab29-99da-426c-a828-86d97e09333b" eId="varISBN" href="#varOntologies" showAs="" />
+				<TLCPerson GUID="_2be22769-7116-4045-8034-0255f7b096db" eId="varMinistryAgency" href="#varOntologies" showAs="" />
+				<TLCConcept GUID="_366fcaae-460c-49e5-b7f3-3c5b21b6cb44" eId="varDocType" href="#varOntologies" showAs="UKSI" />
+				<TLCProcess GUID="_688a0057-b450-4a49-9b77-d43df50ac8ce" eId="varSystem" href="#varOntologies" showAs="LDAPP" />
+				<TLCOrganization GUID="_d8697743-4088-42a6-ab65-704366614ee5" eId="varAuthor" href="#varOntologies" showAs="UK Government" />
+				<TLCLocation GUID="_f140cf22-2247-4597-ba86-c97a2113af1c" eId="varJurisdiction" href="#varOntologies" showAs="United Kingdom" />
+				<TLCConcept GUID="_29cf49ce-6d65-4ddf-ab98-4f5d8d725efc" eId="varOntologies" href="https://www.legislation.gov.uk/ontologies/UK-AKN" showAs="https://www.legislation.gov.uk/ontologies/UK-AKN" />
+				<TLCConcept GUID="_b9cc171e-f38c-4692-90e7-fd1053cf1e84" eId="varMadeDate" href="#varOntologies" showAs="2023-11-28T00:00:00.000" />
+			</references>
+		</meta>
+		<preface GUID="_24beba89-ad36-4fd6-a4ad-98fda42bf9b7" eId="fnt">
+			<?DMS-Component componentId="73d8a9a7-a51f-41b3-a233-1bbc764259df" seriesId="cd998f6c-dffa-4521-bf9d-1e6d92a0ad1b" versionNumber="0"?>
+			<block GUID="_09eec94c-4775-431e-a9ba-378718698c4d" eId="fnt__banner" name="banner">STATUTORY INSTRUMENTS</block>
+			<block GUID="_1e248a46-4a34-4b6a-b2e1-34538b23336a" eId="fnt__no" name="number">
+				<docNumber GUID="_9ae614c9-014b-474e-b3d4-70d638ee2801" eId="fnt__no__dno"> <ref class="placeholder" href="#varSINo" /> </docNumber>
+			</block>
+			<container name="subjects">
+				<container GUID="_d793e4c1-7b97-4748-b1b5-ee2f7808e047" eId="fnt__subject" name="subject">
+					<block name="subject"><concept class="title" refersTo="">RETAINED EU LAW REFORM</concept></block>
+				</container>
+				<container GUID="_bb0ac36f-7d9f-466f-8488-450c8ec6032f" eId="fnt__subject__oc_2" name="subject">
+					<block name="subject"><concept class="title" refersTo="">INTELLECTUAL PROPERTY</concept></block>
+				</container>
+			</container>
+			<block GUID="_f7aa61ee-34f5-4557-98da-d86546ef3445" eId="fnt__st" name="title"><docTitle GUID="_a680489e-7b5c-44fd-a45d-544cada746de" eId="fnt__st__dtitle"> <ref class="placeholder" href="#varSITitle" /> </docTitle> </block>
+			<container GUID="_7a4060fa-8031-4e57-b6e3-1d4eb302a848" eId="fnt__dates" name="dates">
+				<block GUID="_eb31570e-c581-4887-a272-6b4e474fddf6" eId="fnt__dates__madeDate" name="madeDate"><span>Made</span><docDate GUID="_03a21f8f-fcbe-4be3-9c78-0a125b70e5ed" date="2023-11-28T00:00:00.000" eId="fnt__dates__madeDate__ddate"><ref class="placeholder" href="#varMadeDate" ukl:dateFormat="d'th' MMMM yyyy">28th November 2023</ref></docDate></block>
+				<block GUID="_3384be39-b170-42c6-8d69-b435644ad054" eId="fnt__dates__commenceDateDescription" name="commenceDate"><span>Coming into force in accordance with regulation 1(b)</span></block>
+			</container>
+		</preface>
+		<preamble GUID="_f74039f8-1c80-46c4-a4b5-f37952bd6b67" eId="preamble">
+			<?DMS-Component componentId="d5076b60-1941-4f8f-bfc5-129170d14367" seriesId="5a6db15b-35a8-4539-9b45-c61bbc5f0fb3" versionNumber="0"?>
+			<formula GUID="_b2a8aa2d-ef6f-4296-b006-d671e95a708c" eId="preamble__enactingWords" name="enactingText">
+				<p>The Secretary of State makes these regulations in exercise of the powers conferred by sections 11(1) and (6), 13(2), (3), (6) and (7) and 20(1)(b) of the Retained EU Law (Revocation and Reform) Act 2023<authorialNote GUID="_22ad8a51-d1ec-408b-a1b0-6632a38932be" class="footnote" eId="fnote_1" marker="1">
+					<p>2023 c. 28.</p>
+					</authorialNote> (“the 2023 Act”).</p>
+				<p>The Secretary of State is a relevant national authority<authorialNote GUID="_57fa43f0-722e-4fae-87c3-8882a56ec361" class="footnote" eId="fnote_2" marker="2">
+					<p>“Relevant national authority” is defined in section 21(1) of the Retained EU Law (Revocation and Reform) Act 2023.</p>
+					</authorialNote> for the purposes of section 11(1) of the 2023 Act.</p>
+				<p>In accordance with paragraph 5(1) and (5) of Schedule 5 to the 2023 Act, a draft of this instrument has been laid before Parliament and approved by a resolution of each House of Parliament.</p>
+			</formula>
+		</preamble>
+		<body>
+			<?DMS-Component componentId="b702bd41-6758-433d-98b1-10f5e2558e71" seriesId="68f0aaed-6470-4690-9232-938873e12f7b" versionNumber="1"?>
+			<hcontainer GUID="_1956a3b3-3670-4dbc-9e26-0b199a0fb660" class="prov1" eId="reg_1" name="regulation">
+				<?DMS-Component componentId="7093bfcc-fb6e-4801-b963-841ea678ec46" seriesId="93c4fddd-fb1a-46d7-9ba4-6cb59ef490a8" versionNumber="1"?>
+				<heading GUID="_287c9bec-1d41-4f43-bfd0-144d882b74ce" eId="reg_1__hdg">Citation, commencement and extent</heading>
+				<num>1.</num>
+				<intro GUID="_d262d8b9-1c3d-4faa-a544-1d39f362c6c4" eId="reg_1__intro">
+					<p>These Regulations—</p>
+				</intro>
+				<level GUID="_2aa3f6c0-0b72-43ff-80e3-4e5027b3cc1a" class="para1" eId="reg_1__para_a">
+					<num>(a)</num>
+					<content>
+						<p>may be cited as the Intellectual Property (Exhaustion of Rights) (Amendment) Regulations 2023;</p>
+					</content>
+				</level>
+				<level GUID="_96ba58c0-499d-4d59-aae8-70176ba0cb9b" class="para1" eId="reg_1__para_b">
+					<num>(b)</num>
+					<content>
+						<p>come into force immediately before the end of 2023;</p>
+					</content>
+				</level>
+				<level GUID="_abdff585-96e6-47cc-aa66-59e83bd4382a" class="para1" eId="reg_1__para_c">
+					<num>(c)</num>
+					<content>
+						<p>extend to England and Wales, Scotland and Northern Ireland.</p>
+					</content>
+				</level>
+			</hcontainer>
+			<hcontainer GUID="_5c0a7a29-1730-4b0b-8942-44fd903f3157" class="prov1" eId="reg_2" name="regulation">
+				<?DMS-Component componentId="01497776-bd4f-45cf-82c7-777fa5d4197a" seriesId="04375843-48c2-456e-96f8-d127d49202b0" versionNumber="1"?>
+				<heading GUID="_11b640e3-dd80-4d04-9ce6-6e293043f98b" eId="reg_2__hdg">Amendment of the Registered Designs Act 1949</heading>
+				<num>2.</num>
+				<intro GUID="_46e8bc6a-161b-4c4b-a7a5-447cde5a3a9c" eId="reg_2__intro">
+					<p>Section 24G of the Registered Designs Act 1949<authorialNote GUID="_817e334b-9bb1-4591-96db-4772a66f0016" class="footnote" eId="fnote_12" marker="12">
+						<p>1949 c. 88. Section 24G was inserted by S.I. 2006/1028 and amended by S.I. 2019/265.</p>
+						</authorialNote> (meaning of “infringing article”) is amended as follows—</p>
+				</intro>
+				<level GUID="_d4092507-ba2d-4544-8329-5b582b7c94ce" class="para1" eId="reg_2__para_a">
+					<num>(a)</num>
+					<content>
+						<p><mod>in subsection (5), for the words from “may be lawfully” to the end substitute—<quotedStructure GUID="_807552b3-a31b-475d-89db-47ef031cc5fa" eId="reg_2__para_a__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent-1">
+							<level GUID="_cb05ead3-87e6-4c69-bf69-0b9c5869c5cd" class="para1" eId="reg_2__para_a__qstr__para_a">
+								<num ukl:autonumber="no">(a)</num>
+								<content>
+									<p>may be lawfully imported into the United Kingdom by virtue of anything which forms part of assimilated law as a result of section 3 of the European Union (Withdrawal) Act 2018, or</p>
+								</content>
+							</level>
+							<level GUID="_1a37fe2f-b2bf-45cb-8323-89872d2b57af" class="para1" eId="reg_2__para_a__qstr__para_b">
+								<num>(b)</num>
+								<content>
+									<p>has been or is proposed to be imported into the United Kingdom after being put on the market in the European Economic Area by or with the consent of the proprietor of the registered design.</p>
+								</content>
+							</level>
+							</quotedStructure><inline name="AppendText">.</inline></mod></p>
+					</content>
+				</level>
+				<level GUID="_301d452d-1414-4b9c-a996-304940173452" class="para1" eId="reg_2__para_b">
+					<num>(b)</num>
+					<content>
+						<p><mod>after subsection (5) insert—<quotedStructure GUID="_dc072e3b-587d-4efd-8e92-9cfdb4735982" eId="reg_2__para_b__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent1">
+							<subsection GUID="_9f8b3d2d-c08e-4604-a054-f9ece685f8c8" class="prov2" eId="reg_2__para_b__qstr__subsec_6">
+								<num ukl:autonumber="no">(6)</num>
+								<content>
+									<p>In subsection (5)(a), the reference to assimilated law is to be read, until the coming into force of paragraph 2(6) of Schedule 2 to the Retained EU Law (Revocation and Reform) Act 2023, as a reference to retained EU law.</p>
+								</content>
+							</subsection>
+							</quotedStructure><inline name="AppendText">.</inline></mod></p>
+					</content>
+				</level>
+			</hcontainer>
+			<hcontainer GUID="_ab2b9967-d851-4616-9b58-6f3dad75cebd" class="prov1" eId="reg_3" name="regulation">
+				<?DMS-Component componentId="4e398d19-85d1-4b03-ab1c-6f3829d5f146" seriesId="12b3657b-8d8a-462b-9dc7-c2553bc3e6bb" versionNumber="1"?>
+				<heading GUID="_0422069c-d131-4177-86ce-39d501dd182f" eId="reg_3__hdg">Amendment of the Patents Act 1977</heading>
+				<num>3.</num>
+				<content>
+					<p><mod>In section 60 of the Patents Act 1977<authorialNote GUID="_395a86a5-9550-4a04-bb2a-15743dab6321" class="footnote" eId="fnote_4" marker="4">
+						<p>1977 c. 37. There are amending instruments not relevant to these Regulations.</p>
+						</authorialNote>, after subsection (3) insert—<quotedStructure GUID="_d29f1e4a-29d9-4455-be62-9a5f3fc8b56a" eId="reg_3__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+						<level GUID="_b77d3139-fc87-4e52-88d4-73c1ccf14b12" class="unnumberedParagraph" eId="reg_3__qstr__para">
+							<intro GUID="_40c46546-fc50-4f69-9153-a8dffab31f55" eId="reg_3__qstr__para__intro">
+								<p>(3A) Subsections (1) and (2) shall not apply to an act done in relation to a product that is subject to a patent where the product has been put on the market in the United Kingdom or the European Economic Area by or with the consent of the proprietor of the patent unless—</p>
+							</intro>
+							<level GUID="_81fcc010-a913-4864-820e-90295d36a74f" class="para1" eId="reg_3__qstr__para__para_a">
+								<num>(a)</num>
+								<content>
+									<p>there exist legitimate reasons for the proprietor of the patent to oppose the act for the purpose of protecting the proprietor’s property, and</p>
+								</content>
+							</level>
+							<level GUID="_04e76a2a-603c-4c2e-a1f5-32a7a1fef282" class="para1" eId="reg_3__qstr__para__para_b">
+								<num>(b)</num>
+								<content>
+									<p>the opposition to the act interferes with the rights of any other person no more than is necessary to achieve that purpose.</p>
+								</content>
+							</level>
+						</level>
+						</quotedStructure><inline name="AppendText">.</inline></mod></p>
+				</content>
+			</hcontainer>
+			<hcontainer GUID="_dbfd8b38-6cc4-4625-8a73-229d6fa54e02" class="prov1" eId="reg_4" name="regulation">
+				<?DMS-Component componentId="55847a52-4119-4915-acc7-b2224ca1fffb" seriesId="6b5ab1bc-a34d-4c31-ad31-312c374dc8c9" versionNumber="1"?>
+				<heading GUID="_b60010ec-2f5a-45db-a23a-a12efed9b61e" eId="reg_4__hdg">Amendment of the Copyright, Designs and Patents Act 1988</heading>
+				<num>4.</num>
+				<paragraph GUID="_9ae9cf49-dfb0-479b-99e5-0590c1396414" class="prov2" eId="reg_4__para_1">
+					<num>(1)</num>
+					<content>
+						<p>The Copyright, Designs and Patents Act 1988<authorialNote GUID="_0695726d-2855-4396-af65-c4b0a3950cd4" class="footnote" eId="fnote_13" marker="13">
+							<p>1988 c. 48.</p>
+							</authorialNote> is amended as follows.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_f95bad8d-9e53-4e57-82fe-7f935a7f832f" class="prov2" eId="reg_4__para_2">
+					<num>(2)</num>
+					<intro GUID="_654d2aa7-326d-4a9d-9f3b-85303e678196" eId="reg_4__para_2__intro">
+						<p>In section 27<authorialNote GUID="_f85fada7-44b5-444f-b564-ade8a54612ab" class="footnote" eId="fnote_14" marker="14">
+							<p>Section 27 was amended by S.I. 2011/1043 and S.I. 2019/265. There are other amending instruments not relevant to these Regulations.</p>
+							</authorialNote> (meaning of “infringing copy”)—</p>
+					</intro>
+					<level GUID="_cc317ad2-c5bd-476c-8a9f-b61b3670c921" class="para1" eId="reg_4__para_2__para_a">
+						<num>(a)</num>
+						<content>
+							<p><mod>in subsection (5), for the words from “may lawfully” to the end substitute—<quotedStructure GUID="_baaacaae-3ee4-4a92-a103-8208197217d6" eId="reg_4__para_2__para_a__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent-1">
+								<level GUID="_179601da-fca6-4879-894d-8fb473ac2fc0" class="para1" eId="reg_4__para_2__para_a__qstr__para_a">
+									<num ukl:autonumber="no">(a)</num>
+									<content>
+										<p>may lawfully be imported into the United Kingdom by virtue of anything which forms part of assimilated law as a result of section 3 of the European Union (Withdrawal) Act 2018, or</p>
+									</content>
+								</level>
+								<level GUID="_c497f2fa-90b8-414c-93e5-31eeab647f60" class="para1" eId="reg_4__para_2__para_a__qstr__para_b">
+									<num>(b)</num>
+									<content>
+										<p>has been or is proposed to be imported into the United Kingdom after being put into circulation in the EEA by or with the consent of the copyright owner.</p>
+									</content>
+								</level>
+								</quotedStructure><inline name="AppendText">;</inline></mod></p>
+						</content>
+					</level>
+					<level GUID="_878fab44-0d90-49d8-abe4-671e58af945f" class="para1" eId="reg_4__para_2__para_b">
+						<num>(b)</num>
+						<content>
+							<p><mod>after subsection (5) insert—<quotedStructure GUID="_4025d18c-3d5d-4c6b-a127-57ee486f2c3e" eId="reg_4__para_2__para_b__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent1">
+								<subsection GUID="_b670cc36-0d41-4b6a-a160-9c29ad19c577" class="prov2" eId="reg_4__para_2__para_b__qstr__subsec_5A">
+									<num ukl:autonumber="no">(5A)</num>
+									<content>
+										<p>In subsection (5)(a), the reference to assimilated law is to be read, until the coming into force of paragraph 2(6) of Schedule 2 to the Retained EU Law (Revocation and Reform) Act 2023, as a reference to retained EU law.</p>
+									</content>
+								</subsection>
+								</quotedStructure><inline name="AppendText">.</inline></mod></p>
+						</content>
+					</level>
+				</paragraph>
+				<paragraph GUID="_5d8bf1c4-511a-431b-934b-97b6bb2ef44b" class="prov2" eId="reg_4__para_3">
+					<num>(3)</num>
+					<content>
+						<p><mod>In section 226 (primary infringement of design right), after subsection (3) insert—<quotedStructure GUID="_f5c1f8a4-1ee3-4798-8482-1e39e51ddf51" eId="reg_4__para_3__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent0">
+							<subsection GUID="_51726206-4e99-4e7a-b6b5-f693e391fc51" class="prov2" eId="reg_4__para_3__qstr__subsec_3A">
+								<num ukl:autonumber="no">(3A)</num>
+								<content>
+									<p>But design right in a design is not infringed where a person does, or authorises another to do, anything relating to an article that is made to the design if the article has been put on the market in the United Kingdom or the European Economic Area with the licence of the design right owner.</p>
+								</content>
+							</subsection>
+							</quotedStructure><inline name="AppendText">.</inline></mod></p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_9f020fd8-d4b9-406c-ae31-eade89c0fbc2" class="prov2" eId="reg_4__para_4">
+					<num>(4)</num>
+					<content>
+						<p><mod>In section 228<authorialNote GUID="_9e7517fa-759e-46f1-ba7d-f5a75a833d05" class="footnote" eId="fnote_15" marker="15">
+							<p>Section 228 was amended by S.I. 2011/1043 and S.I. 2019/265.</p>
+							</authorialNote> (meaning of "infringing article”), for subsection (5) substitute—<quotedStructure GUID="_e248042b-5273-47e4-9075-7f5bf13068e5" eId="reg_4__para_4__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent0">
+							<subsection GUID="_9e839cbe-9400-482e-a509-0acae0b9493a" class="prov2" eId="reg_4__para_4__qstr__subsec_5">
+								<num ukl:autonumber="no">(5)</num>
+								<intro GUID="_a46dda0c-550f-4625-8723-36a187d505a3" eId="reg_4__para_4__qstr__subsec_5__intro">
+									<p>Nothing in subsection (3) shall be construed as applying to an article which—</p>
+								</intro>
+								<level GUID="_22120ee9-8572-4a9f-a782-6f349b95abfa" class="para1" eId="reg_4__para_4__qstr__subsec_5__para_a">
+									<num>(a)</num>
+									<content>
+										<p>may lawfully be imported into the United Kingdom by virtue of anything which forms part of assimilated law as a result of section 3 of the European Union (Withdrawal) Act 2018, or</p>
+									</content>
+								</level>
+								<level GUID="_5aaaf4ee-2597-4fb3-bab7-978e14d87e3c" class="para1" eId="reg_4__para_4__qstr__subsec_5__para_b">
+									<num>(b)</num>
+									<content>
+										<p>has been or is proposed to be imported into the United Kingdom after being put on the market in the European Economic Area by or with the licence of the design right owner.</p>
+									</content>
+								</level>
+							</subsection>
+							<subsection GUID="_113eeff3-7cf7-4425-848c-c9b5fa55f590" class="prov2" eId="reg_4__para_4__qstr__subsec_5A">
+								<num>(5A)</num>
+								<content>
+									<p>In subsection (5)(a), the reference to assimilated law is to be read, until the coming into force of paragraph 2(6) of Schedule 2 to the Retained EU Law (Revocation and Reform) Act 2023, as a reference to retained EU law.</p>
+								</content>
+							</subsection>
+							</quotedStructure><inline name="AppendText">.</inline></mod></p>
+					</content>
+				</paragraph>
+			</hcontainer>
+			<hcontainer GUID="_733205ad-926b-4be5-85d0-7e3e471a48ec" class="prov1" eId="reg_5" name="regulation">
+				<?DMS-Component componentId="850b0926-f35f-45fe-97fc-d5d2ecf88ff2" seriesId="4e8d7839-7c7e-45cf-8eed-9b6e0af9b987" versionNumber="1"?>
+				<heading GUID="_8ed12a69-71d2-4939-920e-9fe365b5c8ee" eId="reg_5__hdg">Amendment of the Trade Marks Act 1994</heading>
+				<num>5.</num>
+				<paragraph GUID="_b04b978c-9a57-4080-9daf-e223a1c216fe" class="prov2" eId="reg_5__para_1">
+					<num>(1)</num>
+					<content>
+						<p>The Trade Marks Act 1994<authorialNote GUID="_bc811d31-f3d4-4486-b2f4-f568d7f145f1" class="footnote" eId="fnote_16" marker="16">
+							<p>1994 c. 26.</p>
+							</authorialNote> is amended as follows.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_8a6cc95f-4b77-4155-9875-334bec09cf45" class="prov2" eId="reg_5__para_2">
+					<num>(2)</num>
+					<content>
+						<p><mod>In section 12 (exhaustion of rights conferred by registered trade mark), for subsection (2) substitute—<quotedStructure GUID="_e52f2823-d626-4734-9d2d-4133eccde4c6" eId="reg_5__para_2__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent1">
+							<subsection GUID="_b95fcc94-4e0e-4073-8711-dc9ca275e104" class="prov2" eId="reg_5__para_2__qstr__subsec_2">
+								<num ukl:autonumber="no">(2)</num>
+								<intro GUID="_640333c1-78f6-4c72-a918-66971c9b5ffd" eId="reg_5__para_2__qstr__subsec_2__intro">
+									<p>Subsection (1) does not apply where—</p>
+								</intro>
+								<level GUID="_6d97fbbc-c412-4bb0-9583-56413687b832" class="para1" eId="reg_5__para_2__qstr__subsec_2__para_a">
+									<num>(a)</num>
+									<content>
+										<p>there exist legitimate reasons for the proprietor to oppose further dealings in the goods for the purpose of protecting the proprietor’s property (in particular, where the condition of the goods has been changed or impaired after they have been put on the market), and</p>
+									</content>
+								</level>
+								<level GUID="_9fb69910-5d15-4d78-8277-0b15d69914b8" class="para1" eId="reg_5__para_2__qstr__subsec_2__para_b">
+									<num>(b)</num>
+									<content>
+										<p>the opposition to those dealings interferes with the rights of any other person no more than is necessary to achieve that purpose.</p>
+									</content>
+								</level>
+							</subsection>
+							</quotedStructure><inline name="AppendText">.</inline></mod></p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_dc267463-b4f7-43c7-96ac-1c40f1f10595" class="prov2" eId="reg_5__para_3">
+					<num>(3)</num>
+					<intro GUID="_85944de2-c18c-4e99-b794-5033af56c841" eId="reg_5__para_3__intro">
+						<p>In section 17<authorialNote GUID="_3b235d34-a346-48cd-874a-b9320f814613" class="footnote" eId="fnote_17" marker="17">
+							<p>Section 17(3) was amended by S.I. 2011/1043 and S.I. 2019/265.</p>
+							</authorialNote> (meaning of “infringing goods, material or articles”)—</p>
+					</intro>
+					<level GUID="_9c0358a6-80ab-41d2-b0b6-01f97e857c4f" class="para1" eId="reg_5__para_3__para_a">
+						<num>(a)</num>
+						<content>
+							<p><mod>in subsection (3), for the words from “may lawfully” to the end substitute—<quotedStructure GUID="_7f23278e-710f-4593-b592-2e188a8522e6" eId="reg_5__para_3__para_a__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+								<level GUID="_989c5491-79fb-4793-987a-3966a826c34a" class="para1" eId="reg_5__para_3__para_a__qstr__para_a">
+									<num ukl:autonumber="no">(a)</num>
+									<content>
+										<p>may lawfully be imported into the United Kingdom by virtue of anything which forms part of assimilated law as a result of section 3 of the European Union (Withdrawal) Act 2018, or</p>
+									</content>
+								</level>
+								<level GUID="_e1c46efa-2442-4db7-97e4-d4b786e93ee9" class="para1" eId="reg_5__para_3__para_a__qstr__para_b">
+									<num>(b)</num>
+									<content>
+										<p>have been put on the market in the European Economic Area under the registered trade mark in question in accordance with section 12.</p>
+									</content>
+								</level>
+								</quotedStructure><inline name="AppendText">;</inline></mod></p>
+						</content>
+					</level>
+					<level GUID="_c16a9887-2035-4a1a-b3fb-410fa942f9aa" class="para1" eId="reg_5__para_3__para_b">
+						<num>(b)</num>
+						<content>
+							<p><mod>after subsection (3) insert—<quotedStructure GUID="_c4c88c60-4a74-425d-a698-7e3e77da99eb" eId="reg_5__para_3__para_b__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent0">
+								<subsection GUID="_5f434e81-44ab-40e7-b1b3-dda5ef93c9bd" class="prov2" eId="reg_5__para_3__para_b__qstr__subsec_3A">
+									<num ukl:autonumber="no">(3A)</num>
+									<content>
+										<p>In subsection (3)(a), the reference to assimilated law is to be read, until the coming into force of paragraph 2(6) of Schedule 2 to the Retained EU Law (Revocation and Reform) Act 2023, as a reference to retained EU law.</p>
+									</content>
+								</subsection>
+								</quotedStructure><inline name="AppendText">.</inline></mod></p>
+						</content>
+					</level>
+				</paragraph>
+			</hcontainer>
+			<hcontainer GUID="_c741fb1d-1462-4341-92ac-c2c2488939b5" class="prov1" eId="reg_6" name="regulation">
+				<?DMS-Component componentId="f1cad0bc-3a22-419b-a6c9-0b67bb734ed9" seriesId="49f69797-904c-4e49-b796-fcc9ac763b1c" versionNumber="1"?>
+				<heading GUID="_3251c1a2-ad9c-4efc-8d41-9a0bd9f5e583" eId="reg_6__hdg">Amendment of the Community Design Regulations 2005</heading>
+				<num>6.</num>
+				<intro GUID="_a90e6c5e-7191-4e27-8a53-994eae79bd68" eId="reg_6__intro">
+					<p>In regulation 1D of the Community Design Regulations 2005<authorialNote GUID="_f4ba16df-1de0-443f-8e11-9737098bd1b6" class="footnote" eId="fnote_18" marker="18">
+						<p>S.I. 2005/2339. Regulation 1D was inserted by S.I. 2006/1028 and amended by S.I. 2019/638.</p>
+						</authorialNote> (meaning of “infringing article”)—</p>
+				</intro>
+				<level GUID="_5a5f9319-39f0-4eb1-ae84-4d6ce7898a14" class="para1" eId="reg_6__para_a">
+					<num>(a)</num>
+					<content>
+						<p><mod>in subsection (5), for the words from “may be lawfully” to the end substitute—<quotedStructure GUID="_4a23d957-e0ab-4647-929f-f5cc31b62acf" eId="reg_6__para_a__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+							<level GUID="_40e20ad1-bddc-44b6-9188-673b275a7469" class="para1" eId="reg_6__para_a__qstr__para_a">
+								<num ukl:autonumber="no">(a)</num>
+								<content>
+									<p>may be lawfully imported into the United Kingdom by virtue of anything which forms part of assimilated law as a result of section 3 of the European Union (Withdrawal) Act 2018, or</p>
+								</content>
+							</level>
+							<level GUID="_7b9038c8-ca0d-4be6-a676-5d408cacbb43" class="para1" eId="reg_6__para_a__qstr__para_b">
+								<num>(b)</num>
+								<content>
+									<p>has been or is proposed to be imported into the United Kingdom after being put on the market in the European Economic Area by or with the consent of the holder of the supplementary unregistered design.</p>
+								</content>
+							</level>
+							</quotedStructure><inline name="AppendText">;</inline></mod></p>
+					</content>
+				</level>
+				<level GUID="_36eeeb6c-3596-4c98-84d0-9ca55d98f3e2" class="para1" eId="reg_6__para_b">
+					<num>(b)</num>
+					<content>
+						<p><mod>after subsection (5) insert—<quotedStructure GUID="_ade8a646-aa71-49c0-8604-05e6de73c8de" eId="reg_6__para_b__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent1">
+							<paragraph GUID="_ca041ae2-b280-4eb8-bd10-0ad91a4477e5" class="prov2" eId="reg_6__para_b__qstr__para_5A">
+								<num ukl:autonumber="no">(5A)</num>
+								<content>
+									<p>In subsection (5)(a), the reference to assimilated law is to be read, until the coming into force of paragraph 2(6) of Schedule 2 to the Retained EU Law (Revocation and Reform) Act 2023, as a reference to retained EU law.</p>
+								</content>
+							</paragraph>
+							</quotedStructure><inline name="AppendText">.</inline></mod></p>
+					</content>
+				</level>
+			</hcontainer>
+			<hcontainer GUID="_1e596b9e-64bb-45bc-afe0-333c50d63e13" class="prov1" eId="reg_7" name="regulation">
+				<?DMS-Component componentId="51ecf002-777e-422c-8d82-23cef11971b4" seriesId="e108a623-3956-4e51-8ea0-0704b3db050f" versionNumber="1"?>
+				<heading GUID="_eac70190-719a-47e9-8db0-199f3326094d" eId="reg_7__hdg">Amendment of the Intellectual Property (Exhaustion of Rights) (EU Exit) Regulations 2019</heading>
+				<num>7.</num>
+				<content>
+					<p>In the Intellectual Property (Exhaustion of Rights) (EU Exit) Regulations 2019<authorialNote GUID="_4622f7f7-700e-4122-a494-0c9c802f0d67" class="footnote" eId="fnote_11" marker="11">
+						<p>S.I. 2019/265.</p>
+						</authorialNote> omit regulation 2 (exhaustion of intellectual property rights).</p>
+				</content>
+			</hcontainer>
+			<hcontainer GUID="_988f4a60-fee3-4c61-874a-4f83d82bf891" eId="sigs" name="signatures">
+				<?DMS-Component componentId="a1fa51ed-1ab1-4552-9a29-e6ce84aecaf8" seriesId="453b260b-ad1b-44d5-a99e-cdee81159db8" versionNumber="0"?>
+				<hcontainer GUID="_bc317a9a-4dc2-4892-8117-680604e2caab" eId="sigs__sigBlk" name="signatureBlock">
+					<content>
+						<block GUID="_98d80d03-88b2-40b6-856d-d4127b89b137" eId="sigs__sigBlk__sig" name="signature">Camrose</block>
+						<block GUID="_45f0f4cd-0da6-4576-b72e-9901f656b7e2" eId="sigs__sigBlk__role" name="role">Parliamentary Under Secretary of State</block>
+						<block name="date"><date date="2023-11-28">28th November 2023</date></block>
+						<block GUID="_0294e6b9-e8a8-4be9-8218-64614f378ade" eId="sigs__sigBlk__org" name="organization">Department for Science, Innovation and Technology</block>
+					</content>
+				</hcontainer>
+			</hcontainer>
+		</body>
+		<conclusions GUID="_b379d382-f20b-4985-910a-fac59cb267a1" eId="backCover">
+			<?DMS-Component componentId="796e2361-73ec-42c2-90d8-dcec8bb83b32" seriesId="2bf18f8f-621b-4e82-ac58-269fcebdaee0" versionNumber="0"?>
+			<blockContainer GUID="_1dc59eb7-6878-44d4-8656-ed4f7d562b20" class="explanatoryNote" eId="backCover__explNote">
+				<heading GUID="_618cf618-991d-45f5-9f26-574e6b3ccb98" eId="backCover__explNote__hdg">Explanatory Note</heading>
+				<subheading GUID="_e3c80cba-15f2-4468-909e-2a9c0b4d7664" eId="backCover__explNote__subhdg">(This note is not part of the <ref class="placeholder" href="#varDocSubType" />)</subheading>
+				<p>These Regulations restate retained EU law deriving from directly effective rights arising under the Treaty on the Functioning of the European Union and the Agreement on the European Economic Area which concern the exhaustion of rights of the holder of an intellectual property right. The general principle of the exhaustion of intellectual property rights (with adaptations for each intellectual property regime) is that once a good that is subject to an intellectual property right has been placed on the market or put into circulation in the United Kingdom or the European Economic area by the holder of that right or with their consent or licence the holder cannot generally oppose further dealings in that product by asserting the holder’s rights.</p>
+				<p>The principle of exhaustion forms part of retained EU law as a result of section 3 or 4 (as appropriate) of the European Union (Withdrawal) Act 2018 (c. 16) (“the 2018 Act”). Provision made by the Intellectual Property (Exhaustion of Rights) (EU Exit) Regulations 2019 (S.I. 2019/265) (“the 2019 Regulations”) ensured that retained EU law relating to exhaustion of intellectual property rights continues to operate effectively. Restating the retained EU law will ensure that the principle of exhaustion continues to operate following the repeal of section 4 of the 2018 Act by section 2 of the Retained EU Law (Revocation and Reform) Act 2023 (c. 28).</p>
+				<p>These regulations restate retained EU Law as a result of the repeal of section 4 of the 2018 Act by amending provisions of the Registered Designs Act 1949 (c. 88), the Patents Act 1977 (c. 37), the Copyright, Design and Patents Act 1988 (c. 48), the Trade Marks Act 1994 (c. 26), the Community Design Regulations 2005 (S.I. 2005/2339) and the 2019 Regulations.</p>
+				<p>Regulation 2 amends section 24G the Registered Design Act 1949 to provide that the principle of exhaustion continues to operate effectively in relation to articles which are made to a registered design.</p>
+				<p>Regulation 3 amends section 60 of the Patents Act 1977 to provide that the principle of exhaustion continues to operate effectively in relation to products which are subject to a patent.</p>
+				<p>Regulation 4 amends—</p>
+				<tblock GUID="_46591e20-f1ca-4656-af40-31894153a9d5" class="para1" eId="backCover__explNote__para_a">
+					<num>(a)</num>
+					<p>section 27 of the Copyright, Designs and Patents Act 1988 to provide that the principle of exhaustion continues to operate effectively in relation to copyright works, and</p>
+				</tblock>
+				<tblock GUID="_1ed34258-1bf2-4d75-a11f-195eebdbe886" class="para1" eId="backCover__explNote__para_b">
+					<num>(b)</num>
+					<p>sections 226 and 228 of that Act to provide that the principle of exhaustion continues to operate in relation to articles that are subject to a design right.</p>
+				</tblock>
+				<p>Regulation 5 amends sections 12 and 17 of the Trade Marks Act 1994 to provide that the principle of exhaustion continues to operate in relation to goods that bear a registered trade mark.</p>
+				<p>Regulation 6 amends the Community Design Regulations 2005 to provide that the principle of exhaustion continues to operate in relation to articles which are made to a supplementary unregistered design.</p>
+				<p>Regulation 7 amends the 2019 Regulations by omitting regulation 2 in consequence of the repeal of section 4 of the 2018 Act at the end of 2023.</p>
+				<p>A full impact assessment has not been produced for this instrument as no, or no significant, impact on the private, voluntary or public sector is foreseen.</p>
+				<p>A copy of this instrument and the Explanatory Memorandum is available from the Intellectual Property Office, Concept House, Cardiff Road, Newport, South Wales, NP10. The Explanatory Memorandum is also available alongside this legislation on the Legislation UK website at www.legislation.gov.uk</p>
+			</blockContainer>
+		</conclusions>
+	</act>
+</akomaNtoso>
