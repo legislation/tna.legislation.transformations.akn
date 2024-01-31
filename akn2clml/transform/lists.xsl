@@ -216,14 +216,29 @@
 
 <!-- definition lists -->
 
-<!-- this template wraps the last p of the intro and the first p of the wrapUp together with the def list in the same "para" -->
-<!-- intro p's before the last, and wrapUp p's after the first, are put in separate paras -->
 <xsl:template name="definition-list">
 	<xsl:param name="intro" as="element()?" select="()" />
 	<xsl:param name="definitions" as="element()+" />
 	<xsl:param name="wrapUp" as="element()?" select="()" />
-	<xsl:param name="context" as="xs:string*" tunnel="yes" />
 	<xsl:param name="decoration" as="xs:string" select="'none'" />
+	<xsl:call-template name="definition-or-step-list">
+		<xsl:with-param name="class" as="xs:string" select="'Definition'" />
+		<xsl:with-param name="intro" as="element()?" select="$intro" />
+		<xsl:with-param name="children" as="element()+" select="$definitions" />
+		<xsl:with-param name="wrapUp" as="element()?" select="$wrapUp" />
+		<xsl:with-param name="decoration" as="xs:string" select="$decoration" />
+	</xsl:call-template>
+</xsl:template>
+
+<!-- this template wraps the last p of the intro and the first p of the wrapUp together with the def list in the same "para" -->
+<!-- intro p's before the last, and wrapUp p's after the first, are put in separate paras -->
+<xsl:template name="definition-or-step-list">
+	<xsl:param name="class" as="xs:string" />
+	<xsl:param name="intro" as="element()?" />
+	<xsl:param name="children" as="element()+" />
+	<xsl:param name="wrapUp" as="element()?" />
+	<xsl:param name="decoration" as="xs:string" />
+	<xsl:param name="context" as="xs:string*" tunnel="yes" />
 
 	<!-- first, handle any intro p's before the last one -->
 	<xsl:apply-templates select="$intro/*[position() lt last()]" />
@@ -233,8 +248,8 @@
 	<xsl:choose>
 		<xsl:when test="empty($wrapper)">
 			<xsl:apply-templates select="$intro/*[position() = last()]" />
-			<UnorderedList Class="Definition" Decoration="{ $decoration }">
-				<xsl:apply-templates select="$definitions">
+			<UnorderedList Class="{ $class }" Decoration="{ $decoration }">
+				<xsl:apply-templates select="$children">
 					<xsl:with-param name="context" select="('UnorderedList', $context)" tunnel="yes" />
 				</xsl:apply-templates>
 			</UnorderedList>
@@ -245,8 +260,8 @@
 				<xsl:apply-templates select="$intro/*[position() = last()]">
 					<xsl:with-param name="context" select="($wrapper, $context)" tunnel="yes" />
 				</xsl:apply-templates>
-				<UnorderedList Class="Definition" Decoration="{ $decoration }">
-					<xsl:apply-templates select="$definitions">
+				<UnorderedList Class="{ $class }" Decoration="{ $decoration }">
+					<xsl:apply-templates select="$children">
 						<xsl:with-param name="context" select="('UnorderedList', $wrapper, $context)" tunnel="yes" />
 					</xsl:apply-templates>
 				</UnorderedList>
@@ -491,10 +506,18 @@
 
 <!-- steps -->
 
-<xsl:template match="hcontainer[@name='step']" priority="1">
-	<UnorderedList Decoration="none">
-		<xsl:next-match />
-	</UnorderedList>
+<xsl:template name="step-list">
+	<xsl:param name="intro" as="element()?" select="()" />
+	<xsl:param name="steps" as="element()+" />
+	<xsl:param name="wrapUp" as="element()?" select="()" />
+	<xsl:param name="decoration" as="xs:string" select="'none'" />
+	<xsl:call-template name="definition-or-step-list">
+		<xsl:with-param name="class" as="xs:string" select="'Step'" />
+		<xsl:with-param name="intro" as="element()?" select="$intro" />
+		<xsl:with-param name="children" as="element()+" select="$steps" />
+		<xsl:with-param name="wrapUp" as="element()?" select="$wrapUp" />
+		<xsl:with-param name="decoration" as="xs:string" select="$decoration" />
+	</xsl:call-template>
 </xsl:template>
 
 <xsl:template match="hcontainer[@name='step']/num">
