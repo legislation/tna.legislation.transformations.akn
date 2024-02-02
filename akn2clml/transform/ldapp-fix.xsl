@@ -48,7 +48,12 @@
 <xsl:template match="def//ref">
 	<xsl:apply-templates />
 </xsl:template>
-	
+
+<!-- remove nested mod elements -->
+<xsl:template match="mod/mod">
+	<xsl:apply-templates />
+</xsl:template>
+
 <!-- remove page breaks -->
 <xsl:template match="block[@name='pageBreak'][empty(child::node())]" />
 
