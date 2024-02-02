@@ -57,13 +57,13 @@
 						<xsl:when test="parent::*/@Type = 'roman'">
 							<xsl:number value="count(preceding-sibling::ListItem) + 1" format="i" />
 						</xsl:when>
-						<xsl:when test="parent::*/@Type = 'romanupper'">
+						<xsl:when test="parent::*/@Type = 'romanUpper'">
 							<xsl:number value="count(preceding-sibling::ListItem) + 1" format="I" />
 						</xsl:when>
 						<xsl:when test="parent::*/@Type = 'alpha'">
 							<xsl:number value="count(preceding-sibling::ListItem) + 1" format="a" />
 						</xsl:when>
-						<xsl:when test="parent::*/@Type = 'alphaupper'">
+						<xsl:when test="parent::*/@Type = 'alphaUpper'">
 							<xsl:number value="count(preceding-sibling::ListItem) + 1" format="A" />
 						</xsl:when>
 						<xsl:otherwise>
