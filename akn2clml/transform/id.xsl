@@ -306,7 +306,7 @@
 		</xsl:when>
 		
 		<xsl:otherwise>
-			<xsl:sequence select="generate-id($e)" />
+			<xsl:sequence select="local:make-necessary-id($e)" />
 		</xsl:otherwise>
 	</xsl:choose>
 </xsl:function>
