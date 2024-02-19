@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?><akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../schemas/akomantoso30.xsd">
+	<?DMS-Component componentId="714c1310-17b3-4fd2-bef2-7e8559a4cafe" seriesId="b87e1de4-b70e-488d-8b42-9a06a5507aa9" versionNumber="1"?>
+	<act contains="originalVersion" name="uksi">
+		<meta>
+			<?DMS-Component componentId="5e725c6c-9c8b-4143-a264-3758d1e39124" seriesId="b5def827-3dbe-41ee-9a8c-0977964447ed" versionNumber="0"?>
+			<identification source="#ldapp">
+				<FRBRWork>
+					<FRBRthis value="#varWork"/>
+					<FRBRuri value="#varWorkUri"/>
+					<FRBRalias name="ttflConfigHistory" value="#varCHOiid"/>
+					<FRBRdate date="9999-01-01" name="uksi"/>
+					<FRBRauthor href="#varAuthor"/>
+					<FRBRcountry value="GB-SCT"/>
+					<FRBRsubtype value="#varDocSubType"/>
+					<FRBRnumber value="#varProjectId"/>
+					<FRBRname value="#varSITitle"/>
+					<FRBRprescriptive value="true"/>
+					<FRBRauthoritative value="false"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="#varExpression"/>
+					<FRBRuri value="#varExpressionUri"/>
+					<FRBRalias name="ttflVersionDescription" value="#varVDOiid"/>
+					<FRBRdate date="9999-01-01" name="draft"/>
+					<FRBRauthor href="#varAuthor"/>
+					<FRBRversionNumber value=""/>
+					<FRBRauthoritative value="false"/>
+					<FRBRmasterExpression href="" showAs=""/>
+					<FRBRlanguage language="eng"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="#varManifestation"/>
+					<FRBRuri value="#varManifestationUri"/>
+					<FRBRdate date="9999-01-01" name="akn_xml"/>
+					<FRBRauthor href="#varAuthor"/>
+					<FRBRformat value="application/akn+xml"/>
+				</FRBRManifestation>
+			</identification>
+			<references source="#author">
+				<TLCConcept GUID="_02ecad5d-19ec-4fa4-9c99-f550c03e3643" eId="varDocSubType" href="#varOntologies" showAs="Regulations"/>
+				<TLCConcept GUID="_c3265fce-32e0-4f42-9fde-056516012f4b" eId="varSITitle" href="#varOntologies" showAs="The Immigration and Nationality (Fees) (Amendment) (No. 3) Regulations 2023"/>
+				<TLCProcess GUID="_fdff613c-1cf9-4860-9036-fc52aec4e63e" eId="varProcedureType" href="#varOntologies" showAs="Made Negative"/>
+				<TLCProcess GUID="_0d7ef835-36ef-41af-8529-5999c914faba" eId="varStageVersion" href="#varOntologies" showAs="1"/>
+				<TLCProcess GUID="_6a90d1bc-d01a-41ba-a936-fbdef7f4b422" eId="varProjectId" href="#varOntologies" showAs="SI000717"/>
+				<TLCProcess GUID="_643dd3c3-784d-4676-bae9-244799afdda9" eId="varWork" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_d67a1d45-96bd-434a-8120-f171ccddd8a2" eId="varWorkUri" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_3d46b237-9ef2-48ff-bfe7-5a63e28b7987" eId="varCHOiid" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_93380d69-558e-428a-bd39-14c61846a8ee" eId="varExpression" href="#varOntologies" showAs="69f9a302-0763-4a38-884e-e806a0bb24e7"/>
+				<TLCProcess GUID="_6dc44816-e10c-46d6-a811-c9c925d1d0f7" eId="varExpressionUri" href="#varOntologies" showAs="dma:///45e6b900-8929-11d4-b772-0050da06bfb4/80742cea-0ebb-4cf6-9759-1e52358d9b5b/;guid=69f9a302-0763-4a38-884e-e806a0bb24e7;class=Version%20Description"/>
+				<TLCProcess GUID="_85584fd7-49ac-4c7d-8968-6c24738600a4" eId="varVDOiid" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_4876cd39-a50f-4eef-98e0-1ea2aae82033" eId="varManifestation" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_c8275478-ce22-4d5e-a349-e1a1573cd6cd" eId="varManifestationUri" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_a06dce02-d349-4322-a86d-0b6305a6a2e2" eId="varSIYear" href="#varOntologies" showAs="2023"/>
+				<TLCConcept GUID="_5576e070-30b0-42d5-9bea-7cd6bd58cb92" eId="varSINoComp" href="#varOntologies" showAs="1359"/>
+				<TLCConcept GUID="_6db61026-8e39-4a8c-995a-04ba761c443c" eId="varSINo" href="#varOntologies" showAs="#varSIYear No. #varSINoComp #varSISubsidiaryNos"/>
+				<TLCConcept GUID="_00e674f6-faed-4a95-9031-bca6977c81fd" eId="varSISubsidiaryNos" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_ff7db168-ea39-49f8-843c-6ee23b9b1ff0" eId="varISBN" href="#varOntologies" showAs=""/>
+				<TLCPerson GUID="_f9d1ade4-df90-4822-9c99-bad517302e2e" eId="varMinistryAgency" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_dcabab32-34b2-4283-973f-856bc970378c" eId="varDocType" href="#varOntologies" showAs="UKSI"/>
+				<TLCProcess GUID="_4ba1acea-13f8-4f01-bdf3-7a51646de14b" eId="varSystem" href="#varOntologies" showAs="LDAPP"/>
+				<TLCOrganization GUID="_80409081-26de-4f4d-944d-08efb304db70" eId="varAuthor" href="#varOntologies" showAs="UK Government"/>
+				<TLCLocation GUID="_208759d9-e065-455e-b1b0-81716a353527" eId="varJurisdiction" href="#varOntologies" showAs="United Kingdom"/>
+				<TLCConcept GUID="_1962ddb5-2541-43f7-bea2-5a3bbdfdd283" eId="varOntologies" href="https://www.legislation.gov.uk/ontologies/UK-AKN" showAs="https://www.legislation.gov.uk/ontologies/UK-AKN"/>
+				<TLCConcept GUID="_754e5c4b-ffbc-4ffd-8741-dc33f758c393" eId="varCommenceDate" href="#varOntologies" showAs="2024-01-31T00:00:00.000"/>
+				<TLCConcept GUID="_d8346ddc-21c6-435c-9c1b-e9d9dddfbc1b" eId="varMadeDate" href="#varOntologies" showAs="2023-12-11T00:00:00.000"/>
+				<TLCConcept GUID="_9ac8c086-81be-4be0-8afa-694b1f1c31f1" eId="varLaidDate" href="#varOntologies" showAs="2023-12-13T00:00:00.000"/>
+			</references>
+		</meta>
+		<preface GUID="_4c66b578-24db-4499-ad20-f12836f057c0" eId="fnt">
+			<?DMS-Component componentId="b77d0cf0-ffdb-4cc6-955c-756b3f351fd9" seriesId="ac459785-d2be-4f8f-9737-5c7645ea1e2e" versionNumber="0"?>
+			<block GUID="_29359a32-d0bb-442c-a87d-ea01984443bc" eId="fnt__banner" name="banner">STATUTORY INSTRUMENTS</block>
+			<block GUID="_bca35064-4000-401d-81c6-fa4dd9dff606" eId="fnt__no" name="number">
+				<docNumber GUID="_71477d08-3ff5-4de1-a596-a99d586cf092" eId="fnt__no__dno"> <ref class="placeholder" href="#varSINo"/> </docNumber>
+			</block>
+			<container name="subjects">
+				<container GUID="_42210c05-89bb-4780-944f-89daec229cca" eId="fnt__subject" name="subject">
+					<block name="subject"><concept class="title" refersTo="">IMMIGRATION</concept></block>
+				</container>
+				<container GUID="_962c7ee7-3305-4653-8afd-6eba9b5fa653" eId="fnt__subject__oc_2" name="subject">
+					<block name="subject"><concept class="title" refersTo="">NATIONALITY</concept></block>
+				</container>
+			</container>
+			<block GUID="_8c88c488-fc4a-4fd9-8834-64c46fb375f3" eId="fnt__st" name="title"><docTitle GUID="_28af749f-8f16-4235-9921-bf0f0fd0741b" eId="fnt__st__dtitle"> <ref class="placeholder" href="#varSITitle"/> </docTitle> </block>
+			<container GUID="_889bf970-9c90-4563-a531-e62e99f06c03" eId="fnt__dates" name="dates">
+				<block GUID="_50d848ef-554a-4285-b103-b28fbacf989a" eId="fnt__dates__madeDate" name="madeDate"><span>Made</span><docDate GUID="_6d6c477d-d674-4691-a240-c08628e08c34" date="2023-12-11T00:00:00.000" eId="fnt__dates__madeDate__ddate"><ref class="placeholder" href="#varMadeDate" ukl:dateFormat="d'th' MMMM yyyy">11th December 2023</ref></docDate></block>
+				<block GUID="_88e94814-25e7-4e11-9d12-9480b9a5422e" eId="fnt__dates__laidDate" name="laidDate"><span>Laid before Parliament</span><docDate GUID="_6da62bb8-1649-43b7-a307-93c41ec2317e" date="2023-12-13T00:00:00.000" eId="fnt__dates__laidDate__ddate"><ref class="placeholder" href="#varLaidDate" ukl:dateFormat="d'th' MMMM yyyy">13th December 2023</ref></docDate></block>
+				<block GUID="_1fb86f51-d3bd-472d-8001-e8b706d69944" eId="fnt__dates__commenceDate" name="commenceDate"><span>Coming into force</span><docDate GUID="_462c13a0-a5c1-4901-a1db-e225936c116f" date="2024-01-31T00:00:00.000" eId="fnt__dates__commenceDate__ddate"><ref class="placeholder" href="#varCommenceDate" ukl:dateFormat="d'th' MMMM yyyy">31st January 2024</ref></docDate></block>
+			</container>
+		</preface>
+		<preamble GUID="_dae1134b-4af0-42b5-9e68-465ac52e3da4" eId="preamble">
+			<?DMS-Component componentId="965f66f6-276b-428b-ae40-8b5bd468bd46" seriesId="9a40f90e-f3b7-4301-9d1e-bd891a2a51ef" versionNumber="1"?>
+			<formula GUID="_285468e6-3651-416d-b952-78d1a25db114" eId="preamble__enactingWords" name="enactingText">
+				<p>The Secretary of State makes these <ref class="placeholder" href="#varDocSubType"/> with the consent of the Treasury<authorialNote GUID="_a2992614-ef93-4525-932e-5297de56edf2" class="footnote" eId="fnote_1" marker="1">
+					<p>Treasury consent has been obtained pursuant to section 69(1) of the Immigration Act 2014 (c. 22) (“the 2014 Act”).</p>
+					</authorialNote> in exercise of the powers conferred by sections 68(1), (7), (10)(a), (b), (c)(iii), 69(2) and 74(8)(a), (b) and (c) of the Immigration Act 2014<authorialNote GUID="_8ea726d9-7a1b-4a7c-ba58-af2f91b7f95f" class="footnote" eId="fnote_2" marker="2">
+					<p>2014 c. 22.</p>
+					</authorialNote>. These Regulations are made further to provision in the Immigration and Nationality (Fees) Order 2016<authorialNote GUID="_efa645bd-6e74-4f34-bbc0-d965414fbcc8" class="footnote" eId="fnote_3" marker="3">
+					<p>S.I. 2016/177, amended by S.I. 2018/329; there are other amending instruments but none is relevant.</p>
+					</authorialNote>.</p>
+			</formula>
+		</preamble>
+		<body>
+			<?DMS-Component componentId="621b1be7-4223-424e-bc50-5b88ecb51d80" seriesId="2ac992bd-43b2-4cc4-9329-8567fccbad36" versionNumber="1"?>
+			<hcontainer GUID="_7ca7094a-c526-4a3b-9472-72d737785fb4" class="prov1" eId="reg_1" name="regulation">
+				<?DMS-Component componentId="5455d7e3-bca4-4a5a-b49d-11eadc64e416" seriesId="c162f8a2-ee43-4fb5-9096-e75a035afca1" versionNumber="0"?>
+				<heading GUID="_435509c1-1ce1-44fb-92a7-030291363f83" eId="reg_1__hdg">Citation, commencement, extent and interpretation</heading>
+				<num>1.</num>
+				<paragraph GUID="_2fdcb91e-62ef-4a7d-aa41-65c875873ed1" class="prov2" eId="reg_1__para_1">
+					<num>(1)</num>
+					<content>
+						<p>These Regulations may be cited as the Immigration and Nationality (Fees) (Amendment) (No. 3) Regulations 2023.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_97fd46cf-82d3-4366-ae81-5ec21156850a" class="prov2" eId="reg_1__para_2">
+					<num>(2)</num>
+					<content>
+						<p>These Regulations come into force on 31st January 2024.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_401de12e-54ee-44f0-b47f-ff32e4c0aa31" class="prov2" eId="reg_1__para_3">
+					<num>(3)</num>
+					<content>
+						<p>These Regulations extend to England and Wales, Scotland and Northern Ireland.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_dca1aa42-c858-4cb3-8ac8-22b8a7e87d27" class="prov2" eId="reg_1__para_4">
+					<num>(4)</num>
+					<content>
+						<p>In these Regulations, “the principal Regulations” means the Immigration and Nationality (Fees) Regulations 2018<authorialNote GUID="_68ec0b47-db76-45d8-9f32-b3aaba4dba36" class="footnote" eId="fnote_4" marker="4">
+							<p>S.I. 2018/330. There are amending instruments, but none is relevant to these Regulations.</p>
+							</authorialNote>.</p>
+					</content>
+				</paragraph>
+			</hcontainer>
+			<hcontainer GUID="_b99122b0-147f-4ea3-a721-77d55424cf4b" class="prov1" eId="reg_2" name="regulation">
+				<?DMS-Component componentId="d0476b08-9541-4b50-9f59-05840ed185fa" seriesId="6d63a6f6-21e6-4b05-94b4-0ae442ea0d0b" versionNumber="1"?>
+				<heading GUID="_ca2ea27b-a8b8-4717-8084-0aae3b858af1" eId="reg_2__hdg">Amendments to the principal Regulations</heading>
+				<num>2.</num>
+				<content>
+					<p>The principal Regulations are amended in accordance with these Regulations.</p>
+				</content>
+			</hcontainer>
+			<hcontainer GUID="_7d162ef9-e5a5-44b5-97d2-5e90534d9836" class="prov1" eId="reg_3" name="regulation">
+				<?DMS-Component componentId="fbeca69f-b4dc-447c-b6f2-03f8884d0ae7" seriesId="1b710271-c1e5-4ea5-b92c-5e273db9f1ee" versionNumber="1"?>
+				<heading GUID="_b19d81e2-9107-43cc-9946-bf941addd92e" eId="reg_3__hdg">Amendment to Schedule 1</heading>
+				<num>3.</num>
+				<paragraph GUID="_e2f39df0-7a20-4592-af14-4551f32177f3" class="prov2" eId="reg_3__para_1">
+					<num>(1)</num>
+					<content>
+						<p>Schedule 1 (applications for entry clearance to enter, and leave to enter, the United Kingdom) is amended as follows.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_4a807677-88fe-4922-9a9f-270cc0401cdb" class="prov2" eId="reg_3__para_2">
+					<num>(2)</num>
+					<content>
+						<p><mod>In Table 1, after entry 1.3D, insert—<quotedStructure GUID="_77dfe155-75b4-48da-8024-62b5f9bc7cca" eId="reg_3__para_2__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+							<content>
+								<tblock GUID="_c150affb-4ce8-4d96-b754-e851c052eb40" class="table" eId="reg_3__para_2__qstr__tbl__oc_1">
+									<foreign>
+										<table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="topAndBottom tableleft width100" cols="3" ukl:templateColumns="10 60 30">
+											<thead class="left">
+												<tr akn:GUID="_77e66d26-a5ad-478f-948a-4af79b2e83f2" akn:eId="reg_3__para_2__qstr__tbl__oc_1__hdg__row__oc_1">
+													<td akn:GUID="_48c0ae58-3472-4132-98bb-7d44f89f9514" akn:eId="reg_3__para_2__qstr__tbl__oc_1__hdg__row__oc_1__col_1">
+														<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1.3E</p>
+													</td>
+													<td akn:GUID="_0ac206a9-302f-4280-966f-2e25fc87d240" akn:eId="reg_3__para_2__qstr__tbl__oc_1__hdg__row__oc_1__col_2">
+														<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Fee for applications for entry clearance and indefinite leave to enter the United Kingdom as a victim of domestic abuse under the Appendix Victim of Domestic Abuse to the immigration rules<authorialNote GUID="_d04fc7b9-da26-4eb3-a63e-11d4ea241225" class="footnote" eId="fnote_5" marker="5">
+															<p>The immigration rules were laid before Parliament on 23rd May 1994 (HC 395). Appendix Victim of Domestic Abuse was added to the UK immigration rules by the Statement of Changes in Immigration Rules laid before Parliament on 7th December 2023 (HC 246).</p>
+															</authorialNote></p>
+													</td>
+													<td akn:GUID="_f4db26a2-5b79-410a-a40c-54dab09ec6fe" akn:eId="reg_3__para_2__qstr__tbl__oc_1__hdg__row__oc_1__col_3"/>
+												</tr>
+											</thead>
+											<tbody class="left">
+												<tr akn:GUID="_0e5c3e8a-6980-457f-a7f3-320773b6bd8f" akn:eId="reg_3__para_2__qstr__tbl__oc_1__row__oc_1">
+													<td akn:GUID="_20c7fec7-316b-45f6-8e72-bcfbab4b72bf" akn:eId="reg_3__para_2__qstr__tbl__oc_1__row__oc_1__col_1">
+														<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1.3E.1</p>
+													</td>
+													<td akn:GUID="_15fd82ef-225f-4e60-86d2-7ba955b6562e" akn:eId="reg_3__para_2__qstr__tbl__oc_1__row__oc_1__col_2">
+														<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Application for entry clearance and indefinite leave to enter under the Appendix Victim of Domestic Abuse to the immigration rules</p>
+													</td>
+													<td akn:GUID="_5838874d-ccd3-401b-a983-b5e1be075465" akn:eId="reg_3__para_2__qstr__tbl__oc_1__row__oc_1__col_3">
+														<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">£2,885</p>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</foreign>
+								</tblock>
+							</content>
+							</quotedStructure><inline name="AppendText">.</inline></mod></p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_7aa7a1fd-3aa2-4d33-8b68-05a5937de723" class="prov2" eId="reg_3__para_3">
+					<num>(3)</num>
+					<content>
+						<p><mod>In Table 5, after entry 5.5, insert—<quotedStructure GUID="_9708d280-3013-4c85-a1f9-0f6d01aecb72" eId="reg_3__para_3__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+							<content>
+								<tblock GUID="_ba186133-13f0-4e51-8fd9-1d632822423a" class="table" eId="reg_3__para_3__qstr__tbl__oc_1">
+									<foreign>
+										<table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="topAndBottom tableleft width100" cols="3" ukl:templateColumns="10 60 30">
+											<thead class="left">
+												<tr akn:GUID="_d7e08b32-cc9b-4d23-9d3e-8b9e527ac763" akn:eId="reg_3__para_3__qstr__tbl__oc_1__hdg__row__oc_1">
+													<td akn:GUID="_a094d53b-6934-4d64-b1ca-2d278b1fdae6" akn:eId="reg_3__para_3__qstr__tbl__oc_1__hdg__row__oc_1__col_1">
+														<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">5.6</p>
+													</td>
+													<td akn:GUID="_1125cb70-e8ed-4ed6-b97b-9c042435ca65" akn:eId="reg_3__para_3__qstr__tbl__oc_1__hdg__row__oc_1__col_2">
+														<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Victims of domestic abuse</p>
+													</td>
+												</tr>
+											</thead>
+											<tbody class="left">
+												<tr akn:GUID="_61aa9fb6-2529-48b8-93bc-1d92787a9bba" akn:eId="reg_3__para_3__qstr__tbl__oc_1__row__oc_1">
+													<td akn:GUID="_8c5d4345-4ad0-4fa9-8494-74b38a896730" akn:eId="reg_3__para_3__qstr__tbl__oc_1__row__oc_1__col_1">
+														<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">5.6.1</p>
+													</td>
+													<td akn:GUID="_7f7f1e8b-4295-4af1-84d6-6bf25f95552a" akn:eId="reg_3__para_3__qstr__tbl__oc_1__row__oc_1__col_2">
+														<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The official determining an application for entry clearance and indefinite leave to enter under the Appendix Victim of Domestic Abuse to the immigration rules may decide to waive the fee if at the time of making the application the applicant appears to the official to be destitute.</p>
+													</td>
+													<td akn:GUID="_55f356cb-29b0-497f-941b-4ecfacb74b91" akn:eId="reg_3__para_3__qstr__tbl__oc_1__row__oc_1__col_3">
+														<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Fee 1.3E.1</p>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</foreign>
+								</tblock>
+							</content>
+							</quotedStructure><inline name="AppendText">.</inline></mod></p>
+					</content>
+				</paragraph>
+			</hcontainer>
+			<hcontainer GUID="_53b2434b-e5be-4aa3-98e2-4425d66e9fad" class="prov1" eId="reg_4" name="regulation">
+				<?DMS-Component componentId="647e1237-4a8a-4338-8dc0-95516d5bafd1" seriesId="78e29584-5220-44fc-800a-54d0b54a99d9" versionNumber="1"?>
+				<heading GUID="_bb095c9e-0783-42bd-a807-9fd54cae7d8c" eId="reg_4__hdg">Amendment to Schedule 2</heading>
+				<num>4.</num>
+				<paragraph GUID="_57894f1d-d5d6-434e-9084-174bfffbd599" class="prov2" eId="reg_4__para_1">
+					<num>(1)</num>
+					<content>
+						<p>Schedule 2 (applications for leave to remain in the United Kingdom) is amended as follows.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_ff7dbe6d-c299-481a-8c02-35882a2c9536" class="prov2" eId="reg_4__para_2">
+					<num>(2)</num>
+					<intro GUID="_43af1ebc-01e7-4783-b5c8-5c30d1c74f91" eId="reg_4__para_2__intro">
+						<p>In Table 9, in entry 9.3—</p>
+					</intro>
+					<level GUID="_2078eb3c-81c5-4bd5-8ac4-f374e2b3c18c" class="para1" eId="reg_4__para_2__para_a">
+						<num>(a)</num>
+						<content>
+							<p>in the heading, for “paragraph 289A, Appendix FM or Appendix Armed Forces” substitute “Appendix Victim of Domestic Abuse”;</p>
+						</content>
+					</level>
+					<level GUID="_825e9966-6811-4b7c-94aa-df6fdb1bc5ab" class="para1" eId="reg_4__para_2__para_b">
+						<num>(b)</num>
+						<content>
+							<p>in the entry, for “paragraph 289A of, or Appendix FM or Appendix Armed Forces” substitute “Appendix Victim of Domestic Abuse”.</p>
+						</content>
+					</level>
+				</paragraph>
+				<paragraph GUID="_45504852-c2ac-4607-a677-1f1eb83fe70e" class="prov2" eId="reg_4__para_3">
+					<num>(3)</num>
+					<content>
+						<p><mod>In Table 9, in entry 9.8, for the narrative under the heading in the second column, substitute—<quotedStructure GUID="_08d1099d-5ebc-4e84-9c77-6268e559c19d" eId="reg_4__para_3__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+							<paragraph GUID="_8512b69c-617b-42ae-a756-930088e6da8c" class="prov2" eId="reg_4__para_3__qstr__para">
+								<num ukl:autonumber="no"/>
+								<intro GUID="_bf60a57b-b72b-4094-bd0a-ed8329519699" eId="reg_4__para_3__qstr__para__intro">
+									<p>No fee is payable in respect of an application for limited leave to remain or indefinite leave to remain in the United Kingdom (together referred to in this entry as “leave to remain”)—</p>
+								</intro>
+								<level GUID="_8599202e-8d88-47c9-929e-bfb646223dc3" class="para1" eId="reg_4__para_3__qstr__para__para_a">
+									<num>(a)</num>
+									<content>
+										<p>under Appendix Statelessness to the immigration rules, as a stateless person;</p>
+									</content>
+								</level>
+								<level GUID="_5397780a-4be8-4f51-b250-a5903f7d9aa0" class="para1" eId="reg_4__para_3__qstr__para__para_b">
+									<num>(b)</num>
+									<content>
+										<p>under Part 14 of the immigration rules (“Part 14”), as a family member of a stateless person;</p>
+									</content>
+								</level>
+								<level GUID="_ab087c7e-0ba6-425a-b645-e08e2f44f738" class="para1" eId="reg_4__para_3__qstr__para__para_c">
+									<num>(c)</num>
+									<intro GUID="_0ce45803-ee13-4b32-b8ff-62b813b13488" eId="reg_4__para_3__qstr__para__para_c__intro">
+										<p>under Part 14 as a child born in the United Kingdom to a parent who has been granted leave to remain as—</p>
+									</intro>
+									<level GUID="_800ee135-96b3-45be-a089-1d9ed3e89a03" class="para2" eId="reg_4__para_3__qstr__para__para_c__subpara_i">
+										<num>(i)</num>
+										<content>
+											<p>a stateless person, or</p>
+										</content>
+									</level>
+									<level GUID="_a93b7127-8261-4c6f-a3d6-9379bb09b9cb" class="para2" eId="reg_4__para_3__qstr__para__para_c__subpara_ii">
+										<num>(ii)</num>
+										<content>
+											<p>a partner of a stateless person.</p>
+										</content>
+									</level>
+								</level>
+							</paragraph>
+							</quotedStructure><inline name="AppendText">.</inline></mod></p>
+					</content>
+				</paragraph>
+			</hcontainer>
+			<hcontainer GUID="_7fe62472-040e-4013-b3e7-8b4529e6f681" eId="sigs" name="signatures">
+				<?DMS-Component componentId="858ddfba-d3f4-4e2c-9183-eca1f1216c54" seriesId="140df60f-b5ab-4e64-8035-03421584c3ac" versionNumber="0"?>
+				<hcontainer GUID="_6dfcc2c1-7a56-4ba1-8686-9601c7c053ac" eId="sigs__sigBlk" name="signatureBlock">
+					<content>
+						<block GUID="_da48f822-803f-4926-9e1e-b1deccdd5142" eId="sigs__sigBlk__sig" name="signature">Tom Pursglove</block>
+						<block GUID="_c829bef3-b62b-4078-9b35-52a53e2ff01d" eId="sigs__sigBlk__role" name="role">Minister of State</block>
+						<block name="date"><date date="2023-12-01">11th December 2023</date></block>
+						<block GUID="_0ba8ff3e-40f4-4fba-8257-61fafd5324e1" eId="sigs__sigBlk__org" name="organization">Home Office</block>
+					</content>
+				</hcontainer>
+				<hcontainer GUID="_e5ee4f08-c9d2-4ce3-abf0-b2136012df8a" eId="sigs__sigBlk__oc_1" name="signatureBlock">
+					<content>
+						<p>We consent</p>
+						<block GUID="_c6e65efa-3f5c-49b3-af64-c0cbb3447884" eId="sigs__sigBlk__oc_1__sig" name="signature">Stuart Anderson</block>
+						<block GUID="_11e5aac0-cc5d-48b7-a5bd-4fbab6133167" eId="sigs__sigBlk__oc_1__sig__oc_1" name="signature">Amanda Solloway</block>
+						<block name="date"><date date="2023-12-01">11th December 2023</date></block>
+						<block GUID="_caa8c0b7-3854-4e6b-9880-2c5c6e25db72" eId="sigs__sigBlk__oc_1__org" name="organization">Two of the Lords Commissioners of His Majesty's Treasury</block>
+					</content>
+				</hcontainer>
+			</hcontainer>
+		</body>
+		<conclusions GUID="_d5d2d1e2-b4dd-4157-b4a7-3dfae84e2845" eId="backCover">
+			<?DMS-Component componentId="b627a471-567b-45de-80c9-370ba85cbdb3" seriesId="30145ec7-5249-4d20-b2a1-6828e1f3761f" versionNumber="1"?>
+			<blockContainer GUID="_7ed65c59-31c8-4176-aaf8-183425abbe04" class="explanatoryNote" eId="backCover__explNote">
+				<heading GUID="_3a037c6b-d07b-4aca-996f-1a3be459ff60" eId="backCover__explNote__hdg">Explanatory Note</heading>
+				<subheading GUID="_9567ca32-6b46-49eb-9369-c1ce95c0da49" eId="backCover__explNote__subhdg">(This note is not part of the <ref class="placeholder" href="#varDocSubType"/>)</subheading>
+				<p>These Regulations amend the Immigration and Nationality (Fees) Regulations 2018 (S.I. 2018/330) which set fees for the exercise of various functions in connection with immigration and nationality.</p>
+				<p>Regulation 3 provides, by amendment, for a fee for victims of domestic abuse who wish to apply from overseas for indefinite leave to enter the United Kingdom. This is a fee for a new application which was not previously available. It also provides for waivers of those fees where the applicant satisfies a destitution test.</p>
+				<p>Regulation 4 amends entry 9.3 in Schedule 2 to reflect the new Appendix Victim of Domestic Abuse to the immigration rules. It also amends entry 9.8 to reflect the new Appendix Statelessness, and further provides a fee exception for Part 14 applications under the immigration rules.</p>
+				<p>A full impact assessment has not been prepared for this instrument as no, or no significant, impact on the private, voluntary or public sector is foreseen.</p>
+			</blockContainer>
+		</conclusions>
+	</act>
+</akomaNtoso>

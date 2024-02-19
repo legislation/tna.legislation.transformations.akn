@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Legislation xmlns="http://www.legislation.gov.uk/namespaces/legislation"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             SchemaVersion="2.0"
+             xsi:schemaLocation="http://www.legislation.gov.uk/namespaces/legislation http://www.legislation.gov.uk/schema/legislation.xsd">
+   <Metadata xmlns="http://www.legislation.gov.uk/namespaces/metadata"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <dc:identifier>http://www.legislation.gov.uk/id/uksi/2023/1365</dc:identifier>
+      <dc:title>The Writtle University College Higher Education Corporation (Dissolution) Order 2023</dc:title>
+      <dc:modified>2024-02-19</dc:modified>
+      <SecondaryMetadata>
+         <DocumentClassification>
+            <DocumentCategory Value="secondary"/>
+            <DocumentMainType Value="UnitedKingdomStatutoryInstrument"/>
+            <DocumentStatus Value="final"/>
+            <DocumentMinorType Value="regulation"/>
+         </DocumentClassification>
+         <Year Value="2023"/>
+         <Number Value="1365"/>
+         <Made Date="2023-12-13"/>
+         <Laid Date="2023-12-15" Time="00:00:00" Class="UnitedKingdomParliament"/>
+         <ComingIntoForce>
+            <DateTime Date="2024-02-29" Time="00:00:00"/>
+         </ComingIntoForce>
+      </SecondaryMetadata>
+   </Metadata>
+   <Secondary>
+      <SecondaryPrelims>
+         <Draft>
+            <Para>
+               <Text/>
+            </Para>
+         </Draft>
+         <Number>  2023 No. 1365   </Number>
+         <SubjectInformation>
+            <Subject>
+               <Title>EDUCATION, ENGLAND</Title>
+            </Subject>
+         </SubjectInformation>
+         <Title> The Writtle University College Higher Education Corporation (Dissolution) Order 2023  </Title>
+         <MadeDate>
+            <Text>Made</Text>
+            <DateText>13th December 2023</DateText>
+         </MadeDate>
+         <LaidDate>
+            <Text>Laid before Parliament</Text>
+            <DateText>15th December 2023</DateText>
+         </LaidDate>
+         <ComingIntoForce>
+            <Text>Coming into force</Text>
+            <DateText>29th February 2024</DateText>
+         </ComingIntoForce>
+         <SecondaryPreamble>
+            <EnactingText>
+               <Para>
+                  <Text>The Secretary of State, on request given by notice by the higher education corporation known as Writtle University College<FootnoteRef Ref="f00001"/>, makes the following Order in exercise of the powers conferred by section 127A of the Education Reform Act 1988<FootnoteRef Ref="f00002"/>.</Text>
+               </Para>
+               <Para>
+                  <Text>In accordance with section 127A(2) of that Act the higher education corporation known as Anglia Ruskin University<FootnoteRef Ref="f00003"/>, being a body corporate established for purposes which include the provision of educational facilities or services within the meaning of section 127A(1)(b)(ii) of that Act, has consented to the transfer of the property, rights and liabilities of the higher education corporation known as Writtle University College.</Text>
+               </Para>
+               <Para>
+                  <Text>In accordance with section 127A(5) of that Act the Secretary of State has consulted the Office for Students.</Text>
+               </Para>
+            </EnactingText>
+         </SecondaryPreamble>
+      </SecondaryPrelims>
+      <Body>
+         <P1group>
+            <Title>Citation, commencement and extent</Title>
+            <P1 id="regulation-1">
+               <Pnumber>1</Pnumber>
+               <P1para>
+                  <P2 id="regulation-1-1">
+                     <Pnumber>1</Pnumber>
+                     <P2para>
+                        <Text>  This Order may be cited as the Writtle University College Higher Education Corporation (Dissolution) Order 2023.</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="regulation-1-2">
+                     <Pnumber>2</Pnumber>
+                     <P2para>
+                        <Text>  This Order comes into force on 29th February 2024.</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="regulation-1-3">
+                     <Pnumber>3</Pnumber>
+                     <P2para>
+                        <Text>  This Order extends to England and Wales.</Text>
+                     </P2para>
+                  </P2>
+               </P1para>
+            </P1>
+         </P1group>
+         <P1group>
+            <Title>Dissolution of Writtle University College</Title>
+            <P1 id="regulation-2">
+               <Pnumber>2</Pnumber>
+               <P1para>
+                  <Text>The higher education corporation known as Writtle University College shall be dissolved at 5.00pm on 29th February 2024 and all of its property, rights and liabilities shall be transferred to the higher education corporation known as Anglia Ruskin University.</Text>
+               </P1para>
+            </P1>
+         </P1group>
+         <SignedSection>
+            <Signatory>
+               <Signee>
+                  <PersonName>Robert Halfon</PersonName>
+                  <JobTitle>Minister of State</JobTitle>
+                  <DateSigned Date="2023-12-13">
+                     <DateText>13th December 2023</DateText>
+                  </DateSigned>
+                  <Department>Department for Education</Department>
+               </Signee>
+            </Signatory>
+         </SignedSection>
+      </Body>
+      <ExplanatoryNotes>
+         <Title>Explanatory Note</Title>
+         <Comment>
+            <Para>
+               <Text>(This note is not part of the Order)</Text>
+            </Para>
+         </Comment>
+         <P>
+            <Text>This Order dissolves the higher education corporation known as Writtle University College and provides for all property, rights and liabilities to which it was entitled or subject immediately prior to its dissolution to be transferred to the higher education corporation known as Anglia Ruskin University.</Text>
+         </P>
+         <P>
+            <Text>An impact assessment has not been prepared for this instrument because no, or no significant, impact on the private, voluntary or public sector is foreseen.</Text>
+         </P>
+      </ExplanatoryNotes>
+   </Secondary>
+   <Footnotes>
+      <Footnote id="f00001">
+         <FootnoteText>
+            <Para>
+               <Text>Established as a higher education corporation known as Writtle Agricultural College under section 122A of the Education Reform Act 1988 (c. 40) by S.I. 1994/2019. Section 122A was amended by the Higher Education and Research Act 2017 (c. 29), Schedule 8, paragraph 4. The institution changed its name to Writtle University College by order of the Privy Council dated 5th May 2016.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00002">
+         <FootnoteText>
+            <Para>
+               <Text>1988 c. 40. Section 127A was inserted by the Higher Education and Research Act 2017, Schedule 8, paragraph 16.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00003">
+         <FootnoteText>
+            <Para>
+               <Text>Established as a higher education corporation known as the Essex Institute of Higher Education under section 121 of the Education Reform Act 1988 by S.I. 1988/1799. Section 121 was amended by S.I. 2010/1158 and the Statute Law (Repeals) Act 2004 (c. 14), Schedule 1(7), paragraph 1. By S.I. 1989/410 the higher education corporation known as Cambridgeshire College of Arts and Technology was dissolved and its property, rights and liabilities were transferred to the Essex Institute of Higher Education. This institution subsequently changed its name to Anglia Higher Education College, Anglia Polytechnic University and then Anglia Ruskin University.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+   </Footnotes>
+</Legislation>
