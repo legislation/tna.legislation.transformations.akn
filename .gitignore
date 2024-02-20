@@ -54,5 +54,4 @@ Thumbs.db
 
 # akn2clml test files
 akn2clml/tests/Base-Results/
-akn2clml/tests/Results/
-akn2clml/tests/Results-Develop/
+akn2clml/tests/Results*/

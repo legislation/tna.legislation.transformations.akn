@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="UTF-8"?><akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../schemas/akomantoso30.xsd"><?DMS-Component componentId="43ea8c9b-1337-492b-8613-b618d3250b06" seriesId="0e79043b-c5a9-4c47-93c2-2c8f5c74d669" versionNumber="1"?>
+	
+	<act contains="originalVersion" name="uksi">
+		<meta><?DMS-Component componentId="af701b58-560a-437e-b5f4-39376d85f3e6" seriesId="58fdd595-d46c-41e0-8ccf-84edfca3b182" versionNumber="0"?>
+			
+			<identification source="#ldapp">
+				<FRBRWork>
+					<FRBRthis value="#varWork"/>
+					<FRBRuri value="#varWorkUri"/>
+					<FRBRalias name="ttflConfigHistory" value="#varCHOiid"/>
+					<FRBRdate date="9999-01-01" name="uksi"/>
+					<FRBRauthor href="#varAuthor"/>
+					<FRBRcountry value="GB-SCT"/>
+					<FRBRsubtype value="#varDocSubType"/>
+					<FRBRnumber value="#varProjectId"/>
+					<FRBRname value="#varSITitle"/>
+					<FRBRprescriptive value="true"/>
+					<FRBRauthoritative value="false"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="#varExpression"/>
+					<FRBRuri value="#varExpressionUri"/>
+					<FRBRalias name="ttflVersionDescription" value="#varVDOiid"/>
+					<FRBRdate date="9999-01-01" name="draft"/>
+					<FRBRauthor href="#varAuthor"/>
+					<FRBRversionNumber value=""/>
+					<FRBRauthoritative value="false"/>
+					<FRBRmasterExpression href="" showAs=""/>
+					<FRBRlanguage language="eng"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="#varManifestation"/>
+					<FRBRuri value="#varManifestationUri"/>
+					<FRBRdate date="9999-01-01" name="akn_xml"/>
+					<FRBRauthor href="#varAuthor"/>
+					<FRBRformat value="application/akn+xml"/>
+				</FRBRManifestation>
+			</identification>
+			<references source="#author">
+				<TLCConcept GUID="_884eb090-c304-415c-bed8-ff7aaea3cca3" eId="varDocSubType" href="#varOntologies" showAs="Regulations"/>
+				<TLCConcept GUID="_13a33415-24b7-470f-a5c4-4d4bd9ead220" eId="varSITitle" href="#varOntologies" showAs="The National Health Service Commissioning Board and Clinical Commissioning Groups (Responsibilities and Standing Rules) (Amendment) (No. 2) Regulations 2023"/>
+				<TLCProcess GUID="_d8fa8735-8680-4ddb-ae17-75074ecd1d34" eId="varProcedureType" href="#varOntologies" showAs="Made Negative"/>
+				<TLCProcess GUID="_8ea18c6b-047d-4982-af1d-b59d6bd0dc29" eId="varStageVersion" href="#varOntologies" showAs="1"/>
+				<TLCProcess GUID="_7392746e-36b9-403f-9d68-211625b3488a" eId="varProjectId" href="#varOntologies" showAs="SI000056"/>
+				<TLCProcess GUID="_7f11e097-df72-4161-9b42-8cc2eacdd50f" eId="varWork" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_7fa9028b-8b2d-4635-87ae-511308dd7764" eId="varWorkUri" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_12fb0fd2-9aec-4ee1-9379-8b8a5212a258" eId="varCHOiid" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_bfd06c26-b95f-4247-b57f-ccec9654a553" eId="varExpression" href="#varOntologies" showAs="3524e688-b43b-4be4-8516-b7b452f78c22"/>
+				<TLCProcess GUID="_1735efda-eb79-4a3d-b89f-8edf5df9669a" eId="varExpressionUri" href="#varOntologies" showAs="dma:///45e6b900-8929-11d4-b772-0050da06bfb4/80742cea-0ebb-4cf6-9759-1e52358d9b5b/;guid=3524e688-b43b-4be4-8516-b7b452f78c22;class=Version%20Description"/>
+				<TLCProcess GUID="_7dc6d47d-61e5-49d5-b9a2-fe09b5daaa23" eId="varVDOiid" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_cc183f09-cf6c-46c0-b291-3912d1c34b9e" eId="varManifestation" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_94d4afe1-d9d8-4660-ba3b-cc611658526a" eId="varManifestationUri" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_20ebbe0f-3978-4789-9962-40ab7e264c67" eId="varSIYear" href="#varOntologies" showAs="2023"/>
+				<TLCConcept GUID="_8e632309-1659-4b83-a4b3-4c7e7d06b9b7" eId="varSINoComp" href="#varOntologies" showAs="1105"/>
+				<TLCConcept GUID="_eebb44b3-1b70-4a1e-b330-b37718e018c2" eId="varSINo" href="#varOntologies" showAs="#varSIYear No. #varSINoComp #varSISubsidiaryNos"/>
+				<TLCConcept GUID="_1fb51e96-df86-4f00-9ab3-00b62f0eabdd" eId="varSISubsidiaryNos" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_c53fb368-ce4e-49e8-8cb1-94268ef66df4" eId="varISBN" href="#varOntologies" showAs=""/>
+				<TLCPerson GUID="_aa3e5732-43d2-4cd6-8d4b-2e4f31f61c85" eId="varMinistryAgency" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_a0949e14-c71f-4949-9ab0-5afee4c5d51f" eId="varDocType" href="#varOntologies" showAs="UKSI"/>
+				<TLCProcess GUID="_f74ac5d7-7ac6-4b25-8f56-00418d0b96bc" eId="varSystem" href="#varOntologies" showAs="LDAPP"/>
+				<TLCOrganization GUID="_9e64975f-069f-4709-ad03-c23fba022b14" eId="varAuthor" href="#varOntologies" showAs="UK Government"/>
+				<TLCLocation GUID="_015ea456-1993-45a5-85d0-a0d4b2b7d06c" eId="varJurisdiction" href="#varOntologies" showAs="United Kingdom"/>
+				<TLCConcept GUID="_7b453586-d316-4955-9c8d-f6332c4dd7f5" eId="varOntologies" href="https://www.legislation.gov.uk/ontologies/UK-AKN" showAs="https://www.legislation.gov.uk/ontologies/UK-AKN"/>
+				<TLCConcept GUID="_ce12bef1-0766-45b4-ae92-d4496aef6ffb" eId="varCommenceDate" href="#varOntologies" showAs="2024-01-01T00:00:00.000"/>
+				<TLCConcept GUID="_f8ece2fe-60a8-47de-9878-64b4160f34c1" eId="varMadeDate" href="#varOntologies" showAs="2023-10-17T00:00:00.000"/>
+				<TLCConcept GUID="_f1dfdfca-3b55-4700-ab84-5f634324b02b" eId="varLaidDate" href="#varOntologies" showAs="2023-10-19T00:00:00.000"/>
+			</references>
+		</meta>
+		<preface GUID="_7f1ca0dc-11f8-4cd1-928f-7c3467360177" eId="fnt"><?DMS-Component componentId="9d71b82b-fbb6-4a15-837f-f5cba06efef4" seriesId="121d2570-c37c-47d5-965b-c49a460a2ff0" versionNumber="0"?>
+			
+			<block GUID="_b0e78358-9e56-47b4-8a32-c015e1b78ac2" eId="fnt__banner" name="banner">STATUTORY INSTRUMENTS</block>
+			<block GUID="_a55968dc-814c-42c2-9005-83663423933e" eId="fnt__no" name="number">
+				<docNumber GUID="_789da54e-b97e-4788-9e83-26be8c24a23c" eId="fnt__no__dno"> <ref class="placeholder" href="#varSINo"/> </docNumber>
+			</block>
+			<container name="subjects">
+				<container GUID="_c38bc91a-b5d9-4717-8a48-94908438e519" eId="fnt__subject" name="subject">
+					<block name="subject"><concept class="title" refersTo="">MENTAL HEALTH</concept><concept class="title" refersTo="">, ENGLAND</concept></block>
+				</container>
+				<container GUID="_bfaae60b-dd8f-42f4-a890-974653ba64ca" eId="fnt__subject__oc_2" name="subject">
+					<block name="subject"><concept class="title" refersTo="">NATIONAL HEALTH SERVICE</concept><concept class="title" refersTo="">, ENGLAND</concept></block>
+				</container>
+			</container>
+			<block GUID="_b16ef320-5a6b-4649-9e28-36204c60e0cc" eId="fnt__st" name="title"><docTitle GUID="_0dab4c62-d8c1-4620-9064-b7f7b07c5494" eId="fnt__st__dtitle"> <ref class="placeholder" href="#varSITitle"/> </docTitle> </block>
+			<container GUID="_27d10008-ecf4-4391-9d10-3e3810c4db91" eId="fnt__dates" name="dates">
+				<block GUID="_c9aacfc3-6992-4e3c-9f37-0f9bc48f9ab5" eId="fnt__dates__madeDate" name="madeDate"><span>Made</span><docDate GUID="_b24894be-e4c9-4c41-98b7-1792d998d1d4" date="2023-10-17T00:00:00.000" eId="fnt__dates__madeDate__ddate"><ref class="placeholder" href="#varMadeDate" ukl:dateFormat="d'th' MMMM yyyy">17th October 2023</ref></docDate></block>
+				<block GUID="_71549a19-7041-4194-9192-0b4cc1c81bc3" eId="fnt__dates__laidDate" name="laidDate"><span>Laid before Parliament</span><docDate GUID="_3ed2d9b2-cc9f-4808-860b-e420f17cedd7" date="2023-10-19T00:00:00.000" eId="fnt__dates__laidDate__ddate"><ref class="placeholder" href="#varLaidDate" ukl:dateFormat="d'th' MMMM yyyy">19th October 2023</ref></docDate></block>
+				<block GUID="_09bc26ba-5d6d-4bd6-a3c5-6d236cdba289" eId="fnt__dates__commenceDate" name="commenceDate"><span>Coming into force</span><docDate GUID="_f473022f-0078-40d9-8723-6218bc208690" date="2024-01-01T00:00:00.000" eId="fnt__dates__commenceDate__ddate"><ref class="placeholder" href="#varCommenceDate" ukl:dateFormat="d'th' MMMM yyyy">1st January 2024</ref></docDate></block>
+			</container>
+		</preface>
+		<preamble GUID="_944a4537-227b-4331-817e-d10043d4809e" eId="preamble"><?DMS-Component componentId="cfe6f4b4-ec9a-4ba9-ad14-9e3756c917c7" seriesId="b0716216-6aa9-473f-b186-c3ecb5c04443" versionNumber="1"?>
+			
+			<formula GUID="_03d8bed6-e703-4513-90ee-c48eb6cc537f" eId="preamble__enactingWords" name="enactingText">
+				<p>The Secretary of State makes these <ref class="placeholder" href="#varDocSubType"/> in exercise of the powers conferred by sections 6E(1A), (1B) and (2) and 272(7) and (8) of the National Health Service Act 2006<authorialNote GUID="_abe64db5-d635-461b-8ab2-e88b75eac98d" class="footnote" eId="fnote_1" marker="1">
+					<p>2006 c. 41. Section 6E was inserted by section 20(1) of the Health and Social Care Act 2012 (c. 7); relevant amendments were made by section 78(1) and (2) of, and paragraph 1(1) and (2) of Schedule 1 and paragraphs 86 and 89(1) and (3) of Schedule 4 to, the Health and Care Act 2022 (c. 31).</p>
+					</authorialNote>.</p>
+			</formula>
+		</preamble>
+		<body><?DMS-Component componentId="5f43c45a-5b4f-4456-b109-40f6377eb1b2" seriesId="c05d578c-107d-4f76-b490-9a5b2dfe46db" versionNumber="1"?>
+			
+			<hcontainer GUID="_9fadd474-0e2e-43af-a21a-cbbeef9e5761" class="prov1" eId="reg_1" name="regulation"><?DMS-Component componentId="3984d0b4-5f11-45e4-be0b-52e511d0ed95" seriesId="01ae3301-7913-427b-b8bb-0a78c293c574" versionNumber="1"?>
+				
+				<heading GUID="_36b5d237-8c79-442c-b780-7f3e787cb92f" eId="reg_1__hdg">Citation, commencement, extent and application</heading>
+				<num>1.</num>
+				<intro GUID="_0610fe9a-4e1f-42c8-8ba3-2e7a313119d1" eId="reg_1__intro">
+					<p>These Regulations—</p>
+				</intro>
+				<level GUID="_70088638-279b-44cb-9432-171c073c5eb0" class="para1" eId="reg_1__para_a">
+					<num>(a)</num>
+					<content>
+						<p>may be cited as the National Health Service Commissioning Board and Clinical Commissioning Groups (Responsibilities and Standing Rules) (Amendment) (No. 2) Regulations 2023,</p>
+					</content>
+				</level>
+				<level GUID="_66127867-0f83-4c9c-b7e0-4a651e67056c" class="para1" eId="reg_1__para_b">
+					<num>(b)</num>
+					<content>
+						<p>come into force on 1st January 2024,</p>
+					</content>
+				</level>
+				<level GUID="_752ca694-7c18-43ae-86c2-c1a5347e8287" class="para1" eId="reg_1__para_c">
+					<num>(c)</num>
+					<content>
+						<p>extend to England and Wales, and</p>
+					</content>
+				</level>
+				<level GUID="_9346590a-8f39-4ab9-9437-575e13a97583" class="para1" eId="reg_1__para_d">
+					<num>(d)</num>
+					<content>
+						<p>apply in relation to England only.</p>
+					</content>
+				</level>
+			</hcontainer>
+			<hcontainer GUID="_2d2849cf-a1ad-48af-9430-dd446c6d6ac8" class="prov1" eId="reg_2" name="regulation"><?DMS-Component componentId="c9c6697c-a83a-4a36-acd9-2affb33b55c7" seriesId="9be939f2-9129-4f9e-996f-02b50bb9b52a" versionNumber="0"?>
+				
+				<heading GUID="_d20ee26f-1de2-4775-b7de-0b7703f77196" eId="reg_2__hdg">Amendment of the National Health Service Commissioning Board and Clinical Commissioning Groups (Responsibilities and Standing Rules) Regulations 2012</heading>
+				<num>2.</num>
+				<paragraph GUID="_747641a8-9e09-4d38-b980-0be699f40c75" class="prov2" eId="reg_2__para_1">
+					<num>(1)</num>
+					<content>
+						<p>The National Health Service Commissioning Board and Clinical Commissioning Groups (Responsibilities and Standing Rules) Regulations 2012<authorialNote GUID="_3815a400-4995-4d87-9fd7-68015933f8f9" class="footnote" eId="fnote_2" marker="2">
+							<p>S.I. 2012/2996 (“the Standing Rules”); relevant amendments were made by S.I. 2013/2891 and are prospectively made by S.I. 2023/1071. Under section 1 of the Health and Care Act 2022, the NHS Commissioning Board was renamed NHS England. On 1 July 2022, in accordance with Chapter A3 of Part 2 of the National Health Service Act 2006 (as inserted by section 19 of the Health and Care Act 2022) and S.I. 2022/632, NHS England established integrated care boards to take on the commissioning functions of clinical commissioning groups. As a consequence of those changes, paragraph 1(1) of the Schedule to S.I. 2022/634 substitutes references to “clinical commissioning group” with “integrated care board” in the Standing Rules. In addition, in accordance with paragraph 1(3) of Schedule 1 to the Health and Care Act 2022, the references to the “NHS Commissioning Board” in the Standing Rules are to be read, in relation to any time on or after 1 July 2022, as a reference to “NHS England”.</p>
+							</authorialNote> are amended as follows.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_0671c3bc-0bbd-4259-a3c2-d6dea76e05dd" class="prov2" eId="reg_2__para_2">
+					<num>(2)</num>
+					<intro GUID="_4b28200e-23e4-44ac-9d79-4c186bb888cf" eId="reg_2__para_2__intro">
+						<p>In regulation 38—</p>
+					</intro>
+					<level GUID="_70f6eb5b-c284-410d-b2b0-f8f5908232d5" class="para1" eId="reg_2__para_2__para_a">
+						<num>(a)</num>
+						<content>
+							<p>omit the definition of “Choice Directions”;</p>
+						</content>
+					</level>
+					<level GUID="_b48f217d-4849-47bc-97a9-e0768cef9b22" class="para1" eId="reg_2__para_2__para_b">
+						<num>(b)</num>
+						<content>
+							<p><mod>for the definition of “elective referral”, substitute—<quotedStructure GUID="_59c30a46-0c6b-485f-90e6-fd03abc2198d" eId="reg_2__para_2__para_b__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+								<hcontainer GUID="_962d97a2-a46a-4b5c-aa0e-87689c44841f" class="definition" eId="reg_2__para_2__para_b__qstr__def_electivereferral_" name="definition">
+									<intro GUID="_bbadf8ec-268a-4993-877e-0628b9488e4a" eId="reg_2__para_2__para_b__qstr__def_electivereferral__intro">
+										<p><def GUID="_5678e959-2d06-4cc0-b619-512d13c59906" eId="reg_2__para_2__para_b__qstr__def_electivereferral" ukl:endQuote="”" ukl:startQuote="“">elective referral</def> means referral by—</p>
+									</intro>
+									<level GUID="_d9d7c1f5-b9f4-44e2-a5d7-13f24c1d3dfa" class="para1" eId="reg_2__para_2__para_b__qstr__def_electivereferral__para_a">
+										<num>(a)</num>
+										<content>
+											<p>a general medical practitioner,</p>
+										</content>
+									</level>
+									<level GUID="_b31f497f-b8c1-4bce-a6cc-229be083dfbb" class="para1" eId="reg_2__para_2__para_b__qstr__def_electivereferral__para_b">
+										<num>(b)</num>
+										<content>
+											<p>a general dental practitioner, or</p>
+										</content>
+									</level>
+									<level GUID="_42a12f02-48b0-4363-b27f-c2598cfe732c" class="para1" eId="reg_2__para_2__para_b__qstr__def_electivereferral__para_c">
+										<num>(c)</num>
+										<content>
+											<p>an optometrist,</p>
+										</content>
+									</level>
+									<wrapUp GUID="_7b1fe097-d623-4685-a525-57b96ca3e459" eId="reg_2__para_2__para_b__qstr__def_electivereferral__wrapup">
+										<p>to a health service provider, including when the referral is first assessed by a person providing interface services, for treatment that is not identified as being immediately required at the time of referral;</p>
+									</wrapUp>
+								</hcontainer>
+								</quotedStructure><inline name="AppendText">;</inline></mod> </p>
+						</content>
+					</level>
+					<level GUID="_0bd24bbf-dc0b-410c-9778-1cd48c226084" class="para1" eId="reg_2__para_2__para_c">
+						<num>(c)</num>
+						<content>
+							<p><mod>before the definition of “prison”, insert—<quotedStructure GUID="_092b43db-2e06-4ecd-bc7f-677d3cd26aa5" eId="reg_2__para_2__para_c__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+								<hcontainer GUID="_304d4e9a-9019-4dc8-9410-10bd7cf3fb95" class="definition" eId="reg_2__para_2__para_c__qstr__def_interfaceservices_" name="definition">
+									<intro GUID="_f7990e32-995d-4232-894c-235f638d1b36" eId="reg_2__para_2__para_c__qstr__def_interfaceservices__intro">
+										<p><def GUID="_b3c06942-6df0-4251-ab6a-82b57cd02932" eId="reg_2__para_2__para_c__qstr__def_interfaceservices" ukl:endQuote="”" ukl:startQuote="“">interface services</def> means services that are provided otherwise than by—</p>
+									</intro>
+									<level GUID="_acda04a7-9d71-4699-8900-3b049b0294d1" class="para1" eId="reg_2__para_2__para_c__qstr__def_interfaceservices__para_a">
+										<num>(a)</num>
+										<content>
+											<p>a consultant,</p>
+										</content>
+									</level>
+									<level GUID="_db80fbb9-ecea-4740-a3ea-b4fc4323591c" class="para1" eId="reg_2__para_2__para_c__qstr__def_interfaceservices__para_b">
+										<num>(b)</num>
+										<content>
+											<p>a consultant-led team, or</p>
+										</content>
+									</level>
+									<level GUID="_ecdb1c16-9c21-41df-9de6-9e7d183d01ee" class="para1" eId="reg_2__para_2__para_c__qstr__def_interfaceservices__para_c">
+										<num>(c)</num>
+										<content>
+											<p>a health care professional specialising in mental health services,</p>
+										</content>
+									</level>
+									<wrapUp GUID="_17013df8-8c24-466b-ae64-307a4be0cde9" eId="reg_2__para_2__para_c__qstr__def_interfaceservices__wrapup">
+										<p>which provide clinical triage, assessment and treatment services, but does not include services provided under a primary care contract;</p>
+									</wrapUp>
+								</hcontainer>
+								<hcontainer GUID="_79fdbb19-de1d-4796-ace2-6d7c167cd7c8" class="definition" eId="reg_2__para_2__para_c__qstr__def_NHSStandardContract_" name="definition">
+									<content>
+										<p><def GUID="_bb98e6cc-a541-4be2-8e9c-2b5d6221482f" eId="reg_2__para_2__para_c__qstr__def_NHSStandardContract" ukl:endQuote="”" ukl:startQuote="“">NHS Standard Contract</def> means a contract in the form of a model commissioning contract drafted by NHS England pursuant to regulation 17(2);</p>
+									</content>
+								</hcontainer>
+								</quotedStructure><inline name="AppendText">.</inline></mod> </p>
+						</content>
+					</level>
+				</paragraph>
+				<paragraph GUID="_37d3eb10-5b01-4e6c-9f43-e963cf0cf9bc" class="prov2" eId="reg_2__para_3">
+					<num>(3)</num>
+					<intro GUID="_9e03b384-91e4-4157-8b45-fdf6207e8639" eId="reg_2__para_3__intro">
+						<p>In regulation 39—</p>
+					</intro>
+					<level GUID="_fee9ff07-d436-4ef3-b1ca-5af7bd48078c" class="para1" eId="reg_2__para_3__para_a">
+						<num>(a)</num>
+						<intro GUID="_1946223e-f562-4188-a5fb-9b289cdc3b9d" eId="reg_2__para_3__para_a__intro">
+							<p>in paragraph (2)(a)—</p>
+						</intro>
+						<level GUID="_26f34024-723c-43e3-afb0-97dda86f788d" class="para2" eId="reg_2__para_3__para_a__subpara_i">
+							<num>(i)</num>
+							<content>
+								<p>after “member of a consultant's team”, insert “, inclusive of any subsequent treatment required as a result of that elective referral”;</p>
+							</content>
+						</level>
+						<level GUID="_b51a4e1f-d3a1-4347-b724-35dec26b422a" class="para2" eId="reg_2__para_3__para_a__subpara_ii">
+							<num>(ii)</num>
+							<content>
+								<p>in paragraph (i), for “commissioning contract for the service required as a result of the referral”, substitute “qualifying contract”;</p>
+							</content>
+						</level>
+					</level>
+					<level GUID="_30fb2f15-47ba-4987-9f98-3326a6d43078" class="para1" eId="reg_2__para_3__para_b">
+						<num>(b)</num>
+						<intro GUID="_abf49167-e617-4170-a0e4-519f94ff414e" eId="reg_2__para_3__para_b__intro">
+							<p>in paragraph (2)(b)—</p>
+						</intro>
+						<level GUID="_cd249101-1b27-4bac-86ad-6de802169fc8" class="para2" eId="reg_2__para_3__para_b__subpara_i">
+							<num>(i)</num>
+							<content>
+								<p>after “member of a consultant's team”, insert “, inclusive of any subsequent treatment required as a result of that elective referral”;</p>
+							</content>
+						</level>
+						<level GUID="_5ccc6f4c-2e21-4327-9cfe-8f5e272f360b" class="para2" eId="reg_2__para_3__para_b__subpara_ii">
+							<num>(ii)</num>
+							<content>
+								<p>in paragraph (i), for “commissioning contract for the service required as a result of the referral”, substitute “qualifying contract”;</p>
+							</content>
+						</level>
+					</level>
+					<level GUID="_6761f61d-6513-46b3-b19f-415a4703f67d" class="para1" eId="reg_2__para_3__para_c">
+						<num>(c)</num>
+						<content>
+							<p>in paragraph (5), for “those paragraphs”, substitute “that paragraph”;</p>
+						</content>
+					</level>
+					<level GUID="_d3706c40-f1a3-4a01-a078-b538a5ee7c9b" class="para1" eId="reg_2__para_3__para_d">
+						<num>(d)</num>
+						<content>
+							<p><mod>after paragraph (6), insert—<quotedStructure GUID="_e9ad552c-df1d-41d0-85d5-58b0cd3aae4e" eId="reg_2__para_3__para_d__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+								<paragraph GUID="_a8013650-aac2-4893-9ba7-808b909e1f29" class="prov2" eId="reg_2__para_3__para_d__qstr__para_7">
+									<num ukl:autonumber="no">(7)</num>
+									<intro GUID="_11decdf6-d159-4724-b68a-901a0a31898f" eId="reg_2__para_3__para_d__qstr__para_7__intro">
+										<p>Where—</p>
+									</intro>
+									<level GUID="_40e15f87-db32-492a-b107-645311740141" class="para1" eId="reg_2__para_3__para_d__qstr__para_7__para_a">
+										<num>(a)</num>
+										<content>
+											<p>a person makes a choice pursuant to the arrangements required by paragraph (1), and</p>
+										</content>
+									</level>
+									<level GUID="_0382d0f3-fab8-43f9-883a-fcc4d6d043a7" class="para1" eId="reg_2__para_3__para_d__qstr__para_7__para_b">
+										<num>(b)</num>
+										<content>
+											<p>the relevant body which is responsible for that person does not have in place a commissioning contract for the service required as a result of the referral,</p>
+										</content>
+									</level>
+									<wrapUp GUID="_ed746bd7-e94d-458e-ab68-0181d80b9db7" eId="reg_2__para_3__para_d__qstr__para_7__wrapup">
+										<p>the terms of the qualifying contract referred to in paragraph (2) under which the service is to be provided apply to the provision of the service required in respect of the person’s referral.</p>
+									</wrapUp>
+								</paragraph>
+								<paragraph GUID="_15972c49-29c3-4f67-83c7-e52064f6df6a" class="prov2" eId="reg_2__para_3__para_d__qstr__para_8">
+									<num>(8)</num>
+									<intro GUID="_31fabd55-18ea-4dcc-89fc-59f1fb69d2d0" eId="reg_2__para_3__para_d__qstr__para_8__intro">
+										<p>In this regulation, “qualifying contract” means an NHS Standard Contract which—</p>
+									</intro>
+									<level GUID="_ad5e9c58-2bbe-45ff-a719-0d95e020f5e6" class="para1" eId="reg_2__para_3__para_d__qstr__para_8__para_a">
+										<num>(a)</num>
+										<content>
+											<p>is signed and in effect before the date on which the referral is made,</p>
+										</content>
+									</level>
+									<level GUID="_b2460f85-a2c5-4620-b4bf-a210eb4fc3ac" class="para1" eId="reg_2__para_3__para_d__qstr__para_8__para_b">
+										<num>(b)</num>
+										<content>
+											<p>is a commissioning contract for the service required as a result of the referral,</p>
+										</content>
+									</level>
+									<level GUID="_2f003c84-1127-43b5-80df-0e99b9b4d130" class="para1" eId="reg_2__para_3__para_d__qstr__para_8__para_c">
+										<num>(c)</num>
+										<content>
+											<p>requires that service to be provided from the location specified in that contract or sets out the criteria specified in that contract which determine the means by which a service will be accessible to patients, and</p>
+										</content>
+									</level>
+									<level GUID="_1efa2e1e-146b-49d9-9367-d4e28ce8d794" class="para1" eId="reg_2__para_3__para_d__qstr__para_8__para_d">
+										<num>(d)</num>
+										<content>
+											<p>is not a contract put in place solely to provide that service to a specified individual.</p>
+										</content>
+									</level>
+								</paragraph>
+								</quotedStructure><inline name="AppendText">.</inline></mod> </p>
+						</content>
+					</level>
+				</paragraph>
+				<paragraph GUID="_0a55f7c8-e2a6-4b9d-b0e1-368fa2d8fef8" class="prov2" eId="reg_2__para_4">
+					<num>(4)</num>
+					<content>
+						<p><mod>After regulation 42, insert—<quotedStructure GUID="_3f5ff957-f776-410b-b7b4-47a5204a5b6c" eId="reg_2__para_4__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+							<hcontainer GUID="_b1800f4e-ddec-47d1-83c4-c6d3f5d13173" class="prov1" eId="reg_2__para_4__qstr__reg_42A" name="regulation">
+								<heading GUID="_c7ed4309-160d-4c81-8346-4d66321a503e" eId="reg_2__para_4__qstr__reg_42A__hdg">Patient choice: primary medical services</heading>
+								<num ukl:autonumber="no">42A.</num>
+								<paragraph GUID="_78c97c4b-deb9-4edc-b8c3-ab99230706d6" class="prov2" eId="reg_2__para_4__qstr__reg_42A__para_1">
+									<num>(1)</num>
+									<intro GUID="_5ec7f573-1ccf-4602-912d-3ae426a64e30" eId="reg_2__para_4__qstr__reg_42A__para_1__intro">
+										<p>NHS England must not restrict the ability of a person—</p>
+									</intro>
+									<level GUID="_7bbe3e9b-8f11-4bc7-938d-392afe42b67f" class="para1" eId="reg_2__para_4__qstr__reg_42A__para_1__para_a">
+										<num>(a)</num>
+										<content>
+											<p>to apply for inclusion in the list of patients of the practice of the person’s choice;</p>
+										</content>
+									</level>
+									<level GUID="_f33379e9-1cd7-4285-ab7e-449aa810a461" class="para1" eId="reg_2__para_4__qstr__reg_42A__para_1__para_b">
+										<num>(b)</num>
+										<intro GUID="_2cc1b6c8-2fed-4f21-8fd2-edecfec08c5a" eId="reg_2__para_4__qstr__reg_42A__para_1__para_b__intro">
+											<p>to express a preference to receive services from—</p>
+										</intro>
+										<level GUID="_b58e5b52-d69f-407e-a9fa-5671b71068bc" class="para2" eId="reg_2__para_4__qstr__reg_42A__para_1__para_b__subpara_i">
+											<num>(i)</num>
+											<content>
+												<p>the practice in whose list of patients the person is included, or</p>
+											</content>
+										</level>
+										<level GUID="_c485af7f-7801-47c7-aa77-c0180d5c15c0" class="para2" eId="reg_2__para_4__qstr__reg_42A__para_1__para_b__subpara_ii">
+											<num>(ii)</num>
+											<content>
+												<p>a particular performer or class of performer,</p>
+											</content>
+										</level>
+										<wrapUp GUID="_f0892b37-765e-4e75-897e-804215013446" eId="reg_2__para_4__qstr__reg_42A__para_1__para_b__wrapup">
+											<p>either generally or in relation to any particular condition.</p>
+										</wrapUp>
+									</level>
+								</paragraph>
+								<paragraph GUID="_5e1b99ba-890e-4e29-8c11-5f692add54ef" class="prov2" eId="reg_2__para_4__qstr__reg_42A__para_2">
+									<num>(2)</num>
+									<intro GUID="_90b9c18c-8a50-4a2a-8e42-494ff5d710f3" eId="reg_2__para_4__qstr__reg_42A__para_2__intro">
+										<p>Paragraph (1) does not apply to the inclusion in a contractor’s contract of any term which provides for the contractor to refuse an application for inclusion in its list of patients, or not to agree to any preference expressed to receive services from a particular performer or class of performer, in accordance with—</p>
+									</intro>
+									<level GUID="_bd0e1408-60f5-4053-9373-8578736200e0" class="para1" eId="reg_2__para_4__qstr__reg_42A__para_2__para_a">
+										<num>(a)</num>
+										<content>
+											<p>Part 2 of Schedule 3 to the National Health Service (General Medical Services Contracts) Regulations 2015<authorialNote GUID="_a7b3e6f9-f1e5-407f-ace2-a2252f8649dd" class="footnote" eId="fnote_3" marker="3">
+												<p>S.I. 2015/1862, as amended by S.I. 2017/908, 2018/844, 2020/911, 2021/995, 2022/935 and 2023/449.</p>
+												</authorialNote> (other contractual terms - patients: general),</p>
+										</content>
+									</level>
+									<level GUID="_3ae770c0-3251-40aa-9666-11ef8917f74f" class="para1" eId="reg_2__para_4__qstr__reg_42A__para_2__para_b">
+										<num>(b)</num>
+										<content>
+											<p>Part 2 of Schedule 2 to the National Health Service (Personal Medical Services Agreements) Regulations 2015<authorialNote GUID="_a6639c86-d919-44a7-b912-0f5ee2448256" class="footnote" eId="fnote_4" marker="4">
+												<p>S.I. 2015/1879, as amended by S.I. 2017/908, 2018/844, 2019/1137, 2020/226, 351 and 911, 2021/995, 2022/935 and 2023/449.</p>
+												</authorialNote> (other required terms - patients: general), or</p>
+										</content>
+									</level>
+									<level GUID="_d7f6b012-6410-4c14-ab64-b6b9a2fe6404" class="para1" eId="reg_2__para_4__qstr__reg_42A__para_2__para_c">
+										<num>(c)</num>
+										<content>
+											<p>arrangements for the provision of primary medical services made under section 83(2) of the 2006 Act<authorialNote GUID="_d4f15332-35e5-4d63-9df8-792eedd86d42" class="footnote" eId="fnote_5" marker="5">
+												<p>Section 83 was substituted by paragraphs 1 and 3 of Schedule 3 to the Health and Care Act 2022 and amended, so far as relevant, by paragraph 1(1) and (2) of Schedule 1 to that Act.</p>
+												</authorialNote> (primary medical services).</p>
+										</content>
+									</level>
+								</paragraph>
+								<paragraph GUID="_1d748611-f664-4616-9cb5-e66fd41a307f" class="prov2" eId="reg_2__para_4__qstr__reg_42A__para_3">
+									<num>(3)</num>
+									<intro GUID="_25757df7-bc32-4ccb-bec6-adfa390d4cc3" eId="reg_2__para_4__qstr__reg_42A__para_3__intro">
+										<p>In this regulation—</p>
+									</intro>
+									<hcontainer GUID="_05feb3f0-87d3-4d23-b102-11c5adb572d4" class="definition" eId="reg_2__para_4__qstr__reg_42A__para_3__def_contract_" name="definition">
+										<intro GUID="_efdf015c-dcd1-4916-a18c-a98b1a405f7a" eId="reg_2__para_4__qstr__reg_42A__para_3__def_contract__intro">
+											<p><def GUID="_c0780a4a-b82b-4bfe-af9a-f7472b40b2d0" eId="reg_2__para_4__qstr__reg_42A__para_3__def_contract" ukl:endQuote="”" ukl:startQuote="“">contract</def> means, as the case may be—</p>
+										</intro>
+										<level GUID="_0459c773-b2e5-4691-b953-1da401e90b20" class="para1" eId="reg_2__para_4__qstr__reg_42A__para_3__def_contract__para_a">
+											<num>(a)</num>
+											<content>
+												<p>an arrangement for the provision of primary medical services made under section 83(2) of the 2006 Act, including any arrangements which are made in reliance on a combination of that provision and any other powers to arrange for the provision of health care services for the purposes of the NHS,</p>
+											</content>
+										</level>
+										<level GUID="_24c49743-7a2a-4fb3-b48d-a6d6a4e2fa82" class="para1" eId="reg_2__para_4__qstr__reg_42A__para_3__def_contract__para_b">
+											<num>(b)</num>
+											<content>
+												<p>a general medical services contract made under section 84(1) of the 2006 Act<authorialNote GUID="_ad0e38b0-33cc-4300-a440-a068b4ed8868" class="footnote" eId="fnote_6" marker="6">
+													<p>Section 84(1) was amended by paragraph 31(1) and (2) of Schedule 4 to the Health and Social Care Act 2012 and paragraphs 1 and 4(1) and (2) of Schedule 3 to the Health and Care Act 2022.</p>
+													</authorialNote> (general medical services contracts), or</p>
+											</content>
+										</level>
+										<level GUID="_0d089cc7-9e03-457b-801d-66d5a81f144a" class="para1" eId="reg_2__para_4__qstr__reg_42A__para_3__def_contract__para_c">
+											<num>(c)</num>
+											<content>
+												<p>an agreement made in accordance with section 92 of the 2006 Act<authorialNote GUID="_307a9abb-5d29-4747-a0f2-9133ab449f51" class="footnote" eId="fnote_7" marker="7">
+													<p>Section 92 was amended by paragraph 36(1) and (2) of Schedule 4 to the Health and Social Care Act 2012 and by paragraph 1(1) and (2) of Schedule 1 and paragraphs 1 and 9(1) to (4) of Schedule 3 to the Health and Care Act 2022.</p>
+													</authorialNote> (arrangements by the Board for the provision of primary medical services);</p>
+											</content>
+										</level>
+									</hcontainer>
+									<hcontainer GUID="_675acf00-e205-431d-ae44-2743e494eb34" class="definition" eId="reg_2__para_4__qstr__reg_42A__para_3__def_contractor_" name="definition">
+										<content>
+											<p><def GUID="_c4f65aef-98cd-4642-88df-d2bdb016f321" eId="reg_2__para_4__qstr__reg_42A__para_3__def_contractor" ukl:endQuote="”" ukl:startQuote="“">contractor</def> means a person who has entered into a contract with NHS England;</p>
+										</content>
+									</hcontainer>
+									<hcontainer GUID="_4883bee8-980e-4526-a4a1-dba1b3674b1e" class="definition" eId="reg_2__para_4__qstr__reg_42A__para_3__def_theNHS_" name="definition">
+										<content>
+											<p><def GUID="_4a21a7df-7063-4a6b-bad3-6d796b13cbea" eId="reg_2__para_4__qstr__reg_42A__para_3__def_theNHS" ukl:endQuote="”" ukl:startQuote="“">the NHS</def> means the comprehensive health service continued under section 1(1) of the 2006 Act<authorialNote GUID="_4f7f2f94-da6d-4bff-9911-f2cdf13d5c5f" class="footnote" eId="fnote_18" marker="18">
+												<p>Section 1 was substituted by section 1 of the Health and Social Care Act 2012 (c. 7).</p>
+												</authorialNote>, except the part of it that is provided in pursuance of the public health functions (within the meaning of that Act) of the Secretary of State or local authorities;</p>
+										</content>
+									</hcontainer>
+									<hcontainer GUID="_d6e98017-f961-4203-9438-f406d315178e" class="definition" eId="reg_2__para_4__qstr__reg_42A__para_3__def_performer_" name="definition">
+										<content>
+											<p><def GUID="_ceeb9638-404b-45c1-a849-faaac99d981a" eId="reg_2__para_4__qstr__reg_42A__para_3__def_performer" ukl:endQuote="”" ukl:startQuote="“">performer</def> means a medical practitioner included in a list maintained in accordance with regulations made under section 91(1) of the 2006 Act<authorialNote GUID="_3f458dd7-3f50-4615-afa8-7cf8f9900bcc" class="footnote" eId="fnote_8" marker="8">
+												<p>Section 91(1) was amended by paragraph 35(1) and (2) of Schedule 4 to the Health and Social Care Act 2012 and paragraph 1(1) and (2) of Schedule 1 and paragraph 8(1) and (2) of Schedule 3 to the Health and Care Act 2022.</p>
+												</authorialNote> (persons performing primary medical services);</p>
+										</content>
+									</hcontainer>
+									<hcontainer GUID="_afab0768-e877-4a4d-9932-839b0fcecfa3" class="definition" eId="reg_2__para_4__qstr__reg_42A__para_3__def_practice_" name="definition">
+										<content>
+											<p><def GUID="_d1721b9e-e031-4491-835c-a3b269df7e71" eId="reg_2__para_4__qstr__reg_42A__para_3__def_practice" ukl:endQuote="”" ukl:startQuote="“">practice</def> means the business operated by a contractor for the purposes of delivering primary medical services under Part 4 of the 2006 Act under a contract for the provision of such services.</p>
+										</content>
+									</hcontainer>
+								</paragraph>
+							</hcontainer>
+							<hcontainer GUID="_d2b2e007-8b6d-4be1-920f-c640b4553c91" class="prov1" eId="reg_2__para_4__qstr__reg_42B" name="regulation">
+								<heading GUID="_10abeaff-8bcc-49f5-8068-b6dcb1e2bcd9" eId="reg_2__para_4__qstr__reg_42B__hdg">Requests for NHS Standard Contract assessment</heading>
+								<num>42B.</num>
+								<paragraph GUID="_35dc097a-b8d2-4156-a022-be79f29b793f" class="prov2" eId="reg_2__para_4__qstr__reg_42B__para_1">
+									<num>(1)</num>
+									<intro GUID="_7ffd4367-6725-4f91-be56-020e63f0d6d1" eId="reg_2__para_4__qstr__reg_42B__para_1__intro">
+										<p>This regulation applies in relation to a decision by a relevant body as to whether it should offer an NHS Standard Contract to a provider where the service being offered by the provider is one which the relevant body arranges or intends to arrange for the persons for whom it has responsibility and in respect of which (if that provider held such a contract) a patient would be permitted to choose that provider as a provider—</p>
+									</intro>
+									<level GUID="_a1fc75bb-34b5-4e45-96bb-e21738c66bf5" class="para1" eId="reg_2__para_4__qstr__reg_42B__para_1__para_a">
+										<num>(a)</num>
+										<content>
+											<p>in accordance with regulation 39, or</p>
+										</content>
+									</level>
+									<level GUID="_c31c04d8-1d28-41bd-92f2-bab9a35a79a0" class="para1" eId="reg_2__para_4__qstr__reg_42B__para_1__para_b">
+										<num>(b)</num>
+										<content>
+											<p>otherwise than in accordance with regulation 39 where the relevant body has not restricted the number of providers from which patients may choose.</p>
+										</content>
+									</level>
+								</paragraph>
+								<paragraph GUID="_5098439e-7850-4cd0-8a14-35d0f60d9b00" class="prov2" eId="reg_2__para_4__qstr__reg_42B__para_2">
+									<num>(2)</num>
+									<content>
+										<p>A provider may express an interest to a relevant body at any time in being assessed for the award of an NHS Standard Contract under this regulation.</p>
+									</content>
+								</paragraph>
+								<paragraph GUID="_5a2aa210-afa1-498e-a46e-5d841ed64501" class="prov2" eId="reg_2__para_4__qstr__reg_42B__para_3">
+									<num>(3)</num>
+									<content>
+										<p>Where a provider expresses an interest under paragraph (2), the relevant body must make available to that provider any local terms and conditions for inclusion in any supporting schedules of an NHS Standard Contract it proposes to award as a result of an assessment under this regulation.</p>
+									</content>
+								</paragraph>
+								<paragraph GUID="_3215c0a5-92a6-4d97-aafe-2151f08e6c85" class="prov2" eId="reg_2__para_4__qstr__reg_42B__para_4">
+									<num>(4)</num>
+									<intro GUID="_73da0438-7579-40f8-97dc-8eafcc312a5c" eId="reg_2__para_4__qstr__reg_42B__para_4__intro">
+										<p>Following the provision of any local terms and conditions under paragraph (3) (or confirmation from the relevant body that no such terms and conditions are to be included), a provider may request a relevant body to assess it against the criteria in regulation 42C for the purposes of—</p>
+									</intro>
+									<level GUID="_adb386e9-4e3b-44ad-97c1-40b1843d46cf" class="para1" eId="reg_2__para_4__qstr__reg_42B__para_4__para_a">
+										<num>(a)</num>
+										<content>
+											<p>the award of an NHS Standard Contract where the provider does not have an existing NHS Standard Contract with the relevant body, or</p>
+										</content>
+									</level>
+									<level GUID="_975d43ab-53bb-40ad-b579-bbeffacf2b78" class="para1" eId="reg_2__para_4__qstr__reg_42B__para_4__para_b">
+										<num>(b)</num>
+										<intro GUID="_03e1d2b6-4ad6-44f7-8081-b6a3f0d9e13c" eId="reg_2__para_4__qstr__reg_42B__para_4__para_b__intro">
+											<p>the award of a further NHS Standard Contract where the provider already has an existing NHS Standard Contract with the relevant body, but wishes to be assessed in relation to—</p>
+										</intro>
+										<level GUID="_3f9213b1-9595-46a6-a71b-251208795ec9" class="para2" eId="reg_2__para_4__qstr__reg_42B__para_4__para_b__subpara_i">
+											<num>(i)</num>
+											<content>
+												<p>the provision of new services,</p>
+											</content>
+										</level>
+										<level GUID="_6524497f-b99a-460a-9241-61f8e8498880" class="para2" eId="reg_2__para_4__qstr__reg_42B__para_4__para_b__subpara_ii">
+											<num>(ii)</num>
+											<content>
+												<p>the provision of existing services from a location other than that specified in the existing NHS Standard Contract, or</p>
+											</content>
+										</level>
+										<level GUID="_83a1551f-97f2-42e2-b2a0-6a1714c0813d" class="para2" eId="reg_2__para_4__qstr__reg_42B__para_4__para_b__subpara_iii">
+											<num>(iii)</num>
+											<content>
+												<p>a change to the criteria specified in that contract which determine the means by which a service will be accessible to patients.</p>
+											</content>
+										</level>
+									</level>
+								</paragraph>
+								<paragraph GUID="_da096a4e-f536-43b8-9ccb-4ff481ccc01d" class="prov2" eId="reg_2__para_4__qstr__reg_42B__para_5">
+									<num>(5)</num>
+									<content>
+										<p>The relevant body must assess a provider who has made a request under paragraph (4) against the criteria in regulation 42C as soon as reasonably practicable but in any event before expiry of a period of six weeks beginning with the day on which the provider has requested to be assessed against those criteria.</p>
+									</content>
+								</paragraph>
+								<paragraph GUID="_79989bc4-083a-4db3-ac97-024104afd63f" class="prov2" eId="reg_2__para_4__qstr__reg_42B__para_6">
+									<num>(6)</num>
+									<content>
+										<p>Where the criteria in regulation 42C are met, the provider must be offered an NHS Standard Contract, which must include any local terms and conditions referred to in paragraph (3).</p>
+									</content>
+								</paragraph>
+							</hcontainer>
+							<hcontainer GUID="_fcbf6866-7197-4faa-990e-da6074e691e0" class="prov1" eId="reg_2__para_4__qstr__reg_42C" name="regulation">
+								<heading GUID="_aaefbe45-1326-4a0a-a8c8-c35f8cb8625d" eId="reg_2__para_4__qstr__reg_42C__hdg">Qualification of providers: criteria</heading>
+								<num>42C.</num>
+								<intro GUID="_8fdc1f8e-fd9a-417f-a6c4-3091271ee799" eId="reg_2__para_4__qstr__reg_42C__intro">
+									<p>The criteria referred to in regulation 42B(4) to (6) are that—</p>
+								</intro>
+								<level GUID="_18807b15-e68e-45c2-b799-b9c6cd614e56" class="para1" eId="reg_2__para_4__qstr__reg_42C__para_a">
+									<num>(a)</num>
+									<content>
+										<p>the provider must be registered with the Care Quality Commission under Chapter 2 of Part 1 of the Health and Social Care Act 2008<authorialNote GUID="_3df0f959-5f9b-4f60-9a24-4d8160857632" class="footnote" eId="fnote_10" marker="10">
+											<p>2008 c. 14, as amended by section 280(3) of, and paragraphs 154 to 156 of Schedule 5 and paragraphs 14 to 16 of Schedule 13 to, the Health and Social Care Act 2012, sections 81, 82(1) to (4), 86(1) to (3), 87 and 95 of the Care Act 2014 (c. 23), section 1(1) to (3) of the Health and Social Care (Safety and Quality) Act 2015 (c. 28), paragraph 153 of Schedule 19 to the Data Protection Act 2018 (c. 12), sections 173 and 181(1) to (6) of, and paragraph 1(1) and (2) of Schedule 1, paragraphs 160 to 162 of Schedule 4, paragraphs 34 to 37 of Schedule 5 and paragraph 25 of Schedule 8 to, the Health and Care Act 2022 and by S.I. 2009/56, 2015/664, 2018/195, 2022/500, 2022/1200 and 2023/149.</p>
+											</authorialNote> in respect of the regulated activities which are relevant to the services to be provided;</p>
+									</content>
+								</level>
+								<level GUID="_8c252bce-53c1-43f6-bee3-a230f1e7ff73" class="para1" eId="reg_2__para_4__qstr__reg_42C__para_b">
+									<num>(b)</num>
+									<content>
+										<p>the provider must, unless exempt, hold a provider licence issued by NHS England under Chapter 3 of Part 3 of the 2012 Act;</p>
+									</content>
+								</level>
+								<level GUID="_3978ee2f-d6a1-412c-8a89-6379e8012f7f" class="para1" eId="reg_2__para_4__qstr__reg_42C__para_c">
+									<num>(c)</num>
+									<content>
+										<p>the provider must demonstrate to the satisfaction of the relevant body that it will be able to comply with the terms and conditions of the NHS Standard Contract, including those in any supporting schedules, in respect of the services to be provided and in relation to the location from which those services will be provided;</p>
+									</content>
+								</level>
+								<level GUID="_73052f4e-9e45-4fd4-8d09-c485706a4530" class="para1" eId="reg_2__para_4__qstr__reg_42C__para_d">
+									<num>(d)</num>
+									<intro GUID="_d8eb5595-bec3-4ad1-8e17-8209e17bba7f" eId="reg_2__para_4__qstr__reg_42C__para_d__intro">
+										<p>the provider must demonstrate that it—</p>
+									</intro>
+									<level GUID="_a7d89f98-cb64-464f-8219-2fab4e5358b6" class="para2" eId="reg_2__para_4__qstr__reg_42C__para_d__subpara_i">
+										<num>(i)</num>
+										<content>
+											<p>is a member of an NHS Clinical Negligence Scheme under the National Health Service (Clinical Negligence Scheme) Regulations 2015<authorialNote GUID="_72ec4235-b50b-4139-aaa7-3dd550e9b52b" class="footnote" eId="fnote_11" marker="11">
+												<p>S.I. 2015/559, as amended by S.I. 2022/634, 2023/98, 2023/368 and 2023/948.</p>
+												</authorialNote> or the National Health Service (Clinical Negligence Scheme for General Practice) Regulations 2019<authorialNote GUID="_60cb35e8-2067-40cd-a19d-5ce3fc4193a1" class="footnote" eId="fnote_12" marker="12">
+												<p>S.I. 2019/334.</p>
+												</authorialNote>,</p>
+										</content>
+									</level>
+									<level GUID="_56ab33e4-733d-4c4d-b56f-b4b0ed6aca61" class="para2" eId="reg_2__para_4__qstr__reg_42C__para_d__subpara_ii">
+										<num>(ii)</num>
+										<content>
+											<p>has undertaken to join such a scheme, or</p>
+										</content>
+									</level>
+									<level GUID="_fb9caca2-5589-4128-9cba-1966bf5e22e6" class="para2" eId="reg_2__para_4__qstr__reg_42C__para_d__subpara_iii">
+										<num>(iii)</num>
+										<content>
+											<p>has put in place equivalent alternative indemnity arrangements to the satisfaction of the relevant body.</p>
+										</content>
+									</level>
+								</level>
+							</hcontainer>
+							<hcontainer GUID="_b795be02-f371-496b-814e-cdcb692d3e08" class="prov1" eId="reg_2__para_4__qstr__reg_42D" name="regulation">
+								<heading GUID="_9003c29a-30d1-47d1-8ace-be1a9d294f90" eId="reg_2__para_4__qstr__reg_42D__hdg">Modification of existing NHS Standard Contract</heading>
+								<num>42D.</num>
+								<paragraph GUID="_ddfd3f7c-3ea0-4c60-ab62-e3fe856febd0" class="prov2" eId="reg_2__para_4__qstr__reg_42D__para_1">
+									<num>(1)</num>
+									<intro GUID="_b7ecbec2-7eca-45f0-9922-0fe06eeef528" eId="reg_2__para_4__qstr__reg_42D__para_1__intro">
+										<p>Regulation 42B(1) to (3) and (5) also applies to the assessment of a provider in respect of a proposed modification of an existing NHS Standard Contract held by that provider, and—</p>
+									</intro>
+									<level GUID="_6c850618-35f5-4a96-8c66-e28acaf1133d" class="para1" eId="reg_2__para_4__qstr__reg_42D__para_1__para_a">
+										<num>(a)</num>
+										<content>
+											<p>references to the offering or awarding of an NHS Standard Contract to a provider are to be read respectively as references to the offering to modify or the modifying of an existing NHS Standard Contract held by a provider;</p>
+										</content>
+									</level>
+									<level GUID="_bc579471-7c7d-413a-9af8-e6001014508a" class="para1" eId="reg_2__para_4__qstr__reg_42D__para_1__para_b">
+										<num>(b)</num>
+										<content>
+											<p>the reference in regulation 42B(5) to “paragraph (4)” is to be read as a reference to paragraph (2) of this regulation;</p>
+										</content>
+									</level>
+									<level GUID="_2d85275d-9dd5-41ce-87f4-efd758c13fb0" class="para1" eId="reg_2__para_4__qstr__reg_42D__para_1__para_c">
+										<num>(c)</num>
+										<content>
+											<p>in the application of regulation 42C pursuant to regulation 42B(4) as modified by this regulation, the reference in regulation 42C to “regulation 42B(4) to (6)” is to be read as a reference to paragraphs (2) and (3) of this regulation.</p>
+										</content>
+									</level>
+								</paragraph>
+								<paragraph GUID="_f0ee3942-e686-4003-a828-a94d81f799f9" class="prov2" eId="reg_2__para_4__qstr__reg_42D__para_2">
+									<num>(2)</num>
+									<intro GUID="_17dc4ef7-736d-418b-b361-ccc6e017c318" eId="reg_2__para_4__qstr__reg_42D__para_2__intro">
+										<p>Following the provision of any local terms and conditions under regulation 42B(3) (or confirmation from the relevant body that no such terms and conditions are to be included), a provider may request a relevant body to assess it against the criteria in regulation 42C for the purposes of modification of an existing NHS Standard Contract where the provider has an existing NHS Standard Contract with the relevant body, but wishes to be assessed in relation to—</p>
+									</intro>
+									<level GUID="_582f787e-e082-4f60-ab2e-85790569b04a" class="para1" eId="reg_2__para_4__qstr__reg_42D__para_2__para_a">
+										<num>(a)</num>
+										<content>
+											<p>the provision of new services,</p>
+										</content>
+									</level>
+									<level GUID="_f8a85739-08c1-4553-a0ad-b6c6e90375eb" class="para1" eId="reg_2__para_4__qstr__reg_42D__para_2__para_b">
+										<num>(b)</num>
+										<content>
+											<p>the provision of existing services from a location other than that specified in the existing NHS Standard Contract, or</p>
+										</content>
+									</level>
+									<level GUID="_6de6e922-b35e-4659-b229-77b7174931d6" class="para1" eId="reg_2__para_4__qstr__reg_42D__para_2__para_c">
+										<num>(c)</num>
+										<content>
+											<p>a change to the criteria specified in that contract which determine the means by which a service will be accessible to patients.</p>
+										</content>
+									</level>
+								</paragraph>
+								<paragraph GUID="_c10d7e9f-3f25-4e2a-8e96-8fbb6943822b" class="prov2" eId="reg_2__para_4__qstr__reg_42D__para_3">
+									<num>(3)</num>
+									<intro GUID="_ea8887f6-bc92-4000-9370-c0b40be6debe" eId="reg_2__para_4__qstr__reg_42D__para_3__intro">
+										<p>Where—</p>
+									</intro>
+									<level GUID="_6f34c066-9e7d-4307-9e76-ef9d379ea516" class="para1" eId="reg_2__para_4__qstr__reg_42D__para_3__para_a">
+										<num>(a)</num>
+										<content>
+											<p>the criteria in regulation 42C are met,</p>
+										</content>
+									</level>
+									<level GUID="_0b201a7f-184e-4c49-a859-a61e764a0b85" class="para1" eId="reg_2__para_4__qstr__reg_42D__para_3__para_b">
+										<num>(b)</num>
+										<content>
+											<p>the proposed modification of the existing NHS Standard Contract is not contrary to any restrictions on modification of contracts imposed by regulations made under section 12ZB of the National Health Service Act 2006<authorialNote GUID="_aef9b77a-fda3-4278-bc09-eb6a5dae4e4a" class="footnote" eId="fnote_17" marker="17">
+												<p>Section 12ZB is prospectively inserted by section 79 of the Health and Care Act 2022.</p>
+												</authorialNote>, and</p>
+										</content>
+									</level>
+									<level GUID="_1df58a04-efef-4310-9a2c-9370074ec954" class="para1" eId="reg_2__para_4__qstr__reg_42D__para_3__para_c">
+										<num>(c)</num>
+										<content>
+											<p>the provider agrees to the proposed modification,</p>
+										</content>
+									</level>
+									<wrapUp GUID="_1fed0198-364f-492d-9cc9-a37e16ae7ef0" eId="reg_2__para_4__qstr__reg_42D__para_3__wrapup">
+										<p>the provider’s existing NHS Standard Contract must be modified, and must include any local terms and conditions referred to in regulation 42B(3).</p>
+									</wrapUp>
+								</paragraph>
+								<paragraph GUID="_3ce2efb8-d1f4-4c47-a544-32fdccb86f4b" class="prov2" eId="reg_2__para_4__qstr__reg_42D__para_4">
+									<num>(4)</num>
+									<content>
+										<p>Nothing in this regulation permits the modification of an existing NHS Standard Contract where the proposed modification of the existing NHS Standard Contract would be contrary to any restrictions on modification of contracts imposed by regulations made under section 12ZB of the National Health Service Act 2006.</p>
+									</content>
+								</paragraph>
+								<paragraph GUID="_f34f911d-8d22-4953-aa5f-efc62ceb25c7" class="prov2" eId="reg_2__para_4__qstr__reg_42D__para_5">
+									<num>(5)</num>
+									<intro GUID="_bd00eca9-7660-47de-8a39-c83bf79f8dfb" eId="reg_2__para_4__qstr__reg_42D__para_5__intro">
+										<p>Paragraph (6) applies where—</p>
+									</intro>
+									<level GUID="_1f01b921-6969-4f76-bcf9-22c851e8d847" class="para1" eId="reg_2__para_4__qstr__reg_42D__para_5__para_a">
+										<num>(a)</num>
+										<content>
+											<p>the criteria in regulation 42C are met, but</p>
+										</content>
+									</level>
+									<level GUID="_0475bfa4-4029-40a1-ad34-b10237b3c116" class="para1" eId="reg_2__para_4__qstr__reg_42D__para_5__para_b">
+										<num>(b)</num>
+										<content>
+											<p>the proposed modification of an existing NHS Standard Contract would be contrary to any restrictions on modification of contracts imposed by regulations made under section 12ZB of the National Health Service Act 2006.</p>
+										</content>
+									</level>
+								</paragraph>
+								<paragraph GUID="_b4cb662f-6190-42e8-981b-7ce1a0433688" class="prov2" eId="reg_2__para_4__qstr__reg_42D__para_6">
+									<num>(6)</num>
+									<intro GUID="_17d276da-acd8-46bb-951f-5ac925314c8b" eId="reg_2__para_4__qstr__reg_42D__para_6__intro">
+										<p>Where this paragraph applies—</p>
+									</intro>
+									<level GUID="_5897978b-494e-491f-bec0-7e421963e84d" class="para1" eId="reg_2__para_4__qstr__reg_42D__para_6__para_a">
+										<num>(a)</num>
+										<content>
+											<p>the request for assessment of the provider in respect of a proposed modification under this regulation is to be treated as having been a request for assessment of the provider for the award of an NHS Standard Contract under regulation 42B(4) (without the modifications made by this regulation), and</p>
+										</content>
+									</level>
+									<level GUID="_44c95f38-d417-4f58-aa31-b4d9e11a751c" class="para1" eId="reg_2__para_4__qstr__reg_42D__para_6__para_b">
+										<num>(b)</num>
+										<content>
+											<p>a new NHS Standard Contract must instead be awarded pursuant to regulation 42B(6) in respect of such of the matters for which the provider asked to be assessed under paragraph (2).</p>
+										</content>
+									</level>
+								</paragraph>
+							</hcontainer>
+							</quotedStructure><inline name="AppendText">.</inline></mod> </p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_6e1b9e15-9a9c-453b-91ea-1a4ab8af9191" class="prov2" eId="reg_2__para_5">
+					<num>(5)</num>
+					<content>
+						<p>Omit regulation 43.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_d0ae90d7-df6e-486d-a669-dd1dece3c31a" class="prov2" eId="reg_2__para_6">
+					<num>(6)</num>
+					<content>
+						<p><mod>At the end of Part 8, insert—<quotedStructure GUID="_0a7672ee-b674-4587-afbd-0d628a217805" eId="reg_2__para_6__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+							<hcontainer GUID="_4b015123-2a41-4af0-9ddd-dfc7c1137b30" class="prov1" eId="reg_2__para_6__qstr__reg_43A" name="regulation">
+								<heading GUID="_963598a2-794c-4808-a527-8c847206f2fd" eId="reg_2__para_6__qstr__reg_43A__hdg">Transitional provision: pre-existing contracts</heading>
+								<num ukl:autonumber="no">43A.</num>
+								<paragraph GUID="_274a01b7-e2f9-46ce-aff4-ae259c27c1fb" class="prov2" eId="reg_2__para_6__qstr__reg_43A__para_1">
+									<num>(1)</num>
+									<intro GUID="_964c5e20-7f0a-4145-8865-96d415e5cc50" eId="reg_2__para_6__qstr__reg_43A__para_1__intro">
+										<p>This regulation applies to any commissioning contract with a provider entered into before 1st January 2024 by—</p>
+									</intro>
+									<level GUID="_0c4b1820-24e9-4628-bdd0-1e9274e8bea7" class="para1" eId="reg_2__para_6__qstr__reg_43A__para_1__para_a">
+										<num>(a)</num>
+										<content>
+											<p>a relevant body, or</p>
+										</content>
+									</level>
+									<level GUID="_b7b42b53-d9f6-481f-8045-262eb643cf5e" class="para1" eId="reg_2__para_6__qstr__reg_43A__para_1__para_b">
+										<num>(b)</num>
+										<content>
+											<p>in relation to the period before 1st July 2022, a clinical commissioning group (as established in accordance with Chapter A2 of Part 2 of the 2006 Act<authorialNote GUID="_932a4d78-f476-4d34-9b3f-75e33be40048" class="footnote" eId="fnote_19" marker="19">
+												<p>Chapter A2 was originally inserted by section 25(1) of the Health and Social Care Act 2012, and revoked by section 32 of, and paragraphs 86 and 100 of Schedule 4 to, the Health and Care Act 2022.</p>
+												</authorialNote> as it applied before 1st July 2022),</p>
+										</content>
+									</level>
+									<wrapUp GUID="_110b5f75-db03-4aeb-8138-bf88b7ab483a" eId="reg_2__para_6__qstr__reg_43A__para_1__wrapup">
+										<p>following a determination referred to in regulation 7(2)(a) or (b) of the National Health Service (Procurement, Patient Choice and Competition) (No. 2) Regulations 2013<authorialNote GUID="_aba795d4-f0c8-44ba-9917-2b4a95cba770" class="footnote" eId="fnote_13" marker="13">
+											<p>S.I. 2013/500. The Regulations are prospectively revoked by section 80(4) of the Health and Care Act 2022.</p>
+											</authorialNote>.</p>
+									</wrapUp>
+								</paragraph>
+								<paragraph GUID="_cb5990b3-4fd2-4764-9c14-2f62f6ef5193" class="prov2" eId="reg_2__para_6__qstr__reg_43A__para_2">
+									<num>(2)</num>
+									<content>
+										<p>Nothing in regulation 42B (as applied by regulation 42D), 42C or 42D affects any existing contract of the kind mentioned in paragraph (1) except insofar as, on or after 1st January 2024, the provider requests a relevant body to assess it for the purpose of modification of an existing NHS Standard Contract under regulation 42D.</p>
+									</content>
+								</paragraph>
+								<paragraph GUID="_a30f9657-76cb-4359-9c99-2a47b254e8ee" class="prov2" eId="reg_2__para_6__qstr__reg_43A__para_3">
+									<num>(3)</num>
+									<content>
+										<p>Where the provider expresses an interest of the kind mentioned in paragraph (2), regulations 42B (as applied by regulation 42D), 42C and 42D apply only in respect of the service in relation to which the provider expresses such an interest.</p>
+									</content>
+								</paragraph>
+							</hcontainer>
+							<hcontainer GUID="_5c3e5294-1cb6-462f-939d-ccc0aab9b421" class="prov1" eId="reg_2__para_6__qstr__reg_43B" name="regulation">
+								<heading GUID="_6b10aafa-202e-472b-8fd2-2efb533c43c2" eId="reg_2__para_6__qstr__reg_43B__hdg">Transitional provision: enforcement</heading>
+								<num>43B.</num>
+								<paragraph GUID="_8366132f-5897-4245-9c06-6eed8496b326" class="prov2" eId="reg_2__para_6__qstr__reg_43B__para_1">
+									<num>(1)</num>
+									<intro GUID="_a2a42d7d-c22d-459f-ad31-4737bcaa57f9" eId="reg_2__para_6__qstr__reg_43B__para_1__intro">
+										<p>NHS England may commence or continue any investigation of an integrated care board—</p>
+									</intro>
+									<level GUID="_7b44ec7c-38f2-4e4f-a509-10641ad4e3fd" class="para1" eId="reg_2__para_6__qstr__reg_43B__para_1__para_a">
+										<num>(a)</num>
+										<content>
+											<p>in respect of a complaint under regulation 13(1) of the National Health Service (Procurement, Patient Choice and Competition) (No. 2) Regulations 2013,</p>
+										</content>
+									</level>
+									<level GUID="_a787f8b2-df1e-4483-8200-72cf325a6cd2" class="para1" eId="reg_2__para_6__qstr__reg_43B__para_1__para_b">
+										<num>(b)</num>
+										<content>
+											<p>where the grounds for the complaint occurred before 1st January 2024, and</p>
+										</content>
+									</level>
+									<level GUID="_692cb0ae-6bb2-4cb9-b458-e4850ef3f71d" class="para1" eId="reg_2__para_6__qstr__reg_43B__para_1__para_c">
+										<num>(c)</num>
+										<content>
+											<p>which has not been concluded before 1st January 2024,</p>
+										</content>
+									</level>
+									<wrapUp GUID="_0e2f33ca-10e7-4e88-afb4-d90fa004e2e0" eId="reg_2__para_6__qstr__reg_43B__para_1__wrapup">
+										<p>as though it were an investigation commenced on or after that date under section 6F of the 2006 Act (and accordingly section 6F of, and Schedule 1ZA to, the 2006 Act apply to that investigation as appropriate).</p>
+									</wrapUp>
+								</paragraph>
+								<paragraph GUID="_02ce6274-3e4a-462e-bb66-af2fcde39ae7" class="prov2" eId="reg_2__para_6__qstr__reg_43B__para_2">
+									<num>(2)</num>
+									<intro GUID="_b434c00a-59e1-49bf-9762-3724fbc46326" eId="reg_2__para_6__qstr__reg_43B__para_2__intro">
+										<p>In paragraph (1), an investigation of an integrated care board includes any investigation of a clinical commissioning group (as established in accordance with Chapter A2 of Part 2 of the 2006 Act as it applied before 1st July 2022)—</p>
+									</intro>
+									<level GUID="_0a17e926-ce19-420c-bb46-486ad15a3a84" class="para1" eId="reg_2__para_6__qstr__reg_43B__para_2__para_a">
+										<num>(a)</num>
+										<content>
+											<p>commenced before 1st July 2022, and</p>
+										</content>
+									</level>
+									<level GUID="_4ff29ee8-679b-46e3-960c-3f11ab8c4f0b" class="para1" eId="reg_2__para_6__qstr__reg_43B__para_2__para_b">
+										<num>(b)</num>
+										<content>
+											<p>continued as against an integrated care board pursuant to regulation 21(4) of the Health and Care Act 2022 (Commencement No. 2 and Transitional and Saving Provision) Regulations 2022<authorialNote GUID="_d34056e8-f98f-4cd3-b4e0-5683aa495ffe" class="footnote" eId="fnote_14" marker="14">
+												<p>S.I. 2022/734.</p>
+												</authorialNote>.</p>
+										</content>
+									</level>
+								</paragraph>
+							</hcontainer>
+							</quotedStructure><inline name="AppendText">.</inline></mod> </p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_eb9d0484-b803-473b-96e2-12d7aaa27f2f" class="prov2" eId="reg_2__para_7">
+					<num>(7)</num>
+					<content>
+						<p>In regulation 46, in paragraph (5)(b), omit “prior to any decision being made as to what, if any, treatment should be provided”.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_f0a9bd2a-8f76-4e00-aff3-2f82d119d29c" class="prov2" eId="reg_2__para_8">
+					<num>(8)</num>
+					<content>
+						<p>In regulation 50<authorialNote GUID="_d40c469c-3adb-4443-9b98-daf72a492c2f" class="footnote" eId="fnote_15" marker="15">
+							<p>Regulation 50 was amended by S.I. 2015/1430.</p>
+							</authorialNote>, for “The Referral to Treatment Consultant-led Waiting Times Rules Suite dated October 2015”, substitute “Referral to treatment consultant-led waiting times: rules suite (October 2022)”<authorialNote GUID="_dafe5a79-3ce3-42fd-88fa-4b910a43c0b0" class="footnote" eId="fnote_16" marker="16">
+							<p>The guidance document is available online at https://www.gov.uk/government/publications/right-to-start-consultant-led-treatment-within-18-weeks/referral-to-treatment-consultant-led-waiting-times-rules-suite-october-2022 or a hard copy can be obtained by writing to the Department of Health and Social Care, 39 Victoria Street, London, SW1H 0EU.</p>
+							</authorialNote>.</p>
+					</content>
+				</paragraph>
+			</hcontainer>
+			<hcontainer GUID="_549f16c8-cee2-4d4a-8e3f-7de929196b0b" eId="sigs" name="signatures"><?DMS-Component componentId="539e4d00-9a0b-459a-8d9c-20f223769dca" seriesId="27d273bb-5ebc-4112-bec1-382acb52b5d8" versionNumber="0"?>
+				
+				<hcontainer GUID="_0b96bc14-15ef-4084-9011-f04ee3ed1bac" eId="sigs__sigBlk" name="signatureBlock">
+					<content>
+						<p>Signed by authority of the Secretary of State for Health and Social Care</p>
+						<block GUID="_7189adb5-d174-4496-ad91-62a88dbc65dc" eId="sigs__sigBlk__sig" name="signature">Will Quince</block>
+						<block GUID="_0f1dc1ae-484c-4f00-9b5c-c2da2ea5600c" eId="sigs__sigBlk__role" name="role">Minister of State</block>
+						<block name="date"><date date="2023-10-17">17th October 2023</date></block>
+						<block GUID="_81ef6360-f433-40f9-a917-fdd9cf67f0f2" eId="sigs__sigBlk__org" name="organization">Department of Health and Social Care</block>
+					</content>
+				</hcontainer>
+			</hcontainer>
+		</body>
+		<conclusions GUID="_1899882c-ff19-4da7-85f4-af236681aa6d" eId="backCover"><?DMS-Component componentId="32ecf21e-9e86-429a-a10a-85be8e1f9145" seriesId="097744da-9be0-4ff4-b8b9-d343439db6a5" versionNumber="1"?>
+			
+			<blockContainer GUID="_c9b67d8f-b4ef-4b62-bf76-518022ab2f6f" class="explanatoryNote" eId="backCover__explNote">
+				<heading GUID="_e6b4fef5-fca1-4f2c-be81-550a0f2f3371" eId="backCover__explNote__hdg">Explanatory Note</heading>
+				<subheading GUID="_85f7c86a-4a81-4484-8ea1-c4a23aa60d79" eId="backCover__explNote__subhdg">(This note is not part of the <ref class="placeholder" href="#varDocSubType"/>)</subheading>
+				<p>These Regulations are made in discharge of the duty, in section 6E of the National Health Service Act 2006 (c. 41), as inserted by section 78(2)(b) of the Health and Care Act 2022 (c. 31), to make regulations which impose requirements or “standing rules” on NHS England and integrated care boards, to make provision as to the arrangements that NHS England and integrated care boards must make for enabling persons to whom services are to be provided to make choices with respect to specified aspects of them. They do so by amending the National Health Service Commissioning Board and Clinical Commissioning Groups (Responsibilities and Standing Rules) Regulations 2012 (S.I. 2012/2996) (“the Standing Rules”). They also include other provisions to protect and promote the rights of persons to make choices in relation to treatments or other services.</p>
+				<p>Regulation 2 amends the Standing Rules to—</p>
+				<blockList GUID="_08a81d4f-e07f-40d8-ab26-eecd28572d91" eId="backCover__explNote__list">
+					<item GUID="_19067718-cc3d-4a71-a30a-dff783181ceb" eId="backCover__explNote__list__itm__oc_1">
+						<num>•</num>
+						<p>omit the definition of “Choice Directions” in consequence of the revocation of regulation 43 (by paragraph (5)), substitute the definition of “elective referral” and insert new definitions of “interface services” and “NHS Standard Contract” in regulation 38 of the Standing Rules (regulation 2(2));</p>
+					</item>
+					<item GUID="_5df0b02d-561c-410b-93d5-4dc1795462bc" eId="backCover__explNote__list__itm__oc_2">
+						<num>•</num>
+						<p>specify “qualifying contracts” in relation to the duty to offer a choice of health service provider under regulation 39 of the Standing Rules (regulation 2(3));</p>
+					</item>
+					<item GUID="_57b88d40-42d1-4802-9548-47021b8e3a2e" eId="backCover__explNote__list__itm__oc_3">
+						<num>•</num>
+						<p>insert new regulations 42A, 42B, 42C and 42D into the Standing Rules (regulation 2(4)):</p>
+						<blockList GUID="_1cde73e3-5701-4ee7-a359-fdb84d12aece" eId="backCover__explNote__list__itm__oc_3__list">
+							<item GUID="_167b8f5a-efac-464d-a4f9-b1aebc14f49c" eId="backCover__explNote__list__itm__oc_3__list__itm__oc_1">
+								<num>•</num>
+								<p>new regulation 42A prohibits NHS England from restricting the ability of a person to apply for inclusion in the list of patients of a practice providing primary medical services, or to express a preference to receive such services from a particular medical practitioner or class of medical practitioner;</p>
+							</item>
+							<item GUID="_d25627c4-4755-4eba-a1ee-0e03f9af9573" eId="backCover__explNote__list__itm__oc_3__list__itm__oc_2">
+								<num>•</num>
+								<p>new regulation 42B allows a health service provider to ask an integrated care board or NHS England (a “relevant body”) to assess it for an offer of a new NHS Standard Contract in relation to services in respect of which patients must be offered a choice of provider or where the patient is offered a choice of provider where the relevant body has not restricted the number of providers from which patients may choose. This regulation requires the relevant body to provide information in relation to the form of contract that would be offered following such an assessment and requires the relevant body to conduct the assessment as soon as reasonably practicable but in any event within six weeks of the date on which the provider has asked to be assessed;</p>
+							</item>
+							<item GUID="_0765b82c-baef-4ecf-a809-50d94e32b77c" eId="backCover__explNote__list__itm__oc_3__list__itm__oc_3">
+								<num>•</num>
+								<p>new regulation 42C sets out criteria which must be considered by a relevant body when assessing a health service provider as to whether it should be offered a new NHS Standard Contract or modification of an existing NHS Standard Contract;</p>
+							</item>
+							<item GUID="_22004e56-0039-4309-b1eb-d33f20299259" eId="backCover__explNote__list__itm__oc_3__list__itm__oc_4">
+								<num>•</num>
+								<p>new regulation 42D allows the assessment process in new regulation 42B and the criteria in new regulation 42C to be used in respect of proposed modifications to existing NHS Standard Contracts;</p>
+							</item>
+						</blockList>
+					</item>
+					<item GUID="_0c35d3b5-fd90-4fb4-8ade-df5c63a5fa71" eId="backCover__explNote__list__itm__oc_4">
+						<num>•</num>
+						<p>omit regulation 43 of the Standing Rules which contains spent transitional provisions (regulation 2(5));</p>
+					</item>
+					<item GUID="_cbb37f1a-418b-4f39-acda-4b1d80b00a7d" eId="backCover__explNote__list__itm__oc_5">
+						<num>•</num>
+						<p>insert new regulations 43A and 43B into the Standing Rules (regulation 2(6)):</p>
+						<blockList GUID="_c11cc5e1-44e4-4af0-85c6-e704103fb0f5" eId="backCover__explNote__list__itm__oc_5__list">
+							<item GUID="_05af2848-96e5-4cc1-a606-57dad913835f" eId="backCover__explNote__list__itm__oc_5__list__itm__oc_1">
+								<num>•</num>
+								<p>new regulation 43A contains a transitional provision to ensure that contracting arrangements already in place at the coming into force of these Regulations are unaffected unless the health service provider actively requests a modification of an existing NHS Standard Contract in respect of a service under new regulation 42D;</p>
+							</item>
+							<item GUID="_c01c3d6e-a06a-480f-be1f-40d1cc50a58b" eId="backCover__explNote__list__itm__oc_5__list__itm__oc_2">
+								<num>•</num>
+								<p>New regulation 43B contains a transitional provision to ensure that NHS England may commence or continue any investigation of an integrated care board, in respect of a complaint under regulation 13(1) of the National Health Service (Procurement, Patient Choice and Competition) (No. 2) Regulations 2013 (S.I. 2013/500) as though it were an investigation commenced on or after that date under section 6F of the National Health Service Act 2006. This applies only in situations where the grounds for the complaint arose before the coming into force of these Regulations;</p>
+							</item>
+						</blockList>
+					</item>
+					<item GUID="_b081fd9a-d7b1-4007-a66a-645e056fc3b3" eId="backCover__explNote__list__itm__oc_6">
+						<num>•</num>
+						<p>amend regulation 46 of the Standing Rules to align with updated guidance on the calculation of waiting times (regulation 2(7));</p>
+					</item>
+					<item GUID="_ba3818ab-abe4-437b-8d99-0118aa877168" eId="backCover__explNote__list__itm__oc_7">
+						<num>•</num>
+						<p>amend regulation 50 of the Standing Rules to refer to updated guidance on the calculation of waiting times (regulation 2(8)).</p>
+					</item>
+				</blockList>
+				<p>A full impact assessment has not been produced for this instrument as no, or no significant, impact on the private, voluntary or public sector is foreseen. A full impact assessment has been prepared in relation to the provisions of the Health and Care Act 2022 to which this instrument gives effect, and a copy is available at https://www.gov.uk/government/publications/health-and-care-bill-combined-impact-assessments. A hard copy can be obtained by writing to the Department of Health and Social Care, 39 Victoria Street, London, SW1H 0EU.</p>
+			</blockContainer>
+		</conclusions>
+	</act>
+</akomaNtoso>
