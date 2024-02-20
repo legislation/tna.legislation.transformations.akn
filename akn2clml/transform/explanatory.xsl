@@ -97,7 +97,7 @@
 	</xsl:variable>
 	<xsl:element name="{ $name }">
 		<xsl:choose>
-			<xsl:when test="$name = ('P1','P2','P3','P4','P5','P6') and exists(blockContainer)">
+			<xsl:when test="$name = ('P1','P2','P3','P4','P5','P6') and (exists(blockContainer) or exists(tblock))">
 				<xsl:apply-templates select="num | heading | subheading">
 					<xsl:with-param name="context" select="($name, $context)" tunnel="yes" />
 				</xsl:apply-templates>
