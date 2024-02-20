@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Legislation xmlns="http://www.legislation.gov.uk/namespaces/legislation"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             SchemaVersion="2.0"
+             xsi:schemaLocation="http://www.legislation.gov.uk/namespaces/legislation http://www.legislation.gov.uk/schema/legislation.xsd">
+   <Metadata xmlns="http://www.legislation.gov.uk/namespaces/metadata"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <dc:identifier>http://www.legislation.gov.uk/id/uksi/2023/967</dc:identifier>
+      <dc:title>The Employment Appeal Tribunal (Amendment) Rules 2023</dc:title>
+      <dc:modified>2024-02-19</dc:modified>
+      <SecondaryMetadata>
+         <DocumentClassification>
+            <DocumentCategory Value="secondary"/>
+            <DocumentMainType Value="UnitedKingdomStatutoryInstrument"/>
+            <DocumentStatus Value="final"/>
+            <DocumentMinorType Value="rule"/>
+         </DocumentClassification>
+         <Year Value="2023"/>
+         <Number Value="967"/>
+         <Made Date="2023-09-04"/>
+         <Laid Date="2023-09-08" Time="00:00:00" Class="UnitedKingdomParliament"/>
+         <ComingIntoForce>
+            <DateTime Date="2023-09-30" Time="00:00:00"/>
+         </ComingIntoForce>
+      </SecondaryMetadata>
+   </Metadata>
+   <Secondary>
+      <SecondaryPrelims>
+         <Number>  2023 No. 967   </Number>
+         <SubjectInformation>
+            <Subject>
+               <Title>EMPLOYMENT TRIBUNALS</Title>
+            </Subject>
+         </SubjectInformation>
+         <Title> The Employment Appeal Tribunal (Amendment) Rules 2023  </Title>
+         <MadeDate>
+            <Text>Made</Text>
+            <DateText>4th September 2023</DateText>
+         </MadeDate>
+         <LaidDate>
+            <Text>Laid before Parliament</Text>
+            <DateText>8th September 2023</DateText>
+         </LaidDate>
+         <ComingIntoForce>
+            <Text>Coming into force</Text>
+            <DateText>30th September 2023</DateText>
+         </ComingIntoForce>
+         <SecondaryPreamble>
+            <EnactingText>
+               <Para>
+                  <Text>The Lord Chancellor, in exercise of the powers conferred by section 30 of the Employment Tribunals Act 1996<FootnoteRef Ref="f00001"/>, makes the following Rules.</Text>
+               </Para>
+               <Para>
+                  <Text>The Lord Chancellor has consulted the Lord President of the Court of Session in accordance with section 30(1) of that Act before making these Rules.</Text>
+               </Para>
+            </EnactingText>
+         </SecondaryPreamble>
+      </SecondaryPrelims>
+      <Body>
+         <P1group>
+            <Title>Citation, commencement and extent</Title>
+            <P1 id="rule-1">
+               <Pnumber>1</Pnumber>
+               <P1para>
+                  <P2 id="rule-1-1">
+                     <Pnumber>1</Pnumber>
+                     <P2para>
+                        <Text>These Rules may be cited as the Employment Appeal Tribunal (Amendment) Rules 2023 and come into force on 30th September 2023.</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="rule-1-2">
+                     <Pnumber>2</Pnumber>
+                     <P2para>
+                        <Text>These Rules extend to England and Wales and Scotland.</Text>
+                     </P2para>
+                  </P2>
+               </P1para>
+            </P1>
+         </P1group>
+         <P1group>
+            <Title>Amendment to the Employment Appeal Tribunal Rules 1993</Title>
+            <P1 id="rule-2">
+               <Pnumber>2</Pnumber>
+               <P1para>
+                  <P2 id="rule-2-1">
+                     <Pnumber>1</Pnumber>
+                     <P2para>
+                        <Text>The Employment Appeal Tribunal Rules 1993<FootnoteRef Ref="f00002"/> are amended as follows.</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="rule-2-2">
+                     <Pnumber>2</Pnumber>
+                     <P2para>
+                        <Text>In rule 3 (institution of appeal)—</Text>
+                        <P3 id="rule-2-2-a">
+                           <Pnumber>a</Pnumber>
+                           <P3para>
+                              <Text>in paragraph (1) omit sub-paragraph (b);</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="rule-2-2-b">
+                           <Pnumber>b</Pnumber>
+                           <P3para>
+                              <Text>in paragraph (2) omit sub-paragraph (i).</Text>
+                           </P3para>
+                        </P3>
+                     </P2para>
+                  </P2>
+                  <P2 id="rule-2-3">
+                     <Pnumber>3</Pnumber>
+                     <P2para>
+                        <Text>At the end of rule 37 (time) insert—</Text>
+                        <BlockAmendment TargetClass="secondary"
+                                        TargetSubClass="unknown"
+                                        Context="main"
+                                        Format="double">
+                           <P2>
+                              <Pnumber>5</Pnumber>
+                              <P2para>
+                                 <Text>If the appellant makes a minor error in complying with the requirement under rule 3(1) to submit relevant documents to the Appeal Tribunal, and rectifies that error (on a request from the Appeal Tribunal or otherwise), the time prescribed for the institution of an appeal under rule 3 may be extended if it is considered just to do so having regard to all the circumstances, including the manner in which, and the timeliness with which, the error has been rectified and any prejudice to any respondent.</Text>
+                              </P2para>
+                           </P2>
+                        </BlockAmendment>
+                        <AppendText>.</AppendText> 
+                     </P2para>
+                  </P2>
+                  <P2 id="rule-2-4">
+                     <Pnumber>4</Pnumber>
+                     <P2para>
+                        <Text>In the Schedule—</Text>
+                        <P3 id="rule-2-4-a">
+                           <Pnumber>a</Pnumber>
+                           <P3para>
+                              <Text>in Form 1—</Text>
+                              <P4 id="rule-2-4-a-i">
+                                 <Pnumber>i</Pnumber>
+                                 <P4para>
+                                    <Text>in paragraph 2 for “<Emphasis>including telephone number if any</Emphasis>” substitute “<Emphasis>including email address and telephone number, if any - please state your preferred method of communication</Emphasis>”;</Text>
+                                 </P4para>
+                              </P4>
+                              <P4 id="rule-2-4-a-ii">
+                                 <Pnumber>ii</Pnumber>
+                                 <P4para>
+                                    <Text>in paragraph 4 after “<Emphasis>addresses</Emphasis>” insert “<Emphasis>- including email addresses and telephone numbers if available -</Emphasis>”;</Text>
+                                 </P4para>
+                              </P4>
+                              <P4 id="rule-2-4-a-iii">
+                                 <Pnumber>iii</Pnumber>
+                                 <P4para>
+                                    <Text>for paragraph 5 substitute—</Text>
+                                    <BlockAmendment TargetClass="secondary"
+                                                    TargetSubClass="unknown"
+                                                    Context="main"
+                                                    Format="double">
+                                       <P2>
+                                          <Pnumber>5</Pnumber>
+                                          <P2para>
+                                             <Text>You must attach to this notice—</Text>
+                                             <P3>
+                                                <Pnumber>a</Pnumber>
+                                                <P3para>
+                                                   <Text>in the case of an appeal from a judgment of an employment tribunal a copy of the written record of the judgment of the employment tribunal which is subject to appeal and the written reasons for the judgment, or an explanation as to why written reasons are not included;</Text>
+                                                </P3para>
+                                             </P3>
+                                             <P3>
+                                                <Pnumber>b</Pnumber>
+                                                <P3para>
+                                                   <Text>in the case of an appeal from an order or other decision of an employment tribunal in relation to the conduct of proceedings, a copy of the written record of the order or decision of the employment tribunal which is subject to appeal and (if available) the written reasons for that order or decision.</Text>
+                                                </P3para>
+                                             </P3>
+                                          </P2para>
+                                       </P2>
+                                    </BlockAmendment>
+                                    <AppendText>;</AppendText> 
+                                 </P4para>
+                              </P4>
+                              <P4 id="rule-2-4-a-iv">
+                                 <Pnumber>iv</Pnumber>
+                                 <P4para>
+                                    <Text>in paragraph 6—</Text>
+                                    <P5 id="rule-2-4-a-iv-aa">
+                                       <Pnumber>aa</Pnumber>
+                                       <P5para>
+                                          <Text>for “<Emphasis>review</Emphasis>” in each place it occurs substitute “<Emphasis>reconsideration</Emphasis>”;</Text>
+                                       </P5para>
+                                    </P5>
+                                    <P5 id="rule-2-4-a-iv-ab">
+                                       <Pnumber>ab</Pnumber>
+                                       <P5para>
+                                          <Text>in the words after sub-paragraph (d) for “<Emphasis>must</Emphasis>” substitute “<Emphasis>should</Emphasis>”;</Text>
+                                       </P5para>
+                                    </P5>
+                                 </P4para>
+                              </P4>
+                              <P4 id="rule-2-4-a-v">
+                                 <Pnumber>v</Pnumber>
+                                 <P4para>
+                                    <Text> after paragraph 7 insert—</Text>
+                                    <BlockAmendment TargetClass="secondary"
+                                                    TargetSubClass="unknown"
+                                                    Context="main"
+                                                    Format="double">
+                                       <Text>Before submitting a Notice of Appeal, you should read and consider the relevant sections of the Appeal Tribunal Practice Direction. If you decide to submit an appeal, you must comply with the sections of the Appeal Tribunal Practice Direction relevant to each step you take in the appeal. You must also comply with the overriding objective and communicate with the Appeal Tribunal and the other party or parties in a respectful and appropriate manner.</Text>
+                                    </BlockAmendment>
+                                    <AppendText>;</AppendText> 
+                                 </P4para>
+                              </P4>
+                              <P4 id="rule-2-4-a-vi">
+                                 <Pnumber>vi</Pnumber>
+                                 <P4para>
+                                    <Text>after “Date” omit the words from “Once you have” to “struck out.”.</Text>
+                                 </P4para>
+                              </P4>
+                           </P3para>
+                        </P3>
+                        <P3 id="rule-2-4-b">
+                           <Pnumber>b</Pnumber>
+                           <P3para>
+                              <Text>in Form 1A—</Text>
+                              <P4 id="rule-2-4-b-i">
+                                 <Pnumber>i</Pnumber>
+                                 <P4para>
+                                    <Text>in the heading before “<Emphasis>regulation 35(6)</Emphasis>” insert “<Emphasis>or</Emphasis>”;</Text>
+                                 </P4para>
+                              </P4>
+                              <P4 id="rule-2-4-b-ii">
+                                 <Pnumber>ii</Pnumber>
+                                 <P4para>
+                                    <Text>in paragraph 2 for “<Emphasis>including telephone number if any</Emphasis>” substitute<Emphasis>“including email address and telephone number, if any - please state your preferred method of communication”</Emphasis>;</Text>
+                                 </P4para>
+                              </P4>
+                              <P4 id="rule-2-4-b-iii">
+                                 <Pnumber>iii</Pnumber>
+                                 <P4para>
+                                    <Text>in paragraph 4 after “<Emphasis>addresses</Emphasis>” insert “<Emphasis>- including email addresses and telephone numbers if available-</Emphasis>”;</Text>
+                                 </P4para>
+                              </P4>
+                              <P4 id="rule-2-4-b-iv">
+                                 <Pnumber>iv</Pnumber>
+                                 <P4para>
+                                    <Text> after paragraph 6 insert—</Text>
+                                    <BlockAmendment TargetClass="secondary"
+                                                    TargetSubClass="unknown"
+                                                    Context="main"
+                                                    Format="double">
+                                       <Text>Before submitting a Notice of Appeal, you should read and consider the relevant sections of the Appeal Tribunal Practice Direction. If you decide to submit an appeal, you must comply with the sections of the Appeal Tribunal Practice Direction relevant to each step you take in the appeal. You must also comply with the overriding objective and communicate with the Appeal Tribunal and the other party or parties in a respectful and appropriate manner.</Text>
+                                    </BlockAmendment>
+                                    <AppendText>;</AppendText> 
+                                 </P4para>
+                              </P4>
+                           </P3para>
+                        </P3>
+                        <P3 id="rule-2-4-c">
+                           <Pnumber>c</Pnumber>
+                           <P3para>
+                              <Text>in Form 2—</Text>
+                              <P4 id="rule-2-4-c-i">
+                                 <Pnumber>i</Pnumber>
+                                 <P4para>
+                                    <Text>in paragraph 2 for “<Emphasis>including telephone number if any</Emphasis>” substitute<Emphasis>“including email address and telephone number, if any - please state your preferred method of communication”</Emphasis>;</Text>
+                                 </P4para>
+                              </P4>
+                              <P4 id="rule-2-4-c-ii">
+                                 <Pnumber>ii</Pnumber>
+                                 <P4para>
+                                    <Text>after paragraph 4 insert—</Text>
+                                    <BlockAmendment TargetClass="secondary"
+                                                    TargetSubClass="unknown"
+                                                    Context="main"
+                                                    Format="double">
+                                       <Text>Before submitting a Notice of Appeal, you should read and consider the relevant sections of the Appeal Tribunal Practice Direction. If you decide to submit an appeal, you must comply with the sections of the Appeal Tribunal Practice Direction relevant to each step you take in the appeal. You must also comply with the overriding objective and communicate with the Appeal Tribunal and the other party or parties in a respectful and appropriate manner.</Text>
+                                    </BlockAmendment>
+                                    <AppendText>;</AppendText> 
+                                 </P4para>
+                              </P4>
+                           </P3para>
+                        </P3>
+                        <P3 id="rule-2-4-d">
+                           <Pnumber>d</Pnumber>
+                           <P3para>
+                              <Text>in each of Forms 3 and 4B—</Text>
+                              <P4 id="rule-2-4-d-i">
+                                 <Pnumber>i</Pnumber>
+                                 <P4para>
+                                    <Text>in paragraph 2 for <Emphasis>“including telephone number if any”</Emphasis> substitute <Emphasis>“including email address and telephone number, if any - please state your preferred method of communication”</Emphasis>;</Text>
+                                 </P4para>
+                              </P4>
+                              <P4 id="rule-2-4-d-ii">
+                                 <Pnumber>ii</Pnumber>
+                                 <P4para>
+                                    <Text>before “Date” insert—</Text>
+                                    <BlockAmendment TargetClass="secondary"
+                                                    TargetSubClass="unknown"
+                                                    Context="main"
+                                                    Format="double">
+                                       <Text>You must read and comply with the sections of the Appeal Tribunal Practice Direction relevant to each step you take in this appeal/application. You must also comply with the overriding objective and communicate with the Appeal Tribunal and other party or parties in a respectful and appropriate manner.</Text>
+                                    </BlockAmendment>
+                                    <AppendText>;</AppendText> 
+                                 </P4para>
+                              </P4>
+                           </P3para>
+                        </P3>
+                        <P3 id="rule-2-4-e">
+                           <Pnumber>e</Pnumber>
+                           <P3para>
+                              <Text>in each of Forms 4, 5 and 7—</Text>
+                              <P4 id="rule-2-4-e-i">
+                                 <Pnumber>i</Pnumber>
+                                 <P4para>
+                                    <Text>in paragraph 2 for <Emphasis>“including telephone number, if any”</Emphasis> substitute <Emphasis>“including email address and telephone number, if any - please state your preferred method of communication”</Emphasis>;</Text>
+                                 </P4para>
+                              </P4>
+                              <P4 id="rule-2-4-e-ii">
+                                 <Pnumber>ii</Pnumber>
+                                 <P4para>
+                                    <Text>before “Date” insert—</Text>
+                                    <BlockAmendment TargetClass="secondary"
+                                                    TargetSubClass="unknown"
+                                                    Context="main"
+                                                    Format="double">
+                                       <Text>You must read and comply with the sections of the Appeal Tribunal Practice Direction relevant to each step you take in this appeal/application. You must also comply with the overriding objective and communicate with the Appeal Tribunal and other party or parties in a respectful and appropriate manner.</Text>
+                                    </BlockAmendment>
+                                    <AppendText>;</AppendText> 
+                                 </P4para>
+                              </P4>
+                           </P3para>
+                        </P3>
+                        <P3 id="rule-2-4-f">
+                           <Pnumber>f</Pnumber>
+                           <P3para>
+                              <Text>in Form 5A—</Text>
+                              <P4 id="rule-2-4-f-i">
+                                 <Pnumber>i</Pnumber>
+                                 <P4para>
+                                    <Text>in the heading omit “<Emphasis>or Regulation 53(6) of the Companies (Cross-Border Mergers) Regulations 2007</Emphasis>”;</Text>
+                                 </P4para>
+                              </P4>
+                              <P4 id="rule-2-4-f-ii">
+                                 <Pnumber>ii</Pnumber>
+                                 <P4para>
+                                    <Text>in paragraph 2 for <Emphasis>“including telephone number, if any”</Emphasis> substitute <Emphasis>“including email address and telephone number, if any - please state your preferred method of communication”</Emphasis>;</Text>
+                                 </P4para>
+                              </P4>
+                              <P4 id="rule-2-4-f-iii">
+                                 <Pnumber>iii</Pnumber>
+                                 <P4para>
+                                    <Text>in the text immediately after paragraph 3 omit “<Emphasis>or Companies (Cross-Border Mergers) Regulations 2007”</Emphasis>;</Text>
+                                 </P4para>
+                              </P4>
+                              <P4 id="rule-2-4-f-iv">
+                                 <Pnumber>iv</Pnumber>
+                                 <P4para>
+                                    <Text>before “Date” insert—</Text>
+                                    <BlockAmendment TargetClass="secondary"
+                                                    TargetSubClass="unknown"
+                                                    Context="main"
+                                                    Format="double">
+                                       <Text>You must read and comply with the sections of the Appeal Tribunal Practice Direction relevant to each step you take in this appeal/application. You must also comply with the overriding objective and communicate with the Appeal Tribunal and other party or parties in a respectful and appropriate manner.</Text>
+                                    </BlockAmendment>
+                                    <AppendText>;</AppendText> 
+                                 </P4para>
+                              </P4>
+                           </P3para>
+                        </P3>
+                        <P3 id="rule-2-4-g">
+                           <Pnumber>g</Pnumber>
+                           <P3para>
+                              <Text>in Form 6—</Text>
+                              <P4 id="rule-2-4-g-i">
+                                 <Pnumber>i</Pnumber>
+                                 <P4para>
+                                    <Text>in paragraph 2 for <Emphasis>“including telephone number”</Emphasis> substitute <Emphasis>“including email address and telephone number, if any - please state your preferred method of communication”</Emphasis>;</Text>
+                                 </P4para>
+                              </P4>
+                              <P4 id="rule-2-4-g-ii">
+                                 <Pnumber>ii</Pnumber>
+                                 <P4para>
+                                    <Text>after paragraph 4 insert—</Text>
+                                    <BlockAmendment TargetClass="secondary"
+                                                    TargetSubClass="unknown"
+                                                    Context="main"
+                                                    Format="double">
+                                       <Text>You must read and comply with the sections of the Appeal Tribunal Practice Direction relevant to each step you take in this appeal/application. You must also comply with the overriding objective and communicate with the Appeal Tribunal and other party or parties in a respectful and appropriate manner.</Text>
+                                    </BlockAmendment>
+                                    <AppendText>.</AppendText> 
+                                 </P4para>
+                              </P4>
+                           </P3para>
+                        </P3>
+                     </P2para>
+                  </P2>
+               </P1para>
+            </P1>
+         </P1group>
+         <SignedSection>
+            <Signatory>
+               <Signee>
+                  <PersonName>Bellamy</PersonName>
+                  <JobTitle>Parliamentary Under Secretary of State</JobTitle>
+                  <DateSigned Date="2023-09-04">
+                     <DateText>4th September 2023</DateText>
+                  </DateSigned>
+                  <Department>Ministry of Justice</Department>
+               </Signee>
+            </Signatory>
+         </SignedSection>
+      </Body>
+      <ExplanatoryNotes>
+         <Title>Explanatory Note</Title>
+         <Comment>
+            <Para>
+               <Text>(This note is not part of the Rules)</Text>
+            </Para>
+         </Comment>
+         <P>
+            <Text>The Employment Appeal Tribunal Rules 1993 (“the 1993 Rules”) are the rules governing the procedure in the Employment Appeal Tribunal (EAT).</Text>
+         </P>
+         <P>
+            <Text>Rule 2(2) amends rule 3 (institution of appeal) of the 1993 Rules to reduce the number of documents that are required to be submitted with the Notice of Appeal in order for an appeal to be properly instituted in the EAT.</Text>
+         </P>
+         <P>
+            <Text>Rule 2(3) amends rule 37 (time) to make further provision for the EAT to extend the time limit for the submission of an appeal. This discretion applies where an error was made in lodging the required documents under rule 3(1) but this has been rectified, and the EAT considers that the nature of the error is minor, and having regard to all the circumstances including any prejudice to any respondent that it remains in the interests of justice to grant an extension of time.</Text>
+         </P>
+         <P>
+            <Text>Rule 2(4) amends the Schedule to the 1993 Rules to insert a statement to each of the EAT forms as a reminder to any appellant, applicant or respondent to proceedings in the EAT, that it is necessary to read and comply with the provisions of any relevant practice direction at each stage of the proceedings, and further of the need to comply with the overriding objective and to ensure communication with the Appeal Tribunal and other parties to the proceedings is respectful and appropriate.</Text>
+         </P>
+         <P>
+            <Text>Rule 2(4) also makes minor amendments to each of the EAT forms to clarify the contact information that should be provided to the EAT where available. It also makes amendments to Form 1 to better reflect the requirements for the submission of documents to the EAT under rule 3(1), updates references to the reconsideration procedure in the employment tribunal, and makes further amendments to Form 5A to remove an obsolete legislative reference.</Text>
+         </P>
+         <P>
+            <Text>No impact assessment has been carried out for these amendments as no, or no significant impact, on the private, voluntary, or public sectors is foreseen.</Text>
+         </P>
+      </ExplanatoryNotes>
+   </Secondary>
+   <Footnotes>
+      <Footnote id="f00001">
+         <FootnoteText>
+            <Para>
+               <Text>1996 c. 17; section 30 was amended by section 1(2)(a) of the Employment Rights (Dispute Resolution) Act 1998 (c. 8), paragraph 5 of Schedule 8 to the Employment Relations Act 1999 (c. 26), paragraph 26 of Schedule 1 to the Employment Relations Act 2004 (c. 24), paragraph 48 of Schedule 8 to the Tribunals, Courts and Enforcement Act 2007 (c. 15), paragraph 13 of Schedule 14 to the Crime and Courts Act 2013 (c. 22), section 12(3) of the Enterprise and Regulatory Reform Act 2013 (c. 24), section 34(3) of the Judicial Review and Courts Act 2022 (c. 35), which is not yet in force, and S.I. 1999/3323.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00002">
+         <FootnoteText>
+            <Para>
+               <Text>S.I. 1993/2854; relevant amending instruments are S.I. 2001/1128, 2004/2526, 2004/3426, 2005/1871, 2007/2974, 2010/1088, 2013/1693 and 2019/348. S.I. 2007/2974 is revoked by S.I. 2019/348. Section 1(2) of the Employment Rights (Dispute Resolution) Act 1998 (c.8) substituted all references to the “industrial tribunal” or “industrial tribunals” with “employment tribunal” or “employment tribunals” respectively.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+   </Footnotes>
+</Legislation>

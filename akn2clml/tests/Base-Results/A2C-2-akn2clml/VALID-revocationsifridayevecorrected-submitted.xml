@@ -1,0 +1,1035 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Legislation xmlns="http://www.legislation.gov.uk/namespaces/legislation"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             SchemaVersion="2.0"
+             xsi:schemaLocation="http://www.legislation.gov.uk/namespaces/legislation http://www.legislation.gov.uk/schema/legislation.xsd">
+   <Metadata xmlns="http://www.legislation.gov.uk/namespaces/metadata"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <dc:title>The Retained EU Law (Revocation and Reform) Act 2023 (Revocation and Sunset Disapplication) Regulations 2023</dc:title>
+      <dc:modified>2024-02-19</dc:modified>
+      <SecondaryMetadata>
+         <DocumentClassification>
+            <DocumentCategory Value="secondary"/>
+            <DocumentMainType Value="UnitedKingdomDraftStatutoryInstrument"/>
+            <DocumentStatus Value="draft"/>
+            <DocumentMinorType Value="regulation"/>
+         </DocumentClassification>
+         <Year Value="2023"/>
+         <Number Value=""/>
+      </SecondaryMetadata>
+   </Metadata>
+   <Secondary>
+      <SecondaryPrelims>
+         <Draft>
+            <Para>
+               <Text>Draft Regulations laid before Parliament under paragraph 5(1) and (5) of Schedule 5 to the Retained EU Law (Revocation and Reform) Act 2023 (c. 28), for approval by resolution of each House of Parliament.</Text>
+            </Para>
+         </Draft>
+         <Number>  2023 No.    </Number>
+         <SubjectInformation>
+            <Subject>
+               <Title>RETAINED EU LAW REFORM</Title>
+            </Subject>
+         </SubjectInformation>
+         <Title> The Retained EU Law (Revocation and Reform) Act 2023 (Revocation and Sunset Disapplication) Regulations 2023  </Title>
+         <MadeDate>
+            <Text>Made</Text>
+            <DateText/>
+         </MadeDate>
+         <ComingIntoForce>
+            <Text>Coming into force in accordance with regulation 2</Text>
+         </ComingIntoForce>
+         <SecondaryPreamble>
+            <EnactingText>
+               <Para>
+                  <Text>The Secretary of State makes these Regulations in exercise of the powers conferred by sections 1(4), 14(1) and 20(1) of the Retained EU Law (Revocation and Reform) Act 2023 (“the Act”)<FootnoteRef Ref="f00001"/>.</Text>
+               </Para>
+               <Para>
+                  <Text>The Secretary of State is a relevant national authority for the purposes of sections 1(4) and 14(1) of the Act<FootnoteRef Ref="f00002"/>.</Text>
+               </Para>
+               <Para>
+                  <Text>In accordance with paragraph 5(1) and (5) of Schedule 5 to the Act, a draft of this instrument has been laid before, and approved by a resolution of, each House of Parliament.</Text>
+               </Para>
+            </EnactingText>
+         </SecondaryPreamble>
+      </SecondaryPrelims>
+      <Body>
+         <P1group>
+            <Title>Citation</Title>
+            <P1 id="regulation-1">
+               <Pnumber>1</Pnumber>
+               <P1para>
+                  <Text>These Regulations may be cited as the Retained EU Law (Revocation and Reform) Act 2023 (Revocation and Sunset Disapplication) Regulations 2023.</Text>
+               </P1para>
+            </P1>
+         </P1group>
+         <P1group>
+            <Title>Commencement</Title>
+            <P1 id="regulation-2">
+               <Pnumber>2</Pnumber>
+               <P1para>
+                  <P2 id="regulation-2-1">
+                     <Pnumber>1</Pnumber>
+                     <P2para>
+                        <Text>Subject to paragraphs (2) and (3), these Regulations come into force on the day after the day on which they are made.</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="regulation-2-2">
+                     <Pnumber>2</Pnumber>
+                     <P2para>
+                        <Text>Regulation 4 and Schedule 1 come into force immediately before the end of 2023.</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="regulation-2-3">
+                     <Pnumber>3</Pnumber>
+                     <P2para>
+                        <Text>Regulations 5 and 6 and Schedule 2 come into force at the end of 2023.</Text>
+                     </P2para>
+                  </P2>
+               </P1para>
+            </P1>
+         </P1group>
+         <P1group>
+            <Title>Extent and interpretation</Title>
+            <P1 id="regulation-3">
+               <Pnumber>3</Pnumber>
+               <P1para>
+                  <P2 id="regulation-3-1">
+                     <Pnumber>1</Pnumber>
+                     <P2para>
+                        <Text>Subject to paragraphs (2) to (4), these Regulations extend to England and Wales, Scotland and Northern Ireland.</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="regulation-3-2">
+                     <Pnumber>2</Pnumber>
+                     <P2para>
+                        <Text>The specification by regulation 4 of an instrument listed in Parts 1 and 2 of Schedule 1 has the same extent as the instrument to which it relates.</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="regulation-3-3">
+                     <Pnumber>3</Pnumber>
+                     <P2para>
+                        <Text>The specification by regulation 4 of an instrument listed in Part 3 of Schedule 1 extends to Northern Ireland only.</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="regulation-3-4">
+                     <Pnumber>4</Pnumber>
+                     <P2para>
+                        <Text>The revocation by regulation 5 of an instrument or a provision of an instrument listed in Schedule 2 has the same extent as the instrument or provision to which it relates.</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="regulation-3-5">
+                     <Pnumber>5</Pnumber>
+                     <P2para>
+                        <Text>In these Regulations, “the Act” means the Retained EU Law (Revocation and Reform) Act 2023<FootnoteRef Ref="f00003"/>.</Text>
+                     </P2para>
+                  </P2>
+               </P1para>
+            </P1>
+         </P1group>
+         <P1group>
+            <Title>Disapplication of revocation: specified instruments</Title>
+            <P1 id="regulation-4">
+               <Pnumber>4</Pnumber>
+               <P1para>
+                  <P2 id="regulation-4-1">
+                     <Pnumber>1</Pnumber>
+                     <P2para>
+                        <Text>The instruments listed in Schedule 1 are specified for the purposes of section 1(4) of the Act (sunset of EU-derived subordinate legislation and retained direct EU legislation).</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="regulation-4-2">
+                     <Pnumber>2</Pnumber>
+                     <P2para>
+                        <Text>In that Schedule—</Text>
+                        <P3 id="regulation-4-2-a">
+                           <Pnumber>a</Pnumber>
+                           <P3para>
+                              <Text>Part 1 lists subordinate legislation;</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-4-2-b">
+                           <Pnumber>b</Pnumber>
+                           <P3para>
+                              <Text>Part 2 lists retained direct EU legislation;</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-4-2-c">
+                           <Pnumber>c</Pnumber>
+                           <P3para>
+                              <Text>Part 3 lists retained direct EU legislation, which in accordance with regulation 3(3) is specified only insofar as it extends to Northern Ireland.</Text>
+                           </P3para>
+                        </P3>
+                     </P2para>
+                  </P2>
+               </P1para>
+            </P1>
+         </P1group>
+         <P1group>
+            <Title>Revocations</Title>
+            <P1 id="regulation-5">
+               <Pnumber>5</Pnumber>
+               <P1para>
+                  <P2 id="regulation-5-1">
+                     <Pnumber>1</Pnumber>
+                     <P2para>
+                        <Text>The instruments listed in Schedule 2 are revoked to the extent specified.</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="regulation-5-2">
+                     <Pnumber>2</Pnumber>
+                     <P2para>
+                        <Text>In that Schedule—</Text>
+                        <P3 id="regulation-5-2-a">
+                           <Pnumber>a</Pnumber>
+                           <P3para>
+                              <Text>Part 1 lists subordinate legislation;</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-5-2-b">
+                           <Pnumber>b</Pnumber>
+                           <P3para>
+                              <Text>Part 2 lists retained direct EU legislation.</Text>
+                           </P3para>
+                        </P3>
+                     </P2para>
+                  </P2>
+               </P1para>
+            </P1>
+         </P1group>
+         <P1group>
+            <Title>Savings</Title>
+            <P1 id="regulation-6">
+               <Pnumber>6</Pnumber>
+               <P1para>
+                  <P2 id="regulation-6-1">
+                     <Pnumber>1</Pnumber>
+                     <P2para>
+                        <Text>In this regulation—</Text>
+                        <P3 id="regulation-6-1-a">
+                           <Pnumber>a</Pnumber>
+                           <P3para>
+                              <Text>the “2012 Act” means the Legal Aid, Sentencing and Punishment of Offenders Act 2012<FootnoteRef Ref="f00004"/>;</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-6-1-b">
+                           <Pnumber>b</Pnumber>
+                           <P3para>
+                              <Text>the “2013 Regulations” means the Civil Legal Aid (Merits Criteria) Regulations 2013<FootnoteRef Ref="f00005"/>.</Text>
+                           </P3para>
+                        </P3>
+                     </P2para>
+                  </P2>
+                  <P2 id="regulation-6-2">
+                     <Pnumber>2</Pnumber>
+                     <P2para>
+                        <Text>The revocation of any provision of the 2013 Regulations by these Regulations—</Text>
+                        <P3 id="regulation-6-2-a">
+                           <Pnumber>a</Pnumber>
+                           <P3para>
+                              <Text>does not affect the application of paragraph 1(a) of Article 69 of the EU withdrawal agreement<FootnoteRef Ref="f00006"/>; and</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-6-2-b">
+                           <Pnumber>b</Pnumber>
+                           <P3para>
+                              <Text>the revoked provisions continue to have effect for the purposes of that paragraph.</Text>
+                           </P3para>
+                        </P3>
+                     </P2para>
+                  </P2>
+                  <P2 id="regulation-6-3">
+                     <Pnumber>3</Pnumber>
+                     <P2para>
+                        <Text>Paragraph (4) applies to a determination made before the end of 2023 by the Director of Legal Aid Casework, in accordance with Part 1 of the 2012 Act, that an individual qualifies for civil legal services.</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="regulation-6-4">
+                     <Pnumber>4</Pnumber>
+                     <P2para>
+                        <Text>In relation to a determination to which this paragraph applies, the revocation of any provision of the 2013 Regulations by these Regulations—</Text>
+                        <P3 id="regulation-6-4-a">
+                           <Pnumber>a</Pnumber>
+                           <P3para>
+                              <Text>does not affect the application of section 11 of the 2012 Act; and</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-6-4-b">
+                           <Pnumber>b</Pnumber>
+                           <P3para>
+                              <Text>the revoked provisions continue to have effect for the purposes of that section.</Text>
+                           </P3para>
+                        </P3>
+                     </P2para>
+                  </P2>
+               </P1para>
+            </P1>
+         </P1group>
+         <SignedSection>
+            <Signatory>
+               <Signee>
+                  <PersonName>Name</PersonName>
+                  <JobTitle>Title</JobTitle>
+                  <Department>Department for Business and Trade</Department>
+               </Signee>
+            </Signatory>
+         </SignedSection>
+      </Body>
+      <Schedules>
+         <Schedule id="schedule-1">
+            <Number>Schedule 1</Number>
+            <TitleBlock>
+               <Title>DISAPPLICATION OF THE SUNSET</Title>
+            </TitleBlock>
+            <Reference>Regulation 4</Reference>
+            <ScheduleBody>
+               <Part id="schedule-1-part-1">
+                  <Number>Part 1</Number>
+                  <Title>SUBORDINATE LEGISLATION</Title>
+                  <P>
+                     <Tabular Orientation="portrait">
+                        <table xmlns="http://www.w3.org/1999/xhtml">
+                           <colgroup>
+                              <col width="70%"/>
+                              <col width="30%"/>
+                           </colgroup>
+                           <thead>
+                              <tr>
+                                 <td>
+                                    <Emphasis xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                       <Strong>Title</Strong>
+                                    </Emphasis>
+                                 </td>
+                                 <td>
+                                    <Strong xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                       <Emphasis>Citation</Emphasis>
+                                    </Strong>
+                                 </td>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>Road Vehicles (Testing) (Disclosure of Information) (Great Britain) Regulations 2002</td>
+                                 <td>S.I. 2002/2426</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </Tabular>
+                  </P>
+               </Part>
+               <Part id="schedule-1-part-2">
+                  <Number>Part 2</Number>
+                  <Title>RETAINED DIRECT EU LEGISLATION</Title>
+                  <P>
+                     <Tabular Orientation="portrait">
+                        <table xmlns="http://www.w3.org/1999/xhtml">
+                           <colgroup>
+                              <col width="70%"/>
+                              <col width="30%"/>
+                           </colgroup>
+                           <thead>
+                              <tr>
+                                 <td>
+                                    <Strong xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                       <Emphasis>Title</Emphasis>
+                                    </Strong>
+                                 </td>
+                                 <td>
+                                    <Strong xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                       <Emphasis>Citation </Emphasis>
+                                    </Strong>
+                                 </td>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>Commission Regulation (EU) No 1286/2011 of 9 December 2011 adopting a common methodology for investigating marine casualties and incidents developed pursuant to Article 5(4) of Directive 2009/18/EC of the European Parliament and of the Council</td>
+                                 <td>EUR 1286/2011</td>
+                              </tr>
+                              <tr>
+                                 <td>Commission Decision of 13 February 2014 concerning the placing on the market for essential use of biocidal products containing copper (2014/85/EU)</td>
+                                 <td>EUDN 2014/85</td>
+                              </tr>
+                              <tr>
+                                 <td>Commission Decision of 24 June 2014 concerning the placing on the market for essential use of biocidal products containing copper (2014/395/EU)</td>
+                                 <td>EUDN 2014/395</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </Tabular>
+                  </P>
+               </Part>
+               <Part id="schedule-1-part-3">
+                  <Number>Part 3</Number>
+                  <Title>RETAINED DIRECT EU LEGISLATION - DISAPPLICATION OF THE SUNSET EXTENDING TO NORTHERN IRELAND ONLY</Title>
+                  <P>
+                     <Tabular Orientation="portrait">
+                        <table xmlns="http://www.w3.org/1999/xhtml">
+                           <colgroup>
+                              <col width="70%"/>
+                              <col width="30%"/>
+                           </colgroup>
+                           <thead>
+                              <tr>
+                                 <td>
+                                    <Strong xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                       <Emphasis>Title</Emphasis>
+                                    </Strong>
+                                 </td>
+                                 <td>
+                                    <Strong xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                       <Emphasis>Citation </Emphasis>
+                                    </Strong>
+                                 </td>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>Regulation (EU) No 1144/2014 of the European Parliament and of the Council of 22 October 2014 on information provision and promotion measures concerning agricultural products implemented in the internal market and in third countries and repealing Council Regulation (EC) No 3/2008</td>
+                                 <td>EUR 1144/2014</td>
+                              </tr>
+                              <tr>
+                                 <td>Commission Delegated Regulation (EU) 2015/1829 of 23 April 2015 supplementing Regulation (EU) No 1144/2014 of the European Parliament and of the Council on information provision and promotion measures concerning agricultural products implemented in the internal market and in third countries</td>
+                                 <td>EUR 2015/1829</td>
+                              </tr>
+                              <tr>
+                                 <td>Commission Implementing Regulation (EU) 2015/1831 of 7 October 2015 laying down rules for application of Regulation (EU) No 1144/2014 of the European Parliament and of the Council on information provision and promotion measures concerning agricultural products implemented in the internal market and in the third countries</td>
+                                 <td>EUR 2015/1831</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </Tabular>
+                  </P>
+               </Part>
+            </ScheduleBody>
+         </Schedule>
+         <Schedule id="schedule-2">
+            <Number>Schedule 2</Number>
+            <TitleBlock>
+               <Title>REVOCATION OF SUBORDINATE LEGISLATION AND RETAINED DIRECT EU LEGISLATION</Title>
+            </TitleBlock>
+            <Reference>Regulation 5</Reference>
+            <ScheduleBody>
+               <Part id="schedule-2-part-1">
+                  <Number>Part 1</Number>
+                  <Title>SUBORDINATE LEGISLATION</Title>
+                  <P>
+                     <Tabular Orientation="portrait">
+                        <table xmlns="http://www.w3.org/1999/xhtml">
+                           <colgroup>
+                              <col width="55%"/>
+                              <col width="20%"/>
+                              <col width="25%"/>
+                           </colgroup>
+                           <thead>
+                              <tr>
+                                 <td>
+                                    <Strong xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                       <Emphasis>Title</Emphasis>
+                                    </Strong>
+                                 </td>
+                                 <td>
+                                    <Strong xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                       <Emphasis>Citation</Emphasis>
+                                    </Strong>
+                                 </td>
+                                 <td>
+                                    <Strong xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                       <Emphasis>Extent of revocation</Emphasis>
+                                    </Strong>
+                                 </td>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>Alcoholic Liquor (Amendment of Units of Measurement) Order 1992</td>
+                                 <td>S.I. 1992/1917</td>
+                                 <td>The whole Order</td>
+                              </tr>
+                              <tr>
+                                 <td>Price Marking (Amendment) Order 1994</td>
+                                 <td>S.I. 1994/1853</td>
+                                 <td>The whole Order</td>
+                              </tr>
+                              <tr>
+                                 <td>Sex Discrimination Act 1975 (Application to Armed Forces etc) Regulations 1994</td>
+                                 <td>S.I. 1994/3276</td>
+                                 <td>The whole Regulations</td>
+                              </tr>
+                              <tr>
+                                 <td>Price Marking (Amendment) Order 1995</td>
+                                 <td>S.I. 1995/1441</td>
+                                 <td>The whole Order</td>
+                              </tr>
+                              <tr>
+                                 <td>Companies (Membership of Holding Company) (Dealers in Securities) Regulations 1997</td>
+                                 <td>S.I. 1997/2306</td>
+                                 <td>The whole Regulations</td>
+                              </tr>
+                              <tr>
+                                 <td>Telecommunications (Licensing) Regulations 1997</td>
+                                 <td>S.I. 1997/2930</td>
+                                 <td>The whole Regulations</td>
+                              </tr>
+                              <tr>
+                                 <td>United Kingdom Ecolabelling Board (Abolition) Regulations 1999</td>
+                                 <td>S.I. 1999/931</td>
+                                 <td>Regulations 7 and 9</td>
+                              </tr>
+                              <tr>
+                                 <td>Companies (Investment Companies) (Distribution of Profits) Regulations 1999</td>
+                                 <td>S.I. 1999/2770</td>
+                                 <td>The whole Regulations</td>
+                              </tr>
+                              <tr>
+                                 <td>Telecommunications (Appeals) Regulations 1999</td>
+                                 <td>S.I. 1999/3180</td>
+                                 <td>The whole Regulations</td>
+                              </tr>
+                              <tr>
+                                 <td>Dual-Use Items (Export Control) (Amendment) Regulations 2003</td>
+                                 <td>S.I. 2003/504</td>
+                                 <td>The whole Regulations</td>
+                              </tr>
+                              <tr>
+                                 <td>Companies (Acquisition of Own Shares) (Treasury Shares) No. 2 Regulations 2003</td>
+                                 <td>S.I. 2003/3031</td>
+                                 <td>The whole Regulations</td>
+                              </tr>
+                              <tr>
+                                 <td>Mutual Assistance Provisions Order 2003</td>
+                                 <td>S.I. 2003/3092</td>
+                                 <td>The whole Order</td>
+                              </tr>
+                              <tr>
+                                 <td>EC Merger Control (Consequential Amendments) Regulations 2004</td>
+                                 <td>S.I. 2004/1079</td>
+                                 <td>Schedule paragraphs 1, 2(2)(b), (3) to (5), (6)(b), (7) to (9), (12)(b), (13) to (15), (19) to (24), (25)(b), (26)(b), (27), 3 and 5</td>
+                              </tr>
+                              <tr>
+                                 <td>Immigration (European Economic Area) and Accession (Amendment) Regulations 2004</td>
+                                 <td>S.I. 2004/1236</td>
+                                 <td>The whole Regulations</td>
+                              </tr>
+                              <tr>
+                                 <td>Reporting of Savings Income Information (Amendment) Regulations 2005</td>
+                                 <td>S.I. 2005/1539</td>
+                                 <td>The whole Regulations</td>
+                              </tr>
+                              <tr>
+                                 <td>Companies Act 1985 (Investment Companies and Accounting and Audit Amendments) Regulations 2005</td>
+                                 <td>S.I. 2005/2280</td>
+                                 <td>The whole Regulations</td>
+                              </tr>
+                              <tr>
+                                 <td>Reporting of Savings Income Information (Amendment) Regulations 2006</td>
+                                 <td>S.I. 2006/3286</td>
+                                 <td>The whole Regulations</td>
+                              </tr>
+                              <tr>
+                                 <td>Accession (Immigration and Worker Authorisation) (Amendment) Regulations 2007</td>
+                                 <td>S.I. 2007/475</td>
+                                 <td>The whole Regulations</td>
+                              </tr>
+                              <tr>
+                                 <td>Accession (Worker Authorisation and Worker Registration) (Amendment) Regulations 2009</td>
+                                 <td>S.I. 2009/2426</td>
+                                 <td>The whole Regulations</td>
+                              </tr>
+                              <tr>
+                                 <td>Civil Procedure (Amendment) Rules 2011</td>
+                                 <td>S.I. 2011/88</td>
+                                 <td>Rule 4 paragraphs (a)(i), (a)(iv), (b)(iii), (c), (d), (e), (f), (h)(ii), (i)(i), (k), (l), (m), (o)(ii), (r); rules 5 and 6; rule 9 paragraphs (b) to (e); rule 10</td>
+                              </tr>
+                              <tr>
+                                 <td>Libya (Asset-Freezing) (Amendment) Regulations 2012</td>
+                                 <td>S.I. 2012/56</td>
+                                 <td>The whole Regulations</td>
+                              </tr>
+                              <tr>
+                                 <td>International Recovery of Maintenance (Hague Convention 2007 etc.) Regulations 2012</td>
+                                 <td>S.I. 2012/2814</td>
+                                 <td>Schedule 4 paragraphs 1(3), 4, 6(a), 9(3)(a)</td>
+                              </tr>
+                              <tr>
+                                 <td>Civil Legal Aid (Merits Criteria) Regulations 2013</td>
+                                 <td>S.I. 2013/104</td>
+                                 <td>The definition “Dublin III claim”, and the words “other than a Dublin III claim” in the definition “public law claim” in regulation 2, regulation 56A, regulation 72</td>
+                              </tr>
+                              <tr>
+                                 <td>Criminal Legal Aid (Remuneration) Regulations 2013</td>
+                                 <td>S.I. 2013/435</td>
+                                 <td>The entry for the offence of false evidence before the European Court in the Litigators’ graduated fee Scheme table in Part 7 of Schedule 2</td>
+                              </tr>
+                              <tr>
+                                 <td>Civil Legal Aid (Merits Criteria) (Amendment) (No. 3) Regulations 2013</td>
+                                 <td>S.I. 2013/3195</td>
+                                 <td>The whole Regulations</td>
+                              </tr>
+                              <tr>
+                                 <td>Libya (Asset-Freezing) (Amendment) Regulations 2013</td>
+                                 <td>S.I. 2013/2071</td>
+                                 <td>The whole Regulations</td>
+                              </tr>
+                              <tr>
+                                 <td>Zimbabwe (Financial Sanctions) (Amendment) Regulations 2014</td>
+                                 <td>S.I. 2014/383</td>
+                                 <td>The whole Regulations</td>
+                              </tr>
+                              <tr>
+                                 <td>Family Procedure (Amendment No. 4) Rules 2014</td>
+                                 <td>S.I. 2014/3296</td>
+                                 <td>Rules 12 and 13</td>
+                              </tr>
+                              <tr>
+                                 <td>Export Control (Various Amendments) Order 2015</td>
+                                 <td>S.I. 2015/97</td>
+                                 <td>The whole Order</td>
+                              </tr>
+                              <tr>
+                                 <td>Civil Jurisdiction and Judgments (Hague Convention on Choice of Court Agreements 2005) Regulations 2015</td>
+                                 <td>S.I. 2015/1644</td>
+                                 <td>Paragraphs 3 and 4 of the Schedule</td>
+                              </tr>
+                              <tr>
+                                 <td>Registration of Births, Deaths, Marriages and Civil Partnerships (Fees) Regulations 2016</td>
+                                 <td>S.I. 2016/911</td>
+                                 <td>Regulation 3F</td>
+                              </tr>
+                              <tr>
+                                 <td>European Union Financial Sanctions (Amendment of Information Provisions) Regulations 2017</td>
+                                 <td>S.I. 2017/754</td>
+                                 <td>The whole Regulations</td>
+                              </tr>
+                              <tr>
+                                 <td>Export Control (Syria and Libya Sanctions) (Amendment) Order 2017</td>
+                                 <td>S.I. 2017/1311</td>
+                                 <td>The whole Order</td>
+                              </tr>
+                              <tr>
+                                 <td>Registration of Births, Deaths, Marriages and Civil Partnerships (Fees) (Amendment) and Multilingual Standard Forms Regulations 2018</td>
+                                 <td>S.I. 2018/1268</td>
+                                 <td>Regulation 5, only to the extent that it inserted regulation 3F in S.I. 2016/911</td>
+                              </tr>
+                              <tr>
+                                 <td>Competition (Amendment etc.) (EU Exit) Regulations 2019</td>
+                                 <td>S.I. 2019/93</td>
+                                 <td>Paragraphs 5 to 8 and 10(2)(a) and (b) of Schedule 3 and paragraph 3 of Schedule 4</td>
+                              </tr>
+                              <tr>
+                                 <td>Immigration (European Economic Area) (Amendment) Regulations 2019</td>
+                                 <td>S.I. 2019/1155</td>
+                                 <td>The whole Regulations</td>
+                              </tr>
+                              <tr>
+                                 <td>Export Control (Somalia) (Amendment) Order 2020</td>
+                                 <td>S.I. 2020/572</td>
+                                 <td>The whole Order</td>
+                              </tr>
+                              <tr>
+                                 <td>Competition Act 1998 (Research and Development Agreements Block Exemption) Order 2022</td>
+                                 <td>S.I. 2022/1271</td>
+                                 <td>Paragraphs 1 and 2 of article 18</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </Tabular>
+                  </P>
+               </Part>
+               <Part id="schedule-2-part-2">
+                  <Number>Part 2</Number>
+                  <Title>RETAINED DIRECT EU LEGISLATION</Title>
+                  <P>
+                     <Tabular Orientation="portrait">
+                        <table xmlns="http://www.w3.org/1999/xhtml">
+                           <colgroup>
+                              <col width="55%"/>
+                              <col width="20%"/>
+                              <col width="25%"/>
+                           </colgroup>
+                           <thead>
+                              <tr>
+                                 <td>
+                                    <Strong xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                       <Emphasis>Title</Emphasis>
+                                    </Strong>
+                                 </td>
+                                 <td>
+                                    <Strong xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                       <Emphasis>Citation</Emphasis>
+                                    </Strong>
+                                 </td>
+                                 <td>
+                                    <Strong xmlns="http://www.legislation.gov.uk/namespaces/legislation">
+                                       <Emphasis>Extent of revocation</Emphasis>
+                                    </Strong>
+                                 </td>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>EAEC Commission: Decision fixing the date on which the Euratom Supply Agency shall take up its duties and approving the Agency Rules of 5 May 1960 determining the manner in which demand is to be balanced against the supply of ores, source materials and special fissile materials</td>
+                                 <td>EUDN 1960/511</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                              <tr>
+                                 <td>EAEC Council: Decision on the establishment of the "Société d'énergie nucléaire franco-belge des Ardennes" Joint Undertaking</td>
+                                 <td>EUDN 1961/1009</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                              <tr>
+                                 <td>74/296/Euratom: Council Decision of 4 June 1974 on the conferring of advantages on the Hochtemperatur-Kernkraftwerk GmbH (HKG) Joint Undertaking</td>
+                                 <td>EUDN 74/296</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                              <tr>
+                                 <td>75/328/Euratom: Council Decision of 20 May 1975 on the establishment of the Joint Undertaking 'Schnell-Brüter-Kernkraftwerksgesellschaft mbH' (SBK)</td>
+                                 <td>EUDN 75/328</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                              <tr>
+                                 <td>75/329/Euratom: Council Decision of 20 May 1975 on the conferring of advantages on the 'Schnell-Brüter-Kernkraftwerksgesellschaft mbH' (SBK) joint undertaking</td>
+                                 <td>EUDN 75/329</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                              <tr>
+                                 <td>77/270/Euratom: Council Decision of 29 March 1977 empowering the Commission to issue Euratom loans for the purpose of contributing to the financing of nuclear power stations</td>
+                                 <td>EUDN 77/270</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                              <tr>
+                                 <td>77/271/Euratom: Council Decision of 29 March 1977 on the implementation of Decision 77/270/Euratom empowering the Commission to issue Euratom loans for the purpose of contributing to the financing of nuclear power stations</td>
+                                 <td>EUDN 77/271</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                              <tr>
+                                 <td>80/237/Euratom: Council Decision of 18 February 1980 on the setting up of an 'ad hoc' Advisory Committee on the Reprocessing of Irradiated Nuclear Fuels</td>
+                                 <td>EUDN 80/237</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                              <tr>
+                                 <td>Council Decision of 20 January 1986 approving the conclusion by the Commission of a Memorandum of Understanding between the European Atomic Energy Community and the Government of Canada concerning cooperation in the field of fusion research and development (86/28/Euratom)</td>
+                                 <td>EUDN 86/28</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                              <tr>
+                                 <td>Council Decision of 14 December 1987 on Community arrangements for the early exchange of information in the event of a radiological emergency (87/600/Euratom)</td>
+                                 <td>EUDN 87/600</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                              <tr>
+                                 <td>Commission Decision of 10 February 1989 concerning the conclusion of an Agreement for cooperation between the European Atomic Energy Community and the Government of Japan in the field of controlled thermonuclear fusion, by the Commission for and on behalf of the Community (89/149/Euratom)</td>
+                                 <td>EUDN 89/149</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                              <tr>
+                                 <td>89/340/EEC: Council Decision of 3 May 1989 concerning work for third parties performed by the Joint Research Centre relevant to the European Economic Community</td>
+                                 <td>EUDN 89/340</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                              <tr>
+                                 <td>90/212/Euratom: Council Decision of 23 April 1990 amending Decision 77/271/Euratom on the implementation of Decision 77/270/Euratom empowering the Commission to issue Euratom loans for the purpose of contributing to the financing of nuclear power stations</td>
+                                 <td>EUDN 90/212</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                              <tr>
+                                 <td>92/194/Euratom: Commission Decision of 4 March 1992 relating to a procedure in application of Article 83 of the Euratom Treaty (XVII-002 — UKAEA Dounreay)</td>
+                                 <td>EUDN 92/194</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                              <tr>
+                                 <td>92/275/Euratom: Council Decision of 29 April 1992 adopting a supplementary research programme to be implemented by the joint research centre for the European Atomic Energy Community (1992-1995)</td>
+                                 <td>EUDN 92/275</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                              <tr>
+                                 <td>Commission Decision of 28 June 1995 concerning the conclusion of the Implementing Agreement between the European Atomic Energy Community, represented by the Commission of the European Communities, and Atomic Energy of Canada Limited designated as implementing agent by the Government of Canada on the involvement of Canada in the European Atomic Energy Community contribution to the Engineering Design Activities (EDA) for the International Thermonuclear Experimental Reactor (ITER), by the Commission, on behalf of the Community (95/356/Euratom)</td>
+                                 <td>EUDN 95/356</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                              <tr>
+                                 <td>96/671/Euratom: Commission Decision of 13 November 1996 relating to a procedure in application of Article 83 of the Euratom Treaty (XVII-05 — Jenson Tungsten Ltd, Hemel Hempstead)</td>
+                                 <td>EUDN 96/671</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                              <tr>
+                                 <td>Council Decision of 22 June 1998 concerning the extension of the duration of the Agreement among the European Atomic Energy Community, the Government of Japan, the Government of the Russian Federation and the Government of the United States of America on cooperation in the engineering design activities (EDA) for the international thermonuclear experimental reactor (ITER) (98/704/Euratom)</td>
+                                 <td>EUDN 98/704</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                              <tr>
+                                 <td>Commission Decision of 15 December 1998 concerning the conclusion of an Agreement between the European Atomic Energy Community (Euratom) and Canada for cooperation in the area of nuclear research (98/732/Euratom)</td>
+                                 <td>EUDN 98/732</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                              <tr>
+                                 <td>1999/175/Euratom: Council Decision of 25 January 1999 adopting a research and training programme (Euratom) in the field of nuclear energy (1998 to 2002)</td>
+                                 <td>EUDN 1999/175</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                              <tr>
+                                 <td>1999/176/Euratom: Council Decision of 25 January 1999 adopting a specific programme for research and training to be carried out by the Joint Research Centre by means of direct actions for the European Atomic Energy Community (1998 to 2002)</td>
+                                 <td>EUDN 1999/176</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                              <tr>
+                                 <td>Commission Decision of 16 November 1999 concerning the accession to the 1994 Convention on Nuclear Safety by the European Atomic Energy Community (Euratom) (1999/819/Euratom)</td>
+                                 <td>EUDN 1999/819</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                              <tr>
+                                 <td>2001/761/Euratom: Council Decision of 27 September 2001 authorising the conclusion by the Commission of two Cooperation Agreements between the European Autonomic Energy Community and the Government of the Russian Federation in the fields of nuclear safety and controlled nuclear fusion</td>
+                                 <td>EUDN 2001/761</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                              <tr>
+                                 <td>Commission Decision of 27 November 2002 on the conclusion of a Cooperation Agreement between the European Atomic Energy Community and the Government of the Republic of Kazakhstan in the field of controlled nuclear fusion (2005/419/Euratom)</td>
+                                 <td>EUDN 2005/419</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                              <tr>
+                                 <td>Commission Decision of 29 April 2004 amending Commission Decision 1999/819/Euratom of 16 November 1999 concerning the accession to the 1994 Convention on Nuclear Safety by the European Atomic Energy Community (Euratom) with regard to the Declaration attached thereto (2004/491/Euratom)</td>
+                                 <td>EUDN 2004/491</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                              <tr>
+                                 <td>Council Decision of 24 January 2005 approving the accession of the European Atomic Energy Community to the ‘Joint Convention on the Safety of Spent Fuel Management and on the Safety of Radioactive Waste Management’ (2005/84/Euratom)</td>
+                                 <td>EUDN 2005/84</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                              <tr>
+                                 <td>Commission Decision of 4 April 2005 on the conclusion, by way of signature, of an Agreement for Co-operation in the Peaceful Uses of Nuclear Energy between the European Atomic Energy Community (Euratom) and the Cabinet of Ministers of Ukraine (2006/635/Euratom)<FootnoteRef xmlns="http://www.legislation.gov.uk/namespaces/legislation" Ref="f00007"/>
+                                 </td>
+                                 <td>EUDN 2006/635</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                              <tr>
+                                 <td>Commission Decision of 14 June 2005 concerning the accession of the European Atomic Energy Community to the ‘Joint Convention on the Safety of Spent Fuel Management and on the Safety of Radioactive Waste Management’ (2005/510/Euratom)</td>
+                                 <td>EUDN 2005/510</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                              <tr>
+                                 <td>Commission Decision of 15 February 2006 pursuant to Article 83 of the Treaty establishing the European Atomic Energy Community. A summary of the key provisions of the Decision are set out below, without prejudice to the full effect of the Decision itself (2006/626/Euratom)</td>
+                                 <td>EUDN 2006/626</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                              <tr>
+                                 <td>Council Regulation (EC) No 1801/2006 of 30 November 2006 on the conclusion of the Fisheries Partnership Agreement between the European Community and the Islamic Republic of Mauritania</td>
+                                 <td>EUR 1801/2006</td>
+                                 <td>The whole Regulation</td>
+                              </tr>
+                              <tr>
+                                 <td>Commission Decision of 4 December 2006 concerning the conclusion on behalf of the European Atomic Energy Community of a Framework Agreement on a Multilateral Nuclear Environmental Programme in the Russian Federation and of the Protocol on Claims, Legal Proceedings and Indemnification to the Framework Agreement on a Multilateral Nuclear Environmental Programme in the Russian Federation (2006/890/Euratom)</td>
+                                 <td>EUDN 2006/890</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                              <tr>
+                                 <td>Commission Decision of 28 August 2006 concerning the conclusion of an Agreement between the Government of Japan and the European Atomic Energy Community for co-operation in the peaceful uses of nuclear energy (2007/58/EURATOM)</td>
+                                 <td>EUDN 2007/58</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                              <tr>
+                                 <td>Commission Decision of 4 December 2006 on the conclusion of the Agreement for co-operation in the peaceful uses of nuclear energy between the European Atomic Energy Community and the Government of the Republic of Kazakhstan (2009/25/Euratom)</td>
+                                 <td>EUDN 2009/25</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                              <tr>
+                                 <td>Council Decision of 10 July 2007 approving the accession of the European Atomic Energy Community to the amended Convention on the Physical Protection of Nuclear Material and Nuclear Facilities (2007/513/Euratom)</td>
+                                 <td>EUDN 2007/513</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                              <tr>
+                                 <td>Council Decision of 12 February 2008 establishing Statutes for the Euratom Supply Agency (2008/114/EC, Euratom)</td>
+                                 <td>EUDN 2008/114</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                              <tr>
+                                 <td>Council Regulation (EC) No 1222/2008 of 1 December 2008 amending Regulation (EC) No 40/2008, as regards management measures adopted in the Indian Ocean Tuna Commission</td>
+                                 <td>EUR 1222/2008</td>
+                                 <td>The whole Regulation</td>
+                              </tr>
+                              <tr>
+                                 <td>Commission Regulation (EU) No 330/2010 of 20 April 2010 on the application of Article 101(3) of the Treaty on the Functioning of the European Union to categories of vertical agreements and concerted practices</td>
+                                 <td>EUR 330/2010</td>
+                                 <td>The whole Regulation</td>
+                              </tr>
+                              <tr>
+                                 <td>Commission Regulation (EU) No 461/2010 of 27 May 2010 on the application of Article 101(3) of the Treaty on the Functioning of the European Union to categories of vertical agreements and concerted practices in the motor vehicle sector</td>
+                                 <td>EUR 461/2010</td>
+                                 <td>The whole Regulation</td>
+                              </tr>
+                              <tr>
+                                 <td>Commission Decision of 15 July 2010 on the conclusion of a Memorandum of Understanding between the European Commission and the International Atomic Energy Agency concerning the EURDEP (EUropean Radiological Data Exchange Platform) (2010/398/Euratom)</td>
+                                 <td>EUDN 2010/398</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                              <tr>
+                                 <td>Commission Regulation (EU) No 1217/2010 of 14 December 2010 on the application of Article 101(3) of the Treaty on the Functioning of the European Union to certain categories of research and development agreements</td>
+                                 <td>EUR 1217/2010</td>
+                                 <td>The whole Regulation</td>
+                              </tr>
+                              <tr>
+                                 <td>Commission Regulation (EU) No 1218/2010 of 14 December 2010 on the application of Article 101(3) of the Treaty on the Functioning of the European Union to certain categories of specialisation agreements</td>
+                                 <td>EUR 1218/2010</td>
+                                 <td>The whole Regulation</td>
+                              </tr>
+                              <tr>
+                                 <td>Commission Decision of 2 March 2011 on the conclusion of the Agreement for cooperation in the peaceful uses of nuclear energy between the European Atomic Energy Community and the Government of Australia (2012/55/Euratom)</td>
+                                 <td>EUDN 2012/55</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                              <tr>
+                                 <td>Commission Decision of 31 July 2012 on the conclusion of the Agreement for Cooperation in the Peaceful Uses of Nuclear Energy between the European Atomic Energy Community and the Government of the Republic of South Africa (2013/408/Euratom)</td>
+                                 <td>EUDN 2013/408</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                              <tr>
+                                 <td>Council Decision of 11 December 2012 approving the conclusion, by the European Commission, of the Agreement on scientific and technological cooperation between the European Atomic Energy Community, of the one part, and the Swiss Confederation, of the other part, associating the Swiss Confederation to the Framework Programme of the European Atomic Energy Community for nuclear research and training activities (2012-2013) (2013/4/Euratom)</td>
+                                 <td>EUDN 2013/4</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                              <tr>
+                                 <td>Commission Decision of 18 December 2012 on the adoption of the Rules to ensure consistent verification of the existence and legal status of participants, as well as their operational and financial capacities, in indirect actions supported through the form of a grant under the Seventh Framework Programme of the European Community for research, technological development and demonstration activities and under the Seventh Framework Programme of the European Atomic Energy Community for nuclear research and training activities (2012/838/EU, Euratom)</td>
+                                 <td>EUDN 2012/838</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                              <tr>
+                                 <td>2013/363/Euratom: Commission Decision of 17 May 2013 on the conclusion of the Agreement between the European Atomic Energy Community (Euratom) and the Korean Peninsula Energy Development Organisation (KEDO)</td>
+                                 <td>EUDN 2013/363</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                              <tr>
+                                 <td>Council Decision of 23 June 2014 approving the conclusion, by the European Commission, on behalf of the European Atomic Energy Community, of the Association Agreement between the European Union and the European Atomic Energy Community and their Member States, of the one part, and Ukraine, of the other part (2014/670/Euratom)</td>
+                                 <td>EUDN 2014/670</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                              <tr>
+                                 <td>Council Decision of 4 December 2014 on the signing, on behalf of the European Union, and provisional application of the Agreement for scientific and technological cooperation between the European Union and European Atomic Energy Community and the Swiss Confederation associating the Swiss Confederation to Horizon 2020 — the Framework Programme for Research and Innovation and the Research and Training Programme of the European Atomic Energy Community complementing Horizon 2020, and regulating the Swiss Confederation's participation in the ITER activities carried out by Fusion for Energy (2014/953/EU)</td>
+                                 <td>EUDN 2014/953</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                              <tr>
+                                 <td>Council Decision of 4 December 2014 approving the conclusion by the European Commission, on behalf of the European Atomic Energy Community, of the Agreement for scientific and technological cooperation between the European Union and European Atomic Energy Community and the Swiss Confederation associating the Swiss Confederation to Horizon 2020 — the Framework Programme for Research and Innovation and the Research and Training Programme of the European Atomic Energy Community complementing Horizon 2020, and regulating the Swiss Confederation's participation in the ITER activities carried out by Fusion for Energy (2014/954/Euratom)</td>
+                                 <td>EUDN 2014/954</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                              <tr>
+                                 <td>Council Decision (EU) 2015/1796 of 1 October 2015 on the conclusion of the Agreement for scientific and technological cooperation between the European Union and European Atomic Energy Community and the Swiss Confederation associating the Swiss Confederation to Horizon 2020 — the Framework Programme for Research and Innovation and the Research and Training Programme of the European Atomic Energy Community complementing Horizon 2020, and regulating the Swiss Confederation's participation in the ITER activities carried out by Fusion for Energy</td>
+                                 <td>EUDN 2015/1796</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                              <tr>
+                                 <td>Council Decision (Euratom) 2015/2227 of 10 November 2015 approving the conclusion, by the European Commission, of the amendments to Protocols 1 and 2 to the Agreement between the United Kingdom, the European Atomic Energy Community and the International Atomic Energy Agency for the Application of Safeguards in Connection with the Treaty for the Prohibition of Nuclear Weapons in Latin America and the Caribbean</td>
+                                 <td>EUDN 2015/2227</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                              <tr>
+                                 <td>Council Decision (Euratom) 2015/2228 of 10 November 2015 approving the conclusion, by the European Commission, of the amendments to Protocols 1 and 2 to the Agreement between the French Republic, the European Atomic Energy Community and the International Atomic Energy Agency for the Application of Safeguards in Connection with the Treaty for the Prohibition of Nuclear Weapons in Latin America and the Caribbean</td>
+                                 <td>EUDN 2015/2228</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                              <tr>
+                                 <td>Council Regulation (EU) 2015/2072 of 17 November 2015 fixing for 2016 the fishing opportunities for certain fish stocks and groups of fish stocks applicable in the Baltic Sea and amending Regulations (EU) No 1221/2014 and (EU) 2015/104</td>
+                                 <td>EUR 2015/2072</td>
+                                 <td>The whole Regulation</td>
+                              </tr>
+                              <tr>
+                                 <td>Council Decision (EU, Euratom) 2019/1945 of 19 November 2018 approving the conclusion, by the European Commission, of the Agreement between the European Atomic Energy Community (Euratom) and the Korean Peninsula Energy Development Organisation (KEDO)</td>
+                                 <td>EUDN 2019/1945</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                              <tr>
+                                 <td>Council Decision (EU, Euratom) 2019/1946 of 19 November 2018 approving the conclusion, by the European Commission, of the Agreement between the European Atomic Energy Community (Euratom) and the Korean Peninsula Energy Development Organisation (KEDO)</td>
+                                 <td>EUDN 2019/1946</td>
+                                 <td>The whole Decision</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </Tabular>
+                  </P>
+               </Part>
+            </ScheduleBody>
+         </Schedule>
+      </Schedules>
+      <ExplanatoryNotes>
+         <Title>Explanatory Note</Title>
+         <Comment>
+            <Para>
+               <Text>(This note is not part of the Regulations)</Text>
+            </Para>
+         </Comment>
+         <P>
+            <Text>Section 1(1) of the Retained EU Law (Revocation and Reform) Act 2023 (c. 28) (“the Act”) and Schedule 1 to that Act revoke specified subordinate legislation and specified retained direct EU legislation at the end of 2023. These Regulations are made in exercise of the powers in sections 1(4) and 14(1) of the Act. These are the power to disapply the sunset of retained EU law to specified instruments (section 1(4)) and the power to revoke specified retained EU law (section 14(1)) and which by virtue of section 20(1) include the ability to make supplementary, incidental, consequential, transitional, transitory or saving provision.</Text>
+         </P>
+         <P>
+            <Text>Regulations 1 to 3 (citation, commencement, and extent and interpretation) come into force on the day after these Regulations are made. Regulation 4 and Schedule 1 (disapplication of the sunset) come into force immediately before the end of 2023. Regulations 5 and 6 and Schedule 2 (revocation of REUL and necessary savings) come into force at the end of 2023.</Text>
+         </P>
+         <P>
+            <Text>Regulation 3 provides that the Regulations extend to England and Wales, Scotland and Northern Ireland, subject to paragraphs (2) to (4). Paragraph (2) provides that for instruments listed in Parts 1 and 2 of Schedule 1, the disapplication of the sunset has the same extent as the instrument to which it relates. Paragraph (3) provides that for those instruments listed in Part 3 of Schedule 1, the extent of the disapplication is Northern Ireland only. Paragraph (4) provides that the revocation of an instrument or provision of an instrument in Schedule 2 has the same extent as the instrument to which it relates.</Text>
+         </P>
+         <P>
+            <Text>Regulation 4 provides that the sunset of subordinate legislation and retained direct EU legislation by section 1(1) of the Act and listed in Schedule 1 to that Act does not apply to the instruments listed in Schedule 1 to these Regulations, to the extent specified there. This has the effect of preserving the instruments, which were included in the Act’s revocation Schedule, from revocation at the end of 2023.</Text>
+         </P>
+         <P>
+            <Text>Regulation 5 provides that the instruments and provisions of instruments listed in Schedule 2 to these Regulations are revoked at the end of 2023, to the extent specified there.</Text>
+         </P>
+         <P>
+            <Text>Regulation 6 contains savings of provisions in the Civil Legal Aid (Merits Criteria) Regulations 2013 and the Legal Aid, Sentencing and Punishment of Offenders Act 2012 which apply to legal aid applications made before a certain date. The purpose of these savings is to ensure that the criteria set out in the relevant provisions of the 2013 Regulations continue to have effect for the purpose of determining whether an individual continues to qualify for civil legal services in ongoing cases.</Text>
+         </P>
+         <P>
+            <Text>A full impact assessment has not been produced for this instrument as no, or no significant, impact on the private, voluntary or public sector is foreseen. A line-by-line explanation will be made available on gov.uk which provides further detail on each piece of legislation included in Schedule 2 to these Regulations.</Text>
+         </P>
+      </ExplanatoryNotes>
+   </Secondary>
+   <Footnotes>
+      <Footnote id="f00001">
+         <FootnoteText>
+            <Para>
+               <Text>2023 c. 28.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00002">
+         <FootnoteText>
+            <Para>
+               <Text>See section 21(1) of the Act for the definition of “relevant national authority”.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00003">
+         <FootnoteText>
+            <Para>
+               <Text>2023 c. 28.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00004">
+         <FootnoteText>
+            <Para>
+               <Text>2012 c. 10.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00005">
+         <FootnoteText>
+            <Para>
+               <Text>S.I. 2013/104 as amended by S.I. 2013/3195.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00006">
+         <FootnoteText>
+            <Para>
+               <Text>“EU withdrawal agreement” is defined in Schedule 1 (definitions relating to the EU and the United Kingdom's withdrawal) to the Interpretation Act 1978 (c. 30) and means the withdrawal agreement within the meaning of the European Union (Withdrawal) Agreement Act 2020 (c. 1) (see section 39(1) and (6) of that Act).</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00007">
+         <FootnoteText>
+            <Para>
+               <Text>The title of the Decision originally referred to 4 April 2006 but was corrected by corrigendum to 4 April 2005.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+   </Footnotes>
+</Legislation>

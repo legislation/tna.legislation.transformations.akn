@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8"?><akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../schemas/akomantoso30.xsd"><?DMS-Component componentId="a4985755-58cf-49ab-85b9-bbb83f00d8f4" seriesId="8b51fa6d-3c59-4911-b705-d921dd6d064f" versionNumber="1"?>
+	<act contains="originalVersion" name="uksi">
+		<meta><?DMS-Component componentId="b3065269-2777-42e7-a0e2-2b4866df98a2" seriesId="e28a3453-982e-4beb-9406-bc55e3111e4f" versionNumber="0"?>
+			
+			<identification source="#ldapp">
+				<FRBRWork>
+					<FRBRthis value="#varWork"/>
+					<FRBRuri value="#varWorkUri"/>
+					<FRBRalias name="ttflConfigHistory" value="#varCHOiid"/>
+					<FRBRdate date="9999-01-01" name="uksi"/>
+					<FRBRdate date="2023-01-17T16:33:11Z" name="published"/><FRBRauthor href="#varAuthor"/>
+					<FRBRcountry value="GB-SCT"/>
+					<FRBRsubtype value="#varDocSubType"/>
+					<FRBRnumber value="#varProjectId"/>
+					<FRBRname value="#varSITitle"/>
+					<FRBRprescriptive value="true"/>
+					<FRBRauthoritative value="false"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="#varExpression"/>
+					<FRBRuri value="#varExpressionUri"/>
+					<FRBRalias name="ttflVersionDescription" value="#varVDOiid"/>
+					<FRBRdate date="9999-01-01" name="draft"/>
+					<FRBRdate date="2023-01-17T16:33:11Z" name="published"/><FRBRauthor href="#varAuthor"/>
+					<FRBRversionNumber value="3"/>
+					<FRBRauthoritative value="false"/>
+					<FRBRmasterExpression href="" showAs=""/>
+					<FRBRlanguage language="eng"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="#varManifestation"/>
+					<FRBRuri value="#varManifestationUri"/>
+					<FRBRdate date="9999-01-01" name="akn_xml"/>
+					<FRBRdate date="2023-01-17T16:33:11Z" name="published"/><FRBRauthor href="#varAuthor"/>
+					<FRBRformat value="application/akn+xml"/>
+				</FRBRManifestation>
+			</identification>
+			<references source="#author">
+				<TLCConcept GUID="_126eb4b9-7fe9-47d4-9e8c-73db6b5f0334" eId="varDocSubType" href="#varOntologies" showAs="Order"/>
+				<TLCConcept GUID="_d23fe17c-2460-42b5-b9ef-ad614b351b5d" eId="varSITitle" href="#varOntologies" showAs="The Energy Act 2004 (Assistance for Areas with High Distribution Costs) (Amendment) Order 2023"/>
+				<TLCProcess GUID="_efb50b28-36f4-485e-855b-4befa9b20d63" eId="varProcedureType" href="#varOntologies" showAs="Made Negative"/>
+				<TLCProcess GUID="_a80a928c-5267-4db7-8984-f54332221d4f" eId="varStageVersion" href="#varOntologies" showAs="3"/>
+				<TLCProcess GUID="_05524b9b-b49f-45f0-a813-7039e4eb6c27" eId="varProjectId" href="#varOntologies" showAs="SI000062"/>
+				<TLCProcess GUID="_0e18a3c3-06f1-4321-8bd5-0bcaa2ec5dce" eId="varWork" href="#varOntologies" showAs="https://lawmaker.legislation.gov.uk/pdr/SI000062/uksi"/>
+				<TLCProcess GUID="_14ceecf7-9193-47de-9182-56c6ef57966d" eId="varWorkUri" href="#varOntologies" showAs="https://lawmaker.legislation.gov.uk/pdr/SI000062/uksi"/>
+				<TLCProcess GUID="_9541350d-56ba-465c-a9a8-6c4b087e0af0" eId="varCHOiid" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_e6087ab5-755d-487d-ac64-22fd8c22b5f3" eId="varExpression" href="#varOntologies" showAs="https://lawmaker.legislation.gov.uk/pdr/SI000062/uksi@3"/>
+				<TLCProcess GUID="_921e83ce-36c7-4cfb-91c2-9d90f608a528" eId="varExpressionUri" href="#varOntologies" showAs="https://lawmaker.legislation.gov.uk/pdr/SI000062/uksi@3"/>
+				<TLCProcess GUID="_e6daa5cc-abbe-4055-9807-831493f56926" eId="varVDOiid" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_6570d0c4-0cd0-453c-b147-f7683084e83b" eId="varManifestation" href="#varOntologies" showAs="https://lawmaker.legislation.gov.uk/pdr/SI000062/uksi@3/xml"/>
+				<TLCProcess GUID="_b8f88843-d72b-4d76-88dc-f9f0d73bbbdc" eId="varManifestationUri" href="#varOntologies" showAs="https://lawmaker.legislation.gov.uk/pdr/SI000062/uksi@3/xml"/>
+				<TLCConcept GUID="_e363c5c1-5dec-4397-b869-95a71dfbdd2a" eId="varSIYear" href="#varOntologies" showAs="2023"/>
+				<TLCConcept GUID="_9558b769-962c-4795-bbf2-1317a2f35b92" eId="varCommenceDate" href="#varOntologies" showAs="2023-04-01T00:00:00.000"/>
+				<TLCConcept GUID="_dcaf5264-a37f-41d5-bec0-c6fb035e16d2" eId="varSINoComp" href="#varOntologies" showAs="43"/>
+				<TLCConcept GUID="_463f75fd-7f50-42eb-9f8f-bbbaf85f97f6" eId="varSINo" href="#varOntologies" showAs="#varSIYear No. #varSINoComp #varSISubsidiaryNos"/>
+				<TLCConcept GUID="_95dd7325-a7de-425d-8c19-f97a6cb8000d" eId="varSISubsidiaryNos" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_92b6645c-83e6-4836-95f5-206d6572ea3a" eId="varISBN" href="#varOntologies" showAs=""/>
+				<TLCPerson GUID="_b6b87566-eeb1-45dd-9c24-076b908745f4" eId="varMinistryAgency" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_3eff9b3e-e5a6-4d0b-b36e-c3c11e8b0711" eId="varDocType" href="#varOntologies" showAs="UKSI"/>
+				<TLCProcess GUID="_08cfe0c0-e4c3-46be-8627-36c7a28bc776" eId="varSystem" href="#varOntologies" showAs="LDAPP"/>
+				<TLCOrganization GUID="_b528fb6c-700b-4c18-9190-1e31f25a4a80" eId="varAuthor" href="#varOntologies" showAs="UK Government"/>
+				<TLCLocation GUID="_05184090-9eab-4d61-92e0-4a1f3e9c7499" eId="varJurisdiction" href="#varOntologies" showAs="United Kingdom"/>
+				<TLCConcept GUID="_dc553abe-3989-4308-a97b-13a458804f2f" eId="varOntologies" href="https://www.legislation.gov.uk/ontologies/UK-AKN" showAs="https://www.legislation.gov.uk/ontologies/UK-AKN"/>
+				<TLCConcept GUID="_dda39f06-01f2-4011-8b06-d3a0fe4b3203" eId="varMadeDate" href="#varOntologies" showAs="2023-01-15T00:00:00.000"/>
+				<TLCConcept GUID="_d01ec3b9-112a-4fe4-8e6d-647e56195297" eId="varLaidDate" href="#varOntologies" showAs="2023-01-17T00:00:00.000"/>
+			</references>
+		</meta>
+		<preface GUID="_e4b90681-2de0-4ba4-a2a4-595f23a76f4c" eId="fnt"><?DMS-Component componentId="37eb874d-5cc7-4420-9472-bb220147fb76" seriesId="7772dfcd-cc9b-400c-a144-7694f3d946ed" versionNumber="0"?>
+			
+			<block GUID="_1bbfde7d-db60-4620-acdd-9b3de1052eb9" eId="fnt__banner" name="banner">STATUTORY INSTRUMENTS</block>
+			<block GUID="_c3bbfcb3-8ac3-4bbb-a4e7-eea323be620f" eId="fnt__no" name="number">
+				<docNumber GUID="_59abacfa-b6ad-4368-9e79-e20b04799402" eId="fnt__no__dno">
+					<ref class="placeholder" href="#varSINo"/>
+				</docNumber>
+			</block>
+			<container name="subjects">
+				<container GUID="_af12ab16-eb91-47d2-9c3d-8bcc77f6ba26" eId="fnt__subject" name="subject">
+					<block name="subject"><concept class="title" refersTo="">ELECTRICITY</concept></block>
+				</container>
+			</container>
+			<block GUID="_44fac5a8-c495-4045-bba5-c676133ec07b" eId="fnt__st" name="title">
+				<docTitle GUID="_62df226e-74bc-4ca3-bfa1-845804f95a4a" eId="fnt__st__dtitle">
+					<ref class="placeholder" href="#varSITitle"/></docTitle>
+			</block>
+			<container GUID="_4a02b9b3-05a0-4071-876e-75b045add0f5" eId="fnt__dates" name="dates">
+				<block GUID="_0b77dd92-ba4e-4493-bdaf-461684e73a15" eId="fnt__dates__madeDate" name="madeDate"><span>Made</span><docDate GUID="_e3726d6f-3e5f-419a-b12d-f5df045c2dc0" date="2023-01-15T00:00:00.000" eId="fnt__dates__madeDate__ddate"><ref class="placeholder" href="#varMadeDate" ukl:dateFormat="d'th' MMMM yyyy">15th January 2023</ref></docDate></block>
+				<block GUID="_c18ab230-9f1b-44b3-a345-b2a44fe4d8dd" eId="fnt__dates__laidDate" name="laidDate"><span>Laid before Parliament</span><docDate GUID="_37e6878c-381b-47a7-b3e2-7fe7940c3375" date="2023-01-17T00:00:00.000" eId="fnt__dates__laidDate__ddate"><ref class="placeholder" href="#varLaidDate" ukl:dateFormat="d'th' MMMM yyyy">17th January 2023</ref></docDate></block>
+				<block GUID="_d0a4ba7a-679d-41fb-a79d-007dd81f449a" eId="fnt__dates__commenceDate" name="commenceDate"><span>Coming into force</span><docDate GUID="_aa975ed5-2173-4cf2-8270-a57d0e441fae" date="2023-04-01T00:00:00.000" eId="fnt__dates__commenceDate__ddate"><ref class="placeholder" href="#varCommenceDate" ukl:dateFormat="d'th' MMMM yyyy">1st April 2023</ref></docDate></block>
+			</container>
+		</preface>
+		<preamble GUID="_05d05086-c9a6-4cb3-a692-b81af9d4d24e" eId="preamble"><?DMS-Component componentId="814a8575-d7cf-4fd5-acfe-a151dd5e9011" seriesId="190b273d-871b-4814-b87e-9fa3cfdb3b7c" versionNumber="1"?>
+			
+			<formula GUID="_38412e72-78be-4ccd-9188-ac8641580142" eId="preamble__enactingWords" name="enactingText">
+				<p>The Secretary of State makes this <ref class="placeholder" href="#varDocSubType"/> in exercise of the powers conferred by sections 184(1) and (4) and 192(4) of the Energy Act 2004<authorialNote GUID="_36679bf3-283f-440d-a71e-90ee050c3e4a" class="footnote" eId="fnote_1" marker="1">
+						<p>2004 c. 20. Section 192(4) was amended by section 62(16) of the Scotland Act 2016 (c. 11) and by paragraph 60(6) of Schedule 6 to the Wales Act 2017 (c. 4). For the meaning of “modification” in section 184(4) of the Energy Act 2004, see section 196(1) of that Act.</p>
+					</authorialNote>.</p>
+				<p>In accordance with section 184(7) of that Act the Secretary of State has consulted such persons as the Secretary of State considered appropriate.</p>
+			</formula>
+		</preamble>
+		<body><?DMS-Component componentId="c0ffb830-1c09-42a3-852e-e4cf80ac8afc" seriesId="4a059e37-5a22-470d-aaf0-c98ac016536a" versionNumber="1"?>
+			
+			<article GUID="_f4bcace7-465e-4c91-802a-528f215fee8a" class="prov1" eId="art_1"><?DMS-Component componentId="2499387d-372d-496f-a9c2-be2363dbd1bd" seriesId="d3fd41df-79b0-4495-b742-8889d6b95227" versionNumber="1"?>
+				
+				<heading GUID="_35c9f431-77f9-4b50-8bb7-0a4e2d8c28a4" eId="art_1__hdg">Citation, commencement and extent</heading>
+				<num>1.</num>
+				<paragraph GUID="_e7496a98-3ac0-486a-9127-bfb1ac853e27" class="prov2" eId="art_1__para_1">
+					<num>(1)</num>
+					<content>
+						<p>This Order may be cited as the Energy Act 2004 (Assistance for Areas with High Distribution Costs) (Amendment) Order 2023 and comes into force on 1st April 2023.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_8b892d7e-e062-4ea8-9cc9-2093df97229c" class="prov2" eId="art_1__para_2">
+					<num>(2)</num>
+					<content>
+						<p>This Order extends to England and Wales and Scotland.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article GUID="_05ac1197-f00a-401e-899e-2b6b2272989f" class="prov1" eId="art_2"><?DMS-Component componentId="f0967e9c-4acd-4a40-ad41-5dac4fd0fe48" seriesId="a07bcb21-b872-43a0-b556-83ef30498cd3" versionNumber="1"?>
+				
+				<heading GUID="_da6b1420-9e8b-4175-b06d-64eaf57c277c" eId="art_2__hdg">Amendment of the Energy Act 2004 (Assistance for Areas with High Distribution Costs) Order 2005</heading>
+				<num>2.</num>
+				<paragraph GUID="_1856e9d2-2952-46c2-8fd4-e76490854075" class="prov2" eId="art_2__para_1">
+					<num>(1)</num>
+					<content>
+						<p>The Energy Act 2004 (Assistance for Areas with High Distribution Costs) Order 2005<authorialNote GUID="_dce509a6-9d7c-4638-9418-bbb730f45483" class="footnote" eId="fnote_2" marker="2">
+								<p>S.I. 2005/528, amended by S.I. 2020/146.</p>
+							</authorialNote> is amended as follows.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_36124874-487e-4567-ae4c-7b9fe50881b1" class="prov2" eId="art_2__para_2">
+					<num>(2)</num>
+					<content>
+						<p>Omit article 4 (implementation of scheme).</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_a55278a2-0183-477c-acc9-df2dbb0d4b77" class="prov2" eId="art_2__para_3">
+					<num>(3)</num>
+					<content>
+						<p>Omit article 9 (amendment of scheme)<authorialNote GUID="_a30662b3-cb93-4cb3-a245-3dd89057d937" class="footnote" eId="fnote_14" marker="14">
+								<p>Article 9 was inserted by S.I. 2020/146.</p>
+							</authorialNote>.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article GUID="_d18e8fe2-b6e1-4bfc-ae44-7f300dc60cd7" class="prov1" eId="art_3"><?DMS-Component componentId="2a83c086-b34a-47c1-818c-222ec74fcc82" seriesId="aaec5b24-4ff3-4c60-8722-b73e44c8656a" versionNumber="1"?>
+				
+				<heading GUID="_69fbc556-34ab-4304-b913-28f6aa14c441" eId="art_3__hdg">Modifications to licences granted to authorised suppliers</heading>
+				<num>3.</num>
+				<content>
+					<p>Schedule 1 to this Order (which modifies the standard conditions of the licences of authorised suppliers) has effect.</p>
+				</content>
+			</article>
+			<article GUID="_7a6e0278-80b3-407c-9f02-ae3e3a970133" class="prov1" eId="art_4"><?DMS-Component componentId="03fcb633-5d9a-44bc-a8bf-f6ce8d95d739" seriesId="43a52c8b-ad75-4da2-b182-a61d3ac56616" versionNumber="1"?>
+				
+				<heading GUID="_a373349d-0176-403a-a32e-c971668f1ef7" eId="art_4__hdg">Modifications to licences granted to authorised transmitters</heading>
+				<num>4.</num>
+				<content>
+					<p>Schedule 2 to this Order (which modifies the standard conditions of the licences of authorised transmitters) has effect.</p>
+				</content>
+			</article>
+			<hcontainer GUID="_1a50e1b3-98a9-4432-87ae-421281f6fd4e" eId="sigs" name="signatures"><?DMS-Component componentId="97be572c-de09-4cc5-8a19-427f1249a104" seriesId="acda68d0-99b7-4dbd-8f90-a24d5054437c" versionNumber="0"?>
+				
+				<hcontainer GUID="_dc15454d-58bb-47ab-b7cc-99b46a651e25" eId="sigs__sigBlk" name="signatureBlock">
+					<content>
+						<block GUID="_f9b4a5e2-e90e-450c-b68f-644ea4b962ca" eId="sigs__sigBlk__sig" name="signature">Graham Stuart</block>
+						<block GUID="_7b4dd656-7973-4979-bbcb-09f52d9e350b" eId="sigs__sigBlk__role" name="role">Minister of State for Energy and Climate</block>
+						<block name="date"><date date="2023-01-15">15th January 2023</date></block>
+						<block GUID="_aedf7655-34e9-4890-9df0-cb4ff4453398" eId="sigs__sigBlk__org" name="organization">Department for Business, Energy and Industrial Strategy</block>
+					</content>
+				</hcontainer>
+			</hcontainer>
+			<hcontainer GUID="_ced584d8-cb24-4819-833c-e0b16a0d8de9" class="schs" eId="scheds" name="schedules"><?DMS-Component componentId="d7a4488d-0344-43bc-a1ae-1f60ecea5baf" seriesId="e98a6132-9244-4099-a9d4-1111072f26d6" versionNumber="1"?>
+				
+				<heading GUID="_611b4f6f-0883-44ff-80c2-bd216daa952d" eId="scheds__hdg">Schedules</heading>
+				<hcontainer GUID="_69acf477-f826-4e2a-92bd-56458b49ec1f" class="sch" eId="sched_1" name="schedule"><?DMS-Component componentId="6859096c-0a5d-47bc-b629-7118a57893cb" seriesId="979cda49-7605-4874-9cc9-cd6329dc0c43" versionNumber="1"?>
+					
+					<num>Schedule 1<authorialNote GUID="_07875c87-99ac-4401-8bda-74e76f5b443d" class="referenceNote" eId="sched_1__aNote">
+							<p>Article 3</p>
+						</authorialNote></num>
+					<heading GUID="_2e783925-bd43-4244-99ba-71fabc56a0a8" eId="sched_1__hdg">Modifications to licences granted to authorised suppliers</heading>
+					<paragraph GUID="_ba595310-ddb8-4962-84db-4671bba36c51" class="schProv1" eId="sched_1__para_1">
+						<num>1.</num>
+						<content>
+							<p>Condition 15 (assistance for areas with high distribution costs scheme: payments to System Operator)<authorialNote GUID="_669fff0c-ce78-44fb-94a5-cf26746af0a9" class="footnote" eId="fnote_6" marker="6">
+									<p>Condition 15 replaced Condition 30B, which was inserted into the standard conditions of licences of authorised suppliers by S.I. 2005/528. Condition 30B was omitted by Modification 177 of the “Modification of the Standard Conditions of the Electricity Supply Licence under Section 11A of the Electricity Act 1989” made by the Gas and Electricity Markets Authority with effect on and from 1 August 2007 (the 2007 Modification”), and Condition 15 was inserted by Modification 360 of the 2007 Modification. The 2007 Modification is available at: https://www.ofgem.gov.uk/publications/13307-notice-modification-standard-condition-electricity-supply-licence-under-section-11a-electricity-act-1989. Condition 15 was modified by S.I. 2020/146.There are other modifications to Condition 15 not relevant to this instrument.</p>
+								</authorialNote> of the standard conditions of the licences of authorised suppliers is modified as follows.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_dc2b33f7-997a-4f1f-aa63-cc4c397868ed" class="schProv1" eId="sched_1__para_2">
+						<num>2.</num>
+						<content>
+							<p>In paragraph 15.3 (licensee’s duty to pay), omit “, and from the Shetland pence per kWh tariff,”.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_a38ba5a2-98c4-4562-9af3-dfa0fe3a3d52" class="schProv1" eId="sched_1__para_3">
+						<num>3.</num>
+						<content>
+							<p>In paragraph 15.9 (definitions), omit the definition of “Shetland pence per kWh tariff”.</p>
+						</content>
+					</paragraph>
+				</hcontainer>
+				<hcontainer GUID="_7997492b-93b3-4f07-b083-eb2b93c77b3c" class="sch" eId="sched_2" name="schedule"><?DMS-Component componentId="cda488c8-c061-49d7-b5a8-d55ac8bcd994" seriesId="3e22298b-1e18-4e3f-ba0e-2bb23210be1b" versionNumber="0"?>
+					
+					<num>Schedule 2<authorialNote GUID="_b9c4cb20-452e-42bd-b4a2-24120da9b9a0" class="referenceNote" eId="sched_2__aNote">
+							<p>Article 4</p>
+						</authorialNote></num>
+					<heading GUID="_e868398a-c15a-45ba-b1aa-f8f98a91468b" eId="sched_2__hdg">Modifications to licences granted to authorised transmitters</heading>
+					<paragraph GUID="_826385cd-539c-4290-98d9-05518b9f006e" class="schProv1" eId="sched_2__para_1">
+						<num>1.</num>
+						<subparagraph GUID="_1bd1f8e6-c944-4616-ab3d-d7f3e41b7881" class="schProv2" eId="sched_2__para_1__subpara_1">
+							<num>(1)</num>
+							<content>
+								<p>Condition C20 (assistance for areas with high distribution costs scheme: restriction on revenue)<authorialNote GUID="_f1892376-08d5-42a1-82a8-4b680b09489d" class="footnote" eId="fnote_8" marker="8">
+										<p>Condition C20 was inserted into the standard conditions of licences of authorised transmitters by S.I. 2005/528. It was modified by the “Modification of the Standard Conditions of Electricity Transmission Licences Granted or Treated as Granted under section 6(1)(b) of the Electricity Act 1989” made by the Gas and Electricity Markets Authority with effect from 27th September 2005 (“the 2005 modification”) and by S.I. 2020/146. The 2005 modification is available at: https://www.ofgem.gov.uk/publications/modification-slc-c20-electricity-transmission-licences-under-section-11a1-electricity-act-1989.</p>
+									</authorialNote> of the standard conditions of the licences of authorised transmitters is modified as follows.</p>
+							</content>
+						</subparagraph>
+						<subparagraph GUID="_13830a12-6c10-496d-b6c9-980426e1bb7a" class="schProv2" eId="sched_2__para_1__subpara_2">
+							<num>(2)</num>
+							<content>
+								<p>
+									<mod>For paragraph 1, substitute—<quotedStructure GUID="_8dd8fc8c-2f5f-4c03-8bf8-fe32a636f344" eId="sched_2__para_1__subpara_2__qstr" endQuote="”" startQuote="“" ukl:context="schedule" ukl:docName="uksi" ukl:indent="indent0">
+											<paragraph GUID="_f4df10c1-77f0-4473-89f6-a4bc9deabef9" class="schProv1" eId="sched_2__para_1__subpara_2__qstr__para_1">
+												<num ukl:autonumber="no">1.</num>
+												<content>
+													<p>The licensee must use its best endeavours to ensure that, in each relevant year, the revenue derived by the licensee from the assistance for areas with high distribution costs scheme activity does not exceed the assistance for areas with high distribution costs scheme amount for that relevant year as calculated in accordance with the following formula:</p>
+													<tblock GUID="_bc0f4282-3973-4f9f-91c2-c6bce2a84008" class="formula" eId="sched_2__para_1__subpara_2__qstr__para_1__enactingWords">
+														<foreign>
+															<math xmlns="http://www.w3.org/1998/Math/MathML">
+																<mi>H</mi>
+																<mi>B</mi>
+																<msub>
+																	<mi>M</mi>
+																	<mi>t</mi>
+																</msub>
+																<mo> </mo>
+																<mo>=</mo>
+																<mo> </mo>
+																<msub>
+																	<mi>A</mi>
+																	<mi>t</mi>
+																</msub>
+																<mo> </mo>
+																<mo>+</mo>
+																<mo> </mo>
+																<mi>S</mi>
+																<msub>
+																	<msub>
+																		<mi>A</mi>
+																		<mrow>
+																			<mi>t</mi>
+																			<mo> </mo>
+																		</mrow>
+																	</msub>
+																	<mrow/>
+																</msub>
+																<mo>+</mo>
+																<mo> </mo>
+																<mo>(</mo>
+																<mi>H</mi>
+																<mi>B</mi>
+																<mi>O</mi>
+																<msub>
+																	<mi>C</mi>
+																	<mi>t</mi>
+																</msub>
+																<mo> </mo>
+																<mo>-</mo>
+																<mo> </mo>
+																<mi>H</mi>
+																<mi>B</mi>
+																<msub>
+																	<mi>K</mi>
+																	<mi>t</mi>
+																</msub>
+																<mo>)</mo>
+															</math>
+														</foreign>
+													</tblock>
+													<p>where—</p>
+													<tblock GUID="_f54467c4-9da3-401e-8659-e471c82ec3ac" class="table" eId="sched_2__para_1__subpara_2__qstr__para_1__tbl__oc_2">
+														<foreign>
+															<table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="noBorders tableleft width100" cols="2">
+																<tbody class="left">
+																	<tr akn:GUID="_c6a2cc2d-b4a7-4cfa-aa1f-4c4072e44aad" akn:eId="sched_2__para_1__subpara_2__qstr__para_1__tbl__oc_2__row__oc_1">
+																		<td akn:GUID="_cd6efcbb-6e72-4dc5-a4fb-4fb9064a79b8" akn:eId="sched_2__para_1__subpara_2__qstr__para_1__tbl__oc_2__row__oc_1__col_1">
+																			<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">HBM<sub>t</sub></p>
+																		</td>
+																		<td akn:GUID="_f77d859c-f0aa-4649-a8e1-9ee45642ef11" akn:eId="sched_2__para_1__subpara_2__qstr__para_1__tbl__oc_2__row__oc_1__col_2">
+																			<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">represents the assistance for areas with high distribution costs scheme amount in relation to the relevant year t.</p>
+																		</td>
+																	</tr>
+																	<tr akn:GUID="_30ff227c-c9e4-4802-b86c-c52dfb0c0197" akn:eId="sched_2__para_1__subpara_2__qstr__para_1__tbl__oc_2__row__oc_2">
+																		<td akn:GUID="_a5007a2b-7aa0-4530-a6a6-372cae00db36" akn:eId="sched_2__para_1__subpara_2__qstr__para_1__tbl__oc_2__row__oc_2__col_1">
+																			<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">A<sub>t</sub></p>
+																		</td>
+																		<td akn:GUID="_07806f10-0a63-4ba2-85fd-0964c820292c" akn:eId="sched_2__para_1__subpara_2__qstr__para_1__tbl__oc_2__row__oc_2__col_2">
+																			<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">represents the assistance amount in relation to the relevant year t.</p>
+																		</td>
+																	</tr>
+																	<tr akn:GUID="_816afb4e-3fea-49e3-936b-67a57dda241b" akn:eId="sched_2__para_1__subpara_2__qstr__para_1__tbl__oc_2__row__oc_3">
+																		<td akn:GUID="_01b739b2-dbd3-4f1d-b883-bf2ad01f294b" akn:eId="sched_2__para_1__subpara_2__qstr__para_1__tbl__oc_2__row__oc_3__col_1">
+																			<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">SA<sub>t</sub></p>
+																		</td>
+																		<td akn:GUID="_ac41f55c-90aa-45a4-9ef7-d06a1809c49d" akn:eId="sched_2__para_1__subpara_2__qstr__para_1__tbl__oc_2__row__oc_3__col_2">
+																			<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">represents the Shetland assistance amount in relation to the relevant year t.</p>
+																		</td>
+																	</tr>
+																	<tr akn:GUID="_877264d1-51f8-41e5-bc9a-ee654903eb84" akn:eId="sched_2__para_1__subpara_2__qstr__para_1__tbl__oc_2__row__oc_4">
+																		<td akn:GUID="_cfc2e2ac-6bd4-4614-9f6a-f7d55a4047f5" akn:eId="sched_2__para_1__subpara_2__qstr__para_1__tbl__oc_2__row__oc_4__col_1">
+																			<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">HBOC<sub>t</sub></p>
+																		</td>
+																		<td akn:GUID="_8b262ce4-1bc3-46e2-8995-af8b60b870df" akn:eId="sched_2__para_1__subpara_2__qstr__para_1__tbl__oc_2__row__oc_4__col_2">
+																			<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">represents the administration allowance in relation to the relevant year t.</p>
+																		</td>
+																	</tr>
+																	<tr akn:GUID="_d009f9e2-48d5-4fae-b577-4e104b72db5f" akn:eId="sched_2__para_1__subpara_2__qstr__para_1__tbl__oc_2__row__oc_5">
+																		<td akn:GUID="_d7d97bf6-b6a1-4d0d-a75f-3c63f76c3d1e" akn:eId="sched_2__para_1__subpara_2__qstr__para_1__tbl__oc_2__row__oc_5__col_1">
+																			<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">HBK<sub>t</sub></p>
+																		</td>
+																		<td akn:GUID="_adf3de28-6cc9-4e02-bf63-166a523ef341" akn:eId="sched_2__para_1__subpara_2__qstr__para_1__tbl__oc_2__row__oc_5__col_2">
+																			<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">represents the correction amount in relation to the relevant year t.</p>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</foreign>
+													</tblock>
+												</content>
+											</paragraph>
+										</quotedStructure><inline name="AppendText">.</inline></mod>
+								</p>
+							</content>
+						</subparagraph>
+						<subparagraph GUID="_abef25a0-21ca-419e-8e21-7c48b7259a10" class="schProv2" eId="sched_2__para_1__subpara_3">
+							<num>(3)</num>
+							<intro GUID="_742c5085-3026-4776-8495-3eb53a9f38f2" eId="sched_2__para_1__subpara_3__intro">
+								<p>In paragraph 2—</p>
+							</intro>
+							<level GUID="_1d6404ad-6530-44ae-b789-cc2f197d2478" class="para1" eId="sched_2__para_1__subpara_3__para_a">
+								<num>(a)</num>
+								<content>
+									<p>in the words before the formula, for the words from “for the first relevant year” to “and for each subsequent relevant year” substitute “for each relevant year”;</p>
+								</content>
+							</level>
+							<level GUID="_f698acf2-503e-4f5b-a594-4913422dbb24" class="para1" eId="sched_2__para_1__subpara_3__para_b">
+								<num>(b)</num>
+								<content>
+									<p>in the formula, for “<i>RPI<sub>t</sub></i>” substitute <i>CPIH<sub>t</sub></i>”;</p>
+								</content>
+							</level>
+							<level GUID="_34643858-536f-4530-99bd-1a384f6f7254" class="para1" eId="sched_2__para_1__subpara_3__para_c">
+								<num>(c)</num>
+								<intro GUID="_6a52c5ed-e6ba-4d04-aba6-6c3879e9154e" eId="sched_2__para_1__subpara_3__para_c__intro">
+									<p>in the definitions of the terms used in the formula—</p>
+								</intro>
+								<level GUID="_75e1aa92-c08f-4a1b-b3ef-9df54d347e77" class="para2" eId="sched_2__para_1__subpara_3__para_c__subpara_i">
+									<num>(i)</num>
+									<content>
+										<p>omit the definition of “RPI<sub>t</sub>”;</p>
+									</content>
+								</level>
+								<level GUID="_bb772f46-23d8-4287-b81b-b253fc7e76f0" class="para2" eId="sched_2__para_1__subpara_3__para_c__subpara_ii">
+									<num>(ii)</num>
+									<content>
+										<p>
+											<mod>after the definition of “A<sub>t-1</sub>” insert—<quotedStructure GUID="_85be25d2-abba-45ea-a4fe-384eefe0a9a7" eId="sched_2__para_1__subpara_3__para_c__subpara_ii__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+													<content>
+														<tblock GUID="_d448e7a6-faae-4f23-a05c-8e152fab7876" class="table" eId="sched_2__para_1__subpara_3__para_c__subpara_ii__qstr__tbl__oc_1">
+															<foreign>
+																<table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="noBorders tableleft width100" cols="2">
+																	<tbody class="left">
+																		<tr akn:GUID="_aae0618b-5abd-4df9-9710-826927dc3730" akn:eId="sched_2__para_1__subpara_3__para_c__subpara_ii__qstr__tbl__oc_1__row__oc_1">
+																			<td akn:GUID="_7df4e6a6-37cf-4767-a2dc-83bb7a1406bd" akn:eId="sched_2__para_1__subpara_3__para_c__subpara_ii__qstr__tbl__oc_1__row__oc_1__col_1">
+																				<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">“CPIH<sub>t</sub></p>
+																			</td>
+																			<td akn:GUID="_1512a6a6-6e87-46be-9f85-bb7a94255f48" akn:eId="sched_2__para_1__subpara_3__para_c__subpara_ii__qstr__tbl__oc_1__row__oc_1__col_2">
+																				<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">means the percentage change (whether of a positive or a negative value) in the arithmetic average of the CPIH figures published or determined with respect to each of the six months May to October (both inclusive) in relation to the relevant year t-1 and that are published or determined with respect to the same months in relation to the relevant year t-2.</p>
+																			</td>
+																		</tr>
+																	</tbody>
+																</table>
+															</foreign>
+														</tblock>
+													</content>
+												</quotedStructure><inline name="AppendText">.</inline></mod>
+										</p>
+									</content>
+								</level>
+							</level>
+						</subparagraph>
+						<subparagraph GUID="_38ce6ba4-c27f-4c86-8ac2-44e8f211eab0" class="schProv2" eId="sched_2__para_1__subpara_4">
+							<num>(4)</num>
+							<intro GUID="_aedb5f1f-f9fb-479f-ae8e-e6d1895d9b34" eId="sched_2__para_1__subpara_4__intro">
+								<p>In paragraph 2A<authorialNote GUID="_c3b92dae-4280-48c6-b915-2bdad13b7bee" class="footnote" eId="fnote_9" marker="9">
+										<p>Paragraph 2A was inserted by S.I. 2020/146.</p>
+									</authorialNote>—</p>
+							</intro>
+							<level GUID="_e664c192-c079-43b4-9982-942417e613a4" class="para1" eId="sched_2__para_1__subpara_4__para_a">
+								<num>(a)</num>
+								<content>
+									<p>in the words before the formula, for the words from “for the relevant year” to “and for each subsequent relevant year” substitute “for each relevant year”;</p>
+								</content>
+							</level>
+							<level GUID="_b9b1a9e8-c1f7-4754-a4c7-f8b7e3264427" class="para1" eId="sched_2__para_1__subpara_4__para_b">
+								<num>(b)</num>
+								<content>
+									<p>in the formula, for “<i>RPI<sub>t</sub></i>” substitute “<i>CPIH<sub>t</sub></i>”;</p>
+								</content>
+							</level>
+							<level GUID="_170cfbc2-9c63-46bc-82fa-509063ddfcdc" class="para1" eId="sched_2__para_1__subpara_4__para_c">
+								<num>(c)</num>
+								<content>
+									<p>in the definitions of the terms used in the formula, for “RPI<sub>t</sub>” substitute “CPIH<sub>t</sub>”.</p>
+								</content>
+							</level>
+						</subparagraph>
+						<subparagraph GUID="_18b5fd84-de61-4be0-9586-0f32f6f7a6b8" class="schProv2" eId="sched_2__para_1__subpara_5">
+							<num>(5)</num>
+							<intro GUID="_060d7565-84c9-4b3b-9fea-8f9cc0859e94" eId="sched_2__para_1__subpara_5__intro">
+								<p>In paragraph 3—</p>
+							</intro>
+							<level GUID="_8c47cbcc-b8d1-4957-9d17-962459639dad" class="para1" eId="sched_2__para_1__subpara_5__para_a">
+								<num>(a)</num>
+								<content>
+									<p>in the words before the formula, for the words from “for the first relevant year” to “and for each subsequent relevant year,” substitute “for each relevant year”;</p>
+								</content>
+							</level>
+							<level GUID="_37a3d4cd-e3a9-451a-b10b-89527f17711e" class="para1" eId="sched_2__para_1__subpara_5__para_b">
+								<num>(b)</num>
+								<content>
+									<p>in the formula, for “<i>RPI<sub>t</sub></i>” substitute “<i>CPIH<sub>t</sub></i>”;</p>
+								</content>
+							</level>
+							<level GUID="_00be489b-7084-4d72-9c05-1ba6ab1fe8fc" class="para1" eId="sched_2__para_1__subpara_5__para_c">
+								<num>(c)</num>
+								<intro GUID="_12e5454b-c626-4304-8e33-aa328e518f16" eId="sched_2__para_1__subpara_5__para_c__intro">
+									<p>in the definitions of the terms used in the formula—</p>
+								</intro>
+								<level GUID="_a4ad1d02-c08f-4801-af94-7581d38853e1" class="para2" eId="sched_2__para_1__subpara_5__para_c__subpara_i">
+									<num>(i)</num>
+									<content>
+										<p>omit the definition of “RPI<sub>t</sub>”;</p>
+									</content>
+								</level>
+								<level GUID="_53cc8087-00eb-425f-84b5-6740882283da" class="para2" eId="sched_2__para_1__subpara_5__para_c__subpara_ii">
+									<num>(ii)</num>
+									<content>
+										<p>
+											<mod>after the definition of “HBOC<sub>t-1</sub>”, insert—<quotedStructure GUID="_96c432df-96a6-42f8-a68b-8de907da028d" eId="sched_2__para_1__subpara_5__para_c__subpara_ii__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+													<content>
+														<tblock GUID="_de73a01b-a42d-4030-993c-47867200bc80" class="table" eId="sched_2__para_1__subpara_5__para_c__subpara_ii__qstr__tbl__oc_1">
+															<foreign>
+																<table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="noBorders tableleft width100" cols="2">
+																	<tbody class="left">
+																		<tr akn:GUID="_f2268126-93b7-466b-93cb-198d1b2b8cda" akn:eId="sched_2__para_1__subpara_5__para_c__subpara_ii__qstr__tbl__oc_1__row__oc_1">
+																			<td akn:GUID="_56a4ecc0-ad4d-474d-9a99-3c4dd6ff8482" akn:eId="sched_2__para_1__subpara_5__para_c__subpara_ii__qstr__tbl__oc_1__row__oc_1__col_1">
+																				<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">CPIH<sub>t</sub></p>
+																			</td>
+																			<td akn:GUID="_7a874181-be45-4593-b3f8-c98cbca0da68" akn:eId="sched_2__para_1__subpara_5__para_c__subpara_ii__qstr__tbl__oc_1__row__oc_1__col_2">
+																				<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">has the meaning given in paragraph 2.</p>
+																			</td>
+																		</tr>
+																	</tbody>
+																</table>
+															</foreign>
+														</tblock>
+													</content>
+												</quotedStructure><inline name="AppendText">.</inline></mod>
+										</p>
+									</content>
+								</level>
+							</level>
+						</subparagraph>
+						<subparagraph GUID="_3cfdfe7b-3244-4187-a253-ebe6cd634888" class="schProv2" eId="sched_2__para_1__subpara_6">
+							<num>(6)</num>
+							<intro GUID="_7eb7626b-d513-44ee-9114-24ad1d0fcefb" eId="sched_2__para_1__subpara_6__intro">
+								<p>In paragraph 4—</p>
+							</intro>
+							<level GUID="_cb9da190-ce1c-4e76-94c1-8bfae1caa0cb" class="para1" eId="sched_2__para_1__subpara_6__para_a">
+								<num>(a)</num>
+								<content>
+									<p>in the words before the formula, for the words from “for the first relevant year” to “and for all subsequent relevant years” substitute “for each relevant year the correction amount”;</p>
+								</content>
+							</level>
+							<level GUID="_c12db3b6-aff1-4d31-9f5b-9635ceada12a" class="para1" eId="sched_2__para_1__subpara_6__para_b">
+								<num>(b)</num>
+								<content>
+									<p>
+										<mod>for the definition of “HBC<sub>t-1</sub>” substitute—<quotedStructure GUID="_8e6bbec4-e158-4c8c-beba-f0c05e0ff03d" eId="sched_2__para_1__subpara_6__para_b__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+												<content>
+													<tblock GUID="_9d765f61-31c9-4830-860a-bf1ff2e35b37" class="table" eId="sched_2__para_1__subpara_6__para_b__qstr__tbl__oc_1">
+														<foreign>
+															<table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="noBorders tableleft width100" cols="2">
+																<tbody class="left">
+																	<tr akn:GUID="_df4dce2e-c38b-44a6-be4f-1b69f03e620b" akn:eId="sched_2__para_1__subpara_6__para_b__qstr__tbl__oc_1__row__oc_1">
+																		<td akn:GUID="_c14a3bba-027b-492a-b41e-2010316feeda" akn:eId="sched_2__para_1__subpara_6__para_b__qstr__tbl__oc_1__row__oc_1__col_1">
+																			<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">“HBC<sub>t-1</sub>”</p>
+																		</td>
+																		<td akn:GUID="_f41ccdaf-bc42-46a0-841d-aa23932d5c6a" akn:eId="sched_2__para_1__subpara_6__para_b__qstr__tbl__oc_1__row__oc_1__col_2">
+																			<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">means the total income from payments received from authorised suppliers during the relevant year t-1 pursuant to standard condition C21, excluding any interest on late payments.</p>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</foreign>
+													</tblock>
+												</content>
+											</quotedStructure><inline name="AppendText">.</inline></mod>
+									</p>
+								</content>
+							</level>
+						</subparagraph>
+						<subparagraph GUID="_122084d8-0377-4bff-b1a0-c441f810ed8e" class="schProv2" eId="sched_2__para_1__subpara_7">
+							<num>(7)</num>
+							<content>
+								<p>
+									<mod>After paragraph 4 insert—<quotedStructure GUID="_b138f3c3-a4a9-445b-b84d-79b78a89cdc7" eId="sched_2__para_1__subpara_7__qstr" endQuote="”" startQuote="“" ukl:context="schedule" ukl:docName="uksi" ukl:indent="indent0">
+											<paragraph GUID="_26cd8c17-2bfd-4d4e-8cd3-ddfefed10297" class="schProv1" eId="sched_2__para_1__subpara_7__qstr__para_4A">
+												<num ukl:autonumber="no">4A</num>
+												<intro GUID="_cb962053-fcc5-4056-b1c8-0e3418b1bf4f" eId="sched_2__para_1__subpara_7__qstr__para_4A__intro">
+													<p>For the purposes of paragraphs 2 to 4, where the relevant year t-1 is the year beginning on 1 April 2022, the following amounts in relation to that year are the amounts calculated in accordance with this condition as in force immediately before 1 April 2023—</p>
+												</intro>
+												<level GUID="_b0992fc0-241c-4b2a-afed-1714c148e54a" class="para1" eId="sched_2__para_1__subpara_7__qstr__para_4A__para_a">
+													<num>(a)</num>
+													<content>
+														<p>the assistance amount;</p>
+													</content>
+												</level>
+												<level GUID="_ae20a92e-caa2-44b1-a40d-de66a6157ff9" class="para1" eId="sched_2__para_1__subpara_7__qstr__para_4A__para_b">
+													<num>(b)</num>
+													<content>
+														<p>the Shetland assistance amount;</p>
+													</content>
+												</level>
+												<level GUID="_89ffd111-137d-471f-8e85-b75091c09d76" class="para1" eId="sched_2__para_1__subpara_7__qstr__para_4A__para_c">
+													<num>(c)</num>
+													<content>
+														<p>the administration allowance;</p>
+													</content>
+												</level>
+												<level GUID="_41ea5a1f-99a6-459f-b4f6-d590b7157c44" class="para1" eId="sched_2__para_1__subpara_7__qstr__para_4A__para_d">
+													<num>(d)</num>
+													<content>
+														<p>the assistance for areas with high distribution costs scheme amount.</p>
+													</content>
+												</level>
+											</paragraph>
+										</quotedStructure><inline name="AppendText">.</inline></mod>
+								</p>
+							</content>
+						</subparagraph>
+						<subparagraph GUID="_ac9a0c70-b9b9-4450-bc78-b88beef11c7b" class="schProv2" eId="sched_2__para_1__subpara_8">
+							<num>(8)</num>
+							<intro GUID="_a9ec19fb-b34c-442f-9931-95a983a2a3aa" eId="sched_2__para_1__subpara_8__intro">
+								<p>In paragraph 5—</p>
+							</intro>
+							<level GUID="_f444101d-8f4a-4c85-b484-6fb161aacd55" class="para1" eId="sched_2__para_1__subpara_8__para_a">
+								<num>(a)</num>
+								<content>
+									<p>in the definition of “administration allowance”, omit “specified in or”;</p>
+								</content>
+							</level>
+							<level GUID="_7969102b-c31b-48db-a95f-e9c51b45c78e" class="para1" eId="sched_2__para_1__subpara_8__para_b">
+								<num>(b)</num>
+								<content>
+									<p>in the definition of “assistance amount”, omit “specified in or”;</p>
+								</content>
+							</level>
+							<level GUID="_2f0dd422-8fd8-4ccc-9ad4-d20a07314d15" class="para1" eId="sched_2__para_1__subpara_8__para_c">
+								<num>(c)</num>
+								<content>
+									<p>in the definition of “correction amount”, omit “specified in or”;</p>
+								</content>
+							</level>
+							<level GUID="_b840f927-e826-4d30-a292-215dd070387d" class="para1" eId="sched_2__para_1__subpara_8__para_d">
+								<num>(d)</num>
+								<content>
+									<p>
+										<mod>at the appropriate place insert—<quotedStructure GUID="_76e7cfdb-551b-4b7e-9d3a-af87171e3cc4" eId="sched_2__para_1__subpara_8__para_d__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+												<content>
+													<tblock GUID="_0eec5f7e-bc76-48d4-b7e1-531d549f562c" class="table" eId="sched_2__para_1__subpara_8__para_d__qstr__tbl__oc_1">
+														<foreign>
+															<table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="noBorders tableleft width100" cols="2">
+																<tbody class="left">
+																	<tr akn:GUID="_3dc43024-e0b2-4677-bdcf-c886b0c3d2fb" akn:eId="sched_2__para_1__subpara_8__para_d__qstr__tbl__oc_1__row__oc_1">
+																		<td akn:GUID="_20548571-bcab-4f08-b97f-799698ed0272" akn:eId="sched_2__para_1__subpara_8__para_d__qstr__tbl__oc_1__row__oc_1__col_1">
+																			<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">“CPIH”</p>
+																		</td>
+																		<td akn:GUID="_506d2728-041d-468b-9773-8a041c81262a" akn:eId="sched_2__para_1__subpara_8__para_d__qstr__tbl__oc_1__row__oc_1__col_2">
+																			<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">means the consumer prices index including owner occupiers’ housing costs (all items) published by the Office for National Statistics.</p>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</foreign>
+													</tblock>
+												</content>
+											</quotedStructure><inline name="AppendText">;</inline></mod>
+									</p>
+								</content>
+							</level>
+							<level GUID="_04008f78-6925-458a-b262-8c7d3228613c" class="para1" eId="sched_2__para_1__subpara_8__para_e">
+								<num>(e)</num>
+								<intro GUID="_74391b13-3349-4ba5-9f2e-eb74b84dc3ae" eId="sched_2__para_1__subpara_8__para_e__intro">
+									<p>in the definition of “Shetland assistance amount”—</p>
+								</intro>
+								<level GUID="_78e04a22-c5b4-45bd-ba1b-41650270f64a" class="para2" eId="sched_2__para_1__subpara_8__para_e__subpara_i">
+									<num>(i)</num>
+									<content>
+										<p>omit “beginning on or after 1 April 2021”;</p>
+									</content>
+								</level>
+								<level GUID="_970919b7-a98f-4e51-aa4f-a646761b4b48" class="para2" eId="sched_2__para_1__subpara_8__para_e__subpara_ii">
+									<num>(ii)</num>
+									<content>
+										<p>omit “specified in or”.</p>
+									</content>
+								</level>
+							</level>
+						</subparagraph>
+					</paragraph>
+					<paragraph GUID="_73ccdff1-ba3c-4796-9fb8-f8d68054f0f7" class="schProv1" eId="sched_2__para_2">
+						<num>2.</num>
+						<subparagraph GUID="_b58c6a8e-4aa6-4146-9188-a8db72a4edbb" class="schProv2" eId="sched_2__para_2__subpara_1">
+							<num>(1)</num>
+							<content>
+								<p>Condition C21 (assistance for areas with high distribution costs scheme: payments from authorised suppliers)<authorialNote GUID="_0941e674-e1ac-4924-a07f-e4a7a6d83ecd" class="footnote" eId="fnote_10" marker="10">
+										<p>Condition C21 was inserted into the standard conditions of authorised transmitters by S.I. 2005/528 and amended by S.I. 2020/146.</p>
+									</authorialNote> of the standard conditions of the licences of authorised transmitters is modified as follows.</p>
+							</content>
+						</subparagraph>
+						<subparagraph GUID="_e756d6b1-48f6-4d3d-abfe-994e46bbc04e" class="schProv2" eId="sched_2__para_2__subpara_2">
+							<num>(2)</num>
+							<content>
+								<p>In paragraph 2, after “within Great Britain” insert “by authorised suppliers”.</p>
+							</content>
+						</subparagraph>
+						<subparagraph GUID="_9e00d0e9-cb91-4b29-b7bf-942480c1cf60" class="schProv2" eId="sched_2__para_2__subpara_3">
+							<num>(3)</num>
+							<intro GUID="_c9489e69-3759-4aa6-8e6f-24dcbf6f7f60" eId="sched_2__para_2__subpara_3__intro">
+								<p>In paragraph 2A<authorialNote GUID="_e7297139-5242-4eda-83e5-81c608f304e6" class="footnote" eId="fnote_16" marker="16">
+										<p>Paragraph 2A was inserted by S.I. 2020/146.</p>
+									</authorialNote>—</p>
+							</intro>
+							<level GUID="_cc1ca163-a13b-42c7-a61a-382e4ffa86cc" class="para1" eId="sched_2__para_2__subpara_3__para_a">
+								<num>(a)</num>
+								<content>
+									<p>omit “beginning on or after 1 April 2021”;</p>
+								</content>
+							</level>
+							<level GUID="_d8c30417-5973-4036-ac9b-005f8db05298" class="para1" eId="sched_2__para_2__subpara_3__para_b">
+								<num>(b)</num>
+								<content>
+									<p>after “within Great Britain” insert “by authorised suppliers”.</p>
+								</content>
+							</level>
+						</subparagraph>
+						<subparagraph GUID="_0ae7f79b-728a-40b9-ad5e-260505e0c45f" class="schProv2" eId="sched_2__para_2__subpara_4">
+							<num>(4)</num>
+							<content>
+								<p>In paragraph 3, after “to the units of electricity” omit “actually”.</p>
+							</content>
+						</subparagraph>
+						<subparagraph GUID="_d4567952-8e41-4e77-9935-e3ca6fd05d7f" class="schProv2" eId="sched_2__para_2__subpara_5">
+							<num>(5)</num>
+							<content>
+								<p>
+									<mod>For paragraph 3A<authorialNote GUID="_ba7d9c2c-95fe-41b5-b745-7f67219452bf" class="footnote" eId="fnote_19" marker="19">
+											<p>Paragraph 3A was inserted by S.I. 2020/146.</p>
+										</authorialNote> substitute—<quotedStructure GUID="_c94120da-e87b-4a10-8233-5666a5dc7afc" eId="sched_2__para_2__subpara_5__qstr" endQuote="”" startQuote="“" ukl:context="schedule" ukl:docName="uksi" ukl:indent="indent0">
+											<paragraph GUID="_b9f9fa28-e60c-47b3-bd7f-aaf847ac4c31" class="schProv1" eId="sched_2__para_2__subpara_5__qstr__para_3A">
+												<num ukl:autonumber="no">3A.</num>
+												<content>
+													<p>For each relevant year, for the purpose of information, each invoice issued to an authorised supplier pursuant to paragraph 3 must specify the amount determined by applying the Shetland p/kWh tariff to the units of electricity supplied by that authorised supplier during each period in relation to the relevant year t specified in the table in paragraph 3.</p>
+												</content>
+											</paragraph>
+										</quotedStructure><inline name="AppendText">.</inline></mod>
+								</p>
+							</content>
+						</subparagraph>
+						<subparagraph GUID="_b9b58b1c-80ce-4624-a9ed-e8c815ad6aa9" class="schProv2" eId="sched_2__para_2__subpara_6">
+							<num>(6)</num>
+							<content>
+								<p>In paragraph 5A<authorialNote GUID="_fa2b06c7-962f-4ae1-ab6a-2d0541dd2697" class="footnote" eId="fnote_17" marker="17">
+										<p>Paragraph 5A was inserted by S.I. 2020/146.</p>
+									</authorialNote>, omit “beginning on or after 1 April 2021,”.</p>
+							</content>
+						</subparagraph>
+						<subparagraph GUID="_7687fc4e-5d5f-45ed-af0f-3acfb52d10e9" class="schProv2" eId="sched_2__para_2__subpara_7">
+							<num>(7)</num>
+							<content>
+								<p>In paragraph 6, omit “including the first relevant year”.</p>
+							</content>
+						</subparagraph>
+						<subparagraph GUID="_8a1a79b0-e35c-4af0-9a68-efb588f9313b" class="schProv2" eId="sched_2__para_2__subpara_8">
+							<num>(8)</num>
+							<intro GUID="_33bd288a-adfa-4f4f-8b05-8bfc6535d605" eId="sched_2__para_2__subpara_8__intro">
+								<p>In paragraph 9—</p>
+							</intro>
+							<level GUID="_30fa3a91-e8bb-407a-8310-216f86bfde1b" class="para1" eId="sched_2__para_2__subpara_8__para_a">
+								<num>(a)</num>
+								<content>
+									<p>in the definition of “administration allowance”, omit “specified in or”;</p>
+								</content>
+							</level>
+							<level GUID="_0ed212b5-a7b1-4b25-b743-e688f8a96016" class="para1" eId="sched_2__para_2__subpara_8__para_b">
+								<num>(b)</num>
+								<content>
+									<p>in the definition of “correction amount”, omit “specified in or”;</p>
+								</content>
+							</level>
+							<level GUID="_3532b0a3-3186-422c-b9bc-274e9b1ffdd6" class="para1" eId="sched_2__para_2__subpara_8__para_c">
+								<num>(c)</num>
+								<content>
+									<p>in the definition of “Shetland assistance amount”, omit “beginning on or after 1 April 2021 made”;</p>
+								</content>
+							</level>
+							<level GUID="_9950f57b-df46-4dd1-a4c9-b407e5ddd13e" class="para1" eId="sched_2__para_2__subpara_8__para_d">
+								<num>(d)</num>
+								<content>
+									<p>
+										<mod>for the definition of “units of electricity supplied” substitute—<quotedStructure GUID="_7ce9802d-f91b-48e9-8720-d832818e8674" eId="sched_2__para_2__subpara_8__para_d__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+												<content>
+													<tblock GUID="_f82a30ef-303e-4311-9948-cd3d2f4576e6" class="table" eId="sched_2__para_2__subpara_8__para_d__qstr__tbl__oc_1">
+														<foreign>
+															<table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="noBorders tableleft width100" cols="2">
+																<tbody class="left">
+																	<tr akn:GUID="_27c307f9-8a8b-4a51-867a-1d2e2d3524f9" akn:eId="sched_2__para_2__subpara_8__para_d__qstr__tbl__oc_1__row__oc_1">
+																		<td akn:GUID="_504c3a27-c04c-4163-b07e-8b55f5a8cea3" akn:eId="sched_2__para_2__subpara_8__para_d__qstr__tbl__oc_1__row__oc_1__col_1">
+																			<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">“units of electricity supplied”</p>
+																		</td>
+																		<td akn:GUID="_2bedd3f1-708b-4e0c-bd11-f809937264fe" akn:eId="sched_2__para_2__subpara_8__para_d__qstr__tbl__oc_1__row__oc_1__col_2">
+																			<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">means the amount of electricity, expressed in kWh, supplied to premises<authorialNote GUID="_1aa23d6a-18c3-443b-a4c6-9a895ea0cd90" class="footnote" eId="fnote_15" marker="15">
+																					<p>For the definition of premises, see section 184(13) of the Energy Act 2004.</p>
+																				</authorialNote> (cognate expressions being construed accordingly); and, for the avoidance of doubt, in calculating that amount any export of electricity from those premises is to be disregarded.</p>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</foreign>
+													</tblock>
+												</content>
+											</quotedStructure><inline name="AppendText">.</inline></mod>
+									</p>
+								</content>
+							</level>
+						</subparagraph>
+					</paragraph>
+					<paragraph GUID="_ae0443fe-8fde-4db4-be5f-e6dc7ab23c59" class="schProv1" eId="sched_2__para_3">
+						<num>3.</num>
+						<subparagraph GUID="_c36a44b8-7e87-44a0-aa37-013a60f197ba" class="schProv2" eId="sched_2__para_3__subpara_1">
+							<num>(1)</num>
+							<content>
+								<p>Condition C22 (assistance for areas with high distribution costs scheme: payments to a relevant distributor)<authorialNote GUID="_fdf6df31-7074-45e5-ac8c-af4cf4f6d0bf" class="footnote" eId="fnote_13" marker="13">
+										<p>Condition 22 was inserted into the standard conditions of licences of authorised transmitters by S.I. 2005/528 and amended by S.I. 2020/146.</p>
+									</authorialNote> of the standard conditions of the licences of authorised transmitters is modified as follows.</p>
+							</content>
+						</subparagraph>
+						<subparagraph GUID="_3fce587d-0924-44b0-b118-d987e3e03724" class="schProv2" eId="sched_2__para_3__subpara_2">
+							<num>(2)</num>
+							<content>
+								<p>In the table in paragraph 1, in the heading to the second column, for “paid” substitute “payable”.</p>
+							</content>
+						</subparagraph>
+						<subparagraph GUID="_f7c80686-b42e-440c-9d34-bcd046aa2594" class="schProv2" eId="sched_2__para_3__subpara_3">
+							<num>(3)</num>
+							<content>
+								<p>In paragraph 1A<authorialNote GUID="_4be97a6c-a8e2-4c00-9e2d-fa4620a53b75" class="footnote" eId="fnote_18" marker="18">
+										<p>Paragraph 1A was inserted by S.I. 2020/146.</p>
+									</authorialNote>, omit “beginning on or after 1 April 2021”.</p>
+							</content>
+						</subparagraph>
+						<subparagraph GUID="_b9e8b419-ada3-4e26-8bfa-e1bfccb7e45c" class="schProv2" eId="sched_2__para_3__subpara_4">
+							<num>(4)</num>
+							<content>
+								<p>In paragraph 2, at the end omit the definition of “Shetland assistance amount”.</p>
+							</content>
+						</subparagraph>
+						<subparagraph GUID="_f383c134-4869-4212-869d-4ba4c4d3cbf5" class="schProv2" eId="sched_2__para_3__subpara_5">
+							<num>(5)</num>
+							<intro GUID="_00e923cf-ce6d-484b-8398-3e5836c42c07" eId="sched_2__para_3__subpara_5__intro">
+								<p>In paragraph 3—</p>
+							</intro>
+							<level GUID="_ee97a564-4eaf-4340-920d-0e78f9911d89" class="para1" eId="sched_2__para_3__subpara_5__para_a">
+								<num>(a)</num>
+								<intro GUID="_37c8268a-45ad-4bd7-927d-37cbc1a40aeb" eId="sched_2__para_3__subpara_5__para_a__intro">
+									<p>in the definition of “assistance amount”—</p>
+								</intro>
+								<level GUID="_a29eac95-ca08-4ff5-814a-95d0aa49e586" class="para2" eId="sched_2__para_3__subpara_5__para_a__subpara_i">
+									<num>(i)</num>
+									<content>
+										<p>for “paid” substitute “payable”;</p>
+									</content>
+								</level>
+								<level GUID="_32d9b777-c2ec-47fc-ab2b-de7df029456c" class="para2" eId="sched_2__para_3__subpara_5__para_a__subpara_ii">
+									<num>(ii)</num>
+									<content>
+										<p>omit “specified in or”;</p>
+									</content>
+								</level>
+							</level>
+							<level GUID="_2d482d7c-49b1-48b6-ae37-8b5b3493eb3e" class="para1" eId="sched_2__para_3__subpara_5__para_b">
+								<num>(b)</num>
+								<content>
+									<p>
+										<mod>at the end insert—<quotedStructure GUID="_12245198-6c57-40f9-936c-1610b2d3f7e9" eId="sched_2__para_3__subpara_5__para_b__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+												<content>
+													<tblock GUID="_fbe735f3-2b9a-435a-9673-e15210b51816" class="table" eId="sched_2__para_3__subpara_5__para_b__qstr__tbl__oc_1">
+														<foreign>
+															<table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="noBorders tableleft width100" cols="2">
+																<tbody class="left">
+																	<tr akn:GUID="_8a47b9ef-25c5-4cfa-9200-f06fffcbf2cf" akn:eId="sched_2__para_3__subpara_5__para_b__qstr__tbl__oc_1__row__oc_1">
+																		<td akn:GUID="_e916f223-2f38-460d-8cd4-5b6ef4af7ea8" akn:eId="sched_2__para_3__subpara_5__para_b__qstr__tbl__oc_1__row__oc_1__col_1">
+																			<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Shetland assistance amount</p>
+																		</td>
+																		<td akn:GUID="_9d532a9b-6184-40b4-9d2c-7377abd5ebc6" akn:eId="sched_2__para_3__subpara_5__para_b__qstr__tbl__oc_1__row__oc_1__col_2">
+																			<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">means the amount payable by the licensee to a relevant distributor in relation to any relevant year pursuant to this condition, as calculated in accordance with paragraph 2A of standard condition C20.</p>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</foreign>
+													</tblock>
+												</content>
+											</quotedStructure><inline name="AppendText">.</inline></mod>
+									</p>
+								</content>
+							</level>
+						</subparagraph>
+					</paragraph>
+				</hcontainer>
+			</hcontainer>
+		</body>
+		<conclusions GUID="_1f0c70ba-ca96-4e95-8835-e660648ae541" eId="backCover"><?DMS-Component componentId="ba4ff254-e6ab-452d-806c-01fafddbff4c" seriesId="d44a09a2-bc15-4be3-8f21-66eba03d208a" versionNumber="1"?>
+			
+			<blockContainer GUID="_0676096d-f0e8-4f1c-856f-96058429b478" class="explanatoryNote" eId="backCover__explNote">
+				<heading GUID="_fde88c56-cd61-4f16-9ec6-f4848778c20d" eId="backCover__explNote__hdg">Explanatory Note</heading>
+				<subheading GUID="_ca40f22b-f591-47ef-b72e-32086a4bffd6" eId="backCover__explNote__subhdg">(This note is not part of the <ref class="placeholder" href="#varDocSubType"/>)</subheading>
+				<p>The Energy Act 2004 (Assistance for Areas with High Distribution Costs) Order 2005 (“the 2005 Order”) (S.I. 2005/528) established the Hydro Benefit Replacement Scheme (“HBRS”) for Great Britain. The HBRS is a scheme for offsetting the costs of distributing electricity in a specified area of northern Scotland and is implemented by way of modifications to the conditions of the licences of authorised suppliers, authorised transmitters (in effect, only the operator of the electricity transmission system for Great Britain) and authorised distributors in the specified area (in effect, only the one electricity distributor operating in the specified area).</p>
+				<p>This Order makes a number of modifications to the licence conditions of authorised suppliers (article 3 and Schedule 1) and authorised transmitters (article 4 and Schedule 2) with respect to the HBRS. It also amends overarching text in the 2005 Order regarding the implementation of the HBRS (article 2).</p>
+				<p>An impact assessment has not been produced for this instrument because no significant, impact on business, civil society organisation or the public sector is foreseen.</p>
+				<p>The licences modified by this Order may be inspected at the Registry of the Office of Gas and Electricity Markets, 10 South Colonnade, Canary Wharf, London E14 4PU.</p>
+			</blockContainer>
+		</conclusions>
+		
+	</act>
+</akomaNtoso>

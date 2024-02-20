@@ -178,18 +178,20 @@
 	<xsl:variable name="ordered" as="xs:boolean" select="local:is-ordered(.)" />
 	<xsl:variable name="name" as="xs:string" select="if ($ordered) then 'OrderedList' else 'UnorderedList'" />
 	<xsl:variable name="decor" as="xs:string" select="local:get-decoration-from-list(., $ordered)" />
+	<xsl:variable name="type" as="xs:string?" select="if ($ordered) then local:get-type-of-ordered-list(., $decor) else ()" />
 	<xsl:call-template name="wrap-as-necessary">
 		<xsl:with-param name="clml" as="element()">
 			<xsl:element name="{ $name }">
 				<xsl:if test="$ordered">
 					<xsl:attribute name="Type">
-						<xsl:value-of select="local:get-type-of-ordered-list(., $decor)" />
+						<xsl:value-of select="$type" />
 					</xsl:attribute>
 				</xsl:if>
 				<xsl:attribute name="Decoration">
 					<xsl:value-of select="$decor" />
 				</xsl:attribute>
 				<xsl:apply-templates>
+					<xsl:with-param name="type" select="$type" />
 					<xsl:with-param name="decor" select="$decor" />
 					<xsl:with-param name="context" select="($name, local:get-wrapper($name, $context), $context)" tunnel="yes" />
 				</xsl:apply-templates>
@@ -199,13 +201,17 @@
 </xsl:template>
 
 <xsl:template match="item">
-	<xsl:param name="decor" as="xs:string" select="local:get-decoration-from-numbered-things(.)" />
+	<xsl:param name="type" as="xs:string?" />
+	<xsl:param name="decor" as="xs:string?" />
 	<xsl:param name="context" as="xs:string*" tunnel="yes" />
 	<ListItem>
 		<xsl:if test="exists(num)">
-			<xsl:attribute name="NumberOverride">
-				<xsl:value-of select="local:strip-punctuation-for-number-override(num, $decor)" />
-			</xsl:attribute>
+			<xsl:call-template name="add-number-override-if-necessary">
+				<xsl:with-param name="type" as="xs:string?" select="$type" />
+				<xsl:with-param name="decor" as="xs:string?" select="$decor" />
+				<xsl:with-param name="position" as="xs:integer" select="position()" />
+				<xsl:with-param name="actual" as="xs:string" select="string(num)" />
+			</xsl:call-template>
 		</xsl:if>
 		<xsl:apply-templates select="*[not(self::num)]">
 			<xsl:with-param name="context" select="('ListItem', $context)" tunnel="yes" />
@@ -213,6 +219,87 @@
 	</ListItem>
 </xsl:template>
 
+<xsl:template name="add-number-override-if-necessary">
+	<xsl:param name="type" as="xs:string?" />
+	<xsl:param name="decor" as="xs:string?" />
+	<xsl:param name="position" as="xs:integer" />
+	<xsl:param name="actual" as="xs:string" />
+	<xsl:variable name="expected" as="xs:string*">
+		<xsl:choose>
+			<xsl:when test="empty($type)">
+				<xsl:choose>
+					<xsl:when test="$decor = 'bullet'">
+						<xsl:sequence select="('•')" />
+					</xsl:when>
+					<xsl:when test="$decor = 'dash'">
+						<xsl:sequence select="('—','-')" />
+					</xsl:when>
+					<xsl:when test="$decor = 'arrow'">
+						<!-- to do-->
+					</xsl:when>
+					<xsl:when test="$decor = 'none'">
+						<xsl:sequence select="''" />
+					</xsl:when>
+				</xsl:choose>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:variable name="without-punct" as="xs:string">
+					<xsl:choose>
+						<xsl:when test="$type = 'arabic'">
+							<xsl:number value="$position" format="1" />
+						</xsl:when>
+						<xsl:when test="$type = 'roman'">
+							<xsl:number value="$position" format="i" />
+						</xsl:when>
+						<xsl:when test="$type = 'romanUpper'">
+							<xsl:number value="$position" format="I" />
+						</xsl:when>
+						<xsl:when test="$type = 'alpha'">
+							<xsl:number value="$position" format="a" />
+						</xsl:when>
+						<xsl:when test="$type = 'alphaUpper'">
+							<xsl:number value="$position" format="A" />
+						</xsl:when>
+						<xsl:otherwise>
+							<xsl:sequence select="''" />
+						</xsl:otherwise>
+					</xsl:choose>
+				</xsl:variable>
+				<xsl:choose>
+					<xsl:when test="$decor = 'none'">
+						<xsl:sequence select="$without-punct" />
+					</xsl:when>
+					<xsl:when test="$decor = 'parens'">
+						<xsl:sequence select="concat('(', $without-punct, ')')" />
+					</xsl:when>
+					<xsl:when test="$decor = 'parenRight'">
+						<xsl:sequence select="concat($without-punct, ')')" />
+					</xsl:when>
+					<xsl:when test="$decor = 'brackets'">
+						<xsl:sequence select="concat('[', $without-punct, ']')" />
+					</xsl:when>
+					<xsl:when test="$decor = 'bracketRight'">
+						<xsl:sequence select="concat($without-punct, ']')" />
+					</xsl:when>
+					<xsl:when test="$decor = 'period'">
+						<xsl:sequence select="concat($without-punct, '.')" />
+					</xsl:when>
+					<xsl:when test="$decor = 'colon'">
+						<xsl:sequence select="concat($without-punct, ':')" />
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:sequence select="$without-punct" />
+					</xsl:otherwise>
+				</xsl:choose>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:variable>
+	<xsl:if test="not($actual = $expected)">
+		<xsl:attribute name="NumberOverride">
+			<xsl:value-of select="$actual" />
+		</xsl:attribute>
+	</xsl:if>
+</xsl:template>
 
 <!-- definition lists -->
 

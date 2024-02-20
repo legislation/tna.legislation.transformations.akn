@@ -232,9 +232,11 @@
 </xsl:template>
 
 <xsl:template match="inline[@name=('appendText','AppendText')]">
-	<AppendText>
-		<xsl:apply-templates />
-	</AppendText>
+	<xsl:if test="exists(child::node())">
+		<AppendText>
+			<xsl:apply-templates />
+		</AppendText>
+	</xsl:if>
 </xsl:template>
 
 <xsl:template match="quotedText">

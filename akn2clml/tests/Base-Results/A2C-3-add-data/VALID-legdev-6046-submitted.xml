@@ -1,0 +1,978 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Legislation xmlns="http://www.legislation.gov.uk/namespaces/legislation"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             SchemaVersion="2.0"
+             xsi:schemaLocation="http://www.legislation.gov.uk/namespaces/legislation http://www.legislation.gov.uk/schema/legislation.xsd">
+   <Metadata xmlns="http://www.legislation.gov.uk/namespaces/metadata"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <dc:identifier>http://www.legislation.gov.uk/id/ukpga/2023/45</dc:identifier>
+      <dc:title>Animals (Low-Welfare Activities Abroad) Act 2023</dc:title>
+      <dc:modified>2024-02-19</dc:modified>
+      <PrimaryMetadata>
+         <DocumentClassification>
+            <DocumentCategory Value="primary"/>
+            <DocumentMainType Value="UnitedKingdomPublicGeneralAct"/>
+            <DocumentStatus Value="final"/>
+         </DocumentClassification>
+         <Year Value="2023"/>
+         <Number Value="45"/>
+         <EnactmentDate Date="2023-09-18"/>
+      </PrimaryMetadata>
+   </Metadata>
+   <Primary>
+      <PrimaryPrelims>
+         <Title>Animals (Low-Welfare Activities Abroad) Act 2023</Title>
+         <Number>2023 Chapter 45</Number>
+         <LongTitle>An Act to prohibit the sale and advertising of activities abroad which involve low standards of welfare for animals.</LongTitle>
+         <DateOfEnactment>
+            <DateText>[18th September 2023]</DateText>
+         </DateOfEnactment>
+         <PrimaryPreamble>
+            <EnactingText>
+               <Para>
+                  <Text>
+                     <Uppercase>B</Uppercase>
+                     <SmallCaps>e it enacted</SmallCaps> by the King’s most Excellent Majesty, by and with the advice and consent of the Lords Spiritual and Temporal, and Commons, in this present Parliament assembled, and by the authority of the same, as follows:—</Text>
+               </Para>
+            </EnactingText>
+         </PrimaryPreamble>
+      </PrimaryPrelims>
+      <Body>
+         <Pblock>
+            <Title>Low-welfare animal activities</Title>
+            <P1group>
+               <Title>Prohibition on sale of low-welfare animal activities</Title>
+               <P1 id="section-1">
+                  <Pnumber>1</Pnumber>
+                  <P1para>
+                     <P2 id="section-1-1">
+                        <Pnumber>1</Pnumber>
+                        <P2para>
+                           <Text>A person commits an offence if, in a relevant part of the United Kingdom, the person sells, or offers or arranges to sell, any right to observe or participate in an activity which—</Text>
+                           <P3 id="section-1-1-a">
+                              <Pnumber>a</Pnumber>
+                              <P3para>
+                                 <Text>involves an animal,</Text>
+                              </P3para>
+                           </P3>
+                           <P3 id="section-1-1-b">
+                              <Pnumber>b</Pnumber>
+                              <P3para>
+                                 <Text>takes place outside the United Kingdom, and</Text>
+                              </P3para>
+                           </P3>
+                           <P3 id="section-1-1-c">
+                              <Pnumber>c</Pnumber>
+                              <P3para>
+                                 <Text>is of a description specified for that part of the United Kingdom by regulations made by the appropriate national authority (“activity regulations”).</Text>
+                              </P3para>
+                           </P3>
+                        </P2para>
+                     </P2>
+                     <P2 id="section-1-2">
+                        <Pnumber>2</Pnumber>
+                        <P2para>
+                           <Text>The appropriate national authority may specify a description of activity in activity regulations only if it considers that an activity of that description involves or is likely to involve—</Text>
+                           <P3 id="section-1-2-a">
+                              <Pnumber>a</Pnumber>
+                              <P3para>
+                                 <Text>keeping the animal in conditions within <InternalLink Ref="section-1-3">subsection (3)</InternalLink>, or</Text>
+                              </P3para>
+                           </P3>
+                           <P3 id="section-1-2-b">
+                              <Pnumber>b</Pnumber>
+                              <P3para>
+                                 <Text>subjecting it to treatment (whether before, during or after the activity) within that subsection.</Text>
+                              </P3para>
+                           </P3>
+                        </P2para>
+                     </P2>
+                     <P2 id="section-1-3">
+                        <Pnumber>3</Pnumber>
+                        <P2para>
+                           <Text>An animal is kept in conditions, or is subject to treatment, within this subsection if keeping the animal in the conditions, or subjecting it to the treatment, in the appropriate national authority’s part of the United Kingdom would constitute an offence under the appropriate national legislation.</Text>
+                        </P2para>
+                     </P2>
+                  </P1para>
+               </P1>
+            </P1group>
+            <P1group>
+               <Title>Prohibition on advertising of low-welfare animal activities</Title>
+               <P1 id="section-2">
+                  <Pnumber>2</Pnumber>
+                  <P1para>
+                     <P2 id="section-2-1">
+                        <Pnumber>1</Pnumber>
+                        <P2para>
+                           <Text>For the purposes of this section an advertisement is a prohibited advertisement in a relevant part of the United Kingdom if the advertisement has the purpose or effect of promoting the observation of, or participation in, an activity which—</Text>
+                           <P3 id="section-2-1-a">
+                              <Pnumber>a</Pnumber>
+                              <P3para>
+                                 <Text>involves an animal,</Text>
+                              </P3para>
+                           </P3>
+                           <P3 id="section-2-1-b">
+                              <Pnumber>b</Pnumber>
+                              <P3para>
+                                 <Text>takes place outside the United Kingdom, and</Text>
+                              </P3para>
+                           </P3>
+                           <P3 id="section-2-1-c">
+                              <Pnumber>c</Pnumber>
+                              <P3para>
+                                 <Text>is of a description specified for that part of the United Kingdom by activity regulations.</Text>
+                              </P3para>
+                           </P3>
+                        </P2para>
+                     </P2>
+                     <P2 id="section-2-2">
+                        <Pnumber>2</Pnumber>
+                        <P2para>
+                           <Text>A person commits an offence if, in the course of a business, the person—</Text>
+                           <P3 id="section-2-2-a">
+                              <Pnumber>a</Pnumber>
+                              <P3para>
+                                 <Text>publishes in a relevant part of the United Kingdom an advertisement that is a prohibited advertisement in that part, or</Text>
+                              </P3para>
+                           </P3>
+                           <P3 id="section-2-2-b">
+                              <Pnumber>b</Pnumber>
+                              <P3para>
+                                 <Text>causes such an advertisement to be so published.</Text>
+                              </P3para>
+                           </P3>
+                        </P2para>
+                     </P2>
+                     <P2 id="section-2-3">
+                        <Pnumber>3</Pnumber>
+                        <P2para>
+                           <Text>A person commits an offence if, in the course of a business, the person—</Text>
+                           <P3 id="section-2-3-a">
+                              <Pnumber>a</Pnumber>
+                              <P3para>
+                                 <Text>prints in a relevant part of the United Kingdom an advertisement published in that part of the United Kingdom that is a prohibited advertisement in that part, or</Text>
+                              </P3para>
+                           </P3>
+                           <P3 id="section-2-3-b">
+                              <Pnumber>b</Pnumber>
+                              <P3para>
+                                 <Text>causes such an advertisement to be so printed.</Text>
+                              </P3para>
+                           </P3>
+                        </P2para>
+                     </P2>
+                     <P2 id="section-2-4">
+                        <Pnumber>4</Pnumber>
+                        <P2para>
+                           <Text>A person commits an offence if, in the course of a business, the person—</Text>
+                           <P3 id="section-2-4-a">
+                              <Pnumber>a</Pnumber>
+                              <P3para>
+                                 <Text>distributes in a relevant part of the United Kingdom an advertisement published in that part of the United Kingdom that is a prohibited advertisement in that part, or</Text>
+                              </P3para>
+                           </P3>
+                           <P3 id="section-2-4-b">
+                              <Pnumber>b</Pnumber>
+                              <P3para>
+                                 <Text>causes such an advertisement to be so distributed.</Text>
+                              </P3para>
+                           </P3>
+                        </P2para>
+                     </P2>
+                     <P2 id="section-2-5">
+                        <Pnumber>5</Pnumber>
+                        <P2para>
+                           <Text>A person does not commit an offence under <InternalLink Ref="section-2-2">subsection (2)</InternalLink> or <InternalLink Ref="section-2-4">(4)</InternalLink> if the advertisement is contained in a publication (other than an in-flight magazine)—</Text>
+                           <P3 id="section-2-5-a">
+                              <Pnumber>a</Pnumber>
+                              <P3para>
+                                 <Text>which is printed outside a relevant part of the United Kingdom, and</Text>
+                              </P3para>
+                           </P3>
+                           <P3 id="section-2-5-b">
+                              <Pnumber>b</Pnumber>
+                              <P3para>
+                                 <Text>whose principal market is not, or does not include, a relevant part of the United Kingdom or any part of one.</Text>
+                              </P3para>
+                           </P3>
+                        </P2para>
+                     </P2>
+                     <P2 id="section-2-6">
+                        <Pnumber>6</Pnumber>
+                        <P2para>
+                           <Text>A person does not commit an offence under <InternalLink Ref="section-2-4">subsection (4)</InternalLink> if—</Text>
+                           <P3 id="section-2-6-a">
+                              <Pnumber>a</Pnumber>
+                              <P3para>
+                                 <Text>the distribution is by means of electronic transmission, and</Text>
+                              </P3para>
+                           </P3>
+                           <P3 id="section-2-6-b">
+                              <Pnumber>b</Pnumber>
+                              <P3para>
+                                 <Text>the person did not carry on business in a relevant part of the United Kingdom at the time of the distribution.</Text>
+                              </P3para>
+                           </P3>
+                        </P2para>
+                     </P2>
+                     <P2 id="section-2-7">
+                        <Pnumber>7</Pnumber>
+                        <P2para>
+                           <Text>A person does not commit an offence under <InternalLink Ref="section-2-4">subsection (4)</InternalLink> by selling a publication to a member of the public.</Text>
+                        </P2para>
+                     </P2>
+                     <P2 id="section-2-8">
+                        <Pnumber>8</Pnumber>
+                        <P2para>
+                           <Text>It is a defence for a person charged with an offence under <InternalLink Ref="section-2-3">subsection (3)</InternalLink> or <InternalLink Ref="section-2-4">(4)</InternalLink> in relation to the printing or distribution of an advertisement in a relevant part of the United Kingdom to prove that the person did not know, and had no reason to suspect, that the advertisement would be published in that part.</Text>
+                        </P2para>
+                     </P2>
+                  </P1para>
+               </P1>
+            </P1group>
+         </Pblock>
+         <Pblock>
+            <Title>Enforcement</Title>
+            <P1group>
+               <Title>Offences: penalties, prosecution and liability</Title>
+               <P1 id="section-3">
+                  <Pnumber>3</Pnumber>
+                  <P1para>
+                     <P2 id="section-3-1">
+                        <Pnumber>1</Pnumber>
+                        <P2para>
+                           <Text>A person who commits an offence under this Act is liable—</Text>
+                           <P3 id="section-3-1-a">
+                              <Pnumber>a</Pnumber>
+                              <P3para>
+                                 <Text>on summary conviction in England and Wales, to a fine;</Text>
+                              </P3para>
+                           </P3>
+                           <P3 id="section-3-1-b">
+                              <Pnumber>b</Pnumber>
+                              <P3para>
+                                 <Text>on summary conviction in Northern Ireland, to a fine not exceeding level 5 on the standard scale.</Text>
+                              </P3para>
+                           </P3>
+                        </P2para>
+                     </P2>
+                     <P2 id="section-3-2">
+                        <Pnumber>2</Pnumber>
+                        <P2para>
+                           <Text>The following do not apply in relation to offences under this Act—</Text>
+                           <P3 id="section-3-2-a">
+                              <Pnumber>a</Pnumber>
+                              <P3para>
+                                 <Text>section 127 of the Magistrates’ Courts Act 1980 (limitation of time);</Text>
+                              </P3para>
+                           </P3>
+                           <P3 id="section-3-2-b">
+                              <Pnumber>b</Pnumber>
+                              <P3para>
+                                 <Text>article 19 of the Magistrates’ Courts (Northern Ireland) Order 1981 (S.I. 1981/1675 (N.I. 26)) (time limit for making complaint).</Text>
+                              </P3para>
+                           </P3>
+                        </P2para>
+                     </P2>
+                     <P2 id="section-3-3">
+                        <Pnumber>3</Pnumber>
+                        <P2para>
+                           <Text>Where an offence under this Act committed by a body corporate—</Text>
+                           <P3 id="section-3-3-a">
+                              <Pnumber>a</Pnumber>
+                              <P3para>
+                                 <Text>is committed with the consent or connivance of any director, manager, secretary or other similar officer of the body corporate, or any person who was purporting to act in any such capacity, or</Text>
+                              </P3para>
+                           </P3>
+                           <P3 id="section-3-3-b">
+                              <Pnumber>b</Pnumber>
+                              <P3para>
+                                 <Text>is attributable to any neglect on the part of any such person,</Text>
+                              </P3para>
+                           </P3>
+                           <Text>that person as well as the body corporate commits the offence and is liable to be proceeded against and punished accordingly.</Text>
+                        </P2para>
+                     </P2>
+                     <P2 id="section-3-4">
+                        <Pnumber>4</Pnumber>
+                        <P2para>
+                           <Text>In <InternalLink Ref="section-3-3">subsection (3)</InternalLink> “director”, in relation to a body corporate whose affairs are managed by its members, means a member of the body corporate.</Text>
+                        </P2para>
+                     </P2>
+                     <P2 id="section-3-5">
+                        <Pnumber>5</Pnumber>
+                        <P2para>
+                           <Text>
+                              <InternalLink Ref="section-3-3">Subsection (3)</InternalLink> also applies to a body that is not a body corporate, with the substitution for the reference to a director of the body of a reference—</Text>
+                           <P3 id="section-3-5-a">
+                              <Pnumber>a</Pnumber>
+                              <P3para>
+                                 <Text>in the case of a partnership, to a partner;</Text>
+                              </P3para>
+                           </P3>
+                           <P3 id="section-3-5-b">
+                              <Pnumber>b</Pnumber>
+                              <P3para>
+                                 <Text>in the case of an unincorporated body other than a partnership—</Text>
+                                 <P4 id="section-3-5-b-i">
+                                    <Pnumber>i</Pnumber>
+                                    <P4para>
+                                       <Text>where the body’s affairs are managed by its members, to a member of the body;</Text>
+                                    </P4para>
+                                 </P4>
+                                 <P4 id="section-3-5-b-ii">
+                                    <Pnumber>ii</Pnumber>
+                                    <P4para>
+                                       <Text>in any other case, to a member of the governing body.</Text>
+                                    </P4para>
+                                 </P4>
+                              </P3para>
+                           </P3>
+                        </P2para>
+                     </P2>
+                  </P1para>
+               </P1>
+            </P1group>
+            <P1group>
+               <Title>Enforcement powers of local weights and measures authorities etc</Title>
+               <P1 id="section-4">
+                  <Pnumber>4</Pnumber>
+                  <P1para>
+                     <P2 id="section-4-1">
+                        <Pnumber>1</Pnumber>
+                        <P2para>
+                           <Text>A local weights and measures authority in England and the Department for the Economy in Northern Ireland may enforce the provisions of this Act.</Text>
+                        </P2para>
+                     </P2>
+                     <P2 id="section-4-2">
+                        <Pnumber>2</Pnumber>
+                        <P2para>
+                           <Text>For the investigatory powers available for the purpose of enforcing this Act, see Schedule 5 to the Consumer Rights Act 2015.</Text>
+                        </P2para>
+                     </P2>
+                     <P2 id="section-4-3">
+                        <Pnumber>3</Pnumber>
+                        <P2para>
+                           <Text>In paragraph 10 of Schedule 5 to the Consumer Rights Act 2015 (duties and powers to which Schedule 5 applies), at the appropriate place insert— </Text>
+                           <BlockAmendment TargetClass="primary"
+                                           TargetSubClass="unknown"
+                                           Context="main"
+                                           Format="double">
+                              <UnorderedList Decoration="none">
+                                 <ListItem>
+                                    <Para>
+                                       <Text>
+                                          <InternalLink Ref="section-4">section 4</InternalLink>
+                                          <InternalLink Ref="section-4-1">(1)</InternalLink> of the Animals (Low-Welfare Activities Abroad) Act 2023.</Text>
+                                    </Para>
+                                 </ListItem>
+                              </UnorderedList>
+                           </BlockAmendment>
+                        </P2para>
+                     </P2>
+                     <P2 id="section-4-4">
+                        <Pnumber>4</Pnumber>
+                        <P2para>
+                           <Text>
+                              <InternalLink Ref="schedule">The Schedule</InternalLink> contains provision for the imposition of monetary penalties in respect of offences under this Act.</Text>
+                        </P2para>
+                     </P2>
+                  </P1para>
+               </P1>
+            </P1group>
+         </Pblock>
+         <Pblock>
+            <Title>General</Title>
+            <P1group>
+               <Title>Regulations</Title>
+               <P1 id="section-5">
+                  <Pnumber>5</Pnumber>
+                  <P1para>
+                     <P2 id="section-5-1">
+                        <Pnumber>1</Pnumber>
+                        <P2para>
+                           <Text>The power to make activity regulations includes power to make—</Text>
+                           <P3 id="section-5-1-a">
+                              <Pnumber>a</Pnumber>
+                              <P3para>
+                                 <Text>different provision for different purposes or for different relevant parts of the United Kingdom;</Text>
+                              </P3para>
+                           </P3>
+                           <P3 id="section-5-1-b">
+                              <Pnumber>b</Pnumber>
+                              <P3para>
+                                 <Text>consequential, incidental, supplementary, transitional or saving provision.</Text>
+                              </P3para>
+                           </P3>
+                        </P2para>
+                     </P2>
+                     <P2 id="section-5-2">
+                        <Pnumber>2</Pnumber>
+                        <P2para>
+                           <Text>Activity regulations made by the Secretary of State are to be made by statutory instrument.</Text>
+                        </P2para>
+                     </P2>
+                     <P2 id="section-5-3">
+                        <Pnumber>3</Pnumber>
+                        <P2para>
+                           <Text>The power of the Department of Agriculture, Environment and Rural Affairs to make activity regulations is exercisable by statutory rule for the purposes of the Statutory Rules (Northern Ireland) Order 1979 (S.I. 1979/1573 (N.I. 12)).</Text>
+                        </P2para>
+                     </P2>
+                     <P2 id="section-5-4">
+                        <Pnumber>4</Pnumber>
+                        <P2para>
+                           <Text>The Secretary of State may not make a statutory instrument containing activity regulations (whether alone or with other provision) unless a draft of the instrument has been laid before, and approved by resolution of, each House of Parliament.</Text>
+                        </P2para>
+                     </P2>
+                     <P2 id="section-5-5">
+                        <Pnumber>5</Pnumber>
+                        <P2para>
+                           <Text>The Department of Agriculture, Environment and Rural Affairs may not make activity regulations unless a draft of the regulations has been laid before, and approved by a resolution of, the Northern Ireland Assembly.</Text>
+                        </P2para>
+                     </P2>
+                  </P1para>
+               </P1>
+            </P1group>
+            <P1group>
+               <Title>Interpretation</Title>
+               <P1 id="section-6">
+                  <Pnumber>6</Pnumber>
+                  <P1para>
+                     <Text>In this Act—</Text>
+                     <UnorderedList Class="Definition" Decoration="none">
+                        <ListItem>
+                           <Para>
+                              <Text>“<Term>activity regulations</Term>” means regulations under section 1(1)(c);</Text>
+                           </Para>
+                        </ListItem>
+                        <ListItem>
+                           <Para>
+                              <Text>“<Term>animal</Term>” means a vertebrate other than a human;</Text>
+                           </Para>
+                        </ListItem>
+                        <ListItem>
+                           <Para>
+                              <Text>“<Term>appropriate national authority</Term>” means—</Text>
+                              <OrderedList Type="alpha" Decoration="parens">
+                                 <ListItem>
+                                    <Para>
+                                       <Text>in relation to England, the Secretary of State;</Text>
+                                    </Para>
+                                 </ListItem>
+                                 <ListItem>
+                                    <Para>
+                                       <Text>in relation to Northern Ireland—</Text>
+                                    </Para>
+                                    <OrderedList Type="roman" Decoration="parens">
+                                       <ListItem>
+                                          <Para>
+                                             <Text>the Department of Agriculture, Environment and Rural Affairs, or</Text>
+                                          </Para>
+                                       </ListItem>
+                                       <ListItem>
+                                          <Para>
+                                             <Text>the Secretary of State acting with the consent of the Department;</Text>
+                                          </Para>
+                                       </ListItem>
+                                    </OrderedList>
+                                 </ListItem>
+                              </OrderedList>
+                           </Para>
+                        </ListItem>
+                        <ListItem>
+                           <Para>
+                              <Text>“<Term>appropriate national legislation</Term>” means—</Text>
+                              <OrderedList Type="alpha" Decoration="parens">
+                                 <ListItem>
+                                    <Para>
+                                       <Text>in relation to England, the Animal Welfare Act 2006;</Text>
+                                    </Para>
+                                 </ListItem>
+                                 <ListItem>
+                                    <Para>
+                                       <Text>in relation to Northern Ireland, the Welfare of Animals Act (Northern Ireland) 2011 (c. 16 (N.I.));</Text>
+                                    </Para>
+                                 </ListItem>
+                              </OrderedList>
+                           </Para>
+                        </ListItem>
+                        <ListItem>
+                           <Para>
+                              <Text>references to “<Term>offering</Term>” to sell include making an invitation to treat;</Text>
+                           </Para>
+                        </ListItem>
+                        <ListItem>
+                           <Para>
+                              <Text>“<Term>relevant part of the United Kingdom</Term>” means England or Northern Ireland;</Text>
+                           </Para>
+                        </ListItem>
+                        <ListItem>
+                           <Para>
+                              <Text>“<Term>vertebrate</Term>” means any animal of the Sub-phylum Vertebrata of the Phylum Chordata.</Text>
+                           </Para>
+                        </ListItem>
+                     </UnorderedList>
+                  </P1para>
+               </P1>
+            </P1group>
+            <P1group>
+               <Title>Extent, commencement and short title</Title>
+               <P1 id="section-7">
+                  <Pnumber>7</Pnumber>
+                  <P1para>
+                     <P2 id="section-7-1">
+                        <Pnumber>1</Pnumber>
+                        <P2para>
+                           <Text>This Act extends to England and Wales and Northern Ireland.</Text>
+                        </P2para>
+                     </P2>
+                     <P2 id="section-7-2">
+                        <Pnumber>2</Pnumber>
+                        <P2para>
+                           <Text>This Act comes into force at the end of the period of two months beginning with the day on which it is passed.</Text>
+                        </P2para>
+                     </P2>
+                     <P2 id="section-7-3">
+                        <Pnumber>3</Pnumber>
+                        <P2para>
+                           <Text>This Act may be cited as the Animals (Low-Welfare Activities Abroad) Act 2023.</Text>
+                        </P2para>
+                     </P2>
+                  </P1para>
+               </P1>
+            </P1group>
+         </Pblock>
+      </Body>
+      <Schedules>
+         <Schedule id="schedule">
+            <Number>Schedule</Number>
+            <TitleBlock>
+               <Title>Monetary penalties</Title>
+            </TitleBlock>
+            <Reference>
+               <InternalLink Ref="section-4">Section 4</InternalLink>
+            </Reference>
+            <ScheduleBody>
+               <P1group id="schedule-crossheading-enforcement-authority">
+                  <Title>Enforcement authority</Title>
+                  <P1 id="schedule-paragraph-1">
+                     <Pnumber>1</Pnumber>
+                     <P1para>
+                        <Text>In this Schedule, “enforcement authority” means—</Text>
+                        <P3 id="schedule-paragraph-1-a">
+                           <Pnumber>a</Pnumber>
+                           <P3para>
+                              <Text>a local weights and measures authority in England, or</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="schedule-paragraph-1-b">
+                           <Pnumber>b</Pnumber>
+                           <P3para>
+                              <Text>the Department for the Economy in Northern Ireland.</Text>
+                           </P3para>
+                        </P3>
+                     </P1para>
+                  </P1>
+               </P1group>
+               <P1group id="schedule-crossheading-imposition-of-monetary-penalties">
+                  <Title>Imposition of monetary penalties</Title>
+                  <P1 id="schedule-paragraph-2">
+                     <Pnumber>2</Pnumber>
+                     <P1para>
+                        <P2 id="schedule-paragraph-2-1">
+                           <Pnumber>1</Pnumber>
+                           <P2para>
+                              <Text>Where an enforcement authority is satisfied beyond reasonable doubt that a person has committed an offence under <InternalLink Ref="section-1">section 1</InternalLink> or <InternalLink Ref="section-2">2</InternalLink> in the authority’s area, the authority may impose a monetary penalty on the person.</Text>
+                           </P2para>
+                        </P2>
+                        <P2 id="schedule-paragraph-2-2">
+                           <Pnumber>2</Pnumber>
+                           <P2para>
+                              <Text>In this Schedule “monetary penalty” means a requirement to pay the enforcement authority a penalty of an amount determined by the authority.</Text>
+                           </P2para>
+                        </P2>
+                        <P2 id="schedule-paragraph-2-3">
+                           <Pnumber>3</Pnumber>
+                           <P2para>
+                              <Text>In Northern Ireland, the amount of the penalty may not exceed an amount equivalent to level 5 on the standard scale.</Text>
+                           </P2para>
+                        </P2>
+                     </P1para>
+                  </P1>
+               </P1group>
+               <P1group id="schedule-crossheading-notices-and-representations">
+                  <Title>Notices and representations</Title>
+                  <P1 id="schedule-paragraph-3">
+                     <Pnumber>3</Pnumber>
+                     <P1para>
+                        <P2 id="schedule-paragraph-3-1">
+                           <Pnumber>1</Pnumber>
+                           <P2para>
+                              <Text>Where an enforcement authority proposes to impose a monetary penalty on a person the authority must give the person a notice of what is proposed (an “initial penalty notice”).</Text>
+                           </P2para>
+                        </P2>
+                        <P2 id="schedule-paragraph-3-2">
+                           <Pnumber>2</Pnumber>
+                           <P2para>
+                              <Text>An initial penalty notice must offer the person the opportunity to avoid liability in relation to a monetary penalty by payment of a sum specified in the notice (which must be less than or equal to the amount of the proposed penalty).</Text>
+                           </P2para>
+                        </P2>
+                        <P2 id="schedule-paragraph-3-3">
+                           <Pnumber>3</Pnumber>
+                           <P2para>
+                              <Text>The person may make written representations and objections to the enforcement authority in relation to the proposed imposition of the monetary penalty within the period of 28 days beginning with the day on which the initial penalty notice is given.</Text>
+                           </P2para>
+                        </P2>
+                        <P2 id="schedule-paragraph-3-4">
+                           <Pnumber>4</Pnumber>
+                           <P2para>
+                              <Text>After the end of the period mentioned in <InternalLink Ref="schedule-paragraph-3-3">sub-paragraph (3)</InternalLink> the enforcement authority must decide whether to give the person a notice imposing a monetary penalty (a “final penalty notice”).</Text>
+                           </P2para>
+                        </P2>
+                        <P2 id="schedule-paragraph-3-5">
+                           <Pnumber>5</Pnumber>
+                           <P2para>
+                              <Text>The enforcement authority may not give a person a final penalty notice if the authority is no longer satisfied as mentioned in <InternalLink Ref="schedule-paragraph-2">paragraph 2</InternalLink>
+                                 <InternalLink Ref="schedule-paragraph-2-1">(1)</InternalLink>.</Text>
+                           </P2para>
+                        </P2>
+                        <P2 id="schedule-paragraph-3-6">
+                           <Pnumber>6</Pnumber>
+                           <P2para>
+                              <Text>The penalty specified in the final penalty notice may be—</Text>
+                              <P3 id="schedule-paragraph-3-6-a">
+                                 <Pnumber>a</Pnumber>
+                                 <P3para>
+                                    <Text>a penalty of the amount proposed in the initial penalty notice, or</Text>
+                                 </P3para>
+                              </P3>
+                              <P3 id="schedule-paragraph-3-6-b">
+                                 <Pnumber>b</Pnumber>
+                                 <P3para>
+                                    <Text>a penalty of a smaller amount.</Text>
+                                 </P3para>
+                              </P3>
+                           </P2para>
+                        </P2>
+                        <P2 id="schedule-paragraph-3-7">
+                           <Pnumber>7</Pnumber>
+                           <P2para>
+                              <Text>An initial or final penalty notice may be withdrawn at any time by the enforcement authority that issued it.</Text>
+                           </P2para>
+                        </P2>
+                     </P1para>
+                  </P1>
+               </P1group>
+               <P1group id="schedule-crossheading-information-to-be-included-in-notices-under-paragraph-3">
+                  <Title>Information to be included in notices under <InternalLink Ref="schedule-paragraph-3">paragraph 3</InternalLink>
+                  </Title>
+                  <P1 id="schedule-paragraph-4">
+                     <Pnumber>4</Pnumber>
+                     <P1para>
+                        <P2 id="schedule-paragraph-4-1">
+                           <Pnumber>1</Pnumber>
+                           <P2para>
+                              <Text>An initial penalty notice must include information as to—</Text>
+                              <P3 id="schedule-paragraph-4-1-a">
+                                 <Pnumber>a</Pnumber>
+                                 <P3para>
+                                    <Text>the grounds for the proposal to impose the monetary penalty,</Text>
+                                 </P3para>
+                              </P3>
+                              <P3 id="schedule-paragraph-4-1-b">
+                                 <Pnumber>b</Pnumber>
+                                 <P3para>
+                                    <Text>the effect of payment of the sum mentioned in <InternalLink Ref="schedule-paragraph-3">paragraph 3</InternalLink>
+                                       <InternalLink Ref="schedule-paragraph-3-2">(2)</InternalLink>,</Text>
+                                 </P3para>
+                              </P3>
+                              <P3 id="schedule-paragraph-4-1-c">
+                                 <Pnumber>c</Pnumber>
+                                 <P3para>
+                                    <Text>the period within which payment may be made so as to avoid liability for a monetary penalty (which must be at least 28 days beginning with the day on which the notice is given),</Text>
+                                 </P3para>
+                              </P3>
+                              <P3 id="schedule-paragraph-4-1-d">
+                                 <Pnumber>d</Pnumber>
+                                 <P3para>
+                                    <Text>the right to make representations and objections within the period of 28 days beginning with the day on which the notice is given, and</Text>
+                                 </P3para>
+                              </P3>
+                              <P3 id="schedule-paragraph-4-1-e">
+                                 <Pnumber>e</Pnumber>
+                                 <P3para>
+                                    <Text>the effect of <InternalLink Ref="schedule-paragraph-3">paragraph 3</InternalLink>
+                                       <InternalLink Ref="schedule-paragraph-3-5">(5)</InternalLink>.</Text>
+                                 </P3para>
+                              </P3>
+                           </P2para>
+                        </P2>
+                        <P2 id="schedule-paragraph-4-2">
+                           <Pnumber>2</Pnumber>
+                           <P2para>
+                              <Text>A final penalty notice must include information as to—</Text>
+                              <P3 id="schedule-paragraph-4-2-a">
+                                 <Pnumber>a</Pnumber>
+                                 <P3para>
+                                    <Text>the grounds for imposing the monetary penalty,</Text>
+                                 </P3para>
+                              </P3>
+                              <P3 id="schedule-paragraph-4-2-b">
+                                 <Pnumber>b</Pnumber>
+                                 <P3para>
+                                    <Text>how payment may be made,</Text>
+                                 </P3para>
+                              </P3>
+                              <P3 id="schedule-paragraph-4-2-c">
+                                 <Pnumber>c</Pnumber>
+                                 <P3para>
+                                    <Text>the period within which payment is to be made (which must be at least 28 days beginning with the day on which the notice is given),</Text>
+                                 </P3para>
+                              </P3>
+                              <P3 id="schedule-paragraph-4-2-d">
+                                 <Pnumber>d</Pnumber>
+                                 <P3para>
+                                    <Text>rights of appeal, and</Text>
+                                 </P3para>
+                              </P3>
+                              <P3 id="schedule-paragraph-4-2-e">
+                                 <Pnumber>e</Pnumber>
+                                 <P3para>
+                                    <Text>the consequences of non-payment.</Text>
+                                 </P3para>
+                              </P3>
+                           </P2para>
+                        </P2>
+                        <P2 id="schedule-paragraph-4-3">
+                           <Pnumber>3</Pnumber>
+                           <P2para>
+                              <Text>A final penalty notice may provide for interest or other penalties specified in the notice to be payable in the event that payment is not made in the period referred to in <InternalLink Ref="schedule-paragraph-4-2">sub-paragraph (2)</InternalLink>
+                                 <InternalLink Ref="schedule-paragraph-4-2-c">(c)</InternalLink>.</Text>
+                           </P2para>
+                        </P2>
+                     </P1para>
+                  </P1>
+               </P1group>
+               <P1group id="schedule-crossheading-monetary-penalties-criminal-proceedings">
+                  <Title>Monetary penalties: criminal proceedings</Title>
+                  <P1 id="schedule-paragraph-5">
+                     <Pnumber>5</Pnumber>
+                     <P1para>
+                        <P2 id="schedule-paragraph-5-1">
+                           <Pnumber>1</Pnumber>
+                           <P2para>
+                              <Text>Where an initial penalty notice is given to a person (and has not been withdrawn)—</Text>
+                              <P3 id="schedule-paragraph-5-1-a">
+                                 <Pnumber>a</Pnumber>
+                                 <P3para>
+                                    <Text>no criminal proceedings for the relevant offence may be instituted against the person in respect of the act or omission to which the notice relates before the end of the period within which the person’s liability may be avoided as mentioned in <InternalLink Ref="schedule-paragraph-3">paragraph 3</InternalLink>
+                                       <InternalLink Ref="schedule-paragraph-3-2">(2)</InternalLink> (see <InternalLink Ref="schedule-paragraph-4">paragraph 4</InternalLink>
+                                       <InternalLink Ref="schedule-paragraph-4-1">(1)</InternalLink>
+                                       <InternalLink Ref="schedule-paragraph-4-1-c">(c)</InternalLink>);</Text>
+                                 </P3para>
+                              </P3>
+                              <P3 id="schedule-paragraph-5-1-b">
+                                 <Pnumber>b</Pnumber>
+                                 <P3para>
+                                    <Text>if the liability is so avoided the person may not at any time be convicted of the relevant offence in relation to that act or omission.</Text>
+                                 </P3para>
+                              </P3>
+                           </P2para>
+                        </P2>
+                        <P2 id="schedule-paragraph-5-2">
+                           <Pnumber>2</Pnumber>
+                           <P2para>
+                              <Text>Where a final penalty notice is given to a person (and has not been withdrawn), the person may not at any time be convicted of the relevant offence in respect of the act or omission to which the notice relates.</Text>
+                           </P2para>
+                        </P2>
+                        <P2 id="schedule-paragraph-5-3">
+                           <Pnumber>3</Pnumber>
+                           <P2para>
+                              <Text>In this paragraph “relevant offence” means an offence under <InternalLink Ref="section-1">section 1</InternalLink> or <InternalLink Ref="section-2">2</InternalLink> in respect of which the monetary penalty is proposed to be imposed or is imposed (as the case may be).</Text>
+                           </P2para>
+                        </P2>
+                     </P1para>
+                  </P1>
+               </P1group>
+               <P1group id="schedule-crossheading-appeals">
+                  <Title>Appeals</Title>
+                  <P1 id="schedule-paragraph-6">
+                     <Pnumber>6</Pnumber>
+                     <P1para>
+                        <P2 id="schedule-paragraph-6-1">
+                           <Pnumber>1</Pnumber>
+                           <P2para>
+                              <Text>A person to whom a final penalty notice is given under <InternalLink Ref="schedule-paragraph-3">paragraph 3</InternalLink> may appeal against the decision to give the notice on any of the grounds mentioned in <InternalLink Ref="schedule-paragraph-6-2">sub-paragraph (2)</InternalLink>.</Text>
+                           </P2para>
+                        </P2>
+                        <P2 id="schedule-paragraph-6-2">
+                           <Pnumber>2</Pnumber>
+                           <P2para>
+                              <Text>The grounds are—</Text>
+                              <P3 id="schedule-paragraph-6-2-a">
+                                 <Pnumber>a</Pnumber>
+                                 <P3para>
+                                    <Text>that the decision was based on an error of fact;</Text>
+                                 </P3para>
+                              </P3>
+                              <P3 id="schedule-paragraph-6-2-b">
+                                 <Pnumber>b</Pnumber>
+                                 <P3para>
+                                    <Text>that the decision was wrong in law;</Text>
+                                 </P3para>
+                              </P3>
+                              <P3 id="schedule-paragraph-6-2-c">
+                                 <Pnumber>c</Pnumber>
+                                 <P3para>
+                                    <Text>that the decision was unreasonable;</Text>
+                                 </P3para>
+                              </P3>
+                              <P3 id="schedule-paragraph-6-2-d">
+                                 <Pnumber>d</Pnumber>
+                                 <P3para>
+                                    <Text>that the amount of penalty imposed by the notice is unreasonable.</Text>
+                                 </P3para>
+                              </P3>
+                           </P2para>
+                        </P2>
+                        <P2 id="schedule-paragraph-6-3">
+                           <Pnumber>3</Pnumber>
+                           <P2para>
+                              <Text>An appeal under this paragraph is—</Text>
+                              <P3 id="schedule-paragraph-6-3-a">
+                                 <Pnumber>a</Pnumber>
+                                 <P3para>
+                                    <Text>in relation to a decision of a local weights and measures authority, to the First-tier Tribunal;</Text>
+                                 </P3para>
+                              </P3>
+                              <P3 id="schedule-paragraph-6-3-b">
+                                 <Pnumber>b</Pnumber>
+                                 <P3para>
+                                    <Text>in relation to a decision of the Department for the Economy in Northern Ireland, to a county court.</Text>
+                                 </P3para>
+                              </P3>
+                           </P2para>
+                        </P2>
+                        <P2 id="schedule-paragraph-6-4">
+                           <Pnumber>4</Pnumber>
+                           <P2para>
+                              <Text>On an appeal under this paragraph the tribunal or court may—</Text>
+                              <P3 id="schedule-paragraph-6-4-a">
+                                 <Pnumber>a</Pnumber>
+                                 <P3para>
+                                    <Text>quash the final penalty notice,</Text>
+                                 </P3para>
+                              </P3>
+                              <P3 id="schedule-paragraph-6-4-b">
+                                 <Pnumber>b</Pnumber>
+                                 <P3para>
+                                    <Text>confirm the final penalty notice, or</Text>
+                                 </P3para>
+                              </P3>
+                              <P3 id="schedule-paragraph-6-4-c">
+                                 <Pnumber>c</Pnumber>
+                                 <P3para>
+                                    <Text>vary the final penalty notice by reducing the amount of the penalty.</Text>
+                                 </P3para>
+                              </P3>
+                           </P2para>
+                        </P2>
+                        <P2 id="schedule-paragraph-6-5">
+                           <Pnumber>5</Pnumber>
+                           <P2para>
+                              <Text>Where an appeal under this paragraph is made—</Text>
+                              <P3 id="schedule-paragraph-6-5-a">
+                                 <Pnumber>a</Pnumber>
+                                 <P3para>
+                                    <Text>the requirement to pay the monetary penalty is suspended pending the final determination or withdrawal of the appeal, and</Text>
+                                 </P3para>
+                              </P3>
+                              <P3 id="schedule-paragraph-6-5-b">
+                                 <Pnumber>b</Pnumber>
+                                 <P3para>
+                                    <Text>no interest or other penalty is payable by virtue of <InternalLink Ref="schedule-paragraph-4">paragraph 4</InternalLink>
+                                       <InternalLink Ref="schedule-paragraph-4-3">(3)</InternalLink> in respect of the period during which that requirement is suspended.</Text>
+                                 </P3para>
+                              </P3>
+                           </P2para>
+                        </P2>
+                     </P1para>
+                  </P1>
+               </P1group>
+               <P1group id="schedule-crossheading-use-of-proceeds">
+                  <Title>Use of proceeds</Title>
+                  <P1 id="schedule-paragraph-7">
+                     <Pnumber>7</Pnumber>
+                     <P1para>
+                        <P2 id="schedule-paragraph-7-1">
+                           <Pnumber>1</Pnumber>
+                           <P2para>
+                              <Text>Sums received by local weights and measures authorities pursuant to monetary penalties imposed under this Schedule must be paid into the Consolidated Fund.</Text>
+                           </P2para>
+                        </P2>
+                        <P2 id="schedule-paragraph-7-2">
+                           <Pnumber>2</Pnumber>
+                           <P2para>
+                              <Text>But before paying such sums into the Consolidated Fund a local weights and measures authority may deduct—</Text>
+                              <P3 id="schedule-paragraph-7-2-a">
+                                 <Pnumber>a</Pnumber>
+                                 <P3para>
+                                    <Text>the costs of investigating offences to which monetary penalties imposed by the authority under this Schedule relate, and</Text>
+                                 </P3para>
+                              </P3>
+                              <P3 id="schedule-paragraph-7-2-b">
+                                 <Pnumber>b</Pnumber>
+                                 <P3para>
+                                    <Text>the costs of imposing the penalties.</Text>
+                                 </P3para>
+                              </P3>
+                           </P2para>
+                        </P2>
+                        <P2 id="schedule-paragraph-7-3">
+                           <Pnumber>3</Pnumber>
+                           <P2para>
+                              <Text>The Department for the Economy in Northern Ireland may, before paying sums received by the Department pursuant to monetary penalties imposed under this Schedule into the Consolidated Fund of Northern Ireland, deduct—</Text>
+                              <P3 id="schedule-paragraph-7-3-a">
+                                 <Pnumber>a</Pnumber>
+                                 <P3para>
+                                    <Text>the costs of investigating offences to which monetary penalties imposed by the Department under this Schedule relate, and</Text>
+                                 </P3para>
+                              </P3>
+                              <P3 id="schedule-paragraph-7-3-b">
+                                 <Pnumber>b</Pnumber>
+                                 <P3para>
+                                    <Text>the costs of imposing the penalties.</Text>
+                                 </P3para>
+                              </P3>
+                           </P2para>
+                        </P2>
+                     </P1para>
+                  </P1>
+               </P1group>
+               <P1group id="schedule-crossheading-enforcement">
+                  <Title>Enforcement</Title>
+                  <P1 id="schedule-paragraph-8">
+                     <Pnumber>8</Pnumber>
+                     <P1para>
+                        <Text>If a person does not pay the whole or any part of a penalty which the person is liable to pay under this Schedule (including an amount payable by virtue of <InternalLink Ref="schedule-paragraph-4">paragraph 4</InternalLink>
+                           <InternalLink Ref="schedule-paragraph-4-3">(3)</InternalLink>), the penalty or part of the penalty is recoverable—</Text>
+                        <P3 id="schedule-paragraph-8-a">
+                           <Pnumber>a</Pnumber>
+                           <P3para>
+                              <Text>in the case of a penalty imposed by a local weights and measures authority, as if it were payable under an order of the county court,</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="schedule-paragraph-8-b">
+                           <Pnumber>b</Pnumber>
+                           <P3para>
+                              <Text>in the case of a penalty imposed by the Department for the Economy in Northern Ireland, as if it were payable under an order of a county court in Northern Ireland.</Text>
+                           </P3para>
+                        </P3>
+                     </P1para>
+                  </P1>
+               </P1group>
+            </ScheduleBody>
+         </Schedule>
+      </Schedules>
+   </Primary>
+</Legislation>
