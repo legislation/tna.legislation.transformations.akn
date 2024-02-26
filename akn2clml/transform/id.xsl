@@ -27,6 +27,12 @@
 	<xsl:sequence select="concat('p', format-number($num,'00000'))" />
 </xsl:function>
 
+<!-- tests whether an id was created with the prior function -->
+<xsl:function name="local:id-is-default-format" as="xs:boolean">
+	<xsl:param name="id" as="xs:string" />
+	<xsl:sequence select="matches($id, '^p\d{5}$')" />
+</xsl:function>
+
 <xsl:template match="authorialNote[@class='referenceNote']" mode="remove-schedule-reference" />
 <xsl:template match="@*|*|processing-instruction()|comment()" mode="remove-schedule-reference">
 	<xsl:copy>
@@ -225,7 +231,15 @@
 					</xsl:otherwise>
 				</xsl:choose>
 			</xsl:variable>
-			<xsl:sequence select="concat(local:make-internal-id($parent), '-', local:strip-punctuation-from-number(string($e/num)))" />
+			<xsl:variable name="parent-id" as="xs:string" select="local:make-internal-id($parent)" />
+			<xsl:choose>
+				<xsl:when test="local:id-is-default-format($parent-id)">
+					<xsl:sequence select="local:make-necessary-id($e)" />
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:sequence select="concat($parent-id, '-', local:strip-punctuation-from-number(string($e/num)))" />
+				</xsl:otherwise>
+			</xsl:choose>
 		</xsl:when>
 		<!-- legacy -->
 		<xsl:when test="$e/self::hcontainer[@name='SIParagraph'] or $e/self::hcontainer[@name='subsubparagraph'] or $e/self::hcontainer[@name='subsubsubparagraph'] or $e/self::clause or $e/self::subclause">
