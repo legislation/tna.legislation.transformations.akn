@@ -51,7 +51,15 @@
 <xsl:function name="local:make-id-from-number-2" as="xs:string">
 	<xsl:param name="prefix" as="xs:string" />
 	<xsl:param name="num" as="element(num)" />
-	<xsl:sequence select="concat($prefix, '-', local:strip-punctuation-from-number(string($num)))" />
+	<xsl:variable name="raw" as="xs:string" select="local:strip-punctuation-from-number(string($num))" />
+	<xsl:choose>
+		<xsl:when test="starts-with(lower-case($raw), concat($prefix, ' '))">
+			<xsl:sequence select="concat($prefix, '-', substring-after($raw, ' '))" />
+		</xsl:when>
+		<xsl:otherwise>
+			<xsl:sequence select="concat($prefix, '-', $raw)" />
+		</xsl:otherwise>
+	</xsl:choose>
 </xsl:function>
 
 <xsl:function name="local:make-id-from-p1-number" as="xs:string">
