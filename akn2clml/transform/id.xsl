@@ -65,6 +65,8 @@
 	<xsl:variable name="fixed" as="xs:string" select="translate($fixed, '&#8199;', ' ')" />
 	<!-- replace ampersand with ' and ' -->
 	<xsl:variable name="fixed" as="xs:string" select="replace($fixed, '&amp;', ' and ')" />
+	<!-- replace % with ' percent ' -->
+	<xsl:variable name="fixed" as="xs:string" select="replace($fixed, '%', ' percent ')" />
 	<!-- replace slashes and dashes with spaces -->
 	<xsl:variable name="fixed" as="xs:string" select="translate($fixed, '/-–—', '    ')" />
 	<!-- remove all other non-alphanumeric characters -->
