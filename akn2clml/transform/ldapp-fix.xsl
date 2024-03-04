@@ -32,7 +32,7 @@
 	</content>
 </xsl:template>
 
-<xsl:template match="p[empty(child::node())]">
+<xsl:template match="p[empty(child::node())][exists(preceding-sibling::*) or exists(following-sibling::*)]">
 	<xsl:message>
 		<xsl:text>removing empty p element</xsl:text>
 	</xsl:message>
