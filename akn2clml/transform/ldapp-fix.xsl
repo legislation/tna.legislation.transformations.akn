@@ -44,6 +44,11 @@
 	</xsl:message>
 </xsl:template>
 
+<!-- ignore links within numbers -->
+<xsl:template match="num//ref">
+	<xsl:apply-templates />
+</xsl:template>
+
 <!-- ignore links within defined terms -->
 <xsl:template match="def//ref">
 	<xsl:apply-templates />
