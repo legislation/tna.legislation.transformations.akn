@@ -60,8 +60,25 @@
 <xsl:function name="local:make-id-from-heading" as="xs:string">
 	<xsl:param name="prefix" as="xs:string" />
 	<xsl:param name="heading" as="element(heading)" />
-	<xsl:variable name="fixed" as="xs:string" select="translate($heading, '&#8199;', ' ')" />
-	<xsl:sequence select="concat($prefix, '-', translate(lower-case(normalize-space($fixed)), '/ ():.,‘’“”''&quot;', '--'))" />
+	<xsl:variable name="fixed" as="xs:string" select="string($heading)" />
+	<!-- replace 'figure space' with regular space -->
+	<xsl:variable name="fixed" as="xs:string" select="translate($fixed, '&#8199;', ' ')" />
+	<!-- replace ampersand with ' and ' -->
+	<xsl:variable name="fixed" as="xs:string" select="replace($fixed, '&amp;', ' and ')" />
+	<!-- replace % with ' percent ' -->
+	<xsl:variable name="fixed" as="xs:string" select="replace($fixed, '%', ' percent ')" />
+	<!-- replace slashes and dashes with spaces -->
+	<xsl:variable name="fixed" as="xs:string" select="translate($fixed, '/-–—', '    ')" />
+	<!-- remove all other non-alphanumeric characters -->
+	<xsl:variable name="fixed" as="xs:string" select="replace($fixed, '[^a-zA-Z0-9 ]', '')" />
+	<!-- normalize-space -->
+	<xsl:variable name="fixed" as="xs:string" select="normalize-space($fixed)" />
+	<!-- replace spaces with hyphens -->
+	<xsl:variable name="fixed" as="xs:string" select="translate($fixed, ' ', '-')" />
+	<!-- convert to lower case -->
+	<xsl:variable name="fixed" as="xs:string" select="lower-case($fixed)" />
+	<!-- add prefix -->
+	<xsl:sequence select="concat($prefix, '-', $fixed)" />
 </xsl:function>
 
 <xsl:function name="local:make-id-for-crossheading" as="xs:string">
