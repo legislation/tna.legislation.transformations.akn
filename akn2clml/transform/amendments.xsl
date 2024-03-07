@@ -332,7 +332,14 @@
 					<xsl:text>Chapter</xsl:text>
 				</xsl:when>
 				<xsl:when test="exists(parent::hcontainer[@name='crossheading'])">
-					<xsl:text>Pblock</xsl:text>
+					<xsl:choose>
+						<xsl:when test="ancestor::quotedStructure[1]/@uk:context='schedule'"> <!-- @class='schGroup7' -->
+							<xsl:text>P1group</xsl:text>
+						</xsl:when>
+						<xsl:otherwise>
+							<xsl:text>Pblock</xsl:text>
+						</xsl:otherwise>
+					</xsl:choose>
 				</xsl:when>
 			</xsl:choose>
 		</xsl:attribute>
