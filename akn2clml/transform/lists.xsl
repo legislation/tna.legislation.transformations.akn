@@ -415,6 +415,7 @@
 <xsl:template match="hcontainer[@name=('definition','step')][exists(content)] | tblock[@class='definition']">
 	<xsl:param name="context" as="xs:string*" tunnel="yes" />
 	<ListItem>
+		<xsl:call-template name="add-id-if-necessary" />
 		<xsl:apply-templates>
 			<xsl:with-param name="context" select="('ListItem', $context)" tunnel="yes" />
 		</xsl:apply-templates>
@@ -424,6 +425,7 @@
 <xsl:template match="hcontainer[@name=('definition','step')][empty(content)]">
 	<xsl:param name="context" as="xs:string*" tunnel="yes" />
 	<ListItem>
+		<xsl:call-template name="add-id-if-necessary" />
 		<xsl:apply-templates select="num | heading | subheading">
 			<xsl:with-param name="context" select="('ListItem', $context)" tunnel="yes" />
 		</xsl:apply-templates>
@@ -478,6 +480,7 @@
 <xsl:template match="level[exists(content)] | paragraph[exists(content)] | subparagraph[exists(content)]" mode="list">	<!-- paragraph and subparagraph are legacy -->
 	<xsl:param name="context" as="xs:string*" tunnel="yes" />
 	<ListItem>
+		<xsl:call-template name="add-id-if-necessary" />
 		<xsl:apply-templates select="*[not(self::num)]" mode="list">
 			<xsl:with-param name="context" select="('ListItem', $context)" tunnel="yes" />
 		</xsl:apply-templates>
@@ -487,6 +490,7 @@
 <xsl:template match="level[empty(content)] | paragraph[empty(content)] | subparagraph[empty(content)]" mode="list"><!-- similar to above but skips <num> -->	<!-- paragraph and subparagraph are legacy -->
 	<xsl:param name="context" as="xs:string*" tunnel="yes" />
 	<ListItem>
+		<xsl:call-template name="add-id-if-necessary" />
 		<xsl:apply-templates select="heading | subheading | intro">
 			<xsl:with-param name="context" select="('ListItem', $context)" tunnel="yes" />
 		</xsl:apply-templates>

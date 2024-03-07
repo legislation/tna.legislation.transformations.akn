@@ -27,6 +27,12 @@
 	<xsl:sequence select="concat('p', format-number($num,'00000'))" />
 </xsl:function>
 
+<!-- tests whether an id was created with the prior function -->
+<xsl:function name="local:id-is-default-format" as="xs:boolean">
+	<xsl:param name="id" as="xs:string" />
+	<xsl:sequence select="matches($id, '^p\d{5}$')" />
+</xsl:function>
+
 <xsl:template match="authorialNote[@class='referenceNote']" mode="remove-schedule-reference" />
 <xsl:template match="@*|*|processing-instruction()|comment()" mode="remove-schedule-reference">
 	<xsl:copy>
@@ -45,7 +51,15 @@
 <xsl:function name="local:make-id-from-number-2" as="xs:string">
 	<xsl:param name="prefix" as="xs:string" />
 	<xsl:param name="num" as="element(num)" />
-	<xsl:sequence select="concat($prefix, '-', local:strip-punctuation-from-number(string($num)))" />
+	<xsl:variable name="raw" as="xs:string" select="local:strip-punctuation-from-number(string($num))" />
+	<xsl:choose>
+		<xsl:when test="starts-with(lower-case($raw), concat($prefix, ' '))">
+			<xsl:sequence select="concat($prefix, '-', substring-after($raw, ' '))" />
+		</xsl:when>
+		<xsl:otherwise>
+			<xsl:sequence select="concat($prefix, '-', $raw)" />
+		</xsl:otherwise>
+	</xsl:choose>
 </xsl:function>
 
 <xsl:function name="local:make-id-from-p1-number" as="xs:string">
@@ -242,7 +256,15 @@
 					</xsl:otherwise>
 				</xsl:choose>
 			</xsl:variable>
-			<xsl:sequence select="concat(local:make-internal-id($parent), '-', local:strip-punctuation-from-number(string($e/num)))" />
+			<xsl:variable name="parent-id" as="xs:string" select="local:make-internal-id($parent)" />
+			<xsl:choose>
+				<xsl:when test="local:id-is-default-format($parent-id)">
+					<xsl:sequence select="local:make-necessary-id($e)" />
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:sequence select="concat($parent-id, '-', local:strip-punctuation-from-number(string($e/num)))" />
+				</xsl:otherwise>
+			</xsl:choose>
 		</xsl:when>
 		<!-- legacy -->
 		<xsl:when test="$e/self::hcontainer[@name='SIParagraph'] or $e/self::hcontainer[@name='subsubparagraph'] or $e/self::hcontainer[@name='subsubsubparagraph'] or $e/self::clause or $e/self::subclause">
@@ -259,19 +281,8 @@
 			<xsl:sequence select="concat(local:make-internal-id($parent), '-', local:strip-punctuation-from-number(string($e/num)))" />
 		</xsl:when>
 		<xsl:when test="$e/self::hcontainer[@name='step']">
-			<xsl:variable name="number" as="xs:string">
-				<xsl:choose>
-					<xsl:when test="starts-with($e/num, 'step ')">
-						<xsl:sequence select="normalize-space(substring-after($e/num, ' '))" />
-					</xsl:when>
-					<xsl:otherwise>
-						<xsl:sequence select="string(count($e/preceding-sibling::hcontainer) + 1)" />
-					</xsl:otherwise>
-				</xsl:choose>
-			</xsl:variable>
-			<xsl:variable name="parent" as="element()" select="$e/parent::*" />
-			<xsl:variable name="parent-id" as="xs:string" select="local:make-internal-id($parent)" />
-			<xsl:sequence select="concat($parent-id, '-', $number)" />
+			<!-- steps become ListItems and must have a p00000 id -->
+			<xsl:sequence select="local:make-necessary-id($e)" />
 		</xsl:when>
 		<xsl:when test="$e/self::hcontainer[@name='schedule']">
 			<xsl:sequence select="local:make-schedule-id-from-number($e/num)" />
@@ -323,7 +334,7 @@
 		</xsl:when>
 		
 		<xsl:otherwise>
-			<xsl:sequence select="generate-id($e)" />
+			<xsl:sequence select="local:make-necessary-id($e)" />
 		</xsl:otherwise>
 	</xsl:choose>
 </xsl:function>
