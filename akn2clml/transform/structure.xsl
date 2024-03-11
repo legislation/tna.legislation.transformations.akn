@@ -464,6 +464,13 @@
 			</xsl:call-template>
 			<xsl:apply-templates select="wrapUp" />
 		</xsl:when>
+		<xsl:when test="exists($children) and (every $child in $children satisfies $child/self::hcontainer[@name='step'])">
+			<xsl:call-template name="step-list">
+				<xsl:with-param name="intro" select="intro" />
+				<xsl:with-param name="steps" select="$children" />
+				<xsl:with-param name="wrapUp" select="wrapUp" />
+			</xsl:call-template>
+		</xsl:when>
 		<xsl:when test="not($context[1] = 'P') and empty($children[self::hcontainer[@name='wrapper1']])">
 			<xsl:variable name="name" as="xs:string">
 				<xsl:choose>

@@ -1487,7 +1487,7 @@
 					<heading GUID="_da07e9e8-d480-4dbc-84d0-8b51e4d848cd" eId="pt_4__chp_1__hdg">Pension credit and pension debit members</heading>
 					<section GUID="_a0aff6c6-e2a0-403f-8b20-98feb35cb6b7" class="group5" eId="pt_4__chp_1__sec_1"><?DMS-Component componentId="9e1e7436-987b-47dc-b42d-3e24c5c8233d" seriesId="75df4176-f34d-4411-aeb3-d01d7ce8e358" versionNumber="1"?>
 						
-						<num>1</num>
+						<num>Section 1</num>
 						<heading GUID="_ea9e0143-f32e-4e69-8450-46a4488558ee" eId="pt_4__chp_1__sec_1__hdg">Application and interpretation of Chapter 1</heading>
 						<hcontainer GUID="_5370452f-78a2-4263-a06b-b1fee85fd3b3" class="prov1" eId="reg_17" name="regulation"><?DMS-Component componentId="c18e26ef-36c9-4710-ad22-166f12ab5b45" seriesId="92d611d4-b42e-4332-82a6-8278af9a8bc8" versionNumber="1"?>
 							
@@ -1638,7 +1638,7 @@
 					</section>
 					<section GUID="_bf26f0a6-ffa2-431e-aa2b-b7b615a12598" class="group5" eId="pt_4__chp_1__sec_2"><?DMS-Component componentId="34553a73-abdc-4560-86f0-31aa50aefa4d" seriesId="8abe8b9c-bfda-479b-b4a6-2e1fc330f137" versionNumber="1"?>
 						
-						<num>2</num>
+						<num>Section 2</num>
 						<heading GUID="_33f8b8df-05aa-45af-8416-f8aa76b6bd14" eId="pt_4__chp_1__sec_2__hdg">Pension sharing orders: information provided before 1st October 2023</heading>
 						<hcontainer GUID="_8edfac9e-8edf-4c84-a25b-8f5e05f9fa7a" class="prov1" eId="reg_18" name="regulation"><?DMS-Component componentId="f5929684-ea09-4657-b5a1-7ac2b83f5c11" seriesId="d32f1ace-b0c7-4580-9a32-44190b600018" versionNumber="1"?>
 							
@@ -2170,7 +2170,7 @@
 					</section>
 					<section GUID="_ccdf983c-2998-47fd-a51b-3caf0b6db3d2" class="group5" eId="pt_4__chp_1__sec_3"><?DMS-Component componentId="752f81f4-178b-40ba-82d6-d2e7d5a238f1" seriesId="4c2065dc-2b4b-49f2-b4a2-fd052b57355d" versionNumber="1"?>
 						
-						<num>3</num>
+						<num>Section 3</num>
 						<heading GUID="_8bbc8b87-f492-437b-8028-93058957f847" eId="pt_4__chp_1__sec_3__hdg">Information provided on or after 1st October 2023</heading>
 						<hcontainer GUID="_b41278ff-892c-4bb8-9c36-dbc44c8420cc" class="prov1" eId="reg_23" name="regulation"><?DMS-Component componentId="61e38ec6-8474-4f41-9204-0656ddd83667" seriesId="54cc2ba9-ae6e-49e1-beeb-188aef16f0e1" versionNumber="1"?>
 							
@@ -3012,7 +3012,7 @@
 					<heading GUID="_faea2950-b989-4a0a-8683-3cd5ab927998" eId="pt_6__chp_2__hdg">Transfers on a cash equivalent basis</heading>
 					<section GUID="_724eff75-56e6-4d0d-85dc-5a4a1e50a6c3" class="group5" eId="pt_6__chp_2__sec_1"><?DMS-Component componentId="81952a3b-c22f-4759-9afb-9408210137bd" seriesId="f67339d4-6b00-472f-91ab-666e8dfde1b2" versionNumber="1"?>
 						
-						<num>1</num>
+						<num>Section 1</num>
 						<heading GUID="_d218d208-8826-4cec-842e-8fab50c6787d" eId="pt_6__chp_2__sec_1__hdg">Transfers before 1st October 2023</heading>
 						<hcontainer GUID="_f8134cb5-4d46-4296-a63f-51e6a26137a4" class="prov1" eId="reg_33" name="regulation"><?DMS-Component componentId="47cc00b2-ea26-4d4c-b1f7-5500deb19c47" seriesId="5cf574ab-44aa-402b-9166-51615a455729" versionNumber="1"?>
 							
@@ -3173,7 +3173,7 @@
 					</section>
 					<section GUID="_8f54937b-bbf7-4e20-ad72-a5fb3b2473cc" class="group5" eId="pt_6__chp_2__sec_2"><?DMS-Component componentId="cbe4d450-33f2-4962-8189-11a0a3c18aca" seriesId="835278a0-8ed7-44d4-acd4-63529787d3c2" versionNumber="1"?>
 						
-						<num>2</num>
+						<num>Section 2</num>
 						<heading GUID="_6a521269-3c53-4d36-9bfc-a4a92b530af6" eId="pt_6__chp_2__sec_2__hdg">Transfers on or after 1st October 2023</heading>
 						<hcontainer GUID="_941c4545-efb1-46cd-b638-ee235ed0157b" class="prov1" eId="reg_35" name="regulation"><?DMS-Component componentId="2956bfa3-42ac-41a9-96b5-ead90ecd32bf" seriesId="761a9de7-7cb5-4618-893f-ac42301dd874" versionNumber="1"?>
 							
@@ -3291,7 +3291,7 @@
 					<heading GUID="_5babf6bd-0360-432c-8157-8eb1bcb947ac" eId="pt_6__chp_3__hdg">Transfers on a club basis</heading>
 					<section GUID="_4ec44bef-3a61-48e3-836e-15f65bff192a" class="group5" eId="pt_6__chp_3__sec_1"><?DMS-Component componentId="bd23515b-2ce1-4e49-9f2b-ac0db06df49a" seriesId="2bb23b98-66ed-4571-bcc1-f5f9ee2807d9" versionNumber="1"?>
 						
-						<num>1</num>
+						<num>Section 1</num>
 						<heading GUID="_186f35a0-2039-4da6-b762-42d4dbf9ba6c" eId="pt_6__chp_3__sec_1__hdg">Club transfers before 1st October 2023</heading>
 						<hcontainer GUID="_aa5e1eb0-56b3-4bb7-9e33-53791b5afe9f" class="prov1" eId="reg_38" name="regulation"><?DMS-Component componentId="4a92d260-6b93-4fbe-b797-bee0c59bc180" seriesId="14f3df63-fc4e-44df-9325-5f4e1649839c" versionNumber="1"?>
 							
@@ -3411,7 +3411,7 @@
 					</section>
 					<section GUID="_e17dd2cb-5212-4d30-a60f-f4b43fd25946" class="group5" eId="pt_6__chp_3__sec_2"><?DMS-Component componentId="9dbc7538-d03b-47d2-8ab5-cdd00cf8f58b" seriesId="07a2cd49-5305-4dda-8a6c-79d20eaa7ed0" versionNumber="1"?>
 						
-						<num>2</num>
+						<num>Section 2</num>
 						<heading GUID="_0cbecb4f-8451-479d-985c-ebeba1011ea2" eId="pt_6__chp_3__sec_2__hdg">Club transfers on or after 1st October 2023</heading>
 						<hcontainer GUID="_320c81e1-835d-43e2-b1f9-30ee5e3eb7c3" class="prov1" eId="reg_40" name="regulation"><?DMS-Component componentId="1b4e22d2-637d-4789-bbb1-3157e798de30" seriesId="a7611670-44ed-4da6-a564-29b1a5cbcd8c" versionNumber="1"?>
 							
@@ -3494,7 +3494,7 @@
 					</section>
 					<section GUID="_2ee818db-8931-4a74-9016-3a8e46b359a1" class="group5" eId="pt_6__chp_3__sec_3"><?DMS-Component componentId="81f9d701-d7a8-404a-b86b-e1adb917da87" seriesId="ea1f4bf8-d600-4dd4-97a7-dfbedcb037e8" versionNumber="1"?>
 						
-						<num>3</num>
+						<num>Section 3</num>
 						<heading GUID="_fc422a44-ef46-480b-b390-7595c52bf202" eId="pt_6__chp_3__sec_3__hdg">Variation of the club transfer application period</heading>
 						<hcontainer GUID="_ab1825b6-2ed3-4d52-9a47-4ec5931863f2" class="prov1" eId="reg_43" name="regulation"><?DMS-Component componentId="e0c6dda9-39f2-4ac0-9ac1-d1d3e2547713" seriesId="ab0cb93e-f983-4d62-b3b6-05b4b27a0c70" versionNumber="1"?>
 							
