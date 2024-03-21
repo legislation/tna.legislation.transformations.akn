@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?><akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../schemas/akomantoso30.xsd">
+	<?DMS-Component componentId="3a4077d4-44be-4da4-bf09-54388dab2e4b" seriesId="d44d9618-db26-4318-aec8-90b9cfe40dda" versionNumber="1"?>
+	<bill contains="originalVersion" name="ukdsi">
+		<meta>
+			<?DMS-Component componentId="cdbcfa1d-8aa5-44a1-8b04-ea3b662f796d" seriesId="aa68d831-c234-4ce7-bfeb-54579564f0b3" versionNumber="0"?>
+			<identification source="#ldapp">
+				<FRBRWork>
+					<FRBRthis value="#varWork"/>
+					<FRBRuri value="#varWorkUri"/>
+					<FRBRalias name="ttflConfigHistory" value="#varCHOiid"/>
+					<FRBRdate date="9999-01-01" name="ukdsi"/>
+					<FRBRauthor href="#varAuthor"/>
+					<FRBRcountry value="GB-SCT"/>
+					<FRBRsubtype value="#varDocSubType"/>
+					<FRBRnumber value="#varProjectId"/>
+					<FRBRname value="#varSITitle"/>
+					<FRBRprescriptive value="true"/>
+					<FRBRauthoritative value="false"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="#varExpression"/>
+					<FRBRuri value="#varExpressionUri"/>
+					<FRBRalias name="ttflVersionDescription" value="#varVDOiid"/>
+					<FRBRdate date="9999-01-01" name="draft"/>
+					<FRBRauthor href="#varAuthor"/>
+					<FRBRversionNumber value=""/>
+					<FRBRauthoritative value="false"/>
+					<FRBRmasterExpression href="" showAs=""/>
+					<FRBRlanguage language="eng"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="#varManifestation"/>
+					<FRBRuri value="#varManifestationUri"/>
+					<FRBRdate date="9999-01-01" name="akn_xml"/>
+					<FRBRauthor href="#varAuthor"/>
+					<FRBRformat value="application/akn+xml"/>
+				</FRBRManifestation>
+			</identification>
+			<references source="#author">
+				<TLCConcept GUID="_3a6917e5-0332-45e6-b573-ffbcb0626892" eId="varDocSubType" href="#varOntologies" showAs="Regulations"/>
+				<TLCConcept GUID="_f134c688-7c52-4c53-bb33-82eb60119b06" eId="varSITitle" href="#varOntologies" showAs="The Human Medicines (Amendments Relating to Coronavirus and Influenza) (England and Wales and Scotland) Regulations 2024"/>
+				<TLCProcess GUID="_b0c00520-5df9-485f-8ed9-ca7056eff7d6" eId="varProcedureType" href="#varOntologies" showAs="Draft Affirmative"/>
+				<TLCProcess GUID="_fe1d9f32-2d96-44ce-ad2e-0c15f789d4bc" eId="varStageVersion" href="#varOntologies" showAs="1"/>
+				<TLCProcess GUID="_5583715d-589b-4ca7-8a3f-c9d25d34320d" eId="varProjectId" href="#varOntologies" showAs="SI000657"/>
+				<TLCProcess GUID="_7cec74bc-2282-4c93-8448-258270546c80" eId="varWork" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_a292eb62-0f7b-43bb-b04a-75736178dd6e" eId="varWorkUri" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_f92f3164-ea2a-4fb0-a302-4063af1468a0" eId="varCHOiid" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_4afd4664-e333-4f3c-98c3-94f7c87becf1" eId="varExpression" href="#varOntologies" showAs="82aed146-525f-493c-9bba-268ffc10aff2"/>
+				<TLCProcess GUID="_3577b45d-fd69-45ef-9e85-2871c584375f" eId="varExpressionUri" href="#varOntologies" showAs="dma:///45e6b900-8929-11d4-b772-0050da06bfb4/80742cea-0ebb-4cf6-9759-1e52358d9b5b/;guid=82aed146-525f-493c-9bba-268ffc10aff2;class=Version%20Description"/>
+				<TLCProcess GUID="_0776b2aa-9bd0-4c91-9b68-e2db4ae002a1" eId="varVDOiid" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_1305e3c5-8061-462e-967b-a7c61738c105" eId="varManifestation" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_a591bca8-bfb9-4671-a491-6d9d8ab89737" eId="varManifestationUri" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_8377b39d-74e5-4f0a-9caa-6634197c8410" eId="varSIYear" href="#varOntologies" showAs="2024"/>
+				<TLCConcept GUID="_45973227-8e1b-46a2-9357-a0816960eaa1" eId="varSINoComp" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_ea21abe2-2aae-4908-b270-1ad2f5654e4c" eId="varSINo" href="#varOntologies" showAs="#varSIYear No. #varSINoComp #varSISubsidiaryNos"/>
+				<TLCConcept GUID="_786e112f-6ba4-4b81-aa09-32878873ab69" eId="varSISubsidiaryNos" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_feaa18fb-63f0-4d25-89fe-4aff7fa6b873" eId="varISBN" href="#varOntologies" showAs=""/>
+				<TLCPerson GUID="_81fe8d72-8be3-42c7-a6dc-d04766c78964" eId="varMinistryAgency" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_f88caeec-8c77-49df-b0b0-a01cbbe4fce0" eId="varDocType" href="#varOntologies" showAs="UKSI"/>
+				<TLCProcess GUID="_0ef58d8e-dd43-41c0-9ce2-7e1f505d97b8" eId="varSystem" href="#varOntologies" showAs="LDAPP"/>
+				<TLCOrganization GUID="_073d38ee-948a-446b-ad38-368153f32567" eId="varAuthor" href="#varOntologies" showAs="UK Government"/>
+				<TLCLocation GUID="_85171d14-e4bc-411a-b353-cb53c2f04b94" eId="varJurisdiction" href="#varOntologies" showAs="United Kingdom"/>
+				<TLCConcept GUID="_0ff975f0-f12a-4b42-944c-601955ec734c" eId="varOntologies" href="https://www.legislation.gov.uk/ontologies/UK-AKN" showAs="https://www.legislation.gov.uk/ontologies/UK-AKN"/>
+			</references>
+		</meta>
+		<preface GUID="_772c8510-2ced-4848-9907-f4eb91fa3d4e" eId="fnt">
+			<?DMS-Component componentId="93a6d548-f644-4ede-97bc-61895397976d" seriesId="2a0e643f-8542-4324-968f-3832cd0cf0a9" versionNumber="1"?>
+			<block name="proceduralRubric">Draft Regulations laid before Parliament under section 47(3) and (6)(a) of the Medicines and Medical Devices Act 2021, for approval by resolution of each House of Parliament</block>
+			<block GUID="_0edf06b9-acfd-4a0f-8889-3d2ac1639958" eId="fnt__banner" name="banner">DRAFT STATUTORY INSTRUMENTS</block>
+			<block GUID="_6c5854bb-502a-4696-9af4-c4bbe4e03d8e" eId="fnt__no" name="number">
+				<docNumber GUID="_6f14a5ef-11fa-4763-8a08-451c7281b304" eId="fnt__no__dno"> <ref class="placeholder" href="#varSINo"/> </docNumber>
+			</block>
+			<container name="subjects">
+				<container GUID="_07d7af7f-b038-40d4-940f-ab0c1e83e6a4" eId="fnt__subject" name="subject">
+					<block name="subject"><concept class="title" refersTo="">MEDICINES</concept></block>
+				</container>
+			</container>
+			<block GUID="_df8e5686-bd0c-490f-8101-af6a0fa12490" eId="fnt__st" name="title"><docTitle GUID="_de4d920b-7497-4bf2-9bb7-d44fdbc42a1f" eId="fnt__st__dtitle"> <ref class="placeholder" href="#varSITitle"/> </docTitle> </block>
+			<container GUID="_69edb501-4070-433a-9ccc-59c95d5ff486" eId="fnt__dates" name="dates">
+				<block GUID="_b3932fb2-d57e-48ec-92a8-d37268256257" eId="fnt__dates__madeDateDescription" name="madeDate"><span>Made</span></block>
+				<block GUID="_d2921769-1ded-41c3-ac56-9955bc32e981" eId="fnt__dates__commenceDateDescription" name="commenceDate"><span>Coming into force in accordance with regulation 1(2)</span></block>
+			</container>
+		</preface>
+		<preamble GUID="_a59d9e5d-859c-48ec-9073-02779def583a" eId="preamble">
+			<?DMS-Component componentId="687461e0-5561-41c3-9ae7-3a9085252b8c" seriesId="89447eee-eba3-44f6-9c84-e0bd348221c5" versionNumber="1"?>
+			<formula GUID="_f14da353-3e55-4d00-95e9-fe09f04954e2" eId="preamble__enactingWords" name="enactingText">
+				
+			</formula>
+			<formula GUID="_5d056a75-a31b-4d2b-9604-6edaa91e1539" eId="preamble__enactingWords__oc_1" name="enactingText">
+				<p>The Secretary of State makes the following Regulations in exercise of the powers conferred by sections 2(1), 3(1)(a) to (d), (h), (j) and (n) and (2)(a) and (c), 6(1)(b) and 43(2) of the Medicines and Medical Devices Act 2021<authorialNote GUID="_c0a6e4df-c00e-41b4-9d60-1ec3b1bfa7ff" class="footnote" eId="fnote_1" marker="1">
+					<p>2021 c. 3. The powers in section 2(1) of the Medicines and Medical Devices Act 2021, and in the provisions that relate to it, are exercisable by the “appropriate authority”. Section 2(6) of that Act contains the definition of “appropriate authority” that is relevant to the powers being exercised.</p>
+					</authorialNote>.</p>
+				<p>The Secretary of State has carried out a public consultation in accordance with section 45(1) of that Act.</p>
+				<p>In accordance with section 2(2) to (4) of that Act, the Secretary of State’s overarching objective in making these Regulations is safeguarding public health, the Secretary of State has had regard to the matters specified in section 2(3) of that Act and considers that, where these Regulations may have an impact on the safety of human medicines, the benefits of making these Regulations outweigh the risks.</p>
+				<p>In accordance with section 47(3) and (6)(a) of that Act, a draft of these Regulations has been laid before Parliament and approved by a resolution of each House of Parliament.</p>
+			</formula>
+		</preamble>
+		<body>
+			<?DMS-Component componentId="0788675e-fc67-4c65-bad6-b714219a4e4f" seriesId="3c3c409d-0367-4df0-825d-fd6f2cd17a81" versionNumber="1"?>
+			<hcontainer GUID="_deffbe22-b7ac-4849-9e74-6efb52a042e3" class="prov1" eId="reg_1" name="regulation">
+				<?DMS-Component componentId="fc3e4f06-f5ba-4b99-bbd0-153b4e7b142f" seriesId="78812835-5f60-42b4-879e-e9651b8eebf5" versionNumber="1"?>
+				<heading GUID="_4a87e416-1024-4e3d-8c08-70e59e8a5ead" eId="reg_1__hdg">Citation, commencement and extent</heading>
+				<num>1.</num>
+				<paragraph GUID="_ead5a267-7b7e-4da3-97c1-fff59f873a3b" class="prov2" eId="reg_1__para_1">
+					<num>(1)</num>
+					<content>
+						<p> These Regulations may be cited as the Human Medicines (Amendments Relating to Coronavirus and Influenza) (England and Wales and Scotland) Regulations 2024.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_7cd38b50-e3af-464d-8e39-bb4e3d0d53c6" class="prov2" eId="reg_1__para_2">
+					<num>(2)</num>
+					<content>
+						<p>These Regulations come into force on 31st March 2024.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_f59c5f77-dc83-41ea-aa3d-9f1b6e880eb0" class="prov2" eId="reg_1__para_3">
+					<num>(3)</num>
+					<content>
+						<p>These Regulations extend to England and Wales, and Scotland.</p>
+					</content>
+				</paragraph>
+			</hcontainer>
+			<hcontainer GUID="_f4480789-4abb-4456-a2b8-39869d44bf3f" class="prov1" eId="reg_2" name="regulation">
+				<?DMS-Component componentId="7d3eb510-fc08-4f1b-b36c-788577000ab5" seriesId="8c0eb40f-c2c8-419c-a151-d02a91769246" versionNumber="1"?>
+				<heading GUID="_fc0737bf-9423-4654-9023-fa4dd0730b00" eId="reg_2__hdg">Amendment of the Human Medicines Regulations 2012</heading>
+				<num>2.</num>
+				<content>
+					<p>The Human Medicines Regulations 2012<authorialNote GUID="_852d56ad-473e-4949-a477-4230158892e7" class="footnote" eId="fnote_2" marker="2">
+						<p>S.I. 2012/1916, as amended.</p>
+						</authorialNote> are amended in accordance with Regulations 3 to 5.</p>
+				</content>
+			</hcontainer>
+			<hcontainer GUID="_30f9d768-e642-4679-88aa-ad81491139aa" class="prov1" eId="reg_3" name="regulation">
+				<?DMS-Component componentId="5c5c1b7f-91e1-48da-8353-27ba1e83ddb7" seriesId="6c0e4628-df80-4be0-9053-a0a7fbc552c2" versionNumber="1"?>
+				<heading GUID="_b0192ed2-3f8a-4d26-ad55-8067ec3e1bef" eId="reg_3__hdg">Amendment of regulation 3A</heading>
+				<num>3.</num>
+				<content>
+					<p>In regulation 3A<authorialNote GUID="_611d90e9-a27c-4321-b96a-1a3152485ff9" class="footnote" eId="fnote_3" marker="3">
+						<p>Regulation 3A was inserted by S.I. 2020/1594 and has been amended by S.I. 2022/350.</p>
+						</authorialNote>(preparation and assembly of medicinal products used for vaccination or immunisation against coronavirus or in the reformulation of such products), in paragraph (6), for “2024” substitute “2026”.</p>
+				</content>
+			</hcontainer>
+			<hcontainer GUID="_0a23e942-d7c2-4149-9f73-f751944ea5e8" class="prov1" eId="reg_4" name="regulation">
+				<?DMS-Component componentId="7365f20f-e59e-449d-ace2-fcc076fe8228" seriesId="1ccbfc20-a60e-48f0-91b0-7eff31eb0d39" versionNumber="1"?>
+				<heading GUID="_40e687c2-d9e9-400f-a4b8-a55077fc9ac0" eId="reg_4__hdg">Amendment of regulation 19</heading>
+				<num>4.</num>
+				<content>
+					<p>In regulation 19<authorialNote GUID="_29e9f4e0-ee20-480a-9b28-559c65e2352b" class="footnote" eId="fnote_4" marker="4">
+						<p>Regulation 19(4D) was inserted by S.I. 2020/1125 and has been amended by S.I. 2022/350.</p>
+						</authorialNote> (exemptions from requirement for wholesale dealer’s licence), in paragraph (4D), for “2024” substitute “2026”.</p>
+				</content>
+			</hcontainer>
+			<hcontainer GUID="_03600065-9b8b-4cca-af64-c681e715d393" class="prov1" eId="reg_5" name="regulation">
+				<?DMS-Component componentId="f6300da8-d469-4778-a16c-bd763ee55246" seriesId="fdb98c3f-03dd-4be7-8299-ea2f04e2f722" versionNumber="1"?>
+				<heading GUID="_614d6df9-f4d5-4e19-bd41-749a63ec26de" eId="reg_5__hdg">Amendment of regulation 247A</heading>
+				<num>5.</num>
+				<paragraph GUID="_7d7dc49c-7acd-49fc-8dfe-00f8db65b437" class="prov2" eId="reg_5__para_1">
+					<num>(1)</num>
+					<content>
+						<p>Regulation 247A<authorialNote GUID="_996eb5ce-e048-4fdf-ae67-3e84ebd44d77" class="footnote" eId="fnote_5" marker="5">
+							<p>Regulation 247A was inserted by S.I. 2020/1125. There have been no relevant amending instruments.</p>
+							</authorialNote> (protocols relating to coronavirus and influenza vaccinations and immunisations) is amended as follows.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_e6aa97de-c928-4754-891f-7c6f0b953179" class="prov2" eId="reg_5__para_2">
+					<num>(2)</num>
+					<content>
+						<p>Omit paragraph (2).</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_aafe9152-8d11-4fae-a51d-2e71dd55f38b" class="prov2" eId="reg_5__para_3">
+					<num>(3)</num>
+					<content>
+						<p>Omit paragraph (6).</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_d4ee73b2-021a-4a36-8892-44fe34d52b91" class="prov2" eId="reg_5__para_4">
+					<num>(4)</num>
+					<intro GUID="_3a5fe834-1586-48be-9cb0-e1e0648fe827" eId="reg_5__para_4__intro">
+						<p>At the end, insert—</p>
+					</intro>
+					<level GUID="_9dcc7ade-ef32-4d09-be5c-0f85763a3942" class="unnumberedParagraph" eId="reg_5__para_4__para">
+						<content>
+							<p>“(7) This regulation ceases to have effect on 1st April 2026.”.</p>
+						</content>
+					</level>
+				</paragraph>
+			</hcontainer>
+			<hcontainer GUID="_59eeafde-a170-4c4f-8e72-8f52f28a6e88" eId="sigs" name="signatures">
+				<?DMS-Component componentId="efb20028-b3d2-48c0-b32a-747fbc1ccd72" seriesId="244b58c0-f9a1-4468-9613-78e3665c6b0c" versionNumber="0"?>
+				<hcontainer GUID="_a7124a95-5a1d-429c-b4b7-03d92e56988b" eId="sigs__sigBlk" name="signatureBlock">
+					<content>
+						<p>Signed by authority of the Secretary of State for Health and Social Care</p>
+						<block GUID="_c3cd0e01-d411-4803-a148-d8ce7867c1f7" eId="sigs__sigBlk__sig" name="signature">Name</block>
+						<block GUID="_2314f3c7-99a0-4a5b-b2d1-8fc5bb08500e" eId="sigs__sigBlk__role" name="role">Parliamentary Under Secretary of State</block>
+						<tblock class="address">
+							<block GUID="_f0321ba2-076d-4331-ad8c-9e0e33c73956" eId="sigs__sigBlk__loc" name="location">Address</block>
+						</tblock>
+						<block name="date"><date date="2024-01-09">Date</date></block>
+						<block GUID="_d7cdb5a3-dea3-4481-8768-15e2e6382cc8" eId="sigs__sigBlk__org" name="organization">Department of Health and Social Care</block>
+					</content>
+				</hcontainer>
+			</hcontainer>
+		</body>
+		<conclusions GUID="_d070198b-20a1-4b43-8c66-6b6fdbb908f5" eId="backCover">
+			<?DMS-Component componentId="6f0ae301-f1ba-4fdc-adb6-70589df810dd" seriesId="eea69be1-8259-4431-b14e-67adcda74bd9" versionNumber="1"?>
+			<?Component componentId="18e14807-9497-4b9c-90ea-498ff7ed5e3f" seriesId="9de7ac49-2317-4b5a-87bf-5bcb04cbfe43" versionNumber="1"?>
+			<blockContainer GUID="_d129547b-11ae-4b75-b977-3a0264fdfa62" class="explanatoryNote" eId="backCover__explNote">
+				<heading GUID="_8dc5ff2e-dde7-474f-93f1-65866d78934c" eId="backCover__explNote__hdg">Explanatory Note</heading>
+				<subheading GUID="_5c551e34-97b3-4e01-801e-e3ebccd7de37" eId="backCover__explNote__subhdg">(This note is not part of the <ref class="placeholder" href="#varDocSubType"/>)</subheading>
+				<p>These Regulations amend the Human Medicines Regulations 2012 (“the 2012 Regulations”), which govern the arrangements across the United Kingdom for the licensing, manufacture, wholesale dealing and sale or supply of medicines for human use. These Regulations extend to England and Wales and Scotland only.</p>
+				<p>Regulation 3 amends regulation 3A of the Human Medicines Regulations 2012, and regulation 4 amends regulation 19. These provisions currently cease to have effect on 1st April 2024, and this is extended to 1st April 2026. Regulation 3A of the 2012 Regulations ensures that all professionally justified acts of preparation and assembly of a coronavirus vaccine may be undertaken by or under the supervision of a doctor, nurse or pharmacist, at any location, without precipitating the need for a manufacturer's licence or marketing authorisation — provided those acts are done under NHS arrangements or arrangements as part of the medical services of His Majesty's Forces. It also allows for authorised medicinal products used for the reformulation of coronavirus vaccines (for example, diluents) to be re-assembled at the end of the medicines supply chain without the resultant products needing a marketing authorisation in order to be supplied. Regulation 19 provides for certain exemptions from the requirement to hold a wholesale dealer’s licence, and paragraphs (4A) to (4C) of that regulation permit sharing of stocks of coronavirus and influenza vaccinations between vaccination centres without the need for such a licence.</p>
+				<p>Regulation 247A exempts from the requirements relating to the supply of medicines under regulations 214, 220 and 221, the supply or administration of a medicinal product used for vaccination or immunisation against coronavirus or influenza virus (of any type), which is made under a national protocol relating to such supply. This regulation removes the requirement, in respect of Great Britain, that the supply or administration shall be made whilst a disease is, or is in anticipation of being imminently, a pandemic and a serious risk or potentially serious risk to human health. Regulation 247A will cease to have effect in Great Britain on 1st April 2026.</p>
+				<p>An impact assessment relating to this instrument has been prepared and copies can be obtained from the Department of Health and Social Care, 39 Victoria Street, London SW1H 0EU, and is available on the www.legislation.gov.uk website.</p>
+			</blockContainer>
+		</conclusions>
+	</bill>
+</akomaNtoso>

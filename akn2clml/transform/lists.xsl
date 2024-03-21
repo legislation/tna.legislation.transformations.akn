@@ -303,28 +303,93 @@
 
 <!-- definition lists -->
 
-<!-- this template wraps the last p of the intro and the first p of the wrapUp together with the def list in the same "para" -->
-<!-- intro p's before the last, and wrapUp p's after the first, are put in separate paras -->
 <xsl:template name="definition-list">
 	<xsl:param name="intro" as="element()?" select="()" />
 	<xsl:param name="definitions" as="element()+" />
 	<xsl:param name="wrapUp" as="element()?" select="()" />
-	<xsl:param name="context" as="xs:string*" tunnel="yes" />
 	<xsl:param name="decoration" as="xs:string" select="'none'" />
+	<xsl:call-template name="make-unordered-list-and-group-with-surrounding-text">
+		<xsl:with-param name="class" as="xs:string" select="'Definition'" />
+		<xsl:with-param name="intro" as="element()?" select="$intro" />
+		<xsl:with-param name="children" as="element()+" select="$definitions" />
+		<xsl:with-param name="wrapUp" as="element()?" select="$wrapUp" />
+		<xsl:with-param name="decoration" as="xs:string" select="$decoration" />
+	</xsl:call-template>
+</xsl:template>
+
+<xsl:template name="make-unordered-list-and-group-with-surrounding-text">
+	<xsl:param name="class" as="xs:string?" />
+	<xsl:param name="intro" as="element()?" />
+	<xsl:param name="children" as="element()+" />
+	<xsl:param name="wrapUp" as="element()?" />
+	<xsl:param name="decoration" as="xs:string" />
+	<xsl:param name="context" as="xs:string*" tunnel="yes" />
+	<xsl:variable name="list" as="element()">
+		<UnorderedList>
+			<xsl:if test="exists($class)">
+				<xsl:attribute name="Class">
+					<xsl:value-of select="$class" />
+				</xsl:attribute>
+			</xsl:if>
+			<xsl:attribute name="Decoration">
+				<xsl:value-of select="$decoration" />
+			</xsl:attribute>
+			<xsl:apply-templates select="$children">
+				<xsl:with-param name="context" select="('UnorderedList', $context)" tunnel="yes" />
+			</xsl:apply-templates>
+		</UnorderedList>
+	</xsl:variable>
+	<xsl:call-template name="group-list-with-surrounding-text">
+		<xsl:with-param name="intro" select="$intro" />
+		<xsl:with-param name="list" select="$list" />
+		<xsl:with-param name="wrapUp" select="$wrapUp" />
+	</xsl:call-template>
+</xsl:template>
+
+<xsl:template name="make-ordered-list-and-group-with-surrounding-text">
+	<xsl:param name="intro" as="element()?" />
+	<xsl:param name="children" as="element()+" />
+	<xsl:param name="wrapUp" as="element()?" />
+	<xsl:param name="context" as="xs:string*" tunnel="yes" />
+	<xsl:variable name="decor" as="xs:string" select="local:get-decoration-from-numbered-things($children)" />
+	<xsl:variable name="type" as="xs:string" select="local:get-ordered-list-type-from-numbered-things($children, $decor)" />
+	<xsl:variable name="list" as="element()">
+		<OrderedList>
+			<xsl:attribute name="Type">
+				<xsl:value-of select="$type" />
+			</xsl:attribute>
+			<xsl:attribute name="Decoration">
+				<xsl:value-of select="$decor" />
+			</xsl:attribute>
+			<xsl:apply-templates select="$children" mode="list">
+				<xsl:with-param name="context" select="('OrderedList', $context)" tunnel="yes" />
+			</xsl:apply-templates>
+		</OrderedList>
+	</xsl:variable>
+	<xsl:call-template name="group-list-with-surrounding-text">
+		<xsl:with-param name="intro" select="$intro" />
+		<xsl:with-param name="list" select="$list" />
+		<xsl:with-param name="wrapUp" select="$wrapUp" />
+	</xsl:call-template>
+</xsl:template>
+
+<!-- this template wraps the last p of the intro and the first p of the wrapUp together with the list in the same "para" -->
+<!-- intro p's before the last, and wrapUp p's after the first, are put in separate paras -->
+<xsl:template name="group-list-with-surrounding-text">
+	<xsl:param name="intro" as="element()?" />
+	<xsl:param name="list" as="element()" />
+	<xsl:param name="wrapUp" as="element()?" />
+	<xsl:param name="context" as="xs:string*" tunnel="yes" />
 
 	<!-- first, handle any intro p's before the last one -->
 	<xsl:apply-templates select="$intro/*[position() lt last()]" />
 
-	<!-- then, group together the last intro p, the definitions, and the first wrapUp p -->
+	<!-- then, group together the last intro p, the children, and the first wrapUp p -->
 	<xsl:variable name="wrapper" as="xs:string?" select="local:get-block-wrapper($context)" />
 	<xsl:choose>
 		<xsl:when test="empty($wrapper)">
 			<xsl:apply-templates select="$intro/*[position() = last()]" />
-			<UnorderedList Class="Definition" Decoration="{ $decoration }">
-				<xsl:apply-templates select="$definitions">
-					<xsl:with-param name="context" select="('UnorderedList', $context)" tunnel="yes" />
-				</xsl:apply-templates>
-			</UnorderedList>
+			<xsl:copy-of select="$list" />
 			<xsl:apply-templates select="$wrapUp/*[position() = 1]" />
 		</xsl:when>
 		<xsl:otherwise>
@@ -332,11 +397,7 @@
 				<xsl:apply-templates select="$intro/*[position() = last()]">
 					<xsl:with-param name="context" select="($wrapper, $context)" tunnel="yes" />
 				</xsl:apply-templates>
-				<UnorderedList Class="Definition" Decoration="{ $decoration }">
-					<xsl:apply-templates select="$definitions">
-						<xsl:with-param name="context" select="('UnorderedList', $wrapper, $context)" tunnel="yes" />
-					</xsl:apply-templates>
-				</UnorderedList>
+				<xsl:copy-of select="$list" />
 				<xsl:apply-templates select="$wrapUp/*[position() = 1]">
 					<xsl:with-param name="context" select="($wrapper, $context)" tunnel="yes" />
 				</xsl:apply-templates>
@@ -348,6 +409,9 @@
 	<xsl:apply-templates select="$wrapUp/*[position() gt 1]" />
 
 </xsl:template>
+
+
+<!--  -->
 
 <xsl:function name="local:get-contiguous-definitions" as="element()*">
 	<xsl:param name="elements" as="element()*" />
@@ -415,6 +479,7 @@
 <xsl:template match="hcontainer[@name=('definition','step')][exists(content)] | tblock[@class='definition']">
 	<xsl:param name="context" as="xs:string*" tunnel="yes" />
 	<ListItem>
+		<xsl:call-template name="add-id-if-necessary" />
 		<xsl:apply-templates>
 			<xsl:with-param name="context" select="('ListItem', $context)" tunnel="yes" />
 		</xsl:apply-templates>
@@ -424,6 +489,7 @@
 <xsl:template match="hcontainer[@name=('definition','step')][empty(content)]">
 	<xsl:param name="context" as="xs:string*" tunnel="yes" />
 	<ListItem>
+		<xsl:call-template name="add-id-if-necessary" />
 		<xsl:apply-templates select="num | heading | subheading">
 			<xsl:with-param name="context" select="('ListItem', $context)" tunnel="yes" />
 		</xsl:apply-templates>
@@ -478,6 +544,7 @@
 <xsl:template match="level[exists(content)] | paragraph[exists(content)] | subparagraph[exists(content)]" mode="list">	<!-- paragraph and subparagraph are legacy -->
 	<xsl:param name="context" as="xs:string*" tunnel="yes" />
 	<ListItem>
+		<xsl:call-template name="add-id-if-necessary" />
 		<xsl:apply-templates select="*[not(self::num)]" mode="list">
 			<xsl:with-param name="context" select="('ListItem', $context)" tunnel="yes" />
 		</xsl:apply-templates>
@@ -487,46 +554,37 @@
 <xsl:template match="level[empty(content)] | paragraph[empty(content)] | subparagraph[empty(content)]" mode="list"><!-- similar to above but skips <num> -->	<!-- paragraph and subparagraph are legacy -->
 	<xsl:param name="context" as="xs:string*" tunnel="yes" />
 	<ListItem>
-		<xsl:apply-templates select="heading | subheading | intro">
+		<xsl:call-template name="add-id-if-necessary" />
+		<xsl:apply-templates select="heading | subheading">
 			<xsl:with-param name="context" select="('ListItem', $context)" tunnel="yes" />
 		</xsl:apply-templates>
 		<xsl:variable name="children" as="element()+" select="* except (num | heading | subheading | intro | wrapUp)" />
 		<xsl:choose>
 			<xsl:when test="exists($children/num)">
-				<OrderedList>
-					<xsl:variable name="decor" as="xs:string" select="local:get-decoration-from-numbered-things($children)" />
-					<xsl:variable name="type" as="xs:string" select="local:get-ordered-list-type-from-numbered-things($children, $decor)" />
-					<xsl:attribute name="Type">
-						<xsl:value-of select="$type" />
-					</xsl:attribute>
-					<xsl:attribute name="Decoration">
-						<xsl:value-of select="$decor" />
-					</xsl:attribute>
-					<xsl:apply-templates select="$children" mode="list">
-						<xsl:with-param name="context" select="('OrderedList', 'ListItem', $context)" tunnel="yes" />
-					</xsl:apply-templates>
-				</OrderedList>
+				<xsl:call-template name="make-ordered-list-and-group-with-surrounding-text">
+					<xsl:with-param name="intro" as="element()?" select="intro" />
+					<xsl:with-param name="children" as="element()+" select="$children" />
+					<xsl:with-param name="wrapUp" as="element()?" select="wrapUp" />
+					<xsl:with-param name="context" select="('ListItem', $context)" tunnel="yes" />
+				</xsl:call-template>
 			</xsl:when>
 			<xsl:otherwise>
-				<UnorderedList>
-					<xsl:if test="exists($children/@name='definition')">
-						<xsl:attribute name="Class">
-							<xsl:text>Definition</xsl:text>
-						</xsl:attribute>
-					</xsl:if>
-					<xsl:variable name="decor" as="xs:string" select="local:get-decoration-from-numbered-things($children)" />
-					<xsl:attribute name="Decoration">
-						<xsl:value-of select="$decor" />
-					</xsl:attribute>
-					<xsl:apply-templates select="$children" mode="list">
-						<xsl:with-param name="context" select="('UnorderedList', 'ListItem', $context)" tunnel="yes" />
-					</xsl:apply-templates>
-				</UnorderedList>
+				<xsl:call-template name="make-unordered-list-and-group-with-surrounding-text">
+					<xsl:with-param name="class" as="xs:string?">
+						<xsl:if test="exists($children/@name='definition')">
+							<xsl:sequence select="'Definition'" />
+						</xsl:if>
+					</xsl:with-param>
+					<xsl:with-param name="intro" as="element()?" select="intro" />
+					<xsl:with-param name="children" as="element()+" select="$children" />
+					<xsl:with-param name="wrapUp" as="element()?" select="wrapUp" />
+					<xsl:with-param name="decoration" as="xs:string">
+						<xsl:sequence select="local:get-decoration-from-numbered-things($children)" />
+					</xsl:with-param>
+					<xsl:with-param name="context" select="('ListItem', $context)" tunnel="yes" />
+				</xsl:call-template>
 			</xsl:otherwise>
 		</xsl:choose>
-		<xsl:apply-templates select="wrapUp">
-			<xsl:with-param name="context" select="('ListItem', $context)" tunnel="yes" />
-		</xsl:apply-templates>
 	</ListItem>
 </xsl:template>
 
@@ -578,10 +636,18 @@
 
 <!-- steps -->
 
-<xsl:template match="hcontainer[@name='step']" priority="1">
-	<UnorderedList Decoration="none">
-		<xsl:next-match />
-	</UnorderedList>
+<xsl:template name="step-list">
+	<xsl:param name="intro" as="element()?" select="()" />
+	<xsl:param name="steps" as="element()+" />
+	<xsl:param name="wrapUp" as="element()?" select="()" />
+	<xsl:param name="decoration" as="xs:string" select="'none'" />
+	<xsl:call-template name="make-unordered-list-and-group-with-surrounding-text">
+		<xsl:with-param name="class" as="xs:string" select="'Step'" />
+		<xsl:with-param name="intro" as="element()?" select="$intro" />
+		<xsl:with-param name="children" as="element()+" select="$steps" />
+		<xsl:with-param name="wrapUp" as="element()?" select="$wrapUp" />
+		<xsl:with-param name="decoration" as="xs:string" select="$decoration" />
+	</xsl:call-template>
 </xsl:template>
 
 <xsl:template match="hcontainer[@name='step']/num">

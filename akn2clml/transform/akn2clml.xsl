@@ -148,11 +148,6 @@
 				</xsl:otherwise>
 			</xsl:choose>
 		</xsl:when>
-		<xsl:when test="not(node())"> <!-- should no longer be possible because of removal in ldapp-fix.xsl -->
-			<xsl:message>
-				<xsl:text>Suppress p element that contains no nodes for </xsl:text><xsl:value-of select="$context"/>
-			</xsl:message>
-		</xsl:when>
 		<xsl:otherwise>
 			<xsl:call-template name="create-element-and-wrap-as-necessary">
 				<xsl:with-param name="name" select="'Text'" />

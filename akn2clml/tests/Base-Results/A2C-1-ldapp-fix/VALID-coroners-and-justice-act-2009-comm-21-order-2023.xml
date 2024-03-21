@@ -1,0 +1,1934 @@
+<?xml version="1.0" encoding="UTF-8"?><akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../schemas/akomantoso30.xsd"><?DMS-Component componentId="4e13ec28-f723-4a33-a423-9ba1e0bc9c51" seriesId="7f2a62f5-224f-47dd-b4a8-605f82d18b50" versionNumber="1"?>
+	
+	<act contains="originalVersion" name="uksi">
+		<meta><?DMS-Component componentId="abeae200-aee2-4b2c-8266-d085be60a69a" seriesId="48023d88-c072-42ff-a1d5-e7670c8e4589" versionNumber="0"?>
+			
+			<identification source="#ldapp">
+				<FRBRWork>
+					<FRBRthis value="#varWork"/>
+					<FRBRuri value="#varWorkUri"/>
+					<FRBRalias name="ttflConfigHistory" value="#varCHOiid"/>
+					<FRBRdate date="9999-01-01" name="uksi"/>
+					<FRBRauthor href="#varAuthor"/>
+					<FRBRcountry value="GB-SCT"/>
+					<FRBRsubtype value="#varDocSubType"/>
+					<FRBRnumber value="#varProjectId"/>
+					<FRBRname value="#varSITitle"/>
+					<FRBRprescriptive value="true"/>
+					<FRBRauthoritative value="false"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="#varExpression"/>
+					<FRBRuri value="#varExpressionUri"/>
+					<FRBRalias name="ttflVersionDescription" value="#varVDOiid"/>
+					<FRBRdate date="9999-01-01" name="draft"/>
+					<FRBRauthor href="#varAuthor"/>
+					<FRBRversionNumber value=""/>
+					<FRBRauthoritative value="false"/>
+					<FRBRmasterExpression href="" showAs=""/>
+					<FRBRlanguage language="eng"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="#varManifestation"/>
+					<FRBRuri value="#varManifestationUri"/>
+					<FRBRdate date="9999-01-01" name="akn_xml"/>
+					<FRBRauthor href="#varAuthor"/>
+					<FRBRformat value="application/akn+xml"/>
+				</FRBRManifestation>
+			</identification>
+			<references source="#author">
+				<TLCConcept GUID="_9e5b9709-3e21-41e4-8436-d2e2d9f7854a" eId="varDocSubType" href="#varOntologies" showAs="Order"/>
+				<TLCConcept GUID="_b8225272-1d89-4ecc-97a9-00502255acb8" eId="varSITitle" href="#varOntologies" showAs="The Coroners and Justice Act 2009 (Commencement No. 21) Order 2023"/>
+				<TLCProcess GUID="_e9eb8c05-48e4-482e-8d42-3cc6826dc7f0" eId="varProcedureType" href="#varOntologies" showAs="No procedure"/>
+				<TLCProcess GUID="_efd9163a-4d85-4e06-90d8-6d1b83b412e3" eId="varStageVersion" href="#varOntologies" showAs="1"/>
+				<TLCProcess GUID="_1914ac3a-9ce7-469f-8128-798a9eaa9404" eId="varProjectId" href="#varOntologies" showAs="SI000249"/>
+				<TLCProcess GUID="_fdfbb26d-8140-4814-b017-b3d1efa79f01" eId="varWork" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_c7dcc2fb-bb2c-4451-8a60-062cb8661197" eId="varWorkUri" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_76a722af-ac78-4868-ac78-56abb3ac6d46" eId="varCHOiid" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_e6800bcb-9772-4801-b17f-72caf6ac8027" eId="varExpression" href="#varOntologies" showAs="dc0865f3-5266-4832-8eb1-21d4805ed3fe"/>
+				<TLCProcess GUID="_20bb2239-5eb9-4efe-98d0-9d13451be15b" eId="varExpressionUri" href="#varOntologies" showAs="dma:///45e6b900-8929-11d4-b772-0050da06bfb4/80742cea-0ebb-4cf6-9759-1e52358d9b5b/;guid=dc0865f3-5266-4832-8eb1-21d4805ed3fe;class=Version%20Description"/>
+				<TLCProcess GUID="_43639f93-a095-4eee-ba62-f3329751eed2" eId="varVDOiid" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_6146f9ce-e3db-463d-9ea6-31b0ffab2f27" eId="varManifestation" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_16e4bbc1-9581-4b62-9dbe-c6a163407f93" eId="varManifestationUri" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_c6086f8b-0d02-4209-b0dc-5f2f0dc80d48" eId="varSIYear" href="#varOntologies" showAs="2023"/>
+				<TLCConcept GUID="_375f7622-6e39-4672-bf5f-fd868aca96ca" eId="varSINoComp" href="#varOntologies" showAs="1036"/>
+				<TLCConcept GUID="_77e9fd3b-0346-4434-be68-218f66751938" eId="varSINo" href="#varOntologies" showAs="#varSIYear No. #varSINoComp #varSISubsidiaryNos"/>
+				<TLCConcept GUID="_7b60b027-5b43-4839-a814-8cb8b879c27f" eId="varSISubsidiaryNos" href="#varOntologies" showAs=" (C. 64)"/>
+				<TLCConcept GUID="_c4bc6aac-cf1c-47dd-b62c-53372c71577e" eId="varISBN" href="#varOntologies" showAs=""/>
+				<TLCPerson GUID="_eebd7d71-7175-4576-9f18-47b4a7a21675" eId="varMinistryAgency" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_73e2fb43-d419-42be-9145-6050a17c246b" eId="varDocType" href="#varOntologies" showAs="UKSI"/>
+				<TLCProcess GUID="_d330fd13-45c1-410e-8ff5-8fa52ba7be08" eId="varSystem" href="#varOntologies" showAs="LDAPP"/>
+				<TLCOrganization GUID="_dd40c520-8705-409e-b5f3-f380c69e338a" eId="varAuthor" href="#varOntologies" showAs="UK Government"/>
+				<TLCLocation GUID="_a9636190-b51a-4c01-ad7f-fd275b3267fd" eId="varJurisdiction" href="#varOntologies" showAs="United Kingdom"/>
+				<TLCConcept GUID="_003ad840-e5c1-4d1d-bf17-c7b18947b36b" eId="varOntologies" href="https://www.legislation.gov.uk/ontologies/UK-AKN" showAs="https://www.legislation.gov.uk/ontologies/UK-AKN"/>
+				<TLCConcept GUID="_d6d0fc45-15d0-4f44-bea7-703fb8dc971b" eId="varMadeDate" href="#varOntologies" showAs="2023-09-20T00:00:00.000"/>
+			</references>
+		</meta>
+		<preface GUID="_a96afe1c-a9fe-4c61-be90-d6f888d46eda" eId="fnt"><?DMS-Component componentId="335bf667-9fd9-4777-995b-2b34e613054b" seriesId="e4a0ebf3-6be8-449d-89a6-8999703595d9" versionNumber="0"?>
+			
+			<block GUID="_8631790b-2b6e-46d1-ba33-2052be2daded" eId="fnt__banner" name="banner">STATUTORY INSTRUMENTS</block>
+			<block GUID="_fd47525b-a37c-49a4-94c4-8bd46abd948f" eId="fnt__no" name="number">
+				<docNumber GUID="_9ed058cc-1112-4af7-a14c-9c713fba7cdc" eId="fnt__no__dno"> <ref class="placeholder" href="#varSINo"/> </docNumber>
+			</block>
+			<container name="subjects">
+				<container GUID="_0ec0f99b-2509-4a87-8c48-6eef6ca5c655" eId="fnt__subject" name="subject">
+					<block name="subject"><concept class="title" refersTo="">MEDICAL PROFESSION</concept><concept class="title" refersTo="">, ENGLAND AND WALES</concept></block>
+				</container>
+				<container GUID="_6ba46951-93ea-4934-823f-ef3fb0f3f090" eId="fnt__subject__oc_2" name="subject">
+					<block name="subject"><concept class="title" refersTo="">CORONERS</concept><concept class="title" refersTo="">, ENGLAND AND WALES</concept></block>
+				</container>
+			</container>
+			<block GUID="_76a44ca2-6552-49bd-8488-7d00c0dc1527" eId="fnt__st" name="title"><docTitle GUID="_6e10df72-1082-4ede-96ff-364ce02b0f7b" eId="fnt__st__dtitle"> <ref class="placeholder" href="#varSITitle"/> </docTitle> </block>
+			<container GUID="_71849173-dfe6-4bf2-9172-bac8a40fe4c2" eId="fnt__dates" name="dates">
+				<block GUID="_2c5ea229-38f4-4cb8-9150-8eddcbaed98e" eId="fnt__dates__madeDate" name="madeDate"><span>Made</span><docDate GUID="_f2d12aa8-71f4-42fb-9b44-197a6ec5f779" date="2023-09-20T00:00:00.000" eId="fnt__dates__madeDate__ddate"><ref class="placeholder" href="#varMadeDate" ukl:dateFormat="d'th' MMMM yyyy">20th September 2023</ref></docDate></block>
+			</container>
+		</preface>
+		<preamble GUID="_34b624d1-c96c-475e-8888-3c039758c5e8" eId="preamble"><?DMS-Component componentId="a40cc980-5f36-425e-abf6-1af8b613e84f" seriesId="9e1a44fc-8338-4c01-a392-ed32e0af7a16" versionNumber="1"?>
+			
+			<formula GUID="_6dbf4680-13f4-40a1-a137-d4db311cb3c5" eId="preamble__enactingWords" name="enactingText">
+				<p>The Secretary of State makes this <ref class="placeholder" href="#varDocSubType"/> in exercise of the power conferred by section 182(5) of the Coroners and Justice Act 2009<authorialNote GUID="_2033dce8-3bf4-47dc-bc44-a4277bc953fa" class="footnote" eId="fnote_1" marker="1">
+					<p>2009 c. 25; there are amendments to section 182 which are not relevant to this Order.</p>
+					</authorialNote>.</p>
+			</formula>
+		</preamble>
+		<body><?DMS-Component componentId="8f953141-b401-46d1-aca4-707ddf141e49" seriesId="ed8787a4-f8b6-47a7-bfd2-90c558d7a174" versionNumber="1"?>
+			
+			<article GUID="_30424c57-4d9b-4fbe-a208-5daf6e1bcc5c" class="prov1" eId="art_1"><?DMS-Component componentId="92e74dbd-ba07-4fc6-b0fe-39538829a235" seriesId="dd0a0fbf-5206-4640-bd7a-75c906d7edd5" versionNumber="1"?>
+				<heading GUID="_3fe4a7f1-2764-4b66-b4eb-f99c536b4630" eId="art_1__hdg">Citation and extent</heading>
+				<num>1.</num>
+				<paragraph GUID="_f91ce8b2-a629-408e-bff7-700f4e453812" class="prov2" eId="art_1__para_1">
+					<num>(1)</num>
+					<content>
+						<p>This Order may be cited as the Coroners and Justice Act 2009 (Commencement No. 21) Order 2023.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_2e331ff7-88d4-4c6c-ba7f-94bed19d37c4" class="prov2" eId="art_1__para_2">
+					<num>(2)</num>
+					<content>
+						<p>This Order extends to England and Wales.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article GUID="_9e2798d4-ca5d-49a6-9d5a-76d1d3551904" class="prov1" eId="art_2"><?DMS-Component componentId="1096176c-72b7-4e4b-8049-e90c5e6858bd" seriesId="6a405f58-8843-4e03-ba7e-44e74f7e529c" versionNumber="0"?>
+				
+				<heading GUID="_3b4b51fe-98e7-4abd-86a9-de22098a8124" eId="art_2__hdg">Commencement of provisions of the Coroners and Justice Act 2009</heading>
+				<num>2.</num>
+				<intro GUID="_fb841abc-7733-416a-8601-e1b56fbda7b4" eId="art_2__intro">
+					<p>The following provisions of the Coroners and Justice Act 2009 come into force on 1st October 2023—</p>
+				</intro>
+				<level GUID="_86f6b801-31fe-4135-8bc9-fbc422bcf94a" class="para1" eId="art_2__para_a">
+					<num>(a)</num>
+					<content>
+						<p>section 19 (medical examiners: supplementary)<authorialNote GUID="_41fa2c83-1c14-4a4c-9db0-154f58c40eb3" class="footnote" eId="fnote_4" marker="4">
+							<p>Section 19 was amended by section 54(1) and (2) of the Health and Social Care Act 2012 (c. 7) (“the 2012 Act”), and by section 169(2) of the Health and Care Act 2022 (c. 31) (“the 2022 Act”). Section 54 of the 2012 Act was repealed by section 169(6) of the 2022 Act.</p>
+							</authorialNote>, and</p>
+					</content>
+				</level>
+				<level GUID="_ce275531-af3c-46db-821e-ae710248879b" class="para1" eId="art_2__para_b">
+					<num>(b)</num>
+					<content>
+						<p>section 20 (medical certificate of cause of death)<authorialNote GUID="_56a79689-c885-4ddf-b357-c1c6ee16126a" class="footnote" eId="fnote_3" marker="3">
+							<p>Section 20 was amended by section 54(1) and (3) of the 2012 Act, by section 169(3) of the 2022 Act, and by S.I. 2018/378.</p>
+							</authorialNote>.</p>
+					</content>
+				</level>
+			</article>
+			<hcontainer GUID="_f8f53b0e-0290-42be-bfec-91a969b26f73" eId="sigs" name="signatures"><?DMS-Component componentId="06aea6f5-4a89-4857-a3a0-b2839900f358" seriesId="a6155168-a820-498a-93ec-be1d3e513705" versionNumber="0"?>
+				
+				<hcontainer GUID="_2a096ca0-df34-4693-bff9-e9bd2c3ae3a2" eId="sigs__sigBlk" name="signatureBlock">
+					<content>
+						<block GUID="_70a93c0d-d990-4a85-8f84-07cee35f9117" eId="sigs__sigBlk__sig" name="signature">Markham</block>
+						<block GUID="_17027713-c31e-4527-a566-5311bb592c14" eId="sigs__sigBlk__role" name="role">Parliamentary Under Secretary of State</block>
+						<block name="date"><date date="2023-09-20">20th September 2023</date></block>
+						<block GUID="_aff0f5b4-986b-4f34-9972-db525151841b" eId="sigs__sigBlk__org" name="organization">Department of Health and Social Care</block>
+					</content>
+				</hcontainer>
+			</hcontainer>
+		</body>
+		<conclusions GUID="_869c7732-5e21-4af4-bcda-9a93488af664" eId="backCover"><?DMS-Component componentId="e63de894-a27c-4859-bd3d-c3afc70998ab" seriesId="f80e5e26-c836-4513-b627-e92aef0655e5" versionNumber="0"?>
+			
+			<blockContainer GUID="_f977f7ab-c2f7-4df5-a60e-7d1abbaffd32" class="explanatoryNote" eId="backCover__explNote">
+				<heading GUID="_1e5a2bbc-cd5c-4617-bc31-c02c0ea8e75a" eId="backCover__explNote__hdg">Explanatory Note</heading>
+				<subheading GUID="_6696aabb-f058-412c-af0c-4347069034b6" eId="backCover__explNote__subhdg">(This note is not part of the <ref class="placeholder" href="#varDocSubType"/>)</subheading>
+				<p>This Order commences sections 19 and 20 of the Coroners and Justice Act 2009 (c. 25) on 1st October 2023.</p>
+				<p>Section 19 makes provision in relation to the appointment of medical examiners and confers powers on appropriate Ministers to make regulations in relation to medical examiners.</p>
+				<p>Section 20 confers a power on the Secretary of State to make regulations in relation to the preparation of medical certificates of cause of death.</p>
+			</blockContainer>
+			<blockContainer GUID="_f1f43e83-8726-4371-bee8-e5dde70c02b6" class="commencementHistory" eId="backCover__comHist">
+				<heading GUID="_5a766fdd-3f3a-43ad-a3a8-cc9be8a49847" eId="backCover__comHist__hdg">NOTE AS TO EARLIER COMMENCEMENT ORDERS</heading>
+				<subheading GUID="_9bc3f90a-ca3c-49dd-903d-458eea9196ec" eId="backCover__comHist__subhdg">(This note is not part of the <ref class="placeholder" href="#varDocSubType"/>)</subheading>
+				<p>The following provisions of the Coroners and Justice Act 2009 have been brought into force by commencement order made before the date of this <ref class="placeholder" href="#varDocSubType"/>.</p>
+				<tblock GUID="_33450328-baeb-4601-a316-6f38fe7397a6" class="table" eId="backCover__comHist__tbl__oc_1">
+					<foreign>
+						<table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="topAndBottom tablecenter width100" cols="3">
+							<thead class="italic left">
+								<tr akn:GUID="_39df821e-0593-4a3c-839c-647e50746c13" akn:eId="backCover__comHist__tbl__oc_1__hdg__row__oc_1">
+									<td akn:GUID="_a7beb21c-5f3b-4e0e-997c-2bdbe4b24b85" akn:eId="backCover__comHist__tbl__oc_1__hdg__row__oc_1__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Provision</p>
+									</td>
+									<td akn:GUID="_1d871124-da8b-46ac-b8fc-b9f80f1359e9" akn:eId="backCover__comHist__tbl__oc_1__hdg__row__oc_1__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Date of Commencement</p>
+									</td>
+									<td akn:GUID="_b0c16ab7-d3a0-4262-b956-92d88f7b8273" akn:eId="backCover__comHist__tbl__oc_1__hdg__row__oc_1__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. No.</p>
+									</td>
+								</tr>
+							</thead>
+							<tbody class="left">
+								<tr akn:GUID="_fe66ea27-f950-4b0c-bf10-e85c2e92ae08" akn:eId="backCover__comHist__tbl__oc_1__row__oc_1">
+									<td akn:GUID="_c7218c80-767f-44ef-b879-fcccaa587d0b" akn:eId="backCover__comHist__tbl__oc_1__row__oc_1__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Sections 1 to 11</p>
+									</td>
+									<td akn:GUID="_ff28a9c5-4d46-411e-ad51-0d97bbd90c68" akn:eId="backCover__comHist__tbl__oc_1__row__oc_1__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">25th July 2013</p>
+									</td>
+									<td akn:GUID="_30c77372-472b-4936-b126-286d265e69a3" akn:eId="backCover__comHist__tbl__oc_1__row__oc_1__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2013/1869</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_42283dc7-3be3-4c6f-9d31-32871c87b364" akn:eId="backCover__comHist__tbl__oc_1__row__oc_2">
+									<td akn:GUID="_74f4c560-ad22-4f08-bef7-76e7ae2d6bc1" akn:eId="backCover__comHist__tbl__oc_1__row__oc_2__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 12</p>
+									</td>
+									<td akn:GUID="_eb96fda0-63ed-4dbf-a44a-4ae5464ab6c6" akn:eId="backCover__comHist__tbl__oc_1__row__oc_2__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">24th September 2012</p>
+									</td>
+									<td akn:GUID="_5e8c6426-d4d7-4a6f-8ead-abbb71e790a8" akn:eId="backCover__comHist__tbl__oc_1__row__oc_2__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2012/2374</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_0fbca549-e999-4a1a-bf0f-62189dff218a" akn:eId="backCover__comHist__tbl__oc_1__row__oc_3">
+									<td akn:GUID="_64ca973d-01e0-4f82-9b8f-de5279d20ba8" akn:eId="backCover__comHist__tbl__oc_1__row__oc_3__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Sections 13 to 17</p>
+									</td>
+									<td akn:GUID="_f665e30d-70d9-49ee-8a32-4e262d22f79c" akn:eId="backCover__comHist__tbl__oc_1__row__oc_3__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">25th July 2013</p>
+									</td>
+									<td akn:GUID="_1e23bacf-492c-48d5-85da-971af459b156" akn:eId="backCover__comHist__tbl__oc_1__row__oc_3__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2013/1869</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_b2e20881-e8f1-4e1d-a7f9-308b321f6fea" akn:eId="backCover__comHist__tbl__oc_1__row__oc_4">
+									<td akn:GUID="_c5b96c30-7b54-4490-ba3e-21b94b1a565b" akn:eId="backCover__comHist__tbl__oc_1__row__oc_4__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 18</p>
+									</td>
+									<td akn:GUID="_4079918b-e3de-42fc-81c5-14ca06de263d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_4__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">9th July 2019</p>
+									</td>
+									<td akn:GUID="_34b23879-6890-462c-b9f1-c8d70e49f228" akn:eId="backCover__comHist__tbl__oc_1__row__oc_4__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2019/1105</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_e5b6d142-ec09-495c-aff2-a49b9da5f1d1" akn:eId="backCover__comHist__tbl__oc_1__row__oc_5">
+									<td akn:GUID="_3e1851b7-d82b-4ba4-b8c5-56eda4a3c912" akn:eId="backCover__comHist__tbl__oc_1__row__oc_5__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 21</p>
+									</td>
+									<td akn:GUID="_7e8041bb-a61e-4f59-992a-13bfa01ebd81" akn:eId="backCover__comHist__tbl__oc_1__row__oc_5__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">18th June 2018</p>
+									</td>
+									<td akn:GUID="_e7ee47fb-4c77-4ebf-8b2b-e8de82bc1f1a" akn:eId="backCover__comHist__tbl__oc_1__row__oc_5__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2018/727</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_57984e32-30de-4630-9f29-7ea0f4eefee0" akn:eId="backCover__comHist__tbl__oc_1__row__oc_6">
+									<td akn:GUID="_4a31bd0f-a100-4578-ae35-fdd0dd8ffc80" akn:eId="backCover__comHist__tbl__oc_1__row__oc_6__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Sections 22 to 24</p>
+									</td>
+									<td akn:GUID="_57e975fd-c9c5-43a3-9300-7ab93d279c5b" akn:eId="backCover__comHist__tbl__oc_1__row__oc_6__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">25th July 2013</p>
+									</td>
+									<td akn:GUID="_c979b662-e4dd-4b60-bba4-5f921c49b417" akn:eId="backCover__comHist__tbl__oc_1__row__oc_6__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2013/1869</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_f9de2aa7-cb89-4131-bbae-c5fe79a5716a" akn:eId="backCover__comHist__tbl__oc_1__row__oc_7">
+									<td akn:GUID="_0a7112fb-2224-4a53-a144-16b905a7eece" akn:eId="backCover__comHist__tbl__oc_1__row__oc_7__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 32 (partially)</p>
+									</td>
+									<td akn:GUID="_e94b77e4-7dbd-45b0-9898-b95ad22c1ba3" akn:eId="backCover__comHist__tbl__oc_1__row__oc_7__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">25th July 2013</p>
+									</td>
+									<td akn:GUID="_34caba14-bac9-484b-b2b1-90e79c38b450" akn:eId="backCover__comHist__tbl__oc_1__row__oc_7__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2013/1869</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_6e87716b-6dc1-41fa-9334-bd615595873f" akn:eId="backCover__comHist__tbl__oc_1__row__oc_8">
+									<td akn:GUID="_d478ed42-fd7c-401a-9a37-c097f09c4d24" akn:eId="backCover__comHist__tbl__oc_1__row__oc_8__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Sections 33 and 34</p>
+									</td>
+									<td akn:GUID="_be860003-e773-476b-853b-49a27c597489" akn:eId="backCover__comHist__tbl__oc_1__row__oc_8__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">25th July 2013</p>
+									</td>
+									<td akn:GUID="_2ebdae17-f457-4788-985b-37405115720d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_8__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2013/1869</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_b7980569-50ae-4e3d-869f-495fdf71d9f8" akn:eId="backCover__comHist__tbl__oc_1__row__oc_9">
+									<td akn:GUID="_a62b54d7-2883-4ae4-9d5e-a18b3de73f86" akn:eId="backCover__comHist__tbl__oc_1__row__oc_9__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 35</p>
+									</td>
+									<td akn:GUID="_d993ff60-13d9-4d33-a827-f7c142852361" akn:eId="backCover__comHist__tbl__oc_1__row__oc_9__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st February 2010</p>
+									</td>
+									<td akn:GUID="_3d332fea-ce96-4b32-bb92-658ee0c69a67" akn:eId="backCover__comHist__tbl__oc_1__row__oc_9__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/145</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_df868076-84ff-4501-bee7-f439923aa9eb" akn:eId="backCover__comHist__tbl__oc_1__row__oc_10">
+									<td akn:GUID="_43fc4dcc-35cc-43a5-9517-212704b565ec" akn:eId="backCover__comHist__tbl__oc_1__row__oc_10__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 36 (partially)</p>
+									</td>
+									<td akn:GUID="_def2ad30-862a-4637-a335-5951f5719747" akn:eId="backCover__comHist__tbl__oc_1__row__oc_10__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">25th July 2013</p>
+									</td>
+									<td akn:GUID="_f666e565-4882-4e72-96d3-5260a4776fc4" akn:eId="backCover__comHist__tbl__oc_1__row__oc_10__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2013/1869</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_9ef8e107-b6d8-4b4e-a356-a6995c8bcf16" akn:eId="backCover__comHist__tbl__oc_1__row__oc_11">
+									<td akn:GUID="_0941375f-eb26-49a1-bd81-e33a4674acc5" akn:eId="backCover__comHist__tbl__oc_1__row__oc_11__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 37</p>
+									</td>
+									<td akn:GUID="_1e15bd4c-68b5-4a37-a79f-53536a65e803" akn:eId="backCover__comHist__tbl__oc_1__row__oc_11__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">25th July 2013</p>
+									</td>
+									<td akn:GUID="_f8a9f33c-3e07-4b21-87b9-abf37155e77a" akn:eId="backCover__comHist__tbl__oc_1__row__oc_11__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2013/1869</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_f9b597c3-5c5b-46a3-a368-0389057602f5" akn:eId="backCover__comHist__tbl__oc_1__row__oc_12">
+									<td akn:GUID="_938cc90a-0045-4077-b6e8-764f8be804de" akn:eId="backCover__comHist__tbl__oc_1__row__oc_12__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 41 (partially)</p>
+									</td>
+									<td akn:GUID="_f81c7b98-800e-4041-9e16-04332492298d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_12__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">25th July 2013</p>
+									</td>
+									<td akn:GUID="_d353e8dc-1d23-4534-9fcd-df3e1fdc6ca0" akn:eId="backCover__comHist__tbl__oc_1__row__oc_12__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2013/1869</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_49eb7d64-8f73-4574-bafb-469afd684e78" akn:eId="backCover__comHist__tbl__oc_1__row__oc_13">
+									<td akn:GUID="_b04954c2-4904-49ef-aba3-e55a62ba5c6c" akn:eId="backCover__comHist__tbl__oc_1__row__oc_13__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 42</p>
+									</td>
+									<td akn:GUID="_0de04b8d-700a-464f-ba3b-b25618fcddb0" akn:eId="backCover__comHist__tbl__oc_1__row__oc_13__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">25th July 2013</p>
+									</td>
+									<td akn:GUID="_378d2f0d-b3cf-4d49-b0f6-c704e613d432" akn:eId="backCover__comHist__tbl__oc_1__row__oc_13__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2013/1869</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_579babf9-1d09-4e29-bcc5-ba45df7f80fe" akn:eId="backCover__comHist__tbl__oc_1__row__oc_14">
+									<td akn:GUID="_f75017ef-76ae-4337-9fae-dc6959ac2b40" akn:eId="backCover__comHist__tbl__oc_1__row__oc_14__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 43</p>
+									</td>
+									<td akn:GUID="_71f6c657-dd21-41bf-9f1a-973b2ae4205e" akn:eId="backCover__comHist__tbl__oc_1__row__oc_14__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">3rd July 2013</p>
+									</td>
+									<td akn:GUID="_a3442a85-dc56-4b39-98d9-7fee07991971" akn:eId="backCover__comHist__tbl__oc_1__row__oc_14__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2013/1628</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_00ac6aca-4ae2-4790-a33f-fdcbb827e2ee" akn:eId="backCover__comHist__tbl__oc_1__row__oc_15">
+									<td akn:GUID="_7b479dc3-4074-45aa-aa43-4027c969ec98" akn:eId="backCover__comHist__tbl__oc_1__row__oc_15__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 45</p>
+									</td>
+									<td akn:GUID="_a8d0febe-9552-4bbc-b3a3-7fa0ae9a727d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_15__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">3rd July 2013</p>
+									</td>
+									<td akn:GUID="_04f8ce0f-94e5-4d2a-a0c5-c479fccbb50a" akn:eId="backCover__comHist__tbl__oc_1__row__oc_15__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2013/1628</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_fdde778c-9d82-498a-b93b-ef080d34fd84" akn:eId="backCover__comHist__tbl__oc_1__row__oc_16">
+									<td akn:GUID="_1ad1e6f5-7781-463f-9a08-96992d4881a4" akn:eId="backCover__comHist__tbl__oc_1__row__oc_16__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 46</p>
+									</td>
+									<td akn:GUID="_c1d72818-8355-4990-a57e-0991b15b4b9e" akn:eId="backCover__comHist__tbl__oc_1__row__oc_16__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">25th July 2013</p>
+									</td>
+									<td akn:GUID="_dd343211-5d2b-4a37-ae22-667a43efc0e5" akn:eId="backCover__comHist__tbl__oc_1__row__oc_16__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2013/1869</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_88b4f7cc-a6f7-4eab-8daa-334f74173b97" akn:eId="backCover__comHist__tbl__oc_1__row__oc_17">
+									<td akn:GUID="_793e25c8-8f9c-4514-a849-e38431970139" akn:eId="backCover__comHist__tbl__oc_1__row__oc_17__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 49 (partially)</p>
+									</td>
+									<td akn:GUID="_443d8ce1-0fb8-41f5-adaa-8f7bba2bd56d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_17__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">29th February 2016</p>
+									</td>
+									<td akn:GUID="_671dc531-ea5e-424f-86b5-dfd13b9b11c9" akn:eId="backCover__comHist__tbl__oc_1__row__oc_17__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.R. 2016 No. 23</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_b6e1c4be-8926-4b99-b222-256aec0ee33b" akn:eId="backCover__comHist__tbl__oc_1__row__oc_18">
+									<td akn:GUID="_00654cb5-801c-458d-8a8f-36b743c5585d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_18__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 50</p>
+									</td>
+									<td akn:GUID="_ef21c4a1-a145-40d0-b5e9-0c14d51053c2" akn:eId="backCover__comHist__tbl__oc_1__row__oc_18__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">24th September 2012</p>
+									</td>
+									<td akn:GUID="_e3c8e902-7242-4ea0-bf9b-7304bd71044b" akn:eId="backCover__comHist__tbl__oc_1__row__oc_18__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2012/2374</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_cb007831-e554-4e62-b076-4928a915b883" akn:eId="backCover__comHist__tbl__oc_1__row__oc_19">
+									<td akn:GUID="_9ab9e7bd-8ed2-4168-9c22-b107bc623844" akn:eId="backCover__comHist__tbl__oc_1__row__oc_19__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 52</p>
+									</td>
+									<td akn:GUID="_7f2526ac-1c57-4eee-b074-2653faba6c10" akn:eId="backCover__comHist__tbl__oc_1__row__oc_19__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">4th October 2010</p>
+									</td>
+									<td akn:GUID="_09cf3242-9b9b-44f0-bb89-3b93207be92e" akn:eId="backCover__comHist__tbl__oc_1__row__oc_19__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/816</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_93039989-6a82-4542-8e24-adab81b7090d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_20">
+									<td akn:GUID="_50a8d82c-c91d-4def-a5cc-b0f621783dc2" akn:eId="backCover__comHist__tbl__oc_1__row__oc_20__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 53</p>
+									</td>
+									<td akn:GUID="_bec0c64e-e005-43ba-87fe-da305d537476" akn:eId="backCover__comHist__tbl__oc_1__row__oc_20__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st June 2011</p>
+									</td>
+									<td akn:GUID="_1421dc26-c4aa-457b-8e10-9c187cf57cd5" akn:eId="backCover__comHist__tbl__oc_1__row__oc_20__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.R. 2011 No. 182</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_56ebbaa8-20b5-4ed7-960f-a0020e23ac54" akn:eId="backCover__comHist__tbl__oc_1__row__oc_21">
+									<td akn:GUID="_86667bba-4ac8-47cf-ace0-8413dfd85383" akn:eId="backCover__comHist__tbl__oc_1__row__oc_21__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Sections 54 and 55 (partially)</p>
+									</td>
+									<td akn:GUID="_da230d93-8a40-4d9b-b068-c65fbe4c6999" akn:eId="backCover__comHist__tbl__oc_1__row__oc_21__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">4th October 2010</p>
+									</td>
+									<td akn:GUID="_1662857a-893d-4677-9e64-2a8ab682b352" akn:eId="backCover__comHist__tbl__oc_1__row__oc_21__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/816</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_c37f97ed-d8cd-49af-bd83-9c8f6b2b123b" akn:eId="backCover__comHist__tbl__oc_1__row__oc_22">
+									<td akn:GUID="_3bc2e5f8-b4bf-41e1-8a2b-fc2786aa5a38" akn:eId="backCover__comHist__tbl__oc_1__row__oc_22__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Sections 54 and 55 (fully in force)</p>
+									</td>
+									<td akn:GUID="_dcac12cf-d0ba-4d0c-9875-0b7a75bcd6b0" akn:eId="backCover__comHist__tbl__oc_1__row__oc_22__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st June 2011</p>
+									</td>
+									<td akn:GUID="_b13dd34c-4a59-4861-b22e-f9bd0a19d931" akn:eId="backCover__comHist__tbl__oc_1__row__oc_22__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.R. 2011 No. 182</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_b13d01dd-1dbf-4dba-bda9-55baade33ab0" akn:eId="backCover__comHist__tbl__oc_1__row__oc_23">
+									<td akn:GUID="_44581b34-09bd-412a-83a0-94a7e70c6fc9" akn:eId="backCover__comHist__tbl__oc_1__row__oc_23__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 56 (partially)</p>
+									</td>
+									<td akn:GUID="_cdcac096-de4a-461b-abd8-e325f77f9a4d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_23__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">4th October 2010</p>
+									</td>
+									<td akn:GUID="_d4513529-867b-463b-956b-288a686ca93d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_23__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/816</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_559c7d21-cbe7-4ee3-92dd-c5c42f3a154d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_24">
+									<td akn:GUID="_2712e3a9-f743-4670-a25e-9ac4bcd70fac" akn:eId="backCover__comHist__tbl__oc_1__row__oc_24__col_1">
+										
+									</td>
+									<td akn:GUID="_9f1818dd-1201-48b8-9764-b8859c0f0e95" akn:eId="backCover__comHist__tbl__oc_1__row__oc_24__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st June 2011</p>
+									</td>
+									<td akn:GUID="_5eee9d71-4c3c-40a7-b3aa-0c1ea3f37ad2" akn:eId="backCover__comHist__tbl__oc_1__row__oc_24__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.R. 2011 No. 182</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_b3d73c50-c2c2-4c60-b852-7563eca8a074" akn:eId="backCover__comHist__tbl__oc_1__row__oc_25">
+									<td akn:GUID="_71ab0bdd-f1ca-408c-ad53-4d4961bd5ba3" akn:eId="backCover__comHist__tbl__oc_1__row__oc_25__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 57</p>
+									</td>
+									<td akn:GUID="_7c4d24a7-e25a-428d-8a38-0c9fd30fc717" akn:eId="backCover__comHist__tbl__oc_1__row__oc_25__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">4th October 2010</p>
+									</td>
+									<td akn:GUID="_ea43014e-a461-44b3-9b38-a356289380cf" akn:eId="backCover__comHist__tbl__oc_1__row__oc_25__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/816</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_10852599-4181-4846-9e46-da4dc0c25332" akn:eId="backCover__comHist__tbl__oc_1__row__oc_26">
+									<td akn:GUID="_9f07eb3d-fb82-4039-8fcc-caa64299f0b2" akn:eId="backCover__comHist__tbl__oc_1__row__oc_26__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 58</p>
+									</td>
+									<td akn:GUID="_55cd94e9-8251-4d7e-8a64-1eb7456104bb" akn:eId="backCover__comHist__tbl__oc_1__row__oc_26__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st June 2011</p>
+									</td>
+									<td akn:GUID="_93f7dd15-92d7-478a-ab79-7b666776a8bd" akn:eId="backCover__comHist__tbl__oc_1__row__oc_26__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.R. 2011 No. 182</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_9cd898ff-64d7-4141-a594-6a8027c3389d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_27">
+									<td akn:GUID="_adf7ab1d-6ace-43e0-8156-0ae68d2505a0" akn:eId="backCover__comHist__tbl__oc_1__row__oc_27__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Sections 59 to 61</p>
+									</td>
+									<td akn:GUID="_22946486-358e-4829-bea4-c4a07aa3fc74" akn:eId="backCover__comHist__tbl__oc_1__row__oc_27__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st February 2010</p>
+									</td>
+									<td akn:GUID="_783de93c-1f01-4765-8c99-d6e4e716ac16" akn:eId="backCover__comHist__tbl__oc_1__row__oc_27__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/145</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_4dea2a44-2d95-4eb5-aadb-dc080bf801ba" akn:eId="backCover__comHist__tbl__oc_1__row__oc_28">
+									<td akn:GUID="_1d0bfecc-dba5-4844-b4e1-90a8c98a3b08" akn:eId="backCover__comHist__tbl__oc_1__row__oc_28__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Sections 62 to 71</p>
+									</td>
+									<td akn:GUID="_e685e915-1852-4b32-925d-937c128144cf" akn:eId="backCover__comHist__tbl__oc_1__row__oc_28__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">6th April 2010</p>
+									</td>
+									<td akn:GUID="_e4eca451-c2c2-4806-9595-5cee6f13fa42" akn:eId="backCover__comHist__tbl__oc_1__row__oc_28__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/816</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_525d8457-8fc0-40c2-a0eb-4e26ed514ebc" akn:eId="backCover__comHist__tbl__oc_1__row__oc_29">
+									<td akn:GUID="_427a8c00-f390-460f-81e8-975223ac020d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_29__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 72</p>
+									</td>
+									<td akn:GUID="_04653f5a-991b-4694-b179-447a3c905f10" akn:eId="backCover__comHist__tbl__oc_1__row__oc_29__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st February 2010</p>
+									</td>
+									<td akn:GUID="_d7c4ef6e-075e-4f99-aee0-6807c1c88ca3" akn:eId="backCover__comHist__tbl__oc_1__row__oc_29__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/145</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_e264e468-4749-43c1-bd5a-f6501332ad12" akn:eId="backCover__comHist__tbl__oc_1__row__oc_30">
+									<td akn:GUID="_bb2dad2f-fc5e-4566-b612-981ce64ca29c" akn:eId="backCover__comHist__tbl__oc_1__row__oc_30__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 74 (partially)</p>
+									</td>
+									<td akn:GUID="_05bfe2a5-8382-48a9-a528-529f262e960a" akn:eId="backCover__comHist__tbl__oc_1__row__oc_30__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">6th April 2010</p>
+									</td>
+									<td akn:GUID="_9afad4db-cb2f-437f-b8be-5815e6299570" akn:eId="backCover__comHist__tbl__oc_1__row__oc_30__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/816</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_275b664b-227c-4df0-91af-dc9fd5a222a4" akn:eId="backCover__comHist__tbl__oc_1__row__oc_31">
+									<td akn:GUID="_bc489b2b-5ae9-4945-a5a8-0625f5abbc63" akn:eId="backCover__comHist__tbl__oc_1__row__oc_31__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 74 (fully in force)</p>
+									</td>
+									<td akn:GUID="_ec9e482f-f696-4165-b262-2f0ae5c4e940" akn:eId="backCover__comHist__tbl__oc_1__row__oc_31__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">18th April 2011</p>
+									</td>
+									<td akn:GUID="_f5b925b2-9cdd-4772-938a-ae9580ca9b8c" akn:eId="backCover__comHist__tbl__oc_1__row__oc_31__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.R. 2011 No. 182</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_c5de8109-7a2a-4fdb-9849-8f59377789cd" akn:eId="backCover__comHist__tbl__oc_1__row__oc_32">
+									<td akn:GUID="_4f480972-2a36-4095-adfe-81fae7185ca4" akn:eId="backCover__comHist__tbl__oc_1__row__oc_32__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 75 (partially)</p>
+									</td>
+									<td akn:GUID="_3471dfd2-e03f-436f-82a8-97caf832dfa2" akn:eId="backCover__comHist__tbl__oc_1__row__oc_32__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">6th April 2010</p>
+									</td>
+									<td akn:GUID="_b7f99d12-bc23-49cb-a90b-6a312f4779f3" akn:eId="backCover__comHist__tbl__oc_1__row__oc_32__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/816</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_179a2eb6-800e-4bc4-8915-ddb2468e4d2d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_33">
+									<td akn:GUID="_c35fb440-65e0-427a-810e-63bb68cba492" akn:eId="backCover__comHist__tbl__oc_1__row__oc_33__col_1">
+										
+									</td>
+									<td akn:GUID="_c0601985-52b5-45ff-9d96-7d88eba50c06" akn:eId="backCover__comHist__tbl__oc_1__row__oc_33__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">18th April 2011</p>
+									</td>
+									<td akn:GUID="_cda7d0a1-edf1-4ca1-bf9e-7c6649a9a8cb" akn:eId="backCover__comHist__tbl__oc_1__row__oc_33__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.R. 2011 No. 182</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_e163e776-8068-4292-9678-8b33f9e587db" akn:eId="backCover__comHist__tbl__oc_1__row__oc_34">
+									<td akn:GUID="_f43c7376-653b-4a12-acd5-6ce59bbadc5d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_34__col_1">
+										
+									</td>
+									<td akn:GUID="_a10d5bb6-bbd5-44fd-8725-428696f105f0" akn:eId="backCover__comHist__tbl__oc_1__row__oc_34__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2nd May 2011</p>
+									</td>
+									<td akn:GUID="_0ae41213-005f-4d2c-a940-ae3f69f7a84c" akn:eId="backCover__comHist__tbl__oc_1__row__oc_34__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2011/1122</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_640c48ae-7307-4077-a568-a09e1a5f9f33" akn:eId="backCover__comHist__tbl__oc_1__row__oc_35">
+									<td akn:GUID="_ddd7eef1-9647-4435-93d2-017b36cd0f75" akn:eId="backCover__comHist__tbl__oc_1__row__oc_35__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 76 (partially)</p>
+									</td>
+									<td akn:GUID="_fab3815e-e096-4596-b844-63f54c6e7ffc" akn:eId="backCover__comHist__tbl__oc_1__row__oc_35__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">6th April 2010</p>
+									</td>
+									<td akn:GUID="_31dce1c1-b9d1-4bdf-b2b2-a0c801709892" akn:eId="backCover__comHist__tbl__oc_1__row__oc_35__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/816</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_eee8bc79-c0f3-47c3-b2ae-702d4997de1d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_36">
+									<td akn:GUID="_84f73bf9-e041-430e-98a9-a52bc59063f1" akn:eId="backCover__comHist__tbl__oc_1__row__oc_36__col_1">
+										
+									</td>
+									<td akn:GUID="_9eefb65f-a379-4304-9ee8-afac5a07283a" akn:eId="backCover__comHist__tbl__oc_1__row__oc_36__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">18th April 2011</p>
+									</td>
+									<td akn:GUID="_41c2e099-250f-4f50-b721-6bafdb92ae94" akn:eId="backCover__comHist__tbl__oc_1__row__oc_36__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.R. 2011 No. 182</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_78b389c9-5e00-42c2-9ae8-df8c1ee22a4c" akn:eId="backCover__comHist__tbl__oc_1__row__oc_37">
+									<td akn:GUID="_08ef7c5d-0c55-4e09-8879-3cd349b4037d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_37__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 77 (partially)</p>
+									</td>
+									<td akn:GUID="_0f10e229-0156-4ab3-a0c4-dd56f0cdf121" akn:eId="backCover__comHist__tbl__oc_1__row__oc_37__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">6th April 2010</p>
+									</td>
+									<td akn:GUID="_b8c91306-5f0e-4fb4-be38-db059b5edfa1" akn:eId="backCover__comHist__tbl__oc_1__row__oc_37__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/816</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_b7af6264-3de6-4ed7-8662-45048c81fed0" akn:eId="backCover__comHist__tbl__oc_1__row__oc_38">
+									<td akn:GUID="_840b9ae9-36d4-45b2-bee8-466bb4308fa6" akn:eId="backCover__comHist__tbl__oc_1__row__oc_38__col_1">
+										
+									</td>
+									<td akn:GUID="_da1e98de-207e-4747-83bc-ad4ad28cc74b" akn:eId="backCover__comHist__tbl__oc_1__row__oc_38__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">18th April 2011</p>
+									</td>
+									<td akn:GUID="_8662b424-d3a2-45e8-9ef3-ab0af850a753" akn:eId="backCover__comHist__tbl__oc_1__row__oc_38__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.R. 2011 No. 182</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_4fbe7690-ed75-41ab-ac7a-8971b8cc4d68" akn:eId="backCover__comHist__tbl__oc_1__row__oc_39">
+									<td akn:GUID="_f8dc04c6-88e4-4c01-aec3-37d53ef60b3d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_39__col_1">
+										
+									</td>
+									<td akn:GUID="_c656b203-053f-4c40-8a2b-3394e8162a3f" akn:eId="backCover__comHist__tbl__oc_1__row__oc_39__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2nd May 2011</p>
+									</td>
+									<td akn:GUID="_097cb15a-f8fc-4ef9-a855-267aae2f7c91" akn:eId="backCover__comHist__tbl__oc_1__row__oc_39__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2011/1122</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_14ecc190-0020-4a74-b222-3d1cc326b574" akn:eId="backCover__comHist__tbl__oc_1__row__oc_40">
+									<td akn:GUID="_ce208c3d-fa81-427b-9e49-21f828689f52" akn:eId="backCover__comHist__tbl__oc_1__row__oc_40__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 78 (partially)</p>
+									</td>
+									<td akn:GUID="_16a3039a-34e6-4131-8095-ba57bbf13e98" akn:eId="backCover__comHist__tbl__oc_1__row__oc_40__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">6th April 2010</p>
+									</td>
+									<td akn:GUID="_aafe5536-b595-4e75-94c1-363c4824000c" akn:eId="backCover__comHist__tbl__oc_1__row__oc_40__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/816</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_bb1e4094-93a1-41c5-8359-5966ccacdfd0" akn:eId="backCover__comHist__tbl__oc_1__row__oc_41">
+									<td akn:GUID="_5af3925c-fb09-4562-a318-b115e61d4e1d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_41__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 78 (fully in force)</p>
+									</td>
+									<td akn:GUID="_3d070904-1191-44b8-bd27-ee0244bbcf31" akn:eId="backCover__comHist__tbl__oc_1__row__oc_41__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">18th April 2011</p>
+									</td>
+									<td akn:GUID="_515ed8fc-c830-41db-ba4a-f9b453d3b13e" akn:eId="backCover__comHist__tbl__oc_1__row__oc_41__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.R. 2011 No. 182</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_3f16796d-7512-43a5-926e-4b1f906f87be" akn:eId="backCover__comHist__tbl__oc_1__row__oc_42">
+									<td akn:GUID="_75826800-2538-41ab-8fe0-84be2ad8ee1d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_42__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Sections 79 and 80 (partially)</p>
+									</td>
+									<td akn:GUID="_7343a123-267d-428f-aff1-e9a3d37054e3" akn:eId="backCover__comHist__tbl__oc_1__row__oc_42__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">6th April 2010</p>
+									</td>
+									<td akn:GUID="_8685cf9c-c9d8-40b2-8985-a52e8c92e356" akn:eId="backCover__comHist__tbl__oc_1__row__oc_42__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/816</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_fa8ae0b7-9004-49b0-b38e-90359194eb1e" akn:eId="backCover__comHist__tbl__oc_1__row__oc_43">
+									<td akn:GUID="_9ba12580-0992-4964-a87a-ca69babf1be4" akn:eId="backCover__comHist__tbl__oc_1__row__oc_43__col_1">
+										
+									</td>
+									<td akn:GUID="_53697e01-01be-48b1-9fbb-528eb615c3ad" akn:eId="backCover__comHist__tbl__oc_1__row__oc_43__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">18th April 2011</p>
+									</td>
+									<td akn:GUID="_c77b72f9-2876-4e7b-a1be-e6f18a87dfff" akn:eId="backCover__comHist__tbl__oc_1__row__oc_43__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.R. 2011 No. 182</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_332ad3a5-dc4d-41fe-82fe-c47bfb59b2a4" akn:eId="backCover__comHist__tbl__oc_1__row__oc_44">
+									<td akn:GUID="_7b5ad681-415e-4132-b794-a53d335bdb9b" akn:eId="backCover__comHist__tbl__oc_1__row__oc_44__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 81(partially)</p>
+									</td>
+									<td akn:GUID="_36d09eec-6c50-482e-87ef-99b2c37eb233" akn:eId="backCover__comHist__tbl__oc_1__row__oc_44__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">6th April 2010</p>
+									</td>
+									<td akn:GUID="_56232e48-4daf-4a3c-b1dc-b3e2b31a94b9" akn:eId="backCover__comHist__tbl__oc_1__row__oc_44__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/816</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_0b36bac4-a334-4fc1-bbb7-91994fb1e1f2" akn:eId="backCover__comHist__tbl__oc_1__row__oc_45">
+									<td akn:GUID="_6f4a7a93-440c-4b83-9c52-7ae783d27958" akn:eId="backCover__comHist__tbl__oc_1__row__oc_45__col_1">
+										
+									</td>
+									<td akn:GUID="_41a31e5f-8dad-4d92-bf23-a18b207c38f2" akn:eId="backCover__comHist__tbl__oc_1__row__oc_45__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">18th April 2011</p>
+									</td>
+									<td akn:GUID="_d80c8675-406e-4eb2-8acb-2783e25bf8c0" akn:eId="backCover__comHist__tbl__oc_1__row__oc_45__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.R. 2011 No. 182</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_582f3c03-4447-4ccf-9af3-7108bc6102d4" akn:eId="backCover__comHist__tbl__oc_1__row__oc_46">
+									<td akn:GUID="_495376bf-7165-4ffd-a84e-297711c30e58" akn:eId="backCover__comHist__tbl__oc_1__row__oc_46__col_1">
+										
+									</td>
+									<td akn:GUID="_f899e142-e2b6-49f4-9a03-0f92e1be7911" akn:eId="backCover__comHist__tbl__oc_1__row__oc_46__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2nd May 2011</p>
+									</td>
+									<td akn:GUID="_f775a091-1391-42b6-bff0-d248ddd1eb47" akn:eId="backCover__comHist__tbl__oc_1__row__oc_46__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2011/1122</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_d893df7e-49d2-4fcb-877d-c4565e976956" akn:eId="backCover__comHist__tbl__oc_1__row__oc_47">
+									<td akn:GUID="_4a3bc6ba-b068-46cc-bb0a-fa7677422aa4" akn:eId="backCover__comHist__tbl__oc_1__row__oc_47__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 82 (partially)</p>
+									</td>
+									<td akn:GUID="_232ec31e-9eeb-4484-88e1-7b0f0de1842d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_47__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">6th April 2010</p>
+									</td>
+									<td akn:GUID="_cfa78ca3-7bfe-4737-b180-edbf9bec3315" akn:eId="backCover__comHist__tbl__oc_1__row__oc_47__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/816</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_223297de-44ee-4397-8edc-424fb6a72a50" akn:eId="backCover__comHist__tbl__oc_1__row__oc_48">
+									<td akn:GUID="_3a76b7e2-01c7-43c6-8864-7d9964fe9bc1" akn:eId="backCover__comHist__tbl__oc_1__row__oc_48__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 82 (fully in force)</p>
+									</td>
+									<td akn:GUID="_e303ee5b-01fe-43b9-b54e-eaa10d3d3127" akn:eId="backCover__comHist__tbl__oc_1__row__oc_48__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">18th April 2011</p>
+									</td>
+									<td akn:GUID="_02718da6-a9ea-413c-81f9-d26850b30ebe" akn:eId="backCover__comHist__tbl__oc_1__row__oc_48__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.R. 2011 No. 182</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_956ff56a-7661-4d00-ad18-37e6ff6b915f" akn:eId="backCover__comHist__tbl__oc_1__row__oc_49">
+									<td akn:GUID="_7802a3ee-fd38-44f2-8fd0-bd4a96039ccf" akn:eId="backCover__comHist__tbl__oc_1__row__oc_49__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 83 (partially)</p>
+									</td>
+									<td akn:GUID="_622d0cf6-97ad-4048-b6e3-098c532b31e0" akn:eId="backCover__comHist__tbl__oc_1__row__oc_49__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">6th April 2010</p>
+									</td>
+									<td akn:GUID="_9ed31b88-ccd4-4b0a-a411-27c9dcc68332" akn:eId="backCover__comHist__tbl__oc_1__row__oc_49__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/816</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_25c9be49-f3ed-4e8f-85b9-b9eed33a3f7c" akn:eId="backCover__comHist__tbl__oc_1__row__oc_50">
+									<td akn:GUID="_d4f1b89e-3db1-4a7a-af5d-f400355af71b" akn:eId="backCover__comHist__tbl__oc_1__row__oc_50__col_1">
+										
+									</td>
+									<td akn:GUID="_de3da71f-aa45-426d-95dd-ad1f460c855f" akn:eId="backCover__comHist__tbl__oc_1__row__oc_50__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">18th April 2011</p>
+									</td>
+									<td akn:GUID="_3e450b95-7de3-47b7-98c1-a15cac0c1a9a" akn:eId="backCover__comHist__tbl__oc_1__row__oc_50__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.R. 2011 No. 182</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_32b989d2-290c-47d2-b825-5e1edafe19ad" akn:eId="backCover__comHist__tbl__oc_1__row__oc_51">
+									<td akn:GUID="_66f0d38e-af8d-4842-a197-3847f3f82d48" akn:eId="backCover__comHist__tbl__oc_1__row__oc_51__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 84</p>
+									</td>
+									<td akn:GUID="_d3084c1a-0c9d-4f21-b39c-2821d32d7b7c" akn:eId="backCover__comHist__tbl__oc_1__row__oc_51__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">6th April 2010</p>
+									</td>
+									<td akn:GUID="_ffb7c5c9-26cd-4818-be0f-51e5d7225be1" akn:eId="backCover__comHist__tbl__oc_1__row__oc_51__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/816</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_a961d0a3-9d61-478f-9cb8-4cf9bc647d6c" akn:eId="backCover__comHist__tbl__oc_1__row__oc_52">
+									<td akn:GUID="_81494ce1-14b9-4d04-b5cb-b83669781812" akn:eId="backCover__comHist__tbl__oc_1__row__oc_52__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 85 (partially)</p>
+									</td>
+									<td akn:GUID="_bde93821-fe65-48fd-88c9-da9556f78dfa" akn:eId="backCover__comHist__tbl__oc_1__row__oc_52__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">6th April 2010</p>
+									</td>
+									<td akn:GUID="_81dd472e-f8b2-445a-8fc3-d98cdac42ae0" akn:eId="backCover__comHist__tbl__oc_1__row__oc_52__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/816</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_aa44311f-02ad-4f4c-bb55-bef6062f082b" akn:eId="backCover__comHist__tbl__oc_1__row__oc_53">
+									<td akn:GUID="_441b3b9b-fcd6-4110-bad6-cd8713aec8be" akn:eId="backCover__comHist__tbl__oc_1__row__oc_53__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 85 (fully in force)</p>
+									</td>
+									<td akn:GUID="_f228d8fe-18d3-49bc-b609-86421e311170" akn:eId="backCover__comHist__tbl__oc_1__row__oc_53__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">18th April 2011</p>
+									</td>
+									<td akn:GUID="_1a8db28e-5966-4988-a2f7-3961cbd64746" akn:eId="backCover__comHist__tbl__oc_1__row__oc_53__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.R. 2011 No. 182</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_71e55533-f146-4cda-b6b2-77506415d834" akn:eId="backCover__comHist__tbl__oc_1__row__oc_54">
+									<td akn:GUID="_1df58013-fc28-4cde-b492-df9f368fd241" akn:eId="backCover__comHist__tbl__oc_1__row__oc_54__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Sections 98 to 103</p>
+									</td>
+									<td akn:GUID="_3f632d41-8015-4be6-900e-9219cbf0cc9a" akn:eId="backCover__comHist__tbl__oc_1__row__oc_54__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">27th June 2011</p>
+									</td>
+									<td akn:GUID="_7950330c-cb30-465a-bcb8-c43ae56f990d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_54__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2011/1452</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_370818af-5fe1-462b-972e-78cdae9062a2" akn:eId="backCover__comHist__tbl__oc_1__row__oc_55">
+									<td akn:GUID="_293dc8b7-2eeb-4b2a-bdd8-77693efeb834" akn:eId="backCover__comHist__tbl__oc_1__row__oc_55__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 105</p>
+									</td>
+									<td akn:GUID="_94d3663b-895c-4aa0-8888-3b90883e9f69" akn:eId="backCover__comHist__tbl__oc_1__row__oc_55__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">27th June 2011</p>
+									</td>
+									<td akn:GUID="_999f0c56-6203-4179-b0a7-c7e93fcefade" akn:eId="backCover__comHist__tbl__oc_1__row__oc_55__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2011/1452</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_2ac1da29-2c5c-4dd9-bd27-c678fc3b79cf" akn:eId="backCover__comHist__tbl__oc_1__row__oc_56">
+									<td akn:GUID="_9113ff0a-75ee-4452-bc26-72a34f6f7185" akn:eId="backCover__comHist__tbl__oc_1__row__oc_56__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 106 (partially)</p>
+									</td>
+									<td akn:GUID="_f0628040-14ee-42f5-a981-2f5c640f0448" akn:eId="backCover__comHist__tbl__oc_1__row__oc_56__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">14th December 2009</p>
+									</td>
+									<td akn:GUID="_f55ef7bd-9d71-4dc4-a515-6711598bba33" akn:eId="backCover__comHist__tbl__oc_1__row__oc_56__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2009/3253</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_c17d2ee8-9985-448c-8e34-c71e0a828fd8" akn:eId="backCover__comHist__tbl__oc_1__row__oc_57">
+									<td akn:GUID="_03f9036b-4155-4f22-a760-ec43972666bd" akn:eId="backCover__comHist__tbl__oc_1__row__oc_57__col_1">
+										
+									</td>
+									<td akn:GUID="_1e2af391-0d94-41dd-952c-8d3517fdee54" akn:eId="backCover__comHist__tbl__oc_1__row__oc_57__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">3rd October 2011</p>
+									</td>
+									<td akn:GUID="_9fa1bf57-3230-4df4-98b3-77ad1b87091b" akn:eId="backCover__comHist__tbl__oc_1__row__oc_57__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2011/2148</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_24902ace-5bd7-43fc-8c4c-d24b945175a7" akn:eId="backCover__comHist__tbl__oc_1__row__oc_58">
+									<td akn:GUID="_1d05f9ad-eccb-4552-b77f-5c5d21078b6a" akn:eId="backCover__comHist__tbl__oc_1__row__oc_58__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 106 (fully in force)</p>
+									</td>
+									<td akn:GUID="_25f74ab2-d260-446e-bda9-43ea6fcd3c17" akn:eId="backCover__comHist__tbl__oc_1__row__oc_58__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">8th October 2012</p>
+									</td>
+									<td akn:GUID="_57d067cc-301d-439e-bbaf-db17c6935f83" akn:eId="backCover__comHist__tbl__oc_1__row__oc_58__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2012/2374</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_fab23d4d-6257-489e-8930-06c87434940d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_59">
+									<td akn:GUID="_b73c783c-97ad-4b3d-91b2-95c807037873" akn:eId="backCover__comHist__tbl__oc_1__row__oc_59__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 107 (partially)</p>
+									</td>
+									<td akn:GUID="_65ea1c6b-2b46-447c-a75e-0d12fd3e566c" akn:eId="backCover__comHist__tbl__oc_1__row__oc_59__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">14th December 2009</p>
+									</td>
+									<td akn:GUID="_bbaad914-f02d-4efa-b68c-70cb4f0882c3" akn:eId="backCover__comHist__tbl__oc_1__row__oc_59__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2009/3253</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_34787b44-d1c0-4a13-abec-32dd2fa79a92" akn:eId="backCover__comHist__tbl__oc_1__row__oc_60">
+									<td akn:GUID="_e8d74cf6-b762-41ff-9ff4-833d03ef7e72" akn:eId="backCover__comHist__tbl__oc_1__row__oc_60__col_1">
+										
+									</td>
+									<td akn:GUID="_e7fc56c4-45d7-4e4a-8e7a-5b2b0c7fe212" akn:eId="backCover__comHist__tbl__oc_1__row__oc_60__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">3rd October 2011</p>
+									</td>
+									<td akn:GUID="_25b98907-0579-494e-ada7-249e0c390713" akn:eId="backCover__comHist__tbl__oc_1__row__oc_60__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2011/2148</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_7b81b242-3bf4-4db6-8fb9-26fb9628a231" akn:eId="backCover__comHist__tbl__oc_1__row__oc_61">
+									<td akn:GUID="_5dac1498-e36d-4882-9642-dc099c66de15" akn:eId="backCover__comHist__tbl__oc_1__row__oc_61__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 107 (fully in force)</p>
+									</td>
+									<td akn:GUID="_3b1196f5-c5f6-432b-a7a4-f4c4b3418fd5" akn:eId="backCover__comHist__tbl__oc_1__row__oc_61__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">8th October 2012</p>
+									</td>
+									<td akn:GUID="_d52a7af3-3b54-4838-9eba-2451e41344eb" akn:eId="backCover__comHist__tbl__oc_1__row__oc_61__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2012/2374</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_0246ed66-93b6-4416-b8c7-023a279c9856" akn:eId="backCover__comHist__tbl__oc_1__row__oc_62">
+									<td akn:GUID="_ab5e88c0-8d0c-4d44-b466-b28318b3177a" akn:eId="backCover__comHist__tbl__oc_1__row__oc_62__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 108 (partially)</p>
+									</td>
+									<td akn:GUID="_d2d07cff-298b-4f18-8728-e7a4a41ffd86" akn:eId="backCover__comHist__tbl__oc_1__row__oc_62__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">14th December 2009</p>
+									</td>
+									<td akn:GUID="_ed4aecb5-4b28-4ff7-af96-c73632fc9354" akn:eId="backCover__comHist__tbl__oc_1__row__oc_62__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2009/3253</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_f2e1be1d-3add-48c2-a05a-65a10f7c7228" akn:eId="backCover__comHist__tbl__oc_1__row__oc_63">
+									<td akn:GUID="_b7a9a957-1fa6-433b-9ae4-0a4fa82b96dd" akn:eId="backCover__comHist__tbl__oc_1__row__oc_63__col_1">
+										
+									</td>
+									<td akn:GUID="_7b343aee-7bf9-44ab-8839-f73ef02f909d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_63__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">3rd October 2011</p>
+									</td>
+									<td akn:GUID="_a5c94b35-40d4-4fa7-8ac4-4634de4e0741" akn:eId="backCover__comHist__tbl__oc_1__row__oc_63__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2011/2148</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_81018ffb-bc2d-4662-a110-2b73566d16bd" akn:eId="backCover__comHist__tbl__oc_1__row__oc_64">
+									<td akn:GUID="_032f8b75-447a-4e08-a28d-865c72cf0c63" akn:eId="backCover__comHist__tbl__oc_1__row__oc_64__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 108 (fully in force)</p>
+									</td>
+									<td akn:GUID="_dc2e2c26-4bf5-4ee3-87d7-1e31804eeb37" akn:eId="backCover__comHist__tbl__oc_1__row__oc_64__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">8th October 2012</p>
+									</td>
+									<td akn:GUID="_8817579d-86d1-4aac-8503-6d0707c5f16f" akn:eId="backCover__comHist__tbl__oc_1__row__oc_64__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2012/2374</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_11a20a81-2a53-429d-9209-0cdeda1c3610" akn:eId="backCover__comHist__tbl__oc_1__row__oc_65">
+									<td akn:GUID="_50e9601c-b762-4159-9e5c-e9c83e7c86b2" akn:eId="backCover__comHist__tbl__oc_1__row__oc_65__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Sections 109 and 110</p>
+									</td>
+									<td akn:GUID="_555f3e2e-d8be-40af-be0a-3db6dc60b55d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_65__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">14th December 2009</p>
+									</td>
+									<td akn:GUID="_de508d48-5998-4352-ba99-d50e99ff51c7" akn:eId="backCover__comHist__tbl__oc_1__row__oc_65__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2009/3253</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_19fd35c9-697b-472c-888c-180b92ce8fd5" akn:eId="backCover__comHist__tbl__oc_1__row__oc_66">
+									<td akn:GUID="_a0af16e8-d644-425e-9b41-13f0fb1dc9fd" akn:eId="backCover__comHist__tbl__oc_1__row__oc_66__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 111</p>
+									</td>
+									<td akn:GUID="_de0732da-f113-4426-b4ae-2f7f20ca4d35" akn:eId="backCover__comHist__tbl__oc_1__row__oc_66__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">27th June 2011</p>
+									</td>
+									<td akn:GUID="_65bc29df-abaa-4fc9-a326-8ccb71f03247" akn:eId="backCover__comHist__tbl__oc_1__row__oc_66__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2011/1452</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_be48cd8a-4367-4541-9339-db41e9cd9ef8" akn:eId="backCover__comHist__tbl__oc_1__row__oc_67">
+									<td akn:GUID="_eb023b05-4ab8-4ffd-9b4f-f0c87516d1fa" akn:eId="backCover__comHist__tbl__oc_1__row__oc_67__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 112</p>
+									</td>
+									<td akn:GUID="_ba1a7eae-380c-4cd8-bab0-15986b2fb64e" akn:eId="backCover__comHist__tbl__oc_1__row__oc_67__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st February 2010</p>
+									</td>
+									<td akn:GUID="_14a49b71-2fc8-466a-b331-23a9ffc9c28c" akn:eId="backCover__comHist__tbl__oc_1__row__oc_67__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/145</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_568fcda2-584a-49c1-8fb0-3e3024a8b5d4" akn:eId="backCover__comHist__tbl__oc_1__row__oc_68">
+									<td akn:GUID="_b9d2c012-72fe-4482-b90b-214faf01e3bb" akn:eId="backCover__comHist__tbl__oc_1__row__oc_68__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 113</p>
+									</td>
+									<td akn:GUID="_bc75def3-5952-4694-a20d-12f54e9c0237" akn:eId="backCover__comHist__tbl__oc_1__row__oc_68__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">6th April 2010</p>
+									</td>
+									<td akn:GUID="_1acacc22-3c92-4784-b8df-afb190e52d91" akn:eId="backCover__comHist__tbl__oc_1__row__oc_68__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/816</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_442707b3-8a70-4074-803b-1a9f02ec7844" akn:eId="backCover__comHist__tbl__oc_1__row__oc_69">
+									<td akn:GUID="_58a746f7-8780-4898-b2ee-538fd1b5e6b3" akn:eId="backCover__comHist__tbl__oc_1__row__oc_69__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Sections 114 and 115</p>
+									</td>
+									<td akn:GUID="_11d88103-c1e3-4736-b78b-a52a9ffce13f" akn:eId="backCover__comHist__tbl__oc_1__row__oc_69__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st February 2010</p>
+									</td>
+									<td akn:GUID="_20bd3e61-27d6-4d1e-8e06-07848be01090" akn:eId="backCover__comHist__tbl__oc_1__row__oc_69__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/145</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_00dd8d18-73b2-4051-aec2-e3689e9ba61b" akn:eId="backCover__comHist__tbl__oc_1__row__oc_70">
+									<td akn:GUID="_ad51930e-b3ac-4c53-87c5-5b79b729ef3c" akn:eId="backCover__comHist__tbl__oc_1__row__oc_70__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 117 (partially)</p>
+									</td>
+									<td akn:GUID="_ad8bcab7-ea55-47e7-a084-acb009f4f3f8" akn:eId="backCover__comHist__tbl__oc_1__row__oc_70__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">7th August 2012</p>
+									</td>
+									<td akn:GUID="_6e304013-7e6c-4e19-bb09-7584178a7a6e" akn:eId="backCover__comHist__tbl__oc_1__row__oc_70__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2012/1810</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_d158a711-3cb7-4138-8827-210034aea48f" akn:eId="backCover__comHist__tbl__oc_1__row__oc_71">
+									<td akn:GUID="_c1c69333-ca91-47da-a8ea-5eaab7b9fcce" akn:eId="backCover__comHist__tbl__oc_1__row__oc_71__col_1">
+										
+									</td>
+									<td akn:GUID="_ab031397-204a-4e85-8549-981bfe844fc3" akn:eId="backCover__comHist__tbl__oc_1__row__oc_71__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">22nd April 2013</p>
+									</td>
+									<td akn:GUID="_0579f558-002f-4b62-b989-c1fd97d85dfd" akn:eId="backCover__comHist__tbl__oc_1__row__oc_71__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2013/705</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_55c78d47-fcc6-47d5-a8cb-b2cb3f890ad9" akn:eId="backCover__comHist__tbl__oc_1__row__oc_72">
+									<td akn:GUID="_61ab89f0-d11d-4f44-949b-49ec823da8f6" akn:eId="backCover__comHist__tbl__oc_1__row__oc_72__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 118 (partially)</p>
+									</td>
+									<td akn:GUID="_3b19dd2b-0553-463f-b5f1-2e353117c71d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_72__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st February 2010</p>
+									</td>
+									<td akn:GUID="_24db184a-50a0-4cd4-a2af-967924e268be" akn:eId="backCover__comHist__tbl__oc_1__row__oc_72__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/145</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_e7e2ed4e-68c0-4d39-8cfc-e9573e066fe9" akn:eId="backCover__comHist__tbl__oc_1__row__oc_73">
+									<td akn:GUID="_e1cf36d9-cc78-47e5-aa20-3beb0155e72f" akn:eId="backCover__comHist__tbl__oc_1__row__oc_73__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 118 (fully in force)</p>
+									</td>
+									<td akn:GUID="_0ebcbe74-6c8e-455a-aed4-dfc22b07fbd7" akn:eId="backCover__comHist__tbl__oc_1__row__oc_73__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">6th April 2010</p>
+									</td>
+									<td akn:GUID="_efbcd4f8-6ddc-405b-a6b0-9be2bf93e2d9" akn:eId="backCover__comHist__tbl__oc_1__row__oc_73__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/816</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_21691a9d-3462-4a84-9859-9772dd0fe750" akn:eId="backCover__comHist__tbl__oc_1__row__oc_74">
+									<td akn:GUID="_2ab35e69-55fa-48fa-a885-f8cedf5f4f7c" akn:eId="backCover__comHist__tbl__oc_1__row__oc_74__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Sections 119 to 136</p>
+									</td>
+									<td akn:GUID="_c32c44b7-d8ad-4a97-919f-df49620b3f6c" akn:eId="backCover__comHist__tbl__oc_1__row__oc_74__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">6th April 2010</p>
+									</td>
+									<td akn:GUID="_a7185b0e-053e-45ae-968b-738bdb2bf5f1" akn:eId="backCover__comHist__tbl__oc_1__row__oc_74__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/816</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_c1ba5732-c4a8-4572-8991-3d199831f157" akn:eId="backCover__comHist__tbl__oc_1__row__oc_75">
+									<td akn:GUID="_ebe7a56d-27b1-4ea4-9579-d1ef39736fa4" akn:eId="backCover__comHist__tbl__oc_1__row__oc_75__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 137</p>
+									</td>
+									<td akn:GUID="_002c54c4-68ea-4623-8cd0-bb73d4524f13" akn:eId="backCover__comHist__tbl__oc_1__row__oc_75__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">13th April 2015</p>
+									</td>
+									<td akn:GUID="_e96ac5be-6dba-4844-ab36-9e8f2c9f04d2" akn:eId="backCover__comHist__tbl__oc_1__row__oc_75__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2015/819</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_0e9b1941-ca44-463b-98b3-bf8c81510656" akn:eId="backCover__comHist__tbl__oc_1__row__oc_76">
+									<td akn:GUID="_5bbc0ca5-2146-4300-8038-c573811667e9" akn:eId="backCover__comHist__tbl__oc_1__row__oc_76__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 139</p>
+									</td>
+									<td akn:GUID="_9d8328cc-3eb1-4ec2-8a88-ec8d868ba6fa" akn:eId="backCover__comHist__tbl__oc_1__row__oc_76__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">12th January 2010</p>
+									</td>
+									<td akn:GUID="_410b8aa0-f127-4596-a6fb-ce19997f3d9e" akn:eId="backCover__comHist__tbl__oc_1__row__oc_76__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/28</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_ef6d1cb1-8486-4c9c-a769-d99cab609fac" akn:eId="backCover__comHist__tbl__oc_1__row__oc_77">
+									<td akn:GUID="_990deb46-d813-4873-bb9a-b1723491767d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_77__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Sections 140 and 141</p>
+									</td>
+									<td akn:GUID="_8d5bd9c1-1279-4186-92c9-e96d1b53cdb9" akn:eId="backCover__comHist__tbl__oc_1__row__oc_77__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st February 2010</p>
+									</td>
+									<td akn:GUID="_e576d05c-1654-45d2-85e8-c556bbf87fee" akn:eId="backCover__comHist__tbl__oc_1__row__oc_77__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/145</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_ad2d445d-fe19-46c6-821f-2f303ce9559f" akn:eId="backCover__comHist__tbl__oc_1__row__oc_78">
+									<td akn:GUID="_70494627-e270-41dc-9c88-81a4240fa2b5" akn:eId="backCover__comHist__tbl__oc_1__row__oc_78__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 142</p>
+									</td>
+									<td akn:GUID="_67f89f3b-7214-43f8-bd07-5ed770e8202a" akn:eId="backCover__comHist__tbl__oc_1__row__oc_78__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">31st January 2010</p>
+									</td>
+									<td akn:GUID="_2f9dd082-f9a9-41fe-9286-6724d1306698" akn:eId="backCover__comHist__tbl__oc_1__row__oc_78__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/145</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_92672616-2666-4fd1-b44a-a523924cb13c" akn:eId="backCover__comHist__tbl__oc_1__row__oc_79">
+									<td akn:GUID="_f703e019-3983-4941-ba7c-af9b06ca4cba" akn:eId="backCover__comHist__tbl__oc_1__row__oc_79__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 144 (partially)</p>
+									</td>
+									<td akn:GUID="_e5396b15-4b57-4798-9f7c-e9468b048168" akn:eId="backCover__comHist__tbl__oc_1__row__oc_79__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">15th August 2010</p>
+									</td>
+									<td akn:GUID="_bccc25f1-1c81-4182-a8c0-47e14acbb44c" akn:eId="backCover__comHist__tbl__oc_1__row__oc_79__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/1858</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_6acf9d90-faaf-43ce-8796-4a341c5db74d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_80">
+									<td akn:GUID="_cd87d44d-eb41-48f4-873e-e438a1b84034" akn:eId="backCover__comHist__tbl__oc_1__row__oc_80__col_1">
+										
+									</td>
+									<td akn:GUID="_46d42f47-a2cd-4a57-9053-9a6baa8faea6" akn:eId="backCover__comHist__tbl__oc_1__row__oc_80__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">18th April 2011</p>
+									</td>
+									<td akn:GUID="_d04077a0-ed77-45b9-abec-68b22ccbab1f" akn:eId="backCover__comHist__tbl__oc_1__row__oc_80__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.R. 2011 No. 182</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_5260395b-36ca-45f4-a9e4-812e2a7b7ced" akn:eId="backCover__comHist__tbl__oc_1__row__oc_81">
+									<td akn:GUID="_b5583fe1-b178-42ea-8032-c2767602ac1b" akn:eId="backCover__comHist__tbl__oc_1__row__oc_81__col_1">
+										
+									</td>
+									<td akn:GUID="_ba0db6b7-1144-4de9-b296-48a065469c02" akn:eId="backCover__comHist__tbl__oc_1__row__oc_81__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">28th May 2013</p>
+									</td>
+									<td akn:GUID="_0c4b81a1-7c83-45e7-b363-dac89a893731" akn:eId="backCover__comHist__tbl__oc_1__row__oc_81__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2013/1104</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_bcbf26a5-cd2c-4613-b1cb-c13828967370" akn:eId="backCover__comHist__tbl__oc_1__row__oc_82">
+									<td akn:GUID="_64aa640a-9c18-4828-8a5b-fffdc6a0bff6" akn:eId="backCover__comHist__tbl__oc_1__row__oc_82__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 145</p>
+									</td>
+									<td akn:GUID="_200498ba-102d-4a73-bf71-9161448388ab" akn:eId="backCover__comHist__tbl__oc_1__row__oc_82__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2nd August 2010</p>
+									</td>
+									<td akn:GUID="_74195936-2975-4694-b656-b68665a7a53d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_82__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/1858</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_6275867b-2f64-4e3e-9261-2437a2c38d39" akn:eId="backCover__comHist__tbl__oc_1__row__oc_83">
+									<td akn:GUID="_61363584-ed34-45b8-86be-ff0fb1736ec5" akn:eId="backCover__comHist__tbl__oc_1__row__oc_83__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Sections 146 and 147</p>
+									</td>
+									<td akn:GUID="_96bbb97d-3b3f-40d2-a607-6a7f42cd02ac" akn:eId="backCover__comHist__tbl__oc_1__row__oc_83__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">6th April 2010</p>
+									</td>
+									<td akn:GUID="_6e95944a-fe2f-4892-bb48-c93346e01a46" akn:eId="backCover__comHist__tbl__oc_1__row__oc_83__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/816</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_fa8f84df-e6e6-4f79-8575-617caf300604" akn:eId="backCover__comHist__tbl__oc_1__row__oc_84">
+									<td akn:GUID="_244ce188-9ddf-4e65-8945-b409e4c61d69" akn:eId="backCover__comHist__tbl__oc_1__row__oc_84__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 148</p>
+									</td>
+									<td akn:GUID="_196aa1e9-230a-4faa-b823-dbff86a1e3b7" akn:eId="backCover__comHist__tbl__oc_1__row__oc_84__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">18th November 2013</p>
+									</td>
+									<td akn:GUID="_95b2e3d3-a279-40d5-9f81-0ec3d6746001" akn:eId="backCover__comHist__tbl__oc_1__row__oc_84__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2013/2908</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_b7fd8f5e-e91e-4706-9c15-1d21ae232a2d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_85">
+									<td akn:GUID="_d136c98f-83f2-4450-9f4b-d71962bf80ca" akn:eId="backCover__comHist__tbl__oc_1__row__oc_85__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Sections 149 and 150</p>
+									</td>
+									<td akn:GUID="_ca3cd252-b246-4ecc-bd91-6cd9647aa8e9" akn:eId="backCover__comHist__tbl__oc_1__row__oc_85__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st February 2010</p>
+									</td>
+									<td akn:GUID="_a2ba58ed-d902-4b04-9d25-fd3a95c746d0" akn:eId="backCover__comHist__tbl__oc_1__row__oc_85__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/145</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_f01e4a4d-4b2b-48c1-bf60-da40b2406ef5" akn:eId="backCover__comHist__tbl__oc_1__row__oc_86">
+									<td akn:GUID="_7f576725-6436-42a8-965c-f6deaa4a8b95" akn:eId="backCover__comHist__tbl__oc_1__row__oc_86__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 153</p>
+									</td>
+									<td akn:GUID="_193e94e9-8de3-461a-a627-326e9dc0f179" akn:eId="backCover__comHist__tbl__oc_1__row__oc_86__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st February 2010</p>
+									</td>
+									<td akn:GUID="_a4395c64-d301-475d-87f0-13e4db182c82" akn:eId="backCover__comHist__tbl__oc_1__row__oc_86__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/145</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_749df880-4963-48ec-8eb8-0e919067988e" akn:eId="backCover__comHist__tbl__oc_1__row__oc_87">
+									<td akn:GUID="_f40b1fc6-79a1-467a-9c01-c393bf0b4233" akn:eId="backCover__comHist__tbl__oc_1__row__oc_87__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Sections 155 to 172</p>
+									</td>
+									<td akn:GUID="_ce072283-eab1-4f95-a390-94c5ea716979" akn:eId="backCover__comHist__tbl__oc_1__row__oc_87__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">6th April 2010</p>
+									</td>
+									<td akn:GUID="_1557f9bf-a7d2-4f1d-97ab-8da453355b43" akn:eId="backCover__comHist__tbl__oc_1__row__oc_87__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/816</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_24bbfead-cf6f-40e2-9e4e-4493892b62f6" akn:eId="backCover__comHist__tbl__oc_1__row__oc_88">
+									<td akn:GUID="_45f8d35e-9a6a-4d3c-9891-3e42a9568d84" akn:eId="backCover__comHist__tbl__oc_1__row__oc_88__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 173 (partially)</p>
+									</td>
+									<td akn:GUID="_ef524bfe-e9b9-4a6b-9cc6-86fd4890e667" akn:eId="backCover__comHist__tbl__oc_1__row__oc_88__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st February 2010</p>
+									</td>
+									<td akn:GUID="_1667b52d-cf07-4b49-9074-dd18096c0aad" akn:eId="backCover__comHist__tbl__oc_1__row__oc_88__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/145</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_18df3069-a373-402e-b2a6-6da672b39bbe" akn:eId="backCover__comHist__tbl__oc_1__row__oc_89">
+									<td akn:GUID="_adabeaed-1639-4d42-8665-3fde06558643" akn:eId="backCover__comHist__tbl__oc_1__row__oc_89__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 173 (fully in force)</p>
+									</td>
+									<td akn:GUID="_f33bb29e-bab9-4983-b284-5b1576ad9574" akn:eId="backCover__comHist__tbl__oc_1__row__oc_89__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">6th April 2010</p>
+									</td>
+									<td akn:GUID="_15ca6d15-cf6f-4d2a-b919-6748b0811844" akn:eId="backCover__comHist__tbl__oc_1__row__oc_89__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/816</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_27e44e0e-1283-4c91-8396-86c878e38b69" akn:eId="backCover__comHist__tbl__oc_1__row__oc_90">
+									<td akn:GUID="_96bb036f-d807-4b3d-8ba1-ad86ce1b245a" akn:eId="backCover__comHist__tbl__oc_1__row__oc_90__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 174</p>
+									</td>
+									<td akn:GUID="_b9c85241-a6f1-4f77-93be-54ec2d0f515b" akn:eId="backCover__comHist__tbl__oc_1__row__oc_90__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st February 2010</p>
+									</td>
+									<td akn:GUID="_51b778b1-601c-4339-9ff5-f466d1ebcfdc" akn:eId="backCover__comHist__tbl__oc_1__row__oc_90__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/145</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_807e2ab3-5275-4198-84cb-e552f5307e98" akn:eId="backCover__comHist__tbl__oc_1__row__oc_91">
+									<td akn:GUID="_727283ca-bf45-4640-a678-4526baa2bc5b" akn:eId="backCover__comHist__tbl__oc_1__row__oc_91__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 175 (partially)</p>
+									</td>
+									<td akn:GUID="_1b4eee72-397b-416a-8cf7-58b7b8c8efbe" akn:eId="backCover__comHist__tbl__oc_1__row__oc_91__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st February 2010</p>
+									</td>
+									<td akn:GUID="_515b660a-3489-47e3-ae45-c51da2746d4f" akn:eId="backCover__comHist__tbl__oc_1__row__oc_91__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/145</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_44c2a35b-5a3b-4276-9455-dbad5135fc2f" akn:eId="backCover__comHist__tbl__oc_1__row__oc_92">
+									<td akn:GUID="_08632195-a9f4-45f8-a6d2-48cc133ebede" akn:eId="backCover__comHist__tbl__oc_1__row__oc_92__col_1">
+										
+									</td>
+									<td akn:GUID="_3710a4bd-c474-48b2-9861-f6b382f906b3" akn:eId="backCover__comHist__tbl__oc_1__row__oc_92__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">6th April 2010</p>
+									</td>
+									<td akn:GUID="_425f36c3-7a25-41c8-a65c-fb60fa38d628" akn:eId="backCover__comHist__tbl__oc_1__row__oc_92__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/816</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_852550dc-5514-4c4a-ae40-3369aba23e89" akn:eId="backCover__comHist__tbl__oc_1__row__oc_93">
+									<td akn:GUID="_937b002a-7220-4043-947c-2165e880a7af" akn:eId="backCover__comHist__tbl__oc_1__row__oc_93__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 177 (partially)</p>
+									</td>
+									<td akn:GUID="_fb51493f-0753-4324-be58-05c7e9bd8ac4" akn:eId="backCover__comHist__tbl__oc_1__row__oc_93__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">12th January 2010</p>
+									</td>
+									<td akn:GUID="_03790fff-7dab-4ea4-8697-6e42d6fee6c1" akn:eId="backCover__comHist__tbl__oc_1__row__oc_93__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/28</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_70dc337f-7598-4b57-a45e-85d16accf1e3" akn:eId="backCover__comHist__tbl__oc_1__row__oc_94">
+									<td akn:GUID="_1c21410a-76d0-4352-a0ec-da6cf2ef5148" akn:eId="backCover__comHist__tbl__oc_1__row__oc_94__col_1">
+										
+									</td>
+									<td akn:GUID="_c80e9cef-c34c-4ba9-89fe-08588af8c534" akn:eId="backCover__comHist__tbl__oc_1__row__oc_94__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st February 2010</p>
+									</td>
+									<td akn:GUID="_b9126a07-2017-4777-a084-38ec832ec83d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_94__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/145</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_6ceb4fe4-8c21-45e2-b5c3-1ee39cd50506" akn:eId="backCover__comHist__tbl__oc_1__row__oc_95">
+									<td akn:GUID="_0e36044f-c865-4779-873f-b693415295c5" akn:eId="backCover__comHist__tbl__oc_1__row__oc_95__col_1">
+										
+									</td>
+									<td akn:GUID="_5c0a04a6-92ca-411e-9796-0dcc977dda86" akn:eId="backCover__comHist__tbl__oc_1__row__oc_95__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">6th April 2010</p>
+									</td>
+									<td akn:GUID="_3ae5f475-3bbf-486d-a511-c2ebca021a1f" akn:eId="backCover__comHist__tbl__oc_1__row__oc_95__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/816</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_6115eabf-a566-43ae-ae8e-04b5c98929c7" akn:eId="backCover__comHist__tbl__oc_1__row__oc_96">
+									<td akn:GUID="_ee68502f-f277-4da9-9f27-cdfd1b7cd898" akn:eId="backCover__comHist__tbl__oc_1__row__oc_96__col_1">
+										
+									</td>
+									<td akn:GUID="_68f59af4-306e-4cba-81dc-757a86be8dbc" akn:eId="backCover__comHist__tbl__oc_1__row__oc_96__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">4th October 2010</p>
+									</td>
+									<td akn:GUID="_47c4be73-ffd0-405b-a2fc-881bb7394ca4" akn:eId="backCover__comHist__tbl__oc_1__row__oc_96__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/816</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_530b0846-24b9-44ea-b838-49d97d23c9b5" akn:eId="backCover__comHist__tbl__oc_1__row__oc_97">
+									<td akn:GUID="_c195909a-45f2-46b2-abc8-138f747f967a" akn:eId="backCover__comHist__tbl__oc_1__row__oc_97__col_1">
+										
+									</td>
+									<td akn:GUID="_ee62f87e-2d81-4770-ba65-00093f83d033" akn:eId="backCover__comHist__tbl__oc_1__row__oc_97__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2nd August 2010</p>
+									</td>
+									<td akn:GUID="_0f1465b3-f9aa-4349-974e-d8597a06d688" akn:eId="backCover__comHist__tbl__oc_1__row__oc_97__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/1858</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_e725b7b5-b95d-483b-aa18-4b8ec6c558b7" akn:eId="backCover__comHist__tbl__oc_1__row__oc_98">
+									<td akn:GUID="_efd6d040-4c81-4dec-83c9-1b20750358fa" akn:eId="backCover__comHist__tbl__oc_1__row__oc_98__col_1">
+										
+									</td>
+									<td akn:GUID="_072a6d7a-6b59-47d1-9f88-136688f4732e" akn:eId="backCover__comHist__tbl__oc_1__row__oc_98__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">15th August 2010</p>
+									</td>
+									<td akn:GUID="_0a05c6e3-1c24-4695-92a9-0e0e88706658" akn:eId="backCover__comHist__tbl__oc_1__row__oc_98__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/1858</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_3de0b537-422d-4857-9715-dd02701b9d02" akn:eId="backCover__comHist__tbl__oc_1__row__oc_99">
+									<td akn:GUID="_e815b63d-d93d-4d43-9496-c6505e123a07" akn:eId="backCover__comHist__tbl__oc_1__row__oc_99__col_1">
+										
+									</td>
+									<td akn:GUID="_b2c76294-355d-4946-b5a7-e14f042971f9" akn:eId="backCover__comHist__tbl__oc_1__row__oc_99__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">18th April 2011</p>
+									</td>
+									<td akn:GUID="_00952a0b-5594-4c51-b6e7-f708bf349cc9" akn:eId="backCover__comHist__tbl__oc_1__row__oc_99__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.R. 2011 No. 182</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_f86777f0-3771-4206-8c97-215a48c4756a" akn:eId="backCover__comHist__tbl__oc_1__row__oc_100">
+									<td akn:GUID="_5b838f36-0ec7-4595-bc85-a7acfe4bc665" akn:eId="backCover__comHist__tbl__oc_1__row__oc_100__col_1">
+										
+									</td>
+									<td akn:GUID="_7c57743b-504b-4b56-8507-eb19f3abf3b7" akn:eId="backCover__comHist__tbl__oc_1__row__oc_100__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">27th June 2011</p>
+									</td>
+									<td akn:GUID="_49072b4d-9a75-4e79-8dbe-4835ab9dfca9" akn:eId="backCover__comHist__tbl__oc_1__row__oc_100__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2011/1452</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_32660c9b-dbd7-4ccf-8556-e651e35bbdae" akn:eId="backCover__comHist__tbl__oc_1__row__oc_101">
+									<td akn:GUID="_b177812b-d081-4b2b-9a5d-e8354bb6a77f" akn:eId="backCover__comHist__tbl__oc_1__row__oc_101__col_1">
+										
+									</td>
+									<td akn:GUID="_e32c28e3-6404-46ed-8da7-7744c054e3de" akn:eId="backCover__comHist__tbl__oc_1__row__oc_101__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">25th July 2013</p>
+									</td>
+									<td akn:GUID="_d89317dc-782a-467a-b1cf-8eea42e1fe2a" akn:eId="backCover__comHist__tbl__oc_1__row__oc_101__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2013/1869</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_e81a8fe1-f0c7-4b08-8c85-3ca2c389d547" akn:eId="backCover__comHist__tbl__oc_1__row__oc_102">
+									<td akn:GUID="_23d70e23-955a-45f0-bccf-96f48c4e6c86" akn:eId="backCover__comHist__tbl__oc_1__row__oc_102__col_1">
+										
+									</td>
+									<td akn:GUID="_1b6f8ead-23fc-4a87-bb41-142bef98c835" akn:eId="backCover__comHist__tbl__oc_1__row__oc_102__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">16th July 2018</p>
+									</td>
+									<td akn:GUID="_db21f192-e08e-46da-9f25-37c461562359" akn:eId="backCover__comHist__tbl__oc_1__row__oc_102__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2018/733</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_91bcd7cd-2da3-459d-946a-ab6ff0ae3ccc" akn:eId="backCover__comHist__tbl__oc_1__row__oc_103">
+									<td akn:GUID="_64be5806-bae7-4172-a837-c759b19fdda4" akn:eId="backCover__comHist__tbl__oc_1__row__oc_103__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 178 (partially)</p>
+									</td>
+									<td akn:GUID="_c5922203-f7b0-4f38-aae5-02121607db8e" akn:eId="backCover__comHist__tbl__oc_1__row__oc_103__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">31st January 2010</p>
+									</td>
+									<td akn:GUID="_b6baf4b9-5aad-41a3-b26e-9bc949fd05cc" akn:eId="backCover__comHist__tbl__oc_1__row__oc_103__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/145</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_71de403a-4359-4afb-a8a5-d91074ab57a4" akn:eId="backCover__comHist__tbl__oc_1__row__oc_104">
+									<td akn:GUID="_3c041a33-7f38-4ecc-879c-189803bea7bb" akn:eId="backCover__comHist__tbl__oc_1__row__oc_104__col_1">
+										
+									</td>
+									<td akn:GUID="_ea4c8880-c838-4a78-b170-d962624ae46f" akn:eId="backCover__comHist__tbl__oc_1__row__oc_104__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st February 2010</p>
+									</td>
+									<td akn:GUID="_8a8e15a4-dcfc-4c57-95b6-9199f3d1c4d6" akn:eId="backCover__comHist__tbl__oc_1__row__oc_104__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/145</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_81d728c2-0d36-4c67-b7e3-30bab4bf2081" akn:eId="backCover__comHist__tbl__oc_1__row__oc_105">
+									<td akn:GUID="_69e07359-2169-412a-b838-3ae1771d3f05" akn:eId="backCover__comHist__tbl__oc_1__row__oc_105__col_1">
+										
+									</td>
+									<td akn:GUID="_68aa1049-ad0f-48d7-b1fa-d516243b7be7" akn:eId="backCover__comHist__tbl__oc_1__row__oc_105__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">6th April 2010</p>
+									</td>
+									<td akn:GUID="_4f99551c-d687-48e6-8d70-fc06f39a695c" akn:eId="backCover__comHist__tbl__oc_1__row__oc_105__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/816</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_a08f9a13-29be-414a-aed4-e8fdb773cf24" akn:eId="backCover__comHist__tbl__oc_1__row__oc_106">
+									<td akn:GUID="_00b91309-20f4-4a5f-a966-02437f8b550c" akn:eId="backCover__comHist__tbl__oc_1__row__oc_106__col_1">
+										
+									</td>
+									<td akn:GUID="_0d93db79-5dba-4c36-911d-0acd6cb801f5" akn:eId="backCover__comHist__tbl__oc_1__row__oc_106__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">4th October 2010</p>
+									</td>
+									<td akn:GUID="_e5122b39-2a4a-4b66-9aaa-ede2539bb174" akn:eId="backCover__comHist__tbl__oc_1__row__oc_106__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/816</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_f0ab52cf-78d1-4bfa-bea1-bc34007d8880" akn:eId="backCover__comHist__tbl__oc_1__row__oc_107">
+									<td akn:GUID="_27d6104b-b36b-4305-b701-0c5c5dbb98fd" akn:eId="backCover__comHist__tbl__oc_1__row__oc_107__col_1">
+										
+									</td>
+									<td akn:GUID="_69b2ae98-0b3e-4a6e-9247-6b6be3f0ab4b" akn:eId="backCover__comHist__tbl__oc_1__row__oc_107__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2nd August 2010</p>
+									</td>
+									<td akn:GUID="_1fd3d716-bdb0-422f-a974-13add7e35f99" akn:eId="backCover__comHist__tbl__oc_1__row__oc_107__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/1858</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_cee8b79a-dfaa-438b-9a92-ca2083b454e2" akn:eId="backCover__comHist__tbl__oc_1__row__oc_108">
+									<td akn:GUID="_94c40a22-bba2-43f7-bfea-1d7193fbd589" akn:eId="backCover__comHist__tbl__oc_1__row__oc_108__col_1">
+										
+									</td>
+									<td akn:GUID="_713aec24-1fe3-4b97-9a37-2e5eb36d885f" akn:eId="backCover__comHist__tbl__oc_1__row__oc_108__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">15th August 2010</p>
+									</td>
+									<td akn:GUID="_ff2ed0ca-a2d7-4dde-bb3d-0ade6677062d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_108__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/1858</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_8c0c6063-8e97-49e6-b58c-9b49241b00bd" akn:eId="backCover__comHist__tbl__oc_1__row__oc_109">
+									<td akn:GUID="_0e00b21f-8613-4bd7-8960-416d94d952a5" akn:eId="backCover__comHist__tbl__oc_1__row__oc_109__col_1">
+										
+									</td>
+									<td akn:GUID="_30a9e94f-3fc7-427d-a642-40d38906be17" akn:eId="backCover__comHist__tbl__oc_1__row__oc_109__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st June 2011</p>
+									</td>
+									<td akn:GUID="_3f18821e-b83b-4e63-87c6-ce8d5bd7f868" akn:eId="backCover__comHist__tbl__oc_1__row__oc_109__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.R. 2011 No. 182</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_3325eb90-b4a3-4eb4-8438-026054b4f76b" akn:eId="backCover__comHist__tbl__oc_1__row__oc_110">
+									<td akn:GUID="_6ab2803d-a8b1-4f63-b9f8-3fd77c8eabc6" akn:eId="backCover__comHist__tbl__oc_1__row__oc_110__col_1">
+										
+									</td>
+									<td akn:GUID="_20abcf13-35ff-432d-b468-7bc6ce06a3cd" akn:eId="backCover__comHist__tbl__oc_1__row__oc_110__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">27th June 2011</p>
+									</td>
+									<td akn:GUID="_83f3a466-8150-4e00-a11d-3720d4528d92" akn:eId="backCover__comHist__tbl__oc_1__row__oc_110__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2011/1452</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_157fedbb-ae5c-44b8-ac67-6b0e0f26bfcc" akn:eId="backCover__comHist__tbl__oc_1__row__oc_111">
+									<td akn:GUID="_d462a845-4088-459b-bc94-932cb068b518" akn:eId="backCover__comHist__tbl__oc_1__row__oc_111__col_1">
+										
+									</td>
+									<td akn:GUID="_7b5d3eb7-4cd1-46c4-b830-88dffb77f3e6" akn:eId="backCover__comHist__tbl__oc_1__row__oc_111__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">3rd October 2011</p>
+									</td>
+									<td akn:GUID="_303fddfc-028d-46d7-943a-39318a152fdc" akn:eId="backCover__comHist__tbl__oc_1__row__oc_111__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2011/2148</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_29a17544-e595-4b4d-befc-d053ceafb8f7" akn:eId="backCover__comHist__tbl__oc_1__row__oc_112">
+									<td akn:GUID="_220a1395-6455-4bc9-b72e-6772996ff32f" akn:eId="backCover__comHist__tbl__oc_1__row__oc_112__col_1">
+										
+									</td>
+									<td akn:GUID="_0ba8cc54-5392-4b07-9797-da2e589165b4" akn:eId="backCover__comHist__tbl__oc_1__row__oc_112__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">8th October 2012</p>
+									</td>
+									<td akn:GUID="_b2adf5d7-6296-444d-a3f6-6bc1c531f7b5" akn:eId="backCover__comHist__tbl__oc_1__row__oc_112__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2012/2374</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_793a3bdb-e7e6-4f1d-848d-be0da64e8261" akn:eId="backCover__comHist__tbl__oc_1__row__oc_113">
+									<td akn:GUID="_04f59b50-14c2-4f65-8e1b-c97ab37649fd" akn:eId="backCover__comHist__tbl__oc_1__row__oc_113__col_1">
+										
+									</td>
+									<td akn:GUID="_0cbddb87-d003-48f6-86c3-65c6dc84d0ba" akn:eId="backCover__comHist__tbl__oc_1__row__oc_113__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">12th February 2013</p>
+									</td>
+									<td akn:GUID="_aeea8c20-8679-43c9-ad50-b846f2e5f15f" akn:eId="backCover__comHist__tbl__oc_1__row__oc_113__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2013/250</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_a3eb8177-305c-45a6-9ce4-2ad31de489a5" akn:eId="backCover__comHist__tbl__oc_1__row__oc_114">
+									<td akn:GUID="_0e6154d9-de56-41c3-bd2f-c95b360d7b32" akn:eId="backCover__comHist__tbl__oc_1__row__oc_114__col_1">
+										
+									</td>
+									<td akn:GUID="_cb29e774-973f-425d-b5a2-77366663ce39" akn:eId="backCover__comHist__tbl__oc_1__row__oc_114__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">25th July 2013</p>
+									</td>
+									<td akn:GUID="_9f234308-7533-4899-aa4c-926ccf74f463" akn:eId="backCover__comHist__tbl__oc_1__row__oc_114__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2013/1869</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_bf701319-f4ee-4820-81bc-2deced5b8c42" akn:eId="backCover__comHist__tbl__oc_1__row__oc_115">
+									<td akn:GUID="_49de48e7-205e-438e-9a45-02c398c36f9f" akn:eId="backCover__comHist__tbl__oc_1__row__oc_115__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Section 180</p>
+									</td>
+									<td akn:GUID="_ddc63ebf-895c-4357-b6c5-51747df8e876" akn:eId="backCover__comHist__tbl__oc_1__row__oc_115__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st February 2010</p>
+									</td>
+									<td akn:GUID="_8ab48990-5925-4b87-8eb8-7e757d4b6f21" akn:eId="backCover__comHist__tbl__oc_1__row__oc_115__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/145</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_a7ca9d51-eac6-4271-b568-3bb7f4ce8030" akn:eId="backCover__comHist__tbl__oc_1__row__oc_116">
+									<td akn:GUID="_947b02dd-c5cb-4c32-a334-25ade5aad27e" akn:eId="backCover__comHist__tbl__oc_1__row__oc_116__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Schedules 1 to 3</p>
+									</td>
+									<td akn:GUID="_a0576c5b-adfb-4d9c-a68e-845c986edc9f" akn:eId="backCover__comHist__tbl__oc_1__row__oc_116__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">25th July 2013</p>
+									</td>
+									<td akn:GUID="_2a395681-a267-43d8-8942-a86da98bac34" akn:eId="backCover__comHist__tbl__oc_1__row__oc_116__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2013/1869</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_ecda457a-1147-4b7d-8727-5a081a7ca036" akn:eId="backCover__comHist__tbl__oc_1__row__oc_117">
+									<td akn:GUID="_cf22c6d1-1145-4f70-a472-9e7c5c67a395" akn:eId="backCover__comHist__tbl__oc_1__row__oc_117__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Schedule 5 (partially)</p>
+									</td>
+									<td akn:GUID="_43c290b5-8aff-47cd-b042-9874c6955ffa" akn:eId="backCover__comHist__tbl__oc_1__row__oc_117__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">25th July 2013</p>
+									</td>
+									<td akn:GUID="_47a2eed3-a86c-404b-8263-aa58bc95e268" akn:eId="backCover__comHist__tbl__oc_1__row__oc_117__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2013/1869</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_a3fd156c-69e5-49cd-9e80-27f9df2bb393" akn:eId="backCover__comHist__tbl__oc_1__row__oc_118">
+									<td akn:GUID="_e159165a-d018-4093-aa06-cb234aabad9a" akn:eId="backCover__comHist__tbl__oc_1__row__oc_118__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Schedules 6 and 7</p>
+									</td>
+									<td akn:GUID="_f925fa6e-e02f-46b6-91ff-18f68fb0f076" akn:eId="backCover__comHist__tbl__oc_1__row__oc_118__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">25th July 2013</p>
+									</td>
+									<td akn:GUID="_4bd6fd07-bedc-4577-9ed4-137001c233d3" akn:eId="backCover__comHist__tbl__oc_1__row__oc_118__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2013/1869</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_3a91107c-0af2-4cda-a91b-57f76ec590ba" akn:eId="backCover__comHist__tbl__oc_1__row__oc_119">
+									<td akn:GUID="_08985c86-7097-410f-84c9-2d87739cf3eb" akn:eId="backCover__comHist__tbl__oc_1__row__oc_119__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Schedule 8</p>
+									</td>
+									<td akn:GUID="_e189fd3c-fb1b-41df-b79d-c0cf66278458" akn:eId="backCover__comHist__tbl__oc_1__row__oc_119__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st February 2010</p>
+									</td>
+									<td akn:GUID="_abce4d63-3dda-4fac-821b-aadb2ceb7cec" akn:eId="backCover__comHist__tbl__oc_1__row__oc_119__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/145</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_1c7c09d0-162c-4c58-91d8-b94751860652" akn:eId="backCover__comHist__tbl__oc_1__row__oc_120">
+									<td akn:GUID="_ff3edf9a-d3b1-4e0d-8000-2273a6a937f4" akn:eId="backCover__comHist__tbl__oc_1__row__oc_120__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Schedule 10 (partially)</p>
+									</td>
+									<td akn:GUID="_b8797b4e-788b-4513-b3dd-1da0d9075843" akn:eId="backCover__comHist__tbl__oc_1__row__oc_120__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">25th July 2013</p>
+									</td>
+									<td akn:GUID="_b47b7491-cadb-4bba-ac0a-034c50a10667" akn:eId="backCover__comHist__tbl__oc_1__row__oc_120__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2013/1869</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_0c81aa57-2b47-4e63-a6df-6dc751a3b487" akn:eId="backCover__comHist__tbl__oc_1__row__oc_121">
+									<td akn:GUID="_46c2090c-0184-4057-97d8-242016d33e1e" akn:eId="backCover__comHist__tbl__oc_1__row__oc_121__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Schedule 12</p>
+									</td>
+									<td akn:GUID="_a16d05a2-3725-4c44-8531-e3aaf8bb578c" akn:eId="backCover__comHist__tbl__oc_1__row__oc_121__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st February 2010</p>
+									</td>
+									<td akn:GUID="_940f27e0-a53a-47be-b497-13af06b64864" akn:eId="backCover__comHist__tbl__oc_1__row__oc_121__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/145</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_323d952c-6ba1-4092-97a6-bfd4955ea6ff" akn:eId="backCover__comHist__tbl__oc_1__row__oc_122">
+									<td akn:GUID="_7cca582a-beef-408e-b7d9-02f7dba650ae" akn:eId="backCover__comHist__tbl__oc_1__row__oc_122__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Schedule 13</p>
+									</td>
+									<td akn:GUID="_696c7b97-0633-4a70-ba97-a5d1bf1c3106" akn:eId="backCover__comHist__tbl__oc_1__row__oc_122__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">6th April 2010</p>
+									</td>
+									<td akn:GUID="_7001cbc9-9f1f-41ba-8e37-ac494781ea73" akn:eId="backCover__comHist__tbl__oc_1__row__oc_122__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/816</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_c96f3e0e-45bb-477f-bdb4-dbbdd0488ff8" akn:eId="backCover__comHist__tbl__oc_1__row__oc_123">
+									<td akn:GUID="_9983fcef-7ee4-4dd0-bbce-6a7ec9397667" akn:eId="backCover__comHist__tbl__oc_1__row__oc_123__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Schedule 14</p>
+									</td>
+									<td akn:GUID="_e56e989f-4c36-4d7c-974e-3262f55def7a" akn:eId="backCover__comHist__tbl__oc_1__row__oc_123__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">27th June 2011</p>
+									</td>
+									<td akn:GUID="_a9fa152e-ebcd-4f96-9218-77f569976330" akn:eId="backCover__comHist__tbl__oc_1__row__oc_123__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2011/1452</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_6df4519e-d507-4efd-988e-a35d3d9fecb6" akn:eId="backCover__comHist__tbl__oc_1__row__oc_124">
+									<td akn:GUID="_78827298-00b5-4bbc-a953-3c385b81d536" akn:eId="backCover__comHist__tbl__oc_1__row__oc_124__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Schedule 15 (partially)</p>
+									</td>
+									<td akn:GUID="_1728e48e-f162-49d0-8048-63c99f554268" akn:eId="backCover__comHist__tbl__oc_1__row__oc_124__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st February 2010</p>
+									</td>
+									<td akn:GUID="_7226aa90-d370-4829-b3b1-efd54421ef2b" akn:eId="backCover__comHist__tbl__oc_1__row__oc_124__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/145</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_38788e1d-b66f-4053-9e34-b6f499a53943" akn:eId="backCover__comHist__tbl__oc_1__row__oc_125">
+									<td akn:GUID="_bd72c6d7-383a-410b-acd0-bc0fdddb17f8" akn:eId="backCover__comHist__tbl__oc_1__row__oc_125__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Schedule 15 (fully in force)</p>
+									</td>
+									<td akn:GUID="_a04c22b4-c170-40b0-b830-ba93cb81f320" akn:eId="backCover__comHist__tbl__oc_1__row__oc_125__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">6th April 2010</p>
+									</td>
+									<td akn:GUID="_b8b58e3f-a458-47db-bc4c-be8084e1cabc" akn:eId="backCover__comHist__tbl__oc_1__row__oc_125__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/816</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_0d7e778c-8fc6-4cd7-9fae-9974ee6d1bbb" akn:eId="backCover__comHist__tbl__oc_1__row__oc_126">
+									<td akn:GUID="_33dcadbc-f0c3-4a21-a216-b38d650701e2" akn:eId="backCover__comHist__tbl__oc_1__row__oc_126__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Schedule 16 (partially)</p>
+									</td>
+									<td akn:GUID="_6a9fe9f2-3bf3-499c-b75c-d6158e39933c" akn:eId="backCover__comHist__tbl__oc_1__row__oc_126__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">13th April 2015</p>
+									</td>
+									<td akn:GUID="_ab575ae6-cf34-4dde-bce1-f82bc16b0b53" akn:eId="backCover__comHist__tbl__oc_1__row__oc_126__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2015/819</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_7fc40c5e-d58e-40ef-9416-ad141ed1ab2e" akn:eId="backCover__comHist__tbl__oc_1__row__oc_127">
+									<td akn:GUID="_57fa7fde-ef76-47ad-accc-503651b1cb2d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_127__col_1">
+										
+									</td>
+									<td akn:GUID="_2e0aff3e-abfc-4125-afb3-a42052886d8f" akn:eId="backCover__comHist__tbl__oc_1__row__oc_127__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">16th July 2018</p>
+									</td>
+									<td akn:GUID="_72905b8f-e7c7-4ffe-8bdb-7a19300550f8" akn:eId="backCover__comHist__tbl__oc_1__row__oc_127__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2018/733</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_ffa7124e-ece2-4bd5-8c19-4b72fe78ffac" akn:eId="backCover__comHist__tbl__oc_1__row__oc_128">
+									<td akn:GUID="_18481bd8-8769-434c-afb7-a490ea82729f" akn:eId="backCover__comHist__tbl__oc_1__row__oc_128__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Schedule 17 (partially)</p>
+									</td>
+									<td akn:GUID="_d118daf8-9928-4597-8aae-cc1b80e8ae91" akn:eId="backCover__comHist__tbl__oc_1__row__oc_128__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">15th August 2010</p>
+									</td>
+									<td akn:GUID="_f8b1ad12-1cff-418e-be00-97752a5a70d4" akn:eId="backCover__comHist__tbl__oc_1__row__oc_128__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/1858</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_0a04a54f-9ca7-43a2-9612-d483d6cdefa3" akn:eId="backCover__comHist__tbl__oc_1__row__oc_129">
+									<td akn:GUID="_39494b48-5eff-4beb-a45f-7db79fd5e900" akn:eId="backCover__comHist__tbl__oc_1__row__oc_129__col_1">
+										
+									</td>
+									<td akn:GUID="_6f7b09f8-6f0d-4d0a-a9c9-a0ff841dbcd5" akn:eId="backCover__comHist__tbl__oc_1__row__oc_129__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">18th April 2011</p>
+									</td>
+									<td akn:GUID="_9695053b-7522-46cc-93a1-0bdd2be216eb" akn:eId="backCover__comHist__tbl__oc_1__row__oc_129__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.R. 2011 No. 182</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_da949efa-c8a6-459a-9c95-44c9bfa30c51" akn:eId="backCover__comHist__tbl__oc_1__row__oc_130">
+									<td akn:GUID="_760a2704-b74d-48c1-8bfe-b01bc4a643ef" akn:eId="backCover__comHist__tbl__oc_1__row__oc_130__col_1">
+										
+									</td>
+									<td akn:GUID="_dcb4bf96-a507-431e-ab1d-c9ea4306d0ee" akn:eId="backCover__comHist__tbl__oc_1__row__oc_130__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">28th May 2013</p>
+									</td>
+									<td akn:GUID="_ca3fc13c-197c-4923-a984-913b6f74e194" akn:eId="backCover__comHist__tbl__oc_1__row__oc_130__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2013/1104</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_1d5f3ab8-c914-43a4-a7a7-c99f138cdf0e" akn:eId="backCover__comHist__tbl__oc_1__row__oc_131">
+									<td akn:GUID="_ae1db588-58c0-4086-9c94-285f7f8c8af0" akn:eId="backCover__comHist__tbl__oc_1__row__oc_131__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Schedule 19</p>
+									</td>
+									<td akn:GUID="_b00a96c9-3710-4e0d-8684-9ceb3bd21ff1" akn:eId="backCover__comHist__tbl__oc_1__row__oc_131__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">6th April 2010</p>
+									</td>
+									<td akn:GUID="_4ff63bdd-1263-4091-84c6-abb5c7bd860c" akn:eId="backCover__comHist__tbl__oc_1__row__oc_131__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/816</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_84899585-94bc-4df7-97e2-ad4a49f88b9a" akn:eId="backCover__comHist__tbl__oc_1__row__oc_132">
+									<td akn:GUID="_cbad573f-d228-4711-9db3-22c8b77f87d5" akn:eId="backCover__comHist__tbl__oc_1__row__oc_132__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Schedule 20 (partially)</p>
+									</td>
+									<td akn:GUID="_ac23577d-502e-4398-8f80-050caaf58aac" akn:eId="backCover__comHist__tbl__oc_1__row__oc_132__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st February 2010</p>
+									</td>
+									<td akn:GUID="_cddb735b-ed35-4a0c-86ce-fa27e806c51e" akn:eId="backCover__comHist__tbl__oc_1__row__oc_132__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/145</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_4eb213ef-05d7-4025-8855-758deb77f0d8" akn:eId="backCover__comHist__tbl__oc_1__row__oc_133">
+									<td akn:GUID="_ccd28c16-428e-41b3-92a1-6c8fd67373d9" akn:eId="backCover__comHist__tbl__oc_1__row__oc_133__col_1">
+										
+									</td>
+									<td akn:GUID="_60a8f22d-89bc-4f9f-b1d1-e4ff3116193d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_133__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">6th April 2010</p>
+									</td>
+									<td akn:GUID="_16362d3e-e83a-4754-9eeb-989e668456cc" akn:eId="backCover__comHist__tbl__oc_1__row__oc_133__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/816</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_ec5753ba-be21-41f5-859d-7ab221381c3f" akn:eId="backCover__comHist__tbl__oc_1__row__oc_134">
+									<td akn:GUID="_4a47a37d-3140-4ced-832e-fe026490d431" akn:eId="backCover__comHist__tbl__oc_1__row__oc_134__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Schedule 21 (partially)</p>
+									</td>
+									<td akn:GUID="_84a50de9-430a-4077-bd7f-4fa6ad1d3ae6" akn:eId="backCover__comHist__tbl__oc_1__row__oc_134__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st February 2010</p>
+									</td>
+									<td akn:GUID="_2c0bbf3b-43cc-4dc1-8966-91b98e28c7bf" akn:eId="backCover__comHist__tbl__oc_1__row__oc_134__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/145</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_6d196070-925e-4050-be7f-ac793974dd8d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_135">
+									<td akn:GUID="_c7d58cc6-409e-476b-9000-932c3ee5655a" akn:eId="backCover__comHist__tbl__oc_1__row__oc_135__col_1">
+										
+									</td>
+									<td akn:GUID="_db3a0b34-0ae8-432f-995d-23138a50ef1d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_135__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">6th April 2010</p>
+									</td>
+									<td akn:GUID="_afe612f0-1c71-4c7a-8714-0fd8fd6a07ca" akn:eId="backCover__comHist__tbl__oc_1__row__oc_135__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/816</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_fb4dea5e-4362-4bca-b6a9-2237d812cd02" akn:eId="backCover__comHist__tbl__oc_1__row__oc_136">
+									<td akn:GUID="_13642a9c-e96f-4413-97a2-270772e576e9" akn:eId="backCover__comHist__tbl__oc_1__row__oc_136__col_1">
+										
+									</td>
+									<td akn:GUID="_a3e76b23-bae3-4548-8286-377c6e1cf566" akn:eId="backCover__comHist__tbl__oc_1__row__oc_136__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">4th October 2010</p>
+									</td>
+									<td akn:GUID="_6ac14a84-8112-4ce0-83ef-5849ab9cfb95" akn:eId="backCover__comHist__tbl__oc_1__row__oc_136__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/816</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_5055c0ac-2458-4c5c-888d-d3f54aa96fa0" akn:eId="backCover__comHist__tbl__oc_1__row__oc_137">
+									<td akn:GUID="_a5ed652b-e38e-4242-8f7a-4fd30bf691b8" akn:eId="backCover__comHist__tbl__oc_1__row__oc_137__col_1">
+										
+									</td>
+									<td akn:GUID="_cdb7eb5a-cdab-48e3-b22a-980f87ba66e7" akn:eId="backCover__comHist__tbl__oc_1__row__oc_137__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">27th June 2011</p>
+									</td>
+									<td akn:GUID="_d236aa7f-0ee7-41b0-8a37-0513ac6b1884" akn:eId="backCover__comHist__tbl__oc_1__row__oc_137__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2011/1452</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_54e342e3-3ffe-4558-9811-0d106ce7a7fe" akn:eId="backCover__comHist__tbl__oc_1__row__oc_138">
+									<td akn:GUID="_2b7caabc-d0cb-47eb-bcf2-9a6b9c9998d5" akn:eId="backCover__comHist__tbl__oc_1__row__oc_138__col_1">
+										
+									</td>
+									<td akn:GUID="_0f3e5036-e5d6-4a89-a8df-f1bace4e4977" akn:eId="backCover__comHist__tbl__oc_1__row__oc_138__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">25th July 2013</p>
+									</td>
+									<td akn:GUID="_f7773520-49cc-49b1-822a-1687a6efa962" akn:eId="backCover__comHist__tbl__oc_1__row__oc_138__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2013/1869</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_b8846b18-f3bd-4a2c-9a09-bab3b9ef31e7" akn:eId="backCover__comHist__tbl__oc_1__row__oc_139">
+									<td akn:GUID="_09d347b9-0f41-4a2b-b9fd-8cc85c2f7fb3" akn:eId="backCover__comHist__tbl__oc_1__row__oc_139__col_1">
+										
+									</td>
+									<td akn:GUID="_b2d7357a-07ae-4103-a691-1a6a716c2ae5" akn:eId="backCover__comHist__tbl__oc_1__row__oc_139__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">16th July 2018</p>
+									</td>
+									<td akn:GUID="_37261a0b-d990-48f0-b012-30a13d72e51e" akn:eId="backCover__comHist__tbl__oc_1__row__oc_139__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2018/733</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_f251c25f-e5c5-4eac-949f-ba6c8f24c248" akn:eId="backCover__comHist__tbl__oc_1__row__oc_140">
+									<td akn:GUID="_9535290b-e987-4249-b28f-49dd60758918" akn:eId="backCover__comHist__tbl__oc_1__row__oc_140__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Schedule 22 (partially)</p>
+									</td>
+									<td akn:GUID="_8b9eee07-8fa3-4056-9447-7cbca678098f" akn:eId="backCover__comHist__tbl__oc_1__row__oc_140__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">12th January 2010</p>
+									</td>
+									<td akn:GUID="_bdde43d0-7fee-4b66-b7e6-eb1b4aebd81e" akn:eId="backCover__comHist__tbl__oc_1__row__oc_140__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/28</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_2db4b47f-8325-42a2-a24d-51e07ca6aa55" akn:eId="backCover__comHist__tbl__oc_1__row__oc_141">
+									<td akn:GUID="_f21d7bdf-313b-4d1f-9e55-ac86f6620fcf" akn:eId="backCover__comHist__tbl__oc_1__row__oc_141__col_1">
+										
+									</td>
+									<td akn:GUID="_205f8414-f9f2-49e6-a23e-97a27edc519e" akn:eId="backCover__comHist__tbl__oc_1__row__oc_141__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st February 2010</p>
+									</td>
+									<td akn:GUID="_caab8c01-1ff9-4710-9201-01400d7fc2bf" akn:eId="backCover__comHist__tbl__oc_1__row__oc_141__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/145</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_e965c534-3b4b-41d6-bcc0-05cac67f9467" akn:eId="backCover__comHist__tbl__oc_1__row__oc_142">
+									<td akn:GUID="_9cbd91d2-15a9-491c-ac18-13a3c07a2dbf" akn:eId="backCover__comHist__tbl__oc_1__row__oc_142__col_1">
+										
+									</td>
+									<td akn:GUID="_d1db4ef8-2a59-4765-aca0-f3919fa66fa9" akn:eId="backCover__comHist__tbl__oc_1__row__oc_142__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">6th April 2010</p>
+									</td>
+									<td akn:GUID="_5ee2b385-dc7d-4b3c-9798-96e394580e76" akn:eId="backCover__comHist__tbl__oc_1__row__oc_142__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/816</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_412955e2-d764-41cb-9651-f593d4cd0403" akn:eId="backCover__comHist__tbl__oc_1__row__oc_143">
+									<td akn:GUID="_60b90321-6e09-4956-9b99-5ba0c2bf7742" akn:eId="backCover__comHist__tbl__oc_1__row__oc_143__col_1">
+										
+									</td>
+									<td akn:GUID="_e74fb7a7-4d30-40d2-8f05-bcd4dcade415" akn:eId="backCover__comHist__tbl__oc_1__row__oc_143__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2nd August 2010</p>
+									</td>
+									<td akn:GUID="_22132a4a-8545-49af-9b84-eaa3819d3856" akn:eId="backCover__comHist__tbl__oc_1__row__oc_143__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/1858</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_81b976d1-ea02-4256-9b29-e154f2f0b38b" akn:eId="backCover__comHist__tbl__oc_1__row__oc_144">
+									<td akn:GUID="_5f5cd614-ad34-444e-9989-afd3afe652ed" akn:eId="backCover__comHist__tbl__oc_1__row__oc_144__col_1">
+										
+									</td>
+									<td akn:GUID="_2bd00a9f-1d20-4eb6-ba7c-fae1ab976d1d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_144__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">15th August 2010</p>
+									</td>
+									<td akn:GUID="_b4c66e99-f3b1-4371-9d3e-5834f2f2a941" akn:eId="backCover__comHist__tbl__oc_1__row__oc_144__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/1858</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_dfadb51d-a093-49f2-ab32-2fa868e2b7c0" akn:eId="backCover__comHist__tbl__oc_1__row__oc_145">
+									<td akn:GUID="_f77c254a-0b30-4d4f-b10d-026912a68e48" akn:eId="backCover__comHist__tbl__oc_1__row__oc_145__col_1">
+										
+									</td>
+									<td akn:GUID="_6c79b59f-648f-4e64-b538-800002ee733f" akn:eId="backCover__comHist__tbl__oc_1__row__oc_145__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">18th April 2011</p>
+									</td>
+									<td akn:GUID="_3143a4bd-5b2c-4bf6-8c4a-adaeaeb4c3ff" akn:eId="backCover__comHist__tbl__oc_1__row__oc_145__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.R. 2011 No. 182</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_df26d7fa-7a82-4bf1-9270-10180172ac32" akn:eId="backCover__comHist__tbl__oc_1__row__oc_146">
+									<td akn:GUID="_c2ab84e6-bd84-410c-b2a4-33340faf0007" akn:eId="backCover__comHist__tbl__oc_1__row__oc_146__col_1">
+										
+									</td>
+									<td akn:GUID="_721689f6-4d48-437e-a795-7d4713711027" akn:eId="backCover__comHist__tbl__oc_1__row__oc_146__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">27th June 2011</p>
+									</td>
+									<td akn:GUID="_be1eb7fd-1816-490d-8ac1-8cb21f9916d6" akn:eId="backCover__comHist__tbl__oc_1__row__oc_146__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2011/1452</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_78977114-b85f-4562-aa63-4733e2d6ec16" akn:eId="backCover__comHist__tbl__oc_1__row__oc_147">
+									<td akn:GUID="_b43f8f8e-f4e6-4383-81f3-3152588566a1" akn:eId="backCover__comHist__tbl__oc_1__row__oc_147__col_1">
+										
+									</td>
+									<td akn:GUID="_fff1e9e4-b037-4660-8e0d-ba1791f2cfa1" akn:eId="backCover__comHist__tbl__oc_1__row__oc_147__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">13th April 2015</p>
+									</td>
+									<td akn:GUID="_43894a4a-f1df-4f26-921f-ce8530dc3a15" akn:eId="backCover__comHist__tbl__oc_1__row__oc_147__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2015/819</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_cefaf016-4d1a-4534-af25-48c52b7beb13" akn:eId="backCover__comHist__tbl__oc_1__row__oc_148">
+									<td akn:GUID="_8a2fb0a2-cfec-4493-b758-4b3feaa4c834" akn:eId="backCover__comHist__tbl__oc_1__row__oc_148__col_1">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Schedule 23 (partially)</p>
+									</td>
+									<td akn:GUID="_564ef446-1952-4e24-8804-c95bf455e6ab" akn:eId="backCover__comHist__tbl__oc_1__row__oc_148__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">31st January 2010</p>
+									</td>
+									<td akn:GUID="_1769eaa3-fbd5-4ca4-8835-1009273c1409" akn:eId="backCover__comHist__tbl__oc_1__row__oc_148__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/145</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_416a5692-5ab0-4247-ab92-7acd9c026676" akn:eId="backCover__comHist__tbl__oc_1__row__oc_149">
+									<td akn:GUID="_dfa22bb6-fce1-4d67-9f39-57db0ede023a" akn:eId="backCover__comHist__tbl__oc_1__row__oc_149__col_1">
+										
+									</td>
+									<td akn:GUID="_fd581082-e58c-485a-a9c8-93795a92bec8" akn:eId="backCover__comHist__tbl__oc_1__row__oc_149__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st February 2010</p>
+									</td>
+									<td akn:GUID="_d6079d3c-957c-4041-aafd-05ce2f680be7" akn:eId="backCover__comHist__tbl__oc_1__row__oc_149__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/145</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_62472f16-eb1d-4ce5-9a6d-3acbc42f8284" akn:eId="backCover__comHist__tbl__oc_1__row__oc_150">
+									<td akn:GUID="_5f2eab44-2f49-47f6-9fe3-339398f1f917" akn:eId="backCover__comHist__tbl__oc_1__row__oc_150__col_1">
+										
+									</td>
+									<td akn:GUID="_c76283e4-7bd0-4a63-8ed6-616136b94a64" akn:eId="backCover__comHist__tbl__oc_1__row__oc_150__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">6th April 2010</p>
+									</td>
+									<td akn:GUID="_1b665cd5-3c87-4491-89d3-059facd4bd42" akn:eId="backCover__comHist__tbl__oc_1__row__oc_150__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/816</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_97f15d7e-7449-4397-900e-dfde742ebb53" akn:eId="backCover__comHist__tbl__oc_1__row__oc_151">
+									<td akn:GUID="_65eaa01f-2300-4a59-90ec-fdfe37de5410" akn:eId="backCover__comHist__tbl__oc_1__row__oc_151__col_1">
+										
+									</td>
+									<td akn:GUID="_38d389fc-5d60-4779-9bfa-2d99e6e1beb1" akn:eId="backCover__comHist__tbl__oc_1__row__oc_151__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">4th October 2010</p>
+									</td>
+									<td akn:GUID="_b652f2f2-ef7e-487f-8e34-11639db5ccd1" akn:eId="backCover__comHist__tbl__oc_1__row__oc_151__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/816</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_f2588c63-2016-4ff8-a31e-9ec0face45e2" akn:eId="backCover__comHist__tbl__oc_1__row__oc_152">
+									<td akn:GUID="_14669719-2935-40cb-8805-cd17b0b1182a" akn:eId="backCover__comHist__tbl__oc_1__row__oc_152__col_1">
+										
+									</td>
+									<td akn:GUID="_a270127e-0ca6-4386-979f-c62e6487317f" akn:eId="backCover__comHist__tbl__oc_1__row__oc_152__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2nd August 2010</p>
+									</td>
+									<td akn:GUID="_d5d2f867-1414-41c7-9901-c9519beba502" akn:eId="backCover__comHist__tbl__oc_1__row__oc_152__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/1858</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_c6e93702-627f-4c88-99df-c0737beb8fa0" akn:eId="backCover__comHist__tbl__oc_1__row__oc_153">
+									<td akn:GUID="_2c87ed54-8036-4f60-b4dd-923391e26d5c" akn:eId="backCover__comHist__tbl__oc_1__row__oc_153__col_1">
+										
+									</td>
+									<td akn:GUID="_07e418ee-bace-4c98-9e44-6befcf72f0d7" akn:eId="backCover__comHist__tbl__oc_1__row__oc_153__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">15th August 2010</p>
+									</td>
+									<td akn:GUID="_29ee069a-82f9-4c5b-acb3-d93d026d7b2c" akn:eId="backCover__comHist__tbl__oc_1__row__oc_153__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2010/1858</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_b079f04c-a055-43a6-bc94-39a8e2feef04" akn:eId="backCover__comHist__tbl__oc_1__row__oc_154">
+									<td akn:GUID="_e33ecc53-a3c4-498f-b4c0-b95df74f7ca1" akn:eId="backCover__comHist__tbl__oc_1__row__oc_154__col_1">
+										
+									</td>
+									<td akn:GUID="_e5e3e6d7-a74d-4a78-b6f1-111ec0141d8c" akn:eId="backCover__comHist__tbl__oc_1__row__oc_154__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1st June 2011</p>
+									</td>
+									<td akn:GUID="_b11a6dc6-a801-4e5e-ba89-e4d32cb5e3b1" akn:eId="backCover__comHist__tbl__oc_1__row__oc_154__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.R. 2011 No. 182</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_e671e008-90db-44e0-aff3-7505f2d4fd54" akn:eId="backCover__comHist__tbl__oc_1__row__oc_155">
+									<td akn:GUID="_d51979e2-3636-491f-ae31-af204ea1fa19" akn:eId="backCover__comHist__tbl__oc_1__row__oc_155__col_1">
+										
+									</td>
+									<td akn:GUID="_8fd4d971-d15c-4062-b4af-5ebdc0a4e618" akn:eId="backCover__comHist__tbl__oc_1__row__oc_155__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">27th June 2011</p>
+									</td>
+									<td akn:GUID="_ba1b86e2-1741-49cb-83c2-79f51324fd53" akn:eId="backCover__comHist__tbl__oc_1__row__oc_155__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2011/1452</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_ab6f46f1-60fd-43e5-b52e-7189c90c5420" akn:eId="backCover__comHist__tbl__oc_1__row__oc_156">
+									<td akn:GUID="_acb247f2-54b0-496c-84f8-9b02d1daf249" akn:eId="backCover__comHist__tbl__oc_1__row__oc_156__col_1">
+										
+									</td>
+									<td akn:GUID="_af18d973-f5ac-453c-8fcc-d31758fad520" akn:eId="backCover__comHist__tbl__oc_1__row__oc_156__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">3rd October 2011</p>
+									</td>
+									<td akn:GUID="_54117ab6-855f-47e5-af54-667ea8f3e71f" akn:eId="backCover__comHist__tbl__oc_1__row__oc_156__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2011/2148</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_67402250-3647-48c1-a348-6825a3a86bd2" akn:eId="backCover__comHist__tbl__oc_1__row__oc_157">
+									<td akn:GUID="_7dbb722c-70ec-4a87-b677-f97e5fd77119" akn:eId="backCover__comHist__tbl__oc_1__row__oc_157__col_1">
+										
+									</td>
+									<td akn:GUID="_f40f30f7-d7e0-4ec6-b467-8987e6f0db5d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_157__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">8th October 2012</p>
+									</td>
+									<td akn:GUID="_2a2dcee8-c095-48c9-be43-baf9d9084ad6" akn:eId="backCover__comHist__tbl__oc_1__row__oc_157__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2012/2374</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_177e7c59-27c1-43c2-b94d-be7d5a058802" akn:eId="backCover__comHist__tbl__oc_1__row__oc_158">
+									<td akn:GUID="_51bfd1bc-d35b-4615-8c39-574c6503656d" akn:eId="backCover__comHist__tbl__oc_1__row__oc_158__col_1">
+										
+									</td>
+									<td akn:GUID="_612e6313-eb77-404f-b493-1b6fb18dd978" akn:eId="backCover__comHist__tbl__oc_1__row__oc_158__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">12th February 2013</p>
+									</td>
+									<td akn:GUID="_f4474358-22aa-43d2-8845-4db4d4b95562" akn:eId="backCover__comHist__tbl__oc_1__row__oc_158__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2013/250</p>
+									</td>
+								</tr>
+								<tr akn:GUID="_b0ebdd2d-cc69-45ae-878c-dd5dd1f98441" akn:eId="backCover__comHist__tbl__oc_1__row__oc_159">
+									<td akn:GUID="_ac0f4881-0baf-47a7-9e27-f8fbec06c634" akn:eId="backCover__comHist__tbl__oc_1__row__oc_159__col_1">
+										
+									</td>
+									<td akn:GUID="_6a1d274c-64af-4db0-a577-a1dcf33e1daf" akn:eId="backCover__comHist__tbl__oc_1__row__oc_159__col_2">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">25th July 2013</p>
+									</td>
+									<td akn:GUID="_b841f1c9-7309-4aa1-936d-552dd23171f7" akn:eId="backCover__comHist__tbl__oc_1__row__oc_159__col_3">
+										<p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">S.I. 2013/1869</p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</foreign>
+				</tblock>
+			</blockContainer>
+		</conclusions>
+	</act>
+</akomaNtoso>
