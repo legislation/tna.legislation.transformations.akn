@@ -752,7 +752,19 @@
 </xsl:template>
 
 <xsl:template match="level[@class='unnumberedParagraph']">
-	<xsl:apply-templates />
+	<xsl:param name="context" as="xs:string*" tunnel="yes" />
+	<xsl:choose>
+		<xsl:when test="parent::quotedStructure">
+			<P>
+				<xsl:apply-templates>
+					<xsl:with-param name="context" select="('P', $context)" tunnel="yes" />
+				</xsl:apply-templates>
+			</P>
+		</xsl:when>
+		<xsl:otherwise>
+			<xsl:apply-templates />
+		</xsl:otherwise>
+	</xsl:choose>
 </xsl:template>
 
 
