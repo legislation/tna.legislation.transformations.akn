@@ -59,6 +59,11 @@
 	<xsl:apply-templates />
 </xsl:template>
 
+<!-- remove mod elements containing no amendment markup -->
+<xsl:template match="mod[empty(descendant::quotedStructure) and empty(descendant::quotedText)]">
+	<xsl:apply-templates />
+</xsl:template>
+
 <!-- remove page breaks -->
 <xsl:template match="block[@name='pageBreak'][empty(child::node())]" />
 

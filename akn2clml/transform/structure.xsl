@@ -471,6 +471,11 @@
 				<xsl:with-param name="wrapUp" select="wrapUp" />
 			</xsl:call-template>
 		</xsl:when>
+		<xsl:when test="exists(self::section) and (every $child in $children satisfies exists($child/self::subsection)) and (some $child in $children satisfies exists($child/heading)) and not(every $child in $children satisfies exists($child/heading))">
+			<xsl:call-template name="group-subsections">
+				<xsl:with-param name="children" select="$children" />
+			</xsl:call-template>
+		</xsl:when>
 		<xsl:when test="not($context[1] = 'P') and empty($children[self::hcontainer[@name='wrapper1']])">
 			<xsl:variable name="name" as="xs:string">
 				<xsl:choose>
@@ -553,6 +558,37 @@
 			</P>
 		</xsl:otherwise>
 	</xsl:choose>
+</xsl:template>
+
+<xsl:template name="group-subsections">
+	<xsl:param name="children" as="element(subsection)+" />
+	<xsl:param name="context" as="xs:string*" tunnel="yes" />
+	<xsl:apply-templates select="intro[position() lt last()]" />
+	<P1para>
+		<xsl:apply-templates select="intro[last()]">
+			<xsl:with-param name="context" select="('P1para', $context)" tunnel="yes" />
+		</xsl:apply-templates>
+		<xsl:for-each-group select="$children" group-starting-with=".[exists(child::heading)]">
+			<P2group>
+				<xsl:apply-templates select="heading" />
+				<xsl:for-each select="current-group()">
+					<P2>
+						<xsl:call-template name="add-id-if-necessary" />
+						<xsl:apply-templates select="num">
+							<xsl:with-param name="context" select="('P2', 'P2group', $context)" tunnel="yes" />
+						</xsl:apply-templates>
+						<xsl:call-template name="small-level-content">
+							<xsl:with-param name="context" select="('P2', 'P2group', 'P1para', $context)" tunnel="yes" />
+						</xsl:call-template>
+					</P2>
+				</xsl:for-each>
+			</P2group>
+		</xsl:for-each-group>
+		<xsl:apply-templates select="wrapUp[1]">
+			<xsl:with-param name="context" select="('P1para', $context)" tunnel="yes" />
+		</xsl:apply-templates>
+	</P1para>
+	<xsl:apply-templates select="wrapUp[position() gt 1]" />
 </xsl:template>
 
 <xsl:template match="subsection | hcontainer[@name='SIParagraph']" name="P2">	<!-- legacy -->
@@ -752,7 +788,19 @@
 </xsl:template>
 
 <xsl:template match="level[@class='unnumberedParagraph']">
-	<xsl:apply-templates />
+	<xsl:param name="context" as="xs:string*" tunnel="yes" />
+	<xsl:choose>
+		<xsl:when test="parent::quotedStructure">
+			<P>
+				<xsl:apply-templates>
+					<xsl:with-param name="context" select="('P', $context)" tunnel="yes" />
+				</xsl:apply-templates>
+			</P>
+		</xsl:when>
+		<xsl:otherwise>
+			<xsl:apply-templates />
+		</xsl:otherwise>
+	</xsl:choose>
 </xsl:template>
 
 
