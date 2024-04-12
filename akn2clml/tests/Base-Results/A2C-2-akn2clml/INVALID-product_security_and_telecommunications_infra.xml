@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Legislation xmlns="http://www.legislation.gov.uk/namespaces/legislation"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             SchemaVersion="2.0"
+             xsi:schemaLocation="http://www.legislation.gov.uk/namespaces/legislation http://www.legislation.gov.uk/schema/legislation.xsd">
+   <Metadata xmlns="http://www.legislation.gov.uk/namespaces/metadata"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <dc:identifier>http://www.legislation.gov.uk/id/uksi/2023/109</dc:identifier>
+      <dc:title>The Product Security and Telecommunications Infrastructure Act 2022 (Commencement No. 1) Regulations 2023</dc:title>
+      <dc:modified>2024-02-19</dc:modified>
+      <SecondaryMetadata>
+         <DocumentClassification>
+            <DocumentCategory Value="secondary"/>
+            <DocumentMainType Value="UnitedKingdomStatutoryInstrument"/>
+            <DocumentStatus Value="final"/>
+            <DocumentMinorType Value="regulation"/>
+         </DocumentClassification>
+         <Year Value="2023"/>
+         <Number Value="109"/>
+         <AlternativeNumber Category="C" Value="9"/>
+         <Made Date="2023-02-02"/>
+      </SecondaryMetadata>
+   </Metadata>
+   <Secondary>
+      <SecondaryPrelims>
+         <Number>  2023 No. 109 (C. 9)  </Number>
+         <SubjectInformation>
+            <Subject>
+               <Title>TELECOMMUNICATIONS</Title>
+            </Subject>
+         </SubjectInformation>
+         <Title>  The Product Security and Telecommunications Infrastructure Act 2022 (Commencement No. 1) Regulations 2023  </Title>
+         <MadeDate>
+            <Text>Made</Text>
+            <DateText>2nd February 2023</DateText>
+         </MadeDate>
+         <SecondaryPreamble>
+            <EnactingText>
+               <Para>
+                  <Text>The Secretary of State makes these Regulations in exercise of the power conferred by section 79(2) of the Product Security and Telecommunications Infrastructure Act 2022<FootnoteRef Ref="f00001"/>.</Text>
+               </Para>
+            </EnactingText>
+         </SecondaryPreamble>
+      </SecondaryPrelims>
+      <Body>
+         <P1group>
+            <Title>Citation and interpretation</Title>
+            <P1 id="regulation-1">
+               <Pnumber>1</Pnumber>
+               <P1para>
+                  <P2 id="regulation-1-1">
+                     <Pnumber>1</Pnumber>
+                     <P2para>
+                        <Text>These Regulations may be cited as the Product Security and Telecommunications Infrastructure Act 2022 (Commencement No. 1) Regulations 2023.</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="regulation-1-2">
+                     <Pnumber>2</Pnumber>
+                     <P2para>
+                        <Text>In these Regulations “the Act” means the Product Security and Telecommunications Infrastructure Act 2022.</Text>
+                     </P2para>
+                  </P2>
+               </P1para>
+            </P1>
+         </P1group>
+         <P1group>
+            <Title>Provisions coming into force on 7th February 2023</Title>
+            <P1 id="regulation-2">
+               <Pnumber>2</Pnumber>
+               <P1para>
+                  <Text>The following provisions of the Act come into force on 7th February 2023—</Text>
+                  <P3 id="regulation-2-a">
+                     <Pnumber>a</Pnumber>
+                     <P3para>
+                        <Text>section 57 (rights under the electronic communications code to share apparatus);</Text>
+                     </P3para>
+                  </P3>
+                  <P3 id="regulation-2-b">
+                     <Pnumber>b</Pnumber>
+                     <P3para>
+                        <Text>section 60 (power to fly lines from apparatus kept by another operator);</Text>
+                     </P3para>
+                  </P3>
+                  <P3 id="regulation-2-c">
+                     <Pnumber>c</Pnumber>
+                     <P3para>
+                        <Text>section 75 (meaning of “the electronic communications code”).</Text>
+                     </P3para>
+                  </P3>
+               </P1para>
+            </P1>
+         </P1group>
+         <P1group>
+            <Title>Provisions coming into force on 17th April 2023</Title>
+            <P1 id="regulation-3">
+               <Pnumber>3</Pnumber>
+               <P1para>
+                  <Text>The following provisions of the Act come into force on 17th April 2023—</Text>
+                  <P3 id="regulation-3-a">
+                     <Pnumber>a</Pnumber>
+                     <P3para>
+                        <Text>section 58 (upgrading and sharing of apparatus: subsisting agreements);</Text>
+                     </P3para>
+                  </P3>
+                  <P3 id="regulation-3-b">
+                     <Pnumber>b</Pnumber>
+                     <P3para>
+                        <Text>section 59 (upgrading and sharing of apparatus installed before 29 December 2003).</Text>
+                     </P3para>
+                  </P3>
+                  <P id="regulation-3-"/>
+                  <P id="regulation-3-"/>
+                  <P id="regulation-3-"/>
+                  <P id="regulation-3-"/>
+                  <P id="regulation-3-"/>
+                  <P id="regulation-3-"/>
+                  <P id="regulation-3-"/>
+               </P1para>
+            </P1>
+         </P1group>
+         <SignedSection>
+            <Signatory>
+               <Signee>
+                  <PersonName>Julia Lopez</PersonName>
+                  <JobTitle>Minister of State</JobTitle>
+                  <DateSigned Date="2023-02-02">
+                     <DateText>2nd February 2023</DateText>
+                  </DateSigned>
+                  <Department>Department for Digital, Culture, Media and Sport</Department>
+               </Signee>
+            </Signatory>
+         </SignedSection>
+      </Body>
+      <ExplanatoryNotes>
+         <Title>Explanatory Note</Title>
+         <Comment>
+            <Para>
+               <Text>(This note is not part of the Regulations)</Text>
+            </Para>
+         </Comment>
+         <P>
+            <Text>These Regulations bring specified provisions of the Product Security and Telecommunications Infrastructure Act 2022 (c. 46) (“the Act”) into force. Regulation 2 brings into force on 7th February 2023 sections 57, 60 and 75 of the Act. Regulation 3 brings into force on 17th April 2023 sections 58 and 59 of the Act.</Text>
+         </P>
+         <P>
+            <Text>Sections 57 to 60 of the Act insert new provisions into, or otherwise amend, the electronic communications code (the “code”) set out in Schedule 3A to the Communications Act 2003 (c. 21), as modified by Schedule 2 to the Digital Economy Act 2017 (c. 30) for transitional purposes.</Text>
+         </P>
+         <P>
+            <Text>Section 57 of the Act provides for a code right for telecommunications operators to share electronic communications apparatus with other operators and provides for related code rights. Sections 58 and 59 of the Act provide for upgrading and sharing rights in relation to such apparatus. Section 60 of the Act provides for a new power to fly lines from such apparatus kept by another operator and provides for related rights to upgrade, or carry out works to, such apparatus. “Electronic communications apparatus” is defined in paragraph 5(1) of the code.</Text>
+         </P>
+         <P>
+            <Text>Section 75 sets out a definition of the code for the purposes of these provisions of the Act.</Text>
+         </P>
+         <P>
+            <Text>The Explanatory Notes to the Act provide further explanation of the reforms to the code introduced by sections 57 to 60 of the Act and are available online (https://www.legislation.gov.uk/ukpga/2022/46/notes/contents) and in hard copy from TSO, PO Box 29, Norwich, NR3 1GN (telephone orders/general enquiries: 0333 202 5070).</Text>
+         </P>
+         <P>
+            <Text>A full impact assessment has not been produced for this instrument as no, or no significant, impact on the private, voluntary or public sector is foreseen.</Text>
+         </P>
+      </ExplanatoryNotes>
+   </Secondary>
+   <Footnotes>
+      <Footnote id="f00001">
+         <FootnoteText>
+            <Para>
+               <Text>2022 c. 46.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+   </Footnotes>
+</Legislation>

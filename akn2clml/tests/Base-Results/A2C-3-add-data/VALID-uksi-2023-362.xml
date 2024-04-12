@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Legislation xmlns="http://www.legislation.gov.uk/namespaces/legislation"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             SchemaVersion="2.0"
+             xsi:schemaLocation="http://www.legislation.gov.uk/namespaces/legislation http://www.legislation.gov.uk/schema/legislation.xsd">
+   <Metadata xmlns="http://www.legislation.gov.uk/namespaces/metadata"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <dc:identifier>http://www.legislation.gov.uk/id/uksi/2023/362</dc:identifier>
+      <dc:title>The Building Safety Act 2022 (Commencement No. 4 and Transitional Provisions) Regulations 2023</dc:title>
+      <dc:modified>2024-02-19</dc:modified>
+      <SecondaryMetadata>
+         <DocumentClassification>
+            <DocumentCategory Value="secondary"/>
+            <DocumentMainType Value="UnitedKingdomStatutoryInstrument"/>
+            <DocumentStatus Value="final"/>
+            <DocumentMinorType Value="regulation"/>
+         </DocumentClassification>
+         <Year Value="2023"/>
+         <Number Value="362"/>
+         <AlternativeNumber Category="C" Value="15"/>
+         <Made Date="2023-03-23"/>
+      </SecondaryMetadata>
+   </Metadata>
+   <Secondary>
+      <SecondaryPrelims>
+         <Number>  2023 No. 362 (C. 15)  </Number>
+         <SubjectInformation>
+            <Subject>
+               <Title>BUILDING AND BUILDINGS</Title>
+            </Subject>
+         </SubjectInformation>
+         <Title>  The Building Safety Act 2022 (Commencement No. 4 and Transitional Provisions) Regulations 2023  </Title>
+         <MadeDate>
+            <Text>Made</Text>
+            <DateText>23rd March 2023</DateText>
+         </MadeDate>
+         <SecondaryPreamble>
+            <EnactingText>
+               <Para>
+                  <Text>The Secretary of State makes these Regulations in exercise of the powers conferred by section 170(2)(b), (4)(c), (5) and (6) of the Building Safety Act 2022<FootnoteRef Ref="f00001"/>.</Text>
+               </Para>
+            </EnactingText>
+         </SecondaryPreamble>
+      </SecondaryPrelims>
+      <Body>
+         <P1group>
+            <Title>Citation and interpretation</Title>
+            <P1 id="regulation-1">
+               <Pnumber>1</Pnumber>
+               <P1para>
+                  <P2 id="regulation-1-1">
+                     <Pnumber>1</Pnumber>
+                     <P2para>
+                        <Text>These Regulations may be cited as the Building Safety Act 2022 (Commencement No. 4 and Transitional Provisions) Regulations 2023.</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="regulation-1-2">
+                     <Pnumber>2</Pnumber>
+                     <P2para>
+                        <Text>In these Regulations “the 2022 Act” means the Building Safety Act 2022.</Text>
+                     </P2para>
+                  </P2>
+               </P1para>
+            </P1>
+         </P1group>
+         <P1group>
+            <Title>Provisions coming into force on 1st April 2023</Title>
+            <P1 id="regulation-2">
+               <Pnumber>2</Pnumber>
+               <P1para>
+                  <P2 id="regulation-2-1">
+                     <Pnumber>1</Pnumber>
+                     <P2para>
+                        <Text>The following provisions of the 2022 Act come into force on 1st April 2023—</Text>
+                        <P3 id="regulation-2-1-a">
+                           <Pnumber>a</Pnumber>
+                           <P3para>
+                              <Text>section 5 (duty to keep safety and standard of buildings under review);</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-2-1-b">
+                           <Pnumber>b</Pnumber>
+                           <P3para>
+                              <Text>section 6 (facilitating improvement in the competence of industry and building inspectors);</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-2-1-c">
+                           <Pnumber>c</Pnumber>
+                           <P3para>
+                              <Text>section 8 (duty to establish system for giving of building safety information);</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-2-1-d">
+                           <Pnumber>d</Pnumber>
+                           <P3para>
+                              <Text>section 9(3) (abolition of the Building Regulations Advisory Committee for England);</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-2-1-e">
+                           <Pnumber>e</Pnumber>
+                           <P3para>
+                              <Text>section 47 (higher-risk building work: public bodies);</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-2-1-f">
+                           <Pnumber>f</Pnumber>
+                           <P3para>
+                              <Text>section 55 so far as it relates to the paragraphs of Schedule 5 to the 2022 Act (minor and consequential amendments) specified in paragraph (2); and</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-2-1-g">
+                           <Pnumber>g</Pnumber>
+                           <P3para>
+                              <Text>section 133 (service charges in respect of remediation works), for the purpose of making regulations under sections 20ZA(5A), 20D and 20E of the Landlord and Tenant Act 1985<FootnoteRef Ref="f00002"/>.</Text>
+                           </P3para>
+                        </P3>
+                     </P2para>
+                  </P2>
+                  <P2 id="regulation-2-2">
+                     <Pnumber>2</Pnumber>
+                     <P2para>
+                        <Text>The provisions of Schedule 5 referred to in paragraph (1)(f) are—</Text>
+                        <P3 id="regulation-2-2-a">
+                           <Pnumber>a</Pnumber>
+                           <P3para>
+                              <Text>paragraph 17;</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-2-2-b">
+                           <Pnumber>b</Pnumber>
+                           <P3para>
+                              <Text>paragraph 77, for all remaining purposes;</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-2-2-c">
+                           <Pnumber>c</Pnumber>
+                           <P3para>
+                              <Text>paragraph 85;</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-2-2-d">
+                           <Pnumber>d</Pnumber>
+                           <P3para>
+                              <Text>paragraph 87; and</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-2-2-e">
+                           <Pnumber>e</Pnumber>
+                           <P3para>
+                              <Text>paragraph 88.</Text>
+                           </P3para>
+                        </P3>
+                     </P2para>
+                  </P2>
+               </P1para>
+            </P1>
+         </P1group>
+         <P1group>
+            <Title>Provisions coming into force on 6th April 2023</Title>
+            <P1 id="regulation-3">
+               <Pnumber>3</Pnumber>
+               <P1para>
+                  <P2 id="regulation-3-1">
+                     <Pnumber>1</Pnumber>
+                     <P2para>
+                        <Text>The following provisions of the 2022 Act come into force on 6th April 2023—</Text>
+                        <P3 id="regulation-3-1-a">
+                           <Pnumber>a</Pnumber>
+                           <P3para>
+                              <Text>section 12 (committees: power to amend or repeal);</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-3-1-b">
+                           <Pnumber>b</Pnumber>
+                           <P3para>
+                              <Text>section 13 (local authorities and fire and rescue authorities: assistance etc to regulator);</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-3-1-c">
+                           <Pnumber>c</Pnumber>
+                           <P3para>
+                              <Text>section 14 (FSO authorised persons: assistance etc to regulator);</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-3-1-d">
+                           <Pnumber>d</Pnumber>
+                           <P3para>
+                              <Text>section 15 (provision of assistance etc: supplementary);</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-3-1-e">
+                           <Pnumber>e</Pnumber>
+                           <P3para>
+                              <Text>section 16 (guidance about the provision of assistance);</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-3-1-f">
+                           <Pnumber>f</Pnumber>
+                           <P3para>
+                              <Text>section 20 (statement of regulator’s engagement with residents etc);</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-3-1-g">
+                           <Pnumber>g</Pnumber>
+                           <P3para>
+                              <Text>section 22 and Schedule 2 (authorised officers);</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-3-1-h">
+                           <Pnumber>h</Pnumber>
+                           <P3para>
+                              <Text>section 23 (authorised officers: offences);</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-3-1-i">
+                           <Pnumber>i</Pnumber>
+                           <P3para>
+                              <Text>section 24 (providing false or misleading information to regulator);</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-3-1-j">
+                           <Pnumber>j</Pnumber>
+                           <P3para>
+                              <Text>section 25 (review by regulator of certain decisions made by it);</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-3-1-k">
+                           <Pnumber>k</Pnumber>
+                           <P3para>
+                              <Text>section 27 and Schedule 3 (cooperation and information sharing);</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-3-1-l">
+                           <Pnumber>l</Pnumber>
+                           <P3para>
+                              <Text>section 29 (service of documents);</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-3-1-m">
+                           <Pnumber>m</Pnumber>
+                           <P3para>
+                              <Text>section 32 (building control authorities), for the purpose of making regulations under sections 91ZB and 91ZC of the Building Act 1984<FootnoteRef Ref="f00003"/>;</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-3-1-n">
+                           <Pnumber>n</Pnumber>
+                           <P3para>
+                              <Text>sections 33 to 35 (building regulations, dutyholders and competence);</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-3-1-o">
+                           <Pnumber>o</Pnumber>
+                           <P3para>
+                              <Text>section 36 (lapse of building control approval etc), for the purpose of making regulations under sections 32 and 53A of, and paragraph 4A(6) of Schedule 4 to, the Building Act 1984;</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-3-1-p">
+                           <Pnumber>p</Pnumber>
+                           <P3para>
+                              <Text>section 37 (determination of certain applications by appropriate national authority);</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-3-1-q">
+                           <Pnumber>q</Pnumber>
+                           <P3para>
+                              <Text>section 38 (compliance and stop notices), for the purpose of making regulations under sections 35B, 35C and 35D of the Building Act 1984;</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-3-1-r">
+                           <Pnumber>r</Pnumber>
+                           <P3para>
+                              <Text>section 39 (breach of building regulations), for the purpose of making regulations under section 35 of the Building Act 1984;</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-3-1-s">
+                           <Pnumber>s</Pnumber>
+                           <P3para>
+                              <Text>section 42 (regulation of building control profession), for the purpose of making regulations under sections 58C, 58O, 58U, 58V, 58Z4 and 58Z5 of the Building Act 1984;</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-3-1-t">
+                           <Pnumber>t</Pnumber>
+                           <P3para>
+                              <Text>section 44 (functions exercisable only through, or with advice of, registered building inspectors), for the purpose of making regulations under sections 46A and 54B of the Building Act 1984;</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-3-1-u">
+                           <Pnumber>u</Pnumber>
+                           <P3para>
+                              <Text>section 46 (higher-risk building work: registered building control approvers), for the purpose of making regulations under sections 52A and 55 of the Building Act 1984;</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-3-1-v">
+                           <Pnumber>v</Pnumber>
+                           <P3para>
+                              <Text>sections 49 to 53 (plans certificates, cancellation of initial notices etc), for the purpose of making regulations under sections 50, 52, 53, 53B, 53C, 53D, 55, 56A and 56B of, and paragraph 2 of Schedule 4 to, the Building Act 1984;</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-3-1-w">
+                           <Pnumber>w</Pnumber>
+                           <P3para>
+                              <Text>section 55 so far as it relates to the following paragraphs of Schedule 5 to the 2022 Act (minor and consequential amendments)—</Text>
+                              <P4 id="regulation-3-1-w-i">
+                                 <Pnumber>i</Pnumber>
+                                 <P4para>
+                                    <Text>paragraph 40(1), so far as it relates to paragraph 40(3);</Text>
+                                 </P4para>
+                              </P4>
+                              <P4 id="regulation-3-1-w-ii">
+                                 <Pnumber>ii</Pnumber>
+                                 <P4para>
+                                    <Text>paragraph 40(3);</Text>
+                                 </P4para>
+                              </P4>
+                              <P4 id="regulation-3-1-w-iii">
+                                 <Pnumber>iii</Pnumber>
+                                 <P4para>
+                                    <Text>paragraph 42(1), so far as it relates to paragraph 42(3);</Text>
+                                 </P4para>
+                              </P4>
+                              <P4 id="regulation-3-1-w-iv">
+                                 <Pnumber>iv</Pnumber>
+                                 <P4para>
+                                    <Text>paragraph 42(3);</Text>
+                                 </P4para>
+                              </P4>
+                              <P4 id="regulation-3-1-w-v">
+                                 <Pnumber>v</Pnumber>
+                                 <P4para>
+                                    <Text>paragraph 80, for the purpose of making regulations under section 125A of the Building Act 1984;</Text>
+                                 </P4para>
+                              </P4>
+                              <P4 id="regulation-3-1-w-vi">
+                                 <Pnumber>vi</Pnumber>
+                                 <P4para>
+                                    <Text>paragraph 83(1), so far as it relates to paragraph 83(8);</Text>
+                                 </P4para>
+                              </P4>
+                              <P4 id="regulation-3-1-w-vii">
+                                 <Pnumber>vii</Pnumber>
+                                 <P4para>
+                                    <Text>paragraph 83(8);</Text>
+                                 </P4para>
+                              </P4>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-3-1-x">
+                           <Pnumber>x</Pnumber>
+                           <P3para>
+                              <Text>section 56 so far as it relates to paragraph 30 of Schedule 6 to the 2022 Act (appeals), for the purpose of making regulations under section 101A of the Building Act 1984;</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-3-1-y">
+                           <Pnumber>y</Pnumber>
+                           <P3para>
+                              <Text>section 71 (meaning of “occupied” higher-risk building etc);</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-3-1-z">
+                           <Pnumber>z</Pnumber>
+                           <P3para>
+                              <Text>section 72 (meaning of “accountable person”);</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-3-1-z1">
+                           <Pnumber>z1</Pnumber>
+                           <P3para>
+                              <Text>section 73 (meaning “principal accountable person”);</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-3-1-z2">
+                           <Pnumber>z2</Pnumber>
+                           <P3para>
+                              <Text>section 74 (part of building for which an accountable person is responsible);</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-3-1-z3">
+                           <Pnumber>z3</Pnumber>
+                           <P3para>
+                              <Text>section 75 (determinations by the tribunal);</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-3-1-z4">
+                           <Pnumber>z4</Pnumber>
+                           <P3para>
+                              <Text>section 78(1), (3), (4) and (5) (registration of higher-risk buildings);</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-3-1-z5">
+                           <Pnumber>z5</Pnumber>
+                           <P3para>
+                              <Text>section 89 (provision of information etc to the regulator, residents and other persons);</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-3-1-z6">
+                           <Pnumber>z6</Pnumber>
+                           <P3para>
+                              <Text>section 107 (enforcement of decisions of the First-tier and Upper Tribunal);</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-3-1-z7">
+                           <Pnumber>z7</Pnumber>
+                           <P3para>
+                              <Text>section 108 (guidance);</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-3-1-z8">
+                           <Pnumber>z8</Pnumber>
+                           <P3para>
+                              <Text>section 109 (cooperation and coordination);</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-3-1-z9">
+                           <Pnumber>z9</Pnumber>
+                           <P3para>
+                              <Text>section 110 (managers appointed under Part 2 of the Landlord and Tenant Act 1987);</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-3-1-z10">
+                           <Pnumber>z10</Pnumber>
+                           <P3para>
+                              <Text>the following provisions of section 112 (implied terms in leases and recovery of safety related costs)—</Text>
+                              <P4 id="regulation-3-1-z10-i">
+                                 <Pnumber>i</Pnumber>
+                                 <P4para>
+                                    <Text>section 112(1), so far as it relates to the following provisions of section 112;</Text>
+                                 </P4para>
+                              </P4>
+                              <P4 id="regulation-3-1-z10-ii">
+                                 <Pnumber>ii</Pnumber>
+                                 <P4para>
+                                    <Text>section 112(2), so far as it relates to—</Text>
+                                    <P5 id="regulation-3-1-z10-ii-aa">
+                                       <Pnumber>aa</Pnumber>
+                                       <P5para>
+                                          <Text>inserting sections 30D and 30I into the Landlord and Tenant Act 1985;</Text>
+                                       </P5para>
+                                    </P5>
+                                    <P5 id="regulation-3-1-z10-ii-bb">
+                                       <Pnumber>bb</Pnumber>
+                                       <P5para>
+                                          <Text>inserting subsection (2) of section 30F into the Landlord and Tenant Act 1985, for the purposes of that subsection as it applies to section 30D;</Text>
+                                       </P5para>
+                                    </P5>
+                                    <P5 id="regulation-3-1-z10-ii-cc">
+                                       <Pnumber>cc</Pnumber>
+                                       <P5para>
+                                          <Text>inserting section 30G into the Landlord and Tenant Act 1985, for the purposes of that section as it applies to section 30D;</Text>
+                                       </P5para>
+                                    </P5>
+                                 </P4para>
+                              </P4>
+                              <P4 id="regulation-3-1-z10-iii">
+                                 <Pnumber>iii</Pnumber>
+                                 <P4para>
+                                    <Text>section 112(3), for the purpose of inserting section 20F into the Landlord and Tenant Act 1985 for all purposes except in relation to a tenant owned or run building;</Text>
+                                 </P4para>
+                              </P4>
+                              <P4 id="regulation-3-1-z10-iv">
+                                 <Pnumber>iv</Pnumber>
+                                 <P4para>
+                                    <Text>section 112(4) and (5);</Text>
+                                 </P4para>
+                              </P4>
+                              <P4 id="regulation-3-1-z10-v">
+                                 <Pnumber>v</Pnumber>
+                                 <P4para>
+                                    <Text>section 112(6), for the purpose of inserting the entry for section 30D into section 32 of the Landlord and Tenant Act 1985;</Text>
+                                 </P4para>
+                              </P4>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-3-1-z11">
+                           <Pnumber>z11</Pnumber>
+                           <P3para>
+                              <Text>section 114 (commonholds); and</Text>
+                           </P3para>
+                        </P3>
+                        <P3 id="regulation-3-1-z12">
+                           <Pnumber>z12</Pnumber>
+                           <P3para>
+                              <Text>sections 144 and 145 (new build home warranties), for the purpose of making regulations.</Text>
+                           </P3para>
+                        </P3>
+                     </P2para>
+                  </P2>
+                  <P2 id="regulation-3-2">
+                     <Pnumber>2</Pnumber>
+                     <P2para>
+                        <Text>For the purposes of this regulation—</Text>
+                        <UnorderedList Class="Definition" Decoration="none">
+                           <ListItem>
+                              <Para>
+                                 <Text>“<Term>resident management company</Term>” means a body corporate which is party to a lease of a building where—</Text>
+                                 <OrderedList Type="alpha" Decoration="parens">
+                                    <ListItem>
+                                       <Para>
+                                          <Text>the body corporate is limited by guarantee and the members of that body are tenants under leases of dwellings in the building (“leaseholders”), or</Text>
+                                       </Para>
+                                    </ListItem>
+                                    <ListItem>
+                                       <Para>
+                                          <Text>the majority of the shares of the body corporate are held by leaseholders;</Text>
+                                       </Para>
+                                    </ListItem>
+                                 </OrderedList>
+                              </Para>
+                           </ListItem>
+                           <ListItem>
+                              <Para>
+                                 <Text>“<Term>tenant owned or run building</Term>” means a building or part of a building—</Text>
+                                 <OrderedList Type="alpha" Decoration="parens">
+                                    <ListItem>
+                                       <Para>
+                                          <Text>in relation to which a right under Part 1 of the Landlord and Tenant Act 1987<FootnoteRef Ref="f00004"/> (tenants’ right of first refusal) or Part 3 of that Act (compulsory acquisition by tenants of landlord’s interest) has been exercised;</Text>
+                                       </Para>
+                                    </ListItem>
+                                    <ListItem>
+                                       <Para>
+                                          <Text>in relation to which the right to collective enfranchisement (within the meaning of Chapter 1 of Part 1 of the Leasehold Reform, Housing and Urban Development Act 1993<FootnoteRef Ref="f00005"/>) has been exercised;</Text>
+                                       </Para>
+                                    </ListItem>
+                                    <ListItem>
+                                       <Para>
+                                          <Text>in relation to which the freehold estate in the building or part of the building is solely owned by tenants in the building or part of the building, whether through a corporate structure or otherwise and neither sub-paragraph (a) or (b) applies;</Text>
+                                       </Para>
+                                    </ListItem>
+                                    <ListItem>
+                                       <Para>
+                                          <Text>for which a resident management company has obligations under a lease in respect of any duties under Part 4 of the 2022 Act or regulations made under that Part;</Text>
+                                       </Para>
+                                    </ListItem>
+                                    <ListItem>
+                                       <Para>
+                                          <Text>in relation to which there is a RTM company (within the meaning of Chapter 1 of Part 2 of the Commonhold and Leasehold Reform Act 2002<FootnoteRef Ref="f00006"/>).</Text>
+                                       </Para>
+                                    </ListItem>
+                                 </OrderedList>
+                              </Para>
+                           </ListItem>
+                        </UnorderedList>
+                     </P2para>
+                  </P2>
+               </P1para>
+            </P1>
+         </P1group>
+         <P1group>
+            <Title>Provision coming into force on 1st October 2023</Title>
+            <P1 id="regulation-4">
+               <Pnumber>4</Pnumber>
+               <P1para>
+                  <Text>Section 156 (amendment of the Regulatory Reform (Fire Safety) Order 2005) of the 2022 Act (except subsection (4)) comes into force on 1st October 2023.</Text>
+               </P1para>
+            </P1>
+         </P1group>
+         <P1group>
+            <Title>Transitional provisions</Title>
+            <P1 id="regulation-5">
+               <Pnumber>5</Pnumber>
+               <P1para>
+                  <P2 id="regulation-5-1">
+                     <Pnumber>1</Pnumber>
+                     <P2para>
+                        <Text>The requirements of section 120B of the Building Act 1984 (inserted by paragraph 77 of Schedule 5 to the 2022 Act) do not apply to any proposal for the making of building regulations<FootnoteRef Ref="f00007"/> under that Act where a consultation was carried out in relation to the proposal before 6th April 2023.</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="regulation-5-2">
+                     <Pnumber>2</Pnumber>
+                     <P2para>
+                        <Text>The amendments to article 32 of the Regulatory Reform (Fire Safety) Order 2005<FootnoteRef Ref="f00008"/> made by section 156(10)(b) and (c) of the 2022 Act do not apply in relation to an offence which was committed before 1st October 2023.</Text>
+                     </P2para>
+                  </P2>
+               </P1para>
+            </P1>
+         </P1group>
+         <SignedSection>
+            <Signatory>
+               <Para>
+                  <Text>Signed by authority of the Secretary of State for Levelling Up, Housing and Communities</Text>
+               </Para>
+               <Signee>
+                  <JobTitle>Lee Rowley, Parliamentary Under Secretary of State</JobTitle>
+                  <DateSigned Date="2022-12-01">
+                     <DateText>23rd March 2023</DateText>
+                  </DateSigned>
+                  <Department>Department for Levelling Up, Housing and Communities</Department>
+               </Signee>
+            </Signatory>
+         </SignedSection>
+      </Body>
+      <ExplanatoryNotes>
+         <Title>Explanatory Note</Title>
+         <Comment>
+            <Para>
+               <Text>(This note is not part of the Regulations)</Text>
+            </Para>
+         </Comment>
+         <P>
+            <Text>These Regulations are the fourth commencement Regulations made under the Building Safety Act 2022 (“the Act”).</Text>
+         </P>
+         <P>
+            <Text>Regulation 2 provides for sections 5, 6, 8, 9(3), 47, 55 (partially) and 133 of the Act to come into force on 1st April 2023. In particular, new functions of the building safety regulator are commenced and the Building Regulations Advisory Committee for England is abolished on that date.</Text>
+         </P>
+         <P>
+            <Text>Regulation 3 provides for sections 12, 13, 14, 15, 16, 20, 22, 23, 24, 25, 27, 29, 32 (partially), 33, 34, 35, 36 (partially), 37, 38 (partially), 39 (partially), 42 (partially), 44 (partially), 46 (partially), 49 (partially), 50 (partially), 51 (partially), 52 (partially), 53 (partially), 55 (partially), 56 (partially), 71, 72, 73, 74, 75, 78 (partially), 89, 107, 108, 109, 110, 112 (partially), 114, 144 (partially) and 145 (partially) to come into force on 6th April 2023. In particular, regulation 3 commences the provisions in Part 4 of the Act supporting the registration of higher-risk buildings and various regulation-making provisions in the Building Act 1984.</Text>
+         </P>
+         <P>
+            <Text>Regulation 4 provides for section 156 (except subsection (4)), which makes amendments to the Regulatory Reform (Fire Safety) Order 2005, to come into force on 1st October 2023.</Text>
+         </P>
+         <P>
+            <Text>Regulation 5 makes transitional provisions in relation to commencement of paragraph 77 of Schedule 5 to the Building Safety Act 2022 (which inserts section 120B into the Building Act 1984 (proposals and consultations relating to the regulations made by the Secretary of State)) and in relation to the amendments to the Regulatory Reform (Fire Safety) Order 2005.</Text>
+         </P>
+      </ExplanatoryNotes>
+      <EarlierOrders>
+         <Title>NOTE AS TO EARLIER COMMENCEMENT Regulations</Title>
+         <Comment>
+            <Para>
+               <Text>(This note is not part of the Regulations)</Text>
+            </Para>
+         </Comment>
+         <P>
+            <Text>The following provisions of the Building Safety Act 2022 have been brought into force by commencement Regulations made before the date of these Regulations.</Text>
+         </P>
+         <P>
+            <Tabular Orientation="portrait">
+               <table xmlns="http://www.w3.org/1999/xhtml" cols="3">
+                  <thead>
+                     <tr>
+                        <td>Provision</td>
+                        <td>Date of Commencement</td>
+                        <td>S.I. No.</td>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td>Section 2 (remaining purposes)</td>
+                        <td>28th June 2022</td>
+                        <td>S.I. 2022/561</td>
+                     </tr>
+                     <tr>
+                        <td>Section 3</td>
+                        <td>28th June 2022</td>
+                        <td>S.I. 2022/561</td>
+                     </tr>
+                     <tr>
+                        <td>Section 4 (partially)</td>
+                        <td>1st December 2022</td>
+                        <td>S.I. 2022/1210</td>
+                     </tr>
+                     <tr>
+                        <td>Section 9 (partially)</td>
+                        <td>1st December 2022</td>
+                        <td>S.I. 2022/1210</td>
+                     </tr>
+                     <tr>
+                        <td>Section 11</td>
+                        <td>1st December 2022</td>
+                        <td>S.I. 2022/1210</td>
+                     </tr>
+                     <tr>
+                        <td>Section 17</td>
+                        <td>28th June 2022</td>
+                        <td>S.I. 2022/561</td>
+                     </tr>
+                     <tr>
+                        <td>Section 18</td>
+                        <td>28th June 2022</td>
+                        <td>S.I. 2022/561</td>
+                     </tr>
+                     <tr>
+                        <td>Section 31 (partially)</td>
+                        <td>28th June 2022</td>
+                        <td>S.I. 2022/561</td>
+                     </tr>
+                     <tr>
+                        <td>Section 41 (partially)</td>
+                        <td>28th June 2022</td>
+                        <td>S.I. 2022/561</td>
+                     </tr>
+                     <tr>
+                        <td>Section 48 (partially)</td>
+                        <td>28th July 2022</td>
+                        <td>S.I. 2022/561</td>
+                     </tr>
+                     <tr>
+                        <td>Section 55 (partially)</td>
+                        <td>28th June 2022</td>
+                        <td>S.I. 2022/561</td>
+                     </tr>
+                     <tr>
+                        <td>Section 57 (partially)</td>
+                        <td>28th June 2022</td>
+                        <td>S.I. 2022/561</td>
+                     </tr>
+                     <tr>
+                        <td>Sections 126 to 129</td>
+                        <td>1st September 2022</td>
+                        <td>S.I. 2022/927</td>
+                     </tr>
+                     <tr>
+                        <td>Sections 130 and 131</td>
+                        <td>28th June 2022</td>
+                        <td>S.I. 2022/561</td>
+                     </tr>
+                     <tr>
+                        <td>Section 132 (partially)</td>
+                        <td>28th May 2022</td>
+                        <td>S.I. 2022/561</td>
+                     </tr>
+                     <tr>
+                        <td>Section 132 (remaining purposes)</td>
+                        <td>28th June 2022</td>
+                        <td>S.I. 2022/561</td>
+                     </tr>
+                     <tr>
+                        <td>Section 160</td>
+                        <td>1st October 2022</td>
+                        <td>S.I. 2022/561</td>
+                     </tr>
+                     <tr>
+                        <td>Schedule 1</td>
+                        <td>28th June 2022</td>
+                        <td>S.I. 2022/561</td>
+                     </tr>
+                     <tr>
+                        <td>Schedule 5, paragraphs 1 (partially), 2, 3, 4 (partially), 5 (partially), 6, 9, 10, 11 (partially), 12 (partially), 13 (partially), 14 (partially), 15 (partially), 16, 22 (partially), 46 (partially), 50, 51, 53, 55 (partially), 57 (partially), 67, 71, 74 (partially), 75, 76 (partially), 77 (partially), 78, 81 (partially), 82, 83 (partially) and 84 (partially).</td>
+                        <td>28th June 2022</td>
+                        <td>S.I. 2022/561</td>
+                     </tr>
+                  </tbody>
+               </table>
+            </Tabular>
+         </P>
+      </EarlierOrders>
+   </Secondary>
+   <Footnotes>
+      <Footnote id="f00001">
+         <FootnoteText>
+            <Para>
+               <Text>2022 c. 30.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00002">
+         <FootnoteText>
+            <Para>
+               <Text>1985 c. 70.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00003">
+         <FootnoteText>
+            <Para>
+               <Text>1984 c. 55.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00004">
+         <FootnoteText>
+            <Para>
+               <Text>1987 c. 31.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00005">
+         <FootnoteText>
+            <Para>
+               <Text>1993 c. 28.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00006">
+         <FootnoteText>
+            <Para>
+               <Text>2002 c. 15.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00007">
+         <FootnoteText>
+            <Para>
+               <Text>See section 122 of the Building Act 1984 for the definition of building regulations.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00008">
+         <FootnoteText>
+            <Para>
+               <Text>S.I. 2005/1541.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+   </Footnotes>
+</Legislation>

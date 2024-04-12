@@ -32,7 +32,7 @@
 	</content>
 </xsl:template>
 
-<xsl:template match="p[empty(child::node())]">
+<xsl:template match="p[empty(child::node())][exists(preceding-sibling::*) or exists(following-sibling::*)]">
 	<xsl:message>
 		<xsl:text>removing empty p element</xsl:text>
 	</xsl:message>
@@ -44,6 +44,11 @@
 	</xsl:message>
 </xsl:template>
 
+<!-- ignore links within numbers -->
+<xsl:template match="num//ref">
+	<xsl:apply-templates />
+</xsl:template>
+
 <!-- ignore links within defined terms -->
 <xsl:template match="def//ref">
 	<xsl:apply-templates />
@@ -51,6 +56,11 @@
 
 <!-- remove nested mod elements -->
 <xsl:template match="mod/mod">
+	<xsl:apply-templates />
+</xsl:template>
+
+<!-- remove mod elements containing no amendment markup -->
+<xsl:template match="mod[empty(descendant::quotedStructure) and empty(descendant::quotedText)]">
 	<xsl:apply-templates />
 </xsl:template>
 
