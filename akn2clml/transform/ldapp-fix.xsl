@@ -7,6 +7,10 @@
 	xpath-default-namespace="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
 	exclude-result-prefixes="uk html">
 
+<xsl:template match="block[@name='commenceDate']/docDate[@date='9999-01-01'][not(normalize-space(.))]">
+	<xsl:message>ignoring CIF date 9999-01-01</xsl:message>
+</xsl:template>
+
 <xsl:template match="level[descendant::num]">
 	<xsl:choose>
 		<xsl:when test="(descendant::num | descendant::p)/text()">
