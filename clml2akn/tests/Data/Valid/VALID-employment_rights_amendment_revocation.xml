@@ -1,0 +1,1517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Legislation xmlns="http://www.legislation.gov.uk/namespaces/legislation"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             SchemaVersion="2.0"
+             xsi:schemaLocation="http://www.legislation.gov.uk/namespaces/legislation http://www.legislation.gov.uk/schema/legislation.xsd">
+   <Metadata xmlns="http://www.legislation.gov.uk/namespaces/metadata"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <dc:identifier>http://www.legislation.gov.uk/id/uksi/2023/1426</dc:identifier>
+      <dc:title>The Employment Rights (Amendment, Revocation and Transitional Provision) Regulations 2023</dc:title>
+      <dc:modified>2024-05-08</dc:modified>
+      <SecondaryMetadata>
+         <DocumentClassification>
+            <DocumentCategory Value="secondary"/>
+            <DocumentMainType Value="UnitedKingdomStatutoryInstrument"/>
+            <DocumentStatus Value="final"/>
+            <DocumentMinorType Value="regulation"/>
+         </DocumentClassification>
+         <Year Value="2023"/>
+         <Number Value="1426"/>
+         <Made Date="2023-12-19"/>
+         <ComingIntoForce>
+            <DateTime Date="2024-01-01" Time="00:00:00"/>
+         </ComingIntoForce>
+      </SecondaryMetadata>
+   </Metadata>
+   <Secondary>
+      <SecondaryPrelims>
+         <Number> 2023 No. 1426  </Number>
+         <SubjectInformation>
+            <Subject>
+               <Title>retained eu law reform</Title>
+            </Subject>
+            <Subject>
+               <Title>TERMS AND CONDITIONS OF EMPLOYMENT</Title>
+            </Subject>
+         </SubjectInformation>
+         <Title> The Employment Rights (Amendment, Revocation and Transitional Provision) Regulations 2023 </Title>
+         <MadeDate>
+            <Text>Made</Text>
+            <DateText>19th December 2023</DateText>
+         </MadeDate>
+         <ComingIntoForce>
+            <Text>Coming into force</Text>
+            <DateText>1st January 2024</DateText>
+         </ComingIntoForce>
+         <SecondaryPreamble>
+            <EnactingText>
+               <Para>
+                  <Text/>
+               </Para>
+               <Para>
+                  <Text>The Secretary of State makes these Regulations in exercise of the powers conferred by section 13 of the Work and Families Act 2006<FootnoteRef Ref="f00001"/> and sections 11(1) and (6), 14(1) and (3) and 20(1) of the Retained EU Law (Revocation and Reform) Act 2023 (“the 2023 Act”)<FootnoteRef Ref="f00002"/>.</Text>
+               </Para>
+               <Para>
+                  <Text>The Secretary of State is a relevant national authority for the purposes of sections 11 and 14 of the 2023 Act<FootnoteRef Ref="f00003"/>.</Text>
+               </Para>
+               <Para>
+                  <Text>In accordance with section 13(7) of the Work and Families Act 2006 and paragraph 5(1) and (5) of Schedule 5 to the 2023 Act, a draft of this instrument has been laid before Parliament and approved by a resolution of each House of Parliament.</Text>
+               </Para>
+            </EnactingText>
+         </SecondaryPreamble>
+      </SecondaryPrelims>
+      <Body>
+         <Part id="part-1">
+            <Number>Part 1</Number>
+            <Title>Introductory</Title>
+            <P1group>
+               <Title>Citation, commencement, extent and interpretation</Title>
+               <P1 id="regulation-1">
+                  <Pnumber>1</Pnumber>
+                  <P1para>
+                     <P2 id="regulation-1-1">
+                        <Pnumber>1</Pnumber>
+                        <P2para>
+                           <Text>These Regulations may be cited as the Employment Rights (Amendment, Revocation and Transitional Provision) Regulations 2023.</Text>
+                        </P2para>
+                     </P2>
+                     <P2 id="regulation-1-2">
+                        <Pnumber>2</Pnumber>
+                        <P2para>
+                           <Text>These Regulations come into force on 1st January 2024.</Text>
+                        </P2para>
+                     </P2>
+                     <P2 id="regulation-1-3">
+                        <Pnumber>3</Pnumber>
+                        <P2para>
+                           <Text>Subject to paragraph (4), these Regulations extend to England and Wales and Scotland.</Text>
+                        </P2para>
+                     </P2>
+                     <P2 id="regulation-1-4">
+                        <Pnumber>4</Pnumber>
+                        <P2para>
+                           <Text>This Part and Part 5 extend to England and Wales, Scotland and Northern Ireland.</Text>
+                        </P2para>
+                     </P2>
+                     <P2 id="regulation-1-5">
+                        <Pnumber>5</Pnumber>
+                        <P2para>
+                           <Text>In these Regulations the “1998 Regulations” means the Working Time Regulations 1998<FootnoteRef Ref="f00004"/>.</Text>
+                        </P2para>
+                     </P2>
+                  </P1para>
+               </P1>
+            </P1group>
+         </Part>
+         <Part id="part-2">
+            <Number>Part 2</Number>
+            <Title>Annual leave and holiday pay</Title>
+            <P1group>
+               <Title>Amendment of the 1998 Regulations</Title>
+               <P1 id="regulation-2">
+                  <Pnumber>2</Pnumber>
+                  <P1para>
+                     <Text>The 1998 Regulations are amended in accordance with regulation 3.</Text>
+                  </P1para>
+               </P1>
+            </P1group>
+            <P1group>
+               <Title>Annual leave and holiday pay</Title>
+               <P1 id="regulation-3">
+                  <Pnumber>3</Pnumber>
+                  <P1para>
+                     <P2 id="regulation-3-1">
+                        <Pnumber>1</Pnumber>
+                        <P2para>
+                           <Text>In regulation 2(1) (interpretation), insert the following definitions in the appropriate places—</Text>
+                           <BlockAmendment TargetClass="secondary"
+                                           TargetSubClass="unknown"
+                                           Context="main"
+                                           Format="default">
+                              <UnorderedList Class="Definition" Decoration="none">
+                                 <ListItem>
+                                    <Para>
+                                       <Text>“<Term>irregular hours worker</Term>” has the meaning given by regulation 15F(1);”;</Text>
+                                    </Para>
+                                 </ListItem>
+                              </UnorderedList>
+                           </BlockAmendment>
+                           <BlockAmendment TargetClass="secondary"
+                                           TargetSubClass="unknown"
+                                           Context="main"
+                                           Format="default">
+                              <UnorderedList Class="Definition" Decoration="none">
+                                 <ListItem>
+                                    <Para>
+                                       <Text>“<Term>part-year worker</Term>” has the meaning given by regulation 15F(1)(b);”;</Text>
+                                    </Para>
+                                 </ListItem>
+                              </UnorderedList>
+                           </BlockAmendment>
+                           <BlockAmendment TargetClass="secondary"
+                                           TargetSubClass="unknown"
+                                           Context="main"
+                                           Format="default">
+                              <UnorderedList Class="Definition" Decoration="none">
+                                 <ListItem>
+                                    <Para>
+                                       <Text>“<Term>sick leave</Term>” means absence from work due to sickness or injury;”;</Text>
+                                    </Para>
+                                 </ListItem>
+                              </UnorderedList>
+                           </BlockAmendment>
+                           <BlockAmendment TargetClass="secondary"
+                                           TargetSubClass="unknown"
+                                           Context="main"
+                                           Format="double">
+                              <UnorderedList Class="Definition" Decoration="none">
+                                 <ListItem>
+                                    <Para>
+                                       <Text>“<Term>statutory leave</Term>” means leave provided for in Part 8 of the 1996 Act;</Text>
+                                    </Para>
+                                 </ListItem>
+                              </UnorderedList>
+                           </BlockAmendment>
+                           <AppendText>.</AppendText>
+                        </P2para>
+                     </P2>
+                     <P2 id="regulation-3-2">
+                        <Pnumber>2</Pnumber>
+                        <P2para>
+                           <Text>In regulation 4(7)(a) (maximum weekly working time)<FootnoteRef Ref="f00005"/>, after “13” insert “, 13A or 15B”.</Text>
+                        </P2para>
+                     </P2>
+                     <P2 id="regulation-3-3">
+                        <Pnumber>3</Pnumber>
+                        <P2para>
+                           <Text>In regulation 13 (entitlement to annual leave)<FootnoteRef Ref="f00006"/>—</Text>
+                           <P3 id="regulation-3-3-a">
+                              <Pnumber>a</Pnumber>
+                              <P3para>
+                                 <Text>before paragraph (1) insert— </Text>
+                                 <BlockAmendment TargetClass="secondary"
+                                                 TargetSubClass="unknown"
+                                                 Context="main"
+                                                 Format="double">
+                                    <P2>
+                                       <Pnumber>A1</Pnumber>
+                                       <P2para>
+                                          <Text>This regulation applies to—</Text>
+                                          <P3>
+                                             <Pnumber>a</Pnumber>
+                                             <P3para>
+                                                <Text>a worker in respect of any leave years beginning before 1st April 2024, and</Text>
+                                             </P3para>
+                                          </P3>
+                                          <P3>
+                                             <Pnumber>b</Pnumber>
+                                             <P3para>
+                                                <Text>a worker to whom regulation 15B does not apply in respect of any leave years beginning on or after 1st April 2024.</Text>
+                                             </P3para>
+                                          </P3>
+                                       </P2para>
+                                    </P2>
+                                 </BlockAmendment>
+                                 <AppendText>;</AppendText>
+                              </P3para>
+                           </P3>
+                           <P3 id="regulation-3-3-b">
+                              <Pnumber>b</Pnumber>
+                              <P3para>
+                                 <Text>in paragraph (9)(a), for the words “subject to the exception in paragraphs (10) and (11)” substitute “subject to the exceptions in paragraphs (14), (15) and (17)”;</Text>
+                              </P3para>
+                           </P3>
+                           <P3 id="regulation-3-3-c">
+                              <Pnumber>c</Pnumber>
+                              <P3para>
+                                 <Text>omit paragraphs (10) to (13);</Text>
+                              </P3para>
+                           </P3>
+                           <P3 id="regulation-3-3-d">
+                              <Pnumber>d</Pnumber>
+                              <P3para>
+                                 <Text>at the end, insert—</Text>
+                                 <BlockAmendment TargetClass="secondary"
+                                                 TargetSubClass="unknown"
+                                                 Context="main"
+                                                 Format="double">
+                                    <P2>
+                                       <Pnumber>14</Pnumber>
+                                       <P2para>
+                                          <Text>Where, as a result of taking a period of statutory leave in any leave year, a worker is unable to take some or all of the annual leave to which the worker is entitled in that leave year under this regulation, the worker is entitled to carry forward such untaken leave into the following leave year.</Text>
+                                       </P2para>
+                                    </P2>
+                                    <P2>
+                                       <Pnumber>15</Pnumber>
+                                       <P2para>
+                                          <Text>Where, as a result of taking a period of sick leave in any leave year, a worker is unable to take some or all of the annual leave to which the worker is entitled in that leave year under this regulation, the worker is entitled to carry forward such untaken leave into the following leave year provided it is taken by the end of the period of 18 months from the end of the leave year in which the entitlement originally arose.</Text>
+                                       </P2para>
+                                    </P2>
+                                    <P2>
+                                       <Pnumber>16</Pnumber>
+                                       <P2para>
+                                          <Text>Paragraph <InternalLink Ref="p00222">(17)</InternalLink> applies where, in any leave year, an employer fails to—</Text>
+                                          <P3>
+                                             <Pnumber>a</Pnumber>
+                                             <P3para>
+                                                <Text>recognise a worker’s right to annual leave under this regulation or to payment for that leave in accordance with regulation 16;</Text>
+                                             </P3para>
+                                          </P3>
+                                          <P3>
+                                             <Pnumber>b</Pnumber>
+                                             <P3para>
+                                                <Text>give the worker a reasonable opportunity to take the leave to which the worker is entitled under this regulation or encourage them to do so; or</Text>
+                                             </P3para>
+                                          </P3>
+                                          <P3>
+                                             <Pnumber>c</Pnumber>
+                                             <P3para>
+                                                <Text>inform the worker that any leave not taken by the end of the leave year, which cannot be carried forward, will be lost.</Text>
+                                             </P3para>
+                                          </P3>
+                                       </P2para>
+                                    </P2>
+                                    <P2 id="p00222">
+                                       <Pnumber>17</Pnumber>
+                                       <P2para>
+                                          <Text>Where this paragraph applies and subject to paragraph (18), the worker is entitled to carry forward any leave to which the worker is entitled under this regulation which is untaken in that leave year or has been taken but not paid in accordance with regulation 16.</Text>
+                                       </P2para>
+                                    </P2>
+                                    <P2>
+                                       <Pnumber>18</Pnumber>
+                                       <P2para>
+                                          <Text>Annual leave that has been carried forward pursuant to paragraph <InternalLink Ref="p00222">(17)</InternalLink> cannot be carried forward beyond the end of the first full leave year in which paragraph <InternalLink Ref="p00222">(17)</InternalLink> does not apply.</Text>
+                                       </P2para>
+                                    </P2>
+                                 </BlockAmendment>
+                                 <AppendText>.</AppendText>
+                              </P3para>
+                           </P3>
+                        </P2para>
+                     </P2>
+                     <P2 id="regulation-3-4">
+                        <Pnumber>4</Pnumber>
+                        <P2para>
+                           <Text>In regulation 13A (entitlement to additional annual leave)<FootnoteRef Ref="f00007"/>—</Text>
+                           <P3 id="regulation-3-4-a">
+                              <Pnumber>a</Pnumber>
+                              <P3para>
+                                 <Text>before paragraph (1) insert—</Text>
+                                 <BlockAmendment TargetClass="secondary"
+                                                 TargetSubClass="unknown"
+                                                 Context="main"
+                                                 Format="double">
+                                    <P2>
+                                       <Pnumber>A1</Pnumber>
+                                       <P2para>
+                                          <Text>Subject to paragraph (8), this regulation applies to—</Text>
+                                          <P3>
+                                             <Pnumber>a</Pnumber>
+                                             <P3para>
+                                                <Text>a worker in respect of any leave years beginning before 1st April 2024, and</Text>
+                                             </P3para>
+                                          </P3>
+                                          <P3>
+                                             <Pnumber>b</Pnumber>
+                                             <P3para>
+                                                <Text>a worker to whom regulation 15B does not apply in respect of any leave years beginning on or after 1st April 2024.</Text>
+                                             </P3para>
+                                          </P3>
+                                       </P2para>
+                                    </P2>
+                                 </BlockAmendment>
+                                 <AppendText>;</AppendText>
+                              </P3para>
+                           </P3>
+                           <P3 id="regulation-3-4-b">
+                              <Pnumber>b</Pnumber>
+                              <P3para>
+                                 <Text>after paragraph (7), insert—</Text>
+                                 <BlockAmendment TargetClass="secondary"
+                                                 TargetSubClass="unknown"
+                                                 Context="main"
+                                                 Format="double">
+                                    <P2>
+                                       <Pnumber>7A</Pnumber>
+                                       <P2para>
+                                          <Text>Where, as a result of taking a period of statutory leave in any leave year, a worker is unable to take some or all of the annual leave to which the worker is entitled in that leave year under this regulation, the worker is entitled to carry forward such untaken leave into the following leave year.</Text>
+                                       </P2para>
+                                    </P2>
+                                 </BlockAmendment>
+                                 <AppendText>.</AppendText>
+                              </P3para>
+                           </P3>
+                        </P2para>
+                     </P2>
+                     <P2 id="regulation-3-5">
+                        <Pnumber>5</Pnumber>
+                        <P2para>
+                           <Text>In regulation 14 (compensation related to entitlement to leave)<FootnoteRef Ref="f00008"/>—</Text>
+                           <P3 id="regulation-3-5-a">
+                              <Pnumber>a</Pnumber>
+                              <P3para>
+                                 <Text>in paragraph (1)(b) for “regulation 13 and regulation 13A” substitute “regulations 13(1) and 13A(1)”;</Text>
+                              </P3para>
+                           </P3>
+                           <P3 id="regulation-3-5-b">
+                              <Pnumber>b</Pnumber>
+                              <P3para>
+                                 <Text>omit paragraph (5);</Text>
+                              </P3para>
+                           </P3>
+                           <P3 id="regulation-3-5-c">
+                              <Pnumber>c</Pnumber>
+                              <P3para>
+                                 <Text>at the end, insert—</Text>
+                                 <BlockAmendment TargetClass="secondary"
+                                                 TargetSubClass="unknown"
+                                                 Context="main"
+                                                 Format="double">
+                                    <P2>
+                                       <Pnumber>6</Pnumber>
+                                       <P2para>
+                                          <Text>Where a worker’s employment is terminated and on the termination date the worker remains entitled to leave in respect of any previous leave year which carried forward under paragraph (14), (15) or (17) of regulation 13 or paragraph (7) or (7A) of regulation 13A, the employer shall make the worker a payment in lieu of leave equal to the sum due under regulation 16 for the period of untaken leave.</Text>
+                                       </P2para>
+                                    </P2>
+                                 </BlockAmendment>
+                                 <AppendText>.</AppendText>
+                              </P3para>
+                           </P3>
+                        </P2para>
+                     </P2>
+                     <P2 id="regulation-3-6">
+                        <Pnumber>6</Pnumber>
+                        <P2para>
+                           <Text>In regulation 15 (dates on which leave is taken)<FootnoteRef Ref="f00009"/>—</Text>
+                           <P3 id="regulation-3-6-a">
+                              <Pnumber>a</Pnumber>
+                              <P3para>
+                                 <Text>in paragraph (1) for “regulation 13 and regulation 13A” substitute “regulations 13, 13A and 15B”;</Text>
+                              </P3para>
+                           </P3>
+                           <P3 id="regulation-3-6-b">
+                              <Pnumber>b</Pnumber>
+                              <P3para>
+                                 <Text>in paragraph (2)(a) for “or regulation 13A” substitute “, 13A or 15B”; and</Text>
+                              </P3para>
+                           </P3>
+                           <P3 id="regulation-3-6-c">
+                              <Pnumber>c</Pnumber>
+                              <P3para>
+                                 <Text>in paragraph (2)(b) omit the words “(subject, where it applies, to the requirement in regulation 13(12))”.</Text>
+                              </P3para>
+                           </P3>
+                        </P2para>
+                     </P2>
+                     <P2 id="regulation-3-7">
+                        <Pnumber>7</Pnumber>
+                        <P2para>
+                           <Text>After regulation 15A (leave during the first year of employment)<FootnoteRef Ref="f00010"/>, insert—</Text>
+                           <BlockAmendment TargetClass="secondary"
+                                           TargetSubClass="unknown"
+                                           Context="main"
+                                           Format="double">
+                              <P1group>
+                                 <Title>Irregular hours workers and part-year workers: entitlement to annual leave</Title>
+                                 <P1 id="p00321">
+                                    <Pnumber>15B</Pnumber>
+                                    <P1para>
+                                       <P2>
+                                          <Pnumber>1</Pnumber>
+                                          <P2para>
+                                             <Text>This regulation applies to an irregular hours worker, or a part-year worker, to whom the Agricultural Wages (Scotland) Act 1949 (as that Act had effect on 1st July 1999) does not apply, in respect of any leave years beginning on or after 1st April 2024.</Text>
+                                          </P2para>
+                                       </P2>
+                                       <P2>
+                                          <Pnumber>2</Pnumber>
+                                          <P2para>
+                                             <Text>The amount of annual leave to which an irregular hours worker, or a part-year worker, is entitled at any time during a leave year is the amount of annual leave that they have accrued in that year, plus the amount of annual leave (if any) that they have carried forward into that leave year, less the amount of annual leave (if any) that they have taken during that leave year.</Text>
+                                          </P2para>
+                                       </P2>
+                                       <P2>
+                                          <Pnumber>3</Pnumber>
+                                          <P2para>
+                                             <Text>In each leave year, an irregular hours worker, or a part-year worker, accrues annual leave—</Text>
+                                             <P3>
+                                                <Pnumber>a</Pnumber>
+                                                <P3para>
+                                                   <Text>during any period of sick leave or statutory leave, in accordance with regulation 15C, and</Text>
+                                                </P3para>
+                                             </P3>
+                                             <P3>
+                                                <Pnumber>b</Pnumber>
+                                                <P3para>
+                                                   <Text>otherwise, on the last day of each pay period at the rate of 12.07% of the number of hours that they have worked during that pay period.</Text>
+                                                </P3para>
+                                             </P3>
+                                          </P2para>
+                                       </P2>
+                                       <P2>
+                                          <Pnumber>4</Pnumber>
+                                          <P2para>
+                                             <Text>But a worker cannot, in any leave year, accrue more than 28 days of annual leave under this regulation.</Text>
+                                          </P2para>
+                                       </P2>
+                                       <P2>
+                                          <Pnumber>5</Pnumber>
+                                          <P2para>
+                                             <Text>Where the amount of annual leave that has accrued in a particular case includes a fraction of an hour, the fraction is to be treated as zero if it is less than 30 minutes and one hour if it is 30 minutes or more than 30 minutes.</Text>
+                                          </P2para>
+                                       </P2>
+                                       <P2>
+                                          <Pnumber>6</Pnumber>
+                                          <P2para>
+                                             <Text>Annual leave to which a worker is entitled under this regulation may be taken in instalments, but it may not be replaced by a payment in lieu except where the worker’s employment is terminated.</Text>
+                                          </P2para>
+                                       </P2>
+                                       <P2 id="p00355">
+                                          <Pnumber>7</Pnumber>
+                                          <P2para>
+                                             <Text>For the purposes of this regulation, a worker’s leave year begins—</Text>
+                                             <P3>
+                                                <Pnumber>a</Pnumber>
+                                                <P3para>
+                                                   <Text>on such date during the calendar year as may be provided for in a relevant agreement, or</Text>
+                                                </P3para>
+                                             </P3>
+                                             <P3>
+                                                <Pnumber>b</Pnumber>
+                                                <P3para>
+                                                   <Text>where there are no provisions of a relevant agreement which apply, on the date on which the worker’s employment begins and each subsequent anniversary of that date.</Text>
+                                                </P3para>
+                                             </P3>
+                                          </P2para>
+                                       </P2>
+                                       <P2>
+                                          <Pnumber>8</Pnumber>
+                                          <P2para>
+                                             <Text>Paragraph <InternalLink Ref="p00355">(7)</InternalLink> does not apply to a worker to whom Schedule 2 (workers employed in agriculture) applies except where, in the case of a worker partly employed in agriculture, a relevant agreement so provides.</Text>
+                                          </P2para>
+                                       </P2>
+                                    </P1para>
+                                 </P1>
+                              </P1group>
+                              <P1group>
+                                 <Title>Irregular hours workers and part-year workers: annual leave accrued while on sick or statutory leave</Title>
+                                 <P1>
+                                    <Pnumber>15C</Pnumber>
+                                    <P1para>
+                                       <P2>
+                                          <Pnumber>1</Pnumber>
+                                          <P2para>
+                                             <Text>This regulation applies for the purposes of determining the amount of annual leave which a worker to whom regulation 15B applies, accrues in a pay period during a period of sick leave or statutory leave.</Text>
+                                          </P2para>
+                                       </P2>
+                                       <P2>
+                                          <Pnumber>2</Pnumber>
+                                          <P2para>
+                                             <Text>The amount of annual leave is calculated as follows—</Text>
+                                             <UnorderedList Class="Step" Decoration="none">
+                                                <ListItem id="p00382">
+                                                   <Para>
+                                                      <Text>Step 1</Text>
+                                                   </Para>
+                                                   <Para>
+                                                      <Text>Calculate the average number of hours per week that the worker worked during the relevant period before the worker started the sick leave or statutory leave.</Text>
+                                                   </Para>
+                                                </ListItem>
+                                                <ListItem>
+                                                   <Para>
+                                                      <Text>Step 2</Text>
+                                                   </Para>
+                                                   <Para>
+                                                      <Text>Calculate 12.07% of the number of hours arrived at under Step 1 to find the number of hours of annual leave that the worker accrues during each week of the sick leave or statutory leave.</Text>
+                                                   </Para>
+                                                </ListItem>
+                                                <ListItem>
+                                                   <Para>
+                                                      <Text>Step 3</Text>
+                                                   </Para>
+                                                   <Para>
+                                                      <Text>Multiply that number of hours by the number of weeks in a pay period for which the worker is taking sick leave or statutory leave to find the number of hours of annual leave that the worker accrues during each such pay period.</Text>
+                                                   </Para>
+                                                </ListItem>
+                                             </UnorderedList>
+                                          </P2para>
+                                       </P2>
+                                       <P2 id="p00395">
+                                          <Pnumber>3</Pnumber>
+                                          <P2para>
+                                             <Text>In <InternalLink Ref="p00382">Step 1</InternalLink>, the “relevant period” means—</Text>
+                                             <P3 id="p00399">
+                                                <Pnumber>a</Pnumber>
+                                                <P3para>
+                                                   <Text>the period of 52 weeks ending with the day before the day on which the worker started the sick leave or statutory leave, or</Text>
+                                                </P3para>
+                                             </P3>
+                                             <P3>
+                                                <Pnumber>b</Pnumber>
+                                                <P3para>
+                                                   <Text>if the worker has been in employment for a period of less than 52 complete weeks before starting that leave, that lesser period.</Text>
+                                                </P3para>
+                                             </P3>
+                                          </P2para>
+                                       </P2>
+                                       <P2 id="p00408">
+                                          <Pnumber>4</Pnumber>
+                                          <P2para>
+                                             <Text>For the purposes of the calculation under <InternalLink Ref="p00382">Step 1</InternalLink>—</Text>
+                                             <P3 id="p00412">
+                                                <Pnumber>a</Pnumber>
+                                                <P3para>
+                                                   <Text>no account is to be taken of any weeks during the relevant period in which a worker was, for any amount of time, on sick leave or statutory leave, but</Text>
+                                                </P3para>
+                                             </P3>
+                                             <P3>
+                                                <Pnumber>b</Pnumber>
+                                                <P3para>
+                                                   <Text>all other weeks during the relevant period are to be taken into account, including weeks during which the worker did not work any hours.</Text>
+                                                </P3para>
+                                             </P3>
+                                          </P2para>
+                                       </P2>
+                                       <P2 id="p00421">
+                                          <Pnumber>5</Pnumber>
+                                          <P2para>
+                                             <Text>If, in a case falling within paragraph <InternalLink Ref="p00395">(3)</InternalLink>
+                                                <InternalLink Ref="p00399">(a)</InternalLink>, any weeks are discounted under paragraph <InternalLink Ref="p00408">(4)</InternalLink>
+                                                <InternalLink Ref="p00412">(a)</InternalLink>, earlier weeks shall be taken into account so as to bring the number of weeks to 52 (or as close to 52 as possible).</Text>
+                                          </P2para>
+                                       </P2>
+                                       <P2>
+                                          <Pnumber>6</Pnumber>
+                                          <P2para>
+                                             <Text>For the purposes of paragraph <InternalLink Ref="p00421">(5)</InternalLink> no account is to be taken of hours worked in weeks preceding the period of 104 weeks ending—</Text>
+                                             <P3>
+                                                <Pnumber>a</Pnumber>
+                                                <P3para>
+                                                   <Text>where the calculation date is the last day of a week, with that week, and</Text>
+                                                </P3para>
+                                             </P3>
+                                             <P3>
+                                                <Pnumber>b</Pnumber>
+                                                <P3para>
+                                                   <Text>otherwise, with the last complete week before the calculation date.</Text>
+                                                </P3para>
+                                             </P3>
+                                          </P2para>
+                                       </P2>
+                                    </P1para>
+                                 </P1>
+                              </P1group>
+                              <P1group>
+                                 <Title>Irregular hours workers and part-year workers: right to carry forward annual leave</Title>
+                                 <P1 id="p00443">
+                                    <Pnumber>15D</Pnumber>
+                                    <P1para>
+                                       <P2>
+                                          <Pnumber>1</Pnumber>
+                                          <P2para>
+                                             <Text>Leave to which a worker is entitled under regulation 15B may be taken in instalments but, subject to the exceptions in paragraphs <InternalLink Ref="p00453">(2)</InternalLink>, <InternalLink Ref="p00457">(3)</InternalLink>, <InternalLink Ref="p00461">(4)</InternalLink> and <InternalLink Ref="p00482">(6)</InternalLink>, it may only be taken in the leave year that it accrues.</Text>
+                                          </P2para>
+                                       </P2>
+                                       <P2 id="p00453">
+                                          <Pnumber>2</Pnumber>
+                                          <P2para>
+                                             <Text>A relevant agreement may provide for part of the annual leave to which a worker is entitled under regulation 15B to be carried forward into the leave year immediately following the leave year in which it accrued.</Text>
+                                          </P2para>
+                                       </P2>
+                                       <P2 id="p00457">
+                                          <Pnumber>3</Pnumber>
+                                          <P2para>
+                                             <Text>Where, as a result of taking a period of statutory leave in any leave year, a worker is unable to take some or all of the annual leave to which the worker is entitled in that leave year under regulation 15B, the worker is entitled to carry forward such untaken leave into the following leave year.</Text>
+                                          </P2para>
+                                       </P2>
+                                       <P2 id="p00461">
+                                          <Pnumber>4</Pnumber>
+                                          <P2para>
+                                             <Text>Where, as a result of taking a period of sick leave in any leave year, a worker is unable to take some or all of the annual leave to which the worker is entitled in that leave year under regulation 15B, the worker is entitled to carry forward such untaken leave into the following leave year provided it is taken by the end of the period of 18 months from the end of the leave year in which the entitlement originally arose.</Text>
+                                          </P2para>
+                                       </P2>
+                                       <P2>
+                                          <Pnumber>5</Pnumber>
+                                          <P2para>
+                                             <Text>Paragraph <InternalLink Ref="p00482">(6)</InternalLink> applies where, in any leave year, an employer fails to—</Text>
+                                             <P3>
+                                                <Pnumber>a</Pnumber>
+                                                <P3para>
+                                                   <Text>recognise a worker’s right to annual leave under regulation 15B or to payment for that leave in accordance with regulation 16;</Text>
+                                                </P3para>
+                                             </P3>
+                                             <P3>
+                                                <Pnumber>b</Pnumber>
+                                                <P3para>
+                                                   <Text>give the worker a reasonable opportunity to take the leave to which the worker is entitled under regulation 15B or encourage them to do so; or</Text>
+                                                </P3para>
+                                             </P3>
+                                             <P3>
+                                                <Pnumber>c</Pnumber>
+                                                <P3para>
+                                                   <Text>inform the worker that any leave not taken by the end of the leave year, which cannot be carried forward, will be lost.</Text>
+                                                </P3para>
+                                             </P3>
+                                          </P2para>
+                                       </P2>
+                                       <P2 id="p00482">
+                                          <Pnumber>6</Pnumber>
+                                          <P2para>
+                                             <Text>Where this paragraph applies and subject to paragraph (7), the worker is entitled to carry forward any annual leave to which the worker is entitled under regulation 15B which is untaken in that leave year or has been taken but not paid in accordance with regulation 16.</Text>
+                                          </P2para>
+                                       </P2>
+                                       <P2>
+                                          <Pnumber>7</Pnumber>
+                                          <P2para>
+                                             <Text>Annual leave that has been carried forward pursuant to paragraph <InternalLink Ref="p00482">(6)</InternalLink> cannot be carried forward beyond the end of the first full leave year in which paragraph <InternalLink Ref="p00482">(6)</InternalLink> does not apply.</Text>
+                                          </P2para>
+                                       </P2>
+                                    </P1para>
+                                 </P1>
+                              </P1group>
+                              <P1group>
+                                 <Title>Irregular hours workers and part-year workers: compensation related to entitlement to leave</Title>
+                                 <P1>
+                                    <Pnumber>15E</Pnumber>
+                                    <P1para>
+                                       <P2>
+                                          <Pnumber>1</Pnumber>
+                                          <P2para>
+                                             <Text>This regulation applies to a worker to whom regulation 15B applies, in respect of any leave years beginning on or after 1st April 2024.</Text>
+                                          </P2para>
+                                       </P2>
+                                       <P2 id="p00499">
+                                          <Pnumber>2</Pnumber>
+                                          <P2para>
+                                             <Text>Where—</Text>
+                                             <P3>
+                                                <Pnumber>a</Pnumber>
+                                                <P3para>
+                                                   <Text>the worker’s employment is terminated during the course of their leave year, and</Text>
+                                                </P3para>
+                                             </P3>
+                                             <P3>
+                                                <Pnumber>b</Pnumber>
+                                                <P3para>
+                                                   <Text>at the date on which the termination takes effect, the worker has not taken all the annual leave to which they are entitled under regulation 15B(2),</Text>
+                                                </P3para>
+                                             </P3>
+                                             <Text>the worker’s employer must make the worker a payment in lieu of that untaken leave.</Text>
+                                          </P2para>
+                                       </P2>
+                                       <P2>
+                                          <Pnumber>3</Pnumber>
+                                          <P2para>
+                                             <Text>The payment due under paragraph (2) is—</Text>
+                                             <P3>
+                                                <Pnumber>a</Pnumber>
+                                                <P3para>
+                                                   <Text>such sum as may be provided for in a relevant agreement for the purposes of this regulation, or</Text>
+                                                </P3para>
+                                             </P3>
+                                             <P3>
+                                                <Pnumber>b</Pnumber>
+                                                <P3para>
+                                                   <Text>where there are no provisions of a relevant agreement which apply, a sum equal to the amount that would be due under regulation 16 in respect of the untaken leave.</Text>
+                                                </P3para>
+                                             </P3>
+                                          </P2para>
+                                       </P2>
+                                       <P2>
+                                          <Pnumber>4</Pnumber>
+                                          <P2para>
+                                             <Text>A relevant agreement may provide that, where—</Text>
+                                             <P3>
+                                                <Pnumber>a</Pnumber>
+                                                <P3para>
+                                                   <Text>the worker’s employment is terminated during the course of their leave year, and</Text>
+                                                </P3para>
+                                             </P3>
+                                             <P3>
+                                                <Pnumber>b</Pnumber>
+                                                <P3para>
+                                                   <Text>the worker has taken more leave than that to which they are entitled under regulation <InternalLink Ref="p00321">15B</InternalLink>,</Text>
+                                                </P3para>
+                                             </P3>
+                                             <Text>the worker must compensate their employer, whether by a payment, by undertaking additional work or otherwise.</Text>
+                                          </P2para>
+                                       </P2>
+                                       <P2>
+                                          <Pnumber>5</Pnumber>
+                                          <P2para>
+                                             <Text>Paragraph <InternalLink Ref="p00499">(2)</InternalLink> does not apply if the worker has in respect of the untaken leave mentioned in that paragraph been paid in the way described in regulation 16A.</Text>
+                                          </P2para>
+                                       </P2>
+                                    </P1para>
+                                 </P1>
+                              </P1group>
+                              <P1group>
+                                 <Title>Meaning of irregular hours workers and part-year workers</Title>
+                                 <P1>
+                                    <Pnumber>15F</Pnumber>
+                                    <P1para>
+                                       <P2>
+                                          <Pnumber>1</Pnumber>
+                                          <P2para>
+                                             <Text>For the purposes of these Regulations—</Text>
+                                             <P3>
+                                                <Pnumber>a</Pnumber>
+                                                <P3para>
+                                                   <Text>a worker is an irregular hours worker, in relation to a leave year, if the number of paid hours that they will work in each pay period during the term of their contract in that year is, under the terms of their contract, wholly or mostly variable;</Text>
+                                                </P3para>
+                                             </P3>
+                                             <P3>
+                                                <Pnumber>b</Pnumber>
+                                                <P3para>
+                                                   <Text>a worker is a part-year worker, in relation to a leave year, if, under the terms of their contract, they are required to work only part of that year and there are periods within that year (during the term of the contract) of at least a week which they are not required to work and for which they are not paid.</Text>
+                                                </P3para>
+                                             </P3>
+                                          </P2para>
+                                       </P2>
+                                       <P2>
+                                          <Pnumber>2</Pnumber>
+                                          <P2para>
+                                             <Text>In a case where a worker has more than one contract with the same employer, the reference in paragraph (1)(a) to the number of paid hours that the worker will work under the terms of their contract being wholly or mostly variable includes a reference to the number being wholly or mostly variable when the terms of their contracts with that employer are looked at in the round.</Text>
+                                          </P2para>
+                                       </P2>
+                                       <P2>
+                                          <Pnumber>3</Pnumber>
+                                          <P2para>
+                                             <Text>In determining whether a worker is a part-year worker in relation to a leave year, any period of sick leave or statutory leave taken by the worker in that leave year is to be ignored.</Text>
+                                          </P2para>
+                                       </P2>
+                                    </P1para>
+                                 </P1>
+                              </P1group>
+                           </BlockAmendment>
+                           <AppendText>.</AppendText>
+                        </P2para>
+                     </P2>
+                     <P2 id="regulation-3-8">
+                        <Pnumber>8</Pnumber>
+                        <P2para>
+                           <Text>In regulation 16 (payment in respect of periods of leave)<FootnoteRef Ref="f00011"/>—</Text>
+                           <P3 id="regulation-3-8-a">
+                              <Pnumber>a</Pnumber>
+                              <P3para>
+                                 <Text>in paragraph (1), for “regulation 13 and regulation 13A” substitute “regulations 13, 13A and 15B”;</Text>
+                              </P3para>
+                           </P3>
+                           <P3 id="regulation-3-8-b">
+                              <Pnumber>b</Pnumber>
+                              <P3para>
+                                 <Text>at the end of paragraph (1) insert—</Text>
+                                 <BlockAmendment TargetClass="secondary"
+                                                 TargetSubClass="unknown"
+                                                 Context="main"
+                                                 Format="double">
+                                    <P2>
+                                       <Pnumber>1A</Pnumber>
+                                       <P2para>
+                                          <Text>The hourly rate of pay in respect of any period of annual leave to which a worker is entitled under regulation 15B is determined according to the formula—</Text>
+                                          <Formula>
+                                             <math xmlns="http://www.w3.org/1998/Math/MathML">
+                                                <mi>A</mi>
+                                                <mo>÷</mo>
+                                                <mi>B</mi>
+                                             </math>
+                                          </Formula>
+                                          <Text>where—</Text>
+                                          <Text>A is the week’s pay mentioned in paragraph (1); and</Text>
+                                          <Text>B is the average number of hours worked by the worker in each week used to calculate A.</Text>
+                                       </P2para>
+                                    </P2>
+                                 </BlockAmendment>
+                                 <AppendText>;</AppendText>
+                              </P3para>
+                           </P3>
+                           <P3 id="regulation-3-8-c">
+                              <Pnumber>c</Pnumber>
+                              <P3para>
+                                 <Text>in paragraph (2), after the words “in paragraph (3)” insert “, the supplementary provisions in paragraphs (3ZA) to (3ZG)”;</Text>
+                              </P3para>
+                           </P3>
+                           <P3 id="regulation-3-8-d">
+                              <Pnumber>d</Pnumber>
+                              <P3para>
+                                 <Text>at the end of paragraph (3)(d) insert—</Text>
+                                 <BlockAmendment TargetClass="secondary"
+                                                 TargetSubClass="unknown"
+                                                 Context="main"
+                                                 Format="double">
+                                    <P3>
+                                       <Pnumber>da</Pnumber>
+                                       <P3para>
+                                          <Text>as if, in the case of entitlement under regulations 13 and 15B, sections 223(3) and 234 did not apply;</Text>
+                                       </P3para>
+                                    </P3>
+                                 </BlockAmendment>
+                                 <AppendText>;</AppendText>
+                              </P3para>
+                           </P3>
+                           <P3 id="regulation-3-8-e">
+                              <Pnumber>e</Pnumber>
+                              <P3para>
+                                 <Text>at the end of paragraph (3) insert—</Text>
+                                 <BlockAmendment TargetClass="secondary"
+                                                 TargetSubClass="unknown"
+                                                 Context="main"
+                                                 Format="double">
+                                    <P2 id="p00624">
+                                       <Pnumber>3ZA</Pnumber>
+                                       <P2para>
+                                          <Text>In the case of entitlement under regulations 13 and 15B the following types of payments are to be included when determining the amount of a week’s pay for the purposes of this regulation—</Text>
+                                          <P3>
+                                             <Pnumber>a</Pnumber>
+                                             <P3para>
+                                                <Text>payments, including commission payments, which are intrinsically linked to the performance of tasks which a worker is obliged to carry out under the terms of their contract;</Text>
+                                             </P3para>
+                                          </P3>
+                                          <P3>
+                                             <Pnumber>b</Pnumber>
+                                             <P3para>
+                                                <Text>payments for professional or personal status relating to length of service, seniority or professional qualifications;</Text>
+                                             </P3para>
+                                          </P3>
+                                          <P3>
+                                             <Pnumber>c</Pnumber>
+                                             <P3para>
+                                                <Text>other payments, such as overtime payments, which have been regularly paid to a worker in the 52 weeks preceding the calculation date.</Text>
+                                             </P3para>
+                                          </P3>
+                                       </P2para>
+                                    </P2>
+                                    <P2 id="p00640">
+                                       <Pnumber>3ZB</Pnumber>
+                                       <P2para>
+                                          <Text>To the extent that the types of payment mentioned in paragraph <InternalLink Ref="p00624">(3ZA)</InternalLink> would not otherwise be accounted for in a calculation of a week’s pay under sections 221 to 224 of the 1996 Act (as those sections apply for the purposes of this regulation), those types of payment are to be included by calculating the average weekly amount of those payments payable in the relevant period and adding it to the amount of a week’s pay arrived at under those sections.</Text>
+                                       </P2para>
+                                    </P2>
+                                    <P2>
+                                       <Pnumber>3ZC</Pnumber>
+                                       <P2para>
+                                          <Text>In the case of a worker who on the calculation date has been employed by their employer for less than 52 complete weeks, the “relevant period” is the number of complete weeks for which the worker has been employed.</Text>
+                                       </P2para>
+                                    </P2>
+                                    <P2>
+                                       <Pnumber>3ZD</Pnumber>
+                                       <P2para>
+                                          <Text>In the case of a worker who on the calculation date has been employed by their employer for 52 or more complete weeks, the “relevant period” is the period of 52 weeks ending—</Text>
+                                          <P3>
+                                             <Pnumber>a</Pnumber>
+                                             <P3para>
+                                                <Text>where the calculation date is the last day of a week, with that week, and</Text>
+                                             </P3para>
+                                          </P3>
+                                          <P3>
+                                             <Pnumber>b</Pnumber>
+                                             <P3para>
+                                                <Text>otherwise, with the last complete week before the calculation date.</Text>
+                                             </P3para>
+                                          </P3>
+                                       </P2para>
+                                    </P2>
+                                    <P2>
+                                       <Pnumber>3ZE</Pnumber>
+                                       <P2para>
+                                          <Text>In calculating the average weekly amount of payments for the purposes of paragraph <InternalLink Ref="p00640">(3ZB)</InternalLink>, no account is to be taken of any weeks during the relevant period in which—</Text>
+                                          <P3>
+                                             <Pnumber>a</Pnumber>
+                                             <P3para>
+                                                <Text>no remuneration was payable to the worker; or</Text>
+                                             </P3para>
+                                          </P3>
+                                          <P3>
+                                             <Pnumber>b</Pnumber>
+                                             <P3para>
+                                                <Text>a worker was, for any amount of time, on sick leave or statutory leave.</Text>
+                                             </P3para>
+                                          </P3>
+                                       </P2para>
+                                    </P2>
+                                    <P2>
+                                       <Pnumber>3ZF</Pnumber>
+                                       <P2para>
+                                          <Text>If, in a case falling within paragraph (3ZD), any weeks are discounted under paragraph (3ZE), earlier weeks shall be taken into account so as to bring the number of weeks to 52 (or as close to 52 as possible).</Text>
+                                       </P2para>
+                                    </P2>
+                                    <P2>
+                                       <Pnumber>3ZG</Pnumber>
+                                       <P2para>
+                                          <Text>For the purposes of paragraph (3ZF) no account is to be taken of remuneration in weeks preceding the period of 104 weeks ending—</Text>
+                                          <P3>
+                                             <Pnumber>a</Pnumber>
+                                             <P3para>
+                                                <Text>where the calculation date is the last day of a week, with that week, and</Text>
+                                             </P3para>
+                                          </P3>
+                                          <P3>
+                                             <Pnumber>b</Pnumber>
+                                             <P3para>
+                                                <Text>otherwise, with the last complete week before the calculation date.</Text>
+                                             </P3para>
+                                          </P3>
+                                       </P2para>
+                                    </P2>
+                                 </BlockAmendment>
+                                 <AppendText>;</AppendText>
+                              </P3para>
+                           </P3>
+                           <P3 id="regulation-3-8-f">
+                              <Pnumber>f</Pnumber>
+                              <P3para>
+                                 <Text>in paragraph (3B), after the words “of paragraphs (3)” insert “, (3ZA) to (3ZG)”.</Text>
+                              </P3para>
+                           </P3>
+                        </P2para>
+                     </P2>
+                     <P2 id="regulation-3-9">
+                        <Pnumber>9</Pnumber>
+                        <P2para>
+                           <Text>After regulation 16 (payment in respect of periods of leave) insert—</Text>
+                           <BlockAmendment TargetClass="secondary"
+                                           TargetSubClass="unknown"
+                                           Context="main"
+                                           Format="double">
+                              <P1group>
+                                 <Title>Rolled-up holiday pay for irregular hours workers and part-year workers</Title>
+                                 <P1>
+                                    <Pnumber>16A</Pnumber>
+                                    <P1para>
+                                       <P2>
+                                          <Pnumber>1</Pnumber>
+                                          <P2para>
+                                             <Text>This regulation applies in relation to pay due to a worker under regulation 16(1) in respect of leave to which the worker is entitled under regulation <InternalLink Ref="p00321">15B</InternalLink>.</Text>
+                                          </P2para>
+                                       </P2>
+                                       <P2 id="p00709">
+                                          <Pnumber>2</Pnumber>
+                                          <P2para>
+                                             <Text>Such holiday pay may be paid by way of a 12.07% uplift to the worker’s remuneration for work done.</Text>
+                                          </P2para>
+                                       </P2>
+                                       <P2>
+                                          <Pnumber>3</Pnumber>
+                                          <P2para>
+                                             <Text>Holiday pay paid in accordance with paragraph <InternalLink Ref="p00709">(2)</InternalLink> must be paid at the same time as the worker’s remuneration for work done.</Text>
+                                          </P2para>
+                                       </P2>
+                                       <P2>
+                                          <Pnumber>4</Pnumber>
+                                          <P2para>
+                                             <Text>A worker—</Text>
+                                             <P3>
+                                                <Pnumber>a</Pnumber>
+                                                <P3para>
+                                                   <Text>who is on sick leave or statutory leave, and</Text>
+                                                </P3para>
+                                             </P3>
+                                             <P3>
+                                                <Pnumber>b</Pnumber>
+                                                <P3para>
+                                                   <Text>who was, before going on sick leave or statutory leave, paid holiday pay in the way described in paragraph <InternalLink Ref="p00709">(2)</InternalLink>,</Text>
+                                                </P3para>
+                                             </P3>
+                                             <Text>must be paid holiday pay in accordance with paragraph <InternalLink Ref="p00734">(5)</InternalLink> in respect of the annual leave that they accrue during the period of sick leave or statutory leave.</Text>
+                                          </P2para>
+                                       </P2>
+                                       <P2 id="p00734">
+                                          <Pnumber>5</Pnumber>
+                                          <P2para>
+                                             <Text>Such holiday pay is to be paid by way of a payment each pay period during the period of sick leave or statutory leave which is equal to the average amount of holiday pay that the worker was paid for each pay period during the relevant period.</Text>
+                                          </P2para>
+                                       </P2>
+                                       <P2>
+                                          <Pnumber>6</Pnumber>
+                                          <P2para>
+                                             <Text>In paragraph <InternalLink Ref="p00734">(5)</InternalLink> the “relevant period” means—</Text>
+                                             <P3>
+                                                <Pnumber>a</Pnumber>
+                                                <P3para>
+                                                   <Text>the period of 52 weeks ending with the day before the day on which the worker started the sick leave or statutory leave, or</Text>
+                                                </P3para>
+                                             </P3>
+                                             <P3>
+                                                <Pnumber>b</Pnumber>
+                                                <P3para>
+                                                   <Text>if the worker has been receiving holiday pay in the way described in paragraph <InternalLink Ref="p00709">(2)</InternalLink> for a period of less than 52 complete weeks before starting the sick leave or statutory leave, that lesser period.</Text>
+                                                </P3para>
+                                             </P3>
+                                          </P2para>
+                                       </P2>
+                                       <P2 id="p00752">
+                                          <Pnumber>7</Pnumber>
+                                          <P2para>
+                                             <Text>Where an employer pays a worker holiday pay in the way described in paragraph <InternalLink Ref="p00709">(2)</InternalLink> or <InternalLink Ref="p00734">(5)</InternalLink> any itemised pay statement provided by the employer to the worker must indicate the amount of holiday pay that has been paid for the period to which the statement relates.</Text>
+                                          </P2para>
+                                       </P2>
+                                       <P2>
+                                          <Pnumber>8</Pnumber>
+                                          <P2para>
+                                             <Text>An employer who, in respect of annual leave to which a worker is entitled under regulation 15B, pays holiday pay to the worker in accordance with paragraph <InternalLink Ref="p00709">(2)</InternalLink> or <InternalLink Ref="p00734">(5)</InternalLink> is discharged from their liability to make payments to the worker in the manner described in regulation 16 in respect of that annual leave.</Text>
+                                          </P2para>
+                                       </P2>
+                                       <P2>
+                                          <Pnumber>9</Pnumber>
+                                          <P2para>
+                                             <Text>In paragraph <InternalLink Ref="p00709">(2)</InternalLink> the reference to remuneration is a reference to all types of payments that are to be included when determining the amount of a week’s pay for the purposes of regulation 16.</Text>
+                                          </P2para>
+                                       </P2>
+                                       <P2>
+                                          <Pnumber>10</Pnumber>
+                                          <P2para>
+                                             <Text>In paragraph <InternalLink Ref="p00752">(7)</InternalLink>, the reference to an itemised pay statement is to a statement given to a worker under section 8 of the 1996 Act.</Text>
+                                          </P2para>
+                                       </P2>
+                                    </P1para>
+                                 </P1>
+                              </P1group>
+                           </BlockAmendment>
+                           <AppendText>.</AppendText>
+                        </P2para>
+                     </P2>
+                     <P2 id="regulation-3-10">
+                        <Pnumber>10</Pnumber>
+                        <P2para>
+                           <Text>In regulation 30 (remedies)<FootnoteRef Ref="f00012"/>—</Text>
+                           <P3 id="regulation-3-10-a">
+                              <Pnumber>a</Pnumber>
+                              <P3para>
+                                 <Text>in paragraph (1)—</Text>
+                                 <P4 id="regulation-3-10-a-i">
+                                    <Pnumber>i</Pnumber>
+                                    <P4para>
+                                       <Text>in sub-paragraph (a)(i) for “or 13A” substitute “, 13A, <InternalLink Ref="p00321">15B</InternalLink> or <InternalLink Ref="p00443">15D</InternalLink>”;</Text>
+                                    </P4para>
+                                 </P4>
+                                 <P4 id="regulation-3-10-a-ii">
+                                    <Pnumber>ii</Pnumber>
+                                    <P4para>
+                                       <Text>in sub-paragraph (b) for “or 16(1)” substitute “, 15E, 16(1) or 16A”;</Text>
+                                    </P4para>
+                                 </P4>
+                              </P3para>
+                           </P3>
+                           <P3 id="regulation-3-10-b">
+                              <Pnumber>b</Pnumber>
+                              <P3para>
+                                 <Text>in paragraph (5) for “or 16(1)” substitute “or (5), 15E, 16(1) or 16A”.</Text>
+                              </P3para>
+                           </P3>
+                        </P2para>
+                     </P2>
+                     <P2 id="regulation-3-11">
+                        <Pnumber>11</Pnumber>
+                        <P2para>
+                           <Text>In paragraph 1(a) of Schedule 2, (workers employed in agriculture)<FootnoteRef Ref="f00013"/> for “regulation 13 and regulation 13A” substitute “regulations 13, 13A and 15B”.</Text>
+                        </P2para>
+                     </P2>
+                  </P1para>
+               </P1>
+            </P1group>
+            <P1group>
+               <Title>Transitional and savings provisions</Title>
+               <P1 id="regulation-4">
+                  <Pnumber>4</Pnumber>
+                  <P1para>
+                     <Text>Where a worker relied on regulation 13(10) and (11) of the 1998 Regulations to carry forward leave, that leave—</Text>
+                     <P3 id="regulation-4-a">
+                        <Pnumber>a</Pnumber>
+                        <P3para>
+                           <Text>must be taken on or before 31st March 2024, and</Text>
+                        </P3para>
+                     </P3>
+                     <P3 id="regulation-4-b">
+                        <Pnumber>b</Pnumber>
+                        <P3para>
+                           <Text>may not be replaced by a payment in lieu except where the worker’s employment is terminated on or before that date, in which case the employer must make the worker a payment in lieu of leave equal to the sum due under regulation 16 of the 1998 Regulations for the period of untaken leave.</Text>
+                        </P3para>
+                     </P3>
+                  </P1para>
+               </P1>
+            </P1group>
+            <P1group>
+               <Title>Consequential amendment</Title>
+               <P1 id="regulation-5">
+                  <Pnumber>5</Pnumber>
+                  <P1para>
+                     <Text>In regulation 4(6)(a) of the Road Transport (Working Time) Regulations 2005 (working time)<FootnoteRef Ref="f00014"/> after “13” insert “or 15B”.</Text>
+                  </P1para>
+               </P1>
+            </P1group>
+            <P1group>
+               <Title>Revocation of Working Time (Coronavirus) (Amendment) Regulations 2020</Title>
+               <P1 id="regulation-6">
+                  <Pnumber>6</Pnumber>
+                  <P1para>
+                     <Text>The Working Time (Coronavirus) (Amendment) Regulations 2020<FootnoteRef Ref="f00015"/> are revoked.</Text>
+                  </P1para>
+               </P1>
+            </P1group>
+         </Part>
+         <Part id="part-3">
+            <Number>Part 3</Number>
+            <Title>Records</Title>
+            <P1group>
+               <Title>Amendment of regulation 9 of the 1998 Regulations</Title>
+               <P1 id="regulation-7">
+                  <Pnumber>7</Pnumber>
+                  <P1para>
+                     <P2 id="regulation-7-1">
+                        <Pnumber>1</Pnumber>
+                        <P2para>
+                           <Text>Regulation 9 of the 1998 Regulations (records)<FootnoteRef Ref="f00016"/> is amended as follows.</Text>
+                        </P2para>
+                     </P2>
+                     <P2 id="regulation-7-2">
+                        <Pnumber>2</Pnumber>
+                        <P2para>
+                           <Text>The existing text becomes paragraph (1).</Text>
+                        </P2para>
+                     </P2>
+                     <P2 id="regulation-7-3">
+                        <Pnumber>3</Pnumber>
+                        <P2para>
+                           <Text>In paragraph (1), as so renumbered, for sub-paragraph (a), substitute—</Text>
+                           <BlockAmendment TargetClass="secondary"
+                                           TargetSubClass="unknown"
+                                           Context="main"
+                                           Format="double">
+                              <P3>
+                                 <Pnumber>a</Pnumber>
+                                 <P3para>
+                                    <Text>keep records which are adequate to show whether the employer has complied with the limits specified in regulations 4(1), 5A(1) and 6(1) and (7) and the requirements in regulations 6A and 7(1) and (2);</Text>
+                                 </P3para>
+                              </P3>
+                           </BlockAmendment>
+                           <AppendText>.</AppendText>
+                        </P2para>
+                     </P2>
+                     <P2 id="regulation-7-4">
+                        <Pnumber>4</Pnumber>
+                        <P2para>
+                           <Text>After paragraph (1), as so renumbered, insert—</Text>
+                           <BlockAmendment TargetClass="secondary"
+                                           TargetSubClass="unknown"
+                                           Context="main"
+                                           Format="double">
+                              <P2>
+                                 <Pnumber>2</Pnumber>
+                                 <P2para>
+                                    <Text>The records referred to in paragraph (1)(a) may be created, maintained and kept in such manner and format as the employer reasonably thinks fit.</Text>
+                                 </P2para>
+                              </P2>
+                              <P2>
+                                 <Pnumber>3</Pnumber>
+                                 <P2para>
+                                    <Text>An employer need not record each worker’s daily working hours in order to comply with paragraph (1) if the employer is able to demonstrate compliance without doing so.</Text>
+                                 </P2para>
+                              </P2>
+                           </BlockAmendment>
+                           <AppendText>.</AppendText>
+                        </P2para>
+                     </P2>
+                  </P1para>
+               </P1>
+            </P1group>
+         </Part>
+         <Part id="part-4">
+            <Number>Part 4</Number>
+            <Title>Transfer of undertakings</Title>
+            <P1group>
+               <Title>Application of regulation</Title>
+               <P1 id="regulation-8">
+                  <Pnumber>8</Pnumber>
+                  <P1para>
+                     <P2 id="regulation-8-1">
+                        <Pnumber>1</Pnumber>
+                        <P2para>
+                           <Text>The amendments made by regulation 9 apply in relation to a TUPE transfer which takes place on or after 1st July 2024.</Text>
+                        </P2para>
+                     </P2>
+                     <P2 id="regulation-8-2">
+                        <Pnumber>2</Pnumber>
+                        <P2para>
+                           <Text>For the purposes of paragraph (1), a “TUPE transfer” means—</Text>
+                           <P3 id="regulation-8-2-a">
+                              <Pnumber>a</Pnumber>
+                              <P3para>
+                                 <Text>a relevant transfer under the Transfer of Undertakings (Protection of Employment) Regulations 2006<FootnoteRef Ref="f00017"/>, or</Text>
+                              </P3para>
+                           </P3>
+                           <P3 id="regulation-8-2-b">
+                              <Pnumber>b</Pnumber>
+                              <P3para>
+                                 <Text>anything else regarded, by virtue of an enactment, as a relevant transfer for the purposes of those Regulations.</Text>
+                              </P3para>
+                           </P3>
+                        </P2para>
+                     </P2>
+                  </P1para>
+               </P1>
+            </P1group>
+            <P1group>
+               <Title>Amendment of the Transfer of Undertakings (Protection of Employment) Regulations 2006</Title>
+               <P1 id="regulation-9">
+                  <Pnumber>9</Pnumber>
+                  <P1para>
+                     <P2 id="regulation-9-1">
+                        <Pnumber>1</Pnumber>
+                        <P2para>
+                           <Text>Regulation 13A of the Transfer of Undertakings (Protection of Employment) Regulations 2006 (micro-business’s duty to inform and consult where no appropriate representatives)<FootnoteRef Ref="f00018"/> is amended as follows.</Text>
+                        </P2para>
+                     </P2>
+                     <P2 id="regulation-9-2">
+                        <Pnumber>2</Pnumber>
+                        <P2para>
+                           <Text>In the heading for “Micro-business’s” substitute “Variation to the”.</Text>
+                        </P2para>
+                     </P2>
+                     <P2 id="regulation-9-3">
+                        <Pnumber>3</Pnumber>
+                        <P2para>
+                           <Text>In paragraph (1), for sub-paragraph (a) substitute—</Text>
+                           <BlockAmendment TargetClass="secondary"
+                                           TargetSubClass="unknown"
+                                           Context="main"
+                                           Format="double">
+                              <P3>
+                                 <Pnumber>a</Pnumber>
+                                 <P3para>
+                                    <Text>at least one of the following conditions is satisfied—</Text>
+                                    <P4>
+                                       <Pnumber>i</Pnumber>
+                                       <P4para>
+                                          <Text>the employer employs fewer than 50 employees;</Text>
+                                       </P4para>
+                                    </P4>
+                                    <P4>
+                                       <Pnumber>ii</Pnumber>
+                                       <P4para>
+                                          <Text>there are fewer than 10 transferring employees.</Text>
+                                       </P4para>
+                                    </P4>
+                                 </P3para>
+                              </P3>
+                           </BlockAmendment>
+                           <AppendText>.</AppendText>
+                        </P2para>
+                     </P2>
+                     <P2 id="regulation-9-4">
+                        <Pnumber>4</Pnumber>
+                        <P2para>
+                           <Text>After paragraph (1) insert—</Text>
+                           <BlockAmendment TargetClass="secondary"
+                                           TargetSubClass="unknown"
+                                           Context="main"
+                                           Format="double">
+                              <P2>
+                                 <Pnumber>1A</Pnumber>
+                                 <P2para>
+                                    <Text>For the purposes of paragraph (1)(a)(ii), “transferring employees” means the employees who work for the transferor and who are to be (or are likely to be) transferred to the transferee’s employment under a relevant transfer.</Text>
+                                 </P2para>
+                              </P2>
+                           </BlockAmendment>
+                           <AppendText>.</AppendText>
+                        </P2para>
+                     </P2>
+                  </P1para>
+               </P1>
+            </P1group>
+         </Part>
+         <Part id="part-5">
+            <Number>Part 5</Number>
+            <Title>The European Cooperative Society</Title>
+            <P1group>
+               <Title>Revocation</Title>
+               <P1 id="regulation-10">
+                  <Pnumber>10</Pnumber>
+                  <P1para>
+                     <Text>The European Cooperative Society (Involvement of Employees) Regulations 2006<FootnoteRef Ref="f00019"/> are revoked.</Text>
+                  </P1para>
+               </P1>
+            </P1group>
+         </Part>
+         <SignedSection>
+            <Signatory>
+               <Signee>
+                  <PersonName>Kevin Hollinrake</PersonName>
+                  <JobTitle>Parliamentary Under Secretary of State</JobTitle>
+                  <DateSigned Date="2023-12-19">
+                     <DateText>19th December 2023</DateText>
+                  </DateSigned>
+                  <Department>Department for Business and Trade</Department>
+               </Signee>
+            </Signatory>
+         </SignedSection>
+      </Body>
+      <ExplanatoryNotes>
+         <Title>Explanatory Note</Title>
+         <Comment>
+            <Para>
+               <Text>(This note is not part of the Regulations)</Text>
+            </Para>
+         </Comment>
+         <P>
+            <Text>These Regulations make provision relating to employment under the Work and Families Act 2006 (c. 18) and the Retained EU Law (Revocation and Reform) Act 2023 (c. 28) (“2023 Act”) by way of amendments to the Working Time Regulations 1998 (S.I. 1998/1833) (“1998 Regulations”) and the Transfer of Undertakings (Protection of Employment) Regulations 2006 (S.I. 2006/246) and revoking the European Cooperative Society (Involvement of Employees) Regulations 2006 (S.I. 2006/2059).</Text>
+         </P>
+         <P>
+            <Text>Regulation 3 amends the 1998 Regulations to make new provision about the amount of paid annual leave to which irregular hours workers and part-year workers are entitled. The new provision for those workers includes a method for accrual of leave for those workers, sets out when they may take that leave and/or when it can be carried forward, and what is to happen if they take more or less annual leave than they are entitled to take in a leave year. A new provision is also made to allow for these annual leave entitlements to be paid by way of an uplift to the worker’s pay at the time of accrual rather than by paying the holiday pay in the period that the leave is taken. This practice had previously been ruled unlawful by the Court of Justice of the European Union in case C-131/04 Robinson Steele v RD Retail Services Ltd [2006] IRLR 386, which required holiday pay to be paid at the time leave was taken. These new provisions for irregular hours workers and part-year workers are inserted into the 1998 Regulations by paragraphs (7) and (9) of regulation 3 of these Regulations.</Text>
+         </P>
+         <P>
+            <Text>Additionally, regulation 3 amends regulations 13 and 13A of the 1998 Regulations to include express provision about the rights of workers, in certain circumstances, to carry forward annual leave into subsequent leave years. Regulation 16 of the 1998 Regulations is also amended to include express provision about the calculation of holiday pay in relation to annual leave taken under regulation 13, which is often referred to as “normal pay”. These new express provisions restate certain employment rights to ensure those rights continue once the interpretive effects of EU law on the United Kingdom’s statute book have been removed at the end of 2023.</Text>
+         </P>
+         <P>
+            <Text>Additionally, regulation 3 amends regulation 13 to omit paragraphs introduced by the Working Time (Coronavirus) (Amendment) Regulations 2020 (S.I. 2020/365) which enabled leave to be carried forward into the following leave year where it was not reasonably practicable for a worker to take the annual leave due to the effects of coronavirus. Regulation 4 makes transitional and savings provision in relation to this amendment and regulation 6 revokes the Working Time (Coronavirus) (Amendment) Regulations 2020 . Regulation 5 makes a consequential amendment to the Road Transport (Working Time) Regulations 2005 (S.I. 2005/639).</Text>
+         </P>
+         <P>
+            <Text>Part 3 amends regulation 9 of the 1998 Regulations which relates to the keeping of records by employers in relation to time worked by their employees. Regulation 9 is secondary retained EU law within the meaning of section 11(2) of the 2023 Act and can therefore be revoked and replaced under section 14 of that Act.</Text>
+         </P>
+         <P>
+            <Text>The amended regulation 9 of the 1998 Regulations makes clear that the manner and format in which such records are to be created, maintained and kept is at the reasonable discretion of the employer and that the employer need not record each worker’s daily working hours to comply with the record keeping requirement. The effect of this is that the record-keeping obligations of employers under regulation 9 of the 1998 Regulations are not as provided by the decision of the Court of Justice of the European Union in case C-55/18 Federación de Servicios de Comisiones Obreras (CCOO) v Deutsche Bank SAE [2020] ICR 48.</Text>
+         </P>
+         <P>
+            <Text>Part 4 of these Regulations makes amendments to the Transfer of Undertakings (Protection of Employment) Regulations 2006. Regulation 8 provides that the amendments apply to transfers that take place on or after 1 July 2024. Regulation 9 amends regulation 13A of the 2006 Regulations. Regulation 13A currently provides that a micro-business can comply with the relevant information and consultation requirements by informing and consulting directly with the affected employees in circumstances where there are no existing appropriate representatives. The amendments to regulation 13A provide that the circumstances in which employers can inform and consult directly with employees will extend to businesses with fewer than 50 employees; and also where there are fewer than 10 employees transferring (regardless of the size of the employer).</Text>
+         </P>
+         <P>
+            <Text>Part 5 revokes an instrument relating to the involvement of employees in the European Cooperative Society (known as the “SCE”).</Text>
+         </P>
+         <P>
+            <Text>A full impact assessment in regard to the reforms in Parts 2 and 3 has been produced for this instrument and is published alongside these Regulations. A full impact assessment has not been produced for Parts 4 and 5 as no, or no significant, impact on the private, voluntary or public sector is foreseen.</Text>
+         </P>
+      </ExplanatoryNotes>
+   </Secondary>
+   <Footnotes>
+      <Footnote id="f00001">
+         <FootnoteText>
+            <Para>
+               <Text>2006 c. 18. Section 13 was amended by S.I. 2019/536.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00002">
+         <FootnoteText>
+            <Para>
+               <Text>2023 c. 28.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00003">
+         <FootnoteText>
+            <Para>
+               <Text>The term “relevant national authority” is defined in section 21(1) of the Retained EU Law (Revocation and Reform) Act 2023.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00004">
+         <FootnoteText>
+            <Para>
+               <Text>S.I. 1998/1833.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00005">
+         <FootnoteText>
+            <Para>
+               <Text>Regulation 4 was amended by S.I. 1999/3372 and 2002/3128.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00006">
+         <FootnoteText>
+            <Para>
+               <Text>Regulation 13 was amended by S.I. 2001/3256, 2007/2079, 2013/2228 and 2020/365.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00007">
+         <FootnoteText>
+            <Para>
+               <Text>Regulation 13A was inserted by S.I. 2007/2079.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00008">
+         <FootnoteText>
+            <Para>
+               <Text>Regulation 14(5) was originally inserted by S.I. 2020/365, which is revoked by regulation 6 of these Regulations. Other relevant amendments to regulation 14 were made by S.I. 2001/3256 and 2007/2079.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00009">
+         <FootnoteText>
+            <Para>
+               <Text>Regulation 15 was amended by S.I. 2001/3256, 2007/2079, 2013/2228 and 2020/365.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00010">
+         <FootnoteText>
+            <Para>
+               <Text>Regulation 15A was inserted by S.I. 2001/3256.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00011">
+         <FootnoteText>
+            <Para>
+               <Text>Regulation 16 was amended by S.I. 2007/2079, 2014/3322 and 2018/1378.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00012">
+         <FootnoteText>
+            <Para>
+               <Text>Regulation 30 was amended by S.I. 2003/1684, 2004/752, 2007/2079, 2011/1133, 2014/386, 2019/469 and 2020/1493.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00013">
+         <FootnoteText>
+            <Para>
+               <Text>Schedule 2 was amended by the Agricultural Sector (Wales) Act 2014 (anaw 6), S.I. 2007/2079 and 2013/2228.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00014">
+         <FootnoteText>
+            <Para>
+               <Text>S.I. 2005/639, to which there are amendments not relevant to these Regulations.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00015">
+         <FootnoteText>
+            <Para>
+               <Text>S.I. 2020/365.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00016">
+         <FootnoteText>
+            <Para>
+               <Text>Regulation 9 was amended by S.I. 2002/3128.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00017">
+         <FootnoteText>
+            <Para>
+               <Text>S.I. 2006/246.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00018">
+         <FootnoteText>
+            <Para>
+               <Text>Regulation 13A was inserted by S.I. 2014/16.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00019">
+         <FootnoteText>
+            <Para>
+               <Text>S.I. 2006/2059.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+   </Footnotes>
+</Legislation>

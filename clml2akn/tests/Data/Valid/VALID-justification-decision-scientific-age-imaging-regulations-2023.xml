@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Legislation xmlns="http://www.legislation.gov.uk/namespaces/legislation"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             SchemaVersion="2.0"
+             xsi:schemaLocation="http://www.legislation.gov.uk/namespaces/legislation http://www.legislation.gov.uk/schema/legislation.xsd">
+   <Metadata xmlns="http://www.legislation.gov.uk/namespaces/metadata"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <dc:title>The Justification Decision (Scientific Age Imaging) Regulations 2023</dc:title>
+      <dc:modified>2024-05-08</dc:modified>
+      <SecondaryMetadata>
+         <DocumentClassification>
+            <DocumentCategory Value="secondary"/>
+            <DocumentMainType Value="UnitedKingdomDraftStatutoryInstrument"/>
+            <DocumentStatus Value="draft"/>
+            <DocumentMinorType Value="regulation"/>
+         </DocumentClassification>
+         <Year Value="2023"/>
+         <Number Value=""/>
+      </SecondaryMetadata>
+   </Metadata>
+   <Secondary>
+      <SecondaryPrelims>
+         <Draft>
+            <Para>
+               <Text>Draft Regulations laid before Parliament under regulation 5(3) of the Justification Decision Power (Amendment) (EU Exit) Regulations 2019, for approval by resolution of each House of Parliament.</Text>
+            </Para>
+         </Draft>
+         <Number> 2023 No.   </Number>
+         <SubjectInformation>
+            <Subject>
+               <Title>HEALTH AND SAFETY</Title>
+            </Subject>
+         </SubjectInformation>
+         <Title> The Justification Decision (Scientific Age Imaging) Regulations 2023 </Title>
+         <MadeDate>
+            <Text>Made</Text>
+            <DateText> </DateText>
+         </MadeDate>
+         <ComingIntoForce>
+            <Text>Coming into force</Text>
+         </ComingIntoForce>
+         <SecondaryPreamble>
+            <EnactingText>
+               <Para>
+                  <Text>The Secretary of State, in the exercise of the powers conferred by regulation 4 of the Justification Decision Power (Amendment) (EU Exit) Regulations 2019<FootnoteRef Ref="f00001"/> (“the 2019 Regulations”), makes these Regulations.</Text>
+               </Para>
+               <Para>
+                  <Text>These Regulations are made in accordance with the requirements of regulation 14 of the Justification of Practices Involving Ionising Radiation Regulations 2004<FootnoteRef Ref="f00002"/> (“the 2004 Regulations”).</Text>
+               </Para>
+               <Para>
+                  <Text>The Secretary of State has consulted the persons required to be consulted under regulation 18 of the 2004 Regulations<FootnoteRef Ref="f00003"/> and such other persons as the Secretary of State considered it appropriate to consult and has taken such steps as the Secretary of State considered appropriate to bring the proposed decision contained in these Regulations to the attention of any person likely to be affected by the decision.</Text>
+               </Para>
+               <Para>
+                  <Text>A draft of these Regulations was laid before and approved by a resolution of each House of Parliament in accordance with regulation 5(3) of the 2019 Regulations.</Text>
+               </Para>
+            </EnactingText>
+         </SecondaryPreamble>
+      </SecondaryPrelims>
+      <Body>
+         <P1group>
+            <Title>Citation, commencement and extent</Title>
+            <P1 id="regulation-1">
+               <Pnumber>1</Pnumber>
+               <P1para>
+                  <P2 id="regulation-1-1">
+                     <Pnumber>1</Pnumber>
+                     <P2para>
+                        <Text>These Regulations may be cited as the Justification Decision (Scientific Age Imaging) Regulations 2023 and come into force on the day after the day on which they are made.</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="regulation-1-2">
+                     <Pnumber>2</Pnumber>
+                     <P2para>
+                        <Text>These Regulations extend to the United Kingdom.</Text>
+                     </P2para>
+                  </P2>
+               </P1para>
+            </P1>
+         </P1group>
+         <P1group>
+            <Title>Interpretation</Title>
+            <P1 id="regulation-2">
+               <Pnumber>2</Pnumber>
+               <P1para>
+                  <Text>In these Regulations—</Text>
+                  <UnorderedList Class="Definition" Decoration="none">
+                     <ListItem id="p00109">
+                        <Para>
+                           <Text>“<Term>the scientific age imaging practice</Term>” means the class or type of practice which is the radiography of one or more of the third molar, the hand and the wrist of an age-disputed person;</Text>
+                        </Para>
+                     </ListItem>
+                     <ListItem id="p00113">
+                        <Para>
+                           <Text>“<Term>age-disputed person</Term>” has the meaning given by section 49(1) of the Nationality and Borders Act 2022<FootnoteRef Ref="f00004"/>.</Text>
+                        </Para>
+                     </ListItem>
+                  </UnorderedList>
+               </P1para>
+            </P1>
+         </P1group>
+         <P1group>
+            <Title>Justification decision</Title>
+            <P1 id="regulation-3">
+               <Pnumber>3</Pnumber>
+               <P1para>
+                  <Text>For the purposes of regulation 14(1) of the 2004 Regulations, subject to regulations 4 and 5 of these Regulations, the scientific age imaging practice is justified.</Text>
+               </P1para>
+            </P1>
+         </P1group>
+         <P1group>
+            <Title>Condition</Title>
+            <P1 id="regulation-4">
+               <Pnumber>4</Pnumber>
+               <P1para>
+                  <Text>In accordance with regulation 11 of the 2004 Regulations, the justification decision is subject to the condition that results from the scientific age imaging practice may only be used to determine, using a likelihood ratio approach, whether there is more support for the age which the age-disputed person has been assessed to be following an appropriate, fair and reasonable age assessment, or for the age which the age-disputed person claims to be.</Text>
+               </P1para>
+            </P1>
+         </P1group>
+         <P1group>
+            <Title>Computed tomography</Title>
+            <P1 id="regulation-5">
+               <Pnumber>5</Pnumber>
+               <P1para>
+                  <Text>The justification decision does not extend to the use of computed tomography for the purposes of assessing age.</Text>
+               </P1para>
+            </P1>
+         </P1group>
+         <SignedSection>
+            <Signatory>
+               <Signee>
+                  <PersonName>Name</PersonName>
+                  <JobTitle>Secretary of State for Justice</JobTitle>
+                  <Department>Ministry of Justice</Department>
+               </Signee>
+            </Signatory>
+         </SignedSection>
+      </Body>
+      <ExplanatoryNotes>
+         <Title>Explanatory Note</Title>
+         <Comment>
+            <Para>
+               <Text>(This note is not part of the Regulations)</Text>
+            </Para>
+         </Comment>
+         <P>
+            <Text>By these Regulations the Secretary of State makes a justification decision in accordance with the Justification of Practices Involving Ionising Radiation Regulations 2004 (S.I. 2004/1769) (“the 2004 Regulations”). The 2004 Regulations lay down basic safety standards for the protection of the health of workers and the general public against the dangers arising from ionizing radiation.</Text>
+         </P>
+         <P>
+            <Text>The 2004 Regulations prohibit the carrying out of new classes or types of practice involving ionising radiation. A class or type of practice is “new” where no practice within that class or type of practice was carried out in the United Kingdom before 13th May 2000 and no justification decision has been made that that class or type of practice is justified. Where the Secretary of State has determined that a class or type of practice is new and the Justifying Authority (defined in regulation 6 of the 2004 Regulations) is satisfied that the new class or type of practice is justified (defined in regulation 4(2) of the 2004 Regulations to mean that the individual or societal benefits resulting from the class or type of practice outweigh the health detriments it may cause), the Authority must make a decision to that effect (a justification decision) in the form of regulations (regulation 14 of the 2004 Regulations).</Text>
+         </P>
+         <P>
+            <Text>Regulation 2 of these Regulations sets out relevant definitions, including the class or type of practice known as the scientific age imaging practice. ‘Appropriate, fair and reasonable age assessment’ is not defined in the Regulations. Case law (including <Emphasis>R(B) v Merton London Borough Council [2003] 4 All ER 280</Emphasis>) sets out what is necessary for an ‘appropriate, fair and reasonable age assessment’.</Text>
+         </P>
+         <P>
+            <Text>The Secretary of State is the Justifying Authority in relation to that class or type of practice and has previously determined that the scientific age imaging practice is a new class or type of practice. Under regulation 3, the Secretary of State makes a justification decision that the scientific age imaging practice is justified.</Text>
+         </P>
+         <P>
+            <Text>Regulation 4 makes the justification decision subject to the condition that results from the scientific age imaging practice may only be used for the purpose specified in that regulation. Regulation 5 provides that the use of computed tomography (a type of radiography) for the purposes of assessing age is not justified.</Text>
+         </P>
+         <P>
+            <Text>A full regulatory impact assessment has not been produced for this instrument because there is no, or no significant, impact on the private, voluntary or public sectors.</Text>
+         </P>
+      </ExplanatoryNotes>
+   </Secondary>
+   <Footnotes>
+      <Footnote id="f00001">
+         <FootnoteText>
+            <Para>
+               <Text>S.I. 2019/215.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00002">
+         <FootnoteText>
+            <Para>
+               <Text>S.I. 2004/1769. Regulation 14(1) was amended by S.I. 2019/215.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00003">
+         <FootnoteText>
+            <Para>
+               <Text>Regulation 18 was amended by S.I. 2013/235, S.I. 2013/1821, S.I. 2014/469, S.I. 2018/378 and S.I. 2018/430.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00004">
+         <FootnoteText>
+            <Para>
+               <Text>2022 c. 36.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+   </Footnotes>
+</Legislation>
