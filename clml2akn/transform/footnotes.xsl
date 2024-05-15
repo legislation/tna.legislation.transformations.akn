@@ -22,10 +22,10 @@
 	<xsl:variable name="class" as="xs:string">
 		<xsl:choose>
 			<xsl:when test="exists($footnote/ancestor::html:tfoot)">
-				<xsl:sequence>tablenote</xsl:sequence>
+				<xsl:sequence select="'tablenote'" />
 			</xsl:when>
 			<xsl:otherwise>
-				<xsl:sequence>footnote</xsl:sequence>
+				<xsl:sequence select="'footnote'" />
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:variable>
