@@ -9,9 +9,10 @@
 	xmlns:ukl="http://www.legislation.gov.uk/namespaces/legislation"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xmlns:local="http://www.jurisdatum.com/tna/clml2akn"
-	exclude-result-prefixes="xs local">
+	xmlns:saxon="http://saxon.sf.net/"
+	exclude-result-prefixes="xs local saxon">
 
-<xsl:output method="xml" version="1.0" encoding="utf-8" omit-xml-declaration="no" indent="yes" suppress-indentation="block p num heading subheading" />
+<xsl:output method="xml" version="1.0" encoding="utf-8" omit-xml-declaration="no" indent="yes" saxon:suppress-indentation="block p num heading subheading" />
 
 <xsl:strip-space elements="*" />
 <xsl:preserve-space elements="Text Emphasis Strong Underline SmallCaps Superior Inferior Uppercase Underline Expanded Strike Definition Proviso Abbreviation Acronym Term Span Citation CitationSubRef InternalLink ExternalLink InlineAmendment Addition Substitution Repeal" />

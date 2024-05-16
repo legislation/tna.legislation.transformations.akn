@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../schemas/akomantoso30.xsd">
+	<?DMS-Component componentId="74797763-091f-4466-babb-bf05786d3857" seriesId="18d77e5c-bf7f-4ac6-833e-ef05710c66dd" versionNumber="0"?>
+	<bill contains="originalVersion" name="ukdsi">
+		<meta>
+			<?DMS-Component componentId="104b0c82-321b-441d-b59e-8d294c47ddc3" seriesId="4b875678-2302-49e4-913b-2fb79098f08d" versionNumber="0"?>
+			<identification source="#ldapp">
+				<FRBRWork>
+					<FRBRthis value="#varWork"/>
+					<FRBRuri value="#varWorkUri"/>
+					<FRBRalias name="ttflConfigHistory" value="#varCHOiid"/>
+					<FRBRdate date="9999-01-01" name="ukdsi"/>
+					<FRBRauthor href="#varAuthor"/>
+					<FRBRcountry value="GB-SCT"/>
+					<FRBRsubtype value="#varDocSubType"/>
+					<FRBRnumber value="#varProjectId"/>
+					<FRBRname value="#varSITitle"/>
+					<FRBRprescriptive value="true"/>
+					<FRBRauthoritative value="false"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="#varExpression"/>
+					<FRBRuri value="#varExpressionUri"/>
+					<FRBRalias name="ttflVersionDescription" value="#varVDOiid"/>
+					<FRBRdate date="9999-01-01" name="draft"/>
+					<FRBRauthor href="#varAuthor"/>
+					<FRBRversionNumber value=""/>
+					<FRBRauthoritative value="false"/>
+					<FRBRmasterExpression href="" showAs=""/>
+					<FRBRlanguage language="eng"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="#varManifestation"/>
+					<FRBRuri value="#varManifestationUri"/>
+					<FRBRdate date="9999-01-01" name="akn_xml"/>
+					<FRBRauthor href="#varAuthor"/>
+					<FRBRformat value="application/akn+xml"/>
+				</FRBRManifestation>
+			</identification>
+			<references source="#author">
+				<TLCConcept GUID="_99103122-878d-4f95-b961-258a9712ccf2" eId="varDocSubType" href="#varOntologies" showAs="Regulations"/>
+				<TLCConcept GUID="_c52f54ad-b1d0-415d-aa0d-ea36fe89cdc8" eId="varSITitle" href="#varOntologies" showAs="The Accounting Standards (Prescribed Bodies) (United States of America and Japan) (Amendment) Regulations 2024"/>
+				<TLCProcess GUID="_86a5e21e-34fe-46ab-bfed-137ba64c5dc2" eId="varProcedureType" href="#varOntologies" showAs="Draft Affirmative"/>
+				<TLCProcess GUID="_c62ff268-161b-4165-9cd7-ab32e4ff6802" eId="varStageVersion" href="#varOntologies" showAs="1"/>
+				<TLCProcess GUID="_688d16d6-b503-4983-af19-c7db0744c65f" eId="varProjectId" href="#varOntologies" showAs="SI000772"/>
+				<TLCProcess GUID="_a892dae9-35a3-4606-a674-4e97c6b5ac24" eId="varWork" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_aad8cb93-5390-41a6-acd8-bb6bddfec0d7" eId="varWorkUri" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_02af513c-7c90-48c8-85ee-bc2af1e60929" eId="varCHOiid" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_ba3e451a-3bc6-4507-81cb-3eb67f1e66d4" eId="varExpression" href="#varOntologies" showAs="647b7de0-be0a-4498-953f-dd2ea2426373"/>
+				<TLCProcess GUID="_ae638da9-34ae-4ad8-82df-d6cbc2a0c315" eId="varExpressionUri" href="#varOntologies" showAs="dma:///45e6b900-8929-11d4-b772-0050da06bfb4/80742cea-0ebb-4cf6-9759-1e52358d9b5b/;guid=647b7de0-be0a-4498-953f-dd2ea2426373;class=Version%20Description"/>
+				<TLCProcess GUID="_9e7dedfa-f21b-4abe-b165-982f3415fbc3" eId="varVDOiid" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_ae8f7ddc-8bcd-472c-8be1-72ee77991553" eId="varManifestation" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_63619973-9984-49c1-9f6c-039e90992a58" eId="varManifestationUri" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_34e85861-4825-4783-98b1-20d391435ef6" eId="varSIYear" href="#varOntologies" showAs="2024"/>
+				<TLCConcept GUID="_bc8475e0-6049-4d9b-b907-7381ab0edc31" eId="varMadeDate" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_55782937-5621-486f-bf77-0fa1bbc7f6cd" eId="varLaidDate" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_bbb848dc-1263-4d3c-8036-e5bfaa1ebc74" eId="varCommenceDate" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_56acc32b-158c-42a5-9e0e-6f8ee7f695fb" eId="varSINoComp" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_512eac84-6e3b-4fea-bb2c-eb7e2be89470" eId="varSINo" href="#varOntologies" showAs="#varSIYear No. #varSINoComp #varSISubsidiaryNos"/>
+				<TLCConcept GUID="_fa1a7938-f3af-406b-9e1b-e46e53bc43f2" eId="varSISubsidiaryNos" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_4933ef88-8508-46bc-8aea-54dafc63de67" eId="varISBN" href="#varOntologies" showAs=""/>
+				<TLCPerson GUID="_caed7197-b848-4c9b-a9fc-1f8ed23591cb" eId="varMinistryAgency" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_e3716a8e-0638-4a8b-b978-c63b998ad446" eId="varDocType" href="#varOntologies" showAs="UKSI"/>
+				<TLCProcess GUID="_6bc4c377-9e33-4b1c-9745-fe3170af77da" eId="varSystem" href="#varOntologies" showAs="LDAPP"/>
+				<TLCOrganization GUID="_9de2b534-a3c2-42b7-8659-d22bcf925db2" eId="varAuthor" href="#varOntologies" showAs="UK Government"/>
+				<TLCLocation GUID="_1de526a0-3204-413f-a2a1-802dccac2ec7" eId="varJurisdiction" href="#varOntologies" showAs="United Kingdom"/>
+				<TLCConcept GUID="_25cdab8d-09f8-484c-9a06-457e1d39bc2e" eId="varOntologies" href="https://www.legislation.gov.uk/ontologies/UK-AKN" showAs="https://www.legislation.gov.uk/ontologies/UK-AKN"/>
+			</references>
+		</meta>
+		<preface GUID="_b09a5b02-08e5-4d96-bb7c-e94322bdac84" eId="fnt">
+			<?DMS-Component componentId="20e80c6e-f369-458d-ab35-dd2c470b70d7" seriesId="509bb1f7-f77c-4c75-a583-e26005d5faec" versionNumber="0"?>
+			<block name="correctionRubric">This Statutory Instrument has been made in consequence of a defect in S.I. 2023/975 and is being issued free of charge to all known recipients of that Statutory Instrument.</block>
+			<block GUID="_82c91e09-8771-4099-9a79-341a55fa9dbc" eId="fnt__rubric" name="proceduralRubric">Draft <ref class="placeholder" href="#varDocSubType"/> laid before Parliament under sections 473(3) and 1290 of the Companies Act 2006 (c. 46), for approval by resolution of each House of Parliament.</block>
+			<block GUID="_8370ef70-6d81-479e-a089-f34a6f7776b7" eId="fnt__banner" name="banner">DRAFT STATUTORY INSTRUMENTS</block>
+			<block GUID="_a79c0c1e-36e5-4751-8bb1-449a9485d050" eId="fnt__no" name="number">
+				<docNumber GUID="_05ce9a2a-9e2c-4072-882b-e23a6ccb8073" eId="fnt__no__dno"> <ref class="placeholder" href="#varSINo"/> </docNumber>
+			</block>
+			<container name="subjects">
+				<container GUID="_40e7ea35-6479-4ed5-8870-f099b24d456a" eId="fnt__subject" name="subject">
+					<block name="subject"><concept class="title" refersTo="">COMPANIES</concept></block>
+				</container>
+			</container>
+			<block GUID="_801ddeb3-2b43-425e-934b-f2c5427ff537" eId="fnt__st" name="title"><docTitle GUID="_b5685b0a-5500-488a-82cd-405c7bd85c00" eId="fnt__st__dtitle"> <ref class="placeholder" href="#varSITitle"/> </docTitle> </block>
+			<container GUID="_db1aa282-c205-4aa3-9d3a-f4b4caeb9c9b" eId="fnt__dates" name="dates">
+				<block GUID="_122d0332-80f5-4b15-bb3d-1209669ed84c" eId="fnt__dates__madeDate" name="madeDate"><span>Made</span> <docDate GUID="_9fb871a4-17b2-4588-a116-c1ab825c5b50" date="9999-01-01" eId="fnt__dates__madeDate__ddate"> <ref class="placeholder" href="#varMadeDate"/> </docDate> </block>
+				<block GUID="_0ee814d9-9865-45d6-ba97-c8c8c528f4d1" eId="fnt__dates__commenceDate" name="commenceDate"><span>Coming into force</span> <docDate GUID="_9e1c6e29-ba8a-4a6e-8b17-c5c843e64192" date="9999-01-01" eId="fnt__dates__commenceDate__ddate"> <ref class="placeholder" href="#varCommenceDate"/> </docDate> </block>
+			</container>
+		</preface>
+		<preamble GUID="_6faba623-a07c-4156-8c50-b49739ae10fa" eId="preamble">
+			<?DMS-Component componentId="0c232b1d-a7d2-46fa-a88e-87a1b0373d89" seriesId="be82713c-a2c9-4c7b-885d-64317bc59cef" versionNumber="0"?>
+			<formula GUID="_8b6c2f97-ca6d-4919-af38-9ca4380dc384" eId="preamble__enactingWords" name="enactingText">
+				<p>The Secretary of State makes these <ref class="placeholder" href="#varDocSubType"/> in exercise of the power conferred by section 468 of the Companies Act 2006<authorialNote GUID="_14f38a32-1cef-4ddc-b31c-83ef7d599b56" class="footnote" eId="fnote_1" marker="1">
+					<p>2006 c. 46.</p>
+					</authorialNote>.</p>
+				<p>In accordance with sections 473(3) and 1290 of that Act, a draft of these Regulations has been laid before and approved by a resolution of each House of Parliament.</p>
+			</formula>
+		</preamble>
+		<body>
+			<?DMS-Component componentId="2258f3c0-7758-4aaf-9286-a537c02d3fbb" seriesId="c8879d80-d9d3-4bd6-937a-b5ee511edefa" versionNumber="0"?>
+			<hcontainer GUID="_f9488126-a96c-4fdf-a489-5d73eb2028b5" class="prov1" eId="reg_1" name="regulation">
+				<?DMS-Component componentId="587505cb-aa02-4e3d-a372-f6f4db7d347b" seriesId="6d7b8f26-606d-4d2a-bd2a-6dfd74757fdb" versionNumber="0"?>
+				<heading GUID="_396f78c7-3e01-4906-9b72-e4464c5bcd04" eId="reg_1__hdg">Citation, commencement and extent</heading>
+				<num>1.</num>
+				<paragraph GUID="_c2c82937-719d-4d5e-919f-076914a40d63" class="prov2" eId="reg_1__para_1">
+					<num>(1)</num>
+					<content>
+						<p>These Regulations may be cited as the Accounting Standards (Prescribed Bodies) (United States of America and Japan) (Amendment) Regulations 2024.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_6ab12c7f-985e-4e38-b2ca-7c20c27f484f" class="prov2" eId="reg_1__para_2">
+					<num>(2)</num>
+					<content>
+						<p>These Regulations come into force on the day after the day on which they are made.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_48fd5238-6f9e-4d9e-803a-1887c4fcca1e" class="prov2" eId="reg_1__para_3">
+					<num>(3)</num>
+					<content>
+						<p>These Regulations extend to the whole of the United Kingdom.</p>
+					</content>
+				</paragraph>
+			</hcontainer>
+			<hcontainer GUID="_e7fa1943-13e3-4c01-9a08-295d81e8ea16" class="prov1" eId="reg_2" name="regulation">
+				<?DMS-Component componentId="4714556d-f5ef-412d-b080-f4c9bfdbdf05" seriesId="fb511b03-a09b-4fc9-be8d-d05dacd8158a" versionNumber="0"?>
+				<heading GUID="_53c75bde-7592-4984-9499-cc6f9646b549" eId="reg_2__hdg">Amendment to the Accounting Standards (Prescribed Bodies) (United States of America and Japan) Regulations 2015</heading>
+				<num>2.</num>
+				<content>
+					<p><mod>In the Accounting Standards (Prescribed Bodies) (United States of America and Japan) Regulations 2015<authorialNote GUID="_e8b64f37-0604-4f5a-8947-97c0b070decc" class="footnote" eId="fnote_3" marker="3">
+						<p>S.I. 2015/1675, amended by S.I. 2022/943 and S.I. 2023/975.</p>
+						</authorialNote>, for regulation 5A substitute—<quotedStructure GUID="_7f3dd4cd-720a-4934-b50f-c856905eb13a" eId="reg_2__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+						<hcontainer GUID="_814be59d-3e3c-4512-8e64-cd62e8acde95" class="prov1" eId="reg_2__qstr__reg_5A" name="regulation">
+							<num ukl:autonumber="no">5A.</num>
+							<intro GUID="_cb532b2f-c593-47ab-9cca-bf48961ee365" eId="reg_2__qstr__reg_5A__intro">
+								<p>Where a parent company prepares group accounts to the accounting standards of a body listed in regulation 2 and the accounts are in respect of a financial year commencing on or after 1st October 2024, there must be disclosed in a note to the accounts—</p>
+							</intro>
+							<level GUID="_e873c1aa-d9ab-4bac-a38d-d0bcdfb0504e" class="para1" eId="reg_2__qstr__reg_5A__para_a">
+								<num>(a)</num>
+								<content>
+									<p>the date of the company’s incorporation in the UK; and</p>
+								</content>
+							</level>
+							<level GUID="_429413eb-e5dc-427f-8b12-f99fa36f4aa3" class="para1" eId="reg_2__qstr__reg_5A__para_b">
+								<num>(b)</num>
+								<content>
+									<p>the number of financial years remaining before the body will cease to be a prescribed body in relation to that company under regulation 5.</p>
+								</content>
+							</level>
+						</hcontainer>
+						</quotedStructure><inline name="AppendText">.</inline></mod></p>
+				</content>
+			</hcontainer>
+			<hcontainer GUID="_943bc127-155a-41e6-9c6f-2b708dd51703" class="prov1" eId="reg_3" name="regulation">
+				<?DMS-Component componentId="e3c1033a-3aa9-4139-89b9-22a758faef4e" seriesId="20a94cf8-8b11-425c-b4f1-e6d9d25b6204" versionNumber="0"?>
+				<heading GUID="_ec5a2f5e-cbfd-40e2-bbdd-4d036a480eba" eId="reg_3__hdg">Amendment to the Accounting Standards (Prescribed Bodies) (United States of America and Japan) (Amendment) Regulations 2023</heading>
+				<num>3.</num>
+				<content>
+					<p>In the Accounting Standards (Prescribed Bodies) (United States of America and Japan) (Amendment) Regulations 2023<authorialNote GUID="_431ba596-4ad2-40d2-9987-bed264c76d7f" class="footnote" eId="fnote_4" marker="4">
+						<p>S.I. 2023/975.</p>
+						</authorialNote> omit regulation 4.</p>
+				</content>
+			</hcontainer>
+			<hcontainer GUID="_e98812aa-ce99-4cfc-a349-8b798e0a0d10" eId="sigs" name="signatures">
+				<?DMS-Component componentId="c496f0d4-00fc-40b8-9253-49377a334b3b" seriesId="f6a23b1e-adf1-477b-940f-0d2c92bf39fd" versionNumber="1"?>
+				<hcontainer GUID="_922a064b-5d0e-455d-9277-c087391c18ec" eId="sigs__sigBlk" name="signatureBlock">
+					<content>
+						<block GUID="_c4c30b0e-9720-4b00-b497-37d529d6c22f" eId="sigs__sigBlk__sig" name="signature">Name</block>
+						<block GUID="_33b18025-631d-4f18-a790-07d1bf99b6e8" eId="sigs__sigBlk__org" name="organization">Department for Business and Trade</block>
+					</content>
+				</hcontainer>
+			</hcontainer>
+		</body>
+		<conclusions GUID="_309e004c-12a3-44ce-b88b-3df5f88addb8" eId="backCover">
+			<?DMS-Component componentId="8ab495ff-14c1-4eb7-8c4d-4d98f66d6340" seriesId="82e55be5-c19b-41e0-967a-dfd46d1243ee" versionNumber="0"?>
+			<blockContainer GUID="_34ad6dcc-b329-4f17-b461-6ca90d16b32b" class="explanatoryNote" eId="backCover__explNote">
+				<heading GUID="_8aa399c3-dcbd-4b7e-83ee-c3281d9447b0" eId="backCover__explNote__hdg">Explanatory Note</heading>
+				<subheading GUID="_e556c136-75a8-4fc6-b687-79932f970477" eId="backCover__explNote__subhdg">(This note is not part of the <ref class="placeholder" href="#varDocSubType"/>)</subheading>
+				<p>These Regulations make amendments to the Accounting Standards (Prescribed Bodies) (United States of America and Japan) Regulations 2015 (“the 2015 Regulations”) and the Accounting Standards (Prescribed Bodies) (United States of America and Japan) (Amendment) Regulations 2023 (“the 2023 Regulations”).</p>
+				<p>Regulation 2 substitutes a new regulation 5A of the 2015 Regulations for the existing regulation 5A, which was inserted by regulation 4 of the 2023 Regulations. This remedies a procedural error that incorrectly inserted the existing regulation 5A using the negative resolution parliamentary procedure. Regulation 2 is made using the affirmative resolution parliamentary procedure as required by section 473(3) of the Companies Act 2006 (c. 46).</p>
+				<p>The new regulation 5A applies to parent companies preparing group accounts to the accounting standards of a body listed in regulation 2 of the 2015 Regulations and the accounts are in respect of a financial year commencing on or after 1st October 2024. It directs the parent company to insert a note into the accounts. The required disclosure is the date of the company’s incorporation and the number of financial years remaining for which the company may prepare accounts under regulation 5 of the 2015 Regulations. After four financial years the company, if it has not already done so, must prepare group accounts to UK GAAP (Generally Accepted Accounting Principles) or UK International Financial Reporting Standards (IFRS).</p>
+				<p>Regulation 3 omits regulation 4 from the 2023 Regulations in order to remedy the same procedural error.</p>
+				<p>A full impact assessment of the effect that the 2015 Regulations will have on the costs of business is annexed to the Explanatory Memorandum of the 2015 Regulations. This is available from the Department for Business and Trade, Old Admiralty Building, London, SW1A 2DY and is published alongside the 2015 Regulations at www.legislation.gov.uk.</p>
+				<p>A full impact assessment has not been produced for this instrument as no, or no significant, impact on the private, voluntary or public sector is foreseen.</p>
+			</blockContainer>
+		</conclusions>
+	</bill>
+</akomaNtoso>
