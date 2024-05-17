@@ -23,7 +23,7 @@
 	<xsl:param name="alt-version-refs" as="attribute()?" select="./@AltVersionRefs" />
 	<xsl:param name="alternative-to" as="xs:string" select="local:get-internal-id(.)" />
 	<xsl:if test="exists($alt-version-refs) and empty(ancestor::Version)">
-		<xsl:variable name="alt-ids" as="xs:string*" select="tokenize($alt-version-refs)" />
+		<xsl:variable name="alt-ids" as="xs:string*" select="tokenize($alt-version-refs, ' ')" />
 		<xsl:for-each select="$alt-ids">
 			<xsl:variable name="alt-version" select="key('id', ., root($alt-version-refs))" />
 			<xsl:apply-templates select="$alt-version">
