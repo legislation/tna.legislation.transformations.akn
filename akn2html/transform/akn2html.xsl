@@ -202,6 +202,8 @@
 				</xsl:when>
 				<xsl:otherwise>
 					<link rel="stylesheet" href="{$css-path}primary.css" type="text/css" />
+					<link rel="stylesheet" href="{$css-path}annotations.css" type="text/css" />
+					<link rel="stylesheet" href="{$css-path}prospective.css" type="text/css" />
 				</xsl:otherwise>
 			</xsl:choose>
 		</head>
