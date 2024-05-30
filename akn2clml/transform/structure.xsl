@@ -476,6 +476,10 @@
 				<xsl:with-param name="children" select="$children" />
 			</xsl:call-template>
 		</xsl:when>
+		<!-- if no children and all content is plain text (no tables or amendments), wrap each in a separate Para -->
+		<xsl:when test="exists(content) and (every $p in content/* satisfies exists($p/self::p) and empty($p/child::mod))">
+			<xsl:apply-templates select="$content" />
+		</xsl:when>
 		<xsl:when test="not($context[1] = 'P') and empty($children[self::hcontainer[@name='wrapper1']])">
 			<xsl:variable name="name" as="xs:string">
 				<xsl:choose>
@@ -489,7 +493,7 @@
 						<xsl:sequence select="'Para'" />	<!-- ??? -->
 					</xsl:otherwise>
 				</xsl:choose>
-			</xsl:variable>			
+			</xsl:variable>
 			<xsl:element name="{ $name }">
 				<xsl:apply-templates select="$content">
 						<xsl:with-param name="context" select="($name, $context)" tunnel="yes" />

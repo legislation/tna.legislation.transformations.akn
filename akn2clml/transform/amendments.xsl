@@ -58,9 +58,12 @@
 	<xsl:param name="qs" as="element()" />
 	<xsl:choose>
 		<xsl:when test="exists($qs/@ukl:Context)">
-			<xsl:value-of select="$qs/@ukl:Context = 'schedule'" />
+			<xsl:sequence select="$qs/@ukl:Context = 'schedule'" />
 		</xsl:when>
-		<xsl:when test="exists($qs/descendant::*[@class = ('schProv1', 'schProv2')])">
+		<xsl:when test="exists($qs/@uk:context)">
+			<xsl:sequence select="$qs/@uk:context = 'schedule'" />
+		</xsl:when>
+		<xsl:when test="exists($qs/descendant::*[starts-with(@class, 'sch')])">
 			<xsl:sequence select="true()" />
 		</xsl:when>
 		<xsl:otherwise>

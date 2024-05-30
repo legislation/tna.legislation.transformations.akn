@@ -442,7 +442,17 @@
 </xsl:template>
 
 <xsl:template match="ukm:* | dc:* | dct:*">
-	<xsl:element name="{ name() }">
+	<xsl:variable name="name" as="xs:string">
+		<xsl:choose>
+			<xsl:when test="self::ukm:*">
+				<xsl:value-of select="concat('ukm:', local-name())" />
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:value-of select="name()" />
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:variable>
+	<xsl:element name="{ $name }">
 		<xsl:copy-of select="@*" />
 		<xsl:apply-templates />
 	</xsl:element>
