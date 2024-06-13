@@ -1,0 +1,1134 @@
+<?xml version="1.0" encoding="UTF-8"?><akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../schemas/akomantoso30.xsd"><?DMS-Component componentId="baee351a-ec16-4c94-ba26-df6ec3a0450c" seriesId="7a511e68-0046-4c5c-b1b9-72e605b1bb4d" versionNumber="1"?>
+	<act contains="originalVersion" name="uksi">
+		<meta><?DMS-Component componentId="084e29b6-bf59-429e-968e-dfc0816f9697" seriesId="242df9e2-5b38-4990-8a03-84bb1d20c0c0" versionNumber="1"?>
+			
+			<identification source="#ldapp">
+				<FRBRWork>
+					<FRBRthis value="#varWork"/>
+					<FRBRuri value="#varWorkUri"/>
+					<FRBRalias name="ttflConfigHistory" value="#varCHOiid"/>
+					<FRBRdate date="9999-01-01" name="uksi"/>
+					<FRBRauthor href="#varAuthor"/>
+					<FRBRcountry value="GB-SCT"/>
+					<FRBRsubtype value="#varDocSubType"/>
+					<FRBRnumber value="#varProjectId"/>
+					<FRBRname value="#varSITitle"/>
+					<FRBRprescriptive value="true"/>
+					<FRBRauthoritative value="false"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="#varExpression"/>
+					<FRBRuri value="#varExpressionUri"/>
+					<FRBRalias name="ttflVersionDescription" value="#varVDOiid"/>
+					<FRBRdate date="9999-01-01" name="draft"/>
+					<FRBRauthor href="#varAuthor"/>
+					<FRBRversionNumber value=""/>
+					<FRBRauthoritative value="false"/>
+					<FRBRmasterExpression href="" showAs=""/>
+					<FRBRlanguage language="eng"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="#varManifestation"/>
+					<FRBRuri value="#varManifestationUri"/>
+					<FRBRdate date="9999-01-01" name="akn_xml"/>
+					<FRBRauthor href="#varAuthor"/>
+					<FRBRformat value="application/akn+xml"/>
+				</FRBRManifestation>
+			</identification>
+			<references source="#author">
+				<TLCConcept GUID="_6a99bba3-21dc-4d53-b972-31c9e4df3836" eId="varDocSubType" href="#varOntologies" showAs="Order in Council"/>
+				<TLCConcept GUID="_ca69dbae-33ef-4085-a81c-e4dde5d66820" eId="varSITitle" href="#varOntologies" showAs="The Civil Aviation (Investigation of Air Accidents and Incidents) (Guernsey) Order 2023 "/>
+				<TLCProcess GUID="_d2e0eb11-c2d6-4c7c-9906-c8a0b6e3a1aa" eId="varProcedureType" href="#varOntologies" showAs="No procedure"/>
+				<TLCProcess GUID="_7f9f88bc-9cfc-42c7-8d93-a8be76f0c8eb" eId="varStageVersion" href="#varOntologies" showAs="1"/>
+				<TLCProcess GUID="_3765a0ea-7899-4790-ba77-cc6d81453bb2" eId="varProjectId" href="#varOntologies" showAs="SI000068"/>
+				<TLCProcess GUID="_709bfbbe-bc83-4795-8e72-84b38bbe3905" eId="varWork" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_07c88acc-70af-41ec-9bd8-bf698ff12260" eId="varWorkUri" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_455e766b-47ec-4ff5-b93e-1d95868f32e7" eId="varCHOiid" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_bda763c4-2a69-4e94-84b3-0123c5043f79" eId="varExpression" href="#varOntologies" showAs="bdd9906d-26e3-451a-b35b-473254fb2c51"/>
+				<TLCProcess GUID="_ab012351-35b8-49d9-9291-b742d3351211" eId="varExpressionUri" href="#varOntologies" showAs="dma:///45e6b900-8929-11d4-b772-0050da06bfb4/80742cea-0ebb-4cf6-9759-1e52358d9b5b/;guid=bdd9906d-26e3-451a-b35b-473254fb2c51;class=Version%20Description"/>
+				<TLCProcess GUID="_2830dfbd-9091-4d47-a37f-e798c461bad7" eId="varVDOiid" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_c4ee63bf-da22-4417-b0ab-74dd27375522" eId="varManifestation" href="#varOntologies" showAs=""/>
+				<TLCProcess GUID="_c0593bdb-d2a0-4b39-b37d-01363142c4f9" eId="varManifestationUri" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_2ee3fb2e-e3ab-4703-ba40-fa647947c56e" eId="varSIYear" href="#varOntologies" showAs="2023"/>
+				<TLCConcept GUID="_38823f4b-023c-4abe-b106-621f415a1a28" eId="varSINoComp" href="#varOntologies" showAs="662"/>
+				<TLCConcept GUID="_aa854515-607a-4883-b001-b6b16f954865" eId="varSINo" href="#varOntologies" showAs="#varSIYear No. #varSINoComp #varSISubsidiaryNos"/>
+				<TLCConcept GUID="_4be3f2e7-20e7-42ab-846a-5f7c69499dde" eId="varSISubsidiaryNos" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_ba71dd5e-a751-4806-90ae-1f6a6305a6a7" eId="varISBN" href="#varOntologies" showAs=""/>
+				<TLCPerson GUID="_4f998a12-45cd-4df4-9895-d78fe78caffd" eId="varMinistryAgency" href="#varOntologies" showAs=""/>
+				<TLCConcept GUID="_853377e5-cdb5-4734-acf2-852eec917e91" eId="varDocType" href="#varOntologies" showAs="UKSI"/>
+				<TLCProcess GUID="_3c0614f2-af08-4c26-b53e-1d4f3724d59f" eId="varSystem" href="#varOntologies" showAs="LDAPP"/>
+				<TLCOrganization GUID="_c7e1ba83-53ca-4522-9550-a6b5f7ee8d82" eId="varAuthor" href="#varOntologies" showAs="UK Government"/>
+				<TLCLocation GUID="_35df80d5-11e3-4d77-adeb-8b0bb4c976b9" eId="varJurisdiction" href="#varOntologies" showAs="United Kingdom"/>
+				<TLCConcept GUID="_72cf9226-cf3b-49e3-8191-0a94162fe64f" eId="varOntologies" href="https://www.legislation.gov.uk/ontologies/UK-AKN" showAs="https://www.legislation.gov.uk/ontologies/UK-AKN"/>
+				<TLCConcept GUID="_47f797e2-a87c-41c6-8f9f-45249447737c" eId="varMadeDate" href="#varOntologies" showAs="2023-06-14T00:00:00.000"/>
+				<TLCConcept GUID="_53df2aff-05f8-4694-a7c8-659791f6cada" eId="varCommenceDate" href="#varOntologies" showAs="2023-07-05T00:00:00.000"/>
+			</references>
+		</meta>
+		<preface GUID="_6aafd715-9b93-412e-9c98-04a6e0727003" eId="fnt"><?DMS-Component componentId="113f8ff2-729a-4bf7-9ca5-2361a86adb9d" seriesId="4cb7d007-a324-415f-a571-87f1923d5b78" versionNumber="1"?>
+			
+			<block GUID="_e4f57e49-3096-476e-bb13-2b1cf1f59674" eId="fnt__banner" name="banner">STATUTORY INSTRUMENTS</block>
+			<block GUID="_4d74d6a7-94c5-4b32-a61e-3f213bca18af" eId="fnt__no" name="number">
+				<docNumber GUID="_66f5cfc1-49ca-40ba-908d-adb0e231a45d" eId="fnt__no__dno">
+					<ref class="placeholder" href="#varSINo"/>
+				</docNumber>
+			</block>
+			<container name="subjects">
+				<container GUID="_a9a43794-e5c9-43a3-9971-fc6d1a6ef66d" eId="fnt__subject" name="subject">
+					<block name="subject"><concept class="title" refersTo="">CIVIL AVIATION</concept></block>
+				</container>
+			</container>
+			<block GUID="_2b15b8f9-17c6-4041-839c-3055cd9e9be4" eId="fnt__st" name="title">
+				<docTitle GUID="_48294e7e-7299-424e-b828-c4c2e8ef3a64" eId="fnt__st__dtitle">
+					<ref class="placeholder" href="#varSITitle"/>
+				</docTitle>
+			</block>
+			<container GUID="_02e3b1ff-5eb7-4d6b-abea-2e00e9980b30" eId="fnt__dates" name="dates">
+				<block GUID="_191ed477-6578-41ee-a0f8-5f982c816e1b" eId="fnt__dates__madeDate" name="madeDate"><span>Made</span><docDate GUID="_3328a83a-d270-40fa-bf7a-b0e64ca04803" date="2023-06-14T00:00:00.000" eId="fnt__dates__madeDate__ddate"><ref class="placeholder" href="#varMadeDate" ukl:dateFormat="d'th' MMMM yyyy">14th June 2023</ref></docDate></block>
+				<block GUID="_1535dd6f-6073-4305-b460-8e73a9bed5cd" eId="fnt__dates__commenceDate" name="commenceDate"><span>Coming into force</span><docDate GUID="_999a68ac-2d10-4894-80b4-67be39fd43c8" date="2023-07-05T00:00:00.000" eId="fnt__dates__commenceDate__ddate"><ref class="placeholder" href="#varCommenceDate" ukl:dateFormat="d'th' MMMM yyyy">5th July 2023</ref></docDate></block>
+			</container>
+		</preface>
+		<preamble GUID="_52e70631-3d5e-4a5b-9c73-95983549a944" eId="preamble"><?DMS-Component componentId="c4b9407e-cccc-4cf0-823d-078ecfb45612" seriesId="05146be5-e0a5-43db-a2a4-67dc89c1e84e" versionNumber="1"?>
+			
+			<container GUID="_69e86f71-6716-4769-b8c4-a26ba40528f3" eId="preamble__RP" name="royal">
+				<p>At the Court at Buckingham Palace, the 14th day of June 2023</p>
+				<p>Present,</p>
+				<p>The King's Most Excellent Majesty in Council</p>
+			</container>
+			<formula GUID="_1e8807cd-c6b5-4b12-b2e5-8f59a1f20d61" eId="preamble__enactingWords" name="enactingText">
+				<p>His Majesty, in exercise of the powers conferred on Him by sections 75 and 102(2) of, and paragraphs 4 and 6 of Part III of Schedule 13 to, the Civil Aviation Act 1982<authorialNote GUID="_2800c37a-5a52-4862-9218-8930f8ea8bb6" class="footnote" eId="fnote_1" marker="1">
+						<p>1982 c. 16; in section 75(5), the reference to a fine on the standard scale was substituted by virtue of section 46 of the Criminal Justice Act 1982 (c. 48). There are other amendments but none is relevant.</p>
+					</authorialNote>, as that Act has effect in the Bailiwick of Guernsey by virtue of the Civil Aviation Act 1982 (Guernsey) Order 1992<authorialNote GUID="_0e093ab6-33cb-46fc-b442-7c814403861c" class="footnote" eId="fnote_2" marker="2">
+						<p>S.I. 1992/230 as amended by S.I. 1992/806 and S.I. 2009/1307.</p>
+					</authorialNote>, is pleased, by and with the advice of His Privy Council, to order as follows:</p>
+			</formula>
+		</preamble>
+		<body><?DMS-Component componentId="1b0adbca-d1e4-4190-a244-a0557affdcb8" seriesId="39bc8095-e93c-4515-9aa9-f16accd2ab5e" versionNumber="1"?>
+			
+			<article GUID="_7ea73f9a-c2e9-47af-9324-4ee9d1db2a7b" class="prov1" eId="art_1"><?DMS-Component componentId="ae816447-5f99-4279-accb-531843928759" seriesId="9af10ea5-df73-4546-aa6f-32d235efe848" versionNumber="1"?>
+				
+				<heading GUID="_f21dfc76-ece2-41b8-9615-def175f450aa" eId="art_1__hdg">Citation, commencement and extent</heading>
+				<num>1.</num>
+				<paragraph GUID="_196adc68-e4bb-468a-9c93-b0790436b345" class="prov2" eId="art_1__para_1">
+					<num>(1)</num>
+					<content>
+						<p>This Order may be cited as the Civil Aviation (Investigation of Air Accidents and Incidents) (Guernsey) Order 2023 and comes into force on 5th July 2023.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_95b1f27a-64b2-4a7e-8a10-28450a5bb5f5" class="prov2" eId="art_1__para_2">
+					<num>(2)</num>
+					<content>
+						<p>This Order extends to the Bailiwick of Guernsey.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article GUID="_ccaddd4e-bfa8-43d2-a966-c66db3a55b3e" class="prov1" eId="art_2"><?DMS-Component componentId="a85c7f10-84ba-42ff-94bb-fb217f080975" seriesId="9b83cd32-8c24-4ba3-86e4-d67af42c505b" versionNumber="0"?>
+				
+				<heading GUID="_d0b6dc41-b277-4e3b-84b7-4ce496629513" eId="art_2__hdg">Application of the Civil Aviation (Investigation of Air Accidents and Incidents) Regulations 2018</heading>
+				<num>2.</num>
+				<content>
+					<p>Subject to the modifications specified in the Schedule to this Order, the provisions of the Civil Aviation (Investigation of Air Accidents and Incidents) Regulations 2018<authorialNote GUID="_623ab871-bebc-4a21-a2ac-7e0085b383e4" class="footnote" eId="fnote_3" marker="3">
+							<p>S.I. 2018/321.</p>
+						</authorialNote> (“the 2018 Regulations”) have effect in the Bailiwick of Guernsey.</p>
+				</content>
+			</article>
+			<article GUID="_1fe8a632-8791-4504-8bdb-3f81ca51e122" class="prov1" eId="art_3"><?DMS-Component componentId="4dc46b84-b006-417a-8523-60930bf69ddf" seriesId="52def914-065a-4244-bdbb-b8899342a56a" versionNumber="0"?>
+				
+				<heading GUID="_aaa5bba6-f2df-466e-9443-b4e660245f4d" eId="art_3__hdg">Revocation of the Civil Aviation (Investigation of Air Accidents and Incidents) (Guernsey) Order 1998</heading>
+				<num>3.</num>
+				<paragraph GUID="_1ad124f7-4e8c-42c8-b985-f9831b91c668" class="prov2" eId="art_3__para_1">
+					<num>(1)</num>
+					<content>
+						<p>Subject to paragraph (3), the Civil Aviation (Investigation of Air Accidents and Incidents) (Guernsey) Order 1998<authorialNote GUID="_17eedd16-93fa-4344-95c4-fa4a43c9144e" class="footnote" eId="fnote_4" marker="4">
+								<p>S.I. 1998/1503.</p>
+							</authorialNote> (“the 1998 Order”) is revoked.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_f9ee2921-1f2e-4487-b7de-058e2339df6c" class="prov2" eId="art_3__para_2">
+					<num>(2)</num>
+					<content>
+						<p>Any investigation commenced under the Civil Aviation (Investigation of Air Accidents and Incidents) Regulations 1996<authorialNote GUID="_24ae6d75-c2ea-4367-b3f4-41d1db185161" class="footnote" eId="fnote_10" marker="10">
+								<p>S.I. 1996/2798.</p>
+							</authorialNote> (“the 1996 Regulations”), as modified by the 1998 Order, which has not, prior to the coming into force of this Order, been the subject of a report submitted to the Secretary of State and the Bailiff of Guernsey, is to continue as if it had been commenced under the 2018 Regulations as modified by this Order.</p>
+					</content>
+				</paragraph>
+				<paragraph GUID="_55b45d19-0efb-448a-8957-66865ef6c4bc" class="prov2" eId="art_3__para_3">
+					<num>(3)</num>
+					<intro GUID="_0000451a-cd74-4ad8-b3b8-196539b28f8b" eId="art_3__para_3__intro">
+						<p>The 1998 Order and accordingly the 1996 Regulations as modified by that Order continue to apply in relation to an investigation which has, prior to the coming into force of this Order, been the subject of a report submitted to the Secretary of State and the Bailiff of Guernsey.</p>
+					</intro>
+					<level GUID="_d155265c-03f8-4385-b003-0a0671fe4360" class="unnumberedParagraph" eId="art_3__para_3__para">
+						<content>
+							
+						</content>
+					</level>
+					<level GUID="_4295ef48-1ef7-4d49-bfe2-231a92e22aaf" class="unnumberedParagraph" eId="art_3__para_3__para__oc_1">
+						<content>
+							
+						</content>
+					</level>
+					<level GUID="_54bbd2d0-a990-4ba4-8898-248b16cfc9fa" class="unnumberedParagraph" eId="art_3__para_3__para__oc_2">
+						<content>
+							
+						</content>
+					</level>
+					<level GUID="_27cdf24f-c629-4855-99bb-a8108224b26f" class="unnumberedParagraph" eId="art_3__para_3__para__oc_3">
+						<content>
+							
+						</content>
+					</level>
+					<level GUID="_bca7918c-b797-4496-963d-5db8c6e9ae68" class="unnumberedParagraph" eId="art_3__para_3__para__oc_4">
+						<content>
+							
+						</content>
+					</level>
+					<level GUID="_3d11be36-3257-4fc1-aee1-f094a0a755ec" class="unnumberedParagraph" eId="art_3__para_3__para__oc_5">
+						<content>
+							
+						</content>
+					</level>
+					<level GUID="_a810640a-5287-49a8-831c-513299957dae" class="unnumberedParagraph" eId="art_3__para_3__para__oc_6">
+						<content>
+							
+						</content>
+					</level>
+				</paragraph>
+			</article>
+			<hcontainer GUID="_4d6a5a10-4a9b-473d-b7a6-21c150580d93" eId="sigs" name="signatures"><?DMS-Component componentId="074b290a-ea80-4999-97f3-30ff3f9f2c4e" seriesId="e0fa10a4-fd2b-41a4-9e12-2b33fb5226cb" versionNumber="1"?>
+				<hcontainer GUID="_46cba4a4-415e-451e-a127-e7fcc0caa35a" eId="sigs__sigBlk" name="signatureBlock">
+					<content>
+						<block GUID="_f86155d5-a540-4ee8-a1c6-4242c8d70ccb" eId="sigs__sigBlk__sig" name="signature">Richard Tilbrook</block>
+						<block GUID="_054b50b2-389e-478a-aa94-1df2b7845fc2" eId="sigs__sigBlk__role" name="role">Clerk of the Privy Council</block>
+					</content>
+				</hcontainer>
+			</hcontainer>
+			<hcontainer GUID="_c494875c-94a2-4a8a-b8ca-f998e2ec5a08" class="schs" eId="scheds" name="schedules"><?DMS-Component componentId="5e2e26e9-3e4a-496c-b13b-3ee25835cf91" seriesId="40f5a625-ce27-490f-85ef-ff5a54c1b0ca" versionNumber="1"?>
+				
+				<hcontainer GUID="_27d96864-943d-4be5-b5b2-16a44891ef59" class="sch" eId="sched" name="schedule"><?DMS-Component componentId="689a234c-621a-440c-a6d6-7350948fed66" seriesId="9e1eb72b-ddc6-40af-933e-38cf88f62631" versionNumber="0"?>
+					
+					<num>Schedule<authorialNote GUID="_90100f20-391c-4fb9-9ed8-bd1f2e6a43d0" class="referenceNote" eId="sched__aNote">
+							<p>Article 2</p>
+						</authorialNote></num>
+					<heading GUID="_2d178137-bf4e-4fd6-8f2d-91097fd32eef" eId="sched__hdg">Modifications to the Civil Aviation (Investigation of Air Accidents and Incidents) Regulations 2018 as they have effect in the Bailiwick of Guernsey</heading>
+					<paragraph GUID="_a61667f4-3e1c-410f-81a8-005b8f85c027" class="schProv1" eId="sched__para_1">
+						<num>1.</num>
+						<intro GUID="_43691690-d501-42b9-b96a-cece94b517ed" eId="sched__para_1__intro">
+							<p>In regulation 1—</p>
+						</intro>
+						<level GUID="_9bceabce-e6f8-408b-8d8d-c9aa8c5b90d3" class="para1" eId="sched__para_1__para_a">
+							<num>(a)</num>
+							<content>
+								<p>in the heading, omit “and commencement”; and</p>
+							</content>
+						</level>
+						<level GUID="_3a5cccbf-4cfe-46be-8488-6b3379bf72f7" class="para1" eId="sched__para_1__para_b">
+							<num>(b)</num>
+							<content>
+								<p>omit “and come into force on 9th April 2018”.</p>
+							</content>
+						</level>
+					</paragraph>
+					<paragraph GUID="_c840bf2a-c087-46b3-a044-e3c43cc52ae1" class="schProv1" eId="sched__para_2">
+						<num>2.</num>
+						<intro GUID="_2b45a7f3-2bd5-4a34-86aa-35fb045ef5ce" eId="sched__para_2__intro">
+							<p>In regulation 2—</p>
+						</intro>
+						<level GUID="_ad608883-0348-4f87-b34c-fb12a6984e29" class="para1" eId="sched__para_2__para_a">
+							<num>(a)</num>
+							<intro GUID="_96a1422d-b872-46f9-812a-99dfd53f750b" eId="sched__para_2__para_a__intro">
+								<p>in paragraph (1)—</p>
+							</intro>
+							<level GUID="_746bb31d-f8b8-482d-bb45-cfc1fbf9c452" class="para2" eId="sched__para_2__para_a__subpara_i">
+								<num>(i)</num>
+								<content>
+									<p>
+										<mod>for the definition of “the Air Accidents Investigation Branch” substitute—<quotedStructure GUID="_dc53d69c-e242-4f86-9802-1f62e6c977c7" eId="sched__para_2__para_a__subpara_i__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+												<hcontainer GUID="_df5a1204-e9b4-4292-89a9-085af22bae51" class="definition" eId="sched__para_2__para_a__subpara_i__qstr__def_theAirAccidentsInvestigationBranch_" name="definition">
+													<content>
+														<p><def GUID="_e39b2397-d267-4cbd-a1c8-6f80fc8a7877" eId="sched__para_2__para_a__subpara_i__qstr__def_theAirAccidentsInvestigationBranch" ukl:endQuote="”" ukl:startQuote="“">the Air Accidents Investigation Branch</def> means the Air Accidents Investigation Branch as defined in regulation 2(1) of the 2018 Regulations;</p>
+													</content>
+												</hcontainer>
+											</quotedStructure><inline name="AppendText">;</inline></mod>
+									</p>
+								</content>
+							</level>
+							<level GUID="_330832df-6228-4982-b0b5-79b178a18040" class="para2" eId="sched__para_2__para_a__subpara_ii">
+								<num>(ii)</num>
+								<content>
+									<p>
+										<mod>for the definition of “Chief Inspector” substitute—<quotedStructure GUID="_4985da46-50aa-4f86-a99d-a3f114ccf6d3" eId="sched__para_2__para_a__subpara_ii__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+												<hcontainer GUID="_c7ba7705-5a7f-44fe-b607-90eedf6e4428" class="definition" eId="sched__para_2__para_a__subpara_ii__qstr__def_ChiefInspector_" name="definition">
+													<content>
+														<p><def GUID="_bdb53196-5ccc-45f8-a4df-7a8ea87fcded" eId="sched__para_2__para_a__subpara_ii__qstr__def_ChiefInspector" ukl:endQuote="”" ukl:startQuote="“">Chief Inspector</def> means the Chief Inspector of Air Accidents appointed by the Secretary of State under the 2018 Regulations;</p>
+													</content>
+												</hcontainer>
+											</quotedStructure><inline name="AppendText">;</inline></mod>
+									</p>
+								</content>
+							</level>
+							<level GUID="_b6394721-47a0-417e-853a-6cbe46243490" class="para2" eId="sched__para_2__para_a__subpara_iii">
+								<num>(iii)</num>
+								<content>
+									<p>in the definition of “Inspector”, for “under regulation 9” substitute “by the Secretary of State under the 2018 Regulations”;</p>
+								</content>
+							</level>
+							<level GUID="_4b5d0e78-7e26-4111-980f-0339d8d4686f" class="para2" eId="sched__para_2__para_a__subpara_iv">
+								<num>(iv)</num>
+								<content>
+									<p>in the definition of “Regulation 996/2010”, after “Directive 94/56/EC” insert “, as it applies to the Bailiwick<authorialNote GUID="_852df786-7e1f-4f50-959b-125941dd8e2c" class="footnote" eId="fnote_13" marker="13">
+											<p>The Air Accident and Investigation (Guernsey) Ordinance, 2022 (Guernsey Ordinance No. I of 2023), The Air Accident and Investigation (Alderney) Ordinance, 2023 (Alderney Ordinance No. IV of 2023) and The Air Accident and Investigation (Sark) Ordinance, 2023 (Sark Ordinance No. III of 2023) apply Regulation 996/2010 to their respective jurisdictions.</p>
+										</authorialNote>”;</p>
+								</content>
+							</level>
+							<level GUID="_b88949ac-ac57-4263-927a-de91206adc33" class="para2" eId="sched__para_2__para_a__subpara_v">
+								<num>(v)</num>
+								<content>
+									<p>
+										<mod>in the appropriate places, insert the following definitions—<quotedStructure GUID="_efa7b974-51aa-45a0-8e3b-4285d8102232" eId="sched__para_2__para_a__subpara_v__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+												<hcontainer GUID="_b80d0dfd-4ab0-4a23-ae0e-07f852e122d1" class="definition" eId="sched__para_2__para_a__subpara_v__qstr__def_the2018Regulations_" name="definition">
+													<content>
+														<p><def GUID="_303b9b4f-0baf-49af-b708-7d80492aad21" eId="sched__para_2__para_a__subpara_v__qstr__def_the2018Regulations" ukl:endQuote="”" ukl:startQuote="“">the 2018 Regulations</def> means the Civil Aviation (Investigation of Air Accidents and Incidents) Regulations 2018, as they apply to the United Kingdom;</p>
+													</content>
+												</hcontainer>
+												<hcontainer GUID="_35bac1b9-7552-477d-a683-73be4b1da01e" class="definition" eId="sched__para_2__para_a__subpara_v__qstr__def_theBailiff_" name="definition">
+													<content>
+														<p><def GUID="_a60343b0-703e-42c7-890d-ab4ba45ba8e5" eId="sched__para_2__para_a__subpara_v__qstr__def_theBailiff" ukl:endQuote="”" ukl:startQuote="“">the Bailiff</def> means the Bailiff of Guernsey and includes the Deputy Bailiff, a Lieutenant-Bailiff, the Juge Délégué and a Judge of the Royal Court;</p>
+													</content>
+												</hcontainer>
+												<hcontainer GUID="_534ad27b-b193-47bb-bc56-8e8ab39bb18b" class="definition" eId="sched__para_2__para_a__subpara_v__qstr__def_theBailiwick_" name="definition">
+													<content>
+														<p><def GUID="_124b6caf-2b68-47e7-8552-bd2e045bf694" eId="sched__para_2__para_a__subpara_v__qstr__def_theBailiwick" ukl:endQuote="”" ukl:startQuote="“">the Bailiwick</def> means the Bailiwick of Guernsey and the territorial waters adjacent thereto;</p>
+													</content>
+												</hcontainer>
+												<hcontainer GUID="_6c34f3b5-e67c-4118-b6ea-44ba821e0121" class="definition" eId="sched__para_2__para_a__subpara_v__qstr__def_theChicagoConvention_" name="definition">
+													<content>
+														<p><def GUID="_c39eccc2-0629-49ac-9ca4-e312d6acddbf" eId="sched__para_2__para_a__subpara_v__qstr__def_theChicagoConvention" ukl:endQuote="”" ukl:startQuote="“">the Chicago Convention</def> means the Convention on International Civil Aviation which was, on 7th December 1944, signed on behalf of the Government of the United Kingdom at the International Civil Aviation Conference held at Chicago;</p>
+													</content>
+												</hcontainer>
+												<hcontainer GUID="_3a6d8b09-2ca7-4753-b1fc-876213747ece" class="definition" eId="sched__para_2__para_a__subpara_v__qstr__def_Committee_" name="definition">
+													<content>
+														<p><def GUID="_9ca18f36-91b2-4762-961c-40782e09c487" eId="sched__para_2__para_a__subpara_v__qstr__def_Committee" ukl:endQuote="”" ukl:startQuote="“">Committee</def> means the States of Guernsey Policy &amp; Resources Committee;</p>
+													</content>
+												</hcontainer>
+												<hcontainer GUID="_707d1dfd-9e39-482c-88fe-969e5e563ec6" class="definition" eId="sched__para_2__para_a__subpara_v__qstr__def_DeputyChiefInspector_" name="definition">
+													<content>
+														<p><def GUID="_b53ddd5f-72ed-45d6-9677-355ef2c3f9e1" eId="sched__para_2__para_a__subpara_v__qstr__def_DeputyChiefInspector" ukl:endQuote="”" ukl:startQuote="“">Deputy Chief Inspector</def> means the Deputy Chief Inspector of Air Accidents appointed by the Chief Inspector under the 2018 Regulations;</p>
+													</content>
+												</hcontainer>
+												<hcontainer GUID="_1879c6d9-e868-45a6-9147-73c578c36403" class="definition" eId="sched__para_2__para_a__subpara_v__qstr__def_theDirector_" name="definition">
+													<intro GUID="_e2f2f2d7-a63d-4c37-87f8-c3e2212bef74" eId="sched__para_2__para_a__subpara_v__qstr__def_theDirector__intro">
+														<p><def GUID="_c1c90c09-2840-490c-9afd-36e122dc4cc3" eId="sched__para_2__para_a__subpara_v__qstr__def_theDirector" ukl:endQuote="”" ukl:startQuote="“">the Director</def> means—</p>
+													</intro>
+													<level GUID="_960fb144-f840-4d25-a41e-dadd49203480" class="para1" eId="sched__para_2__para_a__subpara_v__qstr__def_theDirector__para_a">
+														<num>(a)</num>
+														<content>
+															<p>the Director of Civil Aviation of the Bailiwick of Guernsey; or</p>
+														</content>
+													</level>
+													<level GUID="_c71e2c28-a70d-4a98-9c0b-ab7362717ecb" class="para1" eId="sched__para_2__para_a__subpara_v__qstr__def_theDirector__para_b">
+														<num>(b)</num>
+														<intro GUID="_b1462149-ebad-4b6f-ab0f-901db643fde2" eId="sched__para_2__para_a__subpara_v__qstr__def_theDirector__para_b__intro">
+															<p>where there is no Director or the Director is unable to exercise the functions and duties of Director, any person—</p>
+														</intro>
+														<level GUID="_0de9f847-243a-422f-b41e-a776fca63990" class="para2" eId="sched__para_2__para_a__subpara_v__qstr__def_theDirector__para_b__subpara_i">
+															<num>(i)</num>
+															<content>
+																<p>appointed as Deputy Director of Civil Aviation under paragraph 6 of Schedule 1 to the Aviation (Bailiwick of Guernsey) Law, 2008<authorialNote GUID="_cab1bd86-8ed0-4ee1-a92b-2852e21343ed" class="footnote" eId="fnote_12" marker="12">
+																		<p>Guernsey Order in Council No. XXVIII of 2008.</p>
+																	</authorialNote>, or</p>
+															</content>
+														</level>
+														<level GUID="_3fa580a7-eab9-4097-bf2c-db0ccf8e177c" class="para2" eId="sched__para_2__para_a__subpara_v__qstr__def_theDirector__para_b__subpara_ii">
+															<num>(ii)</num>
+															<content>
+																<p>appointed as Acting Director of Civil Aviation under paragraph 7 of Schedule 1 to the Aviation (Bailiwick of Guernsey) Law, 2008;</p>
+															</content>
+														</level>
+													</level>
+												</hcontainer>
+												<hcontainer GUID="_768428e2-0114-4f3f-8fda-5e261f9e82ac" class="definition" eId="sched__para_2__para_a__subpara_v__qstr__def_HisMajestysProcureur_" name="definition">
+													<content>
+														<p><def GUID="_494b1e25-0925-4bf3-ae49-553735a30656" eId="sched__para_2__para_a__subpara_v__qstr__def_HisMajestysProcureur" ukl:endQuote="”" ukl:startQuote="“">His Majesty's Procureur</def> includes His Majesty's Comptroller;</p>
+													</content>
+												</hcontainer>
+											</quotedStructure><inline name="AppendText">;</inline></mod>
+									</p>
+								</content>
+							</level>
+						</level>
+						<level GUID="_6d130aa1-3697-4d7d-a133-ed0fbd848107" class="para1" eId="sched__para_2__para_b">
+							<num>(b)</num>
+							<content>
+								<p>
+									<mod>for paragraph 2, substitute—<quotedStructure GUID="_e6afdb9f-26ec-433f-ba7b-bbc75f419c03" eId="sched__para_2__para_b__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+											<paragraph GUID="_4cf5ec59-cf3a-4f70-bf53-5c34efb6d005" class="prov2" eId="sched__para_2__para_b__qstr__para_2">
+												<num ukl:autonumber="no">(2)</num>
+												<content>
+													<p>Unless defined for the purposes of these Regulations, any expression used in these Regulations which is defined in Regulation No 996/2010 has the same meaning given in that Regulation.</p>
+												</content>
+											</paragraph>
+										</quotedStructure><inline name="AppendText">;</inline></mod>
+								</p>
+							</content>
+						</level>
+						<level GUID="_74270254-58c5-4f6c-b641-b138e2dd1779" class="para1" eId="sched__para_2__para_c">
+							<num>(c)</num>
+							<content>
+								<p>omit paragraph (3).</p>
+							</content>
+						</level>
+					</paragraph>
+					<paragraph GUID="_a90566df-ca58-4696-8cf5-bdfb52adef39" class="schProv1" eId="sched__para_3">
+						<num>3.</num>
+						<content>
+							<p>Omit regulations 3, 5 and 6.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_edd40c2d-6428-466f-9662-46255e8f7ae6" class="schProv1" eId="sched__para_4">
+						<num>4.</num>
+						<intro GUID="_e792337a-fe54-49ae-825f-a3e318ea670a" eId="sched__para_4__intro">
+							<p>In regulation 7—</p>
+						</intro>
+						<level GUID="_14224012-3a24-4b5f-b448-186d37dc510f" class="para1" eId="sched__para_4__para_a">
+							<num>(a)</num>
+							<content>
+								<p>the existing text becomes paragraph (1);</p>
+							</content>
+						</level>
+						<level GUID="_34736277-fd75-47b9-8d7c-017e71f9a20c" class="para1" eId="sched__para_4__para_b">
+							<num>(b)</num>
+							<intro GUID="_572cbc73-e438-40ae-a8ab-26d5f836352b" eId="sched__para_4__para_b__intro">
+								<p>in that paragraph as so renumbered—</p>
+							</intro>
+							<level GUID="_94b8b89e-b9f6-4b69-8d54-021e20f3ade5" class="para2" eId="sched__para_4__para_b__subpara_i">
+								<num>(i)</num>
+								<content>
+									<p>for “continues to be” substitute “is”;</p>
+								</content>
+							</level>
+							<level GUID="_7cc70c91-fa5d-4e44-b619-358db3741592" class="para2" eId="sched__para_4__para_b__subpara_ii">
+								<num>(ii)</num>
+								<content>
+									<p>for “United Kingdom”, in both places where it occurs, substitute “Bailiwick”;</p>
+								</content>
+							</level>
+						</level>
+						<level GUID="_81d631c5-4b7c-4ae9-ae0c-9a9bacfbb5a0" class="para1" eId="sched__para_4__para_c">
+							<num>(c)</num>
+							<content>
+								<p>
+									<mod>after that paragraph, insert—<quotedStructure GUID="_5fb67ad8-3746-4fc4-a1c5-928adc3d0eb0" eId="sched__para_4__para_c__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+											<paragraph GUID="_4558c8aa-db06-4be8-a45f-3bba2e5ae600" class="prov2" eId="sched__para_4__para_c__qstr__para_2">
+												<num ukl:autonumber="no">(2)</num>
+												<intro GUID="_926be6ad-3e7a-4ad9-8225-af0970dcb491" eId="sched__para_4__para_c__qstr__para_2__intro">
+													<p>For the avoidance of doubt—</p>
+												</intro>
+												<level GUID="_23770345-1e4a-4908-ae9c-8bebf685e1d8" class="para1" eId="sched__para_4__para_c__qstr__para_2__para_a">
+													<num>(a)</num>
+													<content>
+														<p>in relation to the exercise of the powers and discharge of the obligations of the safety investigation authority in the Bailiwick under Regulation 996/2010, the Air Accidents Investigation Branch is subject to the law applying for the time being in whichever jurisdiction of the Bailiwick it exercises those powers or discharges those obligations; and</p>
+													</content>
+												</level>
+												<level GUID="_af2b1b08-c98a-41bb-826d-513edc748eaa" class="para1" eId="sched__para_4__para_c__qstr__para_2__para_b">
+													<num>(b)</num>
+													<content>
+														<p>in relation to the exercise of their powers and discharge of their obligations under these Regulations, the Chief Inspector, the Deputy Chief Inspector and any Investigating Inspector are subject to the law applying for the time being in whichever jurisdiction of the Bailiwick they exercise those powers or discharge those obligations.</p>
+													</content>
+												</level>
+											</paragraph>
+										</quotedStructure><inline name="AppendText">.</inline></mod>
+								</p>
+							</content>
+						</level>
+					</paragraph>
+					<paragraph GUID="_6f55625b-bcba-46f3-aab9-c8cc2d03c9d2" class="schProv1" eId="sched__para_5">
+						<num>5.</num>
+						<intro GUID="_a2abb980-575f-426c-9586-48493f673fac" eId="sched__para_5__intro">
+							<p>In regulation 9—</p>
+						</intro>
+						<level GUID="_1bc000c9-ec1a-41a2-91db-692ed4ed4f02" class="para1" eId="sched__para_5__para_a">
+							<num>(a)</num>
+							<content>
+								<p>omit paragraphs (1), (2) and (3);</p>
+							</content>
+						</level>
+						<level GUID="_811b87d5-1770-46c7-ba79-bf47f5c2157c" class="para1" eId="sched__para_5__para_b">
+							<num>(b)</num>
+							<content>
+								<p>
+									<mod>for paragraph (6) substitute—<quotedStructure GUID="_abab8acc-9615-4c7a-a940-a363e8b26612" eId="sched__para_5__para_b__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+											<paragraph GUID="_f4f614ae-a660-4254-94be-f9cf63e984f7" class="prov2" eId="sched__para_5__para_b__qstr__para_6">
+												<num ukl:autonumber="no">(6)</num>
+												<content>
+													<p>The Chief Inspector may instruct one or more Inspectors to assist the investigator-in-charge.</p>
+												</content>
+											</paragraph>
+										</quotedStructure><inline name="AppendText">.</inline></mod>
+								</p>
+							</content>
+						</level>
+					</paragraph>
+					<paragraph GUID="_8f0f6f98-257d-427d-858a-9789a52f92d5" class="schProv1" eId="sched__para_6">
+						<num>6.</num>
+						<intro GUID="_997a7c0d-8f2a-4535-abd5-465691ffd995" eId="sched__para_6__intro">
+							<p>In regulation 10—</p>
+						</intro>
+						<level GUID="_31cc3b47-4530-4f8c-a9be-3bf952fdfead" class="para1" eId="sched__para_6__para_a">
+							<num>(a)</num>
+							<content>
+								<p>in paragraph (1)(a), for “United Kingdom” substitute “Bailiwick”;</p>
+							</content>
+						</level>
+						<level GUID="_d6877115-6f52-456b-9954-f6aecae96cf3" class="para1" eId="sched__para_6__para_b">
+							<num>(b)</num>
+							<content>
+								<p>
+									<mod>for paragraph (1)(b) substitute—<quotedStructure GUID="_78c87701-0430-4f79-ad34-dcc41b7b51cb" eId="sched__para_6__para_b__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+											<level GUID="_beb6b9bf-afab-478e-b149-953ea7e5e0b9" class="para1" eId="sched__para_6__para_b__qstr__para_b">
+												<num ukl:autonumber="no">(b)</num>
+												<intro GUID="_3cdc4206-323d-4302-b06e-fdd96ac7abd8" eId="sched__para_6__para_b__qstr__para_b__intro">
+													<p>that accident, serious incident or incident involves any aircraft including—</p>
+												</intro>
+												<level GUID="_e1a40fe3-c002-4a4d-ac06-b0d8ab3b5ee4" class="para2" eId="sched__para_6__para_b__qstr__para_b__subpara_i">
+													<num>(i)</num>
+													<content>
+														<p>an aircraft engaged in military, customs, police or similar services;</p>
+													</content>
+												</level>
+												<level GUID="_9c2ad56f-e25b-4919-bc28-c27664dac091" class="para2" eId="sched__para_6__para_b__qstr__para_b__subpara_ii">
+													<num>(ii)</num>
+													<content>
+														<p>a small unmanned aircraft as defined in section 37 of the Air Navigation (Bailiwick of Guernsey) Law, 2012<authorialNote GUID="_e9b36d16-232a-4729-8f19-2fd3d3f87dda" class="footnote" eId="fnote_6" marker="6">
+																<p>Guernsey Order in Council No. XI of 2013.</p>
+															</authorialNote>; and</p>
+													</content>
+												</level>
+												<level GUID="_5bf1c8fe-b60a-4be4-ac86-0bead2cb040a" class="para2" eId="sched__para_6__para_b__qstr__para_b__subpara_iii">
+													<num>(iii)</num>
+													<content>
+														<p>a drone as defined in regulation 20; and</p>
+													</content>
+												</level>
+											</level>
+										</quotedStructure><inline name="AppendText">.</inline></mod>
+								</p>
+							</content>
+						</level>
+					</paragraph>
+					<paragraph GUID="_7babae78-88fd-47c8-ac21-667b335d7ece" class="schProv1" eId="sched__para_7">
+						<num>7.</num>
+						<intro GUID="_382fc3b1-3466-40e7-994e-2de14f512599" eId="sched__para_7__intro">
+							<p>In regulation 11—</p>
+						</intro>
+						<level GUID="_f45f2de4-368d-4106-9b21-86fd11b1b5fb" class="para1" eId="sched__para_7__para_a">
+							<num>(a)</num>
+							<content>
+								<p>in the heading, for “United Kingdom” substitute “Bailiwick”;</p>
+							</content>
+						</level>
+						<level GUID="_6b5f0645-7247-4096-9f5c-017ff4972250" class="para1" eId="sched__para_7__para_b">
+							<num>(b)</num>
+							<content>
+								<p>in paragraph (1) for “United Kingdom”, in both places where it occurs, substitute “Bailiwick”;</p>
+							</content>
+						</level>
+						<level GUID="_5ef9d452-09f7-42c7-addd-7009b98dae71" class="para1" eId="sched__para_7__para_c">
+							<num>(c)</num>
+							<content>
+								<p>in paragraph (1)(a), omit “other” in the second place it occurs;</p>
+							</content>
+						</level>
+						<level GUID="_0e2be20e-8838-4f68-9ed2-b23911b50234" class="para1" eId="sched__para_7__para_d">
+							<num>(d)</num>
+							<content>
+								<p>in paragraph (1)(b), after “is” insert “the territory in respect of which the United Kingdom is”;</p>
+							</content>
+						</level>
+						<level GUID="_6fc27841-c618-4ce6-b665-432ca11db30c" class="para1" eId="sched__para_7__para_e">
+							<num>(e)</num>
+							<content>
+								<p>in paragraph (1)(c), for “another” substitute “a Contracting”.</p>
+							</content>
+						</level>
+					</paragraph>
+					<paragraph GUID="_768259e0-e4f6-4d23-89ac-5121c7ea4e02" class="schProv1" eId="sched__para_8">
+						<num>8.</num>
+						<content>
+							<p>
+								<mod>After regulation 11, insert the following—<quotedStructure GUID="_335d40e4-e5d6-4a8b-871e-fec178144e9e" eId="sched__para_8__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+										<hcontainer GUID="_3f314c25-9b04-4c55-a5fe-d533647be5ba" class="prov1" eId="sched__para_8__qstr__reg_11A" name="regulation">
+											<heading GUID="_597e51ca-4eec-4ce0-b34a-454c8a3e7f5c" eId="sched__para_8__qstr__reg_11A__hdg">Notice of investigation, etc.</heading>
+											<num ukl:autonumber="no">11A.</num>
+											<paragraph GUID="_f59867df-2988-4c88-9e33-7d99540c5b16" class="prov2" eId="sched__para_8__qstr__reg_11A__para_1">
+												<num>(1)</num>
+												<content>
+													<p>Where an investigation is to be conducted in accordance with Regulation 996/2010, Annex 13 or these Regulations, the Investigating Inspector must notify the Director in writing as soon as reasonably practicable.</p>
+												</content>
+											</paragraph>
+											<paragraph GUID="_1dd5159f-dd56-4f1d-a4cf-87194077e894" class="prov2" eId="sched__para_8__qstr__reg_11A__para_2">
+												<num>(2)</num>
+												<content>
+													<p>Before the Investigating Inspector arrives in the Bailiwick for the purposes of an investigation referred to in paragraph (1), that Inspector must notify the Director in writing.</p>
+												</content>
+											</paragraph>
+											<paragraph GUID="_a9003460-3d9e-4969-8f60-995ace857071" class="prov2" eId="sched__para_8__qstr__reg_11A__para_3">
+												<num>(3)</num>
+												<content>
+													<p>For the purposes of paragraphs (1) and (2), "in writing" includes by electronic means.</p>
+												</content>
+											</paragraph>
+										</hcontainer>
+										<hcontainer GUID="_9b39a44e-5e04-4a4b-b7f1-e3659bd2fc84" class="prov1" eId="sched__para_8__qstr__reg_11B" name="regulation">
+											<heading GUID="_96fbfc82-f49c-4f64-8633-1779b0688803" eId="sched__para_8__qstr__reg_11B__hdg">Protection of evidence and removal of damaged aircraft</heading>
+											<num>11B.</num>
+											<paragraph GUID="_c1571a49-f5c7-45dc-9691-3f3f683dbdb9" class="prov2" eId="sched__para_8__qstr__reg_11B__para_1">
+												<num>(1)</num>
+												<content>
+													<p>The Bailiff or His Majesty's Procureur may designate any person to facilitate the securing or preservation of evidence for the purposes of an investigation being carried out under these regulations.</p>
+												</content>
+											</paragraph>
+											<paragraph GUID="_71e556e5-2b1d-442f-bb82-9d81ba2e30c4" class="prov2" eId="sched__para_8__qstr__reg_11B__para_2">
+												<num>(2)</num>
+												<content>
+													<p>A person designated for the purposes of paragraph (1) must act under instructions from the investigator-in-charge.</p>
+												</content>
+											</paragraph>
+											<paragraph GUID="_bf7d93bc-72c6-47bc-ad04-495795f9063e" class="prov2" eId="sched__para_8__qstr__reg_11B__para_3">
+												<num>(3)</num>
+												<intro GUID="_a380e121-8ad2-4b8a-9e28-05efef8ca139" eId="sched__para_8__qstr__reg_11B__para_3__intro">
+													<p>A designation for the purposes of paragraph (1)—</p>
+												</intro>
+												<level GUID="_c95620b6-3531-43e0-a15e-6cfe68f6c33e" class="para1" eId="sched__para_8__qstr__reg_11B__para_3__para_a">
+													<num>(a)</num>
+													<content>
+														<p>must be made in writing;</p>
+													</content>
+												</level>
+												<level GUID="_5dd7ce67-515d-4e12-a7c2-ba251283cb73" class="para1" eId="sched__para_8__qstr__reg_11B__para_3__para_b">
+													<num>(b)</num>
+													<content>
+														<p>may be of a general nature or relate to a specific investigation; and</p>
+													</content>
+												</level>
+												<level GUID="_d77b6fcc-13e1-4e67-af0c-d805e2457133" class="para1" eId="sched__para_8__qstr__reg_11B__para_3__para_c">
+													<num>(c)</num>
+													<content>
+														<p>may be amended or revoked for any reason by the Bailiff or His Majesty's Procureur.</p>
+													</content>
+												</level>
+											</paragraph>
+											<paragraph GUID="_b7b6e8b3-7080-407c-b4eb-8358c5cde6c7" class="prov2" eId="sched__para_8__qstr__reg_11B__para_4">
+												<num>(4)</num>
+												<content>
+													<p>For the purposes of paragraph (3)(a), “in writing” includes by electronic means.</p>
+												</content>
+											</paragraph>
+										</hcontainer>
+									</quotedStructure><inline name="AppendText">.</inline></mod>
+							</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_c4160729-7d4a-4834-ac3a-ca3b3637e939" class="schProv1" eId="sched__para_9">
+						<num>9.</num>
+						<intro GUID="_81c919c6-d2ca-40c2-b9cc-c96be0350ce4" eId="sched__para_9__intro">
+							<p>In regulation 12(2)—</p>
+						</intro>
+						<level GUID="_a0d5c311-f8fe-493d-a769-fd461ee974b4" class="para1" eId="sched__para_9__para_a">
+							<num>(a)</num>
+							<content>
+								<p>after “allowed the” insert “reasonable”;</p>
+							</content>
+						</level>
+						<level GUID="_55a26611-0dc9-456a-be81-910dc9c4c9c5" class="para1" eId="sched__para_9__para_b">
+							<num>(b)</num>
+							<content>
+								<p>for “Secretary of State” substitute “States of Guernsey”.</p>
+							</content>
+						</level>
+					</paragraph>
+					<paragraph GUID="_0f7ca777-cb0f-4a8e-a709-8d4f5ff5c9f3" class="schProv1" eId="sched__para_10">
+						<num>10.</num>
+						<intro GUID="_d9bdfba0-2a44-4382-95cc-68cac4b2ab7b" eId="sched__para_10__intro">
+							<p>In regulation 14—</p>
+						</intro>
+						<level GUID="_8064efe6-c5ad-47c7-b0e1-e3961556c4d0" class="para1" eId="sched__para_10__para_a">
+							<num>(a)</num>
+							<content>
+								<p>
+									<mod>in paragraph (2), for sub-paragraph (b) substitute— <quotedStructure GUID="_df978d3e-e54a-40a5-b7f6-5d17d18e3590" eId="sched__para_10__para_a__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+											<level GUID="_0a8b415e-9c3a-45f4-8dee-0e84b04acd44" class="para1" eId="sched__para_10__para_a__qstr__para_b">
+												<num ukl:autonumber="no">(b)</num>
+												<intro GUID="_2062a5f3-964a-4a80-b134-2e4b5badd0ba" eId="sched__para_10__para_a__qstr__para_b__intro">
+													<p>such entry and inspection has been authorised by a warrant issued by—</p>
+												</intro>
+												<level GUID="_ecfbb986-e703-4e3a-94c6-0d580c2a69d2" class="para2" eId="sched__para_10__para_a__qstr__para_b__subpara_i">
+													<num>(i)</num>
+													<content>
+														<p>in Alderney, the Chairman of the Court of Alderney or a Jurat of the Court of Alderney,</p>
+													</content>
+												</level>
+												<level GUID="_94add9e5-3fe2-4e9c-a50f-ab939e014b36" class="para2" eId="sched__para_10__para_a__qstr__para_b__subpara_ii">
+													<num>(ii)</num>
+													<content>
+														<p>in Sark, the Seneschal, or</p>
+													</content>
+												</level>
+												<level GUID="_dfa2bc64-9bf3-42d5-9df8-40a9ec2a9235" class="para2" eId="sched__para_10__para_a__qstr__para_b__subpara_iii">
+													<num>(iii)</num>
+													<content>
+														<p>in any other case, the Bailiff,</p>
+													</content>
+												</level>
+												<wrapUp GUID="_141c40ba-58c2-4345-9b29-c41c9829d486" eId="sched__para_10__para_a__qstr__para_b__wrapup">
+													<p>on an application made by an Investigating Inspector and supported by evidence on oath;</p>
+												</wrapUp>
+											</level>
+										</quotedStructure><inline name="AppendText">;</inline></mod>
+								</p>
+							</content>
+						</level>
+						<level GUID="_2cb1bffa-9837-4021-8ddf-5a3f6405de9d" class="para1" eId="sched__para_10__para_b">
+							<num>(b)</num>
+							<intro GUID="_362baff3-4914-4b4e-9758-468f5db2a950" eId="sched__para_10__para_b__intro">
+								<p>in paragraph (3)—</p>
+							</intro>
+							<level GUID="_161281ed-987c-4013-9d3f-9a00e2b181fb" class="para2" eId="sched__para_10__para_b__subpara_i">
+								<num>(i)</num>
+								<content>
+									<p>for “A justice” substitute “The Bailiff, the Chairman of the Court of Alderney, a Jurat of the Court of Alderney or the Seneschal, as the case may be,”;</p>
+								</content>
+							</level>
+							<level GUID="_0005cf23-48a6-4b57-b0de-49c2b6ac21cf" class="para2" eId="sched__para_10__para_b__subpara_ii">
+								<num>(ii)</num>
+								<content>
+									<p>for “the justice” substitute “the individual concerned”;</p>
+								</content>
+							</level>
+						</level>
+						<level GUID="_129a7733-1f4f-4c47-8e68-6633638605ce" class="para1" eId="sched__para_10__para_c">
+							<num>(c)</num>
+							<content>
+								<p>in paragraph (5), after “valid for” insert “as long as reasonably necessary for the safety investigation to be conducted, but must not exceed”;</p>
+							</content>
+						</level>
+						<level GUID="_71264b2a-c3f2-4ffd-bea1-4a50adca5c49" class="para1" eId="sched__para_10__para_d">
+							<num>(d)</num>
+							<intro GUID="_b502808b-951e-46dd-a647-7e8e55d57ed6" eId="sched__para_10__para_d__intro">
+								<p>in paragraph (8)—</p>
+							</intro>
+							<level GUID="_295a489b-d527-46a8-978c-d0fc6ec5210d" class="para2" eId="sched__para_10__para_d__subpara_i">
+								<num>(i)</num>
+								<content>
+									<p>
+										<mod>after the definition of “dwelling”, insert—<quotedStructure GUID="_5c0de045-22ca-40fb-aaa6-f32d43f3e76b" eId="sched__para_10__para_d__subpara_i__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+												<hcontainer GUID="_9bab0952-7a20-45dc-ba18-f1302766d573" class="definition" eId="sched__para_10__para_d__subpara_i__qstr__def_Seneschal_" name="definition">
+													<content>
+														<p><def GUID="_e0248e30-a2d6-4e35-a1db-ebca2d569d74" eId="sched__para_10__para_d__subpara_i__qstr__def_Seneschal" ukl:endQuote="”" ukl:startQuote="“">Seneschal</def> means the Seneschal of Sark, and includes the Deputy Seneschal or a Lieutenant-Seneschal.</p>
+													</content>
+												</hcontainer>
+											</quotedStructure><inline name="AppendText">;</inline></mod>
+									</p>
+								</content>
+							</level>
+							<level GUID="_e8583e9a-33d1-47df-bfaa-43aec01092b1" class="para2" eId="sched__para_10__para_d__subpara_ii">
+								<num>(ii)</num>
+								<content>
+									<p>omit the definition of “a justice”.</p>
+								</content>
+							</level>
+						</level>
+					</paragraph>
+					<paragraph GUID="_2a9c282b-a3d1-4a71-9953-c7b9b909c80a" class="schProv1" eId="sched__para_11">
+						<num>11.</num>
+						<content>
+							<p>In regulation 15(5), for “statutory or common law powers that apply in any part of the United Kingdom” substitute “the law applying for the time being in the relevant jurisdiction of the Bailiwick”.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_8655a214-8ee8-4467-a8a4-6fd273cd3a44" class="schProv1" eId="sched__para_12">
+						<num>12.</num>
+						<content>
+							<p>In regulation 17, for “Secretary of State” substitute “Bailiff, the Director and the Committee”.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_777748b6-3ad9-4897-b4c5-97cae604252f" class="schProv1" eId="sched__para_13">
+						<num>13.</num>
+						<content>
+							<p>Omit regulation 19.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_26100ae5-7c73-4f35-863f-3ffdf29713ca" class="schProv1" eId="sched__para_14">
+						<num>14.</num>
+						<intro GUID="_67afbc33-f245-4a03-aa91-6416e67a5b72" eId="sched__para_14__intro">
+							<p>In regulation 20—</p>
+						</intro>
+						<level GUID="_9ee22689-7b1a-47d9-814a-2ec6f1e67a7d" class="para1" eId="sched__para_14__para_a">
+							<num>(a)</num>
+							<content>
+								<p>in paragraph (1), for “Any” substitute “Subject to paragraph (1A), any”;</p>
+							</content>
+						</level>
+						<level GUID="_705e9729-1243-462e-a14e-787076ddf0ff" class="para1" eId="sched__para_14__para_b">
+							<num>(b)</num>
+							<content>
+								<p>in paragraph (1)(a), for “United Kingdom” substitute “Bailiwick”;</p>
+							</content>
+						</level>
+						<level GUID="_51afbd7f-c605-4b83-992b-dce1ba26babb" class="para1" eId="sched__para_14__para_c">
+							<num>(c)</num>
+							<content>
+								<p>in paragraph (1)(b), omit the words “or (in relation to Scotland) constable for the area where the accident occurred”;</p>
+							</content>
+						</level>
+						<level GUID="_d719f60f-45b1-4001-97e6-7d9f5a651fbd" class="para1" eId="sched__para_14__para_d">
+							<num>(d)</num>
+							<content>
+								<p>
+									<mod>after paragraph (1), insert—<quotedStructure GUID="_943f32bc-e829-43a2-b071-7b254737d164" eId="sched__para_14__para_d__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+											<paragraph GUID="_3cf64fc3-6b59-4ce8-9820-184a34377bb4" class="prov2" eId="sched__para_14__para_d__qstr__para_1A">
+												<num ukl:autonumber="no">(1A)</num>
+												<intro GUID="_e0bda8f3-afa4-4609-92b7-28ee03529c6e" eId="sched__para_14__para_d__qstr__para_1A__intro">
+													<p>A person involved is not required to notify the Chief Inspector and, in the case of an accident, a police officer where—</p>
+												</intro>
+												<level GUID="_4e627392-eaae-40f8-a471-63c792f9b0cb" class="para1" eId="sched__para_14__para_d__qstr__para_1A__para_a">
+													<num>(a)</num>
+													<intro GUID="_21e8014f-350f-40eb-b3c1-a3a570a9e2ca" eId="sched__para_14__para_d__qstr__para_1A__para_a__intro">
+														<p>the accident or serious incident referred to in paragraph (1)(a) relates to a drone—</p>
+													</intro>
+													<level GUID="_209925c0-f363-433f-baf5-8d2b4dd3c5d3" class="para2" eId="sched__para_14__para_d__qstr__para_1A__para_a__subpara_i">
+														<num>(i)</num>
+														<content>
+															<p>which does not have a design approval; or</p>
+														</content>
+													</level>
+													<level GUID="_19fdabf4-a520-4196-8e20-96b6d4796310" class="para2" eId="sched__para_14__para_d__qstr__para_1A__para_a__subpara_ii">
+														<num>(ii)</num>
+														<content>
+															<p>which is not specified in an aerial work certificate for the purposes of section 70 of the Air Navigation (Bailiwick of Guernsey) Law, 2012<authorialNote GUID="_dacca60e-5818-4e40-893f-0e311f025afa" class="footnote" eId="fnote_7" marker="7">
+																	<p>Guernsey Order in Council No. XI of 2013.</p>
+																</authorialNote>; and</p>
+														</content>
+													</level>
+												</level>
+												<level GUID="_56ac3a79-7a22-42f4-bf19-b666ceb02cab" class="para1" eId="sched__para_14__para_d__qstr__para_1A__para_b">
+													<num>(b)</num>
+													<intro GUID="_7c734275-a0e1-4e40-bec8-abeb6b00d734" eId="sched__para_14__para_d__qstr__para_1A__para_b__intro">
+														<p>that person reasonably believes that the accident or serious incident is not likely to have, directly or indirectly—</p>
+													</intro>
+													<level GUID="_f5d18c9f-83ab-4e94-b81b-320ff18ceff8" class="para2" eId="sched__para_14__para_d__qstr__para_1A__para_b__subpara_i">
+														<num>(i)</num>
+														<content>
+															<p>caused loss of life or serious injury to any other person, or</p>
+														</content>
+													</level>
+													<level GUID="_dc797e4f-f7e3-42ab-bf89-5c587c780fb4" class="para2" eId="sched__para_14__para_d__qstr__para_1A__para_b__subpara_ii">
+														<num>(ii)</num>
+														<content>
+															<p>endangered the safety of another aircraft, other than a small unmanned aircraft as defined in section 37 of the Air Navigation (Bailiwick of Guernsey) Law, 2012.</p>
+														</content>
+													</level>
+												</level>
+											</paragraph>
+										</quotedStructure><inline name="AppendText">;</inline></mod>
+								</p>
+							</content>
+						</level>
+						<level GUID="_580da2b5-26e0-41c0-ac89-dd936add6cf6" class="para1" eId="sched__para_14__para_e">
+							<num>(e)</num>
+							<content>
+								<p>
+									<mod>for paragraph (2), substitute—<quotedStructure GUID="_5e193699-67a6-4c9a-8b9f-37f6326d10f4" eId="sched__para_14__para_e__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+											<paragraph GUID="_d525019c-9f61-4a3f-8566-b15f8c7f1015" class="prov2" eId="sched__para_14__para_e__qstr__para_2">
+												<num ukl:autonumber="no">(2)</num>
+												<intro GUID="_4e4d1069-80f9-4f32-ae21-63c983f12e63" eId="sched__para_14__para_e__qstr__para_2__intro">
+													<p>In this regulation—</p>
+												</intro>
+												<hcontainer GUID="_1c8463d2-c6fa-4cc6-a248-470b83e556d5" class="definition" eId="sched__para_14__para_e__qstr__para_2__def_designapproval_" name="definition">
+													<content>
+														<p><def GUID="_fe6054d8-43f5-463b-9ae1-f87eda807c4c" eId="sched__para_14__para_e__qstr__para_2__def_designapproval" ukl:endQuote="”" ukl:startQuote="“">design approval</def> means a type certificate issued by a national aviation regulatory authority, including but not limited to, the UK Civil Aviation Authority, the European Union Aviation Safety Agency or the United States Federal Aviation Administration;</p>
+													</content>
+												</hcontainer>
+												<hcontainer GUID="_43a74917-0f43-4e79-8910-09ac8a7f43eb" class="definition" eId="sched__para_14__para_e__qstr__para_2__def_drone_" name="definition">
+													<content>
+														<p><def GUID="_ad2b237d-91e6-4a53-b8e5-5ba97d368b0e" eId="sched__para_14__para_e__qstr__para_2__def_drone" ukl:endQuote="”" ukl:startQuote="“">drone</def> means any aircraft operating, or designed to operate, autonomously, or to be piloted remotely without any pilot on board, and includes a model aircraft;</p>
+													</content>
+												</hcontainer>
+												<hcontainer GUID="_21144fb7-9120-40b8-be9d-cad0981dffc6" class="definition" eId="sched__para_14__para_e__qstr__para_2__def_policeofficer_" name="definition">
+													<intro GUID="_c8611e0a-45dc-4539-892a-c263d5a8c7af" eId="sched__para_14__para_e__qstr__para_2__def_policeofficer__intro">
+														<p><def GUID="_e6833168-937b-4c6e-aab1-c5113f4012eb" eId="sched__para_14__para_e__qstr__para_2__def_policeofficer" ukl:endQuote="”" ukl:startQuote="“">police officer</def> means—</p>
+													</intro>
+													<level GUID="_8de21731-1edf-4af5-94e8-c586d8229ba7" class="para1" eId="sched__para_14__para_e__qstr__para_2__def_policeofficer__para_a">
+														<num>(a)</num>
+														<intro GUID="_7ed6afe7-4962-42e1-b172-a66b3f12a784" eId="sched__para_14__para_e__qstr__para_2__def_policeofficer__para_a__intro">
+															<p>in relation to Guernsey, Herm and Jethou—</p>
+														</intro>
+														<level GUID="_3dd80ffc-eee7-427c-95f0-43da4712c62f" class="para2" eId="sched__para_14__para_e__qstr__para_2__def_policeofficer__para_a__subpara_i">
+															<num>(i)</num>
+															<content>
+																<p>a member of the salaried police force of the Island of Guernsey; or</p>
+															</content>
+														</level>
+														<level GUID="_56eb066d-153a-450d-9954-b19490de160e" class="para2" eId="sched__para_14__para_e__qstr__para_2__def_policeofficer__para_a__subpara_ii">
+															<num>(ii)</num>
+															<content>
+																<p>within the limits of their jurisdiction, a member of the special constabulary of the Island of Guernsey;</p>
+															</content>
+														</level>
+													</level>
+													<level GUID="_203f545c-2637-494e-8802-ea71aa1d8a3c" class="para1" eId="sched__para_14__para_e__qstr__para_2__def_policeofficer__para_b">
+														<num>(b)</num>
+														<intro GUID="_5ee3d4be-6360-4265-b864-96c5c8e8b812" eId="sched__para_14__para_e__qstr__para_2__def_policeofficer__para_b__intro">
+															<p>in relation to Alderney—</p>
+														</intro>
+														<level GUID="_5070ca2c-2f42-4cb7-827b-2411e24f9a17" class="para2" eId="sched__para_14__para_e__qstr__para_2__def_policeofficer__para_b__subpara_i">
+															<num>(i)</num>
+															<content>
+																<p>a member of the salaried police force of the Island of Guernsey;</p>
+															</content>
+														</level>
+														<level GUID="_c6efc6dc-3753-4a5f-b32f-89fe98f5ae89" class="para2" eId="sched__para_14__para_e__qstr__para_2__def_policeofficer__para_b__subpara_ii">
+															<num>(ii)</num>
+															<content>
+																<p>a member of any police force which may be established by the States of Alderney; or</p>
+															</content>
+														</level>
+														<level GUID="_10b971a4-b418-47c2-a64b-09c60a54c1bb" class="para2" eId="sched__para_14__para_e__qstr__para_2__def_policeofficer__para_b__subpara_iii">
+															<num>(iii)</num>
+															<content>
+																<p>within the limits of their jurisdiction, a special constable appointed under section 47 of the Government of Alderney Law, 2004<authorialNote GUID="_27870b11-0ac8-449f-a9c1-9f2ca7e07876" class="footnote" eId="fnote_8" marker="8">
+																		<p>Guernsey Order in Council No. III of 2005.</p>
+																	</authorialNote>; and</p>
+															</content>
+														</level>
+													</level>
+													<level GUID="_5c68c5d3-2ab9-42af-ace4-ff4fd77fc1a0" class="para1" eId="sched__para_14__para_e__qstr__para_2__def_policeofficer__para_c">
+														<num>(c)</num>
+														<intro GUID="_b1c8b57c-6156-4adf-9f43-cede513718e4" eId="sched__para_14__para_e__qstr__para_2__def_policeofficer__para_c__intro">
+															<p>in relation to Sark—</p>
+														</intro>
+														<level GUID="_6e2ac086-18eb-4b91-9d3f-ebf1cbba0320" class="para2" eId="sched__para_14__para_e__qstr__para_2__def_policeofficer__para_c__subpara_i">
+															<num>(i)</num>
+															<content>
+																<p>the Constable, the Vingtenier or an Assistant Constable of Sark;</p>
+															</content>
+														</level>
+														<level GUID="_c5541252-1657-4b6b-b5a0-7fe13b351564" class="para2" eId="sched__para_14__para_e__qstr__para_2__def_policeofficer__para_c__subpara_ii">
+															<num>(ii)</num>
+															<content>
+																<p>a member of the salaried police force of the Island of Guernsey; or</p>
+															</content>
+														</level>
+														<level GUID="_d948dd71-35ce-4c7e-9e35-94560e135362" class="para2" eId="sched__para_14__para_e__qstr__para_2__def_policeofficer__para_c__subpara_iii">
+															<num>(iii)</num>
+															<content>
+																<p>within the limits of their jurisdiction, a special constable appointed under section 54 of the Reform (Sark) Law, 2008<authorialNote GUID="_b3405c0b-bdbc-41a9-90e1-c0992e91e5fa" class="footnote" eId="fnote_9" marker="9">
+																		<p>Guernsey Order in Council No. V of 2008.</p>
+																	</authorialNote>.</p>
+															</content>
+														</level>
+													</level>
+												</hcontainer>
+											</paragraph>
+										</quotedStructure><inline name="AppendText">.</inline></mod>
+								</p>
+							</content>
+						</level>
+					</paragraph>
+					<paragraph GUID="_56fa46eb-1823-45e9-a80b-72e002d58632" class="schProv1" eId="sched__para_15">
+						<num>15.</num>
+						<content>
+							<p>
+								<mod>For regulation 21, substitute—<quotedStructure GUID="_a87bf33f-1510-4d4e-a9e7-71d3f7b2bb94" eId="sched__para_15__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+										<hcontainer GUID="_ad9c3f61-e0be-4e33-8845-611d9d263a27" class="prov1" eId="sched__para_15__qstr__reg_21" name="regulation">
+											<heading GUID="_d08436d3-ecd1-45ac-ad88-345ca6756374" eId="sched__para_15__qstr__reg_21__hdg">Obstruction</heading>
+											<num ukl:autonumber="no">21.</num>
+											<intro GUID="_892ae32c-b173-4829-aa88-ebdc0b0458b7" eId="sched__para_15__qstr__reg_21__intro">
+												<p>Any person who, without reasonable excuse, obstructs or impedes—</p>
+											</intro>
+											<level GUID="_565795d8-f91e-4680-8a9f-ba90dd6d299f" class="para1" eId="sched__para_15__qstr__reg_21__para_a">
+												<num>(a)</num>
+												<content>
+													<p>an Inspector, or</p>
+												</content>
+											</level>
+											<level GUID="_a8be37cb-48de-4a6d-872f-767f8b7ca467" class="para1" eId="sched__para_15__qstr__reg_21__para_b">
+												<num>(b)</num>
+												<content>
+													<p>a person designated for the purposes of regulation 11B,</p>
+												</content>
+											</level>
+											<wrapUp GUID="_61fe622f-fbc0-40b3-b9ee-a040fa0ca78c" eId="sched__para_15__qstr__reg_21__wrapup">
+												<p>in the exercise of any duties, powers or entitlements imposed or conferred by Regulation 996/2010, Annex 13 or by these Regulations, contravenes these Regulations.</p>
+											</wrapUp>
+										</hcontainer>
+									</quotedStructure><inline name="AppendText">.</inline></mod>
+							</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_a0d0b255-6ed8-415e-8ad7-42a378292806" class="schProv1" eId="sched__para_16">
+						<num>16.</num>
+						<content>
+							<p>In regulation 23, after “regulation 12” insert “which requires that person to attend a witness interview in the Bailiwick,”.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_2efdf53f-4d18-4ec3-9c44-9ac977e9915a" class="schProv1" eId="sched__para_17">
+						<num>17.</num>
+						<content>
+							<p>In regulation 24(2), after “Article 13” insert “of Regulation 996/2010”.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_2b28bb51-ffba-4d5e-90f1-5ef41a3b58c8" class="schProv1" eId="sched__para_18">
+						<num>18.</num>
+						<intro GUID="_160a5bd8-2fd0-4a02-a6c1-3062246963d0" eId="sched__para_18__intro">
+							<p>In regulation 25—</p>
+						</intro>
+						<level GUID="_515bc6d0-1c89-4b73-9f2d-0fc206cc3930" class="para1" eId="sched__para_18__para_a">
+							<num>(a)</num>
+							<content>
+								<p>
+									<mod>for paragraph (2), substitute—<quotedStructure GUID="_c1aa6e89-833e-41e1-ae19-be29c90ac4f8" eId="sched__para_18__para_a__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+											<paragraph GUID="_8f551655-3fc6-4263-988e-109f01951a69" class="prov2" eId="sched__para_18__para_a__qstr__para_2">
+												<num ukl:autonumber="no">(2)</num>
+												<intro GUID="_d65b00e9-70de-4991-8615-ef403837180e" eId="sched__para_18__para_a__qstr__para_2__intro">
+													<p>In paragraph (1) "relevant person" means—</p>
+												</intro>
+												<level GUID="_5649005a-3272-43bd-b049-c325e754eab3" class="para1" eId="sched__para_18__para_a__qstr__para_2__para_a">
+													<num>(a)</num>
+													<content>
+														<p>an Inspector; or</p>
+													</content>
+												</level>
+												<level GUID="_9857b2ec-94c2-4d7e-b834-588a5469f3c0" class="para1" eId="sched__para_18__para_a__qstr__para_2__para_b">
+													<num>(b)</num>
+													<content>
+														<p>any person to whom any relevant record has been made available by an Inspector.</p>
+													</content>
+												</level>
+											</paragraph>
+										</quotedStructure><inline name="AppendText">;</inline></mod>
+								</p>
+							</content>
+						</level>
+						<level GUID="_956ff00b-3bc2-4ca3-92f1-21dff755933d" class="para1" eId="sched__para_18__para_b">
+							<num>(b)</num>
+							<content>
+								<p>
+									<mod>after paragraph (5), insert—<quotedStructure GUID="_963307c3-e445-4dc7-915c-097beb47414f" eId="sched__para_18__para_b__qstr" endQuote="" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+											<paragraph GUID="_e4d77fe3-7e1e-4ce3-a98e-a79531971ffb" class="prov2" eId="sched__para_18__para_b__qstr__para_5A">
+												<num ukl:autonumber="no">(5A)</num>
+												<intro GUID="_2db445a2-3e87-45c4-99ca-cf01e0c1ecf8" eId="sched__para_18__para_b__qstr__para_5A__intro">
+													<p>Subject to paragraph (5B), any person who makes available to the public—</p>
+												</intro>
+												<level GUID="_63fe0020-70e3-4984-a473-892155ff0a11" class="para1" eId="sched__para_18__para_b__qstr__para_5A__para_a">
+													<num>(a)</num>
+													<content>
+														<p>audio content of a cockpit voice recording; or</p>
+													</content>
+												</level>
+												<level GUID="_041c553c-27c9-4ee0-8586-24d7108fe63e" class="para1" eId="sched__para_18__para_b__qstr__para_5A__para_b">
+													<num>(b)</num>
+													<content>
+														<p>image or audio content of an airborne image recording,</p>
+													</content>
+												</level>
+											</paragraph>
+										</quotedStructure><quotedStructure GUID="_60d86dce-be06-4697-baac-0209b9c12d2d" eId="sched__para_18__para_b__qstr__oc_1" endQuote="" startQuote="" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+											<wrapUp GUID="_ac9f8966-1150-4437-bde0-55ef9c9a8154" eId="sched__para_18__para_b__qstr__oc_1__wrapup">
+												<p>which forms part of the evidence in a safety investigation, whether ongoing or completed, contravenes these Regulations.</p>
+											</wrapUp>
+										</quotedStructure><quotedStructure GUID="_ca786efa-05c5-4b67-9dd0-69a3987a06d9" eId="sched__para_18__para_b__qstr__oc_2" endQuote="”" startQuote="" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+											<paragraph GUID="_0aea2576-6621-4a95-9a09-f29e56bc0293" class="prov2" eId="sched__para_18__para_b__qstr__oc_2__para_5B">
+												<num ukl:autonumber="no">(5B)</num>
+												<content>
+													<p>Nothing in this regulation prevents the inclusion of image content of an airborne image recording in the final safety investigation report.</p>
+												</content>
+											</paragraph>
+										</quotedStructure><inline name="AppendText">;</inline></mod>
+								</p>
+							</content>
+						</level>
+						<level GUID="_833b9840-636d-4102-a1c7-3703aa7390e5" class="para1" eId="sched__para_18__para_c">
+							<num>(c)</num>
+							<intro GUID="_72224f77-ffe5-4b73-b14c-40941bd2f77e" eId="sched__para_18__para_c__intro">
+								<p>in paragraph (6)—</p>
+							</intro>
+							<level GUID="_411913c7-c539-48c0-ba17-c5b2a8248e71" class="para2" eId="sched__para_18__para_c__subpara_i">
+								<num>(i)</num>
+								<content>
+									<p>
+										<mod>after the definition of “judicial proceedings”, insert—<quotedStructure GUID="_14200dfd-3244-4099-9b0b-7bd6615ead2e" eId="sched__para_18__para_c__subpara_i__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+												<hcontainer GUID="_356a44df-1dd6-4da4-b2c0-e5a96cf8ffcd" class="definition" eId="sched__para_18__para_c__subpara_i__qstr__def_makesavailabletothepublic_" name="definition">
+													<content>
+														<p><def GUID="_05b59396-9664-479a-bf9f-c130301110a3" eId="sched__para_18__para_c__subpara_i__qstr__def_makesavailabletothepublic" ukl:endQuote="”" ukl:startQuote="“">makes available to the public</def> means broadcasting or publishing in any manner whatsoever any content referred to in paragraph (5A) to the public in general or to any section of the public;</p>
+													</content>
+												</hcontainer>
+											</quotedStructure><inline name="AppendText">;</inline></mod>
+									</p>
+								</content>
+							</level>
+							<level GUID="_2a373658-3298-4f06-b7da-dff96dbd8c6f" class="para2" eId="sched__para_18__para_c__subpara_ii">
+								<num>(ii)</num>
+								<content>
+									<p>
+										<mod>for the definition of “relevant court” substitute—<quotedStructure GUID="_c6affb30-81f8-44ec-b38f-9be78c207d9d" eId="sched__para_18__para_c__subpara_ii__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+												<hcontainer GUID="_a78e6ae0-c2ca-4b32-aa49-44ca415aacbc" class="definition" eId="sched__para_18__para_c__subpara_ii__qstr__def_relevantcourt_" name="definition">
+													<content>
+														<p><def GUID="_de49b371-37f0-446d-8b55-15d645a63a62" eId="sched__para_18__para_c__subpara_ii__qstr__def_relevantcourt" ukl:endQuote="”" ukl:startQuote="“">relevant court</def> means the Royal Court of Guernsey, however constituted;</p>
+													</content>
+												</hcontainer>
+											</quotedStructure><inline name="AppendText">.</inline></mod>
+									</p>
+								</content>
+							</level>
+						</level>
+					</paragraph>
+					<paragraph GUID="_c38c2df8-ea32-4029-8c09-c2127f079fe3" class="schProv1" eId="sched__para_19">
+						<num>19.</num>
+						<content>
+							<p>In regulation 26(1)(a), after “paragraph” insert “3 or”.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_cffabf7a-ee8e-44ce-a103-64432e7bf993" class="schProv1" eId="sched__para_20">
+						<num>20.</num>
+						<content>
+							<p>In regulation 27(1) for “United Kingdom” substitute “Bailiwick”.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_a76d2a8e-00ce-4f85-b7c9-041ac68d9310" class="schProv1" eId="sched__para_21">
+						<num>21.</num>
+						<content>
+							<p>In regulation 28(b), after "Article 20" insert “of that Regulation”.</p>
+						</content>
+					</paragraph>
+					<paragraph GUID="_b36ab110-a28f-4e36-85ff-15d25997ea04" class="schProv1" eId="sched__para_22">
+						<num>22.</num>
+						<content>
+							<p>
+								<mod>For regulation 29, substitute—<quotedStructure GUID="_619f217b-d4f0-40af-b02b-ce74b62a13c3" eId="sched__para_22__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+										<hcontainer GUID="_1643baf9-e1c5-4b29-8c0e-0b863785ea45" class="prov1" eId="sched__para_22__qstr__reg_29" name="regulation">
+											<heading GUID="_3fc2e152-cca2-4b39-82e8-27bf64b7a3fc" eId="sched__para_22__qstr__reg_29__hdg">Jurisdiction to try offences</heading>
+											<num ukl:autonumber="no">29.</num>
+											<content>
+												<p>Proceedings for an offence under these Regulations may be commenced in any court in the Bailiwick having criminal jurisdiction at the discretion of His Majesty's Procureur.</p>
+											</content>
+										</hcontainer>
+									</quotedStructure><inline name="AppendText">.</inline></mod>
+							</p>
+						</content>
+					</paragraph>
+				</hcontainer>
+			</hcontainer>
+		</body>
+		<conclusions GUID="_c3008364-ae22-464f-86d6-46583cc111a9" eId="backCover"><?DMS-Component componentId="0c6a2c3b-a441-41a9-8fba-44d34090ea26" seriesId="e11ad92a-e217-449a-ac71-76633775eafe" versionNumber="1"?>
+			
+			<blockContainer GUID="_c7831190-4e33-41f0-b145-2cc988155b88" class="explanatoryNote" eId="backCover__explNote">
+				<heading GUID="_3c41ec0f-3118-4c4a-a458-4a93e63653e6" eId="backCover__explNote__hdg">Explanatory Note</heading>
+				<subheading GUID="_41a8c06f-3d79-41b6-8715-bce1379f3de1" eId="backCover__explNote__subhdg">(This note is not part of the Order)</subheading>
+				<p>This Order extends to the Bailiwick of Guernsey, with modifications, the Civil Aviation (Investigation of Air Accidents and Incidents) Regulations 2018 (S.I. 2018/321) (“the 2018 Regulations”).</p>
+				<p>Subject to the transitional provisions in article 3, this Order revokes the Civil Aviation (Investigation of Air Accidents and Incidents) (Guernsey) Order 1998 (S.I. 1998/1503).</p>
+				<p>The 2018 Regulations as modified and extended to the Bailiwick of Guernsey by this Order (“the modified Regulations”), make provision for the investigation of air accidents and incidents which occur in or over the Bailiwick of Guernsey.</p>
+				<p>The modified Regulations also make provision for a safety investigation to be conducted (insofar as it is practicable to do so) where an accident or serious incident occurs in or over a country or territory other than the Bailiwick of Guernsey or any State which is party to the Chicago Convention. Regulation 11 of the modified Regulations applies where the accident or serious incident involves an aircraft in respect of which the Bailiwick is the territory in respect of which the United Kingdom is the State of Registry, the State of the Operator, the State of Design or the State of Manufacture (as defined in regulation 11 of the modified Regulations) and where an investigation is not conducted by a State which is party to the Chicago Convention.</p>
+				<p>An impact assessment has not been prepared for this instrument because the territorial extent of the instrument and the modified Regulations is the Bailiwick of Guernsey; no, or no significant, impact is foreseen on the private, voluntary or public sector in the United Kingdom.</p>
+			</blockContainer>
+		</conclusions>
+		
+	</act>
+</akomaNtoso>

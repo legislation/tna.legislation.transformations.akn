@@ -1,0 +1,1642 @@
+<?xml version="1.0" encoding="UTF-8"?><akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../schemas/akomantoso30.xsd">
+ <?DMS-Component componentId="6b9b7b6d-5f09-4c41-992a-cb7074ff8ece" seriesId="26b5a9f5-0d2e-49c8-bfeb-724bfb8f0616" versionNumber="1"?>
+ <act contains="originalVersion" name="ukpga">
+  <meta>
+   <?DMS-Component componentId="19901830-04a1-491f-a2ae-2d6c2c821e90" seriesId="3d306c88-f4d4-4db7-94f8-e1d2ca191ec7" versionNumber="0"?>
+   <identification source="#author">
+    <FRBRWork>
+     <FRBRthis value="#varWork"/>
+     <FRBRuri value="#varWorkUri"/>
+     <FRBRalias name="ttflConfigHistory" value="#varCHOiid"/>
+     <FRBRalias name="ttflConfigHistory" value="#varCHOiid"/>
+     <FRBRalias name="alternateUri" value="https://lawmaker.legislation.gov.uk/pdr/ukpubb/HL/58_4/4/bill"/>
+     <FRBRalias name="alternateUri" value="https://lawmaker.legislation.gov.uk/pdr/ukpga/2024/6/act"/><FRBRdate date="9999-01-01" name="draft"/>
+     <FRBRdate date="2024-03-25T10:21:57Z" name="published"/>
+     <FRBRauthor href="#varAuthor"/>
+     <FRBRcountry value="GB-UKM"/>
+     <FRBRsubtype value="#varDocSubType"/>
+     <FRBRnumber value="#varProjectId"/>
+     <FRBRname value="#varBillTitle"/>
+     <FRBRprescriptive value="true"/>
+     <FRBRauthoritative value="false"/>
+    </FRBRWork>
+    <FRBRExpression>
+     <FRBRthis value="#varExpression"/>
+     <FRBRuri value="#varExpressionUri"/>
+     <FRBRalias name="ttflVersionDescription" value="#varVDOiid"/><FRBRalias name="alternateUri" value="https://lawmaker.legislation.gov.uk/pdr/ukpga/2024/6/act"/><FRBRdate date="9999-01-01" name="draft"/>
+     <FRBRdate date="2024-03-25T10:21:57Z" name="published"/>
+     <FRBRauthor href="#varAuthor"/>
+     <FRBRversionNumber value="enacted-hl"/>
+     <FRBRauthoritative value="false"/>
+     <FRBRmasterExpression href="" showAs=""/>
+     <FRBRlanguage language="eng"/>
+    </FRBRExpression>
+    <FRBRManifestation>
+     <FRBRthis value="#varManifestation"/>
+     <FRBRuri value="#varManifestationUri"/>
+     <FRBRdate date="9999-01-01" name="akn_xml"/>
+     <FRBRdate date="2024-03-25T10:21:57Z" name="published"/>
+     <FRBRauthor href="#varAuthor"/>
+     <FRBRformat value="application/akn+xml"/>
+    </FRBRManifestation>
+   </identification>
+   <references source="#author">
+    <TLCConcept GUID="_42b77a4b-038b-4178-9e5d-4e6b72a6910a" eId="varDocSubType" href="#varOntologies" showAs="Government Bill"/>
+    <TLCConcept GUID="_fd546ef9-7572-45b7-9b47-529b5ccfc226" eId="varBillTitle" href="#varOntologies" showAs="Trade (Comprehensive and Progressive Agreement for Trans-Pacific Partnership) Act"/>
+    <TLCConcept GUID="_9392f253-e7f0-4972-b947-dcf954f42b6f" eId="varHouse" href="#varOntologies" showAs="House of Lords"/>
+    <TLCProcess GUID="_3601f722-8822-4ba5-8185-b26c5b2901d4" eId="varStageVersion" href="#varOntologies" showAs="As Enacted"/>
+    <TLCProcess GUID="_efc3168f-ca56-4fb1-836e-6fa573c39181" eId="varProjectId" href="#varOntologies" showAs="UK000674"/>
+    <TLCProcess GUID="_5763496d-1602-499a-9868-74dbd54ac6cd" eId="varWork" href="#varOntologies" showAs="https://lawmaker.legislation.gov.uk/pdr/UK000674/act"/>
+    <TLCProcess GUID="_c3851aa3-1b6d-4334-bff2-2f01e59f0d97" eId="varWorkUri" href="#varOntologies" showAs="https://lawmaker.legislation.gov.uk/pdr/UK000674/act"/>
+    <TLCProcess GUID="_e5fb371e-d1df-4c00-b742-3b8687329134" eId="varCHOiid" href="#varOntologies" showAs=""/>
+    <TLCProcess GUID="_71da7525-e27d-4d68-b716-04193b5843a0" eId="varExpression" href="#varOntologies" showAs="https://lawmaker.legislation.gov.uk/pdr/UK000674/act@enacted-hl"/>
+    <TLCProcess GUID="_f25aeba9-803a-4622-8af4-c66b486cf0bd" eId="varExpressionUri" href="#varOntologies" showAs="https://lawmaker.legislation.gov.uk/pdr/UK000674/act@enacted-hl"/>
+    <TLCProcess GUID="_e579ee8b-11c3-4ff4-9e14-121700c5cc97" eId="varVDOiid" href="#varOntologies" showAs=""/>
+    <TLCProcess GUID="_464d7cb2-da52-4d3b-b47c-da0815a46ab0" eId="varManifestation" href="#varOntologies" showAs="https://lawmaker.legislation.gov.uk/pdr/UK000674/act@enacted-hl/xml"/>
+    <TLCProcess GUID="_2984c82e-979c-406c-b56a-d1e0cec78cce" eId="varManifestationUri" href="#varOntologies" showAs="https://lawmaker.legislation.gov.uk/pdr/UK000674/act@enacted-hl/xml"/>
+    <TLCConcept GUID="_2c7d10fb-888b-44fe-a0c4-423a58ca5ea5" eId="varActYear" href="#varOntologies" showAs="2024"/>
+    <TLCConcept GUID="_7f4ece58-6bce-48a2-80ad-8d03906fb1a6" eId="varActTitle" href="#varOntologies" showAs="Trade (Comprehensive and Progressive Agreement for Trans-Pacific Partnership) Act #varActYear"/>
+    <TLCConcept GUID="_db690261-604f-4eda-ae70-ef595c74ad7c" eId="varIntroDate" href="#varOntologies" showAs="9999-01-01"/>
+    <TLCConcept GUID="_d4d7fd7d-76a3-4ceb-86c3-0165dd905eb2" eId="varPublicationDate" href="#varOntologies" showAs="2024-01-16"/>
+    <TLCConcept GUID="_31a84045-1239-4d5a-90a3-022d3d6b07c8" eId="varBillNoComp" href="#varOntologies" showAs="40"/>
+    <TLCConcept GUID="_441d9e92-dda1-4a98-8b0e-5335bb57eea4" eId="varBillNo" href="#varOntologies" showAs="HL Bill 40"/>
+    <TLCConcept GUID="_763290ab-03f5-4eb6-a78e-33c6749f3ca2" eId="varSessionNo" href="#varOntologies" showAs="58/4"/>
+    <TLCConcept GUID="_e5834070-12d6-488e-9e14-ecd269ea9b1a" eId="varBillYear" href="#varOntologies" showAs="2024"/>
+    <TLCConcept GUID="_780c455e-e6e5-425d-bc83-bda93a6efa44" eId="varSession" href="#varOntologies" showAs="58/4"/>
+    <TLCConcept GUID="_81eb77fc-09e2-4a4c-a01e-eee7430898b6" eId="varBroughtFromDate" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_aed3eceb-5650-4d12-bb73-a59148632040" eId="varPassedDate" href="#varOntologies" showAs="9999-01-01"/>
+    <TLCConcept GUID="_da2a12e9-a3b2-4932-94e6-950f4024eb65" eId="varAssentDate" href="#varOntologies" showAs="2024-03-20"/>
+    <TLCConcept GUID="_24a2a371-3daa-4908-bcdd-d18722747652" eId="varActNoComp" href="#varOntologies" showAs="6"/>
+    <TLCConcept GUID="_da56a257-c013-42ce-a81b-641f172f0d4d" eId="varActNo" href="#varOntologies" showAs="Chapter 6"/>
+    <TLCConcept GUID="_2087806e-71f9-409f-83ff-a9b2ea3fa680" eId="varDocType" href="#varOntologies" showAs="UK Bill"/>
+    <TLCConcept GUID="_b524b39f-eece-4e6c-9503-8aea2fb62f5c" eId="varSystem" href="#varOntologies" showAs="LDAPP"/>
+    <TLCConcept GUID="_886e7a31-9b07-45a1-b124-466aca0513d4" eId="varAuthor" href="#varOntologies" showAs="UK Parliament"/>
+    <TLCConcept GUID="_5485e1e3-49ee-4bd7-b3d4-7e3579a7d36d" eId="varJurisdiction" href="#varOntologies" showAs="United Kingdom"/>
+    <TLCConcept GUID="_7565a7ba-c5f3-4d99-806d-e4d14c1847c1" eId="varOntologies" href="https://www.legislation.gov.uk/ontologies/UK-AKN" showAs="https://www.legislation.gov.uk/ontologies/UK-AKN"/>
+    <TLCConcept GUID="_1e8358df-ca15-4e1d-9e13-78150cf44cc4" eId="varSovereign" href="#varOntologies" showAs="Charles III"/>
+    <TLCPerson GUID="_7c612f53-c837-4728-a605-9981cd4abfe5" eId="person-4949" href="#Lord_Johnson_of_Lainston" showAs="Lord Johnson of Lainston" ukl:class="varIntroducingMember"/>
+   </references>
+  </meta>
+  <coverPage GUID="_630010fd-ed58-46fc-9f5e-bf9e3ebf40cf" eId="cp">
+   <?DMS-Component componentId="c4d37b39-1b52-4295-8889-8de8a95965b4" seriesId="45e2b0cd-f3de-4058-950a-d46a0e5a162a" versionNumber="1"?>
+   <block GUID="_c40e1fa4-c4b7-4fc4-88ea-2247cc45b55a" eId="cp__st_oc1" name="title"><docTitle GUID="_b3f40cbd-f598-4803-bdb1-63e12a898ad8" eId="cp__st__dtitle_oc1"><ref class="placeholder" href="#varActTitle"/></docTitle></block>
+   <block GUID="_1cd69366-a542-4542-a4dc-0d181dd2063b" name="docNumber"><docNumber GUID="_82bab03e-fb7f-409d-9c8d-55ac7bd7509a" eId="cp__docNumber_oc1"><ref class="placeholder" href="#varActNo"/></docNumber></block>
+   <block GUID="_b92c2cb4-0f77-469a-a8f6-d34152db5f2d" eId="cp__explNotesStmnt" name="explanatoryNotesStatement">Explanatory Notes have been produced to assist in the understanding of this Act and are available separately</block>
+   <block GUID="_1f60dcfe-f6e9-46c0-9681-b4fc6ecff261" eId="cp__st_oc2" name="title"><docTitle GUID="_527adf4c-e061-4461-b711-bd3ca0b394a0" eId="cp__st__dtitle_oc2"><ref class="placeholder" href="#varActTitle"/></docTitle></block>
+   <block GUID="_8611d921-a514-489b-97a2-72e4fb5378a7" name="docNumber"><docNumber GUID="_3210a503-263b-4dd4-856e-77fc34159af4" eId="cp__docNumber_oc2"><ref class="placeholder" href="#varActNo"/></docNumber></block>
+   <block GUID="_40634ca1-afcc-4f5b-a5b0-ff018dae8818" eId="cp__hdg" name="ToCHeading">CONTENTS</block>
+   <toc>
+    <tocItem class="prov1ToC" href="#sec_1" level="5"><inline name="tocNum">1</inline><inline name="tocHeading">Meaning of “the CPTPP”</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_2" level="5"><inline name="tocNum">2</inline><inline name="tocHeading">Treatment of conformity assessment bodies etc</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_3" level="5"><inline name="tocNum">3</inline><inline name="tocHeading">Procurement</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_4" level="5"><inline name="tocNum">4</inline><inline name="tocHeading">Designations of origin and geographical indications</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_5" level="5"><inline name="tocNum">5</inline><inline name="tocHeading">Performers’ rights</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_6" level="5"><inline name="tocNum">6</inline><inline name="tocHeading">Extent</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_7" level="5"><inline name="tocNum">7</inline><inline name="tocHeading">Commencement</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_8" level="5"><inline name="tocNum">8</inline><inline name="tocHeading">Short title</inline></tocItem>
+    <tocItem class="ruleToc" href="#sched" level="0"/>
+    <tocItem class="schToC" href="#sched" level="1"><inline name="tocNum">Schedule</inline><inline name="tocHeading">Amendments to procurement regulations</inline></tocItem>
+    <tocItem class="schGroup2ToC" href="#sched__pt_1" level="2"><inline name="tocNum">Part 1</inline><inline name="tocHeading">Amendments to procurement regulations for England and Wales and Northern Ireland</inline></tocItem>
+    <tocItem class="schGroup2ToC" href="#sched__pt_2" level="2"><inline name="tocNum">Part 2</inline><inline name="tocHeading">Amendments to procurement regulations for Scotland</inline></tocItem>
+    <tocItem class="schGroup2ToC" href="#sched__pt_3" level="2"><inline name="tocNum">Part 3</inline><inline name="tocHeading">Transitional provision</inline></tocItem>
+   </toc>
+  </coverPage>
+  <preface GUID="_c1d42a28-8c32-48e4-8ae1-41d23a7dabb3" eId="preface">
+   <?DMS-Component componentId="813c9e89-e443-465d-b315-cca4927fe73a" seriesId="80305e82-c05c-437b-b0a8-b9ea387d77b3" versionNumber="0"?>
+   <block GUID="_4af91c1a-e946-4508-8e18-4e20329c0ad5" eId="preface__st" name="title"><docTitle GUID="_f0c32678-c5f6-4d5e-945a-3a13fd353642" eId="preface__st__dtitle"><ref class="placeholder" href="#varActTitle"/></docTitle></block>
+   <block GUID="536d0387-b8df-414e-9837-2f8d4c65be7b" name="number"><docNumber GUID="c83c33cc-50e5-4207-8e78-f552eaade4ac"><ref class="placeholder" href="#varActYear"/> <ref class="placeholder" href="#varActNo"/></docNumber></block>
+   <longTitle GUID="_e798dd7d-1b64-42ff-8c7c-a8734c5e42f0" eId="preface__longtitle">
+    <p>An Act to enable the implementation of, and the making of other provision in connection with, the Comprehensive and Progressive Agreement for Trans-Pacific Partnership.</p>
+   </longTitle>
+   <p><docDate class="assentDate" date="2024-03-20">[<ref class="placeholder" href="#varAssentDate" ukl:dateFormat="d'th' MMMM yyyy">20th March 2024</ref>]</docDate></p>
+  </preface>
+  <preamble GUID="_1c9aa550-70c0-42e8-88bb-8821a86f7997" eId="preamble">
+   <?DMS-Component componentId="8555d385-250d-4000-a94b-76aa0643982e" seriesId="ba67d4fe-8f8c-4808-b3e2-04d642938a96" versionNumber="1"?>
+   <formula name="enactingText">
+    <p><inline name="dropCap">B</inline><inline name="smallCaps">e it enacted</inline> by the King’s most Excellent Majesty, by and with the advice and consent of the Lords Spiritual and Temporal, and Commons, in this present Parliament assembled, and by the authority of the same, as follows:—</p>
+   </formula>
+  </preamble>
+  <body>
+   <?DMS-Component componentId="1eb7715d-d3ad-404c-ae92-bffde37ee8bd" seriesId="af0c684e-5f91-4b5a-9015-5d7c6effd1b6" versionNumber="1"?>
+   <section GUID="_2b727925-cc72-417a-8fd4-1d137fc149be" class="prov1" eId="sec_1">
+    <?DMS-Component componentId="b065728b-07de-4d7d-a432-f7a9173ef3e8" seriesId="bf0faf3b-0e28-4be7-922f-4660f66a524b" versionNumber="1"?>
+    <num>1</num>
+    <heading GUID="_4195f0c7-6dc8-42e9-bb58-377bfe4b9555" eId="sec_1__hdg">Meaning of “the CPTPP”</heading>
+    <intro GUID="_3772ddd4-2c5d-4132-a929-eb7c32963cf3" eId="sec_1__intro">
+     <p>In this Act—</p>
+    </intro>
+    <hcontainer GUID="_89d1f600-728c-4984-92d0-c63a95bac082" class="definition" eId="sec_1__def_theCPTPP_" name="definition">
+     <content>
+      <p><def GUID="_c5a565f9-75c6-4147-b7b3-7a7a7aee1cbe" eId="sec_1__def_theCPTPP" ukl:endQuote="”" ukl:startQuote="“">the CPTPP</def> means the Comprehensive and Progressive Agreement for Trans-Pacific Partnership, signed at Santiago on 8 March 2018, including the UK Accession Protocol, as it has effect in the United Kingdom from time to time;</p>
+     </content>
+    </hcontainer>
+    <hcontainer GUID="_1b023d3d-13fe-424b-9309-29c5117427c8" class="definition" eId="sec_1__def_theUKAccessionProtocol_" name="definition">
+     <content>
+      <p><def GUID="_c5041d06-096b-4ea4-b9ae-14a293e8dff3" eId="sec_1__def_theUKAccessionProtocol" ukl:endQuote="”" ukl:startQuote="“">the UK Accession Protocol</def> means the Protocol on the Accession of the United Kingdom of Great Britain and Northern Ireland to the Comprehensive and Progressive Agreement for Trans-Pacific Partnership, signed at Auckland and Bandar Seri Begawan on 16 July 2023.</p>
+     </content>
+    </hcontainer>
+   </section>
+   <section GUID="_8ad9217f-ba82-4176-bac6-9d11c741c5ce" class="prov1" eId="sec_2">
+    <?DMS-Component componentId="2e77e714-af54-4ac5-85cb-b9d273b196f0" seriesId="a444e816-6148-493c-8edb-6d99ed0a9c1a" versionNumber="1"?>
+    <num>2</num>
+    <heading GUID="_1eb7bc30-1289-49d3-9bd9-c403a476d438" eId="sec_2__hdg">Treatment of conformity assessment bodies etc</heading>
+    <subsection GUID="_ebae4d51-4903-4b1a-aec9-b9e185c760b3" class="prov2" eId="sec_2__subsec_1">
+     <num>(1)</num>
+     <content>
+      <p>The Secretary of State may by regulations made by statutory instrument amend subordinate legislation in order to implement Article 8.6 of the CPTPP (no less favourable treatment of conformity assessment bodies located in territories of other CPTPP parties etc).</p>
+     </content>
+    </subsection>
+    <subsection GUID="_26a6c3ac-8ab7-416c-8896-fb712ff1192d" class="prov2" eId="sec_2__subsec_2">
+     <num>(2)</num>
+     <content>
+      <p>Regulations under <ref class="valid" href="#sec_2" ukl:targetGuid="_8ad9217f-ba82-4176-bac6-9d11c741c5ce">this section</ref> may include consequential, supplementary, incidental, transitional or saving provision.</p>
+     </content>
+    </subsection>
+    <subsection GUID="_74e99c13-5afe-4f76-b560-f6a06faf77cf" class="prov2" eId="sec_2__subsec_3">
+     <num>(3)</num>
+     <content>
+      <p>A statutory instrument containing regulations under <ref class="valid" href="#sec_2" ukl:targetGuid="_8ad9217f-ba82-4176-bac6-9d11c741c5ce">this section</ref> is subject to annulment in pursuance of a resolution of either House of Parliament.</p>
+     </content>
+    </subsection>
+    <subsection GUID="_0b518992-ceb7-4736-8084-99032b6a7dba" class="prov2" eId="sec_2__subsec_4">
+     <num>(4)</num>
+     <intro GUID="_c1d703a0-9e1c-4a67-9278-4e47a90f4b3f" eId="sec_2__subsec_4__intro">
+      <p>In this section—</p>
+     </intro>
+     <hcontainer GUID="_b3d4ead5-4ec0-4e90-a695-2894dde82ecf" class="definition" eId="sec_2__subsec_4__def_Article8.6oftheCPTPP_" name="definition">
+      <content>
+       <p><def GUID="_0ef69073-1f2d-45ae-b0ff-7ac441040426" eId="sec_2__subsec_4__def_Article8.6oftheCPTPP" ukl:endQuote="”" ukl:startQuote="“">Article 8.6 of the CPTPP</def> means Article 8.6 of the Trans-Pacific Partnership Agreement, signed at Auckland on 4 February 2016, as incorporated, by reference, into and made part of the CPTPP by Article 1 of the CPTPP;</p>
+      </content>
+     </hcontainer>
+     <hcontainer GUID="_7db917d9-6eae-4faf-832b-76b5f3597fe6" class="definition" eId="sec_2__subsec_4__def_subordinatelegislation_" name="definition">
+      <content>
+       <p><def GUID="_8888feae-5641-4cd9-903e-ef93a2808658" eId="sec_2__subsec_4__def_subordinatelegislation" ukl:endQuote="”" ukl:startQuote="“">subordinate legislation</def> has the same meaning as in the Interpretation Act 1978.</p>
+      </content>
+     </hcontainer>
+    </subsection>
+   </section>
+   <section GUID="_e51c0007-b7e6-443f-866e-d1bf2ed88980" class="prov1" eId="sec_3">
+    <?DMS-Component componentId="29599943-d759-4685-b422-71f0c90f574a" seriesId="f07b69f7-0b28-45df-8f78-8a9ebd9feb72" versionNumber="1"?>
+    <num>3</num>
+    <heading GUID="_f243dcd6-a735-4d3f-b683-3fc944ae53e9" eId="sec_3__hdg">Procurement</heading>
+    <subsection GUID="_e398704c-1c31-4abc-8305-bd2b65dcf21f" class="prov2" eId="sec_3__subsec_1">
+     <num>(1)</num>
+     <content>
+      <p>The Procurement Act 2023 is amended as set out in subsections (2) and (3).</p>
+     </content>
+    </subsection>
+    <subsection GUID="_300755fe-0409-4604-aa9e-bc346d3075a8" class="prov2" eId="sec_3__subsec_2">
+     <num>(2)</num>
+     <content>
+      <p><mod>In Schedule 2 (exempted contracts), for paragraph 24 substitute—<quotedStructure GUID="_0c9b45e1-9682-4ea3-9102-9784b272f880" eId="sec_3__subsec_2__qstr" endQuote="”" startQuote="“" ukl:context="schedule" ukl:docName="ukpga" ukl:indent="indent0">
+       <paragraph GUID="_b96ceae7-53ff-4458-8f4c-497ba6b8797f" class="schProv1" eId="sec_3__subsec_2__qstr__para_24">
+        <num ukl:autonumber="no">24</num>
+        <intro GUID="_bac92fd5-1058-4c5c-aaad-c3a57b4009f6" eId="sec_3__subsec_2__qstr__para_24__intro">
+         <p>A contract that is—</p>
+        </intro>
+        <level GUID="_d9460112-9cdf-422b-b89e-684c512379e6" class="para1" eId="sec_3__subsec_2__qstr__para_24__para_a">
+         <num>(a)</num>
+         <content>
+          <p>wholly or mainly funded by an international organisation of which the United Kingdom is a member, and</p>
+         </content>
+        </level>
+        <level GUID="_0155aa6e-667e-4e10-ac44-3fe4cb341b69" class="para1" eId="sec_3__subsec_2__qstr__para_24__para_b">
+         <num>(b)</num>
+         <intro GUID="_cdcd9283-7609-42f7-9b1d-212c0ea24604" eId="sec_3__subsec_2__qstr__para_24__para_b__intro">
+          <p>awarded under a procedure that is—</p>
+         </intro>
+         <level GUID="_711eb084-0920-422c-a2e4-8195fbe440de" class="para2" eId="sec_3__subsec_2__qstr__para_24__para_b__subpara_i">
+          <num>(i)</num>
+          <content>
+           <p>adopted by that organisation, and</p>
+          </content>
+         </level>
+         <level GUID="_e45fa22c-2420-40e7-ad13-144f235e9348" class="para2" eId="sec_3__subsec_2__qstr__para_24__para_b__subpara_ii">
+          <num>(ii)</num>
+          <content>
+           <p>inconsistent in any material respect with the procedure for the award of the contract in accordance with this Act.</p>
+          </content>
+         </level>
+        </level>
+        <wrapUp GUID="_eb3c37fb-263d-4b4a-b269-b26ab55dd6e6" eId="sec_3__subsec_2__qstr__para_24__wrapup">
+         <p>But this paragraph does not apply to a defence and security contract (as to which, see paragraph 29).</p>
+        </wrapUp>
+       </paragraph>
+       </quotedStructure><inline name="AppendText"/></mod></p>
+     </content>
+    </subsection>
+    <subsection GUID="_72cd2dc6-a240-43ad-835c-37f74b332c37" class="prov2" eId="sec_3__subsec_3">
+     <num>(3)</num>
+     <content>
+      <p><mod>In Schedule 9 (treaty state suppliers (specified international agreements)), at the end insert—<quotedStructure GUID="_6124e231-28bb-480e-9b93-148787e3627d" eId="sec_3__subsec_3__qstr" endQuote="”" startQuote="“" ukl:context="schedule" ukl:docName="ukpga" ukl:indent="indent0">
+       <paragraph GUID="_10ea4108-7519-413b-8c16-62acb109bb6c" class="schProv1" eId="sec_3__subsec_3__qstr__para_25">
+        <num ukl:autonumber="no">25</num>
+        <content>
+         <p>Comprehensive and Progressive Agreement for Trans-Pacific Partnership, signed at Santiago on 8 March 2018, including the Protocol on the Accession of the United Kingdom of Great Britain and Northern Ireland to the Comprehensive and Progressive Agreement for Trans-Pacific Partnership, signed at Auckland and Bandar Seri Begawan on 16 July 2023.</p>
+        </content>
+       </paragraph>
+       </quotedStructure><inline name="AppendText"/></mod> </p>
+     </content>
+    </subsection>
+    <subsection GUID="_0ee40e9b-a684-4f5a-b1f8-066fd2ffb1aa" class="prov2" eId="sec_3__subsec_4">
+     <num>(4)</num>
+     <intro GUID="_2fe315e2-dc58-4fd1-9e09-3f196fbfa2f1" eId="sec_3__subsec_4__intro">
+      <p>In the Schedule—</p>
+     </intro>
+     <level GUID="_6d3754eb-3efb-463c-a334-df933493a240" class="para1" eId="sec_3__subsec_4__para_a">
+      <num>(a)</num>
+      <content>
+       <p>Part 1 makes amendments to procurement regulations for England and Wales and Northern Ireland (which are revoked by the Procurement Act 2023, subject to savings made by regulations under that Act);</p>
+      </content>
+     </level>
+     <level GUID="_36b3b30e-aec2-456d-b9f7-2455319a99cd" class="para1" eId="sec_3__subsec_4__para_b">
+      <num>(b)</num>
+      <content>
+       <p>Part 2 makes amendments to procurement regulations for Scotland;</p>
+      </content>
+     </level>
+     <level GUID="_0af875ff-f279-4fb0-a52d-9678d47bb78a" class="para1" eId="sec_3__subsec_4__para_c">
+      <num>(c)</num>
+      <content>
+       <p>Part 3 makes transitional provision in relation to the amendments made by Parts 1 and 2.</p>
+      </content>
+     </level>
+    </subsection>
+   </section>
+   <section GUID="_ae24d449-826c-4c21-9b62-f91d898e27cc" class="prov1" eId="sec_4">
+    <?DMS-Component componentId="c6c9fb99-b350-49e4-9f1a-1052473bfde5" seriesId="b35479a5-6b33-494e-9ce6-d6580f8dd74f" versionNumber="1"?>
+    <num>4</num>
+    <heading GUID="_81b8a342-3ebb-45d6-852e-0f30bf425128" eId="sec_4__hdg">Designations of origin and geographical indications</heading>
+    <subsection GUID="_583d509b-dd3a-4d17-856f-76b1b537a2e5" class="prov2" eId="sec_4__subsec_1">
+     <num>(1)</num>
+     <content>
+      <p>Regulation 1151/2012 is amended as set out in subsections <ref class="valid" href="#sec_4__subsec_2" ukl:targetGuid="_cdfcd89e-5cf1-46f0-bd47-0ab0745b5261">(2)</ref> to <ref class="valid" href="#sec_4__subsec_4" ukl:targetGuid="_379f97c6-7f92-4a15-9da0-4e21bf0114c2">(4)</ref>.</p>
+     </content>
+    </subsection>
+    <subsection GUID="_cdfcd89e-5cf1-46f0-bd47-0ab0745b5261" class="prov2" eId="sec_4__subsec_2">
+     <num>(2)</num>
+     <content>
+      <p><mod>In Article 3 (definitions), in point (13a), at the end insert “, and a trade mark has been ‘applied for’, or an application for registration of a trade mark is ‘pending’, where an application to register a trade mark has been submitted and:<quotedStructure GUID="_8ba4487f-a847-4143-811b-e2a2e033f497" eId="sec_4__subsec_2__qstr" endQuote="”" startQuote="" ukl:context="body" ukl:docName="eur" ukl:indent="indent0">
+       <level GUID="_f76f186a-b5ad-449a-b606-7869a1d1561a" class="para1" eId="sec_4__subsec_2__qstr__para_a">
+        <num ukl:autonumber="no">(a)</num>
+        <content>
+         <p>the trade mark has not been registered,</p>
+        </content>
+       </level>
+       <level GUID="_17c9a0d2-95db-4984-b650-e88f28a90a9e" class="para1" eId="sec_4__subsec_2__qstr__para_b">
+        <num>(b)</num>
+        <content>
+         <p>the application has not been withdrawn or abandoned, and</p>
+        </content>
+       </level>
+       <level GUID="_c4883a32-f112-40e2-9c36-047175417a5c" class="para1" eId="sec_4__subsec_2__qstr__para_c">
+        <num>(c)</num>
+        <intro GUID="_83782e23-e7f3-49bc-aac8-367d941cac07" eId="sec_4__subsec_2__qstr__para_c__intro">
+         <p>in a case where the application for registration has been refused—</p>
+        </intro>
+        <level GUID="_017ab251-0cbe-4218-980f-1620ab2a42d9" class="para2" eId="sec_4__subsec_2__qstr__para_c__subpara_i">
+         <num>(i)</num>
+         <content>
+          <p>an appeal has been brought but has not been finally determined, withdrawn or abandoned, or</p>
+         </content>
+        </level>
+        <level GUID="_efa30997-4742-447a-9283-0eeb18ae6fce" class="para2" eId="sec_4__subsec_2__qstr__para_c__subpara_ii">
+         <num>(ii)</num>
+         <content>
+          <p>the period for bringing an appeal is still running (disregarding the possibility of an appeal out of time);</p>
+         </content>
+        </level>
+       </level>
+       </quotedStructure><inline name="AppendText">.</inline></mod></p>
+     </content>
+    </subsection>
+    <subsection GUID="_5207d09f-38a4-4e30-af75-bc85e81055bc" class="prov2" eId="sec_4__subsec_3">
+     <num>(3)</num>
+     <content>
+      <p><mod>In Article 6, in paragraph 4 (designations of origin and geographical indications: conflict with trade marks), for the words from “, in” to the end substitute “the name proposed is likely to cause confusion with a trade mark that is, on the date on which the application for protection of the designation of origin or geographical indication is submitted to the Secretary of State:<quotedStructure GUID="_3f5dca8b-6a9a-4319-97d1-2e04138a4a1e" eId="sec_4__subsec_3__qstr" endQuote="”" startQuote="" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent0">
+       <level GUID="_4006bff0-7b6e-4111-86c1-b9200f810cc5" class="para1" eId="sec_4__subsec_3__qstr__para_a">
+        <num ukl:autonumber="no">(a)</num>
+        <content>
+         <p>the subject of a good faith pending application for registration,</p>
+        </content>
+       </level>
+       <level GUID="_49f19c82-ed7f-406c-bfe0-65221f58cfce" class="para1" eId="sec_4__subsec_3__qstr__para_b">
+        <num>(b)</num>
+        <content>
+         <p>the subject of a good faith registration, or</p>
+        </content>
+       </level>
+       <level GUID="_f25bcdac-0bed-454d-9386-e4896e944ecd" class="para1" eId="sec_4__subsec_3__qstr__para_c">
+        <num>(c)</num>
+        <content>
+         <p>established by use,</p>
+        </content>
+       </level>
+       <wrapUp GUID="_6cd825d4-a1d1-46a4-a9ba-d46919909e34" eId="sec_4__subsec_3__qstr__wrapup">
+        <p>within the territory of the United Kingdom.</p>
+       </wrapUp>
+       </quotedStructure></mod> </p>
+     </content>
+    </subsection>
+    <subsection GUID="_379f97c6-7f92-4a15-9da0-4e21bf0114c2" class="prov2" eId="sec_4__subsec_4">
+     <num>(4)</num>
+     <content>
+      <p><mod>In Article 54 (cancellation), after paragraph (1) insert—<quotedStructure GUID="_99f6aadb-6f5a-4b10-845e-99bebf24af59" eId="sec_4__subsec_4__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="eur" ukl:indent="indent0">
+       <paragraph GUID="_ca7c50db-9573-4b7f-bb49-2938ca73daa6" class="EUProv2" eId="sec_4__subsec_4__qstr__para_1A">
+        <num ukl:autonumber="no">1A.</num>
+        <intro GUID="_ac7c624b-3253-45b1-bd51-936ee727754b" eId="sec_4__subsec_4__qstr__para_1A__intro">
+         <p>The Secretary of State may, on the Secretary of State’s own initiative or at the request of any natural or legal person having a legitimate interest, decide to cancel the registration of a protected designation of origin or a protected geographical indication on the grounds that, on the date on which the application for registration was submitted to the Secretary of State under Article 49, either of the following provisions applied in relation to the name proposed:</p>
+        </intro>
+        <level GUID="_128170dc-557f-4622-a2d6-6d76212fc696" class="para1" eId="sec_4__subsec_4__qstr__para_1A__para_a">
+         <num>(a)</num>
+         <content>
+          <p>paragraph 1 of Article 6 (no registration of generic terms), or</p>
+         </content>
+        </level>
+        <level GUID="_94d21471-baca-4efd-b402-537fb70fc779" class="para1" eId="sec_4__subsec_4__qstr__para_1A__para_b">
+         <num>(b)</num>
+         <content>
+          <p>paragraph 4 of Article 6 (conflict with trade mark).</p>
+         </content>
+        </level>
+       </paragraph>
+       <paragraph GUID="_959638ae-53a0-4c37-9487-2800e9e95253" class="EUProv2" eId="sec_4__subsec_4__qstr__para_1B">
+        <num ukl:autonumber="no">1B.</num>
+        <content>
+         <p>In a case where the protected designation of origin or protected geographical indication has been the subject of an application for approval of an amendment to the product specification under Article 53 which resulted in a change to the protected name, the reference in paragraph 1A to the application for registration under Article 49 is to be read as a reference to the application for approval of the amendment to the name under Article 49 as applied by Article 53(2) (or, in a case where there has been more than one such application, the latest of those).</p>
+        </content>
+       </paragraph>
+       </quotedStructure><inline name="AppendText"/></mod></p>
+     </content>
+    </subsection>
+    <subsection GUID="_76b255d5-35b6-419f-ba42-d2c49d042311" class="prov2" eId="sec_4__subsec_5">
+     <num>(5)</num>
+     <content>
+      <p>In Regulation 664/2014, in Article 7(1) (cancellation), for the words from “as” to “54(1)”, substitute “under Article 54(1) or (1A)”.</p>
+     </content>
+    </subsection>
+    <subsection GUID="_8f530f84-7b14-4581-b6c9-37eb1e40b0fd" class="prov2" eId="sec_4__subsec_6">
+     <num>(6)</num>
+     <content>
+      <p>Regulation 668/2014 is amended as set out in subsections <ref class="valid" href="#sec_4__subsec_7" ukl:targetGuid="_988068d9-c99b-4a3e-81f0-1b6139e9a8e4">(7)</ref> to <ref class="valid" href="#sec_4__subsec_9" ukl:targetGuid="_1bcec4c7-943f-448f-9af6-a4264501276b">(9)</ref>.</p>
+     </content>
+    </subsection>
+    <subsection GUID="_988068d9-c99b-4a3e-81f0-1b6139e9a8e4" class="prov2" eId="sec_4__subsec_7">
+     <num>(7)</num>
+     <content>
+      <p>In Article 11(1) (cancellation), after “54(1)” insert “or (1A)”.</p>
+     </content>
+    </subsection>
+    <subsection GUID="_5a1c4841-3a8f-4541-a14d-49544ce848f9" class="prov2" eId="sec_4__subsec_8">
+     <num>(8)</num>
+     <content>
+      <p>In Annex 3 (reasoned statement of opposition), in section 4 (reason for the opposition), omit “existing”.</p>
+     </content>
+    </subsection>
+    <subsection GUID="_1bcec4c7-943f-448f-9af6-a4264501276b" class="prov2" eId="sec_4__subsec_9">
+     <num>(9)</num>
+     <intro GUID="_a5b03b40-9049-4b27-8c36-9d504532dcc6" eId="sec_4__subsec_9__intro">
+      <p>In Annex 9 (cancellation request)—</p>
+     </intro>
+     <level GUID="_653f141b-970a-4527-92b6-64c76038670e" class="para1" eId="sec_4__subsec_9__para_a">
+      <num>(a)</num>
+      <content>
+       <p>in the words before section 1, after “54(1)” insert “or (1A)”;</p>
+      </content>
+     </level>
+     <level GUID="_a888144d-3ea5-4170-87e1-cbfd7cc21ac8" class="para1" eId="sec_4__subsec_9__para_b">
+      <num>(b)</num>
+      <content>
+       <p>in section 4, after “54(1)” insert “or (1A)”;</p>
+      </content>
+     </level>
+     <level GUID="_0f5def07-6c57-4d26-be87-559037777f06" class="para1" eId="sec_4__subsec_9__para_c">
+      <num>(c)</num>
+      <content>
+       <p><mod>in section 5, at the end insert—<quotedStructure GUID="_3e1802b0-5367-408a-bfc7-4909e9d4fe01" eId="sec_4__subsec_9__para_c__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="eur" ukl:indent="indent0">
+        <level GUID="_eda02bd0-132c-40ee-bc17-72aca67e9acc" class="unnumberedParagraph" eId="sec_4__subsec_9__para_c__qstr__para__oc_4">
+         <content>
+          <p>☐ In accordance with Article 54(1A) of Regulation (EU) No 1151/2012</p>
+         </content>
+        </level>
+        <level GUID="_57ebf89e-fdf2-4bf1-a5b1-1ac00d3ce7b3" class="unnumberedParagraph" eId="sec_4__subsec_9__para_c__qstr__para">
+         <content>
+          <p>☐ point (a)</p>
+         </content>
+        </level>
+        <level GUID="_161d1887-66be-4af4-87ed-7bc9e402d75e" class="unnumberedParagraph" eId="sec_4__subsec_9__para_c__qstr__para__oc_1">
+         <content>
+          <p>[Provide the detailed reasons and, where appropriate, evidence for the cancellation of the registration of the name in accordance with point (a) of Article 54(1A).]</p>
+         </content>
+        </level>
+        <level GUID="_4862c610-de06-44b9-bb2f-9c7b1d0aaa43" class="unnumberedParagraph" eId="sec_4__subsec_9__para_c__qstr__para__oc_2">
+         <content>
+          <p>☐ point (b)</p>
+         </content>
+        </level>
+        <level GUID="_d0287a46-bc56-432a-98f8-7d786dee1665" class="unnumberedParagraph" eId="sec_4__subsec_9__para_c__qstr__para__oc_3">
+         <content>
+          <p>[Provide the detailed reasons and, where appropriate, evidence for the cancellation of the registration of the name in accordance with point (b) of Article 54(1A).]</p>
+         </content>
+        </level>
+        </quotedStructure><inline name="AppendText"/></mod></p>
+      </content>
+     </level>
+    </subsection>
+    <subsection GUID="_be4849c6-6a4d-40a7-aaf8-f5f531671f83" class="prov2" eId="sec_4__subsec_10">
+     <num>(10)</num>
+     <intro GUID="_df692131-1a24-477b-a47f-323b914d315d" eId="sec_4__subsec_10__intro">
+      <p>The amendments made by subsections <ref class="valid" href="#sec_4__subsec_3" ukl:targetGuid="_5207d09f-38a4-4e30-af75-bc85e81055bc">(3)</ref> and <ref class="valid" href="#sec_4__subsec_8" ukl:targetGuid="_5a1c4841-3a8f-4541-a14d-49544ce848f9">(8)</ref> apply only in relation to—</p>
+     </intro>
+     <level GUID="_c4ebca73-e64d-4c1a-a6ce-1efb2f5a725a" class="para1" eId="sec_4__subsec_10__para_a">
+      <num>(a)</num>
+      <content>
+       <p>an application for the protection of a DO or GI that is submitted on or after the day on which those amendments come into force (and for date of submission of such an application, see Article 6(3) of Regulation 668/2014), or</p>
+      </content>
+     </level>
+     <level GUID="_78a1a807-0d6d-4155-b171-862842ca449a" class="para1" eId="sec_4__subsec_10__para_b">
+      <num>(b)</num>
+      <content>
+       <p>a name-change application relating to the protected DO or GI that is submitted on or after that day (and for date of submission of such an application, see Article 10(4) of Regulation 668/2014).</p>
+      </content>
+     </level>
+    </subsection>
+    <subsection GUID="_025bee8e-6173-4189-b9d5-af75817dcd6c" class="prov2" eId="sec_4__subsec_11">
+     <num>(11)</num>
+     <intro GUID="_8e35ae25-b0db-4417-aa49-d241b389e1cc" eId="sec_4__subsec_11__intro">
+      <p>As regards the amendments made by subsections <ref class="valid" href="#sec_4__subsec_4" ukl:targetGuid="_379f97c6-7f92-4a15-9da0-4e21bf0114c2">(4)</ref>, <ref class="valid" href="#sec_4__subsec_5" ukl:targetGuid="_76b255d5-35b6-419f-ba42-d2c49d042311">(5)</ref>, <ref class="valid" href="#sec_4__subsec_7" ukl:targetGuid="_988068d9-c99b-4a3e-81f0-1b6139e9a8e4">(7)</ref> and <ref class="valid" href="#sec_4__subsec_9" ukl:targetGuid="_1bcec4c7-943f-448f-9af6-a4264501276b">(9)</ref>—</p>
+     </intro>
+     <level GUID="_7b9b31bb-7a43-48ed-87ae-f22cdec43448" class="para1" eId="sec_4__subsec_11__para_a">
+      <num>(a)</num>
+      <content>
+       <p>the Secretary of State may decide to cancel the registration of a protected DO or a protected GI under Article 54(1A)(a) (cancellation on ground that generic name should not have been registered) whether the application for protection of the DO or GI was submitted before or after those amendments came into force;</p>
+      </content>
+     </level>
+     <level GUID="_8939656f-03f8-4323-a4d1-fcbf9f9b2112" class="para1" eId="sec_4__subsec_11__para_b">
+      <num>(b)</num>
+      <intro GUID="_ee1a9ab4-5c8c-42a0-8398-05f7624adb30" eId="sec_4__subsec_11__para_b__intro">
+       <p>the Secretary of State may decide to cancel the registration of a protected DO or a protected GI under Article 54(1A)(b) (cancellation on ground of conflict with trade mark) only in a case where—</p>
+      </intro>
+      <level GUID="_6c401831-a4f8-4500-af5e-ce1bac5dee02" class="para2" eId="sec_4__subsec_11__para_b__subpara_i">
+       <num>(i)</num>
+       <content>
+        <p>the application for protection of the DO or GI was submitted on or after the day on which those amendments came into force (and for date of submission of such an application, see Article 6(3) of Regulation 668/2014), or</p>
+       </content>
+      </level>
+      <level GUID="_97588685-c961-40d4-9f95-32891c21b7d0" class="para2" eId="sec_4__subsec_11__para_b__subpara_ii">
+       <num>(ii)</num>
+       <content>
+        <p>a name-change application relating to the protected DO or GI was submitted on or after that day (and for date of submission of such an application, see Article 10(4) of Regulation 668/2014).</p>
+       </content>
+      </level>
+     </level>
+    </subsection>
+    <subsection GUID="_d054d562-ea1e-4868-b93b-d611b9ea64e2" class="prov2" eId="sec_4__subsec_12">
+     <num>(12)</num>
+     <intro GUID="_f57c85e7-229f-4ccb-84a3-5f2ac0c5730e" eId="sec_4__subsec_12__intro">
+      <p>In this section—</p>
+     </intro>
+     <hcontainer GUID="_70ad7b97-ac6a-44c6-824c-186ed07a20eb" class="definition" eId="sec_4__subsec_12__def_DO_" name="definition">
+      <content>
+       <p><def GUID="_2300f49b-7ddd-4d07-9481-7725d5b43009" eId="sec_4__subsec_12__def_DO" ukl:endQuote="”" ukl:startQuote="“">DO</def> means a designation of origin for the purposes of Regulation 1151/2012 (see Article 5(1) of that Regulation);</p>
+      </content>
+     </hcontainer>
+     <hcontainer GUID="_2e9e7b4a-4501-4f41-a317-5360e84102ab" class="definition" eId="sec_4__subsec_12__def_GI_" name="definition">
+      <content>
+       <p><def GUID="_7d9fcac0-f3dc-4873-a8f0-a21bd03856bd" eId="sec_4__subsec_12__def_GI" ukl:endQuote="”" ukl:startQuote="“">GI</def> means a geographical indication for the purposes of Regulation 1151/2012 (see Article 5(2) of that Regulation);</p>
+      </content>
+     </hcontainer>
+     <hcontainer GUID="_55d0ed1a-809c-447b-8bb6-24958852d972" class="definition" eId="sec_4__subsec_12__def_name-changeapplication_" name="definition">
+      <content>
+       <p><def GUID="_fb0fe86b-9135-4ca6-87f4-c49ee98e7f9a" eId="sec_4__subsec_12__def_name-changeapplication" ukl:endQuote="”" ukl:startQuote="“">name-change application</def> means an application for approval of an amendment to a product specification under Article 53 of Regulation 1151/2012 which involves a change to the protected name;</p>
+      </content>
+     </hcontainer>
+     <hcontainer GUID="_e1eb5cc4-14c3-48e1-b4a5-4496bf2a3bb8" class="definition" eId="sec_4__subsec_12__def_Regulation11512012_" name="definition">
+      <content>
+       <p><def GUID="_fbb5a4af-52db-49ec-9304-3c977730c4d9" eId="sec_4__subsec_12__def_Regulation11512012" ukl:endQuote="”" ukl:startQuote="“">Regulation 1151/2012</def> means Regulation (EU) No 1151/2012 of the European Parliament and of the Council of 21 November 2012 on quality schemes for agricultural products and foodstuffs;</p>
+      </content>
+     </hcontainer>
+     <hcontainer GUID="_4bdf1089-fef8-4f6c-a687-bac2184b7fa8" class="definition" eId="sec_4__subsec_12__def_Regulation6642014_" name="definition">
+      <content>
+       <p><def GUID="_a8e70efe-c257-4c04-924b-dc1a3077e084" eId="sec_4__subsec_12__def_Regulation6642014" ukl:endQuote="”" ukl:startQuote="“">Regulation 664/2014</def> means Commission Delegated Regulation (EU) No 664/2014 of 18 December 2013 supplementing Regulation (EU) No 1151/2012 of the European Parliament and of the Council with regard to the establishment of the Union symbols for protected designations of origin, protected geographical indications and traditional specialities guaranteed and with regard to certain rules on sourcing, certain procedural rules and certain additional transitional rules;</p>
+      </content>
+     </hcontainer>
+     <hcontainer GUID="_61ea14ef-1f31-44fd-88a5-e374811c16a2" class="definition" eId="sec_4__subsec_12__def_Regulation6682014_" name="definition">
+      <content>
+       <p><def GUID="_0c075f53-6558-47af-a250-d90b97feb35c" eId="sec_4__subsec_12__def_Regulation6682014" ukl:endQuote="”" ukl:startQuote="“">Regulation 668/2014</def> means Commission Implementing Regulation (EU) No 668/2014 of 13 June 2014 laying down rules for the application of Regulation (EU) No 1151/2012 of the European Parliament and of the Council on quality schemes for agricultural products and foodstuffs.</p>
+      </content>
+     </hcontainer>
+    </subsection>
+   </section>
+   <section GUID="_e1f2b6f2-ac8e-46a7-9dc6-607e5e442f3b" class="prov1" eId="sec_5">
+    <?DMS-Component componentId="64ab2b81-bb92-45f3-a5f8-85e7ecf22e55" seriesId="c148c236-3c39-4fd2-b0f6-46b35444ec9b" versionNumber="1"?>
+    <num>5</num>
+    <heading GUID="_6d05fadb-bb3a-4384-86b6-0d08558609b5" eId="sec_5__hdg">Performers’ rights</heading>
+    <subsection GUID="_2f684194-6331-4ab8-9766-964d3110e565" class="prov2" eId="sec_5__subsec_1">
+     <num>(1)</num>
+     <content>
+      <p>Part 2 of the Copyright, Designs and Patents Act 1988 (rights in performances) is amended as set out in subsections <ref class="valid" href="#sec_5__subsec_2" ukl:targetGuid="_c88117b2-4658-4505-a991-2891c1af539e">(2)</ref> and <ref class="valid" href="#sec_5__subsec_3" ukl:targetGuid="_287a0d9d-3133-4556-a0e9-2b1330910bf9">(3)</ref>.</p>
+     </content>
+    </subsection>
+    <subsection GUID="_c88117b2-4658-4505-a991-2891c1af539e" class="prov2" eId="sec_5__subsec_2">
+     <num>(2)</num>
+     <content>
+      <p><mod>For section 181 (qualifying performances) substitute—<quotedStructure GUID="_c153342b-3e57-4ab7-b3d0-51e6825b9587" eId="sec_5__subsec_2__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent0">
+       <section GUID="_fd687ed2-cbb0-455e-8d7d-4dd31c13fb4b" class="prov1" eId="sec_5__subsec_2__qstr__sec_181">
+        <num ukl:autonumber="no">181</num>
+        <heading GUID="_1cf5a3ea-c2f3-4309-b4d5-33f135f96ba1" eId="sec_5__subsec_2__qstr__sec_181__hdg">Qualifying performances</heading>
+        <subsection GUID="_b88114da-bbb0-4fb4-bf30-42ed6908f5a3" class="prov2" eId="sec_5__subsec_2__qstr__sec_181__subsec_1">
+         <num>(1)</num>
+         <content>
+          <p>A performance is a qualifying performance for the purposes of this Part if it meets any of Conditions A to D.</p>
+         </content>
+        </subsection>
+        <subsection GUID="_431ee60e-aa51-480b-85e2-ee9442b49e22" class="prov2" eId="sec_5__subsec_2__qstr__sec_181__subsec_2">
+         <num>(2)</num>
+         <content>
+          <p>Condition A is that the performance is given by a qualifying individual.</p>
+         </content>
+        </subsection>
+        <subsection GUID="_26d1f249-3c56-40d4-b707-59d18c44b52a" class="prov2" eId="sec_5__subsec_2__qstr__sec_181__subsec_3">
+         <num>(3)</num>
+         <content>
+          <p>Condition B is that the performance takes place in a qualifying country.</p>
+         </content>
+        </subsection>
+        <subsection GUID="_110c70fe-a586-420b-bdbd-33d081163e67" class="prov2" eId="sec_5__subsec_2__qstr__sec_181__subsec_4">
+         <num>(4)</num>
+         <intro GUID="_4ea597a0-8d84-43b1-beb3-ccdb23b6a43f" eId="sec_5__subsec_2__qstr__sec_181__subsec_4__intro">
+          <p>Condition C is that the performance is included in a sound recording and—</p>
+         </intro>
+         <level GUID="_3a13d069-e24d-40b6-adb2-af4c36b03db5" class="para1" eId="sec_5__subsec_2__qstr__sec_181__subsec_4__para_a">
+          <num>(a)</num>
+          <content>
+           <p>the producer of that sound recording is a qualifying individual or a body incorporated under the law of a qualifying country, or</p>
+          </content>
+         </level>
+         <level GUID="_f78074ce-a87f-46c6-9ac9-b38b385056fd" class="para1" eId="sec_5__subsec_2__qstr__sec_181__subsec_4__para_b">
+          <num>(b)</num>
+          <intro GUID="_25da1d58-0ef7-419d-a190-22d9b1362cdc" eId="sec_5__subsec_2__qstr__sec_181__subsec_4__para_b__intro">
+           <p>that sound recording is—</p>
+          </intro>
+          <level GUID="_8c245e74-d84b-4db4-8228-10e9adcd3477" class="para2" eId="sec_5__subsec_2__qstr__sec_181__subsec_4__para_b__subpara_i">
+           <num>(i)</num>
+           <content>
+            <p>first published in a qualifying country, or</p>
+           </content>
+          </level>
+          <level GUID="_4b739022-c026-4fcc-8f10-5d3bcb8f6cdd" class="para2" eId="sec_5__subsec_2__qstr__sec_181__subsec_4__para_b__subpara_ii">
+           <num>(ii)</num>
+           <content>
+            <p>published in a qualifying country within the period of 30 days beginning with the day on which it is first published.</p>
+           </content>
+          </level>
+         </level>
+        </subsection>
+        <subsection GUID="_108f2f71-c645-411a-8758-d0bfbc9397ce" class="prov2" eId="sec_5__subsec_2__qstr__sec_181__subsec_5">
+         <num>(5)</num>
+         <content>
+          <p>But Condition C is not met if, or to the extent that, the sound recording in question is a copy taken from a previous sound recording.</p>
+         </content>
+        </subsection>
+        <subsection GUID="_7b5a6405-7987-4d1a-8879-732af9d7b229" class="prov2" eId="sec_5__subsec_2__qstr__sec_181__subsec_6">
+         <num>(6)</num>
+         <intro GUID="_98ea8a6b-3ab8-42db-847c-665d83bf323d" eId="sec_5__subsec_2__qstr__sec_181__subsec_6__intro">
+          <p>Condition D is that—</p>
+         </intro>
+         <level GUID="_38a35fe6-1bb2-42d8-8229-6f41318d8a7b" class="para1" eId="sec_5__subsec_2__qstr__sec_181__subsec_6__para_a">
+          <num>(a)</num>
+          <content>
+           <p>the performance has not been included in a sound recording,</p>
+          </content>
+         </level>
+         <level GUID="_c9afb358-84af-4097-ab92-d87b4b9fdf97" class="para1" eId="sec_5__subsec_2__qstr__sec_181__subsec_6__para_b">
+          <num>(b)</num>
+          <content>
+           <p>the performance is broadcast, and</p>
+          </content>
+         </level>
+         <level GUID="_a58a2824-1d98-4d49-84ec-32d02ca659df" class="para1" eId="sec_5__subsec_2__qstr__sec_181__subsec_6__para_c">
+          <num>(c)</num>
+          <intro GUID="_a8bff6b9-9da9-43f0-adc7-b3cbd7558b32" eId="sec_5__subsec_2__qstr__sec_181__subsec_6__para_c__intro">
+           <p>the broadcast is—</p>
+          </intro>
+          <level GUID="_c9473f60-3679-434c-8cb4-576fe62135bf" class="para2" eId="sec_5__subsec_2__qstr__sec_181__subsec_6__para_c__subpara_i">
+           <num>(i)</num>
+           <content>
+            <p>made from a qualifying country, or</p>
+           </content>
+          </level>
+          <level GUID="_0401ea4e-01bc-4119-8fe3-9d85f69c64ac" class="para2" eId="sec_5__subsec_2__qstr__sec_181__subsec_6__para_c__subpara_ii">
+           <num>(ii)</num>
+           <content>
+            <p>made by a broadcasting organisation the headquarters of which are situated in a qualifying country.</p>
+           </content>
+          </level>
+         </level>
+        </subsection>
+        <subsection GUID="_ff03429f-1904-43b4-abc8-aa40f78eaf6c" class="prov2" eId="sec_5__subsec_2__qstr__sec_181__subsec_7">
+         <num>(7)</num>
+         <content>
+          <p>In subsection <ref class="valid" href="#sec_5__subsec_2__qstr__sec_181__subsec_4" ukl:targetGuid="_110c70fe-a586-420b-bdbd-33d081163e67">(4)</ref><ref class="valid" href="#sec_5__subsec_2__qstr__sec_181__subsec_4__para_a" ukl:targetGuid="_3a13d069-e24d-40b6-adb2-af4c36b03db5">(a)</ref>, the <def GUID="_069d861f-257a-457f-b7e0-4007b401ad31" eId="sec_5__subsec_2__qstr__sec_181__subsec_7__def_producer" ukl:endQuote="”" ukl:startQuote="“">producer</def> of a sound recording means the person who undertakes the arrangements necessary for the making of the sound recording.</p>
+         </content>
+        </subsection>
+       </section>
+       </quotedStructure><inline name="AppendText"/></mod></p>
+     </content>
+    </subsection>
+    <subsection GUID="_287a0d9d-3133-4556-a0e9-2b1330910bf9" class="prov2" eId="sec_5__subsec_3">
+     <num>(3)</num>
+     <content>
+      <p><mod>In section 206 (qualifying countries, individuals and persons), in subsection (4), before paragraph (a) insert—<quotedStructure GUID="_88333cab-49a7-4cd1-af38-8ea1b71d0abe" eId="sec_5__subsec_3__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent0">
+       <level GUID="_19c2e709-ca31-431b-83b8-a7845d4ab60b" class="para1" eId="sec_5__subsec_3__qstr__para_za">
+        <num ukl:autonumber="no">(za)</num>
+        <intro GUID="_93985c40-e0f4-44ac-868b-af50cbbcecdc" eId="sec_5__subsec_3__qstr__para_za__intro">
+         <p>make provision for the application of this Part to a country by virtue of paragraph (a) or (ba) of the definition of “qualifying country” in subsection (1) to be subject to specified restrictions, but those restrictions may only relate to rights which would otherwise apply as a result of—</p>
+        </intro>
+        <level GUID="_264f75a4-b40d-4ea9-abc1-7eee1f4a3923" class="para2" eId="sec_5__subsec_3__qstr__para_za__subpara_i">
+         <num>(i)</num>
+         <content>
+          <p>a performance being a qualifying performance because it meets Condition C or Condition D in section 181, and</p>
+         </content>
+        </level>
+        <level GUID="_8e511330-5b13-4f7c-a767-b49c733a2f02" class="para2" eId="sec_5__subsec_3__qstr__para_za__subpara_ii">
+         <num>(ii)</num>
+         <content>
+          <p>that condition being met by way of a connection to such a country;</p>
+         </content>
+        </level>
+       </level>
+       </quotedStructure><inline name="AppendText">.</inline></mod></p>
+     </content>
+    </subsection>
+    <subsection GUID="_a47ae35e-3611-4b5c-9a62-52994847ef9a" class="prov2" eId="sec_5__subsec_4">
+     <num>(4)</num>
+     <content>
+      <p>The amendment made by subsection <ref class="valid" href="#sec_5__subsec_2" ukl:targetGuid="_c88117b2-4658-4505-a991-2891c1af539e">(2)</ref> has effect in relation to performances taking place before, on or after the commencement date.</p>
+     </content>
+    </subsection>
+    <subsection GUID="_127e55f7-a14d-4f05-9fff-bd715afa882d" class="prov2" eId="sec_5__subsec_5">
+     <num>(5)</num>
+     <intro GUID="_f4f36c9d-121d-460b-bb94-58b1568796a8" eId="sec_5__subsec_5__intro">
+      <p>But an act done—</p>
+     </intro>
+     <level GUID="_87e70a0f-c486-495e-ad2f-3c8c200b9853" class="para1" eId="sec_5__subsec_5__para_a">
+      <num>(a)</num>
+      <content>
+       <p>before the commencement date, or</p>
+      </content>
+     </level>
+     <level GUID="_1a3ce8b9-da21-468a-808d-49fec855e666" class="para1" eId="sec_5__subsec_5__para_b">
+      <num>(b)</num>
+      <content>
+       <p>on or after that date, but in pursuance of arrangements made before that date,</p>
+      </content>
+     </level>
+     <wrapUp GUID="_8fe47987-7e15-4b71-b236-bf772d4d3088" eId="sec_5__subsec_5__wrapup">
+      <p>is not to be regarded as infringing or affecting any new performers’ right, except as provided in subsection <ref class="valid" href="#sec_5__subsec_6" ukl:targetGuid="_4e7d6bbf-7bb8-49aa-9c8f-0f2aad666a0d">(6)</ref>.</p>
+     </wrapUp>
+    </subsection>
+    <subsection GUID="_4e7d6bbf-7bb8-49aa-9c8f-0f2aad666a0d" class="prov2" eId="sec_5__subsec_6">
+     <num>(6)</num>
+     <intro GUID="_1c0da07a-805a-438e-9e2b-d33744f21505" eId="sec_5__subsec_6__intro">
+      <p>Subsection <ref class="valid" href="#sec_5__subsec_5" ukl:targetGuid="_127e55f7-a14d-4f05-9fff-bd715afa882d">(5)</ref><ref class="valid" href="#sec_5__subsec_5__para_b" ukl:targetGuid="_1a3ce8b9-da21-468a-808d-49fec855e666">(b)</ref> does not apply where—</p>
+     </intro>
+     <level GUID="_42fc4671-637f-4aac-98fd-5914c23cd8c0" class="para1" eId="sec_5__subsec_6__para_a">
+      <num>(a)</num>
+      <content>
+       <p>the arrangements in question are an agreement that purports to exclude or restrict the right or to prevent a person from questioning such a right or to restrict the powers of the Copyright Tribunal in relation to such a right, and</p>
+      </content>
+     </level>
+     <level GUID="_f7f3d0e4-d807-4f8a-8894-7729dc7f62fe" class="para1" eId="sec_5__subsec_6__para_b">
+      <num>(b)</num>
+      <content>
+       <p>as a result of the application of Part 2 of the Copyright, Designs and Patents Act 1988 in relation to the agreement, the exclusion, restriction or prevention is of no effect.</p>
+      </content>
+     </level>
+    </subsection>
+    <subsection GUID="_15c2b30c-45fe-4760-ae0b-9d099b113458" class="prov2" eId="sec_5__subsec_7">
+     <num>(7)</num>
+     <intro GUID="_79043190-3086-4a94-85b0-03f8953d8b56" eId="sec_5__subsec_7__intro">
+      <p>The amendment made by subsection <ref class="valid" href="#sec_5__subsec_3" ukl:targetGuid="_287a0d9d-3133-4556-a0e9-2b1330910bf9">(3)</ref> has the effect of enabling an Order in Council under section 206(4)(za) of the Copyright, Designs and Patents Act 1988 to make provision that has effect in relation to performances taking place before, on or after—</p>
+     </intro>
+     <level GUID="_78707b6d-8ee8-4578-a333-1ca951673879" class="para1" eId="sec_5__subsec_7__para_a">
+      <num>(a)</num>
+      <content>
+       <p>the date on which the Order comes into force, or</p>
+      </content>
+     </level>
+     <level GUID="_7342fcda-35dc-4a1d-ba4b-56c77835b58d" class="para1" eId="sec_5__subsec_7__para_b">
+      <num>(b)</num>
+      <content>
+       <p>the commencement date.</p>
+      </content>
+     </level>
+    </subsection>
+    <subsection GUID="_e59b75f8-155d-4abe-9faf-4a68f28e9945" class="prov2" eId="sec_5__subsec_8">
+     <num>(8)</num>
+     <intro GUID="_bc8fffbc-4d58-4219-a7db-7cb56ae51c25" eId="sec_5__subsec_8__intro">
+      <p>In this section—</p>
+     </intro>
+     <hcontainer GUID="_40d9c57c-22ed-4e02-a84c-92feac3bd649" class="definition" eId="sec_5__subsec_8__def_commencementdate_" name="definition">
+      <content>
+       <p><def GUID="_543339a0-fd56-45d2-b5ec-b7b2bf848534" eId="sec_5__subsec_8__def_commencementdate" ukl:endQuote="”" ukl:startQuote="“">commencement date</def> means the date on which subsection (2) comes into force;</p>
+      </content>
+     </hcontainer>
+     <hcontainer GUID="_bad168f8-08d6-42bf-9b42-d90d0caeb6e9" class="definition" eId="sec_5__subsec_8__def_newperformersright_" name="definition">
+      <content>
+       <p><def GUID="_3986dc78-480f-458e-9039-d0ed7d356131" eId="sec_5__subsec_8__def_newperformersright" ukl:endQuote="”" ukl:startQuote="“">new performers’ right</def> means a right under Part 2 of the Copyright, Designs and Patents Act 1988 arising as a result of the amendment made by subsection (2).</p>
+      </content>
+     </hcontainer>
+    </subsection>
+   </section>
+   <section GUID="_d8df432f-3477-4670-9f51-08c364d69ecc" class="prov1" eId="sec_6">
+    <?DMS-Component componentId="b8833f51-888a-4dea-bac8-83818f0967be" seriesId="ec836ff7-6b34-424e-b38e-d37ebf00ab6a" versionNumber="1"?>
+    <num>6</num>
+    <heading GUID="_e119636a-6220-46c3-9b29-5065393c65c6" eId="sec_6__hdg">Extent</heading>
+    <subsection GUID="_15aa67b4-0687-4bb9-a546-bf8a65a8b5cb" class="prov2" eId="sec_6__subsec_1">
+     <num>(1)</num>
+     <content>
+      <p>This Act extends to England and Wales, Scotland and Northern Ireland, subject as follows.</p>
+     </content>
+    </subsection>
+    <subsection GUID="_155b0c2c-fd46-4ae9-aedf-7bbcb1dd1d3e" class="prov2" eId="sec_6__subsec_2">
+     <num>(2)</num>
+     <content>
+      <p>Section <ref class="valid" href="#sec_3" ukl:targetGuid="_e51c0007-b7e6-443f-866e-d1bf2ed88980">3</ref><ref class="valid" href="#sec_3__subsec_4" ukl:targetGuid="_0ee40e9b-a684-4f5a-b1f8-066fd2ffb1aa">(4)</ref><ref class="valid" href="#sec_3__subsec_4__para_a" ukl:targetGuid="_6d3754eb-3efb-463c-a334-df933493a240">(a)</ref> and <ref class="valid" href="#sched__pt_1" ukl:targetGuid="_36630fed-0842-40f0-b186-9bbdc66837aa">Part 1</ref> of <ref class="valid" href="#sched" ukl:targetGuid="_a241ec46-39e1-47a4-8da8-013a0c59e348">the Schedule</ref> (amendments to procurement regulations for England and Wales and Northern Ireland) extend to England and Wales and Northern Ireland only.</p>
+     </content>
+    </subsection>
+    <subsection GUID="_281ae346-e873-4a8e-8e62-9d2bb329a9fb" class="prov2" eId="sec_6__subsec_3">
+     <num>(3)</num>
+     <content>
+      <p>Section <ref class="valid" href="#sec_3" ukl:targetGuid="_e51c0007-b7e6-443f-866e-d1bf2ed88980">3</ref><ref class="valid" href="#sec_3__subsec_4" ukl:targetGuid="_0ee40e9b-a684-4f5a-b1f8-066fd2ffb1aa">(4)</ref><ref class="valid" href="#sec_3__subsec_4__para_b" ukl:targetGuid="_36b3b30e-aec2-456d-b9f7-2455319a99cd">(b)</ref> and <ref class="valid" href="#sched__pt_2" ukl:targetGuid="_a31f694c-cbfc-49cf-ad04-9739daabc6da">Part 2</ref> of <ref class="valid" href="#sched" ukl:targetGuid="_a241ec46-39e1-47a4-8da8-013a0c59e348">the Schedule</ref> (amendments to procurement regulations for Scotland) extend to Scotland only.</p>
+     </content>
+    </subsection>
+   </section>
+   <section GUID="_baff161e-b14c-4418-bc58-a306942e8e02" class="prov1" eId="sec_7">
+    <?DMS-Component componentId="b9019b0f-550e-4438-a2e5-682da03d260e" seriesId="8f489056-95e3-4cb4-a55c-018a53be9f3f" versionNumber="1"?>
+    <num>7</num>
+    <heading GUID="_e045cfa3-87e6-4de3-aa6e-b21f2fbaeb34" eId="sec_7__hdg">Commencement</heading>
+    <subsection GUID="_dac5e2ea-9326-474e-8539-06cfd879c8fc" class="prov2" eId="sec_7__subsec_1">
+     <num>(1)</num>
+     <content>
+      <p>This Act comes into force on the day on which the CPTPP enters into force for the United Kingdom (on which, see Article 21 of the UK Accession Protocol), subject as follows.</p>
+     </content>
+    </subsection>
+    <subsection GUID="_723aad87-e48c-485d-8421-85823dbb1322" class="prov2" eId="sec_7__subsec_2">
+     <num>(2)</num>
+     <intro GUID="_8f2b8b09-51ab-4d05-9b41-097b140c8025" eId="sec_7__subsec_2__intro">
+      <p>The following sections come into force on the day on which this Act is passed—</p>
+     </intro>
+     <level GUID="_64bf282c-3837-44cd-a87c-b613258443dc" class="para1" eId="sec_7__subsec_2__para_a">
+      <num>(a)</num>
+      <content>
+       <p>section <ref class="valid" href="#sec_1" ukl:targetGuid="_2b727925-cc72-417a-8fd4-1d137fc149be">1</ref> (meaning of “the CPTPP”);</p>
+      </content>
+     </level>
+     <level GUID="_d3f8f1e5-0eda-4cb2-bad3-4c9511058926" class="para1" eId="sec_7__subsec_2__para_b">
+      <num>(b)</num>
+      <content>
+       <p>section <ref class="valid" href="#sec_2" ukl:targetGuid="_8ad9217f-ba82-4176-bac6-9d11c741c5ce">2</ref> (treatment of conformity assessment bodies etc);</p>
+      </content>
+     </level>
+     <level GUID="_ef2ee030-b7a8-4433-9b58-ee4e01665d4b" class="para1" eId="sec_7__subsec_2__para_c">
+      <num>(c)</num>
+      <content>
+       <p>section <ref class="valid" href="#sec_5" ukl:targetGuid="_e1f2b6f2-ac8e-46a7-9dc6-607e5e442f3b">5</ref><ref class="valid" href="#sec_5__subsec_3" ukl:targetGuid="_287a0d9d-3133-4556-a0e9-2b1330910bf9">(3)</ref> and <ref class="valid" href="#sec_5__subsec_7" ukl:targetGuid="_15c2b30c-45fe-4760-ae0b-9d099b113458">(7)</ref> (amendment of section 206(4) of the Copyright, Designs and Patents Act 1988), and section <ref class="valid" href="#sec_5" ukl:targetGuid="_e1f2b6f2-ac8e-46a7-9dc6-607e5e442f3b">5</ref><ref class="valid" href="#sec_5__subsec_1" ukl:targetGuid="_2f684194-6331-4ab8-9766-964d3110e565">(1)</ref> so far as it relates to section <ref class="valid" href="#sec_5" ukl:targetGuid="_e1f2b6f2-ac8e-46a7-9dc6-607e5e442f3b">5</ref><ref class="valid" href="#sec_5__subsec_3" ukl:targetGuid="_287a0d9d-3133-4556-a0e9-2b1330910bf9">(3)</ref>;</p>
+      </content>
+     </level>
+     <level GUID="_b407c696-9da9-4278-b8d9-8ff465873abb" class="para1" eId="sec_7__subsec_2__para_d">
+      <num>(d)</num>
+      <content>
+       <p>section <ref class="valid" href="#sec_6" ukl:targetGuid="_d8df432f-3477-4670-9f51-08c364d69ecc">6</ref> (extent);</p>
+      </content>
+     </level>
+     <level GUID="_cb6881fb-a6f2-4501-b8a9-b073f24ccaa6" class="para1" eId="sec_7__subsec_2__para_e">
+      <num>(e)</num>
+      <content>
+       <p>this section;</p>
+      </content>
+     </level>
+     <level GUID="_d7597992-ee03-493e-b8db-1b159aaa7a92" class="para1" eId="sec_7__subsec_2__para_f">
+      <num>(f)</num>
+      <content>
+       <p>section <ref class="valid" href="#sec_8" ukl:targetGuid="_cc1c71c7-3f3c-454d-9b62-339daf012ed4">8</ref> (short title).</p>
+      </content>
+     </level>
+    </subsection>
+    <subsection GUID="_5f79c29a-2f56-4779-a11d-00497a47c0db" class="prov2" eId="sec_7__subsec_3">
+     <num>(3)</num>
+     <content>
+      <p>Section <ref class="valid" href="#sec_3" ukl:targetGuid="_e51c0007-b7e6-443f-866e-d1bf2ed88980">3</ref><ref class="valid" href="#sec_3__subsec_2" ukl:targetGuid="_300755fe-0409-4604-aa9e-bc346d3075a8">(2)</ref> (and section <ref class="valid" href="#sec_3" ukl:targetGuid="_e51c0007-b7e6-443f-866e-d1bf2ed88980">3</ref><ref class="valid" href="#sec_3__subsec_1" ukl:targetGuid="_e398704c-1c31-4abc-8305-bd2b65dcf21f">(1)</ref> so far as it relates to that provision) comes into force at the same time as Schedule 2 to the Procurement Act 2023 comes into force.</p>
+     </content>
+    </subsection>
+    <subsection GUID="_138f1447-6601-47c2-a7e5-fdc81490ec09" class="prov2" eId="sec_7__subsec_4">
+     <num>(4)</num>
+     <content>
+      <p>Section <ref class="valid" href="#sec_3" ukl:targetGuid="_e51c0007-b7e6-443f-866e-d1bf2ed88980">3</ref><ref class="valid" href="#sec_3__subsec_3" ukl:targetGuid="_72cd2dc6-a240-43ad-835c-37f74b332c37">(3)</ref> (and section <ref class="valid" href="#sec_3" ukl:targetGuid="_e51c0007-b7e6-443f-866e-d1bf2ed88980">3</ref><ref class="valid" href="#sec_3__subsec_1" ukl:targetGuid="_e398704c-1c31-4abc-8305-bd2b65dcf21f">(1)</ref> so far as it relates to that provision) comes into force at the same time as Schedule 9 to the Procurement Act 2023 comes into force.</p>
+     </content>
+    </subsection>
+   </section>
+   <section GUID="_cc1c71c7-3f3c-454d-9b62-339daf012ed4" class="prov1" eId="sec_8">
+    <?DMS-Component componentId="73cfe0f1-de0d-4db9-9b61-9870a3696ba7" seriesId="188cdbbc-d850-4f9b-9396-837ec1a917b8" versionNumber="1"?>
+    <num>8</num>
+    <heading GUID="_6341427a-9b28-44aa-9b8f-457d0e64b7be" eId="sec_8__hdg">Short title</heading>
+    <content>
+     <p>This Act may be cited as the Trade (Comprehensive and Progressive Agreement for Trans-Pacific Partnership) Act 2024.</p>
+    </content>
+   </section>
+   <hcontainer GUID="_36fd6a64-ed87-4f1d-8a08-2cb5ff259101" class="schs" eId="scheds" name="schedules">
+    <?DMS-Component componentId="3c71beb4-b32b-413a-8f9c-e4932b8264a7" seriesId="cd8f9d6b-5e7f-4e48-b99f-42b2c56954fa" versionNumber="1"?>
+    <hcontainer GUID="_a241ec46-39e1-47a4-8da8-013a0c59e348" class="sch" eId="sched" name="schedule">
+     <?DMS-Component componentId="6a1b2308-bd24-4c5c-a6e9-a88d8e53b005" seriesId="0f511851-9021-46a4-bb1d-54ada748f086" versionNumber="1"?>
+     <num>Schedule<authorialNote GUID="_cafb73c8-94f9-46c1-8d20-2d2b848a1cba" class="referenceNote" eId="sched__aNote">
+      <p><ref class="valid" href="#sec_3" ukl:targetGuid="_e51c0007-b7e6-443f-866e-d1bf2ed88980">Section 3</ref><ref class="valid" href="#sec_3__subsec_4" ukl:targetGuid="_0ee40e9b-a684-4f5a-b1f8-066fd2ffb1aa">(4)</ref></p>
+      </authorialNote></num>
+     <heading GUID="_5a092f48-dd1c-4921-b531-6ff54e4c90fa" eId="sched__hdg">Amendments to procurement regulations</heading>
+     <part GUID="_36630fed-0842-40f0-b186-9bbdc66837aa" class="schGroup2" eId="sched__pt_1">
+      <num>Part 1</num>
+      <heading GUID="_769a1246-f58b-402f-b08c-92c891f0523b" eId="sched__pt_1__hdg">Amendments to procurement regulations for England and Wales and Northern Ireland</heading>
+      <hcontainer GUID="_3f5fd224-d52f-489d-83f4-4778da58215b" class="schGroup7" eId="sched__pt_1__xhdg_1" name="crossheading">
+       <heading GUID="_1f10532b-db85-4c4b-a696-bbe313c08087" eId="sched__pt_1__xhdg_1__hdg">The Public Contracts Regulations 2015</heading>
+       <paragraph GUID="_c2edb07c-6f53-41cd-9e41-6059c8bf3fb2" class="schProv1" eId="sched__para_1">
+        <num>1</num>
+        <content>
+         <p>The Public Contracts Regulations 2015 (S.I. 2015/102) are amended as follows.</p>
+        </content>
+       </paragraph>
+       <paragraph GUID="_5f68f4d8-54cd-4f02-b3aa-d810657dfdb6" class="schProv1" eId="sched__para_2">
+        <num>2</num>
+        <subparagraph GUID="_3c614212-84fb-4021-8ecd-1e67cf6acfc5" class="schProv2" eId="sched__para_2__subpara_1">
+         <num>(1)</num>
+         <content>
+          <p>Regulation 9 (public contracts awarded, and design contests organised, pursuant to international rules) is amended as follows.</p>
+         </content>
+        </subparagraph>
+        <subparagraph GUID="_df3118c8-f638-414b-9869-02494983c8bb" class="schProv2" eId="sched__para_2__subpara_2">
+         <num>(2)</num>
+         <intro GUID="_44de8233-effa-4101-b7e5-9742738c16a5" eId="sched__para_2__subpara_2__intro">
+          <p>In paragraph (1)—</p>
+         </intro>
+         <level GUID="_44fab79a-6953-49c5-8f5d-84bd32a73aee" class="para1" eId="sched__para_2__subpara_2__para_a">
+          <num>(a)</num>
+          <content>
+           <p>in the words before sub-paragraph (a), omit “any of the following”;</p>
+          </content>
+         </level>
+         <level GUID="_ddfd19eb-2cd3-425c-9f4e-9a68b57e67a7" class="para1" eId="sched__para_2__subpara_2__para_b">
+          <num>(b)</num>
+          <content>
+           <p>omit sub-paragraph (b).</p>
+          </content>
+         </level>
+        </subparagraph>
+        <subparagraph GUID="_0cd2a2c1-82da-4837-9158-329cc4e6e356" class="schProv2" eId="sched__para_2__subpara_3">
+         <num>(3)</num>
+         <content>
+          <p><mod>For paragraph (2) substitute—<quotedStructure GUID="_ed42e064-1821-4c99-9e42-0acd51237d84" eId="sched__para_2__subpara_3__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+           <paragraph GUID="_db61e121-71ed-40a2-8483-034967dfd85e" class="prov2" eId="sched__para_2__subpara_3__qstr__para_2">
+            <num ukl:autonumber="no">(2)</num>
+            <content>
+             <p>This Part does not apply to a relevant international public contract or design contest in a case where the applicable procurement rules restrict the participation of economic operators in the procedure.</p>
+            </content>
+           </paragraph>
+           <paragraph GUID="_35fd2097-1117-434b-af34-74a455572ec2" class="prov2" eId="sched__para_2__subpara_3__qstr__para_2A">
+            <num ukl:autonumber="no">(2A)</num>
+            <content>
+             <p>In the case of a relevant international public contract or design contest where the applicable procurement rules do not restrict the participation of economic operators in the procedure, the only provision of this Part that applies is regulation 25B (equal treatment of economic operators).</p>
+            </content>
+           </paragraph>
+           </quotedStructure><inline name="AppendText"/></mod></p>
+         </content>
+        </subparagraph>
+        <subparagraph GUID="_090399e1-c8fe-4501-9acc-98dc535c1140" class="schProv2" eId="sched__para_2__subpara_4">
+         <num>(4)</num>
+         <content>
+          <p>Omit paragraph (3).</p>
+         </content>
+        </subparagraph>
+        <subparagraph GUID="_84ad6301-0b08-4976-b657-1983271bc1c9" class="schProv2" eId="sched__para_2__subpara_5">
+         <num>(5)</num>
+         <content>
+          <p>In paragraph (4), omit “paragraphs (1) to (3) of”.</p>
+         </content>
+        </subparagraph>
+        <subparagraph GUID="_70947ed1-1e25-4811-9ed5-1eb84f234d6c" class="schProv2" eId="sched__para_2__subpara_6">
+         <num>(6)</num>
+         <content>
+          <p><mod>At the end insert—<quotedStructure GUID="_72b5bf75-9df7-4f87-bdf3-4a5c00e52f60" eId="sched__para_2__subpara_6__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+           <paragraph GUID="_6c3da73f-ffa8-4420-a9e7-6732453f9ac0" class="prov2" eId="sched__para_2__subpara_6__qstr__para_5">
+            <num ukl:autonumber="no">(5)</num>
+            <intro GUID="_3a767003-ddd8-4027-9de1-4ebd7f288f72" eId="sched__para_2__subpara_6__qstr__para_5__intro">
+             <p>In this regulation, “relevant international public contract or design contest” means a public contract or design contest that—</p>
+            </intro>
+            <level GUID="_548d3186-3ea3-4846-b4d3-285b09434363" class="para1" eId="sched__para_2__subpara_6__qstr__para_5__para_a">
+             <num>(a)</num>
+             <content>
+              <p>the contracting authority awards or organises in accordance with procurement rules provided by an international organisation or international financing institution, and</p>
+             </content>
+            </level>
+            <level GUID="_6e259e58-83a8-4aeb-8c73-6b6fe20df47e" class="para1" eId="sched__para_2__subpara_6__qstr__para_5__para_b">
+             <num>(b)</num>
+             <content>
+              <p>is fully financed, or co-financed for the most part, by that organisation or institution.</p>
+             </content>
+            </level>
+           </paragraph>
+           </quotedStructure><inline name="AppendText"/></mod></p>
+         </content>
+        </subparagraph>
+       </paragraph>
+       <paragraph GUID="_b92c8720-3413-4e80-a182-588ac44a7d53" class="schProv1" eId="sched__para_3">
+        <num>3</num>
+        <content>
+         <p><mod>In regulation 50 (contract award notices), in paragraph (2)(a), after paragraph (ii) insert—<quotedStructure GUID="_1bff1470-db08-4647-bd9f-6b2be14025f8" eId="sched__para_3__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+          <level GUID="_8ad323b6-8f6e-41a8-b8b7-3e992eb3e6af" class="para2" eId="sched__para_3__qstr__subpara_iia">
+           <num ukl:autonumber="no">(iia)</num>
+           <content>
+            <p>in paragraph 13, the words “or the highest tender and lowest tender taken into consideration” were omitted;</p>
+           </content>
+          </level>
+          </quotedStructure><inline name="AppendText">.</inline></mod></p>
+        </content>
+       </paragraph>
+       <paragraph GUID="_7894c4fb-7ac5-4ce9-8be8-fd153eb3d795" class="schProv1" eId="sched__para_4">
+        <num>4</num>
+        <content>
+         <p><mod>In Schedule 4A (international trade agreements), at the end insert—<quotedStructure GUID="_eef36389-7726-4ba0-965d-d6153d9ed6c7" eId="sched__para_4__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+          <level GUID="_ff0aa4db-9db9-4823-885a-27c9016acb0b" class="unnumberedParagraph" eId="sched__para_4__qstr__para">
+           <content>
+            <p>Comprehensive and Progressive Agreement for Trans-Pacific Partnership, signed at Santiago on 8 March 2018, including the Protocol on the Accession of the United Kingdom of Great Britain and Northern Ireland to the Comprehensive and Progressive Agreement for Trans-Pacific Partnership, signed at Auckland and Bandar Seri Begawan on 16 July 2023.</p>
+           </content>
+          </level>
+          </quotedStructure><inline name="AppendText"/></mod></p>
+        </content>
+       </paragraph>
+      </hcontainer>
+      <hcontainer GUID="_ca8ae3df-7912-47e7-97e0-6763ce6e6845" class="schGroup7" eId="sched__pt_1__xhdg_5" name="crossheading">
+       <heading GUID="_53cc953d-b503-43eb-ba65-c7f2cba6c23a" eId="sched__pt_1__xhdg_5__hdg">The Concession Contracts Regulations 2016</heading>
+       <paragraph GUID="_b6d3418e-3bd0-440d-86de-e745272b38f7" class="schProv1" eId="sched__para_5">
+        <num>5</num>
+        <content>
+         <p>The Concession Contracts Regulations 2016 (S.I. 2016/273) are amended as follows.</p>
+        </content>
+       </paragraph>
+       <paragraph GUID="_97782edd-412d-45e9-880a-8bd09ff45654" class="schProv1" eId="sched__para_6">
+        <num>6</num>
+        <subparagraph GUID="_0bdc37a0-0bec-405c-b188-c6f57e117f59" class="schProv2" eId="sched__para_6__subpara_1">
+         <num>(1)</num>
+         <content>
+          <p>Regulation 10 (general exclusions) is amended as follows.</p>
+         </content>
+        </subparagraph>
+        <subparagraph GUID="_14185f35-f774-41c0-97a7-293e3de88ec6" class="schProv2" eId="sched__para_6__subpara_2">
+         <num>(2)</num>
+         <intro GUID="_dfd8d5dc-d088-4eb0-81a7-080652613b7c" eId="sched__para_6__subpara_2__intro">
+          <p>In paragraph (5)—</p>
+         </intro>
+         <level GUID="_8c574157-aeb2-42e8-aeec-421c0d68080c" class="para1" eId="sched__para_6__subpara_2__para_a">
+          <num>(a)</num>
+          <content>
+           <p>in the words before sub-paragraph (a), omit “any of the following”;</p>
+          </content>
+         </level>
+         <level GUID="_8aca152c-b75a-4aaf-ac7b-de38f858a41a" class="para1" eId="sched__para_6__subpara_2__para_b">
+          <num>(b)</num>
+          <content>
+           <p>omit sub-paragraph (b).</p>
+          </content>
+         </level>
+        </subparagraph>
+        <subparagraph GUID="_b7a40589-219c-44ce-a250-883d82a57097" class="schProv2" eId="sched__para_6__subpara_3">
+         <num>(3)</num>
+         <content>
+          <p><mod>For paragraph (6) substitute—<quotedStructure GUID="_1943618d-b399-4f5e-acdc-fc85dc0c4eca" eId="sched__para_6__subpara_3__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+           <paragraph GUID="_cf9e73db-7286-427d-91e1-daed618de169" class="prov2" eId="sched__para_6__subpara_3__qstr__para_6">
+            <num ukl:autonumber="no">(6)</num>
+            <content>
+             <p>These Regulations do not apply to a relevant international concession contract in a case where the applicable procurement rules restrict the participation of economic operators in the procedure.</p>
+            </content>
+           </paragraph>
+           <paragraph GUID="_c5eb9a90-185d-4794-bdef-9cb97b1e078e" class="prov2" eId="sched__para_6__subpara_3__qstr__para_6A">
+            <num ukl:autonumber="no">(6A)</num>
+            <content>
+             <p>In the case of a relevant international concession contract where the applicable procurement rules do not restrict the participation of economic operators in the procedure, the only regulation that applies is regulation 8 (equal treatment of economic operators).</p>
+            </content>
+           </paragraph>
+           </quotedStructure><inline name="AppendText"/></mod></p>
+         </content>
+        </subparagraph>
+        <subparagraph GUID="_84997215-e645-4a8a-81e9-4e42c6e60460" class="schProv2" eId="sched__para_6__subpara_4">
+         <num>(4)</num>
+         <content>
+          <p>Omit paragraph (7).</p>
+         </content>
+        </subparagraph>
+        <subparagraph GUID="_40499e48-1fbc-448e-a3a9-c26e83fb12d3" class="schProv2" eId="sched__para_6__subpara_5">
+         <num>(5)</num>
+         <content>
+          <p>In paragraph (8), for “(7)” substitute “(6A)”.</p>
+         </content>
+        </subparagraph>
+        <subparagraph GUID="_6bb11068-8179-4204-bf29-f66590688395" class="schProv2" eId="sched__para_6__subpara_6">
+         <num>(6)</num>
+         <content>
+          <p><mod>After paragraph (8) insert—<quotedStructure GUID="_c269be06-c537-440a-a19e-7932702f7ca5" eId="sched__para_6__subpara_6__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+           <paragraph GUID="_caf8fb35-4f31-45a6-8f83-54ee659fd27a" class="prov2" eId="sched__para_6__subpara_6__qstr__para_8A">
+            <num ukl:autonumber="no">(8A)</num>
+            <intro GUID="_16ea3920-20eb-429e-ad7a-d14261d4f8b1" eId="sched__para_6__subpara_6__qstr__para_8A__intro">
+             <p>In this regulation, “relevant international concession contract” means a concession contract that—</p>
+            </intro>
+            <level GUID="_3b348cba-40e7-4992-858f-38e63cdb7628" class="para1" eId="sched__para_6__subpara_6__qstr__para_8A__para_a">
+             <num>(a)</num>
+             <content>
+              <p>the contracting authority or utility awards in accordance with procurement rules provided by an international organisation or international financing institution, and</p>
+             </content>
+            </level>
+            <level GUID="_90266e1b-b595-47f3-a989-f3371752cd83" class="para1" eId="sched__para_6__subpara_6__qstr__para_8A__para_b">
+             <num>(b)</num>
+             <content>
+              <p>is fully financed, or co-financed for the most part, by that organisation or institution.</p>
+             </content>
+            </level>
+           </paragraph>
+           </quotedStructure><inline name="AppendText"/></mod></p>
+         </content>
+        </subparagraph>
+       </paragraph>
+       <paragraph GUID="_3b0e768b-e1c4-486d-be34-a1ae22168cbf" class="schProv1" eId="sched__para_7">
+        <num>7</num>
+        <content>
+         <p><mod>In Schedule 4 (international trade agreements), at the end insert—<quotedStructure GUID="_fc97e580-9f35-43b6-954c-62e3c9609888" eId="sched__para_7__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+          <level GUID="_a4d9c476-dbe2-4351-a8b1-3e3968118604" class="unnumberedParagraph" eId="sched__para_7__qstr__para">
+           <content>
+            <p>Comprehensive and Progressive Agreement for Trans-Pacific Partnership, signed at Santiago on 8 March 2018, including the Protocol on the Accession of the United Kingdom of Great Britain and Northern Ireland to the Comprehensive and Progressive Agreement for Trans-Pacific Partnership, signed at Auckland and Bandar Seri Begawan on 16 July 2023.</p>
+           </content>
+          </level>
+          </quotedStructure><inline name="AppendText"/></mod></p>
+        </content>
+       </paragraph>
+      </hcontainer>
+      <hcontainer GUID="_a94677db-58c7-4b9f-b0d8-b61151706e50" class="schGroup7" eId="sched__pt_1__xhdg_8" name="crossheading">
+       <heading GUID="_5046ba80-cc9d-4777-a2d1-cd1d05062871" eId="sched__pt_1__xhdg_8__hdg">The Utilities Contracts Regulations 2016</heading>
+       <paragraph GUID="_eea631ff-2d32-436c-b304-be7610357dba" class="schProv1" eId="sched__para_8">
+        <num>8</num>
+        <content>
+         <p>The Utilities Contracts Regulations 2016 (S.I. 2016/274) are amended as follows.</p>
+        </content>
+       </paragraph>
+       <paragraph GUID="_f3ceb519-c115-4129-ba13-7473378f21ac" class="schProv1" eId="sched__para_9">
+        <num>9</num>
+        <subparagraph GUID="_15980125-c984-45d3-bec7-01d8e1d641e2" class="schProv2" eId="sched__para_9__subpara_1">
+         <num>(1)</num>
+         <content>
+          <p>Regulation 20 (contracts awarded and design contests organised pursuant to international rules) is amended as follows.</p>
+         </content>
+        </subparagraph>
+        <subparagraph GUID="_937f256b-1b1b-48bb-abb0-c3626f2ca952" class="schProv2" eId="sched__para_9__subpara_2">
+         <num>(2)</num>
+         <intro GUID="_b66bb448-dc46-4ff2-887c-287e67042115" eId="sched__para_9__subpara_2__intro">
+          <p>In paragraph (1)—</p>
+         </intro>
+         <level GUID="_ce658a67-4c57-45ef-8eba-e7e899a43ddf" class="para1" eId="sched__para_9__subpara_2__para_a">
+          <num>(a)</num>
+          <content>
+           <p>in the words before sub-paragraph (a), omit “any of the following”;</p>
+          </content>
+         </level>
+         <level GUID="_8f9a9417-9618-4ef9-833c-1f5145e8416c" class="para1" eId="sched__para_9__subpara_2__para_b">
+          <num>(b)</num>
+          <content>
+           <p>omit sub-paragraph (b).</p>
+          </content>
+         </level>
+        </subparagraph>
+        <subparagraph GUID="_a5806840-4619-4283-a025-80088d67bd56" class="schProv2" eId="sched__para_9__subpara_3">
+         <num>(3)</num>
+         <content>
+          <p><mod>For paragraph (2) substitute—<quotedStructure GUID="_eadce9c4-066b-4666-b745-ed8795c43488" eId="sched__para_9__subpara_3__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+           <paragraph GUID="_9e1ed623-d97e-4a9c-a979-2973e9fb9dd9" class="prov2" eId="sched__para_9__subpara_3__qstr__para_2">
+            <num ukl:autonumber="no">(2)</num>
+            <content>
+             <p>These Regulations do not apply to a relevant international contract or design contest in a case where the applicable procurement rules restrict the participation of economic operators in the procedure.</p>
+            </content>
+           </paragraph>
+           <paragraph GUID="_0b4821ad-5b81-4fac-b295-b803a496edb2" class="prov2" eId="sched__para_9__subpara_3__qstr__para_2A">
+            <num ukl:autonumber="no">(2A)</num>
+            <content>
+             <p>In the case of a relevant international contract or design contest where the applicable procurement rules do not restrict the participation of economic operators in the procedure, the only regulation that applies is regulation 43B (equal treatment of economic operators).</p>
+            </content>
+           </paragraph>
+           </quotedStructure><inline name="AppendText"/></mod></p>
+         </content>
+        </subparagraph>
+        <subparagraph GUID="_5ecac495-2339-4f60-9bfb-91b4ae260250" class="schProv2" eId="sched__para_9__subpara_4">
+         <num>(4)</num>
+         <content>
+          <p>Omit paragraph (3).</p>
+         </content>
+        </subparagraph>
+        <subparagraph GUID="_9f4620af-f407-41d5-ad49-210df20eb35f" class="schProv2" eId="sched__para_9__subpara_5">
+         <num>(5)</num>
+         <content>
+          <p>In paragraph (4), omit “paragraphs (1) to (3) of”.</p>
+         </content>
+        </subparagraph>
+        <subparagraph GUID="_6f66890c-484e-4c9c-9783-09036f3ad97d" class="schProv2" eId="sched__para_9__subpara_6">
+         <num>(6)</num>
+         <content>
+          <p><mod>At the end insert—<quotedStructure GUID="_e2943cbf-8328-4e88-a60c-0737d563e7ee" eId="sched__para_9__subpara_6__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+           <paragraph GUID="_627830db-d6e4-4b60-a5ab-495fcb6214ff" class="prov2" eId="sched__para_9__subpara_6__qstr__para_5">
+            <num ukl:autonumber="no">(5)</num>
+            <intro GUID="_a8854d95-91ff-4e0a-806a-a24c70517e87" eId="sched__para_9__subpara_6__qstr__para_5__intro">
+             <p>In this regulation, “relevant international contract or design contest” means a contract or design contest that—</p>
+            </intro>
+            <level GUID="_e017316f-94c8-45bb-b909-dcea2084587e" class="para1" eId="sched__para_9__subpara_6__qstr__para_5__para_a">
+             <num>(a)</num>
+             <content>
+              <p>the utility awards or organises in accordance with procurement rules provided by an international organisation or international financing institution, and</p>
+             </content>
+            </level>
+            <level GUID="_c8ec11c4-d738-48f0-8e92-e0240e682963" class="para1" eId="sched__para_9__subpara_6__qstr__para_5__para_b">
+             <num>(b)</num>
+             <content>
+              <p>is fully financed, or co-financed for the most part, by that organisation or institution.</p>
+             </content>
+            </level>
+           </paragraph>
+           </quotedStructure><inline name="AppendText"/></mod></p>
+         </content>
+        </subparagraph>
+       </paragraph>
+       <paragraph GUID="_90eb1894-c151-4acf-a5b7-d7de5b535919" class="schProv1" eId="sched__para_10">
+        <num>10</num>
+        <content>
+         <p><mod>In regulation 70 (contract award notices), in paragraph (2)(a), after paragraph (iii) insert—<quotedStructure GUID="_878cdcf7-59d1-4ca2-9325-c3b4aa192aa6" eId="sched__para_10__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+          <level GUID="_6e651664-2c36-4e77-aa44-4cb78cd2de8b" class="para2" eId="sched__para_10__qstr__subpara_iiia">
+           <num ukl:autonumber="no">(iiia)</num>
+           <content>
+            <p>in paragraph 12, for the words from “or the prices” to the end there were substituted “for the contract awarded”;</p>
+           </content>
+          </level>
+          </quotedStructure><inline name="AppendText">.</inline></mod></p>
+        </content>
+       </paragraph>
+       <paragraph GUID="_223a73db-64b2-42b4-ba54-0e8a5f25cb23" class="schProv1" eId="sched__para_11">
+        <num>11</num>
+        <content>
+         <p><mod>In Schedule 3 (international trade agreements), at the end insert—<quotedStructure GUID="_53753710-acae-4353-89d7-fec0a22778af" eId="sched__para_11__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+          <level GUID="_5ea3b91f-d008-4c1c-b86c-3a71dfe13590" class="unnumberedParagraph" eId="sched__para_11__qstr__para">
+           <content>
+            <p>Comprehensive and Progressive Agreement for Trans-Pacific Partnership, signed at Santiago on 8 March 2018, including the Protocol on the Accession of the United Kingdom of Great Britain and Northern Ireland to the Comprehensive and Progressive Agreement for Trans-Pacific Partnership, signed at Auckland and Bandar Seri Begawan on 16 July 2023.</p>
+           </content>
+          </level>
+          </quotedStructure><inline name="AppendText"/></mod></p>
+        </content>
+       </paragraph>
+      </hcontainer>
+     </part>
+     <part GUID="_a31f694c-cbfc-49cf-ad04-9739daabc6da" class="schGroup2" eId="sched__pt_2">
+      <num>Part 2</num>
+      <heading GUID="_dc71f977-daff-4b42-bece-ef99dcd0c57c" eId="sched__pt_2__hdg">Amendments to procurement regulations for Scotland</heading>
+      <hcontainer GUID="_b240499e-3955-4df4-bbe9-9b5dad6de398" class="schGroup7" eId="sched__pt_2__xhdg_12" name="crossheading">
+       <heading GUID="_838a06c0-1157-4a9a-a32e-acb8987b0647" eId="sched__pt_2__xhdg_12__hdg">The Public Contracts (Scotland) Regulations 2015</heading>
+       <paragraph GUID="_5ac2a8a8-502b-4ec8-b926-ecf59115ef5e" class="schProv1" eId="sched__para_12">
+        <num>12</num>
+        <content>
+         <p>The Public Contracts (Scotland) Regulations 2015 (S.S.I. 2015/446) are amended as follows.</p>
+        </content>
+       </paragraph>
+       <paragraph GUID="_4c98a0a4-f3d6-458c-9ba9-3d9a5d513857" class="schProv1" eId="sched__para_13">
+        <num>13</num>
+        <subparagraph GUID="_4aeba98e-ad63-4370-9ed7-5f59f212abd7" class="schProv2" eId="sched__para_13__subpara_1">
+         <num>(1)</num>
+         <content>
+          <p>Regulation 10 (exclusions: public contracts awarded, and design contests organised, pursuant to international rules) is amended as follows.</p>
+         </content>
+        </subparagraph>
+        <subparagraph GUID="_61bc3e78-e80f-443c-8fa2-e2c0917c7229" class="schProv2" eId="sched__para_13__subpara_2">
+         <num>(2)</num>
+         <content>
+          <p>In paragraph (1), omit sub-paragraph (b) (and the “or” preceding it).</p>
+         </content>
+        </subparagraph>
+        <subparagraph GUID="_8311e33a-7a25-4935-a457-57af12762f5f" class="schProv2" eId="sched__para_13__subpara_3">
+         <num>(3)</num>
+         <content>
+          <p><mod>For paragraph (2) substitute—<quotedStructure GUID="_1ea26efb-b6ce-4c2f-882f-e4cbfe2b939b" eId="sched__para_13__subpara_3__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+           <paragraph GUID="_3304e50b-5828-4bc1-ad33-e7aaa9d9490d" class="prov2" eId="sched__para_13__subpara_3__qstr__para_2">
+            <num ukl:autonumber="no">(2)</num>
+            <content>
+             <p>These Regulations do not apply to procurement for the award of a relevant international public contract or the organisation of a relevant international design contest in a case where the applicable procurement rules restrict the participation of economic operators in the procedure.</p>
+            </content>
+           </paragraph>
+           <paragraph GUID="_b268df3c-311c-472c-ab56-97b999e28809" class="prov2" eId="sched__para_13__subpara_3__qstr__para_2A">
+            <num ukl:autonumber="no">(2A)</num>
+            <content>
+             <p>In the case of procurement for the award of a relevant international public contract or relevant international design contest where the applicable procurement rules do not restrict the participation of economic operators in the procedure, the only regulation that applies to the procurement is regulation 26B (equal treatment of economic operators).</p>
+            </content>
+           </paragraph>
+           </quotedStructure><inline name="AppendText"/></mod></p>
+         </content>
+        </subparagraph>
+        <subparagraph GUID="_338f629d-91ab-48fc-a429-c94db629b0f2" class="schProv2" eId="sched__para_13__subpara_4">
+         <num>(4)</num>
+         <content>
+          <p><mod>At the end insert—<quotedStructure GUID="_5f8b0056-d123-4e62-b3e7-4c35fefac5dc" eId="sched__para_13__subpara_4__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+           <paragraph GUID="_32d139f7-88fa-4cfa-9a34-c47940cc0541" class="prov2" eId="sched__para_13__subpara_4__qstr__para_4">
+            <num ukl:autonumber="no">(4)</num>
+            <intro GUID="_23d58cd8-76da-4e1d-a1ff-7e5dcd5dd93a" eId="sched__para_13__subpara_4__qstr__para_4__intro">
+             <p>In this regulation, “relevant international public contract” and “relevant international design contest” mean a public contract or design contest that—</p>
+            </intro>
+            <level GUID="_83cb4b6a-a4f4-4768-a4ca-eb21e5b58d1c" class="para1" eId="sched__para_13__subpara_4__qstr__para_4__para_a">
+             <num>(a)</num>
+             <content>
+              <p>the contracting authority awards or organises in accordance with procurement rules provided by an international organisation or international financing institution, and</p>
+             </content>
+            </level>
+            <level GUID="_960bc4a4-8639-440f-892b-cddcb39e0c39" class="para1" eId="sched__para_13__subpara_4__qstr__para_4__para_b">
+             <num>(b)</num>
+             <content>
+              <p>is fully financed, or co-financed for the most part, by that organisation or institution.</p>
+             </content>
+            </level>
+           </paragraph>
+           </quotedStructure><inline name="AppendText"/></mod></p>
+         </content>
+        </subparagraph>
+       </paragraph>
+       <paragraph GUID="_b075a0ff-bc99-4a4e-84ec-94be625439d0" class="schProv1" eId="sched__para_14">
+        <num>14</num>
+        <content>
+         <p><mod>In regulation 51 (contract award notices), in paragraph (2)(a), after paragraph (ii) insert—<quotedStructure GUID="_902e9316-6db7-4119-979d-8e6e98ab64ae" eId="sched__para_14__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ssi" ukl:indent="indent0">
+          <level GUID="_2fd5672c-737d-43c1-bfdb-e48cf9c3bcad" class="para2" eId="sched__para_14__qstr__subpara_iia">
+           <num ukl:autonumber="no">(iia)</num>
+           <content>
+            <p>in paragraph 13, the words “or the highest tender and lowest tender taken into consideration” were omitted,</p>
+           </content>
+          </level>
+          </quotedStructure><inline name="AppendText">.</inline></mod></p>
+        </content>
+       </paragraph>
+       <paragraph GUID="_55a71818-e548-4b4e-8a45-5988265a5a35" class="schProv1" eId="sched__para_15">
+        <num>15</num>
+        <content>
+         <p><mod>In Schedule 4A (international trade agreements), at the end insert—<quotedStructure GUID="_1981e498-adfa-4a49-a999-bb1aea08d3c7" eId="sched__para_15__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ssi" ukl:indent="indent0">
+          <level GUID="_86ac2083-efd3-44fc-b5fd-0f6c63df9b80" class="unnumberedParagraph" eId="sched__para_15__qstr__para">
+           <content>
+            <p>Comprehensive and Progressive Agreement for Trans-Pacific Partnership, signed at Santiago on 8 March 2018, including the Protocol on the Accession of the United Kingdom of Great Britain and Northern Ireland to the Comprehensive and Progressive Agreement for Trans-Pacific Partnership, signed at Auckland and Bandar Seri Begawan on 16 July 2023.</p>
+           </content>
+          </level>
+          </quotedStructure><inline name="AppendText"/></mod></p>
+        </content>
+       </paragraph>
+      </hcontainer>
+      <hcontainer GUID="_512c478f-ae3f-4ffc-981e-88cd0bfb51a4" class="schGroup7" eId="sched__pt_2__xhdg_16" name="crossheading">
+       <heading GUID="_fc3cf2f9-724a-4ab2-b29a-fd1540e571ba" eId="sched__pt_2__xhdg_16__hdg">The Utilities Contracts (Scotland) Regulations 2016</heading>
+       <paragraph GUID="_b5b630af-b96c-434d-9343-c2b554b82255" class="schProv1" eId="sched__para_16">
+        <num>16</num>
+        <content>
+         <p>The Utilities Contracts (Scotland) Regulations 2016 (S.S.I. 2016/49) are amended as follows.</p>
+        </content>
+       </paragraph>
+       <paragraph GUID="_ca0c74fd-e288-4bfe-b2b1-b89569966a5d" class="schProv1" eId="sched__para_17">
+        <num>17</num>
+        <subparagraph GUID="_f65ac091-3341-4a5e-b892-1e4e52e6091c" class="schProv2" eId="sched__para_17__subpara_1">
+         <num>(1)</num>
+         <content>
+          <p>Regulation 19 (exclusion: contracts awarded and design contests organised pursuant to international rules) is amended as follows.</p>
+         </content>
+        </subparagraph>
+        <subparagraph GUID="_88f9caa3-71fa-4282-bc50-435572753f0e" class="schProv2" eId="sched__para_17__subpara_2">
+         <num>(2)</num>
+         <content>
+          <p>In paragraph (1), omit sub-paragraph (b) (and the “or” preceding it).</p>
+         </content>
+        </subparagraph>
+        <subparagraph GUID="_47b8fc3d-55c9-4059-8325-fc5de9e2d466" class="schProv2" eId="sched__para_17__subpara_3">
+         <num>(3)</num>
+         <content>
+          <p><mod>For paragraph (2) substitute—<quotedStructure GUID="_50e971d0-ac4e-4099-83a9-35cd2396eff0" eId="sched__para_17__subpara_3__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+           <paragraph GUID="_3f6f7c9a-a832-40b9-a191-ffdd6b4e1e23" class="prov2" eId="sched__para_17__subpara_3__qstr__para_2">
+            <num ukl:autonumber="no">(2)</num>
+            <content>
+             <p>These Regulations do not apply to procurement for the award of a relevant international contract or the organisation of a relevant international design contest in a case where the applicable procurement rules restrict the participation of economic operators in the procedure.</p>
+            </content>
+           </paragraph>
+           <paragraph GUID="_90e647fa-36bc-4aa1-96ad-6a2132c5ce72" class="prov2" eId="sched__para_17__subpara_3__qstr__para_2A">
+            <num ukl:autonumber="no">(2A)</num>
+            <content>
+             <p>In the case of procurement for the award of a relevant international public contract or relevant international design contest where the applicable procurement rules do not restrict the participation of economic operators in the procedure, the only regulation that applies to the procurement is regulation 41B (equal treatment of economic operators).</p>
+            </content>
+           </paragraph>
+           </quotedStructure><inline name="AppendText"/></mod></p>
+         </content>
+        </subparagraph>
+        <subparagraph GUID="_67415925-8c95-405a-90c1-fa9f8896283b" class="schProv2" eId="sched__para_17__subpara_4">
+         <num>(4)</num>
+         <content>
+          <p><mod>At the end insert—<quotedStructure GUID="_489ecaba-3002-4a3a-8e32-a9239ec99729" eId="sched__para_17__subpara_4__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+           <paragraph GUID="_ecaa0005-99fa-46cf-9168-fd9e0e2f77b4" class="prov2" eId="sched__para_17__subpara_4__qstr__para_4">
+            <num ukl:autonumber="no">(4)</num>
+            <intro GUID="_4fecdd30-a685-4a82-acf8-5304f3c56f95" eId="sched__para_17__subpara_4__qstr__para_4__intro">
+             <p>In this regulation, “relevant international contract” and “relevant international design contest” mean a contract or design contest that—</p>
+            </intro>
+            <level GUID="_c3c00540-77e5-405f-9af8-f7b2e83b5a8e" class="para1" eId="sched__para_17__subpara_4__qstr__para_4__para_a">
+             <num>(a)</num>
+             <content>
+              <p>the utility undertakes or organises in accordance with procurement rules provided by an international organisation or international financing institution, and</p>
+             </content>
+            </level>
+            <level GUID="_18a945bd-39de-429f-b3c5-c5e5c36df516" class="para1" eId="sched__para_17__subpara_4__qstr__para_4__para_b">
+             <num>(b)</num>
+             <content>
+              <p>is fully financed, or co-financed for the most part, by that organisation or institution.</p>
+             </content>
+            </level>
+           </paragraph>
+           </quotedStructure><inline name="AppendText"/></mod></p>
+         </content>
+        </subparagraph>
+       </paragraph>
+       <paragraph GUID="_6e0eb0bb-545e-4cd9-b6c9-9920f274388d" class="schProv1" eId="sched__para_18">
+        <num>18</num>
+        <content>
+         <p><mod>In regulation 68 (contract award notices), in paragraph (2)(a), after paragraph (iii) insert—<quotedStructure GUID="_6be70dfb-a727-4050-848a-eb3bbbb30df7" eId="sched__para_18__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ssi" ukl:indent="indent0">
+          <level GUID="_e429892a-247e-48e0-a57a-044aafcee1bd" class="para2" eId="sched__para_18__qstr__subpara_iiia">
+           <num ukl:autonumber="no">(iiia)</num>
+           <content>
+            <p>in paragraph 12, for the words from “or the prices” to the end there were substituted “for the contract awarded”,</p>
+           </content>
+          </level>
+          </quotedStructure><inline name="AppendText">.</inline></mod></p>
+        </content>
+       </paragraph>
+       <paragraph GUID="_7944db61-e396-4ee2-ac66-9761fe7cd225" class="schProv1" eId="sched__para_19">
+        <num>19</num>
+        <content>
+         <p><mod>In Schedule 2A (international trade agreements), at the end insert—<quotedStructure GUID="_207045e8-1a5c-4b99-b0a3-6764b0ab3ec6" eId="sched__para_19__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ssi" ukl:indent="indent0">
+          <level GUID="_082c3fc6-b7cc-4521-b618-065640478636" class="unnumberedParagraph" eId="sched__para_19__qstr__para">
+           <content>
+            <p>Comprehensive and Progressive Agreement for Trans-Pacific Partnership, signed at Santiago on 8 March 2018, including the Protocol on the Accession of the United Kingdom of Great Britain and Northern Ireland to the Comprehensive and Progressive Agreement for Trans-Pacific Partnership, signed at Auckland and Bandar Seri Begawan on 16 July 2023.</p>
+           </content>
+          </level>
+          </quotedStructure><inline name="AppendText"/></mod></p>
+        </content>
+       </paragraph>
+      </hcontainer>
+      <hcontainer GUID="_719cc5a6-c092-4165-9893-82ae900131cc" class="schGroup7" eId="sched__pt_2__xhdg_20" name="crossheading">
+       <heading GUID="_d655acad-afcd-4837-bdb5-88a4938bc44e" eId="sched__pt_2__xhdg_20__hdg">The Concession Contracts (Scotland) Regulations 2016</heading>
+       <paragraph GUID="_2fd541b7-c54e-4d17-bcd4-b0a963f0df59" class="schProv1" eId="sched__para_20">
+        <num>20</num>
+        <content>
+         <p>The Concession Contracts (Scotland) Regulations 2016 (S.S.I. 2016/65) are amended as follows.</p>
+        </content>
+       </paragraph>
+       <paragraph GUID="_5c059d7b-2b8a-4483-a7b0-e03e454180c6" class="schProv1" eId="sched__para_21">
+        <num>21</num>
+        <subparagraph GUID="_60b50192-5086-4608-951f-8a04adfa569e" class="schProv2" eId="sched__para_21__subpara_1">
+         <num>(1)</num>
+         <content>
+          <p>Regulation 10 (exclusions: concession contracts awarded pursuant to international rules) is amended as follows.</p>
+         </content>
+        </subparagraph>
+        <subparagraph GUID="_41b2d4f0-48c5-4299-83ea-119c7280bb8e" class="schProv2" eId="sched__para_21__subpara_2">
+         <num>(2)</num>
+         <content>
+          <p>In paragraph (1), omit sub-paragraph (b) (and the “or” preceding it).</p>
+         </content>
+        </subparagraph>
+        <subparagraph GUID="_dfa2332d-79c3-483b-99f4-c3be9a1d2fe3" class="schProv2" eId="sched__para_21__subpara_3">
+         <num>(3)</num>
+         <content>
+          <p><mod>For paragraph (2) substitute—<quotedStructure GUID="_fd39afcd-64e5-4f18-91d9-4fa9b7d7268b" eId="sched__para_21__subpara_3__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+           <paragraph GUID="_f7501be7-5cb2-4cc9-83fe-2b38e3bec685" class="prov2" eId="sched__para_21__subpara_3__qstr__para_2">
+            <num ukl:autonumber="no">(2)</num>
+            <content>
+             <p>These Regulations do not apply to procurement for the award of a relevant international concession contract in a case where the applicable procurement rules restrict the participation of economic operators in the procedure.</p>
+            </content>
+           </paragraph>
+           <paragraph GUID="_610e3636-c4db-4b85-8136-405b18ae6c47" class="prov2" eId="sched__para_21__subpara_3__qstr__para_2A">
+            <num ukl:autonumber="no">(2A)</num>
+            <content>
+             <p>In the case of procurement for the award of a relevant international concession contract where the applicable procurement rules do not restrict the participation of economic operators in the procedure, the only regulation that applies to the procurement is regulation 28 (equal treatment of economic operators).</p>
+            </content>
+           </paragraph>
+           </quotedStructure><inline name="AppendText"/></mod></p>
+         </content>
+        </subparagraph>
+        <subparagraph GUID="_d751d5ce-c79c-4816-acdb-88b873e59a57" class="schProv2" eId="sched__para_21__subpara_4">
+         <num>(4)</num>
+         <content>
+          <p><mod>At the end insert—<quotedStructure GUID="_476da011-45ed-4bfc-ae8c-d707a01f8b0f" eId="sched__para_21__subpara_4__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="uksi" ukl:indent="indent0">
+           <paragraph GUID="_19870c2d-2853-47ef-b7cf-e6c56c6ff320" class="prov2" eId="sched__para_21__subpara_4__qstr__para_4">
+            <num ukl:autonumber="no">(4)</num>
+            <intro GUID="_ed92b75d-0971-4e12-b3b3-4ee2348670ae" eId="sched__para_21__subpara_4__qstr__para_4__intro">
+             <p>In this regulation, “relevant international concession contract” means a concession contract that—</p>
+            </intro>
+            <level GUID="_f4443c30-55af-4beb-8402-decd5688b64d" class="para1" eId="sched__para_21__subpara_4__qstr__para_4__para_a">
+             <num>(a)</num>
+             <content>
+              <p>the contracting entity undertakes or organises in accordance with procurement rules provided by an international organisation or international financing institution, and</p>
+             </content>
+            </level>
+            <level GUID="_8a8619fb-75a4-4c4d-92f1-35173654f1a6" class="para1" eId="sched__para_21__subpara_4__qstr__para_4__para_b">
+             <num>(b)</num>
+             <content>
+              <p>is fully financed, or co-financed for the most part, by that organisation or institution.</p>
+             </content>
+            </level>
+           </paragraph>
+           </quotedStructure><inline name="AppendText"/></mod></p>
+         </content>
+        </subparagraph>
+       </paragraph>
+       <paragraph GUID="_be5cb96d-f689-4817-9bf9-bed15ad3d2d3" class="schProv1" eId="sched__para_22">
+        <num>22</num>
+        <content>
+         <p><mod>In Schedule 5 (international trade agreements), at the end insert—<quotedStructure GUID="_410cecfd-4156-41be-b7ba-27dff354bec7" eId="sched__para_22__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ssi" ukl:indent="indent0">
+          <level GUID="_f7b9a7aa-0085-4d39-856f-536ee117a99a" class="unnumberedParagraph" eId="sched__para_22__qstr__para">
+           <content>
+            <p>Comprehensive and Progressive Agreement for Trans-Pacific Partnership, signed at Santiago on 8 March 2018, including the Protocol on the Accession of the United Kingdom of Great Britain and Northern Ireland to the Comprehensive and Progressive Agreement for Trans-Pacific Partnership, signed at Auckland and Bandar Seri Begawan on 16 July 2023.</p>
+           </content>
+          </level>
+          </quotedStructure><inline name="AppendText"/></mod></p>
+        </content>
+       </paragraph>
+      </hcontainer>
+     </part>
+     <part GUID="_c9fb2b26-a825-4a33-b051-68d0855b50b7" class="schGroup2" eId="sched__pt_3">
+      <num>Part 3</num>
+      <heading GUID="_51c0e997-062d-417c-b7bc-b2709488f23d" eId="sched__pt_3__hdg">Transitional provision</heading>
+      <paragraph GUID="_3e49c38c-e09a-45da-bfcf-be1da1238df1" class="schProv1" eId="sched__para_23">
+       <num>23</num>
+       <content>
+        <p>The amendments made by this Schedule do not apply to a procurement commenced before the day on which this Schedule comes into force (the “Schedule commencement date”).</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_b584a482-daa1-4168-b4de-def8612f997e" class="schProv1" eId="sched__para_24">
+       <num>24</num>
+       <subparagraph GUID="_ee784c64-b665-4f27-a28e-e609241630fd" class="schProv2" eId="sched__para_24__subpara_1">
+        <num>(1)</num>
+        <content>
+         <p>For the purposes of <ref class="valid" href="#sched__para_23" ukl:targetGuid="_3e49c38c-e09a-45da-bfcf-be1da1238df1">paragraph 23</ref>, a procurement is commenced before the Schedule commencement date if any of sub-paragraphs (2) to (4) apply in relation to the procurement.</p>
+        </content>
+       </subparagraph>
+       <subparagraph GUID="_dc12a1a4-388c-4535-ba1e-7320eb4c8e26" class="schProv2" eId="sched__para_24__subpara_2">
+        <num>(2)</num>
+        <intro GUID="_5e8e516b-c0f4-4842-ba7c-2ea4500f519f" eId="sched__para_24__subpara_2__intro">
+         <p>This sub-paragraph applies if, before the Schedule commencement date, a notice has been sent to the UK e-notification service in order to—</p>
+        </intro>
+        <level GUID="_d4b1ead1-3236-4340-9e76-b0eb295ee141" class="para1" eId="sched__para_24__subpara_2__para_a">
+         <num>(a)</num>
+         <content>
+          <p>invite offers or requests to be selected to tender for or negotiate in respect of a proposed contract, framework agreement or dynamic purchasing system, or</p>
+         </content>
+        </level>
+        <level GUID="_1244e421-e784-4bac-9340-c9e761188a97" class="para1" eId="sched__para_24__subpara_2__para_b">
+         <num>(b)</num>
+         <content>
+          <p>publicise an intention to hold a design contest.</p>
+         </content>
+        </level>
+       </subparagraph>
+       <subparagraph GUID="_4788bab8-ea8a-4ec3-ac1f-8026fdeb7a33" class="schProv2" eId="sched__para_24__subpara_3">
+        <num>(3)</num>
+        <content>
+         <p>This sub-paragraph applies if, before the Schedule commencement date, the contracting authority or utility has had published any form of advertisement seeking offers or expressions of interest in respect of a proposed contract, framework agreement or dynamic purchasing system.</p>
+        </content>
+       </subparagraph>
+       <subparagraph GUID="_a12cc194-f1d2-41ad-a5ef-75ae35b6cfd4" class="schProv2" eId="sched__para_24__subpara_4">
+        <num>(4)</num>
+        <intro GUID="_2a4c2ab8-fca3-4f32-96d6-60ef0be2ac6e" eId="sched__para_24__subpara_4__intro">
+         <p>This sub-paragraph applies if, before the Schedule commencement date, the contracting authority or utility has contacted any economic operator in order to—</p>
+        </intro>
+        <level GUID="_b278c79b-3c36-4b90-998d-737e6e6616c7" class="para1" eId="sched__para_24__subpara_4__para_a">
+         <num>(a)</num>
+         <content>
+          <p>seek expressions of interest or offers in respect of a proposed contract, framework agreement or dynamic purchasing system, or</p>
+         </content>
+        </level>
+        <level GUID="_0b041f1f-4039-4e14-a2e8-500730c4c970" class="para1" eId="sched__para_24__subpara_4__para_b">
+         <num>(b)</num>
+         <content>
+          <p>respond to an unsolicited expression of interest or offer received from that economic operator in respect of a proposed contract, framework agreement or dynamic purchasing system.</p>
+         </content>
+        </level>
+       </subparagraph>
+      </paragraph>
+      <paragraph GUID="_05e31735-41fd-4b8f-b171-f4283fed7625" class="schProv1" eId="sched__para_25">
+       <num>25</num>
+       <content>
+        <p>Procedures taken for the purposes of modifying a contract or framework agreement are not to be treated as affecting the date on which the procurement for the award of that contract or agreement commenced.</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_2b9ea642-72cc-498d-bd9b-08d06b94d144" class="schProv1" eId="sched__para_26">
+       <num>26</num>
+       <intro GUID="_cdda4e02-bd1b-420a-8bac-91ac74ace0e6" eId="sched__para_26__intro">
+        <p>In this Part of this Schedule—</p>
+       </intro>
+       <level GUID="_91bbea79-7e20-452b-936e-d63f293d03a0" class="para1" eId="sched__para_26__para_a">
+        <num>(a)</num>
+        <intro GUID="_e5e8a8f1-a0e1-408b-95b9-8111a0dc24ac" eId="sched__para_26__para_a__intro">
+         <p>the following terms have the same meaning as in the applicable Procurement Regulations—</p>
+        </intro>
+        <level GUID="_cb633d32-4f9c-41ff-b294-860e9c0b861e" class="para2" eId="sched__para_26__para_a__subpara_i">
+         <num>(i)</num>
+         <content>
+          <p>contracting authority;</p>
+         </content>
+        </level>
+        <level GUID="_a3587cad-3647-4891-bf82-8628e6aef32f" class="para2" eId="sched__para_26__para_a__subpara_ii">
+         <num>(ii)</num>
+         <content>
+          <p>design contest;</p>
+         </content>
+        </level>
+        <level GUID="_b5019a30-984e-447f-a038-1df19f000e7d" class="para2" eId="sched__para_26__para_a__subpara_iii">
+         <num>(iii)</num>
+         <content>
+          <p>dynamic purchasing system;</p>
+         </content>
+        </level>
+        <level GUID="_978e77e3-a7df-4224-bf12-ba8e9ba8a85f" class="para2" eId="sched__para_26__para_a__subpara_iv">
+         <num>(iv)</num>
+         <content>
+          <p>economic operator;</p>
+         </content>
+        </level>
+        <level GUID="_7ff350ed-e9f2-4159-845c-856d994b883f" class="para2" eId="sched__para_26__para_a__subpara_v">
+         <num>(v)</num>
+         <content>
+          <p>framework agreement;</p>
+         </content>
+        </level>
+        <level GUID="_f7cf7d95-7b72-4cc0-8f44-df3871dafd1f" class="para2" eId="sched__para_26__para_a__subpara_vi">
+         <num>(vi)</num>
+         <content>
+          <p>procurement;</p>
+         </content>
+        </level>
+        <level GUID="_599a0f38-0a26-4373-8a3c-2be9bff51fe6" class="para2" eId="sched__para_26__para_a__subpara_vii">
+         <num>(vii)</num>
+         <content>
+          <p>UK e-notification service;</p>
+         </content>
+        </level>
+        <level GUID="_c1041f9c-3b34-43d9-8775-27efc95c5520" class="para2" eId="sched__para_26__para_a__subpara_viii">
+         <num>(viii)</num>
+         <content>
+          <p>utility, and</p>
+         </content>
+        </level>
+       </level>
+       <level GUID="_4cba6274-7380-4310-95c1-5cd97a78add8" class="para1" eId="sched__para_26__para_b">
+        <num>(b)</num>
+        <intro GUID="_6f7dc2e5-f400-4e94-a2bd-e569fe10debb" eId="sched__para_26__para_b__intro">
+         <p>“the applicable Procurement Regulations” means whichever of the following applies to the procurement in question—</p>
+        </intro>
+        <level GUID="_f1f7d1f0-c8f0-4f72-a1b7-74e81ceb034c" class="para2" eId="sched__para_26__para_b__subpara_i">
+         <num>(i)</num>
+         <content>
+          <p>the Public Contracts Regulations 2015 (S.I. 2015/102);</p>
+         </content>
+        </level>
+        <level GUID="_1d96aa62-f3ed-44c6-9ae8-e3b55d75dd81" class="para2" eId="sched__para_26__para_b__subpara_ii">
+         <num>(ii)</num>
+         <content>
+          <p>the Concession Contracts Regulations 2016 (S.I. 2016/273);</p>
+         </content>
+        </level>
+        <level GUID="_691a90ee-9c69-460d-9576-7f43e0203911" class="para2" eId="sched__para_26__para_b__subpara_iii">
+         <num>(iii)</num>
+         <content>
+          <p>the Utilities Contracts Regulations 2016 (S.I. 2016/274);</p>
+         </content>
+        </level>
+        <level GUID="_4d5dbdeb-ab78-4062-a114-1e52fdd3e22d" class="para2" eId="sched__para_26__para_b__subpara_iv">
+         <num>(iv)</num>
+         <content>
+          <p>the Public Contracts (Scotland) Regulations 2015 (S.S.I. 2015/446);</p>
+         </content>
+        </level>
+        <level GUID="_0e7b92b4-6df4-4351-8a7a-09e6baea1460" class="para2" eId="sched__para_26__para_b__subpara_v">
+         <num>(v)</num>
+         <content>
+          <p>the Utilities Contracts (Scotland) Regulations 2016 (S.S.I. 2016/49);</p>
+         </content>
+        </level>
+        <level GUID="_3ff0bbf2-69f1-41d7-9518-9d777114bb49" class="para2" eId="sched__para_26__para_b__subpara_vi">
+         <num>(vi)</num>
+         <content>
+          <p>the Concession Contracts (Scotland) Regulations 2016 (S.S.I. 2016/65).</p>
+         </content>
+        </level>
+       </level>
+      </paragraph>
+     </part>
+    </hcontainer>
+   </hcontainer>
+  </body>
+ </act>
+</akomaNtoso>

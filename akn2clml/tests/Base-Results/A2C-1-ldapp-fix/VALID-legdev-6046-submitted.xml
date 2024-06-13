@@ -1,0 +1,1002 @@
+<?xml version="1.0" encoding="UTF-8"?><akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../schemas/akomantoso30.xsd">
+ <?DMS-Component componentId="015fb5dc-4745-46f4-85f6-4b3fad366a0d" seriesId="0d60626d-4c53-4893-aa2c-905369254729" versionNumber="1"?>
+ <act contains="originalVersion" name="ukpga">
+  <meta>
+   <?DMS-Component componentId="30760ea0-581a-4020-8e83-56851d9f6691" seriesId="3953a237-0a3d-43ab-a484-f360b2d139b5" versionNumber="0"?>
+   <identification source="#author">
+    <FRBRWork>
+     <FRBRthis value="#varWork"/>
+     <FRBRuri value="#varWorkUri"/>
+     <FRBRalias name="ttflConfigHistory" value="#varCHOiid"/>
+     <FRBRalias name="ttflConfigHistory" value="#varCHOiid"/>
+     <FRBRalias name="alternateUri" value="https://lawmaker.legislation.gov.uk/pdr/ukpga/2023/45/act"/><FRBRdate date="9999-01-01" name="draft"/>
+     <FRBRdate date="2023-09-19T15:08:26Z" name="published"/><FRBRauthor href="#varAuthor"/>
+     <FRBRcountry value="GB-UKM"/>
+     <FRBRsubtype value="#varDocSubType"/>
+     <FRBRnumber value="#varProjectId"/>
+     <FRBRname value="#varBillTitle"/>
+     <FRBRprescriptive value="true"/>
+     <FRBRauthoritative value="false"/>
+    </FRBRWork>
+    <FRBRExpression>
+     <FRBRthis value="#varExpression"/>
+     <FRBRuri value="#varExpressionUri"/>
+     <FRBRalias name="ttflVersionDescription" value="#varVDOiid"/>
+     <FRBRalias name="alternateUri" value="https://lawmaker.legislation.gov.uk/pdr/ukpga/2023/45/act"/><FRBRdate date="9999-01-01" name="draft"/>
+     <FRBRdate date="2023-09-19T15:08:26Z" name="published"/><FRBRauthor href="#varAuthor"/>
+     <FRBRversionNumber value="enacted-hl"/>
+     <FRBRauthoritative value="false"/>
+     <FRBRmasterExpression href="" showAs=""/>
+     <FRBRlanguage language="eng"/>
+    </FRBRExpression>
+    <FRBRManifestation>
+     <FRBRthis value="#varManifestation"/>
+     <FRBRuri value="#varManifestationUri"/>
+     <FRBRdate date="9999-01-01" name="akn_xml"/>
+     <FRBRdate date="2023-09-19T15:08:26Z" name="published"/><FRBRauthor href="#varAuthor"/>
+     <FRBRformat value="application/akn+xml"/>
+    </FRBRManifestation>
+   </identification>
+   <references source="#author">
+    <TLCConcept GUID="_c4b05ef9-b52d-4109-9486-20f163f24c15" eId="varDocSubType" href="#varOntologies" showAs="Private Members’ Bill"/>
+    <TLCConcept GUID="_66f13920-2193-45e7-89ae-3c47ffc0093a" eId="varBillTitle" href="#varOntologies" showAs="Animals (Low-Welfare Activities Abroad) Act"/>
+    <TLCConcept GUID="_ce929ead-6d4b-493d-9b6f-3cce7b240851" eId="varHouse" href="#varOntologies" showAs="House of Lords"/>
+    <TLCProcess GUID="_d17dce1a-02bd-4954-a5db-765c18977bbc" eId="varStageVersion" href="#varOntologies" showAs="As Enacted"/>
+    <TLCProcess GUID="_81c9cb14-44ad-4dc6-81a5-c93a9370f162" eId="varProjectId" href="#varOntologies" showAs="UK000516"/>
+    <TLCProcess GUID="_ae658640-63ca-4c94-8b98-c78c6f8d22c7" eId="varWork" href="#varOntologies" showAs="https://lawmaker.legislation.gov.uk/pdr/UK000516/act"/>
+    <TLCProcess GUID="_c10852f0-f7e0-46dd-81b0-3a183dce5bff" eId="varWorkUri" href="#varOntologies" showAs="https://lawmaker.legislation.gov.uk/pdr/UK000516/act"/>
+    <TLCProcess GUID="_e9fc61c7-c074-4149-8758-1be2c715c361" eId="varCHOiid" href="#varOntologies" showAs=""/>
+    <TLCProcess GUID="_138b551e-b6ac-49b3-879f-a7bcca6c47fb" eId="varExpression" href="#varOntologies" showAs="https://lawmaker.legislation.gov.uk/pdr/UK000516/act@enacted-hl"/>
+    <TLCProcess GUID="_5beb5a5c-c31f-4aed-852e-5d13d3d43504" eId="varExpressionUri" href="#varOntologies" showAs="https://lawmaker.legislation.gov.uk/pdr/UK000516/act@enacted-hl"/>
+    <TLCProcess GUID="_a60a12e2-01e1-4416-aff8-8c11662eb8a5" eId="varVDOiid" href="#varOntologies" showAs=""/>
+    <TLCProcess GUID="_ee2c6559-79db-4789-9ed1-49916b22b66b" eId="varManifestation" href="#varOntologies" showAs="https://lawmaker.legislation.gov.uk/pdr/UK000516/act@enacted-hl/xml"/>
+    <TLCProcess GUID="_506b40f1-a2b0-4963-81dd-5553f507a476" eId="varManifestationUri" href="#varOntologies" showAs="https://lawmaker.legislation.gov.uk/pdr/UK000516/act@enacted-hl/xml"/>
+    <TLCConcept GUID="_cafa1025-5c18-4a58-a405-cc082c70963b" eId="varActYear" href="#varOntologies" showAs="2023"/>
+    <TLCConcept GUID="_80bb3874-2161-4516-862f-5c6cb06079da" eId="varActTitle" href="#varOntologies" showAs="Animals (Low-Welfare Activities Abroad) Act #varActYear"/>
+    <TLCConcept GUID="_0e871eeb-1ace-41f9-a818-c4711d1f6024" eId="varIntroDate" href="#varOntologies" showAs="9999-01-01"/>
+    <TLCConcept GUID="_f461b257-30d1-45ec-8681-83449eabab51" eId="varPublicationDate" href="#varOntologies" showAs="2023-03-20"/>
+    <TLCConcept GUID="_fd9e3198-1dcb-4e71-a123-d414abb1d157" eId="varBillNoComp" href="#varOntologies" showAs="122"/>
+    <TLCConcept GUID="_a45735dc-ce77-4056-88ac-2325856da660" eId="varBillNo" href="#varOntologies" showAs="HL Bill 122"/>
+    <TLCConcept GUID="_76a97660-7703-4007-b1dd-254d73a2382f" eId="varSessionNo" href="#varOntologies" showAs="58/3"/>
+    <TLCConcept GUID="_908d9abe-8418-4041-8cd0-eeef1a41c346" eId="varBillYear" href="#varOntologies" showAs="2023"/>
+    <TLCConcept GUID="_7e9fb308-9f9c-4a2e-afbe-58756bdf5354" eId="varSession" href="#varOntologies" showAs="58/3"/>
+    <TLCConcept GUID="_02491129-eb34-42a7-96af-f3d8083d87f6" eId="varBroughtFromDate" href="#varOntologies" showAs="2023-03-20"/>
+    <TLCConcept GUID="_98e1f306-8165-4d32-a021-d87ee2eb32a8" eId="varPassedDate" href="#varOntologies" showAs="9999-01-01"/>
+    <TLCConcept GUID="_90957d75-f180-408a-b41c-7354db54c6c9" eId="varAssentDate" href="#varOntologies" showAs="2023-09-18"/>
+    <TLCConcept GUID="_1d9c2dc4-9210-4142-a11d-7fae67b8a963" eId="varActNoComp" href="#varOntologies" showAs="45"/>
+    <TLCConcept GUID="_b7949680-6602-4ea0-bc7e-46ed9173e9c4" eId="varActNo" href="#varOntologies" showAs="Chapter 45"/>
+    <TLCConcept GUID="_6a86af55-f038-42ff-9f56-8508763b922e" eId="varDocType" href="#varOntologies" showAs="UK Bill"/>
+    <TLCConcept GUID="_424b3149-7407-4c33-94dd-5593f52829bf" eId="varSystem" href="#varOntologies" showAs="LDAPP"/>
+    <TLCConcept GUID="_53de9a8f-74ec-4f37-9ebd-557f5673e2ff" eId="varAuthor" href="#varOntologies" showAs="UK Parliament"/>
+    <TLCConcept GUID="_74ee1e34-0ccb-4525-bdab-23b733ffefb2" eId="varJurisdiction" href="#varOntologies" showAs="United Kingdom"/>
+    <TLCConcept GUID="_7debc06f-eb42-4c65-b25d-276d0cd165c5" eId="varOntologies" href="https://www.legislation.gov.uk/ontologies/UK-AKN" showAs="https://www.legislation.gov.uk/ontologies/UK-AKN"/>
+    <TLCConcept GUID="_54ede0cf-b9a0-4274-b011-eda4ab9b783e" eId="varSovereign" href="#varOntologies" showAs="Charles III"/>
+   </references>
+  </meta>
+  <coverPage GUID="_590af1aa-cfb3-4102-b63d-69a2487f68a3" eId="cp">
+   <?DMS-Component componentId="2374ddc0-e837-47c5-ba5b-a2b956543c70" seriesId="69ad2f3b-8d09-4932-adff-a0cc56fe9ed0" versionNumber="1"?>
+   <block GUID="_68445109-e6ba-4074-a63b-7afbc83d470b" eId="cp__st_oc1" name="title"><docTitle GUID="_685f50f2-3eaa-41eb-90c6-a52ea5ea486e" eId="cp__st__dtitle_oc1"><ref class="placeholder" href="#varActTitle"/></docTitle></block>
+   <block GUID="_81df1116-14e5-40ed-a404-17277c806231" name="docNumber"><docNumber GUID="_83dabeaf-646b-4969-a725-2c53b892c71c" eId="cp__docNumber_oc1"><ref class="placeholder" href="#varActNo"/></docNumber></block>
+   <block GUID="_40bd5aea-c9f6-4ee6-b92b-64e02de6ee92" eId="cp__explNotesStmnt" name="explanatoryNotesStatement">Explanatory Notes have been produced to assist in the understanding of this Act and are available separately</block>
+   <block GUID="_d80547ff-a230-4c0e-a01f-25f2ab33bb2e" eId="cp__st_oc2" name="title"><docTitle GUID="_56e8a9f0-4690-46e3-9118-ec88fceae7a8" eId="cp__st__dtitle_oc2"><ref class="placeholder" href="#varActTitle"/></docTitle></block>
+   <block GUID="_1f2a0871-72f0-4de1-8283-726974ba276b" name="docNumber"><docNumber GUID="_ddb04360-d141-4c46-b5eb-b03ea8a4453c" eId="cp__docNumber_oc2"><ref class="placeholder" href="#varActNo"/></docNumber></block>
+   <block GUID="_d1cbb9ff-f3ad-4f14-ba36-ae788665a4fd" eId="cp__hdg" name="ToCHeading">CONTENTS</block>
+   <toc>
+    <tocItem class="group7ToC" href="#xhdg_1" level="7"><inline name="tocHeading">Low-welfare animal activities</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_1" level="5"><inline name="tocNum">1</inline><inline name="tocHeading">Prohibition on sale of low-welfare animal activities</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_2" level="5"><inline name="tocNum">2</inline><inline name="tocHeading">Prohibition on advertising of low-welfare animal activities</inline></tocItem>
+    <tocItem class="group7ToC" href="#xhdg_3" level="7"><inline name="tocHeading">Enforcement</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_3" level="5"><inline name="tocNum">3</inline><inline name="tocHeading">Offences: penalties, prosecution and liability</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_4" level="5"><inline name="tocNum">4</inline><inline name="tocHeading">Enforcement powers of local weights and measures authorities etc</inline></tocItem>
+    <tocItem class="group7ToC" href="#xhdg_5" level="7"><inline name="tocHeading">General</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_5" level="5"><inline name="tocNum">5</inline><inline name="tocHeading">Regulations</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_6" level="5"><inline name="tocNum">6</inline><inline name="tocHeading">Interpretation</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_7" level="5"><inline name="tocNum">7</inline><inline name="tocHeading">Extent, commencement and short title</inline></tocItem>
+    <tocItem class="ruleToc" href="#sched" level="0"/>
+    <tocItem class="schToC" href="#sched" level="1"><inline name="tocNum">Schedule</inline><inline name="tocHeading">Monetary penalties</inline></tocItem>
+   </toc>
+  </coverPage>
+  <preface GUID="_a75020ab-a336-4eed-b602-5c352596d684" eId="preface">
+   <?DMS-Component componentId="27029b5b-20f1-4b25-ad82-04d71616d013" seriesId="8f00a16a-4b09-43ca-bf94-6b86cfc2a6f3" versionNumber="0"?>
+   <block GUID="_4c349e91-5d20-41b9-b339-1069f3e1e028" eId="preface__st" name="title"><docTitle GUID="_3ce7a462-67b9-475e-80b4-b84f881cb24d" eId="preface__st__dtitle"><ref class="placeholder" href="#varActTitle"/></docTitle></block>
+   <block GUID="d2e422df-e1f4-47cb-adc5-b82233dc4610" name="number"><docNumber GUID="4b31e3c3-d6d0-433b-bb2a-6b775f1d3ecc"><ref class="placeholder" href="#varActYear"/> <ref class="placeholder" href="#varActNo"/></docNumber></block>
+   <longTitle GUID="_bcf13df4-9ff9-42be-a2d1-50ee8f7e8cd6" eId="preface__longtitle">
+    <p>An Act to prohibit the sale and advertising of activities abroad which involve low standards of welfare for animals.</p>
+   </longTitle>
+   <p><docDate class="assentDate" date="2023-09-18">[<ref class="placeholder" href="#varAssentDate" ukl:dateFormat="d'th' MMMM yyyy">18th September 2023</ref>]</docDate></p>
+  </preface>
+  <preamble GUID="_80f43519-5cb1-4e41-9d84-2d593e6bcec4" eId="preamble">
+   <?DMS-Component componentId="00b434fb-49eb-4ce3-889e-6a9f62fcc744" seriesId="3cbd1120-eb68-47fc-b8da-aaaac63cf72d" versionNumber="1"?>
+   <formula eId="preamble__enactingWords" name="enactingText">
+    <p><inline name="dropCap">B</inline><inline name="smallCaps">e it enacted</inline> by the King’s most Excellent Majesty, by and with the advice and consent of the Lords Spiritual and Temporal, and Commons, in this present Parliament assembled, and by the authority of the same, as follows:—</p>
+   </formula>
+  </preamble>
+  <body>
+   <?DMS-Component componentId="843e491e-9d1c-45c0-95d1-d15b6387f862" seriesId="4ba87765-e7fa-4d61-be50-dd5ccf4087b8" versionNumber="1"?>
+   <hcontainer GUID="_c4447ec3-be67-4f3b-9b81-de40cd76901e" class="group7" eId="xhdg_1" name="crossheading">
+    <?DMS-Component componentId="62c979e9-1724-483c-9662-605d5c3c565d" seriesId="f8ad79e1-35aa-4787-9c7c-4013b960856e" versionNumber="1"?>
+    <heading GUID="_8009be3d-b155-4f6f-a53d-93abce2dc4ff" eId="xhdg_1__hdg">Low-welfare animal activities</heading>
+    <section GUID="_4c30059a-19bc-4103-bb18-523a0d3a7802" class="prov1" eId="sec_1">
+     <?DMS-Component componentId="4033ae66-9820-431f-ab12-32bf62598e1a" seriesId="faef6f27-e042-43be-9ef2-52c13b87ffac" versionNumber="1"?>
+     <num>1</num>
+     <heading GUID="_6fdc6edc-5651-4bf1-8448-87b809eeebee" eId="sec_1__hdg">Prohibition on sale of low-welfare animal activities</heading>
+     <subsection GUID="_faefd3fc-485f-4ab2-8731-0d77d6cd3f16" class="prov2" eId="sec_1__subsec_1">
+      <num>(1)</num>
+      <intro GUID="_ce0b9fb0-5a1d-4846-8565-112f58152b33" eId="sec_1__subsec_1__intro">
+       <p>A person commits an offence if, in a relevant part of the United Kingdom, the person sells, or offers or arranges to sell, any right to observe or participate in an activity which—</p>
+      </intro>
+      <level GUID="_aa62827b-43b3-4d40-9355-8e41bbf5f860" class="para1" eId="sec_1__subsec_1__para_a">
+       <num>(a)</num>
+       <content>
+        <p>involves an animal,</p>
+       </content>
+      </level>
+      <level GUID="_cbdbb21c-d5a1-4043-9ee2-efb5f4d833db" class="para1" eId="sec_1__subsec_1__para_b">
+       <num>(b)</num>
+       <content>
+        <p>takes place outside the United Kingdom, and</p>
+       </content>
+      </level>
+      <level GUID="_60ddba3e-312d-417b-bc18-3b1aec510c43" class="para1" eId="sec_1__subsec_1__para_c">
+       <num>(c)</num>
+       <content>
+        <p>is of a description specified for that part of the United Kingdom by regulations made by the appropriate national authority (“activity regulations”).</p>
+       </content>
+      </level>
+     </subsection>
+     <subsection GUID="_9969d0c5-dbd7-4ac6-8c5c-48b12781202c" class="prov2" eId="sec_1__subsec_2">
+      <num>(2)</num>
+      <intro GUID="_11f1c569-41d3-41b4-b7cf-6fe9dccaef98" eId="sec_1__subsec_2__intro">
+       <p>The appropriate national authority may specify a description of activity in activity regulations only if it considers that an activity of that description involves or is likely to involve—</p>
+      </intro>
+      <level GUID="_9e3cc9d2-da7b-4c8e-b182-11640ea62756" class="para1" eId="sec_1__subsec_2__para_a">
+       <num>(a)</num>
+       <content>
+        <p>keeping the animal in conditions within <ref class="valid" href="#sec_1__subsec_3" ukl:targetGuid="_2c6afd99-4868-49af-83fb-c6cb16879458" ukl:targetJref="">subsection (3)</ref>, or</p>
+       </content>
+      </level>
+      <level GUID="_4c75564a-d189-42fe-9977-b9595d16ecc3" class="para1" eId="sec_1__subsec_2__para_b">
+       <num>(b)</num>
+       <content>
+        <p>subjecting it to treatment (whether before, during or after the activity) within that subsection.</p>
+       </content>
+      </level>
+     </subsection>
+     <subsection GUID="_2c6afd99-4868-49af-83fb-c6cb16879458" class="prov2" eId="sec_1__subsec_3">
+      <num>(3)</num>
+      <content>
+       <p>An animal is kept in conditions, or is subject to treatment, within this subsection if keeping the animal in the conditions, or subjecting it to the treatment, in the appropriate national authority’s part of the United Kingdom would constitute an offence under the appropriate national legislation.</p>
+      </content>
+     </subsection>
+    </section>
+    <section GUID="_f760e609-0d09-47f9-8a5c-7878c8bbf1d1" class="prov1" eId="sec_2">
+     <?DMS-Component componentId="eb3d545c-d977-468d-9efe-1ff5c4e12631" seriesId="f96165ee-7d8f-44eb-a2b5-2b95cd8c687c" versionNumber="1"?>
+     <num>2</num>
+     <heading GUID="_219921b7-773e-4495-a970-be3ecbbe1210" eId="sec_2__hdg">Prohibition on advertising of low-welfare animal activities</heading>
+     <subsection GUID="_bb9a73ad-f54a-4628-94aa-b2cc6335bc2b" class="prov2" eId="sec_2__subsec_1">
+      <num>(1)</num>
+      <intro GUID="_ce526ca5-59ba-416b-8dbd-611fb3b5d09e" eId="sec_2__subsec_1__intro">
+       <p>For the purposes of this section an advertisement is a prohibited advertisement in a relevant part of the United Kingdom if the advertisement has the purpose or effect of promoting the observation of, or participation in, an activity which—</p>
+      </intro>
+      <level GUID="_d326fa53-df7b-45c2-be31-2b35799df35e" class="para1" eId="sec_2__subsec_1__para_a">
+       <num>(a)</num>
+       <content>
+        <p>involves an animal,</p>
+       </content>
+      </level>
+      <level GUID="_43d0fc2b-d0d2-4c7e-ad85-7e67f3f4f029" class="para1" eId="sec_2__subsec_1__para_b">
+       <num>(b)</num>
+       <content>
+        <p>takes place outside the United Kingdom, and</p>
+       </content>
+      </level>
+      <level GUID="_5cd5b62d-3a77-4720-8845-a76fdd533816" class="para1" eId="sec_2__subsec_1__para_c">
+       <num>(c)</num>
+       <content>
+        <p>is of a description specified for that part of the United Kingdom by activity regulations.</p>
+       </content>
+      </level>
+     </subsection>
+     <subsection GUID="_e8d33555-3ebb-49f8-a4c9-a88249013c7e" class="prov2" eId="sec_2__subsec_2">
+      <num>(2)</num>
+      <intro GUID="_b3a69768-74e5-4e68-bf88-e89f61da51ef" eId="sec_2__subsec_2__intro">
+       <p>A person commits an offence if, in the course of a business, the person—</p>
+      </intro>
+      <level GUID="_1dd94e18-940d-4353-9ab5-4621a3499082" class="para1" eId="sec_2__subsec_2__para_a">
+       <num>(a)</num>
+       <content>
+        <p>publishes in a relevant part of the United Kingdom an advertisement that is a prohibited advertisement in that part, or</p>
+       </content>
+      </level>
+      <level GUID="_effec7d4-30cb-400b-962f-7c512abd04a6" class="para1" eId="sec_2__subsec_2__para_b">
+       <num>(b)</num>
+       <content>
+        <p>causes such an advertisement to be so published.</p>
+       </content>
+      </level>
+     </subsection>
+     <subsection GUID="_008db7b7-34f2-4d44-a8f8-a232952acc6c" class="prov2" eId="sec_2__subsec_3">
+      <num>(3)</num>
+      <intro GUID="_8d7ba1fa-75f6-442f-9422-414f1bc6e8f8" eId="sec_2__subsec_3__intro">
+       <p>A person commits an offence if, in the course of a business, the person—</p>
+      </intro>
+      <level GUID="_208904e0-e45a-481e-b923-485b69f9e8f4" class="para1" eId="sec_2__subsec_3__para_a">
+       <num>(a)</num>
+       <content>
+        <p>prints in a relevant part of the United Kingdom an advertisement published in that part of the United Kingdom that is a prohibited advertisement in that part, or</p>
+       </content>
+      </level>
+      <level GUID="_3287383e-d424-430e-9305-89c97bd7bc69" class="para1" eId="sec_2__subsec_3__para_b">
+       <num>(b)</num>
+       <content>
+        <p>causes such an advertisement to be so printed.</p>
+       </content>
+      </level>
+     </subsection>
+     <subsection GUID="_4297984e-9450-4ec4-9ead-69af98c92af7" class="prov2" eId="sec_2__subsec_4">
+      <num>(4)</num>
+      <intro GUID="_7b751f58-16e9-44ff-b234-269d1dac93c8" eId="sec_2__subsec_4__intro">
+       <p>A person commits an offence if, in the course of a business, the person—</p>
+      </intro>
+      <level GUID="_70c4e6b4-d5aa-4f37-a9b3-9fe65175ca4f" class="para1" eId="sec_2__subsec_4__para_a">
+       <num>(a)</num>
+       <content>
+        <p>distributes in a relevant part of the United Kingdom an advertisement published in that part of the United Kingdom that is a prohibited advertisement in that part, or</p>
+       </content>
+      </level>
+      <level GUID="_3c553934-b10b-4b5f-86dc-20085b13dd06" class="para1" eId="sec_2__subsec_4__para_b">
+       <num>(b)</num>
+       <content>
+        <p>causes such an advertisement to be so distributed.</p>
+       </content>
+      </level>
+     </subsection>
+     <subsection GUID="_0b566add-343a-4495-928a-b3febf355594" class="prov2" eId="sec_2__subsec_5">
+      <num>(5)</num>
+      <intro GUID="_b653c030-a081-417b-af62-cb536ed4cdbb" eId="sec_2__subsec_5__intro">
+       <p>A person does not commit an offence under <ref class="valid" href="#sec_2__subsec_2" ukl:targetGuid="_e8d33555-3ebb-49f8-a4c9-a88249013c7e" ukl:targetJref="">subsection (2)</ref> or <ref class="valid" href="#sec_2__subsec_4" ukl:targetGuid="_4297984e-9450-4ec4-9ead-69af98c92af7" ukl:targetJref="">(4)</ref> if the advertisement is contained in a publication (other than an in-flight magazine)—</p>
+      </intro>
+      <level GUID="_1f764a6f-091c-4be4-a1ac-e9ff76317202" class="para1" eId="sec_2__subsec_5__para_a">
+       <num>(a)</num>
+       <content>
+        <p>which is printed outside a relevant part of the United Kingdom, and</p>
+       </content>
+      </level>
+      <level GUID="_876735e5-dc88-4d52-bc8f-bd6589a2d954" class="para1" eId="sec_2__subsec_5__para_b">
+       <num>(b)</num>
+       <content>
+        <p>whose principal market is not, or does not include, a relevant part of the United Kingdom or any part of one.</p>
+       </content>
+      </level>
+     </subsection>
+     <subsection GUID="_a12f9190-6d84-4ebb-a563-fe31b65ea16f" class="prov2" eId="sec_2__subsec_6">
+      <num>(6)</num>
+      <intro GUID="_6bce1360-bbc5-4ae8-bb8c-45a6f0b919fb" eId="sec_2__subsec_6__intro">
+       <p>A person does not commit an offence under <ref class="valid" href="#sec_2__subsec_4" ukl:targetGuid="_4297984e-9450-4ec4-9ead-69af98c92af7" ukl:targetJref="">subsection (4)</ref> if—</p>
+      </intro>
+      <level GUID="_09493348-e331-4319-ab74-ed7387243382" class="para1" eId="sec_2__subsec_6__para_a">
+       <num>(a)</num>
+       <content>
+        <p>the distribution is by means of electronic transmission, and</p>
+       </content>
+      </level>
+      <level GUID="_32c6e3ec-b83d-4c2f-9600-4e68416f67f4" class="para1" eId="sec_2__subsec_6__para_b">
+       <num>(b)</num>
+       <content>
+        <p>the person did not carry on business in a relevant part of the United Kingdom at the time of the distribution.</p>
+       </content>
+      </level>
+     </subsection>
+     <subsection GUID="_579f1b0a-bdf3-49a1-8b95-00dc6b9beaea" class="prov2" eId="sec_2__subsec_7">
+      <num>(7)</num>
+      <content>
+       <p>A person does not commit an offence under <ref class="valid" href="#sec_2__subsec_4" ukl:targetGuid="_4297984e-9450-4ec4-9ead-69af98c92af7" ukl:targetJref="">subsection (4)</ref> by selling a publication to a member of the public.</p>
+      </content>
+     </subsection>
+     <subsection GUID="_4b8dc0f6-68a0-40cc-8dd4-4079d1b453ad" class="prov2" eId="sec_2__subsec_8">
+      <num>(8)</num>
+      <content>
+       <p>It is a defence for a person charged with an offence under <ref class="valid" href="#sec_2__subsec_3" ukl:targetGuid="_008db7b7-34f2-4d44-a8f8-a232952acc6c" ukl:targetJref="">subsection (3)</ref> or <ref class="valid" href="#sec_2__subsec_4" ukl:targetGuid="_4297984e-9450-4ec4-9ead-69af98c92af7" ukl:targetJref="">(4)</ref> in relation to the printing or distribution of an advertisement in a relevant part of the United Kingdom to prove that the person did not know, and had no reason to suspect, that the advertisement would be published in that part.</p>
+      </content>
+     </subsection>
+    </section>
+   </hcontainer>
+   <hcontainer GUID="_8359d3dc-a4ea-47eb-a198-9edf44070973" class="group7" eId="xhdg_3" name="crossheading">
+    <?DMS-Component componentId="0cd7d29f-093c-48a6-bf46-4454c8da073f" seriesId="6ea7387b-fb97-44af-9139-24b831e398c6" versionNumber="1"?>
+    <heading GUID="_65af57ca-99e7-474d-80bd-d98824aaec64" eId="xhdg_3__hdg">Enforcement</heading>
+    <section GUID="_14aa6f58-03ab-41ac-bf1b-95e811c130df" class="prov1" eId="sec_3">
+     <?DMS-Component componentId="ed89f07a-ea4e-4adf-8b0c-1f7d739d0e45" seriesId="d1005355-af49-47f8-afc4-c342bd255e0b" versionNumber="1"?>
+     <num>3</num>
+     <heading GUID="_065bd5ae-6f7e-4aff-9820-4127887e0e14" eId="sec_3__hdg">Offences: penalties, prosecution and liability</heading>
+     <subsection GUID="_3296b390-10b7-47e6-ad14-3ef4b2ae8b23" class="prov2" eId="sec_3__subsec_1">
+      <num>(1)</num>
+      <intro GUID="_2a5557e1-9d29-47f4-b96b-2f63ddda3a77" eId="sec_3__subsec_1__intro">
+       <p>A person who commits an offence under this Act is liable—</p>
+      </intro>
+      <level GUID="_4b17e27c-3144-4ee9-9f06-2ca72b7962d1" class="para1" eId="sec_3__subsec_1__para_a">
+       <num>(a)</num>
+       <content>
+        <p>on summary conviction in England and Wales, to a fine;</p>
+       </content>
+      </level>
+      <level GUID="_16b42b3e-05c5-4d6f-aee0-43bc6b3c1dad" class="para1" eId="sec_3__subsec_1__para_b">
+       <num>(b)</num>
+       <content>
+        <p>on summary conviction in Northern Ireland, to a fine not exceeding level 5 on the standard scale.</p>
+       </content>
+      </level>
+     </subsection>
+     <subsection GUID="_bc7ca7a5-482f-4e9b-b5d2-d0a188ec4a3f" class="prov2" eId="sec_3__subsec_2">
+      <num>(2)</num>
+      <intro GUID="_38270e2b-7949-4ec7-a406-62889a6b211b" eId="sec_3__subsec_2__intro">
+       <p>The following do not apply in relation to offences under this Act—</p>
+      </intro>
+      <level GUID="_0e07b234-115f-4473-8064-aba62e0596e6" class="para1" eId="sec_3__subsec_2__para_a">
+       <num>(a)</num>
+       <content>
+        <p>section 127 of the Magistrates’ Courts Act 1980 (limitation of time);</p>
+       </content>
+      </level>
+      <level GUID="_ef79b1b5-2c69-45e6-b293-b5ba5e1825bd" class="para1" eId="sec_3__subsec_2__para_b">
+       <num>(b)</num>
+       <content>
+        <p>article 19 of the Magistrates’ Courts (Northern Ireland) Order 1981 (S.I. 1981/1675 (N.I. 26)) (time limit for making complaint).</p>
+       </content>
+      </level>
+     </subsection>
+     <subsection GUID="_95276d95-8cd2-40da-8a73-ebc64fc99a52" class="prov2" eId="sec_3__subsec_3">
+      <num>(3)</num>
+      <intro GUID="_3e0a7449-85da-49c2-85f0-da0ea82b958a" eId="sec_3__subsec_3__intro">
+       <p>Where an offence under this Act committed by a body corporate—</p>
+      </intro>
+      <level GUID="_11602060-ed9b-44f7-859b-cf233af9afc9" class="para1" eId="sec_3__subsec_3__para_a">
+       <num>(a)</num>
+       <content>
+        <p>is committed with the consent or connivance of any director, manager, secretary or other similar officer of the body corporate, or any person who was purporting to act in any such capacity, or</p>
+       </content>
+      </level>
+      <level GUID="_0972fd65-8054-4f6a-8de1-4e7c1d6e5bf5" class="para1" eId="sec_3__subsec_3__para_b">
+       <num>(b)</num>
+       <content>
+        <p>is attributable to any neglect on the part of any such person,</p>
+       </content>
+      </level>
+      <wrapUp GUID="_0c7ede03-7a43-4646-9a5c-d6007f0d7402" eId="sec_3__subsec_3__wrapup">
+       <p>that person as well as the body corporate commits the offence and is liable to be proceeded against and punished accordingly.</p>
+      </wrapUp>
+     </subsection>
+     <subsection GUID="_5758170a-fe5a-4357-9177-1e7f8ab8f6c7" class="prov2" eId="sec_3__subsec_4">
+      <num>(4)</num>
+      <content>
+       <p>In <ref class="valid" href="#sec_3__subsec_3" ukl:targetGuid="_95276d95-8cd2-40da-8a73-ebc64fc99a52" ukl:targetJref="">subsection (3)</ref> “director”, in relation to a body corporate whose affairs are managed by its members, means a member of the body corporate.</p>
+      </content>
+     </subsection>
+     <subsection GUID="_0588f469-a443-4ace-a293-bc4302894afe" class="prov2" eId="sec_3__subsec_5">
+      <num>(5)</num>
+      <intro GUID="_aa2b0a9b-6e66-45d8-9416-1a58a092715d" eId="sec_3__subsec_5__intro">
+       <p><ref class="valid" href="#sec_3__subsec_3" ukl:targetGuid="_95276d95-8cd2-40da-8a73-ebc64fc99a52" ukl:targetJref="">Subsection (3)</ref> also applies to a body that is not a body corporate, with the substitution for the reference to a director of the body of a reference—</p>
+      </intro>
+      <level GUID="_9e3a9791-6ab5-4f10-99a7-fb6aa67f71ac" class="para1" eId="sec_3__subsec_5__para_a">
+       <num>(a)</num>
+       <content>
+        <p>in the case of a partnership, to a partner;</p>
+       </content>
+      </level>
+      <level GUID="_0f2ed673-12bc-4cb4-af13-4e9bc49d6857" class="para1" eId="sec_3__subsec_5__para_b">
+       <num>(b)</num>
+       <intro GUID="_c1915867-eb7b-45cb-b419-a838ef631996" eId="sec_3__subsec_5__para_b__intro">
+        <p>in the case of an unincorporated body other than a partnership—</p>
+       </intro>
+       <level GUID="_e071cb4f-5ea3-4e88-b623-150624796cca" class="para2" eId="sec_3__subsec_5__para_b__subpara_i">
+        <num>(i)</num>
+        <content>
+         <p>where the body’s affairs are managed by its members, to a member of the body;</p>
+        </content>
+       </level>
+       <level GUID="_bc6fb873-848d-4e4e-ab7d-369dd385523d" class="para2" eId="sec_3__subsec_5__para_b__subpara_ii">
+        <num>(ii)</num>
+        <content>
+         <p>in any other case, to a member of the governing body.</p>
+        </content>
+       </level>
+      </level>
+     </subsection>
+    </section>
+    <section GUID="_04086b24-66e8-43c2-a3b5-3948e4f0c6ae" class="prov1" eId="sec_4">
+     <?DMS-Component componentId="d89c561e-8253-4ffb-a360-a70cebf4441b" seriesId="eb850af3-72f2-4730-b301-4a39bf4e9aec" versionNumber="0"?>
+     <num>4</num>
+     <heading GUID="_21143541-7836-4d1f-bda0-11a18794234e" eId="sec_4__hdg">Enforcement powers of local weights and measures authorities etc</heading>
+     <subsection GUID="_30605bd7-156a-42de-b091-e251fd27e006" class="prov2" eId="sec_4__subsec_1">
+      <num>(1)</num>
+      <content>
+       <p>A local weights and measures authority in England and the Department for the Economy in Northern Ireland may enforce the provisions of this Act.</p>
+      </content>
+     </subsection>
+     <subsection GUID="_0d262493-d4b0-4da8-b041-a7b39a399e12" class="prov2" eId="sec_4__subsec_2">
+      <num>(2)</num>
+      <content>
+       <p>For the investigatory powers available for the purpose of enforcing this Act, see Schedule 5 to the Consumer Rights Act 2015.</p>
+      </content>
+     </subsection>
+     <subsection GUID="_1b9039b1-320f-4b8e-8fff-5ab0ee682f2b" class="prov2" eId="sec_4__subsec_3">
+      <num>(3)</num>
+      <content>
+       <p><mod>In paragraph 10 of Schedule 5 to the Consumer Rights Act 2015 (duties and powers to which Schedule 5 applies), at the appropriate place insert— <quotedStructure GUID="_3d0d4125-a3aa-4ce2-b236-a99a99a963c4" eId="sec_4__subsec_3__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent2">
+        <blockList GUID="_9adfb226-2101-4833-8a4f-62ebd3a5692c" eId="sec_4__subsec_3__qstr__list">
+         <item GUID="_6fc778b3-2cd9-490f-9965-9503f6816ab3" eId="sec_4__subsec_3__qstr__list__itm__oc_1">
+          <p><ref class="valid" href="#sec_4" ukl:targetGuid="_04086b24-66e8-43c2-a3b5-3948e4f0c6ae" ukl:targetJref="ns5">section 4</ref><ref class="valid" href="#sec_4__subsec_1" ukl:targetGuid="_30605bd7-156a-42de-b091-e251fd27e006" ukl:targetJref="">(1)</ref> of the Animals (Low-Welfare Activities Abroad) Act 2023.</p>
+         </item>
+        </blockList>
+        </quotedStructure><inline name="AppendText"/></mod></p>
+      </content>
+     </subsection>
+     <subsection GUID="_705a5094-d1c4-47e4-8c2a-60f7b20f819c" class="prov2" eId="sec_4__subsec_4">
+      <num>(4)</num>
+      <content>
+       <p><ref class="valid" href="#sched" ukl:targetGuid="_43c79350-577f-4889-9080-3fcb7ab03780" ukl:targetJref="">The Schedule</ref> contains provision for the imposition of monetary penalties in respect of offences under this Act.</p>
+      </content>
+     </subsection>
+    </section>
+   </hcontainer>
+   <hcontainer GUID="_e018c6b2-4727-49b8-9cb3-b7b0922ac8e4" class="group7" eId="xhdg_5" name="crossheading">
+    <?DMS-Component componentId="dac23ea5-5c47-40e1-9da5-2e2ea41157dc" seriesId="0e39087f-888d-4281-9ba6-8f9797574d6c" versionNumber="1"?>
+    <heading GUID="_5e388a26-0da7-4fa9-999e-af10f1a367a4" eId="xhdg_5__hdg">General</heading>
+    <section GUID="_44d9ab44-c420-4fb2-ad2e-64160d01be09" class="prov1" eId="sec_5">
+     <?DMS-Component componentId="dd3597aa-ac23-474f-828f-553c22270e9b" seriesId="d2248b0e-1282-4846-b73c-7f18a1bc9f1d" versionNumber="1"?>
+     <num>5</num>
+     <heading GUID="_78d1d939-fb5b-4bbc-aab0-b8c2a905c3a8" eId="sec_5__hdg">Regulations</heading>
+     <subsection GUID="_ddb99278-2d53-4a0e-bb10-fa6d85d1ddb6" class="prov2" eId="sec_5__subsec_1">
+      <num>(1)</num>
+      <intro GUID="_f985b85a-f78e-4ff3-a0c1-24cb8740a3a2" eId="sec_5__subsec_1__intro">
+       <p>The power to make activity regulations includes power to make—</p>
+      </intro>
+      <level GUID="_da9b261e-daae-4613-949b-7f80a5945da5" class="para1" eId="sec_5__subsec_1__para_a">
+       <num>(a)</num>
+       <content>
+        <p>different provision for different purposes or for different relevant parts of the United Kingdom;</p>
+       </content>
+      </level>
+      <level GUID="_08849cff-ecbe-4be1-88b1-05bc30b104e4" class="para1" eId="sec_5__subsec_1__para_b">
+       <num>(b)</num>
+       <content>
+        <p>consequential, incidental, supplementary, transitional or saving provision.</p>
+       </content>
+      </level>
+     </subsection>
+     <subsection GUID="_a06670fc-75a5-4dd7-959c-37853d5df7d6" class="prov2" eId="sec_5__subsec_2">
+      <num>(2)</num>
+      <content>
+       <p>Activity regulations made by the Secretary of State are to be made by statutory instrument.</p>
+      </content>
+     </subsection>
+     <subsection GUID="_a3018354-4429-409f-bbbf-e931c5361e73" class="prov2" eId="sec_5__subsec_3">
+      <num>(3)</num>
+      <content>
+       <p>The power of the Department of Agriculture, Environment and Rural Affairs to make activity regulations is exercisable by statutory rule for the purposes of the Statutory Rules (Northern Ireland) Order 1979 (S.I. 1979/1573 (N.I. 12)).</p>
+      </content>
+     </subsection>
+     <subsection GUID="_3445e6cc-c12b-4cff-a18b-1ca179bdd4b6" class="prov2" eId="sec_5__subsec_4">
+      <num>(4)</num>
+      <content>
+       <p>The Secretary of State may not make a statutory instrument containing activity regulations (whether alone or with other provision) unless a draft of the instrument has been laid before, and approved by resolution of, each House of Parliament.</p>
+      </content>
+     </subsection>
+     <subsection GUID="_891c0d47-4a6b-44cb-acfe-4e25b51a2b80" class="prov2" eId="sec_5__subsec_5">
+      <num>(5)</num>
+      <content>
+       <p>The Department of Agriculture, Environment and Rural Affairs may not make activity regulations unless a draft of the regulations has been laid before, and approved by a resolution of, the Northern Ireland Assembly.</p>
+      </content>
+     </subsection>
+    </section>
+    <section GUID="_9bdf2843-63c2-4f62-bd38-faca263c0093" class="prov1" eId="sec_6">
+     <?DMS-Component componentId="4bad5290-e0f9-454c-870b-27062df7bdde" seriesId="1af2deb7-84fc-4ffa-8e58-14da4dc4bfdd" versionNumber="1"?>
+     <num>6</num>
+     <heading GUID="_7c6ccc87-7e4e-4a38-97b9-cdb14abf1c5f" eId="sec_6__hdg">Interpretation</heading>
+     <intro GUID="_a4c0a23a-fa41-44b3-bb7c-c259f629ad05" eId="sec_6__intro">
+      <p>In this Act—</p>
+     </intro>
+     <hcontainer GUID="_9b497647-72f9-4bed-a83d-a0cac1bd2b64" class="definition" eId="sec_6__def_activityregulations_" name="definition">
+      <content>
+       <p><def GUID="_3c0ae6fb-cec9-4ef8-9e07-c192216b290d" eId="sec_6__def_activityregulations" ukl:endQuote="”" ukl:startQuote="“">activity regulations</def> means regulations under section 1(1)(c);</p>
+      </content>
+     </hcontainer>
+     <hcontainer GUID="_8e4be707-fade-4b45-8a6c-2430d3f69845" class="definition" eId="sec_6__def_animal_" name="definition">
+      <content>
+       <p><def GUID="_c3c9c683-c391-4b86-94c4-8eb21dbdd042" eId="sec_6__def_animal" ukl:endQuote="”" ukl:startQuote="“">animal</def> means a vertebrate other than a human;</p>
+      </content>
+     </hcontainer>
+     <hcontainer GUID="_71b64ec1-f5d5-4118-b8f3-92bfcc3de0aa" class="definition" eId="sec_6__def_appropriatenationalauthority_" name="definition">
+      <intro GUID="_0bbc070b-3e7d-4a21-89db-ec3aa37ec2c1" eId="sec_6__def_appropriatenationalauthority__intro">
+       <p><def GUID="_2b646d6a-87a3-4149-84c4-3b03094cfb3d" eId="sec_6__def_appropriatenationalauthority" ukl:endQuote="”" ukl:startQuote="“">appropriate national authority</def> means—</p>
+      </intro>
+      <level GUID="_36e15f20-4596-4627-b1a1-4df73cd831bc" class="para1" eId="sec_6__def_appropriatenationalauthority__para_a">
+       <num>(a)</num>
+       <content>
+        <p>in relation to England, the Secretary of State;</p>
+       </content>
+      </level>
+      <level GUID="_5f726c05-f46b-498a-9386-1a56b111c6b8" class="para1" eId="sec_6__def_appropriatenationalauthority__para_b">
+       <num>(b)</num>
+       <intro GUID="_5d2449d4-24f3-46e8-85ad-d2ade74d5169" eId="sec_6__def_appropriatenationalauthority__para_b__intro">
+        <p>in relation to Northern Ireland—</p>
+       </intro>
+       <level GUID="_017ccbf3-3212-4783-b10c-4e848bac0182" class="para2" eId="sec_6__def_appropriatenationalauthority__para_b__subpara_i">
+        <num>(i)</num>
+        <content>
+         <p>the Department of Agriculture, Environment and Rural Affairs, or</p>
+        </content>
+       </level>
+       <level GUID="_cee25fc9-6a22-4f45-946f-7db2e9497b97" class="para2" eId="sec_6__def_appropriatenationalauthority__para_b__subpara_ii">
+        <num>(ii)</num>
+        <content>
+         <p>the Secretary of State acting with the consent of the Department;</p>
+        </content>
+       </level>
+      </level>
+     </hcontainer>
+     <hcontainer GUID="_8a65f9d3-c332-4a82-a163-300aeb1c03a9" class="definition" eId="sec_6__def_appropriatenationallegislation_" name="definition">
+      <intro GUID="_d65d86d7-1eeb-4fcc-aeaa-ac37e22cbbc0" eId="sec_6__def_appropriatenationallegislation__intro">
+       <p><def GUID="_c7052ebe-0527-48e9-9f8f-ea8367d9c68b" eId="sec_6__def_appropriatenationallegislation" ukl:endQuote="”" ukl:startQuote="“">appropriate national legislation</def> means—</p>
+      </intro>
+      <level GUID="_272258ef-9591-4012-8ffb-86e93d60e297" class="para1" eId="sec_6__def_appropriatenationallegislation__para_a">
+       <num>(a)</num>
+       <content>
+        <p>in relation to England, the Animal Welfare Act 2006;</p>
+       </content>
+      </level>
+      <level GUID="_411f04a5-24e0-490f-892d-35eeaad7a52e" class="para1" eId="sec_6__def_appropriatenationallegislation__para_b">
+       <num>(b)</num>
+       <content>
+        <p>in relation to Northern Ireland, the Welfare of Animals Act (Northern Ireland) 2011 (c. 16 (N.I.));</p>
+       </content>
+      </level>
+     </hcontainer>
+     <hcontainer GUID="_e67e166f-1e68-4c6b-996c-d84178a4c449" class="definition" eId="sec_6__def_offering_" name="definition">
+      <content>
+       <p>references to <def GUID="_38974bb5-9d0b-4bd6-b5b1-07abf1ef4945" eId="sec_6__def_offering" ukl:endQuote="”" ukl:startQuote="“">offering</def> to sell include making an invitation to treat;</p>
+      </content>
+     </hcontainer>
+     <hcontainer GUID="_7deb1261-97d6-4f35-a1e7-dde7531fccf3" class="definition" eId="sec_6__def_relevantpartoftheUnitedKingdom_" name="definition">
+      <content>
+       <p><def GUID="_ac8bac74-85c7-44c6-b650-11004fee4651" eId="sec_6__def_relevantpartoftheUnitedKingdom" ukl:endQuote="”" ukl:startQuote="“">relevant part of the United Kingdom</def> means England or Northern Ireland;</p>
+      </content>
+     </hcontainer>
+     <hcontainer GUID="_b0c5f5d6-1c2d-4fbc-a50d-0e00607386a6" class="definition" eId="sec_6__def_vertebrate_" name="definition">
+      <content>
+       <p><def GUID="_8f8fed14-f807-4a51-8092-cd4fa9b5edc1" eId="sec_6__def_vertebrate" ukl:endQuote="”" ukl:startQuote="“">vertebrate</def> means any animal of the Sub-phylum Vertebrata of the Phylum Chordata.</p>
+      </content>
+     </hcontainer>
+    </section>
+    <section GUID="_d5005d62-8988-4846-bd0c-dbd2792d2704" class="prov1" eId="sec_7">
+     <?DMS-Component componentId="eb43f1fe-5016-4a6e-a7ad-7c0a588bdc79" seriesId="95a13d69-8e0f-48a9-83ff-3979c54562c9" versionNumber="1"?>
+     <num>7</num>
+     <heading GUID="_bcd83899-7978-44a2-b0df-6f208c61fe5d" eId="sec_7__hdg">Extent, commencement and short title</heading>
+     <subsection GUID="_c9cfdfa5-8c01-457f-97ac-8c6bc428474d" class="prov2" eId="sec_7__subsec_1">
+      <num>(1)</num>
+      <content>
+       <p>This Act extends to England and Wales and Northern Ireland.</p>
+      </content>
+     </subsection>
+     <subsection GUID="_926ef327-b456-4923-a258-c45494f3b711" class="prov2" eId="sec_7__subsec_2">
+      <num>(2)</num>
+      <content>
+       <p>This Act comes into force at the end of the period of two months beginning with the day on which it is passed.</p>
+      </content>
+     </subsection>
+     <subsection GUID="_b65806ec-ba27-432f-b5c2-73c12964435b" class="prov2" eId="sec_7__subsec_3">
+      <num>(3)</num>
+      <content>
+       <p>This Act may be cited as the Animals (Low-Welfare Activities Abroad) Act 2023.</p>
+      </content>
+     </subsection>
+    </section>
+   </hcontainer>
+   <hcontainer GUID="_b6610d43-880c-44a1-9706-d5bade6315fc" class="schs" eId="scheds" name="schedules">
+    <?DMS-Component componentId="f4658225-9e59-4ae1-8fd0-41b27df96183" seriesId="d143cdf3-f03d-4575-81cb-9bb4fd5e3b2a" versionNumber="1"?>
+    <hcontainer GUID="_43c79350-577f-4889-9080-3fcb7ab03780" class="sch" eId="sched" name="schedule">
+     <?DMS-Component componentId="9b9f7a46-7ba6-4c32-bafe-1e9757746cd1" seriesId="b2d57c7f-9bd1-4950-a7ec-e03f8633d46e" versionNumber="1"?>
+     <num>Schedule<authorialNote GUID="_d11b23ef-48c9-4e55-bd32-b52fc859e940" class="referenceNote" eId="sched__aNote">
+      <p><ref class="valid" href="#sec_4" ukl:targetGuid="_04086b24-66e8-43c2-a3b5-3948e4f0c6ae" ukl:targetJref="ns5">Section 4</ref></p>
+      </authorialNote></num>
+     <heading GUID="_651c111c-cfbb-44ae-8823-36cd6a8ca5ae" eId="sched__hdg">Monetary penalties</heading>
+     <hcontainer GUID="_07fd03ef-4c74-4db4-91ca-ed13116884ad" class="schGroup7" eId="sched__xhdg_1" name="crossheading">
+      <heading GUID="_ae6f7f52-c41c-440f-a97e-c3af7cfcdfbb" eId="sched__xhdg_1__hdg">Enforcement authority</heading>
+      <paragraph GUID="_31863a44-f8e2-414f-8cf9-4fab8da8d208" class="schProv1" eId="sched__para_1">
+       <num>1</num>
+       <intro GUID="_5a7b2ec2-7e51-4199-bcdc-96211ea20776" eId="sched__para_1__intro">
+        <p>In this Schedule, “enforcement authority” means—</p>
+       </intro>
+       <level GUID="_126fe998-a85c-476a-9176-60f550474b42" class="para1" eId="sched__para_1__para_a">
+        <num>(a)</num>
+        <content>
+         <p>a local weights and measures authority in England, or</p>
+        </content>
+       </level>
+       <level GUID="_c4c1ceb7-fd64-47f2-86cb-8a2d5447899b" class="para1" eId="sched__para_1__para_b">
+        <num>(b)</num>
+        <content>
+         <p>the Department for the Economy in Northern Ireland.</p>
+        </content>
+       </level>
+      </paragraph>
+     </hcontainer>
+     <hcontainer GUID="_bed507cf-0bd2-4590-899b-74aafadda582" class="schGroup7" eId="sched__xhdg_2" name="crossheading">
+      <heading GUID="_95fb1876-a4f3-46ab-9611-55506f42a87b" eId="sched__xhdg_2__hdg">Imposition of monetary penalties</heading>
+      <paragraph GUID="_9a1d3c57-2f69-43c0-93d5-e81c440cfc23" class="schProv1" eId="sched__para_2">
+       <num>2</num>
+       <subparagraph GUID="_036cd2cc-1bf7-4b9c-817d-22f0f8791607" class="schProv2" eId="sched__para_2__subpara_1">
+        <num>(1)</num>
+        <content>
+         <p>Where an enforcement authority is satisfied beyond reasonable doubt that a person has committed an offence under <ref class="valid" href="#sec_1" ukl:targetGuid="_4c30059a-19bc-4103-bb18-523a0d3a7802" ukl:targetJref="ns02">section 1</ref> or <ref class="valid" href="#sec_2" ukl:targetGuid="_f760e609-0d09-47f9-8a5c-7878c8bbf1d1" ukl:targetJref="ns03">2</ref> in the authority’s area, the authority may impose a monetary penalty on the person.</p>
+        </content>
+       </subparagraph>
+       <subparagraph GUID="_5e27eb9a-be16-4d34-839c-e3437eacdfa5" class="schProv2" eId="sched__para_2__subpara_2">
+        <num>(2)</num>
+        <content>
+         <p>In this Schedule “monetary penalty” means a requirement to pay the enforcement authority a penalty of an amount determined by the authority.</p>
+        </content>
+       </subparagraph>
+       <subparagraph GUID="_83538fff-f686-4e0c-b8ea-a0f655ae085a" class="schProv2" eId="sched__para_2__subpara_3">
+        <num>(3)</num>
+        <content>
+         <p>In Northern Ireland, the amount of the penalty may not exceed an amount equivalent to level 5 on the standard scale.</p>
+        </content>
+       </subparagraph>
+      </paragraph>
+     </hcontainer>
+     <hcontainer GUID="_78c31690-c744-4641-bc4a-f435739c48b8" class="schGroup7" eId="sched__xhdg_3" name="crossheading">
+      <heading GUID="_dc50d4ec-23e9-4878-b486-ec91a1d08156" eId="sched__xhdg_3__hdg">Notices and representations</heading>
+      <paragraph GUID="_2e394a39-ffaf-4296-a7ad-396c68f715a5" class="schProv1" eId="sched__para_3">
+       <num>3</num>
+       <subparagraph GUID="_7f23754d-0eac-4921-a31b-2cc1d5b261c0" class="schProv2" eId="sched__para_3__subpara_1">
+        <num>(1)</num>
+        <content>
+         <p>Where an enforcement authority proposes to impose a monetary penalty on a person the authority must give the person a notice of what is proposed (an “initial penalty notice”).</p>
+        </content>
+       </subparagraph>
+       <subparagraph GUID="_56ab1e02-fee6-4a30-a58d-d01a3b918399" class="schProv2" eId="sched__para_3__subpara_2">
+        <num>(2)</num>
+        <content>
+         <p>An initial penalty notice must offer the person the opportunity to avoid liability in relation to a monetary penalty by payment of a sum specified in the notice (which must be less than or equal to the amount of the proposed penalty).</p>
+        </content>
+       </subparagraph>
+       <subparagraph GUID="_87d39590-61f6-4f38-86a4-dd30ce89be7f" class="schProv2" eId="sched__para_3__subpara_3">
+        <num>(3)</num>
+        <content>
+         <p>The person may make written representations and objections to the enforcement authority in relation to the proposed imposition of the monetary penalty within the period of 28 days beginning with the day on which the initial penalty notice is given.</p>
+        </content>
+       </subparagraph>
+       <subparagraph GUID="_8c83cc50-846e-42f6-9c37-d30a7aec78b7" class="schProv2" eId="sched__para_3__subpara_4">
+        <num>(4)</num>
+        <content>
+         <p>After the end of the period mentioned in <ref class="valid" href="#sched__para_3__subpara_3" ukl:targetGuid="_87d39590-61f6-4f38-86a4-dd30ce89be7f" ukl:targetJref="">sub-paragraph (3)</ref> the enforcement authority must decide whether to give the person a notice imposing a monetary penalty (a “final penalty notice”).</p>
+        </content>
+       </subparagraph>
+       <subparagraph GUID="_2915af13-4b5e-4058-be71-8699743cc77f" class="schProv2" eId="sched__para_3__subpara_5">
+        <num>(5)</num>
+        <content>
+         <p>The enforcement authority may not give a person a final penalty notice if the authority is no longer satisfied as mentioned in <ref class="valid" href="#sched__para_2" ukl:targetGuid="_9a1d3c57-2f69-43c0-93d5-e81c440cfc23" ukl:targetJref="">paragraph 2</ref><ref class="valid" href="#sched__para_2__subpara_1" ukl:targetGuid="_036cd2cc-1bf7-4b9c-817d-22f0f8791607" ukl:targetJref="">(1)</ref>.</p>
+        </content>
+       </subparagraph>
+       <subparagraph GUID="_31aad34e-2060-459e-9d14-98cf19da3aa4" class="schProv2" eId="sched__para_3__subpara_6">
+        <num>(6)</num>
+        <intro GUID="_e30d1716-a350-4833-873c-625fafa743e2" eId="sched__para_3__subpara_6__intro">
+         <p>The penalty specified in the final penalty notice may be—</p>
+        </intro>
+        <level GUID="_75c3bdc1-3c83-4350-b7ef-9224d40007c6" class="para1" eId="sched__para_3__subpara_6__para_a">
+         <num>(a)</num>
+         <content>
+          <p>a penalty of the amount proposed in the initial penalty notice, or</p>
+         </content>
+        </level>
+        <level GUID="_8ea8e130-6720-4e1d-b06c-b5cb3bf41ffb" class="para1" eId="sched__para_3__subpara_6__para_b">
+         <num>(b)</num>
+         <content>
+          <p>a penalty of a smaller amount.</p>
+         </content>
+        </level>
+       </subparagraph>
+       <subparagraph GUID="_c77671ce-948a-4a30-bc68-abacb483cfba" class="schProv2" eId="sched__para_3__subpara_7">
+        <num>(7)</num>
+        <content>
+         <p>An initial or final penalty notice may be withdrawn at any time by the enforcement authority that issued it.</p>
+        </content>
+       </subparagraph>
+      </paragraph>
+     </hcontainer>
+     <hcontainer GUID="_c2be2285-b3b9-41c8-86f9-c03240e8295c" class="schGroup7" eId="sched__xhdg_4" name="crossheading">
+      <heading GUID="_ece1c105-cdbe-4b0e-83e4-4eb37e297555" eId="sched__xhdg_4__hdg">Information to be included in notices under <ref class="valid" href="#sched__para_3" ukl:targetGuid="_2e394a39-ffaf-4296-a7ad-396c68f715a5" ukl:targetJref="">paragraph 3</ref></heading>
+      <paragraph GUID="_85dc9fa6-fa39-4db7-898d-893c2fe3fbb8" class="schProv1" eId="sched__para_4">
+       <num>4</num>
+       <subparagraph GUID="_f399444b-1303-4808-aca0-a784adf22d10" class="schProv2" eId="sched__para_4__subpara_1">
+        <num>(1)</num>
+        <intro GUID="_d037b0c5-7576-48c3-869a-1efc0138d4aa" eId="sched__para_4__subpara_1__intro">
+         <p>An initial penalty notice must include information as to—</p>
+        </intro>
+        <level GUID="_a3472e98-0d8b-4760-b3c5-7ec89b731bc0" class="para1" eId="sched__para_4__subpara_1__para_a">
+         <num>(a)</num>
+         <content>
+          <p>the grounds for the proposal to impose the monetary penalty,</p>
+         </content>
+        </level>
+        <level GUID="_532202c2-ef51-461d-9cbf-f9056cdbb021" class="para1" eId="sched__para_4__subpara_1__para_b">
+         <num>(b)</num>
+         <content>
+          <p>the effect of payment of the sum mentioned in <ref class="valid" href="#sched__para_3" ukl:targetGuid="_2e394a39-ffaf-4296-a7ad-396c68f715a5" ukl:targetJref="">paragraph 3</ref><ref class="valid" href="#sched__para_3__subpara_2" ukl:targetGuid="_56ab1e02-fee6-4a30-a58d-d01a3b918399" ukl:targetJref="">(2)</ref>,</p>
+         </content>
+        </level>
+        <level GUID="_7af05a8e-7e9e-4b51-a81d-350d17ca6a5a" class="para1" eId="sched__para_4__subpara_1__para_c">
+         <num>(c)</num>
+         <content>
+          <p>the period within which payment may be made so as to avoid liability for a monetary penalty (which must be at least 28 days beginning with the day on which the notice is given),</p>
+         </content>
+        </level>
+        <level GUID="_9d599384-b9cc-4051-876e-c1258cc80700" class="para1" eId="sched__para_4__subpara_1__para_d">
+         <num>(d)</num>
+         <content>
+          <p>the right to make representations and objections within the period of 28 days beginning with the day on which the notice is given, and</p>
+         </content>
+        </level>
+        <level GUID="_127c79bf-3c75-4c73-b1ae-fc28c2a81286" class="para1" eId="sched__para_4__subpara_1__para_e">
+         <num>(e)</num>
+         <content>
+          <p>the effect of <ref class="valid" href="#sched__para_3" ukl:targetGuid="_2e394a39-ffaf-4296-a7ad-396c68f715a5" ukl:targetJref="">paragraph 3</ref><ref class="valid" href="#sched__para_3__subpara_5" ukl:targetGuid="_2915af13-4b5e-4058-be71-8699743cc77f" ukl:targetJref="">(5)</ref>.</p>
+         </content>
+        </level>
+       </subparagraph>
+       <subparagraph GUID="_7127480e-0e2d-4275-9bfe-3a138586335d" class="schProv2" eId="sched__para_4__subpara_2">
+        <num>(2)</num>
+        <intro GUID="_b1c4abf3-de91-424e-91a0-f9d398d93c59" eId="sched__para_4__subpara_2__intro">
+         <p>A final penalty notice must include information as to—</p>
+        </intro>
+        <level GUID="_13eb38ca-585a-4b8e-a69d-779ccdcb8111" class="para1" eId="sched__para_4__subpara_2__para_a">
+         <num>(a)</num>
+         <content>
+          <p>the grounds for imposing the monetary penalty,</p>
+         </content>
+        </level>
+        <level GUID="_b5d83bae-0b05-47ac-bc33-87b157252cf6" class="para1" eId="sched__para_4__subpara_2__para_b">
+         <num>(b)</num>
+         <content>
+          <p>how payment may be made,</p>
+         </content>
+        </level>
+        <level GUID="_f3186a51-e3c4-4fd7-988b-8b397dceab57" class="para1" eId="sched__para_4__subpara_2__para_c">
+         <num>(c)</num>
+         <content>
+          <p>the period within which payment is to be made (which must be at least 28 days beginning with the day on which the notice is given),</p>
+         </content>
+        </level>
+        <level GUID="_945bb1f9-86cd-47d5-8a97-93b132da8523" class="para1" eId="sched__para_4__subpara_2__para_d">
+         <num>(d)</num>
+         <content>
+          <p>rights of appeal, and</p>
+         </content>
+        </level>
+        <level GUID="_518cf59b-5b60-4e72-8582-fd041517eeca" class="para1" eId="sched__para_4__subpara_2__para_e">
+         <num>(e)</num>
+         <content>
+          <p>the consequences of non-payment.</p>
+         </content>
+        </level>
+       </subparagraph>
+       <subparagraph GUID="_6ecd5a77-4898-4ae5-a734-0e5e4d214610" class="schProv2" eId="sched__para_4__subpara_3">
+        <num>(3)</num>
+        <content>
+         <p>A final penalty notice may provide for interest or other penalties specified in the notice to be payable in the event that payment is not made in the period referred to in <ref class="valid" href="#sched__para_4__subpara_2" ukl:targetGuid="_7127480e-0e2d-4275-9bfe-3a138586335d" ukl:targetJref="">sub-paragraph (2)</ref><ref class="valid" href="#sched__para_4__subpara_2__para_c" ukl:targetGuid="_f3186a51-e3c4-4fd7-988b-8b397dceab57" ukl:targetJref="">(c)</ref>.</p>
+        </content>
+       </subparagraph>
+      </paragraph>
+     </hcontainer>
+     <hcontainer GUID="_38bdb107-e80f-4eca-805b-f0229b580b93" class="schGroup7" eId="sched__xhdg_5" name="crossheading">
+      <heading GUID="_6bb79cd1-e800-4e5c-b209-d0ecd406da27" eId="sched__xhdg_5__hdg">Monetary penalties: criminal proceedings</heading>
+      <paragraph GUID="_8601081e-98ae-454e-ab9e-ae95188bc8ef" class="schProv1" eId="sched__para_5">
+       <num>5</num>
+       <subparagraph GUID="_0f9e0c4c-3408-4a94-881c-6edb78b509f5" class="schProv2" eId="sched__para_5__subpara_1">
+        <num>(1)</num>
+        <intro GUID="_fbcfc2ab-fe7c-458c-9c53-4653001e9c0a" eId="sched__para_5__subpara_1__intro">
+         <p>Where an initial penalty notice is given to a person (and has not been withdrawn)—</p>
+        </intro>
+        <level GUID="_2d3eaedd-f6fd-433e-8baa-5771e4694997" class="para1" eId="sched__para_5__subpara_1__para_a">
+         <num>(a)</num>
+         <content>
+          <p>no criminal proceedings for the relevant offence may be instituted against the person in respect of the act or omission to which the notice relates before the end of the period within which the person’s liability may be avoided as mentioned in <ref class="valid" href="#sched__para_3" ukl:targetGuid="_2e394a39-ffaf-4296-a7ad-396c68f715a5" ukl:targetJref="">paragraph 3</ref><ref class="valid" href="#sched__para_3__subpara_2" ukl:targetGuid="_56ab1e02-fee6-4a30-a58d-d01a3b918399" ukl:targetJref="">(2)</ref> (see <ref class="valid" href="#sched__para_4" ukl:targetGuid="_85dc9fa6-fa39-4db7-898d-893c2fe3fbb8" ukl:targetJref="">paragraph 4</ref><ref class="valid" href="#sched__para_4__subpara_1" ukl:targetGuid="_f399444b-1303-4808-aca0-a784adf22d10" ukl:targetJref="">(1)</ref><ref class="valid" href="#sched__para_4__subpara_1__para_c" ukl:targetGuid="_7af05a8e-7e9e-4b51-a81d-350d17ca6a5a" ukl:targetJref="">(c)</ref>);</p>
+         </content>
+        </level>
+        <level GUID="_9f3483dc-8fde-40ff-93cb-eaa08e5cdf56" class="para1" eId="sched__para_5__subpara_1__para_b">
+         <num>(b)</num>
+         <content>
+          <p>if the liability is so avoided the person may not at any time be convicted of the relevant offence in relation to that act or omission.</p>
+         </content>
+        </level>
+       </subparagraph>
+       <subparagraph GUID="_238cf1c9-2ef2-4223-b1c5-688b4896efde" class="schProv2" eId="sched__para_5__subpara_2">
+        <num>(2)</num>
+        <content>
+         <p>Where a final penalty notice is given to a person (and has not been withdrawn), the person may not at any time be convicted of the relevant offence in respect of the act or omission to which the notice relates.</p>
+        </content>
+       </subparagraph>
+       <subparagraph GUID="_4a0ba4a5-9864-45c4-b954-11a95649cac2" class="schProv2" eId="sched__para_5__subpara_3">
+        <num>(3)</num>
+        <content>
+         <p>In this paragraph “relevant offence” means an offence under <ref class="valid" href="#sec_1" ukl:targetGuid="_4c30059a-19bc-4103-bb18-523a0d3a7802" ukl:targetJref="ns02">section 1</ref> or <ref class="valid" href="#sec_2" ukl:targetGuid="_f760e609-0d09-47f9-8a5c-7878c8bbf1d1" ukl:targetJref="ns03">2</ref> in respect of which the monetary penalty is proposed to be imposed or is imposed (as the case may be).</p>
+        </content>
+       </subparagraph>
+      </paragraph>
+     </hcontainer>
+     <hcontainer GUID="_42a36315-5f0e-4103-bcc5-94dc08b5716f" class="schGroup7" eId="sched__xhdg_6" name="crossheading">
+      <heading GUID="_cd36947c-834e-4b7f-af2c-ccde99f1c0da" eId="sched__xhdg_6__hdg">Appeals</heading>
+      <paragraph GUID="_e44ee840-6e99-4602-99f1-4466f88635dd" class="schProv1" eId="sched__para_6">
+       <num>6</num>
+       <subparagraph GUID="_25b31551-08db-45d6-8273-9f4f716bbdea" class="schProv2" eId="sched__para_6__subpara_1">
+        <num>(1)</num>
+        <content>
+         <p>A person to whom a final penalty notice is given under <ref class="valid" href="#sched__para_3" ukl:targetGuid="_2e394a39-ffaf-4296-a7ad-396c68f715a5" ukl:targetJref="">paragraph 3</ref> may appeal against the decision to give the notice on any of the grounds mentioned in <ref class="valid" href="#sched__para_6__subpara_2" ukl:targetGuid="_9cdebf15-4e32-442e-a314-bd30ef5c212b" ukl:targetJref="">sub-paragraph (2)</ref>.</p>
+        </content>
+       </subparagraph>
+       <subparagraph GUID="_9cdebf15-4e32-442e-a314-bd30ef5c212b" class="schProv2" eId="sched__para_6__subpara_2">
+        <num>(2)</num>
+        <intro GUID="_fa3345e8-4afa-436c-8481-7a2615f002bb" eId="sched__para_6__subpara_2__intro">
+         <p>The grounds are—</p>
+        </intro>
+        <level GUID="_f2ac6fa6-7cc6-4596-97cc-9f751eec8c16" class="para1" eId="sched__para_6__subpara_2__para_a">
+         <num>(a)</num>
+         <content>
+          <p>that the decision was based on an error of fact;</p>
+         </content>
+        </level>
+        <level GUID="_48522ac9-54a6-4382-8dab-1ab51d37b1fb" class="para1" eId="sched__para_6__subpara_2__para_b">
+         <num>(b)</num>
+         <content>
+          <p>that the decision was wrong in law;</p>
+         </content>
+        </level>
+        <level GUID="_942e6d69-5ca7-4c3b-8e14-86aa80998ebb" class="para1" eId="sched__para_6__subpara_2__para_c">
+         <num>(c)</num>
+         <content>
+          <p>that the decision was unreasonable;</p>
+         </content>
+        </level>
+        <level GUID="_b13ef674-c101-4c97-a291-9d2a295c739e" class="para1" eId="sched__para_6__subpara_2__para_d">
+         <num>(d)</num>
+         <content>
+          <p>that the amount of penalty imposed by the notice is unreasonable.</p>
+         </content>
+        </level>
+       </subparagraph>
+       <subparagraph GUID="_722b3277-75e4-4799-a123-c319e94544c5" class="schProv2" eId="sched__para_6__subpara_3">
+        <num>(3)</num>
+        <intro GUID="_801e5e1a-5eb2-4871-ae44-617f56a4b31e" eId="sched__para_6__subpara_3__intro">
+         <p>An appeal under this paragraph is—</p>
+        </intro>
+        <level GUID="_00795938-a0da-4ec3-9274-0e6c1f2db9ff" class="para1" eId="sched__para_6__subpara_3__para_a">
+         <num>(a)</num>
+         <content>
+          <p>in relation to a decision of a local weights and measures authority, to the First-tier Tribunal;</p>
+         </content>
+        </level>
+        <level GUID="_7e2ec1fc-a20c-4936-b61d-4311f4b5c576" class="para1" eId="sched__para_6__subpara_3__para_b">
+         <num>(b)</num>
+         <content>
+          <p>in relation to a decision of the Department for the Economy in Northern Ireland, to a county court.</p>
+         </content>
+        </level>
+       </subparagraph>
+       <subparagraph GUID="_aee54cb7-b26c-4130-b8e1-adf8560a635d" class="schProv2" eId="sched__para_6__subpara_4">
+        <num>(4)</num>
+        <intro GUID="_58948aa3-50b3-4ca7-9dc5-195b4d9159e0" eId="sched__para_6__subpara_4__intro">
+         <p>On an appeal under this paragraph the tribunal or court may—</p>
+        </intro>
+        <level GUID="_f43f43a9-b1a3-4e20-890a-e8cedccaab22" class="para1" eId="sched__para_6__subpara_4__para_a">
+         <num>(a)</num>
+         <content>
+          <p>quash the final penalty notice,</p>
+         </content>
+        </level>
+        <level GUID="_90f0bbca-70c9-47af-aad8-52f921309d9d" class="para1" eId="sched__para_6__subpara_4__para_b">
+         <num>(b)</num>
+         <content>
+          <p>confirm the final penalty notice, or</p>
+         </content>
+        </level>
+        <level GUID="_034f1190-0a3e-4d91-81b7-c36faf2dd9c7" class="para1" eId="sched__para_6__subpara_4__para_c">
+         <num>(c)</num>
+         <content>
+          <p>vary the final penalty notice by reducing the amount of the penalty.</p>
+         </content>
+        </level>
+       </subparagraph>
+       <subparagraph GUID="_0127bbd8-b8de-4dfe-b645-9fead4770801" class="schProv2" eId="sched__para_6__subpara_5">
+        <num>(5)</num>
+        <intro GUID="_1f3be075-cd71-4c32-909e-a91f85acb9fb" eId="sched__para_6__subpara_5__intro">
+         <p>Where an appeal under this paragraph is made—</p>
+        </intro>
+        <level GUID="_d6f8c3ba-260b-4b39-9abf-999003938001" class="para1" eId="sched__para_6__subpara_5__para_a">
+         <num>(a)</num>
+         <content>
+          <p>the requirement to pay the monetary penalty is suspended pending the final determination or withdrawal of the appeal, and</p>
+         </content>
+        </level>
+        <level GUID="_443a08f2-cffc-4b12-ab7d-0e310818631b" class="para1" eId="sched__para_6__subpara_5__para_b">
+         <num>(b)</num>
+         <content>
+          <p>no interest or other penalty is payable by virtue of <ref class="valid" href="#sched__para_4" ukl:targetGuid="_85dc9fa6-fa39-4db7-898d-893c2fe3fbb8" ukl:targetJref="">paragraph 4</ref><ref class="valid" href="#sched__para_4__subpara_3" ukl:targetGuid="_6ecd5a77-4898-4ae5-a734-0e5e4d214610" ukl:targetJref="">(3)</ref> in respect of the period during which that requirement is suspended.</p>
+         </content>
+        </level>
+       </subparagraph>
+      </paragraph>
+     </hcontainer>
+     <hcontainer GUID="_4314a7da-43ec-4ea9-ba53-d31be6c59fcf" class="schGroup7" eId="sched__xhdg_7" name="crossheading">
+      <heading GUID="_133a10cf-4433-4e58-8df1-0eac462e9142" eId="sched__xhdg_7__hdg">Use of proceeds</heading>
+      <paragraph GUID="_7224cca1-4b48-47e1-a9e7-6f7b88009d08" class="schProv1" eId="sched__para_7">
+       <num>7</num>
+       <subparagraph GUID="_6d88b912-7e8c-477c-a6e6-cddb617d0c60" class="schProv2" eId="sched__para_7__subpara_1">
+        <num>(1)</num>
+        <content>
+         <p>Sums received by local weights and measures authorities pursuant to monetary penalties imposed under this Schedule must be paid into the Consolidated Fund.</p>
+        </content>
+       </subparagraph>
+       <subparagraph GUID="_36555cbb-cf25-44e8-9a3c-2cd550e92742" class="schProv2" eId="sched__para_7__subpara_2">
+        <num>(2)</num>
+        <intro GUID="_1e296c58-214f-4d4a-9ac7-d2c0e2b5800d" eId="sched__para_7__subpara_2__intro">
+         <p>But before paying such sums into the Consolidated Fund a local weights and measures authority may deduct—</p>
+        </intro>
+        <level GUID="_bb452f3f-8b72-4391-aa04-257bdcbc416b" class="para1" eId="sched__para_7__subpara_2__para_a">
+         <num>(a)</num>
+         <content>
+          <p>the costs of investigating offences to which monetary penalties imposed by the authority under this Schedule relate, and</p>
+         </content>
+        </level>
+        <level GUID="_6646c34f-a34d-428f-870d-36e2c326c3ae" class="para1" eId="sched__para_7__subpara_2__para_b">
+         <num>(b)</num>
+         <content>
+          <p>the costs of imposing the penalties.</p>
+         </content>
+        </level>
+       </subparagraph>
+       <subparagraph GUID="_51981ca2-90fa-4714-a63b-379f7b1b9253" class="schProv2" eId="sched__para_7__subpara_3">
+        <num>(3)</num>
+        <intro GUID="_57a1029d-59bd-4387-80a6-ac8a1148545c" eId="sched__para_7__subpara_3__intro">
+         <p>The Department for the Economy in Northern Ireland may, before paying sums received by the Department pursuant to monetary penalties imposed under this Schedule into the Consolidated Fund of Northern Ireland, deduct—</p>
+        </intro>
+        <level GUID="_ba1a89a3-4eda-44a8-8ea2-0ebf1c55ae85" class="para1" eId="sched__para_7__subpara_3__para_a">
+         <num>(a)</num>
+         <content>
+          <p>the costs of investigating offences to which monetary penalties imposed by the Department under this Schedule relate, and</p>
+         </content>
+        </level>
+        <level GUID="_e5100926-89fb-49e8-abad-d326414e8062" class="para1" eId="sched__para_7__subpara_3__para_b">
+         <num>(b)</num>
+         <content>
+          <p>the costs of imposing the penalties.</p>
+         </content>
+        </level>
+       </subparagraph>
+      </paragraph>
+     </hcontainer>
+     <hcontainer GUID="_4bf02008-6950-4520-afc0-677cd7057ae5" class="schGroup7" eId="sched__xhdg_8" name="crossheading">
+      <heading GUID="_beead1eb-c469-4d1c-be9c-7a122eb2d3ed" eId="sched__xhdg_8__hdg">Enforcement</heading>
+      <paragraph GUID="_1dfd5c04-3d50-408a-86f5-9e5bed1910ba" class="schProv1" eId="sched__para_8">
+       <num>8</num>
+       <intro GUID="_17666d44-1d8a-4201-9c2a-2cae544810ff" eId="sched__para_8__intro">
+        <p>If a person does not pay the whole or any part of a penalty which the person is liable to pay under this Schedule (including an amount payable by virtue of <ref class="valid" href="#sched__para_4" ukl:targetGuid="_85dc9fa6-fa39-4db7-898d-893c2fe3fbb8" ukl:targetJref="">paragraph 4</ref><ref class="valid" href="#sched__para_4__subpara_3" ukl:targetGuid="_6ecd5a77-4898-4ae5-a734-0e5e4d214610" ukl:targetJref="">(3)</ref>), the penalty or part of the penalty is recoverable—</p>
+       </intro>
+       <level GUID="_7d272e00-0075-4518-8266-f53bc420b38e" class="para1" eId="sched__para_8__para_a">
+        <num>(a)</num>
+        <content>
+         <p>in the case of a penalty imposed by a local weights and measures authority, as if it were payable under an order of the county court,</p>
+        </content>
+       </level>
+       <level GUID="_e8315e16-e956-4c7f-845c-1c9d80fb86d2" class="para1" eId="sched__para_8__para_b">
+        <num>(b)</num>
+        <content>
+         <p>in the case of a penalty imposed by the Department for the Economy in Northern Ireland, as if it were payable under an order of a county court in Northern Ireland.</p>
+        </content>
+       </level>
+      </paragraph>
+     </hcontainer>
+    </hcontainer>
+   </hcontainer>
+  </body>
+ </act>
+</akomaNtoso>

@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Legislation xmlns="http://www.legislation.gov.uk/namespaces/legislation"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             SchemaVersion="2.0"
+             xsi:schemaLocation="http://www.legislation.gov.uk/namespaces/legislation http://www.legislation.gov.uk/schema/legislation.xsd">
+   <Metadata xmlns="http://www.legislation.gov.uk/namespaces/metadata"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <dc:identifier>http://www.legislation.gov.uk/id/uksi/2023/969</dc:identifier>
+      <dc:title>The Personal Injuries (NHS Charges) (Amounts) (Amendment) (No. 2) Regulations 2023</dc:title>
+      <dc:modified>2024-05-08</dc:modified>
+      <SecondaryMetadata>
+         <DocumentClassification>
+            <DocumentCategory Value="secondary"/>
+            <DocumentMainType Value="UnitedKingdomStatutoryInstrument"/>
+            <DocumentStatus Value="final"/>
+            <DocumentMinorType Value="regulation"/>
+         </DocumentClassification>
+         <Year Value="2023"/>
+         <Number Value="969"/>
+         <Made Date="2023-09-05"/>
+         <Laid Date="2023-09-06" Time="00:00:00" Class="UnitedKingdomParliament"/>
+         <ComingIntoForce>
+            <DateTime Date="2023-10-02" Time="00:00:00"/>
+         </ComingIntoForce>
+      </SecondaryMetadata>
+   </Metadata>
+   <Secondary>
+      <SecondaryPrelims>
+         <Number> 2023 No. 969  </Number>
+         <SubjectInformation>
+            <Subject>
+               <Title>NATIONAL HEALTH SERVICE, ENGLAND AND WALES</Title>
+            </Subject>
+         </SubjectInformation>
+         <Title> The Personal Injuries (NHS Charges) (Amounts) (Amendment) (No. 2) Regulations 2023 </Title>
+         <MadeDate>
+            <Text>Made</Text>
+            <DateText>5th September 2023</DateText>
+         </MadeDate>
+         <LaidDate>
+            <Text>Laid before Parliament</Text>
+            <DateText>6th September 2023</DateText>
+         </LaidDate>
+         <ComingIntoForce>
+            <Text>Coming into force</Text>
+            <DateText>2nd October 2023</DateText>
+         </ComingIntoForce>
+         <SecondaryPreamble>
+            <EnactingText>
+               <Para>
+                  <Text>The Secretary of State makes these Regulations in exercise of the powers conferred by sections 153(2) and (5), 167(1) and 195(1) and (2) of the Health and Social Care (Community Health and Standards) Act 2003<FootnoteRef Ref="f00001"/>.</Text>
+               </Para>
+               <Para>
+                  <Text>In accordance with section 195(3) of that Act, the Secretary of State has consulted with the Welsh Ministers<FootnoteRef Ref="f00002"/>.</Text>
+               </Para>
+            </EnactingText>
+         </SecondaryPreamble>
+      </SecondaryPrelims>
+      <Body>
+         <P1group>
+            <Title>Citation, commencement, extent and interpretation</Title>
+            <P1 id="regulation-1">
+               <Pnumber>1</Pnumber>
+               <P1para>
+                  <P2 id="regulation-1-1">
+                     <Pnumber>1</Pnumber>
+                     <P2para>
+                        <Text>These Regulations may be cited as the Personal Injuries (NHS Charges) (Amounts) (Amendment) (No. 2) Regulations 2023 and come into force on 2nd October 2023.</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="regulation-1-2">
+                     <Pnumber>2</Pnumber>
+                     <P2para>
+                        <Text>These Regulations extend to England and Wales.</Text>
+                     </P2para>
+                  </P2>
+                  <P2 id="regulation-1-3">
+                     <Pnumber>3</Pnumber>
+                     <P2para>
+                        <Text>In these Regulations, “principal Regulations” means the Personal Injuries (NHS Charges) (Amounts) Regulations 2015<FootnoteRef Ref="f00003"/>.</Text>
+                     </P2para>
+                  </P2>
+               </P1para>
+            </P1>
+         </P1group>
+         <P1group>
+            <Title>Amendment of Schedule 1 to the principal Regulations</Title>
+            <P1 id="regulation-2">
+               <Pnumber>2</Pnumber>
+               <P1para>
+                  <Text>In Schedule 1 to the principal Regulations (amount of NHS charges), substitute the following table for the existing table—</Text>
+                  <Tabular Orientation="portrait">
+                     <table xmlns="http://www.w3.org/1999/xhtml" cols="5">
+                        <thead>
+                           <tr>
+                              <td>“<Emphasis xmlns="http://www.legislation.gov.uk/namespaces/legislation">(1) </Emphasis>
+                              </td>
+                              <td>
+                                 <Emphasis xmlns="http://www.legislation.gov.uk/namespaces/legislation">(2) Ambulance services              £ </Emphasis>
+                              </td>
+                              <td>(<Emphasis xmlns="http://www.legislation.gov.uk/namespaces/legislation">3) Out-patient          £</Emphasis>
+                              </td>
+                              <td>
+                                 <Emphasis xmlns="http://www.legislation.gov.uk/namespaces/legislation">(</Emphasis>
+                                 <Emphasis xmlns="http://www.legislation.gov.uk/namespaces/legislation">4) In-patient           £ </Emphasis>
+                              </td>
+                              <td>
+                                 <Emphasis xmlns="http://www.legislation.gov.uk/namespaces/legislation">(5) Maximum           £ </Emphasis>
+                              </td>
+                           </tr>
+                        </thead>
+                        <tbody>
+                           <tr>
+                              <td>29th January 2007</td>
+                              <td>159</td>
+                              <td>505</td>
+                              <td>620</td>
+                              <td>37,100</td>
+                           </tr>
+                           <tr>
+                              <td>1st April 2008</td>
+                              <td>165</td>
+                              <td>547</td>
+                              <td>672</td>
+                              <td>40,179</td>
+                           </tr>
+                           <tr>
+                              <td>1st April 2009</td>
+                              <td>171</td>
+                              <td>566</td>
+                              <td>695</td>
+                              <td>41,545</td>
+                           </tr>
+                           <tr>
+                              <td>1st April 2010</td>
+                              <td>177</td>
+                              <td>585</td>
+                              <td>719</td>
+                              <td>42,999</td>
+                           </tr>
+                           <tr>
+                              <td>1st April 2011</td>
+                              <td>181</td>
+                              <td>600</td>
+                              <td>737</td>
+                              <td>44,056</td>
+                           </tr>
+                           <tr>
+                              <td>1st April 2012</td>
+                              <td>185</td>
+                              <td>615</td>
+                              <td>755</td>
+                              <td>45,153</td>
+                           </tr>
+                           <tr>
+                              <td>1st April 2013</td>
+                              <td>189</td>
+                              <td>627</td>
+                              <td>770</td>
+                              <td>46,046</td>
+                           </tr>
+                           <tr>
+                              <td>1st April 2014</td>
+                              <td>192</td>
+                              <td>637</td>
+                              <td>783</td>
+                              <td>46,831</td>
+                           </tr>
+                           <tr>
+                              <td>1st April 2015</td>
+                              <td>195</td>
+                              <td>647</td>
+                              <td>796</td>
+                              <td>47,569</td>
+                           </tr>
+                           <tr>
+                              <td>1st April 2016</td>
+                              <td>201</td>
+                              <td>665</td>
+                              <td>817</td>
+                              <td>48,849</td>
+                           </tr>
+                           <tr>
+                              <td>1st April 2017</td>
+                              <td>205</td>
+                              <td>678</td>
+                              <td>833</td>
+                              <td>49,824</td>
+                           </tr>
+                           <tr>
+                              <td>1st April 2018</td>
+                              <td>208</td>
+                              <td>688</td>
+                              <td>846</td>
+                              <td>50,561</td>
+                           </tr>
+                           <tr>
+                              <td>1st April 2019</td>
+                              <td>219</td>
+                              <td>725</td>
+                              <td>891</td>
+                              <td>53,278</td>
+                           </tr>
+                           <tr>
+                              <td>1st April 2020</td>
+                              <td>224</td>
+                              <td>743</td>
+                              <td>913</td>
+                              <td>54,566</td>
+                           </tr>
+                           <tr>
+                              <td>1st April 2021</td>
+                              <td>225</td>
+                              <td>744</td>
+                              <td>915</td>
+                              <td>54,682</td>
+                           </tr>
+                           <tr>
+                              <td>1st April 2022</td>
+                              <td>231</td>
+                              <td>766</td>
+                              <td>941</td>
+                              <td>56,260</td>
+                           </tr>
+                           <tr>
+                              <td>1st April 2023</td>
+                              <td>238</td>
+                              <td>788</td>
+                              <td>968</td>
+                              <td>57,892</td>
+                           </tr>
+                           <tr>
+                              <td>2nd October 2023</td>
+                              <td>243</td>
+                              <td>806</td>
+                              <td>991</td>
+                              <td>59,248”</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </Tabular>
+               </P1para>
+            </P1>
+         </P1group>
+         <P1group>
+            <Title>Revocation</Title>
+            <P1 id="regulation-3">
+               <Pnumber>3</Pnumber>
+               <P1para>
+                  <Text>The Personal Injuries (NHS Charges) (Amounts) (Amendment) Regulations 2023<FootnoteRef Ref="f00004"/> are revoked.</Text>
+               </P1para>
+            </P1>
+         </P1group>
+         <SignedSection>
+            <Signatory>
+               <Para>
+                  <Text>Signed by authority of the Secretary of State for Health and Social Care.</Text>
+               </Para>
+               <Signee>
+                  <PersonName>Markham</PersonName>
+                  <JobTitle>Parliamentary Under-Secretary of State </JobTitle>
+                  <DateSigned>
+                     <DateText>5th September 2023</DateText>
+                  </DateSigned>
+                  <Department>Department of Health and Social Care</Department>
+               </Signee>
+            </Signatory>
+         </SignedSection>
+      </Body>
+      <ExplanatoryNotes>
+         <Title>Explanatory Note</Title>
+         <Comment>
+            <Para>
+               <Text>(This note is not part of the Regulations)</Text>
+            </Para>
+         </Comment>
+         <P>
+            <Text>These Regulations amend the Personal Injuries (NHS Charges) (Amounts) Regulations 2015 (S.I. 2015/295) (“the principal Regulations”) which make provision about the charges payable under the scheme for the recovery of NHS charges in cases where an injured person who receives a compensation payment in respect of their injury has received NHS hospital treatment or ambulance services.</Text>
+         </P>
+         <P>
+            <Text>Regulation 2 amends the principal Regulations by substituting a table in Schedule 1. This table provides for increased charges in respect of injuries which occur on or after 2nd October 2023. Where the injured person is provided with NHS ambulance services, the charge will be £243 (compared with £238, for injuries incurred between 1st April 2023 and 1st October 2023). Where the injured person receives NHS treatment, but is not admitted to hospital, the charge will be £806 (compared with £788 for injuries incurred between 1st April 2023 and 1st October 2023). The daily charge for NHS in-patient treatment will be £991 (compared with £968 for injuries incurred between 1st April 2023 and 1st October 2023). The maximum charge in respect of an injury will be £59,248 (compared with £57,892 for injuries incurred between 1st April 2023 to 1st October 2023).</Text>
+         </P>
+         <P>
+            <Text>Regulation 3 revokes the Personal Injuries (NHS Charges) (Amounts) (Amendment) Regulations 2023 (S.I. 2023/220).</Text>
+         </P>
+         <P>
+            <Text>A full impact assessment has not been produced for this instrument as no, or no significant, impact on the private, voluntary or public sector is foreseen.</Text>
+         </P>
+      </ExplanatoryNotes>
+   </Secondary>
+   <Footnotes>
+      <Footnote id="f00001">
+         <FootnoteText>
+            <Para>
+               <Text>2003 c. 43. By virtue of section 167(1), the powers are exercisable in relation to England and Wales by the Secretary of State. See section 168 for the definition of “prescribed”. Amendments to section 195 are not relevant to the power as exercised in these Regulations.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00002">
+         <FootnoteText>
+            <Para>
+               <Text>Functions conferred or imposed on the National Assembly for Wales immediately before the first appointment of a First Minister under section 46 of the Government of Wales Act 2006 (c. 32) (“GOWA”) by an enactment contained in an Act were transferred to the Welsh Ministers by section 162(1) of, and paragraph 30 of Schedule 11 to, GOWA.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00003">
+         <FootnoteText>
+            <Para>
+               <Text>S.I. 2015/295, amended by S.I. 2023/220.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+      <Footnote id="f00004">
+         <FootnoteText>
+            <Para>
+               <Text>S.I. 2023/220.</Text>
+            </Para>
+         </FootnoteText>
+      </Footnote>
+   </Footnotes>
+</Legislation>
