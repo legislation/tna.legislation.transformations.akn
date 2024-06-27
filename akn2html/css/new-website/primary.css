@@ -1,0 +1,566 @@
+﻿.tblock.table {
+	margin-top: 1em
+}
+.tblock.table > .num {
+	margin-top: 1em;
+	text-align: center;
+	font-weight: bold
+}
+.tblock.table > .heading {
+	margin-top: 1em;
+	text-align: center
+}
+table {
+	width: 100%;
+	margin: 1em 0 0 0;
+	border-collapse: collapse;
+	font-size: smaller
+}
+table.level-1 {
+	width: calc(100% - 2.5em);
+	margin-left: 2.5em
+}
+table.level-2 {
+	width: calc(100% - 5em);
+	margin-left: 5em
+}
+table.level-3 {
+	width: calc(100% - 7.5em);
+	margin-left: 7.5em
+}
+table.level-4 {
+	width: calc(100% - 10em);
+	margin-left: 12.5em
+}
+table.level-5 {
+	width: calc(100% + 12.5em);
+	margin-left: -12.5em
+}
+th,
+td {
+	padding: 6pt
+}
+th {
+	text-align: left
+}
+td {
+	vertical-align: top
+}
+th > *:first-child,
+td > *:first-child {
+	margin-top: 0
+}
+th > *:last-child,
+td > *:last-child {
+	margin-bottom: 0
+}
+.fnRef {
+	position: relative;
+	top: -0.5em;
+	font-size: 12pt
+}
+.footnotes {
+	margin-top: 2em;
+	border-top: thin solid #000;
+	font-size: smaller
+}
+.footnotes > .footnote > .marker {
+	display: block;
+	position: absolute
+}
+.footnotes > .footnote > .marker:after {
+	content: "."
+}
+.footnote > p {
+	margin-left: 2.5em
+}
+.tablenotes {
+	margin-top: 1em;
+	font-size: smaller
+}
+.tablenote > .marker {
+	display: block;
+	position: absolute
+}
+.tablenote > p {
+	margin-left: 2.5em
+}
+ins,
+del {
+	text-decoration: none
+}
+ins.first:before,
+del.first:before {
+	content: "[";
+	font-weight: bold
+}
+ins.last:after,
+del.last:after {
+	content: "]";
+	font-weight: bold
+}
+.noteRef.commentary {
+	position: relative;
+	top: -0.5em;
+	font-weight: bold;
+	font-size: smaller
+}
+.noteRef.commentary.C,
+.noteRef.commentary.I {
+	display: none
+}
+.annotations {
+	margin: 1em;
+	border: thin solid gray;
+	padding: 1em;
+	font-size: smaller
+}
+.annotations > div + div {
+	margin-top: 1em
+}
+.annotations > div:first-child {
+	font-weight: bold
+}
+.annotations > div > div {
+	margin-top: 1em
+}
+.annotations > div > div:first-child {
+	border-top: thin dotted gray;
+	padding-top: 1em;
+	font-weight: bold
+}
+.annotations > div > div > span.marker {
+	display: block;
+	position: absolute
+}
+.annotations > div > div > span.marker + * {
+	text-indent: 2em
+}
+body {
+	margin: 1cm 1in;
+	font-size: 16pt
+}
+h1 {
+	margin: 1em 0 0 0
+}
+section,
+.hcontainer {
+	position: relative;
+	margin-top: 1em
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+	position: relative;
+	margin: 0;
+	font-weight: normal;
+	font-size: inherit
+}
+.schedule,
+.crossheading:not([data-ukl-name = P1group]),
+section.subheading,
+.part,
+.chapter {
+	margin-top: 2em
+}
+.schedule > h2 > *,
+.crossheading:not([data-ukl-name = P1group]) > h2 > *,
+section.subheading > h2 > *,
+.part > h2 > *,
+.chapter > h2 > * {
+	display: block;
+	margin-top: .5em;
+	text-align: center
+}
+p,
+.p {
+	margin-top: 1em;
+	margin-bottom: 0
+}
+blockquote > ol,
+blockquote > ul {
+	margin-left: 0
+}
+ol,
+ul {
+	position: relative;
+	margin-left: 2em;
+	padding-left: 0;
+	list-style-type: none
+}
+li {
+	margin-top: 1em;
+	margin-left: 2em
+}
+li > .num {
+	display: inline-block;
+	position: absolute;
+	left: -0.5em
+}
+li > ol,
+li > ul {
+	margin-left: 0
+}
+div.mod {
+	display: inline
+}
+blockquote {
+	margin: 1em 0 0 2.5em
+}
+q:before,
+q:after {
+	content: ""
+}
+figure {
+	margin-top: 1em
+}
+figcaption {
+	text-align: center
+}
+figcaption > div {
+	margin-top: 1em
+}
+figure > p {
+	text-align: center
+}
+.image.centre {
+	text-align: center
+}
+.uppercase {
+	text-transform: uppercase
+}
+a {
+	color: #2790c4
+}
+a[href = ""],
+a[href ^= "#"] {
+	color: inherit;
+	text-decoration: none
+}
+a[href = ""]:hover,
+a[href ^= "#"]:hover {
+	text-decoration: underline
+}
+cite {
+	font-style: normal
+}
+.crossheading[data-ukl-name = P1group] > h2 {
+	font-weight: bold
+}
+.schProv1,
+.schedule > .paragraph,
+.schedule > .part > .paragraph,
+.context-schedule > .paragraph {
+	margin-top: 1em;
+	margin-left: 2.5em
+}
+.schProv1 > h2 > .num,
+.schedule > .paragraph > h2 > .num,
+.context-schedule > .paragraph > h2 > .num {
+	display: block;
+	position: absolute;
+	margin-left: -2.5em
+}
+.schProv1 > h2 > .heading:first-child,
+.schedule > .paragraph > h2 > .heading:first-child,
+.context-schedule > .paragraph > h2 > .heading:first-child {
+	display: block;
+	margin-left: -2.5em
+}
+.schProv1 > h2 > .heading + .num,
+.schedule > .paragraph > h2 > .heading + .num,
+.context-schedule > .paragraph > h2 > .heading + .num {
+	margin-top: 1em
+}
+.schedule .subparagraph,
+.context-schedule .subparagraph,
+.schProv2,
+div.definition {
+	margin-top: 1em;
+	margin-left: 2.5em
+}
+.schedule .subparagraph > h2,
+.context-schedule .subparagraph > h2,
+.schProv2 > h2,
+div.definition > h2,
+.schedule .subparagraph > h3,
+.context-schedule .subparagraph > h3,
+.schProv2 > h3,
+div.definition > h3,
+.schedule .subparagraph > h4,
+.context-schedule .subparagraph > h4,
+.schProv2 > h4,
+div.definition > h4,
+.schedule .subparagraph > h5,
+.context-schedule .subparagraph > h5,
+.schProv2 > h5,
+div.definition > h5,
+.schedule .subparagraph > h6,
+.context-schedule .subparagraph > h6,
+.schProv2 > h6,
+div.definition > h6 {
+	position: absolute;
+	margin-left: -2.5em
+}
+*[data-show-extent]::after {
+	margin-left: 2em;
+	background-color: #8b008b;
+	color: #fff;
+	padding: 2pt 6pt;
+	font-weight: normal;
+	content: attr(data-show-extent)
+}
+.crossheading:not([data-ukl-name = P1group]) > h2,
+section.subheading > h2 {
+	font-style: italic
+}
+.crossheading:first-of-type,
+section.subheading:first-of-type {
+	margin-top: 1em
+}
+blockquote .article > h2 {
+	display: inline
+}
+blockquote .article > h2 > .heading {
+	display: block;
+	margin-top: 2em;
+	font-weight: bold;
+	margin-bottom: 1em
+}
+blockquote .article > h2 > .num {
+	padding-left: 1em;
+	font-weight: bold
+}
+blockquote .article > .intro,
+blockquote .article > .content {
+	display: inline
+}
+blockquote .article > .intro > p:first-child,
+blockquote .article > .intro .p:first-child,
+blockquote .article > .content > p:first-child,
+blockquote .article > .content .p:first-child {
+	display: inline
+}
+blockquote.secondary .paragraph > h2,
+blockquote .article > .paragraph > h2,
+blockquote .article > .paragraph:first-of-type > h2 {
+	display: inline
+}
+blockquote.secondary .paragraph > .intro,
+blockquote .article > .paragraph > .intro {
+	display: inline
+}
+blockquote.secondary .paragraph > .intro > *:first-child,
+blockquote .article > .paragraph > .intro > *:first-child {
+	display: inline
+}
+blockquote.secondary .paragraph > .content,
+blockquote .article > .paragraph > .content {
+	display: inline
+}
+blockquote.secondary .paragraph > .content > *:first-child,
+blockquote .article > .paragraph > .content > *:first-child {
+	display: inline
+}
+blockquote .article > .paragraph:first-of-type {
+	display: inline
+}
+blockquote .article > .paragraph:first-of-type > h2 > .num {
+	padding-left: 0 !important
+}
+blockquote .article > .paragraph:first-of-type > h2 > .num::before {
+	content: "—"
+}
+.level,
+.para1,
+.para2,
+.para3,
+.para4 {
+	margin-top: 1em;
+	margin-left: 2.5em
+}
+.subsection > h2,
+blockquote:not(.secondary) .subsection > h2,
+.level > h6.with-heading > .num,
+.para1 > h6.with-heading > .num,
+.para2 > h6.with-heading > .num,
+.para3 > h6.with-heading > .num,
+.para4 > h6.with-heading > .num,
+.level > h5.with-heading > .num,
+.para1 > h5.with-heading > .num,
+.para2 > h5.with-heading > .num,
+.para3 > h5.with-heading > .num,
+.para4 > h5.with-heading > .num,
+.level > h4.with-heading > .num,
+.para1 > h4.with-heading > .num,
+.para2 > h4.with-heading > .num,
+.para3 > h4.with-heading > .num,
+.para4 > h4.with-heading > .num,
+.level > h3.with-heading > .num,
+.para1 > h3.with-heading > .num,
+.para2 > h3.with-heading > .num,
+.para3 > h3.with-heading > .num,
+.para4 > h3.with-heading > .num,
+.level > h6:not(.with-heading),
+.para1 > h6:not(.with-heading),
+.para2 > h6:not(.with-heading),
+.para3 > h6:not(.with-heading),
+.para4 > h6:not(.with-heading),
+.level > h5:not(.with-heading),
+.para1 > h5:not(.with-heading),
+.para2 > h5:not(.with-heading),
+.para3 > h5:not(.with-heading),
+.para4 > h5:not(.with-heading),
+.level > h4:not(.with-heading),
+.para1 > h4:not(.with-heading),
+.para2 > h4:not(.with-heading),
+.para3 > h4:not(.with-heading),
+.para4 > h4:not(.with-heading),
+.level > h3:not(.with-heading),
+.para1 > h3:not(.with-heading),
+.para2 > h3:not(.with-heading),
+.para3 > h3:not(.with-heading),
+.para4 > h3:not(.with-heading) {
+	position: absolute;
+	margin-left: -5em;
+	width: 4em;
+	text-align: right
+}
+.P3 {
+	margin-top: 1em;
+	margin-left: 2.5em
+}
+.P3 > .num {
+	position: absolute;
+	margin-left: -2.5em
+}
+.definition > .para1 {
+	margin-left: 3.75em
+}
+.step {
+	margin-left: 2.5em
+}
+.step > h2,
+.step > h3,
+.step > h4 {
+	font-weight: bold;
+	font-style: italic
+}
+.schedules {
+	margin-top: 4em
+}
+.schedules > h2 > * {
+	display: block;
+	margin-top: .5em;
+	text-align: center
+}
+.schedules > h2 > .heading {
+	font-size: larger;
+	text-transform: uppercase;
+	letter-spacing: .5ch
+}
+.schedule > h2 .num {
+	font-size: larger;
+	text-transform: uppercase
+}
+.referenceNote {
+	position: absolute;
+	top: -1em;
+	right: 0;
+	font-size: smaller
+}
+.schedule .crossheading > h2 > * {
+	text-align: left
+}
+thead th,
+thead td {
+	font-weight: normal;
+	font-style: italic
+}
+tbody th {
+	font-weight: bold
+}
+table.uk-default th,
+table.uk-default td {
+	border-left: thin solid #000
+}
+table.uk-default thead th,
+table.uk-default thead td {
+	border-bottom: thin solid #000
+}
+table.uk-default th:first-child,
+table.uk-default td:first-child {
+	border-left: none
+}
+blockquote:not(.secondary) .section {
+	margin-top: 1.5em;
+	margin-left: 3.75em
+}
+blockquote:not(.secondary) .section > h2 {
+	font-weight: bold
+}
+blockquote:not(.secondary) .section > h2 > .num {
+	display: block;
+	position: absolute;
+	margin-left: -3.75em
+}
+blockquote:not(.secondary) .subsection {
+	margin-left: 2.5em
+}
+body {
+	font-family: "Book Antiqua", Palatino, Georgia, serif
+}
+article.asp {
+	font-family: "Times New Roman", Times, serif
+}
+.coverPage {
+	display: none
+}
+.preface > h1 {
+	text-align: center;
+	font-weight: normal;
+	font-size: 32pt
+}
+.preface > .number {
+	margin-top: 0 !important;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20pt
+}
+.preface > .block {
+	margin-top: 1em
+}
+.preface > .dateOfEnactment {
+	margin-top: 0;
+	text-align: right
+}
+.asp .dateOfEnactment,
+.asp .DateOfEnactment {
+	margin-top: 1em;
+	text-align: left;
+	font-weight: bold
+}
+.part > h2 > .num {
+	font-variant: small-caps;
+	font-weight: bold
+}
+.part > h2 > .heading {
+	font-variant: small-caps
+}
+.section {
+	margin-top: 1.5em;
+	margin-left: 3.75em
+}
+.section > h2 {
+	font-weight: bold
+}
+.section > h2 > .num {
+	display: block;
+	position: absolute;
+	margin-left: -3.75em
+}
+blockquote .article > .paragraph > .para1 {
+	margin-left: 5em
+} /*# sourceMappingURL=primary.css.map */
