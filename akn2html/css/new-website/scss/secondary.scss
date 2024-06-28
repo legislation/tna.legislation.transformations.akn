@@ -1,0 +1,235 @@
+
+@import 'uk.scss';
+
+body {
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.correctionRubric {
+	margin-top: $spacing;
+	font-style: italic
+}
+
+.proceduralRubric {
+	margin-top: $spacing
+}
+
+.banner {
+	margin-top: $spacing;
+	border-top: 2pt solid black;
+	border-bottom: 2pt solid black;
+	padding: 1ex;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.5ch;
+	// font-size: larger
+}
+
+.preface {
+	> h1 {
+		text-align: center;
+		font-weight: normal;
+		font-size: $uk-font-size * 1.5;
+	}
+	> .number {
+		margin-top: $spacing;
+		text-align: center;
+		font-weight: bold;
+		font-size: $uk-font-size * 1.25;
+	}
+}
+// .preface {
+// 	> .number {
+// 		font-size: larger;
+// 	}
+// }
+
+.subject.block {
+	margin-top: $spacing;
+	margin-bottom: $spacing;	// so spacing for subsubjects is uniform, even though smaller font
+	text-align: center;
+	font-size: $uk-font-size * 1.5;
+	font-weight: bold;
+	text-transform: uppercase
+}
+
+.subsubject {
+	margin-top: $spacing;
+	text-align: center;
+	font-size: $uk-font-size * 1.25;
+	font-weight: bold;
+	text-transform: uppercase
+}
+
+.approval {
+	margin-top: $spacing;
+	text-align: center
+}
+
+.laidInDraft {
+
+}
+
+.laidInDraft, .madeDate, .laidDate, .commenceDate {
+	position: relative;
+	margin: $spacing 25%;
+	font-style: italic;
+	> *:nth-child(2) {
+		position: absolute;
+		right: 0
+	}
+}
+
+/* P1 */
+.article, .regulation, .rule {
+	@extend %compact-p1;
+}
+
+/* P2 */
+.body .paragraph:not(.para1),
+.body .SIParagraph,
+.article > section,
+.regulation > section,
+.rule > section,
+.prov2
+{
+	> h2 {
+		display: inline;
+		> .num {
+			padding-left: 1em;
+		}
+	}
+	> .intro, > .content {
+		display: inline;
+		> p:first-child, .p:first-child {
+			display: inline;
+		}
+	}
+}
+
+/* first P2 within a P1 */
+.article > h2 + section,
+.regulation > h2 + section,
+.rule > h2 + section,
+h2 + .prov2
+{
+	display: inline;
+	> h2 {
+		> .num {
+			padding-left: 0 !important;	// without !important, the rule above takes precedence
+		}
+		> .num::before {
+			content: '\2014'
+		}
+	}
+}
+
+/* P3 */
+/* extra indent because secondary P2s are not indented  */
+.body .paragraph:not(.para1) > .level,
+.body .SIParagraph > .level,
+.para1 {
+	margin-left: 2 * $indent;
+}
+
+/* P3 as first child of a block quote */
+blockquote > .level,
+blockquote > .para1
+{
+	margin-left: $indent;
+}
+
+/* P4 as first child of a block quote */
+blockquote > .para2
+{
+	margin-left: 2 * $indent;
+}
+
+
+/* signatures */
+
+.signatures {
+    margin-top: $spacing;
+}
+.signatureBlock {
+	position: relative;  // may be unnecessary
+	margin-top: $spacing
+}
+.signatureBlock > .content > div {	// could be .block, but should exclude intro p
+    text-align: right
+}
+.signatureBlock > .content > .signature {
+	font-style: italic
+}
+.signatureBlock > .content > .address > * {
+	margin-top: 0;
+    text-align: left
+}
+.signatureBlock > .content > .date {
+    // position: absolute;
+    text-align: left;
+}
+
+
+/* schedules */
+
+.schedule {
+	> h2 {
+		.heading {
+			// font-variant: normal;
+			font-style: italic
+		}
+	}
+}
+
+.schProv1,
+.schedule > .paragraph,
+.schedule > .part > .paragraph,
+blockquote[data-ukl-Context='schedule'] > .paragraph {
+	> h2 > .num {
+		font-weight: bold
+	}
+}
+
+
+/* explanatory notes */
+
+.explanatoryNote, .explanatoryNotes,
+.commencementHistory, .earlierOrders {
+	margin-top: 4 * $spacing;
+	> .heading {
+		margin-top: 1em;
+		text-align: center;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+	.subheading {
+		margin-top: 0.5em;
+		text-align: center;
+		font-style: italic;
+	}
+}
+
+.blockContainer.para1, .tblock.para1 {
+	margin-left: 2 * $indent;
+	> .num {
+		position: absolute;
+		margin-left: -$indent
+	}
+}
+.blockContainer.para2, .blockContainer.para3, .blockContainer.para4,
+.tblock.para2, .tblock.para3, .tblock.para4 {
+	margin-left: $indent;
+	> .num {
+		position: absolute;
+		margin-left: -$indent
+	}
+}
+
+.blockContainer[data-ukl-name='P1'] {
+	margin-left: $indent;
+	> .num {
+		position: absolute;
+		margin-left: -$indent
+	}
+}

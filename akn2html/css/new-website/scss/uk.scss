@@ -1,0 +1,470 @@
+
+@import 'core.scss';
+
+$uk-font-size: 16pt;
+
+// .preface {
+// 	> h1 {
+// 		text-align: center;
+// 		font-size: larger;
+// 		font-weight: normal
+// 	}
+// 	> .number {
+// 		text-align: center;
+// 		font-weight: bold
+// 	}
+// }
+
+
+
+
+%small-level {
+	margin-top: $spacing
+}
+
+%unnumbered-section-heading {
+	> h2 {
+		font-weight: bold;
+	}
+}
+
+%p1 {
+	margin-top: $spacing;
+	margin-left: $indent;
+	> h2 {
+		> .num {
+			display: block;
+			position: absolute;
+			margin-left: -$indent
+		}
+		// > .heading {
+		// 	display: block
+		// }
+		> .heading:first-child {
+			display: block;
+			margin-left: -$indent
+		}
+		> .heading + .num {
+			margin-top: $spacing;
+		}
+	}
+	// > h2.heading-num {
+	// }
+	// > h2.no-heading {
+	// 	position: absolute;
+	// }
+	// > h2.heading-num {
+	// 	> span.heading {
+	// 		display: block;
+	// 		margin-left: -$indent
+	// 	}
+	// 	> span.num {
+	// 		display: block;
+	// 		position: absolute;
+	// 		margin-top: $spacing;
+	// 		margin-left: -$indent;
+	// 	}
+	// }
+}
+
+%body-p1 {
+	@extend %p1;
+	> h2 {
+		// margin-left: -$indent;
+		font-weight: bold
+	}
+	// > h2 > .num {
+	// 	display: inline-block;
+	// 	min-width: $indent
+	// }
+	// > .intro {
+	// 	margin-top: $spacing
+	// }
+	// > .content {
+	// 	margin-top: $spacing
+	// }
+}
+
+%inverted-p1 {
+	@extend %p1;
+	> h2 > span.heading {
+		margin-left: -$indent;
+		display: block;
+		font-style: italic
+	}
+	> h2 > span.num:first-child {
+		display: inline-block;
+		position: absolute;
+		margin-left: -$indent
+	}
+	> h2 > span.heading + span.num {
+		display: inline-block;
+		position: absolute;
+		margin-top: 1em;
+		margin-left: -$indent
+	}
+}
+
+
+
+%pnum {
+	position: absolute;
+	margin-left: -$indent
+}
+
+%p2 {
+	margin-top: $spacing;
+	margin-left: $indent;
+	> h2 {
+		position: absolute;
+		margin-left: -$indent
+	}
+}
+
+%p3 {
+	margin-top: $spacing;
+	margin-left: $indent;
+	> h2, > h3, > h4, > h5, > h6 {
+		position: absolute;
+		margin-left: -$indent
+	}
+}
+
+*[data-show-extent]::after {
+	margin-left: 2em;
+	background-color: darkMagenta;
+	color: white;
+	padding: 2pt 6pt;
+	font-weight: normal;
+	content: attr(data-show-extent);
+}
+
+
+/* parts, chapters */
+
+.part,
+.chapter {
+	@extend %big-level;
+}
+
+
+/* cross-headings, sub-headings */
+
+.crossheading:not([data-ukl-name=P1group]),
+section.subheading {
+	@extend %big-level;
+	> h2 {
+		font-style: italic
+	}
+}
+.crossheading:first-of-type,
+section.subheading:first-of-type {
+	margin-top: $spacing;	// no double spacing when following part heading
+}
+
+.crossheading[data-ukl-name=P1group] {
+	@extend %unnumbered-section-heading;
+}
+
+/* compact format */
+
+%compact-p1 {
+	// margin-top: 2 * $spacing;
+	> h2 {
+		display: inline;
+	}
+	> h2 > .heading {
+		display: block;
+		margin-top: 2 * $spacing;
+		font-weight: bold;
+		margin-bottom: $spacing
+	}
+	> h2 > .num {
+		padding-left: 1em;
+		font-weight: bold
+	}
+	> .intro, > .content {
+		display: inline;
+		> p:first-child, .p:first-child {
+			display: inline;
+		}
+	}
+}
+
+%compact-p2 {
+	> h2 {
+		display: inline;
+	}
+	> .intro {
+		display: inline;
+		> *:first-child {
+			display: inline;
+		}
+	}
+	> .content {
+		display: inline;
+		> *:first-child {
+			display: inline;
+		}
+	}
+}
+
+%inline-p2 {
+	@extend %compact-p2;
+	display: inline;
+	> h2 {
+		> .num {
+			padding-left: 0 !important;
+		}
+		> .num::before {
+			content: '\2014'
+		}
+	}
+}
+
+.level, .para1, .para2, .para3, .para4 {
+	margin-top: $spacing;
+	margin-left: $indent;
+}
+
+%right-aligned-number {
+	position: absolute;
+	margin-left: -2 * $indent;
+	width: 2 * $indent - 1em;
+	text-align: right;
+}
+
+.level, .para1, .para2, .para3, .para4 {
+	> h3:not(.with-heading) {
+		@extend %right-aligned-number;
+	}
+	> h4:not(.with-heading) {
+		@extend %right-aligned-number;
+	}
+	> h5:not(.with-heading) {
+		@extend %right-aligned-number;
+	}
+	> h6:not(.with-heading) {
+		@extend %right-aligned-number;
+	}
+}
+/* for P3 with-heading, see uksi/1993/2006/schedule/5/paragraph/12/made */
+.level, .para1, .para2, .para3, .para4 {
+	> h3.with-heading {
+		> .num {
+			@extend %right-aligned-number;
+		}
+	}
+	> h4.with-heading {
+		> .num {
+			@extend %right-aligned-number;
+		}
+	}
+	> h5.with-heading {
+		> .num {
+			@extend %right-aligned-number;
+		}
+	}
+	> h6.with-heading {
+		> .num {
+			@extend %right-aligned-number;
+		}
+	}
+}
+
+/* blockContainers in preamble and explanatory notes */
+.P3 {
+	margin-top: $spacing;
+	margin-left: $indent;
+	> .num {
+		position: absolute;
+		margin-left: -$indent
+	}
+}
+
+// additional indent when child of unnumbered item
+.definition > .para1 {
+	margin-left: 1.5 * $indent;
+}
+
+.step {
+	margin-left: $indent;
+	> h2, > h3, > h4 {
+		font-weight: bold;
+		font-style: italic
+	}
+}
+
+/* sections */
+
+// .section {
+// 	@extend %body-p1;
+// 	// > h2 {
+// 	// 	margin-left: -$indent;
+// 	// 	font-weight: bold
+// 	// }
+// 	// > h2 > .num {
+// 	// 	display: inline-block;
+// 	// 	min-width: $indent
+// 	// }
+// 	// > .intro {
+// 	// 	margin-top: $spacing
+// 	// }
+// 	// > .content {
+// 	// 	margin-top: $spacing
+// 	// }
+// }
+
+
+// /* subsections */
+
+// .subsection { @extend %p2; }
+
+
+// /* paragraphs, subparagraphs */
+
+// div.paragraph, div.level, div.subparagraph, .clause, .subclause { @extend %p3; }
+
+// .section > div.paragraph { @extend %p2; margin-left: $indent * 2 }
+
+
+
+/* definition lists */
+
+div.definition { @extend %p3; }
+
+
+/* schedules */
+
+.schedules {
+	margin-top: 4 * $spacing;
+	> h2 > * {
+		display: block;
+		margin-top: 0.5 * $spacing;
+		text-align: center
+	}
+	> h2 > .heading {
+		font-size: larger;
+		text-transform: uppercase;
+		letter-spacing: 0.5ch;
+	}
+}
+
+.schedule {
+	@extend %big-level;
+	> h2 {
+		.num {
+			font-size: larger;
+			text-transform: uppercase
+		}
+	}
+}
+
+.referenceNote {
+	position: absolute;
+	top: -1em;
+	right: 0;
+	font-size: smaller
+}
+
+.schedule .crossheading {
+	> h2 > * {
+		text-align: left
+	}
+}
+
+.schProv1,
+.schedule > .paragraph,
+.schedule > .part > .paragraph,
+.context-schedule > .paragraph {
+	@extend %p1;
+}
+/* subparagraph should only be used in schedules */
+.schedule .subparagraph,
+.context-schedule .subparagraph,
+.schProv2
+{
+	@extend %p3;	// but really a P2
+}
+
+
+/* schedule paragraphs P1 class=schProv1 */
+
+// section.paragraph {
+// 	@extend %p1;
+// 	> h2 > span.heading {
+// 	// 	margin-left: -$indent;
+// 	// 	display: block;
+// 		font-style: italic
+// 	}
+// 	// > h2 > span.num:first-child {
+// 	// 	display: inline-block;
+// 	// 	position: absolute;
+// 	// 	margin-left: -$indent
+// 	// }
+// 	// > h2 > span.heading + span.num {
+// 	// 	display: inline-block;
+// 	// 	position: absolute;
+// 	// 	margin-top: 1em;
+// 	// 	margin-left: -$indent
+// 	// }
+// }
+
+
+/* schedule subparagraphs P2 class=schProv2 */
+
+// section.subparagraph { @extend %p3; }
+
+// section.paragraph > div.paragraph { @extend %p3; }
+
+// section.paragraph > div.subparagraph { @extend %p3; margin-left: $indent * 2 }
+
+
+/* tables */
+
+thead th, thead td {
+	font-weight: normal;
+	font-style: italic
+}
+tbody th {
+	font-weight: bold
+}
+
+table.uk-default {
+	th, td { border-left: thin solid black }
+	thead th, thead td { border-bottom: thin solid black }
+	th:first-child, td:first-child { border-left: none }
+}
+
+
+blockquote:not(.secondary) .section {
+	margin-top: $spacing * 1.5;
+	margin-left: 1.5 * $indent;
+	> h2 {
+		font-weight: bold;
+		> .num {
+			display: block;
+			position: absolute;
+			margin-left: -1.5 * $indent
+		}
+	}
+}
+
+blockquote:not(.secondary) .subsection {
+	margin-left: $indent;
+	> h2 {
+		@extend %right-aligned-number;
+	}
+}
+
+// this causes problem for nisr/2020/4/made#schedule-paragraph-3 -- P2 number inline following a P1 number
+// blockquote.secondary:not(.context-schedule) .paragraph {
+// 	> h2 {
+// 		position: absolute;
+// 		margin-left: 1.25 * -$indent
+// 	}
+// }
+
+blockquote.secondary:not(.context-schedule) h2 + .paragraph {
+
+}
