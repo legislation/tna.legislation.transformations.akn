@@ -1,0 +1,80 @@
+
+
+ins, del { text-decoration: none }
+
+ins.first, del.first {
+// 	display: inline-block;
+// 	position: relative
+}
+ins.first:before, del.first:before {
+	content: '[';
+	font-weight: bold
+
+// 	display: inline-block;
+// 	position: relative
+}
+ins.last:after, del.last:after {
+	content: ']';
+	font-weight: bold
+// 	display: inline-block;
+// 	position: relative
+}
+
+
+.noteRef.commentary {
+	position: relative;
+	top: -0.5em;
+	font-weight: bold;
+	font-size: smaller
+// 	display: block;
+// 	position: absolute;
+// 	top: 0;
+// 	left: -$indent
+}
+
+.noteRef.commentary.C, .noteRef.commentary.I {
+	display: none
+}
+
+
+/* the second of these doesn't quite work, b/c [ then comes after ref */
+// .num > .noteRef.commentary, .num > ins > .noteRef.commentary {
+//     display: inline-block;
+//     position: absolute;
+//     margin-left: -$indent;
+//     width: $indent;
+//     text-align: right
+// }
+
+.annotations {
+	margin: 1em;
+	border: thin solid grey;
+	padding: 1em;
+	font-size: smaller
+	// display: none
+}
+
+.annotations > div + div {
+	margin-top: 1em
+}
+
+.annotations > div:first-child {
+	font-weight: bold
+}
+
+.annotations > div > div {
+	margin-top: 1em
+}
+.annotations > div > div:first-child {
+	border-top: thin dotted gray;
+	padding-top: 1em;
+	font-weight: bold
+}
+
+.annotations > div > div > span.marker {
+	display: block;
+	position: absolute
+}
+.annotations > div > div > span.marker + * {
+	text-indent: 2em
+}

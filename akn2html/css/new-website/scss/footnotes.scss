@@ -1,0 +1,36 @@
+
+.fnRef {
+	position: relative;
+	top: -0.5em;
+	font-size: .75 * $core-font-size
+}
+
+.footnotes {
+	margin-top: $spacing * 2;
+	border-top: thin solid black;
+	font-size: smaller
+}
+
+.footnotes > .footnote > .marker {
+	display: block;
+    position: absolute;
+	&:after {
+		content: '.'
+	}
+}
+.footnote > p {
+	margin-left: $indent
+}
+
+.tablenotes {
+	margin-top: $spacing;
+	font-size: smaller
+}
+
+.tablenote > .marker {
+	display: block;
+    position: absolute;
+}
+.tablenote > p {
+	margin-left: $indent
+}

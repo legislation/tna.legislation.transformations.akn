@@ -1,0 +1,191 @@
+
+@import 'core.scss';
+@import 'changes.scss';
+
+
+body {
+	font-family: "Times New Roman", Times, serif;
+	font-size: $core-font-size
+}
+
+.longTitle {
+	margin: 1em 2em 0 2em
+}
+
+.longTitle > p {
+	margin: 0.5em 0 0 0;
+	text-align: center;
+	font-weight: bold
+}
+
+.preamble {
+	margin-top: 2em;
+	.tblock { margin-top: 1em }
+	.tblock > .num { display: inline-block; position: absolute }
+	.tblock > :not(.num) { display: block; margin-left: $indent }
+
+}
+
+h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-size: $core-font-size;
+	font-weight: normal
+}
+
+%center-common {
+	display: block;
+	text-align: center
+}
+%center-num {
+	@extend %center-common;
+	margin-top: 2em;
+}
+%center-heading {
+	@extend %center-common;
+	margin-top: 1em;
+}
+
+.part > h2 > .num { @extend %center-num }
+.part > h2 > .heading { @extend %center-heading }
+
+.title > h2 > .num { @extend %center-num }
+.title > h2 > .heading { @extend %center-heading }
+
+.chapter > h2 > .num { @extend %center-num }
+.chapter > h2 > .heading { @extend %center-heading }
+
+.section > h2 > .num { @extend %center-num; letter-spacing: 2px }
+.section > h2 > .heading { @extend %center-heading; letter-spacing: 2px }
+
+.ssubection > h2 > .num { @extend %center-num }
+.subsection > h2 > .heading { @extend %center-heading }
+
+.article > h2 > .num { @extend %center-num; font-style: italic }
+.article > h2 > .heading { @extend %center-heading; font-weight: bold }
+
+%simple-level-with-inline-number {
+	position: relative;
+	margin-top: $spacing;
+	margin-left: 0;
+	> h2, > h3, > h4, > h5, > h6 {
+		position: absolute;
+	}
+	> .intro > *:first-child {
+		text-indent: $indent
+	}
+	> .content > *:first-child {
+		text-indent: $indent
+	}
+}
+
+.paragraph {
+	@extend %simple-level-with-inline-number
+}
+
+%simple-level-with-no-heading {
+	position: relative;
+	margin-top: $spacing;
+	margin-left: $indent;
+	> h2, > h3, > h4, > h5, > h6 {
+		position: absolute;
+		margin-left: -$indent;
+	}
+}
+
+.level {
+	@extend %simple-level-with-no-heading
+}
+
+%simple-indented-level-with-optional-inline-heading {
+	position: relative;
+	margin-top: $spacing;
+	margin-left: $indent;
+	> h2, > h3, > h4, > h5, > h6 {
+		display: inline;
+		> .num {
+			display: inline-block;
+			position: absolute;
+			left: -$indent
+		}
+		> .heading:first-child {
+			margin-left: -$indent
+		}
+		> .heading {
+			display: block;
+		}
+	}
+	/* if it's a blockContainer, the num/heading won't be wrapped in an <h2> */
+	> .num {
+		display: inline-block;
+		position: absolute;
+		left: -$indent
+	}
+	> .heading:first-child {
+		margin-left: -$indent
+	}
+	> .heading {
+		display: block;
+	}
+}
+
+[class='hcontainer division'], [class='blockContainer division'] {
+	@extend %simple-indented-level-with-optional-inline-heading;
+}
+.division.annex {
+	@extend %big-level;
+	> h2 {
+		.num {
+			// font-size: larger;
+			text-transform: uppercase;
+		}
+	}
+}
+
+/* annexes */
+
+.schedules {
+	margin-top: 4 * $spacing;
+}
+
+.schedule {
+	@extend %big-level;
+	> h2 {
+		.num {
+			// font-size: larger;
+			text-transform: uppercase;
+		}
+	}
+}
+
+
+/* lists */
+
+ul > li:before {
+	content: '—';
+	position: absolute;
+	left: 0
+}
+
+
+/* tables */
+
+th, td {
+	border-top: thin solid black;
+	border-bottom: thin solid black;
+	border-right: thin solid black
+}
+th:last-child, td:last-child {
+	border-right: none
+}
+
+
+
+// signatures
+
+.signatureBlock {
+	margin-top: 2 * $spacing;
+	.content {
+		> *:first-child { text-align: left }
+		> * { text-align: right }
+	}
+}

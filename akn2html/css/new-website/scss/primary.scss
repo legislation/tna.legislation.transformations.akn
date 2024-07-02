@@ -1,0 +1,103 @@
+
+@import 'uk.scss';
+
+body {
+	font-family: 'Book Antiqua', Palatino, Georgia, serif;
+}
+
+article.asp {
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.coverPage {
+	display: none;
+}
+
+.preface {
+	> h1 {
+		text-align: center;
+		font-weight: normal;
+		font-size: $uk-font-size * 2;
+	}
+	> .number {
+		margin-top: 0 !important;
+		text-align: center;
+		font-weight: bold;
+		font-size: $uk-font-size * 1.25;
+	}
+	> .block {
+		margin-top: $spacing
+	}
+	> .dateOfEnactment {
+		margin-top: 0;
+		text-align: right
+	}
+}
+
+.asp .dateOfEnactment,
+.asp .DateOfEnactment {
+	margin-top: $spacing;
+	text-align: left;
+	font-weight: bold
+}
+
+/* structure */
+
+.part {
+	> h2 > .num {
+		font-variant: small-caps;
+		font-weight: bold
+	}
+	> h2 > .heading {
+		font-variant: small-caps
+	}
+}
+
+.section {
+	margin-top: $spacing * 1.5;
+	margin-left: 1.5 * $indent;
+	> h2 {
+		font-weight: bold;
+		> .num {
+			display: block;
+			position: absolute;
+			margin-left: -1.5 * $indent
+		}
+	}
+}
+
+.subsection {
+	> h2 {
+		@extend %right-aligned-number;
+	}
+}
+
+.schedule {
+	> h2 {
+		.heading {
+
+		}
+	}
+}
+
+
+/* amendments */
+
+
+blockquote .article {
+	@extend %compact-p1;
+}
+
+blockquote .article > .paragraph {
+	@extend %compact-p2;
+	> .para1 {
+		margin-left: 2 * $indent; /* parent is inline, so its margin is ineffective (or maybe it's just not set) */
+	}
+}
+blockquote .article > .paragraph:first-of-type {
+	@extend %inline-p2;
+}
+
+blockquote.secondary .paragraph {
+	@extend %compact-p2;
+}

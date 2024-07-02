@@ -1,0 +1,64 @@
+
+@import 'globals.scss';
+
+.tblock.table {
+	margin-top: $spacing;
+	> .num {
+		margin-top: $spacing;
+		// display: block;
+		text-align: center;
+		font-weight: bold
+	}
+	> .heading {
+		margin-top: $spacing;
+		// display: block;
+		text-align: center
+	}
+}
+
+table {
+	width: 100%;
+	margin: 1em 0 0 0;
+	border-collapse: collapse;
+	font-size: smaller
+}
+
+
+table.level-1 {
+	width: calc(100% - #{$indent});
+	margin-left: $indent
+}
+table.level-2 {
+	width: calc(100% - #{2 * $indent});
+	margin-left: 2 * $indent
+}
+table.level-3 {
+	width: calc(100% - #{3 * $indent});
+	margin-left: 3 * $indent
+}
+table.level-4 {
+	width: calc(100% - #{4 * $indent});
+	margin-left: 5 * $indent
+}
+table.level-5 {
+	width: calc(100% + #{5 * $indent});
+	margin-left: -5 * $indent
+}
+
+
+
+th, td {
+	padding: 6pt
+}
+th {
+	text-align: left
+}
+td {
+	vertical-align: top
+}
+th > *:first-child, td > *:first-child {
+	margin-top: 0
+}
+th > *:last-child, td > *:last-child {
+	margin-bottom: 0
+}
