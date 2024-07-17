@@ -479,8 +479,8 @@
 				<xsl:apply-templates select="num | heading | subheading" />
 			</h2>
 		</xsl:if>
-		<xsl:apply-templates select="*[not(self::num) and not(self::heading) and not(self::subheading)]" />
 		<xsl:call-template name="annotations" />
+		<xsl:apply-templates select="*[not(self::num) and not(self::heading) and not(self::subheading)]" />
 	</section>
 </xsl:template>
 
