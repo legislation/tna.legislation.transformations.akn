@@ -55,7 +55,7 @@ article.asp {
 
 .section {
 	margin-top: $spacing * 1.5;
-	margin-left: 1.5 * $indent;
+	padding-left: 1.5 * $indent;
 	> h2 {
 		font-weight: bold;
 		> .num {
@@ -64,6 +64,12 @@ article.asp {
 			margin-left: -1.5 * $indent
 		}
 	}
+}
+.section.prospective {
+	padding-left: 1.5 * $indent + 0.5em !important;
+}
+.section.prospective::before {
+	margin-left: -1.5 * $indent;
 }
 
 .subsection {

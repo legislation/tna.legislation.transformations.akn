@@ -334,6 +334,29 @@ cite {
   margin-left: -2.5em;
 }
 
+section.prospective {
+  border: 1px solid #ddd;
+  background-color: rgb(250, 250, 250);
+  margin-left: -0.5em;
+  padding-left: 0.5em;
+  margin-right: -0.5em;
+  padding-right: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+section.prospective::before {
+  display: block;
+  position: relative;
+  left: -0.5em;
+  margin-right: -1em;
+  margin-bottom: 0.5em;
+  background-color: rgb(235, 235, 235);
+  padding: 0.5em;
+  font-family: sans-serif;
+  font-weight: lighter;
+  content: "Prospective";
+}
+
 *[data-show-extent]::after {
   margin-left: 2em;
   background-color: darkMagenta;
@@ -356,12 +379,14 @@ section.subheading:first-of-type {
 }
 
 /* compact format */
+blockquote .article {
+  margin-top: 2em;
+}
 blockquote .article > h2 {
   display: inline;
 }
 blockquote .article > h2 > .heading {
   display: block;
-  margin-top: 2em;
   font-weight: bold;
   margin-bottom: 1em;
 }
@@ -558,7 +583,7 @@ article.asp {
 
 .section {
   margin-top: 1.5em;
-  margin-left: 3.75em;
+  padding-left: 3.75em;
 }
 .section > h2 {
   font-weight: bold;
@@ -566,6 +591,14 @@ article.asp {
 .section > h2 > .num {
   display: block;
   position: absolute;
+  margin-left: -3.75em;
+}
+
+.section.prospective {
+  padding-left: 4.25em !important;
+}
+
+.section.prospective::before {
   margin-left: -3.75em;
 }
 
