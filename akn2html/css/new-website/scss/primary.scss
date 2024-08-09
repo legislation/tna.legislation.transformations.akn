@@ -57,11 +57,12 @@ article.asp {
 	margin-top: $spacing * 1.5;
 	margin-left: 1.5 * $indent;
 	> h2 {
+		margin-left: -1.5 * $indent;
 		font-weight: bold;
 		> .num {
-			display: block;
-			position: absolute;
-			margin-left: -1.5 * $indent
+			display: inline-block;
+			min-width: calc(1.5 * $indent - 1ch);
+			padding-right: 1ch
 		}
 	}
 }
