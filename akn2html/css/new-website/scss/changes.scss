@@ -75,6 +75,8 @@ ins.last:after, del.last:after {
 	display: block;
 	position: absolute
 }
-.annotations > div > div > span.marker + * {
-	text-indent: 2em
+.annotations > div > div > p > span.marker {
+	display: inline-block;
+	min-width: 2em;
+	padding-right: 1ch
 }

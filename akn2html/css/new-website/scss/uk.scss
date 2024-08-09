@@ -15,9 +15,6 @@ $uk-font-size: 16pt;
 // 	}
 // }
 
-
-
-
 %small-level {
 	margin-top: $spacing
 }
@@ -130,6 +127,28 @@ $uk-font-size: 16pt;
 	}
 }
 
+section.prospective {
+	border: 1px solid #ddd;
+	background-color: rgb(250, 250, 250);
+	margin-left: -0.5em;
+	padding-left: 0.5em;
+	margin-right: -0.5em;
+	padding-right: 0.5em;
+	padding-bottom: 0.5em
+}
+section.prospective::before {
+	display: block;
+	position: relative;
+	left: -0.5em;
+	margin-right: -1em;
+	margin-bottom: 0.5em;
+	background-color: rgb(235, 235, 235);
+	padding: 0.5em;
+	font-family: sans-serif;
+	font-weight: lighter;
+	content: 'Prospective'
+}
+
 *[data-show-extent]::after {
 	margin-left: 2em;
 	background-color: darkMagenta;
@@ -169,13 +188,12 @@ section.subheading:first-of-type {
 /* compact format */
 
 %compact-p1 {
-	// margin-top: 2 * $spacing;
+	margin-top: 2 * $spacing; // better here than on .heading for .prospective
 	> h2 {
 		display: inline;
 	}
 	> h2 > .heading {
 		display: block;
-		margin-top: 2 * $spacing;
 		font-weight: bold;
 		margin-bottom: $spacing
 	}
@@ -441,11 +459,12 @@ blockquote:not(.secondary) .section {
 	margin-top: $spacing * 1.5;
 	margin-left: 1.5 * $indent;
 	> h2 {
+		margin-left: -1.5 * $indent;
 		font-weight: bold;
 		> .num {
-			display: block;
-			position: absolute;
-			margin-left: -1.5 * $indent
+			display: inline-block;
+			min-width: calc(1.5 * $indent - 1ch);
+			padding-right: 1ch;
 		}
 	}
 }
