@@ -497,12 +497,13 @@ blockquote:not(.secondary) .section {
   margin-left: 3.75em;
 }
 blockquote:not(.secondary) .section > h2 {
+  margin-left: -3.75em;
   font-weight: bold;
 }
 blockquote:not(.secondary) .section > h2 > .num {
-  display: block;
-  position: absolute;
-  margin-left: -3.75em;
+  display: inline-block;
+  min-width: calc(3.75em - 1ch);
+  padding-right: 1ch;
 }
 
 blockquote:not(.secondary) .subsection {
