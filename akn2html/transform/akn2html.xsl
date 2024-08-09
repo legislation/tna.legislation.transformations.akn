@@ -132,7 +132,20 @@
 	<xsl:call-template name="add-restrict-date-attributes" />
 </xsl:template>
 
+<xsl:key name="status" match="uk:status" use="substring(@href, 2)" />
+<xsl:key name="tlc-concept" match="TLCConcept" use="@eId" />
+
 <xsl:template name="add-status-attribute">
+	<xsl:if test="exists(@eId)">
+		<xsl:variable name="id" as="xs:string" select="@eId" />
+		<xsl:variable name="status" as="element(uk:status)?" select="key('status', $id)" />
+		<xsl:variable name="concept" as="element(TLCConcept)?" select="key('tlc-concept', substring($status/@refersTo, 2))" />
+		<xsl:if test="exists($concept)">
+			<xsl:attribute name="data-x-status">
+				<xsl:value-of select="$concept/@showAs" />
+			</xsl:attribute>
+		</xsl:if>
+	</xsl:if>
 </xsl:template>
 
 <xsl:key name="confers-power" match="uk:confersPower" use="substring(@href, 2)" />
@@ -472,14 +485,24 @@
 <!-- named templates -->
 
 <xsl:template name="big-level">
+	<xsl:param name="within-prospective" as="xs:boolean" select="false()" tunnel="yes" />
+	<xsl:variable name="is-prospective" as="xs:boolean" select="exists(@eId) and key('status', @eId)/@refersTo = '#status-prospective'" />
 	<section>
-		<xsl:call-template name="attrs" />
+		<xsl:call-template name="attrs">
+			<xsl:with-param name="classes" as="xs:string*">
+				<xsl:if test="not($within-prospective) and $is-prospective">
+					<xsl:sequence select="'prospective'" />
+				</xsl:if>
+			</xsl:with-param>
+		</xsl:call-template>
 		<xsl:if test="exists(num | heading | subheading)">
 			<h2>
 				<xsl:apply-templates select="num | heading | subheading" />
 			</h2>
 		</xsl:if>
-		<xsl:apply-templates select="*[not(self::num) and not(self::heading) and not(self::subheading)]" />
+		<xsl:apply-templates select="*[not(self::num) and not(self::heading) and not(self::subheading)]">
+			<xsl:with-param name="within-prospective" select="$is-prospective or $within-prospective" tunnel="yes" />
+		</xsl:apply-templates>
 		<xsl:call-template name="annotations" />
 	</section>
 </xsl:template>
@@ -488,8 +511,16 @@
 <!-- P1 -->
 
 <xsl:template name="p1">
+	<xsl:param name="within-prospective" as="xs:boolean" select="false()" tunnel="yes" />
+	<xsl:variable name="is-prospective" as="xs:boolean" select="exists(@eId) and key('status', @eId)/@refersTo = '#status-prospective'" />
 	<section>
-		<xsl:call-template name="attrs" />
+		<xsl:call-template name="attrs">
+			<xsl:with-param name="classes" as="xs:string*">
+				<xsl:if test="not($within-prospective) and $is-prospective">
+					<xsl:sequence select="'prospective'" />
+				</xsl:if>
+			</xsl:with-param>
+		</xsl:call-template>
 		<h2>
 			<xsl:apply-templates select="num | heading | subheading" />			
 		</h2>
