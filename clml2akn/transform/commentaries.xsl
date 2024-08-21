@@ -177,7 +177,7 @@
 		<xsl:variable name="desc-elements" as="element()*">
 			<xsl:choose>
 				<xsl:when test="exists(parent::P1group) and empty(preceding-sibling::P1)">
-					<xsl:sequence select="( ../Title/descendant-or-self::*[exists(@CommentaryRef)] | ../Title/descendant::CommentaryRef | descendant-or-self::*[exists(@CommentaryRef)] | descendant::CommentaryRef )" />
+					<xsl:sequence select="( ../CommentaryRef | ../Title/descendant-or-self::*[exists(@CommentaryRef)] | ../Title/descendant::CommentaryRef | descendant-or-self::*[exists(@CommentaryRef)] | descendant::CommentaryRef )" />
 				</xsl:when>
 				<xsl:otherwise>
 					<xsl:sequence select="( descendant-or-self::*[exists(@CommentaryRef)] | descendant::CommentaryRef )" />
