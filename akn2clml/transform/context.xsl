@@ -147,6 +147,9 @@
 		<xsl:when test="$clml = ('Tabular', 'Figure', 'Form') and $context[1] = 'ScheduleBody'">
 			<xsl:sequence select="()" />
 		</xsl:when>
+		<xsl:when test="$clml = ('Tabular', 'Figure', 'Form') and $context[1] = 'Part' and $context[2] = 'ScheduleBody'">
+			<xsl:sequence select="()" />
+		</xsl:when>
 		<xsl:when test="$clml = 'BlockText' and $context[1] = ('BlockAmendment', 'td')">
 			<xsl:sequence select="'Para'" />
 		</xsl:when>
