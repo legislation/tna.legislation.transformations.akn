@@ -98,6 +98,88 @@
 	</xsl:choose>
 </xsl:function>
 
+<xsl:function name="local:get-structure-name-from-class-alone" as="xs:string?">
+	<xsl:param name="doc-class" as="xs:string" />
+	<xsl:param name="akn-element-class" as="xs:string" />
+	<xsl:choose>
+		<xsl:when test="$akn-element-class = 'group1'">
+			<xsl:sequence select="'Group'" />
+		</xsl:when>
+		<xsl:when test="$akn-element-class = 'group2'">
+			<xsl:sequence select="if ($doc-class = 'euretained') then 'EUPart' else 'Part'" />
+		</xsl:when>
+		<xsl:when test="$akn-element-class = 'group3'">
+			<xsl:sequence select="'EUTitle'" />
+		</xsl:when>
+		<xsl:when test="$akn-element-class = 'group4'">
+			<xsl:sequence select="if ($doc-class = 'euretained') then 'EUChapter' else 'Chapter'" />
+		</xsl:when>
+		<xsl:when test="$akn-element-class = 'group5'">
+			<xsl:sequence select="if ($doc-class = 'euretained') then 'EUSection' else 'Pblock'" />
+		</xsl:when>
+		<xsl:when test="$akn-element-class = 'group6'">
+			<xsl:sequence select="if ($doc-class = 'euretained') then 'EUSubsection' else 'PsubBlock'" />
+		</xsl:when>
+		<xsl:when test="$akn-element-class = 'group7'">
+			<xsl:sequence select="if ($doc-class = 'euretained') then 'Division' else 'Pblock'" />
+		</xsl:when>
+		<xsl:when test="$akn-element-class = 'group8'">
+			<xsl:sequence select="if ($doc-class = 'euretained') then 'Division' else 'PsubBlock'" />
+		</xsl:when>
+		<xsl:when test="$akn-element-class = 'prov1'">
+			<xsl:sequence select="'P1'" />
+		</xsl:when>
+		<xsl:when test="$akn-element-class = 'prov2'">
+			<xsl:sequence select="'P2'" />
+		</xsl:when>
+		<xsl:when test="$akn-element-class = 'para1'">
+			<xsl:sequence select="'P3'" />
+		</xsl:when>
+		<xsl:when test="$akn-element-class = 'para2'">
+			<xsl:sequence select="'P4'" />
+		</xsl:when>
+		<xsl:when test="$akn-element-class = 'para3'">
+			<xsl:sequence select="'P5'" />
+		</xsl:when>
+		<xsl:when test="$akn-element-class = 'para4'">
+			<xsl:sequence select="'P6'" />
+		</xsl:when>
+		<xsl:when test="$akn-element-class = 'sch'">
+			<xsl:sequence select="'Schedule'" />
+		</xsl:when>
+		<xsl:when test="$akn-element-class = 'schProv1'">
+			<xsl:sequence select="'P1'" />
+		</xsl:when>
+		<xsl:when test="$akn-element-class = 'schProv2'">
+			<xsl:sequence select="'P2'" />
+		</xsl:when>
+		<xsl:when test="$akn-element-class = 'schGroup1'">
+			<xsl:sequence select="'Group'" />
+		</xsl:when>
+		<xsl:when test="$akn-element-class = 'schGroup2'">
+			<xsl:sequence select="if ($doc-class = 'euretained') then 'EUPart' else 'Part'" />
+		</xsl:when>
+		<xsl:when test="$akn-element-class = 'schGroup3'">
+			<xsl:sequence select="'EUTitle'" />
+		</xsl:when>
+		<xsl:when test="$akn-element-class = 'schGroup4'">
+			<xsl:sequence select="if ($doc-class = 'euretained') then 'EUChapter' else 'Chapter'" />
+		</xsl:when>
+		<xsl:when test="$akn-element-class = 'schGroup5'">
+			<xsl:sequence select="if ($doc-class = 'euretained') then 'EUSection' else 'Pblock'" />
+		</xsl:when>
+		<xsl:when test="$akn-element-class = 'schGroup6'">
+			<xsl:sequence select="if ($doc-class = 'euretained') then 'EUSubsection' else 'PsubBlock'" />
+		</xsl:when>
+		<xsl:when test="$akn-element-class = 'schGroup7'">
+			<xsl:sequence select="if ($doc-class = 'euretained') then 'Division' else 'Pblock'" />
+		</xsl:when>
+		<xsl:when test="$akn-element-class = 'schGroup8'">
+			<xsl:sequence select="if ($doc-class = 'euretained') then 'Division' else 'PsubBlock'" />
+		</xsl:when>
+	</xsl:choose>
+</xsl:function>
+
 <xsl:function name="local:akn-is-within-schedule" as="xs:boolean">
 	<xsl:param name="akn" as="element()" />
 	<xsl:choose>
@@ -246,7 +328,17 @@
 				<xsl:sequence select="local:one-more-than-context($context)" />
 			</xsl:when>
 			<xsl:otherwise>
-				<xsl:sequence select="local:get-structure-name($doc-class, $doc-subclass, $within-schedule, $akn-element-name, $akn-class)" />
+				<xsl:variable name="structure-name" as="xs:string?">
+					<xsl:sequence select="local:get-structure-name($doc-class, $doc-subclass, $within-schedule, $akn-element-name, $akn-class)" />
+				</xsl:variable>
+				<xsl:choose>
+					<xsl:when test="exists($structure-name)">
+						<xsl:sequence select="$structure-name" />
+					</xsl:when>
+					<xsl:when test="exists($akn-class)">
+						<xsl:sequence select="local:get-structure-name-from-class-alone($doc-class, $akn-class)" />
+					</xsl:when>
+				</xsl:choose>
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:variable>
