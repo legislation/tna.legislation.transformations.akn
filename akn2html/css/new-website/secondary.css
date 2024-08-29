@@ -524,8 +524,6 @@ body {
 
 .banner {
   margin-top: 1em;
-  border-top: 2pt solid black;
-  border-bottom: 2pt solid black;
   padding: 1ex;
   text-align: center;
   text-transform: uppercase;
