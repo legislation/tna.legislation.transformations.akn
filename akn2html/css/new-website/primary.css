@@ -499,6 +499,15 @@ blockquote .article > .paragraph:first-of-type > h2 > .num::before {
 /* schedule paragraphs P1 class=schProv1 */
 /* schedule subparagraphs P2 class=schProv2 */
 /* tables */
+table {
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+}
+
+tbody {
+  border-bottom: solid 1px black;
+}
+
 thead th, thead td {
   font-weight: normal;
   font-style: italic;
