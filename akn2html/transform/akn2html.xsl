@@ -500,10 +500,10 @@
 				<xsl:apply-templates select="num | heading | subheading" />
 			</h2>
 		</xsl:if>
+		<xsl:call-template name="annotations" />
 		<xsl:apply-templates select="*[not(self::num) and not(self::heading) and not(self::subheading)]">
 			<xsl:with-param name="within-prospective" select="$is-prospective or $within-prospective" tunnel="yes" />
 		</xsl:apply-templates>
-		<xsl:call-template name="annotations" />
 	</section>
 </xsl:template>
 
