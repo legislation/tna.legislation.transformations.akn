@@ -517,4 +517,6 @@
 	</xsl:choose>
 </xsl:variable>
 
+<xsl:variable name="dc-identifier" as="xs:string" select="/Legislation/ukm:Metadata/dc:identifier" />
+
 </xsl:transform>
