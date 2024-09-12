@@ -440,6 +440,14 @@ div.definition { @extend %p3; }
 
 /* tables */
 
+table {
+	border-top: solid 1px black;
+	border-bottom: solid 1px black
+}
+tbody {
+	border-bottom: solid 1px black
+}
+
 thead th, thead td {
 	font-weight: normal;
 	font-style: italic
