@@ -289,6 +289,10 @@
 	</CitationSubRef>
 </xsl:template>
 
+<xsl:template match="mref">
+	<xsl:apply-templates />
+</xsl:template>
+
 <xsl:template match="a[not(starts-with(@href, '#'))]">
 	<xsl:param name="context" as="xs:string*" tunnel="yes" />
 	<ExternalLink URI="{ @href }">
