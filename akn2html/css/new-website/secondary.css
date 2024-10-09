@@ -264,6 +264,10 @@ figure > p {
   text-transform: uppercase;
 }
 
+.smallCaps {
+  font-variant: small-caps;
+}
+
 a {
   color: #2790C4;
 }
