@@ -165,6 +165,7 @@ ins.last:after, del.last:after {
 
 body {
   margin: 1cm 1in;
+  font-family: arial, helvetica, verdana, sans-serif;
   font-size: 16pt;
 }
 
@@ -336,11 +337,6 @@ ins.last:after, del.last:after {
   display: inline-block;
   min-width: 2em;
   padding-right: 1ch;
-}
-
-body {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 16pt;
 }
 
 .longTitle {
