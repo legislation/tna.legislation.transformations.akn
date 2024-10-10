@@ -123,7 +123,7 @@
 			</rref>
 		</xsl:when>
 		<xsl:otherwise>
-			<ref eId="{ @id }" class="subref">
+			<ref eId="{ @id }" class="{ if (@Operative = 'true') then 'subref operative' else 'subref' }">
 				<xsl:attribute name="href">
 					<xsl:choose>
 						<xsl:when test="exists(@URI)">
