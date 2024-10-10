@@ -559,13 +559,12 @@ article.asp {
 .preface > h1 {
   text-align: center;
   font-weight: normal;
-  font-size: 32pt;
+  font-size: 21.6pt;
 }
 .preface > .number {
   margin-top: 0 !important;
   text-align: center;
   font-weight: bold;
-  font-size: 20pt;
 }
 .preface > .block {
   margin-top: 1em;
