@@ -165,6 +165,7 @@ ins.last:after, del.last:after {
 
 body {
   margin: 1cm 1in;
+  font-family: arial, helvetica, verdana, sans-serif;
   font-size: 16pt;
 }
 
@@ -352,7 +353,7 @@ section.prospective::before {
   margin-bottom: 0.5em;
   background-color: rgb(235, 235, 235);
   padding: 0.5em;
-  font-family: sans-serif;
+  font-family: Roboto, sans-serif;
   font-weight: lighter;
   content: "Prospective";
 }
@@ -518,10 +519,6 @@ blockquote:not(.secondary) .section > h2 > .num {
 blockquote:not(.secondary) .subsection {
   margin-left: 2.5em;
 }
-body {
-  font-family: "Times New Roman", Times, serif;
-}
-
 .correctionRubric {
   margin-top: 1em;
   font-style: italic;
