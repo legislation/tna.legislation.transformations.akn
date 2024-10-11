@@ -282,6 +282,10 @@ cite {
   font-style: normal;
 }
 
+cite.operative {
+  font-weight: bold;
+}
+
 ins, del {
   text-decoration: none;
 }
