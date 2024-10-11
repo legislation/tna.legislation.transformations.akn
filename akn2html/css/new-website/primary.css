@@ -561,12 +561,11 @@ blockquote:not(.secondary) .subsection {
 .preface > h1 {
   text-align: center;
   font-weight: normal;
-  font-size: 32pt;
+  font-size: 21.6pt;
 }
 .preface > .number {
   text-align: center;
   font-weight: bold;
-  font-size: 20pt;
 }
 .preface > .block {
   margin-top: 1em;
