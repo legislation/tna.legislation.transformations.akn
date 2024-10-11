@@ -126,9 +126,8 @@ img {
 // 	display: none
 // }
 
-a { color: #2790C4 }
-a[href=''], a[href^='#'] {
-	color: inherit;
+a {
+	color: #0A64D7; // rgba(10, 100, 215)
 	text-decoration: none;
 	&:hover {
 		text-decoration: underline

@@ -136,7 +136,17 @@
 	<p>
 		<xsl:if test="../@marker">
 			<span class="marker">
-				<xsl:value-of select="../@marker" />
+				<xsl:choose>
+					<xsl:when test="../@ukl:Type='F'">
+						<xsl:variable name="id" select="../@eId" />
+							<a id="{ $id }" href="#ref-{ $id }">
+								<xsl:value-of select="../@marker" />
+							</a>
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:value-of select="../@marker" />
+					</xsl:otherwise>
+				</xsl:choose>
 			</span>
 		</xsl:if>
 		<xsl:apply-templates />
