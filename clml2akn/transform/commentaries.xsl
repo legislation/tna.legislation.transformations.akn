@@ -108,7 +108,7 @@
 	</xsl:for-each>
 </xsl:template>
 
-<xsl:template match="Group | Part | Chapter | Pblock | PsubBlock | EUPart | EUTitle | EUChapter | EUSection | EUSubsection" mode="other-analysis">
+<xsl:template match="Group | Part | Chapter | Pblock | PsubBlock | Schedule | EUPart | EUTitle | EUChapter | EUSection | EUSubsection" mode="other-analysis">
 
 	<xsl:param name="already-handled-commentary-ids" as="xs:string*" select="()" />
 	<xsl:variable name="id" as="xs:string" select="if (exists(@id)) then @id else generate-id()" />
@@ -139,7 +139,13 @@
 			<xsl:apply-templates mode="other-analysis" />
 		</xsl:otherwise>
 	</xsl:choose>
+</xsl:template>
 
+<xsl:template match="ScheduleBody" mode="other-analysis">
+	<xsl:param name="already-handled-commentary-ids" as="xs:string*" select="()" />
+	<xsl:apply-templates mode="other-analysis">
+		<xsl:with-param name="already-handled-commentary-ids" select="$already-handled-commentary-ids" />
+	</xsl:apply-templates>
 </xsl:template>
 
 <xsl:template match="P1group" mode="other-analysis">
