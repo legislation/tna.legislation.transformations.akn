@@ -390,6 +390,8 @@
 
 <!-- variables -->
 
+<xsl:variable name="dc-identifier" as="xs:string" select="/Legislation/ukm:Metadata/dc:identifier" />
+
 <xsl:variable name="doc-long-type" as="xs:string">
 	<xsl:sequence select="/Legislation/ukm:Metadata/ukm:*/ukm:DocumentClassification/ukm:DocumentMainType/@Value" />
 </xsl:variable>
@@ -431,25 +433,20 @@
 		<xsl:when test="exists($ukm-number)">
 			<xsl:sequence select="$ukm-number/@Value" />
 		</xsl:when>
-		<xsl:otherwise>
-			<xsl:variable name="dc-identifier" as="xs:string?" select="//ukm:Metadata/dc:identifier[1]" />
+		<xsl:when test="exists($dc-identifier)">
+			<xsl:variable name="good-part" as="xs:string" select="substring-after($dc-identifier, 'legislation.gov.uk/')" />
+			<xsl:variable name="parts" as="xs:string*" select="tokenize($good-part, '/')" />
 			<xsl:choose>
-				<xsl:when test="exists($dc-identifier)">
-					<xsl:variable name="good-part" as="xs:string" select="substring-after($dc-identifier, 'legislation.gov.uk/')" />
-					<xsl:variable name="parts" as="xs:string*" select="tokenize($good-part, '/')" />
-					<xsl:choose>
-						<xsl:when test="$parts[2] castable as xs:integer">
-							<xsl:sequence select="$parts[3]" />
-						</xsl:when>
-						<xsl:otherwise>	<!-- 2 and 3 are regnal year -->
-							<xsl:sequence select="$parts[4]" />
-						</xsl:otherwise>
-					</xsl:choose>
+				<xsl:when test="$parts[2] castable as xs:integer">
+					<xsl:sequence select="$parts[3]" />
 				</xsl:when>
-				<xsl:otherwise>
-					<xsl:sequence select="'0'" />
+				<xsl:otherwise>	<!-- 2 and 3 are regnal year -->
+					<xsl:sequence select="$parts[4]" />
 				</xsl:otherwise>
 			</xsl:choose>
+		</xsl:when>
+		<xsl:otherwise>
+			<xsl:sequence select="'0'" />
 		</xsl:otherwise>
 	</xsl:choose>
 </xsl:variable>
@@ -458,23 +455,6 @@
 
 <xsl:variable name="doc-short-id" as="xs:string">
 	<xsl:sequence select="concat($doc-short-type, '/', $doc-year, '/', $doc-number)" />
-<!-- 	<xsl:variable name="dc-identifier" as="xs:string?" select="//ukm:Metadata/dc:identifier[1]" />
-	<xsl:choose>
-		<xsl:when test="exists($dc-identifier)">
-			<xsl:variable name="good-part" as="xs:string" select="substring-after($dc-identifier, 'legislation.gov.uk/')" />
-			<xsl:variable name="parts" as="xs:string*" select="tokenize($good-part, '/')" />
-			<xsl:choose>
-				<xsl:when test="true()">
-					<xsl:sequence select="string-join($parts, '/')" />
-				</xsl:when>
-				<xsl:otherwise>
-					<xsl:sequence select="string-join($parts, '/')" />
-				</xsl:otherwise>
-			</xsl:choose>
-		</xsl:when>
-		<xsl:otherwise>
-		</xsl:otherwise>
-	</xsl:choose> -->
 </xsl:variable>
 
 <xsl:variable name="doc-long-id" as="xs:string">
@@ -482,7 +462,6 @@
 </xsl:variable>
 
 <xsl:variable name="doc-version" as="xs:string">
-	<xsl:variable name="dc-identifier" as="xs:string" select="(//dc:identifier)[1]" />
 	<xsl:variable name="good-part" as="xs:string" select="substring-after($dc-identifier, 'legislation.gov.uk/')" />
 	<xsl:variable name="parts" as="xs:string*" select="tokenize($good-part, '/')" />
 	<xsl:variable name="last-part" as="xs:string" select="$parts[last()]" />
@@ -516,7 +495,5 @@
 		</xsl:otherwise>
 	</xsl:choose>
 </xsl:variable>
-
-<xsl:variable name="dc-identifier" as="xs:string" select="/Legislation/ukm:Metadata/dc:identifier" />
 
 </xsl:transform>
