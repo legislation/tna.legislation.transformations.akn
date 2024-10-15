@@ -476,8 +476,10 @@
 </xsl:template>
 
 <xsl:template match="hcontainer">	<!-- e.g., division -->
+	<xsl:param name="indent" as="xs:integer" select="0" tunnel="yes" />
 	<xsl:call-template name="p3">
 		<xsl:with-param name="class" select="if (empty(num)) then 'no-num' else ()" />
+		<xsl:with-param name="indent" select="$indent" tunnel="yes" />
 	</xsl:call-template>
 </xsl:template>
 
@@ -585,6 +587,10 @@
 
 
 <!-- schedules and explanatory notes -->
+
+<xsl:template match="hcontainer[@name='schedules']"> <!-- best not to rely on the generic 'hcontainer' match above -->
+	<xsl:apply-templates />
+</xsl:template>
 
 <xsl:template match="hcontainer[@name='schedule']">
 	<xsl:call-template name="big-level">
