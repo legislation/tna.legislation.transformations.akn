@@ -152,15 +152,16 @@ ins.last:after, del.last:after {
   font-weight: bold;
 }
 
-.annotations > div > div > span.marker {
-  display: block;
-  position: absolute;
+.annotations > div > div > p:first-child {
+  margin-left: 3em;
+  text-indent: -3em;
 }
 
 .annotations > div > div > p > span.marker {
   display: inline-block;
-  min-width: 2em;
-  padding-right: 1ch;
+  text-indent: initial;
+  min-width: 2em; /* text-indent - padding-right */
+  padding-right: 1em;
 }
 
 body {
@@ -331,15 +332,16 @@ ins.last:after, del.last:after {
   font-weight: bold;
 }
 
-.annotations > div > div > span.marker {
-  display: block;
-  position: absolute;
+.annotations > div > div > p:first-child {
+  margin-left: 3em;
+  text-indent: -3em;
 }
 
 .annotations > div > div > p > span.marker {
   display: inline-block;
-  min-width: 2em;
-  padding-right: 1ch;
+  text-indent: initial;
+  min-width: 2em; /* text-indent - padding-right */
+  padding-right: 1em;
 }
 
 body {
