@@ -896,19 +896,33 @@
 	<xsl:param name="indent" as="xs:integer" select="0" tunnel="yes" />
 	<xsl:element name="{ local-name() }">
 		<xsl:apply-templates select="@* except (@cols, @summary)" />
-		<xsl:if test="$indent gt 0">
+		<xsl:variable name="class" as="xs:string?">
+			<xsl:choose>
+				<xsl:when test="$indent gt 0 and exists(@class)">
+					<xsl:sequence select="concat(@class, ' level-', string($indent))" />
+				</xsl:when>
+				<xsl:when test="$indent gt 0">
+					<xsl:sequence select="concat('level-', string($indent))" />
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:sequence select="@class" />
+				</xsl:otherwise>
+			</xsl:choose>
+		</xsl:variable>
+		<xsl:if test="exists($class)">
 			<xsl:attribute name="class">
-				<xsl:if test="exists(@class)">
-					<xsl:value-of select="@class" />
-					<xsl:text> </xsl:text>
-				</xsl:if>
-				<xsl:text>level-</xsl:text>
-				<xsl:value-of select="$indent" />
+				<xsl:value-of select="$class" />
 			</xsl:attribute>
 		</xsl:if>
 		<xsl:apply-templates select="*[not(self::html:tfoot)]" />
 		<xsl:apply-templates select="html:tfoot" />
 	</xsl:element>
+	<xsl:variable name="footnotes" as="element()*" select="descendant::authorialNote[@class='tablenote']" />
+	<xsl:if test="exists($footnotes)">
+		<div class="tablenotes">
+			<xsl:apply-templates select="$footnotes" mode="footnote" />
+		</div>
+	</xsl:if>
 </xsl:template>
 
 <xsl:template match="html:colgroup">
@@ -1057,6 +1071,19 @@
 			</span>
 			<xsl:text> </xsl:text>
 		</xsl:when>
+		<xsl:when test="@class = ('footnote', 'tablenote')">
+			<a class="fnRef">
+				<xsl:copy-of select="@href" />
+				<xsl:choose>
+					<xsl:when test="exists(@marker)">
+						<xsl:value-of select="@marker" />
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:value-of select="position()" />
+					</xsl:otherwise>
+				</xsl:choose>
+			</a>
+		</xsl:when>
 		<xsl:otherwise>
 			<a>
 				<xsl:call-template name="attrs" />
@@ -1179,7 +1206,7 @@
 	</xsl:if>
 </xsl:template>
 
-<xsl:template match="authorialNote[@class='footnote']">
+<xsl:template match="authorialNote[@class=('footnote','tablenote')]">
 	<xsl:variable name="id" as="xs:string" select="if (@id) then @id else generate-id()" />
 	<a class="fnRef" id="ref-{ $id }" href="#{ $id }">
 		<xsl:choose>
