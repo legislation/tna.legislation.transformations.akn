@@ -405,22 +405,18 @@ blockquote .article > .intro, blockquote .article > .content {
 }
 blockquote .article > .intro > p:first-child, blockquote .article > .intro .p:first-child, blockquote .article > .content > p:first-child, blockquote .article > .content .p:first-child {
   display: inline;
+  padding-left: 1ch;
 }
 
 blockquote.secondary .paragraph > h2, blockquote .article > .paragraph > h2, blockquote .article > .paragraph:first-of-type > h2 {
   display: inline;
 }
-blockquote.secondary .paragraph > .intro, blockquote .article > .paragraph > .intro {
+blockquote.secondary .paragraph > .intro, blockquote .article > .paragraph > .intro, blockquote.secondary .paragraph > .content, blockquote .article > .paragraph > .content {
   display: inline;
 }
-blockquote.secondary .paragraph > .intro > *:first-child, blockquote .article > .paragraph > .intro > *:first-child {
+blockquote.secondary .paragraph > .intro > p:first-child, blockquote .article > .paragraph > .intro > p:first-child, blockquote.secondary .paragraph > .intro .p:first-child, blockquote .article > .paragraph > .intro .p:first-child, blockquote.secondary .paragraph > .content > p:first-child, blockquote .article > .paragraph > .content > p:first-child, blockquote.secondary .paragraph > .content .p:first-child, blockquote .article > .paragraph > .content .p:first-child {
   display: inline;
-}
-blockquote.secondary .paragraph > .content, blockquote .article > .paragraph > .content {
-  display: inline;
-}
-blockquote.secondary .paragraph > .content > *:first-child, blockquote .article > .paragraph > .content > *:first-child {
-  display: inline;
+  padding-left: 1ch;
 }
 
 blockquote .article > .paragraph:first-of-type {
