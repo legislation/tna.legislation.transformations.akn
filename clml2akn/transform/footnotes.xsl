@@ -29,40 +29,26 @@
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:variable>
+	<xsl:variable name="marker" as="xs:string">
+		<xsl:choose>
+			<xsl:when test="exists($footnote/Number)">
+				<xsl:value-of select="normalize-space($footnote/Number)" />
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:value-of select="number(substring(@Ref , 2))" />
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:variable>
 	<xsl:choose>
 		<xsl:when test=". is key('footnote-ref', @Ref)[1]">	<!-- empty(preceding::FootnoteRef[@Ref=current()/@Ref]) -->
-			<authorialNote class="{ $class }">
-				<xsl:attribute name="eId">
-					<xsl:value-of select="$footnote/@id" />
-				</xsl:attribute>
-				<xsl:attribute name="marker">
-					<xsl:choose>
-						<xsl:when test="exists($footnote/Number)">
-							<xsl:value-of select="normalize-space($footnote/Number)" />
-						</xsl:when>
-						<xsl:otherwise>
-							<xsl:value-of select="number(substring(@Ref , 2))" />
-						</xsl:otherwise>
-					</xsl:choose>
-				</xsl:attribute>
+			<authorialNote class="{ $class }" eId="{ $footnote/@id }" marker="{ $marker }">
 				<xsl:apply-templates select="$footnote/node() except $footnote/Number">
 					<xsl:with-param name="context" select="'authorialNote'" tunnel="yes" />
 				</xsl:apply-templates>
 			</authorialNote>
 		</xsl:when>
 		<xsl:otherwise>
-			<noteRef class="{ $class }" href="#{ @Ref }">
-				<xsl:attribute name="marker">
-					<xsl:choose>
-						<xsl:when test="$footnote/Number">
-							<xsl:value-of select="$footnote/Number" />
-						</xsl:when>
-						<xsl:otherwise>
-							<xsl:value-of select="number(substring(@Ref , 2))" />
-						</xsl:otherwise>
-					</xsl:choose>
-				</xsl:attribute>
-			</noteRef>
+			<noteRef class="{ $class }" href="#{ @Ref }" marker="{ $marker }" />
 		</xsl:otherwise>
 	</xsl:choose>
 </xsl:template>
