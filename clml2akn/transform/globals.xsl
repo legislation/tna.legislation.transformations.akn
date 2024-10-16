@@ -390,7 +390,7 @@
 
 <!-- variables -->
 
-<xsl:variable name="dc-identifier" as="xs:string" select="/Legislation/ukm:Metadata/dc:identifier" />
+<xsl:variable name="dc-identifier" as="xs:string" select="/Legislation/ukm:Metadata/dc:identifier[1]" />
 
 <xsl:variable name="doc-long-type" as="xs:string">
 	<xsl:sequence select="/Legislation/ukm:Metadata/ukm:*/ukm:DocumentClassification/ukm:DocumentMainType/@Value" />
