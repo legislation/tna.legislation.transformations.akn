@@ -27,13 +27,13 @@ body {
 	> h1 {
 		text-align: center;
 		font-weight: normal;
-		font-size: $uk-font-size * 1.5;
+		font-size: $uk-font-size * 1.35;
 	}
 	> .number {
 		margin-top: $spacing;
 		text-align: center;
 		font-weight: bold;
-		font-size: $uk-font-size * 1.25;
+//		font-size: $uk-font-size
 	}
 }
 // .preface {
@@ -46,7 +46,7 @@ body {
 	margin-top: $spacing;
 	margin-bottom: $spacing;	// so spacing for subsubjects is uniform, even though smaller font
 	text-align: center;
-	font-size: $uk-font-size * 1.5;
+//	font-size: $uk-font-size;
 	font-weight: bold;
 	text-transform: uppercase
 }
@@ -54,7 +54,7 @@ body {
 .subsubject {
 	margin-top: $spacing;
 	text-align: center;
-	font-size: $uk-font-size * 1.25;
+//	font-size: $uk-font-size;
 	font-weight: bold;
 	text-transform: uppercase
 }
