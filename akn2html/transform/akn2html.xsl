@@ -1043,11 +1043,22 @@
 	<xsl:choose>
 		<xsl:when test="@uk:name = 'commentary' or tokenize(@class, ' ') = 'commentary'">
 			<xsl:variable name="commentary" as="element(note)?" select="key('id', substring(@href, 2))" />
-			<span>
-				<xsl:call-template name="add-class-attribute" />
-				<xsl:apply-templates select="@* except (@href, @class)" />
-				<xsl:value-of select="$commentary/@marker" />
-			</span>
+			<xsl:choose>
+				<xsl:when test="$commentary/@ukl:Type='F'">
+					<a class="fnRef" id="ref-{ substring(@href, 2) }" href="{ @href }">
+						<xsl:call-template name="add-class-attribute" />
+						<xsl:apply-templates select="@* except (@href, @class)" />
+						<xsl:value-of select="$commentary/@marker" />
+					</a>
+				</xsl:when>
+				<xsl:otherwise>
+					<span>
+						<xsl:call-template name="add-class-attribute" />
+						<xsl:apply-templates select="@* except (@href, @class)" />
+						<xsl:value-of select="$commentary/@marker" />
+					</span>
+				</xsl:otherwise>
+			</xsl:choose>
 		</xsl:when>
 		<xsl:when test="exists(ancestor::ref)">
 			<span>
