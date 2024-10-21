@@ -864,9 +864,8 @@
 
 <xsl:template match="tocItem">
 	<div class="{string-join((name(), @class), ' ')}">
-		<xsl:apply-templates select="@*[not(name() = 'class')][not(name() = 'href')]" />
-		<a>
-			<xsl:apply-templates select="@href" />
+		<xsl:apply-templates select="@* except @class, @href" />
+		<a href="{ @href }">
 			<xsl:apply-templates />
 		</a>
 	</div>
