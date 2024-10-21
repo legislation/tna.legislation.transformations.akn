@@ -150,8 +150,12 @@ blockquote > .para2
 	position: relative;  // may be unnecessary
 	margin-top: $spacing
 }
-.signatureBlock > .content > div {	// could be .block, but should exclude intro p
+.signatureBlock > .content > div {	// excludes intro p
     text-align: right
+}
+.signatureBlock > .content > div.seal {
+	margin-top: 0.5 * $spacing;
+	text-align: left
 }
 .signatureBlock > .content > .signature {
 	font-style: italic
