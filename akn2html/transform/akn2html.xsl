@@ -617,7 +617,7 @@
 <xsl:template match="hcontainer[@name='schedule']/num | hcontainer[@name='schedule']/part/num">
 	<span>
 		<xsl:call-template name="attrs" />
-		<xsl:apply-templates select="node()[not(self::authorialNote)]" />
+		<xsl:apply-templates />
 	</span>
 </xsl:template>
 
