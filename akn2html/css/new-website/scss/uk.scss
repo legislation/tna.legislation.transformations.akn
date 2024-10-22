@@ -374,10 +374,14 @@ div.definition { @extend %p3; }
 	}
 }
 
-.referenceNote {
+article:not(.asp) .referenceNote {
 	position: absolute;
 	top: -1em;
 	right: 0;
+	font-size: smaller
+}
+article.asp .referenceNote {
+	text-align: center;
 	font-size: smaller
 }
 
