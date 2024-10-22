@@ -10,57 +10,42 @@
 	exclude-result-prefixes="xs ukl local">
 
 <xsl:template match="Contents">
-	<xsl:apply-templates select="ContentsTitle" />
-	<toc>
-		<xsl:apply-templates select="* except ContentsTitle">
-			<xsl:with-param name="level" select="1" />
-		</xsl:apply-templates>
-	</toc>
+	<coverPage>
+		<xsl:apply-templates select="ContentsTitle" />
+		<toc>
+			<xsl:apply-templates select="* except ContentsTitle" />
+		</toc>
+	</coverPage>
 </xsl:template>
 
 <xsl:template match="Contents/ContentsTitle">
-	<block name="ToCHeading">
-		<xsl:apply-templates />
+	<block name="title">
+		<docTitle>
+			<xsl:apply-templates />
+		</docTitle>
 	</block>
 </xsl:template>
 
 <xsl:template match="ContentsGroup | ContentsPart | ContentsChapter | ContentsPblock | ContentsPsubBlock | ContentsSchedules | ContentsSchedule | ContentsAppendix | ContentsDivision | ContentsItem">
-	<xsl:param name="level" as="xs:integer" select="1" />
-	<xsl:call-template name="toc-item">
-		<xsl:with-param name="level" select="$level" />
-		<xsl:with-param name="ukl-name" select="local-name()" />
-	</xsl:call-template>
-</xsl:template>
-
-<xsl:template name="toc-item">
-	<xsl:param name="level" as="xs:integer" select="1" />
-	<xsl:param name="ukl-name" as="xs:string?" select="()" />
-	<tocItem>
-		<xsl:attribute name="href">
-		</xsl:attribute>
-		<xsl:attribute name="level">
-			<xsl:value-of select="$level" />
-		</xsl:attribute>
-		<xsl:if test="exists($ukl-name)">
-			<xsl:attribute name="ukl:Name">
-				<xsl:value-of select="$ukl-name" />
-			</xsl:attribute>
-		</xsl:if>
-		<xsl:apply-templates select="ContentsNumber | ContentsTitle" />
-	</tocItem>
+	<xsl:param name="level" as="xs:integer" select="if (self::ContentsSchedules) then 0 else 1" />
+	<xsl:if test="exists(ContentsNumber | ContentsTitle)">
+		<tocItem level="{ $level }" href="{ @DocumentURI }" ukl:Name="{ local-name() }">
+			<xsl:apply-templates select="ContentsNumber | ContentsTitle" />
+		</tocItem>
+	</xsl:if>
 	<xsl:apply-templates select="* except (ContentsNumber, ContentsTitle)">
 		<xsl:with-param name="level" select="$level + 1" />
 	</xsl:apply-templates>
 </xsl:template>
 
 <xsl:template match="ContentsNumber">
-	<inline name="tocNum" ukl:Name="ContentsNumber">
+	<inline name="tocNum">
 		<xsl:apply-templates />
 	</inline>
 </xsl:template>
 
 <xsl:template match="ContentsTitle">
-	<inline name="tocHeading" ukl:Name="ContentsTitle">
+	<inline name="tocHeading">
 		<xsl:apply-templates />
 	</inline>
 </xsl:template>

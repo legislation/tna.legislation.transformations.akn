@@ -286,6 +286,35 @@ cite.operative {
   font-weight: bold;
 }
 
+/* tables of contents */
+.tocItem {
+  margin-top: 0.25em;
+}
+
+.tocItem[data-level="2"] {
+  margin-left: 1em;
+}
+
+.tocItem[data-level="3"] {
+  margin-left: 2em;
+}
+
+.tocItem[data-level="4"] {
+  margin-left: 3em;
+}
+
+.tocItem[data-level="5"] {
+  margin-left: 4em;
+}
+
+.tocItem[data-level="6"] {
+  margin-left: 5em;
+}
+
+.tocNum + .tocHeading {
+  padding-left: 1em;
+}
+
 .crossheading[data-ukl-name=P1group] > h2 {
   font-weight: bold;
 }
@@ -546,10 +575,6 @@ blockquote:not(.secondary) .section > h2 > .num {
 blockquote:not(.secondary) .subsection {
   margin-left: 2.5em;
 }
-.coverPage {
-  display: none;
-}
-
 .preface > h1 {
   text-align: center;
   font-weight: normal;
