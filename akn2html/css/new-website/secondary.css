@@ -692,6 +692,11 @@ blockquote > .para2 {
   text-align: right;
 }
 
+.signatureBlock > .content > div.seal {
+  margin-top: 0.5em;
+  text-align: left;
+}
+
 .signatureBlock > .content > .signature {
   font-style: italic;
 }
