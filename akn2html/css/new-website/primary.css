@@ -634,6 +634,10 @@ blockquote:not(.secondary) .subsection {
   margin-left: -3.75em;
 }
 
+.schedule > h2 .heading {
+  font-variant: small-caps;
+}
+
 /* amendments */
 blockquote .article > .paragraph > .para1 {
   margin-left: 5em; /* parent is inline, so its margin is ineffective (or maybe it's just not set) */
