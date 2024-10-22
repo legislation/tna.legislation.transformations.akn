@@ -567,6 +567,10 @@ blockquote:not(.secondary) .subsection {
   text-align: right;
 }
 
+.preface > .crest {
+  text-align: center;
+}
+
 .asp .dateOfEnactment,
 .asp .DateOfEnactment {
   margin-top: 1em;
