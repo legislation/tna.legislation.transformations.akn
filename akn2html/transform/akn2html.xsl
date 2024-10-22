@@ -16,6 +16,7 @@
 	exclude-result-prefixes="xs math ukl ukm uk html fo local ldapp">
 
 <xsl:param name="css-path" as="xs:string" select="'/sites/all/themes/vsrs/css/pages/'" />
+<xsl:param name="images-path" as="xs:string" select="'/images/'" />
 <xsl:param name="ldapp" as="xs:boolean" select="ldapp:is-ldapp(.)" />
 
 <xsl:include href="ldapp.xsl" />
@@ -45,7 +46,6 @@
 <xsl:key name="id" match="*" use="@eId" />
 <xsl:key name="note" match="note" use="@eId" />
 <xsl:key name="note-ref" match="noteRef" use="substring(@href, 2)" />
-
 
 <xsl:variable name="doc-short-type" as="xs:string" select="/akomaNtoso/*/@name" />
 
@@ -232,14 +232,7 @@
 <!-- document types -->
 
 <xsl:template match="act">
-	<article>
-		<xsl:attribute name="class">
-			<xsl:value-of select="local-name()" />
-			<xsl:text> </xsl:text>
-			<xsl:value-of select="$doc-category" />
-			<xsl:text> </xsl:text>
-			<xsl:value-of select="@name" />
-		</xsl:attribute>
+	<article class="{ string-join((local-name(), $doc-category, @name), ' ') }">
 		<xsl:call-template name="add-restrict-attributes" />
 		<xsl:apply-templates />
 	</article>
@@ -317,9 +310,32 @@
 <xsl:template match="preface">
 	<div>
 		<xsl:call-template name="attrs" />
+		<xsl:call-template name="add-crest" />
 		<xsl:apply-templates />
 		<xsl:call-template name="annotations" />
 	</div>
+</xsl:template>
+
+<!-- adapted from legislation-primary.xsl in tna.legislation.transformations.clml-html-fo/src/legislation/html -->
+<xsl:template name="add-crest">
+	<xsl:if test="$doc-category = 'primary'">
+		<p class="crest">
+			<xsl:choose>
+				<xsl:when test="$doc-short-type = 'asp'">
+					<img src="{ concat($images-path, 'crests/scottishroyalarm.gif') }" alt="Royal arms" title="Royal arms" width="150" height="133"/>
+				</xsl:when>
+				<xsl:when test="$doc-short-type = 'mwa'">
+					<img src="{ concat($images-path, 'crests/mwa.gif') }" alt="Welsh Royal arms" title="Welsh Royal arms" width="147" height="188"/>
+				</xsl:when>
+				<xsl:when test="$doc-short-type = ('anaw','asc')">
+					<img src="{ concat($images-path, 'crests/mwa.gif') }" alt="Welsh Royal arms" title="Welsh Royal arms" width="147" height="188"/>
+				</xsl:when>
+				<xsl:otherwise>
+					<img src="{ concat($images-path, 'crests/ukpga.gif') }" alt="Royal arms" title="Royal arms" width="156" height="128"/>
+				</xsl:otherwise>
+			</xsl:choose>
+		</p>
+	</xsl:if>
 </xsl:template>
 
 <xsl:template match="preface/block[@name='title']">
