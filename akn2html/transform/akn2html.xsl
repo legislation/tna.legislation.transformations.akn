@@ -517,6 +517,7 @@
 			<h2>
 				<xsl:apply-templates select="num | heading | subheading" />
 			</h2>
+			<xsl:apply-templates select="num/authorialNote[@class='referenceNote']" />
 		</xsl:if>
 		<xsl:call-template name="annotations" />
 		<xsl:apply-templates select="*[not(self::num) and not(self::heading) and not(self::subheading)]">
@@ -617,7 +618,7 @@
 <xsl:template match="hcontainer[@name='schedule']/num | hcontainer[@name='schedule']/part/num">
 	<span>
 		<xsl:call-template name="attrs" />
-		<xsl:apply-templates />
+		<xsl:apply-templates select="node() except authorialNote[@class='referenceNote']" />
 	</span>
 </xsl:template>
 
