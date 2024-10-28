@@ -910,6 +910,12 @@
 
 <!-- foreign -->
 
+<xsl:template match="tblock[@class='formula']/foreign">
+	<div class="foreign">
+		<xsl:apply-templates />
+	</div>
+</xsl:template>
+
 <xsl:template match="foreign">
 	<xsl:apply-templates />
 </xsl:template>
