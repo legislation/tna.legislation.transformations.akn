@@ -554,6 +554,11 @@ blockquote:not(.secondary) .section > h2 > .num {
 blockquote:not(.secondary) .subsection {
   margin-left: 2.5em;
 }
+.tblock.formula > div:first-child {
+  margin-top: 1em;
+  text-align: center;
+}
+
 .correctionRubric {
   margin-top: 1em;
   font-style: italic;

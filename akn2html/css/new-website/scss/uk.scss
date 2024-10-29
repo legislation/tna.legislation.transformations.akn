@@ -491,3 +491,10 @@ blockquote:not(.secondary) .subsection {
 blockquote.secondary:not(.context-schedule) h2 + .paragraph {
 
 }
+
+// math
+
+.tblock.formula > div:first-child {
+	margin-top: $spacing;
+	text-align: center
+}
