@@ -362,6 +362,7 @@
 
 <xsl:key name="internal-links" match="InternalLink" use="@Ref" />
 
+<!-- also adds a @uk:target attribute to the element whose @DocumentURI matches the dc:identifier -->
 <xsl:template name="add-internal-id">
 	<xsl:param name="from" as="element()" select="." />
 	<xsl:variable name="is-necessary-for-metadata" as="xs:boolean" select="exists($from/@RestrictExtent) or exists($from/@RestrictStartDate) or exists($from/@RestrictEndDate) or exists($from/@Status) or exists(@ConfersPower) or exists(@Match)" />
@@ -374,8 +375,12 @@
 			<xsl:sequence select="local:get-internal-id($from)" />
 		</xsl:attribute>
 	</xsl:if>
+	<xsl:if test="$from/@DocumentURI = $dc-identifier">
+		<xsl:attribute name="target" namespace="https://www.legislation.gov.uk/namespaces/UK-AKN">true</xsl:attribute>
+	</xsl:if>
 </xsl:template>
 
+<!-- also adds a @uk:target attribute to the element whose @DocumentURI matches the dc:identifier -->
 <xsl:template name="add-internal-id-if-necessary">
 	<xsl:param name="from" as="element()" select="." />
 	<xsl:variable name="is-necessary-for-metadata" as="xs:boolean" select="exists($from/@RestrictExtent) or exists($from/@RestrictStartDate) or exists($from/@RestrictEndDate) or exists($from/@Status) or exists(@ConfersPower) or exists(@Match)" />
@@ -384,6 +389,9 @@
 		<xsl:attribute name="eId">
 			<xsl:sequence select="local:get-internal-id($from)" />
 		</xsl:attribute>
+	</xsl:if>
+	<xsl:if test="$from/@DocumentURI = $dc-identifier">
+		<xsl:attribute name="target" namespace="https://www.legislation.gov.uk/namespaces/UK-AKN">true</xsl:attribute>
 	</xsl:if>
 </xsl:template>
 
