@@ -313,7 +313,9 @@
 		<xsl:call-template name="attrs" />
 		<xsl:call-template name="add-crest" />
 		<xsl:apply-templates />
-		<xsl:call-template name="annotations" />
+		<xsl:if test="empty(following-sibling::preamble)">
+			<xsl:call-template name="annotations" />
+		</xsl:if>
 	</div>
 </xsl:template>
 
@@ -351,6 +353,10 @@
 		<xsl:call-template name="attrs" />
 		<xsl:apply-templates />
 	</div>
+	<xsl:for-each select="preceding-sibling::preface">
+		<xsl:call-template name="annotations" />
+	</xsl:for-each>
+	<xsl:call-template name="annotations" />
 </xsl:template>
 
 <xsl:template match="body">
