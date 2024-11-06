@@ -30,7 +30,7 @@
         <xsl:when test="$preface-is-repealed and $body-is-repealed and $whole-act-is-requested">
             <article class="{ string-join((local-name(), $doc-category, @name), ' ') }">
                 <xsl:call-template name="add-restrict-attributes" />
-                <xsl:call-template name="dotty-line-with-annotation" />
+                <xsl:apply-templates select="coverPage | preface | preamble" />
             </article>
         </xsl:when>
         <xsl:otherwise>
