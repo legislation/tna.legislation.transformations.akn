@@ -125,14 +125,32 @@
 			</div>
 			<xsl:for-each select="$notes">
 				<div class="note commentary { $type }">
-					<span class="marker">
-						<xsl:value-of select="@marker" />
-					</span>
 					<xsl:apply-templates />
 				</div>
 			</xsl:for-each>
 		</div>
 	</xsl:if>
+</xsl:template>
+
+<xsl:template match="note/p[1]">
+	<p>
+		<xsl:if test="../@marker">
+			<span class="marker">
+				<xsl:choose>
+					<xsl:when test="../@ukl:Type='F'">
+						<xsl:variable name="id" select="../@eId" />
+							<a id="{ $id }" href="#ref-{ $id }">
+								<xsl:value-of select="../@marker" />
+							</a>
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:value-of select="../@marker" />
+					</xsl:otherwise>
+				</xsl:choose>
+			</span>
+		</xsl:if>
+		<xsl:apply-templates />
+	</p>
 </xsl:template>
 
 </xsl:stylesheet>

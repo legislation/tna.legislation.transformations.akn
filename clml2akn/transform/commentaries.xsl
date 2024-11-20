@@ -13,22 +13,11 @@
 
 <xsl:template name="notes">
 	<xsl:variable name="all-unique-commentary-ids-in-reference-order" as="xs:string*">
-		<xsl:variable name="all-elements" as="element()*" select="( //CommentaryRef | //*[exists(@CommentaryRef)] )" />
-		<xsl:variable name="all-commentary-ids-with-duplicates" as="xs:string*">
-			<xsl:for-each select="$all-elements">
-				<xsl:choose>
-					<xsl:when test="self::CommentaryRef">
-						<xsl:sequence select="string(@Ref)" />
-					</xsl:when>
-					<xsl:otherwise>
-						<xsl:sequence select="string(@CommentaryRef)" />
-					</xsl:otherwise>
-				</xsl:choose>
-			</xsl:for-each>
-		</xsl:variable>
-		<xsl:for-each-group select="$all-commentary-ids-with-duplicates" group-by=".">
-			<xsl:sequence select="." />
-		</xsl:for-each-group>
+		<xsl:variable name="anchor" as="element()?" select="//*[@DocumentURI = $dc-identifier]" />
+		<xsl:variable name="anchor" as="element()?" select="if ($anchor/self::P1/parent::P1group) then $anchor/parent::* else $anchor" />
+		<xsl:variable name="anchor" as="element()" select="if (exists($anchor)) then $anchor else /*" />
+		<xsl:variable name="all-elements" as="element()*" select="( $anchor/descendant::CommentaryRef | $anchor/descendant-or-self::*[exists(@CommentaryRef)] )" />
+		<xsl:sequence select="local:get-unique-commentary-ids($all-elements)" />
 	</xsl:variable>
 	
 	<xsl:variable name="all-commentaries-in-reference-order" as="element(Commentary)*">
@@ -92,10 +81,10 @@
 	</note>
 </xsl:template>
 
-<xsl:template match="PrimaryPrelims | SecondaryPrelims | EUPrelims" mode="other-analysis">
-	<xsl:variable name="all-commentary-ids-with-duplicates" as="xs:string*">
-		<xsl:variable name="all-elements" as="element()*" select="( descendant::*[exists(@CommentaryRef)] | descendant::CommentaryRef )" />
-		<xsl:for-each select="$all-elements">
+<xsl:function name="local:get-unique-commentary-ids">
+	<xsl:param name="elements" as="element()*" />
+	<xsl:variable name="ids-with-duplicates" as="xs:string*">
+		<xsl:for-each select="$elements">
 			<xsl:choose>
 				<xsl:when test="self::CommentaryRef">
 					<xsl:sequence select="string(@Ref)" />
@@ -106,53 +95,122 @@
 			</xsl:choose>
 		</xsl:for-each>
 	</xsl:variable>
-	<xsl:for-each-group select="$all-commentary-ids-with-duplicates" group-by=".">
-		<uk:commentary href="#preface" refersTo="#{ . }" />
+	<xsl:for-each-group select="$ids-with-duplicates" group-by=".">
+		<xsl:sequence select="." />
 	</xsl:for-each-group>
+</xsl:function>
+
+<xsl:template match="PrimaryPrelims | SecondaryPrelims | EUPrelims" mode="other-analysis">
+	<xsl:variable name="elements" as="element()*" select="( descendant::*[exists(@CommentaryRef)] | descendant::CommentaryRef )" />
+	<xsl:variable name="commentary-ids" as="xs:string*" select="local:get-unique-commentary-ids($elements)" />
+	<xsl:for-each select="$commentary-ids">
+		<uk:commentary href="#preface" refersTo="#{ . }" />
+	</xsl:for-each>
 </xsl:template>
 
-<xsl:template match="Group | Part | Chapter | Pblock | PsubBlock | EUPart | EUTitle | EUChapter | EUSection | EUSubsection" mode="other-analysis">
+<xsl:template match="Group | Part | Chapter | Pblock | PsubBlock | Schedule | EUPart | EUTitle | EUChapter | EUSection | EUSubsection" mode="other-analysis">
+
+	<xsl:param name="already-handled-commentary-ids" as="xs:string*" select="()" />
 	<xsl:variable name="id" as="xs:string" select="if (exists(@id)) then @id else generate-id()" />
-	<xsl:variable name="all-commentary-ids-with-duplicates" as="xs:string*">
-		<xsl:variable name="all-elements" as="element()*" select="( self::*[exists(@CommentaryRef)] | child::CommentaryRef | Number/descendant-or-self::*[exists(@CommentaryRef)] | Number/descendant::CommentaryRef | Title/descendant-or-self::*[exists(@CommentaryRef)] | Title/descendant::CommentaryRef )" />
-		<xsl:for-each select="$all-elements">
-			<xsl:choose>
-				<xsl:when test="self::CommentaryRef">
-					<xsl:sequence select="string(@Ref)" />
-				</xsl:when>
-				<xsl:otherwise>
-					<xsl:sequence select="string(@CommentaryRef)" />
-				</xsl:otherwise>
-			</xsl:choose>
-		</xsl:for-each>
-	</xsl:variable>
-	<xsl:for-each-group select="$all-commentary-ids-with-duplicates" group-by=".">
-		<uk:commentary href="#{ $id }" refersTo="#{ . }" />
-	</xsl:for-each-group>
-	<xsl:apply-templates mode="other-analysis" />
+
+	<xsl:variable name="this-elements" as="element()*" select="( self::*[exists(@CommentaryRef)] | child::CommentaryRef | Number/descendant-or-self::*[exists(@CommentaryRef)] | Number/descendant::CommentaryRef | Title/descendant-or-self::*[exists(@CommentaryRef)] | Title/descendant::CommentaryRef )" />
+	<xsl:variable name="this-commentary-ids" as="xs:string*" select="local:get-unique-commentary-ids($this-elements)" />
+
+	<!-- could be optimized -->
+	<xsl:variable name="is-requested" as="xs:boolean" select="empty(descendant::*[@DocumentURI = $dc-identifier])" />
+
+	<xsl:choose>
+		<xsl:when test="$is-requested">
+			<xsl:variable name="new-commentary-ids" as="xs:string*">
+				<xsl:for-each select="$this-commentary-ids">
+					<xsl:if test="not(. = $already-handled-commentary-ids)">
+						<xsl:sequence select="." />
+					</xsl:if>
+				</xsl:for-each>
+			</xsl:variable>
+			<xsl:for-each select="$new-commentary-ids">
+				<uk:commentary href="#{ $id }" refersTo="#{ . }" />
+			</xsl:for-each>
+			<xsl:apply-templates mode="other-analysis">
+				<xsl:with-param name="already-handled-commentary-ids" select="( $already-handled-commentary-ids, $new-commentary-ids )" />
+			</xsl:apply-templates>
+		</xsl:when>
+		<xsl:otherwise>
+			<xsl:apply-templates mode="other-analysis" />
+		</xsl:otherwise>
+	</xsl:choose>
+</xsl:template>
+
+<xsl:template match="ScheduleBody" mode="other-analysis">
+	<xsl:param name="already-handled-commentary-ids" as="xs:string*" select="()" />
+	<xsl:apply-templates mode="other-analysis">
+		<xsl:with-param name="already-handled-commentary-ids" select="$already-handled-commentary-ids" />
+	</xsl:apply-templates>
+</xsl:template>
+
+<xsl:template match="P1group" mode="other-analysis">
+	<xsl:param name="already-handled-commentary-ids" as="xs:string*" select="()" />
+	<xsl:variable name="id" as="xs:string" select="if (exists(@id)) then @id else generate-id()" />
+	<xsl:choose>
+		<xsl:when test="empty(P1)">
+			<xsl:variable name="this-commentary-ids" as="xs:string*">
+				<xsl:variable name="desc-elements" as="element()*" select="( descendant-or-self::*[exists(@CommentaryRef)] | descendant::CommentaryRef )" />
+				<xsl:sequence select="local:get-unique-commentary-ids($desc-elements)" />
+			</xsl:variable>
+			<xsl:variable name="new-commentary-ids" as="xs:string*">
+				<xsl:for-each select="$this-commentary-ids">
+					<xsl:if test="not(. = $already-handled-commentary-ids)">
+						<xsl:sequence select="." />
+					</xsl:if>
+				</xsl:for-each>
+			</xsl:variable>
+			<xsl:for-each select="$new-commentary-ids">
+				<uk:commentary href="#{ $id }" refersTo="#{ . }" />
+			</xsl:for-each>
+		</xsl:when>
+		<xsl:otherwise>
+			<xsl:apply-templates mode="other-analysis">
+				<xsl:with-param name="already-handled-commentary-ids" select="$already-handled-commentary-ids" />
+			</xsl:apply-templates>
+		</xsl:otherwise>
+	</xsl:choose>
 </xsl:template>
 
 <xsl:template match="P1" mode="other-analysis">
+	<xsl:param name="already-handled-commentary-ids" as="xs:string*" select="()" />
 	<xsl:variable name="id" as="xs:string" select="if (exists(@id)) then @id else generate-id()" />
-	<xsl:variable name="all-commentary-ids-with-duplicates" as="xs:string*">
-		<xsl:variable name="all-elements" as="element()*" select="( descendant-or-self::*[exists(@CommentaryRef)] | descendant::CommentaryRef )" />
-		<xsl:for-each select="$all-elements">
+	<xsl:variable name="this-commentary-ids" as="xs:string*">
+		<xsl:variable name="desc-elements" as="element()*">
 			<xsl:choose>
-				<xsl:when test="self::CommentaryRef">
-					<xsl:sequence select="string(@Ref)" />
+				<xsl:when test="exists(parent::P1group) and empty(preceding-sibling::P1)">
+					<xsl:sequence select="( ../CommentaryRef | ../Title/descendant-or-self::*[exists(@CommentaryRef)] | ../Title/descendant::CommentaryRef | descendant-or-self::*[exists(@CommentaryRef)] | descendant::CommentaryRef )" />
 				</xsl:when>
 				<xsl:otherwise>
-					<xsl:sequence select="string(@CommentaryRef)" />
+					<xsl:sequence select="( descendant-or-self::*[exists(@CommentaryRef)] | descendant::CommentaryRef )" />
 				</xsl:otherwise>
 			</xsl:choose>
+		</xsl:variable>
+		<xsl:sequence select="local:get-unique-commentary-ids($desc-elements)" />
+	</xsl:variable>
+
+	<xsl:variable name="preceding-sibling-commentary-ids" as="xs:string*">
+		<xsl:variable name="preceding-sibling-elements" as="element()*">
+			<xsl:sequence select="parent::P1group/preceding-sibling::P1group/Title/(descendant-or-self::*[exists(@CommentaryRef)] | descendant::CommentaryRef)" />
+		</xsl:variable>
+		<xsl:sequence select="local:get-unique-commentary-ids($preceding-sibling-elements)" />
+	</xsl:variable>
+
+	<xsl:variable name="new-commentary-ids" as="xs:string*">
+		<xsl:for-each select="$this-commentary-ids">
+			<xsl:if test="not(. = $already-handled-commentary-ids) and not(. = $preceding-sibling-commentary-ids)">
+				<xsl:sequence select="." />
+			</xsl:if>
 		</xsl:for-each>
 	</xsl:variable>
-	<xsl:for-each-group select="$all-commentary-ids-with-duplicates" group-by=".">
+
+	<xsl:for-each select="$new-commentary-ids">
 		<uk:commentary href="#{ $id }" refersTo="#{ . }" />
-	</xsl:for-each-group>
-	<xsl:for-each-group select="descendant::MarginNoteRef" group-by="@Ref">
-		<uk:commentary href="#{ $id }" refersTo="#{ @Ref }" />
-	</xsl:for-each-group>
+	</xsl:for-each>
 </xsl:template>
 
 <xsl:template match="BlockAmendment | EmbeddedStructure" mode="other-analysis" />

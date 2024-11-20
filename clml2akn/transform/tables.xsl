@@ -25,7 +25,8 @@
 	<foreign>
 		<xsl:copy>
 			<xsl:copy-of select="@* except @cols" />
-			<xsl:apply-templates />
+			<xsl:apply-templates select="*[not(self::html:tfoot)]" />
+			<xsl:apply-templates select="html:tfoot" />
 		</xsl:copy>
 	</foreign>
 </xsl:template>

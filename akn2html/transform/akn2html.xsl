@@ -16,10 +16,12 @@
 	exclude-result-prefixes="xs math ukl ukm uk html fo local ldapp">
 
 <xsl:param name="css-path" as="xs:string" select="'/sites/all/themes/vsrs/css/pages/'" />
+<xsl:param name="images-path" as="xs:string" select="'/images/'" />
 <xsl:param name="ldapp" as="xs:boolean" select="ldapp:is-ldapp(.)" />
 
 <xsl:include href="ldapp.xsl" />
 <xsl:include href="annotations.xsl" />
+<xsl:include href="repeals.xsl" />
 
 <xsl:output method="xml" include-content-type="no" encoding="utf-8" indent="yes"  omit-xml-declaration="yes"/>
 
@@ -45,7 +47,6 @@
 <xsl:key name="id" match="*" use="@eId" />
 <xsl:key name="note" match="note" use="@eId" />
 <xsl:key name="note-ref" match="noteRef" use="substring(@href, 2)" />
-
 
 <xsl:variable name="doc-short-type" as="xs:string" select="/akomaNtoso/*/@name" />
 
@@ -132,7 +133,20 @@
 	<xsl:call-template name="add-restrict-date-attributes" />
 </xsl:template>
 
+<xsl:key name="status" match="uk:status" use="substring(@href, 2)" />
+<xsl:key name="tlc-concept" match="TLCConcept" use="@eId" />
+
 <xsl:template name="add-status-attribute">
+	<xsl:if test="exists(@eId)">
+		<xsl:variable name="id" as="xs:string" select="@eId" />
+		<xsl:variable name="status" as="element(uk:status)?" select="key('status', $id)" />
+		<xsl:variable name="concept" as="element(TLCConcept)?" select="key('tlc-concept', substring($status/@refersTo, 2))" />
+		<xsl:if test="exists($concept)">
+			<xsl:attribute name="data-x-status">
+				<xsl:value-of select="$concept/@showAs" />
+			</xsl:attribute>
+		</xsl:if>
+	</xsl:if>
 </xsl:template>
 
 <xsl:key name="confers-power" match="uk:confersPower" use="substring(@href, 2)" />
@@ -219,14 +233,7 @@
 <!-- document types -->
 
 <xsl:template match="act">
-	<article>
-		<xsl:attribute name="class">
-			<xsl:value-of select="local-name()" />
-			<xsl:text> </xsl:text>
-			<xsl:value-of select="$doc-category" />
-			<xsl:text> </xsl:text>
-			<xsl:value-of select="@name" />
-		</xsl:attribute>
+	<article class="{ string-join((local-name(), $doc-category, @name), ' ') }">
 		<xsl:call-template name="add-restrict-attributes" />
 		<xsl:apply-templates />
 	</article>
@@ -304,9 +311,34 @@
 <xsl:template match="preface">
 	<div>
 		<xsl:call-template name="attrs" />
+		<xsl:call-template name="add-crest" />
 		<xsl:apply-templates />
-		<xsl:call-template name="annotations" />
+		<xsl:if test="empty(following-sibling::preamble)">
+			<xsl:call-template name="annotations" />
+		</xsl:if>
 	</div>
+</xsl:template>
+
+<!-- adapted from legislation-primary.xsl in tna.legislation.transformations.clml-html-fo/src/legislation/html -->
+<xsl:template name="add-crest">
+	<xsl:if test="$doc-category = 'primary'">
+		<p class="crest">
+			<xsl:choose>
+				<xsl:when test="$doc-short-type = 'asp'">
+					<img src="{ concat($images-path, 'crests/scottishroyalarm.gif') }" alt="Royal arms" title="Royal arms" width="150" height="133"/>
+				</xsl:when>
+				<xsl:when test="$doc-short-type = 'mwa'">
+					<img src="{ concat($images-path, 'crests/mwa.gif') }" alt="Welsh Royal arms" title="Welsh Royal arms" width="147" height="188"/>
+				</xsl:when>
+				<xsl:when test="$doc-short-type = ('anaw','asc')">
+					<img src="{ concat($images-path, 'crests/mwa.gif') }" alt="Welsh Royal arms" title="Welsh Royal arms" width="147" height="188"/>
+				</xsl:when>
+				<xsl:otherwise>
+					<img src="{ concat($images-path, 'crests/ukpga.gif') }" alt="Royal arms" title="Royal arms" width="156" height="128"/>
+				</xsl:otherwise>
+			</xsl:choose>
+		</p>
+	</xsl:if>
 </xsl:template>
 
 <xsl:template match="preface/block[@name='title']">
@@ -321,6 +353,10 @@
 		<xsl:call-template name="attrs" />
 		<xsl:apply-templates />
 	</div>
+	<xsl:for-each select="preceding-sibling::preface">
+		<xsl:call-template name="annotations" />
+	</xsl:for-each>
+	<xsl:call-template name="annotations" />
 </xsl:template>
 
 <xsl:template match="body">
@@ -463,8 +499,10 @@
 </xsl:template>
 
 <xsl:template match="hcontainer">	<!-- e.g., division -->
+	<xsl:param name="indent" as="xs:integer" select="0" tunnel="yes" />
 	<xsl:call-template name="p3">
 		<xsl:with-param name="class" select="if (empty(num)) then 'no-num' else ()" />
+		<xsl:with-param name="indent" select="$indent" tunnel="yes" />
 	</xsl:call-template>
 </xsl:template>
 
@@ -472,15 +510,26 @@
 <!-- named templates -->
 
 <xsl:template name="big-level">
+	<xsl:param name="within-prospective" as="xs:boolean" select="false()" tunnel="yes" />
+	<xsl:variable name="is-prospective" as="xs:boolean" select="exists(@eId) and key('status', @eId)/@refersTo = '#status-prospective'" />
 	<section>
-		<xsl:call-template name="attrs" />
+		<xsl:call-template name="attrs">
+			<xsl:with-param name="classes" as="xs:string*">
+				<xsl:if test="not($within-prospective) and $is-prospective">
+					<xsl:sequence select="'prospective'" />
+				</xsl:if>
+			</xsl:with-param>
+		</xsl:call-template>
 		<xsl:if test="exists(num | heading | subheading)">
 			<h2>
 				<xsl:apply-templates select="num | heading | subheading" />
 			</h2>
+			<xsl:apply-templates select="num/authorialNote[@class='referenceNote']" />
 		</xsl:if>
-		<xsl:apply-templates select="*[not(self::num) and not(self::heading) and not(self::subheading)]" />
 		<xsl:call-template name="annotations" />
+		<xsl:apply-templates select="*[not(self::num) and not(self::heading) and not(self::subheading)]">
+			<xsl:with-param name="within-prospective" select="$is-prospective or $within-prospective" tunnel="yes" />
+		</xsl:apply-templates>
 	</section>
 </xsl:template>
 
@@ -488,8 +537,16 @@
 <!-- P1 -->
 
 <xsl:template name="p1">
+	<xsl:param name="within-prospective" as="xs:boolean" select="false()" tunnel="yes" />
+	<xsl:variable name="is-prospective" as="xs:boolean" select="exists(@eId) and key('status', @eId)/@refersTo = '#status-prospective'" />
 	<section>
-		<xsl:call-template name="attrs" />
+		<xsl:call-template name="attrs">
+			<xsl:with-param name="classes" as="xs:string*">
+				<xsl:if test="not($within-prospective) and $is-prospective">
+					<xsl:sequence select="'prospective'" />
+				</xsl:if>
+			</xsl:with-param>
+		</xsl:call-template>
 		<h2>
 			<xsl:apply-templates select="num | heading | subheading" />			
 		</h2>
@@ -555,6 +612,10 @@
 
 <!-- schedules and explanatory notes -->
 
+<xsl:template match="hcontainer[@name='schedules']"> <!-- best not to rely on the generic 'hcontainer' match above -->
+	<xsl:apply-templates />
+</xsl:template>
+
 <xsl:template match="hcontainer[@name='schedule']">
 	<xsl:call-template name="big-level">
 		<xsl:with-param name="within-schedule" select="true()" tunnel="yes" />
@@ -564,8 +625,16 @@
 <xsl:template match="hcontainer[@name='schedule']/num | hcontainer[@name='schedule']/part/num">
 	<span>
 		<xsl:call-template name="attrs" />
-		<xsl:apply-templates select="node()[not(self::authorialNote)]" />
+		<xsl:apply-templates select="node() except authorialNote[@class='referenceNote']" />
 	</span>
+</xsl:template>
+
+<xsl:template match="blockContainer[@class=('explanatoryNote','explanatoryNotes','earlierOrders','commencementHistory')]">
+	<div>
+		<xsl:call-template name="attrs" />
+		<xsl:apply-templates />
+		<xsl:call-template name="annotations" />
+	</div>
 </xsl:template>
 
 <xsl:template match="blockContainer[@class=('explanatoryNote','explanatoryNotes','earlierOrders','commencementHistory')]/heading">
@@ -827,9 +896,8 @@
 
 <xsl:template match="tocItem">
 	<div class="{string-join((name(), @class), ' ')}">
-		<xsl:apply-templates select="@*[not(name() = 'class')][not(name() = 'href')]" />
-		<a>
-			<xsl:apply-templates select="@href" />
+		<xsl:apply-templates select="@* except @class, @href" />
+		<a href="{ @href }">
 			<xsl:apply-templates />
 		</a>
 	</div>
@@ -857,6 +925,12 @@
 
 <!-- foreign -->
 
+<xsl:template match="tblock[@class='formula']/foreign">
+	<div class="foreign">
+		<xsl:apply-templates />
+	</div>
+</xsl:template>
+
 <xsl:template match="foreign">
 	<xsl:apply-templates />
 </xsl:template>
@@ -865,19 +939,33 @@
 	<xsl:param name="indent" as="xs:integer" select="0" tunnel="yes" />
 	<xsl:element name="{ local-name() }">
 		<xsl:apply-templates select="@* except (@cols, @summary)" />
-		<xsl:if test="$indent gt 0">
+		<xsl:variable name="class" as="xs:string?">
+			<xsl:choose>
+				<xsl:when test="$indent gt 0 and exists(@class)">
+					<xsl:sequence select="concat(@class, ' level-', string($indent))" />
+				</xsl:when>
+				<xsl:when test="$indent gt 0">
+					<xsl:sequence select="concat('level-', string($indent))" />
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:sequence select="@class" />
+				</xsl:otherwise>
+			</xsl:choose>
+		</xsl:variable>
+		<xsl:if test="exists($class)">
 			<xsl:attribute name="class">
-				<xsl:if test="exists(@class)">
-					<xsl:value-of select="@class" />
-					<xsl:text> </xsl:text>
-				</xsl:if>
-				<xsl:text>level-</xsl:text>
-				<xsl:value-of select="$indent" />
+				<xsl:value-of select="$class" />
 			</xsl:attribute>
 		</xsl:if>
 		<xsl:apply-templates select="*[not(self::html:tfoot)]" />
 		<xsl:apply-templates select="html:tfoot" />
 	</xsl:element>
+	<xsl:variable name="footnotes" as="element()*" select="descendant::authorialNote[@class='tablenote']" />
+	<xsl:if test="exists($footnotes)">
+		<div class="tablenotes">
+			<xsl:apply-templates select="$footnotes" mode="footnote" />
+		</div>
+	</xsl:if>
 </xsl:template>
 
 <xsl:template match="html:colgroup">
@@ -1012,11 +1100,22 @@
 	<xsl:choose>
 		<xsl:when test="@uk:name = 'commentary' or tokenize(@class, ' ') = 'commentary'">
 			<xsl:variable name="commentary" as="element(note)?" select="key('id', substring(@href, 2))" />
-			<span>
-				<xsl:call-template name="add-class-attribute" />
-				<xsl:apply-templates select="@* except (@href, @class)" />
-				<xsl:value-of select="$commentary/@marker" />
-			</span>
+			<xsl:choose>
+				<xsl:when test="$commentary/@ukl:Type='F'">
+					<a class="fnRef" id="ref-{ substring(@href, 2) }" href="{ @href }">
+						<xsl:call-template name="add-class-attribute" />
+						<xsl:apply-templates select="@* except (@href, @class)" />
+						<xsl:value-of select="$commentary/@marker" />
+					</a>
+				</xsl:when>
+				<xsl:otherwise>
+					<span>
+						<xsl:call-template name="add-class-attribute" />
+						<xsl:apply-templates select="@* except (@href, @class)" />
+						<xsl:value-of select="$commentary/@marker" />
+					</span>
+				</xsl:otherwise>
+			</xsl:choose>
 		</xsl:when>
 		<xsl:when test="exists(ancestor::ref)">
 			<span>
@@ -1025,6 +1124,19 @@
 				<xsl:value-of select="@marker" />
 			</span>
 			<xsl:text> </xsl:text>
+		</xsl:when>
+		<xsl:when test="@class = ('footnote', 'tablenote')">
+			<a class="fnRef">
+				<xsl:copy-of select="@href" />
+				<xsl:choose>
+					<xsl:when test="exists(@marker)">
+						<xsl:value-of select="@marker" />
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:value-of select="position()" />
+					</xsl:otherwise>
+				</xsl:choose>
+			</a>
 		</xsl:when>
 		<xsl:otherwise>
 			<a>
@@ -1148,7 +1260,7 @@
 	</xsl:if>
 </xsl:template>
 
-<xsl:template match="authorialNote[@class='footnote']">
+<xsl:template match="authorialNote[@class=('footnote','tablenote')]">
 	<xsl:variable name="id" as="xs:string" select="if (@id) then @id else generate-id()" />
 	<a class="fnRef" id="ref-{ $id }" href="#{ $id }">
 		<xsl:choose>
