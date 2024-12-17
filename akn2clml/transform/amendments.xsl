@@ -246,7 +246,7 @@
 	<InlineAmendment>
 		<xsl:value-of select="@startQuote" />
 		<xsl:apply-templates />
-		<xsl:value-of select="@endtQuote" />
+		<xsl:value-of select="@endQuote" />
 	</InlineAmendment>
 </xsl:template>
 
