@@ -65,6 +65,9 @@
 		<xsl:when test="$short-type = $eu-short-types">
 			<xsl:sequence select="'euretained'" />
 		</xsl:when>
+		<xsl:when test="$short-type = ('ExplanatoryMemorandum', 'ExplanatoryNote')">
+			<xsl:sequence select="'secondary'" />
+		</xsl:when>
 	</xsl:choose>
 </xsl:function>
 
