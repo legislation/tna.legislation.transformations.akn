@@ -448,6 +448,9 @@
 				<xsl:when test="$parts[2] castable as xs:integer">
 					<xsl:sequence select="$parts[3]" />
 				</xsl:when>
+				<xsl:when test="$parts[1] eq 'eut'">
+					<xsl:sequence select="$parts[2]" />
+				</xsl:when>
 				<xsl:otherwise>	<!-- 2 and 3 are regnal year -->
 					<xsl:sequence select="$parts[4]" />
 				</xsl:otherwise>
