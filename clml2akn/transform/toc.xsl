@@ -11,14 +11,14 @@
 
 <xsl:template match="Contents">
 	<coverPage>
-		<xsl:apply-templates select="ContentsTitle" />
+		<xsl:apply-templates select="ContentsTitle | ContentsEUTitle" />
 		<toc>
-			<xsl:apply-templates select="* except ContentsTitle" />
+			<xsl:apply-templates select="* except (ContentsTitle, ContentsEUTitle)" />
 		</toc>
 	</coverPage>
 </xsl:template>
 
-<xsl:template match="Contents/ContentsTitle">
+<xsl:template match="Contents/ContentsTitle | Contents/ContentsEUTitle">
 	<block name="title">
 		<docTitle>
 			<xsl:apply-templates />
@@ -26,14 +26,14 @@
 	</block>
 </xsl:template>
 
-<xsl:template match="ContentsGroup | ContentsPart | ContentsChapter | ContentsPblock | ContentsPsubBlock | ContentsSchedules | ContentsSchedule | ContentsAppendix | ContentsDivision | ContentsItem">
+	<xsl:template match="ContentsGroup | ContentsPart | ContentsChapter | ContentsEUChapter | ContentsEUSection | ContentsPblock | ContentsPsubBlock | ContentsSchedules | ContentsSchedule | ContentsAppendix | ContentsDivision | ContentsItem | ContentsAttachments | ContentsAttachment">
 	<xsl:param name="level" as="xs:integer" select="if (self::ContentsSchedules) then 0 else 1" />
-	<xsl:if test="exists(ContentsNumber | ContentsTitle)">
+	<xsl:if test="exists(ContentsNumber | ContentsTitle | ContentsEUTitle)">
 		<tocItem level="{ $level }" href="{ @DocumentURI }" ukl:Name="{ local-name() }">
-			<xsl:apply-templates select="ContentsNumber | ContentsTitle" />
+			<xsl:apply-templates select="ContentsNumber | ContentsTitle | ContentsEUTitle" />
 		</tocItem>
 	</xsl:if>
-	<xsl:apply-templates select="* except (ContentsNumber, ContentsTitle)">
+	<xsl:apply-templates select="* except (ContentsNumber, ContentsTitle, ContentsEUTitle)">
 		<xsl:with-param name="level" select="$level + 1" />
 	</xsl:apply-templates>
 </xsl:template>
@@ -44,7 +44,7 @@
 	</inline>
 </xsl:template>
 
-<xsl:template match="ContentsTitle">
+<xsl:template match="ContentsTitle | ContentsEUTitle">
 	<inline name="tocHeading">
 		<xsl:apply-templates />
 	</inline>
