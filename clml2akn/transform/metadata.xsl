@@ -460,9 +460,6 @@
 
 <xsl:template match="atom:*" />
 
-<xsl:template match="ukm:UnappliedEffects" />
-
-
 <xsl:variable name="elements-with-restrict-dates" as="element()*" select="//*[@RestrictStartDate or @RestrictEndDate][empty(ancestor-or-self::ukl:Attachments)]" />
 
 <!-- lifecycle -->
