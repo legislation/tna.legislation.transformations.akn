@@ -13,7 +13,7 @@
 
 <xsl:template name="notes">
 	<xsl:variable name="all-unique-commentary-ids-in-reference-order" as="xs:string*">
-		<xsl:variable name="anchor" as="element()?" select="//*[@DocumentURI = $dc-identifier]" />
+		<xsl:variable name="anchor" as="element()?" select="//*[not(self::InternalLink)][@DocumentURI = $dc-identifier]" />
 		<xsl:variable name="anchor" as="element()?" select="if ($anchor/self::P1/parent::P1group) then $anchor/parent::* else $anchor" />
 		<xsl:variable name="anchor" as="element()" select="if (exists($anchor)) then $anchor else /*" />
 		<xsl:variable name="all-elements" as="element()*" select="( $anchor/descendant::CommentaryRef | $anchor/descendant-or-self::*[exists(@CommentaryRef)] )" />
@@ -117,7 +117,7 @@
 	<xsl:variable name="this-commentary-ids" as="xs:string*" select="local:get-unique-commentary-ids($this-elements)" />
 
 	<!-- could be optimized -->
-	<xsl:variable name="is-requested" as="xs:boolean" select="empty(descendant::*[@DocumentURI = $dc-identifier])" />
+	<xsl:variable name="is-requested" as="xs:boolean" select="empty(descendant::*[not(self::InternalLink)][@DocumentURI = $dc-identifier])" />
 
 	<xsl:choose>
 		<xsl:when test="$is-requested">
