@@ -166,7 +166,7 @@
 			</InternalLink>
 		</xsl:when>
 		<xsl:otherwise>
-			<ExternalLink URI="{ @href }">
+			<ExternalLink URI="{ @*:alternativeReference }">
 				<xsl:apply-templates />
 			</ExternalLink>
 		</xsl:otherwise>
