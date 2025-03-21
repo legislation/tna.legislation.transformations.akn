@@ -142,8 +142,8 @@
 <xsl:template name="add-status-attribute">
 	<xsl:if test="exists(@eId)">
 		<xsl:variable name="id" as="xs:string" select="@eId" />
-		<xsl:variable name="status" as="element(uk:status)?" select="key('status', $id)" />
-		<xsl:variable name="concept" as="element(TLCConcept)?" select="key('tlc-concept', substring($status/@refersTo, 2))" />
+		<xsl:variable name="status" as="element(uk:status)*" select="key('status', $id)" />
+		<xsl:variable name="concept" as="element(TLCConcept)?" select="key('tlc-concept', substring($status[1]/@refersTo, 2))" />
 		<xsl:if test="exists($concept)">
 			<xsl:attribute name="data-x-status">
 				<xsl:value-of select="$concept/@showAs" />
