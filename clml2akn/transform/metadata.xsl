@@ -34,7 +34,7 @@
 					<xsl:value-of select="/ukl:Legislation/Metadata/PrimaryMetadata/EnactmentDate/@Date" />
 				</xsl:when>
 				<xsl:otherwise>
-					<xsl:variable name="prelim-date" as="xs:date?" select="local:parse-date(/ukl:Legislation/ukl:Primary/ukl:PrimaryPrelims/ukl:DateOfEnactment/ukl:DateText)" />
+					<xsl:variable name="prelim-date" as="xs:string?" select="local:parse-date(/ukl:Legislation/ukl:Primary/ukl:PrimaryPrelims/ukl:DateOfEnactment/ukl:DateText)" />
 					<xsl:choose>
 						<xsl:when test="exists($prelim-date)">
 							<xsl:value-of select="$prelim-date" />
@@ -52,7 +52,7 @@
 					<xsl:sequence select="/ukl:Legislation/Metadata/SecondaryMetadata/Made/@Date" />
 				</xsl:when>
 				<xsl:otherwise>
-					<xsl:variable name="from-prelims" as="xs:date?">
+					<xsl:variable name="from-prelims" as="xs:string?">
 						<xsl:variable name="date-text" as="element()?" select="/ukl:Legislation/ukl:Secondary/ukl:SecondaryPrelims/ukl:MadeDate/ukl:DateText" />
 						<xsl:if test="exists($date-text)">
 							<xsl:sequence select="local:parse-date($date-text)" />
@@ -92,7 +92,7 @@
 					<xsl:text>enacted</xsl:text>
 				</xsl:when>
 				<xsl:otherwise>
-					<xsl:variable name="prelim-date" as="xs:date?" select="local:parse-date(/ukl:Legislation/ukl:Primary/ukl:PrimaryPrelims/ukl:DateOfEnactment/ukl:DateText)" />
+					<xsl:variable name="prelim-date" as="xs:string?" select="local:parse-date(/ukl:Legislation/ukl:Primary/ukl:PrimaryPrelims/ukl:DateOfEnactment/ukl:DateText)" />
 					<xsl:choose>
 						<xsl:when test="exists($prelim-date)">
 							<xsl:text>enacted</xsl:text>
@@ -110,7 +110,7 @@
 					<xsl:text>made</xsl:text>
 				</xsl:when>
 				<xsl:otherwise>
-					<xsl:variable name="from-prelims" as="xs:date?">
+					<xsl:variable name="from-prelims" as="xs:string?">
 						<xsl:variable name="date-text" as="element()?" select="/ukl:Legislation/ukl:Secondary/ukl:SecondaryPrelims/ukl:MadeDate/ukl:DateText" />
 						<xsl:if test="exists($date-text)">
 							<xsl:sequence select="local:parse-date($date-text)" />
