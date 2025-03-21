@@ -13,8 +13,8 @@
 
 <xsl:template name="notes">
 	<xsl:variable name="all-unique-commentary-ids-in-reference-order" as="xs:string*">
-		<xsl:variable name="anchor" as="element()?" select="//*[not(self::InternalLink)][@DocumentURI = $dc-identifier]" />
-		<xsl:variable name="anchor" as="element()?" select="if ($anchor/self::P1/parent::P1group) then $anchor/parent::* else $anchor" />
+		<xsl:variable name="anchor" as="element()*" select="//*[not(self::InternalLink)][@DocumentURI = $dc-identifier]" />
+		<xsl:variable name="anchor" as="element()*" select="if ($anchor/self::P1/parent::P1group) then ($anchor[self::P1/parent::P1group])[1]/parent::* else $anchor[1]" />
 		<xsl:variable name="anchor" as="element()" select="if (exists($anchor)) then $anchor else /*" />
 		<xsl:variable name="all-elements" as="element()*" select="( $anchor/descendant::CommentaryRef | $anchor/descendant-or-self::*[exists(@CommentaryRef)] )" />
 		<xsl:sequence select="local:get-unique-commentary-ids($all-elements)" />

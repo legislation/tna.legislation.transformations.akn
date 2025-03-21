@@ -26,7 +26,7 @@
 	</meta>
 </xsl:template>
 
-<xsl:variable name="work-date" as="xs:string?">
+<xsl:variable name="work-date" as="xs:string*">
 	<xsl:choose>
 		<xsl:when test="$doc-category = 'primary'">
 			<xsl:choose>
@@ -342,7 +342,7 @@
 			<xsl:value-of select="concat($doc-year, ' anaw ', $doc-number)" />
 		</xsl:when>
 		<xsl:when test="$doc-long-type = 'WelshStatutoryInstrument' or $doc-long-type = 'WelshDraftStatutoryInstrument'">
-			<xsl:variable name="alt-num" as="xs:string" select="$secondary-metadata/AlternativeNumber[@Category=('W','Cy')]/@Value" />
+			<xsl:variable name="alt-num" as="xs:string?" select="$secondary-metadata/AlternativeNumber[@Category=('W','Cy')]/@Value" />
 			<xsl:variable name="c-num" as="xs:string?" select="$secondary-metadata/AlternativeNumber[@Category='C']/@Value" />
 			<xsl:choose>
 				<xsl:when test="exists($c-num)">

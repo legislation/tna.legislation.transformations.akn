@@ -436,10 +436,10 @@
 </xsl:variable>
 
 <xsl:variable name="doc-number" as="xs:string">
-	<xsl:variable name="ukm-number" as="element()?" select="/Legislation/ukm:Metadata/ukm:*/ukm:Number" />
+	<xsl:variable name="ukm-number" as="element()*" select="/Legislation/ukm:Metadata/ukm:*/ukm:Number" />
 	<xsl:choose>
 		<xsl:when test="exists($ukm-number)">
-			<xsl:sequence select="$ukm-number/@Value" />
+			<xsl:sequence select="$ukm-number[1]/@Value" />
 		</xsl:when>
 		<xsl:when test="exists($dc-identifier)">
 			<xsl:variable name="good-part" as="xs:string" select="substring-after($dc-identifier, 'legislation.gov.uk/')" />
