@@ -46,8 +46,8 @@
 </xsl:template>
 
 <xsl:template match="Form/IncludedDocument">
-	<xsl:variable name="resource" as="element(Resource)" select="key('id', @ResourceRef)" />
-	<xsl:variable name="uri" as="xs:anyURI" select="$resource/ExternalVersion/@URI" />
+	<xsl:variable name="resource" as="element(Resource)?" select="key('id', @ResourceRef)" />
+	<xsl:variable name="uri" as="xs:anyURI?" select="$resource/ExternalVersion/@URI" />
 	<p>
 		<img src="{ $uri }" />
 	</p>
