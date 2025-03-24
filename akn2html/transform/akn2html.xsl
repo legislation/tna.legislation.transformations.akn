@@ -96,9 +96,9 @@
 <xsl:template name="add-extent-attribute">
 	<xsl:if test="exists(self::act) or exists(@eId)">
 		<xsl:variable name="id" as="xs:string?" select="@eId" />
-		<xsl:variable name="restriction" as="element()?" select="key('extent-restrictions', $id)" />
+		<xsl:variable name="restriction" as="element()*" select="key('extent-restrictions', $id)" />
 		<xsl:if test="exists($restriction)">
-			<xsl:variable name="extent" as="element(TLCLocation)" select="key('id', substring($restriction/@refersTo, 2))" />
+		  <xsl:variable name="extent" as="element(TLCLocation)" select="key('id', substring($restriction[1]/@refersTo, 2))" />
 			<xsl:attribute name="data-x-extent">
 				<xsl:value-of select="$extent/@showAs" />
 			</xsl:attribute>
@@ -111,9 +111,9 @@
 <xsl:template name="add-restrict-date-attributes">
 	<xsl:if test="exists(self::act) or exists(@eId)">
 		<xsl:variable name="id" as="xs:string?" select="@eId" />
-		<xsl:variable name="restriction" as="element()?" select="key('temporal-restrictions', $id)" />
+	  <xsl:variable name="restriction" as="element()*" select="key('temporal-restrictions', $id)" />
 		<xsl:if test="exists($restriction)">
-			<xsl:variable name="group" as="element(temporalGroup)" select="key('id', substring($restriction/@refersTo, 2))" />
+		  <xsl:variable name="group" as="element(temporalGroup)" select="key('id', substring($restriction[1]/@refersTo, 2))" />
 			<xsl:variable name="interval" as="element(timeInterval)" select="$group/*" />
 			<xsl:if test="exists($interval/@start)">
 				<xsl:variable name="event" as="element(eventRef)" select="key('id', substring($interval/@start, 2))" />
