@@ -142,8 +142,8 @@
 <xsl:template name="add-status-attribute">
 	<xsl:if test="exists(@eId)">
 		<xsl:variable name="id" as="xs:string" select="@eId" />
-		<xsl:variable name="status" as="element(uk:status)?" select="key('status', $id)" />
-		<xsl:variable name="concept" as="element(TLCConcept)?" select="key('tlc-concept', substring($status/@refersTo, 2))" />
+		<xsl:variable name="status" as="element(uk:status)*" select="key('status', $id)" />
+		<xsl:variable name="concept" as="element(TLCConcept)?" select="key('tlc-concept', substring($status[1]/@refersTo, 2))" />
 		<xsl:if test="exists($concept)">
 			<xsl:attribute name="data-x-status">
 				<xsl:value-of select="$concept/@showAs" />
@@ -1102,13 +1102,13 @@
 <xsl:template match="noteRef">
 	<xsl:choose>
 		<xsl:when test="@uk:name = 'commentary' or tokenize(@class, ' ') = 'commentary'">
-			<xsl:variable name="commentary" as="element(note)?" select="key('id', substring(@href, 2))" />
+			<xsl:variable name="commentary" as="element(note)*" select="key('id', substring(@href, 2))" />
 			<xsl:choose>
 				<xsl:when test="$commentary/@ukl:Type='F'">
 					<a class="fnRef" id="ref-{ substring(@href, 2) }" href="{ @href }">
 						<xsl:call-template name="add-class-attribute" />
 						<xsl:apply-templates select="@* except (@href, @class)" />
-						<xsl:value-of select="$commentary/@marker" />
+						<xsl:value-of select="($commentary[@ukl:Type='F'])[1]/@marker" />
 					</a>
 				</xsl:when>
 				<xsl:otherwise>
