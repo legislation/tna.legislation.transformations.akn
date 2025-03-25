@@ -556,7 +556,7 @@
 				</xsl:message>
 			</xsl:if>
 			<xsl:variable name="name" as="xs:string" select="local:make-hcontainer-name(., $context)" />
-			<xsl:element name="{ if ($name = $unsupported) then 'hcontainer' else $name }">
+			<xsl:element name="{ if ($name = ($unsupported, '')) then 'hcontainer' else $name }">
 				<xsl:if test="$name = $unsupported">
 					<xsl:attribute name="name">
 						<xsl:value-of select="$name" />
@@ -597,7 +597,7 @@
 	<xsl:param name="context" as="xs:string*" tunnel="yes" />
 	<xsl:variable name="name" as="xs:string" select="local:make-hcontainer-name(., $context)" />
 	<xsl:variable name="alt-version-anchor" as="element()" select="if (empty(@AltVersionRefs) and $inherit-from-p1group) then .. else ." />
-	<xsl:element name="{ if ($name = $unsupported) then 'hcontainer' else $name }">
+	<xsl:element name="{ if ($name = ($unsupported, '')) then 'hcontainer' else $name }">
 		<xsl:if test="$name = $unsupported">
 			<xsl:attribute name="name">
 				<xsl:value-of select="$name" />
@@ -659,7 +659,7 @@
 	<xsl:param name="skipped-pgroup-title" as="xs:boolean" select="false()" />
 	<xsl:param name="context" as="xs:string*" tunnel="yes" />
 	<xsl:variable name="name" as="xs:string" select="local:make-hcontainer-name(., $context)" />
-	<xsl:element name="{ if ($name = $unsupported) then 'hcontainer' else $name }">
+	<xsl:element name="{ if ($name = ($unsupported, '')) then 'hcontainer' else $name }">
 		<xsl:if test="$name = $unsupported">
 			<xsl:attribute name="name">
 				<xsl:value-of select="$name" />
