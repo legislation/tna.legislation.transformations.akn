@@ -220,7 +220,7 @@
 </xsl:template>
 
 <xsl:template match="CommentaryRef">
-	<xsl:variable name="commentary" as="element(Commentary)?" select="key('id', @Ref)[self::Commentary]" />	<!-- self::Commentary b/c of errors in ukpga/1974/7 -->
+	<xsl:variable name="commentary" as="element(Commentary)*" select="key('id', @Ref)[self::Commentary]" />	<!-- self::Commentary b/c of errors in ukpga/1974/7 -->
 	<xsl:if test="exists($commentary) and $commentary/@Type = ('F', 'M', 'X')">
 		<noteRef href="#{ @Ref }" uk:name="commentary" ukl:Name="CommentaryRef" class="commentary" />
 	</xsl:if>
