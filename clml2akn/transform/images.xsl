@@ -39,14 +39,14 @@
 </xsl:function>
 
 <xsl:template match="Image">
-	<xsl:variable name="src" as="xs:string?" select="key('id', @ResourceRef)/ExternalVersion/@URI" />
+	<xsl:variable name="src" as="xs:string*" select="key('id', @ResourceRef)/ExternalVersion/@URI" />
 	<xsl:if test="empty($src)">
 		<xsl:message>
 			<xsl:sequence select="." />
 		</xsl:message>
 	</xsl:if>
 	<xsl:variable name="clml" as="element()">
-		<img src="{ $src }">
+		<img src="{ $src[1] }">
 			<xsl:if test="exists(@Width)">
 				<xsl:choose>
 					<xsl:when test="@Width = ''" />
