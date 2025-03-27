@@ -259,17 +259,25 @@
 	</xsl:choose>
 </xsl:function>
 
-<xsl:function name="local:parse-date" as="xs:date?">
+<xsl:function name="local:parse-date" as="xs:string?">
 	<xsl:param name="raw" as="xs:string" />
 	<xsl:variable name="normalized" as="xs:string" select="normalize-space(translate($raw, '&#160;', ' '))" />
-	<xsl:variable name="temp" as="xs:date*">
+	<xsl:variable name="temp" as="xs:string*">
 		<xsl:analyze-string regex="(\d{{1,2}})(st|nd|rd|th)?( day of)? (January|February|March|April|May|June|July|August|September|October|November|December),? (\d{{4}})" select="$normalized">
 			<xsl:matching-substring>
 				<xsl:variable name="day" as="xs:string" select="format-number(number(regex-group(1)), '00')" />
 				<xsl:variable name="months" as="xs:string*" select="('January','February','March','April','May','June','July','August','September','October','November','December')" />
 				<xsl:variable name="month" as="xs:string" select="format-number(index-of($months, regex-group(4)), '00')" />
 				<xsl:variable name="year" as="xs:string" select="regex-group(5)" />
-				<xsl:sequence select="xs:date(concat($year, '-', $month, '-', $day))" />
+				<xsl:choose>
+					<xsl:when test="concat($year, '-', $month, '-', $day) castable as xs:date">
+						<xsl:sequence select="concat($year, '-', $month, '-', $day)" />
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:sequence select="concat($year, '-', $month, '-', $day)" />
+						<xsl:message>ERROR: THIS IS NOT A VALID DATE: <xsl:value-of select="concat($year, '-', $month, '-', $day)"/></xsl:message>
+					</xsl:otherwise>
+				</xsl:choose>
 			</xsl:matching-substring>
 		</xsl:analyze-string>
 	</xsl:variable>
@@ -436,10 +444,10 @@
 </xsl:variable>
 
 <xsl:variable name="doc-number" as="xs:string">
-	<xsl:variable name="ukm-number" as="element()?" select="/Legislation/ukm:Metadata/ukm:*/ukm:Number" />
+	<xsl:variable name="ukm-number" as="element()*" select="/Legislation/ukm:Metadata/ukm:*/ukm:Number" />
 	<xsl:choose>
 		<xsl:when test="exists($ukm-number)">
-			<xsl:sequence select="$ukm-number/@Value" />
+			<xsl:sequence select="$ukm-number[1]/@Value" />
 		</xsl:when>
 		<xsl:when test="exists($dc-identifier)">
 			<xsl:variable name="good-part" as="xs:string" select="substring-after($dc-identifier, 'legislation.gov.uk/')" />
