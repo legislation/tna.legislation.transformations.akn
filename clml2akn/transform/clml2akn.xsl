@@ -150,9 +150,10 @@
 <!-- default -->
 
 <xsl:template match="*">
-	<xsl:message terminate="yes">
-		<xsl:sequence select="." />
+	<xsl:message terminate="no">
+		NO TEMPLATE MATCH FOR: <xsl:sequence select="." />
 	</xsl:message>
+	<xsl:apply-templates/>
 </xsl:template>
 
 </xsl:transform>
