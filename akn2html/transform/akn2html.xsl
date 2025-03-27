@@ -157,7 +157,7 @@
 <xsl:template name="add-confers-power-attribute">
 	<xsl:if test="exists(self::act) or exists(@eId)">
 		<xsl:variable name="id" as="xs:string?" select="@eId" />
-		<xsl:variable name="restriction" as="element(uk:confersPower)?" select="key('confers-power', $id)" />
+		<xsl:variable name="restriction" as="element(uk:confersPower)*" select="key('confers-power', $id)" />
 		<xsl:if test="exists($restriction)">
 			<xsl:attribute name="data-x-confers-power">
 				<xsl:text>true</xsl:text>
