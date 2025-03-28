@@ -260,7 +260,7 @@
 </xsl:function>
 
 <xsl:function name="local:parse-date" as="xs:string?">
-	<xsl:param name="raw" as="xs:string" />
+	<xsl:param name="raw" as="xs:string?" />
 	<xsl:variable name="normalized" as="xs:string" select="normalize-space(translate($raw, '&#160;', ' '))" />
 	<xsl:variable name="temp" as="xs:string*">
 		<xsl:analyze-string regex="(\d{{1,2}})(st|nd|rd|th)?( day of)? (January|February|March|April|May|June|July|August|September|October|November|December),? (\d{{4}})" select="$normalized">
