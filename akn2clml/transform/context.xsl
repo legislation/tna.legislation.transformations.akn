@@ -215,11 +215,20 @@
 				</xsl:element>
 			</xsl:when>
 			<xsl:otherwise>
-				<xsl:element name="{ $name }">
-					<xsl:apply-templates>
-						<xsl:with-param name="context" select="($name, $wrapper, $context)" tunnel="yes" />
-					</xsl:apply-templates>
-				</xsl:element>
+				<xsl:choose>
+					<xsl:when test="parent::hcontainer[@name='step' and @class='step']">
+						<Emphasis>
+							<xsl:apply-templates>
+								<xsl:with-param name="context" select="($name, $wrapper, $context)" tunnel="yes" />
+							</xsl:apply-templates>
+						</Emphasis>
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:apply-templates>
+							<xsl:with-param name="context" select="($name, $wrapper, $context)" tunnel="yes" />
+						</xsl:apply-templates>
+					</xsl:otherwise>
+				</xsl:choose>
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:variable>
