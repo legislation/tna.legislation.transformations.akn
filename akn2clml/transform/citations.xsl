@@ -102,6 +102,10 @@
 <xsl:template match="ref[@class='ignore']">
 	<xsl:apply-templates />
 </xsl:template>
+	
+<xsl:template match="ref[starts-with(@href, '#') and not(local:make-internal-id-for-ref(.) castable as xs:string)]" priority="10">
+	<xsl:apply-templates />
+</xsl:template>
 
 <xsl:template match="ref">
 	<xsl:param name="context" as="xs:string*" tunnel="yes" />
