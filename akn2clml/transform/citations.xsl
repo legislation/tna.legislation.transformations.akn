@@ -166,7 +166,11 @@
 			</InternalLink>
 		</xsl:when>
 		<xsl:otherwise>
-			<ExternalLink URI="{ @href }">
+			<ExternalLink Title="{ @*:alternativeReference }" URI="{ @*:alternativeReference }">
+				<xsl:attribute name="id">
+					<xsl:text>i</xsl:text>
+					<xsl:number level="any" format="00000"/>
+				</xsl:attribute>
 				<xsl:apply-templates />
 			</ExternalLink>
 		</xsl:otherwise>
