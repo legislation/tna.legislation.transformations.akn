@@ -58,6 +58,10 @@
 	</xsl:copy>
 </xsl:template>
 
+<xsl:template match="html:thead[@class='italic centre']/html:tr/html:td">
+	<th xmlns="http://www.w3.org/1999/xhtml"><xsl:apply-templates /></th>
+</xsl:template>
+
 <xsl:template match="html:th/p | html:td/p">
 	<xsl:choose>
 		<xsl:when test="exists(child::mod)">
