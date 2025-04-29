@@ -68,13 +68,8 @@
 	</preamble>
 </xsl:template>
 
-<xsl:template match="EUPreamble//Division[not(ancestor::ListItem)]" priority="2">
-		<blockContainer class="division" uk:name="division">
-			<xsl:apply-templates />
-		</blockContainer>
-	</xsl:template>
 
-<xsl:template match="EUPreamble//Division" priority="1">
+<xsl:template match="EUPreamble//Division">
 	<blockContainer class="division" uk:name="division">
 		<xsl:apply-templates />
 	</blockContainer>
@@ -124,7 +119,7 @@
 	</hcontainer>
 </xsl:template>
 
-<xsl:template match="ListItem/Division" priority="3">
+<xsl:template match="ListItem/Division" priority="10">
 	<blockContainer uk:name="division">
 		<xsl:if test="exists(@Type)">
 			<xsl:attribute name="class">
