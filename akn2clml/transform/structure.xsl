@@ -408,6 +408,7 @@
 <xsl:template match="hcontainer[@name='groupOfParts']">
 	<xsl:call-template name="big-level">
 		<xsl:with-param name="name" select="'Group'" />
+		<xsl:with-param name="groupCt" as="xs:string" select="xs:string(count(preceding-sibling::hcontainer[@name='groupOfParts']) + 1)" tunnel="yes"/>
 	</xsl:call-template>
 </xsl:template>
 
@@ -419,8 +420,10 @@
 
 <xsl:template match="part">
 	<xsl:variable name="effective-document-category" as="xs:string" select="local:get-applicable-doc-class(.)" />
+	<xsl:variable name="partCt" as="xs:string" select="xs:string(count(self::part/preceding-sibling::part) + 1)"/>
 	<xsl:call-template name="big-level">
 		<xsl:with-param name="name" select="if ($effective-document-category = 'euretained') then 'EUPart' else 'Part'" />
+		<xsl:with-param name="groupCt" as="xs:string" select="$partCt" tunnel="yes"/>
 	</xsl:call-template>
 </xsl:template>
 
