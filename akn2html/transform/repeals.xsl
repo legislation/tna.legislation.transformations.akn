@@ -4,13 +4,15 @@
     xpath-default-namespace="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:uk="https://www.legislation.gov.uk/namespaces/UK-AKN"
-    xmlns:local="akn2html"
+    xmlns:local="akn2html-local"
     exclude-result-prefixes="xs uk local">
 
 <!-- the templates in this file replace the contents of repealed large structural containers, -->
 <!-- such as parts, chapters or schedules, with a single dotted line. -->
 
 <xsl:key name="status-repealed" match="uk:status[@refersTo='#status-repealed']" use="substring(@href, 2)" />
+
+<xsl:key name="match" match="uk:match" use="substring(@href, 2)" />
 
 <xsl:function name="local:is-repealed" as="xs:boolean">
     <xsl:param name="e" as="element()" />
@@ -76,14 +78,53 @@
     </xsl:choose>
 </xsl:template>
 
+<xsl:variable name="point-in-time" as="xs:date?" select="/akomaNtoso/*/meta/identification/FRBRExpression/FRBRdate[@name='point-in-time']" />
+
 <xsl:template match="section" priority="1">
     <xsl:param name="effective-document-category" as="xs:string" tunnel="yes" />
     <xsl:choose>
         <xsl:when test="$effective-document-category = 'primary'">
-            <xsl:next-match />
+            <xsl:call-template name="p1-repeal" />
         </xsl:when>
         <xsl:otherwise>
             <xsl:call-template name="big-level-repeal" />
+        </xsl:otherwise>
+    </xsl:choose>
+</xsl:template>
+
+<!-- based on tna.legislation.transformations.clml-html-fo/src/legislation/html/legislation_xhtml_consolidation.xslt -->
+<xsl:template match="article | hcontainer[@name='regulation'] | rule" priority="1" name="p1-repeal">
+    <xsl:param name="effective-document-category" as="xs:string" tunnel="yes" />
+    <xsl:variable name="match" as="xs:string?" select="key('match', @eId)/@value" />
+    <xsl:variable name="is-prospective" as="xs:boolean" select="key('status', @eId)/@refersTo = '#status-prospective'" />
+    <xsl:variable name="restrict-end-date" as="xs:date?" select="local:get-restrict-end-date(.)" />
+    <xsl:variable name="point-in-time" as="xs:date?" select="if (exists($point-in-time)) then $point-in-time else current-date()" />
+    <xsl:choose>
+        <xsl:when test="not(ancestor::quotedStructure) and $match = 'false' and exists($restrict-end-date) and not($is-prospective) and $restrict-end-date &lt;= $point-in-time">
+            <section>
+                <xsl:call-template name="attrs" />
+                <h2>
+                    <xsl:apply-templates select="num" />
+                    <xsl:if test="$effective-document-category != 'secondary'">
+                        <span class="heading">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</span>
+                    </xsl:if>
+                </h2>
+                <xsl:if test="$effective-document-category = 'secondary'">
+                    <div class="content">
+                        <xsl:call-template name="dotty-line" />
+                    </div>
+                </xsl:if>
+                <xsl:call-template name="annotations-from-notes">
+                    <xsl:with-param name="notes" as="element(note)*">
+                        <xsl:for-each select="key('commentaries', 'act')">
+                            <xsl:sequence select="key('id', substring(@refersTo, 2))" />
+                        </xsl:for-each>
+                    </xsl:with-param>
+                </xsl:call-template>
+            </section>
+        </xsl:when>
+        <xsl:otherwise>
+            <xsl:next-match />
         </xsl:otherwise>
     </xsl:choose>
 </xsl:template>
