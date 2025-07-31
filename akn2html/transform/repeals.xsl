@@ -104,16 +104,11 @@
             <section>
                 <xsl:call-template name="attrs" />
                 <h2>
-                    <xsl:apply-templates select="num" />
-                    <xsl:if test="$effective-document-category != 'secondary'">
-                        <span class="heading">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</span>
-                    </xsl:if>
+                    <xsl:apply-templates select="num | heading" />
                 </h2>
-                <xsl:if test="$effective-document-category = 'secondary'">
-                    <div class="content">
-                        <xsl:call-template name="dotty-line" />
-                    </div>
-                </xsl:if>
+                <div class="content">
+                    <xsl:call-template name="dotty-line" />
+                </div>
                 <xsl:call-template name="annotations-from-notes">
                     <xsl:with-param name="notes" as="element(note)*">
                         <xsl:for-each select="key('commentaries', 'act')">
