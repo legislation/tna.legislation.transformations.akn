@@ -114,8 +114,8 @@
     <xsl:variable name="match" as="xs:string?" select="key('match', $e/@eId, root($e))/@value" />
     <xsl:variable name="is-prospective" as="xs:boolean" select="key('status', $e/@eId, root($e))/@refersTo = '#status-prospective'" />
     <xsl:variable name="restrict-end-date" as="xs:date?" select="local:get-restrict-end-date($e)" />
-    <xsl:variable name="point-in-time" as="xs:date?" select="if (exists($point-in-time)) then $point-in-time else current-date()" />
-    <xsl:sequence select="empty($e/ancestor::quotedStructure) and $match = 'false' and exists($restrict-end-date) and not($is-prospective) and $restrict-end-date &lt;= $point-in-time" />
+    <xsl:variable name="effective-point-in-time" as="xs:date?" select="if (exists($point-in-time)) then $point-in-time else current-date()" />
+    <xsl:sequence select="empty($e/ancestor::quotedStructure) and $match = 'false' and exists($restrict-end-date) and not($is-prospective) and $restrict-end-date &lt;= $effective-point-in-time" />
 </xsl:function>
 
 <xsl:template match="article | hcontainer[@name='regulation'] | rule" priority="1" name="p1-repeal">
