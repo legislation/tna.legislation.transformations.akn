@@ -16,7 +16,14 @@
 
 <xsl:function name="local:is-repealed" as="xs:boolean">
     <xsl:param name="e" as="element()" />
-    <xsl:sequence select="if (exists($e/@eId)) then exists(key('status-repealed', $e/@eId, root($e))) else false()" />
+    <xsl:choose>
+        <xsl:when test="exists($e/@eId) and exists(key('status-repealed', $e/@eId, root($e)))">
+            <xsl:sequence select="true()" />
+        </xsl:when>
+        <xsl:otherwise>
+            <xsl:sequence select="local:is-repealed-2($e)" />
+        </xsl:otherwise>
+    </xsl:choose>
 </xsl:function>
 
 <!-- at most one element in the document will have a @uk:target attribute, signifying that it was -->
@@ -51,6 +58,9 @@
                 <xsl:call-template name="dotty-line-with-annotation" />
             </div>
         </xsl:when>
+        <xsl:when test="$is-repealed">
+            <xsl:apply-templates select="* except (num | heading | subheading)" />
+        </xsl:when>
         <xsl:otherwise>
             <xsl:next-match />
         </xsl:otherwise>
@@ -58,6 +68,7 @@
 </xsl:template>
 
 <xsl:template match="title | part | chapter | hcontainer[@name=('groupOfParts','crossheading','subheading','schedule')]" priority="1" name="big-level-repeal">
+    <xsl:param name="within-schedule" as="xs:boolean" select="false()" tunnel="yes" />
     <xsl:variable name="is-repealed" as="xs:boolean" select="local:is-repealed(.)" />
     <xsl:variable name="is-requested" as="xs:boolean" select="empty($target) or . is $target" />
     <xsl:choose>
@@ -71,6 +82,11 @@
                 </xsl:if>
                 <xsl:call-template name="dotty-line-with-annotation" />
             </section>
+        </xsl:when>
+        <xsl:when test="$is-repealed">
+            <xsl:apply-templates select="* except (num | heading | subheading)">
+                <xsl:with-param name="within-schedule" select="$within-schedule or @name='schedule'" tunnel="yes" />
+            </xsl:apply-templates>
         </xsl:when>
         <xsl:otherwise>
             <xsl:next-match />
@@ -93,14 +109,18 @@
 </xsl:template>
 
 <!-- based on tna.legislation.transformations.clml-html-fo/src/legislation/html/legislation_xhtml_consolidation.xslt -->
-<xsl:template match="article | hcontainer[@name='regulation'] | rule" priority="1" name="p1-repeal">
-    <xsl:param name="effective-document-category" as="xs:string" tunnel="yes" />
-    <xsl:variable name="match" as="xs:string?" select="key('match', @eId)/@value" />
-    <xsl:variable name="is-prospective" as="xs:boolean" select="key('status', @eId)/@refersTo = '#status-prospective'" />
-    <xsl:variable name="restrict-end-date" as="xs:date?" select="local:get-restrict-end-date(.)" />
+<xsl:function name="local:is-repealed-2" as="xs:boolean">
+    <xsl:param name="e" as="element()" />
+    <xsl:variable name="match" as="xs:string?" select="key('match', $e/@eId, root($e))/@value" />
+    <xsl:variable name="is-prospective" as="xs:boolean" select="key('status', $e/@eId, root($e))/@refersTo = '#status-prospective'" />
+    <xsl:variable name="restrict-end-date" as="xs:date?" select="local:get-restrict-end-date($e)" />
     <xsl:variable name="point-in-time" as="xs:date?" select="if (exists($point-in-time)) then $point-in-time else current-date()" />
+    <xsl:sequence select="empty($e/ancestor::quotedStructure) and $match = 'false' and exists($restrict-end-date) and not($is-prospective) and $restrict-end-date &lt;= $point-in-time" />
+</xsl:function>
+
+<xsl:template match="article | hcontainer[@name='regulation'] | rule" priority="1" name="p1-repeal">
     <xsl:choose>
-        <xsl:when test="not(ancestor::quotedStructure) and $match = 'false' and exists($restrict-end-date) and not($is-prospective) and $restrict-end-date &lt;= $point-in-time">
+        <xsl:when test="local:is-repealed-2(.)">
             <section>
                 <xsl:call-template name="attrs" />
                 <h2>
@@ -124,10 +144,36 @@
     </xsl:choose>
 </xsl:template>
 
+<xsl:template match="paragraph" priority="1">
+    <xsl:param name="within-schedule" as="xs:boolean" select="false()" tunnel="yes" />
+    <xsl:choose>
+        <xsl:when test="$within-schedule">
+            <xsl:call-template name="p1-repeal" />
+        </xsl:when>
+        <xsl:otherwise>
+            <xsl:call-template name="big-level-repeal" />
+        </xsl:otherwise>
+    </xsl:choose>
+</xsl:template>
+
 <xsl:template name="dotty-line-with-annotation">
     <xsl:call-template name="dotty-line" />
-    <xsl:variable name="commentary-anchor" as="element()?" select="descendant-or-self::*[exists(key('commentaries', @eId))][1]" />
-    <xsl:apply-templates select="$commentary-anchor" mode="annotations-only" />
+    <xsl:variable name="whole-act-commentaries" as="element(note)*">
+        <xsl:for-each select="key('commentaries', 'act')">
+            <xsl:sequence select="key('id', substring(@refersTo, 2))" />
+        </xsl:for-each>
+    </xsl:variable>
+    <xsl:choose>
+        <xsl:when test="exists($whole-act-commentaries)">
+            <xsl:call-template name="annotations-from-notes">
+                <xsl:with-param name="notes" as="element(note)*" select="$whole-act-commentaries" />
+            </xsl:call-template>
+        </xsl:when>
+        <xsl:otherwise>
+            <xsl:variable name="commentary-anchor" as="element()?" select="descendant-or-self::*[exists(key('commentaries', @eId))][1]" />
+            <xsl:apply-templates select="$commentary-anchor" mode="annotations-only" />
+        </xsl:otherwise>
+    </xsl:choose>
 </xsl:template>
 
 <xsl:template name="dotty-line">
