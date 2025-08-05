@@ -7,12 +7,18 @@
 	xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
 	xmlns:uk="https://www.legislation.gov.uk/namespaces/UK-AKN"
 	xmlns:ukl="http://www.legislation.gov.uk/namespaces/legislation"
+	xmlns:atom="http://www.w3.org/2005/Atom"
 	xmlns:local="http://www.jurisdatum.com/tna/clml2akn"
-	exclude-result-prefixes="xs uk ukl local">
+	exclude-result-prefixes="xs uk ukl atom local">
 
 
 <xsl:template name="notes">
 	<xsl:variable name="all-unique-commentary-ids-in-reference-order" as="xs:string*">
+		<xsl:for-each select="/Legislation/*:Metadata/atom:link[@rel='http://purl.org/dc/terms/provenance']">
+			<xsl:if test="contains(@href, '#commentary-')">
+				<xsl:sequence select="substring-after(@href, '#commentary-')" />
+			</xsl:if>
+		</xsl:for-each>
 		<xsl:variable name="anchor" as="element()*" select="//*[not(self::InternalLink)][@DocumentURI = $dc-identifier]" />
 		<xsl:variable name="anchor" as="element()*" select="if ($anchor/self::P1/parent::P1group) then ($anchor[self::P1/parent::P1group])[1]/parent::* else $anchor[1]" />
 		<xsl:variable name="anchor" as="element()" select="if (exists($anchor)) then $anchor else /*" />
@@ -99,6 +105,12 @@
 		<xsl:sequence select="." />
 	</xsl:for-each-group>
 </xsl:function>
+
+<xsl:template match="atom:link[@rel='http://purl.org/dc/terms/provenance']" mode="other-analysis">
+	<xsl:if test="contains(@href, '#commentary-')">
+		<uk:commentary href="#act" refersTo="#{ substring-after(@href, '#commentary-') }" />
+	</xsl:if>
+</xsl:template>
 
 <xsl:template match="PrimaryPrelims | SecondaryPrelims | EUPrelims" mode="other-analysis">
 	<xsl:variable name="elements" as="element()*" select="( descendant::*[exists(@CommentaryRef)] | descendant::CommentaryRef )" />

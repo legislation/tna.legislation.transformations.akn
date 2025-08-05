@@ -11,7 +11,7 @@
 	xmlns:uk="https://www.legislation.gov.uk/namespaces/UK-AKN"
 	xmlns:html="http://www.w3.org/1999/xhtml"
 	xmlns:fo="http://www.w3.org/1999/XSL/Format"
-	xmlns:local="http://jurisdatum.com/tna/akn2html"
+	xmlns:local="akn2html-local"
 	xmlns:ldapp="#ldapp"
 	exclude-result-prefixes="xs math ukl ukm uk html fo local ldapp">
 
@@ -107,6 +107,21 @@
 </xsl:template>
 
 <xsl:key name="temporal-restrictions" match="restriction[starts-with(@refersTo, '#period-')]" use="substring(@href, 2)" />
+
+<xsl:function name="local:get-restrict-end-date" as="xs:date?">
+	<xsl:param name="e" as="element()" />
+	<xsl:if test="exists($e/@eId)">
+		<xsl:variable name="restriction" as="element()?" select="key('temporal-restrictions', $e/@eId, root($e))" />
+		<xsl:if test="exists($restriction)">
+			<xsl:variable name="group" as="element(temporalGroup)" select="key('id', substring($restriction/@refersTo, 2), root($restriction))" />
+			<xsl:variable name="interval" as="element(timeInterval)" select="$group/*" />
+			<xsl:if test="exists($interval/@end)">
+				<xsl:variable name="event" as="element(eventRef)" select="key('id', substring($interval/@end, 2), root($interval))" />
+				<xsl:sequence select="xs:date($event/@date)" />
+			</xsl:if>
+		</xsl:if>
+	</xsl:if>
+</xsl:function>
 
 <xsl:template name="add-restrict-date-attributes">
 	<xsl:if test="exists(self::act) or exists(@eId)">
