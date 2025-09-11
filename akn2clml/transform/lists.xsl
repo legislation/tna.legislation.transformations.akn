@@ -303,7 +303,14 @@
 	</xsl:variable>
 	<xsl:if test="not($actual = $expected)">
 		<xsl:attribute name="NumberOverride">
-			<xsl:value-of select="$actual" />
+			<xsl:choose>
+				<xsl:when test="$decor = 'parens' and $type = 'alpha'">
+					<xsl:value-of select="replace($actual, '[\(\)]', '')" />
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:value-of select="$actual" />
+				</xsl:otherwise>
+			</xsl:choose>
 		</xsl:attribute>
 	</xsl:if>
 </xsl:template>
