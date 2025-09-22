@@ -1,0 +1,75 @@
+
+@import 'uk.scss';
+
+/* .preface should be the same as primary.scss, keep in sync */
+.preface {
+	> h1 {
+		text-align: center;
+		font-weight: normal;
+		font-size: $uk-font-size * 1.35;
+	}
+	> .number {
+		text-align: center;
+		font-weight: bold;
+//		font-size: $uk-font-size
+	}
+	> .block {
+		margin-top: $spacing
+	}
+	> .dateOfEnactment {
+		margin-top: 0;
+		text-align: right
+	}
+}
+
+.preface > .crest {
+	text-align: center
+}
+
+/* The P1 and P2 declaration blocks should be identical to those in secondary.scss */
+
+/* P1 */
+.section {
+	@extend %compact-p1;
+}
+
+/* P2 */
+.subsection,
+.prov2
+{
+	> h2 {
+		display: inline;
+		> .num {
+			padding-left: 1em;
+		}
+	}
+	> .intro, > .content {
+		display: inline;
+		> p:first-child, .p:first-child {
+			display: inline;
+			padding-left: 1ch
+		}
+	}
+}
+
+/* first P2 within a P1 */
+.section > h2 + section,
+h2 + .prov2
+{
+	display: inline;
+	> h2 {
+		> .num {
+			padding-left: 0 !important;	// without !important, the rule above takes precedence
+		}
+		> .num::before {
+			content: '\2014'
+		}
+	}
+}
+
+/* P3 */
+/* extra indent because secondary P2s are not indented  */
+.subsection > .level,
+.para1 {
+	margin-left: 2 * $indent;
+}

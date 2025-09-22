@@ -402,6 +402,9 @@
 		<xsl:when test="$e/self::P1 and local:effective-document-class($e) = 'secondary'">
 			<xsl:sequence select="true()" />
 		</xsl:when>
+		<xsl:when test="$e/self::P1 and $doc-long-type = 'NorthernIrelandAct'">
+			<xsl:sequence select="true()" />
+		</xsl:when>
 		<xsl:when test="$e/self::P1 and local:clml-is-within-schedule($e)">
 			<xsl:sequence select="true()" />
 		</xsl:when>
