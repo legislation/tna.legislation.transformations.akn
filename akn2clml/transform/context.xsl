@@ -166,6 +166,7 @@
 <xsl:template name="wrap-as-necessary">
 	<xsl:param name="clml" as="node()+" />
 	<xsl:param name="context" as="xs:string+" tunnel="yes" />
+	<xsl:param name="listIntro" as="element()?"/>
 	<xsl:variable name="wrapper" as="xs:string?" select="local:get-wrapper(local-name($clml[1]), $context)" />
 	<xsl:choose>
 		<xsl:when test="$wrapper eq 'ERROR'">
@@ -176,10 +177,12 @@
 		</xsl:when>
 		<xsl:when test="exists($wrapper)">
 			<xsl:element name="{ $wrapper }">
+				<xsl:apply-templates select="$listIntro"/>
 				<xsl:copy-of select="$clml" />
 			</xsl:element>
 		</xsl:when>
 		<xsl:otherwise>
+			<xsl:apply-templates select="$listIntro"/>
 			<xsl:copy-of select="$clml" />
 		</xsl:otherwise>
 	</xsl:choose>

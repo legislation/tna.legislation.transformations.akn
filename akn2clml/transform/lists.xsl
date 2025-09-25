@@ -12,7 +12,7 @@
 
 <xsl:function name="local:is-ordered" as="xs:boolean">
 	<xsl:param name="list" as="element(blockList)" />
-	<xsl:variable name="items" as="element()*" select="$list/*" />
+	<xsl:variable name="items" as="element()*" select="$list/(* except listIntroduction)" />
 	<xsl:choose>
 		<xsl:when test="$list/@ukl:Name = 'OrderedList'">
 			<xsl:sequence select="true()" />
@@ -190,13 +190,14 @@
 				<xsl:attribute name="Decoration">
 					<xsl:value-of select="$decor" />
 				</xsl:attribute>
-				<xsl:apply-templates>
+				<xsl:apply-templates select="* except listIntroduction">
 					<xsl:with-param name="type" select="$type" />
 					<xsl:with-param name="decor" select="$decor" />
 					<xsl:with-param name="context" select="($name, local:get-wrapper($name, $context), $context)" tunnel="yes" />
 				</xsl:apply-templates>
 			</xsl:element>
 		</xsl:with-param>
+		<xsl:with-param name="listIntro" as="element()?" select="listIntroduction"/>
 	</xsl:call-template>
 </xsl:template>
 
@@ -217,6 +218,12 @@
 			<xsl:with-param name="context" select="('ListItem', $context)" tunnel="yes" />
 		</xsl:apply-templates>
 	</ListItem>
+</xsl:template>
+
+<xsl:template match="listIntroduction">
+	<Text>
+		<xsl:apply-templates/>
+	</Text>
 </xsl:template>
 
 <xsl:template name="add-number-override-if-necessary">
@@ -296,7 +303,14 @@
 	</xsl:variable>
 	<xsl:if test="not($actual = $expected)">
 		<xsl:attribute name="NumberOverride">
-			<xsl:value-of select="$actual" />
+			<xsl:choose>
+				<xsl:when test="$decor = 'parens' and $type = 'alpha'">
+					<xsl:value-of select="replace($actual, '[\(\)]', '')" />
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:value-of select="$actual" />
+				</xsl:otherwise>
+			</xsl:choose>
 		</xsl:attribute>
 	</xsl:if>
 </xsl:template>
