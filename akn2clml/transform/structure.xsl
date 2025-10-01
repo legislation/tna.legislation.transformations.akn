@@ -390,6 +390,9 @@
 	<xsl:param name="context" as="xs:string*" tunnel="yes" />
 	<xsl:element name="{ $name }">
 		<xsl:call-template name="add-structure-attributes" />
+		<xsl:if test="$name = 'FragmentTitle'">
+			<xsl:attribute name="Context" select="'Pblock'"/>
+		</xsl:if>
 		<xsl:apply-templates select="num | heading | subheading">
 			<xsl:with-param name="context" select="($name, $context)" tunnel="yes" />
 		</xsl:apply-templates>
@@ -441,8 +444,18 @@
 <xsl:template match="chapter/heading/authorialNote[@class='referenceNote']" />
 
 <xsl:template match="section[local:get-applicable-doc-class(.)='secondary']">
+	<xsl:variable name="paramNm">
+		<xsl:choose>
+			<xsl:when test="child::*[not(local-name() = 'heading')]">
+				<xsl:text>Pblock</xsl:text>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:text>FragmentTitle</xsl:text>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:variable>
 	<xsl:call-template name="big-level">
-		<xsl:with-param name="name" select="'Pblock'" />
+		<xsl:with-param name="name" select="$paramNm" />
 	</xsl:call-template>
 </xsl:template>
 
