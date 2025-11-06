@@ -522,7 +522,34 @@
 </xsl:function>
 
 <xsl:template match="Laid" mode="tlc-organization">
-	<TLCOrganization eId="{ local:lisp-case(@Class) }" href="" showAs="{ @Class }" />
+	<xsl:variable name="dc-publishers" select="/ukl:Legislation/ukl:Metadata/dc:publisher" as="xs:string*" />
+	<xsl:variable name="href">
+		<xsl:text>http://www.legislation.gov.uk/id/</xsl:text>
+		<xsl:choose>
+			<xsl:when test="$dc-publishers = ('King''s Printer of Acts of Parliament', 'Queen''s Printer of Acts of Parliament')">
+				<xsl:text>publisher/KingsOrQueensPrinterOfActsOfParliament</xsl:text>
+			</xsl:when>
+			<xsl:when test="$dc-publishers = ('King''s Printer for Scotland', 'Queen''s Printer for Scotland')">
+				<xsl:text>publisher/KingsOrQueensPrinterForScotland</xsl:text>
+			</xsl:when>
+			<xsl:when test="$dc-publishers = ('Government Printer for Northern Ireland')">
+				<xsl:text>publisher/GovernmentPrinterForNorthernIreland</xsl:text>
+			</xsl:when>
+			<xsl:when test="$dc-publishers = ('The National Archives')">
+				<xsl:text>publisher/TheNationalArchives</xsl:text>
+			</xsl:when>
+			<xsl:when test="$dc-publishers = ('Statute Law Database')">
+				<xsl:text>publisher/StatuteLawDatabase</xsl:text>
+			</xsl:when>
+			<xsl:when test="$dc-publishers = ('Westlaw')">
+				<xsl:text>contributor/Westlaw</xsl:text>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:value-of select="translate($dc-publishers[1], ' ', '')" />
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:variable>
+	<TLCOrganization eId="{ local:lisp-case(@Class) }" href="{ $href }" showAs="{ @Class }" />
 </xsl:template>
 <xsl:template match="Laid" mode="tlc-event">
 	<TLCEvent eId="laid" href="" showAs="Laid" />
@@ -677,9 +704,19 @@
 		<xsl:apply-templates select="EUMetadata/EnactmentDate | EUMetadata/ComingIntoForce" mode="tlc-event" />
 		<xsl:call-template name="extent-locations" />
 		<xsl:call-template name="status-concepts" />
+		
+		<xsl:for-each select="/ukl:Legislation//ukl:JobTitle">
+			<TLCRole eId="ref-{local:id(.)}" href="/ontology/role/uk.{replace(.,' ’','')}" showAs="{.}" />			
+		</xsl:for-each>
+		<xsl:for-each select="/ukl:Legislation//ukl:PersonName">
+			<TLCPerson eId="ref-{local:id(.)}" href="/ontology/persons/uk.{replace(.,' ','')}" showAs="{.}" />			
+		</xsl:for-each>
+		<xsl:for-each-group select="/ukl:Legislation//ukl:Term" group-by="local:term-id(.)">
+			<xsl:variable name="id" select="local:term-id(.)" />
+			<TLCTerm eId="{$id}" href="/ontology/term/uk.{replace($id, 'term-', '')}" showAs="{.}" />
+		</xsl:for-each-group>
 	</references>
 </xsl:template>
-
 
 <!-- extent -->
 
@@ -714,7 +751,18 @@
 			<xsl:attribute name="eId">
 				<xsl:value-of select="local:make-extent-id(@RestrictExtent)" />
 			</xsl:attribute>
-			<xsl:attribute name="href"></xsl:attribute>
+			
+			<xsl:variable name="extent" select="/ukl:Legislation/@RestrictExtent"/>
+			<xsl:variable name="extent" select="replace($extent,'E','England')" />
+			<xsl:variable name="extent" select="replace($extent, 'W', 'Wales')" />
+			<xsl:variable name="extent" select="replace($extent, 'S', 'Scotland')" />
+			<xsl:variable name="extent" select="replace($extent, 'N.I.', 'Northern Ireland')" />
+			<xsl:variable name="extent" select="replace($extent, 'NI', 'Northern Ireland')" />
+			<xsl:attribute name="href">
+				<xsl:text>/ontology/jurisdictions/uk.</xsl:text>
+				<xsl:value-of select="translate($extent, '\+ ', '')" />
+			</xsl:attribute>
+			
 			<xsl:attribute name="showAs">
 				<xsl:value-of select="@RestrictExtent" />
 			</xsl:attribute>
@@ -790,5 +838,27 @@
 		</uk:match>
 	</xsl:for-each>
 </xsl:template>
+
+<!-- returns the value of 'id' attribute, if present, else generates an id -->
+	<xsl:function name="local:id" as="xs:string">
+	<xsl:param name="e" as="element()" />
+	<xsl:choose>
+		<xsl:when test="$e/@id"><xsl:value-of select="$e/@id" /></xsl:when>
+		<xsl:otherwise><xsl:value-of select="generate-id($e)" /></xsl:otherwise>
+	</xsl:choose>
+</xsl:function>
+
+<!-- returns an id for each term, to allow term elements to refer to metadata counterparts -->
+	<xsl:function name="local:term-id" as="xs:string">
+	<xsl:param name="e" as="element()" />
+	<xsl:choose>
+		<xsl:when test="$e/@id"><xsl:value-of select="$e/@id" /></xsl:when>
+		<xsl:otherwise>
+			<xsl:value-of select="concat('term-', lower-case(translate(replace($e, ' ', '-'), '&#34;“”%', '')))" />
+		</xsl:otherwise>
+	</xsl:choose>
+</xsl:function>
+
+
 
 </xsl:transform>
