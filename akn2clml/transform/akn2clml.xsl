@@ -46,7 +46,10 @@
 </xsl:template>
 
 <xsl:template match="/akomaNtoso/*">
-	<Legislation SchemaVersion="2.0" xsi:schemaLocation="http://www.legislation.gov.uk/namespaces/legislation http://www.legislation.gov.uk/schema/legislation.xsd">
+	<Legislation>
+		<xsl:call-template name="add-Legislation-attributes">
+			<xsl:with-param name="welshLang" select="parent::akomaNtoso/*/meta/identification/FRBRExpression/FRBRlanguage/@language" as="xs:string?"/>
+		</xsl:call-template>
 		<xsl:call-template name="add-fragment-attributes" />
 		<xsl:call-template name="metadata" />
 		<xsl:if test="exists(body)">
@@ -57,6 +60,15 @@
 		<xsl:call-template name="resources" />
 		<xsl:call-template name="commentaries" />
 	</Legislation>
+</xsl:template>
+
+<xsl:template name="add-Legislation-attributes">
+	<xsl:param name="welshLang" as="xs:string?"/>
+	<xsl:attribute name="SchemaVersion" select="'2.0'"/>
+	<xsl:attribute name="xsi:schemaLocation" select="'http://www.legislation.gov.uk/namespaces/legislation http://www.legislation.gov.uk/schema/legislation.xsd'"/>
+	<xsl:if test="$welshLang = 'cym'">
+		<xsl:attribute name="xml:lang" select="'cy'"/>
+	</xsl:if>
 </xsl:template>
 
 <xsl:template name="main">
