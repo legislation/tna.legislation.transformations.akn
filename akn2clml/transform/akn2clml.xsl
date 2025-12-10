@@ -47,11 +47,14 @@
 
 <xsl:template match="/akomaNtoso/*">
 	<Legislation>
+		<xsl:variable name="welshLang" select="parent::akomaNtoso/*/meta/identification/FRBRExpression/FRBRlanguage/@language" as="xs:string?"/>
 		<xsl:call-template name="add-Legislation-attributes">
-			<xsl:with-param name="welshLang" select="parent::akomaNtoso/*/meta/identification/FRBRExpression/FRBRlanguage/@language" as="xs:string?"/>
+			<xsl:with-param name="welshLang" select="$welshLang"/>
 		</xsl:call-template>
 		<xsl:call-template name="add-fragment-attributes" />
-		<xsl:call-template name="metadata" />
+		<xsl:call-template name="metadata">
+			<xsl:with-param name="welshLang" select="$welshLang"/>
+		</xsl:call-template>
 		<xsl:if test="exists(body)">
 			<xsl:call-template name="main" />
 		</xsl:if>
