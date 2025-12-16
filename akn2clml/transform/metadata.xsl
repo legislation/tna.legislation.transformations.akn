@@ -41,9 +41,14 @@
 		<dc:title>
 			<xsl:value-of select="$doc-title" />
 		</dc:title>
-		<xsl:if test="$welshLang = 'cym'">
-			<dc:language>cy</dc:language>
-		</xsl:if>
+		<xsl:choose>
+			<xsl:when test="$welshLang = 'cym'">
+				<dc:language>cy</dc:language>
+			</xsl:when>
+			<xsl:otherwise>
+				<dc:language>en</dc:language>
+			</xsl:otherwise>
+		</xsl:choose>
 		<dc:modified>
 			<xsl:value-of select="adjust-date-to-timezone(current-date(), ())" />
 		</dc:modified>

@@ -12,7 +12,7 @@
 
 <xsl:function name="local:parse-lgu-uri" as="element()?">
 	<xsl:param name="uri" as="xs:string" />
-	<xsl:analyze-string select="$uri" regex="^https?://www.legislation.gov.uk/(id/)?([a-z]{{3,5}})/(\d{{4}})/(\d+)(/.+)?$">
+	<xsl:analyze-string select="$uri" regex="^https?://www.legislation.gov.uk/(id/)?([a-z]{{3,5}})/(\d{{4}})/(\d+)(/?.+)?$">
 		<xsl:matching-substring>
 			<components xmlns="">
 				<xsl:attribute name="Class">
@@ -25,7 +25,7 @@
 					<xsl:value-of select="regex-group(4)" />
 				</xsl:attribute>
 				<xsl:variable name="section" select="substring(regex-group(5), 2)" />
-				<xsl:if test="$section != ''">
+				<xsl:if test="$section != '' and not(starts-with(regex-group(5), '#'))">
 					<xsl:attribute name="Section">
 						<xsl:value-of select="translate($section, '/', '-')" />
 					</xsl:attribute>
@@ -109,7 +109,7 @@
 
 <xsl:template match="ref">
 	<xsl:param name="context" as="xs:string*" tunnel="yes" />
-	<xsl:variable name="components" as="element()?" select="local:parse-uri(@href)" />
+	<xsl:variable name="components" as="element()?" select="local:parse-uri((@*[local-name() = 'alternativeReference'], @href)[1])" />
 	<xsl:choose>
 		<xsl:when test="exists($components) or (exists(@ukl:Class) and exists(@ukl:Year))">
 			<Citation>
@@ -154,7 +154,7 @@
 					</xsl:attribute>
 				</xsl:if>
 				<xsl:attribute name="URI">
-					<xsl:value-of select="@href" />
+					<xsl:value-of select="(@*[local-name() = 'alternativeReference'], substring-before(@href, '#'))[1]" />
 				</xsl:attribute>
 				<xsl:apply-templates>
 					<xsl:with-param name="context" select="('Citation', $context)" tunnel="yes" />
@@ -183,7 +183,7 @@
 
 <xsl:template match="ref[@class='subref']">
 	<xsl:param name="context" as="xs:string*" tunnel="yes" />
-	<xsl:variable name="components" as="element()?" select="local:parse-uri(@href)" />
+	<xsl:variable name="components" as="element()?" select="local:parse-uri((@*[local-name() = 'alternativeReference'], @href)[1])" />
 	<CitationSubRef>
 		<xsl:attribute name="id">
 			<xsl:value-of select="local:make-citation-id(.)" />
@@ -199,7 +199,7 @@
 			</xsl:attribute>
 		</xsl:if>
 		<xsl:attribute name="URI">
-			<xsl:value-of select="@href" />
+			<xsl:value-of select="(@*[local-name() = 'alternativeReference'], substring-before(@href, '#'))[1]" />
 		</xsl:attribute>
 		<xsl:apply-templates>
 			<xsl:with-param name="context" select="('CitationSubRef', $context)" tunnel="yes" />
