@@ -101,6 +101,9 @@
 		<xsl:apply-templates select="coverPage/blockContainer[@class = 'explanatoryNote']">
 			<xsl:with-param name="context" select="$name" tunnel="yes" />
 		</xsl:apply-templates>
+		<xsl:apply-templates select="coverPage/blockContainer[@class = 'commencementHistory']">
+			<xsl:with-param name="context" select="$name" tunnel="yes" />
+		</xsl:apply-templates>
 	</xsl:element>
 	<xsl:if test="exists(*[not(self::meta) and not(self::coverPage) and not(self::preface) and not(self::preamble) and not(self::body) and not(self::conclusions) and not(self::components)])">
 		<xsl:message><xsl:text>ERROR for handling: </xsl:text><xsl:value-of select="self::*/local-name()"/></xsl:message>
