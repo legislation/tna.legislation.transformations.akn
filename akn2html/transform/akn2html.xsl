@@ -223,9 +223,6 @@
 				</xsl:choose>
 			</title>
 			<xsl:choose>
-				<xsl:when test="$doc-short-type = 'nia'">
-					<link rel="stylesheet" href="{$css-path}nia.css" type="text/css" />
-				</xsl:when>
 				<xsl:when test="$doc-category = 'secondary'">
 					<link rel="stylesheet" href="{$css-path}secondary.css" type="text/css"></link>
 				</xsl:when>

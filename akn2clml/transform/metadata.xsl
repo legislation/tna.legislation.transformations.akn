@@ -26,6 +26,7 @@
 </xsl:variable>
 
 <xsl:template name="metadata">
+	<xsl:param name="welshLang" as="xs:string?"/>
 	<Metadata xmlns="http://www.legislation.gov.uk/namespaces/metadata" xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<xsl:if test="exists($doc-long-id)">
 			<dc:identifier>
@@ -40,6 +41,14 @@
 		<dc:title>
 			<xsl:value-of select="$doc-title" />
 		</dc:title>
+		<xsl:choose>
+			<xsl:when test="$welshLang = 'cym'">
+				<dc:language>cy</dc:language>
+			</xsl:when>
+			<xsl:otherwise>
+				<dc:language>en</dc:language>
+			</xsl:otherwise>
+		</xsl:choose>
 		<dc:modified>
 			<xsl:value-of select="adjust-date-to-timezone(current-date(), ())" />
 		</dc:modified>
