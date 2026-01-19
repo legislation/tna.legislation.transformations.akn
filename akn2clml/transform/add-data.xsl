@@ -84,10 +84,10 @@
 	</xsl:message>
 </xsl:template>
 
-<xsl:template match="ukl:Part[ancestor::ukl:Legislation/@xml:lang = 'cy']/@id">
+<xsl:template match="ukl:Part[ancestor::ukl:Legislation/@xml:lang = 'cy']/@id | ukl:Chapter[ancestor::ukl:Legislation/@xml:lang = 'cy']/@id">
 	<xsl:choose>
-		<xsl:when test="starts-with(., 'rhan-')">
-			<xsl:attribute name="id" select="replace(., 'rhan-', 'part-')"/>
+		<xsl:when test="starts-with(., 'rhan-') or contains(., 'pennod-')">
+			<xsl:attribute name="id" select="replace(replace(., 'rhan-', 'part-'), 'pennod-', 'chapter-')"/>
 		</xsl:when>
 		<xsl:otherwise>
 			<xsl:attribute name="id" select="."/>
