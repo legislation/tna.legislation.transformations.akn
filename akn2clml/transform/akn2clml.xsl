@@ -56,7 +56,9 @@
 			<xsl:with-param name="welshLang" select="$welshLang"/>
 		</xsl:call-template>
 		<xsl:if test="exists(body)">
-			<xsl:call-template name="main" />
+			<xsl:call-template name="main">
+				<xsl:with-param name="welshLang" select="$welshLang" tunnel="yes"/>
+			</xsl:call-template>
 		</xsl:if>
 		<xsl:call-template name="footnotes" />
 		<xsl:call-template name="margin-notes" />
