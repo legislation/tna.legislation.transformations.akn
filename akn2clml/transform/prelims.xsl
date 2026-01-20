@@ -70,10 +70,21 @@
 
 <xsl:template match="coverPage/block[@name='number'] | preface/block[@name='number']">
 	<xsl:param name="context" as="xs:string*" tunnel="yes" />
+	<xsl:param name="welshLang" as="xs:string?" tunnel="yes" />
 	<Number>
-		<xsl:apply-templates>
-			<xsl:with-param name="context" select="('Number', $context)" tunnel="yes" />
-		</xsl:apply-templates>
+		<xsl:variable name="NumStr">
+			<xsl:apply-templates>
+				<xsl:with-param name="context" select="('Number', $context)" tunnel="yes" />
+			</xsl:apply-templates>
+		</xsl:variable>
+		<xsl:choose>
+			<xsl:when test="$welshLang = 'cym'">
+				<xsl:sequence select="normalize-space(replace($NumStr, ' No\.? ', ' Rhif '))"/>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:sequence select="normalize-space($NumStr)"/>
+			</xsl:otherwise>
+		</xsl:choose>
 	</Number>
 </xsl:template>
 
