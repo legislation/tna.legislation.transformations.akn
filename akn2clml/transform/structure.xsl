@@ -772,6 +772,9 @@
 		<xsl:when test="$head = ('P7', 'P7para')">
 			<xsl:text>P7</xsl:text>
 		</xsl:when>
+		<xsl:when test="$head = ('BlockAmendment')">
+			<xsl:text>BlockAmendment</xsl:text>
+		</xsl:when>
 		<xsl:otherwise>
 			<xsl:message><xsl:text>ERROR context is: </xsl:text><xsl:sequence select="$context" /></xsl:message>
 			<xsl:text>ERROR</xsl:text>
