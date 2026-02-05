@@ -368,6 +368,14 @@
 	</xsl:choose>
 </xsl:variable>
 
+<xsl:variable name="point-in-time" as="xs:date?">
+	<xsl:analyze-string select="$dc-identifier" regex="/\d{{4}}-\d{{2}}-\d{{2}}">
+		<xsl:matching-substring>
+			<xsl:sequence select="xs:date(substring(., 2))" />
+		</xsl:matching-substring>
+	</xsl:analyze-string>
+</xsl:variable>
+
 <xsl:variable name="expr-date" as="xs:string">
 	<xsl:variable name="dct-valid" as="element()?" select="/ukl:Legislation/Metadata/dct:valid" />
 	<xsl:choose>
@@ -417,6 +425,9 @@
 			<FRBRthis value="http://www.legislation.gov.uk/{ $doc-short-id }/{ $doc-version }" />
 			<FRBRuri value="http://www.legislation.gov.uk/{ $doc-short-id }/{ $doc-version }" />
 			<FRBRdate date="{ $expr-date }" name="{ $expr-date-name }" />
+			<xsl:if test="exists($point-in-time)">
+				<FRBRdate date="{ $point-in-time }" name="point-in-time" />
+			</xsl:if>
 			<FRBRauthor href="#" />
 			<FRBRlanguage language="{ $lang }" />
 		</FRBRExpression>
