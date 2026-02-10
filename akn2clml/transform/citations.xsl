@@ -30,6 +30,11 @@
 						<xsl:value-of select="translate($section, '/', '-')" />
 					</xsl:attribute>
 				</xsl:if>
+				<xsl:if test="$section != '' and starts-with(regex-group(5), '#sec_')">
+					<xsl:attribute name="Section">
+						<xsl:value-of select="concat('section-', substring-after(regex-group(5), '#sec_'))" />
+					</xsl:attribute>
+				</xsl:if>
 			</components>
 		</xsl:matching-substring>
 	</xsl:analyze-string>
@@ -109,8 +114,12 @@
 
 <xsl:template match="ref">
 	<xsl:param name="context" as="xs:string*" tunnel="yes" />
+	<xsl:param name="citationRange" as="xs:boolean?" tunnel="yes" />
 	<xsl:variable name="components" as="element()?" select="local:parse-uri((@*[local-name() = 'alternativeReference'], @href)[1])" />
 	<xsl:choose>
+		<xsl:when test="$citationRange">
+			<xsl:apply-templates />
+		</xsl:when>
 		<xsl:when test="exists($components) or (exists(@ukl:Class) and exists(@ukl:Year))">
 			<Citation>
 				<xsl:attribute name="id">
@@ -211,6 +220,10 @@
 	<xsl:param name="context" as="xs:string*" tunnel="yes" />
 	<xsl:variable name="components" as="element()?" select="local:parse-uri(@from)" />
 	<xsl:variable name="components2" as="element()?" select="local:parse-uri(@upTo)" />
+	
+	<xsl:variable name="citationRange" as="xs:boolean" select="exists($components/@Section) and not(starts-with($components/@Section, '#'))"/>
+	<xsl:message>components for <xsl:value-of select="$citationRange"/> are <xsl:copy-of select="$components"/></xsl:message>
+	
 	<xsl:choose>
 		<xsl:when test="exists($components)">
 			<Citation>
@@ -224,7 +237,7 @@
 					<xsl:value-of select="$components/@Year" />
 				</xsl:attribute>
 				<xsl:attribute name="Number">
-					<xsl:value-of select="$components/Number" />
+					<xsl:value-of select="$components/@Number" />
 				</xsl:attribute>
 				<xsl:attribute name="StartSectionRef">
 					<xsl:value-of select="$components/@Section" />
@@ -233,13 +246,21 @@
 					<xsl:value-of select="$components2/@Section" />
 				</xsl:attribute>
 				<xsl:attribute name="URI">
-					<xsl:value-of select="@from" />
+					<xsl:choose>
+						<xsl:when test="$citationRange and contains(@from, '#')">
+							<xsl:value-of select="substring-before(@from, '#')"/>
+						</xsl:when>
+						<xsl:otherwise>
+							<xsl:value-of select="@from" />
+						</xsl:otherwise>
+					</xsl:choose>
 				</xsl:attribute>
 				<xsl:attribute name="UpTo">
 					<xsl:value-of select="@upTo" />
 				</xsl:attribute>
 				<xsl:apply-templates>
 					<xsl:with-param name="context" select="('Citation', $context)" tunnel="yes" />
+					<xsl:with-param name="citationRange" select="$citationRange" as="xs:boolean" tunnel="yes"/>
 				</xsl:apply-templates>
 			</Citation>
 		</xsl:when>
