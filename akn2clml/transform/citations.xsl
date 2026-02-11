@@ -35,6 +35,11 @@
 						<xsl:value-of select="concat('section-', substring-after(regex-group(5), '#sec_'))" />
 					</xsl:attribute>
 				</xsl:if>
+				<xsl:if test="$section != '' and starts-with(regex-group(5), '#sched_')">
+					<xsl:attribute name="Section">
+						<xsl:value-of select="concat('schedule-', replace(substring-after(regex-group(5), '#sched_'), '_.+', ''))" />
+					</xsl:attribute>
+				</xsl:if>
 			</components>
 		</xsl:matching-substring>
 	</xsl:analyze-string>
@@ -222,7 +227,7 @@
 	<xsl:variable name="components2" as="element()?" select="local:parse-uri(@upTo)" />
 	
 	<xsl:variable name="citationRange" as="xs:boolean" select="exists($components/@Section) and not(starts-with($components/@Section, '#'))"/>
-	<xsl:message>components for <xsl:value-of select="$citationRange"/> are <xsl:copy-of select="$components"/></xsl:message>
+	<xsl:message>components for <xsl:value-of select="$citationRange"/> value <xsl:value-of select="self::*//text()"/> are <xsl:copy-of select="$components"/></xsl:message>
 	
 	<xsl:choose>
 		<xsl:when test="exists($components)">
