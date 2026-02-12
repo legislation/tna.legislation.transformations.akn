@@ -109,6 +109,18 @@
 	</xsl:choose>
 </xsl:function>
 
+<xsl:function name="local:revisedURI">
+	<xsl:param name="uri" as="xs:string"/>
+	<xsl:choose>
+		<xsl:when test="$uri">
+			
+		</xsl:when>
+		<xsl:otherwise>
+			<xsl:sequence select="$uri"/>
+		</xsl:otherwise>
+	</xsl:choose>
+</xsl:function>
+
 <xsl:template match="ref[@class='ignore']">
 	<xsl:apply-templates />
 </xsl:template>
@@ -254,15 +266,16 @@
 					<xsl:choose>
 						<xsl:when test="$citationRange and contains(@from, '#')">
 							<xsl:value-of select="substring-before(@from, '#')"/>
+<!--							<xsl:sequence select="local:revisedURI(@from)"/>-->
 						</xsl:when>
 						<xsl:otherwise>
 							<xsl:value-of select="@from" />
 						</xsl:otherwise>
 					</xsl:choose>
 				</xsl:attribute>
-				<xsl:attribute name="UpTo">
+<!--				<xsl:attribute name="UpTo">
 					<xsl:value-of select="@upTo" />
-				</xsl:attribute>
+				</xsl:attribute>-->
 				<xsl:apply-templates>
 					<xsl:with-param name="context" select="('Citation', $context)" tunnel="yes" />
 					<xsl:with-param name="citationRange" select="$citationRange" as="xs:boolean" tunnel="yes"/>
