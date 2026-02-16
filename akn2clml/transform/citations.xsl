@@ -111,14 +111,19 @@
 
 <xsl:function name="local:revisedURI">
 	<xsl:param name="uri" as="xs:string"/>
-	<xsl:choose>
-		<xsl:when test="$uri">
-			
-		</xsl:when>
-		<xsl:otherwise>
-			<xsl:sequence select="$uri"/>
-		</xsl:otherwise>
-	</xsl:choose>
+	<xsl:variable name="docURI" select="substring-before($uri, '#')"/>
+	<xsl:variable name="docLoc" select="substring-after(replace($uri, '_+', '_'), '#')"/>
+	<xsl:variable name="docLoc" select="replace($docLoc, '_', '/')"/>
+	<xsl:variable name="docLoc" select="replace($docLoc, 'sec', 'section')"/>
+	<xsl:variable name="docLoc" select="replace($docLoc, 'para', 'paragraph')"/>
+	<xsl:variable name="docLoc" select="replace($docLoc, 'sched', 'schedule')"/>
+	<xsl:variable name="docLoc" select="replace($docLoc, 'art', 'article')"/>
+	<xsl:variable name="docLoc" select="replace($docLoc, 'pt', 'part')"/>
+	<xsl:variable name="docLoc" select="replace($docLoc, 'chp', 'chapter')"/>
+	<xsl:variable name="docLoc" select="replace($docLoc, 'reg', 'regulation')"/>
+	<xsl:variable name="docLoc" select="replace($docLoc, 'subsec', 'subsection')"/>
+	<xsl:variable name="docLoc" select="replace($docLoc, '/(subparagraph|os|qstr).+', '')"/>
+	<xsl:sequence select="concat($docURI, '/', $docLoc)"/>
 </xsl:function>
 
 <xsl:template match="ref[@class='ignore']">
@@ -239,7 +244,6 @@
 	<xsl:variable name="components2" as="element()?" select="local:parse-uri(@upTo)" />
 	
 	<xsl:variable name="citationRange" as="xs:boolean" select="exists($components/@Section) and not(starts-with($components/@Section, '#'))"/>
-	<xsl:message>components for <xsl:value-of select="$citationRange"/> value <xsl:value-of select="self::*//text()"/> are <xsl:copy-of select="$components"/></xsl:message>
 	
 	<xsl:choose>
 		<xsl:when test="exists($components)">
@@ -265,17 +269,13 @@
 				<xsl:attribute name="URI">
 					<xsl:choose>
 						<xsl:when test="$citationRange and contains(@from, '#')">
-							<xsl:value-of select="substring-before(@from, '#')"/>
-<!--							<xsl:sequence select="local:revisedURI(@from)"/>-->
+							<xsl:sequence select="local:revisedURI(@from)"/>
 						</xsl:when>
 						<xsl:otherwise>
 							<xsl:value-of select="@from" />
 						</xsl:otherwise>
 					</xsl:choose>
 				</xsl:attribute>
-<!--				<xsl:attribute name="UpTo">
-					<xsl:value-of select="@upTo" />
-				</xsl:attribute>-->
 				<xsl:apply-templates>
 					<xsl:with-param name="context" select="('Citation', $context)" tunnel="yes" />
 					<xsl:with-param name="citationRange" select="$citationRange" as="xs:boolean" tunnel="yes"/>
