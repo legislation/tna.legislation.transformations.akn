@@ -30,6 +30,16 @@
 						<xsl:value-of select="translate($section, '/', '-')" />
 					</xsl:attribute>
 				</xsl:if>
+				<xsl:if test="$section != '' and starts-with(regex-group(5), '#sec_')">
+					<xsl:attribute name="Section">
+						<xsl:value-of select="concat('section-', substring-after(regex-group(5), '#sec_'))" />
+					</xsl:attribute>
+				</xsl:if>
+				<xsl:if test="$section != '' and starts-with(regex-group(5), '#sched_')">
+					<xsl:attribute name="Section">
+						<xsl:value-of select="concat('schedule-', replace(substring-after(regex-group(5), '#sched_'), '_.+', ''))" />
+					</xsl:attribute>
+				</xsl:if>
 			</components>
 		</xsl:matching-substring>
 	</xsl:analyze-string>
@@ -99,6 +109,23 @@
 	</xsl:choose>
 </xsl:function>
 
+<xsl:function name="local:revisedURI">
+	<xsl:param name="uri" as="xs:string"/>
+	<xsl:variable name="docURI" select="substring-before($uri, '#')"/>
+	<xsl:variable name="docLoc" select="substring-after(replace($uri, '_+', '_'), '#')"/>
+	<xsl:variable name="docLoc" select="replace($docLoc, '_', '/')"/>
+	<xsl:variable name="docLoc" select="replace($docLoc, 'sec', 'section')"/>
+	<xsl:variable name="docLoc" select="replace($docLoc, 'para', 'paragraph')"/>
+	<xsl:variable name="docLoc" select="replace($docLoc, 'sched', 'schedule')"/>
+	<xsl:variable name="docLoc" select="replace($docLoc, 'art', 'article')"/>
+	<xsl:variable name="docLoc" select="replace($docLoc, 'pt', 'part')"/>
+	<xsl:variable name="docLoc" select="replace($docLoc, 'chp', 'chapter')"/>
+	<xsl:variable name="docLoc" select="replace($docLoc, 'reg', 'regulation')"/>
+	<xsl:variable name="docLoc" select="replace($docLoc, 'subsec', 'subsection')"/>
+	<xsl:variable name="docLoc" select="replace($docLoc, '/(subparagraph|os|qstr).+', '')"/>
+	<xsl:sequence select="concat($docURI, '/', $docLoc)"/>
+</xsl:function>
+
 <xsl:template match="ref[@class='ignore']">
 	<xsl:apply-templates />
 </xsl:template>
@@ -109,8 +136,12 @@
 
 <xsl:template match="ref">
 	<xsl:param name="context" as="xs:string*" tunnel="yes" />
+	<xsl:param name="citationRange" as="xs:boolean?" tunnel="yes" />
 	<xsl:variable name="components" as="element()?" select="local:parse-uri((@*[local-name() = 'alternativeReference'], @href)[1])" />
 	<xsl:choose>
+		<xsl:when test="$citationRange">
+			<xsl:apply-templates />
+		</xsl:when>
 		<xsl:when test="exists($components) or (exists(@ukl:Class) and exists(@ukl:Year))">
 			<Citation>
 				<xsl:attribute name="id">
@@ -211,6 +242,9 @@
 	<xsl:param name="context" as="xs:string*" tunnel="yes" />
 	<xsl:variable name="components" as="element()?" select="local:parse-uri(@from)" />
 	<xsl:variable name="components2" as="element()?" select="local:parse-uri(@upTo)" />
+	
+	<xsl:variable name="citationRange" as="xs:boolean" select="exists($components/@Section) and not(starts-with($components/@Section, '#'))"/>
+	
 	<xsl:choose>
 		<xsl:when test="exists($components)">
 			<Citation>
@@ -224,7 +258,7 @@
 					<xsl:value-of select="$components/@Year" />
 				</xsl:attribute>
 				<xsl:attribute name="Number">
-					<xsl:value-of select="$components/Number" />
+					<xsl:value-of select="$components/@Number" />
 				</xsl:attribute>
 				<xsl:attribute name="StartSectionRef">
 					<xsl:value-of select="$components/@Section" />
@@ -233,13 +267,18 @@
 					<xsl:value-of select="$components2/@Section" />
 				</xsl:attribute>
 				<xsl:attribute name="URI">
-					<xsl:value-of select="@from" />
-				</xsl:attribute>
-				<xsl:attribute name="UpTo">
-					<xsl:value-of select="@upTo" />
+					<xsl:choose>
+						<xsl:when test="$citationRange and contains(@from, '#')">
+							<xsl:sequence select="local:revisedURI(@from)"/>
+						</xsl:when>
+						<xsl:otherwise>
+							<xsl:value-of select="@from" />
+						</xsl:otherwise>
+					</xsl:choose>
 				</xsl:attribute>
 				<xsl:apply-templates>
 					<xsl:with-param name="context" select="('Citation', $context)" tunnel="yes" />
+					<xsl:with-param name="citationRange" select="$citationRange" as="xs:boolean" tunnel="yes"/>
 				</xsl:apply-templates>
 			</Citation>
 		</xsl:when>
