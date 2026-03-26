@@ -248,7 +248,9 @@
 				</xsl:otherwise>
 			</xsl:choose>
 		</xsl:when>
-		<xsl:when test="$e/self::paragraph[local:akn-is-within-schedule(.)] or $e/self::hcontainer[@name='scheduleParagraph'] or $e/self::paragraph[@class='schProv1']">
+		<xsl:when test="($e/self::paragraph[local:akn-is-within-schedule(.)] 
+			or $e/self::hcontainer[@name='scheduleParagraph'] 
+			or $e/self::paragraph[@class='schProv1']) and $e/ancestor::hcontainer[@name='schedule']">
 			<xsl:sequence select="concat(local:make-internal-id($e/ancestor::hcontainer[@name='schedule']), '-paragraph-', local:strip-punctuation-from-number(string($e/num)))" />
 		</xsl:when>
 		<xsl:when test="$e/self::subsection or $e/self::paragraph or $e/self::subparagraph or $e/self::level">

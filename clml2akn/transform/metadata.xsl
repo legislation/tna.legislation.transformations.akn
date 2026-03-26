@@ -188,6 +188,7 @@
 					<xsl:when test="$doc-long-type = 'UnitedKingdomDraftStatutoryInstrument'">government/uk</xsl:when>
 					<xsl:when test="$doc-long-type = 'WelshAssemblyMeasure'">legislature/NationalAssemblyForWales</xsl:when>
 					<xsl:when test="$doc-long-type = 'WelshNationalAssemblyAct'">legislature/NationalAssemblyForWales</xsl:when>
+					<xsl:when test="$doc-long-type = 'WelshParliamentAct'">legislature/WelshParliament</xsl:when>
 					<xsl:when test="$doc-long-type = 'WelshStatutoryInstrument'">government/wales</xsl:when>
 					<xsl:when test="$doc-long-type = 'WelshDraftStatutoryInstrument'">government/wales</xsl:when>
 					<xsl:when test="$doc-long-type = 'UnitedKingdomMinisterialDirection'">government/uk</xsl:when>
