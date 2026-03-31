@@ -111,7 +111,7 @@
 <xsl:function name="local:get-restrict-end-date" as="xs:date?">
 	<xsl:param name="e" as="element()" />
 	<xsl:if test="exists($e/@eId)">
-		<xsl:variable name="restriction" as="element()?" select="key('temporal-restrictions', $e/@eId, root($e))" />
+		<xsl:variable name="restriction" as="element()?" select="key('temporal-restrictions', $e/@eId, root($e))[1]" />
 		<xsl:if test="exists($restriction)">
 			<xsl:variable name="group" as="element(temporalGroup)" select="key('id', substring($restriction/@refersTo, 2), root($restriction))" />
 			<xsl:variable name="interval" as="element(timeInterval)" select="$group/*" />
