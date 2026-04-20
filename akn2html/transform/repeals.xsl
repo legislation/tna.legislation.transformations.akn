@@ -94,7 +94,7 @@
     </xsl:choose>
 </xsl:template>
 
-<xsl:variable name="point-in-time" as="xs:date?" select="/akomaNtoso/*/meta/identification/FRBRExpression/FRBRdate[@name='point-in-time']" />
+<xsl:variable name="point-in-time" as="xs:date?" select="/akomaNtoso/*/meta/identification/FRBRExpression/FRBRdate[@name='point-in-time']/@date" />
 
 <xsl:template match="section" priority="1">
     <xsl:param name="effective-document-category" as="xs:string" tunnel="yes" />
