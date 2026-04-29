@@ -128,6 +128,9 @@
 		<xsl:when test="$short-type = $eu-short-types">
 			<xsl:text>euretained</xsl:text>
 		</xsl:when>
+		<xsl:otherwise>
+			<xsl:text>unknown</xsl:text>
+		</xsl:otherwise>
 	</xsl:choose>
 </xsl:function>
 

@@ -68,6 +68,9 @@
 		<xsl:when test="$short-type = ('ExplanatoryMemorandum', 'ExplanatoryNote')">
 			<xsl:sequence select="'secondary'" />
 		</xsl:when>
+		<xsl:otherwise>
+			<xsl:sequence select="'unknown'" />
+		</xsl:otherwise>
 	</xsl:choose>
 </xsl:function>
 
