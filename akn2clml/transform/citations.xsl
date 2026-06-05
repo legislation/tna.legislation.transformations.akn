@@ -31,8 +31,9 @@
 					</xsl:attribute>
 				</xsl:if>
 				<xsl:if test="$section != '' and starts-with(regex-group(5), '#sec_')">
+					<xsl:variable name="sectionValue" select="concat('section-', substring-after(regex-group(5), '#sec_'))"/>
 					<xsl:attribute name="Section">
-						<xsl:value-of select="concat('section-', substring-after(regex-group(5), '#sec_'))" />
+						<xsl:value-of select="replace($sectionValue, '^(section-[^_]+).*', '$1')"/>
 					</xsl:attribute>
 				</xsl:if>
 				<xsl:if test="$section != '' and starts-with(regex-group(5), '#sched_')">
