@@ -115,7 +115,7 @@
 	<xsl:variable name="docURI" select="substring-before($uri, '#')"/>
 	<xsl:variable name="docLoc" select="substring-after(replace($uri, '_+', '_'), '#')"/>
 	<xsl:variable name="docLoc" select="replace($docLoc, '_', '/')"/>
-	<xsl:variable name="docLoc" select="replace($docLoc, 'subsec', 'SUBSECTION')"/>
+	<xsl:variable name="docLoc" select="replace($docLoc, '/subsec/.+$', '')"/>
 	<xsl:variable name="docLoc" select="replace($docLoc, 'sec', 'section')"/>
 	<xsl:variable name="docLoc" select="replace($docLoc, 'para', 'paragraph')"/>
 	<xsl:variable name="docLoc" select="replace($docLoc, 'sched', 'schedule')"/>
@@ -124,7 +124,6 @@
 	<xsl:variable name="docLoc" select="replace($docLoc, 'chp', 'chapter')"/>
 	<xsl:variable name="docLoc" select="replace($docLoc, 'reg', 'regulation')"/>
 	<xsl:variable name="docLoc" select="replace($docLoc, '/(subparagraph|os|qstr).+', '')"/>
-	<xsl:variable name="docLoc" select="replace($docLoc, 'SUBSECTION', 'subsection')"/>
 	<xsl:sequence select="concat($docURI, '/', $docLoc)"/>
 </xsl:function>
 
