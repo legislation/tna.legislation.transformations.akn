@@ -9,7 +9,6 @@
 	xmlns:local="http://www.jurisdatum.com/tna/akn2clml"
 	exclude-result-prefixes="xs ukl local">
 
-
 <xsl:function name="local:parse-lgu-uri" as="element()?">
 	<xsl:param name="uri" as="xs:string" />
 	<xsl:analyze-string select="$uri" regex="^https?://www.legislation.gov.uk/(id/)?([a-z]{{3,5}})/(\d{{4}})/(\d+)(/?.+)?$">
