@@ -9,7 +9,6 @@
 	xmlns:local="http://www.jurisdatum.com/tna/akn2clml"
 	exclude-result-prefixes="xs ukl local">
 
-
 <xsl:function name="local:parse-lgu-uri" as="element()?">
 	<xsl:param name="uri" as="xs:string" />
 	<xsl:analyze-string select="$uri" regex="^https?://www.legislation.gov.uk/(id/)?([a-z]{{3,5}})/(\d{{4}})/(\d+)(/?.+)?$">
@@ -115,7 +114,7 @@
 	<xsl:variable name="docURI" select="substring-before($uri, '#')"/>
 	<xsl:variable name="docLoc" select="substring-after(replace($uri, '_+', '_'), '#')"/>
 	<xsl:variable name="docLoc" select="replace($docLoc, '_', '/')"/>
-	<xsl:variable name="docLoc" select="replace($docLoc, 'subsec', 'SUBSECTION')"/>
+	<xsl:variable name="docLoc" select="replace($docLoc, '/subsec/.+$', '')"/>
 	<xsl:variable name="docLoc" select="replace($docLoc, 'sec', 'section')"/>
 	<xsl:variable name="docLoc" select="replace($docLoc, 'para', 'paragraph')"/>
 	<xsl:variable name="docLoc" select="replace($docLoc, 'sched', 'schedule')"/>
@@ -124,7 +123,6 @@
 	<xsl:variable name="docLoc" select="replace($docLoc, 'chp', 'chapter')"/>
 	<xsl:variable name="docLoc" select="replace($docLoc, 'reg', 'regulation')"/>
 	<xsl:variable name="docLoc" select="replace($docLoc, '/(subparagraph|os|qstr).+', '')"/>
-	<xsl:variable name="docLoc" select="replace($docLoc, 'SUBSECTION', 'subsection')"/>
 	<xsl:sequence select="concat($docURI, '/', $docLoc)"/>
 </xsl:function>
 
