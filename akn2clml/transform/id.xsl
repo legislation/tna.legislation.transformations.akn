@@ -134,6 +134,12 @@
 
 <xsl:function name="local:make-internal-id" as="xs:string">
 	<xsl:param name="e" as="element()" />
+	<xsl:sequence select="local:make-internal-id($e, ())"/>
+</xsl:function>
+
+<xsl:function name="local:make-internal-id" as="xs:string">
+	<xsl:param name="e" as="element()" />
+	<xsl:param name="groupCt" as="xs:string?"/>
 	<xsl:choose>
 		<xsl:when test="exists($e/ancestor::quotedStructure)">
 			<xsl:sequence select="local:make-necessary-id($e)" />
@@ -155,7 +161,7 @@
 			<xsl:choose>
 				<xsl:when test="local:akn-is-within-schedule($e)">
 					<xsl:variable name="parent" as="element()" select="$e/parent::*" />
-					<xsl:variable name="parent-id" as="xs:string" select="local:make-internal-id($parent)" />
+					<xsl:variable name="parent-id" as="xs:string" select="local:make-internal-id($parent, $groupCt)" />
 					<xsl:sequence select="concat($parent-id, '-', $id)" />
 				</xsl:when>
 				<xsl:otherwise>
@@ -177,7 +183,7 @@
 			<xsl:choose>
 				<xsl:when test="exists($e/parent::part) or local:akn-is-within-schedule($e)">
 					<xsl:variable name="parent" as="element()" select="$e/parent::*" />
-					<xsl:variable name="parent-id" as="xs:string" select="local:make-internal-id($parent)" />
+					<xsl:variable name="parent-id" as="xs:string" select="local:make-internal-id($parent, $groupCt)" />
 					<xsl:sequence select="concat($parent-id, '-', $id)" />
 				</xsl:when>
 				<xsl:otherwise>
@@ -242,7 +248,9 @@
 				</xsl:otherwise>
 			</xsl:choose>
 		</xsl:when>
-		<xsl:when test="$e/self::paragraph[local:akn-is-within-schedule(.)] or $e/self::hcontainer[@name='scheduleParagraph'] or $e/self::paragraph[@class='schProv1']">
+		<xsl:when test="($e/self::paragraph[local:akn-is-within-schedule(.)] 
+			or $e/self::hcontainer[@name='scheduleParagraph'] 
+			or $e/self::paragraph[@class='schProv1']) and $e/ancestor::hcontainer[@name='schedule']">
 			<xsl:sequence select="concat(local:make-internal-id($e/ancestor::hcontainer[@name='schedule']), '-paragraph-', local:strip-punctuation-from-number(string($e/num)))" />
 		</xsl:when>
 		<xsl:when test="$e/self::subsection or $e/self::paragraph or $e/self::subparagraph or $e/self::level">
@@ -333,6 +341,21 @@
 			</xsl:choose>
 		</xsl:when>
 		
+		<xsl:when test="$e/self::hcontainer[@name='groupOfParts']">
+			<xsl:variable name="scheduleCt" as="xs:string" select="concat('schedule-', (count($e/self::hcontainer[@name='groupOfParts']/preceding-sibling::hcontainer[@name='groupOfParts']) + 1))"/>
+			<xsl:variable name="grpCt" as="xs:string">
+				<xsl:choose>
+					<xsl:when test="$groupCt castable as xs:string">
+						<xsl:sequence select="concat('group-', $groupCt)"/>
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:sequence select="'group'"/>
+					</xsl:otherwise>
+				</xsl:choose>
+			</xsl:variable>
+			<xsl:sequence select="concat($scheduleCt, '-', $grpCt)"/>
+		</xsl:when>
+		
 		<xsl:otherwise>
 			<xsl:sequence select="local:make-necessary-id($e)" />
 		</xsl:otherwise>
@@ -341,6 +364,7 @@
 
 <xsl:template name="add-id-if-necessary">
 	<xsl:param name="e" as="element()" select="." />
+	<xsl:param name="groupCt" as="xs:string?" tunnel="yes"/>
 	<xsl:variable name="should-add" as="xs:boolean">
 		<xsl:choose>
 			<xsl:when test="$e/self::akomaNtoso">
@@ -390,7 +414,14 @@
 	</xsl:variable>
 	<xsl:if test="$should-add">
 		<xsl:attribute name="id">
-			<xsl:sequence select="local:make-internal-id($e)" />
+			<xsl:choose>
+				<xsl:when test="$groupCt and $e/ancestor-or-self::hcontainer[@name='groupOfParts']">
+					<xsl:sequence select="local:make-internal-id($e, $groupCt)" />
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:sequence select="local:make-internal-id($e)" />
+				</xsl:otherwise>
+			</xsl:choose>
 		</xsl:attribute>
 	</xsl:if>
 </xsl:template>

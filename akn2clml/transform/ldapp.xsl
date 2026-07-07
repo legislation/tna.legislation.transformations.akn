@@ -106,6 +106,10 @@ Other
 				</xsl:if>
 			</xsl:variable>
 			<xsl:choose>
+				<xsl:when test="$doc-short-type = 'ukla' and local:roman-to-integer($var-act-no-comp) castable as xs:integer 
+					and local:roman-to-integer($var-act-no-comp) ne 0">
+					<xsl:sequence select="xs:string(local:roman-to-integer($var-act-no-comp))" />
+				</xsl:when>
 				<xsl:when test="$var-act-no-comp castable as xs:integer">
 					<xsl:sequence select="$var-act-no-comp" />
 				</xsl:when>
@@ -261,6 +265,50 @@ Other
 	</xsl:if>
 </xsl:function>
 
+<!-- functions to convert roman values to arabic numbers -->
+<xsl:function name="local:roman-to-integer" as="xs:integer">
+	<xsl:param name="roman" as="xs:string" />
+	<xsl:sequence select="local:roman-to-integer($roman, 0, 0)" />
+</xsl:function>
+
+<xsl:function name="local:roman-to-integer" as="xs:integer">
+	<xsl:param name="strNumber" as="xs:string" />
+	<xsl:param name="intPreviousCharValue" as="xs:integer" />
+	<xsl:param name="intValue" as="xs:integer" />
+	<xsl:choose>
+		<xsl:when test="$strNumber != ''">
+			<xsl:variable name="strFirstChar" as="xs:string" select="substring($strNumber, 1, 1)" />
+			<xsl:variable name="intFirstCharValue" as="xs:integer">
+				<xsl:choose>
+					<xsl:when test="$strFirstChar = ('i', 'I')">1</xsl:when>
+					<xsl:when test="$strFirstChar = ('v', 'V')">5</xsl:when>
+					<xsl:when test="$strFirstChar = ('x', 'X')">10</xsl:when>
+					<xsl:when test="$strFirstChar = ('l', 'L')">50</xsl:when>
+					<xsl:when test="$strFirstChar = ('c', 'C')">100</xsl:when>
+					<xsl:when test="$strFirstChar = ('d', 'D')">500</xsl:when>
+					<xsl:when test="$strFirstChar = ('m', 'M')">1000</xsl:when>
+					<xsl:otherwise>0</xsl:otherwise>
+				</xsl:choose>
+			</xsl:variable>
+			<xsl:variable name="intNewValue" as="xs:integer">
+				<xsl:choose>
+					<xsl:when test="$intPreviousCharValue = 0 or
+						$intPreviousCharValue >= $intFirstCharValue">
+						<xsl:value-of select="$intValue + $intFirstCharValue" />
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:value-of select="$intValue + $intFirstCharValue -
+							($intPreviousCharValue * 2)" />
+					</xsl:otherwise>
+				</xsl:choose>
+			</xsl:variable>
+			<xsl:sequence select="local:roman-to-integer(substring($strNumber, 2), $intFirstCharValue, $intNewValue)" />
+		</xsl:when>
+		<xsl:otherwise>
+			<xsl:value-of select="$intValue" />
+		</xsl:otherwise>
+	</xsl:choose>
+</xsl:function>
 
 <!-- suppress tables of contents -->
 

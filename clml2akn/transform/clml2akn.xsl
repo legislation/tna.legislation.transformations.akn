@@ -76,8 +76,8 @@
 		</conclusions>
 	</xsl:if>
 	<xsl:if test="exists(*[not(self::PrimaryPrelims) and not(self::Body) and not(self::Appendix) and not(self::Schedules) and not(self::ExplanatoryNotes) and not (self::Include)])">
-		<xsl:message terminate="yes">
-			<xsl:sequence select="*/local-name()" />
+		<xsl:message terminate="no">
+			<xsl:text>UNEXPECTED ELEMENT FOUND IN PRIMARY OUTPUT: </xsl:text><xsl:sequence select="*/local-name()" />
 		</xsl:message>
 	</xsl:if>
 </xsl:template>
@@ -100,8 +100,8 @@
 		</conclusions>
 	</xsl:if>
 	<xsl:if test="exists(*[not(self::SecondaryPrelims) and not(self::Body) and not(self::Appendix) and not(self::Schedules) and not(self::ExplanatoryNotes) and not(self::EarlierOrders) and not (self::Include)])">
-		<xsl:message terminate="yes">
-			<xsl:sequence select="*/local-name()" />
+		<xsl:message terminate="no">
+			<xsl:text>UNEXPECTED ELEMENT FOUND IN SECONDARY OUTPUT: </xsl:text><xsl:sequence select="*/local-name()" />
 		</xsl:message>
 	</xsl:if>
 </xsl:template>
@@ -150,9 +150,10 @@
 <!-- default -->
 
 <xsl:template match="*">
-	<xsl:message terminate="yes">
-		<xsl:sequence select="." />
+	<xsl:message terminate="no">
+		NO TEMPLATE MATCH FOR: <xsl:sequence select="." />
 	</xsl:message>
+	<xsl:apply-templates/>
 </xsl:template>
 
 </xsl:transform>

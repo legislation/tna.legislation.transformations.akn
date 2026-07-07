@@ -7,14 +7,20 @@
 	xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
 	xmlns:uk="https://www.legislation.gov.uk/namespaces/UK-AKN"
 	xmlns:ukl="http://www.legislation.gov.uk/namespaces/legislation"
+	xmlns:atom="http://www.w3.org/2005/Atom"
 	xmlns:local="http://www.jurisdatum.com/tna/clml2akn"
-	exclude-result-prefixes="xs uk ukl local">
+	exclude-result-prefixes="xs uk ukl atom local">
 
 
 <xsl:template name="notes">
 	<xsl:variable name="all-unique-commentary-ids-in-reference-order" as="xs:string*">
-		<xsl:variable name="anchor" as="element()?" select="//*[@DocumentURI = $dc-identifier]" />
-		<xsl:variable name="anchor" as="element()?" select="if ($anchor/self::P1/parent::P1group) then $anchor/parent::* else $anchor" />
+		<xsl:for-each select="/Legislation/*:Metadata/atom:link[@rel='http://purl.org/dc/terms/provenance']">
+			<xsl:if test="contains(@href, '#commentary-')">
+				<xsl:sequence select="substring-after(@href, '#commentary-')" />
+			</xsl:if>
+		</xsl:for-each>
+		<xsl:variable name="anchor" as="element()*" select="//*[not(self::InternalLink)][@DocumentURI = $dc-identifier]" />
+		<xsl:variable name="anchor" as="element()*" select="if ($anchor/self::P1/parent::P1group) then ($anchor[self::P1/parent::P1group])[1]/parent::* else $anchor[1]" />
 		<xsl:variable name="anchor" as="element()" select="if (exists($anchor)) then $anchor else /*" />
 		<xsl:variable name="all-elements" as="element()*" select="( $anchor/descendant::CommentaryRef | $anchor/descendant-or-self::*[exists(@CommentaryRef)] )" />
 		<xsl:sequence select="local:get-unique-commentary-ids($all-elements)" />
@@ -100,6 +106,12 @@
 	</xsl:for-each-group>
 </xsl:function>
 
+<xsl:template match="atom:link[@rel='http://purl.org/dc/terms/provenance']" mode="other-analysis">
+	<xsl:if test="contains(@href, '#commentary-')">
+		<uk:commentary href="#act" refersTo="#{ substring-after(@href, '#commentary-') }" />
+	</xsl:if>
+</xsl:template>
+
 <xsl:template match="PrimaryPrelims | SecondaryPrelims | EUPrelims" mode="other-analysis">
 	<xsl:variable name="elements" as="element()*" select="( descendant::*[exists(@CommentaryRef)] | descendant::CommentaryRef )" />
 	<xsl:variable name="commentary-ids" as="xs:string*" select="local:get-unique-commentary-ids($elements)" />
@@ -117,7 +129,7 @@
 	<xsl:variable name="this-commentary-ids" as="xs:string*" select="local:get-unique-commentary-ids($this-elements)" />
 
 	<!-- could be optimized -->
-	<xsl:variable name="is-requested" as="xs:boolean" select="empty(descendant::*[@DocumentURI = $dc-identifier])" />
+	<xsl:variable name="is-requested" as="xs:boolean" select="empty(descendant::*[not(self::InternalLink)][@DocumentURI = $dc-identifier])" />
 
 	<xsl:choose>
 		<xsl:when test="$is-requested">
@@ -220,7 +232,7 @@
 </xsl:template>
 
 <xsl:template match="CommentaryRef">
-	<xsl:variable name="commentary" as="element(Commentary)?" select="key('id', @Ref)[self::Commentary]" />	<!-- self::Commentary b/c of errors in ukpga/1974/7 -->
+	<xsl:variable name="commentary" as="element(Commentary)*" select="key('id', @Ref)[self::Commentary]" />	<!-- self::Commentary b/c of errors in ukpga/1974/7 -->
 	<xsl:if test="exists($commentary) and $commentary/@Type = ('F', 'M', 'X')">
 		<noteRef href="#{ @Ref }" uk:name="commentary" ukl:Name="CommentaryRef" class="commentary" />
 	</xsl:if>

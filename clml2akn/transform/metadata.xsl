@@ -26,7 +26,7 @@
 	</meta>
 </xsl:template>
 
-<xsl:variable name="work-date" as="xs:string?">
+<xsl:variable name="work-date" as="xs:string*">
 	<xsl:choose>
 		<xsl:when test="$doc-category = 'primary'">
 			<xsl:choose>
@@ -34,7 +34,7 @@
 					<xsl:value-of select="/ukl:Legislation/Metadata/PrimaryMetadata/EnactmentDate/@Date" />
 				</xsl:when>
 				<xsl:otherwise>
-					<xsl:variable name="prelim-date" as="xs:date?" select="local:parse-date(/ukl:Legislation/ukl:Primary/ukl:PrimaryPrelims/ukl:DateOfEnactment/ukl:DateText)" />
+					<xsl:variable name="prelim-date" as="xs:string?" select="local:parse-date(/ukl:Legislation/ukl:Primary/ukl:PrimaryPrelims/ukl:DateOfEnactment/ukl:DateText)" />
 					<xsl:choose>
 						<xsl:when test="exists($prelim-date)">
 							<xsl:value-of select="$prelim-date" />
@@ -52,7 +52,7 @@
 					<xsl:sequence select="/ukl:Legislation/Metadata/SecondaryMetadata/Made/@Date" />
 				</xsl:when>
 				<xsl:otherwise>
-					<xsl:variable name="from-prelims" as="xs:date?">
+					<xsl:variable name="from-prelims" as="xs:string?">
 						<xsl:variable name="date-text" as="element()?" select="/ukl:Legislation/ukl:Secondary/ukl:SecondaryPrelims/ukl:MadeDate/ukl:DateText" />
 						<xsl:if test="exists($date-text)">
 							<xsl:sequence select="local:parse-date($date-text)" />
@@ -92,7 +92,7 @@
 					<xsl:text>enacted</xsl:text>
 				</xsl:when>
 				<xsl:otherwise>
-					<xsl:variable name="prelim-date" as="xs:date?" select="local:parse-date(/ukl:Legislation/ukl:Primary/ukl:PrimaryPrelims/ukl:DateOfEnactment/ukl:DateText)" />
+					<xsl:variable name="prelim-date" as="xs:string?" select="local:parse-date(/ukl:Legislation/ukl:Primary/ukl:PrimaryPrelims/ukl:DateOfEnactment/ukl:DateText)" />
 					<xsl:choose>
 						<xsl:when test="exists($prelim-date)">
 							<xsl:text>enacted</xsl:text>
@@ -110,7 +110,7 @@
 					<xsl:text>made</xsl:text>
 				</xsl:when>
 				<xsl:otherwise>
-					<xsl:variable name="from-prelims" as="xs:date?">
+					<xsl:variable name="from-prelims" as="xs:string?">
 						<xsl:variable name="date-text" as="element()?" select="/ukl:Legislation/ukl:Secondary/ukl:SecondaryPrelims/ukl:MadeDate/ukl:DateText" />
 						<xsl:if test="exists($date-text)">
 							<xsl:sequence select="local:parse-date($date-text)" />
@@ -188,6 +188,7 @@
 					<xsl:when test="$doc-long-type = 'UnitedKingdomDraftStatutoryInstrument'">government/uk</xsl:when>
 					<xsl:when test="$doc-long-type = 'WelshAssemblyMeasure'">legislature/NationalAssemblyForWales</xsl:when>
 					<xsl:when test="$doc-long-type = 'WelshNationalAssemblyAct'">legislature/NationalAssemblyForWales</xsl:when>
+					<xsl:when test="$doc-long-type = 'WelshParliamentAct'">legislature/WelshParliament</xsl:when>
 					<xsl:when test="$doc-long-type = 'WelshStatutoryInstrument'">government/wales</xsl:when>
 					<xsl:when test="$doc-long-type = 'WelshDraftStatutoryInstrument'">government/wales</xsl:when>
 					<xsl:when test="$doc-long-type = 'UnitedKingdomMinisterialDirection'">government/uk</xsl:when>
@@ -342,7 +343,7 @@
 			<xsl:value-of select="concat($doc-year, ' anaw ', $doc-number)" />
 		</xsl:when>
 		<xsl:when test="$doc-long-type = 'WelshStatutoryInstrument' or $doc-long-type = 'WelshDraftStatutoryInstrument'">
-			<xsl:variable name="alt-num" as="xs:string" select="$secondary-metadata/AlternativeNumber[@Category=('W','Cy')]/@Value" />
+			<xsl:variable name="alt-num" as="xs:string?" select="$secondary-metadata/AlternativeNumber[@Category=('W','Cy')]/@Value" />
 			<xsl:variable name="c-num" as="xs:string?" select="$secondary-metadata/AlternativeNumber[@Category='C']/@Value" />
 			<xsl:choose>
 				<xsl:when test="exists($c-num)">
@@ -366,6 +367,14 @@
 			<xsl:value-of select="concat($doc-year, ' c. ', $doc-number)" />
 		</xsl:otherwise>
 	</xsl:choose>
+</xsl:variable>
+
+<xsl:variable name="point-in-time" as="xs:date?">
+	<xsl:analyze-string select="$dc-identifier" regex="/\d{{4}}-\d{{2}}-\d{{2}}">
+		<xsl:matching-substring>
+			<xsl:sequence select="xs:date(substring(., 2))" />
+		</xsl:matching-substring>
+	</xsl:analyze-string>
 </xsl:variable>
 
 <xsl:variable name="expr-date" as="xs:string">
@@ -417,6 +426,9 @@
 			<FRBRthis value="http://www.legislation.gov.uk/{ $doc-short-id }/{ $doc-version }" />
 			<FRBRuri value="http://www.legislation.gov.uk/{ $doc-short-id }/{ $doc-version }" />
 			<FRBRdate date="{ $expr-date }" name="{ $expr-date-name }" />
+			<xsl:if test="exists($point-in-time)">
+				<FRBRdate date="{ $point-in-time }" name="point-in-time" />
+			</xsl:if>
 			<FRBRauthor href="#" />
 			<FRBRlanguage language="{ $lang }" />
 		</FRBRExpression>
@@ -459,9 +471,6 @@
 </xsl:template>
 
 <xsl:template match="atom:*" />
-
-<xsl:template match="ukm:UnappliedEffects" />
-
 
 <xsl:variable name="elements-with-restrict-dates" as="element()*" select="//*[@RestrictStartDate or @RestrictEndDate][empty(ancestor-or-self::ukl:Attachments)]" />
 
@@ -525,7 +534,34 @@
 </xsl:function>
 
 <xsl:template match="Laid" mode="tlc-organization">
-	<TLCOrganization eId="{ local:lisp-case(@Class) }" href="" showAs="{ @Class }" />
+	<xsl:variable name="dc-publishers" select="/ukl:Legislation/ukl:Metadata/dc:publisher" as="xs:string*" />
+	<xsl:variable name="href">
+		<xsl:text>http://www.legislation.gov.uk/id/</xsl:text>
+		<xsl:choose>
+			<xsl:when test="$dc-publishers = ('King''s Printer of Acts of Parliament', 'Queen''s Printer of Acts of Parliament')">
+				<xsl:text>publisher/KingsOrQueensPrinterOfActsOfParliament</xsl:text>
+			</xsl:when>
+			<xsl:when test="$dc-publishers = ('King''s Printer for Scotland', 'Queen''s Printer for Scotland')">
+				<xsl:text>publisher/KingsOrQueensPrinterForScotland</xsl:text>
+			</xsl:when>
+			<xsl:when test="$dc-publishers = ('Government Printer for Northern Ireland')">
+				<xsl:text>publisher/GovernmentPrinterForNorthernIreland</xsl:text>
+			</xsl:when>
+			<xsl:when test="$dc-publishers = ('The National Archives')">
+				<xsl:text>publisher/TheNationalArchives</xsl:text>
+			</xsl:when>
+			<xsl:when test="$dc-publishers = ('Statute Law Database')">
+				<xsl:text>publisher/StatuteLawDatabase</xsl:text>
+			</xsl:when>
+			<xsl:when test="$dc-publishers = ('Westlaw')">
+				<xsl:text>contributor/Westlaw</xsl:text>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:value-of select="translate($dc-publishers[1], ' ', '')" />
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:variable>
+	<TLCOrganization eId="{ local:lisp-case(@Class) }" href="{ $href }" showAs="{ @Class }" />
 </xsl:template>
 <xsl:template match="Laid" mode="tlc-event">
 	<TLCEvent eId="laid" href="" showAs="Laid" />
@@ -680,9 +716,19 @@
 		<xsl:apply-templates select="EUMetadata/EnactmentDate | EUMetadata/ComingIntoForce" mode="tlc-event" />
 		<xsl:call-template name="extent-locations" />
 		<xsl:call-template name="status-concepts" />
+		
+		<xsl:for-each select="/ukl:Legislation//ukl:JobTitle">
+			<TLCRole eId="ref-{local:id(.)}" href="/ontology/role/uk.{replace(.,' ’','')}" showAs="{.}" />			
+		</xsl:for-each>
+		<xsl:for-each select="/ukl:Legislation//ukl:PersonName">
+			<TLCPerson eId="ref-{local:id(.)}" href="/ontology/persons/uk.{replace(.,' ','')}" showAs="{.}" />			
+		</xsl:for-each>
+		<xsl:for-each-group select="/ukl:Legislation//ukl:Term" group-by="local:term-id(.)">
+			<xsl:variable name="id" select="local:term-id(.)" />
+			<TLCTerm eId="{$id}" href="/ontology/term/uk.{replace($id, 'term-', '')}" showAs="{.}" />
+		</xsl:for-each-group>
 	</references>
 </xsl:template>
-
 
 <!-- extent -->
 
@@ -717,7 +763,18 @@
 			<xsl:attribute name="eId">
 				<xsl:value-of select="local:make-extent-id(@RestrictExtent)" />
 			</xsl:attribute>
-			<xsl:attribute name="href"></xsl:attribute>
+			
+			<xsl:variable name="extent" select="/ukl:Legislation/@RestrictExtent"/>
+			<xsl:variable name="extent" select="replace($extent,'E','England')" />
+			<xsl:variable name="extent" select="replace($extent, 'W', 'Wales')" />
+			<xsl:variable name="extent" select="replace($extent, 'S', 'Scotland')" />
+			<xsl:variable name="extent" select="replace($extent, 'N.I.', 'Northern Ireland')" />
+			<xsl:variable name="extent" select="replace($extent, 'NI', 'Northern Ireland')" />
+			<xsl:attribute name="href">
+				<xsl:text>/ontology/jurisdictions/uk.</xsl:text>
+				<xsl:value-of select="translate($extent, '\+ ', '')" />
+			</xsl:attribute>
+			
 			<xsl:attribute name="showAs">
 				<xsl:value-of select="@RestrictExtent" />
 			</xsl:attribute>
@@ -793,5 +850,27 @@
 		</uk:match>
 	</xsl:for-each>
 </xsl:template>
+
+<!-- returns the value of 'id' attribute, if present, else generates an id -->
+	<xsl:function name="local:id" as="xs:string">
+	<xsl:param name="e" as="element()" />
+	<xsl:choose>
+		<xsl:when test="$e/@id"><xsl:value-of select="$e/@id" /></xsl:when>
+		<xsl:otherwise><xsl:value-of select="generate-id($e)" /></xsl:otherwise>
+	</xsl:choose>
+</xsl:function>
+
+<!-- returns an id for each term, to allow term elements to refer to metadata counterparts -->
+	<xsl:function name="local:term-id" as="xs:string">
+	<xsl:param name="e" as="element()" />
+	<xsl:choose>
+		<xsl:when test="$e/@id"><xsl:value-of select="$e/@id" /></xsl:when>
+		<xsl:otherwise>
+			<xsl:value-of select="concat('term-', lower-case(translate(replace($e, ' ', '-'), '&#34;“”%', '')))" />
+		</xsl:otherwise>
+	</xsl:choose>
+</xsl:function>
+
+
 
 </xsl:transform>

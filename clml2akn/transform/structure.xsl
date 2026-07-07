@@ -402,6 +402,9 @@
 		<xsl:when test="$e/self::P1 and local:effective-document-class($e) = 'secondary'">
 			<xsl:sequence select="true()" />
 		</xsl:when>
+		<xsl:when test="$e/self::P1 and $doc-long-type = 'NorthernIrelandAct'">
+			<xsl:sequence select="true()" />
+		</xsl:when>
 		<xsl:when test="$e/self::P1 and local:clml-is-within-schedule($e)">
 			<xsl:sequence select="true()" />
 		</xsl:when>
@@ -556,7 +559,7 @@
 				</xsl:message>
 			</xsl:if>
 			<xsl:variable name="name" as="xs:string" select="local:make-hcontainer-name(., $context)" />
-			<xsl:element name="{ if ($name = $unsupported) then 'hcontainer' else $name }">
+			<xsl:element name="{ if ($name = ($unsupported, '')) then 'hcontainer' else $name }">
 				<xsl:if test="$name = $unsupported">
 					<xsl:attribute name="name">
 						<xsl:value-of select="$name" />
@@ -597,7 +600,7 @@
 	<xsl:param name="context" as="xs:string*" tunnel="yes" />
 	<xsl:variable name="name" as="xs:string" select="local:make-hcontainer-name(., $context)" />
 	<xsl:variable name="alt-version-anchor" as="element()" select="if (empty(@AltVersionRefs) and $inherit-from-p1group) then .. else ." />
-	<xsl:element name="{ if ($name = $unsupported) then 'hcontainer' else $name }">
+	<xsl:element name="{ if ($name = ($unsupported, '')) then 'hcontainer' else $name }">
 		<xsl:if test="$name = $unsupported">
 			<xsl:attribute name="name">
 				<xsl:value-of select="$name" />
@@ -659,7 +662,7 @@
 	<xsl:param name="skipped-pgroup-title" as="xs:boolean" select="false()" />
 	<xsl:param name="context" as="xs:string*" tunnel="yes" />
 	<xsl:variable name="name" as="xs:string" select="local:make-hcontainer-name(., $context)" />
-	<xsl:element name="{ if ($name = $unsupported) then 'hcontainer' else $name }">
+	<xsl:element name="{ if ($name = ($unsupported, '')) then 'hcontainer' else $name }">
 		<xsl:if test="$name = $unsupported">
 			<xsl:attribute name="name">
 				<xsl:value-of select="$name" />

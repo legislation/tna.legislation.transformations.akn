@@ -46,17 +46,34 @@
 </xsl:template>
 
 <xsl:template match="/akomaNtoso/*">
-	<Legislation SchemaVersion="2.0" xsi:schemaLocation="http://www.legislation.gov.uk/namespaces/legislation http://www.legislation.gov.uk/schema/legislation.xsd">
+	<Legislation>
+		<xsl:variable name="welshLang" select="parent::akomaNtoso/*/meta/identification/FRBRExpression/FRBRlanguage/@language" as="xs:string?"/>
+		<xsl:call-template name="add-Legislation-attributes">
+			<xsl:with-param name="welshLang" select="$welshLang"/>
+		</xsl:call-template>
 		<xsl:call-template name="add-fragment-attributes" />
-		<xsl:call-template name="metadata" />
+		<xsl:call-template name="metadata">
+			<xsl:with-param name="welshLang" select="$welshLang"/>
+		</xsl:call-template>
 		<xsl:if test="exists(body)">
-			<xsl:call-template name="main" />
+			<xsl:call-template name="main">
+				<xsl:with-param name="welshLang" select="$welshLang" tunnel="yes"/>
+			</xsl:call-template>
 		</xsl:if>
 		<xsl:call-template name="footnotes" />
 		<xsl:call-template name="margin-notes" />
 		<xsl:call-template name="resources" />
 		<xsl:call-template name="commentaries" />
 	</Legislation>
+</xsl:template>
+
+<xsl:template name="add-Legislation-attributes">
+	<xsl:param name="welshLang" as="xs:string?"/>
+	<xsl:attribute name="SchemaVersion" select="'2.0'"/>
+	<xsl:attribute name="xsi:schemaLocation" select="'http://www.legislation.gov.uk/namespaces/legislation http://www.legislation.gov.uk/schema/legislation.xsd'"/>
+	<xsl:if test="$welshLang = 'cym'">
+		<xsl:attribute name="xml:lang" select="'cy'"/>
+	</xsl:if>
 </xsl:template>
 
 <xsl:template name="main">
@@ -81,6 +98,12 @@
 			<xsl:with-param name="context" select="$name" tunnel="yes" />
 		</xsl:apply-templates>
 		<xsl:apply-templates select="conclusions">
+			<xsl:with-param name="context" select="$name" tunnel="yes" />
+		</xsl:apply-templates>
+		<xsl:apply-templates select="coverPage/blockContainer[@class = 'explanatoryNote']">
+			<xsl:with-param name="context" select="$name" tunnel="yes" />
+		</xsl:apply-templates>
+		<xsl:apply-templates select="coverPage/blockContainer[@class = 'commencementHistory']">
 			<xsl:with-param name="context" select="$name" tunnel="yes" />
 		</xsl:apply-templates>
 	</xsl:element>

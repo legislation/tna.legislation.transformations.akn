@@ -11,7 +11,7 @@
 	xmlns:uk="https://www.legislation.gov.uk/namespaces/UK-AKN"
 	xmlns:html="http://www.w3.org/1999/xhtml"
 	xmlns:fo="http://www.w3.org/1999/XSL/Format"
-	xmlns:local="http://jurisdatum.com/tna/akn2html"
+	xmlns:local="akn2html-local"
 	xmlns:ldapp="#ldapp"
 	exclude-result-prefixes="xs math ukl ukm uk html fo local ldapp">
 
@@ -68,6 +68,9 @@
 		<xsl:when test="$short-type = ('ExplanatoryMemorandum', 'ExplanatoryNote')">
 			<xsl:sequence select="'secondary'" />
 		</xsl:when>
+		<xsl:otherwise>
+			<xsl:sequence select="'unknown'" />
+		</xsl:otherwise>
 	</xsl:choose>
 </xsl:function>
 
@@ -96,9 +99,9 @@
 <xsl:template name="add-extent-attribute">
 	<xsl:if test="exists(self::act) or exists(@eId)">
 		<xsl:variable name="id" as="xs:string?" select="@eId" />
-		<xsl:variable name="restriction" as="element()?" select="key('extent-restrictions', $id)" />
+		<xsl:variable name="restriction" as="element()*" select="key('extent-restrictions', $id)" />
 		<xsl:if test="exists($restriction)">
-			<xsl:variable name="extent" as="element(TLCLocation)" select="key('id', substring($restriction/@refersTo, 2))" />
+		  <xsl:variable name="extent" as="element(TLCLocation)" select="key('id', substring($restriction[1]/@refersTo, 2))" />
 			<xsl:attribute name="data-x-extent">
 				<xsl:value-of select="$extent/@showAs" />
 			</xsl:attribute>
@@ -108,12 +111,27 @@
 
 <xsl:key name="temporal-restrictions" match="restriction[starts-with(@refersTo, '#period-')]" use="substring(@href, 2)" />
 
+<xsl:function name="local:get-restrict-end-date" as="xs:date?">
+	<xsl:param name="e" as="element()" />
+	<xsl:if test="exists($e/@eId)">
+		<xsl:variable name="restriction" as="element()?" select="key('temporal-restrictions', $e/@eId, root($e))[1]" />
+		<xsl:if test="exists($restriction)">
+			<xsl:variable name="group" as="element(temporalGroup)" select="key('id', substring($restriction/@refersTo, 2), root($restriction))" />
+			<xsl:variable name="interval" as="element(timeInterval)" select="$group/*" />
+			<xsl:if test="exists($interval/@end)">
+				<xsl:variable name="event" as="element(eventRef)" select="key('id', substring($interval/@end, 2), root($interval))" />
+				<xsl:sequence select="xs:date($event/@date)" />
+			</xsl:if>
+		</xsl:if>
+	</xsl:if>
+</xsl:function>
+
 <xsl:template name="add-restrict-date-attributes">
 	<xsl:if test="exists(self::act) or exists(@eId)">
 		<xsl:variable name="id" as="xs:string?" select="@eId" />
-		<xsl:variable name="restriction" as="element()?" select="key('temporal-restrictions', $id)" />
+	  <xsl:variable name="restriction" as="element()*" select="key('temporal-restrictions', $id)" />
 		<xsl:if test="exists($restriction)">
-			<xsl:variable name="group" as="element(temporalGroup)" select="key('id', substring($restriction/@refersTo, 2))" />
+		  <xsl:variable name="group" as="element(temporalGroup)" select="key('id', substring($restriction[1]/@refersTo, 2))" />
 			<xsl:variable name="interval" as="element(timeInterval)" select="$group/*" />
 			<xsl:if test="exists($interval/@start)">
 				<xsl:variable name="event" as="element(eventRef)" select="key('id', substring($interval/@start, 2))" />
@@ -142,8 +160,8 @@
 <xsl:template name="add-status-attribute">
 	<xsl:if test="exists(@eId)">
 		<xsl:variable name="id" as="xs:string" select="@eId" />
-		<xsl:variable name="status" as="element(uk:status)?" select="key('status', $id)" />
-		<xsl:variable name="concept" as="element(TLCConcept)?" select="key('tlc-concept', substring($status/@refersTo, 2))" />
+		<xsl:variable name="status" as="element(uk:status)*" select="key('status', $id)" />
+		<xsl:variable name="concept" as="element(TLCConcept)?" select="key('tlc-concept', substring($status[1]/@refersTo, 2))" />
 		<xsl:if test="exists($concept)">
 			<xsl:attribute name="data-x-status">
 				<xsl:value-of select="$concept/@showAs" />
@@ -157,7 +175,7 @@
 <xsl:template name="add-confers-power-attribute">
 	<xsl:if test="exists(self::act) or exists(@eId)">
 		<xsl:variable name="id" as="xs:string?" select="@eId" />
-		<xsl:variable name="restriction" as="element(uk:confersPower)?" select="key('confers-power', $id)" />
+		<xsl:variable name="restriction" as="element(uk:confersPower)*" select="key('confers-power', $id)" />
 		<xsl:if test="exists($restriction)">
 			<xsl:attribute name="data-x-confers-power">
 				<xsl:text>true</xsl:text>
@@ -208,9 +226,6 @@
 				</xsl:choose>
 			</title>
 			<xsl:choose>
-				<xsl:when test="$doc-short-type = 'nia'">
-					<link rel="stylesheet" href="{$css-path}nia.css" type="text/css" />
-				</xsl:when>
 				<xsl:when test="$doc-category = 'secondary'">
 					<link rel="stylesheet" href="{$css-path}secondary.css" type="text/css"></link>
 				</xsl:when>
@@ -1102,13 +1117,13 @@
 <xsl:template match="noteRef">
 	<xsl:choose>
 		<xsl:when test="@uk:name = 'commentary' or tokenize(@class, ' ') = 'commentary'">
-			<xsl:variable name="commentary" as="element(note)?" select="key('id', substring(@href, 2))" />
+			<xsl:variable name="commentary" as="element(note)*" select="key('id', substring(@href, 2))" />
 			<xsl:choose>
 				<xsl:when test="$commentary/@ukl:Type='F'">
 					<a class="fnRef" id="ref-{ substring(@href, 2) }" href="{ @href }">
 						<xsl:call-template name="add-class-attribute" />
 						<xsl:apply-templates select="@* except (@href, @class)" />
-						<xsl:value-of select="$commentary/@marker" />
+						<xsl:value-of select="($commentary[@ukl:Type='F'])[1]/@marker" />
 					</a>
 				</xsl:when>
 				<xsl:otherwise>

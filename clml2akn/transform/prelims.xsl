@@ -61,7 +61,7 @@
 	<xsl:if test="exists(node())">
 		<docDate>
 			<xsl:attribute name="date">
-				<xsl:variable name="this-date" as="xs:date?" select="local:parse-date(string(.))" />
+				<xsl:variable name="this-date" as="xs:string?" select="local:parse-date(string(.))" />
 				<xsl:choose>
 					<xsl:when test="exists($this-date)">
 						<xsl:value-of select="$this-date" />
@@ -264,8 +264,8 @@
 </xsl:template>
 
 <xsl:template match="SiftedDate/DateText | MadeDate/DateText | LaidDate/DateText | ComingIntoForce/DateText | ComingIntoForceClauses/DateText">
-	<xsl:variable name="date" as="xs:date?">
-		<xsl:variable name="from-text" as="xs:date?" select="local:parse-date(.)" />
+	<xsl:variable name="date" as="xs:string?">
+		<xsl:variable name="from-text" as="xs:string?" select="local:parse-date(.)" />
 		<xsl:choose>
 			<xsl:when test="exists($from-text)">
 				<xsl:sequence select="$from-text" />

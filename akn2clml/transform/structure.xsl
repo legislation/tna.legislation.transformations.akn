@@ -390,6 +390,9 @@
 	<xsl:param name="context" as="xs:string*" tunnel="yes" />
 	<xsl:element name="{ $name }">
 		<xsl:call-template name="add-structure-attributes" />
+		<xsl:if test="$name = 'FragmentTitle'">
+			<xsl:attribute name="Context" select="'Pblock'"/>
+		</xsl:if>
 		<xsl:apply-templates select="num | heading | subheading">
 			<xsl:with-param name="context" select="($name, $context)" tunnel="yes" />
 		</xsl:apply-templates>
@@ -408,6 +411,7 @@
 <xsl:template match="hcontainer[@name='groupOfParts']">
 	<xsl:call-template name="big-level">
 		<xsl:with-param name="name" select="'Group'" />
+		<xsl:with-param name="groupCt" as="xs:string" select="xs:string(count(preceding-sibling::hcontainer[@name='groupOfParts']) + 1)" tunnel="yes"/>
 	</xsl:call-template>
 </xsl:template>
 
@@ -419,8 +423,10 @@
 
 <xsl:template match="part">
 	<xsl:variable name="effective-document-category" as="xs:string" select="local:get-applicable-doc-class(.)" />
+	<xsl:variable name="partCt" as="xs:string" select="xs:string(count(self::part/preceding-sibling::part) + 1)"/>
 	<xsl:call-template name="big-level">
 		<xsl:with-param name="name" select="if ($effective-document-category = 'euretained') then 'EUPart' else 'Part'" />
+		<xsl:with-param name="groupCt" as="xs:string" select="$partCt" tunnel="yes"/>
 	</xsl:call-template>
 </xsl:template>
 
@@ -438,8 +444,18 @@
 <xsl:template match="chapter/heading/authorialNote[@class='referenceNote']" />
 
 <xsl:template match="section[local:get-applicable-doc-class(.)='secondary']">
+	<xsl:variable name="paramNm">
+		<xsl:choose>
+			<xsl:when test="child::*[not(local-name() = 'heading')]">
+				<xsl:text>Pblock</xsl:text>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:text>FragmentTitle</xsl:text>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:variable>
 	<xsl:call-template name="big-level">
-		<xsl:with-param name="name" select="'Pblock'" />
+		<xsl:with-param name="name" select="$paramNm" />
 	</xsl:call-template>
 </xsl:template>
 
@@ -755,6 +771,9 @@
 		</xsl:when>
 		<xsl:when test="$head = ('P7', 'P7para')">
 			<xsl:text>P7</xsl:text>
+		</xsl:when>
+		<xsl:when test="$head = ('BlockAmendment')">
+			<xsl:text>BlockAmendment</xsl:text>
 		</xsl:when>
 		<xsl:otherwise>
 			<xsl:message><xsl:text>ERROR context is: </xsl:text><xsl:sequence select="$context" /></xsl:message>

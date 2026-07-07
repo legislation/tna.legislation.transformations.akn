@@ -70,10 +70,21 @@
 
 <xsl:template match="coverPage/block[@name='number'] | preface/block[@name='number']">
 	<xsl:param name="context" as="xs:string*" tunnel="yes" />
+	<xsl:param name="welshLang" as="xs:string?" tunnel="yes" />
 	<Number>
-		<xsl:apply-templates>
-			<xsl:with-param name="context" select="('Number', $context)" tunnel="yes" />
-		</xsl:apply-templates>
+		<xsl:variable name="NumStr">
+			<xsl:apply-templates>
+				<xsl:with-param name="context" select="('Number', $context)" tunnel="yes" />
+			</xsl:apply-templates>
+		</xsl:variable>
+		<xsl:choose>
+			<xsl:when test="$welshLang = 'cym'">
+				<xsl:sequence select="normalize-space(replace($NumStr, ' No\.? ', ' Rhif '))"/>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:sequence select="normalize-space($NumStr)"/>
+			</xsl:otherwise>
+		</xsl:choose>
 	</Number>
 </xsl:template>
 
@@ -351,7 +362,7 @@
 
 <!-- this template is needed only to compensate for a Lawmaker bug -->
 <!-- numbered items in a preamble should be wrapped in some sort of container -->
-<xsl:template match="preamble//tblock[@class='para1']" priority="1">
+<xsl:template match="preamble//tblock[@class=('para1', 'para2', 'prov2')]" priority="1">
 	<xsl:call-template name="wrap-as-necessary">
 		<xsl:with-param name="clml" as="element()">
 			<xsl:variable name="decor" as="xs:string" select="local:get-decoration-from-numbered-things(.)" />
@@ -362,7 +373,7 @@
 	</xsl:call-template>
 </xsl:template>
 
-<xsl:template match="preamble//tblock[@class='para1']">
+<xsl:template match="preamble//tblock[@class=('para1', 'para2', 'prov2')]">
 	<xsl:param name="context" as="xs:string*" tunnel="yes" />
 	<ListItem NumberOverride="{ local:strip-punctuation-from-number(num) }">
 		<xsl:apply-templates select="* except num" >
