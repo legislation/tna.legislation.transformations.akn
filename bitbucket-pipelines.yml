@@ -1,9 +1,0 @@
-pipelines:
-  default:
-    - step:
-        name: Sync GitHub Mirror
-        image: alpine/git:latest
-        clone:
-          enabled: false
-        script:
-          - git switch --track git@github.com/legislation/tna.legislation.transformations.akn.git/main
