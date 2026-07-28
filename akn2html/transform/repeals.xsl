@@ -129,13 +129,7 @@
                 <div class="content">
                     <xsl:call-template name="dotty-line" />
                 </div>
-                <xsl:call-template name="annotations-from-notes">
-                    <xsl:with-param name="notes" as="element(note)*">
-                        <xsl:for-each select="key('commentaries', 'act')">
-                            <xsl:sequence select="key('id', substring(@refersTo, 2))" />
-                        </xsl:for-each>
-                    </xsl:with-param>
-                </xsl:call-template>
+                <xsl:call-template name="dotted-division-annotations" />
             </section>
         </xsl:when>
         <xsl:otherwise>
@@ -158,30 +152,37 @@
 
 <xsl:template name="dotty-line-with-annotation">
     <xsl:call-template name="dotty-line" />
-    <xsl:variable name="whole-act-commentaries" as="element(note)*">
+    <xsl:call-template name="dotted-division-annotations" />
+</xsl:template>
+
+<!-- The commentary annotations applicable to a division whose content has been replaced by a dotted -->
+<!-- line: the whole-act (#act) notes together with the notes placed specifically on this division -->
+<!-- (its own @eId). Commentary placed on a descendant remains associated with that descendant and is -->
+<!-- not promoted into this division's annotation block. The specific notes honour the within-quoted- -->
+<!-- structure guard; the act notes, as before, do not. The two note sequences are combined with the -->
+<!-- node union operator, which removes duplicate note nodes by identity and keeps document (marker) -->
+<!-- order. -->
+<xsl:template name="dotted-division-annotations">
+    <xsl:param name="within-quoted-structure" as="xs:boolean" select="false()" tunnel="yes" />
+    <xsl:variable name="act-notes" as="element(note)*">
         <xsl:for-each select="key('commentaries', 'act')">
             <xsl:sequence select="key('id', substring(@refersTo, 2))" />
         </xsl:for-each>
     </xsl:variable>
-    <xsl:choose>
-        <xsl:when test="exists($whole-act-commentaries)">
-            <xsl:call-template name="annotations-from-notes">
-                <xsl:with-param name="notes" as="element(note)*" select="$whole-act-commentaries" />
-            </xsl:call-template>
-        </xsl:when>
-        <xsl:otherwise>
-            <xsl:variable name="commentary-anchor" as="element()?" select="descendant-or-self::*[exists(key('commentaries', @eId))][1]" />
-            <xsl:apply-templates select="$commentary-anchor" mode="annotations-only" />
-        </xsl:otherwise>
-    </xsl:choose>
+    <xsl:variable name="specific-notes" as="element(note)*">
+        <xsl:if test="not($within-quoted-structure)">
+            <xsl:for-each select="key('commentaries', @eId)">
+                <xsl:sequence select="key('id', substring(@refersTo, 2))" />
+            </xsl:for-each>
+        </xsl:if>
+    </xsl:variable>
+    <xsl:call-template name="annotations-from-notes">
+        <xsl:with-param name="notes" as="element(note)*" select="$act-notes | $specific-notes" />
+    </xsl:call-template>
 </xsl:template>
 
 <xsl:template name="dotty-line">
     <p>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</p>
-</xsl:template>
-
-<xsl:template match="*" mode="annotations-only">
-    <xsl:call-template name="annotations" />
 </xsl:template>
 
 </xsl:transform>
