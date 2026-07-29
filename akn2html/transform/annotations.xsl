@@ -158,9 +158,21 @@
 				<xsl:choose>
 					<xsl:when test="../@ukl:Type='F'">
 						<xsl:variable name="id" select="../@eId" />
-							<a id="{ $id }" href="#ref-{ $id }">
-								<xsl:value-of select="../@marker" />
-							</a>
+						<xsl:choose>
+							<xsl:when test="exists(key('note-ref', $id))">
+								<a id="{ $id }" href="#ref-{ $id }">
+									<xsl:value-of select="../@marker" />
+								</a>
+							</xsl:when>
+							<xsl:otherwise>
+								<!-- a provenance-only (#act) note has no inline reference to link back -->
+								<!-- to, so render its marker as non-link text, keeping the note's own id -->
+								<!-- as a link target -->
+								<span id="{ $id }">
+									<xsl:value-of select="../@marker" />
+								</span>
+							</xsl:otherwise>
+						</xsl:choose>
 					</xsl:when>
 					<xsl:otherwise>
 						<xsl:value-of select="../@marker" />
