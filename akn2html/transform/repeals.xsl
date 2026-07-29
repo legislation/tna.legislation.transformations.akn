@@ -31,6 +31,33 @@
 <!-- a request for .../section/1, the Section 1 will have @uk:target="true" -->
 <xsl:variable name="target" as="element()?" select="//*[@uk:target='true']" />
 
+<!-- The response-scope anchor for whole-act (#act) commentary: the single element beneath which the -->
+<!-- act-level provenance notes render exactly once per response. It is the requested fragment root -->
+<!-- (@uk:target) when present; otherwise, for a whole-document response, the preamble when present, -->
+<!-- otherwise the preface; otherwise (a targetless, non-structural fragment such as a bare prose -->
+<!-- paragraph, which produces no preface) the top-level body or schedules container it renders into. -->
+<xsl:variable name="act-level-anchor" as="element()?">
+    <xsl:choose>
+        <xsl:when test="exists($target)">
+            <xsl:sequence select="$target" />
+        </xsl:when>
+        <xsl:when test="exists(/akomaNtoso/*/preface | /akomaNtoso/*/preamble)">
+            <xsl:sequence select="(/akomaNtoso/*/preamble, /akomaNtoso/*/preface)[1]" />
+        </xsl:when>
+        <xsl:otherwise>
+            <xsl:sequence select="( /akomaNtoso/*/body | /akomaNtoso/*/hcontainer[@name='schedules'] )[1]" />
+        </xsl:otherwise>
+    </xsl:choose>
+</xsl:variable>
+
+<!-- True for the one element that anchors this response's whole-act (#act) commentary (see -->
+<!-- $act-level-anchor). A response anchor is never inside a quoted or embedded structure. -->
+<xsl:function name="local:is-act-level-anchor" as="xs:boolean">
+    <xsl:param name="e" as="element()" />
+    <xsl:sequence select="exists($act-level-anchor) and $e is $act-level-anchor
+        and empty($e/ancestor::quotedStructure) and empty($e/ancestor::embeddedStructure)" />
+</xsl:function>
+
 <xsl:template match="act" priority="1">
     <xsl:variable name="preface-is-repealed" as="xs:boolean" select="exists(preface) and local:is-repealed(preface)" />
     <xsl:variable name="body-is-repealed" as="xs:boolean" select="exists(body) and local:is-repealed(body)" />
@@ -129,7 +156,7 @@
                 <div class="content">
                     <xsl:call-template name="dotty-line" />
                 </div>
-                <xsl:call-template name="dotted-division-annotations" />
+                <xsl:call-template name="annotations" />
             </section>
         </xsl:when>
         <xsl:otherwise>
@@ -152,33 +179,7 @@
 
 <xsl:template name="dotty-line-with-annotation">
     <xsl:call-template name="dotty-line" />
-    <xsl:call-template name="dotted-division-annotations" />
-</xsl:template>
-
-<!-- The commentary annotations applicable to a division whose content has been replaced by a dotted -->
-<!-- line: the whole-act (#act) notes together with the notes placed specifically on this division -->
-<!-- (its own @eId). Commentary placed on a descendant remains associated with that descendant and is -->
-<!-- not promoted into this division's annotation block. The specific notes honour the within-quoted- -->
-<!-- structure guard; the act notes, as before, do not. The two note sequences are combined with the -->
-<!-- node union operator, which removes duplicate note nodes by identity and keeps document (marker) -->
-<!-- order. -->
-<xsl:template name="dotted-division-annotations">
-    <xsl:param name="within-quoted-structure" as="xs:boolean" select="false()" tunnel="yes" />
-    <xsl:variable name="act-notes" as="element(note)*">
-        <xsl:for-each select="key('commentaries', 'act')">
-            <xsl:sequence select="key('id', substring(@refersTo, 2))" />
-        </xsl:for-each>
-    </xsl:variable>
-    <xsl:variable name="specific-notes" as="element(note)*">
-        <xsl:if test="not($within-quoted-structure)">
-            <xsl:for-each select="key('commentaries', @eId)">
-                <xsl:sequence select="key('id', substring(@refersTo, 2))" />
-            </xsl:for-each>
-        </xsl:if>
-    </xsl:variable>
-    <xsl:call-template name="annotations-from-notes">
-        <xsl:with-param name="notes" as="element(note)*" select="$act-notes | $specific-notes" />
-    </xsl:call-template>
+    <xsl:call-template name="annotations" />
 </xsl:template>
 
 <xsl:template name="dotty-line">

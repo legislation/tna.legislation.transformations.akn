@@ -15,14 +15,26 @@
 <xsl:template name="annotations">
 	<xsl:param name="within-quoted-structure" as="xs:boolean" select="false()" tunnel="yes" />
 	<xsl:if test="not($within-quoted-structure)">
-		<xsl:variable name="commentary-refs" as="element(uk:commentary)*" select="key('commentaries', @eId)" />
-		<xsl:variable name="notes" as="element(note)*">
-			<xsl:for-each select="$commentary-refs">
+		<!-- notes placed specifically on this element (its own @eId) -->
+		<xsl:variable name="own-notes" as="element(note)*">
+			<xsl:for-each select="key('commentaries', @eId)">
 				<xsl:sequence select="key('id', substring(@refersTo, 2))" />
 			</xsl:for-each>
 		</xsl:variable>
+		<!-- whole-act (#act) provenance notes, rendered once per response at the response anchor -->
+		<xsl:variable name="act-notes" as="element(note)*">
+			<xsl:if test="local:is-act-level-anchor(.)">
+				<xsl:for-each select="key('commentaries', 'act')">
+					<xsl:sequence select="key('id', substring(@refersTo, 2))" />
+				</xsl:for-each>
+			</xsl:if>
+		</xsl:variable>
+		<!-- one footer: the act-level notes, then this element's own notes with any that coincide with -->
+		<!-- an act-level note excluded. The corrected producer emits one #act placement per commentary, -->
+		<!-- so the act-level sequence itself holds no duplicates. annotations-from-notes groups by -->
+		<!-- commentary type, so act-level notes precede the element's own notes within each type section. -->
 		<xsl:call-template name="annotations-from-notes">
-			<xsl:with-param name="notes" select="$notes" />
+			<xsl:with-param name="notes" as="element(note)*" select="$act-notes, ($own-notes except $act-notes)" />
 		</xsl:call-template>
 	</xsl:if>
 </xsl:template>

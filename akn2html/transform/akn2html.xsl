@@ -381,6 +381,12 @@
 	<div>
 		<xsl:call-template name="attrs" />
 		<xsl:apply-templates />
+		<!-- body is the response anchor for a requested /body or a targetless (no-preface) fragment; -->
+		<!-- emit the whole-act annotations there. Never fires for a whole document (the preamble or -->
+		<!-- preface is the anchor), so ordinary documents are unaffected. -->
+		<xsl:if test="local:is-act-level-anchor(.)">
+			<xsl:call-template name="annotations" />
+		</xsl:if>
 	</div>
 </xsl:template>
 
@@ -632,6 +638,11 @@
 
 <xsl:template match="hcontainer[@name='schedules']"> <!-- best not to rely on the generic 'hcontainer' match above -->
 	<xsl:apply-templates />
+	<!-- schedules is the response anchor for a requested /schedules; emit the whole-act annotations -->
+	<!-- there. Guarded so it never fires for a whole document. -->
+	<xsl:if test="local:is-act-level-anchor(.)">
+		<xsl:call-template name="annotations" />
+	</xsl:if>
 </xsl:template>
 
 <xsl:template match="hcontainer[@name='schedule']">
