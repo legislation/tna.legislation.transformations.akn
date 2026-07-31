@@ -80,7 +80,7 @@
 	<xsl:param name="context" as="xs:string*" tunnel="yes" />
 	<xsl:variable name="widths" as="xs:string*" select="tokenize(normalize-space(@uk:templateColumns), ' ')" />
 	<xsl:copy copy-namespaces="no">
-		<xsl:copy-of select="@cols" />
+		<xsl:copy-of select="@class, @cols" />
 		<colgroup xmlns="http://www.w3.org/1999/xhtml">
 			<xsl:for-each select="$widths">
 				<col xmlns="http://www.w3.org/1999/xhtml" width="{ . }%" />
@@ -179,6 +179,10 @@
 <!-- attributes -->
 
 <xsl:template match="html:*/@class" priority="1" /> <!-- "HTML" elements in CLML can't have a @class attribute -->
+
+<xsl:template match="html:table/@class" priority="2">
+	<xsl:copy-of select="." />
+</xsl:template> 
 
 <xsl:template match="html:*/@*:eId | html:*/@*:GUID" priority="1" /> <!-- LDAPP uses these -->
 
