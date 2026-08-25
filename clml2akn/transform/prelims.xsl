@@ -36,9 +36,12 @@
 </xsl:template>
 
 <xsl:template match="PrimaryPrelims/Number">
+	<xsl:variable name="fixed" as="element()">
+		<xsl:apply-templates select="." mode="fix-clml" />
+	</xsl:variable>
 	<block name="number">
 		<docNumber>
-			<xsl:apply-templates />
+			<xsl:apply-templates select="$fixed/node()" />
 		</docNumber>
 	</block>
 </xsl:template>
