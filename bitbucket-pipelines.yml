@@ -1,0 +1,13 @@
+pipelines:
+  branches:
+    'main':
+      - step:
+          name: Sync GitHub Main Only
+          image: alpine/git:latest
+          clone:
+            enabled: false
+          script:
+            - git clone --branch main --single-branch "$BITBUCKET_GIT_SSH_ORIGIN" repo
+            - cd repo
+            - git remote add github git@github.com:legislation/tna.legislation.transformations.akn.git
+            - git push github main:main
