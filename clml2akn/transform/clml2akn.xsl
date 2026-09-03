@@ -43,13 +43,8 @@
 
 
 <xsl:template match="/">
-	<xsl:variable name="fixed" as="document-node()">
-		<xsl:document>
-			<xsl:apply-templates mode="fix-clml" />
-		</xsl:document>
-	</xsl:variable>
 	<akomaNtoso xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/cos01/part2-specs/schemas/akomantoso30.xsd">
-		<xsl:apply-templates select="$fixed/node()" />
+		<xsl:apply-templates />
 	</akomaNtoso>
 </xsl:template>
 

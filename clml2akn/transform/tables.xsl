@@ -69,9 +69,9 @@
 
 <xsl:template match="html:th | html:td">
 	<xsl:copy>
-		<xsl:copy-of select="@* except (@valign, @align, @char)" />
+		<xsl:copy-of select="@* except (@valign, @align, @char, @colspan[.='1'], @rowspan[.='1'])" />
 		<xsl:variable name="styles" as="xs:string*">
-			<xsl:if test="exists(@valign)">
+			<xsl:if test="exists(@valign) and not(@valign = 'middle')">
 				<xsl:sequence select="concat('vertical-align:', @valign)" />
 			</xsl:if>
 			<xsl:if test="exists(@align) and not(@align = 'char')">

@@ -4,24 +4,7 @@
 	xpath-default-namespace="http://www.legislation.gov.uk/namespaces/legislation"
 	xmlns:xs="http://www.w3.org/2001/XMLSchema"
 	xmlns:ukm="http://www.legislation.gov.uk/namespaces/metadata"
-	xmlns:html="http://www.w3.org/1999/xhtml"
-	exclude-result-prefixes="xs ukm html">
-
-<!-- remove colspan="1" and rowspan="1" -->
-
-<xsl:template match="@colspan | @rowspan" mode="fix-clml">
-	<xsl:if test="string(.) != '1'">
-		<xsl:next-match />
-	</xsl:if>
-</xsl:template>
-
-<!-- remove valign="middle" -->
-
-<xsl:template match="html:th/@valign | html:td/@valign" mode="fix-clml">
-	<xsl:if test="string(.) != 'middle'">
-		<xsl:next-match />
-	</xsl:if>
-</xsl:template>
+	exclude-result-prefixes="xs ukm">
 
 <!-- correct document numbers -->
 <!-- adapted from FuncOutputPrimaryPrelimsPreContents in tna.legislation.transformations.clml-html-fo//legislation_xhtml_core_vanilla.xslt -->
@@ -76,14 +59,6 @@
 			</xsl:otherwise>
 		</xsl:choose>
 	</Number>
-</xsl:template>
-
-<!-- identity transform -->
-
-<xsl:template match="@*|node()" mode="fix-clml">
-	<xsl:copy>
-		<xsl:apply-templates select="@*|node()" mode="fix-clml" />
-	</xsl:copy>
 </xsl:template>
 
 </xsl:transform>
