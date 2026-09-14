@@ -611,7 +611,7 @@
 		<xsl:call-template name="status-analysis" />
 		<xsl:call-template name="confers-power-analysis" />
 		<xsl:call-template name="match-analysis" />
-		<xsl:apply-templates select="/" mode="other-analysis" />
+		<xsl:call-template name="other-analysis-commentaries" />
 	</otherAnalysis>
 </xsl:template>
 

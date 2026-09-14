@@ -15,14 +15,26 @@
 <xsl:template name="annotations">
 	<xsl:param name="within-quoted-structure" as="xs:boolean" select="false()" tunnel="yes" />
 	<xsl:if test="not($within-quoted-structure)">
-		<xsl:variable name="commentary-refs" as="element(uk:commentary)*" select="key('commentaries', @eId)" />
-		<xsl:variable name="notes" as="element(note)*">
-			<xsl:for-each select="$commentary-refs">
+		<!-- notes placed specifically on this element (its own @eId) -->
+		<xsl:variable name="own-notes" as="element(note)*">
+			<xsl:for-each select="key('commentaries', @eId)">
 				<xsl:sequence select="key('id', substring(@refersTo, 2))" />
 			</xsl:for-each>
 		</xsl:variable>
+		<!-- whole-act (#act) provenance notes, rendered once per response at the response anchor -->
+		<xsl:variable name="act-notes" as="element(note)*">
+			<xsl:if test="local:is-act-level-anchor(.)">
+				<xsl:for-each select="key('commentaries', 'act')">
+					<xsl:sequence select="key('id', substring(@refersTo, 2))" />
+				</xsl:for-each>
+			</xsl:if>
+		</xsl:variable>
+		<!-- one footer: the act-level notes, then this element's own notes with any that coincide with -->
+		<!-- an act-level note excluded. The corrected producer emits one #act placement per commentary, -->
+		<!-- so the act-level sequence itself holds no duplicates. annotations-from-notes groups by -->
+		<!-- commentary type, so act-level notes precede the element's own notes within each type section. -->
 		<xsl:call-template name="annotations-from-notes">
-			<xsl:with-param name="notes" select="$notes" />
+			<xsl:with-param name="notes" as="element(note)*" select="$act-notes, ($own-notes except $act-notes)" />
 		</xsl:call-template>
 	</xsl:if>
 </xsl:template>
@@ -146,9 +158,21 @@
 				<xsl:choose>
 					<xsl:when test="../@ukl:Type='F'">
 						<xsl:variable name="id" select="../@eId" />
-							<a id="{ $id }" href="#ref-{ $id }">
-								<xsl:value-of select="../@marker" />
-							</a>
+						<xsl:choose>
+							<xsl:when test="exists(key('note-ref', $id))">
+								<a id="{ $id }" href="#ref-{ $id }">
+									<xsl:value-of select="../@marker" />
+								</a>
+							</xsl:when>
+							<xsl:otherwise>
+								<!-- a provenance-only (#act) note has no inline reference to link back -->
+								<!-- to, so render its marker as non-link text, keeping the note's own id -->
+								<!-- as a link target -->
+								<span id="{ $id }">
+									<xsl:value-of select="../@marker" />
+								</span>
+							</xsl:otherwise>
+						</xsl:choose>
 					</xsl:when>
 					<xsl:otherwise>
 						<xsl:value-of select="../@marker" />

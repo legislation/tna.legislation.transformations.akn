@@ -12,8 +12,33 @@
 	exclude-result-prefixes="xs uk ukl atom local">
 
 
+<!-- The other-analysis pass, materialised once: it emits a specific (non-act) analysis reference -->
+<!-- for each commentary a provision places, and nothing for the provenance links. Both the id set -->
+<!-- below and the final <otherAnalysis> content derive from this single traversal, rather than -->
+<!-- running the traversal a second time. -->
+<xsl:variable name="specific-commentary-analysis-refs" as="element(uk:commentary)*">
+	<xsl:apply-templates select="/" mode="other-analysis" />
+</xsl:variable>
+<xsl:variable name="specifically-referenced-commentary-ids" as="xs:string*"
+	select="distinct-values(for $r in $specific-commentary-analysis-refs return substring-after($r/@refersTo, '#'))" />
+
+<!-- Emitted into <otherAnalysis> in place of a second other-analysis traversal. Every provenance -->
+<!-- link lives in the metadata, which precedes the body, so the act-level references (one per -->
+<!-- commentary that receives no more-specific placement) precede the specific placements in -->
+<!-- document order; so this template emits the act-level references first, then the materialised -->
+<!-- placements, reproducing exactly what a single document-order pass would emit. -->
+<xsl:template name="other-analysis-commentaries">
+	<xsl:for-each-group select="/Legislation/*:Metadata/atom:link[@rel='http://purl.org/dc/terms/provenance'][contains(@href, '#commentary-')]"
+			group-by="substring-after(@href, '#commentary-')">
+		<xsl:if test="not(current-grouping-key() = $specifically-referenced-commentary-ids)">
+			<uk:commentary href="#act" refersTo="#{ current-grouping-key() }" />
+		</xsl:if>
+	</xsl:for-each-group>
+	<xsl:sequence select="$specific-commentary-analysis-refs" />
+</xsl:template>
+
 <xsl:template name="notes">
-	<xsl:variable name="all-unique-commentary-ids-in-reference-order" as="xs:string*">
+	<xsl:variable name="all-commentary-ids-in-reference-order" as="xs:string*">
 		<xsl:for-each select="/Legislation/*:Metadata/atom:link[@rel='http://purl.org/dc/terms/provenance']">
 			<xsl:if test="contains(@href, '#commentary-')">
 				<xsl:sequence select="substring-after(@href, '#commentary-')" />
@@ -24,6 +49,13 @@
 		<xsl:variable name="anchor" as="element()" select="if (exists($anchor)) then $anchor else /*" />
 		<xsl:variable name="all-elements" as="element()*" select="( $anchor/descendant::CommentaryRef | $anchor/descendant-or-self::*[exists(@CommentaryRef)] )" />
 		<xsl:sequence select="local:get-unique-commentary-ids($all-elements)" />
+	</xsl:variable>
+	<!-- de-duplicate: a commentary can appear in both the provenance list and the ordinary -->
+	<!-- references; keep each id once, at its first occurrence -->
+	<xsl:variable name="all-unique-commentary-ids-in-reference-order" as="xs:string*">
+		<xsl:for-each-group select="$all-commentary-ids-in-reference-order" group-by=".">
+			<xsl:sequence select="current-grouping-key()" />
+		</xsl:for-each-group>
 	</xsl:variable>
 	
 	<xsl:variable name="all-commentaries-in-reference-order" as="element(Commentary)*">
@@ -105,12 +137,6 @@
 		<xsl:sequence select="." />
 	</xsl:for-each-group>
 </xsl:function>
-
-<xsl:template match="atom:link[@rel='http://purl.org/dc/terms/provenance']" mode="other-analysis">
-	<xsl:if test="contains(@href, '#commentary-')">
-		<uk:commentary href="#act" refersTo="#{ substring-after(@href, '#commentary-') }" />
-	</xsl:if>
-</xsl:template>
 
 <xsl:template match="PrimaryPrelims | SecondaryPrelims | EUPrelims" mode="other-analysis">
 	<xsl:variable name="elements" as="element()*" select="( descendant::*[exists(@CommentaryRef)] | descendant::CommentaryRef )" />
