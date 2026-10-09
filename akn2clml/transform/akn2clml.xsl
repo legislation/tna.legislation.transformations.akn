@@ -12,7 +12,7 @@
 	xmlns:saxon="http://saxon.sf.net/"
 	exclude-result-prefixes="xs uk ukl local saxon">
 
-<xsl:output method="xml" version="1.0" encoding="utf-8" omit-xml-declaration="no" indent="yes" />
+<xsl:output method="xml" version="1.0" encoding="utf-8" omit-xml-declaration="no" indent="no" />
 
 <xsl:strip-space elements="*" />
 <xsl:preserve-space elements="block p docTitle docNumber docDate num heading subheading ref def term abbr date inline b i u sup sub span a mod quotedText ins" />

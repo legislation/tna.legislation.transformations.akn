@@ -173,7 +173,7 @@
 							<xsl:when test="exists($components)">
 								<xsl:value-of select="$components/@Number" />
 							</xsl:when>
-							<xsl:when test="exists(exists(@ukl:Number))">
+							<xsl:when test="exists(@ukl:Number)">
 								<xsl:value-of select="@ukl:Number" />
 							</xsl:when>
 						</xsl:choose>
