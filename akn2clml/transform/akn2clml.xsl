@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<xsl:transform version="2.0"
+<xsl:transform version="3.0"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 	xmlns:xs="http://www.w3.org/2001/XMLSchema"
 	xpath-default-namespace="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
@@ -8,11 +8,12 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xmlns:uk="https://www.legislation.gov.uk/namespaces/UK-AKN"
 	xmlns:ukl="http://www.legislation.gov.uk/namespaces/legislation"
+	xmlns:ukm="http://www.legislation.gov.uk/namespaces/metadata"
+	xmlns:html="http://www.w3.org/1999/xhtml"
 	xmlns:local="http://www.jurisdatum.com/tna/akn2clml"
-	xmlns:saxon="http://saxon.sf.net/"
-	exclude-result-prefixes="xs uk ukl local saxon">
+	exclude-result-prefixes="xs uk ukl local">
 
-<xsl:output method="xml" version="1.0" encoding="utf-8" omit-xml-declaration="no" indent="yes" saxon:suppress-indentation="ukl:AddressLine ukl:AppendText ukl:Approved ukl:CitationList ukl:Commentary ukl:ContentsNumber ukl:ContentsTitle ukl:DateText ukl:Department ukl:Formula ukl:GroupItem ukl:IncludedDocument ukl:JobTitle ukl:Key ukl:LSseal ukl:LongTitle ukl:Number ukl:PersonName ukl:Pnumber ukl:Reference ukl:Subtitle ukl:Text ukl:Title ukl:Version ukl:XMLcontent ukm:AffectedProvisions ukm:AffectingProvisions ukm:Commenced ukm:CommencementAuthority ukm:CommencingProvisions ukm:CommencingSavings ukm:EURLexMetadata ukm:Savings xhtml:caption xhtml:td xhtml:th" />
+<xsl:output method="xml" version="1.0" encoding="utf-8" omit-xml-declaration="no" indent="yes" suppress-indentation="ukl:AddressLine ukl:AppendText ukl:Approved ukl:CitationList ukl:Commentary ukl:ContentsNumber ukl:ContentsTitle ukl:DateText ukl:Department ukl:Formula ukl:GroupItem ukl:IncludedDocument ukl:JobTitle ukl:Key ukl:LSseal ukl:LongTitle ukl:Number ukl:PersonName ukl:Pnumber ukl:Reference ukl:Subtitle ukl:Text ukl:Title ukl:Version ukl:XMLcontent ukm:AffectedProvisions ukm:AffectingProvisions ukm:Commenced ukm:CommencementAuthority ukm:CommencingProvisions ukm:CommencingSavings ukm:EURLexMetadata ukm:Savings html:caption html:td html:th" />
 
 <xsl:strip-space elements="*" />
 <xsl:preserve-space elements="block p docTitle docNumber docDate num heading subheading ref def term abbr date inline b i u sup sub span a mod quotedText ins" />
