@@ -663,3 +663,77 @@ article.act.secondary .tblock.para4 > .num {
 	position: absolute;
 	margin-left: -2.5em
 } /*# sourceMappingURL=secondary.css.map */
+
+/* LAWMAKER TABLE STYLES */
+table.allBorders, table.allBorders tr,  table.allBorders td,  table.allBorders th {
+	border: 1px solid black !important;
+}
+
+table.topAndBottom {
+	border-top: 1px solid black !important;
+	text-align: left;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+}
+
+table.topAndBottom thead {
+	border-bottom: 1px solid black !important;	
+}
+
+table.topAndBottom tbody,  table.topAndBottom tfoot {
+	border-bottom: 1px solid black !important;	
+	border-top: 1px solid black !important;	
+}
+
+
+
+table.bottomAndMiddleVertical, table.bottomAndMiddleVertical thead,  table.bottomAndMiddleVertical tbody,  table.bottomAndMiddleVertical tfoot {
+	border-bottom: 1px solid black !important;
+}
+
+table.bottomAndMiddleVertical th:not(:last-child), table.bottomAndMiddleVertical td:not(:last-child){
+	border-right: 1px solid black !important;
+}
+
+table.middleVertical th:not(:last-child), table.middleVertical td:not(:last-child){
+	border-right: 1px solid black !important;
+}
+
+table.noBorders, table.noBorders thead,  table.noBorders tbody,  table.noBorders tfoot {
+	border: none !important;
+}
+
+.compact th, .compact td {padding-top: 0px !important; padding-bottom: 0px !important; }
+
+table.tableleft  {margin-left: 0px !important; margin-right: auto !important;}
+table.tablecentre  {margin-left: auto !important; margin-right: auto !important;}
+table.tableright  {margin-left: auto !important; margin-right: 0px !important;}
+
+table.width10 {width:10% !important}
+table.width20 {width:20% !important}
+table.width30 {width:30% !important}
+table.width40 {width:40% !important}
+table.width50 {width:50% !important}
+table.width60 {width:60% !important}
+table.width70 {width:70% !important}
+table.width80 {width:80% !important}
+table.width90 {width:90% !important}
+table.width100 {width:100% !important}
+
+
+.left th, .left td {text-align:left !important;}
+.right th, .right td {text-align:right !important;}
+.centre th, .centre td  {text-align:center !important;}
+.justify th, .justify td {text-align:justify !important;}
+
+table .compact {padding-top: 0px !important; padding-bottom: 0px !important;}
+
+
+.bold th, .bold td {font-weight: bold !important;}
+table .underline td, table .underline th {text-decoration: underline !important;}
+table .italic td, table .italic th {font-style: italic !important;}
+table.allBorders th, table.noBorders th, table.middleVertical th, table.bottomAndMiddleVertical th, table.topAndBottom th {font-style: normal !important;}
+table.allBorders td, table.noBorders td, table.middleVertical td, table.bottomAndMiddleVertical td, table.topAndBottom td {padding: 0.4em 0.2em !important;}
+
+/* END LAWMAKER TABLE STYLES */
