@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<xsl:transform version="2.0"
+<xsl:transform version="3.0"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 	xmlns:xs="http://www.w3.org/2001/XMLSchema"
 	xpath-default-namespace="http://www.legislation.gov.uk/namespaces/metadata"
@@ -10,14 +10,14 @@
 	xmlns:dc="http://purl.org/dc/elements/1.1/"
 	xmlns:local="http://www.jurisdatum.com/tna/clml"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xmlns:saxon="http://saxon.sf.net/"
-	exclude-result-prefixes="xs ukl ukm dc local saxon">
+	xmlns:html="http://www.w3.org/1999/xhtml"
+	exclude-result-prefixes="xs ukl ukm dc local">
 
 <xsl:param name="isbn" as="xs:string?" select="()" />
 <xsl:param name="default-publisher" as="xs:boolean" select="false()" />
 <xsl:param name="schemaLocation" as="xs:string?" select="()" />
 
-<xsl:output method="xml" version="1.0" encoding="utf-8" omit-xml-declaration="no" indent="yes" />
+<xsl:output method="xml" version="1.0" encoding="utf-8" omit-xml-declaration="no" indent="yes" suppress-indentation="ukl:AddressLine ukl:AppendText ukl:Approved ukl:CitationList ukl:Commentary ukl:ContentsNumber ukl:ContentsTitle ukl:DateText ukl:Department ukl:Formula ukl:GroupItem ukl:IncludedDocument ukl:JobTitle ukl:Key ukl:LSseal ukl:LongTitle ukl:Number ukl:PersonName ukl:Pnumber ukl:Reference ukl:Subtitle ukl:Text ukl:Title ukl:Version ukl:XMLcontent ukm:AffectedProvisions ukm:AffectingProvisions ukm:Commenced ukm:CommencementAuthority ukm:CommencingProvisions ukm:CommencingSavings ukm:EURLexMetadata ukm:Savings html:caption html:td html:th" />
 
 <!-- add schemaLocation for eContent -->
 
